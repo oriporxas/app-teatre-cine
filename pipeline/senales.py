@@ -52,7 +52,7 @@ MAGIA_PERSONA = _r(r"\b(mag|mags|maga|magues|mago|magos|magas)\b")
 MAGIA_DEBIL = _r(
     r"\bm[àa]gi(c|ca|cs|ques|co|cos|cas)\b", r"\bm[àa]gia\b", r"\bmagic\b",
     r"\bil+usions?\b", r"\bilusion(es)?\b", r"\binexplicable", r"\bimpossible|\bimposible",
-    r"\bmisteri|\bmisterio", r"\benigma", r"\bendevin", r"\bsorpres",
+    r"\bmisteri|\bmisterio", r"\benigma",
 )
 METAFORA_MAGIA = _r(r"\bla\s+m[àa]gia\s+(de|del|dels|de\s+la|de\s+les|d)\b", r"\bm[àa]gia\s+(molecular|del\s+nadal|de\s+nadal)\b")
 HIPNOSI = _r(r"\bhipno(si|sis|tit|tis|tist|tiza)")
@@ -279,7 +279,8 @@ def analizar(a: dict) -> dict:
     else:
         tipo, motivo = "teatro", ("vocabulario de teatro" if teatro >= 2 else "espectáculo sin disciplina clara; se asume teatro")
     rel = relacion_magia(tipo)
-    conf = 0.85 if (circo >= 3 or teatro >= 3) else (0.65 if desc else 0.5)
+    titulo_teatro = bool(re.match(r"^(teatre|teatro|monòleg|monólogo|circ|circo)\b", titulo.strip()))
+    conf = 0.85 if (circo >= 3 or teatro >= 3 or titulo_teatro) else (0.65 if desc else 0.5)
     if rel == "incluye":
         motivo += "; incluye números de magia"
         conf = min(conf, 0.75)

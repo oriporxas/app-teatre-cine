@@ -52,6 +52,10 @@ def generar(salida: Path) -> dict:
     incluye = [f for f in fichas if f["magia"] == "incluye" and f["confianza"] >= UMBRAL_DUDA]
     tema = [f for f in fichas if f["magia"] == "tema" and f["confianza"] >= UMBRAL_DUDA]
     dudosos = [f for f in fichas if f["magia"] != "no" and f["confianza"] < UMBRAL_DUDA]
+    # También los espectáculos donde solo hay palabras ambiguas de magia y poca seguridad.
+    dudosos += [f for f in fichas if f["magia"] == "no" and f["confianza"] <= 0.6
+                and f["tipo"] in ("teatro", "circo", "danza")
+                and any(p.startswith("solo palabras ambiguas de magia") for p in f.get("pistas", []))]
     # Descartados que mencionan magia (para que se vea qué se ha dejado fuera y por qué)
     descartados = []
     por_id = {f["id"]: f for f in fichas}

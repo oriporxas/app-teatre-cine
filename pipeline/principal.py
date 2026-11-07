@@ -43,6 +43,7 @@ def _ficha(a: dict, clasif: dict) -> dict:
         "confianza": clasif["confianza"],
         "motivo": clasif["motivo"],
         "clasificado_por": clasif["clasificado_por"],
+        "pistas": clasif.get("senales") or [],
         "descripcion_ca": g.get("descripcion"),
         "organiza": g.get("organiza"),
         "imagen": g.get("imagen"),
