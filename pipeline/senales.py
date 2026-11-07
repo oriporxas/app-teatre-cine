@@ -110,8 +110,15 @@ FORMACION_EN_TEXTO = _r(r"\btaller\b", r"\bcurs\b", r"\bcurso\b", r"\bclasses?\b
                         r"\balumnes|\balumnos", r"\bmasterclass")
 
 
+PREMIOS_EN_TITULO = re.compile(r"\b(premis|premi|premios|premio|lliurament|entrega de premios?|gala de premis)\b")
+
+
 def formato_del_titulo(titulo: str) -> str | None:
     t = normalizar(titulo)
+    # «17è Festival…», «XVII Mostra…», «2026 Cicle…»: el número no es el formato.
+    t = re.sub(r"^((\d+\s*(e|a|r|n|t|o|er|na|nd|rd|th)?|[ivxlc]+a?|edicio|edicion)\s+)+", "", t)
+    if PREMIOS_EN_TITULO.search(t) and re.match(r"^(gala|nit|cerimonia|acte|festa|lliurament|entrega)\b", t):
+        return "premios"
     for nombre, patron in FORMATOS:
         if patron.search(t):
             return nombre
@@ -151,6 +158,12 @@ def analizar(a: dict) -> dict:
     debil_t = _cuenta(MAGIA_DEBIL, titulo)
     debil_d = _cuenta(MAGIA_DEBIL, desc)
     m_debil = 0.8 * len(debil_t) + 0.4 * min(len(debil_d), 3)
+    # «màgia» como sustantivo en la descripción, fuera de metáforas («la màgia de…»): solo
+    # refuerza si ya hay otra señal (un mago o maga, o vocabulario fuerte). Por sí sola no
+    # basta: «ple de bellesa, màgia i encant» describe un ambiente, no un número de magia.
+    if mt or md or persona_t or persona_a or persona_d:
+        sustantivo_d = len(re.findall(r"\bm[àa]gia\b", desc)) - len(METAFORA_MAGIA.findall(desc))
+        m_fuerte += 1.5 * max(0, min(sustantivo_d, 2))
     hipnosi = bool(HIPNOSI.search(titulo) or HIPNOSI.search(desc))
     magia = m_fuerte + m_persona + (0 if metafora else m_debil * 0.5)
     if mt or md or ml:
@@ -248,7 +261,14 @@ def analizar(a: dict) -> dict:
             return decidir("magia", "hipnosis", "principal", 0.5,
                            "espectáculo de hipnosis: pendiente de decidir si cuenta como magia")
         conf = 0.95 if (mt or persona_a or persona_t) else (0.8 if m_fuerte >= 4 else 0.65)
-        origen = "el título" if (mt or persona_t) else ("el artista" if persona_a else "la descripción")
+        if mt:
+            origen = "el título"
+        elif persona_a:
+            origen = "el artista, que se presenta como mago o maga"
+        elif persona_t:
+            origen = "el título, que nombra a un mago o maga"
+        else:
+            origen = "la descripción"
         return decidir("magia", None, "principal", conf, f"magia como disciplina principal (lo dice {origen})")
     if hipnosi:
         return decidir("magia", "hipnosis", "principal", 0.45,

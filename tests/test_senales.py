@@ -30,6 +30,11 @@ class TestSenales(unittest.TestCase):
         self.assertNotEqual(r["tipo"], "magia")
         self.assertEqual(r["magia"], "no")
 
+    def test_magia_ambiental_en_la_descripcion(self):
+        r = senales.analizar(actividad('Espectacle "El ballet d\'hivern"',
+                                       "Un ballet ple de bellesa, màgia i encant que transmet la màgia i l'esperit de Nadal."))
+        self.assertEqual(r["magia"], "no")
+
     def test_metafora(self):
         r = senales.analizar(actividad('Contacontes "La màgia de la ciència"'))
         self.assertNotEqual(r["tipo"], "magia")
@@ -55,6 +60,21 @@ class TestSenales(unittest.TestCase):
     def test_festival_de_magia(self):
         r = senales.analizar(actividad("Festival de Màgia d'Exemple 2026"))
         self.assertEqual((r["tipo"], r["subtipo"], r["magia"]), ("evento", "festival", "tema"))
+
+    def test_festival_con_ordinal_delante(self):
+        r = senales.analizar(actividad("12è Festival de Màgia d'Exemple"))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("evento", "festival"))
+
+    def test_gala_de_premios(self):
+        r = senales.analizar(actividad('Gala "Nit del Circ - Premis Exemple 2026"'))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("evento", "premios"))
+
+    def test_magia_como_sustantivo_en_la_descripcion(self):
+        r = senales.analizar(actividad(
+            'Espectacle familiar "El gran viatge"',
+            "Un dels mags més poderosos examinarà el jove mag. Una producció on la màgia més espectacular "
+            "es barreja amb el teatre."))
+        self.assertEqual(r["tipo"], "magia")
 
 
 if __name__ == "__main__":
