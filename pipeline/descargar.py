@@ -1,12 +1,14 @@
-"""Descarga las dos agendas de Open Data BCN.
+"""Descarga las dos agendas de Open Data BCN por su API oficial.
 
-Orden de preferencia para cada agenda:
-1. Fichero JSON completo (trae descripción, categorías, sala, idiomas y enlaces).
-2. Si el servidor lo rechaza, la API oficial de datos (datastore), que trae
-   menos campos: sin descripción, sin categorías y sin nombre de sala.
+Las direcciones no se escriben a mano: se piden cada vez al catálogo (CKAN)
+a partir del nombre del conjunto de datos, por si cambian.
 
-Las direcciones de los ficheros no se escriben a mano: se piden cada vez al
-catálogo (CKAN) a partir del nombre del conjunto de datos, por si cambian.
+Nota (7/11/2026): el fichero JSON completo de cada agenda (con descripción,
+categorías y sala) devuelve «403 Forbidden» a los programas, tanto desde la
+nube de Claude como desde GitHub. La API (datastore) sí responde, con menos
+campos; lo que falta se completa con la ficha pública de la guía (guia.py).
+Cada día se comprueba si el fichero completo vuelve a estar disponible y se
+anota en el informe, para enterarnos si lo desbloquean.
 """
 
 from __future__ import annotations
@@ -23,44 +25,33 @@ CATALOGO = "https://opendata-ajuntament.barcelona.cat/data/api/3/action"
 
 # Conjuntos de datos que usamos (nombre en el catálogo -> nombre corto).
 AGENDAS = {
-    "agenda-diaria": "activitats",  # «Agenda d'activitats i esdeveniments» (principal)
+    "agenda-diaria": "activitats",  # «Agenda d'actes i activitats» (la principal)
     "agenda-cultural": "cultural",  # «Agenda cultural»
 }
 
 TIEMPO_MAXIMO = 300  # segundos por petición
 
 
-def _pedir(url: str, destino: Path | None = None) -> bytes | None:
-    """Hace una petición GET. Si hay destino, guarda en disco y devuelve None."""
-    peticion = urllib.request.Request(url, headers={"Accept-Encoding": "identity"})
-    with urllib.request.urlopen(peticion, timeout=TIEMPO_MAXIMO) as respuesta:
-        if destino is None:
-            return respuesta.read()
-        with open(destino, "wb") as f:
-            while True:
-                trozo = respuesta.read(1 << 20)
-                if not trozo:
-                    break
-                f.write(trozo)
-    return None
+def _pedir(url: str) -> bytes:
+    with urllib.request.urlopen(urllib.request.Request(url), timeout=TIEMPO_MAXIMO) as respuesta:
+        return respuesta.read()
 
 
-def _pedir_con_reintentos(url: str, destino: Path | None = None, intentos: int = 4):
+def _pedir_con_reintentos(url: str, intentos: int = 4) -> bytes:
     espera = 2
     for n in range(intentos):
         try:
-            return _pedir(url, destino)
+            return _pedir(url)
         except urllib.error.HTTPError as e:
             # Un 403/404 no se arregla reintentando: el servidor dice que no.
-            if e.code in (401, 403, 404):
-                raise
-            if n == intentos - 1:
+            if e.code in (401, 403, 404) or n == intentos - 1:
                 raise
         except (urllib.error.URLError, TimeoutError, ConnectionError):
             if n == intentos - 1:
                 raise
         time.sleep(espera)
         espera *= 2
+    raise RuntimeError("inalcanzable")
 
 
 def recursos(conjunto: str) -> list[dict]:
@@ -71,10 +62,9 @@ def recursos(conjunto: str) -> list[dict]:
 def _datastore_completo(recurso_id: str) -> list[dict]:
     """Lee todas las filas de un recurso por la API oficial, por páginas."""
     filas: list[dict] = []
-    pagina = 5000
     desde = 0
     while True:
-        q = urllib.parse.urlencode({"resource_id": recurso_id, "limit": pagina, "offset": desde})
+        q = urllib.parse.urlencode({"resource_id": recurso_id, "limit": 5000, "offset": desde})
         datos = json.loads(_pedir_con_reintentos(f"{CATALOGO}/datastore_search?{q}"))
         bloque = datos["result"]["records"]
         filas.extend(bloque)
@@ -84,37 +74,38 @@ def _datastore_completo(recurso_id: str) -> list[dict]:
     return filas
 
 
+def _json_completo_disponible(url: str) -> str:
+    """Pide solo el principio del fichero completo para saber si lo dejan descargar."""
+    try:
+        peticion = urllib.request.Request(url, headers={"Range": "bytes=0-1023"})
+        with urllib.request.urlopen(peticion, timeout=60) as r:
+            r.read(1024)
+            return f"disponible ({r.status})"
+    except urllib.error.HTTPError as e:
+        return f"bloqueado ({e.code})"
+    except Exception as e:  # noqa: BLE001
+        return f"error ({type(e).__name__})"
+
+
 def descargar(carpeta: Path) -> dict:
     """Descarga las dos agendas en `carpeta`. Devuelve un informe de lo hecho."""
     carpeta.mkdir(parents=True, exist_ok=True)
     informe: dict = {"fecha": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "agendas": {}}
     for conjunto, corto in AGENDAS.items():
         res = recursos(conjunto)
+        csv_res = next((r for r in res if (r.get("format") or "").upper() == "CSV"
+                        and r.get("datastore_active")), None)
         json_res = next((r for r in res if (r.get("format") or "").upper() == "JSON"), None)
-        csv_res = next((r for r in res if (r.get("format") or "").upper() == "CSV"), None)
-        entrada = {"conjunto": conjunto}
-        destino = carpeta / f"{corto}.json"
-        try:
-            if json_res is None:
-                raise RuntimeError("el catálogo no ofrece JSON")
-            _pedir_con_reintentos(json_res["url"], destino)
-            with open(destino, encoding="utf-8-sig") as f:
-                registros = json.load(f)
-            if isinstance(registros, dict):
-                # Por si algún día viene envuelto en un objeto.
-                registros = next(v for v in registros.values() if isinstance(v, list))
-            entrada.update(modo="json_completo", registros=len(registros))
-        except Exception as e:  # noqa: BLE001 - cualquier fallo -> plan B
-            entrada["fallo_json"] = f"{type(e).__name__}: {e}"
-            if csv_res is None or not csv_res.get("datastore_active"):
-                raise RuntimeError(f"No se pudo descargar {conjunto} de ninguna forma") from e
-            filas = _datastore_completo(csv_res["id"])
-            with open(destino, "w", encoding="utf-8") as f:
-                json.dump(filas, f, ensure_ascii=False)
-            entrada.update(modo="api_reducida", registros=len(filas))
-        informe["agendas"][corto] = entrada
-    with open(carpeta / "informe_descarga.json", "w", encoding="utf-8") as f:
-        json.dump(informe, f, ensure_ascii=False, indent=2)
+        if csv_res is None:
+            raise RuntimeError(f"El catálogo ya no ofrece la API de {conjunto}")
+        filas = _datastore_completo(csv_res["id"])
+        with open(carpeta / f"{corto}.json", "w", encoding="utf-8") as f:
+            json.dump(filas, f, ensure_ascii=False)
+        informe["agendas"][corto] = {
+            "conjunto": conjunto,
+            "registros": len(filas),
+            "fichero_json_completo": _json_completo_disponible(json_res["url"]) if json_res else "no existe",
+        }
     return informe
 
 
