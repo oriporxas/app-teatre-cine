@@ -269,9 +269,14 @@ def analizar(a: dict) -> dict:
     return decidir(tipo, None, rel, conf, motivo)
 
 
-def prioridad_lectura(a: dict) -> float:
-    """Qué fichas de la guía leer primero (solo con el título): espectáculos y
-    actividades sin formato claro antes que conciertos o exposiciones."""
+# Categorías de la lista oficial de equipamientos que indican un lugar donde
+# suele haber funciones. Solo se usan para decidir qué ficha leer antes.
+LUGARES_ESCENICOS = {"Teatres", "Auditoris", "Centres cívics", "Sales de festes", "Tablaos flamencs"}
+
+
+def prioridad_lectura(a: dict, categorias_lugar: set[str] | frozenset = frozenset()) -> float:
+    """Qué fichas de la guía leer primero (con el título y el tipo de lugar):
+    espectáculos y actividades sin formato claro antes que conciertos o exposiciones."""
     f = formato_del_titulo(a.get("titulo", ""))
     t = minus(a.get("titulo", ""))
     base = {"espectaculo": 100, None: 80, "festival": 75, "formacion": 40, "charla": 35, "ensayo_abierto": 90,
@@ -281,6 +286,8 @@ def prioridad_lectura(a: dict) -> float:
         base += 50
     if CIRCO.search(t) or TEATRO.search(t) or DANZA.search(t):
         base += 20
+    if categorias_lugar & LUGARES_ESCENICOS and f in ("espectaculo", None, "festival", "formacion", "charla", "narracion"):
+        base += 30
     return base
 
 

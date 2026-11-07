@@ -90,7 +90,9 @@ def ejecutar(sin_descarga: bool = False, sin_guia: bool = False, hoy: dt.date | 
     informe["por_agenda"] = dict(collections.Counter("+".join(sorted(a["agendas"])) for a in actividades.values()))
 
     # 3. Fichas de la guía
-    prioridad = {i: senales.prioridad_lectura(a) for i, a in actividades.items()}
+    cats = salas.categorias_por_lugar(equipamientos)
+    prioridad = {i: senales.prioridad_lectura(a, cats.get(salas.clave_lugar(a), set()))
+                 for i, a in actividades.items()}
     if not sin_guia:
         informe["guia"] = guia.actualizar(actividades, prioridad, minutos_guia)
     cache_guia = guia.cargar()

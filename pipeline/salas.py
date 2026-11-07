@@ -60,6 +60,15 @@ def clave_lugar(a: dict) -> str:
     return "sin-direccion"
 
 
+def categorias_por_lugar(equipamientos: list[dict]) -> dict[str, set[str]]:
+    """{clave de dirección: categorías de los equipamientos que hay allí}."""
+    res: dict[str, set[str]] = collections.defaultdict(set)
+    for e in equipamientos:
+        if e["via_id"] and e["numero"] and e["categoria"]:
+            res[f"via{e['via_id']}-{e['numero']}"].add(e["categoria"])
+    return res
+
+
 def _partir(nombre: str) -> tuple[str, str | None]:
     """«Teatreneu Multisales - Sala Cafè Teatre» -> («Teatreneu Multisales», «Sala Cafè Teatre»)."""
     if " - " in nombre:

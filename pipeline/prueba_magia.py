@@ -10,6 +10,7 @@ generales en docs/clasificacion.md (nunca en excepciones).
 from __future__ import annotations
 
 import datetime as dt
+import re
 import sys
 from pathlib import Path
 
@@ -54,11 +55,12 @@ def generar(salida: Path) -> dict:
     # Descartados que mencionan magia (para que se vea qué se ha dejado fuera y por qué)
     descartados = []
     por_id = {f["id"]: f for f in fichas}
+    suena_a_magia = re.compile(r"\bm[àa]gi|\bmagic|\bil+usi|\bhipno|\bmentalis|\bprestidigit", re.I)
     for i, c in todas.items():
         if c["magia"] != "no":
             continue
         t = senales.minus(c["titulo"])
-        if senales.MAGIA_DEBIL.search(t) or senales.MAGIA_FUERTE.search(t) or senales.MAGIA_PERSONA.search(t):
+        if suena_a_magia.search(t) or senales.MAGIA_PERSONA.search(t):
             descartados.append((i, c))
     orden = lambda f: (f.get("inicio") or "", f["titulo"])  # noqa: E731
 

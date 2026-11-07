@@ -30,7 +30,7 @@ MODELO_IA = os.environ.get("MODELO_IA", "claude-opus-5-5")
 ESFUERZO_IA = os.environ.get("ESFUERZO_IA", "low")
 ESPECTACULOS_POR_PETICION = 10
 # Tope de actividades a clasificar con IA en una ejecución (control de coste).
-IA_MAXIMO_POR_EJECUCION = int(os.environ.get("IA_MAXIMO_POR_EJECUCION", "2500"))
+IA_MAXIMO_POR_EJECUCION = int(os.environ.get("IA_MAXIMO_POR_EJECUCION", "1000"))
 
 # Fuentes citadas en cada ficha (principio 4: cada dato con su fuente).
 FUENTE_AGENDAS = {
