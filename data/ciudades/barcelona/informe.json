@@ -1,5 +1,8 @@
 {
   "actividades_vigentes": 6683,
+  "app": {
+    "espectaculos_app": 985
+  },
   "ciudad": {
     "id": "barcelona",
     "idiomas": [
@@ -63,7 +66,7 @@
       "tokens_salida": 0
     }
   },
-  "inicio": "2026-11-08T06:24:53+0000",
+  "inicio": "2026-11-08T07:09:28+0000",
   "magia": {
     "incluye": 1,
     "principal": 16,

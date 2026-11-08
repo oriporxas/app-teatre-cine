@@ -29,7 +29,7 @@ import sys
 import time
 import traceback
 
-from . import ajustes, clasificar_ia, config, fuentes, publico, salas, senales
+from . import ajustes, clasificar_ia, config, exportar_web, fuentes, publico, salas, senales
 from .ajustes import Ciudad
 from .fuentes.base import Contexto
 from .util import guardar_json
@@ -181,6 +181,8 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_detalle"] = sum(1 for f in fichas if f["detalle_leido"])
     informe["con_idioma"] = sum(1 for f in fichas if f["idiomas"])
     informe["con_publico"] = sum(1 for f in fichas if f["publico"])
+    # Archivo de la ciudad para la app (fase 2)
+    informe["app"] = exportar_web.exportar(ciudad, informe)
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
     guardar_json(carpeta / "informe.json", informe)
     (carpeta / "informe_fallo.json").unlink(missing_ok=True)
