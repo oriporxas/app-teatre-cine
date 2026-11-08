@@ -9,17 +9,21 @@ import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from '
 const POR_PAGINA = 40;
 
 // --- Rutas: la dirección dice qué pantalla se ve, así funciona el botón «atrás» del móvil.
-type Ruta = { vista: 'cartelera' } | { vista: 'ficha'; id: string } | { vista: 'mapa' } | { vista: 'favoritos' };
+// Solo letras, números y guiones (#mapa, #ficha-open-data-bcn-994…), para que el enlace
+// funcione en cualquier sitio donde se publique la app.
+type Ruta = { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' };
+
+const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function leerRuta(): Ruta {
   const h = window.location.hash.replace(/^#\/?/, '');
-  if (h.startsWith('ficha/')) return { vista: 'ficha', id: decodeURIComponent(h.slice(6)) };
+  if (h.startsWith('ficha-')) return { vista: 'ficha', clave: h.slice(6) };
   if (h === 'mapa') return { vista: 'mapa' };
   if (h === 'favoritos') return { vista: 'favoritos' };
   return { vista: 'cartelera' };
 }
 
-const enlaceFicha = (id: string) => `#/ficha/${encodeURIComponent(id)}`;
+const enlaceFicha = (id: string) => `#ficha-${claveFicha(id)}`;
 
 export default function App() {
   const [lang, setLang] = useState<Idioma>(idiomaInicial);
@@ -55,12 +59,12 @@ export default function App() {
 
   const volver = useCallback(() => {
     if (navegado.current && window.history.length > 1) window.history.back();
-    else window.location.hash = '#/';
+    else window.location.hash = '#cartelera';
   }, []);
 
   const hoy = cartelera ? hoyEn(cartelera.ciudad.zona_horaria) : '';
   const lista = cartelera?.espectaculos ?? [];
-  const actual = ruta.vista === 'ficha' ? lista.find((e) => e.id === ruta.id) : undefined;
+  const actual = ruta.vista === 'ficha' ? lista.find((e) => claveFicha(e.id) === ruta.clave) : undefined;
 
   return (
     <div className="app">
@@ -76,15 +80,15 @@ export default function App() {
       {ruta.vista === 'favoritos' ? <Pronto titulo={t.favTit} texto={t.favTxt} t={t} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
-        <a href="#/" aria-current={ruta.vista === 'cartelera' || ruta.vista === 'ficha' ? 'page' : undefined}>
+        <a href="#cartelera" aria-current={ruta.vista === 'cartelera' || ruta.vista === 'ficha' ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M4 6h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4z" /><path d="M10 6v12" strokeDasharray="2 2" /></svg>
           {t.navCartelera}
         </a>
-        <a href="#/mapa" aria-current={ruta.vista === 'mapa' ? 'page' : undefined}>
+        <a href="#mapa" aria-current={ruta.vista === 'mapa' ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z" /><circle cx="12" cy="10" r="2" /></svg>
           {t.navMapa}
         </a>
-        <a href="#/favoritos" aria-current={ruta.vista === 'favoritos' ? 'page' : undefined}>
+        <a href="#favoritos" aria-current={ruta.vista === 'favoritos' ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
           {t.navFavoritos}
         </a>
@@ -439,7 +443,7 @@ function Pronto({ titulo, texto, t }: { titulo: string; texto: string; t: Textos
     <main className="pantalla pronto">
       <h2>{titulo}</h2>
       <p>{texto}</p>
-      <a className="boton-principal" href="#/">{t.irCartelera}</a>
+      <a className="boton-principal" href="#cartelera">{t.irCartelera}</a>
     </main>
   );
 }

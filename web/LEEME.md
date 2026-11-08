@@ -8,7 +8,7 @@ ciudad en `public/datos/<ciudad>.json` y el móvil la descarga y busca dentro.
 - `src/filtros.ts`: búsqueda y filtros (decisiones de Uri en `docs/brief.md`).
 - `src/textos.ts`: textos en castellano y catalán.
 - `src/App.tsx`: pantallas (cartelera, ficha, «Más filtros», mapa y favoritos
-  pendientes). La dirección (`#/ficha/<id>`) dice qué pantalla se ve, así
+  pendientes). La dirección (`#ficha-…`, `#mapa`) dice qué pantalla se ve, así
   funciona el botón «atrás» del móvil.
 - `public/sw.js`: permite abrirla sin conexión con la última cartelera.
 
