@@ -1,5 +1,5 @@
 # App de teatro/cine: brief para Claude Code
-Versión 4 · 8 de noviembre de 2026 (añadida la «Visión a largo plazo»)
+Versión 5 · 8 de noviembre de 2026 (añadidas la «Visión a largo plazo» y las decisiones de Uri sobre la magia)
 
 ## La idea
 Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: teatro, magia, circo, cine y eventos del sector. Hoy hay que ir web por web o enterarse por el boca a boca. Usuarios: Uri Herrera (mago y actor) y gente del mundillo.
@@ -13,6 +13,7 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 - Fichas de trayectoria: hechas por IA con búsqueda web, citando las fuentes.
 - Presupuesto mensual: por decidir. Se mide el coste real en la fase 3.
 - Experiencia técnica de Uri: ninguna. Hay que explicarle cada paso sin jerga.
+- Qué es magia (Uri, 8 de noviembre, tras la prueba de magia): un espectáculo de magia lo es cuando la magia es su razón única y principal: un mago, ilusionista, mentalista o hipnotizador haciendo magia en directo. El mentalismo y la hipnosis de espectáculo cuentan como magia. Los espectáculos que solo «incluyen» algo de magia no salen al buscar magia. La magia como argumento de una obra, un cuento o un taller infantil no es magia.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios
@@ -28,12 +29,14 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 - Si duda, decide igualmente y guarda lo segura que está.
 - Un espectáculo puede «incluir magia» sin ser de magia (circo, humor, variedades). Se marca aparte.
 - Lo aprendido en la primera prueba de magia (7 de noviembre): el título no basta. «Cleptómago» e «Inexplicable» solo se reconocían por la descripción, y «Hangar 52», por el artista. La categoría «màgia» de la agenda se dejaba «Hangar 52» y la ponía en 6 actividades que no eran magia, como un mercado de Navidad. Los talleres de magia van a «Eventos > formación».
+- Lo aprendido con las respuestas de Uri a esa prueba (8 de noviembre): hay que entender la descripción, no solo buscar la palabra «màgia». Sobraban obras, cuentos y talleres infantiles donde la magia era el argumento de la historia («La llibreria màgica», «El mag escombraries», «Disney On Ice. Un viaje mágico»…) y una actividad de sensibilización ambiental con algunos trucos. Faltaba un espectáculo de mentalismo («Lo imposible está… en tu mente»). Con los criterios corregidos, el programa coincide con las 55 respuestas de Uri (detalle en docs/pruebas/ y docs/clasificacion.md).
 
 ## Primera versión
 
 ### Búsqueda
 - Por ciudad o por la ubicación actual.
 - Tipo: teatro, magia, circo o eventos (el cine llega en la fase 6).
+- En magia, se puede elegir el tipo de magia: magia de cerca, magia general, mentalismo o hipnosis. Si no se elige, salen todos, cada uno con la etiqueta de su tipo para distinguirlos a simple vista. Solo salen los espectáculos cuya razón principal es la magia, no los que solo la incluyen.
 - Filtros: fecha, hora, precio e idioma de la función (catalán, castellano, otros o sin texto). En cine, también versión original subtitulada.
 - Mapa de salas cercanas.
 
@@ -48,7 +51,7 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 
 ### Ficha según el tipo
 - Teatro: de qué trata; premios y nominaciones; quién dirige y su trayectoria; dramaturgia y su trayectoria; intérpretes principales y sus trayectorias; enlaces para comprar entradas.
-- Magia: sinopsis comercial; premios del espectáculo, si los tiene; el mago, su trayectoria y todos sus premios y reconocimientos encontrados, cada uno con su explicación, para valorar su nivel.
+- Magia: tipo de magia (magia de cerca, magia general, mentalismo o hipnosis); sinopsis comercial; premios del espectáculo, si los tiene; el mago, su trayectoria y todos sus premios y reconocimientos encontrados, cada uno con su explicación, para valorar su nivel.
 - Circo: de qué va; artistas o compañía; dónde comprar entradas.
 - Cine (fase 6): de qué trata; premios y nominaciones; dirección, guion e intérpretes con sus trayectorias; enlaces de compra por cine; si hay versión original.
 - Eventos: festivales, conferencias, ensayos abiertos, puertas abiertas, coloquios y estrenos, más talleres y formación y convocatorias de festivales (plazos para presentar espectáculos o cortos). Los festivales y las convocatorias los descubre la app. Sin castings por ahora.
@@ -133,7 +136,6 @@ Cuando la activemos (sin prisa; Uri avisará):
 - Si alguna decisión ya tomada choca con esta visión, se avisa a Uri y se le explica sin tecnicismos.
 
 ## Pendiente de Uri
-- Responder una sola vez a la prueba de magia: qué sobra, qué falta, si los que «incluyen magia» deben salir al buscar magia, qué son los dudosos y si la hipnosis de espectáculo cuenta como magia.
 - Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).
 - Presupuesto mensual (se decide al ver el coste real en la fase 3).
 - Nombre de la app (más adelante).

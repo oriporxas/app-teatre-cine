@@ -12,12 +12,12 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "señales": 1248
+    "señales": 1241
   },
-  "con_detalle": 1065,
+  "con_detalle": 1058,
   "con_enlace_compra": 481,
   "con_idioma": 36,
-  "con_precio": 1223,
+  "con_precio": 1216,
   "duracion_minutos": 0.1,
   "errores": [],
   "fecha": "2026-11-08",
@@ -35,13 +35,13 @@
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1678,
+      "candidatas": 1677,
       "disponible": false,
       "enviadas": 0,
       "errores": 0,
       "modelo": "claude-haiku-5-5",
-      "pendientes_antes": 1678,
-      "pendientes_despues": 1678,
+      "pendientes_antes": 1677,
+      "pendientes_despues": 1677,
       "tarea": "clasificar",
       "tokens_cache": 0,
       "tokens_entrada": 0,
@@ -62,22 +62,22 @@
       "tokens_salida": 0
     }
   },
-  "inicio": "2026-11-08T04:47:19+0000",
+  "inicio": "2026-11-08T05:50:38+0000",
   "magia": {
     "incluye": 1,
-    "principal": 17,
-    "tema": 6
+    "principal": 16,
+    "tema": 5
   },
   "por_tipo": {
     "cine": 130,
-    "circo": 13,
-    "danza": 57,
-    "evento": 344,
-    "magia": 17,
+    "circo": 15,
+    "danza": 59,
+    "evento": 343,
+    "magia": 16,
     "otro": 1,
-    "teatro": 686
+    "teatro": 677
   },
-  "publicadas": 1248,
-  "salas_con_espectaculos": 225,
-  "salas_con_nombre": 216
+  "publicadas": 1241,
+  "salas_con_espectaculos": 221,
+  "salas_con_nombre": 212
 }

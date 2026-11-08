@@ -1,17 +1,21 @@
 """Genera el informe de una prueba de magia a partir de los datos del día.
 
-Uso: python -m pipeline.prueba_magia [ruta_de_salida.md] [ciudad]
+Uso: python -m pipeline.prueba_magia [salida.md] [--ciudad barcelona] [--respuestas respuestas.json]
 
 Lista lo que el programa ha detectado, con el motivo de cada decisión, para
 que Uri diga qué sobra y qué falta. Sus respuestas se convierten en criterios
-generales en docs/clasificacion.md (nunca en excepciones).
+generales en docs/clasificacion.md (nunca en excepciones) y se guardan como
+datos de evaluación (docs/pruebas/*-respuestas-uri.json): con --respuestas, el
+informe mide cuántas decisiones coinciden con lo que dijo Uri.
 """
 
 from __future__ import annotations
 
+import argparse
+import collections
 import datetime as dt
+import json
 import re
-import sys
 from pathlib import Path
 
 from . import config, senales
@@ -43,7 +47,43 @@ def _linea(f: dict) -> str:
             f"  - Motivo: {f['motivo']}")
 
 
-def generar(salida: Path, ciudad: str = "barcelona") -> dict:
+def comparar(todas: dict, ruta_respuestas: Path) -> tuple[list[str], dict]:
+    """Compara las decisiones de hoy con las respuestas de Uri. «incluye» cuenta como «no»
+    porque no sale al buscar magia."""
+    datos = json.loads(ruta_respuestas.read_text(encoding="utf-8"))
+    aciertos, fallos, ausentes = [], [], []
+    for e in datos["etiquetas"]:
+        c = todas.get(e["id"])
+        if c is None:
+            ausentes.append(e)
+            continue
+        obtenido = "no" if c["magia"] == "incluye" else c["magia"]
+        (aciertos if obtenido == e["esperado"] else fallos).append((e, c, obtenido))
+    total = len(aciertos) + len(fallos)
+    por_clase = collections.Counter(e["esperado"] for e, _, _ in aciertos)
+    clases = collections.Counter(e["esperado"] for e, _, _ in aciertos + fallos)
+    lineas = [
+        f"## Comparación con tus respuestas ({ruta_respuestas.name})",
+        "",
+        f"- **Coinciden {len(aciertos)} de {total}** decisiones con lo que dijiste"
+        + (f" ({round(100 * len(aciertos) / total)} %)." if total else "."),
+        f"- Espectáculos de magia: {por_clase['principal']} de {clases['principal']} · "
+        f"eventos sobre magia: {por_clase['tema']} de {clases['tema']} · "
+        f"no son magia: {por_clase['no']} de {clases['no']}.",
+    ]
+    if ausentes:
+        lineas.append(f"- {len(ausentes)} ya no están en la agenda (han terminado) y no se cuentan.")
+    lineas += ["", "Las que todavía no coinciden:", ""]
+    nombres = {"principal": "espectáculo de magia", "tema": "evento sobre magia", "no": "no es magia"}
+    for e, c, obtenido in fallos:
+        lineas.append(f"- **{e['titulo']}**: tú dijiste «{nombres[e['esperado']]}», el programa dice "
+                      f"«{nombres.get(obtenido, obtenido)}» — {c['motivo']}")
+    if not fallos:
+        lineas.append("_Ninguna._")
+    return lineas, {"coinciden": len(aciertos), "total": total, "no_coinciden": len(fallos)}
+
+
+def generar(salida: Path, ciudad: str = "barcelona", respuestas: Path | None = None) -> dict:
     carpeta = config.carpeta_ciudad(ciudad)
     fichas = leer_json(carpeta / "espectaculos.json", [])
     todas = leer_json(carpeta / "clasificacion.json", {})
@@ -53,10 +93,6 @@ def generar(salida: Path, ciudad: str = "barcelona") -> dict:
     incluye = [f for f in fichas if f["magia"] == "incluye" and f["confianza"] >= UMBRAL_DUDA]
     tema = [f for f in fichas if f["magia"] == "tema" and f["confianza"] >= UMBRAL_DUDA]
     dudosos = [f for f in fichas if f["magia"] != "no" and f["confianza"] < UMBRAL_DUDA]
-    # También los espectáculos donde solo hay palabras ambiguas de magia y poca seguridad.
-    dudosos += [f for f in fichas if f["magia"] == "no" and f["confianza"] <= 0.6
-                and f["tipo"] in ("teatro", "circo", "danza")
-                and any(p.startswith("solo palabras ambiguas de magia en el título") for p in f.get("pistas", []))]
     # Descartados que mencionan magia (para que se vea qué se ha dejado fuera y por qué)
     descartados = []
     ids_dudosos = {f["id"] for f in dudosos}
@@ -72,7 +108,8 @@ def generar(salida: Path, ciudad: str = "barcelona") -> dict:
 
     por = informe.get("clasificado_por", {})
     lineas = [
-        f"# Prueba de magia · {informe.get('fecha', dt.date.today().isoformat())}",
+        f"# Prueba de magia · {informe.get('fecha', dt.date.today().isoformat())}"
+        + (" · medición con tus respuestas" if respuestas else ""),
         "",
         "Lista generada automáticamente por el programa (`python -m pipeline.prueba_magia`) con los "
         "datos de hoy de Open Data BCN y de la guía del Ayuntamiento. **No está retocada a mano.**",
@@ -96,10 +133,19 @@ def generar(salida: Path, ciudad: str = "barcelona") -> dict:
         "",
         f"## 1. Espectáculos de magia ({len(magia)})",
         "",
+        "Son los que salen al buscar magia. Cada uno lleva la etiqueta de su tipo de magia.",
+        "",
     ]
-    lineas += [_linea(f) for f in sorted(magia, key=orden)] or ["_Ninguno._"]
+    for sub in senales.SUBTIPOS_MAGIA:
+        grupo = [f for f in magia if (f.get("subtipo") or "magia general") == sub]
+        if grupo:
+            lineas += [f"### {sub[0].upper() + sub[1:]} ({len(grupo)})", ""]
+            lineas += [_linea(f) for f in sorted(grupo, key=orden)] + [""]
+    if not magia:
+        lineas.append("_Ninguno._")
     lineas += ["", f"## 2. Incluyen magia sin ser de magia ({len(incluye)})", "",
-               "Espectáculos de otro tipo (circo, humor, variedades, teatro…) con números de magia.", ""]
+               "Espectáculos de otro tipo (circo, humor, divulgación…) con algún número de magia. "
+               "**No salen al buscar magia.**", ""]
     lineas += [_linea(f) for f in sorted(incluye, key=orden)] or ["_Ninguno._"]
     lineas += ["", f"## 3. Eventos sobre magia ({len(tema)})", "",
                "Festivales, talleres y charlas cuyo tema es la magia. Los talleres van a «Eventos › formación».", ""]
@@ -115,6 +161,13 @@ def generar(salida: Path, ciudad: str = "barcelona") -> dict:
         lineas.append(f"- **{c['titulo']}**{lugar} · tipo: {c['tipo']} — {c['motivo']}")
     if not descartados:
         lineas.append("_Ninguno._")
+    if respuestas:
+        lineas_cmp, resumen = comparar(todas, respuestas)
+        lineas += [""] + lineas_cmp + [""]
+        salida.parent.mkdir(parents=True, exist_ok=True)
+        salida.write_text("\n".join(lineas), encoding="utf-8")
+        return {"magia": len(magia), "incluye": len(incluye), "tema": len(tema),
+                "dudosos": len(dudosos), "descartados": len(descartados), **resumen}
     lineas += [
         "",
         "## Lo que necesito que me digas (una sola vez)",
@@ -136,6 +189,10 @@ def generar(salida: Path, ciudad: str = "barcelona") -> dict:
 
 
 if __name__ == "__main__":
-    hoy = dt.date.today().isoformat()
-    destino = Path(sys.argv[1]) if len(sys.argv) > 1 else config.DOCS / "pruebas" / f"{hoy}-magia.md"
-    print(generar(destino, sys.argv[2] if len(sys.argv) > 2 else "barcelona"))
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("salida", nargs="?", type=Path)
+    p.add_argument("--ciudad", default="barcelona")
+    p.add_argument("--respuestas", type=Path, help="respuestas de Uri para medir la coincidencia")
+    args = p.parse_args()
+    destino = args.salida or config.DOCS / "pruebas" / f"{dt.date.today().isoformat()}-magia.md"
+    print(generar(destino, args.ciudad, args.respuestas))
