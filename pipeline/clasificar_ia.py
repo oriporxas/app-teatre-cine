@@ -104,8 +104,14 @@ def _entrada(a: dict, senal: dict) -> dict:
     }
 
 
+# La clave de la IA. En GitHub es el secreto ANTHROPIC_API_KEY; en las sesiones de Claude en la nube,
+# que no pasan variables ANTHROPIC_*, se guarda como CLAVE_IA_CARTELERA.
+def clave() -> str | None:
+    return os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("CLAVE_IA_CARTELERA")
+
+
 def disponible() -> bool:
-    return bool(os.environ.get("ANTHROPIC_API_KEY"))
+    return bool(clave())
 
 
 def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], candidatos: list[str],
@@ -132,7 +138,8 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
     if tarea.activa and disponible() and pendientes:
         import anthropic  # solo hace falta si hay clave
 
-        cliente = anthropic.Anthropic(max_retries=4)
+        # La dirección se fija: en algunos entornos ANTHROPIC_BASE_URL apunta a otro servicio.
+        cliente = anthropic.Anthropic(api_key=clave(), base_url="https://api.anthropic.com", max_retries=4)
         pendientes = pendientes[: tarea.maximo_por_ejecucion]
         for n in range(0, len(pendientes), tarea.por_peticion):
             lote = pendientes[n:n + tarea.por_peticion]
