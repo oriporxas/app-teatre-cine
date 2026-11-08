@@ -41,7 +41,9 @@ con Claude Code mediante la app de GitHub, una tarea diaria de Actions que
 recoge datos abiertos respetando robots.txt) ofreciendo cambiar lo que haga
 falta. Si GitHub pone pegas a la tarea diaria, plan B: hacer la recogida
 fuera de GitHub (servidor pequeño en la nube) y dejar GitHub solo para el
-código.
+código. **Uri pidió (8/11/2026) no intentar nada con GitHub (ni push) hasta
+que él avise de que le han devuelto la cuenta**: se trabaja y se guarda en
+local, y se le envía la copia de seguridad.
 
 ## Principios (no negociables)
 
@@ -203,5 +205,9 @@ Detalle y razones en `docs/arquitectura.md`.
   todas.
 - Clown: teatro con subtipo «clown» (Uri, 8/11/2026). Eventos: sin «Sobre
   magia» ni «Otros»; se filtran por su tipo real y llevan su `disciplina`.
+- Mapa (fase 4): `web/src/Mapa.tsx` dibuja los distritos de
+  `web/public/datos/<ciudad>-mapa.json` (los da la fuente: `Resultado.mapa`;
+  en Barcelona, `fuentes/open_data_bcn/mapa.py`, renovado cada 90 días) y un
+  punto por sala. Favoritos: en el propio móvil (`web/src/favoritos.ts`).
 - La página se desplaza entera (no hay zonas con desplazamiento propio): así
   funciona en cualquier móvil y dentro de otras apps.

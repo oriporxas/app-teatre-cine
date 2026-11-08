@@ -250,3 +250,31 @@ h3.caja-titulo { font-size: 16px; font-weight: 700; }
 .dia.extremo { background: var(--acento); color: var(--sobre-acento); }
 .dia.extremo::after { background: var(--sobre-acento); }
 .chip svg { flex: 0 0 auto; }
+
+/* --- Favoritos --- */
+.tarjeta-cabeza { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.corazon.lleno { color: var(--acento); flex: 0 0 auto; }
+.boton-corazon[aria-pressed='true'] { color: var(--acento); }
+
+/* --- Mapa --- */
+.mapa { position: relative; border-radius: 16px; overflow: hidden; background: #17171B; border: 1px solid var(--borde); }
+.mapa svg { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; touch-action: none; cursor: grab; }
+.mapa-vacio { aspect-ratio: 1 / 1; }
+.distrito { fill: var(--superficie); stroke: var(--separador); stroke-width: 0.12; vector-effect: non-scaling-stroke; }
+.distrito-nombre { fill: var(--texto-apagado); font-family: Inter, system-ui, sans-serif; font-weight: 600; text-anchor: middle; pointer-events: none; }
+.sala { fill: var(--acento); stroke: var(--fondo); stroke-width: 1; vector-effect: non-scaling-stroke; cursor: pointer; }
+.sala.elegida { fill: var(--texto); opacity: 1 !important; stroke: var(--acento); stroke-width: 3; }
+.mapa-botones { position: absolute; top: 10px; right: 10px; display: flex; flex-direction: column; gap: 6px; }
+.mapa-botones button { font-size: 22px; font-weight: 600; line-height: 1; }
+.mapa-fuente { padding: 6px 12px 10px; }
+.panel-sala { display: flex; flex-direction: column; gap: 12px; scroll-margin-top: 12px; }
+.fila-sala {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; padding: 8px 12px;
+  border: none; border-bottom: 1px solid var(--superficie-2); background: transparent; color: var(--texto); text-align: left;
+}
+.fila-sala .caja-titulo { font-size: 15px; }
+.num-sala {
+  flex: 0 0 auto; min-width: 28px; height: 28px; padding: 0 8px; border-radius: 999px; display: inline-flex; align-items: center;
+  justify-content: center; background: var(--superficie-2); font-size: 13px; font-weight: 700; color: var(--acento);
+}
+.sala-toque { fill: transparent; cursor: pointer; }

@@ -129,6 +129,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
 
     # 1. Recoger de cada fuente (piezas independientes)
     actividades: dict[str, dict] = {}
+    mapa: dict | None = None
     for nombre in ciudad.fuentes:
         ctx = Contexto(ciudad=ciudad, hoy=hoy,
                        carpeta_descargas=config.DESCARGAS / ciudad.id / nombre,
@@ -141,6 +142,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
             informe["fuentes"][nombre] = {"error": traceback.format_exc(limit=3)}
             continue
         informe["fuentes"][nombre] = resultado.informe
+        mapa = mapa or resultado.mapa  # el contorno de la ciudad, de la primera fuente que lo dé
         # 2. Juntar. Pendiente para cuando haya una 2.ª fuente en la misma ciudad:
         # detectar la misma obra en varias fuentes y dejar una sola ficha (principio 4).
         for a in resultado.actividades:
@@ -183,7 +185,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_idioma"] = sum(1 for f in fichas if f["idiomas"])
     informe["con_publico"] = sum(1 for f in fichas if f["publico"])
     # Archivo de la ciudad para la app (fase 2)
-    informe["app"] = exportar_web.exportar(ciudad, informe)
+    informe["app"] = exportar_web.exportar(ciudad, informe, mapa)
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
     guardar_json(carpeta / "informe.json", informe)
     (carpeta / "informe_fallo.json").unlink(missing_ok=True)

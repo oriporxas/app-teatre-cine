@@ -106,7 +106,7 @@ Reglas: dar preferencia a los datos abiertos, respetar las condiciones de uso de
 1. Datos: hecha. Programa diario que descarga y une las dos agendas, clasifica los espectáculos, extrae fechas y precios y agrupa las salas.
 2. Interfaz básica (en curso): buscador, filtros, resultados y ficha. La app está hecha y probada en tamaño móvil con la cartelera real (8/11/2026), con el aspecto y los cambios que Uri aprobó en la maqueta. Falta publicarla (se decide dónde cuando se aclare lo de GitHub) y traducir las descripciones al castellano (llega con la IA; mientras, se ven en catalán con una nota).
 3. Fichas de personas y premios hechas con IA y con fuentes. Aquí se mide el coste real.
-4. Funciones extra: mapa, favoritos, alertas y críticas.
+4. Funciones extra: mapa, favoritos, alertas y críticas. Hecho (8/11/2026): mapa de salas propio, dibujado con los distritos de los datos abiertos del Ayuntamiento (sin servicios de mapas de terceros), con los mismos filtros de la cartelera; y favoritos guardados en el propio móvil. Pendiente: alertas y favoritos en la nube (necesitan cuentas y un servidor) y críticas.
 5. Más fuentes: webs de las salas, enlaces de compra concretos, salas que falten, festivales y eventos profesionales.
 6. Cine.
 

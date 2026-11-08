@@ -6,6 +6,8 @@ import {
   type ClaveFecha, type Filtros,
 } from './filtros';
 import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from './textos';
+import { useFavoritos, type Favoritos } from './favoritos';
+import { MapaSalas, agruparSalas } from './Mapa';
 
 const POR_PAGINA = 40;
 
@@ -37,6 +39,7 @@ export default function App() {
   const navegado = useRef(false);
   const scrollLista = useRef(0);
   const t = TEXTOS[lang];
+  const favs = useFavoritos();
 
   useEffect(() => {
     cargarCartelera('barcelona').then(setCartelera).catch(() => setError(true));
@@ -73,12 +76,15 @@ export default function App() {
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
           filtros={filtros} cambiar={cambiar} limite={limite} setLimite={setLimite}
-          abrirFiltros={() => setHoja('filtros')} abrirCalendario={() => setHoja('calendario')} scrollLista={scrollLista}
+          abrirFiltros={() => setHoja('filtros')} abrirCalendario={() => setHoja('calendario')} scrollLista={scrollLista} favs={favs}
         />
       ) : null}
-      {ruta.vista === 'ficha' && actual ? <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} /> : null}
-      {ruta.vista === 'mapa' ? <Pronto titulo={t.mapaTit} texto={t.mapaTxt} t={t} /> : null}
-      {ruta.vista === 'favoritos' ? <Pronto titulo={t.favTit} texto={t.favTxt} t={t} /> : null}
+      {ruta.vista === 'ficha' && actual ? <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} favs={favs} /> : null}
+      {ruta.vista === 'mapa' ? (
+        <VistaMapa t={t} cartelera={cartelera} hoy={hoy} filtros={filtros} cambiar={cambiar}
+          abrirCalendario={() => setHoja('calendario')} favs={favs} />
+      ) : null}
+      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lista={lista} hoy={hoy} favs={favs} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
         <a href="#cartelera" aria-current={ruta.vista === 'cartelera' || ruta.vista === 'ficha' ? 'page' : undefined}>
@@ -110,10 +116,10 @@ export default function App() {
 interface PropsCartelera {
   t: Textos; lang: Idioma; setLang: (l: Idioma) => void; cartelera: Cartelera | null; error: boolean; hoy: string;
   filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; limite: number; setLimite: (n: number) => void;
-  abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>;
+  abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>; favs: Favoritos;
 }
 
-function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista }: PropsCartelera) {
+function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs }: PropsCartelera) {
   const lista = cartelera?.espectaculos ?? [];
   const q = useDeferredValue(filtros.q);
   const f = useMemo(() => ({ ...filtros, q }), [filtros, q]);
@@ -124,13 +130,7 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
     if (cartelera) window.scrollTo(0, scrollLista.current);
   }, [cartelera, scrollLista]);
 
-  const contar = (cumple: (e: Espectaculo) => boolean, ignorar: 'tipo' | 'sub') =>
-    lista.reduce((n, e) => n + (cumple(e) && pasa(e, f, hoy, ignorar) ? 1 : 0), 0);
-
-  const tipos: Filtros['tipo'][] = ['todo', 'teatro', 'magia', 'circo', 'eventos'];
   const [desde, hasta] = rango(f, hoy);
-  // Solo los tipos de evento que hay de verdad (sin «otros»: todo está clasificado).
-  const tiposEvento = TIPOS_EVENTO.filter((k) => lista.some((e) => e.tipo === 'eventos' && e.subtipo === k));
   const nFiltros = cuantosFiltros(filtros);
 
   return (
@@ -157,6 +157,50 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
         </div>
       </header>
 
+      <FiltrosRapidos t={t} lista={lista} f={f} filtros={filtros} cambiar={cambiar} hoy={hoy}
+        cargada={!!cartelera} abrirCalendario={abrirCalendario} />
+
+      <div className="resumen">
+        <span aria-live="polite">{error ? t.error : cartelera ? t.resultados(resultados.length) : ''}</span>
+        <button type="button" className="boton-filtros" onClick={abrirFiltros} disabled={!cartelera}>
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" /><circle cx="16" cy="7" r="2" /><circle cx="10" cy="17" r="2" /></svg>
+          <span>{t.filtros}</span>
+          {nFiltros > 0 ? <span className="insignia">{nFiltros}</span> : null}
+        </button>
+      </div>
+
+      <div className="lista">
+        {!cartelera && !error ? <p className="aviso">{t.cargando}</p> : null}
+        {error ? <p className="aviso">{t.error}</p> : null}
+        {resultados.slice(0, limite).map((e) => (
+          <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta} guardado={favs.es(e.id)}
+            alAbrir={() => { scrollLista.current = window.scrollY; }} />
+        ))}
+        {cartelera && resultados.length === 0 ? <p className="aviso">{t.vacio}</p> : null}
+        {resultados.length > limite ? (
+          <button type="button" className="boton-secundario" onClick={() => setLimite(limite + POR_PAGINA)}>
+            {t.verMas} ({resultados.length - limite})
+          </button>
+        ) : null}
+        {cartelera ? <p className="licencia">{cartelera.licencia}</p> : null}
+      </div>
+    </main>
+  );
+}
+
+// Tipo, subtipo y fechas: los mismos botones en la cartelera y en el mapa.
+function FiltrosRapidos({ t, lista, f, filtros, cambiar, hoy, cargada, abrirCalendario }: {
+  t: Textos; lista: Espectaculo[]; f: Filtros; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; hoy: string;
+  cargada: boolean; abrirCalendario: () => void;
+}) {
+  const cartelera = cargada;
+  const contar = (cumple: (e: Espectaculo) => boolean, ignorar: 'tipo' | 'sub') =>
+    lista.reduce((n, e) => n + (cumple(e) && pasa(e, f, hoy, ignorar) ? 1 : 0), 0);
+  const tipos: Filtros['tipo'][] = ['todo', 'teatro', 'magia', 'circo', 'eventos'];
+  // Solo los tipos de evento que hay de verdad (sin «otros»: todo está clasificado).
+  const tiposEvento = TIPOS_EVENTO.filter((k) => lista.some((e) => e.tipo === 'eventos' && e.subtipo === k));
+  return (
+    <>
       <div className="chips" role="group" aria-label={t.tiposLabel}>
         {tipos.map((k) => {
           const n = cartelera ? contar((e) => (k === 'todo' ? FUNCIONES.includes(e.tipo) : e.tipo === k), 'tipo') : null;
@@ -207,31 +251,7 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
         </button>
       </div>
 
-      <div className="resumen">
-        <span aria-live="polite">{error ? t.error : cartelera ? t.resultados(resultados.length) : ''}</span>
-        <button type="button" className="boton-filtros" onClick={abrirFiltros} disabled={!cartelera}>
-          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" /><circle cx="16" cy="7" r="2" /><circle cx="10" cy="17" r="2" /></svg>
-          <span>{t.filtros}</span>
-          {nFiltros > 0 ? <span className="insignia">{nFiltros}</span> : null}
-        </button>
-      </div>
-
-      <div className="lista">
-        {!cartelera && !error ? <p className="aviso">{t.cargando}</p> : null}
-        {error ? <p className="aviso">{t.error}</p> : null}
-        {resultados.slice(0, limite).map((e) => (
-          <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta}
-            alAbrir={() => { scrollLista.current = window.scrollY; }} />
-        ))}
-        {cartelera && resultados.length === 0 ? <p className="aviso">{t.vacio}</p> : null}
-        {resultados.length > limite ? (
-          <button type="button" className="boton-secundario" onClick={() => setLimite(limite + POR_PAGINA)}>
-            {t.verMas} ({resultados.length - limite})
-          </button>
-        ) : null}
-        {cartelera ? <p className="licencia">{cartelera.licencia}</p> : null}
-      </div>
-    </main>
+    </>
   );
 }
 
@@ -255,7 +275,9 @@ function Cartel({ e, t, clase }: { e: Espectaculo; t: Textos; clase: string }) {
   );
 }
 
-function Tarjeta({ e, t, desde, hasta, alAbrir }: { e: Espectaculo; t: Textos; desde: string; hasta: string; alAbrir: () => void }) {
+function Tarjeta({ e, t, desde, hasta, alAbrir, guardado }: {
+  e: Espectaculo; t: Textos; desde: string; hasta: string; alAbrir: () => void; guardado?: boolean;
+}) {
   const fs = funcionesEnRango(e, desde, hasta);
   const [dia, hora] = fs[0];
   const precio = precioTxt(e, t);
@@ -263,7 +285,10 @@ function Tarjeta({ e, t, desde, hasta, alAbrir }: { e: Espectaculo; t: Textos; d
   return (
     <a className="tarjeta" href={enlaceFicha(e.id)} onClick={alAbrir}>
       <Cartel e={e} t={t} clase="tarjeta-imagen" />
-      <Etiquetas e={e} t={t} />
+      <span className="tarjeta-cabeza">
+        <Etiquetas e={e} t={t} />
+        {guardado ? <Corazon lleno /> : null}
+      </span>
       <span className="tarjeta-nombre">{e.nombre}</span>
       {e.artista ? <span className="tarjeta-artista">{e.artista}</span> : null}
       {lugar ? <span className="tarjeta-lugar">{lugar}</span> : null}
@@ -277,7 +302,19 @@ function Tarjeta({ e, t, desde, hasta, alAbrir }: { e: Espectaculo; t: Textos; d
 
 // --- Ficha ------------------------------------------------------------------------
 
-function Ficha({ t, lang, e, hoy, volver }: { t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void }) {
+function Corazon({ lleno }: { lleno?: boolean }) {
+  return (
+    <svg className={lleno ? 'corazon lleno' : 'corazon'} aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"
+      fill={lleno ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinejoin="round">
+      <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" />
+    </svg>
+  );
+}
+
+function Ficha({ t, lang, e, hoy, volver, favs }: {
+  t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void; favs: Favoritos;
+}) {
+  const guardado = favs.es(e.id);
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [e.id]);
   const fs = e.funciones.filter(([f]) => f >= hoy);
   const idiomaDesc = e.descripcion?.[lang] ? lang : Object.keys(e.descripcion || {})[0];
@@ -300,8 +337,10 @@ function Ficha({ t, lang, e, hoy, volver }: { t: Textos; lang: Idioma; e: Espect
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 5l-7 7 7 7" /></svg>
           {t.cartelera}
         </button>
-        <button type="button" className="boton-icono" disabled aria-label={t.favoritoPronto} title={t.favoritoPronto}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
+        <button type="button" className="boton-icono boton-corazon" aria-pressed={guardado}
+          aria-label={guardado ? t.favQuitar : t.favGuardar} title={guardado ? t.favQuitar : t.favGuardar}
+          onClick={() => favs.alternar(e.id)}>
+          <Corazon lleno={guardado} />
         </button>
       </div>
       <div className="ficha">
@@ -571,15 +610,92 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
   );
 }
 
-// --- Lo que llega en otras fases ----------------------------------------------------
+// --- Mapa de salas ---------------------------------------------------------------------
 
-function Pronto({ titulo, texto, t }: { titulo: string; texto: string; t: Textos }) {
-  useLayoutEffect(() => { window.scrollTo(0, 0); }, [titulo]);
+function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs }: {
+  t: Textos; cartelera: Cartelera | null; hoy: string; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void;
+  abrirCalendario: () => void; favs: Favoritos;
+}) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
+  const lista = cartelera?.espectaculos ?? [];
+  const resultados = useMemo(() => (cartelera ? filtrar(lista, filtros, hoy) : []), [cartelera, lista, filtros, hoy]);
+  const salas = useMemo(() => agruparSalas(resultados), [resultados]);
+  const [elegida, setElegida] = useState<string | null>(null);
+  const sala = salas.find((s) => s.id === elegida) ?? null;
+  const [desde, hasta] = rango(filtros, hoy);
+  const panel = useRef<HTMLDivElement>(null);
+  const elegir = (id: string | null) => {
+    setElegida(id);
+    if (id) requestAnimationFrame(() => panel.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  };
+
   return (
-    <main className="pantalla pronto">
-      <h2>{titulo}</h2>
-      <p>{texto}</p>
-      <a className="boton-principal" href="#cartelera">{t.irCartelera}</a>
+    <main className="pantalla">
+      <header className="cabecera">
+        <div className="titulo">
+          <span className="sobretitulo">{cartelera ? `${cartelera.ciudad.nombre} · ${t.salas(salas.length)}` : 'Barcelona'}</span>
+          <h1>{t.mapaTit}</h1>
+        </div>
+      </header>
+      <FiltrosRapidos t={t} lista={lista} f={filtros} filtros={filtros} cambiar={(c) => { setElegida(null); cambiar(c); }}
+        hoy={hoy} cargada={!!cartelera} abrirCalendario={abrirCalendario} />
+      <div className="lista">
+        <p className="nota">{t.mapaTxt}</p>
+        {cartelera ? <MapaSalas t={t} salas={salas} elegida={elegida} elegir={elegir} ciudad={cartelera.ciudad.id} /> : <p className="aviso">{t.cargando}</p>}
+        <div ref={panel} className="panel-sala">
+          {sala ? (
+            <>
+              <section className="caja">
+                <h3>{t.donde}</h3>
+                <span className="caja-titulo">{sala.nombre}</span>
+                <span className="texto-suave">{[sala.direccion, sala.barrio].filter(Boolean).join(' · ')}</span>
+                <span className="texto-claro">{t.resultados(sala.espectaculos.length)}</span>
+                <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${sala.lat},${sala.lon}`} target="_blank" rel="noopener noreferrer">{t.comoLlegar}</a>
+              </section>
+              {sala.espectaculos.map((e) => (
+                <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta} alAbrir={() => {}} guardado={favs.es(e.id)} />
+              ))}
+            </>
+          ) : (
+            <section className="bloque">
+              <h3>{t.masSalas}</h3>
+              {salas.slice(0, 12).map((s) => (
+                <button key={s.id} type="button" className="fila-sala" onClick={() => elegir(s.id)}>
+                  <span><span className="caja-titulo">{s.nombre}</span>{s.barrio ? <span className="texto-suave"> · {s.barrio}</span> : null}</span>
+                  <span className="num-sala">{s.espectaculos.length}</span>
+                </button>
+              ))}
+            </section>
+          )}
+        </div>
+      </div>
+    </main>
+  );
+}
+
+// --- Favoritos ----------------------------------------------------------------------------
+
+function VistaFavoritos({ t, lista, hoy, favs }: { t: Textos; lista: Espectaculo[]; hoy: string; favs: Favoritos }) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
+  const guardados = lista.filter((e) => favs.es(e.id) && e.funciones.some(([d]) => d >= hoy))
+    .sort((a, b) => (a.funciones.find(([d]) => d >= hoy)?.[0] ?? '').localeCompare(b.funciones.find(([d]) => d >= hoy)?.[0] ?? ''));
+  const fuera = lista.length ? favs.ids.length - guardados.length : 0;
+  return (
+    <main className="pantalla">
+      <header className="cabecera">
+        <div className="titulo">
+          <span className="sobretitulo">{t.resultados(guardados.length)}</span>
+          <h1>{t.favTit}</h1>
+        </div>
+      </header>
+      <div className="lista">
+        {guardados.length === 0 ? <p className="aviso">{t.favVacio}</p> : null}
+        {guardados.map((e) => (
+          <Tarjeta key={e.id} e={e} t={t} desde={hoy} hasta="9999-12-31" alAbrir={() => {}} guardado />
+        ))}
+        {fuera > 0 ? <p className="nota">{t.favFuera(fuera)}</p> : null}
+        <p className="nota">{t.favNota}</p>
+      </div>
     </main>
   );
 }

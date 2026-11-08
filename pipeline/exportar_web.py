@@ -131,8 +131,13 @@ def _item(f: dict) -> dict | None:
     })
 
 
-def exportar(ciudad, informe: dict) -> dict:
-    """Escribe el archivo de la ciudad y actualiza el índice de ciudades."""
+def exportar(ciudad, informe: dict, mapa: dict | None = None) -> dict:
+    """Escribe el archivo de la ciudad (y su mapa, si la fuente lo da) y actualiza el índice."""
+    if mapa:
+        CARPETA_WEB.mkdir(parents=True, exist_ok=True)
+        (CARPETA_WEB / f"{ciudad.id}-mapa.json").write_text(
+            json.dumps({k: mapa[k] for k in ("areas", "fuente")}, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8")
     fichas = leer_json(config.carpeta_ciudad(ciudad.id) / "espectaculos.json", [])
     items = [i for i in (_item(f) for f in fichas) if i]
     items.sort(key=lambda i: (i["funciones"][0][0], (i["funciones"][0] + [""])[1]))
