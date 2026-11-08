@@ -43,9 +43,10 @@ Además del tipo, cada actividad tiene un campo **magia**:
 3. **«Màgic», «màgica», «la màgia de…» suelen ser metáforas.** «Una nit màgica», «la màgia del Nadal», «la màgia de la ciència», «sorra màgica» no son magia, y tampoco las descripciones que usan la palabra para crear ambiente («un ballet ple de bellesa, màgia i encant»). Solo cuenta si se describe magia como disciplina: trucos, ilusiones de escena, un mago o maga en escena, «espectacle de màgia».
 4. **El formato manda sobre el tema.** Un taller, curso o clase es «evento > formación» aunque sea de teatro, circo o magia. Una charla sobre teatro es «evento > conferencia o coloquio». Un concierto es «otro» aunque sea en un teatro.
 5. **Disciplina principal.** Si un espectáculo mezcla disciplinas, el tipo es la que domina según la descripción. Si la magia es solo una parte (un número dentro de un espectáculo de circo, clown o variedades), el tipo es el de la disciplina principal y magia = `incluye`.
-6. **Hipnosis de espectáculo:** todavía no está decidido si cuenta como magia. Clasifícala como «magia» con subtipo «hipnosis» y confianza máxima de 0,5, para que salga entre los dudosos.
-7. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias es «magia»; una obra infantil es «teatro».
-8. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
+6. **Hipnosis de espectáculo:** todavía no está decidido si cuenta como magia. Clasifícala como «magia» con subtipo «hipnosis» y confianza máxima de 0,5, para que salga entre los dudosos. Solo si la hipnosis es el número del espectáculo; no si es un personaje.
+7. **Personajes no son números.** Un mago, una bruja o un hipnotizador que aparecen como personajes de una obra, un cuento o un espectáculo de títeres no hacen que sea magia, salvo que la descripción diga que en escena se hacen trucos o números de magia. Del mismo modo, «escapisme» suele significar «evasión», no el número de escapismo.
+8. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias es «magia»; una obra infantil es «teatro».
+9. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
 <!-- criterios:fin -->
 
 ---

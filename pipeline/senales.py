@@ -42,7 +42,7 @@ MAGIA_FUERTE = _r(
     r"\bil+usionis(me|mo|ta|tes|tas)\b", r"\bil+usionist\b",
     r"\bprestidigita(ció|ción|cion|dor|dora|dors|dores)\b",
     r"\bmentalis(me|mo|ta|tes|tas|m)\b",
-    r"\bcartom[àa]gia\b", r"\bescapis(me|mo|ta)\b",
+    r"\bcartom[àa]gia\b", r"\bescapista\b",
     r"\bclose[\s-]?up\b", r"\bmagician", r"\bmagic\s+(show|lounge|night|club|experience|world)\b",
     r"\bmàgia\s*$",  # el título acaba en «màgia» («Taller 'Màgia'»)
 )
@@ -52,10 +52,13 @@ MAGIA_PERSONA = _r(r"\b(mag|mags|maga|magues|mago|magos|magas)\b")
 MAGIA_DEBIL = _r(
     r"\bm[àa]gi(c|ca|cs|ques|co|cos|cas)\b", r"\bm[àa]gia\b", r"\bmagic\b",
     r"\bil+usions?\b", r"\bilusion(es)?\b", r"\binexplicable", r"\bimpossible|\bimposible",
-    r"\bmisteri|\bmisterio", r"\benigma",
+    r"\bmisteri|\bmisterio", r"\benigma", r"\bescapis(me|mo)\b",
 )
 METAFORA_MAGIA = _r(r"\bla\s+m[àa]gia\s+(de|del|dels|de\s+la|de\s+les|d)\b", r"\bm[àa]gia\s+(molecular|del\s+nadal|de\s+nadal)\b")
+# Hipnosis como práctica escénica. «Hipnotitzador» suelto en una descripción suele ser un
+# personaje («el gat hipnotitzador»), así que en la descripción solo cuenta el sustantivo.
 HIPNOSI = _r(r"\bhipno(si|sis|tit|tis|tist|tiza)")
+HIPNOSI_DESC = _r(r"\bhipnosis?\b", r"\b(espectacle|show|espectáculo|sessió|sesión)\s+d.?\s*hipno", r"\bhipnotista")
 
 # --- Otras disciplinas -------------------------------------------------------
 CIRCO = _r(r"\bcirc\b", r"\bcirco\b", r"\bcircus\b", r"\bcirc(ense|enses)\b", r"\bnou\s+circ\b",
@@ -164,7 +167,7 @@ def analizar(a: dict) -> dict:
     if mt or md or persona_t or persona_a or persona_d:
         sustantivo_d = len(re.findall(r"\bm[àa]gia\b", desc)) - len(METAFORA_MAGIA.findall(desc))
         m_fuerte += 1.5 * max(0, min(sustantivo_d, 2))
-    hipnosi = bool(HIPNOSI.search(titulo) or HIPNOSI.search(desc))
+    hipnosi = bool(HIPNOSI.search(titulo) or HIPNOSI_DESC.search(desc))
     magia = m_fuerte + m_persona + (0 if metafora else m_debil * 0.5)
     if mt or md or ml:
         pistas.append("vocabulario de magia: " + ", ".join((mt + md + ml)[:4]))

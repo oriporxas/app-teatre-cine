@@ -1,12 +1,12 @@
 {
   "actividades_vigentes": 6870,
   "clasificado_por": {
-    "señales": 1210
+    "señales": 1211
   },
-  "con_enlace_compra": 69,
-  "con_ficha_guia": 97,
-  "con_idioma": 10,
-  "con_precio": 1191,
+  "con_enlace_compra": 294,
+  "con_ficha_guia": 442,
+  "con_idioma": 21,
+  "con_precio": 1192,
   "duracion_minutos": 0.1,
   "equipamientos": 3046,
   "fecha": "2026-11-07",
@@ -15,15 +15,16 @@
     "enviadas": 0,
     "errores": 0,
     "modelo": "claude-opus-5-5",
-    "pendientes_antes": 1723,
-    "pendientes_despues": 1723,
+    "pendientes_antes": 1724,
+    "pendientes_despues": 1724,
     "tokens_cache": 0,
     "tokens_entrada": 0,
     "tokens_salida": 0
   },
-  "inicio": "2026-11-07T23:10:49+0000",
+  "inicio": "2026-11-08T00:05:14+0000",
   "magia": {
-    "principal": 18,
+    "incluye": 1,
+    "principal": 19,
     "tema": 6
   },
   "por_agenda": {
@@ -33,13 +34,13 @@
   },
   "por_tipo": {
     "cine": 134,
-    "circo": 12,
-    "danza": 38,
+    "circo": 14,
+    "danza": 44,
     "evento": 342,
-    "magia": 18,
-    "teatro": 666
+    "magia": 19,
+    "teatro": 658
   },
-  "publicadas": 1210,
-  "salas_con_espectaculos": 210,
-  "salas_con_nombre": 185
+  "publicadas": 1211,
+  "salas_con_espectaculos": 211,
+  "salas_con_nombre": 186
 }

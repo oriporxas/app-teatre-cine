@@ -53,6 +53,17 @@ class TestSenales(unittest.TestCase):
         self.assertEqual(r["tipo"], "magia")
         self.assertLessEqual(r["confianza"], 0.5)
 
+    def test_personajes_del_cuento_no_son_magia_ni_hipnosis(self):
+        r = senales.analizar(actividad(
+            'Espectacle de titelles "El circ dels animals"',
+            "Qui triarà la rateta? El gos equilibrista, l'ase mag o el gat hipnotitzador? Titelles per a tota la família."))
+        self.assertNotEqual(r["tipo"], "magia")
+
+    def test_escapisme_como_evasion(self):
+        r = senales.analizar(actividad('"Ones". Sessions de dansa escènica',
+                                       "Una peça de dansa sobre l'escapisme i la necessitat de fugir de la rutina."))
+        self.assertEqual(r["magia"], "no")
+
     def test_concierto_y_exposicion_fuera(self):
         self.assertEqual(senales.analizar(actividad("Concert de piano"))["tipo"], "otro")
         self.assertEqual(senales.analizar(actividad("Exposició 'Fonts màgiques'"))["tipo"], "otro")
