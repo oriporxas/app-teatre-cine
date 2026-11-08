@@ -34,6 +34,8 @@ export interface Espectaculo {
   fuente?: string;
   fuente_url?: string;
   comprobado?: string;
+  /** Ficha artística tal como la da la fuente: [papel, personas]. */
+  equipo?: [string, string][];
 }
 
 export interface Ciudad {

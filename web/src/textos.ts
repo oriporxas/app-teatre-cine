@@ -1,6 +1,31 @@
 // Textos de la app en castellano y catalán.
 export type Idioma = 'es' | 'ca';
 
+const PALABRAS_PAPELES: Record<string, string> = {
+  'direcció': 'dirección', 'escènica': 'escénica', 'dramatúrgia': 'dramaturgia', 'autoria': 'autoría',
+  'text': 'texto', 'guió': 'guion', 'intèrprets': 'intérpretes', 'intèrpret': 'intérprete',
+  'interpretació': 'interpretación', 'repartiment': 'reparto', 'creació': 'creación', 'companyia': 'compañía',
+  'adaptació': 'adaptación', 'traducció': 'traducción', 'composició': 'composición', 'espai': 'espacio',
+  'sonor': 'sonoro', 'so': 'sonido', 'coreografia': 'coreografía', 'moviment': 'movimiento',
+  'escenografia': 'escenografía', 'escènic': 'escénico', 'vestuari': 'vestuario', 'il·luminació': 'iluminación',
+  'llums': 'luces', 'visuals': 'visuales', 'caracterització': 'caracterización', 'titellaires': 'titiriteros',
+  'titelles': 'títeres', 'producció': 'producción', 'coproducció': 'coproducción', 'executiva': 'ejecutiva',
+  'ajudant': 'ayudante', 'ajudanta': 'ayudante', 'ajudantia': 'ayudantía', 'i': 'y', 'disseny': 'diseño',
+  'construcció': 'construcción', 'confecció': 'confección', 'regidoria': 'regiduría', 'tècnica': 'técnica',
+  'tècnic': 'técnico', 'veus': 'voces', 'veu': 'voz', 'cant': 'canto', 'elements': 'elementos',
+  'escenogràfics': 'escenográficos', 'seguiment': 'seguimiento', 'artístic': 'artístico',
+  'assessorament': 'asesoramiento', 'original': 'original', 'música': 'música', 'musical': 'musical',
+};
+
+function traducirPapel(p: string): string {
+  return p.split(' ').map((w) => {
+    const d = w.match(/^d['’](.+)$/);
+    return d ? `de ${PALABRAS_PAPELES[d[1]] ?? d[1]}` : (PALABRAS_PAPELES[w] ?? w);
+  }).join(' ');
+}
+
+const mayuscula = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
 const es = {
   cartelera: 'Cartelera', buscar: 'Obra, artista o sala', buscarLabel: 'Buscar',
   tiposLabel: 'Qué buscas', tipoMagia: 'Tipo de magia', tipoEvento: 'Tipo de evento', cuando: 'Cuándo',
@@ -11,7 +36,9 @@ const es = {
   volver: 'Volver a la cartelera', favoritoPronto: 'Guardar en favoritos (llega en la fase 4)',
   donde: 'Dónde', comoLlegar: 'Cómo llegar', funciones: 'Próximas funciones', sinFechas: 'Sin fechas concretas',
   precio: 'Precio', duracion: 'Duración', publico: 'Público', idioma: 'Idioma', nivel: 'Nivel',
-  comprar: 'Comprar entradas', descripcion: 'De qué va',
+  comprar: 'Comprar entradas', descripcion: 'De qué va', equipo: 'Equipo artístico',
+  // Los papeles llegan en catalán («direcció», «intèrprets»): se traducen palabra a palabra.
+  papel: (p: string) => mayuscula(traducirPapel(p)),
   textoOriginal: { ca: 'Texto original en catalán. Se traducirá al castellano cuando se active la IA.', es: '' } as Record<string, string>,
   magoTit: 'El mago, su trayectoria y sus premios',
   magoTxt: 'Llega en la fase 3: la ficha del artista con todos sus premios y reconocimientos, cada uno explicado y con su fuente.',
@@ -57,7 +84,8 @@ const ca: Textos = {
   volver: 'Tornar a la cartellera', favoritoPronto: 'Desar a preferits (arriba a la fase 4)',
   donde: 'On', comoLlegar: 'Com arribar-hi', funciones: 'Properes funcions', sinFechas: 'Sense dates concretes',
   precio: 'Preu', duracion: 'Durada', publico: 'Públic', idioma: 'Idioma', nivel: 'Nivell',
-  comprar: 'Comprar entrades', descripcion: 'De què va',
+  comprar: 'Comprar entrades', descripcion: 'De què va', equipo: 'Equip artístic',
+  papel: (p: string) => mayuscula(p),
   textoOriginal: { ca: '', es: 'Text original en castellà.' },
   magoTit: 'El mag, la seva trajectòria i els seus premis',
   magoTxt: "Arriba a la fase 3: la fitxa de l'artista amb tots els seus premis i reconeixements, cadascun explicat i amb la seva font.",

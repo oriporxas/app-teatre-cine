@@ -114,15 +114,11 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
   const q = useDeferredValue(filtros.q);
   const f = useMemo(() => ({ ...filtros, q }), [filtros, q]);
   const resultados = useMemo(() => (cartelera ? filtrar(lista, f, hoy) : []), [cartelera, lista, f, hoy]);
-  const contenedor = useRef<HTMLDivElement>(null);
-
-  // Al volver de una ficha, la lista sigue donde estaba; al cambiar un filtro, vuelve arriba.
-  const restaurado = useRef(false);
+  // Se desplaza la página entera (funciona en cualquier móvil y dentro de otras apps).
+  // Al volver de una ficha, la cartelera sigue donde estaba.
   useLayoutEffect(() => {
-    if (!contenedor.current || !cartelera) return;
-    contenedor.current.scrollTop = restaurado.current ? 0 : scrollLista.current;
-    restaurado.current = true;
-  }, [cartelera, f, scrollLista]);
+    if (cartelera) window.scrollTo(0, scrollLista.current);
+  }, [cartelera, scrollLista]);
 
   const contar = (cumple: (e: Espectaculo) => boolean, ignorar: 'tipo' | 'sub') =>
     lista.reduce((n, e) => n + (cumple(e) && pasa(e, f, hoy, ignorar) ? 1 : 0), 0);
@@ -209,12 +205,12 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
         </button>
       </div>
 
-      <div className="lista" ref={contenedor}>
+      <div className="lista">
         {!cartelera && !error ? <p className="aviso">{t.cargando}</p> : null}
         {error ? <p className="aviso">{t.error}</p> : null}
         {resultados.slice(0, limite).map((e) => (
           <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta}
-            alAbrir={() => { scrollLista.current = contenedor.current?.scrollTop ?? 0; }} />
+            alAbrir={() => { scrollLista.current = window.scrollY; }} />
         ))}
         {cartelera && resultados.length === 0 ? <p className="aviso">{t.vacio}</p> : null}
         {resultados.length > limite ? (
@@ -239,6 +235,15 @@ function Etiquetas({ e, t }: { e: Espectaculo; t: Textos }) {
   );
 }
 
+function Cartel({ e, t, clase }: { e: Espectaculo; t: Textos; clase: string }) {
+  const [falla, setFalla] = useState(false);
+  if (!e.imagen || falla) return null;
+  return (
+    <img className={clase} src={e.imagen} alt={`${t.imagen} «${e.nombre}»`} width={760} height={428}
+      loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={() => setFalla(true)} />
+  );
+}
+
 function Tarjeta({ e, t, desde, hasta, alAbrir }: { e: Espectaculo; t: Textos; desde: string; hasta: string; alAbrir: () => void }) {
   const fs = funcionesEnRango(e, desde, hasta);
   const [dia, hora] = fs[0];
@@ -246,6 +251,7 @@ function Tarjeta({ e, t, desde, hasta, alAbrir }: { e: Espectaculo; t: Textos; d
   const lugar = [e.sala, e.barrio].filter(Boolean).join(' · ');
   return (
     <a className="tarjeta" href={enlaceFicha(e.id)} onClick={alAbrir}>
+      <Cartel e={e} t={t} clase="tarjeta-imagen" />
       <Etiquetas e={e} t={t} />
       <span className="tarjeta-nombre">{e.nombre}</span>
       {e.artista ? <span className="tarjeta-artista">{e.artista}</span> : null}
@@ -261,7 +267,7 @@ function Tarjeta({ e, t, desde, hasta, alAbrir }: { e: Espectaculo; t: Textos; d
 // --- Ficha ------------------------------------------------------------------------
 
 function Ficha({ t, lang, e, hoy, volver }: { t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void }) {
-  const [sinImagen, setSinImagen] = useState(false);
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, [e.id]);
   const fs = e.funciones.filter(([f]) => f >= hoy);
   const idiomaDesc = e.descripcion?.[lang] ? lang : Object.keys(e.descripcion || {})[0];
   const desc = idiomaDesc ? e.descripcion?.[idiomaDesc] : '';
@@ -288,10 +294,7 @@ function Ficha({ t, lang, e, hoy, volver }: { t: Textos; lang: Idioma; e: Espect
         </button>
       </div>
       <div className="ficha">
-        {e.imagen && !sinImagen ? (
-          <img className="ficha-imagen" src={e.imagen} alt={`${t.imagen} «${e.nombre}»`} width={760} height={428}
-            loading="lazy" referrerPolicy="no-referrer" onError={() => setSinImagen(true)} />
-        ) : null}
+        <Cartel e={e} t={t} clase="ficha-imagen" />
         <div className="ficha-cabecera">
           <Etiquetas e={e} t={t} />
           <h2>{e.nombre}</h2>
@@ -343,6 +346,20 @@ function Ficha({ t, lang, e, hoy, volver }: { t: Textos; lang: Idioma; e: Espect
           </section>
         ) : null}
 
+        {e.equipo?.length ? (
+          <section className="bloque">
+            <h3>{t.equipo}</h3>
+            <dl className="equipo">
+              {e.equipo.map(([papel, personas]) => (
+                <div key={papel} className="equipo-fila">
+                  <dt>{t.papel(papel)}</dt>
+                  <dd>{personas}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ) : null}
+
         {e.tipo === 'magia' ? (
           <section className="caja discontinua">
             <h3 className="caja-titulo">{t.magoTit}</h3>
@@ -371,13 +388,22 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
   const indefinido = filtros.precioMax == null;
   const precioTxtFiltro = indefinido ? t.indefinido : t.hasta(filtros.precioMax as number);
 
+  const alCerrar = useRef(cerrar);
+  alCerrar.current = cerrar;
   useEffect(() => {
     const anterior = document.activeElement as HTMLElement | null;
-    primero.current?.focus();
-    const tecla = (ev: KeyboardEvent) => { if (ev.key === 'Escape') cerrar(); };
+    primero.current?.focus({ preventScroll: true });
+    // Mientras la hoja está abierta, la página de detrás no se mueve.
+    const desbordamiento = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const tecla = (ev: KeyboardEvent) => { if (ev.key === 'Escape') alCerrar.current(); };
     window.addEventListener('keydown', tecla);
-    return () => { window.removeEventListener('keydown', tecla); anterior?.focus(); };
-  }, [cerrar]);
+    return () => {
+      window.removeEventListener('keydown', tecla);
+      document.body.style.overflow = desbordamiento;
+      anterior?.focus({ preventScroll: true });
+    };
+  }, []);
 
   const opciones = (clave: 'publico' | 'idioma', valores: string[], textos: Record<string, string>) => (
     <div className="opciones">
@@ -439,6 +465,7 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
 // --- Lo que llega en otras fases ----------------------------------------------------
 
 function Pronto({ titulo, texto, t }: { titulo: string; texto: string; t: Textos }) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, [titulo]);
   return (
     <main className="pantalla pronto">
       <h2>{titulo}</h2>
