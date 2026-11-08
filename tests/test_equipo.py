@@ -48,6 +48,13 @@ class TestFormatos(unittest.TestCase):
     def test_no_salta_de_linea(self):
         self.assertEqual(equipo.leer("Amb la Cia. Prova\nUn embolic de fils."), [["companyia", "Cia. Prova"]])
 
+    def test_mas_formatos_de_la_guia(self):
+        self.assertEqual(equipo.leer("A càrrec de la cia. Cia Prova / Sala Exemple\nUna obra."), [["a càrrec de", "Cia Prova"]])
+        self.assertEqual(equipo.leer("A càrrec de: Joan Exemple\nUna obra."), [["a càrrec de", "Joan Exemple"]])
+        self.assertEqual(equipo.leer("Una obra per a tothom. Amb Anna Prova."), [["amb", "Anna Prova"]])
+        self.assertEqual(equipo.leer("", 'Espectacle "En Tomeu - Cia Prova"'), [["companyia", "Cia Prova"]])
+        self.assertEqual(equipo.leer("Amb un estil únic, el còmic Joan Exemple ens fa riure."), [])
+
     def test_sin_creditos_no_inventa(self):
         self.assertEqual(equipo.leer("Una història de Nadal plena d'emoció, música i tendresa."), [])
 

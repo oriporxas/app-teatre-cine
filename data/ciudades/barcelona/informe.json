@@ -1,7 +1,7 @@
 {
   "actividades_vigentes": 6683,
   "app": {
-    "espectaculos_app": 666
+    "espectaculos_app": 664
   },
   "ciudad": {
     "id": "barcelona",
@@ -19,7 +19,7 @@
   },
   "con_detalle": 957,
   "con_enlace_compra": 463,
-  "con_idioma": 35,
+  "con_idioma": 58,
   "con_precio": 1166,
   "con_publico": 289,
   "duracion_minutos": 0.1,
@@ -66,7 +66,7 @@
       "tokens_salida": 0
     }
   },
-  "inicio": "2026-11-08T14:17:15+0000",
+  "inicio": "2026-11-08T15:09:07+0000",
   "magia": {
     "incluye": 1,
     "principal": 16,
@@ -78,9 +78,9 @@
     "danza": 105,
     "evento": 358,
     "magia": 16,
-    "musical": 32,
+    "musical": 34,
     "otro": 1,
-    "teatro": 533
+    "teatro": 531
   },
   "publicadas": 1190,
   "salas_con_espectaculos": 201,

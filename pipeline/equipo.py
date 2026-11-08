@@ -65,7 +65,12 @@ _PROSA = (
     (re.compile(rf"\bdirigi(?:da|t|des|ts)\s+per\s+({_NOMBRES})"), "direcció"),
     (re.compile(rf"\bescri(?:ta|t|tes|ts)\s+per\s+({_NOMBRES})"), "text"),
     (re.compile(rf"\binterpreta(?:da|t|des|ts)\s+per\s+({_NOMBRES})"), "intèrprets"),
-    (re.compile(rf"(?:^|\n)\s*[Aa]\s+c[àa]rrec\s+de\s+(?:la\s+|l['’]|el\s+|les\s+|els\s+)?({_NOMBRES})"), "a càrrec de"),
+    (re.compile(rf"(?:^|\n)\s*[Aa]\s+c[àa]rrec\s+de\s*:?\s+(?:la\s+|l['’]|el\s+|les\s+|els\s+)?"
+                rf"(?:(?:cia\.?|companyia)\s+(?=[A-ZÀ-Ý]))?({_NOMBRES})"), "a càrrec de"),
+    # «… - Cia Deliri» dentro del título
+    (re.compile(rf"[-–]\s*((?:Cia\.?|Companyia|Compañía)\s+{_NOMBRES})"), "companyia"),
+    # Frase corta y sola: «Amb Marga Socias.»
+    (re.compile(rf"(?:^|\n|\.\s)\s*(?:Amb|Con)\s+({_NOMBRES})[ \t]*(?:\.|$)", re.M), "amb"),
     (re.compile(rf"(?:^|\n)\s*(?:[Aa]mb|[Cc]on)\s+(?:la\s+)?((?:Cia\.?|Companyia|Compañía)\s+{_NOMBRES})"), "companyia"),
 )
 _COMILLAS = (r'"(.+?)"', r"“(.+?)”", r"«(.+?)»", r"(?<![A-Za-zÀ-ÿ])['‘](.+?)['’](?![A-Za-zÀ-ÿ])")
