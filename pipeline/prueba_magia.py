@@ -55,13 +55,14 @@ def generar(salida: Path) -> dict:
     # También los espectáculos donde solo hay palabras ambiguas de magia y poca seguridad.
     dudosos += [f for f in fichas if f["magia"] == "no" and f["confianza"] <= 0.6
                 and f["tipo"] in ("teatro", "circo", "danza")
-                and any(p.startswith("solo palabras ambiguas de magia") for p in f.get("pistas", []))]
+                and any(p.startswith("solo palabras ambiguas de magia en el título") for p in f.get("pistas", []))]
     # Descartados que mencionan magia (para que se vea qué se ha dejado fuera y por qué)
     descartados = []
+    ids_dudosos = {f["id"] for f in dudosos}
     por_id = {f["id"]: f for f in fichas}
-    suena_a_magia = re.compile(r"\bm[àa]gi|\bmagic|\bil+usi|\bhipno|\bmentalis|\bprestidigit", re.I)
+    suena_a_magia = re.compile(r"\bm[àáa]gi|\bmagic|\bil+usi|\bhipno|\bmentalis|\bprestidigit", re.I)
     for i, c in todas.items():
-        if c["magia"] != "no":
+        if c["magia"] != "no" or i in ids_dudosos:
             continue
         t = senales.minus(c["titulo"])
         if suena_a_magia.search(t) or senales.MAGIA_PERSONA.search(t):

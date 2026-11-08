@@ -64,6 +64,17 @@ class TestSenales(unittest.TestCase):
                                        "Una peça de dansa sobre l'escapisme i la necessitat de fugir de la rutina."))
         self.assertEqual(r["magia"], "no")
 
+    def test_cuento_con_magia_en_el_titulo_no_es_magia(self):
+        r = senales.analizar(actividad('Explica\'m un conte: "Un conte de coratge i màgia"',
+                                       "Dos germans s'endinsen en un bosc ple d'encanteris i una bruixa."))
+        self.assertEqual((r["tipo"], r["magia"]), ("otro", "no"))
+
+    def test_cuento_con_trucos_es_dudoso(self):
+        r = senales.analizar(actividad('Contacontes "El drac fa màgia"',
+                                       "Una aventura plena de trucs. Al final descobriràs si portes un petit mag a dins."))
+        self.assertEqual(r["magia"], "incluye")
+        self.assertLessEqual(r["confianza"], 0.5)
+
     def test_concierto_y_exposicion_fuera(self):
         self.assertEqual(senales.analizar(actividad("Concert de piano"))["tipo"], "otro")
         self.assertEqual(senales.analizar(actividad("Exposició 'Fonts màgiques'"))["tipo"], "otro")

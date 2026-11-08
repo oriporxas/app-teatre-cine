@@ -1,46 +1,47 @@
 {
-  "actividades_vigentes": 6870,
+  "actividades_vigentes": 6683,
   "clasificado_por": {
-    "señales": 1211
+    "señales": 1196
   },
-  "con_enlace_compra": 294,
-  "con_ficha_guia": 442,
-  "con_idioma": 21,
-  "con_precio": 1192,
+  "con_enlace_compra": 461,
+  "con_ficha_guia": 698,
+  "con_idioma": 30,
+  "con_precio": 1177,
   "duracion_minutos": 0.1,
   "equipamientos": 3046,
-  "fecha": "2026-11-07",
+  "fecha": "2026-11-08",
   "ia": {
     "disponible": false,
     "enviadas": 0,
     "errores": 0,
     "modelo": "claude-opus-5-5",
-    "pendientes_antes": 1724,
-    "pendientes_despues": 1724,
+    "pendientes_antes": 1663,
+    "pendientes_despues": 1663,
     "tokens_cache": 0,
     "tokens_entrada": 0,
     "tokens_salida": 0
   },
-  "inicio": "2026-11-08T00:05:14+0000",
+  "inicio": "2026-11-08T01:03:35+0000",
   "magia": {
     "incluye": 1,
-    "principal": 19,
-    "tema": 6
+    "principal": 17,
+    "tema": 5
   },
   "por_agenda": {
-    "activitats": 2368,
-    "activitats+cultural": 2129,
-    "cultural": 2373
+    "activitats": 2253,
+    "activitats+cultural": 2072,
+    "cultural": 2358
   },
   "por_tipo": {
-    "cine": 134,
-    "circo": 14,
-    "danza": 44,
-    "evento": 342,
-    "magia": 19,
-    "teatro": 658
+    "cine": 130,
+    "circo": 13,
+    "danza": 55,
+    "evento": 336,
+    "magia": 17,
+    "otro": 1,
+    "teatro": 644
   },
-  "publicadas": 1211,
-  "salas_con_espectaculos": 211,
-  "salas_con_nombre": 186
+  "publicadas": 1196,
+  "salas_con_espectaculos": 208,
+  "salas_con_nombre": 190
 }

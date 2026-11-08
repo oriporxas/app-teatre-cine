@@ -118,5 +118,12 @@ también lo descartado):
   el artista). La categoría «màgia» de la agenda se dejaba «Hangar 52» y la
   ponía en 6 actividades que no eran magia. Los talleres de magia van a
   «Eventos > formación». → Criterios 1, 2, 3 y 4.
-- **7/11/2026 (esta sesión):** prueba de magia con la capa de señales, en
-  `docs/pruebas/2026-11-07-magia.md`. Pendiente de la respuesta de Uri.
+- **7–8/11/2026 (sesión en la nube):** primera prueba de magia del programa,
+  con la capa de señales (todavía sin clave de IA), en
+  `docs/pruebas/2026-11-08-magia.md`. Al revisarla salieron criterios
+  generales nuevos: números y ordinales al principio del título («17è
+  Festival…») no son el formato; galas de premios son «evento › premios»;
+  «màgia» usada para crear ambiente no cuenta; los personajes (un gato
+  hipnotizador, un asno mago) no son números; en los cuentacuentos la magia
+  del título es el tema del cuento; «mágico» con acento castellano también es
+  una palabra ambigua. Pendiente de la respuesta de Uri.

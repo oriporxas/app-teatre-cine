@@ -36,25 +36,25 @@ def _r(*patrones: str) -> re.Pattern:
 # Fuerte: describe magia como disciplina.
 MAGIA_FUERTE = _r(
     r"\b(espectacle|espectáculo|show|número|números|nombres|truc|trucs|truco|trucos|taller|curs|curso|festival|gala|"
-    r"sessió|sesión|nit|noche|vespre|tarda|cabaret|món|mundo|història|historia|escola|escuela)\s+(de\s+|del\s+)?m[àa]gia\b",
-    r"\bm[àa]gia\s+(de\s+prop|de\s+cerca|i\s+comèdia|y\s+comedia|i\s+humor|y\s+humor|còmica|cómica|familiar|infantil|"
+    r"sessió|sesión|nit|noche|vespre|tarda|cabaret|món|mundo|història|historia|escola|escuela)\s+(de\s+|del\s+)?m[àáa]gia\b",
+    r"\bm[àáa]gia\s+(de\s+prop|de\s+cerca|i\s+comèdia|y\s+comedia|i\s+humor|y\s+humor|còmica|cómica|familiar|infantil|"
     r"per\s+a|para|mental|amb|con|en\s+directe|en\s+vivo|kids|clàssica|clásica|moderna|negra|general|d.escena|de\s+saló)\b",
     r"\bil+usionis(me|mo|ta|tes|tas)\b", r"\bil+usionist\b",
     r"\bprestidigita(ció|ción|cion|dor|dora|dors|dores)\b",
     r"\bmentalis(me|mo|ta|tes|tas|m)\b",
-    r"\bcartom[àa]gia\b", r"\bescapista\b",
+    r"\bcartom[àáa]gia\b", r"\bescapista\b",
     r"\bclose[\s-]?up\b", r"\bmagician", r"\bmagic\s+(show|lounge|night|club|experience|world)\b",
-    r"\bmàgia\s*$",  # el título acaba en «màgia» («Taller 'Màgia'»)
+    r"^(taller|tallers|curs|classe|classes|espectacle|show)\s+m[àáa]gia\s*(\(|$|\*|-|,)",  # «Taller 'Màgia' (…)»
 )
 # Persona maga: «el Mag Lari», «a càrrec del mag», «el mago», «la maga».
 MAGIA_PERSONA = _r(r"\b(mag|mags|maga|magues|mago|magos|magas)\b")
 # Débil: adjetivos y metáforas («nit màgica», «la màgia del Nadal», «grans il·lusions»).
 MAGIA_DEBIL = _r(
-    r"\bm[àa]gi(c|ca|cs|ques|co|cos|cas)\b", r"\bm[àa]gia\b", r"\bmagic\b",
+    r"\bm[àáa]gi(c|ca|cs|ques|co|cos|cas)\b", r"\bm[àáa]gia\b", r"\bmagic\b",
     r"\bil+usions?\b", r"\bilusion(es)?\b", r"\binexplicable", r"\bimpossible|\bimposible",
     r"\bmisteri|\bmisterio", r"\benigma", r"\bescapis(me|mo)\b",
 )
-METAFORA_MAGIA = _r(r"\bla\s+m[àa]gia\s+(de|del|dels|de\s+la|de\s+les|d)\b", r"\bm[àa]gia\s+(molecular|del\s+nadal|de\s+nadal)\b")
+METAFORA_MAGIA = _r(r"\bla\s+m[àáa]gia\s+(de|del|dels|de\s+la|de\s+les|d)\b", r"\bm[àáa]gia\s+(molecular|del\s+nadal|de\s+nadal)\b")
 # Hipnosis como práctica escénica. «Hipnotitzador» suelto en una descripción suele ser un
 # personaje («el gat hipnotitzador»), así que en la descripción solo cuenta el sustantivo.
 HIPNOSI = _r(r"\bhipno(si|sis|tit|tis|tist|tiza)")
@@ -165,7 +165,7 @@ def analizar(a: dict) -> dict:
     # refuerza si ya hay otra señal (un mago o maga, o vocabulario fuerte). Por sí sola no
     # basta: «ple de bellesa, màgia i encant» describe un ambiente, no un número de magia.
     if mt or md or persona_t or persona_a or persona_d:
-        sustantivo_d = len(re.findall(r"\bm[àa]gia\b", desc)) - len(METAFORA_MAGIA.findall(desc))
+        sustantivo_d = len(re.findall(r"\bm[àáa]gia\b", desc)) - len(METAFORA_MAGIA.findall(desc))
         m_fuerte += 1.5 * max(0, min(sustantivo_d, 2))
     hipnosi = bool(HIPNOSI.search(titulo) or HIPNOSI_DESC.search(desc))
     magia = m_fuerte + m_persona + (0 if metafora else m_debil * 0.5)
@@ -173,8 +173,10 @@ def analizar(a: dict) -> dict:
         pistas.append("vocabulario de magia: " + ", ".join((mt + md + ml)[:4]))
     if persona_a or persona_t or persona_d:
         pistas.append("persona maga: " + ", ".join((persona_a or persona_t or persona_d)[:2]))
-    if (debil_t or debil_d) and not (mt or md):
-        pistas.append("solo palabras ambiguas de magia: " + ", ".join((debil_t + debil_d)[:4]))
+    if debil_t and not (mt or md):
+        pistas.append("solo palabras ambiguas de magia en el título: " + ", ".join(debil_t[:4]))
+    elif debil_d and not (mt or md):
+        pistas.append("solo palabras ambiguas de magia en la descripción: " + ", ".join(debil_d[:4]))
     if metafora:
         pistas.append("«la màgia de…» usado como metáfora en el título")
     if hipnosi:
@@ -236,8 +238,14 @@ def analizar(a: dict) -> dict:
             return decidir("otro", sub, "no", 0.85, f"{sub} sin ninguna relación con las artes escénicas")
         return decidir("otro", sub, "no", 0.55, f"{sub} sin relación clara con las artes escénicas")
 
-    if formato == "narracion" and sector < 3:
-        return decidir("otro", "narración oral", "no", 0.6, "cuentacuentos o narración (no es teatro)")
+    if formato == "narracion":
+        if md or persona_d:
+            return decidir("otro", "narración oral", "incluye", 0.5,
+                           "cuentacuentos que menciona trucos o un mago en la descripción; dudoso")
+        if sector - magia < 3:
+            return decidir("otro", "narración oral", "no", 0.7,
+                           "cuentacuentos o narración (la magia del título es el tema del cuento)" if magia
+                           else "cuentacuentos o narración (no es teatro)")
 
     # 3) Espectáculos o actividades sin formato claro
     es_espectaculo = formato == "espectaculo" or sector >= 3 or bool(PISTAS_ESPECTACULO.search(desc))
