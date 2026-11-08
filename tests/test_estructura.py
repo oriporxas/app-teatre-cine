@@ -58,3 +58,16 @@ class TestFormatoComun(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestLectorGuia(unittest.TestCase):
+    """La guía marca la descripción y el cartel con clases distintas según la ficha."""
+
+    def test_clases_con_notranslate_e_img_destacada(self):
+        from pipeline.fuentes.open_data_bcn import guia
+        pagina = ('<div id="fitxa"><div class="detall"><div class="img-destacada"><img alt="" src="https://x/cartel.jpg" />'
+                  '</div><div class="entradeta notranslate"><p>Teatre.</p></div><div class="cos notranslate"><p>Una obra.</p>'
+                  '<p><strong>Direcció: </strong>Anna Prova</p></div></div><div id="contenidor-pestanes"></div></div>')
+        d = guia.analizar(pagina)
+        self.assertEqual(d["imagen"], "https://x/cartel.jpg")
+        self.assertIn("Direcció: Anna Prova", d["descripcion"])

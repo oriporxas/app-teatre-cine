@@ -197,6 +197,15 @@ class TestSenales(unittest.TestCase):
                                        "Un espectacle per a tota la família."))
         self.assertEqual(r["tipo"], "teatro")
 
+    def test_clown_es_teatro_con_etiqueta(self):
+        r = senales.analizar(actividad('Espectacle de clown "Prova"', "Un pallasso i les seves aventures."))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("teatro", "clown"))
+
+    def test_circo_con_un_payaso_sigue_siendo_circo(self):
+        r = senales.analizar(actividad('Espectacle de circ "Prova"',
+                                       "Acrobàcies, malabars i trapezi, amb un pallasso que presenta els números."))
+        self.assertEqual(r["tipo"], "circo")
+
     def test_festival_de_magia(self):
         r = senales.analizar(actividad("Festival de Màgia d'Exemple 2026"))
         self.assertEqual((r["tipo"], r["subtipo"], r["magia"]), ("evento", "festival", "tema"))

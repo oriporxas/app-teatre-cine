@@ -31,7 +31,7 @@ IDIOMAS = {"ca": "catalán", "es": "castellano", "en": "inglés", "fr": "francé
            "de": "alemán", "pt": "portugués"}
 TIPOS = ["teatro", "magia", "circo", "danza", "musical", "evento", "cine", "otro"]
 # De qué disciplina es cada actividad (en los eventos, la del taller, festival o charla).
-DISCIPLINAS = ["teatro", "magia", "circo", "danza", "musical", "música", "cine", "otra"]
+DISCIPLINAS = ["teatro", "clown", "magia", "circo", "danza", "musical", "música", "cine", "otra"]
 RELACION_MAGIA = ["principal", "incluye", "tema", "no"]
 
 ESQUEMA = {
@@ -77,7 +77,8 @@ def instrucciones(ciudad: Ciudad, idioma_textos: str) -> str:
         f"{criterios()}\n\n"
         "Formato de respuesta: un objeto por actividad, con el mismo «id». «subtipo» es una etiqueta "
         "breve en castellano (vacía si no aplica); para el tipo «magia» tiene que ser exactamente una de: "
-        f"{', '.join(SUBTIPOS_MAGIA)}. «disciplina» es la disciplina de la actividad (en un evento, la del "
+        f"{', '.join(SUBTIPOS_MAGIA)}; para el tipo «teatro», «clown» si el clown es la razón principal del "
+        "espectáculo (si no, vacío). «disciplina» es la disciplina de la actividad (en un evento, la del "
         "taller, festival o charla: un taller de danza tiene disciplina «danza»). «confianza» va de 0 a 1 y dice lo segura que es la "
         "decisión: decide siempre, aunque dudes, y baja la confianza. «motivo» es una frase breve en "
         "castellano que explique la decisión citando la pista que la justifica (título, descripción, "

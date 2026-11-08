@@ -273,8 +273,9 @@ def _fecha(valor: str | None) -> dt.date | None:
 
 
 def interpretar(html_tabla: str, inicio: str | None, fin: str | None, hoy: dt.date | None = None,
-                dias_vista: int = 120) -> dict:
-    """Lee la tabla y calcula las próximas funciones (fecha + hora) de los próximos meses."""
+                dias_vista: int = 731) -> dict:
+    """Lee la tabla y calcula las próximas funciones (fecha + hora) de los próximos dos años
+    (el calendario de la app llega hasta dos años vista: obras en gira y temporadas largas)."""
     hoy = hoy or dt.date.today()
     d_ini, d_fin = _fecha(inicio), _fecha(fin) or _fecha(inicio)
     filas = leer_tabla(html_tabla)
@@ -320,7 +321,7 @@ def interpretar(html_tabla: str, inicio: str | None, fin: str | None, hoy: dt.da
     todo_texto = textos_precio + textos_obs
     return {
         "filas": salida,
-        "proximas_funciones": [{"fecha": a, "hora": b or None} for a, b in sorted(funciones)][:200],
+        "proximas_funciones": [{"fecha": a, "hora": b or None} for a, b in sorted(funciones)][:1500],
         "precio": leer_precios(*textos_precio) or leer_precios(*textos_obs),
         "duracion_minutos": leer_duracion(*todo_texto),
         "idiomas": leer_idiomas(*todo_texto),

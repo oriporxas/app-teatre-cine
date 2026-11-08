@@ -25,7 +25,8 @@ Cada actividad recibe exactamente un **tipo**:
   - `mentalismo`: lectura de la mente, predicciones, telepatía, «lo imposible en tu mente»;
   - `hipnosis`: hipnosis de espectáculo con voluntarios;
   - `magia general`: magia de escena, grandes ilusiones, magia familiar o cómica, o cuando mezcla varias sin que domine una.
-- **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios, payasos de circo.
+- **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios. Un espectáculo de circo con algún payaso sigue siendo circo.
+- **clown** (subtipo de teatro): cuando el clown o los payasos son la razón principal del espectáculo, el tipo es «teatro» y el subtipo «clown» (decisión de Uri, 8/11/2026). En los eventos, un taller de clown tiene disciplina «clown».
 - **danza**: espectáculos cuya disciplina principal es la danza (contemporánea, ballet, flamenco, danzas urbanas…).
 - **musical**: teatro musical y espectáculos musicales («Musical…», «Espectacle musical…», «…, el musical», o cuando la descripción lo presenta como un musical). Es un género propio: por ahora no sale en la app (decisión de Uri, 8/11/2026).
 - **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios). Cada evento lleva además su **disciplina** (teatro, magia, circo, danza, musical, música…): un taller de danza es un evento de disciplina «danza». En la app solo salen, por ahora, los eventos de teatro, magia y circo.
@@ -230,3 +231,8 @@ generales:
   que comparten varias artes cuentan poco (criterio 11); y la app no publica
   lo dudoso (confianza menor de 0,6) hasta que la IA lo lea. La app pasa de
   944 a 633 actividades. La medición de magia sigue en 55 de 55.
+- **8/11/2026, Uri revisa los eventos:** pide quitar «Sobre magia» y «Otros»
+  (todo tiene que estar clasificado) y poner el clown en teatro con su
+  etiqueta. → El clown tiene vocabulario propio, separado del circo y del
+  teatro; con el clown como razón principal es teatro › clown. Los eventos se
+  filtran por su tipo real y muestran su disciplina. Magia: 55 de 55.

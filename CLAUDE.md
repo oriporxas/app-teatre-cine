@@ -189,5 +189,11 @@ Detalle y razones en `docs/arquitectura.md`.
   (estatics-nasia.dtibcn.cat) prohíbe el acceso automático. La app solo las
   enlaza y las carga el móvil de cada persona. Por eso no se ven en la vista
   previa de Claude, que no deja cargar imágenes de otras webs.
+- Fechas: «Hoy», «Mañana», «Esta semana», «Este mes» y «Calendario» (por
+  meses, hasta dos años vista, para elegir un día o un intervalo). Por eso
+  `horario.interpretar` calcula las funciones de 731 días y la app las recibe
+  todas.
+- Clown: teatro con subtipo «clown» (Uri, 8/11/2026). Eventos: sin «Sobre
+  magia» ni «Otros»; se filtran por su tipo real y llevan su `disciplina`.
 - La página se desplaza entera (no hay zonas con desplazamiento propio): así
   funciona en cualquier móvil y dentro de otras apps.

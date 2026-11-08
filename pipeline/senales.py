@@ -103,7 +103,8 @@ GENEROS = {
     "narracion": ("contes", "conte", "narracio", "narració", "contacontes"),
     "divulgacion": ("divulgacio", "divulgació", "sensibilitzacio", "sensibilització", "ciencia", "ciència",
                     "educacio", "educació", "conscienciacio", "conscienciació"),
-    "teatro": ("teatre", "titelles", "clown", "humor", "comedia", "comèdia", "improvisacio", "improvisació"),
+    "teatro": ("teatre", "titelles", "humor", "comedia", "comèdia", "improvisacio", "improvisació"),
+    "clown": ("clown", "pallassos", "pallasso", "pallassa", "pallasses", "payasos"),
     "circo": ("circ",), "danza": ("dansa",),
 }
 NARRACION_EN_TEXTO = _r(r"\bcontacontes\b", r"\bcuentacuentos\b", r"\bnarraci[óo]\s+(oral|de\s+contes)\b")
@@ -144,11 +145,13 @@ def subtipo_magia(titulo: str, desc: str, hipnosi: bool, mental_titulo: bool) ->
 CIRCO = _r(r"\bcirc\b", r"\bcirco\b", r"\bcircus\b", r"\bcirc(ense|enses)\b", r"\bnou\s+circ\b",
            r"\bacrob[àa]", r"\bacròbat", r"\bacróbat", r"\bmalabar", r"\btrapez", r"\bfunambul",
            r"\bequilibris", r"\bequilibrista", r"\bcontorsion", r"\bteles\s+aèries|\btelas\s+aéreas",
-           r"\broda\s+cyr|\brueda\s+cyr", r"\bmonocicle|\bmonociclo", r"\bpallass|\bpayas", r"\bclown")
+           r"\broda\s+cyr|\brueda\s+cyr", r"\bmonocicle|\bmonociclo")
+# El clown va aparte: es teatro con su propia etiqueta (Uri, 8/11/2026).
+CLOWN = _r(r"\bclown", r"\bpallass", r"\bpayas")
 # Palabras propias del teatro…
 TEATRO = _r(r"\bteatr", r"\btheat", r"\bdramat", r"\bdramaturg", r"\bmonòleg|\bmonólogo|\bmonolog", r"\bstand[\s-]?up",
             r"\bimpro\b", r"\btitell|\btítere|\btitere|\bmarionet|\bputxinel", r"\bcabaret",
-            r"\bvarietats|\bvariedades|\bvodevil", r"\bsarsuela|\bzarzuela", r"\bclown")
+            r"\bvarietats|\bvariedades|\bvodevil", r"\bsarsuela|\bzarzuela")
 # …y otras que también usan la danza, la música, el cine o la pintura («la direcció», «una obra
 # d'art», «la Divina comèdia», «estimulació musical»): cuentan poco.
 TEATRO_DEBIL = _r(r"\bobra\b", r"\bcomèdia|\bcomedia", r"\bhumor", r"\bimprovisaci", r"\bintèrprets|\bintérpretes",
@@ -305,8 +308,11 @@ def analizar(a: dict) -> dict:
         if t or d or l:
             pistas.append(f"{nombre}: " + ", ".join((t + d + l)[:3]))
 
-    disciplinas = {"magia": magia, "circo": circo, "danza": danza, "teatro": teatro}
-    sector = magia + circo + danza + teatro
+    clown, kt, kd, kl = puntos(CLOWN)
+    if kt or kd or kl:
+        pistas.append("clown: " + ", ".join((kt + kd + kl)[:3]))
+    disciplinas = {"magia": magia, "circo": circo, "danza": danza, "teatro": teatro, "clown": clown}
+    sector = magia + circo + danza + teatro + clown
     res = {"formato": formato, "pistas": pistas}
 
     def decidir(tipo, subtipo, relacion, confianza, motivo, disciplina=None):
@@ -348,7 +354,7 @@ def analizar(a: dict) -> dict:
         if formato == "festival" and max(musica, cine) >= 3 and max(musica, cine) > sector:
             return decidir("otro", "música" if musica >= cine else "cine", "no", 0.75, "festival o ciclo de otra disciplina")
         # Hace falta vocabulario propio de la disciplina (no basta «obra», «escenari» o «musical»).
-        sector_fuerte = magia + circo + danza + teatro_fuerte
+        sector_fuerte = magia + circo + danza + teatro_fuerte + clown
         if (sector >= 2 and sector_fuerte >= 1.4) or (formato in ("ensayo_abierto", "convocatoria") and sector_fuerte >= 1):
             rel = relacion_magia("evento")
             # De qué disciplina es: la que más pesa; si el título dice «musical», musical.
@@ -390,22 +396,22 @@ def analizar(a: dict) -> dict:
         return decidir("musical", None, relacion_magia("musical"), 0.85 if musical_titulo else 0.75,
                        "teatro musical o espectáculo musical" + (" (lo dice el título)" if musical_titulo
                                                                  else " (lo dice la descripción)"))
-    if musica > max(sector, 2) and not mt and genero not in ("teatro", "circo", "magia"):
+    if musica > max(sector, 2) and not mt and genero not in ("teatro", "circo", "magia", "clown"):
         return decidir("otro", "música", "no", 0.6, "espectáculo sobre todo musical")
     if cine >= 3 and cine > max(sector, 2) and not mt:
         return decidir("cine", "otros", "no", 0.6, "sobre todo cine o audiovisual")
-    if danza > max(teatro, circo, magia) and danza >= 2 and genero not in ("teatro", "circo", "magia"):
+    if danza > max(teatro, circo, magia) and danza >= 2 and genero not in ("teatro", "circo", "magia", "clown"):
         return decidir("danza", None, relacion_magia("danza"), 0.75, "vocabulario de danza")
     # Casi sin vocabulario de teatro, circo o magia y con algo de danza o de música: no es teatro.
-    otros = teatro + circo + magia
-    if otros < 1.5 and not (mt or es_artista) and genero not in ("teatro", "circo", "magia"):
+    otros = teatro + circo + magia + clown
+    if otros < 1.5 and not (mt or es_artista) and genero not in ("teatro", "circo", "magia", "clown"):
         if danza > otros and danza >= musica:
             return decidir("danza", None, relacion_magia("danza"), 0.6, "casi sin vocabulario de teatro y con vocabulario de danza")
         if musica > otros:
             return decidir("otro", "música", "no", 0.6, "casi sin vocabulario de teatro y con vocabulario de música")
 
     # ¿Magia como razón principal del espectáculo?
-    declara_otro = genero in ("teatro", "circo", "danza") and not (es_artista or mt)
+    declara_otro = genero in ("teatro", "circo", "danza", "clown") and not (es_artista or mt)
     otros = max(circo, teatro * 0.6, danza)
     principal = not declara_otro and (
         bool(mt and not metafora)                  # «Espectacle de màgia …», «Màgia de prop» en el título
@@ -438,7 +444,13 @@ def analizar(a: dict) -> dict:
         return decidir("otro", "otros", "no", 0.5,
                        "el título no dice qué es y casi no hay vocabulario de artes escénicas: dudoso")
 
-    if genero in ("circo", "danza"):
+    subtipo = None
+    if genero == "clown" or (((clown >= 2 and clown > circo) or (clown >= 3 and clown >= circo))
+                             and genero not in ("circo", "danza")):
+        # Clown como razón principal del espectáculo: teatro con la etiqueta «clown».
+        tipo, subtipo, motivo = "teatro", "clown", ("la descripción dice que es clown" if genero == "clown"
+                                                    else "espectáculo de clown")
+    elif genero in ("circo", "danza"):
         tipo, motivo = ("circo", "la descripción dice que es circo") if genero == "circo" \
             else ("danza", "la descripción dice que es danza")
     elif circo >= 3 and circo >= teatro * 0.7:
@@ -451,13 +463,13 @@ def analizar(a: dict) -> dict:
         rel = "no"  # la magia es el argumento de la historia, no un número
     titulo_teatro = bool(re.match(r"^(teatre|teatro|monòleg|monólogo|circ|circo)\b", titulo.strip()))
     # Sin descripción todavía, un «Espectacle…» en una sala que se llama teatro es probablemente teatro.
-    conf = 0.85 if (circo >= 3 or teatro >= 3 or titulo_teatro or genero) else (0.65 if desc or en_un_teatro else 0.5)
+    conf = 0.85 if (circo >= 3 or teatro >= 3 or clown >= 3 or titulo_teatro or genero) else (0.65 if desc or en_un_teatro else 0.5)
     if rel == "incluye":
         motivo += "; incluye algún número de magia (no sale al buscar magia)"
         conf = min(conf, 0.75)
     elif debil_t or persona_t or (argumento and (debil_d or persona_d)):
         motivo += "; la magia es parte del argumento o del ambiente, no un número de magia"
-    return decidir(tipo, None, rel, conf, motivo)
+    return decidir(tipo, subtipo, rel, conf, motivo)
 
 
 # Categorías de la lista oficial de equipamientos que indican un lugar donde

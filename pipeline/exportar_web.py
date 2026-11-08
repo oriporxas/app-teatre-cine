@@ -25,7 +25,7 @@ CARPETA_WEB = config.RAIZ / "web" / "public" / "datos"
 TIPOS_APP = {"teatro": "teatro", "magia": "magia", "circo": "circo", "evento": "eventos"}
 # Por ahora la app es solo de teatro, magia y circo (Uri, 8/11/2026): los eventos (talleres,
 # festivales, charlas…) solo salen si son de una de esas disciplinas o sobre magia.
-DISCIPLINAS_APP = ("teatro", "magia", "circo")
+DISCIPLINAS_APP = ("teatro", "magia", "circo", "clown")
 # Lo dudoso (poca confianza) no se publica: espera a que la IA lo lea.
 CONFIANZA_MINIMA = 0.6
 LARGO_DESCRIPCION = 900
@@ -87,7 +87,8 @@ def _item(f: dict) -> dict | None:
     if tipo == "eventos" and f.get("disciplina") not in DISCIPLINAS_APP and f.get("magia") != "tema":
         return None
     textos = {k: v for k, v in (f.get("descripcion") or {}).items() if v}
-    creditos = [] if tipo == "eventos" else next((equipo.leer(v) for v in textos.values() if equipo.leer(v)), [])
+    creditos = [] if tipo == "eventos" else next(
+        (c for c in (equipo.leer(v, f["titulo"]) for v in list(textos.values()) or [""]) if c), [])
     nombre, artista = limpiar_titulo(f["titulo"])
     precio = f.get("precio") or {}
     direccion = f.get("direccion") or {}
@@ -100,6 +101,7 @@ def _item(f: dict) -> dict | None:
         "tipo": tipo,
         "subtipo": f.get("subtipo"),
         "tema_magia": f.get("magia") == "tema",
+        "disciplina": ("magia" if f.get("magia") == "tema" else f.get("disciplina")) if tipo == "eventos" else None,
         "sala": f.get("sala"),
         "sala_interior": f.get("sala_interior"),
         "sala_id": f.get("sala_id"),
@@ -107,7 +109,8 @@ def _item(f: dict) -> dict | None:
         "direccion": " ".join(x for x in (direccion.get("calle"), direccion.get("numero")) if x) or None,
         "lat": coord.get("lat"),
         "lon": coord.get("lon"),
-        "funciones": [[x["fecha"], x["hora"]] if x.get("hora") else [x["fecha"]] for x in f["proximas_funciones"][:60]],
+        # Todas las funciones (el calendario de la app llega a dos años vista).
+        "funciones": [[x["fecha"], x["hora"]] if x.get("hora") else [x["fecha"]] for x in f["proximas_funciones"]],
         "precio_min": precio.get("minimo"),
         "precio_max": precio.get("maximo"),
         "gratis": bool(precio.get("gratis")),

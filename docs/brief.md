@@ -14,6 +14,9 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 - Presupuesto mensual: por decidir. Se mide el coste real en la fase 3.
 - Experiencia técnica de Uri: ninguna. Hay que explicarle cada paso sin jerga.
 - Qué es magia (Uri, 8 de noviembre, tras la prueba de magia): un espectáculo de magia lo es cuando la magia es su razón única y principal: un mago, ilusionista, mentalista o hipnotizador haciendo magia en directo. El mentalismo y la hipnosis de espectáculo cuentan como magia. Los espectáculos que solo «incluyen» algo de magia no salen al buscar magia. La magia como argumento de una obra, un cuento o un taller infantil no es magia.
+- Fechas (Uri, 8 de noviembre): los filtros de fecha son «Hoy», «Mañana», «Esta semana» (de hoy al domingo), «Este mes» (de hoy a fin de mes) y «Calendario», que abre un calendario por meses desde el mes actual hasta dos años vista para elegir un día o del primer día al último. Por eso la app calcula las funciones de los próximos dos años.
+- Clown (Uri, 8 de noviembre): los espectáculos de clown van en teatro con la etiqueta «Clown». Un espectáculo de circo con algún payaso sigue siendo circo.
+- Eventos (Uri, 8 de noviembre): sin los filtros «Sobre magia» ni «Otros»; solo los tipos que hay de verdad (festivales, talleres y cursos, charlas, ensayos abiertos, premios…), y cada evento dice de qué disciplina es («Taller o curso · Magia»).
 - Qué sale en la app por ahora (Uri, 8 de noviembre, al probar la app): solo teatro, magia y circo, y los eventos de esas disciplinas (talleres, festivales, charlas de teatro, magia o circo). Fuera, por ahora, la danza, los musicales, los conciertos y los talleres o actividades de otras materias. Se irán añadiendo más adelante.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
@@ -48,7 +51,7 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 ### Información común de cada resultado
 - Dónde se hace (sala y dirección), desde cuándo y hasta cuándo, días y horas, precio y enlace de compra.
 - Cada resultado muestra la imagen del cartel cuando la fuente la tiene (se enlaza desde la web de la guía; no se copia).
-- La ficha de teatro, magia y circo muestra el equipo artístico (dirección, dramaturgia, intérpretes…) cuando la fuente trae la ficha artística; se copia tal cual, sin deducir nada.
+- La ficha de teatro, magia y circo muestra el equipo artístico (dirección, dramaturgia, intérpretes…) cuando la fuente trae la ficha artística; se copia tal cual, sin deducir nada. La guía la escribe de muchas maneras (una línea por papel, varios papeles en una línea, el papel y debajo las personas, en el título, en una frase), y se entienden todas.
 - Solo se muestra lo que se sabe: si una obra no indica la duración, el público, el idioma o el precio, ese dato no aparece (nada de recuadros con «no indicado»).
 - Aspecto aprobado en la maqueta (8 de noviembre): fondo oscuro de «sala a oscuras» con amarillo de marquesina como color de acento.
 - Críticas de prensa (extracto breve con enlace) y valoración media, si existe.
