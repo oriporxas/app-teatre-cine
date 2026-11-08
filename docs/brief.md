@@ -1,5 +1,5 @@
 # App de teatro/cine: brief para Claude Code
-Versión 5 · 8 de noviembre de 2026 (añadidas la «Visión a largo plazo» y las decisiones de Uri sobre la magia)
+Versión 6 · 8 de noviembre de 2026 (añadidas la «Visión a largo plazo», las decisiones de Uri sobre la magia y el estado de la fase 2)
 
 ## La idea
 Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: teatro, magia, circo, cine y eventos del sector. Hoy hay que ir web por web o enterarse por el boca a boca. Usuarios: Uri Herrera (mago y actor) y gente del mundillo.
@@ -97,8 +97,8 @@ Reglas: dar preferencia a los datos abiertos, respetar las condiciones de uso de
 
 ## Plan por fases
 0. Preparación: hecha. Repositorio creado, con la app de Claude instalada.
-1. Datos (en curso): programa diario que descarga y une las dos agendas, clasifica los espectáculos, extrae fechas y precios y agrupa las salas.
-2. Interfaz básica: buscador, filtros, resultados y ficha.
+1. Datos: hecha. Programa diario que descarga y une las dos agendas, clasifica los espectáculos, extrae fechas y precios y agrupa las salas.
+2. Interfaz básica (en curso): buscador, filtros, resultados y ficha. La app está hecha y probada en tamaño móvil con la cartelera real (8/11/2026), con el aspecto y los cambios que Uri aprobó en la maqueta. Falta publicarla (se decide dónde cuando se aclare lo de GitHub) y traducir las descripciones al castellano (llega con la IA; mientras, se ven en catalán con una nota).
 3. Fichas de personas y premios hechas con IA y con fuentes. Aquí se mide el coste real.
 4. Funciones extra: mapa, favoritos, alertas y críticas.
 5. Más fuentes: webs de las salas, enlaces de compra concretos, salas que falten, festivales y eventos profesionales.
@@ -144,4 +144,5 @@ Cuando la activemos (sin prisa; Uri avisará):
 ## Pendiente de Uri
 - Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).
 - Presupuesto mensual (se decide al ver el coste real en la fase 3).
-- Nombre de la app (más adelante).
+- Nombre de la app (más adelante). Mientras, se llama «Cartelera Barcelona».
+- Dónde publicar la app (cuando se aclare lo de GitHub; Claude propondrá opciones gratuitas).

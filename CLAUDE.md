@@ -12,10 +12,13 @@ instalable en el móvil (PWA), en castellano y catalán. Usuarios: Uri Herrera
 (mago y actor) y gente del mundillo. Sin fines comerciales por ahora.
 
 Estado (8/11/2026): fase 1 (datos) construida y probada. Prueba de magia
-respondida por Uri y aplicada a los criterios (ver abajo). Pendiente de Uri:
-avisar cuándo activar la IA (entonces, prueba de los tres modelos y creación de
-la clave `ANTHROPIC_API_KEY`). Hasta entonces la app clasifica solo por señales.
-Siguiente fase: 2 (interfaz). Ver «Plan por fases» en el brief.
+respondida por Uri y aplicada a los criterios (ver abajo). Fase 2 (interfaz):
+la app está hecha y probada en tamaño móvil (`web/`), con la cartelera real;
+**falta publicarla** (elegir alojamiento cuando se aclare lo de GitHub) y la
+traducción al castellano de las descripciones, que llega con la IA.
+Pendiente de Uri: avisar cuándo activar la IA (entonces, prueba de los tres
+modelos y creación de la clave `ANTHROPIC_API_KEY`). Hasta entonces la app
+clasifica solo por señales. Ver «Plan por fases» en el brief.
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
 móvil en https://claude.ai/artifact/9WzwWKvR8AT6zFEhQKjvrU (cartelera con
@@ -133,6 +136,13 @@ Detalle y razones en `docs/arquitectura.md`.
   - `principal.py`: recorre ciudades y fuentes y guarda los resultados.
     `python -m pipeline.principal --help`.
   - `prueba_magia.py`: genera el informe de la prueba de magia.
+  - `exportar_web.py`: al final de cada día escribe la cartelera de cada
+    ciudad para la app (`web/public/datos/<ciudad>.json`): títulos limpios,
+    solo lo que se sabe y solo teatro, magia, circo y eventos.
+- `web/` — la app (fase 2): React + Vite, web instalable en el móvil (PWA).
+  El móvil descarga el archivo de su ciudad y busca dentro (rápido, gratis,
+  sin conexión). Cómo probarla y construirla: `web/LEEME.md`
+  (`npm run check`, `npm run build`).
 - `.github/workflows/actualizar-datos.yml` — GitHub lo ejecuta cada día a las
   05:17 UTC y guarda los resultados con un commit automático.
 - `data/indice.json` y `data/ciudades/<ciudad>/` — resultados de cada ciudad
@@ -157,4 +167,9 @@ Detalle y razones en `docs/arquitectura.md`.
 - Al escribir código que llame a Claude, consulta la referencia actualizada
   de la API (no la memoria): modelos, precios y parámetros cambian.
 - Los textos de la agenda están en catalán; la traducción al castellano llega
-  con la interfaz (fase 2).
+  con la IA. Mientras, la ficha muestra el texto en catalán con una nota.
+- La app solo enseña lo que se sabe: si falta un dato (duración, público,
+  idioma, precio, enlace de compra), su recuadro no aparece. Las fotos de los
+  carteles se muestran desde el servidor de la guía de Barcelona.
+- Funciones (teatro, magia, circo) y eventos (festivales, talleres, charlas)
+  nunca se mezclan en los resultados.
