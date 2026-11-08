@@ -70,11 +70,17 @@ Además del tipo, cada actividad tiene un campo **magia**:
      claramente ajenas (un concierto, una exposición, una visita guiada).
 2. **IA** (`pipeline/clasificar_ia.py`). Claude lee los criterios de arriba y
    decide tipo, subtipo, relación con la magia, confianza y motivo
-   (`clasificado_por: "ia"`).
+   (`clasificado_por: "ia"`). Lo hace en dos tareas, cada una con su modelo
+   (`ajustes/ia.toml`):
+   - `clasificar`: un modelo rápido y barato clasifica lo nuevo o cambiado;
+   - `revisar_dudosos`: lo que esa tarea decidió con poca seguridad
+     (confianza menor que el umbral, hoy 0,7) lo vuelve a mirar un modelo
+     superior, y su decisión es la que vale (`revisado: true`).
 
 ### Solo lo nuevo o cambiado
 
-Cada resultado de la IA se guarda en `data/cache/clasificacion_ia.json` con
+Cada resultado de la IA se guarda en
+`data/ciudades/<ciudad>/cache/ia/<tarea>.json` con
 una «huella» de lo que se le enseñó (título, descripción, sala, horario,
 criterios y modelo). Al día siguiente solo se envía lo que tenga una huella
 distinta: actividades nuevas, modificadas por el Ayuntamiento o afectadas por
@@ -82,8 +88,8 @@ un cambio de criterios.
 
 ### Qué se guarda de cada decisión
 
-En `data/espectaculos.json` (y en `data/clasificacion.json`, que incluye
-también lo descartado):
+En `data/ciudades/<ciudad>/espectaculos.json` (y en `clasificacion.json`,
+en la misma carpeta, que incluye también lo descartado):
 
 | Campo | Qué es |
 |---|---|
@@ -93,23 +99,31 @@ también lo descartado):
 | `confianza` | de 0 a 1 |
 | `motivo` | frase que explica la decisión |
 | `clasificado_por` | «ia» o «señales» |
+| `modelo_ia` | qué modelo decidió (si fue la IA) |
+| `pistas` | lo que encontró la capa de señales |
 
 ### Coste y modelo
 
-- Modelo por defecto: `claude-opus-5-5` (el más capaz de uso general) con
-  esfuerzo bajo. Se cambia con la variable `MODELO_IA` (por ejemplo
-  `claude-haiku-5-5`, mucho más barato) sin tocar el código.
-- Se envían 10 actividades por petición y las instrucciones van en caché.
+- Modelos provisionales (`ajustes/ia.toml`): `claude-haiku-5-5` para
+  clasificar y `claude-opus-5-5` para revisar los dudosos. Se cambian
+  editando ese archivo, sin tocar el código. Cuando se active la IA se
+  probarán Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia para
+  elegir con datos (aciertos y coste), y el trabajo nocturno pasará al
+  procesamiento por lotes (Batch), que cuesta la mitad.
+- Se envían 10 actividades por petición (5 en la revisión) y las
+  instrucciones van en caché.
 - No todo se envía a la IA: de ~6.900 actividades vigentes, unas 1.800 son
   candidatas (las demás son claramente conciertos, exposiciones, visitas,
   talleres de otras materias…).
-- Estimación (precios de octubre de 2026: Opus 5.5 a 4 $/20 $ y Haiku 5.5 a
-  0,10 $/0,50 $ por millón de tokens de entrada/salida; a confirmar con el
-  coste real): la primera clasificación completa costaría unos 10–15 $ con
-  Opus 5.5 o unos 0,30 $ con Haiku 5.5. Después, con ~50–100 actividades
-  nuevas o cambiadas al día, unos 10–20 $/mes con Opus 5.5 o menos de 1 $/mes
-  con Haiku 5.5. El informe diario (`data/informe.json`, apartado `ia`)
-  guarda los tokens gastados para medir el coste real.
+- Estimación (precios de octubre de 2026: Haiku 5.5 a 0,10 $/0,50 $ y Opus
+  5.5 a 4 $/20 $ por millón de tokens de entrada/salida; a confirmar con el
+  coste real). Todo con Haiku: unos 0,30 $ la primera vez y menos de 1 $/mes.
+  Todo con Opus: unos 10–15 $ la primera vez y 10–20 $/mes. Con la
+  combinación prevista (Haiku y solo los dudosos a Opus), según cuántos
+  dudosos salgan, algo intermedio: del orden de 2–5 $ la primera vez y unos
+  pocos dólares al mes. El informe diario (`informe.json` de cada ciudad,
+  apartado `ia`) guarda los tokens gastados por tarea para medir el coste
+  real.
 
 ### Historial de pruebas
 

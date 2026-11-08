@@ -76,26 +76,36 @@ fases» en el brief.
 
 ## Cómo está montado (fase 1)
 
-- `pipeline/` — programa diario en Python (solo biblioteca estándar, salvo
-  `anthropic` para la IA).
-  - `descargar.py`: las dos agendas por la API oficial de Open Data BCN.
-  - `agendas.py`: las une por identificador.
-  - `guia.py`: lee la ficha pública de cada actividad en guia.barcelona.cat
-    (descripción, sala, enlaces). **1 página cada 10 s** (lo pide su
-    robots.txt); se guarda en caché y solo se relee si la actividad cambia.
+Detalle y razones en `docs/arquitectura.md`.
+
+- `ajustes/` — lo que se cambia sin programar:
+  - `ciudades.toml`: cada ciudad con país, zona horaria, moneda, idiomas y
+    sus fuentes. Hoy solo `barcelona`.
+  - `ia.toml`: qué modelo de Claude hace cada tarea (`clasificar`,
+    `revisar_dudosos`, `fichas_personas`). Valores provisionales.
+- `pipeline/` — programa diario (la «recogida») en Python (biblioteca
+  estándar, salvo `anthropic` para la IA).
+  - `fuentes/`: **cada fuente es una pieza independiente** que entrega las
+    actividades en el formato común de `fuentes/base.py`. Hoy:
+    `fuentes/open_data_bcn/` (agendas por la API oficial, fichas de
+    guia.barcelona.cat a **1 página cada 10 s** como pide su robots.txt,
+    salas con la lista oficial de equipamientos). Para añadir una fuente:
+    nueva carpeta con `recoger(ctx)` y nombrarla en `ajustes/ciudades.toml`.
   - `horario.py`: días, horas, precios, duración e idioma desde el texto.
-  - `salas.py`: agrupa salas por dirección con la lista oficial de
-    equipamientos culturales.
   - `senales.py` + `clasificar_ia.py`: clasificación en dos capas (ver
-    `docs/clasificacion.md`).
-  - `principal.py`: lo encadena todo. `python -m pipeline.principal --help`.
+    `docs/clasificacion.md`); la IA usa el modelo de cada tarea y los dudosos
+    suben a un modelo superior.
+  - `salas.py`: junta los lugares de cualquier fuente en salas.
+  - `principal.py`: recorre ciudades y fuentes y guarda los resultados.
+    `python -m pipeline.principal --help`.
   - `prueba_magia.py`: genera el informe de la prueba de magia.
-- `.github/workflows/actualizar-datos.yml` — lo ejecuta GitHub cada día a las
-  05:17 UTC y guarda los resultados en `data/` con un commit automático.
-- `data/espectaculos.json`, `data/salas.json`, `data/informe.json` —
-  resultados. `data/cache/` — memoria entre días (fichas leídas,
-  clasificaciones de la IA). No borrar la caché: cuesta horas y dinero rehacerla.
-- `docs/fuentes/open-data-bcn.md` — notas técnicas de la fuente principal.
+- `.github/workflows/actualizar-datos.yml` — GitHub lo ejecuta cada día a las
+  05:17 UTC y guarda los resultados con un commit automático.
+- `data/indice.json` y `data/ciudades/<ciudad>/` — resultados de cada ciudad
+  (`espectaculos.json`, `salas.json`, `clasificacion.json`, `informe.json`) y
+  su memoria entre días en `cache/` (fichas leídas, decisiones de la IA). **No
+  borrar la caché:** cuesta horas y dinero rehacerla.
+- `docs/fuentes/open-data-bcn.md` — notas técnicas de la fuente de Barcelona.
 - `tests/` — `python -m unittest discover -s tests -t .` (se ejecutan también
   cada día antes del proceso).
 

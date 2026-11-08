@@ -29,7 +29,8 @@ comprobación.
 - **No se intenta saltar** (ni cambiando el «User-Agent» ni buscando la
   dirección oculta). Se usa la API oficial, que sí responde.
 - El proceso diario pide cada día el primer kilobyte del JSON completo y anota
-  el resultado en `data/informe.json` (`descarga.agendas.*.fichero_json_completo`).
+  el resultado en `data/ciudades/barcelona/informe.json`
+  (`fuentes.open_data_bcn.descarga.agendas.*.fichero_json_completo`).
   Si algún día pone «disponible», se puede valorar usarlo.
 - Posible mejora: escribir al equipo de Open Data BCN (desde su web, apartado
   de contacto) preguntando por el acceso automático al JSON ampliado.
@@ -102,7 +103,7 @@ usan; de todas formas, el brief dice que solo son una pista y que fallan.
   su identificador (el bloque `info-lloc` enlaza a `<sala>_<id>.html`), «Se
   celebra a» (tipo de lugar), enlaces («Web venda d'entrades», «Web») y
   estado («Cancel·lat»…).
-- Se guarda en `data/cache/guia.json` con la fecha de lectura y la versión
+- Se guarda en `data/ciudades/barcelona/cache/open_data_bcn/guia.json` con la fecha de lectura y la versión
   (`modified`) de la actividad. Solo se relee si el Ayuntamiento modifica la
   actividad.
 - Orden de lectura: primero espectáculos y actividades con título poco claro,
@@ -113,8 +114,8 @@ usan; de todas formas, el brief dice que solo son una pista y que fallan.
 
 ## Salas
 
-- `pipeline/salas.py` agrupa por **código de calle + número**. Si falta, por
-  coordenadas; si faltan, por nombre de calle.
+- `pipeline/fuentes/open_data_bcn/lugares.py` agrupa por **código de calle + número**. Si falta, por
+  coordenadas; si faltan, por nombre de calle; sin ninguna, la actividad queda sin sala.
 - El nombre sale de la ficha de la guía («Teatreneu Multisales - Sala Cafè
   Teatre») y de la lista oficial de equipamientos, que dice a qué casa
   pertenece cada sala (`institution_name`). Así las salas interiores («Sala
