@@ -1,0 +1,337 @@
+{
+ "prueba": "docs/pruebas/2026-11-08-magia.md",
+ "fecha_respuesta": "2026-11-08",
+ "explicacion": "Respuestas de Uri a la primera prueba de magia, guardadas como datos de evaluación. «esperado» es la relación con la magia que debería salir: principal (espectáculo de magia, sale al buscar magia), tema (evento sobre magia) o no. «incluye» cuenta como «no», porque no sale al buscar magia.",
+ "etiquetas": [
+  {
+   "id": "open_data_bcn:99400676015",
+   "titulo": "Espectacle \"El Mago Pop\"",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400781893",
+   "titulo": "Espectacle \"Hangar 52\", amb el Mago Yunke",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400743868",
+   "titulo": "Espectacle \"Magia i comèdia al Bosc de les Fades\"",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400786807",
+   "titulo": "Espectacle \"Inexplicable\", amb Manu Llari",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400694096",
+   "titulo": "Espectacle \"Magia a la carta\", a càrrec de Daniel Sanchez",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400786325",
+   "titulo": "Espectacle familiar \"La biblioteca secreta\", de Màgia Kids",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400788293",
+   "titulo": "Espectacle 'Màgia per a una consciència ambiental'",
+   "esperado": "no",
+   "nota": "Uri: sobra (actividad de sensibilización ambiental, no un show de magia)"
+  },
+  {
+   "id": "open_data_bcn:99400784219",
+   "titulo": "Espectacle \"Golem’s Magic Lounge\", a càrrec de Hausson",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400788475",
+   "titulo": "Espectacle \"Màgia de prop\", a càrrec de Edmond Clayton",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400789394",
+   "titulo": "Espectacle de màgia \"Detalls\", a càrrec de Sergi Armentano",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400718524",
+   "titulo": "Espectacle \"Cleptómago\", a càrrec de Shado",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400753205",
+   "titulo": "Espectacle \"El mag escombraries\"",
+   "esperado": "no",
+   "nota": "Uri: sobra (cuentacuentos infantil)"
+  },
+  {
+   "id": "open_data_bcn:99400788812",
+   "titulo": "Espectacle 'Fabulós', a càrrec del Mag Stigman",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400784715",
+   "titulo": "Espectacle de màgia \"Mag Lluc\"",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400781427",
+   "titulo": "Espectacle de màgia \"Strafalari\", a càrrec del Mag Lari",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400789518",
+   "titulo": "Espectacle familiar \"Un Mag per Nadal\", amb Aleix Vidal",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400782532",
+   "titulo": "Espectacle familiar \"Màgic Pablo - El Gran Repte\"",
+   "esperado": "principal",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400726524",
+   "titulo": "Taller 'Màgia adults avançat' *NOU*",
+   "esperado": "tema",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400786635",
+   "titulo": "Taller 'Màgia' (a partir de 12 anys) *NOU*",
+   "esperado": "tema",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400673396",
+   "titulo": "Taller 'Màgia' (de 6 a 12 anys) *NOU*",
+   "esperado": "tema",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400789961",
+   "titulo": "Taller de neurociència per a infants \"Magic brains\", a càrrec de Daniel Duque i David Bestué",
+   "esperado": "tema",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400280534",
+   "titulo": "17è Festival de Màgia Jove de Barcelona \"Màgicus\" 2026",
+   "esperado": "tema",
+   "nota": "Uri: correcto"
+  },
+  {
+   "id": "open_data_bcn:99400788806",
+   "titulo": "Espectacle \"Lo imposible esta...En tu mente\", a càrrec de Luis Pardo & M.Minerva",
+   "esperado": "principal",
+   "nota": "Uri: show de mentalismo, que es magia"
+  },
+  {
+   "id": "open_data_bcn:99400697762",
+   "titulo": "Espectacle familiar \"La llibreria màgica\", a càrrec de la Cia. Peixospeixeres",
+   "esperado": "no",
+   "nota": "Uri: obra o actividad infantil; la magia es el argumento"
+  },
+  {
+   "id": "open_data_bcn:99400763392",
+   "titulo": "Contacontes \"El gat roc fa màgia\"",
+   "esperado": "no",
+   "nota": "Uri: obra o actividad infantil; la magia es el argumento"
+  },
+  {
+   "id": "open_data_bcn:99400789555",
+   "titulo": "Taller 'L’aventura del mag Martí (6 a 8 anys)'",
+   "esperado": "no",
+   "nota": "Uri: obra o actividad infantil; la magia es el argumento"
+  },
+  {
+   "id": "open_data_bcn:99400787990",
+   "titulo": "Espectacle familiar \"La nit més màgica\", amb Mariona Trias",
+   "esperado": "no",
+   "nota": "Uri: obra o actividad infantil; la magia es el argumento"
+  },
+  {
+   "id": "open_data_bcn:99400789516",
+   "titulo": "Espectacle familiar \"El Baul Mágico - Tributo a Disney\"",
+   "esperado": "no",
+   "nota": "Uri: obra o actividad infantil; la magia es el argumento"
+  },
+  {
+   "id": "open_data_bcn:99400616888",
+   "titulo": "Espectacle \"Disney On Ice. Un viaje mágico\"",
+   "esperado": "no",
+   "nota": "Uri: obra o actividad infantil; la magia es el argumento"
+  },
+  {
+   "id": "open_data_bcn:99400740401",
+   "titulo": "Activitat \"Juguem partides de Commander a 4! Magic The Gathering\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400790131",
+   "titulo": "Concert \"Magic\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400785634",
+   "titulo": "Contacontes científic 'Rubèn i la màgia de la quàntica', de Catkit",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400785082",
+   "titulo": "Espectacle \"Sinfonía mágica de Hogwarts\", amb Lords of the Sound",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400788848",
+   "titulo": "Espectacle familiar \"La magia del hielo - Tributo a Frozen\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400763970",
+   "titulo": "Espectacle familiar \"Rubèn i la màgia de la quàntica\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400786552",
+   "titulo": "Explica'm un conte : \"Germana i germà: Un conte de coratge i màgia\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400789303",
+   "titulo": "Exposició 'Kaiser-panorama', de \"Màgic 3D\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400773085",
+   "titulo": "Gimcana turística digital 'Les agulles màgiques de Sant Antoni'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:98148132742",
+   "titulo": "Horari de la Font màgica Manuel de Falla del Parc de Serra Martí de Canyelles",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400785635",
+   "titulo": "La nit més màgica",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400762080",
+   "titulo": "Projecció \"Petits moments màgics\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400765343",
+   "titulo": "Projecció \"Petits moments màgics\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400762080",
+   "titulo": "Projecció \"Petits moments màgics\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400765343",
+   "titulo": "Projecció \"Petits moments màgics\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400749863",
+   "titulo": "Projecció \"Petits moments màgics: curtmetratges\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400785236",
+   "titulo": "Taller \"El joc dels residus màgics\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400786562",
+   "titulo": "Taller \"La magistral de dansa. Workshop de dansa : Entre dansa, humor i teatre físic\"",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400776259",
+   "titulo": "Taller 'Botànica màgica il·lustrada: Crea el teu llibre de plantes medicinals i màgiques!'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400684765",
+   "titulo": "Taller 'Dibuix i pintura: La màgia del natural'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400703229",
+   "titulo": "Taller 'La cadira màgica'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400786549",
+   "titulo": "Taller 'La magistral de dansa. Workshop de dansa. Del joc al moviment'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400789709",
+   "titulo": "Taller 'Minimons amb sorra màgica'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400789706",
+   "titulo": "Taller 'Màscares màgiques de tardor'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400720832",
+   "titulo": "Torneig de magic al Coll",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  },
+  {
+   "id": "open_data_bcn:99400784572",
+   "titulo": "Trobada 'Teatre Il·lusió'",
+   "esperado": "no",
+   "nota": "Uri: no objetó el descarte"
+  }
+ ]
+}

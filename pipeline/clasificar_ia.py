@@ -24,6 +24,7 @@ from pathlib import Path
 
 from . import config
 from .ajustes import Ciudad, TareaIA
+from .senales import SUBTIPOS_MAGIA
 from .util import guardar_json, huella, leer_json
 
 IDIOMAS = {"ca": "catalán", "es": "castellano", "en": "inglés", "fr": "francés", "it": "italiano",
@@ -72,7 +73,8 @@ def instrucciones(ciudad: Ciudad, idioma_textos: str) -> str:
         "criterios, que son la única regla válida:\n\n"
         f"{criterios()}\n\n"
         "Formato de respuesta: un objeto por actividad, con el mismo «id». «subtipo» es una etiqueta "
-        "breve en castellano (vacía si no aplica). «confianza» va de 0 a 1 y dice lo segura que es la "
+        "breve en castellano (vacía si no aplica); para el tipo «magia» tiene que ser exactamente una de: "
+        f"{', '.join(SUBTIPOS_MAGIA)}. «confianza» va de 0 a 1 y dice lo segura que es la "
         "decisión: decide siempre, aunque dudes, y baja la confianza. «motivo» es una frase breve en "
         "castellano que explique la decisión citando la pista que la justifica (título, descripción, "
         "sala o artista). Usa solo lo que dicen los datos: no inventes artistas ni premios."
@@ -160,6 +162,8 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                         continue
                     r["confianza"] = max(0.0, min(1.0, float(r["confianza"])))
                     r["subtipo"] = r.get("subtipo") or None
+                    if r["tipo"] == "magia" and r["subtipo"] not in SUBTIPOS_MAGIA:
+                        r["subtipo"] = "magia general"
                     cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
                                       "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
                 informe["enviadas"] += len(lote)

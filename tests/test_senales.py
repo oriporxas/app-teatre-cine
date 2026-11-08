@@ -50,10 +50,11 @@ class TestSenales(unittest.TestCase):
             'Espectacle "Pista"', "Un espectacle de circ amb acrobàcies, malabars, clown i números de màgia."))
         self.assertEqual((r["tipo"], r["magia"]), ("circo", "incluye"))
 
-    def test_hipnosis_es_dudosa(self):
+    def test_hipnosis_es_magia(self):
+        # Decisión de Uri (8/11/2026): la hipnosis de espectáculo cuenta como magia.
         r = senales.analizar(actividad('Espectacle "Dorm"', "Un show d'hipnosi amb voluntaris del públic."))
-        self.assertEqual(r["tipo"], "magia")
-        self.assertLessEqual(r["confianza"], 0.5)
+        self.assertEqual((r["tipo"], r["subtipo"], r["magia"]), ("magia", "hipnosis", "principal"))
+        self.assertGreaterEqual(r["confianza"], 0.7)
 
     def test_personajes_del_cuento_no_son_magia_ni_hipnosis(self):
         r = senales.analizar(actividad(
@@ -71,16 +72,82 @@ class TestSenales(unittest.TestCase):
                                        "Dos germans s'endinsen en un bosc ple d'encanteris i una bruixa."))
         self.assertEqual((r["tipo"], r["magia"]), ("otro", "no"))
 
-    def test_cuento_con_trucos_es_dudoso(self):
+    def test_cuentacuentos_con_magia_en_el_argumento_no_es_magia(self):
         r = senales.analizar(actividad('Contacontes "El drac fa màgia"',
                                        "Una aventura plena de trucs. Al final descobriràs si portes un petit mag a dins."))
-        self.assertEqual(r["magia"], "incluye")
-        self.assertLessEqual(r["confianza"], 0.5)
+        self.assertEqual((r["tipo"], r["magia"]), ("otro", "no"))
 
-    def test_taller_con_personaje_mago_es_dudoso(self):
+    def test_taller_con_personaje_mago_no_es_magia(self):
         r = senales.analizar(actividad("Taller 'L'aventura del mag Exemple (6 a 8 anys)'",
                                        "Un conte amb experiments: descobrirem que la ciència i la màgia estan a prop."))
-        self.assertLessEqual(r["confianza"], 0.5)
+        self.assertEqual(r["magia"], "no")
+
+    # --- Criterios de la respuesta de Uri a la prueba de magia (8/11/2026) ---
+
+    def test_obra_infantil_con_magia_en_el_argumento(self):
+        r = senales.analizar(actividad('Espectacle familiar "El rellotge màgic"',
+                                       "Un espectacle infantil de Nadal. La protagonista viurà una aventura plena de "
+                                       "màgia i humor per salvar el rellotge encantat."))
+        self.assertEqual((r["tipo"], r["magia"]), ("teatro", "no"))
+
+    def test_cuentacuentos_declarado_en_la_descripcion(self):
+        r = senales.analizar(actividad('Espectacle "El mag de les deixalles"',
+                                       "Contacontes a càrrec de Exemple. Viurem les aventures d'en Pau el mag de les "
+                                       "deixalles, els seus trucs i la seva màgia."))
+        self.assertEqual((r["tipo"], r["magia"]), ("otro", "no"))
+
+    def test_divulgacion_con_efectos_de_magia_no_es_magia(self):
+        r = senales.analizar(actividad("Espectacle 'Màgia per al planeta'",
+                                       "Espectacle de divulgació i sensibilització ambiental que combina màgia i "
+                                       "participació. A través de diferents efectes de màgia parla del reciclatge."))
+        self.assertEqual(r["subtipo"], "divulgación")
+        self.assertNotEqual(r["magia"], "principal")
+
+    def test_musical_familiar_no_es_magia(self):
+        r = senales.analizar(actividad('Espectacle familiar "El bagul màgic"',
+                                       "Un espectacle musical familiar: quatre joves descobreixen un bagul encantat."))
+        self.assertEqual(r["magia"], "no")
+
+    def test_personajes_con_mayuscula_en_la_descripcion(self):
+        r = senales.analizar(actividad('Espectacle "La caixa del nord", a càrrec de la Cia Exemple',
+                                       "La Maga Martina, la guardiana de la caixa, necessita ajuda. Junts hauran de "
+                                       "salvar l'Àrtic."))
+        self.assertEqual(r["magia"], "no")
+
+    def test_espectaculo_musical_infantil_es_teatro(self):
+        r = senales.analizar(actividad("Espectacle musical 'Viatge a l'hivern'",
+                                       "Una gran aventura nadalenca amb cançons, música en directe i un concert final."))
+        self.assertEqual(r["tipo"], "teatro")
+
+    def test_personaje_famoso_mago_de_oz(self):
+        r = senales.analizar(actividad('Musical "El Mago de Oz"', "Un musical familiar sobre la història de la Dorothy."))
+        self.assertEqual(r["magia"], "no")
+
+    def test_artista_que_se_presenta_como_mago(self):
+        r = senales.analizar(actividad('Espectacle familiar "Un Mag a casa", amb Exemple Vidal',
+                                       "Un espectacle on la màgia, l'humor i l'emoció s'uneixen."))
+        self.assertEqual((r["tipo"], r["magia"]), ("magia", "principal"))
+
+    def test_espectaculo_de_magia_familiar_declarado(self):
+        r = senales.analizar(actividad('Espectacle familiar "El castell secret"',
+                                       "El castell secret és un espectacle de màgia familiar: una aventura plena de misteri."))
+        self.assertEqual(r["tipo"], "magia")
+
+    def test_mentalismo_por_el_titulo(self):
+        r = senales.analizar(actividad('Espectacle "Lo imposible vive en tu mente", a càrrec de Exemple'))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("magia", "mentalismo"))
+
+    def test_mentalismo_por_la_descripcion(self):
+        r = senales.analizar(actividad('Espectacle "Ecos"', "Un espectacle de mentalisme on endevinarà el que penses."))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("magia", "mentalismo"))
+
+    def test_subtipo_magia_de_cerca(self):
+        r = senales.analizar(actividad('Espectacle "Prop"', "La millor màgia de prop a pocs centímetres dels teus ulls."))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("magia", "magia de cerca"))
+
+    def test_subtipo_magia_general_por_defecto(self):
+        r = senales.analizar(actividad('Espectacle de màgia "Gran nit"'))
+        self.assertEqual(r["subtipo"], "magia general")
 
     def test_taller_con_trucos_de_magia_es_tema(self):
         r = senales.analizar(actividad('Taller de ciència "Cervells"',

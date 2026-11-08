@@ -20,33 +20,38 @@ tiene dos partes:
 Cada actividad recibe exactamente un **tipo**:
 
 - **teatro**: obras de teatro de cualquier género (drama, comedia, musical, teatro familiar e infantil, títeres y marionetas, clown teatral, monólogos y stand-up, improvisación, cabaret y variedades, lecturas dramatizadas, zarzuela).
-- **magia**: espectáculos cuya disciplina principal es la magia: ilusionismo, magia de cerca (close-up), magia de escena, cartomagia, mentalismo, escapismo, magia cómica o familiar. El mentalismo cuenta como magia.
+- **magia**: espectáculos cuya **razón única y principal** es que un mago, ilusionista, mentalista o hipnotizador haga magia en directo ante el público. Incluye el ilusionismo, la magia de cerca, la magia de escena, la cartomagia, el escapismo, la magia cómica y la magia familiar, **el mentalismo y la hipnosis de espectáculo** (los dos son ramas de la magia). Cada espectáculo de magia lleva un **subtipo**, que la app mostrará como etiqueta y servirá para filtrar:
+  - `magia de cerca`: a pocos centímetros del público, en mesa o en salas pequeñas (close-up, «màgia de prop», cartomagia, magia de salón o de cámara);
+  - `mentalismo`: lectura de la mente, predicciones, telepatía, «lo imposible en tu mente»;
+  - `hipnosis`: hipnosis de espectáculo con voluntarios;
+  - `magia general`: magia de escena, grandes ilusiones, magia familiar o cómica, o cuando mezcla varias sin que domine una.
 - **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios, payasos de circo.
 - **danza**: espectáculos cuya disciplina principal es la danza (contemporánea, ballet, flamenco, danzas urbanas…).
 - **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios).
 - **cine**: proyecciones y ciclos de cine (se mostrarán en la fase 6).
-- **otro**: todo lo que no es del sector: conciertos y ópera, exposiciones, visitas guiadas y rutas, deportes, mercados y ferias, cuentacuentos y narración oral, talleres de otras materias (cocina, pintura, informática…), actos institucionales.
+- **otro**: todo lo que no es del sector: conciertos y ópera, exposiciones, visitas guiadas y rutas, deportes, mercados y ferias, cuentacuentos y narración oral, espectáculos de divulgación o sensibilización (medio ambiente, ciencia…), talleres de otras materias (cocina, pintura, manualidades, informática…), actos institucionales.
 
 ### Relación con la magia (campo aparte)
 
 Además del tipo, cada actividad tiene un campo **magia**:
 
-- `principal`: el tipo es «magia».
-- `incluye`: espectáculo de otro tipo (circo, humor, variedades, teatro familiar…) que incluye números de magia de verdad.
+- `principal`: el tipo es «magia». **Solo estos salen al buscar magia** (decisión de Uri, 8/11/2026).
+- `incluye`: espectáculo de otro tipo (circo, humor, variedades, divulgación…) que hace algún número de magia de verdad, de forma secundaria. Se guarda como información, pero **no sale al buscar magia**.
 - `tema`: evento cuyo tema es la magia: festival de magia, taller o curso de magia, conferencia sobre magia. **Los talleres de magia son «evento > formación» con magia = tema**, nunca «magia».
-- `no`: sin relación con la magia.
+- `no`: sin relación con la magia. También cuando la magia solo es el argumento de una historia (ver criterio 4).
 
 ### Cómo decidir
 
-1. **Lee todo, no solo el título.** El título no basta: hay espectáculos de magia cuyo título no lo dice y que solo se reconocen por la descripción o por el artista (por ejemplo, cuando el artista se presenta como «Mag …», «Mago …» o «Maga …», o la descripción habla de ilusionismo, mentalismo o trucos). Usa título, descripción, sala, tipo de lugar, organizador, artista y horario.
+1. **Lee y entiende la descripción, no solo el título.** El título no basta, ni para incluir ni para excluir: hay espectáculos de magia cuyo título no lo dice y que solo se reconocen por la descripción o por el artista (cuando se presenta como «Mag …», «Mago …», «Maga …», ilusionista o mentalista), y hay muchas obras con «màgia» en el título que no son magia. Usa título, descripción, sala, tipo de lugar, organizador, artista y horario.
 2. **Las categorías de la agenda y las pistas automáticas son solo pistas.** Fallan en los dos sentidos: dejan fuera espectáculos de magia y meten actividades que no lo son (un mercado de Navidad, una fuente «màgica», un itinerario «Barcelona màgica»).
-3. **«Màgic», «màgica», «la màgia de…» suelen ser metáforas.** «Una nit màgica», «la màgia del Nadal», «la màgia de la ciència», «sorra màgica» no son magia, y tampoco las descripciones que usan la palabra para crear ambiente («un ballet ple de bellesa, màgia i encant»). Solo cuenta si se describe magia como disciplina: trucos, ilusiones de escena, un mago o maga en escena, «espectacle de màgia».
-4. **El formato manda sobre el tema.** Un taller, curso o clase es «evento > formación» aunque sea de teatro, circo o magia. Una charla sobre teatro es «evento > conferencia o coloquio». Un concierto es «otro» aunque sea en un teatro.
-5. **Disciplina principal.** Si un espectáculo mezcla disciplinas, el tipo es la que domina según la descripción. Si la magia es solo una parte (un número dentro de un espectáculo de circo, clown o variedades), el tipo es el de la disciplina principal y magia = `incluye`.
-6. **Hipnosis de espectáculo:** todavía no está decidido si cuenta como magia. Clasifícala como «magia» con subtipo «hipnosis» y confianza máxima de 0,5, para que salga entre los dudosos. Solo si la hipnosis es el número del espectáculo; no si es un personaje.
-7. **Personajes no son números.** Un mago, una bruja o un hipnotizador que aparecen como personajes de una obra, un cuento o un espectáculo de títeres no hacen que sea magia, salvo que la descripción diga que en escena se hacen trucos o números de magia. Del mismo modo, «escapisme» suele significar «evasión», no el número de escapismo.
-8. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias es «magia»; una obra infantil es «teatro».
-9. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
+3. **La pregunta clave: ¿alguien hace magia en directo y es la razón del espectáculo?** Solo es «magia» si la descripción presenta a un mago, ilusionista, mentalista o hipnotizador haciendo trucos, ilusiones, mentalismo o hipnosis ante el público como eje del espectáculo («un espectacle de màgia», «la millor màgia de prop», «l'il·lusionista…», «mentalisme i màgia urbana»).
+4. **La magia como argumento no es un espectáculo de magia.** Las obras de teatro infantil o familiar, los musicales, los espectáculos sobre hielo, los cuentacuentos y los talleres de manualidades usan a menudo la magia como parte de una historia de fantasía: una librería mágica, una noche mágica, un baúl mágico, un viaje mágico, un mago que hay que encontrar, un personaje que «hace magia». Eso es el argumento, no un número de magia: magia = `no`, y el tipo es el que corresponda (teatro, otro…). Lo mismo con las metáforas y el ambiente («la màgia del Nadal», «la màgia de la ciència», «un ballet ple de bellesa, màgia i encant»).
+5. **Manda lo que la descripción dice que es.** Si la descripción declara el género («Contacontes a càrrec de…», «Espectacle de divulgació i sensibilització ambiental que combina màgia…», «Un espectacle musical familiar…»), ese es el tipo. Si combina algunos trucos con otra finalidad (educar, concienciar, contar un cuento), magia = `incluye` como mucho, nunca `principal`.
+6. **El formato manda sobre el tema.** Un taller, curso o clase es «evento > formación» aunque sea de teatro, circo o magia. Una charla sobre teatro es «evento > conferencia o coloquio». Un concierto es «otro» aunque sea en un teatro.
+7. **Disciplina principal.** Si un espectáculo mezcla disciplinas, el tipo es la que domina según la descripción. Si la magia es solo una parte (un número dentro de un espectáculo de circo, clown o variedades), el tipo es el de la disciplina principal y magia = `incluye`.
+8. **Mentalismo e hipnosis son magia.** Todo espectáculo de mentalismo o de hipnosis de espectáculo es «magia», con su subtipo, aunque no use la palabra «màgia». Solo si es el número del espectáculo: un «gato hipnotizador» o un «asno mago» que son personajes de un cuento no cuentan. «Escapisme» suele significar «evasión», no el número de escapismo.
+9. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias («espectacle de màgia familiar») es «magia»; una obra infantil con magia en el argumento es «teatro».
+10. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
 <!-- criterios:fin -->
 
 ---
@@ -61,8 +66,18 @@ Además del tipo, cada actividad tiene un campo **magia**:
    «malabars», «monòleg»), mira el formato que indica la primera palabra
    del título (la agenda del Ayuntamiento escribe casi siempre «Espectacle…»,
    «Taller…», «Concert…», «Exposició…») y distingue las palabras fuertes
-   («espectacle de màgia») de las ambiguas («nit màgica»). No contiene
-   ninguna lista de espectáculos, artistas ni salas.
+   («espectacle de màgia») de las ambiguas («nit màgica»). Además:
+   - distingue al **artista** que se presenta como mago en el título («Mag
+     Lari», «El Mago Pop», «a càrrec del mag…») del **personaje** de una
+     historia («el mag escombraries», «la Maga Martina»);
+   - detecta cuándo la magia es el **argumento de una historia** (aventuras,
+     cuentos, hadas, Disney…) y entonces no la cuenta;
+   - lee el **género que declara la descripción** («Contacontes…»,
+     «Espectacle de divulgació…», «Espectacle de circ…») y le hace caso;
+   - reconoce el **mentalismo** y la **hipnosis** y pone el **tipo de magia**
+     (de cerca, general, mentalismo o hipnosis).
+
+   No contiene ninguna lista de espectáculos, artistas ni salas.
    - Si no hay clave de IA, su decisión es la que se publica
      (`clasificado_por: "señales"`).
    - Si hay clave, sus pistas se le pasan a la IA como ayuda.
@@ -94,8 +109,8 @@ en la misma carpeta, que incluye también lo descartado):
 | Campo | Qué es |
 |---|---|
 | `tipo` | teatro, magia, circo, danza, evento, cine u otro |
-| `subtipo` | etiqueta breve (formación, festival, hipnosis…) |
-| `magia` | principal, incluye, tema o no |
+| `subtipo` | etiqueta breve (formación, festival…); en magia, el tipo de magia: magia de cerca, magia general, mentalismo o hipnosis |
+| `magia` | principal, incluye, tema o no (al buscar magia solo salen los «principal») |
 | `confianza` | de 0 a 1 |
 | `motivo` | frase que explica la decisión |
 | `clasificado_por` | «ia» o «señales» |
@@ -140,4 +155,22 @@ en la misma carpeta, que incluye también lo descartado):
   «màgia» usada para crear ambiente no cuenta; los personajes (un gato
   hipnotizador, un asno mago) no son números; en los cuentacuentos la magia
   del título es el tema del cuento; «mágico» con acento castellano también es
-  una palabra ambigua. Pendiente de la respuesta de Uri.
+  una palabra ambigua.
+- **8/11/2026, respuestas de Uri** (al final de `docs/pruebas/2026-11-08-magia.md`):
+  la magia como argumento de una obra, un cuento o un taller infantil no es
+  un espectáculo de magia; un espectáculo de magia lo es como razón única y
+  principal; los que solo «incluyen» magia no salen al buscar magia; el
+  mentalismo y la hipnosis son magia; cada espectáculo de magia lleva su
+  tipo (de cerca, general, mentalismo o hipnosis). → Criterios 3, 4, 5 y 8 y
+  los subtipos de magia. Al aplicarlos se vio otro criterio general: en las
+  descripciones, los personajes también van en mayúscula («la Maga
+  Martina»), así que «Mag/Mago» con mayúscula solo indica un artista en el
+  título.
+- **8/11/2026, nueva medición** (`docs/pruebas/2026-11-08-magia-medicion.md`):
+  con los criterios nuevos, la capa de señales coincide en **55 de 55**
+  decisiones con las respuestas de Uri (16 espectáculos de magia, 5 eventos
+  sobre magia y 34 que no lo son). Ojo: se ha medido con los mismos ejemplos
+  de los que salieron los criterios, así que no garantiza el mismo acierto
+  con espectáculos nuevos. La medición de verdad vendrá con las semanas y con
+  la IA, que se medirá con el mismo archivo de respuestas
+  (`docs/pruebas/2026-11-08-respuestas-uri.json`).
