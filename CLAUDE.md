@@ -34,6 +34,14 @@ Aviso (8/11/2026): GitHub suspendió la cuenta de Uri (oriporxas) sin explicar
 el motivo; se le propuso escribir a soporte. Mientras dure, no hay acceso al
 repositorio ni se ejecuta la tarea diaria. Uri tiene copias completas del
 proyecto. No crear otra cuenta para esquivar la suspensión.
+Soporte respondió (8/11/2026): sus sistemas automáticos marcaron actividad
+para revisión manual y preguntan cómo piensa usar GitHub. Se le preparó a Uri
+una respuesta sincera (proyecto personal sin ánimo de lucro, código escrito
+con Claude Code mediante la app de GitHub, una tarea diaria de Actions que
+recoge datos abiertos respetando robots.txt) ofreciendo cambiar lo que haga
+falta. Si GitHub pone pegas a la tarea diaria, plan B: hacer la recogida
+fuera de GitHub (servidor pequeño en la nube) y dejar GitHub solo para el
+código.
 
 ## Principios (no negociables)
 
