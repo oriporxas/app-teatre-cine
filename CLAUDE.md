@@ -11,11 +11,11 @@ magia, circo y eventos del sector; el cine llega en la fase 6), como web
 instalable en el móvil (PWA), en castellano y catalán. Usuarios: Uri Herrera
 (mago y actor) y gente del mundillo. Sin fines comerciales por ahora.
 
-Estado (8/11/2026): fase 1 (datos) construida y probada. Pendiente de Uri:
-responder a la prueba de magia (`docs/pruebas/2026-11-08-magia.md`), decidir el
-modelo de IA y crear la clave `ANTHROPIC_API_KEY` en GitHub. Hasta entonces la
-app clasifica solo por señales. Siguiente fase: 2 (interfaz). Ver «Plan por
-fases» en el brief.
+Estado (8/11/2026): fase 1 (datos) construida y probada. Prueba de magia
+respondida por Uri y aplicada a los criterios (ver abajo). Pendiente de Uri:
+avisar cuándo activar la IA (entonces, prueba de los tres modelos y creación de
+la clave `ANTHROPIC_API_KEY`). Hasta entonces la app clasifica solo por señales.
+Siguiente fase: 2 (interfaz). Ver «Plan por fases» en el brief.
 
 ## Principios (no negociables)
 
@@ -31,6 +31,23 @@ fases» en el brief.
 4. **Precisión.** Cada dato lleva su fuente y la fecha de comprobación. Lo que
    no se pueda comprobar se marca «no verificado». Nunca se inventan premios,
    fechas ni repartos. Una sola ficha por obra aunque salga en varias fuentes.
+
+## Qué es magia (decisiones de Uri, 8/11/2026)
+
+- Es magia solo si es la **razón única y principal**: un mago, ilusionista,
+  mentalista o hipnotizador haciendo magia en directo. **El mentalismo y la
+  hipnosis de espectáculo son magia.**
+- **Al buscar magia solo salen los de tipo «magia».** Los que solo «incluyen»
+  algo de magia no salen.
+- **La magia como argumento** de una obra, un cuento o un taller infantil
+  (una librería mágica, un mago que hay que encontrar…) **no es magia**. Hay
+  que entender la descripción, no buscar la palabra.
+- Cada espectáculo de magia lleva su **tipo de magia**: magia de cerca, magia
+  general, mentalismo o hipnosis. La búsqueda podrá filtrar por él.
+- Sus respuestas están guardadas como datos de evaluación en
+  `docs/pruebas/2026-11-08-respuestas-uri.json`: úsalas para medir cualquier
+  cambio de criterios o de modelo de IA
+  (`python -m pipeline.prueba_magia salida.md --respuestas <archivo>`).
 
 ## Visión a largo plazo (resumen; completa en el brief)
 
