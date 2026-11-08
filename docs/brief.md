@@ -36,9 +36,10 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 ### Búsqueda
 - Por ciudad o por la ubicación actual.
 - Tipo: teatro, magia, circo o eventos (el cine llega en la fase 6).
+- Las funciones y los eventos no se mezclan (Uri, 8 de noviembre): al buscar espectáculos solo salen funciones (teatro, magia y circo, cada uno en su campo); festivales, talleres, charlas y demás eventos tienen su propio apartado.
 - En magia, se puede elegir el tipo de magia: magia de cerca, magia general, mentalismo o hipnosis. Si no se elige, salen todos, cada uno con la etiqueta de su tipo para distinguirlos a simple vista. Solo salen los espectáculos cuya razón principal es la magia, no los que solo la incluyen.
 - Filtros: fecha, hora, precio e idioma de la función. En cine, también versión original subtitulada.
-- Precio (decisión de Uri tras la maqueta, 8 de noviembre): «Cualquiera» o un deslizable de precio máximo que va de 0 € a 150 € y, como última posición, «Indefinido» (sin límite).
+- Precio (decisiones de Uri tras la maqueta, 8 de noviembre): un deslizable de precio máximo que va de 0 € a 150 € y, como última posición, «Indefinido» (sin límite). Debajo, una casilla para mostrar también las actividades que no indican precio (si no se marca, al poner un límite quedan ocultas).
 - Idioma de la función: «Catalán», «Castellano», «Inglés» y «Cualquiera», por este orden.
 - Público al que va dirigido (infantil, familiar, juvenil, adultos o todos los públicos, con las edades si se indican) y, en talleres y cursos, nivel (iniciación, intermedio o avanzado). Lo saca la app de los textos de cada actividad.
 - Mapa de salas cercanas.
