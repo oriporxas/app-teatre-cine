@@ -37,21 +37,25 @@ Son los que salen al buscar magia. Cada uno lleva la etiqueta de su tipo de magi
   - Motivo: magia como razón principal del espectáculo (lo dice el artista, que se presenta como mago o maga)
 - **[Espectacle "Hangar 52", amb el Mago Yunke](https://guia.barcelona.cat/ca/detall/espectacle-hangar-52-amb-el-mago-yunke_99400781893.html)** — Teatre Apolo · 05/11/2026 – 15/11/2026
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
+  - Público: familiar
   - Motivo: magia como razón principal del espectáculo (lo dice el artista, que se presenta como mago o maga)
 - **[Espectacle "Magia i comèdia al Bosc de les Fades"](https://guia.barcelona.cat/ca/detall/espectacle-magia-i-comedia-al-bosc-de-les-fades_99400743868.html)** — Museu de Cera de Barcelona · 05/11/2026 – 25/03/2027
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
   - Motivo: magia como razón principal del espectáculo (lo dice el título)
 - **[Espectacle "Inexplicable", amb Manu Llari](https://guia.barcelona.cat/ca/detall/espectacle-inexplicable-amb-manu-llari_99400786807.html)** — Teatreneu Multisales (Sala Cafè Teatre) · 07/11/2026 – 30/12/2026
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
+  - Público: familiar
   - Motivo: magia como razón principal del espectáculo (lo dice la descripción, que lo presenta como espectáculo de magia)
 - **[Espectacle familiar "La biblioteca secreta", de Màgia Kids](https://guia.barcelona.cat/ca/detall/espectacle-familiar-la-biblioteca-secreta-de-magia-kids_99400786325.html)** — Teatreneu Multisales (Sala Xavier Fàbregas) · 07/11/2026 – 30/12/2026
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
+  - Público: familiar (desde 4 años)
   - Motivo: magia como razón principal del espectáculo (lo dice el título)
 - **[Espectacle "Cleptómago", a càrrec de Shado](https://guia.barcelona.cat/ca/detall/espectacle-cleptomago-a-carrec-de-shado_99400718524.html)** — Balmes Teatre · 14/11/2026 – 19/03/2027
   - Tipo: magia › magia general · magia: principal · seguridad: 80 %
   - Motivo: magia como razón principal del espectáculo (lo dice la descripción)
 - **[Espectacle 'Fabulós', a càrrec del Mag Stigman](https://guia.barcelona.cat/ca/detall/espectacle-fabulos-a-carrec-del-mag-stigman_99400788812.html)** — Teatre Muntaner · 22/11/2026 – 10/01/2027
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
+  - Público: familiar
   - Motivo: magia como razón principal del espectáculo (lo dice el artista, que se presenta como mago o maga)
 - **[Espectacle de màgia "Mag Lluc"](https://guia.barcelona.cat/ca/detall/espectacle-de-magia-mag-lluc_99400784715.html)** — Espai Jove Girapells · 18/12/2026
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
@@ -61,9 +65,11 @@ Son los que salen al buscar magia. Cada uno lleva la etiqueta de su tipo de magi
   - Motivo: magia como razón principal del espectáculo (lo dice el título)
 - **[Espectacle familiar "Un Mag per Nadal", amb Aleix Vidal](https://guia.barcelona.cat/ca/detall/espectacle-familiar-un-mag-per-nadal-amb-aleix-vidal_99400789518.html)** — Balmes Teatre · 27/12/2026 – 02/01/2027
   - Tipo: magia › magia general · magia: principal · seguridad: 95 %
+  - Público: familiar
   - Motivo: magia como razón principal del espectáculo (lo dice el artista, que se presenta como mago o maga)
 - **[Espectacle familiar "Màgic Pablo - El Gran Repte"](https://guia.barcelona.cat/ca/detall/espectacle-familiar-magic-pablo-el-gran-repte_99400782532.html)** — Teatre Poliorama · 21/02/2027 – 13/06/2027
   - Tipo: magia › magia general · magia: principal · seguridad: 65 %
+  - Público: familiar
   - Motivo: magia como razón principal del espectáculo (lo dice la descripción)
 
 ### Mentalismo (1)
@@ -79,27 +85,38 @@ Espectáculos de otro tipo (circo, humor, divulgación…) con algún número de
 
 - **[Espectacle 'Màgia per a una consciència ambiental'](https://guia.barcelona.cat/ca/detall/espectacle-magia-per-a-una-consciencia-ambiental_99400788293.html)** — La Gran Clariana · 08/11/2026
   - Tipo: otro › divulgación · magia: incluye · seguridad: 75 %
+  - Público: familiar
   - Motivo: espectáculo de divulgación o sensibilización; usa algunos efectos de magia
 
 ## 3. Eventos sobre magia (5)
 
-Festivales, talleres y charlas cuyo tema es la magia. Los talleres van a «Eventos › formación».
+Festivales, talleres y charlas cuyo tema es la magia, separados por tipo de evento y con el público al que van dirigidos. Los talleres van a «Eventos › formación».
 
-- **[Taller 'Màgia adults avançat' *NOU*](https://guia.barcelona.cat/ca/detall/taller-magia-adults-avancat-nou_99400726524.html)** — Centre Cívic Cotxeres de Sants · 05/10/2026 – 14/12/2026
-  - Tipo: evento › formación · magia: tema · seguridad: 85 %
-  - Motivo: formación sobre magia (por el título y la descripción)
-- **[Taller 'Màgia' (a partir de 12 anys) *NOU*](https://guia.barcelona.cat/ca/detall/taller-magia-a-partir-de-12-anys-nou_99400786635.html)** — Centre Cívic Casinet d'Hostafrancs · 05/10/2026 – 14/12/2026
-  - Tipo: evento › formación · magia: tema · seguridad: 85 %
-  - Motivo: formación sobre magia (por el título y la descripción)
-- **[Taller 'Màgia' (de 6 a 12 anys) *NOU*](https://guia.barcelona.cat/ca/detall/taller-magia-de-6-a-12-anys-nou_99400673396.html)** — Centre Cívic Casinet d'Hostafrancs · 05/10/2026 – 14/12/2026
-  - Tipo: evento › formación · magia: tema · seguridad: 85 %
-  - Motivo: formación sobre magia (por el título y la descripción)
-- **[Taller de neurociència per a infants "Magic brains", a càrrec de Daniel Duque i David Bestué](https://guia.barcelona.cat/ca/detall/taller-de-neurociencia-per-a-infants-magic-brains-a-carrec-de-daniel-duque-i-dav_99400789961.html)** — Casal de Gent Gran Vilapicina i Torre Llobeta (Carmen Laforet *Tancada fins a nou avís) · 26/11/2026
-  - Tipo: evento › formación · magia: tema · seguridad: 85 %
-  - Motivo: formación sobre magia (por el título y la descripción)
+### Festival (1)
+
 - **[17è Festival de Màgia Jove de Barcelona "Màgicus" 2026](https://guia.barcelona.cat/ca/detall/17e-festival-de-magia-jove-de-barcelona-magicus-2026_99400280534.html)** — Lluïsos de Gràcia · 27/11/2026 – 29/11/2026
   - Tipo: evento › festival · magia: tema · seguridad: 85 %
   - Motivo: festival sobre magia (por el título y la descripción)
+
+### Formación (4)
+
+- **[Taller 'Màgia' (de 6 a 12 anys) *NOU*](https://guia.barcelona.cat/ca/detall/taller-magia-de-6-a-12-anys-nou_99400673396.html)** — Centre Cívic Casinet d'Hostafrancs · 05/10/2026 – 14/12/2026
+  - Tipo: evento › formación · magia: tema · seguridad: 85 %
+  - Público: infantil (6–12 años) · nivel iniciación
+  - Motivo: formación sobre magia (por el título y la descripción)
+- **[Taller de neurociència per a infants "Magic brains", a càrrec de Daniel Duque i David Bestué](https://guia.barcelona.cat/ca/detall/taller-de-neurociencia-per-a-infants-magic-brains-a-carrec-de-daniel-duque-i-dav_99400789961.html)** — Casal de Gent Gran Vilapicina i Torre Llobeta (Carmen Laforet *Tancada fins a nou avís) · 26/11/2026
+  - Tipo: evento › formación · magia: tema · seguridad: 85 %
+  - Público: infantil (8–12 años)
+  - Motivo: formación sobre magia (por el título y la descripción)
+- **[Taller 'Màgia' (a partir de 12 anys) *NOU*](https://guia.barcelona.cat/ca/detall/taller-magia-a-partir-de-12-anys-nou_99400786635.html)** — Centre Cívic Casinet d'Hostafrancs · 05/10/2026 – 14/12/2026
+  - Tipo: evento › formación · magia: tema · seguridad: 85 %
+  - Público: juvenil y adultos (desde 12 años)
+  - Motivo: formación sobre magia (por el título y la descripción)
+- **[Taller 'Màgia adults avançat' *NOU*](https://guia.barcelona.cat/ca/detall/taller-magia-adults-avancat-nou_99400726524.html)** — Centre Cívic Cotxeres de Sants · 05/10/2026 – 14/12/2026
+  - Tipo: evento › formación · magia: tema · seguridad: 85 %
+  - Público: adultos · nivel avanzado
+  - Motivo: formación sobre magia (por el título y la descripción)
+
 
 ## 4. Dudosos (0)
 

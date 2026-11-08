@@ -18,7 +18,7 @@ import json
 import re
 from pathlib import Path
 
-from . import config, senales
+from . import config, publico, senales
 from .util import leer_json
 
 UMBRAL_DUDA = 0.65
@@ -42,9 +42,11 @@ def _linea(f: dict) -> str:
     titulo = f"[{f['titulo']}]({enlace})" if enlace else f["titulo"]
     tipo = f["tipo"] + (f" › {f['subtipo']}" if f.get("subtipo") else "")
     extra = "" if f.get("detalle_leido") else " · ⚠️ sin descripción leída todavía"
+    destinatarios = publico.etiqueta(f)
     return (f"- **{titulo}** — {lugar} · {_fechas(f)}\n"
             f"  - Tipo: {tipo} · magia: {f['magia']} · seguridad: {round(f['confianza'] * 100)} %{extra}\n"
-            f"  - Motivo: {f['motivo']}")
+            + (f"  - Público: {destinatarios}\n" if destinatarios else "")
+            + f"  - Motivo: {f['motivo']}")
 
 
 def comparar(todas: dict, ruta_respuestas: Path) -> tuple[list[str], dict]:
@@ -148,8 +150,16 @@ def generar(salida: Path, ciudad: str = "barcelona", respuestas: Path | None = N
                "**No salen al buscar magia.**", ""]
     lineas += [_linea(f) for f in sorted(incluye, key=orden)] or ["_Ninguno._"]
     lineas += ["", f"## 3. Eventos sobre magia ({len(tema)})", "",
-               "Festivales, talleres y charlas cuyo tema es la magia. Los talleres van a «Eventos › formación».", ""]
-    lineas += [_linea(f) for f in sorted(tema, key=orden)] or ["_Ninguno._"]
+               "Festivales, talleres y charlas cuyo tema es la magia, separados por tipo de evento y con "
+               "el público al que van dirigidos. Los talleres van a «Eventos › formación».", ""]
+    por_subtipo = collections.defaultdict(list)
+    for f in tema:
+        por_subtipo[f.get("subtipo") or "otros"].append(f)
+    for sub in sorted(por_subtipo):
+        lineas += [f"### {sub[0].upper() + sub[1:]} ({len(por_subtipo[sub])})", ""]
+        lineas += [_linea(f) for f in sorted(por_subtipo[sub], key=lambda f: (f.get("edad_minima") or 99, f["titulo"]))] + [""]
+    if not tema:
+        lineas.append("_Ninguno._")
     lineas += ["", f"## 4. Dudosos ({len(dudosos)})", ""]
     lineas += [_linea(f) for f in sorted(dudosos, key=orden)] or ["_Ninguno._"]
     lineas += ["", f"## 5. Descartados aunque el título suena a magia ({len(descartados)})", "",

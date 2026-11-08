@@ -113,9 +113,31 @@ en la misma carpeta, que incluye también lo descartado):
 | `magia` | principal, incluye, tema o no (al buscar magia solo salen los «principal») |
 | `confianza` | de 0 a 1 |
 | `motivo` | frase que explica la decisión |
+| `publico` | infantil, familiar, juvenil, juvenil y adultos, adultos o todos los públicos (vacío si no se dice) |
+| `edad_minima`, `edad_maxima` | edades del público, si se indican |
+| `nivel` | en talleres y cursos: iniciación, intermedio o avanzado |
 | `clasificado_por` | «ia» o «señales» |
 | `modelo_ia` | qué modelo decidió (si fue la IA) |
 | `pistas` | lo que encontró la capa de señales |
+
+### Público y nivel
+
+`pipeline/publico.py` saca de los textos a quién va dirigida cada actividad
+(«(de 6 a 12 anys)», «a partir de 12 anys», «adults», «Adreçat a nens i nenes
+de 8 a 12 anys», «per a tota la família») y, en la formación, el nivel
+(«iniciació», «no cal experiència», «avançat», «coneixements previs»). Reglas
+generales:
+
+- Solo cuentan las edades que hablan del público («adreçat a…», «edat
+  recomanada…», o entre paréntesis en el título). En un festival de jóvenes
+  magos «d'entre 14 i 25 anys», esa es la edad de los concursantes, no la del
+  público.
+- En el título de un espectáculo, «Adultos» o «Adolescentes» pueden ser el
+  nombre de la obra: solo cuenta «per a adults» o «majors de 18». En el
+  título de un taller, «adults» sí indica el público («Màgia adults avançat»).
+- «A partir de 3 anys» indica un espectáculo familiar; «a partir de 8 anys»,
+  apto para todos los públicos desde esa edad.
+- «10 € per adult» es un precio, no el público.
 
 ### Coste y modelo
 
@@ -174,3 +196,7 @@ en la misma carpeta, que incluye también lo descartado):
   con espectáculos nuevos. La medición de verdad vendrá con las semanas y con
   la IA, que se medirá con el mismo archivo de respuestas
   (`docs/pruebas/2026-11-08-respuestas-uri.json`).
+- **8/11/2026, eventos:** Uri confirmó los cinco eventos sobre magia y pidió
+  distinguir su tipo (talleres infantiles o para adultos, festivales…). →
+  Cada ficha lleva ahora `publico`, edades y, en la formación, `nivel`; el
+  informe de la prueba agrupa los eventos por tipo.

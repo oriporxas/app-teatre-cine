@@ -38,6 +38,7 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 - Tipo: teatro, magia, circo o eventos (el cine llega en la fase 6).
 - En magia, se puede elegir el tipo de magia: magia de cerca, magia general, mentalismo o hipnosis. Si no se elige, salen todos, cada uno con la etiqueta de su tipo para distinguirlos a simple vista. Solo salen los espectáculos cuya razón principal es la magia, no los que solo la incluyen.
 - Filtros: fecha, hora, precio e idioma de la función (catalán, castellano, otros o sin texto). En cine, también versión original subtitulada.
+- Público al que va dirigido (infantil, familiar, juvenil, adultos o todos los públicos, con las edades si se indican) y, en talleres y cursos, nivel (iniciación, intermedio o avanzado). Lo saca la app de los textos de cada actividad.
 - Mapa de salas cercanas.
 
 ### Información común de cada resultado
@@ -54,7 +55,7 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 - Magia: tipo de magia (magia de cerca, magia general, mentalismo o hipnosis); sinopsis comercial; premios del espectáculo, si los tiene; el mago, su trayectoria y todos sus premios y reconocimientos encontrados, cada uno con su explicación, para valorar su nivel.
 - Circo: de qué va; artistas o compañía; dónde comprar entradas.
 - Cine (fase 6): de qué trata; premios y nominaciones; dirección, guion e intérpretes con sus trayectorias; enlaces de compra por cine; si hay versión original.
-- Eventos: festivales, conferencias, ensayos abiertos, puertas abiertas, coloquios y estrenos, más talleres y formación y convocatorias de festivales (plazos para presentar espectáculos o cortos). Los festivales y las convocatorias los descubre la app. Sin castings por ahora.
+- Eventos: cada evento lleva su tipo (festival, taller o curso, charla o coloquio, ensayo abierto, puertas abiertas, estreno, convocatoria o premios), su público (por ejemplo, talleres infantiles o para adultos) y, en la formación, su nivel. Así se distinguen, por ejemplo, un taller infantil de magia, un taller avanzado para adultos y un festival como el Màgicus. Son: festivales, conferencias, ensayos abiertos, puertas abiertas, coloquios y estrenos, más talleres y formación y convocatorias de festivales (plazos para presentar espectáculos o cortos). Los festivales y las convocatorias los descubre la app. Sin castings por ahora.
 
 ### Cuenta personal
 - Favoritos y alertas: estrenos, últimas funciones y plazos de convocatorias. Requiere iniciar sesión.

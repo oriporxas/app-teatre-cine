@@ -29,7 +29,7 @@ import sys
 import time
 import traceback
 
-from . import ajustes, clasificar_ia, config, fuentes, salas, senales
+from . import ajustes, clasificar_ia, config, fuentes, publico, salas, senales
 from .ajustes import Ciudad
 from .fuentes.base import Contexto
 from .util import guardar_json
@@ -40,6 +40,8 @@ TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "evento", "cine")
 def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
     l = a["lugar"]
     h = a["horario"]
+    es_formacion = clasif["tipo"] == "evento" and clasif.get("subtipo") == "formación"
+    destinatarios = publico.leer(a["titulo"], " ".join((a.get("descripcion") or {}).values()), es_formacion)
     return {
         "id": a["id"],
         "fuente": a["fuente"],
@@ -58,6 +60,10 @@ def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
         "clasificado_por": clasif["clasificado_por"],
         "modelo_ia": clasif.get("modelo"),
         "pistas": clasif.get("senales") or [],
+        "publico": destinatarios["publico"],
+        "edad_minima": destinatarios["edad_minima"],
+        "edad_maxima": destinatarios["edad_maxima"],
+        "nivel": destinatarios["nivel"],
         "organiza": a.get("organiza"),
         "imagen": a.get("imagen"),
         "estado": a.get("estado"),
@@ -174,6 +180,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_enlace_compra"] = sum(1 for f in fichas if f["enlace_compra"])
     informe["con_detalle"] = sum(1 for f in fichas if f["detalle_leido"])
     informe["con_idioma"] = sum(1 for f in fichas if f["idiomas"])
+    informe["con_publico"] = sum(1 for f in fichas if f["publico"])
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
     guardar_json(carpeta / "informe.json", informe)
     (carpeta / "informe_fallo.json").unlink(missing_ok=True)
