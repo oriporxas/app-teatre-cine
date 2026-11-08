@@ -75,6 +75,16 @@ class TestSenales(unittest.TestCase):
         self.assertEqual(r["magia"], "incluye")
         self.assertLessEqual(r["confianza"], 0.5)
 
+    def test_taller_con_personaje_mago_es_dudoso(self):
+        r = senales.analizar(actividad("Taller 'L'aventura del mag Exemple (6 a 8 anys)'",
+                                       "Un conte amb experiments: descobrirem que la ciència i la màgia estan a prop."))
+        self.assertLessEqual(r["confianza"], 0.5)
+
+    def test_taller_con_trucos_de_magia_es_tema(self):
+        r = senales.analizar(actividad('Taller de ciència "Cervells"',
+                                       "Mitjançant trucs de màgia i il·lusions, veurem com els mags enganyen el cervell."))
+        self.assertEqual((r["tipo"], r["magia"]), ("evento", "tema"))
+
     def test_concierto_y_exposicion_fuera(self):
         self.assertEqual(senales.analizar(actividad("Concert de piano"))["tipo"], "otro")
         self.assertEqual(senales.analizar(actividad("Exposició 'Fonts màgiques'"))["tipo"], "otro")

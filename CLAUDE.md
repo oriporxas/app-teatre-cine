@@ -11,7 +11,11 @@ magia, circo y eventos del sector; el cine llega en la fase 6), como web
 instalable en el móvil (PWA), en castellano y catalán. Usuarios: Uri Herrera
 (mago y actor) y gente del mundillo. Sin fines comerciales por ahora.
 
-Estado (7/11/2026): fase 1 (datos) construida. Ver «Plan por fases» en el brief.
+Estado (8/11/2026): fase 1 (datos) construida y probada. Pendiente de Uri:
+responder a la prueba de magia (`docs/pruebas/2026-11-08-magia.md`), decidir el
+modelo de IA y crear la clave `ANTHROPIC_API_KEY` en GitHub. Hasta entonces la
+app clasifica solo por señales. Siguiente fase: 2 (interfaz). Ver «Plan por
+fases» en el brief.
 
 ## Principios (no negociables)
 

@@ -231,7 +231,11 @@ def analizar(a: dict) -> dict:
             rel = relacion_magia("evento")
             tema = max(disciplinas, key=disciplinas.get)
             conf = 0.85 if sector >= 4 else 0.65
-            return decidir("evento", sub, rel, conf, f"{sub} sobre {tema} (por el título y la descripción)")
+            motivo = f"{sub} sobre {tema} (por el título y la descripción)"
+            if rel == "tema" and not (m_fuerte >= 2 or persona_a):
+                # Solo un personaje mago («l'aventura del mag X»), sin trucos en la descripción.
+                conf, motivo = 0.5, motivo + "; la magia solo aparece como personaje: dudoso"
+            return decidir("evento", sub, rel, conf, motivo)
         if formato == "festival" and (musica >= 3 or cine >= 3):
             return decidir("otro", "música" if musica >= cine else "cine", "no", 0.7, "festival de otra disciplina")
         if sector < 1:
