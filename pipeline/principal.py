@@ -1,15 +1,22 @@
-"""Proceso diario completo. Se ejecuta solo cada mañana en GitHub Actions.
+"""Proceso diario completo (la «recogida»). Se ejecuta solo cada mañana en GitHub Actions.
 
-Pasos:
-1. Descarga las dos agendas de Open Data BCN y los equipamientos culturales.
-2. Une las agendas por identificador y descarta lo ya terminado.
-3. Lee (con calma, 1 página cada 10 s) las fichas de la guía que falten o hayan cambiado.
-4. Extrae días, horas, precios, duración e idioma del horario.
-5. Agrupa las salas por dirección.
-6. Clasifica: primero por señales; después, si hay clave, con IA (solo lo nuevo o cambiado).
-7. Guarda data/espectaculos.json, data/salas.json y data/informe.json.
+Para cada ciudad activa de ajustes/ciudades.toml:
+1. Cada fuente de esa ciudad recoge sus actividades y las entrega en el
+   formato común (pipeline/fuentes/base.py). Cada fuente respeta su propio
+   límite de velocidad y solo relee lo nuevo o cambiado.
+2. Se juntan las actividades de todas las fuentes.
+3. Se clasifican: primero por señales; después, si hay clave, con la IA,
+   con el modelo que diga ajustes/ia.toml para cada tarea (y los dudosos
+   suben a un modelo superior).
+4. Se agrupan las salas.
+5. Se guarda data/ciudades/<ciudad>/{espectaculos,salas,clasificacion,informe}.json
+   y un índice general en data/indice.json.
 
-Uso:  python -m pipeline.principal [--sin-descarga] [--sin-guia] [--hoy AAAA-MM-DD]
+Si una fuente falla, esa ciudad conserva los datos de ayer y el error queda
+anotado en el informe. Las demás ciudades siguen.
+
+Uso:  python -m pipeline.principal [--ciudad barcelona] [--sin-descarga] [--sin-lectura]
+                                   [--minutos-lectura 35] [--hoy AAAA-MM-DD]
 """
 
 from __future__ import annotations
@@ -18,128 +25,145 @@ import argparse
 import collections
 import datetime as dt
 import json
+import sys
 import time
+import traceback
 
-from . import agendas, clasificar_ia, config, descargar, guia, horario, salas, senales
-from .util import guardar_json, leer_json
+from . import ajustes, clasificar_ia, config, fuentes, salas, senales
+from .ajustes import Ciudad
+from .fuentes.base import Contexto
+from .util import guardar_json
 
 TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "evento", "cine")
 
 
-def _ficha(a: dict, clasif: dict) -> dict:
-    g = a.get("guia") or {}
-    fuentes = [dict(config.FUENTE_AGENDAS[x], comprobado=a["descargado"]) for x in a["agendas"]]
-    if g.get("url") and not g.get("no_disponible"):
-        fuentes.append({"nombre": "Ajuntament de Barcelona · Guia BCN (ficha pública)",
-                        "url": g["url"], "comprobado": g.get("comprobado")})
-    enlaces = g.get("enlaces") or []
-    compra = next((e["url"] for e in enlaces if "entrad" in e["tipo"].lower() or "venda" in e["tipo"].lower()), None)
+def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
+    l = a["lugar"]
+    h = a["horario"]
     return {
         "id": a["id"],
+        "fuente": a["fuente"],
+        "id_origen": a["id_origen"],
+        "ciudad": ciudad.id,
+        "pais": ciudad.pais,
+        "zona_horaria": ciudad.zona_horaria,
         "titulo": a["titulo"],
+        "idioma_textos": a["idioma_textos"],
+        "descripcion": a["descripcion"],
         "tipo": clasif["tipo"],
         "subtipo": clasif.get("subtipo"),
         "magia": clasif["magia"],
         "confianza": clasif["confianza"],
         "motivo": clasif["motivo"],
         "clasificado_por": clasif["clasificado_por"],
+        "modelo_ia": clasif.get("modelo"),
         "pistas": clasif.get("senales") or [],
-        "descripcion_ca": g.get("descripcion"),
-        "organiza": g.get("organiza"),
-        "imagen": g.get("imagen"),
-        "estado": g.get("estado"),
+        "organiza": a.get("organiza"),
+        "imagen": a.get("imagen"),
+        "estado": a.get("estado"),
         "inicio": a["inicio"],
         "fin": a["fin"],
         "fechas_aproximadas": a.get("fechas_aproximadas"),
-        "proximas_funciones": a["extraido"]["proximas_funciones"],
-        "horario": [f["texto"] for f in a["extraido"]["filas"]],
-        "precio": a["extraido"]["precio"],
-        "duracion_minutos": a["extraido"]["duracion_minutos"],
-        "idiomas": a["extraido"]["idiomas"],
-        "sala_id": a.get("sala_id"),
-        "sala": a.get("sala"),
-        "sala_interior": a.get("sala_interior"),
-        "direccion": a["direccion"],
-        "coordenadas": a["coordenadas"],
+        "proximas_funciones": h["proximas_funciones"],
+        "horario": [f["texto"] for f in h["filas"]],
+        "precio": h["precio"],
+        "duracion_minutos": h["duracion_minutos"],
+        "idiomas": h["idiomas"],
+        "sala_id": l["clave"],
+        "sala": l.get("nombre_casa") or l.get("nombre_en_fuente"),
+        "sala_interior": l.get("sala_interior"),
+        "direccion": l.get("direccion"),
+        "coordenadas": l.get("coordenadas"),
         "telefono": a.get("telefono"),
-        "enlace_compra": compra,
-        "enlaces": enlaces,
-        "agendas": a["agendas"],
-        "modificado_origen": a["modificado"],
-        "fuentes": fuentes,
-        "ficha_guia_leida": bool(g) and not g.get("no_disponible"),
+        "enlace_compra": a.get("enlace_compra"),
+        "enlaces": a.get("enlaces") or [],
+        "modificado_origen": a.get("modificado_origen"),
+        "detalle_leido": a.get("detalle_leido", False),
+        "fuentes": a["fuentes"],
+        "extra": a.get("extra") or {},
     }
 
 
-def ejecutar(sin_descarga: bool = False, sin_guia: bool = False, hoy: dt.date | None = None,
-             minutos_guia: float | None = None) -> dict:
-    hoy = hoy or dt.date.today()
-    t0 = time.monotonic()
-    informe: dict = {"fecha": hoy.isoformat(), "inicio": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
-
-    # 1. Descargas
-    if not sin_descarga:
-        informe["descarga"] = descargar.descargar(config.DESCARGAS)
-        equipamientos = salas.descargar_equipamientos(config.DESCARGAS)
-    else:
-        equipamientos = leer_json(config.DESCARGAS / "equipamientos.json", [])
-    informe["equipamientos"] = len(equipamientos)
-
-    # 2. Unión
-    actividades = agendas.unir(config.DESCARGAS, hoy)
-    informe["actividades_vigentes"] = len(actividades)
-    informe["por_agenda"] = dict(collections.Counter("+".join(sorted(a["agendas"])) for a in actividades.values()))
-
-    # 3. Fichas de la guía
-    cats = salas.categorias_por_lugar(equipamientos)
-    prioridad = {i: senales.prioridad_lectura(a, cats.get(salas.clave_lugar(a), set()))
-                 for i, a in actividades.items()}
-    if not sin_guia:
-        informe["guia"] = guia.actualizar(actividades, prioridad, minutos_guia)
-    cache_guia = guia.cargar()
-    for i, a in actividades.items():
-        g = cache_guia.get(i)
-        # Usamos la ficha aunque sea de una versión anterior: mejor que nada.
-        a["guia"] = g if g and not g.get("no_disponible") else None
-        a["descargado"] = hoy.isoformat()
-
-    # 4. Extracción del horario
-    for a in actividades.values():
-        a["extraido"] = horario.interpretar(a["horario_html"], a["inicio"], a["fin"], hoy)
-        a["horario_texto"] = horario.texto_plano(a["horario_html"])
-        if a["guia"] and a["guia"].get("descripcion") and not a["extraido"]["idiomas"]:
-            a["extraido"]["idiomas"] = horario.leer_idiomas(a["guia"]["descripcion"])
-
-    # 5. Salas
-    lugares = salas.agrupar(actividades, equipamientos)
-
-    # 6. Clasificación
+def _clasificar(actividades: dict[str, dict], ciudad: Ciudad, informe: dict) -> dict[str, dict]:
     por_senales = {i: senales.analizar(a) for i, a in actividades.items()}
     candidatos = [i for i, r in por_senales.items() if senales.necesita_ia(r)]
-    candidatos.sort(key=lambda i: -prioridad[i])
-    por_ia, informe["ia"] = clasificar_ia.clasificar(actividades, por_senales, candidatos)
+    candidatos.sort(key=lambda i: -(actividades[i].get("prioridad") or 0))
+    tareas = ajustes.tareas_ia()
+    cache_ia = config.carpeta_cache(ciudad.id, "ia")
+    informe["ia"] = {}
+
+    # Tarea 1: clasificar con el modelo base.
+    base, informe["ia"]["clasificar"] = clasificar_ia.clasificar(
+        actividades, por_senales, candidatos, tareas["clasificar"], cache_ia, ciudad)
+    # Tarea 2: los dudosos (poca confianza) suben a un modelo superior.
+    revision = tareas["revisar_dudosos"]
+    umbral = revision.umbral_confianza if revision.umbral_confianza is not None else 0.7
+    dudosos = [i for i in candidatos if i in base and base[i]["confianza"] < umbral]
+    revisados, informe["ia"]["revisar_dudosos"] = clasificar_ia.clasificar(
+        actividades, por_senales, dudosos, revision, cache_ia, ciudad)
+
     final = {}
     for i, r in por_senales.items():
-        if i in por_ia:
-            final[i] = por_ia[i] | {"clasificado_por": "ia", "senales": r["pistas"]}
+        if i in revisados:
+            final[i] = revisados[i] | {"clasificado_por": "ia", "revisado": True, "senales": r["pistas"]}
+        elif i in base:
+            final[i] = base[i] | {"clasificado_por": "ia", "senales": r["pistas"]}
         else:
             final[i] = r | {"clasificado_por": "señales", "senales": r["pistas"]}
+    return final
 
-    # 7. Resultados
-    fichas = [_ficha(actividades[i], final[i]) for i in sorted(final)
+
+def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = True,
+                    minutos_lectura: float | None = None, hoy: dt.date | None = None) -> dict:
+    hoy = hoy or ciudad.hoy()
+    t0 = time.monotonic()
+    informe: dict = {"ciudad": ciudad.ficha(), "fecha": hoy.isoformat(),
+                     "inicio": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "fuentes": {}, "errores": []}
+
+    # 1. Recoger de cada fuente (piezas independientes)
+    actividades: dict[str, dict] = {}
+    for nombre in ciudad.fuentes:
+        ctx = Contexto(ciudad=ciudad, hoy=hoy,
+                       carpeta_descargas=config.DESCARGAS / ciudad.id / nombre,
+                       carpeta_cache=config.carpeta_cache(ciudad.id, nombre),
+                       descargar=descargar, leer_webs=leer_webs, minutos_lectura=minutos_lectura)
+        try:
+            resultado = fuentes.cargar(nombre).recoger(ctx)
+        except Exception as e:  # noqa: BLE001 - una fuente rota no debe parar las demás
+            informe["errores"].append(f"{nombre}: {type(e).__name__}: {e}")
+            informe["fuentes"][nombre] = {"error": traceback.format_exc(limit=3)}
+            continue
+        informe["fuentes"][nombre] = resultado.informe
+        # 2. Juntar. Pendiente para cuando haya una 2.ª fuente en la misma ciudad:
+        # detectar la misma obra en varias fuentes y dejar una sola ficha (principio 4).
+        for a in resultado.actividades:
+            actividades[a["id"]] = a
+
+    if informe["errores"]:
+        # Mejor los datos de ayer completos que los de hoy a medias.
+        informe["aviso"] = "Alguna fuente ha fallado: se conservan los resultados anteriores de esta ciudad."
+        guardar_json(config.carpeta_ciudad(ciudad.id) / "informe_fallo.json", informe)
+        return informe
+    informe["actividades_vigentes"] = len(actividades)
+
+    # 3. Clasificar
+    final = _clasificar(actividades, ciudad, informe)
+
+    # 4. Salas y 5. Resultados
+    fichas = [_ficha(actividades[i], final[i], ciudad) for i in sorted(final)
               if final[i]["tipo"] in TIPOS_PUBLICADOS or final[i]["magia"] != "no"]
-    usadas = {f["sala_id"] for f in fichas}
-    salas_publicadas = {k: v for k, v in lugares.items() if k in usadas}
-    for s in salas_publicadas.values():
-        s["espectaculos"] = sum(1 for f in fichas if f["sala_id"] == s["id"])
-    guardar_json(config.DATOS / "espectaculos.json", fichas, por_lineas=True)
-    guardar_json(config.DATOS / "salas.json", salas_publicadas, por_lineas=True)
+    lugares = salas.consolidar(list(actividades.values()))
+    publicadas = collections.Counter(f["sala_id"] for f in fichas)
+    salas_publicadas = {k: v | {"espectaculos": publicadas[k]} for k, v in lugares.items() if k in publicadas}
+
+    carpeta = config.carpeta_ciudad(ciudad.id)
+    guardar_json(carpeta / "espectaculos.json", fichas, por_lineas=True)
+    guardar_json(carpeta / "salas.json", salas_publicadas, por_lineas=True)
     # Todas las decisiones (también las de «otro»), para poder revisarlas.
-    guardar_json(config.DATOS / "clasificacion.json",
+    guardar_json(carpeta / "clasificacion.json",
                  {i: {"titulo": actividades[i]["titulo"], **{k: final[i].get(k) for k in
                       ("tipo", "subtipo", "magia", "confianza", "motivo", "clasificado_por")}}
                   for i in final}, por_lineas=True)
-
     informe["publicadas"] = len(fichas)
     informe["por_tipo"] = dict(collections.Counter(f["tipo"] for f in fichas))
     informe["magia"] = dict(collections.Counter(f["magia"] for f in fichas if f["magia"] != "no"))
@@ -148,23 +172,49 @@ def ejecutar(sin_descarga: bool = False, sin_guia: bool = False, hoy: dt.date | 
     informe["salas_con_nombre"] = sum(1 for s in salas_publicadas.values() if s["nombre"])
     informe["con_precio"] = sum(1 for f in fichas if f["precio"])
     informe["con_enlace_compra"] = sum(1 for f in fichas if f["enlace_compra"])
-    informe["con_ficha_guia"] = sum(1 for f in fichas if f["ficha_guia_leida"])
+    informe["con_detalle"] = sum(1 for f in fichas if f["detalle_leido"])
     informe["con_idioma"] = sum(1 for f in fichas if f["idiomas"])
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
-    guardar_json(config.DATOS / "informe.json", informe)
+    guardar_json(carpeta / "informe.json", informe)
+    (carpeta / "informe_fallo.json").unlink(missing_ok=True)
     return informe
+
+
+def ejecutar(solo: str | None = None, **opciones) -> dict:
+    indice = {"actualizado": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "ciudades": {}}
+    for ciudad in ajustes.ciudades().values():
+        if (solo and ciudad.id != solo) or (not solo and not ciudad.activa):
+            continue
+        try:
+            inf = ejecutar_ciudad(ciudad, **opciones)
+        except Exception as e:  # noqa: BLE001
+            inf = {"errores": [f"{type(e).__name__}: {e}"], "detalle": traceback.format_exc(limit=5)}
+        indice["ciudades"][ciudad.id] = {
+            **ciudad.ficha(),
+            "fecha": inf.get("fecha"),
+            "espectaculos": inf.get("publicadas"),
+            "salas": inf.get("salas_con_espectaculos"),
+            "errores": inf.get("errores", []),
+        }
+    if not solo:
+        guardar_json(config.DATOS / "indice.json", indice)
+    return indice
 
 
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--ciudad", help="procesar solo esta ciudad (clave de ajustes/ciudades.toml)")
     p.add_argument("--sin-descarga", action="store_true", help="usar las descargas que ya hay")
-    p.add_argument("--sin-guia", action="store_true", help="no leer fichas nuevas de la guía")
-    p.add_argument("--hoy", help="fecha de referencia (AAAA-MM-DD)")
-    p.add_argument("--minutos-guia", type=float, help="tiempo máximo leyendo fichas de la guía")
+    p.add_argument("--sin-lectura", "--sin-guia", action="store_true", help="no leer páginas web nuevas")
+    p.add_argument("--minutos-lectura", "--minutos-guia", type=float, help="tiempo máximo leyendo webs por fuente")
+    p.add_argument("--hoy", help="fecha de referencia (AAAA-MM-DD); por defecto, la de cada ciudad")
     args = p.parse_args()
-    hoy = dt.date.fromisoformat(args.hoy) if args.hoy else None
-    informe = ejecutar(args.sin_descarga, args.sin_guia, hoy, args.minutos_guia)
-    print(json.dumps(informe, ensure_ascii=False, indent=2))
+    indice = ejecutar(args.ciudad, descargar=not args.sin_descarga, leer_webs=not args.sin_lectura,
+                      minutos_lectura=args.minutos_lectura,
+                      hoy=dt.date.fromisoformat(args.hoy) if args.hoy else None)
+    print(json.dumps(indice, ensure_ascii=False, indent=2))
+    # Código de salida distinto de 0 si algo falló, para que se vea en GitHub (los datos ya están guardados).
+    sys.exit(1 if any(c["errores"] for c in indice["ciudades"].values()) else 0)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 # App de teatro/cine: brief para Claude Code
-Versión 3 · 7 de noviembre de 2026
+Versión 4 · 8 de noviembre de 2026 (añadida la «Visión a largo plazo»)
 
 ## La idea
 Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: teatro, magia, circo, cine y eventos del sector. Hoy hay que ir web por web o enterarse por el boca a boca. Usuarios: Uri Herrera (mago y actor) y gente del mundillo.
@@ -95,7 +95,45 @@ Reglas: dar preferencia a los datos abiertos, respetar las condiciones de uso de
 5. Más fuentes: webs de las salas, enlaces de compra concretos, salas que falten, festivales y eventos profesionales.
 6. Cine.
 
+## Visión a largo plazo
+Escrita el 8 de noviembre de 2026 para que no se pierda de vista en ninguna sesión. **No cambia el plan de fases**: la prioridad sigue siendo Barcelona.
+
+### Hoja de ruta
+1. **Ahora:** artes escénicas (teatro, magia y circo) y eventos en Barcelona, hasta que funcione muy bien. Esta sigue siendo la prioridad.
+2. **Después:** añadir el cine en Barcelona.
+3. **Si todo va bien:** crecer ciudad a ciudad hasta cubrir todo el mundo, con la posibilidad de convertir la app en un negocio. Por eso el repositorio es privado.
+
+### Cómo tiene que funcionar a gran escala (como Moovit)
+- **Dos trabajos separados:**
+  - **Recoger datos:** por detrás, a horas fijas, sin que ningún usuario espere. La primera carga de cada ciudad o fuente es lenta; después, cada día solo se lee lo nuevo o cambiado.
+  - **Buscar:** el usuario solo consulta la base de datos de la app, que ya está preparada. Los resultados tienen que salir en menos de un segundo, haya las ciudades que haya.
+- **Los límites de velocidad se respetan web a web** (por ejemplo, una página cada 10 segundos). Esas pausas solo afectan a la recogida nocturna, nunca al usuario, y se pueden leer muchas webs distintas a la vez.
+- **El coste tiene que crecer con el número de ciudades y espectáculos, no con las búsquedas de los usuarios.**
+
+### El reto real: la cobertura
+No existe un estándar mundial de carteleras de teatro, como el GTFS en el transporte público. Cada ciudad publica a su manera, así que habrá que combinar, ciudad a ciudad:
+1. Datos abiertos públicos, donde existan (como Open Data BCN).
+2. Proveedores de pago, donde los haya. Para el cine existen servicios de horarios con cobertura internacional, como International Showtimes.
+3. La IA leyendo la web de cada sala.
+4. A futuro: que salas, compañías y artistas publiquen sus propios espectáculos en la app (como la comunidad de editores de Moovit), siempre con verificación automática.
+
+### La IA que trabaja dentro de la app
+Cuando la activemos (sin prisa; Uri avisará):
+- Probar los tres modelos (Haiku 5.5, Sonnet 5.5 y Opus 5.5) con la prueba de magia y enseñar a Uri aciertos y coste de cada uno, para elegir con datos.
+- La idea es usar Haiku para clasificar y extraer datos, y que solo los casos dudosos y las fichas de trayectoria y premios pasen a un modelo superior. La app ya guarda lo segura que está de cada decisión: se usa para decidir qué casos suben de modelo.
+- Usar el procesamiento por lotes (Batch) para el trabajo nocturno, que cuesta la mitad.
+- Cuando toque crear la clave, guiar a Uri paso a paso. Uri nunca la pegará en el chat.
+
+### Qué se hace ahora
+- No se construye nada de la escala mundial todavía. Se sigue con Barcelona.
+- Pero las decisiones técnicas de hoy se toman de forma que crecer no obligue a rehacerlo todo:
+  - la base de datos admite varias ciudades y países, cada uno con su zona horaria, su moneda y sus idiomas;
+  - cada fuente de datos es una pieza independiente, que se puede añadir o quitar sin tocar el resto;
+  - la IA de la app puede cambiar de modelo según la tarea con un simple ajuste.
+- Si alguna decisión ya tomada choca con esta visión, se avisa a Uri y se le explica sin tecnicismos.
+
 ## Pendiente de Uri
 - Responder una sola vez a la prueba de magia: qué sobra, qué falta, si los que «incluyen magia» deben salir al buscar magia, qué son los dudosos y si la hipnosis de espectáculo cuenta como magia.
+- Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).
 - Presupuesto mensual (se decide al ver el coste real en la fase 3).
 - Nombre de la app (más adelante).

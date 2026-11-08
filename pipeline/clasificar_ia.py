@@ -3,9 +3,12 @@
 - Los criterios se leen de docs/clasificacion.md (entre las marcas
   «criterios:inicio» y «criterios:fin»). Si se mejoran los criterios, la IA
   los usa al día siguiente y vuelve a clasificar lo afectado.
+- Cada tarea («clasificar», «revisar_dudosos»…) usa el modelo que diga
+  ajustes/ia.toml. Cambiar de modelo es cambiar una línea de ese archivo.
 - Solo se envían actividades nuevas o modificadas: cada resultado se guarda
-  en data/cache/clasificacion_ia.json con una «huella» de lo que se le
-  enseñó a la IA. Si la huella no cambia, no se vuelve a pagar.
+  en la caché de la ciudad (data/ciudades/<ciudad>/cache/ia/<tarea>.json) con
+  una «huella» de lo que se le enseñó a la IA (datos, criterios y modelo). Si
+  la huella no cambia, no se vuelve a pagar.
 - Si no hay clave (ANTHROPIC_API_KEY), esta capa no hace nada y la app usa
   la clasificación por señales.
 """
@@ -17,10 +20,14 @@ import os
 import re
 import time
 
+from pathlib import Path
+
 from . import config
+from .ajustes import Ciudad, TareaIA
 from .util import guardar_json, huella, leer_json
 
-RUTA_CACHE = config.CACHE / "clasificacion_ia.json"
+IDIOMAS = {"ca": "catalán", "es": "castellano", "en": "inglés", "fr": "francés", "it": "italiano",
+           "de": "alemán", "pt": "portugués"}
 TIPOS = ["teatro", "magia", "circo", "danza", "evento", "cine", "otro"]
 RELACION_MAGIA = ["principal", "incluye", "tema", "no"]
 
@@ -57,12 +64,12 @@ def criterios() -> str:
     return m.group(1).strip()
 
 
-def instrucciones() -> str:
+def instrucciones(ciudad: Ciudad, idioma_textos: str) -> str:
     return (
-        "Clasificas actividades de la agenda de Barcelona para un directorio de artes escénicas "
+        f"Clasificas actividades de la agenda de {ciudad.nombre} para un directorio de artes escénicas "
         "(teatro, magia, circo y eventos del sector). Recibirás varias actividades en JSON, con textos "
-        "en catalán. Para cada una decide el tipo siguiendo estos criterios, que son la única regla "
-        "válida:\n\n"
+        f"en {IDIOMAS.get(idioma_textos, idioma_textos)}. Para cada una decide el tipo siguiendo estos "
+        "criterios, que son la única regla válida:\n\n"
         f"{criterios()}\n\n"
         "Formato de respuesta: un objeto por actividad, con el mismo «id». «subtipo» es una etiqueta "
         "breve en castellano (vacía si no aplica). «confianza» va de 0 a 1 y dice lo segura que es la "
@@ -73,17 +80,17 @@ def instrucciones() -> str:
 
 
 def _entrada(a: dict, senal: dict) -> dict:
-    g = a.get("guia") or {}
-    desc = (g.get("descripcion") or "").strip()
+    desc = "\n".join((a.get("descripcion") or {}).values()).strip()
     if len(desc) > 1800:
         desc = desc[:1800] + "…"
+    l = a.get("lugar") or {}
     return {
         "id": a["id"],
         "titulo": a["titulo"],
         "descripcion": desc or None,
-        "sala": g.get("sala") or a.get("sala"),
-        "tipo_de_lugar": g.get("se_celebra_a"),
-        "organiza": g.get("organiza"),
+        "sala": l.get("nombre_en_fuente") or l.get("nombre_casa"),
+        "tipo_de_lugar": l.get("tipo_de_lugar"),
+        "organiza": a.get("organiza"),
         "horario": (a.get("horario_texto") or "")[:500] or None,
         "fechas": f"{a.get('inicio')} → {a.get('fin')}",
         "pistas_automaticas": senal.get("pistas"),
@@ -94,43 +101,46 @@ def disponible() -> bool:
     return bool(os.environ.get("ANTHROPIC_API_KEY"))
 
 
-def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict],
-               candidatos: list[str]) -> tuple[dict[str, dict], dict]:
-    """Clasifica con IA los candidatos que no estén ya en caché.
+def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], candidatos: list[str],
+               tarea: TareaIA, carpeta_cache: Path, ciudad: Ciudad) -> tuple[dict[str, dict], dict]:
+    """Clasifica con IA, con el modelo de `tarea`, los candidatos que no estén ya en caché.
     Devuelve ({id: resultado}, informe)."""
-    cache: dict = leer_json(RUTA_CACHE, {}) or {}
+    ruta_cache = carpeta_cache / f"{tarea.nombre}.json"
+    cache: dict = leer_json(ruta_cache, {}) or {}
     for id_ in list(cache):
         if id_ not in actividades:
             del cache[id_]
-    informe = {"modelo": config.MODELO_IA, "disponible": disponible(), "enviadas": 0,
+    informe = {"tarea": tarea.nombre, "modelo": tarea.modelo, "activa": tarea.activa,
+               "disponible": disponible(), "candidatas": len(candidatos), "enviadas": 0,
                "errores": 0, "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0}
-    sistema = instrucciones() if disponible() else ""
-    firma = huella(sistema, config.MODELO_IA, config.ESFUERZO_IA)
+    idioma = next((a.get("idioma_textos") for a in actividades.values()), "ca")
+    sistema = instrucciones(ciudad, idioma) if disponible() else ""
+    firma = huella(sistema, tarea.modelo, tarea.esfuerzo)
     entradas = {i: _entrada(actividades[i], senales_por_id[i]) for i in candidatos}
     huellas = {i: huella(e, firma) for i, e in entradas.items()}
     pendientes = [i for i in candidatos if cache.get(i, {}).get("huella") != huellas[i]]
     informe["pendientes_antes"] = len(pendientes)
 
-    if disponible() and pendientes:
+    if tarea.activa and disponible() and pendientes:
         import anthropic  # solo hace falta si hay clave
 
         cliente = anthropic.Anthropic(max_retries=4)
-        pendientes = pendientes[: config.IA_MAXIMO_POR_EJECUCION]
-        for n in range(0, len(pendientes), config.ESPECTACULOS_POR_PETICION):
-            lote = pendientes[n:n + config.ESPECTACULOS_POR_PETICION]
+        pendientes = pendientes[: tarea.maximo_por_ejecucion]
+        for n in range(0, len(pendientes), tarea.por_peticion):
+            lote = pendientes[n:n + tarea.por_peticion]
             mensaje = json.dumps([entradas[i] for i in lote], ensure_ascii=False)
             try:
                 peticion = dict(
-                    model=config.MODELO_IA,
+                    model=tarea.modelo,
                     max_tokens=16000,
                     system=[{"type": "text", "text": sistema, "cache_control": {"type": "ephemeral"}}],
                     output_config={
-                        "effort": config.ESFUERZO_IA,
+                        "effort": tarea.esfuerzo,
                         "format": {"type": "json_schema", "schema": ESQUEMA},
                     },
                     messages=[{"role": "user", "content": mensaje}],
                 )
-                if "haiku" in config.MODELO_IA:
+                if "haiku" in tarea.modelo:  # Haiku no admite modelo de reserva
                     respuesta = cliente.messages.create(**peticion)
                 else:
                     # Si un filtro de seguridad rechazara la petición, el servidor la
@@ -151,7 +161,7 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict],
                     r["confianza"] = max(0.0, min(1.0, float(r["confianza"])))
                     r["subtipo"] = r.get("subtipo") or None
                     cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
-                                      "modelo": config.MODELO_IA, "fecha": time.strftime("%Y-%m-%d")}
+                                      "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
                 informe["enviadas"] += len(lote)
             except anthropic.AuthenticationError:
                 informe["errores"] += 1
@@ -165,11 +175,11 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict],
             except (json.JSONDecodeError, KeyError, StopIteration) as e:
                 informe["errores"] += 1
                 informe.setdefault("detalles", []).append(f"respuesta ilegible: {e}")
-            if (n // config.ESPECTACULOS_POR_PETICION) % 20 == 19:
-                guardar_json(RUTA_CACHE, cache, por_lineas=True)
-        guardar_json(RUTA_CACHE, cache, por_lineas=True)
+            if (n // tarea.por_peticion) % 20 == 19:
+                guardar_json(ruta_cache, cache, por_lineas=True)
+        guardar_json(ruta_cache, cache, por_lineas=True)
     elif cache:
-        guardar_json(RUTA_CACHE, cache, por_lineas=True)
+        guardar_json(ruta_cache, cache, por_lineas=True)
 
     resultados = {i: cache[i]["resultado"] | {"modelo": cache[i]["modelo"]}
                   for i in candidatos if cache.get(i, {}).get("huella") == huellas[i]}

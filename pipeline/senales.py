@@ -11,6 +11,10 @@ Esta capa:
 - da a la IA un resumen de pistas;
 - decide qué actividades hace falta enviar a la IA (las claramente ajenas al
   sector, como un concierto o una exposición, no se envían).
+
+Trabaja con el formato común de pipeline/fuentes/base.py. Su vocabulario está
+pensado para Barcelona (catalán, castellano, inglés): en ciudades con otros
+idiomas, la IA hace el trabajo principal y esta capa solo ayuda.
 """
 
 from __future__ import annotations
@@ -134,10 +138,10 @@ def _cuenta(patron: re.Pattern, texto: str) -> list[str]:
 
 def analizar(a: dict) -> dict:
     """Devuelve la clasificación por señales y las pistas encontradas."""
-    g = a.get("guia") or {}
     titulo = minus(a.get("titulo", ""))
-    desc = minus(g.get("descripcion", ""))
-    lugar = minus(" ".join(x for x in (g.get("sala"), g.get("se_celebra_a")) if x))
+    desc = minus(" ".join((a.get("descripcion") or {}).values()))
+    l = a.get("lugar") or {}
+    lugar = minus(" ".join(x for x in (l.get("nombre_en_fuente"), l.get("tipo_de_lugar")) if x))
     artista = ""
     m = re.search(r"\b(?:a càrrec d[e'’]?l?a?|a càrrec de|amb|con|de la cia\.?|per)\s+(.+)$", a.get("titulo", ""), re.I)
     if m:

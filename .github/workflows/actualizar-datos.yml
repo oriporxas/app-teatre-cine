@@ -11,8 +11,8 @@ on:
     - cron: "17 5 * * *"
   workflow_dispatch:
     inputs:
-      minutos_guia:
-        description: "Minutos máximos leyendo fichas de la guía"
+      minutos_lectura:
+        description: "Minutos máximos leyendo páginas web (por fuente)"
         default: "35"
 
 permissions:
@@ -42,12 +42,14 @@ jobs:
       - name: Actualizar datos
         env:
           # Clave de la IA de Claude. Si no existe, se clasifica solo por señales.
+          # Qué modelo hace cada tarea se decide en ajustes/ia.toml.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Modelo opcional (variable del repositorio MODELO_IA); por defecto claude-opus-5-5.
-          MODELO_IA: ${{ vars.MODELO_IA || 'claude-opus-5-5' }}
-        run: python -m pipeline.principal --minutos-guia "${{ github.event.inputs.minutos_guia || '35' }}"
+        run: python -m pipeline.principal --minutos-lectura "${{ github.event.inputs.minutos_lectura || '35' }}"
 
+      # Se guarda aunque el paso anterior avise de un error: cada ciudad ya ha
+      # dejado sus datos buenos (o los de ayer, si una fuente falló).
       - name: Guardar los datos en el repositorio
+        if: always()
         run: |
           git config user.name "actualizador-automatico"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

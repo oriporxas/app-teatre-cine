@@ -11,7 +11,7 @@ import datetime as dt
 import json
 from pathlib import Path
 
-from .util import limpiar_id
+from ...util import limpiar_id
 
 
 def _titulo(nombre: str) -> str:

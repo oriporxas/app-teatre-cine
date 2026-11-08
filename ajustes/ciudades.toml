@@ -1,0 +1,18 @@
+# Ciudades que cubre la app.
+#
+# Cada ciudad dice en qué país está, su zona horaria (para saber qué día y
+# hora es allí), su moneda, los idiomas en que se mostrará la app y qué
+# fuentes de datos se usan para ella. Las fuentes están en pipeline/fuentes/.
+#
+# Para añadir una ciudad en el futuro: copiar el bloque, cambiar los datos y
+# poner las fuentes que la cubran. Con «activa = false» se deja preparada sin
+# recoger datos.
+
+[barcelona]
+nombre = "Barcelona"
+pais = "ES"                    # código de país (ISO 3166-1)
+zona_horaria = "Europe/Madrid" # nombre oficial de la zona horaria (IANA)
+moneda = "EUR"                 # código de moneda (ISO 4217)
+idiomas = ["es", "ca"]         # idiomas de la app en esta ciudad (el primero, por defecto)
+fuentes = ["open_data_bcn"]
+activa = true

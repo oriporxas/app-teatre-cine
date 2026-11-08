@@ -32,6 +32,35 @@ fases» en el brief.
    no se pueda comprobar se marca «no verificado». Nunca se inventan premios,
    fechas ni repartos. Una sola ficha por obra aunque salga en varias fuentes.
 
+## Visión a largo plazo (resumen; completa en el brief)
+
+- **Hoja de ruta:** 1) artes escénicas y eventos en Barcelona hasta que
+  funcione muy bien (**prioridad actual; el plan de fases no cambia**);
+  2) cine en Barcelona; 3) si va bien, ciudad a ciudad hasta todo el mundo,
+  quizá como negocio (por eso el repositorio es privado).
+- **Dos trabajos separados, como Moovit:** la *recogida* va por detrás, a
+  horas fijas, lenta la primera vez y después solo lo nuevo o cambiado; la
+  *búsqueda* solo consulta la base de datos ya preparada y responde en menos
+  de un segundo, haya las ciudades que haya.
+- **Límites de velocidad web a web** (p. ej. 1 página cada 10 s): solo
+  afectan a la recogida, nunca al usuario; se pueden leer muchas webs a la vez.
+- **El coste crece con ciudades y espectáculos, no con las búsquedas.**
+- **Cobertura, ciudad a ciudad:** datos abiertos; proveedores de pago donde
+  los haya (cine: p. ej. International Showtimes); la IA leyendo la web de cada
+  sala; y a futuro, salas y artistas publicando en la app con verificación
+  automática.
+- **IA dentro de la app (cuando Uri avise):** probar Haiku 5.5, Sonnet 5.5 y
+  Opus 5.5 con la prueba de magia y enseñar aciertos y coste; Haiku para
+  clasificar y extraer, y solo lo dudoso (según la confianza guardada) y las
+  fichas de trayectoria y premios suben a un modelo superior; trabajo nocturno
+  por lotes (Batch, mitad de precio). Guiar a Uri paso a paso para crear la
+  clave; nunca la pegará en el chat.
+- **Hoy:** nada de escala mundial, pero sin cerrarle la puerta: datos con
+  ciudad y país (zona horaria, moneda, idiomas), cada fuente como pieza
+  independiente y modelo de IA por tarea en un ajuste. Ver
+  `docs/arquitectura.md`. Si algo choca con la visión, avisar a Uri sin
+  tecnicismos.
+
 ## Cómo trabajar con Uri
 
 - Uri **no sabe programar**. Explica todo paso a paso, en castellano, sin

@@ -1,6 +1,6 @@
 """Genera el informe de una prueba de magia a partir de los datos del día.
 
-Uso: python -m pipeline.prueba_magia [ruta_de_salida.md]
+Uso: python -m pipeline.prueba_magia [ruta_de_salida.md] [ciudad]
 
 Lista lo que el programa ha detectado, con el motivo de cada decisión, para
 que Uri diga qué sobra y qué falta. Sus respuestas se convierten en criterios
@@ -37,16 +37,17 @@ def _linea(f: dict) -> str:
     enlace = next((x["url"] for x in f.get("fuentes", []) if "guia.barcelona.cat" in x.get("url", "")), None)
     titulo = f"[{f['titulo']}]({enlace})" if enlace else f["titulo"]
     tipo = f["tipo"] + (f" › {f['subtipo']}" if f.get("subtipo") else "")
-    extra = "" if f.get("ficha_guia_leida") else " · ⚠️ sin descripción leída todavía"
+    extra = "" if f.get("detalle_leido") else " · ⚠️ sin descripción leída todavía"
     return (f"- **{titulo}** — {lugar} · {_fechas(f)}\n"
             f"  - Tipo: {tipo} · magia: {f['magia']} · seguridad: {round(f['confianza'] * 100)} %{extra}\n"
             f"  - Motivo: {f['motivo']}")
 
 
-def generar(salida: Path) -> dict:
-    fichas = leer_json(config.DATOS / "espectaculos.json", [])
-    todas = leer_json(config.DATOS / "clasificacion.json", {})
-    informe = leer_json(config.DATOS / "informe.json", {})
+def generar(salida: Path, ciudad: str = "barcelona") -> dict:
+    carpeta = config.carpeta_ciudad(ciudad)
+    fichas = leer_json(carpeta / "espectaculos.json", [])
+    todas = leer_json(carpeta / "clasificacion.json", {})
+    informe = leer_json(carpeta / "informe.json", {})
 
     magia = [f for f in fichas if f["magia"] == "principal" and f["confianza"] >= UMBRAL_DUDA]
     incluye = [f for f in fichas if f["magia"] == "incluye" and f["confianza"] >= UMBRAL_DUDA]
@@ -80,7 +81,7 @@ def generar(salida: Path) -> dict:
         "",
         f"- Actividades vigentes en las dos agendas: **{informe.get('actividades_vigentes', '?')}**.",
         f"- Clasificadas como espectáculo o evento del sector: **{informe.get('publicadas', '?')}**.",
-        f"- Fichas de la guía leídas (descripción, sala, artista): **{informe.get('con_ficha_guia', '?')}** "
+        f"- Fichas de la guía leídas (descripción, sala, artista): **{informe.get('con_detalle', '?')}** "
         "de las publicadas. Las demás se han clasificado solo por el título.",
         "- Quién ha decidido: " + (", ".join(f"{k}: {v}" for k, v in por.items()) or "?") + ".",
     ]
@@ -137,4 +138,4 @@ def generar(salida: Path) -> dict:
 if __name__ == "__main__":
     hoy = dt.date.today().isoformat()
     destino = Path(sys.argv[1]) if len(sys.argv) > 1 else config.DOCS / "pruebas" / f"{hoy}-magia.md"
-    print(generar(destino))
+    print(generar(destino, sys.argv[2] if len(sys.argv) > 2 else "barcelona"))

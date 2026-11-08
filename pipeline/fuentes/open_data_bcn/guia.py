@@ -6,8 +6,9 @@ programas; ver docs/fuentes/open-data-bcn.md). La ficha pública de la guía
 del Ayuntamiento sí los trae, y su robots.txt permite leerla pidiendo 10
 segundos entre página y página.
 
-Cada ficha se lee una vez y se guarda en data/cache/guia.json. Solo se
-vuelve a leer si el Ayuntamiento modifica la actividad.
+Cada ficha se lee una vez y se guarda en la caché de la ciudad
+(data/ciudades/barcelona/cache/open_data_bcn/guia.json). Solo se vuelve a
+leer si el Ayuntamiento modifica la actividad.
 """
 
 from __future__ import annotations
@@ -18,10 +19,15 @@ import time
 import urllib.error
 import urllib.request
 
-from . import config
-from .util import guardar_json, leer_json, limpiar_id, slug
+from pathlib import Path
 
-RUTA_CACHE = config.CACHE / "guia.json"
+from ...util import guardar_json, leer_json, slug
+
+URL = "https://guia.barcelona.cat/ca/detall/{slug}_{id}.html"
+# Su robots.txt pide 10 segundos entre peticiones: lo respetamos siempre.
+ESPERA_SEGUNDOS = 10
+# Minutos máximos leyendo fichas en una ejecución, si no se indica otra cosa.
+MINUTOS_POR_DEFECTO = 30
 
 
 def _limpiar(fragmento: str) -> str:
@@ -95,12 +101,12 @@ def _descargar_pagina(url: str) -> str:
         return r.read().decode("utf-8", errors="replace")
 
 
-def actualizar(actividades: dict[str, dict], prioridad: dict[str, float],
+def actualizar(actividades: dict[str, dict], prioridad: dict[str, float], ruta_cache: Path,
                minutos_maximos: float | None = None) -> dict:
     """Lee las fichas que falten o hayan cambiado, de más a menos prioritaria,
     sin pasar del tiempo máximo. Devuelve un informe."""
-    minutos_maximos = config.GUIA_MINUTOS_MAXIMOS if minutos_maximos is None else minutos_maximos
-    cache: dict = leer_json(RUTA_CACHE, {}) or {}
+    minutos_maximos = MINUTOS_POR_DEFECTO if minutos_maximos is None else minutos_maximos
+    cache: dict = leer_json(ruta_cache, {}) or {}
     # Olvidar fichas de actividades que ya no están en la agenda.
     for id_ in list(cache):
         if id_ not in actividades:
@@ -112,13 +118,13 @@ def actualizar(actividades: dict[str, dict], prioridad: dict[str, float],
     leidas = errores = 0
     ultima = 0.0
     for id_ in pendientes:
-        if time.monotonic() + config.GUIA_ESPERA_SEGUNDOS > limite:
+        if time.monotonic() + ESPERA_SEGUNDOS > limite:
             break
-        espera = config.GUIA_ESPERA_SEGUNDOS - (time.monotonic() - ultima)
+        espera = ESPERA_SEGUNDOS - (time.monotonic() - ultima)
         if espera > 0:
             time.sleep(espera)
         a = actividades[id_]
-        url = config.GUIA_URL.format(slug=slug(a["titulo"]), id=id_)
+        url = URL.format(slug=slug(a["titulo"]), id=id_)
         ultima = time.monotonic()
         try:
             datos = analizar(_descargar_pagina(url))
@@ -137,8 +143,8 @@ def actualizar(actividades: dict[str, dict], prioridad: dict[str, float],
         except Exception:  # noqa: BLE001 - red caída, página rara…
             errores += 1
         if leidas % 50 == 0 and leidas:
-            guardar_json(RUTA_CACHE, cache, por_lineas=True)  # guardado parcial
-    guardar_json(RUTA_CACHE, cache, por_lineas=True)
+            guardar_json(ruta_cache, cache, por_lineas=True)  # guardado parcial
+    guardar_json(ruta_cache, cache, por_lineas=True)
     return {
         "fichas_en_cache": len(cache),
         "leidas_hoy": leidas,
@@ -147,8 +153,5 @@ def actualizar(actividades: dict[str, dict], prioridad: dict[str, float],
     }
 
 
-def cargar() -> dict:
-    return leer_json(RUTA_CACHE, {}) or {}
-
-
-__all__ = ["analizar", "actualizar", "cargar", "limpiar_id"]
+def cargar(ruta_cache: Path) -> dict:
+    return leer_json(ruta_cache, {}) or {}

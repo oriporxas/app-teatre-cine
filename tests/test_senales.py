@@ -7,7 +7,9 @@ from pipeline import senales
 
 
 def actividad(titulo, descripcion="", sala=None, lugar=None):
-    return {"titulo": titulo, "guia": {"descripcion": descripcion, "sala": sala, "se_celebra_a": lugar}}
+    """Una actividad mínima en el formato común (pipeline/fuentes/base.py)."""
+    return {"titulo": titulo, "descripcion": {"ca": descripcion} if descripcion else {},
+            "lugar": {"nombre_en_fuente": sala, "tipo_de_lugar": lugar}}
 
 
 class TestSenales(unittest.TestCase):
