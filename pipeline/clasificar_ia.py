@@ -119,7 +119,8 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
             del cache[id_]
     informe = {"tarea": tarea.nombre, "modelo": tarea.modelo, "activa": tarea.activa,
                "disponible": disponible(), "candidatas": len(candidatos), "enviadas": 0,
-               "errores": 0, "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0}
+               "errores": 0, "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0,
+               "tokens_cache_escritura": 0}
     idioma = next((a.get("idioma_textos") for a in actividades.values()), "ca")
     sistema = instrucciones(ciudad, idioma) if disponible() else ""
     firma = huella(sistema, tarea.modelo, tarea.esfuerzo)
@@ -158,6 +159,7 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                 informe["tokens_entrada"] += uso.input_tokens or 0
                 informe["tokens_salida"] += uso.output_tokens or 0
                 informe["tokens_cache"] += getattr(uso, "cache_read_input_tokens", 0) or 0
+                informe["tokens_cache_escritura"] += getattr(uso, "cache_creation_input_tokens", 0) or 0
                 if respuesta.stop_reason in ("refusal", "max_tokens"):
                     informe["errores"] += 1
                     continue
