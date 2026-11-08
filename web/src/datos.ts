@@ -10,6 +10,8 @@ export interface Espectaculo {
   tipo: Tipo;
   subtipo?: string;
   tema_magia?: boolean;
+  /** En los eventos: de qué es el taller, festival o charla (teatro, magia, circo, clown). */
+  disciplina?: string;
   sala?: string;
   sala_interior?: string;
   sala_id?: string;

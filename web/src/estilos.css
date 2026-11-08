@@ -228,3 +228,25 @@ h3.caja-titulo { font-size: 16px; font-weight: 700; }
   h1 { font-size: 24px; }
   .sobretitulo { font-size: 11px; }
 }
+
+/* --- Calendario --- */
+.calendario-titulo { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.calendario { gap: 22px; }
+.mes { display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 8px; }
+.mes h3 { font-size: 15px; letter-spacing: 0.02em; text-transform: capitalize; color: var(--texto); }
+.semana, .dias { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 2px; }
+.semana span { text-align: center; font-size: 12px; font-weight: 600; color: var(--texto-suave); }
+.dia {
+  position: relative; min-height: 44px; border: none; border-radius: 10px; background: transparent;
+  color: var(--texto); font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums;
+}
+.dia:disabled { color: #55534E; cursor: default; }
+.dia.hoy { box-shadow: inset 0 0 0 1px var(--separador); }
+.dia.con-funciones::after {
+  content: ''; position: absolute; left: 50%; bottom: 6px; width: 4px; height: 4px; margin-left: -2px;
+  border-radius: 50%; background: var(--acento);
+}
+.dia.dentro { background: rgba(242, 193, 78, 0.18); border-radius: 0; }
+.dia.extremo { background: var(--acento); color: var(--sobre-acento); }
+.dia.extremo::after { background: var(--sobre-acento); }
+.chip svg { flex: 0 0 auto; }

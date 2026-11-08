@@ -8,13 +8,17 @@ import type { Textos } from './textos';
 export const FUNCIONES: Tipo[] = ['teatro', 'magia', 'circo'];
 export const PRECIO_TOPE = 155; // última posición del deslizable, después de 150 €: «Indefinido»
 
-export type ClaveFecha = 'todo' | 'hoy' | 'manana' | 'finde' | 'semana';
+export type ClaveFecha = 'todo' | 'hoy' | 'manana' | 'semana' | 'mes' | 'rango';
+// El calendario llega hasta dos años vista (obras en gira y temporadas largas).
+export const MESES_CALENDARIO = 24;
 
 export interface Filtros {
   tipo: 'todo' | Tipo;
   subMagia: string;
   subEvento: string;
   fecha: ClaveFecha;
+  desde: string; // solo con fecha «rango» (calendario)
+  hasta: string;
   q: string;
   precioMax: number | null;
   sinPrecio: boolean;
@@ -23,7 +27,7 @@ export interface Filtros {
 }
 
 export const FILTROS_INICIALES: Filtros = {
-  tipo: 'todo', subMagia: 'todas', subEvento: 'todos', fecha: 'todo', q: '',
+  tipo: 'todo', subMagia: 'todas', subEvento: 'todos', fecha: 'todo', desde: '', hasta: '', q: '',
   precioMax: null, sinPrecio: false, publico: 'cualquiera', idioma: 'cualquiera',
 };
 
@@ -49,18 +53,20 @@ function diaSemana(iso: string): number {
   return new Date(`${iso}T12:00:00Z`).getUTCDay();
 }
 
-export function rango(clave: ClaveFecha, hoy: string): [string, string] {
-  if (clave === 'hoy') return [hoy, hoy];
-  if (clave === 'manana') { const m = sumaDias(hoy, 1); return [m, m]; }
-  if (clave === 'semana') return [hoy, sumaDias(hoy, 6)];
-  if (clave === 'finde') {
-    const d = diaSemana(hoy);
-    if (d === 5) return [hoy, sumaDias(hoy, 2)];
-    if (d === 6) return [hoy, sumaDias(hoy, 1)];
-    if (d === 0) return [hoy, hoy];
-    const viernes = sumaDias(hoy, 5 - d);
-    return [viernes, sumaDias(viernes, 2)];
-  }
+export function finDeMes(iso: string): string {
+  const d = new Date(`${iso}T12:00:00Z`);
+  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 0, 12)).toISOString().slice(0, 10);
+}
+
+type ConFechas = Pick<Filtros, 'fecha' | 'desde' | 'hasta'>;
+
+export function rango(f: ConFechas, hoy: string): [string, string] {
+  if (f.fecha === 'hoy') return [hoy, hoy];
+  if (f.fecha === 'manana') { const m = sumaDias(hoy, 1); return [m, m]; }
+  // Esta semana: de hoy al domingo (la semana empieza el lunes).
+  if (f.fecha === 'semana') return [hoy, sumaDias(hoy, (7 - diaSemana(hoy)) % 7)];
+  if (f.fecha === 'mes') return [hoy, finDeMes(hoy)];
+  if (f.fecha === 'rango' && f.desde) return [f.desde < hoy ? hoy : f.desde, f.hasta || f.desde];
   return [hoy, '9999-12-31'];
 }
 
@@ -68,29 +74,29 @@ export function normaliza(s?: string): string {
   return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }
 
-export function grupoEvento(e: Espectaculo): string {
-  if (e.subtipo === 'festival') return 'festival';
-  if (e.subtipo === 'formación') return 'formacion';
-  if (e.subtipo === 'conferencia o coloquio') return 'charla';
-  return 'otros';
-}
+// Tipos de evento, en el orden en que se muestran.
+export const TIPOS_EVENTO = ['festival', 'formación', 'conferencia o coloquio', 'ensayo abierto', 'puertas abiertas',
+  'estreno', 'convocatoria', 'premios'];
 
 export function funcionesEnRango(e: Espectaculo, desde: string, hasta: string) {
   return e.funciones.filter(([f]) => f >= desde && f <= hasta);
 }
 
-export type Ignorar = 'tipo' | 'sub' | null;
+export type Ignorar = 'tipo' | 'sub' | 'fecha' | null;
 
 export function pasa(e: Espectaculo, f: Filtros, hoy: string, ignorar: Ignorar = null): boolean {
   if (ignorar !== 'tipo') {
     if (f.tipo === 'todo' ? !FUNCIONES.includes(e.tipo) : e.tipo !== f.tipo) return false;
     if (ignorar !== 'sub' && f.tipo === 'magia' && f.subMagia !== 'todas' && (e.subtipo || 'magia general') !== f.subMagia) return false;
-    if (ignorar !== 'sub' && f.tipo === 'eventos' && f.subEvento !== 'todos') {
-      if (f.subEvento === 'magia' ? !e.tema_magia : grupoEvento(e) !== f.subEvento) return false;
-    }
+    if (ignorar !== 'sub' && f.tipo === 'eventos' && f.subEvento !== 'todos' && e.subtipo !== f.subEvento) return false;
   }
-  const [desde, hasta] = rango(f.fecha, hoy);
+  if (ignorar === 'fecha') return pasaResto(e, f);
+  const [desde, hasta] = rango(f, hoy);
   if (funcionesEnRango(e, desde, hasta).length === 0) return false;
+  return pasaResto(e, f);
+}
+
+function pasaResto(e: Espectaculo, f: Filtros): boolean {
   if (f.precioMax != null) {
     const sinPrecio = !e.gratis && e.precio_min == null;
     if (sinPrecio ? !f.sinPrecio : !(e.gratis || (e.precio_min as number) <= f.precioMax)) return false;
@@ -114,9 +120,20 @@ function textoBusqueda(e: Espectaculo): string {
 }
 
 export function filtrar(lista: Espectaculo[], f: Filtros, hoy: string): Espectaculo[] {
-  const [desde, hasta] = rango(f.fecha, hoy);
+  const [desde, hasta] = rango(f, hoy);
   const clave = (e: Espectaculo) => { const [d, h] = funcionesEnRango(e, desde, hasta)[0]; return d + (h || ''); };
   return lista.filter((e) => pasa(e, f, hoy)).sort((a, b) => clave(a).localeCompare(clave(b)));
+}
+
+export function fmtRango(f: ConFechas, t: Textos): string {
+  if (!f.desde) return t.fechas.rango;
+  if (!f.hasta || f.hasta === f.desde) return fmtCorto(f.desde, t);
+  return `${fmtCorto(f.desde, t)} – ${fmtCorto(f.hasta, t)}`;
+}
+
+export function fmtCorto(iso: string, t: Textos): string {
+  const d = new Date(`${iso}T12:00:00Z`);
+  return `${d.getUTCDate()} ${t.meses[d.getUTCMonth()]}`;
 }
 
 export function cuantosFiltros(f: Filtros): number {
@@ -143,7 +160,12 @@ export function precioTxt(e: Espectaculo, t: Textos): string {
 
 export function tipoTxt(e: Espectaculo, t: Textos): string {
   if (e.tipo === 'magia') return `${t.tipos.magia} · ${t.subsMagia[e.subtipo || 'magia general'] || t.subsMagia['magia general']}`;
-  if (e.tipo === 'eventos') return t.eventos[e.subtipo || ''] || t.tipos.eventos;
+  if (e.tipo === 'eventos') {
+    const base = t.eventos[e.subtipo || ''] || t.tipos.eventos;
+    const disciplina = e.disciplina ? t.disciplinas[e.disciplina] : '';
+    return disciplina ? `${base} · ${disciplina}` : base;
+  }
+  if (e.tipo === 'teatro' && e.subtipo === 'clown') return `${t.tipos.teatro} · ${t.disciplinas.clown}`;
   return t.tipos[e.tipo];
 }
 

@@ -1,8 +1,9 @@
 import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, type RefObject } from 'react';
 import { cargarCartelera, type Cartelera, type Espectaculo } from './datos';
 import {
-  FILTROS_INICIALES, FUNCIONES, PRECIO_TOPE, cuantosFiltros, duracionTxt, filtrar, fmtDia, funcionesEnRango,
-  grupoEvento, hoyEn, pasa, precioTxt, publicoTxt, rango, tipoTxt, type ClaveFecha, type Filtros,
+  FILTROS_INICIALES, FUNCIONES, MESES_CALENDARIO, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
+  fmtCorto, fmtDia, fmtRango, funcionesEnRango, hoyEn, pasa, precioTxt, publicoTxt, rango, tipoTxt,
+  type ClaveFecha, type Filtros,
 } from './filtros';
 import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from './textos';
 
@@ -31,7 +32,7 @@ export default function App() {
   const [cartelera, setCartelera] = useState<Cartelera | null>(null);
   const [error, setError] = useState(false);
   const [filtros, setFiltros] = useState<Filtros>(FILTROS_INICIALES);
-  const [hojaAbierta, setHojaAbierta] = useState(false);
+  const [hoja, setHoja] = useState<null | 'filtros' | 'calendario'>(null);
   const [limite, setLimite] = useState(POR_PAGINA);
   const navegado = useRef(false);
   const scrollLista = useRef(0);
@@ -72,7 +73,7 @@ export default function App() {
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
           filtros={filtros} cambiar={cambiar} limite={limite} setLimite={setLimite}
-          abrirHoja={() => setHojaAbierta(true)} scrollLista={scrollLista}
+          abrirFiltros={() => setHoja('filtros')} abrirCalendario={() => setHoja('calendario')} scrollLista={scrollLista}
         />
       ) : null}
       {ruta.vista === 'ficha' && actual ? <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} /> : null}
@@ -94,8 +95,11 @@ export default function App() {
         </a>
       </nav>
 
-      {hojaAbierta && cartelera ? (
-        <HojaFiltros t={t} lista={lista} hoy={hoy} filtros={filtros} cambiar={cambiar} cerrar={() => setHojaAbierta(false)} />
+      {hoja === 'filtros' && cartelera ? (
+        <HojaFiltros t={t} lista={lista} hoy={hoy} filtros={filtros} cambiar={cambiar} cerrar={() => setHoja(null)} />
+      ) : null}
+      {hoja === 'calendario' && cartelera ? (
+        <HojaCalendario t={t} lista={lista} hoy={hoy} filtros={filtros} cambiar={cambiar} cerrar={() => setHoja(null)} />
       ) : null}
     </div>
   );
@@ -106,10 +110,10 @@ export default function App() {
 interface PropsCartelera {
   t: Textos; lang: Idioma; setLang: (l: Idioma) => void; cartelera: Cartelera | null; error: boolean; hoy: string;
   filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; limite: number; setLimite: (n: number) => void;
-  abrirHoja: () => void; scrollLista: RefObject<number>;
+  abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>;
 }
 
-function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirHoja, scrollLista }: PropsCartelera) {
+function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista }: PropsCartelera) {
   const lista = cartelera?.espectaculos ?? [];
   const q = useDeferredValue(filtros.q);
   const f = useMemo(() => ({ ...filtros, q }), [filtros, q]);
@@ -124,7 +128,9 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
     lista.reduce((n, e) => n + (cumple(e) && pasa(e, f, hoy, ignorar) ? 1 : 0), 0);
 
   const tipos: Filtros['tipo'][] = ['todo', 'teatro', 'magia', 'circo', 'eventos'];
-  const [desde, hasta] = rango(f.fecha, hoy);
+  const [desde, hasta] = rango(f, hoy);
+  // Solo los tipos de evento que hay de verdad (sin «otros»: todo está clasificado).
+  const tiposEvento = TIPOS_EVENTO.filter((k) => lista.some((e) => e.tipo === 'eventos' && e.subtipo === k));
   const nFiltros = cuantosFiltros(filtros);
 
   return (
@@ -179,26 +185,31 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
 
       {filtros.tipo === 'eventos' ? (
         <div className="chips" role="group" aria-label={t.tipoEvento}>
-          {['todos', 'festival', 'formacion', 'charla', 'magia', 'otros'].map((k) => (
+          {['todos', ...tiposEvento].map((k) => (
             <button key={k} type="button" className="chip pequeno" aria-pressed={filtros.subEvento === k} onClick={() => cambiar({ subEvento: k })}>
               {t.subsEvento[k]}
-              {cartelera ? <span className="num">{contar((e) => e.tipo === 'eventos' && (k === 'todos' || (k === 'magia' ? !!e.tema_magia : grupoEvento(e) === k)), 'sub')}</span> : null}
+              {cartelera ? <span className="num">{contar((e) => e.tipo === 'eventos' && (k === 'todos' || e.subtipo === k), 'sub')}</span> : null}
             </button>
           ))}
         </div>
       ) : null}
 
       <div className="chips" role="group" aria-label={t.cuando}>
-        {(['todo', 'hoy', 'manana', 'finde', 'semana'] as ClaveFecha[]).map((k) => (
-          <button key={k} type="button" className="chip pequeno" aria-pressed={filtros.fecha === k} onClick={() => cambiar({ fecha: k })}>
+        {(['hoy', 'manana', 'semana', 'mes'] as ClaveFecha[]).map((k) => (
+          <button key={k} type="button" className="chip pequeno" aria-pressed={filtros.fecha === k}
+            onClick={() => cambiar({ fecha: filtros.fecha === k ? 'todo' : k, desde: '', hasta: '' })}>
             {t.fechas[k]}
           </button>
         ))}
+        <button type="button" className="chip pequeno" aria-pressed={filtros.fecha === 'rango'} aria-haspopup="dialog" onClick={abrirCalendario}>
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="5" width="16" height="15" rx="2" /><path d="M4 10h16M9 3v4M15 3v4" /></svg>
+          {filtros.fecha === 'rango' ? fmtRango(filtros, t) : t.fechas.rango}
+        </button>
       </div>
 
       <div className="resumen">
         <span aria-live="polite">{error ? t.error : cartelera ? t.resultados(resultados.length) : ''}</span>
-        <button type="button" className="boton-filtros" onClick={abrirHoja} disabled={!cartelera}>
+        <button type="button" className="boton-filtros" onClick={abrirFiltros} disabled={!cartelera}>
           <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" /><circle cx="16" cy="7" r="2" /><circle cx="10" cy="17" r="2" /></svg>
           <span>{t.filtros}</span>
           {nFiltros > 0 ? <span className="insignia">{nFiltros}</span> : null}
@@ -378,16 +389,9 @@ function Ficha({ t, lang, e, hoy, volver }: { t: Textos; lang: Idioma; e: Espect
   );
 }
 
-// --- Más filtros (hoja que sube desde abajo) -----------------------------------------
+// --- Hojas que suben desde abajo («Más filtros» y el calendario) ------------------------
 
-function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
-  t: Textos; lista: Espectaculo[]; hoy: string; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; cerrar: () => void;
-}) {
-  const primero = useRef<HTMLButtonElement>(null);
-  const n = useMemo(() => filtrar(lista, filtros, hoy).length, [lista, filtros, hoy]);
-  const indefinido = filtros.precioMax == null;
-  const precioTxtFiltro = indefinido ? t.indefinido : t.hasta(filtros.precioMax as number);
-
+function useHoja(cerrar: () => void, primero: RefObject<HTMLElement | null>) {
   const alCerrar = useRef(cerrar);
   alCerrar.current = cerrar;
   useEffect(() => {
@@ -403,7 +407,114 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
       document.body.style.overflow = desbordamiento;
       anterior?.focus({ preventScroll: true });
     };
-  }, []);
+  }, [primero]);
+}
+
+function BotonCerrar({ t, cerrar, refBoton }: { t: Textos; cerrar: () => void; refBoton: RefObject<HTMLButtonElement | null> }) {
+  return (
+    <button ref={refBoton} type="button" className="boton-icono relleno" onClick={cerrar} aria-label={t.cerrar}>
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+  );
+}
+
+// Calendario: de este mes a dos años vista; se elige un día o del primer día al último.
+function HojaCalendario({ t, lista, hoy, filtros, cambiar, cerrar }: {
+  t: Textos; lista: Espectaculo[]; hoy: string; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; cerrar: () => void;
+}) {
+  const primero = useRef<HTMLButtonElement>(null);
+  const mesElegido = useRef<HTMLDivElement>(null);
+  useHoja(cerrar, primero);
+  const [desde, setDesde] = useState(filtros.fecha === 'rango' ? filtros.desde : '');
+  const [hasta, setHasta] = useState(filtros.fecha === 'rango' ? filtros.hasta : '');
+  const fin = hasta || desde;
+
+  // Días con funciones según los demás filtros (tipo, precio, público…).
+  const conFunciones = useMemo(() => {
+    const dias = new Set<string>();
+    for (const e of lista) if (pasa(e, filtros, hoy, 'fecha')) for (const [d] of e.funciones) if (d >= hoy) dias.add(d);
+    return dias;
+  }, [lista, filtros, hoy]);
+  const n = useMemo(() => filtrar(lista, { ...filtros, fecha: desde ? 'rango' : 'todo', desde, hasta: fin }, hoy).length,
+    [lista, filtros, hoy, desde, fin]);
+
+  useEffect(() => { mesElegido.current?.scrollIntoView({ block: 'start' }); }, []);
+
+  const elegir = (d: string) => {
+    if (!desde || hasta) { setDesde(d); setHasta(''); return; }
+    if (d < desde) { setHasta(desde); setDesde(d); } else setHasta(d);
+  };
+  const aplicar = () => { cambiar({ fecha: desde ? 'rango' : 'todo', desde, hasta: fin }); cerrar(); };
+
+  const [anio0, mes0] = hoy.split('-').map(Number);
+  const meses = Array.from({ length: MESES_CALENDARIO + 1 }, (_, i) => {
+    const total = mes0 - 1 + i;
+    return { anio: anio0 + Math.floor(total / 12), mes: total % 12 };
+  });
+  const pad = (x: number) => String(x).padStart(2, '0');
+
+  return (
+    <div className="fondo-hoja" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
+      <div className="hoja" role="dialog" aria-modal="true" aria-labelledby="titulo-calendario">
+        <div className="hoja-cabecera">
+          <div className="calendario-titulo">
+            <h2 id="titulo-calendario">{t.calTitulo}</h2>
+            <span className="cuando" aria-live="polite">{desde ? t.calDel(fmtCorto(desde, t), fmtCorto(fin, t)) : ' '}</span>
+          </div>
+          <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
+        </div>
+        <div className="hoja-cuerpo calendario">
+          <p className="nota">{t.calAyuda} {t.calPuntos}</p>
+          {meses.map(({ anio, mes }) => {
+            const primeroDelMes = `${anio}-${pad(mes + 1)}-01`;
+            const dias = new Date(Date.UTC(anio, mes + 1, 0)).getUTCDate();
+            const hueco = (new Date(Date.UTC(anio, mes, 1)).getUTCDay() + 6) % 7; // la semana empieza el lunes
+            const contieneDesde = desde.startsWith(primeroDelMes.slice(0, 7));
+            return (
+              <div key={primeroDelMes} className="mes" ref={contieneDesde ? mesElegido : undefined}>
+                <h3>{t.mesesLargos[mes]} {anio}</h3>
+                <div className="semana" aria-hidden="true">{t.diasCortos.map((d) => <span key={d}>{d}</span>)}</div>
+                <div className="dias">
+                  {Array.from({ length: hueco }, (_, i) => <span key={`h${i}`} />)}
+                  {Array.from({ length: dias }, (_, i) => {
+                    const iso = `${anio}-${pad(mes + 1)}-${pad(i + 1)}`;
+                    const pasado = iso < hoy;
+                    const extremo = iso === desde || iso === fin;
+                    const dentro = !!desde && iso > desde && iso < fin;
+                    const clases = ['dia', extremo ? 'extremo' : '', dentro ? 'dentro' : '', iso === hoy ? 'hoy' : '',
+                      conFunciones.has(iso) ? 'con-funciones' : ''].filter(Boolean).join(' ');
+                    return (
+                      <button key={iso} type="button" className={clases} disabled={pasado} aria-pressed={extremo || dentro}
+                        aria-label={fmtDia(iso, t)} onClick={() => elegir(iso)}>
+                        {i + 1}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="hoja-botones">
+          <button type="button" className="boton-secundario" onClick={() => { setDesde(''); setHasta(''); }}>{t.calQuitar}</button>
+          <button type="button" className="boton-principal" onClick={aplicar}>{t.ver(n)}</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// --- Más filtros ----------------------------------------------------------------------
+
+function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
+  t: Textos; lista: Espectaculo[]; hoy: string; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; cerrar: () => void;
+}) {
+  const primero = useRef<HTMLButtonElement>(null);
+  const n = useMemo(() => filtrar(lista, filtros, hoy).length, [lista, filtros, hoy]);
+  const indefinido = filtros.precioMax == null;
+  const precioTxtFiltro = indefinido ? t.indefinido : t.hasta(filtros.precioMax as number);
+
+  useHoja(cerrar, primero);
 
   const opciones = (clave: 'publico' | 'idioma', valores: string[], textos: Record<string, string>) => (
     <div className="opciones">
@@ -418,9 +529,7 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
       <div className="hoja" role="dialog" aria-modal="true" aria-labelledby="titulo-filtros">
         <div className="hoja-cabecera">
           <h2 id="titulo-filtros">{t.filtros}</h2>
-          <button ref={primero} type="button" className="boton-icono relleno" onClick={cerrar} aria-label={t.cerrar}>
-            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
-          </button>
+          <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
         </div>
 
         <div className="hoja-cuerpo">
