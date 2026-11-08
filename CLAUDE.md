@@ -17,6 +17,16 @@ avisar cuándo activar la IA (entonces, prueba de los tres modelos y creación d
 la clave `ANTHROPIC_API_KEY`). Hasta entonces la app clasifica solo por señales.
 Siguiente fase: 2 (interfaz). Ver «Plan por fases» en el brief.
 
+Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
+móvil en https://claude.ai/artifact/9WzwWKvR8AT6zFEhQKjvrU (cartelera con
+pestañas, fechas, buscador, filtros, idioma ES/CA, ficha y avance de mapa y
+favoritos). Pendiente del visto bueno de Uri.
+
+Aviso (8/11/2026): GitHub suspendió la cuenta de Uri (oriporxas) sin explicar
+el motivo; se le propuso escribir a soporte. Mientras dure, no hay acceso al
+repositorio ni se ejecuta la tarea diaria. Uri tiene copias completas del
+proyecto. No crear otra cuenta para esquivar la suspensión.
+
 ## Principios (no negociables)
 
 1. **La app funciona sola.** Se actualiza cada día sin que nadie revise nada a
