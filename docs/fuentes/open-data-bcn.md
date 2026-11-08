@@ -122,6 +122,23 @@ usan; de todas formas, el brief dice que solo son una pista y que fallan.
 - Cada sala guarda dirección, barrio, distrito, coordenadas, salas interiores,
   categorías de equipamiento e identificadores de la guía.
 
+### Salas que el brief no encontraba por su nombre (comprobado el 8/11/2026)
+
+Buscadas por nombre y por la dirección donde se conocen:
+
+| Sala | Qué hay en la agenda |
+|---|---|
+| Akademia | Está, como «Teatre Akadèmia» (con acento): 3 espectáculos. |
+| Almeria (c. Sant Lluís, 64) | En esa dirección la guía del Ayuntamiento dice «Teatre Golem's»: 9 espectáculos. |
+| BARTS (Av. Paral·lel, 62) | En esa dirección la guía dice «Sala Paral·lel 62»: 4 espectáculos. |
+| La Seca (c. Flassaders, 40) | En esa dirección la guía dice «Fundació Joan Brossa - Centre de les Arts Lliures»: 7 espectáculos. |
+| Capitol (La Rambla, 138) | Nada en la agenda. Se cubrirá con la web de la sala (fase 5). |
+| Price | Nada en la agenda con ese nombre. Pendiente de saber a qué sala se refería. |
+
+Conclusión: casi todas están; la app usa el nombre que da hoy el Ayuntamiento.
+Como las salas se agrupan por dirección, si una sala cambia de nombre sigue
+siendo la misma ficha.
+
 ## Otras fuentes revisadas para más adelante
 
 - **Agenda cultural de la Generalitat** (dades obertes de Catalunya,
