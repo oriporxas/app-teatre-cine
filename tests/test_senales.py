@@ -162,6 +162,10 @@ class TestSenales(unittest.TestCase):
         r = senales.analizar(actividad("Festival de Màgia d'Exemple 2026"))
         self.assertEqual((r["tipo"], r["subtipo"], r["magia"]), ("evento", "festival", "tema"))
 
+    def test_ciclo_de_musica_no_es_del_sector(self):
+        r = senales.analizar(actividad("Cicle de Jazz al barri", "Concerts de jazz cada divendres a l'escenari de la plaça."))
+        self.assertEqual(r["tipo"], "otro")
+
     def test_festival_con_ordinal_delante(self):
         r = senales.analizar(actividad("12è Festival de Màgia d'Exemple"))
         self.assertEqual((r["tipo"], r["subtipo"]), ("evento", "festival"))

@@ -323,6 +323,9 @@ def analizar(a: dict) -> dict:
         sub = {"formacion": "formación", "festival": "festival", "charla": "conferencia o coloquio",
                "ensayo_abierto": "ensayo abierto", "puertas_abiertas": "puertas abiertas",
                "convocatoria": "convocatoria", "premios": "premios"}[formato]
+        # Un festival o ciclo de música o de cine no es del sector, aunque mencione un escenario.
+        if formato == "festival" and max(musica, cine) >= 3 and max(musica, cine) > sector:
+            return decidir("otro", "música" if musica >= cine else "cine", "no", 0.75, "festival o ciclo de otra disciplina")
         if sector >= 2 or formato in ("ensayo_abierto", "convocatoria"):
             rel = relacion_magia("evento")
             tema = max(disciplinas, key=disciplinas.get)
