@@ -15,7 +15,10 @@ Estado (8/11/2026): fase 1 (datos) construida y probada. Prueba de magia
 respondida por Uri y aplicada a los criterios (ver abajo). Fase 2 (interfaz):
 la app está hecha y probada en tamaño móvil (`web/`), con la cartelera real;
 **falta publicarla** (elegir alojamiento cuando se aclare lo de GitHub) y la
-traducción al castellano de las descripciones, que llega con la IA.
+traducción al castellano de las descripciones, que llega con la IA. Mientras,
+Uri la puede probar como página privada de Claude:
+https://claude.ai/artifact/7ZSzcw6GNbXXf5idrGQw3z (se actualiza a mano: allí no
+cargan las fotos de los carteles ni funciona sin conexión).
 Pendiente de Uri: avisar cuándo activar la IA (entonces, prueba de los tres
 modelos y creación de la clave `ANTHROPIC_API_KEY`). Hasta entonces la app
 clasifica solo por señales. Ver «Plan por fases» en el brief.
