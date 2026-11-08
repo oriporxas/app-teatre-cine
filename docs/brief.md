@@ -135,8 +135,8 @@ No existe un estándar mundial de carteleras de teatro, como el GTFS en el trans
 
 ### La IA que trabaja dentro de la app
 Cuando la activemos (sin prisa; Uri avisará):
-- Probar los tres modelos (Haiku 5.5, Sonnet 5.5 y Opus 5.5) con la prueba de magia y enseñar a Uri aciertos y coste de cada uno, para elegir con datos.
-- La idea es usar Haiku para clasificar y extraer datos, y que solo los casos dudosos y las fichas de trayectoria y premios pasen a un modelo superior. La app ya guarda lo segura que está de cada decisión: se usa para decidir qué casos suben de modelo.
+- Probar los tres modelos (Haiku 5.5, Sonnet 5.5 y Opus 5.5) con la prueba de magia y enseñar a Uri aciertos y coste de cada uno, para elegir con datos. **Hecho el 8/11/2026** (`docs/pruebas/2026-11-08-prueba-modelos.md`): todos aciertan la magia; en los casos difíciles Haiku se equivoca muy seguro de sí mismo, así que sus fallos no llegarían nunca a revisarse.
+- Propuesta (pendiente de que Uri la apruebe): Sonnet clasifica y solo lo dudoso (según la confianza guardada) y las fichas de trayectoria y premios pasan a Opus. Haiku queda para tareas sin interpretación (extraer datos ya escritos). Coste estimado en Barcelona: unos 4,6 $ la primera vez y como mucho 12 $ al mes (6 $ por lotes).
 - Usar el procesamiento por lotes (Batch) para el trabajo nocturno, que cuesta la mitad.
 - Cuando toque crear la clave, guiar a Uri paso a paso. Uri nunca la pegará en el chat.
 
@@ -149,7 +149,8 @@ Cuando la activemos (sin prisa; Uri avisará):
 - Si alguna decisión ya tomada choca con esta visión, se avisa a Uri y se le explica sin tecnicismos.
 
 ## Pendiente de Uri
-- Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).
-- Presupuesto mensual (se decide al ver el coste real en la fase 3).
+- ~~Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).~~ Hecho el 8/11/2026: clave creada y prueba hecha.
+- Aprobar qué modelos usa la IA (propuesta: Sonnet clasifica y Opus revisa lo dudoso; ver `docs/pruebas/2026-11-08-prueba-modelos.md`).
+- Presupuesto mensual y saldo en la consola de Anthropic: la propuesta cuesta unos 4,6 $ la primera vez y como mucho 12 $ al mes en Barcelona.
 - Nombre de la app (más adelante). Mientras, se llama «Cartelera Barcelona».
 - Dónde publicar la app (cuando se aclare lo de GitHub; Claude propondrá opciones gratuitas).

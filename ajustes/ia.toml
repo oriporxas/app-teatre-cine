@@ -6,18 +6,21 @@
 #   claude-sonnet-5-5  2 $ / 10 $
 #   claude-opus-5-5    4 $ / 20 $        (el más preciso de uso general)
 #
-# Estos valores son provisionales: cuando se active la IA, se probarán los
-# tres modelos con la prueba de magia y se elegirá con datos (ver brief,
-# «Visión a largo plazo»).
+# Elegidos con la prueba de los tres modelos del 8/11/2026
+# (docs/pruebas/2026-11-08-prueba-modelos.md): todos aciertan la magia, pero
+# en los casos difíciles Haiku se equivoca muy seguro de sí mismo (y así sus
+# fallos nunca llegarían a revisarse), mientras que Sonnet avisa cuando duda.
+# Por eso clasifica Sonnet y solo lo dudoso sube a Opus. Pendiente de que Uri
+# lo apruebe; para cambiarlo basta con cambiar el nombre del modelo.
 #
-# La IA solo funciona si existe el secreto ANTHROPIC_API_KEY en GitHub. Sin
-# él, la app clasifica con la capa de señales y no gasta nada.
+# La IA solo funciona si existe la clave (secreto ANTHROPIC_API_KEY en GitHub,
+# o CLAVE_IA_CARTELERA en el entorno de la nube de Claude). Sin ella, la app clasifica con la capa de señales y no gasta nada.
 
 # 1. Clasificar actividades nuevas o cambiadas (tipo, relación con la magia…).
 [clasificar]
 activa = true
-modelo = "claude-haiku-5-5"
-esfuerzo = "low"               # low, medium, high: cuánto «piensa» antes de responder
+modelo = "claude-sonnet-5-5"
+esfuerzo = "medium"            # low, medium, high: cuánto «piensa» antes de responder
 por_peticion = 10              # actividades que se envían juntas en cada petición
 maximo_por_ejecucion = 1000    # tope diario, para controlar el coste
 

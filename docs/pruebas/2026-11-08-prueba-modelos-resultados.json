@@ -1,0 +1,4742 @@
+{
+ "prueba": "Comparación de modelos de IA (Haiku 5.5, Sonnet 5.5, Opus 5.5) con la prueba de magia y 40 casos difíciles",
+ "fecha": "2026-11-08",
+ "conjunto_a": [
+  "open_data_bcn:99400676015",
+  "open_data_bcn:99400781893",
+  "open_data_bcn:99400743868",
+  "open_data_bcn:99400786807",
+  "open_data_bcn:99400694096",
+  "open_data_bcn:99400786325",
+  "open_data_bcn:99400788293",
+  "open_data_bcn:99400784219",
+  "open_data_bcn:99400788475",
+  "open_data_bcn:99400789394",
+  "open_data_bcn:99400718524",
+  "open_data_bcn:99400753205",
+  "open_data_bcn:99400788812",
+  "open_data_bcn:99400784715",
+  "open_data_bcn:99400781427",
+  "open_data_bcn:99400789518",
+  "open_data_bcn:99400782532",
+  "open_data_bcn:99400726524",
+  "open_data_bcn:99400786635",
+  "open_data_bcn:99400673396",
+  "open_data_bcn:99400789961",
+  "open_data_bcn:99400280534",
+  "open_data_bcn:99400788806",
+  "open_data_bcn:99400697762",
+  "open_data_bcn:99400763392",
+  "open_data_bcn:99400789555",
+  "open_data_bcn:99400787990",
+  "open_data_bcn:99400789516",
+  "open_data_bcn:99400616888",
+  "open_data_bcn:99400740401",
+  "open_data_bcn:99400790131",
+  "open_data_bcn:99400785634",
+  "open_data_bcn:99400785082",
+  "open_data_bcn:99400788848",
+  "open_data_bcn:99400763970",
+  "open_data_bcn:99400786552",
+  "open_data_bcn:99400789303",
+  "open_data_bcn:99400773085",
+  "open_data_bcn:98148132742",
+  "open_data_bcn:99400785635",
+  "open_data_bcn:99400762080",
+  "open_data_bcn:99400765343",
+  "open_data_bcn:99400762080",
+  "open_data_bcn:99400765343",
+  "open_data_bcn:99400749863",
+  "open_data_bcn:99400785236",
+  "open_data_bcn:99400786562",
+  "open_data_bcn:99400776259",
+  "open_data_bcn:99400684765",
+  "open_data_bcn:99400703229",
+  "open_data_bcn:99400786549",
+  "open_data_bcn:99400789709",
+  "open_data_bcn:99400789706",
+  "open_data_bcn:99400720832",
+  "open_data_bcn:99400784572"
+ ],
+ "conjunto_b": [
+  "open_data_bcn:99400527360",
+  "open_data_bcn:99400787404",
+  "open_data_bcn:99400743819",
+  "open_data_bcn:99400731875",
+  "open_data_bcn:99400769078",
+  "open_data_bcn:99400787013",
+  "open_data_bcn:99400787894",
+  "open_data_bcn:99400771941",
+  "open_data_bcn:99400786445",
+  "open_data_bcn:99400790083",
+  "open_data_bcn:99400785606",
+  "open_data_bcn:99400787033",
+  "open_data_bcn:99400762381",
+  "open_data_bcn:99400721138",
+  "open_data_bcn:99400786143",
+  "open_data_bcn:99400788616",
+  "open_data_bcn:99400776977",
+  "open_data_bcn:99400760251",
+  "open_data_bcn:99400776441",
+  "open_data_bcn:99400481190",
+  "open_data_bcn:99400789772",
+  "open_data_bcn:99400773342",
+  "open_data_bcn:99400768927",
+  "open_data_bcn:99400784883",
+  "open_data_bcn:99400732239",
+  "open_data_bcn:99400786555",
+  "open_data_bcn:99400731243",
+  "open_data_bcn:99400614518",
+  "open_data_bcn:99400740070",
+  "open_data_bcn:99400732231",
+  "open_data_bcn:99400789300",
+  "open_data_bcn:99400750983",
+  "open_data_bcn:1338100528",
+  "open_data_bcn:99400776451",
+  "open_data_bcn:99400030494",
+  "open_data_bcn:99400789477",
+  "open_data_bcn:99400775551",
+  "open_data_bcn:99400784476",
+  "open_data_bcn:99400789433",
+  "open_data_bcn:99400789726"
+ ],
+ "titulos": {
+  "open_data_bcn:99400676015": "Espectacle \"El Mago Pop\"",
+  "open_data_bcn:99400781893": "Espectacle \"Hangar 52\", amb el Mago Yunke",
+  "open_data_bcn:99400743868": "Espectacle \"Magia i comèdia al Bosc de les Fades\"",
+  "open_data_bcn:99400786807": "Espectacle \"Inexplicable\", amb Manu Llari",
+  "open_data_bcn:99400694096": "Espectacle \"Magia a la carta\", a càrrec de Daniel Sanchez",
+  "open_data_bcn:99400786325": "Espectacle familiar \"La biblioteca secreta\", de Màgia Kids",
+  "open_data_bcn:99400788293": "Espectacle 'Màgia per a una consciència ambiental'",
+  "open_data_bcn:99400784219": "Espectacle \"Golem’s Magic Lounge\", a càrrec de Hausson",
+  "open_data_bcn:99400788475": "Espectacle \"Màgia de prop\", a càrrec de Edmond Clayton",
+  "open_data_bcn:99400789394": "Espectacle de màgia \"Detalls\", a càrrec de Sergi Armentano",
+  "open_data_bcn:99400718524": "Espectacle \"Cleptómago\", a càrrec de Shado",
+  "open_data_bcn:99400753205": "Espectacle \"El mag escombraries\"",
+  "open_data_bcn:99400788812": "Espectacle 'Fabulós', a càrrec del Mag Stigman",
+  "open_data_bcn:99400784715": "Espectacle de màgia \"Mag Lluc\"",
+  "open_data_bcn:99400781427": "Espectacle de màgia \"Strafalari\", a càrrec del Mag Lari",
+  "open_data_bcn:99400789518": "Espectacle familiar \"Un Mag per Nadal\", amb Aleix Vidal",
+  "open_data_bcn:99400782532": "Espectacle familiar \"Màgic Pablo - El Gran Repte\"",
+  "open_data_bcn:99400726524": "Taller 'Màgia adults avançat' *NOU*",
+  "open_data_bcn:99400786635": "Taller 'Màgia' (a partir de 12 anys) *NOU*",
+  "open_data_bcn:99400673396": "Taller 'Màgia' (de 6 a 12 anys) *NOU*",
+  "open_data_bcn:99400789961": "Taller de neurociència per a infants \"Magic brains\", a càrrec de Daniel Duque i David Bestué",
+  "open_data_bcn:99400280534": "17è Festival de Màgia Jove de Barcelona \"Màgicus\" 2026",
+  "open_data_bcn:99400788806": "Espectacle \"Lo imposible esta...En tu mente\", a càrrec de Luis Pardo & M.Minerva",
+  "open_data_bcn:99400697762": "Espectacle familiar \"La llibreria màgica\", a càrrec de la Cia. Peixospeixeres",
+  "open_data_bcn:99400763392": "Contacontes \"El gat roc fa màgia\"",
+  "open_data_bcn:99400789555": "Taller 'L’aventura del mag Martí (6 a 8 anys)'",
+  "open_data_bcn:99400787990": "Espectacle familiar \"La nit més màgica\", amb Mariona Trias",
+  "open_data_bcn:99400789516": "Espectacle familiar \"El Baul Mágico - Tributo a Disney\"",
+  "open_data_bcn:99400616888": "Espectacle \"Disney On Ice. Un viaje mágico\"",
+  "open_data_bcn:99400740401": "Activitat \"Juguem partides de Commander a 4! Magic The Gathering\"",
+  "open_data_bcn:99400790131": "Concert \"Magic\"",
+  "open_data_bcn:99400785634": "Contacontes científic 'Rubèn i la màgia de la quàntica', de Catkit",
+  "open_data_bcn:99400785082": "Espectacle \"Sinfonía mágica de Hogwarts\", amb Lords of the Sound",
+  "open_data_bcn:99400788848": "Espectacle familiar \"La magia del hielo - Tributo a Frozen\"",
+  "open_data_bcn:99400763970": "Espectacle familiar \"Rubèn i la màgia de la quàntica\"",
+  "open_data_bcn:99400786552": "Explica'm un conte : \"Germana i germà: Un conte de coratge i màgia\"",
+  "open_data_bcn:99400789303": "Exposició 'Kaiser-panorama', de \"Màgic 3D\"",
+  "open_data_bcn:99400773085": "Gimcana turística digital 'Les agulles màgiques de Sant Antoni'",
+  "open_data_bcn:98148132742": "Horari de la Font màgica Manuel de Falla del Parc de Serra Martí de Canyelles",
+  "open_data_bcn:99400785635": "La nit més màgica",
+  "open_data_bcn:99400762080": "Projecció \"Petits moments màgics\"",
+  "open_data_bcn:99400765343": "Projecció \"Petits moments màgics\"",
+  "open_data_bcn:99400749863": "Projecció \"Petits moments màgics: curtmetratges\"",
+  "open_data_bcn:99400785236": "Taller \"El joc dels residus màgics\"",
+  "open_data_bcn:99400786562": "Taller \"La magistral de dansa. Workshop de dansa : Entre dansa, humor i teatre físic\"",
+  "open_data_bcn:99400776259": "Taller 'Botànica màgica il·lustrada: Crea el teu llibre de plantes medicinals i màgiques!'",
+  "open_data_bcn:99400684765": "Taller 'Dibuix i pintura: La màgia del natural'",
+  "open_data_bcn:99400703229": "Taller 'La cadira màgica'",
+  "open_data_bcn:99400786549": "Taller 'La magistral de dansa. Workshop de dansa. Del joc al moviment'",
+  "open_data_bcn:99400789709": "Taller 'Minimons amb sorra màgica'",
+  "open_data_bcn:99400789706": "Taller 'Màscares màgiques de tardor'",
+  "open_data_bcn:99400720832": "Torneig de magic al Coll",
+  "open_data_bcn:99400784572": "Trobada 'Teatre Il·lusió'",
+  "open_data_bcn:99400527360": "Taller 'Guitarra flamenca'",
+  "open_data_bcn:99400787404": "Espectacle \"L'aniversari del petit Os\", a càrrec de Judith P. Navarro Royo",
+  "open_data_bcn:99400743819": "Barcelona Districte Cultural - Cicle 'Escena': Dates",
+  "open_data_bcn:99400731875": "Taller 'Balls de saló'",
+  "open_data_bcn:99400769078": "Taller 'Teatre de text, aprofundiment'",
+  "open_data_bcn:99400787013": "Espectacle \"Assassinat per a dos\", amb Dídac Flores i Mikel Herzog Jr",
+  "open_data_bcn:99400787894": "Espectacle \"El cor en dansa\" amb Cor Mitjans & Cor Petits de l’Orfeó Català",
+  "open_data_bcn:99400771941": "Explora Barcelona a través dels seus mercats: Mercat de Montserrat",
+  "open_data_bcn:99400786445": "Taller 'Ballet clàssic per a adults'",
+  "open_data_bcn:99400790083": "Espectacle familiar 'L’aniversari del petit ós'",
+  "open_data_bcn:99400785606": "Espectacle \"Cinefòrum 200 metres\"",
+  "open_data_bcn:99400787033": "Espectacle \"El piset\", a càrrec de la Cia Facòf",
+  "open_data_bcn:99400762381": "Taller 'Dansa teràpia'",
+  "open_data_bcn:99400721138": "Celebrem el Nadal 'Ball de Nadal'",
+  "open_data_bcn:99400786143": "Taller 'Dansa contemporània: tècnica i improvisació' *N*",
+  "open_data_bcn:99400788616": "Espectacle \"El Concurshow de Revival +\", a càrrec de Fer Delgado y Miguel Delgado",
+  "open_data_bcn:99400776977": "Espectacle \"Diva de Barrio\", amb Isabel Rey",
+  "open_data_bcn:99400760251": "Espectacle \"Se ha escrito un crimen. El musical\"",
+  "open_data_bcn:99400776441": "Taller 'Teatre adults' (Intermedi)",
+  "open_data_bcn:99400481190": "Taller 'Ballet per a adults'",
+  "open_data_bcn:99400789772": "Visionat dels finalistes i votacions populars",
+  "open_data_bcn:99400773342": "Taller 'Balls llatins sense parella: Intermig'",
+  "open_data_bcn:99400768927": "Taller 'Fitness Dance'",
+  "open_data_bcn:99400784883": "Taller 'Danses catalanes'",
+  "open_data_bcn:99400732239": "Taller 'Country line dance'",
+  "open_data_bcn:99400786555": "Espectacle \"Obsequio + Tempo y Tono\"",
+  "open_data_bcn:99400731243": "Taller jove \"Commercial Dance\"",
+  "open_data_bcn:99400614518": "8è Festival d'Arts Contemporànies i Pensament 'Clàssics'",
+  "open_data_bcn:99400740070": "Taller 'Fem teatre', amb La Ravalera",
+  "open_data_bcn:99400732231": "Taller 'Ballet Training'",
+  "open_data_bcn:99400789300": "Bingo musical de cançons en català",
+  "open_data_bcn:99400750983": "Activitat comunitària 'Patronatge'",
+  "open_data_bcn:1338100528": "XXV Mostra de Teatre d'Horta - Guinardó 2026",
+  "open_data_bcn:99400776451": "Taller 'Zumba Dance'",
+  "open_data_bcn:99400030494": "27a Vueling Cursa de Bombers de Barcelona 2026",
+  "open_data_bcn:99400789477": "Espectacle \"Et vindré a tapar\", a càrrec de la cia. )e( espai en construcció",
+  "open_data_bcn:99400775551": "Taller 'Teatre per a la vida: comunicació, expressió i confiança' *N*",
+  "open_data_bcn:99400784476": "Sarau Folk de muntanya",
+  "open_data_bcn:99400789433": "Espectacle familiar \"Tadeo Jones y la lámpara maravillosa\",",
+  "open_data_bcn:99400789726": "Cicle \"Dora García. Segona vegada / resurrecció\""
+ },
+ "resultados": {
+  "claude-haiku-5-5:low": {
+   "uso": {
+    "entrada": 44019,
+    "salida": 13001,
+    "cache_lectura": 38106,
+    "cache_escritura": 4234,
+    "errores": 0,
+    "peticiones": 10,
+    "segundos": 54.9
+   },
+   "res": {
+    "open_data_bcn:99400676015": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Antonio Díaz, El Mago Pop, es presentado como ilusionista con un espectáculo de grandes ilusiones y juegos de magia en escena."
+    },
+    "open_data_bcn:99400781893": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "El Mago Yunke presenta el espectáculo de magia Hangar 52, con grandes ilusiones y la descripción lo declara 'xou de màgia'."
+    },
+    "open_data_bcn:99400743868": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "La descripción presenta un espectáculo de magocomedia (magia y comedia) con aperitivo, eje de la función; la magia cómica va en magia general."
+    },
+    "open_data_bcn:99400786807": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.92,
+     "motivo": "Manu Llari presenta 'Inexplicable', 'un espectacle de màgia' con participación del público y humor."
+    },
+    "open_data_bcn:99400694096": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Daniel Sánchez ofrece 'la millor màgia de prop' a pocos centímetros de los ojos del público."
+    },
+    "open_data_bcn:99400786325": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "La descripción declara 'espectacle de màgia familiar' de Màgia Kids; la historia de la biblioteca es el argumento, pero el género declarado es magia para familias."
+    },
+    "open_data_bcn:99400788293": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.88,
+     "motivo": "La descripción declara un espectáculo de divulgación y sensibilización ambiental que usa algunos efectos de magia con finalidad educativa."
+    },
+    "open_data_bcn:99400784219": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Hausson ofrece ilusionismo de cámara en un local reducido, con prestidigitación y mentalismo a pocos centímetros del público; la magia es el eje."
+    },
+    "open_data_bcn:99400788475": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "El título es 'Màgia de prop', con Edmond Clayton, y la descripción habla del arte de tocar la magia."
+    },
+    "open_data_bcn:99400789394": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "Sergi Armentano, 'espectacle de màgia' de magia de prop con cartas, predicciones y público en primera fila."
+    },
+    "open_data_bcn:99400718524": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "La descripción presenta a Shado como ilusionista con pickpocket, mentalisme i màgia urbana como eje del espectáculo; predomina el mentalismo."
+    },
+    "open_data_bcn:99400753205": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Se declara contacontes (narración oral); la magia es el argumento de la historia de Joan el mag escombraries, no un número de magia real."
+    },
+    "open_data_bcn:99400788812": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Mag Stigman, premio al mejor espectáculo de magia; magia, malabares y matemagia como eje de un espectáculo familiar."
+    },
+    "open_data_bcn:99400784715": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "Espectáculo de màgia de Mag Lluc con màgia visual e il·lusions como eje; el subtipo no especifica cerca ni mentalismo."
+    },
+    "open_data_bcn:99400781427": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Título y descripción declaran espectáculo de màgia de estilo Las Vegas con grans il·lusions, del Mag Lari."
+    },
+    "open_data_bcn:99400789518": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Espectáculo familiar de Aleix Vidal donde la màgia, l'humor i la història se combinan; el artista se presenta como mago y la magia es eje, aunque la historia navideña tiene peso."
+    },
+    "open_data_bcn:99400782532": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.75,
+     "motivo": "Espectáculo familiar de Màgic Pablo que fusiona màgia espectacular, dansa y teatre; la magia es parte central, pero con mezcla de disciplinas y argumento de fantasía."
+    },
+    "open_data_bcn:99400726524": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de màgia para adultos avanzados, impartido por Mag Brando; es un curso y su tema es la magia."
+    },
+    "open_data_bcn:99400786635": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de màgia a partir de 12 anys; es un curso con la magia como tema."
+    },
+    "open_data_bcn:99400673396": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller d'iniciació a la màgia de 6 a 12 anys; es un curso con la magia como tema."
+    },
+    "open_data_bcn:99400789961": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.9,
+     "motivo": "Taller para niños con trucos de magia sobre neurociencia; formato de taller (formación) con la magia como tema."
+    },
+    "open_data_bcn:99400280534": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.98,
+     "motivo": "Festival de magia jove (Màgicus) con masterclass y concurso de ilusionistas."
+    },
+    "open_data_bcn:99400788806": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "Pista de mentalismo: título 'Lo imposible en tu mente' con artistas Luis Pardo y M.Minerva, espectáculo de mentalismo."
+    },
+    "open_data_bcn:99400697762": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo familiar de teatro con compañía de teatro; la magia es solo argumento (llibreria màgica, paquet màgic)."
+    },
+    "open_data_bcn:99400763392": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Contacontes (narración oral), la magia es el argumento del cuento del gato Roc, con taller posterior de iniciación."
+    },
+    "open_data_bcn:99400789555": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.7,
+     "motivo": "Cuento interactivo con experimentos de ciencia para niños en biblioteca; la magia es argumento y el mago Martí es personaje, más divulgación científica."
+    },
+    "open_data_bcn:99400787990": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo infantil de teatro navideño; la magia es ambientación y argumento (La nit més màgica)."
+    },
+    "open_data_bcn:99400789516": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción lo presenta como espectáculo musical familiar; la magia es argumento del baúl encantado."
+    },
+    "open_data_bcn:99400616888": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Espectáculo de patinaje sobre hielo Disney; la magia es argumento y tema de las historias, no número de magia."
+    },
+    "open_data_bcn:99400740401": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Partidas del juego de cartas Magic The Gathering en un casal; no es espectáculo de magia."
+    },
+    "open_data_bcn:99400790131": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Título «Concert»: es un concierto y «Magic» es solo una palabra en inglés del título, sin relación con la magia."
+    },
+    "open_data_bcn:99400785634": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "«Contacontes científic» es narración oral de divulgación científica; «la màgia de la quàntica» es solo una metáfora del título."
+    },
+    "open_data_bcn:99400785082": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Concierto sinfónico con Lords of the Sound; «Sinfonía mágica de Hogwarts» usa la magia solo como referencia temática, sin magia en directo."
+    },
+    "open_data_bcn:99400788848": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción dice «aquest musical» y «números musicales»; la magia forma parte del argumento de Frozen."
+    },
+    "open_data_bcn:99400763970": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Se presenta como espectáculo de divulgación en el marco de la Setmana de la Ciència sobre física cuántica; la magia es solo metáfora del título."
+    },
+    "open_data_bcn:99400786552": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "«Explica'm un conte» es narración oral participativa; la fuente mágica y la bruja forman parte del argumento, no son magia en directo."
+    },
+    "open_data_bcn:99400789303": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Exposición del Museu d'Història de Barcelona; «Màgic 3D» es el nombre del autor o proyecto, no un espectáculo de magia."
+    },
+    "open_data_bcn:99400773085": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Gimcana turística digital; «màgiques» se refiere a las agujas de la iglesia como lugar turístico, no a magia."
+    },
+    "open_data_bcn:98148132742": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Horario de una fuente con música y coreografía del parque; «màgica» es un adjetivo del nombre de la fuente, no magia en directo."
+    },
+    "open_data_bcn:99400785635": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.45,
+     "motivo": "Título «La nit més màgica» con solo público recomendado a partir de 3 años; no hay descripción que indique un espectáculo de magia ni de teatro, así que se clasifica como otro con baja confianza."
+    },
+    "open_data_bcn:99400762080": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título «Petits moments màgics» y pista de proyección; es una sesión de cine y «màgics» es un adjetivo del título, no magia en directo."
+    },
+    "open_data_bcn:99400765343": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título «Petits moments màgics» y pista de proyección; es una sesión de cine y «màgics» es un adjetivo del título, no magia en directo."
+    },
+    "open_data_bcn:99400749863": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título «Petits moments màgics: curtmetratges» y pista de curtmetratge y proyección; es un ciclo de cortos, sin magia en directo."
+    },
+    "open_data_bcn:99400785236": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de prevención de residuos y medio ambiente para familias; la magia es solo el argumento o metáfora de «residus màgics»."
+    },
+    "open_data_bcn:99400786562": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller («Workshop de dansa») de la Cia. PrÄK sobre teatro físico y movimiento; es un taller de danza, sin magia."
+    },
+    "open_data_bcn:99400776259": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de dibujo e ilustración botánica sobre plantas medicinales; «màgiques» es un adjetivo del título, no magia."
+    },
+    "open_data_bcn:99400684765": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de dibujo y pintura; «La màgia del natural» es una metáfora del título, no una actividad de magia."
+    },
+    "open_data_bcn:99400703229": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de estimulación de la memoria y socialización; «La cadira màgica» es un nombre del taller, sin magia ni artes escénicas."
+    },
+    "open_data_bcn:99400786549": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de dansa ('Workshop de dansa') con dinàmiques de joc y base tècnica; es formación en danza, no una función."
+    },
+    "open_data_bcn:99400789709": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller infantil de manualidades con sorra kinètica; la 'màgica' del título es adjetivo sin magia en directo."
+    },
+    "open_data_bcn:99400789706": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de manualidades (màscares de fulles i elements naturals); la magia es solo argumento de la historia."
+    },
+    "open_data_bcn:99400720832": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Torneig de 'magic' dentro de la Festa Friki, organizado por un club de rol; es un torneo de cartas de juego, no un espectáculo de magia."
+    },
+    "open_data_bcn:99400784572": {
+     "tipo": "evento",
+     "subtipo": "conferencia o coloquio",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "'Trobada' sobre teatre, sin descripción; probablemente encuentro del sector teatral, pero los datos son escasos."
+    },
+    "open_data_bcn:99400527360": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller de guitarra flamenca, formación musical; la disciplina es música y no es del sector escénico."
+    },
+    "open_data_bcn:99400787404": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "'Espectacle' de cuentos para biblioteca; sin descripción, se trata de una función de narración escénica para público infantil."
+    },
+    "open_data_bcn:99400743819": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Cicle 'Escena' del Districte Cultural; ciclo de espectáculos escénicos según el título, pero sin programación detallada."
+    },
+    "open_data_bcn:99400731875": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de balls de saló (baile social); es una actividad de baile recreativo más que de danza escénica."
+    },
+    "open_data_bcn:99400769078": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de 'Teatre de text' impartido por Alba Teixidó; es formación en teatro."
+    },
+    "open_data_bcn:99400787013": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "La descripción lo presenta como «una premiada comèdia musical» y «un divertidíssim musical»; es teatro musical, no teatro ordinario."
+    },
+    "open_data_bcn:99400787894": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Concierto de coros (Cor Mitjans y Cor Petits de l'Orfeó Català) con algo de danza tradicional de Ballets de Catalunya; el eje es música coral, pero el título dice «El cor en dansa». Duda entre danza y otro."
+    },
+    "open_data_bcn:99400771941": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Visita guiada/ruta por un mercado (Mercat de Montserrat), no es un espectáculo; la pista «obra» es de arquitectura."
+    },
+    "open_data_bcn:99400786445": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ballet clásico para adultos, con inscripción previa; formato de taller de danza."
+    },
+    "open_data_bcn:99400790083": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Espectáculo familiar de cuentos y canciones para bebés («Conte contes», «sessió»), narración escénica infantil; la magia no aparece."
+    },
+    "open_data_bcn:99400785606": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Cinefórum con proyección de la película «200 metres» y presentación de la Mostra de Cinema Àrab."
+    },
+    "open_data_bcn:99400787033": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Obra de thriller interpretada por la Cia Facòf en el Teatre El Maldà, con personajes e historia dramática."
+    },
+    "open_data_bcn:99400762381": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller de dansa teràpia con inscripción previa, impartido por Olga Aceña; formato de taller de danza."
+    },
+    "open_data_bcn:99400721138": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Celebración de Navidad en un casal de gent gran; «ball» es baile social, sin espectáculo escénico declarado."
+    },
+    "open_data_bcn:99400786143": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de danza contemporánea con tallerista Olga Santín, con inscripción previa y horario semanal."
+    },
+    "open_data_bcn:99400788616": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Concurso teatral de cultura pop con convidados estrella y proves interpretatives; no hay magia en directo, la descripción lo presenta como competición escénica."
+    },
+    "open_data_bcn:99400776977": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Espectáculo de humor y monólogo narrativo de Isabel Rey con final musical; sin magia."
+    },
+    "open_data_bcn:99400760251": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Título 'El musical' y descripción con números musicales; la magia solo aparece como argumento de la historia, no como número."
+    },
+    "open_data_bcn:99400776441": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de teatro para adultos con inscripción previa; formato de curso."
+    },
+    "open_data_bcn:99400481190": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ballet para adultos; formato de curso de danza."
+    },
+    "open_data_bcn:99400789772": {
+     "tipo": "evento",
+     "subtipo": "convocatoria",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Visionado de finalistes i votacions populars sin disciplina clara en los datos; no se indica de qué arte son los finalistas."
+    },
+    "open_data_bcn:99400773342": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de balls llatins en parella de nivel intermedio; es un curso de danza."
+    },
+    "open_data_bcn:99400768927": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de fitness dance; curso de baile de carácter deportivo, disciplina danza."
+    },
+    "open_data_bcn:99400784883": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de danses catalanes de casal de barri; sin relación con el sector escénico profesional y de carácter popular."
+    },
+    "open_data_bcn:99400732239": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de country line dance con clases progresivas; curso de baile."
+    },
+    "open_data_bcn:99400786555": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Título y descripción: sesión doble de danza con las obras Obsequio y Tempo y Tono de la Cia. LaCerda."
+    },
+    "open_data_bcn:99400731243": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller jove 'Commercial Dance', curso de danza para jóvenes: formato de formación con disciplina danza."
+    },
+    "open_data_bcn:99400614518": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.78,
+     "motivo": "8º Festival d'Arts Contemporànies i Pensament 'Clàssics': festival multidisciplinar con temática de pensamiento sobre la mentira; la disciplina principal no es clara, se asigna teatro por las pistas de teatro y comèdia."
+    },
+    "open_data_bcn:99400740070": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller 'Fem teatre' de teatro de texto con La Ravalera: formación anual en teatro."
+    },
+    "open_data_bcn:99400732231": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller 'Ballet Training', clase de ballet con fitness: formación en danza."
+    },
+    "open_data_bcn:99400789300": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Bingo musical de canciones en catalán con cena: actividad de ocio, no es espectáculo de artes escénicas."
+    },
+    "open_data_bcn:99400750983": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Actividad comunitaria 'Patronatge' en un casal de barrio: no es del sector escénico."
+    },
+    "open_data_bcn:1338100528": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.92,
+     "motivo": "XXV Mostra de Teatre d'Horta-Guinardó: muestra de teatro amateur con diez obras en cinco escenarios."
+    },
+    "open_data_bcn:99400776451": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller 'Zumba Dance' con profesora: formación de baile fitness, disciplina danza."
+    },
+    "open_data_bcn:99400030494": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Vueling Cursa de Bombers: carrera popular, deporte."
+    },
+    "open_data_bcn:99400789477": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Descripción de obra con directora, texto e intérpretes, sobre memoria histórica y postguerra; es teatro dramático."
+    },
+    "open_data_bcn:99400775551": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller vivencial de técnicas teatrales con inscripción previa y dinámicas de grupo; es formación de teatro."
+    },
+    "open_data_bcn:99400784476": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Sarau de folk de muntanya, velada musical en casal de barrio sin relación con las artes escénicas."
+    },
+    "open_data_bcn:99400789433": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Espectáculo familiar de teatro sobre la saga de Tadeo Jones; la magia (lámpara maravillosa) es solo argumento de la historia."
+    },
+    "open_data_bcn:99400789726": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Ciclo de cine dedicado a la cineasta Rita Azevedo Gomes con proyecciones en la Filmoteca de Catalunya."
+    }
+   }
+  },
+  "claude-haiku-5-5:medium": {
+   "uso": {
+    "entrada": 44019,
+    "salida": 22241,
+    "cache_lectura": 42340,
+    "cache_escritura": 0,
+    "errores": 0,
+    "peticiones": 10,
+    "segundos": 94.1
+   },
+   "res": {
+    "open_data_bcn:99400676015": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "La descripción es de 'Màgia' con un il·lusionista (El Mago Pop) y grandes ilusiones de escena en Broadway."
+    },
+    "open_data_bcn:99400781893": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Espectáculo de magia de gran formato del Mago Yunke, campeón mundial de magia, descrito como 'xou de màgia' familiar."
+    },
+    "open_data_bcn:99400743868": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Espectáculo de magocomedia (magia y comedia) en el Museu de Cera; la magia es uno de los ejes junto al humor, sin que se detalle la mezcla."
+    },
+    "open_data_bcn:99400786807": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "Descrito expresamente como 'espectacle de màgia' de Manu Llari, con participación del público y humor."
+    },
+    "open_data_bcn:99400694096": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "La descripción dice 'la millor màgia de prop' a pocos centímetros de los ojos, de Daniel Sánchez."
+    },
+    "open_data_bcn:99400786325": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Se declara 'espectacle de màgia familiar' de Màgia Kids; la historia de biblioteca es el argumento, pero el espectáculo es de magia."
+    },
+    "open_data_bcn:99400788293": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.8,
+     "motivo": "La descripción declara que es un espectáculo de divulgación y sensibilización ambiental; la magia es solo un recurso educativo."
+    },
+    "open_data_bcn:99400784219": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.85,
+     "motivo": "Hausson ofrece prestidigitación y mentalismo de cámara para un público muy reducido en el Golem's Magic Lounge."
+    },
+    "open_data_bcn:99400788475": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Título 'Màgia de prop' de Edmond Clayton y descripción de la magia de cerca como eje del espectáculo."
+    },
+    "open_data_bcn:99400789394": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Espectáculo de magia de prop de Sergi Armentano, con cartas, predicciones y público a pocos centímetros."
+    },
+    "open_data_bcn:99400718524": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "El descriptor dice que es un espectáculo de mentalismo y magia urbana con un ilusionista (Shado) como eje; mezcla pickpocket, pero el mentalismo es la rama dominante."
+    },
+    "open_data_bcn:99400753205": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "La descripción declara que es un contacontes (narración oral) para público infantil; la magia es el argumento de la historia de Joan el mag escombraries, no un número de magia real."
+    },
+    "open_data_bcn:99400788812": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.92,
+     "motivo": "El Mag Stigman, premio al mejor espectáculo de magia, presenta un espectáculo familiar de magia con trucos, participación del público y matemagia."
+    },
+    "open_data_bcn:99400784715": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "Título 'Espectacle de màgia' y artista Mag Lluc; la descripción habla de màgia visual e il·lusions impactants como eje del show."
+    },
+    "open_data_bcn:99400781427": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "El título y la descripción lo presentan como espectáculo de magia de grans il·lusions, al estilo Las Vegas, del Mag Lari."
+    },
+    "open_data_bcn:99400789518": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.6,
+     "motivo": "Espectáculo familiar de Aleix Vidal con 'Un Mag' en el título y referencias a noves il·lusions y moments sorprenents; la descripción es vaga y mezcla historia y humor, por lo que la confianza es media."
+    },
+    "open_data_bcn:99400782532": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.55,
+     "motivo": "Espectáculo familiar de Màgic Pablo que fusiona la màgia més espectacular con danza y teatro; la magia parece el eje, pero la historia narrativa y la mezcla de disciplinas dejan la decisión en empate cercano."
+    },
+    "open_data_bcn:99400726524": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de magia para adultos avanzados con el profesor Mag Brando; es formación y el tema es la magia."
+    },
+    "open_data_bcn:99400786635": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de magia (a partir de 12 años) impartido por Mag Brando; es formación con la magia como tema."
+    },
+    "open_data_bcn:99400673396": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de iniciación a la magia para niños de 6 a 12 años con el Mag Brando; es formación con la magia como tema."
+    },
+    "open_data_bcn:99400789961": {
+     "tipo": "otro",
+     "subtipo": "taller de neurociencia",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.8,
+     "motivo": "Taller de neurociència per a infants; els trucs de màgia són només un recurs per explicar el cervell (divulgació), així que és otro con magia secundaria."
+    },
+    "open_data_bcn:99400280534": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Títol «17è Festival de Màgia Jove» i descripció de festival de màgia jove amb masterclass; es un evento de festival con magia como tema."
+    },
+    "open_data_bcn:99400788806": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "Espectacle «Lo imposible en tu mente» de Luis Pardo; el título y la pista de mentalismo indican lectura de la mente, que es magia."
+    },
+    "open_data_bcn:99400697762": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Espectacle familiar amb la Cia. Peixospeixeres; la màgia és només l'argument (una llibreria i un paquet màgic), no un número de magia."
+    },
+    "open_data_bcn:99400763392": {
+     "tipo": "otro",
+     "subtipo": "contacontes",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Contacontes «El gat roc fa màgia»; la narració oral va a otro y la màgia es el argumento del cuento, no un espectáculo de magia."
+    },
+    "open_data_bcn:99400789555": {
+     "tipo": "otro",
+     "subtipo": "taller de ciencia",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Taller a biblioteca per a infants amb un conte i experiments de ciència; el mag Martí és personatge de la història y la magia es ambient, no número de magia."
+    },
+    "open_data_bcn:99400787990": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Espectacle infantil de Nadal «La nit més màgica»; la magia es metáfora de les dates i el argumento, no hay magia en directo."
+    },
+    "open_data_bcn:99400789516": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripció diu «Un espectacle musical familiar» amb cançons en directe; la màgia es ambient del relat."
+    },
+    "open_data_bcn:99400616888": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Espectacle sobre gel de Disney On Ice amb coreografies i patinatge artístic; la màgia és argument i ambient, y el tipo es dudoso entre danza y otro."
+    },
+    "open_data_bcn:99400740401": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Activitat de joc de cartes Magic The Gathering al casal; no es un espectacle de magia ni de artes escènicas."
+    },
+    "open_data_bcn:99400790131": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "El título «Concert» y la pista de música indican un concierto; «Magic» es una palabra ambigua del título, sin magia en directo."
+    },
+    "open_data_bcn:99400785634": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción declara «Contacontes científic» a càrrec de Catkit; la «màgia de la quàntica» es una metáfora de divulgación científica."
+    },
+    "open_data_bcn:99400785082": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "«Sinfonía mágica de Hogwarts» con Lords of the Sound es un espectáculo musical sinfónico con temática de Harry Potter; la magia es el tema, no un número de magia."
+    },
+    "open_data_bcn:99400788848": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción dice «aquest musical» y el título es un tributo a Frozen; la magia es solo argumento de la historia."
+    },
+    "open_data_bcn:99400763970": {
+     "tipo": "otro",
+     "subtipo": "divulgación científica",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Espectáculo infantil de divulgación sobre física cuántica en la Setmana de la Ciència; la «màgia» del título es metáfora y no hay magia en directo."
+    },
+    "open_data_bcn:99400786552": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción indica «Explica'm un conte», una historia participativa narrada; la magia (font màgica, bruixa) es argumento del cuento."
+    },
+    "open_data_bcn:99400789303": {
+     "tipo": "otro",
+     "subtipo": "exposición",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es una exposición en el Museu d'Història de Barcelona; «Màgic 3D» es el nombre de la autoría de las imágenes estereoscópicas, no un espectáculo de magia."
+    },
+    "open_data_bcn:99400773085": {
+     "tipo": "otro",
+     "subtipo": "gimcana turística",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Gimcana turística digital; «màgiques» en el título se refiere a las agujas del barrio, no a magia."
+    },
+    "open_data_bcn:98148132742": {
+     "tipo": "otro",
+     "subtipo": "fuente",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Horario de una fuente del parque con música y coreografía; «màgica» es un adjetivo del nombre de la fuente, no magia en directo."
+    },
+    "open_data_bcn:99400785635": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Solo título «La nit més màgica» y edad a partir de 3 años; no hay descripción que confirme un espectáculo de artes escénicas, y la magia es solo metáfora."
+    },
+    "open_data_bcn:99400762080": {
+     "tipo": "cine",
+     "subtipo": "projecció",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Projecció de cine (\"Petits moments màgics\"); la palabra «màgics» es solo ambiental y no indica un espectáculo de magia."
+    },
+    "open_data_bcn:99400765343": {
+     "tipo": "cine",
+     "subtipo": "projecció",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Projecció de cine (\"Petits moments màgics\"); la palabra «màgics» es solo ambiental y no indica un espectáculo de magia."
+    },
+    "open_data_bcn:99400749863": {
+     "tipo": "cine",
+     "subtipo": "curtmetratges",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Proyección de curtmetratges (\"Petits moments màgics: curtmetratges\"); «màgics» no indica magia en directo."
+    },
+    "open_data_bcn:99400785236": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller familiar de prevención de residuos; la magia es solo metáfora («residus màgics») y no es del sector de artes escénicas."
+    },
+    "open_data_bcn:99400786562": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller (formación) de danza y teatro físico con la Cia. PrÄK; el formato manda y la disciplina principal es la danza."
+    },
+    "open_data_bcn:99400776259": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de dibujo y pintura botánica (\"Botànica màgica il·lustrada\"); «màgica» es un adjetivo y el contenido no es artes escénicas."
+    },
+    "open_data_bcn:99400684765": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de dibujo y pintura (\"La màgia del natural\"); la magia es una metáfora del título."
+    },
+    "open_data_bcn:99400703229": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de estimulación de la memoria y socialización (\"La cadira màgica\"); la magia no es un número de magia."
+    },
+    "open_data_bcn:99400786549": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Título 'Workshop de dansa' y descripción de sesiones de juego y movimiento; es un taller (formato formación) de danza, sin magia."
+    },
+    "open_data_bcn:99400789709": {
+     "tipo": "otro",
+     "subtipo": "taller infantil",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller infantil de experimentación con sorra kinètica; 'màgica' es solo un adjetivo del título, no hay magia en directo."
+    },
+    "open_data_bcn:99400789706": {
+     "tipo": "otro",
+     "subtipo": "taller infantil",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de manualidades (máscaras con elementos naturales); la magia es solo el ambiente o argumento de la historia."
+    },
+    "open_data_bcn:99400720832": {
+     "tipo": "otro",
+     "subtipo": "torneo de juegos de cartas",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Torneo de 'magic' dentro de la Festa Friki y organizado por un club de rol; se refiere al juego de cartas, no a espectáculo de magia."
+    },
+    "open_data_bcn:99400784572": {
+     "tipo": "evento",
+     "subtipo": "conferencia o coloquio",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.45,
+     "motivo": "Título 'Trobada Teatre Il·lusió' sin descripción; probable encuentro de un grupo de teatro en un casal, dudoso como evento del sector."
+    },
+    "open_data_bcn:99400527360": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller de guitarra flamenca con instrumento propio y niveles de iniciación y avanzado; es formación musical, no danza ni teatro."
+    },
+    "open_data_bcn:99400787404": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "'Espectacle' infantil en biblioteca con un cuento del petit Os; sin descripción, se clasifica como teatro familiar o infantil."
+    },
+    "open_data_bcn:99400743819": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Ciclo 'Escena' de Barcelona Districte Cultural con programación de varias fechas; sin descripción, se asume ciclo escénico, con dudas sobre la disciplina."
+    },
+    "open_data_bcn:99400731875": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller 'Balls de saló' (baile de salón) en un centro cívico; es formación de danza."
+    },
+    "open_data_bcn:99400769078": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller 'Teatre de text, aprofundiment' con la teatrera Alba Teixidó; es formación de teatro."
+    },
+    "open_data_bcn:99400787013": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción la presenta como «una premiada comèdia musical» y «un divertidíssim musical», con dirección musical y coreografía."
+    },
+    "open_data_bcn:99400787894": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un concierto de coros del Orfeó Català con piano y un grupo de ballet como participante; el programa es de canción y danza tradicional, con predominio musical."
+    },
+    "open_data_bcn:99400771941": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Visita guiada al nuevo Mercat de Montserrat, con descripción arquitectónica; no es una función de artes escénicas."
+    },
+    "open_data_bcn:99400786445": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ballet clásico para adultos con inscripción previa, por lo que es formación en danza."
+    },
+    "open_data_bcn:99400790083": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción declara «Conte contes», es decir, cuentacuentos infantil con cantarelles, que el criterio asigna a otro."
+    },
+    "open_data_bcn:99400785606": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Cinefórum con proyección de la película «200 metros» y presentación de la Mostra de Cinema Àrab."
+    },
+    "open_data_bcn:99400787033": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Espectáculo escénico de thriller con personajes y argumento, representado en el Teatre El Maldà por una compañía de teatro."
+    },
+    "open_data_bcn:99400762381": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de dansa teràpia con inscripción previa e impartido por una tallerista."
+    },
+    "open_data_bcn:99400721138": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Baile de Navidad en un casal de gente mayor, sin descripción de espectáculo; es una actividad social y no del sector escénico."
+    },
+    "open_data_bcn:99400786143": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de danza contemporánea con tallerista, inscripción previa y precio de curso."
+    },
+    "open_data_bcn:99400788616": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Espectáculo en directo en el Teatre Borràs con pruebas interpretativas, convidados estrella y formato de concurso; no hay magia en la descripción."
+    },
+    "open_data_bcn:99400776977": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo de Isabel Rey con humor, nostalgia y anécdotas narradas en el Teatre Borràs; encaja con monólogo o stand-up."
+    },
+    "open_data_bcn:99400760251": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "El título lo declara como «El musical» y la descripción incluye números musicales; la magia de la pista automática no aparece en la descripción."
+    },
+    "open_data_bcn:99400776441": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de teatro para adultos con inscripción previa y horario semanal; el formato de curso manda sobre el tema."
+    },
+    "open_data_bcn:99400481190": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ballet para adultos con profesora y horario semanal; es un curso de danza."
+    },
+    "open_data_bcn:99400789772": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "Sin descripción; el título habla de finalistas y votaciones populares, lo que sugiere un concurso audiovisual, pero no hay datos suficientes para asignar el sector."
+    },
+    "open_data_bcn:99400773342": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de baile latino sin pareja con inscripción previa y horario semanal; es un curso de danza."
+    },
+    "open_data_bcn:99400768927": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "Taller de fitness dance organizado por una asociación deportiva; tiene base de danza pero el enfoque es más de actividad física que de formación escénica."
+    },
+    "open_data_bcn:99400784883": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller de danzas catalanas con inscripción previa y horario semanal; es un curso de danza tradicional."
+    },
+    "open_data_bcn:99400732239": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de line dance con profesor y progresión por clases; es un curso de baile, aunque tiene un enfoque social."
+    },
+    "open_data_bcn:99400786555": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Título y descripción indican sesión doble de dansa con espectacles de la Cia. LaCerda."
+    },
+    "open_data_bcn:99400731243": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller jove 'Commercial Dance' con inscripción previa; es un curso de danza."
+    },
+    "open_data_bcn:99400614518": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "8è Festival d'Arts Contemporànies i Pensament; mezcla arte, pensamiento y cine sin disciplina dominante clara, y el texto trata la mentira como tema filosófico."
+    },
+    "open_data_bcn:99400740070": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller 'Fem teatre' de formación anual en teatre de text, con professora y matrícula."
+    },
+    "open_data_bcn:99400732231": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller 'Ballet Training' con professora; combina ballet y fitness, disciplina danza."
+    },
+    "open_data_bcn:99400789300": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Bingo musical de cançons en català: juego de bingo con música, no espectáculo escénico."
+    },
+    "open_data_bcn:99400750983": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Activitat comunitària 'Patronatge' en un casal de barri, sin relación con las artes escénicas en los datos."
+    },
+    "open_data_bcn:1338100528": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "XXV Mostra de Teatre d'Horta-Guinardó: muestra de obras de teatro amateur en varios escenarios."
+    },
+    "open_data_bcn:99400776451": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller 'Zumba Dance' con professora y inscripción previa; es un taller de danza/fitness."
+    },
+    "open_data_bcn:99400030494": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.98,
+     "motivo": "27a Vueling Cursa de Bombers de Barcelona: carrera popular deportiva."
+    },
+    "open_data_bcn:99400789477": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Descripción y fitxa artística de una obra dramática (\"Espectacle\", dirección y texto de Roger Ribó, intérpretes en escena) sobre la memoria histórica y la postguerra; no hay magia."
+    },
+    "open_data_bcn:99400775551": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es un taller (\"Taller 'Teatre per a la vida'\", inscripción previa, dinámicas de grupo) de técnicas teatrales; el formato es formación y no tiene relación con la magia."
+    },
+    "open_data_bcn:99400784476": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "\"Sarau Folk de muntanya\" es una sesión de música folk en un casal de barrio, no un espectáculo escénico del sector."
+    },
+    "open_data_bcn:99400789433": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "\"Espectacle familiar\" con historia de aventuras (Tadeo Jones) en el teatro Apolo; la lámpara maravillosa y el viaje en el tiempo son argumento, no número de magia."
+    },
+    "open_data_bcn:99400789726": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Ciclo de proyecciones de cine en la Filmoteca de Catalunya con películas de Rita Azevedo Gomes; no hay magia."
+    }
+   }
+  },
+  "claude-sonnet-5-5:low": {
+   "uso": {
+    "entrada": 44019,
+    "salida": 10105,
+    "cache_lectura": 38106,
+    "cache_escritura": 4234,
+    "errores": 0,
+    "peticiones": 10,
+    "segundos": 83.9
+   },
+   "res": {
+    "open_data_bcn:99400676015": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "El Mago Pop, «l'il·lusionista més taquiller», presenta un espectáculo de gran formato con ilusiones inéditas."
+    },
+    "open_data_bcn:99400781893": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "El Mago Yunke, campeón mundial de magia, presenta un xou de magia familiar con grandes ilusiones."
+    },
+    "open_data_bcn:99400743868": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Espectáculo de «Magologuisme» (magia y comedia) con aperitivo en el Museu de Cera; el eje es la magia cómica."
+    },
+    "open_data_bcn:99400786807": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Manu Llari presenta «un espectacle de màgia» con participación del público y humor, apto para familias."
+    },
+    "open_data_bcn:99400694096": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Descripción: «la millor màgia de prop» a pocos centímetros, a cargo de Daniel Sánchez."
+    },
+    "open_data_bcn:99400786325": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.9,
+     "motivo": "Se presenta como «espectacle de màgia familiar» de Màgia Kids, aunque tenga trama de aventura."
+    },
+    "open_data_bcn:99400788293": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.8,
+     "motivo": "Espectáculo de divulgación y sensibilización ambiental que combina efectos de magia; la descripción declara el género divulgativo."
+    },
+    "open_data_bcn:99400784219": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Hausson, mago premiado, ofrece ilusionismo de cámara con prestidigitación y mentalismo para público muy reducido."
+    },
+    "open_data_bcn:99400788475": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Título y descripción: «Màgia de prop» a cargo de Edmond Clayton."
+    },
+    "open_data_bcn:99400789394": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "Espectáculo de magia de cerca con cartas y predicciones de Sergi Armentano, a menos de un metro del público."
+    },
+    "open_data_bcn:99400718524": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Shado, ilusionista, mezcla pickpocket, mentalismo y magia urbana como eje del espectáculo en Balmes Teatre; domina el mentalismo."
+    },
+    "open_data_bcn:99400753205": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "La descripción lo declara «Contacontes»; el mago escombraries es personaje de un cuento, la magia es argumento."
+    },
+    "open_data_bcn:99400788812": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Mag Stigman, ilusionista, «espectacle de màgia familiar»; magia con malabares y participación, magia de escena."
+    },
+    "open_data_bcn:99400784715": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Título y descripción: espectáculo de magia visual e ilusiones de Mag Lluc."
+    },
+    "open_data_bcn:99400781427": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "«Nou espectacle de màgia» del Mag Lari con grandes ilusiones, estilo Las Vegas."
+    },
+    "open_data_bcn:99400789518": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.75,
+     "motivo": "Espectáculo familiar de un mago (Aleix Vidal) con «noves il·lusions», magia, humor e historia navideña; la magia es el eje."
+    },
+    "open_data_bcn:99400782532": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.7,
+     "motivo": "Gran producción de magia familiar que fusiona la magia más espectacular con danza y teatro; Màgic Pablo es mago, domina la magia."
+    },
+    "open_data_bcn:99400726524": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.96,
+     "motivo": "Taller de magia para adultos con el Mag Brando; formato de formación."
+    },
+    "open_data_bcn:99400786635": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.94,
+     "motivo": "Taller de magia a partir de 12 años, profesor Mag Brando."
+    },
+    "open_data_bcn:99400673396": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.96,
+     "motivo": "Taller de iniciación a la magia para 6-12 años impartido por el Mag Brando."
+    },
+    "open_data_bcn:99400789961": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.6,
+     "motivo": "Es un taller de neurociencia para niños que usa trucos de magia e ilusiones como recurso; por el formato (taller) es evento > formación y la magia es el tema."
+    },
+    "open_data_bcn:99400280534": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Es el 17º Festival de Màgia Jove \"Màgicus\" para jóvenes ilusionistas, con concurso y masterclass."
+    },
+    "open_data_bcn:99400788806": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "El título \"Lo imposible está... En tu mente\" es típico de mentalismo; se presenta como espectáculo en el Eixample Teatre, aunque no hay descripción."
+    },
+    "open_data_bcn:99400697762": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo familiar de teatro en Teatreneu; el paquete \"mágico\" es solo argumento de la historia de la librería."
+    },
+    "open_data_bcn:99400763392": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción lo presenta como contacontes con taller posterior; la magia es el argumento del cuento del gato Roc."
+    },
+    "open_data_bcn:99400789555": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.5,
+     "motivo": "Taller infantil de cuento y experimentos científicos en biblioteca; el mago Martí es un personaje. Es formato taller, pero no es de artes escénicas, por lo que podría ser otro."
+    },
+    "open_data_bcn:99400787990": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo infantil de teatro navideño en Teatreneu; la magia es ambiente y argumento (la folleta Pandereta)."
+    },
+    "open_data_bcn:99400789516": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción lo presenta como \"espectacle musical familiar\" con canciones en directo; la magia es el argumento del baúl encantado."
+    },
+    "open_data_bcn:99400616888": {
+     "tipo": "otro",
+     "subtipo": "espectáculo sobre hielo",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Show de patinaje sobre hielo en el Palau Sant Jordi; el \"viaje mágico\" es solo el título y el argumento Disney."
+    },
+    "open_data_bcn:99400740401": {
+     "tipo": "otro",
+     "subtipo": "juego de cartas",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Partidas del juego de cartas Magic The Gathering en un centro cívico, sin relación con la magia escénica."
+    },
+    "open_data_bcn:99400790131": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es un concierto en la Sala Apolo; «Magic» es solo el título y no hay indicios de magia."
+    },
+    "open_data_bcn:99400785634": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Se presenta como cuentacuentos científico (divulgación de física cuántica) con experimentos; «màgia» es metáfora, así que es «otro»."
+    },
+    "open_data_bcn:99400785082": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "«Sinfonía mágica de Hogwarts» con Lords of the Sound es un concierto sinfónico; lo mágico es la temática, no hay magia en directo."
+    },
+    "open_data_bcn:99400788848": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción dice «aquest musical» con números musicales y coreografías; la magia es solo ambiente del argumento."
+    },
+    "open_data_bcn:99400763970": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Es un espectáculo de divulgación científica en la Setmana de la Ciència; «la màgia de la quàntica» es metáfora."
+    },
+    "open_data_bcn:99400786552": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Es una sesión de cuentacuentos («Explica'm un conte»); la magia es argumento (fuente mágica, bruja)."
+    },
+    "open_data_bcn:99400789303": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es una exposición («Kaiser-panorama», de Màgic 3D) en un museo."
+    },
+    "open_data_bcn:99400773085": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es una gimcana turística digital, no un espectáculo; «màgiques» es solo parte del nombre."
+    },
+    "open_data_bcn:98148132742": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Es el horario de una fuente ornamental «màgica» con música y coreografía; no es un espectáculo escénico."
+    },
+    "open_data_bcn:99400785635": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "Solo hay título «La nit més màgica» y «a partir de 3 anys»; nada indica teatro ni magia, así que se clasifica como otro con baja confianza."
+    },
+    "open_data_bcn:99400762080": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Proyección «Petits moments màgics» en una escuela; «màgics» es solo una palabra ambigua del título."
+    },
+    "open_data_bcn:99400765343": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Proyección en el centro cívico; «màgics» no indica magia en directo."
+    },
+    "open_data_bcn:99400749863": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Proyección de cortometrajes; «màgics» es solo palabra del título."
+    },
+    "open_data_bcn:99400785236": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller infantil de reciclaje de residuos en la Setmana de Prevenció de Residus; no es del sector escénico."
+    },
+    "open_data_bcn:99400786562": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Workshop de danza, humor y teatro físico de la Cie PrÄK; formato taller, disciplina principal danza."
+    },
+    "open_data_bcn:99400776259": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ilustración botánica; «màgiques» solo describe plantas, sin relación con magia escénica."
+    },
+    "open_data_bcn:99400684765": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Taller de dibujo y pintura; «la màgia del natural» es metáfora."
+    },
+    "open_data_bcn:99400703229": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de estimulación de la memoria y socialización; «màgica» es solo parte del título."
+    },
+    "open_data_bcn:99400786549": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller/workshop de danza de Cia Carla Sisteré basado en el juego y el movimiento."
+    },
+    "open_data_bcn:99400789709": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller infantil de sorra kinètica; «màgica» es solo el nombre de la arena, materia ajena al sector."
+    },
+    "open_data_bcn:99400789706": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller de manualidades de máscaras con elementos naturales; los personajes mágicos son solo temática."
+    },
+    "open_data_bcn:99400720832": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Torneo de Magic (juego de cartas) en la Festa Friki, organizado por un club de rol; no es magia en directo."
+    },
+    "open_data_bcn:99400784572": {
+     "tipo": "evento",
+     "subtipo": "conferencia o coloquio",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "Trobada «Teatre Il·lusió» sin descripción; probablemente encuentro de un grupo de teatro, no una función ni magia."
+    },
+    "open_data_bcn:99400527360": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "Taller de guitarra flamenca: es formación musical, no danza ni artes escénicas."
+    },
+    "open_data_bcn:99400787404": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.45,
+     "motivo": "Espectáculo infantil en biblioteca «L'aniversari del petit Os» sin descripción; podría ser teatro o cuentacuentos."
+    },
+    "open_data_bcn:99400743819": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Ciclo «Escena» de Barcelona Districte Cultural en centros cívicos; ciclo de artes escénicas."
+    },
+    "open_data_bcn:99400731875": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de bailes de salón: formación de danza."
+    },
+    "open_data_bcn:99400769078": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.96,
+     "motivo": "Taller de teatro de texto, formato taller en espacio escénico."
+    },
+    "open_data_bcn:99400787013": {
+     "tipo": "musical",
+     "subtipo": "comedia musical",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción lo presenta como «comèdia musical» y «divertidíssim musical», en el Teatre Goya."
+    },
+    "open_data_bcn:99400787894": {
+     "tipo": "otro",
+     "subtipo": "concierto coral",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Concierto de coros del Orfeó Català con piano en el Palau de la Música; la danza tradicional es un complemento del programa musical."
+    },
+    "open_data_bcn:99400771941": {
+     "tipo": "otro",
+     "subtipo": "visita guiada",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Visita al nuevo Mercat de Montserrat; «obra» se refiere a un estudio de arquitectura."
+    },
+    "open_data_bcn:99400786445": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.96,
+     "motivo": "Taller de ballet clásico para adultos: formato de taller, disciplina danza."
+    },
+    "open_data_bcn:99400790083": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "La descripción dice «Conte contes»: sesión de narración para bebés con canciones y rimas, es decir, cuentacuentos."
+    },
+    "open_data_bcn:99400785606": {
+     "tipo": "cine",
+     "subtipo": "cinefórum",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Cinefórum con proyección de una película y presentación de la Mostra de Cinema Àrab."
+    },
+    "open_data_bcn:99400787033": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Obra de la Cia Facòf, un thriller inmobiliario en el Teatre El Maldà."
+    },
+    "open_data_bcn:99400762381": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de danzaterapia con ritmos latinos y conciencia corporal; formato de taller y disciplina danza."
+    },
+    "open_data_bcn:99400721138": {
+     "tipo": "otro",
+     "subtipo": "baile social",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Baile de Navidad en un casal de gente mayor: actividad social, no un espectáculo escénico."
+    },
+    "open_data_bcn:99400786143": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de danza contemporánea con técnica e improvisación en un centro cívico."
+    },
+    "open_data_bcn:99400788616": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Espectáculo participativo de concurso de cultura pop en el Teatre Borràs, con pruebas de improvisar e interpretar; formato de show de humor, sin magia."
+    },
+    "open_data_bcn:99400776977": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.65,
+     "motivo": "Espectáculo de humor en solitario con anécdotas (estilo monólogo) en el Teatre Borràs; sin magia."
+    },
+    "open_data_bcn:99400760251": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "El título dice «El musical» y la descripción habla de números musicales y música original; no hay magia."
+    },
+    "open_data_bcn:99400776441": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller 'Teatre adults' con inscripción previa: formación de teatro."
+    },
+    "open_data_bcn:99400481190": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller 'Ballet per a adults' con profesora: formación de danza."
+    },
+    "open_data_bcn:99400789772": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Visionado de finalistas y votaciones populares en una biblioteca; no hay indicios de artes escénicas."
+    },
+    "open_data_bcn:99400773342": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de bailes latinos sin pareja en un centro cívico: formación de danza."
+    },
+    "open_data_bcn:99400768927": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "Taller de Fitness Dance de una asociación deportiva: actividad física más que danza escénica."
+    },
+    "open_data_bcn:99400784883": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "Taller 'Danses catalanes' con inscripción previa: formación de danza."
+    },
+    "open_data_bcn:99400732239": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de baile en línea country con profesor, clases progresivas: formación de danza."
+    },
+    "open_data_bcn:99400786555": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "La descripción habla de una sesión doble de danza de la Cia. LaCerda con los espectáculos Obsequio y Tempo y Tono."
+    },
+    "open_data_bcn:99400731243": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es un taller o curso de Commercial Dance para jóvenes, por lo que es formación de danza."
+    },
+    "open_data_bcn:99400614518": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un festival de artes contemporáneas y pensamiento con programación variada. La descripción menciona teatro y cine, y se asigna teatro como disciplina más probable."
+    },
+    "open_data_bcn:99400740070": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es un taller anual de teatro de texto del grupo La Ravalera, así que es formación de teatro."
+    },
+    "open_data_bcn:99400732231": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es un taller de ballet training con ejercicios de barra, que es formación de danza."
+    },
+    "open_data_bcn:99400789300": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Es un bingo musical con canciones en catalán, una actividad de ocio y no un espectáculo escénico."
+    },
+    "open_data_bcn:99400750983": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Es una actividad comunitaria de patronato sin indicios de artes escénicas."
+    },
+    "open_data_bcn:1338100528": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Es una muestra de teatro amateur con nueve grupos y diez obras en cinco escenarios."
+    },
+    "open_data_bcn:99400776451": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Es un taller de Zumba Dance, que es formación de baile o danza."
+    },
+    "open_data_bcn:99400030494": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Es una carrera popular, un deporte y no artes escénicas."
+    },
+    "open_data_bcn:99400789477": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Obra de teatro sobre la memoria histórica de la posguerra, con dirección, texto e intérpretes, en el espacio de artes escénicas Dau al Sec."
+    },
+    "open_data_bcn:99400775551": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller con técnicas teatrales, con inscripción previa; el formato de taller lo convierte en evento de formación."
+    },
+    "open_data_bcn:99400784476": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Sarau folk de montaña en un casal de barrio, sin descripción; parece una velada musical o social, no teatro."
+    },
+    "open_data_bcn:99400789433": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Espectáculo familiar en el Teatre Apolo basado en Tadeo Jones. La lámpara maravillosa es solo argumento, sin magia en directo."
+    },
+    "open_data_bcn:99400789726": {
+     "tipo": "cine",
+     "subtipo": "ciclo",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Ciclo de películas de la cineasta Rita Azevedo Gomes en la Filmoteca de Catalunya."
+    }
+   }
+  },
+  "claude-sonnet-5-5:medium": {
+   "uso": {
+    "entrada": 44019,
+    "salida": 10191,
+    "cache_lectura": 42340,
+    "cache_escritura": 0,
+    "errores": 0,
+    "peticiones": 10,
+    "segundos": 83.6
+   },
+   "res": {
+    "open_data_bcn:99400676015": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "El Mago Pop, «l'il·lusionista més taquiller», presenta un espectáculo de gran formato con ilusiones en el Teatre Victòria."
+    },
+    "open_data_bcn:99400781893": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "El Mago Yunke presenta «Hangar 52», un xou de màgia familiar de gran producción con ilusiones."
+    },
+    "open_data_bcn:99400743868": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Espectáculo de «Magologuisme» (magia y comedia) con aperitivo en el Museu de Cera; magia cómica como eje."
+    },
+    "open_data_bcn:99400786807": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Manu Llari presenta «Inexplicable», un espectáculo de magia con participación del público y humor, apto para familias."
+    },
+    "open_data_bcn:99400694096": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "«la millor màgia de prop» a pocos centímetros, a cargo de Daniel Sánchez."
+    },
+    "open_data_bcn:99400786325": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.88,
+     "motivo": "La descripción lo declara «un espectacle de màgia familiar» de Màgia Kids, aunque con hilo argumental."
+    },
+    "open_data_bcn:99400788293": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.85,
+     "motivo": "Se declara espectáculo de divulgación y sensibilización ambiental que combina efectos de magia; magia solo secundaria."
+    },
+    "open_data_bcn:99400784219": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Il·lusionisme de cambra de Hausson para público muy reducido, con prestidigitación y mentalismo."
+    },
+    "open_data_bcn:99400788475": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Título «Màgia de prop» a cargo de Edmond Clayton; descripción sobre magia de cerca."
+    },
+    "open_data_bcn:99400789394": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "Espectáculo de màgia de prop de Sergi Armentano con cartas, predicciones y humor a pocos centímetros."
+    },
+    "open_data_bcn:99400718524": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Shado, ilusionista, presenta «Cleptómago» con pickpocket, mentalismo y magia urbana; mezcla varias ramas sin que domine una."
+    },
+    "open_data_bcn:99400753205": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "La descripción lo declara «Contacontes» y el mago escombraries es un personaje del cuento; la magia es argumento."
+    },
+    "open_data_bcn:99400788812": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Mag Stigman, ilusionista, ofrece un «espectacle de màgia familiar» con magia, malabares y matemagia."
+    },
+    "open_data_bcn:99400784715": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Título «Espectacle de màgia» con Mag Lluc: magia visual e ilusiones con participación del público."
+    },
+    "open_data_bcn:99400781427": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "«Un nou espectacle de màgia» del Mag Lari, estilo Las Vegas con grandes ilusiones."
+    },
+    "open_data_bcn:99400789518": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "Espectáculo familiar de Aleix Vidal, «Un Mag per Nadal», con magia, nuevas ilusiones y humor; título y descripción indican que es un mago actuando."
+    },
+    "open_data_bcn:99400782532": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.7,
+     "motivo": "Producción que fusiona «la màgia més espectacular» con danza y teatro; protagonizado por el mago Pablo Barán, aunque con historia de fantasía."
+    },
+    "open_data_bcn:99400726524": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.97,
+     "motivo": "Taller de magia para adultos con el Mag Brando: formación, magia como tema."
+    },
+    "open_data_bcn:99400786635": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.96,
+     "motivo": "Taller de magia (a partir de 12 años) con el profesor Mag Brando."
+    },
+    "open_data_bcn:99400673396": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.97,
+     "motivo": "Taller de iniciación a la magia para 6-12 años con técnicas de ilusionismo."
+    },
+    "open_data_bcn:99400789961": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.6,
+     "motivo": "Es un taller de neurociencia para niños que usa trucos de magia para explicar el cerebro; formato taller, la magia es el tema y no hay función de magia."
+    },
+    "open_data_bcn:99400280534": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Festival de magia joven «Màgicus» con concurso de ilusionistas y masterclass, en Lluïsos de Gràcia."
+    },
+    "open_data_bcn:99400788806": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.8,
+     "motivo": "El título «Lo imposible está… en tu mente» es típico de mentalismo y se representa en Eixample Teatre; no hay descripción, pero el título lo indica."
+    },
+    "open_data_bcn:99400697762": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Obra familiar en Teatreneu sobre una librería; el paquete «màgic» es solo argumento."
+    },
+    "open_data_bcn:99400763392": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Se presenta como «Contacontes» en un centro cívico; la magia es argumento del cuento, aunque hay un taller final."
+    },
+    "open_data_bcn:99400789555": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Taller infantil en biblioteca con cuento y experimentos científicos; el mago Martí es personaje del cuento y no es un taller de magia."
+    },
+    "open_data_bcn:99400787990": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo infantil de teatro navideño en Teatreneu; la magia es ambiente y argumento."
+    },
+    "open_data_bcn:99400789516": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción lo presenta como «espectacle musical familiar» con canciones en directo; el baúl mágico es argumento."
+    },
+    "open_data_bcn:99400616888": {
+     "tipo": "otro",
+     "subtipo": "espectáculo sobre hielo",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Show de Disney sobre hielo en el Palau Sant Jordi; «viaje mágico» es argumento y el patinaje no es teatro ni circo."
+    },
+    "open_data_bcn:99400740401": {
+     "tipo": "otro",
+     "subtipo": "juego de cartas",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Partidas del juego de cartas Magic The Gathering en un centro cívico; no tiene relación con la magia escénica."
+    },
+    "open_data_bcn:99400790131": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es un concierto en la Sala Apolo; «Magic» en el título no indica magia."
+    },
+    "open_data_bcn:99400785634": {
+     "tipo": "otro",
+     "subtipo": "divulgación científica",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Se presenta como «contacontes científic» de divulgación sobre física cuántica; la «màgia» del título es metáfora."
+    },
+    "open_data_bcn:99400785082": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "«Sinfonía mágica de Hogwarts» con Lords of the Sound es un concierto sinfónico, no magia."
+    },
+    "open_data_bcn:99400788848": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción lo presenta como «aquest musical» con números musicales; la magia es argumento y ambiente."
+    },
+    "open_data_bcn:99400763970": {
+     "tipo": "otro",
+     "subtipo": "divulgación científica",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Propuesta de divulgación científica en la Setmana de la Ciència con experimentos; «màgia» es metáfora."
+    },
+    "open_data_bcn:99400786552": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "«Explica'm un conte», historia participativa; la fuente mágica y el encantamiento son solo argumento."
+    },
+    "open_data_bcn:99400789303": {
+     "tipo": "otro",
+     "subtipo": "exposición",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es una exposición en un museo; «Màgic 3D» no indica magia escénica."
+    },
+    "open_data_bcn:99400773085": {
+     "tipo": "otro",
+     "subtipo": "gincana turística",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Gincana turística digital; «màgiques» está en el nombre de un lugar o ruta."
+    },
+    "open_data_bcn:98148132742": {
+     "tipo": "otro",
+     "subtipo": "fuente ornamental",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Horario de una fuente «màgica» con música y coreografía; no es un espectáculo de artes escénicas."
+    },
+    "open_data_bcn:99400785635": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "Actividad infantil (a partir de 3 años) en sala polivalente con título «La nit més màgica» y sin descripción; probablemente teatro familiar con magia como ambiente."
+    },
+    "open_data_bcn:99400762080": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Proyección «Petits moments màgics» en una escuela; sin descripción, «màgics» es solo una palabra ambigua del título."
+    },
+    "open_data_bcn:99400765343": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Proyección en un centro cívico; «màgics» en el título no indica magia en directo."
+    },
+    "open_data_bcn:99400749863": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Proyección de cortometrajes («curtmetratges») en un centro cívico; sin magia en directo."
+    },
+    "open_data_bcn:99400785236": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller infantil de reciclaje de residuos en la Setmana de Prevenció de Residus; «màgics» es solo ambiente, no es del sector."
+    },
+    "open_data_bcn:99400786562": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Taller/workshop de danza y teatro físico de la Cie. PrÄK; formato taller, disciplina principal danza según el título."
+    },
+    "open_data_bcn:99400776259": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ilustración botánica; «màgiques» refiere a plantas, no a magia ni a artes escénicas."
+    },
+    "open_data_bcn:99400684765": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.96,
+     "motivo": "Taller de dibujo y pintura; «la màgia del natural» es una metáfora."
+    },
+    "open_data_bcn:99400703229": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de estimulación de la memoria y socialización; «màgica» es solo parte del título."
+    },
+    "open_data_bcn:99400786549": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller/workshop de danza basado en dinámicas de juego y movimiento, a cargo de Cia Carla Sisteré; formato formación."
+    },
+    "open_data_bcn:99400789709": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller infantil con sorra kinètica; «màgica» es solo el nombre de la arena, materia ajena a las artes escénicas."
+    },
+    "open_data_bcn:99400789706": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Taller de manualidades (máscaras con elementos naturales); lo mágico es solo ambientación."
+    },
+    "open_data_bcn:99400720832": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Torneo de Magic (juego de cartas) dentro de la Festa Friki, organizado por un club de rol; no es magia escénica."
+    },
+    "open_data_bcn:99400784572": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "«Trobada 'Teatre Il·lusió'» en un casal, sin descripción; parece un encuentro/grupo regular de teatro de aficionados. «Il·lusió» no indica magia."
+    },
+    "open_data_bcn:99400527360": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "Taller de guitarra flamenca: formación musical, no es danza ni artes escénicas del sector."
+    },
+    "open_data_bcn:99400787404": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "«Espectacle» infantil en biblioteca a cargo de una artista, sin descripción; podría ser cuentacuentos, pero se presenta como espectáculo."
+    },
+    "open_data_bcn:99400743819": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "Ciclo «Escena» de Barcelona Districte Cultural en centros cívicos: ciclo de artes escénicas sin detalle."
+    },
+    "open_data_bcn:99400731875": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de «Balls de saló» (baile de salón): formación de danza."
+    },
+    "open_data_bcn:99400769078": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.96,
+     "motivo": "Taller «Teatre de text, aprofundiment» en el Espai Escènic Tísner: formación de teatro."
+    },
+    "open_data_bcn:99400787013": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción lo presenta como «comèdia musical» y «divertidíssim musical» en el Teatre Goya."
+    },
+    "open_data_bcn:99400787894": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Concierto de coros del Orfeó Català en el Palau de la Música, con cançó i dansa tradicional como programa; es música, no danza como disciplina principal."
+    },
+    "open_data_bcn:99400771941": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Visita guiada a un mercado; «obra» se refiere a un edificio de arquitectura."
+    },
+    "open_data_bcn:99400786445": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de ballet clásico para adultos en un centro cívico: formación de danza."
+    },
+    "open_data_bcn:99400790083": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción declara «Conte contes»: es cuentacuentos para bebés, que va en «otro»."
+    },
+    "open_data_bcn:99400785606": {
+     "tipo": "cine",
+     "subtipo": "cinefòrum",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Cinefòrum con proyección de una película y presentación de la Mostra de Cinema Àrab."
+    },
+    "open_data_bcn:99400787033": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Obra de la Cia Facòf, un thriller inmobiliario en el Teatre El Maldà."
+    },
+    "open_data_bcn:99400762381": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de dansa teràpia con ritmos latinos y conciencia corporal: formación de danza con enfoque terapéutico."
+    },
+    "open_data_bcn:99400721138": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Baile de Navidad social en un casal de gent gran, sin descripción; no es un espectáculo de danza."
+    },
+    "open_data_bcn:99400786143": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de danza contemporánea: técnica e improvisación, con tallerista y curso en centro cívico."
+    },
+    "open_data_bcn:99400788616": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Espectáculo en directo en el Teatre Borràs, concurso participativo con improvisación y presentadores; se acerca al teatro de variedades, sin magia."
+    },
+    "open_data_bcn:99400776977": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Espectáculo de humor con anécdotas (monólogo/stand-up) de Isabel Rey en el Teatre Borràs."
+    },
+    "open_data_bcn:99400760251": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "El título dice «El musical» y la descripción habla de números musicales y música original; no hay magia real."
+    },
+    "open_data_bcn:99400776441": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller «Teatre adults» con inscripción previa: formación de teatro."
+    },
+    "open_data_bcn:99400481190": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller «Ballet per a adults» con profesora: formación de danza."
+    },
+    "open_data_bcn:99400789772": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Visionado de finalistas y votaciones populares en una biblioteca, sin indicios de artes escénicas."
+    },
+    "open_data_bcn:99400773342": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de bailes latinos en un centro cívico: formación de danza."
+    },
+    "open_data_bcn:99400768927": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Taller de Fitness Dance de una asociación deportiva: actividad física más que artes escénicas."
+    },
+    "open_data_bcn:99400784883": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Taller de danzas catalanas con inscripción previa: formación de danza."
+    },
+    "open_data_bcn:99400732239": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de country line dance con profesor, baile en línea: formación de danza."
+    },
+    "open_data_bcn:99400786555": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "La descripción dice «Sessió doble de dansa» con los espectáculos de la Cia. LaCerda."
+    },
+    "open_data_bcn:99400731243": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Es un taller o curso de «Commercial Dance» para jóvenes, es decir, formación de danza."
+    },
+    "open_data_bcn:99400614518": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un festival de artes contemporáneas y pensamiento; la descripción habla de teatro y cine, sin programación concreta. Se asigna teatro como disciplina más probable."
+    },
+    "open_data_bcn:99400740070": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.96,
+     "motivo": "Taller anual de teatro de texto con La Ravalera; el formato taller manda y es formación."
+    },
+    "open_data_bcn:99400732231": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de ballet training que fusiona ballet y fitness; es formación de danza."
+    },
+    "open_data_bcn:99400789300": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "Bingo musical de canciones en catalán: actividad de ocio, no es una función de artes escénicas."
+    },
+    "open_data_bcn:99400750983": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Actividad comunitaria «Patronatge», sin descripción ni indicio de artes escénicas."
+    },
+    "open_data_bcn:1338100528": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Mostra de Teatre con nueve grupos amateurs y diez obras en cinco escenarios: muestra, es decir, festival de teatro."
+    },
+    "open_data_bcn:99400776451": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de Zumba Dance en un centro cívico: formación de danza."
+    },
+    "open_data_bcn:99400030494": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.98,
+     "motivo": "Carrera popular de Bomberos: deporte, no artes escénicas."
+    },
+    "open_data_bcn:99400789477": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Obra de teatro de la cia. )e( espai en construcció sobre la memoria histórica, con dirección, texto e intérpretes, en Dau al Sec, espacio de artes escénicas."
+    },
+    "open_data_bcn:99400775551": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de técnicas teatrales con inscripción previa; el formato manda, es formación de teatro."
+    },
+    "open_data_bcn:99400784476": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Sarau folk de montaña en un casal de barrio, sin descripción: es un acto musical/social, no un espectáculo de artes escénicas."
+    },
+    "open_data_bcn:99400789433": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Espectáculo familiar en el Teatre Apolo basado en Tadeo Jones; la lámpara maravillosa es solo argumento, sin números de magia."
+    },
+    "open_data_bcn:99400789726": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Ciclo de cine en la Filmoteca de Catalunya con películas de Rita Azevedo Gomes; «danses» es solo parte de un título."
+    }
+   }
+  },
+  "claude-opus-5-5:low": {
+   "uso": {
+    "entrada": 44019,
+    "salida": 9432,
+    "cache_lectura": 38106,
+    "cache_escritura": 4234,
+    "errores": 0,
+    "peticiones": 10,
+    "segundos": 77.9
+   },
+   "res": {
+    "open_data_bcn:99400676015": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "El Mago Pop, ilusionista, espectáculo de gran formato con ilusiones inéditas."
+    },
+    "open_data_bcn:99400781893": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "Mag Yunke, ilusionista, 'xou de màgia' familiar con grandes ilusiones."
+    },
+    "open_data_bcn:99400743868": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.65,
+     "motivo": "Espectáculo de 'Magologuisme' que combina magia y comedia en directo con aperitivo."
+    },
+    "open_data_bcn:99400786807": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "La descripción lo presenta como 'un espectacle de màgia' de Manu Llari con participación del público."
+    },
+    "open_data_bcn:99400694096": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "'La millor màgia de prop' a pocos centímetros, de Daniel Sánchez."
+    },
+    "open_data_bcn:99400786325": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.75,
+     "motivo": "Se declara 'espectacle de màgia familiar' de Màgia Kids, con hilo argumental."
+    },
+    "open_data_bcn:99400788293": {
+     "tipo": "otro",
+     "subtipo": "divulgación",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.88,
+     "motivo": "Descripción: 'Espectacle de divulgació i sensibilització ambiental que combina màgia'."
+    },
+    "open_data_bcn:99400784219": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Ilusionismo de cámara de Hausson para público reducido, prestidigitación y mentalismo."
+    },
+    "open_data_bcn:99400788475": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Título y descripción: 'Màgia de prop' de Edmond Clayton."
+    },
+    "open_data_bcn:99400789394": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Espectáculo de magia de cerca con cartas y predicciones de Sergi Armentano."
+    },
+    "open_data_bcn:99400718524": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.85,
+     "motivo": "Ilusionista Shado: pickpocket, mentalismo y magia urbana como eje del espectáculo"
+    },
+    "open_data_bcn:99400753205": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción dice «Contacontes a càrrec de…»; el mago es personaje del cuento"
+    },
+    "open_data_bcn:99400788812": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Mag Stigman, «espectacle de màgia familiar de referència», ilusionista"
+    },
+    "open_data_bcn:99400784715": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "Título «Espectacle de màgia», Mag Lluc con magia visual e ilusiones"
+    },
+    "open_data_bcn:99400781427": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "Mag Lari, espectáculo de magia estilo Las Vegas con grandes ilusiones"
+    },
+    "open_data_bcn:99400789518": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.7,
+     "motivo": "Aleix Vidal como mago con «noves il·lusions», magia y humor navideño en familia"
+    },
+    "open_data_bcn:99400782532": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.6,
+     "motivo": "Màgic Pablo: producción que fusiona «la màgia més espectacular» con danza y teatro, mago real como protagonista"
+    },
+    "open_data_bcn:99400726524": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de magia avanzado impartido por el Mag Brando"
+    },
+    "open_data_bcn:99400786635": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.9,
+     "motivo": "Taller «Màgia» con el profesor Mag Brando"
+    },
+    "open_data_bcn:99400673396": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de iniciación al ilusionismo con el Mag Brando"
+    },
+    "open_data_bcn:99400789961": {
+     "tipo": "otro",
+     "subtipo": "taller de divulgación",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.75,
+     "motivo": "Taller de neurociencia para niños que usa trucos de magia para explicar el cerebro; finalidad divulgativa."
+    },
+    "open_data_bcn:99400280534": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Festival de Màgia Jove con jóvenes ilusionistas y masterclass en Lluïsos de Gràcia."
+    },
+    "open_data_bcn:99400788806": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.7,
+     "motivo": "Título típico de mentalismo «Lo imposible está... en tu mente» en Eixample Teatre, sin descripción."
+    },
+    "open_data_bcn:99400697762": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Obra familiar de la Cia. Peixospeixeres; el paquete mágico es argumento."
+    },
+    "open_data_bcn:99400763392": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Contacontes con taller; la magia del gato Roc es parte del cuento."
+    },
+    "open_data_bcn:99400789555": {
+     "tipo": "otro",
+     "subtipo": "taller de ciencia",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Cuento y experimentos científicos en biblioteca; el mago Martí es personaje."
+    },
+    "open_data_bcn:99400787990": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo infantil de teatro navideño; la magia es ambiente y argumento."
+    },
+    "open_data_bcn:99400789516": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción lo presenta como espectáculo musical familiar con canciones en directo; el baúl encantado es argumento."
+    },
+    "open_data_bcn:99400616888": {
+     "tipo": "otro",
+     "subtipo": "espectáculo sobre hielo",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Show de patinaje artístico sobre hielo de Disney; «màgic» es metáfora."
+    },
+    "open_data_bcn:99400740401": {
+     "tipo": "otro",
+     "subtipo": "juego de cartas",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Partidas del juego de cartas Magic The Gathering en centro cívico."
+    },
+    "open_data_bcn:99400790131": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "El título indica «Concert» en la Sala Apolo; «Magic» es el nombre del concierto."
+    },
+    "open_data_bcn:99400785634": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos científico",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Se presenta como «Contacontes científic» de divulgación; la «màgia de la quàntica» es una metáfora y el payaso es secundario."
+    },
+    "open_data_bcn:99400785082": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "«Sinfonía mágica de Hogwarts» con Lords of the Sound es un concierto sinfónico de bandas sonoras; «mágica» alude a Harry Potter."
+    },
+    "open_data_bcn:99400788848": {
+     "tipo": "musical",
+     "subtipo": "musical familiar",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción dice «aquest musical» con números musicales; la magia es el ambiente de la historia de Frozen."
+    },
+    "open_data_bcn:99400763970": {
+     "tipo": "otro",
+     "subtipo": "divulgación científica",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Propuesta de la Setmana de la Ciència con experimentos sobre física cuántica; «màgia» es una metáfora."
+    },
+    "open_data_bcn:99400786552": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "«Explica'm un conte», narración participativa; la magia (encanteris, font màgica) es el argumento."
+    },
+    "open_data_bcn:99400789303": {
+     "tipo": "otro",
+     "subtipo": "exposición",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es una exposición en el Museu d'Història; «Màgic 3D» no es un espectáculo de magia."
+    },
+    "open_data_bcn:99400773085": {
+     "tipo": "otro",
+     "subtipo": "gincana",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Gimcana turística digital; «màgiques» es solo parte del título."
+    },
+    "open_data_bcn:98148132742": {
+     "tipo": "otro",
+     "subtipo": "fuente ornamental",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es el horario de una fuente «màgica» con música, no un espectáculo."
+    },
+    "open_data_bcn:99400785635": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.45,
+     "motivo": "Actividad familiar a partir de 3 años en sala polivalente sin descripción; probablemente un espectáculo infantil, y «màgica» es ambiental."
+    },
+    "open_data_bcn:99400762080": {
+     "tipo": "cine",
+     "subtipo": "proyección",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Título «Projecció»: proyección audiovisual; «màgics» es solo descriptivo."
+    },
+    "open_data_bcn:99400765343": {
+     "tipo": "cine",
+     "subtipo": "proyección",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Título «Projecció»: proyección audiovisual; «màgics» es solo descriptivo."
+    },
+    "open_data_bcn:99400749863": {
+     "tipo": "cine",
+     "subtipo": "cortometrajes",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Proyección de «curtmetratges» según el título."
+    },
+    "open_data_bcn:99400785236": {
+     "tipo": "otro",
+     "subtipo": "taller de reciclaje",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller infantil de transformar residuos en objetos (Semana de Prevención de Residuos); «màgics» es metáfora."
+    },
+    "open_data_bcn:99400786562": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Workshop de danza con humor y teatro físico a cargo de Cie PrÄK; formato taller."
+    },
+    "open_data_bcn:99400776259": {
+     "tipo": "otro",
+     "subtipo": "taller de ilustración",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de dibujo y acuarela de plantas medicinales; «màgiques» no es magia escénica."
+    },
+    "open_data_bcn:99400684765": {
+     "tipo": "otro",
+     "subtipo": "taller de pintura",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de dibujo y pintura; «la màgia del natural» es metáfora."
+    },
+    "open_data_bcn:99400703229": {
+     "tipo": "otro",
+     "subtipo": "taller de memoria",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller para ejercitar la mente y la memoria; «màgica» es solo el nombre."
+    },
+    "open_data_bcn:99400786549": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Título: taller/workshop de danza a cargo de Cia Carla Sisteré"
+    },
+    "open_data_bcn:99400789709": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller infantil de experimentación con arena kinética; «màgica» es solo un adjetivo"
+    },
+    "open_data_bcn:99400789706": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de manualidades de máscaras con elementos naturales; «màgiques» es ambiente"
+    },
+    "open_data_bcn:99400720832": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Torneo del juego de cartas Magic organizado por un club de rol en la Festa Friki"
+    },
+    "open_data_bcn:99400784572": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Encuentro semanal «Teatre Il·lusió» en un casal, probablemente grupo de teatro; sin descripción"
+    },
+    "open_data_bcn:99400527360": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Curso de guitarra flamenca: formación musical, no artes escénicas"
+    },
+    "open_data_bcn:99400787404": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.45,
+     "motivo": "Espectáculo infantil en biblioteca sin descripción; probablemente cuentacuentos"
+    },
+    "open_data_bcn:99400743819": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "Ciclo «Escena» de la red de centros cívicos, ciclo de artes escénicas"
+    },
+    "open_data_bcn:99400731875": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de bailes de salón"
+    },
+    "open_data_bcn:99400769078": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de teatro de texto a cargo de Alba Teixidó"
+    },
+    "open_data_bcn:99400787013": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción la presenta como «comèdia musical» y «divertidíssim musical»."
+    },
+    "open_data_bcn:99400787894": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.65,
+     "motivo": "Concierto de coros del Orfeó Català con piano en el Palau de la Música, aunque participa Ballets de Catalunya."
+    },
+    "open_data_bcn:99400771941": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Visita guiada a un mercado; «obra» se refiere a arquitectura."
+    },
+    "open_data_bcn:99400786445": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de ballet clásico para adultos."
+    },
+    "open_data_bcn:99400790083": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "La descripción dice «Conte contes»: cuentacuentos para 0-3 años."
+    },
+    "open_data_bcn:99400785606": {
+     "tipo": "cine",
+     "subtipo": "",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Cinefòrum con proyección de la película «200 metres»."
+    },
+    "open_data_bcn:99400787033": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Obra de teatro (thriller) de la Cia Facòf en el Teatre El Maldà."
+    },
+    "open_data_bcn:99400762381": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.7,
+     "motivo": "Taller de danzaterapia con ritmos latinos."
+    },
+    "open_data_bcn:99400721138": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Baile social de Navidad en un casal de gent gran, no espectáculo."
+    },
+    "open_data_bcn:99400786143": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de danza contemporánea; «improvisació» es de danza."
+    },
+    "open_data_bcn:99400788616": {
+     "tipo": "teatro",
+     "subtipo": "concurso escénico",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "Descripción: concurso-espectáculo interactivo de cultura pop en el Teatre Borràs con pruebas de interpretar e improvisar; sin magia."
+    },
+    "open_data_bcn:99400776441": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título: taller de teatro para adultos con inscripción."
+    },
+    "open_data_bcn:99400776977": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Descripción: espectáculo de humor con anécdotas de vida de Isabel Rey y final musical (monólogo)."
+    },
+    "open_data_bcn:99400760251": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título: «Se ha escrito un crimen. El musical», con números musicales y música original."
+    },
+    "open_data_bcn:99400481190": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título: taller de ballet para adultos con profesora."
+    },
+    "open_data_bcn:99400789772": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "Título: visionado de finalistas y votaciones en una biblioteca; sin indicios de artes escénicas."
+    },
+    "open_data_bcn:99400773342": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Título: taller de bailes latinos sin pareja."
+    },
+    "open_data_bcn:99400768927": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Título: taller de Fitness Dance de una asociación deportiva; es actividad física."
+    },
+    "open_data_bcn:99400784883": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Título: taller de danzas catalanas."
+    },
+    "open_data_bcn:99400732239": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Título y descripción: taller de country line dance."
+    },
+    "open_data_bcn:99400786555": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "La descripción indica «Sessió doble de dansa» de la Cia. LaCerda."
+    },
+    "open_data_bcn:99400731243": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "Curso juvenil de «Commercial Dance»: es un taller de danza."
+    },
+    "open_data_bcn:99400614518": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un festival de artes contemporáneas y pensamiento con referencias al teatro; la disciplina exacta no está clara."
+    },
+    "open_data_bcn:99400740070": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller anual de teatro de texto con La Ravalera."
+    },
+    "open_data_bcn:99400732231": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Taller de ballet combinado con fitness: es formación de danza."
+    },
+    "open_data_bcn:99400789300": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Bingo musical de canciones: actividad lúdica, no escénica."
+    },
+    "open_data_bcn:99400750983": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Actividad comunitaria de patronaje (costura), ajena a las artes escénicas."
+    },
+    "open_data_bcn:1338100528": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Muestra de teatro amateur con nueve grupos de teatro."
+    },
+    "open_data_bcn:99400776451": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Zumba es una actividad de fitness más que formación de danza."
+    },
+    "open_data_bcn:99400030494": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.98,
+     "motivo": "Carrera popular de los Bomberos: es una actividad deportiva."
+    },
+    "open_data_bcn:99400789477": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "La descripción presenta una obra de teatro con intérpretes y dirección en un espacio de artes escénicas."
+    },
+    "open_data_bcn:99400775551": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Es un taller con técnicas teatrales, con inscripción previa: un evento de formación de teatro."
+    },
+    "open_data_bcn:99400784476": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "El título indica un sarau folk, un baile de música popular, no un espectáculo escénico."
+    },
+    "open_data_bcn:99400789433": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un espectáculo familiar en el Teatre Apolo basado en Tadeo Jones; la lámpara maravillosa es el argumento. Podría ser un musical, pero la descripción no lo dice."
+    },
+    "open_data_bcn:99400789726": {
+     "tipo": "cine",
+     "subtipo": "ciclo",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es un ciclo de películas en la Filmoteca de Catalunya."
+    }
+   }
+  },
+  "claude-opus-5-5:medium": {
+   "uso": {
+    "entrada": 44019,
+    "salida": 15052,
+    "cache_lectura": 42340,
+    "cache_escritura": 0,
+    "errores": 0,
+    "peticiones": 10,
+    "segundos": 130.3
+   },
+   "res": {
+    "open_data_bcn:99400676015": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "La descripción presenta a El Mago Pop, «l'il·lusionista més taquiller del món», en un espectáculo de grandes ilusiones de gran formato."
+    },
+    "open_data_bcn:99400781893": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.97,
+     "motivo": "La descripción lo presenta como un «xou de màgia» familiar del Mago Yunke, ilusionista y campeón mundial, con grandes ilusiones de escena."
+    },
+    "open_data_bcn:99400743868": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.65,
+     "motivo": "La descripción lo define como «Espectacle de Magologuisme», magia cómica con monólogo; no se nombra al artista, de ahí la confianza moderada."
+    },
+    "open_data_bcn:99400786807": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "La descripción dice que es «un espectacle de màgia» de Manu Llari, con participación del público y humor, para toda la familia."
+    },
+    "open_data_bcn:99400694096": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "La descripción ofrece «la millor màgia de prop a escassos centímetres» a cargo de Daniel Sánchez."
+    },
+    "open_data_bcn:99400786325": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.78,
+     "motivo": "La descripción lo declara «un espectacle de màgia familiar» de la compañía Màgia Kids; tiene un hilo argumental, pero la magia es el eje del espectáculo."
+    },
+    "open_data_bcn:99400788293": {
+     "tipo": "otro",
+     "subtipo": "divulgación ambiental",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.88,
+     "motivo": "La descripción lo define como «Espectacle de divulgació i sensibilització ambiental que combina màgia»: la magia es un recurso educativo y secundario."
+    },
+    "open_data_bcn:99400784219": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.92,
+     "motivo": "La descripción anuncia ilusionismo de cámara de Hausson para un público muy reducido, con prestidigitación y mentalismo «a tocar de la vostra mà»."
+    },
+    "open_data_bcn:99400788475": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "El título es «Màgia de prop» y la descripción habla de la magia de cerca como «la poesia de la màgia», a cargo de Edmond Clayton."
+    },
+    "open_data_bcn:99400789394": {
+     "tipo": "magia",
+     "subtipo": "magia de cerca",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "El título dice «Espectacle de màgia» y la descripción habla de magia de cerca con cartas y predicciones de Sergi Armentano, a pocos centímetros del público."
+    },
+    "open_data_bcn:99400718524": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "La descripción presenta al ilusionista Shado en un show que mezcla pickpocket, mentalismo y magia urbana, sin que domine una sola rama."
+    },
+    "open_data_bcn:99400753205": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "La descripción dice «Contacontes a càrrec de...»: el mago es el personaje de la historia, no un número de magia."
+    },
+    "open_data_bcn:99400788812": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.95,
+     "motivo": "El Mag Stigman presenta un «espectacle de màgia familiar»; los malabares y las coreografías son secundarios."
+    },
+    "open_data_bcn:99400784715": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.93,
+     "motivo": "Título «Espectacle de màgia»: el Mag Lluc ofrece magia visual e ilusiones con participación del público."
+    },
+    "open_data_bcn:99400781427": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.96,
+     "motivo": "Espectáculo de magia del Mag Lari, de estilo Las Vegas y con grandes ilusiones."
+    },
+    "open_data_bcn:99400789518": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.7,
+     "motivo": "Título «Un Mag per Nadal»: Aleix Vidal presenta nuevas ilusiones con humor y una historia navideña; la magia en directo parece el eje."
+    },
+    "open_data_bcn:99400782532": {
+     "tipo": "magia",
+     "subtipo": "magia general",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.6,
+     "motivo": "El artista es Màgic Pablo y la descripción habla de «la màgia més espectacular» combinada con danza y teatro en una historia; se considera la magia como eje, con dudas."
+    },
+    "open_data_bcn:99400726524": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de magia avanzado para adultos impartido por el Mag Brando: es una formación."
+    },
+    "open_data_bcn:99400786635": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.93,
+     "motivo": "Taller de magia para mayores de 12 años impartido por el Mag Brando: es una formación."
+    },
+    "open_data_bcn:99400673396": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "Taller de iniciación al ilusionismo para niños de 6 a 12 años con el Mag Brando: es una formación."
+    },
+    "open_data_bcn:99400789961": {
+     "tipo": "otro",
+     "subtipo": "taller de divulgación científica",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.6,
+     "motivo": "Taller de neurociencia para niños en una biblioteca que usa trucos de magia para explicar el cerebro; la finalidad es divulgativa, no un espectáculo de magia."
+    },
+    "open_data_bcn:99400280534": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "magia",
+     "magia": "tema",
+     "confianza": 0.95,
+     "motivo": "La descripción lo presenta como el festival de magia joven de Barcelona para jóvenes ilusionistas, con concurso y masterclass."
+    },
+    "open_data_bcn:99400788806": {
+     "tipo": "magia",
+     "subtipo": "mentalismo",
+     "disciplina": "magia",
+     "magia": "principal",
+     "confianza": 0.7,
+     "motivo": "Título típico de mentalismo («Lo imposible está... en tu mente») en el Eixample Teatre; no hay descripción, así que la confianza es moderada."
+    },
+    "open_data_bcn:99400697762": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Obra familiar de la Cia. Peixospeixeres; el «paquete mágico» y la librería forman parte del argumento."
+    },
+    "open_data_bcn:99400763392": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "incluye",
+     "confianza": 0.55,
+     "motivo": "Es un contacontes con un taller final para descubrir si llevas un pequeño mago dentro; la magia es tema del cuento y del taller, no un espectáculo de magia."
+    },
+    "open_data_bcn:99400789555": {
+     "tipo": "otro",
+     "subtipo": "taller de ciencia",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller infantil de cuento y experimentos científicos; el mago Martí es un personaje de la historia."
+    },
+    "open_data_bcn:99400787990": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Espectáculo infantil de Navidad presentado como teatro en familia; «màgica» se refiere al ambiente navideño."
+    },
+    "open_data_bcn:99400789516": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción lo presenta como «un espectacle musical familiar» con canciones de Disney en directo; el baúl encantado es parte del argumento."
+    },
+    "open_data_bcn:99400616888": {
+     "tipo": "otro",
+     "subtipo": "espectáculo sobre hielo",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Show de patinaje artístico sobre hielo en el Palau Sant Jordi; «viaje mágico» es el título y el ambiente, no magia en directo."
+    },
+    "open_data_bcn:99400740401": {
+     "tipo": "otro",
+     "subtipo": "juego de cartas",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Partidas del juego de cartas Magic The Gathering organizadas por un club de rol en un centro cívico."
+    },
+    "open_data_bcn:99400790131": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "El título lo presenta como «Concert» en la Sala Apolo; «Magic» es solo el nombre del concierto."
+    },
+    "open_data_bcn:99400785634": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos de divulgación",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Título «Contacontes científic» y descripción de experimentos sobre física cuántica; «la màgia de la quàntica» es una metáfora."
+    },
+    "open_data_bcn:99400785082": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "«Sinfonía» a cargo de Lords of the Sound, un concierto sinfónico de bandas sonoras; «mágica» alude a Hogwarts."
+    },
+    "open_data_bcn:99400788848": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción dice «aquest musical» con números musicales y coreografías; la magia forma parte del argumento de Frozen."
+    },
+    "open_data_bcn:99400763970": {
+     "tipo": "otro",
+     "subtipo": "divulgación científica",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Propuesta en el marco de la Setmana de la Ciència para explicar el mundo cuántico con experimentos; «màgia» es una metáfora."
+    },
+    "open_data_bcn:99400786552": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Título «Explica'm un conte»: es un cuentacuentos participativo; la magia es el argumento (fuente mágica, bruja)."
+    },
+    "open_data_bcn:99400789303": {
+     "tipo": "otro",
+     "subtipo": "exposición",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Título «Exposició» en el Museu d'Història de Barcelona; «Màgic 3D» se refiere a la imagen estereoscópica."
+    },
+    "open_data_bcn:99400773085": {
+     "tipo": "otro",
+     "subtipo": "gincana turística",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Título «Gimcana turística digital»; «màgiques» es solo el nombre de la ruta."
+    },
+    "open_data_bcn:98148132742": {
+     "tipo": "otro",
+     "subtipo": "fuente ornamental",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Horario de una fuente «màgica» con música y coreografía; no es un espectáculo escénico."
+    },
+    "open_data_bcn:99400785635": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "Solo hay el título «La nit més màgica» y la edad «a partir de 3 anys»; parece un espectáculo infantil navideño con la magia como ambiente, pero faltan datos."
+    },
+    "open_data_bcn:99400762080": {
+     "tipo": "cine",
+     "subtipo": "proyección",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "El título indica una «Projecció»; «màgics» es solo un adjetivo del título, sin magia en directo."
+    },
+    "open_data_bcn:99400765343": {
+     "tipo": "cine",
+     "subtipo": "proyección",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "El título indica una «Projecció»; «màgics» es solo un adjetivo del título, sin magia en directo."
+    },
+    "open_data_bcn:99400749863": {
+     "tipo": "cine",
+     "subtipo": "cortometrajes",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "El título indica la proyección de «curtmetratges»; «màgics» es solo un adjetivo."
+    },
+    "open_data_bcn:99400785236": {
+     "tipo": "otro",
+     "subtipo": "taller de reciclaje",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción presenta un taller infantil de transformar residuos en la Setmana de la Prevenció de Residus; «màgics» es metáfora."
+    },
+    "open_data_bcn:99400786562": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un taller («Workshop de dansa») de la Cie. PrÄK que mezcla danza, humor y teatro físico; el formato taller lo hace evento de formación."
+    },
+    "open_data_bcn:99400776259": {
+     "tipo": "otro",
+     "subtipo": "taller de ilustración",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "La descripción es un taller de dibujo y acuarela de plantas medicinales; «màgiques» no tiene que ver con la magia escénica."
+    },
+    "open_data_bcn:99400684765": {
+     "tipo": "otro",
+     "subtipo": "taller de pintura",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de dibujo y pintura; «La màgia del natural» es una metáfora."
+    },
+    "open_data_bcn:99400703229": {
+     "tipo": "otro",
+     "subtipo": "taller de memoria",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "La descripción presenta un taller para ejercitar la mente y la memoria; «màgica» es solo el nombre del taller."
+    },
+    "open_data_bcn:99400786549": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.92,
+     "motivo": "El título lo presenta como taller y workshop de danza, con sesiones de juego y movimiento a cargo de Cia Carla Sisteré."
+    },
+    "open_data_bcn:99400789709": {
+     "tipo": "otro",
+     "subtipo": "taller infantil",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de experimentación con arena kinética para niños de 3 a 6 años; «màgica» solo describe la arena."
+    },
+    "open_data_bcn:99400789706": {
+     "tipo": "otro",
+     "subtipo": "manualidades",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de manualidades para crear máscaras con elementos naturales; «màgiques» es ambiente, no hay espectáculo de magia."
+    },
+    "open_data_bcn:99400720832": {
+     "tipo": "otro",
+     "subtipo": "juego de cartas",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Torneo de Magic dentro de la Festa Friki, a cargo de un club de rol: es un juego de cartas, no magia escénica."
+    },
+    "open_data_bcn:99400784572": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.5,
+     "motivo": "El título «Trobada 'Teatre Il·lusió'» y su periodicidad semanal en un casal sugieren un grupo o encuentro de teatro; no hay descripción, por eso la confianza es baja."
+    },
+    "open_data_bcn:99400527360": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "El título lo presenta como un taller de guitarra flamenca con profesor y niveles, es decir, formación musical."
+    },
+    "open_data_bcn:99400787404": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.45,
+     "motivo": "El título lo presenta como «Espectacle» infantil en una biblioteca, pero sin descripción; también podría ser un cuentacuentos."
+    },
+    "open_data_bcn:99400743819": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "El título indica un ciclo «Escena» de la red de centros cívicos, un ciclo de artes escénicas; sin descripción no se precisa la disciplina."
+    },
+    "open_data_bcn:99400731875": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.88,
+     "motivo": "El título lo presenta como un taller de bailes de salón en un centro cívico, es decir, formación de danza."
+    },
+    "open_data_bcn:99400769078": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Taller de teatro de texto a cargo de Alba Teixidó, con inscripción y precio de curso."
+    },
+    "open_data_bcn:99400787013": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "La descripción la presenta como «una premiada comèdia musical» y «divertidíssim musical», con dirección musical."
+    },
+    "open_data_bcn:99400787894": {
+     "tipo": "otro",
+     "subtipo": "concierto",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Concierto de coros del Orfeó Català con piano en el Palau de la Música; la danza (Ballets de Catalunya) acompaña, pero domina el canto coral."
+    },
+    "open_data_bcn:99400771941": {
+     "tipo": "otro",
+     "subtipo": "visita guiada",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.97,
+     "motivo": "Visita guiada al nuevo Mercat de Montserrat; «obra» se refiere a arquitectura."
+    },
+    "open_data_bcn:99400786445": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Título «Taller 'Ballet clàssic per a adults'»: taller de danza."
+    },
+    "open_data_bcn:99400790083": {
+     "tipo": "otro",
+     "subtipo": "cuentacuentos",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "La descripción dice «Conte contes»: sesión de narración oral para bebés de 0 a 3 años."
+    },
+    "open_data_bcn:99400785606": {
+     "tipo": "cine",
+     "subtipo": "cinefórum",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Cinefòrum de la película «200 metres» presentado por la Mostra de Cinema Àrab i Mediterrani."
+    },
+    "open_data_bcn:99400787033": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.92,
+     "motivo": "Obra de la Cia Facòf, «thriller immobiliari» con personajes, en el Teatre El Maldà."
+    },
+    "open_data_bcn:99400762381": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "Título «Taller 'Dansa teràpia'»: taller de conciencia corporal con ritmos latinos."
+    },
+    "open_data_bcn:99400721138": {
+     "tipo": "otro",
+     "subtipo": "baile social",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.75,
+     "motivo": "«Ball de Nadal» en un casal de gent gran: baile festivo social, no un espectáculo de danza."
+    },
+    "open_data_bcn:99400786143": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.93,
+     "motivo": "Título «Taller 'Dansa contemporània: tècnica i improvisació'»: curso de danza; «improvisació» es de danza."
+    },
+    "open_data_bcn:99400788616": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "Espectáculo-concurso participativo de cultura pop en el Teatre Borràs, con pruebas de interpretar e improvisar; formato de humor y variedades escénicas, no de magia."
+    },
+    "open_data_bcn:99400776977": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Espectáculo de humor en el que Isabel Rey cuenta sus anécdotas de vida, al estilo de un monólogo, con un final musical."
+    },
+    "open_data_bcn:99400760251": {
+     "tipo": "musical",
+     "subtipo": "",
+     "disciplina": "musical",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "El título es «...El musical» y la descripción habla de números musicales y de música original; es teatro musical interactivo."
+    },
+    "open_data_bcn:99400776441": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de teatro para adultos con inscripción previa: es formación."
+    },
+    "open_data_bcn:99400481190": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Taller de ballet para adultos con profesora en un centro cívico: es formación en danza."
+    },
+    "open_data_bcn:99400789772": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.4,
+     "motivo": "Visionado de finalistas y votación popular en una biblioteca, sin descripción; nada indica que sea del sector de las artes escénicas."
+    },
+    "open_data_bcn:99400773342": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de bailes latinos sin pareja en un centro cívico: es formación en danza."
+    },
+    "open_data_bcn:99400768927": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Taller de fitness a cargo de una asociación deportiva: es una actividad deportiva más que de danza escénica."
+    },
+    "open_data_bcn:99400784883": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de danzas catalanas con inscripción previa: es formación en danza."
+    },
+    "open_data_bcn:99400732239": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.8,
+     "motivo": "Taller de baile en línea country con profesor, que progresa clase a clase: es formación en danza."
+    },
+    "open_data_bcn:99400786555": {
+     "tipo": "danza",
+     "subtipo": "",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "La descripción indica una «Sessió doble de dansa» con dos espectáculos de la Cia. LaCerda."
+    },
+    "open_data_bcn:99400731243": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es un taller o curso para jóvenes de «Commercial Dance»; por formato es formación de danza."
+    },
+    "open_data_bcn:99400614518": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Es un festival de artes contemporáneas y pensamiento con referencias al teatro (Medea, tragedia, comedia); es multidisciplinar. «Tot és mentida» es el lema, no magia."
+    },
+    "open_data_bcn:99400740070": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es un taller anual de teatro de texto («Fem teatre») con profesora: formación teatral."
+    },
+    "open_data_bcn:99400732231": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "danza",
+     "magia": "no",
+     "confianza": 0.65,
+     "motivo": "Es un taller de «Ballet Training» que fusiona técnica de ballet y fitness; por formato es formación, con disciplina danza."
+    },
+    "open_data_bcn:99400789300": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "Es un bingo musical de canciones: actividad lúdica de música, no de artes escénicas."
+    },
+    "open_data_bcn:99400750983": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.85,
+     "motivo": "Es una actividad comunitaria de «Patronatge» (patronaje de costura), ajena a las artes escénicas."
+    },
+    "open_data_bcn:1338100528": {
+     "tipo": "evento",
+     "subtipo": "festival",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es una «Mostra de Teatre» con nueve grupos amateurs y diez obras: muestra o festival de teatro."
+    },
+    "open_data_bcn:99400776451": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.55,
+     "motivo": "El taller de «Zumba Dance» es una actividad de fitness más que formación en danza escénica."
+    },
+    "open_data_bcn:99400030494": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "otra",
+     "magia": "no",
+     "confianza": 0.98,
+     "motivo": "Es la «Cursa de Bombers», una carrera popular: actividad deportiva."
+    },
+    "open_data_bcn:99400789477": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "La descripción presenta una obra de teatro sobre la memoria histórica, con dirección, texto e intérpretes, en un espacio de artes escénicas."
+    },
+    "open_data_bcn:99400775551": {
+     "tipo": "evento",
+     "subtipo": "formación",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.9,
+     "motivo": "El título y la descripción hablan de un taller con técnicas teatrales e inscripción previa, por lo que es formación de teatro."
+    },
+    "open_data_bcn:99400784476": {
+     "tipo": "otro",
+     "subtipo": "",
+     "disciplina": "música",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "Un «sarau folk» es una fiesta de música y baile popular, sin descripción que indique un espectáculo de artes escénicas."
+    },
+    "open_data_bcn:99400789433": {
+     "tipo": "teatro",
+     "subtipo": "",
+     "disciplina": "teatro",
+     "magia": "no",
+     "confianza": 0.6,
+     "motivo": "El título lo presenta como un espectáculo familiar en el Teatre Apolo con una historia de aventuras. La «lámpara maravillosa» forma parte del argumento, no es un número de magia."
+    },
+    "open_data_bcn:99400789726": {
+     "tipo": "cine",
+     "subtipo": "ciclo",
+     "disciplina": "cine",
+     "magia": "no",
+     "confianza": 0.95,
+     "motivo": "Es un ciclo de películas en la Filmoteca de Catalunya. «Danses» es solo parte del título de un film."
+    }
+   }
+  }
+ }
+}

@@ -20,9 +20,15 @@ Uri la puede probar como página privada de Claude:
 https://claude.ai/artifact/7ZSzcw6GNbXXf5idrGQw3z (se actualiza a mano: allí no
 cargan las fotos de los carteles ni funciona sin conexión). Se publica desde
 `web/dist` con una página que carga los archivos de la app (ver el historial).
-Pendiente de Uri: avisar cuándo activar la IA (entonces, prueba de los tres
-modelos y creación de la clave `ANTHROPIC_API_KEY`). Hasta entonces la app
-clasifica solo por señales. Ver «Plan por fases» en el brief.
+IA (8/11/2026): Uri creó la clave en la consola de Anthropic (no caduca). Está
+guardada en el entorno de la nube de Claude «app-teatre-cine» como
+`CLAVE_IA_CARTELERA` (las variables `ANTHROPIC_*` no llegan a las sesiones),
+y `clasificar_ia.clave()` acepta los dos nombres. La prueba de los tres modelos
+está hecha (`docs/pruebas/2026-11-08-prueba-modelos.md`, costó 1,33 $).
+Pendiente de Uri: aprobar la propuesta (Sonnet + Opus para lo dudoso). Cuando
+vuelva GitHub, crear allí el secreto `ANTHROPIC_API_KEY` para la tarea diaria;
+hasta entonces la app clasifica solo por señales. Ver «Plan por fases» en el
+brief.
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
 móvil en https://claude.ai/artifact/9WzwWKvR8AT6zFEhQKjvrU (cartelera con
@@ -98,11 +104,12 @@ local, y se le envía la copia de seguridad.
   los haya (cine: p. ej. International Showtimes); la IA leyendo la web de cada
   sala; y a futuro, salas y artistas publicando en la app con verificación
   automática.
-- **IA dentro de la app (cuando Uri avise):** probar Haiku 5.5, Sonnet 5.5 y
-  Opus 5.5 con la prueba de magia y enseñar aciertos y coste; Haiku para
-  clasificar y extraer, y solo lo dudoso (según la confianza guardada) y las
-  fichas de trayectoria y premios suben a un modelo superior; trabajo nocturno
-  por lotes (Batch, mitad de precio). Guiar a Uri paso a paso para crear la
+- **IA dentro de la app:** prueba de los tres modelos hecha (8/11/2026,
+  `docs/pruebas/2026-11-08-prueba-modelos.md`). Todos aciertan la magia, pero
+  Haiku falla los casos difíciles muy seguro de sí mismo. Propuesta pendiente
+  de Uri: Sonnet clasifica y solo lo dudoso (según la confianza guardada) y
+  las fichas de trayectoria y premios suben a Opus; Haiku, para extraer
+  datos sin interpretar. Trabajo nocturno por lotes (Batch, mitad de precio). Guiar a Uri paso a paso para crear la
   clave; nunca la pegará en el chat.
 - **Hoy:** nada de escala mundial, pero sin cerrarle la puerta: datos con
   ciudad y país (zona horaria, moneda, idiomas), cada fuente como pieza

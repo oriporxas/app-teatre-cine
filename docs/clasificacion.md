@@ -157,24 +157,23 @@ generales:
 
 ### Coste y modelo
 
-- Modelos provisionales (`ajustes/ia.toml`): `claude-haiku-5-5` para
-  clasificar y `claude-opus-5-5` para revisar los dudosos. Se cambian
-  editando ese archivo, sin tocar el código. Cuando se active la IA se
-  probarán Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia para
-  elegir con datos (aciertos y coste), y el trabajo nocturno pasará al
-  procesamiento por lotes (Batch), que cuesta la mitad.
+- Modelos (`ajustes/ia.toml`), elegidos con la prueba de los tres modelos del
+  8/11/2026 (`docs/pruebas/2026-11-08-prueba-modelos.md`):
+  `claude-sonnet-5-5` (esfuerzo medio) para clasificar y `claude-opus-5-5`
+  para revisar los dudosos (confianza < 0,7, aprox. 1 de cada 10). Haiku
+  acertó la magia igual, pero en los casos difíciles se equivoca con mucha
+  confianza, y la revisión de dudosos no lo corrige. Se cambian editando ese
+  archivo, sin tocar el código. El trabajo nocturno pasará al procesamiento
+  por lotes (Batch), que cuesta la mitad.
 - Se envían 10 actividades por petición (5 en la revisión) y las
   instrucciones van en caché.
 - No todo se envía a la IA: de ~6.900 actividades vigentes, unas 1.800 son
   candidatas (las demás son claramente conciertos, exposiciones, visitas,
   talleres de otras materias…).
-- Estimación (precios de octubre de 2026: Haiku 5.5 a 0,10 $/0,50 $ y Opus
-  5.5 a 4 $/20 $ por millón de tokens de entrada/salida; a confirmar con el
-  coste real). Todo con Haiku: unos 0,30 $ la primera vez y menos de 1 $/mes.
-  Todo con Opus: unos 10–15 $ la primera vez y 10–20 $/mes. Con la
-  combinación prevista (Haiku y solo los dudosos a Opus), según cuántos
-  dudosos salgan, algo intermedio: del orden de 2–5 $ la primera vez y unos
-  pocos dólares al mes. El informe diario (`informe.json` de cada ciudad,
+- Coste medido en la prueba (por 1000 actividades): Haiku 0,13–0,17 $,
+  Sonnet 2,1 $, Opus 4,3–5,3 $. Con Sonnet y la revisión de dudosos con Opus,
+  en Barcelona: unos 4,6 $ la primera vez (1712 candidatas) y como mucho
+  12 $/mes (6 $ por lotes), contando 150 novedades al día. El informe diario (`informe.json` de cada ciudad,
   apartado `ia`) guarda los tokens gastados por tarea para medir el coste
   real.
 

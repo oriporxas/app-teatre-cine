@@ -80,9 +80,9 @@ donde hacerlo está marcado en `pipeline/principal.py`.
 Cada tarea tiene su modelo, su esfuerzo y su tope diario. Cambiar de modelo
 es cambiar una línea. Hoy:
 
-| Tarea | Modelo provisional | Qué hace |
+| Tarea | Modelo (prueba del 8/11/2026) | Qué hace |
 |---|---|---|
-| `clasificar` | `claude-haiku-5-5` | clasifica lo nuevo o cambiado |
+| `clasificar` | `claude-sonnet-5-5` (esfuerzo medio) | clasifica lo nuevo o cambiado |
 | `revisar_dudosos` | `claude-opus-5-5` | vuelve a mirar lo que la tarea anterior decidió con confianza < 0,7 |
 | `fichas_personas` | `claude-opus-5-5` (desactivada) | fase 3: trayectorias y premios |
 
@@ -93,9 +93,9 @@ es cambiar una línea. Hoy:
 - Sin la clave `ANTHROPIC_API_KEY` no se usa la IA y no se gasta nada.
 
 **Al activar la IA (cuando Uri avise):**
-1. Probar Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia y enseñar
-   aciertos y coste de cada uno; fijar los modelos en `ajustes/ia.toml` con
-   esos datos.
+1. ~~Probar Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia~~ Hecho
+   (`docs/pruebas/2026-11-08-prueba-modelos.md`, `pipeline/comparar_modelos.py`);
+   modelos fijados en `ajustes/ia.toml`, pendientes del visto bueno de Uri.
 2. Pasar el trabajo nocturno al procesamiento por lotes (Batch), que cuesta
    la mitad: se envía el lote en una ejecución y se recogen los resultados en
    la misma o en la siguiente. Hoy las peticiones son directas.
