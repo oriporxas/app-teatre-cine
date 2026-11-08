@@ -34,7 +34,7 @@ from .ajustes import Ciudad
 from .fuentes.base import Contexto
 from .util import guardar_json
 
-TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "evento", "cine")
+TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "musical", "evento", "cine")
 
 
 def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
@@ -54,6 +54,7 @@ def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
         "descripcion": a["descripcion"],
         "tipo": clasif["tipo"],
         "subtipo": clasif.get("subtipo"),
+        "disciplina": clasif.get("disciplina"),
         "magia": clasif["magia"],
         "confianza": clasif["confianza"],
         "motivo": clasif["motivo"],
@@ -168,7 +169,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     # Todas las decisiones (también las de «otro»), para poder revisarlas.
     guardar_json(carpeta / "clasificacion.json",
                  {i: {"titulo": actividades[i]["titulo"], **{k: final[i].get(k) for k in
-                      ("tipo", "subtipo", "magia", "confianza", "motivo", "clasificado_por")}}
+                      ("tipo", "subtipo", "disciplina", "magia", "confianza", "motivo", "clasificado_por")}}
                   for i in final}, por_lineas=True)
     informe["publicadas"] = len(fichas)
     informe["por_tipo"] = dict(collections.Counter(f["tipo"] for f in fichas))

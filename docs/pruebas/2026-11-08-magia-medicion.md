@@ -5,9 +5,9 @@ Lista generada automáticamente por el programa (`python -m pipeline.prueba_magi
 ## Cómo se ha hecho
 
 - Actividades vigentes en las dos agendas: **6683**.
-- Clasificadas como espectáculo o evento del sector: **1195**.
-- Fichas de la guía leídas (descripción, sala, artista): **1012** de las publicadas. Las demás se han clasificado solo por el título.
-- Quién ha decidido: señales: 1195.
+- Clasificadas como espectáculo o evento del sector: **1192**.
+- Fichas de la guía leídas (descripción, sala, artista): **959** de las publicadas. Las demás se han clasificado solo por el título.
+- Quién ha decidido: señales: 1192.
 - ⚠️ **Todavía no hay clave de la IA**, así que esta prueba usa la primera capa («señales»: vocabulario general de magia, formato del título, artista y descripción). Cuando se active la IA, leerá los mismos criterios y además estas respuestas tuyas.
 - «Dudoso» = el programa se ha decidido, pero con una seguridad menor del 65 %.
 
@@ -130,12 +130,12 @@ Para que veas qué se ha dejado fuera y por qué (adjetivos como «màgic», met
 - **Concert "Magic"** · tipo: otro — el título indica un concierto o música
 - **Contacontes "El gat roc fa màgia"** · tipo: otro — cuentacuentos o narración; la magia, si aparece, es parte del cuento
 - **Contacontes científic 'Rubèn i la màgia de la quàntica', de Catkit** · tipo: otro — cuentacuentos o narración; la magia, si aparece, es parte del cuento
-- **Espectacle "Disney On Ice. Un viaje mágico"** — Palau Sant Jordi · tipo: teatro — espectáculo sin disciplina clara; se asume teatro; la magia es parte del argumento o del ambiente, no un número de magia
+- **Espectacle "Disney On Ice. Un viaje mágico"** — Palau Sant Jordi · tipo: danza — casi sin vocabulario de teatro y con vocabulario de danza
 - **Espectacle "El mag escombraries"** · tipo: otro — cuentacuentos o narración; la magia, si aparece, es parte del cuento
 - **Espectacle "Sinfonía mágica de Hogwarts", amb Lords of the Sound** · tipo: otro — espectáculo sobre todo musical
-- **Espectacle familiar "El Baul Mágico - Tributo a Disney"** — Balmes Teatre · tipo: teatro — vocabulario de teatro; la magia es parte del argumento o del ambiente, no un número de magia
+- **Espectacle familiar "El Baul Mágico - Tributo a Disney"** — Balmes Teatre · tipo: musical — teatro musical o espectáculo musical (lo dice la descripción)
 - **Espectacle familiar "La llibreria màgica", a càrrec de la Cia. Peixospeixeres** — Teatreneu Multisales · tipo: teatro — vocabulario de teatro; la magia es parte del argumento o del ambiente, no un número de magia
-- **Espectacle familiar "La magia del hielo - Tributo a Frozen"** — Balmes Teatre · tipo: teatro — vocabulario de teatro; la magia es parte del argumento o del ambiente, no un número de magia
+- **Espectacle familiar "La magia del hielo - Tributo a Frozen"** — Balmes Teatre · tipo: teatro — espectáculo sin disciplina clara; se asume teatro; la magia es parte del argumento o del ambiente, no un número de magia
 - **Espectacle familiar "La nit més màgica", amb Mariona Trias** — Teatreneu Multisales · tipo: teatro — vocabulario de teatro; la magia es parte del argumento o del ambiente, no un número de magia
 - **Espectacle familiar "Rubèn i la màgia de la quàntica"** — Centre Cívic Josep Maria Trias i Peitx · tipo: teatro — espectáculo sin disciplina clara; se asume teatro; la magia es parte del argumento o del ambiente, no un número de magia
 - **Explica'm un conte : "Germana i germà: Un conte de coratge i màgia"** · tipo: otro — cuentacuentos o narración; la magia, si aparece, es parte del cuento

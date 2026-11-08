@@ -29,7 +29,9 @@ from .util import guardar_json, huella, leer_json
 
 IDIOMAS = {"ca": "catalán", "es": "castellano", "en": "inglés", "fr": "francés", "it": "italiano",
            "de": "alemán", "pt": "portugués"}
-TIPOS = ["teatro", "magia", "circo", "danza", "evento", "cine", "otro"]
+TIPOS = ["teatro", "magia", "circo", "danza", "musical", "evento", "cine", "otro"]
+# De qué disciplina es cada actividad (en los eventos, la del taller, festival o charla).
+DISCIPLINAS = ["teatro", "magia", "circo", "danza", "musical", "música", "cine", "otra"]
 RELACION_MAGIA = ["principal", "incluye", "tema", "no"]
 
 ESQUEMA = {
@@ -43,11 +45,12 @@ ESQUEMA = {
                     "id": {"type": "string"},
                     "tipo": {"type": "string", "enum": TIPOS},
                     "subtipo": {"type": "string"},
+                    "disciplina": {"type": "string", "enum": DISCIPLINAS},
                     "magia": {"type": "string", "enum": RELACION_MAGIA},
                     "confianza": {"type": "number"},
                     "motivo": {"type": "string"},
                 },
-                "required": ["id", "tipo", "subtipo", "magia", "confianza", "motivo"],
+                "required": ["id", "tipo", "subtipo", "disciplina", "magia", "confianza", "motivo"],
                 "additionalProperties": False,
             },
         }
@@ -74,7 +77,8 @@ def instrucciones(ciudad: Ciudad, idioma_textos: str) -> str:
         f"{criterios()}\n\n"
         "Formato de respuesta: un objeto por actividad, con el mismo «id». «subtipo» es una etiqueta "
         "breve en castellano (vacía si no aplica); para el tipo «magia» tiene que ser exactamente una de: "
-        f"{', '.join(SUBTIPOS_MAGIA)}. «confianza» va de 0 a 1 y dice lo segura que es la "
+        f"{', '.join(SUBTIPOS_MAGIA)}. «disciplina» es la disciplina de la actividad (en un evento, la del "
+        "taller, festival o charla: un taller de danza tiene disciplina «danza»). «confianza» va de 0 a 1 y dice lo segura que es la "
         "decisión: decide siempre, aunque dudes, y baja la confianza. «motivo» es una frase breve en "
         "castellano que explique la decisión citando la pista que la justifica (título, descripción, "
         "sala o artista). Usa solo lo que dicen los datos: no inventes artistas ni premios."
@@ -164,6 +168,8 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                     r["subtipo"] = r.get("subtipo") or None
                     if r["tipo"] == "magia" and r["subtipo"] not in SUBTIPOS_MAGIA:
                         r["subtipo"] = "magia general"
+                    if r["tipo"] != "evento":
+                        r.pop("disciplina", None)
                     cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
                                       "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
                 informe["enviadas"] += len(lote)

@@ -18,11 +18,16 @@ from __future__ import annotations
 import json
 import re
 
-from . import config
+from . import config, equipo
 from .util import guardar_json, leer_json
 
 CARPETA_WEB = config.RAIZ / "web" / "public" / "datos"
 TIPOS_APP = {"teatro": "teatro", "magia": "magia", "circo": "circo", "evento": "eventos"}
+# Por ahora la app es solo de teatro, magia y circo (Uri, 8/11/2026): los eventos (talleres,
+# festivales, charlas…) solo salen si son de una de esas disciplinas o sobre magia.
+DISCIPLINAS_APP = ("teatro", "magia", "circo")
+# Lo dudoso (poca confianza) no se publica: espera a que la IA lo lea.
+CONFIANZA_MINIMA = 0.6
 LARGO_DESCRIPCION = 900
 
 _COMILLAS = (r'"(.+?)"', r"“(.+?)”", r"«(.+?)»", r"(?<![A-Za-zÀ-ÿ])['‘](.+?)['’](?![A-Za-zÀ-ÿ])")
@@ -77,8 +82,12 @@ def _sin_vacios(d: dict) -> dict:
 
 def _item(f: dict) -> dict | None:
     tipo = TIPOS_APP.get(f["tipo"])
-    if tipo is None or not f["proximas_funciones"]:
+    if tipo is None or not f["proximas_funciones"] or (f.get("confianza") or 0) < CONFIANZA_MINIMA:
         return None
+    if tipo == "eventos" and f.get("disciplina") not in DISCIPLINAS_APP and f.get("magia") != "tema":
+        return None
+    textos = {k: v for k, v in (f.get("descripcion") or {}).items() if v}
+    creditos = [] if tipo == "eventos" else next((equipo.leer(v) for v in textos.values() if equipo.leer(v)), [])
     nombre, artista = limpiar_titulo(f["titulo"])
     precio = f.get("precio") or {}
     direccion = f.get("direccion") or {}
@@ -108,7 +117,8 @@ def _item(f: dict) -> dict | None:
         "nivel": f.get("nivel"),
         "duracion": f.get("duracion_minutos"),
         "idiomas": f.get("idiomas"),
-        "descripcion": {k: _resumen(v) for k, v in (f.get("descripcion") or {}).items() if v},
+        "descripcion": {k: _resumen(equipo.sin_creditos(v) if creditos else v) for k, v in textos.items()},
+        "equipo": creditos,
         "idioma_textos": f.get("idioma_textos"),
         "compra": f.get("enlace_compra"),
         "imagen": f.get("imagen"),

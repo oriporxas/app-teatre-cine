@@ -19,7 +19,7 @@ tiene dos partes:
 
 Cada actividad recibe exactamente un **tipo**:
 
-- **teatro**: obras de teatro de cualquier género (drama, comedia, musical, teatro familiar e infantil, títeres y marionetas, clown teatral, monólogos y stand-up, improvisación, cabaret y variedades, lecturas dramatizadas, zarzuela).
+- **teatro**: obras de teatro de cualquier género (drama, comedia, teatro familiar e infantil, títeres y marionetas, clown teatral, monólogos y stand-up, improvisación, cabaret y variedades, lecturas dramatizadas, zarzuela).
 - **magia**: espectáculos cuya **razón única y principal** es que un mago, ilusionista, mentalista o hipnotizador haga magia en directo ante el público. Incluye el ilusionismo, la magia de cerca, la magia de escena, la cartomagia, el escapismo, la magia cómica y la magia familiar, **el mentalismo y la hipnosis de espectáculo** (los dos son ramas de la magia). Cada espectáculo de magia lleva un **subtipo**, que la app mostrará como etiqueta y servirá para filtrar:
   - `magia de cerca`: a pocos centímetros del público, en mesa o en salas pequeñas (close-up, «màgia de prop», cartomagia, magia de salón o de cámara);
   - `mentalismo`: lectura de la mente, predicciones, telepatía, «lo imposible en tu mente»;
@@ -27,7 +27,8 @@ Cada actividad recibe exactamente un **tipo**:
   - `magia general`: magia de escena, grandes ilusiones, magia familiar o cómica, o cuando mezcla varias sin que domine una.
 - **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios, payasos de circo.
 - **danza**: espectáculos cuya disciplina principal es la danza (contemporánea, ballet, flamenco, danzas urbanas…).
-- **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios).
+- **musical**: teatro musical y espectáculos musicales («Musical…», «Espectacle musical…», «…, el musical», o cuando la descripción lo presenta como un musical). Es un género propio: por ahora no sale en la app (decisión de Uri, 8/11/2026).
+- **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios). Cada evento lleva además su **disciplina** (teatro, magia, circo, danza, musical, música…): un taller de danza es un evento de disciplina «danza». En la app solo salen, por ahora, los eventos de teatro, magia y circo.
 - **cine**: proyecciones y ciclos de cine (se mostrarán en la fase 6).
 - **otro**: todo lo que no es del sector: conciertos y ópera, exposiciones, visitas guiadas y rutas, deportes, mercados y ferias, cuentacuentos y narración oral, espectáculos de divulgación o sensibilización (medio ambiente, ciencia…), talleres de otras materias (cocina, pintura, manualidades, informática…), actos institucionales.
 
@@ -52,7 +53,8 @@ Además del tipo, cada actividad tiene un campo **magia**:
 8. **Mentalismo e hipnosis son magia.** Todo espectáculo de mentalismo o de hipnosis de espectáculo es «magia», con su subtipo, aunque no use la palabra «màgia». Solo si es el número del espectáculo: un «gato hipnotizador» o un «asno mago» que son personajes de un cuento no cuentan. «Escapisme» suele significar «evasión», no el número de escapismo.
 9. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias («espectacle de màgia familiar») es «magia»; una obra infantil con magia en el argumento es «teatro».
 10. **Teatro no es la opción por defecto.** Si nada indica que sea un espectáculo o un evento de artes escénicas (ni el formato, ni la palabra «espectáculo», ni vocabulario de la disciplina), es «otro»: una carrera popular, una feria, un aviso de cortes de tráfico, una charla sobre vivienda. Que la descripción nombre un teatro o un escenario no basta.
-11. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
+11. **Cuidado con las palabras que comparten varias artes.** «Direcció», «obra», «escenari», «companyia», «intèrprets», «comèdia» o «improvisació» aparecen también en danza, música, cine o pintura («una obra d'art», «la Divina comèdia», «Contact Improvisació»), y «musical» sola suele ser música («estimulació musical per a nadons»). No bastan para decir que algo es teatro: hace falta que sea teatro de verdad (una obra, títeres, clown, monólogo, cabaret…) o que lo diga la descripción.
+12. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
 <!-- criterios:fin -->
 
 ---
@@ -77,6 +79,13 @@ Además del tipo, cada actividad tiene un campo **magia**:
      «Espectacle de divulgació…», «Espectacle de circ…») y le hace caso;
    - reconoce el **mentalismo** y la **hipnosis** y pone el **tipo de magia**
      (de cerca, general, mentalismo o hipnosis);
+   - separa las palabras propias del teatro («teatre», «dramatúrgia», «titelles»,
+     «monòleg», «clown») de las que comparten varias artes («direcció», «obra»,
+     «escenari», «companyia»), que cuentan poco;
+   - reconoce los **musicales** como género propio y, en los eventos, su
+     **disciplina** (un taller de danza o de música no es de teatro);
+   - si casi no hay vocabulario de teatro, circo o magia y sí de danza o de
+     música, no lo da por teatro;
    - no da nada por teatro «por defecto»: si el título no dice qué es, no
      lleva la palabra «espectáculo» y casi no hay vocabulario escénico, queda
      como «otro» dudoso (confianza 0,5) y fuera de la cartelera hasta que la
@@ -113,8 +122,9 @@ en la misma carpeta, que incluye también lo descartado):
 
 | Campo | Qué es |
 |---|---|
-| `tipo` | teatro, magia, circo, danza, evento, cine u otro |
+| `tipo` | teatro, magia, circo, danza, musical, evento, cine u otro |
 | `subtipo` | etiqueta breve (formación, festival…); en magia, el tipo de magia: magia de cerca, magia general, mentalismo o hipnosis |
+| `disciplina` | solo en los eventos: de qué es el taller, festival o charla (teatro, magia, circo, danza, musical, música…) |
 | `magia` | principal, incluye, tema o no (al buscar magia solo salen los «principal») |
 | `confianza` | de 0 a 1 |
 | `motivo` | frase que explica la decisión |
@@ -213,3 +223,10 @@ generales:
   palabra «espectáculo» y casi sin vocabulario escénico, es «otro» dudoso.
   Salen de la cartelera 45 actividades; la medición de magia sigue en 55 de
   55.
+- **8/11/2026, Uri prueba la app:** salían muchos talleres y espectáculos que
+  no eran de teatro, magia ni circo (danza, musicales, talleres de música para
+  bebés…). Decisión de Uri: por ahora, solo teatro, magia y circo. → Los
+  musicales son un tipo propio; cada evento lleva su disciplina; las palabras
+  que comparten varias artes cuentan poco (criterio 11); y la app no publica
+  lo dudoso (confianza menor de 0,6) hasta que la IA lo lea. La app pasa de
+  944 a 633 actividades. La medición de magia sigue en 55 de 55.

@@ -18,7 +18,8 @@ la app está hecha y probada en tamaño móvil (`web/`), con la cartelera real;
 traducción al castellano de las descripciones, que llega con la IA. Mientras,
 Uri la puede probar como página privada de Claude:
 https://claude.ai/artifact/7ZSzcw6GNbXXf5idrGQw3z (se actualiza a mano: allí no
-cargan las fotos de los carteles ni funciona sin conexión).
+cargan las fotos de los carteles ni funciona sin conexión). Se publica desde
+`web/dist` con una página que carga los archivos de la app (ver el historial).
 Pendiente de Uri: avisar cuándo activar la IA (entonces, prueba de los tres
 modelos y creación de la clave `ANTHROPIC_API_KEY`). Hasta entonces la app
 clasifica solo por señales. Ver «Plan por fases» en el brief.
@@ -141,7 +142,8 @@ Detalle y razones en `docs/arquitectura.md`.
   - `prueba_magia.py`: genera el informe de la prueba de magia.
   - `exportar_web.py`: al final de cada día escribe la cartelera de cada
     ciudad para la app (`web/public/datos/<ciudad>.json`): títulos limpios,
-    solo lo que se sabe y solo teatro, magia, circo y eventos.
+    solo lo que se sabe y solo teatro, magia, circo y sus eventos.
+  - `equipo.py`: equipo artístico desde la ficha artística de la descripción.
 - `web/` — la app (fase 2): React + Vite, web instalable en el móvil (PWA).
   El móvil descarga el archivo de su ciudad y busca dentro (rápido, gratis,
   sin conexión). Cómo probarla y construirla: `web/LEEME.md`
@@ -176,3 +178,16 @@ Detalle y razones en `docs/arquitectura.md`.
   carteles se muestran desde el servidor de la guía de Barcelona.
 - Funciones (teatro, magia, circo) y eventos (festivales, talleres, charlas)
   nunca se mezclan en los resultados.
+- **Por ahora la app es solo de teatro, magia y circo** (Uri, 8/11/2026): los
+  eventos solo si son de esas disciplinas; fuera danza, musicales, conciertos
+  y talleres de otras materias. Lo dudoso (confianza < 0,6) no se publica
+  hasta que la IA lo lea (`pipeline/exportar_web.py`).
+- La ficha muestra el equipo artístico cuando la descripción trae la ficha
+  artística («Direcció: …», «Intèrprets: …»): `pipeline/equipo.py` la copia
+  tal cual, sin deducir nada.
+- Las fotos de los carteles **no se descargan**: el robots.txt de su servidor
+  (estatics-nasia.dtibcn.cat) prohíbe el acceso automático. La app solo las
+  enlaza y las carga el móvil de cada persona. Por eso no se ven en la vista
+  previa de Claude, que no deja cargar imágenes de otras webs.
+- La página se desplaza entera (no hay zonas con desplazamiento propio): así
+  funciona en cualquier móvil y dentro de otras apps.

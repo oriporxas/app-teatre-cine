@@ -1,7 +1,7 @@
 {
   "actividades_vigentes": 6683,
   "app": {
-    "espectaculos_app": 944
+    "espectaculos_app": 633
   },
   "ciudad": {
     "id": "barcelona",
@@ -15,13 +15,13 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "señales": 1195
+    "señales": 1192
   },
-  "con_detalle": 1012,
-  "con_enlace_compra": 477,
-  "con_idioma": 36,
-  "con_precio": 1174,
-  "con_publico": 328,
+  "con_detalle": 959,
+  "con_enlace_compra": 463,
+  "con_idioma": 35,
+  "con_precio": 1168,
+  "con_publico": 290,
   "duracion_minutos": 0.1,
   "errores": [],
   "fecha": "2026-11-08",
@@ -39,13 +39,13 @@
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1677,
+      "candidatas": 1712,
       "disponible": false,
       "enviadas": 0,
       "errores": 0,
       "modelo": "claude-haiku-5-5",
-      "pendientes_antes": 1677,
-      "pendientes_despues": 1677,
+      "pendientes_antes": 1712,
+      "pendientes_despues": 1712,
       "tarea": "clasificar",
       "tokens_cache": 0,
       "tokens_entrada": 0,
@@ -66,22 +66,23 @@
       "tokens_salida": 0
     }
   },
-  "inicio": "2026-11-08T07:23:33+0000",
+  "inicio": "2026-11-08T13:13:51+0000",
   "magia": {
     "incluye": 1,
     "principal": 16,
     "tema": 5
   },
   "por_tipo": {
-    "cine": 130,
+    "cine": 133,
     "circo": 15,
-    "danza": 59,
-    "evento": 342,
+    "danza": 105,
+    "evento": 358,
     "magia": 16,
+    "musical": 32,
     "otro": 1,
-    "teatro": 632
+    "teatro": 532
   },
-  "publicadas": 1195,
-  "salas_con_espectaculos": 207,
-  "salas_con_nombre": 198
+  "publicadas": 1192,
+  "salas_con_espectaculos": 201,
+  "salas_con_nombre": 191
 }
