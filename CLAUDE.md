@@ -209,5 +209,9 @@ Detalle y razones en `docs/arquitectura.md`.
   `web/public/datos/<ciudad>-mapa.json` (los da la fuente: `Resultado.mapa`;
   en Barcelona, `fuentes/open_data_bcn/mapa.py`, renovado cada 90 días) y un
   punto por sala. Favoritos: en el propio móvil (`web/src/favoritos.ts`).
+- Ubicación (Uri, 8/11/2026): `web/src/ubicacion.ts` (GPS con permiso, o
+  marcar el punto en el mapa) entra en los filtros (`cerca`, `orden`,
+  `distanciaMax`). Nunca sale del móvil. En la vista previa de Claude el GPS
+  no está disponible: allí se prueba marcando en el mapa.
 - La página se desplaza entera (no hay zonas con desplazamiento propio): así
   funciona en cualquier móvil y dentro de otras apps.

@@ -24,12 +24,33 @@ export interface Filtros {
   sinPrecio: boolean;
   publico: string;
   idioma: string;
+  // Ubicación (solo en el móvil: la app no la envía a ningún sitio)
+  cerca: { lat: number; lon: number } | null;
+  orden: 'fecha' | 'cerca';
+  distanciaMax: number | null; // km
 }
 
 export const FILTROS_INICIALES: Filtros = {
   tipo: 'todo', subMagia: 'todas', subEvento: 'todos', fecha: 'todo', desde: '', hasta: '', q: '',
   precioMax: null, sinPrecio: false, publico: 'cualquiera', idioma: 'cualquiera',
+  cerca: null, orden: 'fecha', distanciaMax: null,
 };
+
+/** Distancia en metros entre dos puntos (fórmula del haversine). */
+export function distancia(a: { lat: number; lon: number }, lat: number, lon: number): number {
+  const r = Math.PI / 180;
+  const dLat = (lat - a.lat) * r, dLon = (lon - a.lon) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(lat * r) * Math.sin(dLon / 2) ** 2;
+  return 2 * 6371000 * Math.asin(Math.sqrt(h));
+}
+
+export function distanciaA(e: Espectaculo, f: Pick<Filtros, 'cerca'>): number | null {
+  return f.cerca && e.lat != null && e.lon != null ? distancia(f.cerca, e.lat, e.lon) : null;
+}
+
+export function fmtDistancia(m: number): string {
+  return m < 1000 ? `${Math.max(50, Math.round(m / 50) * 50)} m` : `${(m / 1000).toFixed(1).replace('.', ',')} km`;
+}
 
 const PUBLICO_ENCAJA: Record<string, string[]> = {
   infantil: ['infantil'],
@@ -97,6 +118,10 @@ export function pasa(e: Espectaculo, f: Filtros, hoy: string, ignorar: Ignorar =
 }
 
 function pasaResto(e: Espectaculo, f: Filtros): boolean {
+  if (f.distanciaMax != null && f.cerca) {
+    const d = distanciaA(e, f);
+    if (d == null || d > f.distanciaMax * 1000) return false;
+  }
   if (f.precioMax != null) {
     const sinPrecio = !e.gratis && e.precio_min == null;
     if (sinPrecio ? !f.sinPrecio : !(e.gratis || (e.precio_min as number) <= f.precioMax)) return false;
@@ -122,7 +147,12 @@ function textoBusqueda(e: Espectaculo): string {
 export function filtrar(lista: Espectaculo[], f: Filtros, hoy: string): Espectaculo[] {
   const [desde, hasta] = rango(f, hoy);
   const clave = (e: Espectaculo) => { const [d, h] = funcionesEnRango(e, desde, hasta)[0]; return d + (h || ''); };
-  return lista.filter((e) => pasa(e, f, hoy)).sort((a, b) => clave(a).localeCompare(clave(b)));
+  const salida = lista.filter((e) => pasa(e, f, hoy)).sort((a, b) => clave(a).localeCompare(clave(b)));
+  if (f.orden === 'cerca' && f.cerca) {
+    const d = (e: Espectaculo) => distanciaA(e, f) ?? Number.MAX_VALUE;
+    salida.sort((a, b) => d(a) - d(b) || clave(a).localeCompare(clave(b)));
+  }
+  return salida;
 }
 
 export function fmtRango(f: ConFechas, t: Textos): string {
@@ -137,7 +167,8 @@ export function fmtCorto(iso: string, t: Textos): string {
 }
 
 export function cuantosFiltros(f: Filtros): number {
-  return (f.precioMax != null ? 1 : 0) + (f.publico !== 'cualquiera' ? 1 : 0) + (f.idioma !== 'cualquiera' ? 1 : 0);
+  return (f.precioMax != null ? 1 : 0) + (f.publico !== 'cualquiera' ? 1 : 0) + (f.idioma !== 'cualquiera' ? 1 : 0)
+    + (f.distanciaMax != null && f.cerca ? 1 : 0);
 }
 
 // --- Presentación -----------------------------------------------------------

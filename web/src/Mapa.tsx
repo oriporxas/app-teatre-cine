@@ -1,6 +1,6 @@
 // Mapa de salas: el contorno de los distritos (datos abiertos del Ayuntamiento) y un punto por
 // sala con funciones según los filtros. No usa servicios de mapas de terceros.
-import { useEffect, useMemo, useRef, useState, type PointerEvent as EventoPuntero } from 'react';
+import { useEffect, useMemo, useRef, useState, type MouseEvent as EventoRaton, type PointerEvent as EventoPuntero } from 'react';
 import type { Espectaculo } from './datos';
 import type { Textos } from './textos';
 
@@ -37,9 +37,11 @@ const LAT0 = 41.39;
 const COS = Math.cos((LAT0 * Math.PI) / 180);
 const proyectar = (lon: number, lat: number): [number, number] => [lon * COS * 1000, -lat * 1000];
 
-export function MapaSalas({ t, salas, elegida, elegir, ciudad }: {
+export function MapaSalas({ t, salas, elegida, elegir, ciudad, posicion, marcando, alMarcar }: {
   t: Textos; salas: Sala[]; elegida: string | null; elegir: (id: string | null) => void; ciudad: string;
+  posicion?: { lat: number; lon: number } | null; marcando?: boolean; alMarcar?: (lat: number, lon: number) => void;
 }) {
+  const movido = useRef(false);
   const [datos, setDatos] = useState<DatosMapa | null>(null);
   const [vista, setVista] = useState<[number, number, number, number] | null>(null);
   const arrastre = useRef<{ x: number; y: number; vista: [number, number, number, number] } | null>(null);
@@ -72,6 +74,22 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad }: {
   }, [datos]);
   const v = vista ?? encuadre;
 
+  // Al saber dónde está la persona, el mapa se acerca a esa zona.
+  useEffect(() => {
+    if (!posicion || !encuadre) return;
+    const [x, y] = proyectar(posicion.lon, posicion.lat);
+    const w = encuadre[2] / 3, h = (encuadre[3] * w) / encuadre[2];
+    setVista([x - w / 2, y - h / 2, w, h]);
+  }, [posicion?.lat, posicion?.lon, encuadre]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const marcar = (ev: EventoRaton<SVGSVGElement>) => {
+    if (!marcando || movido.current || !svg.current || !alMarcar) return;
+    const ctm = svg.current.getScreenCTM();
+    if (!ctm) return;
+    const pt = new DOMPoint(ev.clientX, ev.clientY).matrixTransform(ctm.inverse());
+    alMarcar(-pt.y / 1000, pt.x / (COS * 1000));
+  };
+
   const zoom = (factor: number) => {
     if (!v) return;
     const [x, y, w, h] = v;
@@ -83,13 +101,17 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad }: {
   const alPulsar = (ev: EventoPuntero<SVGSVGElement>) => {
     if (!v) return;
     arrastre.current = { x: ev.clientX, y: ev.clientY, vista: v };
+    movido.current = false;
   };
   const alMover = (ev: EventoPuntero<SVGSVGElement>) => {
     const a = arrastre.current;
     if (!a || !svg.current) return;
     const escala = a.vista[2] / svg.current.clientWidth;
     const dx = (ev.clientX - a.x) * escala, dy = (ev.clientY - a.y) * escala;
-    if (Math.abs(ev.clientX - a.x) + Math.abs(ev.clientY - a.y) > 4) svg.current.setPointerCapture(ev.pointerId);
+    if (Math.abs(ev.clientX - a.x) + Math.abs(ev.clientY - a.y) > 4) {
+      movido.current = true;
+      svg.current.setPointerCapture(ev.pointerId);
+    }
     setVista([a.vista[0] - dx, a.vista[1] - dy, a.vista[2], a.vista[3]]);
   };
   const alSoltar = () => { arrastre.current = null; };
@@ -100,8 +122,8 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad }: {
 
   return (
     <div className="mapa">
-      <svg ref={svg} viewBox={v.join(' ')} role="img" aria-label={t.mapaAria(salas.length)}
-        onPointerDown={alPulsar} onPointerMove={alMover} onPointerUp={alSoltar} onPointerCancel={alSoltar}>
+      <svg ref={svg} viewBox={v.join(' ')} role="img" aria-label={t.mapaAria(salas.length)} className={marcando ? 'marcando' : ''}
+        onPointerDown={alPulsar} onPointerMove={alMover} onPointerUp={alSoltar} onPointerCancel={alSoltar} onClick={marcar}>
         {caminos.map((c) => <path key={c.nombre} d={c.d} className="distrito" />)}
         {caminos.map((c) => (
           <text key={`t-${c.nombre}`} x={c.centro[0]} y={c.centro[1]} className="distrito-nombre"
@@ -111,7 +133,7 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad }: {
           const [x, y] = proyectar(s.lon, s.lat);
           const n = s.espectaculos.length;
           return (
-            <g key={s.id} onClick={() => elegir(s.id === elegida ? null : s.id)}>
+            <g key={s.id} onClick={() => { if (!marcando && !movido.current) elegir(s.id === elegida ? null : s.id); }}>
               <circle cx={x} cy={y} r={radio(n)} className={s.id === elegida ? 'sala elegida' : 'sala'}
                 style={{ opacity: 0.55 + 0.45 * (n / max) }} />
               {/* Zona de toque más grande que el punto, para el dedo */}
@@ -121,6 +143,16 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad }: {
             </g>
           );
         })}
+        {posicion ? (() => {
+          const [x, y] = proyectar(posicion.lon, posicion.lat);
+          const r = v[2] / 45;
+          return (
+            <g className="yo" pointerEvents="none">
+              <circle cx={x} cy={y} r={r * 2.2} className="yo-halo" />
+              <circle cx={x} cy={y} r={r} className="yo-punto"><title>{t.estasAqui}</title></circle>
+            </g>
+          );
+        })() : null}
       </svg>
       <div className="mapa-botones">
         <button type="button" className="boton-icono relleno" onClick={() => zoom(0.6)} aria-label={t.acercar}>+</button>

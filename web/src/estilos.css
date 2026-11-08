@@ -278,3 +278,21 @@ h3.caja-titulo { font-size: 16px; font-weight: 700; }
   justify-content: center; background: var(--superficie-2); font-size: 13px; font-weight: 700; color: var(--acento);
 }
 .sala-toque { fill: transparent; cursor: pointer; }
+
+/* --- Ubicación --- */
+.fila-ubicacion { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 0 16px 10px; }
+.lista .fila-ubicacion { padding: 0; }
+.fila-ubicacion .nota a { color: var(--acento); }
+.boton-texto { border: none; background: transparent; padding: 0; min-height: 44px; font-size: 15px; font-weight: 600; text-decoration: underline; }
+.mapa svg.marcando { cursor: crosshair; }
+.yo-halo { fill: rgba(122, 176, 255, 0.25); }
+.yo-punto { fill: #7AB0FF; stroke: var(--texto); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.cerca { display: flex; flex-direction: column; gap: 10px; }
+.cerca-fila { display: flex; gap: 10px; overflow-x: auto; margin: 0 -16px; padding: 0 16px 4px; scrollbar-width: none; }
+.cerca-fila::-webkit-scrollbar { display: none; }
+.cerca-tarjeta {
+  flex: 0 0 200px; display: flex; flex-direction: column; gap: 6px; padding: 12px; border-radius: 14px;
+  background: var(--superficie); border: 1px solid var(--borde); color: var(--texto); text-decoration: none;
+}
+.cerca-tarjeta .etiqueta { align-self: flex-start; }
+.cerca-nombre { font-family: var(--titulos); font-size: 16px; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }

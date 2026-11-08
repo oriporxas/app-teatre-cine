@@ -2,11 +2,13 @@ import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, use
 import { cargarCartelera, type Cartelera, type Espectaculo } from './datos';
 import {
   FILTROS_INICIALES, FUNCIONES, MESES_CALENDARIO, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
-  fmtCorto, fmtDia, fmtRango, funcionesEnRango, hoyEn, pasa, precioTxt, publicoTxt, rango, tipoTxt,
+  distanciaA, fmtCorto, fmtDia, fmtDistancia, fmtRango, funcionesEnRango, hoyEn, pasa, precioTxt, publicoTxt, rango,
+  sumaDias, tipoTxt,
   type ClaveFecha, type Filtros,
 } from './filtros';
 import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from './textos';
 import { useFavoritos, type Favoritos } from './favoritos';
+import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
 
 const POR_PAGINA = 40;
@@ -40,6 +42,13 @@ export default function App() {
   const scrollLista = useRef(0);
   const t = TEXTOS[lang];
   const favs = useFavoritos();
+  const ubic = useUbicacion();
+  // La ubicación entra en los filtros (para la distancia y el orden «más cerca»).
+  useEffect(() => {
+    setFiltros((f) => (ubic.pos
+      ? { ...f, cerca: { lat: ubic.pos.lat, lon: ubic.pos.lon } }
+      : { ...f, cerca: null, orden: 'fecha', distanciaMax: null }));
+  }, [ubic.pos]);
 
   useEffect(() => {
     cargarCartelera('barcelona').then(setCartelera).catch(() => setError(true));
@@ -77,12 +86,13 @@ export default function App() {
           t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
           filtros={filtros} cambiar={cambiar} limite={limite} setLimite={setLimite}
           abrirFiltros={() => setHoja('filtros')} abrirCalendario={() => setHoja('calendario')} scrollLista={scrollLista} favs={favs}
+          ubic={ubic}
         />
       ) : null}
       {ruta.vista === 'ficha' && actual ? <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} favs={favs} /> : null}
       {ruta.vista === 'mapa' ? (
         <VistaMapa t={t} cartelera={cartelera} hoy={hoy} filtros={filtros} cambiar={cambiar}
-          abrirCalendario={() => setHoja('calendario')} favs={favs} />
+          abrirCalendario={() => setHoja('calendario')} favs={favs} ubic={ubic} />
       ) : null}
       {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lista={lista} hoy={hoy} favs={favs} /> : null}
 
@@ -102,7 +112,7 @@ export default function App() {
       </nav>
 
       {hoja === 'filtros' && cartelera ? (
-        <HojaFiltros t={t} lista={lista} hoy={hoy} filtros={filtros} cambiar={cambiar} cerrar={() => setHoja(null)} />
+        <HojaFiltros t={t} lista={lista} hoy={hoy} filtros={filtros} cambiar={cambiar} cerrar={() => setHoja(null)} ubic={ubic} />
       ) : null}
       {hoja === 'calendario' && cartelera ? (
         <HojaCalendario t={t} lista={lista} hoy={hoy} filtros={filtros} cambiar={cambiar} cerrar={() => setHoja(null)} />
@@ -116,10 +126,10 @@ export default function App() {
 interface PropsCartelera {
   t: Textos; lang: Idioma; setLang: (l: Idioma) => void; cartelera: Cartelera | null; error: boolean; hoy: string;
   filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; limite: number; setLimite: (n: number) => void;
-  abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>; favs: Favoritos;
+  abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>; favs: Favoritos; ubic: Ubicacion;
 }
 
-function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs }: PropsCartelera) {
+function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs, ubic }: PropsCartelera) {
   const lista = cartelera?.espectaculos ?? [];
   const q = useDeferredValue(filtros.q);
   const f = useMemo(() => ({ ...filtros, q }), [filtros, q]);
@@ -159,6 +169,7 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
 
       <FiltrosRapidos t={t} lista={lista} f={f} filtros={filtros} cambiar={cambiar} hoy={hoy}
         cargada={!!cartelera} abrirCalendario={abrirCalendario} />
+      <BotonCerca t={t} ubic={ubic} filtros={filtros} cambiar={cambiar} />
 
       <div className="resumen">
         <span aria-live="polite">{error ? t.error : cartelera ? t.resultados(resultados.length) : ''}</span>
@@ -172,8 +183,9 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
       <div className="lista">
         {!cartelera && !error ? <p className="aviso">{t.cargando}</p> : null}
         {error ? <p className="aviso">{t.error}</p> : null}
+        {cartelera && !q.trim() ? <CercaDeTi t={t} lista={lista} f={f} hoy={hoy} /> : null}
         {resultados.slice(0, limite).map((e) => (
-          <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta} guardado={favs.es(e.id)}
+          <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta} guardado={favs.es(e.id)} dist={distanciaA(e, f)}
             alAbrir={() => { scrollLista.current = window.scrollY; }} />
         ))}
         {cartelera && resultados.length === 0 ? <p className="aviso">{t.vacio}</p> : null}
@@ -255,6 +267,56 @@ function FiltrosRapidos({ t, lista, f, filtros, cambiar, hoy, cargada, abrirCale
   );
 }
 
+// «Cerca de mí»: pide la ubicación al móvil y ordena por distancia.
+function BotonCerca({ t, ubic, filtros, cambiar }: {
+  t: Textos; ubic: Ubicacion; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void;
+}) {
+  const activa = ubic.estado === 'activa';
+  const pulsar = () => {
+    if (!activa) { ubic.activar(); cambiar({ orden: 'cerca' }); return; }
+    cambiar({ orden: filtros.orden === 'cerca' ? 'fecha' : 'cerca' });
+  };
+  return (
+    <div className="fila-ubicacion">
+      <button type="button" className="chip pequeno" aria-pressed={activa && filtros.orden === 'cerca'} onClick={pulsar}
+        disabled={ubic.estado === 'pidiendo'}>
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="12" r="3" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /><circle cx="12" cy="12" r="7" /></svg>
+        {ubic.estado === 'pidiendo' ? t.buscandoUbic : activa ? t.masCerca : t.cercaDeMi}
+      </button>
+      {ubic.estado === 'denegada' ? (
+        <p className="nota">{t.ubicDenegada} <a href="#mapa">{t.marcarEnMapa}</a></p>
+      ) : null}
+    </div>
+  );
+}
+
+// Recomendaciones: lo más cercano que hay hoy y mañana (con los demás filtros).
+function CercaDeTi({ t, lista, f, hoy }: { t: Textos; lista: Espectaculo[]; f: Filtros; hoy: string }) {
+  const cerca = useMemo(() => (f.cerca
+    ? filtrar(lista, { ...f, fecha: 'rango', desde: hoy, hasta: sumaDias(hoy, 1), orden: 'cerca', distanciaMax: f.distanciaMax ?? 3 }, hoy).slice(0, 10)
+    : []), [lista, f, hoy]);
+  if (!cerca.length) return null;
+  return (
+    <section className="cerca" aria-labelledby="titulo-cerca">
+      <h3 id="titulo-cerca">{t.cercaTitulo}</h3>
+      <div className="cerca-fila">
+        {cerca.map((e) => {
+          const [dia, hora] = e.funciones.find(([d]) => d >= hoy) ?? [hoy];
+          const d = distanciaA(e, f);
+          return (
+            <a key={e.id} className="cerca-tarjeta" href={enlaceFicha(e.id)}>
+              <span className="etiqueta suave">{tipoTxt(e, t)}</span>
+              <span className="cerca-nombre">{e.nombre}</span>
+              <span className="texto-suave">{[e.sala, d != null ? fmtDistancia(d) : ''].filter(Boolean).join(' · ')}</span>
+              <span className="cuando">{dia === hoy ? t.fechas.hoy : t.fechas.manana}{hora ? ` · ${hora}` : ''}</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
 function Etiquetas({ e, t }: { e: Espectaculo; t: Textos }) {
   const publico = publicoTxt(e, t);
   return (
@@ -275,13 +337,13 @@ function Cartel({ e, t, clase }: { e: Espectaculo; t: Textos; clase: string }) {
   );
 }
 
-function Tarjeta({ e, t, desde, hasta, alAbrir, guardado }: {
-  e: Espectaculo; t: Textos; desde: string; hasta: string; alAbrir: () => void; guardado?: boolean;
+function Tarjeta({ e, t, desde, hasta, alAbrir, guardado, dist }: {
+  e: Espectaculo; t: Textos; desde: string; hasta: string; alAbrir: () => void; guardado?: boolean; dist?: number | null;
 }) {
   const fs = funcionesEnRango(e, desde, hasta);
   const [dia, hora] = fs[0];
   const precio = precioTxt(e, t);
-  const lugar = [e.sala, e.barrio].filter(Boolean).join(' · ');
+  const lugar = [e.sala, e.barrio, dist != null ? fmtDistancia(dist) : ''].filter(Boolean).join(' · ');
   return (
     <a className="tarjeta" href={enlaceFicha(e.id)} onClick={alAbrir}>
       <Cartel e={e} t={t} clase="tarjeta-imagen" />
@@ -545,8 +607,9 @@ function HojaCalendario({ t, lista, hoy, filtros, cambiar, cerrar }: {
 
 // --- Más filtros ----------------------------------------------------------------------
 
-function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
+function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar, ubic }: {
   t: Textos; lista: Espectaculo[]; hoy: string; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; cerrar: () => void;
+  ubic: Ubicacion;
 }) {
   const primero = useRef<HTMLButtonElement>(null);
   const n = useMemo(() => filtrar(lista, filtros, hoy).length, [lista, filtros, hoy]);
@@ -589,6 +652,22 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
           </label>
         </div>
 
+        <div className="grupo" role="group" aria-labelledby="titulo-distancia">
+          <h3 id="titulo-distancia">{t.grupoDistancia}</h3>
+          {filtros.cerca ? (
+            <>
+              <div className="opciones">
+                {[null, 1, 2, 5].map((km) => (
+                  <button key={String(km)} type="button" className="chip pequeno" aria-pressed={filtros.distanciaMax === km}
+                    onClick={() => cambiar({ distanciaMax: km })}>{t.distancias[km == null ? 'cualquiera' : String(km)]}</button>
+                ))}
+              </div>
+              <button type="button" className="enlace boton-texto" onClick={ubic.apagar}>{t.quitarUbic}</button>
+            </>
+          ) : <span className="nota">{t.distanciaSinUbic}</span>}
+          <span className="nota">{t.ubicPrivada}</span>
+        </div>
+
         <div className="grupo" role="group" aria-labelledby="titulo-publico">
           <h3 id="titulo-publico">{t.grupoPublico}</h3>
           {opciones('publico', ['cualquiera', 'infantil', 'familiar', 'juvenil', 'adultos'], t.publicos)}
@@ -612,10 +691,12 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar }: {
 
 // --- Mapa de salas ---------------------------------------------------------------------
 
-function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs }: {
+function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs, ubic }: {
   t: Textos; cartelera: Cartelera | null; hoy: string; filtros: Filtros; cambiar: (c: Partial<Filtros>) => void;
-  abrirCalendario: () => void; favs: Favoritos;
+  abrirCalendario: () => void; favs: Favoritos; ubic: Ubicacion;
 }) {
+  const [marcando, setMarcando] = useState(false);
+  const zonaMapa = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const lista = cartelera?.espectaculos ?? [];
   const resultados = useMemo(() => (cartelera ? filtrar(lista, filtros, hoy) : []), [cartelera, lista, filtros, hoy]);
@@ -641,7 +722,27 @@ function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs 
         hoy={hoy} cargada={!!cartelera} abrirCalendario={abrirCalendario} />
       <div className="lista">
         <p className="nota">{t.mapaTxt}</p>
-        {cartelera ? <MapaSalas t={t} salas={salas} elegida={elegida} elegir={elegir} ciudad={cartelera.ciudad.id} /> : <p className="aviso">{t.cargando}</p>}
+        <div className="fila-ubicacion">
+          <button type="button" className="chip pequeno" onClick={ubic.activar} disabled={ubic.estado === 'pidiendo'}
+            aria-pressed={ubic.pos?.origen === 'gps'}>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="12" r="3" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /><circle cx="12" cy="12" r="7" /></svg>
+            {ubic.estado === 'pidiendo' ? t.buscandoUbic : t.miUbicacion}
+          </button>
+          <button type="button" className="chip pequeno" aria-pressed={marcando} onClick={() => {
+            setMarcando(!marcando);
+            if (!marcando) zonaMapa.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }}>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z" /><circle cx="12" cy="10" r="2" /></svg>
+            {marcando ? t.marcando : t.marcarEnMapa}
+          </button>
+        </div>
+        {ubic.estado === 'denegada' && !ubic.pos ? <p className="nota">{t.ubicDenegada}</p> : null}
+        <div ref={zonaMapa} className="zona-mapa">{cartelera ? (
+          <MapaSalas t={t} salas={salas} elegida={elegida} elegir={elegir} ciudad={cartelera.ciudad.id}
+            posicion={ubic.pos} marcando={marcando}
+            alMarcar={(lat, lon) => { ubic.fijar(lat, lon); setMarcando(false); cambiar({ orden: 'cerca' }); }} />
+        ) : <p className="aviso">{t.cargando}</p>}</div>
+        <p className="nota">{t.ubicPrivada}</p>
         <div ref={panel} className="panel-sala">
           {sala ? (
             <>
@@ -658,13 +759,20 @@ function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs 
             </>
           ) : (
             <section className="bloque">
-              <h3>{t.masSalas}</h3>
-              {salas.slice(0, 12).map((s) => (
-                <button key={s.id} type="button" className="fila-sala" onClick={() => elegir(s.id)}>
-                  <span><span className="caja-titulo">{s.nombre}</span>{s.barrio ? <span className="texto-suave"> · {s.barrio}</span> : null}</span>
-                  <span className="num-sala">{s.espectaculos.length}</span>
-                </button>
-              ))}
+              <h3>{filtros.cerca ? t.salasCerca : t.masSalas}</h3>
+              {(filtros.cerca ? [...salas].sort((a, b) => distanciaA(a.espectaculos[0], filtros)! - distanciaA(b.espectaculos[0], filtros)!) : salas)
+                .slice(0, 12).map((s) => {
+                  const d = distanciaA(s.espectaculos[0], filtros);
+                  return (
+                    <button key={s.id} type="button" className="fila-sala" onClick={() => elegir(s.id)}>
+                      <span>
+                        <span className="caja-titulo">{s.nombre}</span>
+                        <span className="texto-suave"> · {[s.barrio, d != null ? fmtDistancia(d) : ''].filter(Boolean).join(' · ')}</span>
+                      </span>
+                      <span className="num-sala">{s.espectaculos.length}</span>
+                    </button>
+                  );
+                })}
             </section>
           )}
         </div>
