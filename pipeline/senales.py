@@ -185,6 +185,8 @@ FORMATOS = [(n, re.compile(p)) for n, p in FORMATOS]
 PISTAS_ESPECTACULO = _r(r"\bespectacle", r"\bespectáculo", r"\bfunci[óo]", r"\bescenari|\bescenario", r"\ben\s+escena\b",
                         r"\bcompanyia|\bcompañía", r"\bpúblic familiar|\bpúblico familiar", r"\bactors?\b|\bactriu|\bactriz",
                         r"\bintèrpret|\bintérpret", r"\bdramat", r"\bestrena\b|\bestreno\b")
+# La palabra «espectáculo» en cualquier parte del título («Matinals infantils. Espectacle …»).
+TITULO_ESPECTACULO = re.compile(r"\b(espectacle|espectacles|espectaculo|espectaculos|show)\b")
 FORMACION_EN_TEXTO = _r(r"\btaller\b", r"\bcurs\b", r"\bcurso\b", r"\bclasses?\b", r"\binscripci", r"\baprendre|\baprender",
                         r"\balumnes|\balumnos", r"\bmasterclass")
 
@@ -391,6 +393,14 @@ def analizar(a: dict) -> dict:
         else:
             origen = "la descripción"
         return magia_principal(conf, f"magia como razón principal del espectáculo (lo dice {origen})")
+
+    # Sin formato en el título, sin la palabra «espectáculo» y casi sin vocabulario escénico
+    # (una carrera, una feria, un aviso de tráfico que pasa junto a un teatro…), no se da
+    # por teatro: queda como dudosa y fuera de la cartelera hasta que la IA la lea.
+    if (formato is None and not genero and teatro < 2 and circo < 3
+            and not TITULO_ESPECTACULO.search(normalizar(titulo_original))):
+        return decidir("otro", "otros", "no", 0.5,
+                       "el título no dice qué es y casi no hay vocabulario de artes escénicas: dudoso")
 
     if genero in ("circo", "danza"):
         tipo, motivo = ("circo", "la descripción dice que es circo") if genero == "circo" \

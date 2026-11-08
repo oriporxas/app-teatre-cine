@@ -5,9 +5,9 @@ Lista generada automáticamente por el programa (`python -m pipeline.prueba_magi
 ## Cómo se ha hecho
 
 - Actividades vigentes en las dos agendas: **6683**.
-- Clasificadas como espectáculo o evento del sector: **1240**.
-- Fichas de la guía leídas (descripción, sala, artista): **1057** de las publicadas. Las demás se han clasificado solo por el título.
-- Quién ha decidido: señales: 1240.
+- Clasificadas como espectáculo o evento del sector: **1195**.
+- Fichas de la guía leídas (descripción, sala, artista): **1012** de las publicadas. Las demás se han clasificado solo por el título.
+- Quién ha decidido: señales: 1195.
 - ⚠️ **Todavía no hay clave de la IA**, así que esta prueba usa la primera capa («señales»: vocabulario general de magia, formato del título, artista y descripción). Cuando se active la IA, leerá los mismos criterios y además estas respuestas tuyas.
 - «Dudoso» = el programa se ha decidido, pero con una seguridad menor del 65 %.
 

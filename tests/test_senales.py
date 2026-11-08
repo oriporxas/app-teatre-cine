@@ -158,6 +158,17 @@ class TestSenales(unittest.TestCase):
         self.assertEqual(senales.analizar(actividad("Concert de piano"))["tipo"], "otro")
         self.assertEqual(senales.analizar(actividad("Exposició 'Fonts màgiques'"))["tipo"], "otro")
 
+    def test_sin_formato_ni_vocabulario_escenico_no_es_teatro(self):
+        r = senales.analizar(actividad("Alteracions de trànsit amb motiu de la cursa popular",
+                                       "Recorregut: inici a la plaça i arribada al passeig, on hi haurà un escenari amb música."))
+        self.assertEqual(r["tipo"], "otro")
+        self.assertLess(r["confianza"], 0.7)  # dudoso: la IA lo revisará
+
+    def test_espectaculo_en_medio_del_titulo_sigue_siendo_espectaculo(self):
+        r = senales.analizar(actividad("Matinals infantils. Espectacle familiar 'Prova'",
+                                       "Un espectacle per a tota la família."))
+        self.assertEqual(r["tipo"], "teatro")
+
     def test_festival_de_magia(self):
         r = senales.analizar(actividad("Festival de Màgia d'Exemple 2026"))
         self.assertEqual((r["tipo"], r["subtipo"], r["magia"]), ("evento", "festival", "tema"))

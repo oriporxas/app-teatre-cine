@@ -51,7 +51,8 @@ Además del tipo, cada actividad tiene un campo **magia**:
 7. **Disciplina principal.** Si un espectáculo mezcla disciplinas, el tipo es la que domina según la descripción. Si la magia es solo una parte (un número dentro de un espectáculo de circo, clown o variedades), el tipo es el de la disciplina principal y magia = `incluye`.
 8. **Mentalismo e hipnosis son magia.** Todo espectáculo de mentalismo o de hipnosis de espectáculo es «magia», con su subtipo, aunque no use la palabra «màgia». Solo si es el número del espectáculo: un «gato hipnotizador» o un «asno mago» que son personajes de un cuento no cuentan. «Escapisme» suele significar «evasión», no el número de escapismo.
 9. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias («espectacle de màgia familiar») es «magia»; una obra infantil con magia en el argumento es «teatro».
-10. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
+10. **Teatro no es la opción por defecto.** Si nada indica que sea un espectáculo o un evento de artes escénicas (ni el formato, ni la palabra «espectáculo», ni vocabulario de la disciplina), es «otro»: una carrera popular, una feria, un aviso de cortes de tráfico, una charla sobre vivienda. Que la descripción nombre un teatro o un escenario no basta.
+11. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
 <!-- criterios:fin -->
 
 ---
@@ -75,7 +76,11 @@ Además del tipo, cada actividad tiene un campo **magia**:
    - lee el **género que declara la descripción** («Contacontes…»,
      «Espectacle de divulgació…», «Espectacle de circ…») y le hace caso;
    - reconoce el **mentalismo** y la **hipnosis** y pone el **tipo de magia**
-     (de cerca, general, mentalismo o hipnosis).
+     (de cerca, general, mentalismo o hipnosis);
+   - no da nada por teatro «por defecto»: si el título no dice qué es, no
+     lleva la palabra «espectáculo» y casi no hay vocabulario escénico, queda
+     como «otro» dudoso (confianza 0,5) y fuera de la cartelera hasta que la
+     IA lo lea.
 
    No contiene ninguna lista de espectáculos, artistas ni salas.
    - Si no hay clave de IA, su decisión es la que se publica
@@ -200,3 +205,11 @@ generales:
   distinguir su tipo (talleres infantiles o para adultos, festivales…). →
   Cada ficha lleva ahora `publico`, edades y, en la formación, `nivel`; el
   informe de la prueba agrupa los eventos por tipo.
+- **8/11/2026, al montar la app (fase 2):** con la cartelera a la vista
+  aparecieron como «teatro» actividades que no lo son (un aviso de cortes de
+  tráfico por una carrera, una media maratón, una feria de manga, una bienal
+  de arte digital), porque la capa de señales daba por teatro todo lo que
+  no tenía disciplina clara. → Criterio 10: sin formato en el título, sin la
+  palabra «espectáculo» y casi sin vocabulario escénico, es «otro» dudoso.
+  Salen de la cartelera 45 actividades; la medición de magia sigue en 55 de
+  55.

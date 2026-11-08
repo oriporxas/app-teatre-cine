@@ -26,22 +26,36 @@ TIPOS_APP = {"teatro": "teatro", "magia": "magia", "circo": "circo", "evento": "
 LARGO_DESCRIPCION = 900
 
 _COMILLAS = (r'"(.+?)"', r"“(.+?)”", r"«(.+?)»", r"(?<![A-Za-zÀ-ÿ])['‘](.+?)['’](?![A-Za-zÀ-ÿ])")
-_ARTISTA = re.compile(r"(?:a càrrec d(?:e la |e l'|el |e |'en |els )|amb (?:la |el |l')?|de (?:la )?)(.+)$", re.I)
+# El artista va justo después del título entre comillas: «"Strafalari", a càrrec del Mag Lari».
+_ARTISTA = re.compile(r"^(?:a càrrec d(?:e la |e l['’]|el |e |['’]en |els |['’])|amb (?:la |el |l['’])?|"
+                      r"per (?:la |el )?)(.+)$", re.I)
+# Con un simple «de» o «d'» solo si sigue un nombre propio: «de Bea Prova», no «D'aquí surten…».
+_ARTISTA_DE = re.compile(r"^(?:de (?:la |l['’])?|d['’])([A-ZÀ-Ý].+)$", re.I)
+# Lo que puede ir delante del título entre comillas sin formar parte del nombre.
+_ANTES_DEL_NOMBRE = re.compile(r"\b(espectacle|espectáculo|teatre|teatro|taller|curs|curso|circ|circo|musical|dansa|danza|"
+                               r"monòleg|monólogo|obra|show|familiar|infantil|activitat|presenta|concert)\W*$", re.I)
+_NOU = re.compile(r"\s*\*+\s*(nou|nova|nuevo|nueva|new)\s*\*+\s*", re.I)
 _FORMATO = re.compile(r"^(Espectacle( de \w+)?( familiar| infantil| musical)?|Teatre( familiar| infantil)?|Monòleg|"
-                      r"Taller( infantil| per a adults)?|Curs|Circ|Musical( familiar)?|Dansa)\s*[:,]?\s*", re.I)
+                      r"Taller( infantil| per a adults)?|Curs|Circ|Musical( familiar)?|Dansa)(?![\wÀ-ÿ])\s*[:,]?\s*", re.I)
 
 
 def limpiar_titulo(titulo: str) -> tuple[str, str | None]:
     """«Espectacle de màgia "Strafalari", a càrrec del Mag Lari» -> («Strafalari», «Mag Lari»)."""
-    t = (titulo or "").strip()
+    t = _NOU.sub(" ", titulo or "").strip()
     for patron in _COMILLAS:
         m = re.search(patron, t)
         if m:
+            antes = t[:m.start()].strip(" ,.:-")
+            # «Homenatge '50 anys de "Carrie"…»: lo de delante es parte del nombre; se deja entero.
+            if antes and len(antes.split()) > 3 and not _ANTES_DEL_NOMBRE.search(antes):
+                break
             nombre = m.group(1).strip()
             resto = t[m.end():].strip(" ,.:-")
-            a = _ARTISTA.search(resto)
-            return nombre, (a.group(1).strip() if a else None)
-    sin_formato = _FORMATO.sub("", t).strip()
+            a = _ARTISTA.match(resto) or _ARTISTA_DE.match(resto)
+            if a and a.re is _ARTISTA_DE and not a.group(1)[0].isupper():
+                a = None
+            return nombre, (a.group(1).strip(" ,.'’\"") if a else None)
+    sin_formato = _FORMATO.sub("", t).strip(" '\"“”«»‘’")
     return (sin_formato or t), None
 
 
