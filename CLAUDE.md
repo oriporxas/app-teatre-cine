@@ -44,6 +44,10 @@ Siguiente fase: 2 (interfaz). Ver «Plan por fases» en el brief.
   que entender la descripción, no buscar la palabra.
 - Cada espectáculo de magia lleva su **tipo de magia**: magia de cerca, magia
   general, mentalismo o hipnosis. La búsqueda podrá filtrar por él.
+- Los **eventos** se distinguen por su tipo (festival, taller, charla…), su
+  **público** (infantil, familiar, juvenil, adultos…) y, en la formación, su
+  **nivel** (`pipeline/publico.py`): p. ej., taller infantil de magia, taller
+  avanzado para adultos o un festival como el Màgicus.
 - Sus respuestas están guardadas como datos de evaluación en
   `docs/pruebas/2026-11-08-respuestas-uri.json`: úsalas para medir cualquier
   cambio de criterios o de modelo de IA
@@ -109,6 +113,8 @@ Detalle y razones en `docs/arquitectura.md`.
     salas con la lista oficial de equipamientos). Para añadir una fuente:
     nueva carpeta con `recoger(ctx)` y nombrarla en `ajustes/ciudades.toml`.
   - `horario.py`: días, horas, precios, duración e idioma desde el texto.
+  - `publico.py`: a quién va dirigida cada actividad (y edades) y el nivel de
+    los talleres.
   - `senales.py` + `clasificar_ia.py`: clasificación en dos capas (ver
     `docs/clasificacion.md`); la IA usa el modelo de cada tarea y los dudosos
     suben a un modelo superior.

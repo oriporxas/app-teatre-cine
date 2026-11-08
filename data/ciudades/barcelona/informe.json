@@ -18,6 +18,7 @@
   "con_enlace_compra": 481,
   "con_idioma": 36,
   "con_precio": 1216,
+  "con_publico": 339,
   "duracion_minutos": 0.1,
   "errores": [],
   "fecha": "2026-11-08",
@@ -62,7 +63,7 @@
       "tokens_salida": 0
     }
   },
-  "inicio": "2026-11-08T05:50:38+0000",
+  "inicio": "2026-11-08T06:08:57+0000",
   "magia": {
     "incluye": 1,
     "principal": 16,
