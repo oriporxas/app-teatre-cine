@@ -1,0 +1,65 @@
+# Proceso diario: descarga las agendas, lee fichas nuevas, clasifica y guarda
+# los resultados en la carpeta data/ del repositorio. Funciona solo: nadie
+# tiene que revisar nada. También se puede lanzar a mano desde la pestaña
+# «Actions» → «Actualizar datos» → «Run workflow».
+name: Actualizar datos
+
+on:
+  schedule:
+    # Cada día a las 05:17 (hora UTC; 06:17 en invierno y 07:17 en verano en
+    # Barcelona). El Ayuntamiento actualiza sus agendas de madrugada.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      minutos_lectura:
+        description: "Minutos máximos leyendo páginas web (por fuente)"
+        default: "35"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Comprobar el programa (pruebas automáticas)
+        run: python -m unittest discover -s tests -t .
+
+      - name: Actualizar datos
+        env:
+          # Clave de la IA de Claude. Si no existe, se clasifica solo por señales.
+          # Qué modelo hace cada tarea se decide en ajustes/ia.toml.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m pipeline.principal --minutos-lectura "${{ github.event.inputs.minutos_lectura || '35' }}"
+
+      # Se guarda aunque el paso anterior avise de un error: cada ciudad ya ha
+      # dejado sus datos buenos (o los de ayer, si una fuente falló).
+      - name: Guardar los datos en el repositorio
+        if: always()
+        run: |
+          git config user.name "actualizador-automatico"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Sin cambios hoy."
+          else
+            git commit -q -m "Datos del $(date -u +%Y-%m-%d)"
+            for intento in 1 2 3 4; do
+              git pull -q --rebase && git push -q && break
+              sleep $((intento * 5))
+            done
+          fi

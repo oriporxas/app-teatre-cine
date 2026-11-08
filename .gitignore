@@ -1,0 +1,4 @@
+descargas/
+__pycache__/
+*.pyc
+.venv/

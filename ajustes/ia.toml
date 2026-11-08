@@ -1,0 +1,39 @@
+# Qué modelo de Claude hace cada tarea de la app.
+#
+# Para cambiar de modelo basta con cambiar el nombre aquí. Modelos actuales
+# (precio por millón de «tokens», trocitos de texto, de entrada / salida; oct. 2026):
+#   claude-haiku-5-5   0,10 $ / 0,50 $   (rápido y barato)
+#   claude-sonnet-5-5  2 $ / 10 $
+#   claude-opus-5-5    4 $ / 20 $        (el más preciso de uso general)
+#
+# Estos valores son provisionales: cuando se active la IA, se probarán los
+# tres modelos con la prueba de magia y se elegirá con datos (ver brief,
+# «Visión a largo plazo»).
+#
+# La IA solo funciona si existe el secreto ANTHROPIC_API_KEY en GitHub. Sin
+# él, la app clasifica con la capa de señales y no gasta nada.
+
+# 1. Clasificar actividades nuevas o cambiadas (tipo, relación con la magia…).
+[clasificar]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"               # low, medium, high: cuánto «piensa» antes de responder
+por_peticion = 10              # actividades que se envían juntas en cada petición
+maximo_por_ejecucion = 1000    # tope diario, para controlar el coste
+
+# 2. Revisar los casos dudosos con un modelo superior.
+#    Se vuelven a mirar las decisiones de la tarea anterior con una seguridad
+#    («confianza») menor que el umbral.
+[revisar_dudosos]
+activa = true
+modelo = "claude-opus-5-5"
+esfuerzo = "medium"
+umbral_confianza = 0.7
+por_peticion = 5
+maximo_por_ejecucion = 200
+
+# 3. Fichas de trayectoria y premios (fase 3; todavía no se usa).
+[fichas_personas]
+activa = false
+modelo = "claude-opus-5-5"
+esfuerzo = "medium"
