@@ -10,6 +10,8 @@ export interface Espectaculo {
   tipo: Tipo;
   subtipo?: string;
   tema_magia?: boolean;
+  /** En el teatro: género de la obra (comedia, musical…), solo si es seguro. */
+  generos?: string[];
   /** En los eventos: de qué es el taller, festival o charla (teatro, magia, circo, clown). */
   disciplina?: string;
   sala?: string;

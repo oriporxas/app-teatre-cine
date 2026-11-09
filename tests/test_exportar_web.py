@@ -1,6 +1,6 @@
 import unittest
 
-from pipeline.exportar_web import _sin_vacios, limpiar_titulo
+from pipeline.exportar_web import _item, _sin_vacios, limpiar_titulo
 
 
 class TestTitulos(unittest.TestCase):
@@ -34,6 +34,9 @@ class TestTitulos(unittest.TestCase):
     def test_comillas_sueltas(self):
         self.assertEqual(limpiar_titulo("Espectacle ''prova\"")[0], "prova")
 
+    def test_comillas_mezcladas(self):
+        self.assertEqual(limpiar_titulo('Espectacle "Les Coses”, amb Anna Prova'), ("Les Coses", "Anna Prova"))
+
     def test_sin_comillas(self):
         self.assertEqual(limpiar_titulo("Teatre familiar La gran aventura")[0], "La gran aventura")
 
@@ -42,6 +45,27 @@ class TestSoloLoQueSeSabe(unittest.TestCase):
     def test_quita_lo_desconocido(self):
         self.assertEqual(_sin_vacios({"id": "x", "duracion": None, "idiomas": [], "gratis": False, "nombre": "A"}),
                          {"id": "x", "nombre": "A"})
+
+
+def _ficha(**cambios):
+    base = {"id": "x", "titulo": 'Musical "Prova"', "tipo": "musical", "subtipo": None, "generos": ["musical"],
+            "magia": "no", "confianza": 0.85, "proximas_funciones": [{"fecha": "2026-11-20", "hora": "20:00"}],
+            "descripcion": {}, "precio": {}, "direccion": {}, "coordenadas": {},
+            "fuentes": [{"nombre": "Guia", "url": "https://guia.barcelona.cat/x"}]}
+    return base | cambios
+
+
+class TestMusicales(unittest.TestCase):
+    def test_teatro_musical_seguro_sale_en_teatro_con_su_etiqueta(self):
+        item = _item(_ficha())
+        self.assertEqual((item["tipo"], item["generos"]), ("teatro", ["musical"]))
+
+    def test_sin_seguridad_no_sale(self):
+        # «Espectacle musical» sin más puede ser un concierto: espera a que la IA lo lea.
+        self.assertIsNone(_item(_ficha(generos=[])))
+
+    def test_el_genero_solo_en_teatro(self):
+        self.assertNotIn("generos", _item(_ficha(tipo="circo", generos=[])))
 
 
 if __name__ == "__main__":

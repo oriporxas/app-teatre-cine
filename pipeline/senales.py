@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import re
 
+from .genero import es_musical
 from .util import normalizar
 
 
@@ -390,10 +391,12 @@ def analizar(a: dict) -> dict:
         conf = 0.5 if not desc else 0.7
         return decidir("otro", "otros", "no", conf, "no hay señales de espectáculo"
                        + ("" if desc else " (todavía sin descripción)"))
-    # Los musicales son un género propio (por ahora no salen en la app; decisión de Uri, 8/11/2026).
+    # Teatro musical: tipo propio en la clasificación. En la app sale dentro de teatro con la
+    # etiqueta «Musical», pero solo si es seguro (pipeline/genero.py; Uri, 9/11/2026).
     musical_titulo = bool(MUSICAL_TITULO.search(normalizar(titulo_original)))
-    if (musical_titulo or genero == "musical") and not (mt or es_artista or genero == "magia"):
-        return decidir("musical", None, relacion_magia("musical"), 0.85 if musical_titulo else 0.75,
+    musical_seguro = es_musical(titulo_original, " ".join(v for v in (a.get("descripcion") or {}).values() if v))
+    if (musical_titulo or musical_seguro or genero == "musical") and not (mt or es_artista or genero == "magia"):
+        return decidir("musical", None, relacion_magia("musical"), 0.85 if (musical_titulo or musical_seguro) else 0.75,
                        "teatro musical o espectáculo musical" + (" (lo dice el título)" if musical_titulo
                                                                  else " (lo dice la descripción)"))
     if musica > max(sector, 2) and not mt and genero not in ("teatro", "circo", "magia", "clown"):

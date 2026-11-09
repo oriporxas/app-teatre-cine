@@ -26,11 +26,15 @@ TIPOS_APP = {"teatro": "teatro", "magia": "magia", "circo": "circo", "evento": "
 # Por ahora la app es solo de teatro, magia y circo (Uri, 8/11/2026): los eventos (talleres,
 # festivales, charlas…) solo salen si son de una de esas disciplinas o sobre magia.
 DISCIPLINAS_APP = ("teatro", "magia", "circo", "clown")
+# Teatro musical (Uri, 9/11/2026): sale dentro de teatro con la etiqueta «Musical», pero solo si
+# es seguro que es teatro musical (lo dice el título, una etiqueta o una frase; o la IA). Para
+# volver a dejarlos fuera de la app, basta con poner False.
+MUSICALES_EN_TEATRO = True
 # Lo dudoso (poca confianza) no se publica: espera a que la IA lo lea.
 CONFIANZA_MINIMA = 0.6
 LARGO_DESCRIPCION = 900
 
-_COMILLAS = (r'"(.+?)"', r"“(.+?)”", r"«(.+?)»", r"(?<![A-Za-zÀ-ÿ])['‘](.+?)['’](?![A-Za-zÀ-ÿ])")
+_COMILLAS = (r'"(.+?)"', r"“(.+?)”", r"«(.+?)»", r'["“](.+?)["”]', r"(?<![A-Za-zÀ-ÿ])['‘](.+?)['’](?![A-Za-zÀ-ÿ])")
 # El artista va justo después del título entre comillas: «"Strafalari", a càrrec del Mag Lari».
 _ARTISTA = re.compile(r"^(?:a càrrec d(?:e la |e l['’]|el |e |['’]en |els |['’])|amb (?:la |el |l['’])?|"
                       r"per (?:la |el )?)(.+)$", re.I)
@@ -81,6 +85,11 @@ def _sin_vacios(d: dict) -> dict:
 
 
 def _item(f: dict) -> dict | None:
+    generos = f.get("generos") or []
+    if f["tipo"] == "musical" and MUSICALES_EN_TEATRO and "musical" in generos:
+        f = f | {"tipo": "teatro"}
+    if not MUSICALES_EN_TEATRO and "musical" in generos:
+        return None
     tipo = TIPOS_APP.get(f["tipo"])
     if tipo is None or not f["proximas_funciones"] or (f.get("confianza") or 0) < CONFIANZA_MINIMA:
         return None
@@ -100,6 +109,7 @@ def _item(f: dict) -> dict | None:
         "artista": artista,
         "tipo": tipo,
         "subtipo": f.get("subtipo"),
+        "generos": generos if tipo == "teatro" else None,
         "tema_magia": f.get("magia") == "tema",
         "disciplina": ("magia" if f.get("magia") == "tema" else f.get("disciplina")) if tipo == "eventos" else None,
         "sala": f.get("sala"),

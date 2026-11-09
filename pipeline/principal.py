@@ -29,12 +29,27 @@ import sys
 import time
 import traceback
 
-from . import ajustes, clasificar_ia, config, exportar_web, fuentes, publico, salas, senales
+from . import ajustes, clasificar_ia, config, exportar_web, fuentes, genero, publico, salas, senales
 from .ajustes import Ciudad
 from .fuentes.base import Contexto
 from .util import guardar_json
 
 TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "musical", "evento", "cine")
+
+
+def _generos(a: dict, clasif: dict) -> list[str]:
+    """Género de las obras de teatro, solo si es seguro (pipeline/genero.py; Uri, 9/11/2026)."""
+    if clasif["tipo"] not in ("teatro", "musical"):
+        return []
+    if clasif.get("clasificado_por") == "ia" and isinstance(clasif.get("generos"), list):
+        elegidos = set(clasif["generos"])
+        if clasif["tipo"] == "musical":
+            elegidos.add("musical")  # la IA ha leído la descripción y dice que es teatro musical
+        if clasif.get("subtipo") == "clown":
+            elegidos.add("clown")
+        return [g for g in genero.GENEROS if g in elegidos][:genero.MAXIMO]
+    texto = "\n".join(v for v in (a.get("descripcion") or {}).values() if v)
+    return genero.leer(a["titulo"], texto, clasif.get("subtipo"))
 
 
 def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
@@ -54,6 +69,7 @@ def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
         "descripcion": a["descripcion"],
         "tipo": clasif["tipo"],
         "subtipo": clasif.get("subtipo"),
+        "generos": _generos(a, clasif),
         "disciplina": clasif.get("disciplina"),
         "magia": clasif["magia"],
         "confianza": clasif["confianza"],

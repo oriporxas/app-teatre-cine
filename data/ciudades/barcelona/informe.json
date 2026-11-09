@@ -1,7 +1,7 @@
 {
-  "actividades_vigentes": 6683,
+  "actividades_vigentes": 6567,
   "app": {
-    "espectaculos_app": 664
+    "espectaculos_app": 673
   },
   "ciudad": {
     "id": "barcelona",
@@ -15,39 +15,40 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "señales": 1190
+    "señales": 1156
   },
-  "con_detalle": 957,
-  "con_enlace_compra": 463,
-  "con_idioma": 58,
-  "con_precio": 1166,
-  "con_publico": 289,
+  "con_detalle": 928,
+  "con_enlace_compra": 445,
+  "con_idioma": 54,
+  "con_precio": 1133,
+  "con_publico": 281,
   "duracion_minutos": 0.1,
   "errores": [],
-  "fecha": "2026-11-08",
+  "fecha": "2026-11-09",
   "fuentes": {
     "open_data_bcn": {
-      "actividades_vigentes": 6683,
+      "actividades_vigentes": 6567,
       "equipamientos": 3046,
       "por_agenda": {
-        "activitats": 2253,
-        "activitats+cultural": 2072,
-        "cultural": 2358
+        "activitats": 2179,
+        "activitats+cultural": 2034,
+        "cultural": 2354
       }
     }
   },
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1712,
+      "candidatas": 1655,
       "disponible": false,
       "enviadas": 0,
       "errores": 0,
-      "modelo": "claude-haiku-5-5",
-      "pendientes_antes": 1712,
-      "pendientes_despues": 1712,
+      "modelo": "claude-sonnet-5-5",
+      "pendientes_antes": 1655,
+      "pendientes_despues": 1655,
       "tarea": "clasificar",
       "tokens_cache": 0,
+      "tokens_cache_escritura": 0,
       "tokens_entrada": 0,
       "tokens_salida": 0
     },
@@ -62,27 +63,26 @@
       "pendientes_despues": 0,
       "tarea": "revisar_dudosos",
       "tokens_cache": 0,
+      "tokens_cache_escritura": 0,
       "tokens_entrada": 0,
       "tokens_salida": 0
     }
   },
-  "inicio": "2026-11-08T20:15:58+0000",
+  "inicio": "2026-11-09T13:49:32+0000",
   "magia": {
-    "incluye": 1,
     "principal": 16,
     "tema": 5
   },
   "por_tipo": {
-    "cine": 133,
+    "cine": 128,
     "circo": 12,
-    "danza": 105,
-    "evento": 358,
+    "danza": 101,
+    "evento": 355,
     "magia": 16,
-    "musical": 34,
-    "otro": 1,
-    "teatro": 531
+    "musical": 40,
+    "teatro": 504
   },
-  "publicadas": 1190,
-  "salas_con_espectaculos": 201,
-  "salas_con_nombre": 191
+  "publicadas": 1156,
+  "salas_con_espectaculos": 199,
+  "salas_con_nombre": 190
 }

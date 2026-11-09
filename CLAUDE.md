@@ -138,7 +138,8 @@ Detalle y razones en `docs/arquitectura.md`.
   - `ciudades.toml`: cada ciudad con país, zona horaria, moneda, idiomas y
     sus fuentes. Hoy solo `barcelona`.
   - `ia.toml`: qué modelo de Claude hace cada tarea (`clasificar`,
-    `revisar_dudosos`, `fichas_personas`). Valores provisionales.
+    `revisar_dudosos`, `fichas_personas`). Elegidos con la prueba de modelos
+    (8/11/2026), pendientes del visto bueno de Uri.
 - `pipeline/` — programa diario (la «recogida») en Python (biblioteca
   estándar, salvo `anthropic` para la IA).
   - `fuentes/`: **cada fuente es una pieza independiente** que entrega las
@@ -161,6 +162,7 @@ Detalle y razones en `docs/arquitectura.md`.
     ciudad para la app (`web/public/datos/<ciudad>.json`): títulos limpios,
     solo lo que se sabe y solo teatro, magia, circo y sus eventos.
   - `equipo.py`: equipo artístico desde la ficha artística de la descripción.
+  - `genero.py`: género de las obras de teatro, solo si es seguro.
 - `web/` — la app (fase 2): React + Vite, web instalable en el móvil (PWA).
   El móvil descarga el archivo de su ciudad y busca dentro (rápido, gratis,
   sin conexión). Cómo probarla y construirla: `web/LEEME.md`
@@ -196,9 +198,10 @@ Detalle y razones en `docs/arquitectura.md`.
 - Funciones (teatro, magia, circo) y eventos (festivales, talleres, charlas)
   nunca se mezclan en los resultados.
 - **Por ahora la app es solo de teatro, magia y circo** (Uri, 8/11/2026): los
-  eventos solo si son de esas disciplinas; fuera danza, musicales, conciertos
-  y talleres de otras materias. Lo dudoso (confianza < 0,6) no se publica
-  hasta que la IA lo lea (`pipeline/exportar_web.py`).
+  eventos solo si son de esas disciplinas; fuera danza, conciertos y talleres
+  de otras materias (los musicales salen desde el 9/11, ver abajo). Lo dudoso
+  (confianza < 0,6) no se publica hasta que la IA lo lea
+  (`pipeline/exportar_web.py`).
 - La ficha muestra el equipo artístico cuando la descripción trae la ficha
   artística («Direcció: …», «Intèrprets: …»): `pipeline/equipo.py` la copia
   tal cual, sin deducir nada.
@@ -216,6 +219,19 @@ Detalle y razones en `docs/arquitectura.md`.
   `web/public/datos/<ciudad>-mapa.json` (los da la fuente: `Resultado.mapa`;
   en Barcelona, `fuentes/open_data_bcn/mapa.py`, renovado cada 90 días) y un
   punto por sala. Favoritos: en el propio móvil (`web/src/favoritos.ts`).
+- Planes (Uri, 9/11/2026): itinerarios con las funciones que se quieren ver,
+  por días (`web/src/planes.ts`, rutas `#planes` y `#plan-<id>`). En el
+  móvil; cada función guarda nombre, sala, dirección, ciudad y zona horaria
+  (sirve aunque la obra salga de cartel o sea de otra ciudad). Avisos de
+  funciones que coinciden, ruta del día, paso al calendario (.ics) y compartir.
+- Género de las obras (Uri, 9/11/2026): `pipeline/genero.py` lo pone **solo si
+  es seguro** (lo dice la descripción o el título; una palabra suelta no
+  basta). La IA, cuando se active, también lo deduce del argumento si no hay
+  dudas (campo `generos`). La tarjeta lo enseña y Teatro filtra por género.
+- Musicales (Uri, 9/11/2026): salen dentro de teatro con la etiqueta
+  «Musical», solo si es seguro que es teatro musical (un «espectacle musical»
+  puede ser un concierto). Interruptor: `MUSICALES_EN_TEATRO` en
+  `pipeline/exportar_web.py`.
 - Ubicación (Uri, 8/11/2026): `web/src/ubicacion.ts` (GPS con permiso, o
   marcar el punto en el mapa) entra en los filtros (`cerca`, `orden`,
   `distanciaMax`). Nunca sale del móvil. En la vista previa de Claude el GPS

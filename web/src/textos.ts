@@ -92,6 +92,32 @@ const es = {
   mas: (n: number) => (n === 1 ? 'y 1 fecha más' : `y ${n} fechas más`),
   dias: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
   meses: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+  // Género de las obras de teatro (solo cuando es seguro)
+  generoLabel: 'Género', generoTodos: 'Todos',
+  generoNota: 'Solo salen las obras cuyo género es seguro porque lo dice su descripción.',
+  generos: {
+    musical: 'Musical', 'títeres': 'Títeres', 'monólogo': 'Monólogo', 'improvisación': 'Improvisación', clown: 'Clown',
+    cabaret: 'Cabaret', 'teatro de objetos': 'Teatro de objetos', 'teatro físico': 'Teatro físico',
+    'lectura dramatizada': 'Lectura dramatizada', 'teatro documental': 'Teatro documental', suspense: 'Suspense',
+    tragicomedia: 'Tragicomedia', comedia: 'Comedia', drama: 'Drama', tragedia: 'Tragedia',
+  } as Record<string, string>,
+  // Planes (itinerarios): qué ver, qué día y dónde
+  navPlanes: 'Planes', planesTit: 'Tus planes',
+  planesIntro: 'Organiza qué ver y cuándo: un fin de semana, unas vacaciones… Añade funciones desde la ficha de cada espectáculo.',
+  planesVacio: 'Todavía no tienes ningún plan. En la ficha de un espectáculo, toca «+» junto a la función que quieras ver.',
+  planNuevo: 'Nuevo plan', planNombre: 'Nombre del plan', planNombreEj: 'Por ejemplo: Fin de semana en Barcelona',
+  planCrear: 'Crear y añadir', planCrearSolo: 'Crear plan', planNombrePorDefecto: 'Mi plan',
+  anadirFuncion: (dia: string) => `Añadir la función del ${dia} a un plan`, enPlan: (plan: string) => `En tu plan «${plan}»`,
+  elegirPlan: '¿A qué plan la añades?', anadido: (plan: string) => `Añadida a «${plan}».`, verPlan: 'Ver el plan',
+  planFunciones: (n: number) => (n === 1 ? '1 función' : `${n} funciones`),
+  planQuitar: 'Quitar del plan', planBorrar: 'Borrar el plan', planBorrarSeguro: '¿Seguro que quieres borrar este plan?',
+  planRenombrar: 'Cambiar el nombre', planGuardar: 'Guardar',
+  planCalendario: 'Añadir a mi calendario', planCompartir: 'Compartir', planCopiado: 'Copiado. Pégalo donde quieras.',
+  planRuta: 'Ruta del día', planSinHora: 'Hora por confirmar', planFuera: 'Ya no está en cartel', planPasado: 'Ya ha pasado',
+  planSolape: (otro: string) => `Coincide con «${otro}»`,
+  planNota: 'Los planes se guardan en este móvil. Más adelante, con una cuenta, también en tus otros dispositivos.',
+  planVacio: 'Este plan está vacío. Añade funciones desde la ficha de cada espectáculo.',
+  verMasFechas: 'Ver más fechas', volverPlanes: 'Tus planes',
 };
 
 export type Textos = typeof es;
@@ -159,6 +185,30 @@ const ca: Textos = {
   mas: (n: number) => (n === 1 ? 'i 1 data més' : `i ${n} dates més`),
   dias: ['dg', 'dl', 'dt', 'dc', 'dj', 'dv', 'ds'],
   meses: ['gen', 'febr', 'març', 'abr', 'maig', 'juny', 'jul', 'ag', 'set', 'oct', 'nov', 'des'],
+  generoLabel: 'Gènere', generoTodos: 'Tots',
+  generoNota: 'Només surten les obres el gènere de les quals és segur perquè ho diu la descripció.',
+  generos: {
+    musical: 'Musical', 'títeres': 'Titelles', 'monólogo': 'Monòleg', 'improvisación': 'Improvisació', clown: 'Clown',
+    cabaret: 'Cabaret', 'teatro de objetos': "Teatre d'objectes", 'teatro físico': 'Teatre físic',
+    'lectura dramatizada': 'Lectura dramatitzada', 'teatro documental': 'Teatre documental', suspense: 'Suspens',
+    tragicomedia: 'Tragicomèdia', comedia: 'Comèdia', drama: 'Drama', tragedia: 'Tragèdia',
+  },
+  navPlanes: 'Plans', planesTit: 'Els teus plans',
+  planesIntro: "Organitza què veure i quan: un cap de setmana, unes vacances… Afegeix funcions des de la fitxa de cada espectacle.",
+  planesVacio: "Encara no tens cap pla. A la fitxa d'un espectacle, toca «+» al costat de la funció que vulguis veure.",
+  planNuevo: 'Nou pla', planNombre: 'Nom del pla', planNombreEj: 'Per exemple: Cap de setmana a Barcelona',
+  planCrear: 'Crear i afegir', planCrearSolo: 'Crear pla', planNombrePorDefecto: 'El meu pla',
+  anadirFuncion: (dia: string) => `Afegir la funció del ${dia} a un pla`, enPlan: (plan: string) => `Al teu pla «${plan}»`,
+  elegirPlan: 'A quin pla la vols afegir?', anadido: (plan: string) => `Afegida a «${plan}».`, verPlan: 'Veure el pla',
+  planFunciones: (n: number) => (n === 1 ? '1 funció' : `${n} funcions`),
+  planQuitar: 'Treure del pla', planBorrar: 'Esborrar el pla', planBorrarSeguro: 'Segur que vols esborrar aquest pla?',
+  planRenombrar: 'Canviar el nom', planGuardar: 'Desar',
+  planCalendario: 'Afegir al meu calendari', planCompartir: 'Compartir', planCopiado: 'Copiat. Enganxa-ho on vulguis.',
+  planRuta: 'Ruta del dia', planSinHora: 'Hora per confirmar', planFuera: 'Ja no és en cartell', planPasado: 'Ja ha passat',
+  planSolape: (otro: string) => `Coincideix amb «${otro}»`,
+  planNota: 'Els plans es desen en aquest mòbil. Més endavant, amb un compte, també als teus altres dispositius.',
+  planVacio: "Aquest pla és buit. Afegeix funcions des de la fitxa de cada espectacle.",
+  verMasFechas: 'Veure més dates', volverPlanes: 'Els teus plans',
 };
 
 export const TEXTOS: Record<Idioma, Textos> = { es, ca };

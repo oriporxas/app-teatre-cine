@@ -24,6 +24,7 @@ from pathlib import Path
 
 from . import config
 from .ajustes import Ciudad, TareaIA
+from .genero import GENEROS, MAXIMO as MAXIMO_GENEROS
 from .senales import SUBTIPOS_MAGIA
 from .util import guardar_json, huella, leer_json
 
@@ -47,10 +48,11 @@ ESQUEMA = {
                     "subtipo": {"type": "string"},
                     "disciplina": {"type": "string", "enum": DISCIPLINAS},
                     "magia": {"type": "string", "enum": RELACION_MAGIA},
+                    "generos": {"type": "array", "items": {"type": "string", "enum": list(GENEROS)}},
                     "confianza": {"type": "number"},
                     "motivo": {"type": "string"},
                 },
-                "required": ["id", "tipo", "subtipo", "disciplina", "magia", "confianza", "motivo"],
+                "required": ["id", "tipo", "subtipo", "disciplina", "magia", "generos", "confianza", "motivo"],
                 "additionalProperties": False,
             },
         }
@@ -79,7 +81,10 @@ def instrucciones(ciudad: Ciudad, idioma_textos: str) -> str:
         "breve en castellano (vacía si no aplica); para el tipo «magia» tiene que ser exactamente una de: "
         f"{', '.join(SUBTIPOS_MAGIA)}; para el tipo «teatro», «clown» si el clown es la razón principal del "
         "espectáculo (si no, vacío). «disciplina» es la disciplina de la actividad (en un evento, la del "
-        "taller, festival o charla: un taller de danza tiene disciplina «danza»). «confianza» va de 0 a 1 y dice lo segura que es la "
+        "taller, festival o charla: un taller de danza tiene disciplina «danza»). «generos»: solo en los "
+        f"tipos «teatro» y «musical», el género de la obra, como mucho {MAXIMO_GENEROS}, de esta lista: "
+        f"{', '.join(GENEROS)}; ponlo solo si la descripción lo dice o si el argumento no deja ninguna duda "
+        "(si no estás muy seguro, lista vacía); en los demás tipos, lista vacía. «confianza» va de 0 a 1 y dice lo segura que es la "
         "decisión: decide siempre, aunque dudes, y baja la confianza. «motivo» es una frase breve en "
         "castellano que explique la decisión citando la pista que la justifica (título, descripción, "
         "sala o artista). Usa solo lo que dicen los datos: no inventes artistas ni premios."
@@ -180,6 +185,8 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                         r["subtipo"] = "magia general"
                     if r["tipo"] != "evento":
                         r.pop("disciplina", None)
+                    r["generos"] = ([g for g in GENEROS if g in (r.get("generos") or [])][:MAXIMO_GENEROS]
+                                    if r["tipo"] in ("teatro", "musical") else [])
                     cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
                                       "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
                 informe["enviadas"] += len(lote)

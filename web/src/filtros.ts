@@ -16,6 +16,7 @@ export interface Filtros {
   tipo: 'todo' | Tipo;
   subMagia: string;
   subEvento: string;
+  genero: string; // solo en teatro
   fecha: ClaveFecha;
   desde: string; // solo con fecha «rango» (calendario)
   hasta: string;
@@ -31,7 +32,7 @@ export interface Filtros {
 }
 
 export const FILTROS_INICIALES: Filtros = {
-  tipo: 'todo', subMagia: 'todas', subEvento: 'todos', fecha: 'todo', desde: '', hasta: '', q: '',
+  tipo: 'todo', subMagia: 'todas', subEvento: 'todos', genero: 'todos', fecha: 'todo', desde: '', hasta: '', q: '',
   precioMax: null, sinPrecio: false, publico: 'cualquiera', idioma: 'cualquiera',
   cerca: null, orden: 'fecha', distanciaMax: null,
 };
@@ -95,6 +96,10 @@ export function normaliza(s?: string): string {
   return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }
 
+// Géneros del teatro, en el orden en que se muestran (el mismo que en pipeline/genero.py).
+export const GENEROS = ['musical', 'comedia', 'drama', 'monólogo', 'títeres', 'improvisación', 'clown', 'cabaret',
+  'suspense', 'tragicomedia', 'tragedia', 'teatro de objetos', 'teatro físico', 'lectura dramatizada', 'teatro documental'];
+
 // Tipos de evento, en el orden en que se muestran.
 export const TIPOS_EVENTO = ['festival', 'formación', 'conferencia o coloquio', 'ensayo abierto', 'puertas abiertas',
   'estreno', 'convocatoria', 'premios'];
@@ -110,6 +115,7 @@ export function pasa(e: Espectaculo, f: Filtros, hoy: string, ignorar: Ignorar =
     if (f.tipo === 'todo' ? !FUNCIONES.includes(e.tipo) : e.tipo !== f.tipo) return false;
     if (ignorar !== 'sub' && f.tipo === 'magia' && f.subMagia !== 'todas' && (e.subtipo || 'magia general') !== f.subMagia) return false;
     if (ignorar !== 'sub' && f.tipo === 'eventos' && f.subEvento !== 'todos' && e.subtipo !== f.subEvento) return false;
+    if (ignorar !== 'sub' && f.tipo === 'teatro' && f.genero !== 'todos' && !(e.generos || []).includes(f.genero)) return false;
   }
   if (ignorar === 'fecha') return pasaResto(e, f);
   const [desde, hasta] = rango(f, hoy);
@@ -196,6 +202,7 @@ export function tipoTxt(e: Espectaculo, t: Textos): string {
     const disciplina = e.disciplina ? t.disciplinas[e.disciplina] : '';
     return disciplina ? `${base} · ${disciplina}` : base;
   }
+  if (e.tipo === 'teatro' && e.generos?.length) return [t.tipos.teatro, ...e.generos.map((g) => t.generos[g] || g)].join(' · ');
   if (e.tipo === 'teatro' && e.subtipo === 'clown') return `${t.tipos.teatro} · ${t.disciplinas.clown}`;
   return t.tipos[e.tipo];
 }

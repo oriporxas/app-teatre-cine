@@ -1,7 +1,7 @@
-import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, type RefObject } from 'react';
+import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, type FormEvent, type RefObject } from 'react';
 import { cargarCartelera, type Cartelera, type Espectaculo } from './datos';
 import {
-  FILTROS_INICIALES, FUNCIONES, MESES_CALENDARIO, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
+  FILTROS_INICIALES, FUNCIONES, GENEROS, MESES_CALENDARIO, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
   distanciaA, fmtCorto, fmtDia, fmtDistancia, fmtRango, funcionesEnRango, hoyEn, pasa, precioTxt, publicoTxt, rango,
   sumaDias, tipoTxt,
   type ClaveFecha, type Filtros,
@@ -10,13 +10,17 @@ import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from '
 import { useFavoritos, type Favoritos } from './favoritos';
 import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
+import {
+  claveItem, descargar, enlaceRuta, itemDe, planIcs, porDias, solapes, usePlanes, type ItemPlan, type Plan, type Planes,
+} from './planes';
 
 const POR_PAGINA = 40;
 
 // --- Rutas: la dirección dice qué pantalla se ve, así funciona el botón «atrás» del móvil.
 // Solo letras, números y guiones (#mapa, #ficha-open-data-bcn-994…), para que el enlace
 // funcione en cualquier sitio donde se publique la app.
-type Ruta = { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' };
+type Ruta = { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
+  | { vista: 'planes' } | { vista: 'plan'; id: string };
 
 const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -25,6 +29,8 @@ function leerRuta(): Ruta {
   if (h.startsWith('ficha-')) return { vista: 'ficha', clave: h.slice(6) };
   if (h === 'mapa') return { vista: 'mapa' };
   if (h === 'favoritos') return { vista: 'favoritos' };
+  if (h === 'planes') return { vista: 'planes' };
+  if (h.startsWith('plan-')) return { vista: 'plan', id: h.slice(5) };
   return { vista: 'cartelera' };
 }
 
@@ -43,6 +49,7 @@ export default function App() {
   const t = TEXTOS[lang];
   const favs = useFavoritos();
   const ubic = useUbicacion();
+  const planes = usePlanes();
   // La ubicación entra en los filtros (para la distancia y el orden «más cerca»).
   useEffect(() => {
     setFiltros((f) => (ubic.pos
@@ -89,12 +96,16 @@ export default function App() {
           ubic={ubic}
         />
       ) : null}
-      {ruta.vista === 'ficha' && actual ? <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} favs={favs} /> : null}
+      {ruta.vista === 'ficha' && actual && cartelera ? (
+        <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} favs={favs} planes={planes} cartelera={cartelera} />
+      ) : null}
       {ruta.vista === 'mapa' ? (
         <VistaMapa t={t} cartelera={cartelera} hoy={hoy} filtros={filtros} cambiar={cambiar}
           abrirCalendario={() => setHoja('calendario')} favs={favs} ubic={ubic} />
       ) : null}
       {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lista={lista} hoy={hoy} favs={favs} /> : null}
+      {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} /> : null}
+      {ruta.vista === 'plan' ? <VistaPlan t={t} lista={lista} hoy={hoy} planes={planes} id={ruta.id} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
         <a href="#cartelera" aria-current={ruta.vista === 'cartelera' || ruta.vista === 'ficha' ? 'page' : undefined}>
@@ -108,6 +119,10 @@ export default function App() {
         <a href="#favoritos" aria-current={ruta.vista === 'favoritos' ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
           {t.navFavoritos}
+        </a>
+        <a href="#planes" aria-current={ruta.vista === 'planes' || ruta.vista === 'plan' ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="5" width="16" height="15" rx="2" /><path d="M4 10h16M9 3v4M15 3v4M9 15l2 2 4-4" /></svg>
+          {t.navPlanes}
         </a>
       </nav>
 
@@ -211,6 +226,8 @@ function FiltrosRapidos({ t, lista, f, filtros, cambiar, hoy, cargada, abrirCale
   const tipos: Filtros['tipo'][] = ['todo', 'teatro', 'magia', 'circo', 'eventos'];
   // Solo los tipos de evento que hay de verdad (sin «otros»: todo está clasificado).
   const tiposEvento = TIPOS_EVENTO.filter((k) => lista.some((e) => e.tipo === 'eventos' && e.subtipo === k));
+  // Solo los géneros que hay de verdad en el teatro en cartel.
+  const generos = GENEROS.filter((g) => lista.some((e) => e.tipo === 'teatro' && e.generos?.includes(g)));
   return (
     <>
       <div className="chips" role="group" aria-label={t.tiposLabel}>
@@ -220,7 +237,7 @@ function FiltrosRapidos({ t, lista, f, filtros, cambiar, hoy, cargada, abrirCale
             <span key={k} className="chip-envoltorio">
               {k === 'eventos' ? <span className="separador" aria-hidden="true" /> : null}
               <button type="button" className="chip" aria-pressed={filtros.tipo === k}
-                onClick={() => cambiar({ tipo: k, subMagia: 'todas', subEvento: 'todos' })}>
+                onClick={() => cambiar({ tipo: k, subMagia: 'todas', subEvento: 'todos', genero: 'todos' })}>
                 {t.tipos[k]}{n != null ? <span className="num">{n}</span> : null}
               </button>
             </span>
@@ -237,6 +254,20 @@ function FiltrosRapidos({ t, lista, f, filtros, cambiar, hoy, cargada, abrirCale
             </button>
           ))}
         </div>
+      ) : null}
+
+      {filtros.tipo === 'teatro' && generos.length ? (
+        <>
+          <div className="chips" role="group" aria-label={t.generoLabel}>
+            {['todos', ...generos].map((k) => (
+              <button key={k} type="button" className="chip pequeno" aria-pressed={filtros.genero === k} onClick={() => cambiar({ genero: k })}>
+                {k === 'todos' ? t.generoTodos : t.generos[k]}
+                {cartelera ? <span className="num">{contar((e) => e.tipo === 'teatro' && (k === 'todos' || !!e.generos?.includes(k)), 'sub')}</span> : null}
+              </button>
+            ))}
+          </div>
+          {filtros.genero !== 'todos' ? <p className="nota nota-chips">{t.generoNota}</p> : null}
+        </>
       ) : null}
 
       {filtros.tipo === 'eventos' ? (
@@ -321,7 +352,10 @@ function Etiquetas({ e, t }: { e: Espectaculo; t: Textos }) {
   const publico = publicoTxt(e, t);
   return (
     <span className="etiquetas">
-      <span className={e.tipo === 'magia' || e.tema_magia ? 'etiqueta destacada' : 'etiqueta'}>{tipoTxt(e, t)}</span>
+      <span className={e.tipo === 'magia' || e.tema_magia ? 'etiqueta destacada' : 'etiqueta'}>
+        {e.tipo === 'teatro' && e.generos?.length ? t.tipos.teatro : tipoTxt(e, t)}
+      </span>
+      {e.tipo === 'teatro' ? e.generos?.map((g) => <span key={g} className="etiqueta genero">{t.generos[g] || g}</span>) : null}
       {publico ? <span className="etiqueta suave">{publico}</span> : null}
       {e.nivel ? <span className="etiqueta suave">{t.nivelTxt(t.niveles[e.nivel] || e.nivel)}</span> : null}
     </span>
@@ -373,11 +407,14 @@ function Corazon({ lleno }: { lleno?: boolean }) {
   );
 }
 
-function Ficha({ t, lang, e, hoy, volver, favs }: {
-  t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void; favs: Favoritos;
+function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
+  t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void; favs: Favoritos; planes: Planes; cartelera: Cartelera;
 }) {
   const guardado = favs.es(e.id);
-  useLayoutEffect(() => { window.scrollTo(0, 0); }, [e.id]);
+  const [cuantas, setCuantas] = useState(6);
+  const [paraPlan, setParaPlan] = useState<ItemPlan | null>(null);
+  const [aviso, setAviso] = useState<{ texto: string; plan: string } | null>(null);
+  useLayoutEffect(() => { window.scrollTo(0, 0); setCuantas(6); setAviso(null); }, [e.id]);
   const fs = e.funciones.filter(([f]) => f >= hoy);
   const idiomaDesc = e.descripcion?.[lang] ? lang : Object.keys(e.descripcion || {})[0];
   const desc = idiomaDesc ? e.descripcion?.[idiomaDesc] : '';
@@ -427,14 +464,37 @@ function Ficha({ t, lang, e, hoy, volver, favs }: {
 
         <section className="bloque">
           <h3>{t.funciones}</h3>
-          {fs.slice(0, 6).map(([dia, hora], i) => (
-            <span key={`${dia}-${hora}-${i}`} className="funcion">
-              <span>{fmtDia(dia, t)}</span>
-              {hora ? <span className="texto-claro">{hora}</span> : null}
-            </span>
-          ))}
-          {fs.length > 6 ? <span className="texto-suave">{t.mas(fs.length - 6)}</span> : null}
+          {fs.slice(0, cuantas).map(([dia, hora], i) => {
+            const enPlan = planes.conFuncion(e.id, dia, hora);
+            return (
+              <span key={`${dia}-${hora}-${i}`} className="funcion">
+                <span>{fmtDia(dia, t)}</span>
+                <span className="funcion-derecha">
+                  {hora ? <span className="texto-claro">{hora}</span> : null}
+                  {enPlan ? (
+                    <a className="boton-icono en-plan" href={`#plan-${enPlan.id}`} aria-label={t.enPlan(enPlan.nombre)} title={t.enPlan(enPlan.nombre)}>
+                      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12l5 5 9-10" /></svg>
+                    </a>
+                  ) : (
+                    <button type="button" className="boton-icono anadir-plan" aria-label={t.anadirFuncion(fmtDia(dia, t) + (hora ? ` · ${hora}` : ''))}
+                      title={t.anadirFuncion(fmtDia(dia, t))}
+                      onClick={() => setParaPlan(itemDe(e, dia, hora, cartelera.ciudad.id, cartelera.ciudad.zona_horaria))}>
+                      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
+                    </button>
+                  )}
+                </span>
+              </span>
+            );
+          })}
+          {fs.length > cuantas ? (
+            <button type="button" className="boton-secundario ver-mas-fechas" onClick={() => setCuantas((n) => n + 20)}>
+              {t.verMasFechas} <span className="texto-suave">({t.mas(fs.length - cuantas)})</span>
+            </button>
+          ) : null}
           {fs.length === 0 ? <span className="texto-suave">{t.sinFechas}</span> : null}
+          {aviso ? (
+            <p className="aviso-plan" role="status">{aviso.texto} <a href={`#plan-${aviso.plan}`}>{t.verPlan}</a></p>
+          ) : null}
         </section>
 
         {datos.length ? (
@@ -477,6 +537,11 @@ function Ficha({ t, lang, e, hoy, volver, favs }: {
             <h3 className="caja-titulo">{t.magoTit}</h3>
             <p className="texto-suave">{t.magoTxt}</p>
           </section>
+        ) : null}
+
+        {paraPlan ? (
+          <HojaPlan t={t} item={paraPlan} planes={planes} cerrar={() => setParaPlan(null)}
+            listo={(planId, nombre) => { setParaPlan(null); setAviso({ texto: t.anadido(nombre), plan: planId }); }} />
         ) : null}
 
         {e.fuente ? (
@@ -803,6 +868,217 @@ function VistaFavoritos({ t, lista, hoy, favs }: { t: Textos; lista: Espectaculo
         ))}
         {fuera > 0 ? <p className="nota">{t.favFuera(fuera)}</p> : null}
         <p className="nota">{t.favNota}</p>
+      </div>
+    </main>
+  );
+}
+
+// --- Planes (itinerarios): qué ver, qué día y dónde ---------------------------------------
+
+function rangoPlan(p: Plan, t: Textos): string {
+  if (!p.items.length) return '';
+  const dias = p.items.map((i) => i.dia).sort();
+  const a = dias[0], b = dias[dias.length - 1];
+  return a === b ? fmtDia(a, t) : `${fmtCorto(a, t)} – ${fmtCorto(b, t)}`;
+}
+
+function planTexto(p: Plan, t: Textos): string {
+  const lineas = [p.nombre, ''];
+  for (const [dia, items] of porDias(p.items)) {
+    lineas.push(fmtDia(dia, t));
+    for (const i of items) {
+      const lugar = [i.sala, i.direccion].filter(Boolean).join(', ');
+      lineas.push(`· ${i.hora || t.planSinHora} — ${i.nombre}${lugar ? ` (${lugar})` : ''}`);
+    }
+    lineas.push('');
+  }
+  return lineas.join('\n').trim();
+}
+
+const nombreArchivo = (s: string) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase() || 'plan';
+
+function FormNuevoPlan({ t, alCrear, boton, inicial = '' }: {
+  t: Textos; alCrear: (nombre: string) => void; boton: string; inicial?: string;
+}) {
+  const [nombre, setNombre] = useState(inicial);
+  const enviar = (ev: FormEvent) => { ev.preventDefault(); alCrear(nombre.trim() || t.planNombrePorDefecto); };
+  return (
+    <form className="plan-nuevo" onSubmit={enviar}>
+      <label htmlFor="nombre-plan" className="dato-etiqueta">{t.planNombre}</label>
+      <input id="nombre-plan" className="campo" value={nombre} onChange={(ev) => setNombre(ev.target.value)}
+        placeholder={t.planNombreEj} maxLength={60} enterKeyHint="done" />
+      <button type="submit" className="boton-principal">{boton}</button>
+    </form>
+  );
+}
+
+// Hoja para elegir a qué plan va una función (o crear uno nuevo).
+function HojaPlan({ t, item, planes, cerrar, listo }: {
+  t: Textos; item: ItemPlan; planes: Planes; cerrar: () => void; listo: (planId: string, nombre: string) => void;
+}) {
+  const primero = useRef<HTMLButtonElement>(null);
+  useHoja(cerrar, primero);
+  const [nuevo, setNuevo] = useState(planes.planes.length === 0);
+  return (
+    <div className="fondo-hoja" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
+      <div className="hoja hoja-baja" role="dialog" aria-modal="true" aria-labelledby="titulo-hoja-plan">
+        <div className="hoja-cabecera">
+          <div className="calendario-titulo">
+            <h2 id="titulo-hoja-plan">{t.elegirPlan}</h2>
+            <span className="cuando">{item.nombre} · {fmtDia(item.dia, t)}{item.hora ? ` · ${item.hora}` : ''}</span>
+          </div>
+          <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
+        </div>
+        <div className="hoja-cuerpo">
+          {planes.planes.map((p) => (
+            <button key={p.id} type="button" className="plan-opcion"
+              onClick={() => { planes.anadir(p.id, item); listo(p.id, p.nombre); }}>
+              <span className="caja-titulo">{p.nombre}</span>
+              <span className="texto-suave">{[t.planFunciones(p.items.length), rangoPlan(p, t)].filter(Boolean).join(' · ')}</span>
+            </button>
+          ))}
+          {nuevo ? (
+            <FormNuevoPlan t={t} boton={t.planCrear} alCrear={(nombre) => listo(planes.crear(nombre, item), nombre)} />
+          ) : (
+            <button type="button" className="boton-secundario" onClick={() => setNuevo(true)}>+ {t.planNuevo}</button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function VistaPlanes({ t, planes }: { t: Textos; planes: Planes }) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
+  const [creando, setCreando] = useState(false);
+  return (
+    <main className="pantalla">
+      <header className="cabecera">
+        <div className="titulo">
+          <span className="sobretitulo">{planes.planes.length ? t.planFunciones(planes.planes.reduce((n, p) => n + p.items.length, 0)) : ' '}</span>
+          <h1>{t.planesTit}</h1>
+        </div>
+      </header>
+      <div className="lista">
+        <p className="texto-suave">{t.planesIntro}</p>
+        {planes.planes.length === 0 ? <p className="aviso">{t.planesVacio}</p> : null}
+        {planes.planes.map((p) => (
+          <a key={p.id} className="tarjeta plan-tarjeta" href={`#plan-${p.id}`}>
+            <span className="tarjeta-nombre">{p.nombre}</span>
+            <span className="tarjeta-lugar">{[t.planFunciones(p.items.length), rangoPlan(p, t)].filter(Boolean).join(' · ')}</span>
+            {p.items.length ? (
+              <span className="texto-suave plan-resumen">{p.items.slice(0, 3).map((i) => i.nombre).join(' · ')}{p.items.length > 3 ? ' …' : ''}</span>
+            ) : null}
+          </a>
+        ))}
+        {creando ? (
+          <FormNuevoPlan t={t} boton={t.planCrearSolo} alCrear={(nombre) => { window.location.hash = `#plan-${planes.crear(nombre)}`; }} />
+        ) : (
+          <button type="button" className="boton-secundario" onClick={() => setCreando(true)}>+ {t.planNuevo}</button>
+        )}
+        <p className="nota">{t.planNota}</p>
+      </div>
+    </main>
+  );
+}
+
+function VistaPlan({ t, lista, hoy, planes, id }: { t: Textos; lista: Espectaculo[]; hoy: string; planes: Planes; id: string }) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
+  const [editando, setEditando] = useState(false);
+  const [borrando, setBorrando] = useState(false);
+  const [copiado, setCopiado] = useState(false);
+  const enCartel = useMemo(() => new Set(lista.map((e) => e.id)), [lista]);
+  const plan = planes.planes.find((p) => p.id === id);
+  const barra = (
+    <div className="ficha-barra">
+      <a className="boton-volver" href="#planes">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 5l-7 7 7 7" /></svg>
+        {t.volverPlanes}
+      </a>
+    </div>
+  );
+  if (!plan) return <main className="pantalla">{barra}<div className="ficha"><p className="aviso">{t.planesVacio}</p></div></main>;
+
+  const choques = solapes(plan.items);
+  const enlace = (i: ItemPlan) => `${window.location.origin}${window.location.pathname}${enlaceFicha(i.id)}`;
+  const compartir = async () => {
+    const texto = planTexto(plan, t);
+    if (navigator.share) {
+      try { await navigator.share({ title: plan.nombre, text: texto }); return; } catch { /* cancelado o no permitido: copiar */ }
+    }
+    try { await navigator.clipboard.writeText(texto); setCopiado(true); } catch { /* sin portapapeles */ }
+  };
+
+  return (
+    <main className="pantalla">
+      {barra}
+      <div className="ficha">
+        <div className="ficha-cabecera">
+          {editando ? (
+            <FormNuevoPlan t={t} boton={t.planGuardar} inicial={plan.nombre}
+              alCrear={(nombre) => { planes.renombrar(plan.id, nombre); setEditando(false); }} />
+          ) : <h2>{plan.nombre}</h2>}
+          <span className="texto-suave">{[t.planFunciones(plan.items.length), rangoPlan(plan, t)].filter(Boolean).join(' · ')}</span>
+        </div>
+
+        {plan.items.length === 0 ? <p className="aviso">{t.planVacio}</p> : null}
+
+        {porDias(plan.items).map(([dia, items]) => {
+          const ruta = enlaceRuta(items);
+          return (
+            <section key={dia} className={dia < hoy ? 'bloque plan-dia pasado' : 'bloque plan-dia'}>
+              <h3>{fmtDia(dia, t)}{dia < hoy ? ` · ${t.planPasado}` : ''}</h3>
+              {items.map((i) => {
+                const k = claveItem(i);
+                const choque = choques.get(k);
+                const lugar = [i.sala, i.direccion, i.barrio].filter(Boolean).join(' · ');
+                return (
+                  <div key={k} className="plan-item">
+                    <span className="plan-hora">{i.hora || '—'}</span>
+                    <span className="plan-info">
+                      {enCartel.has(i.id) ? <a className="caja-titulo" href={enlaceFicha(i.id)}>{i.nombre}</a> : <span className="caja-titulo">{i.nombre}</span>}
+                      {!i.hora ? <span className="texto-suave">{t.planSinHora}</span> : null}
+                      {lugar ? <span className="texto-suave">{lugar}</span> : null}
+                      {choque ? <span className="plan-choque">{t.planSolape(choque)}</span> : null}
+                      {!enCartel.has(i.id) && dia >= hoy && lista.length ? <span className="nota">{t.planFuera}</span> : null}
+                      {i.lat != null && i.lon != null ? (
+                        <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${i.lat},${i.lon}`} target="_blank" rel="noopener noreferrer">{t.comoLlegar}</a>
+                      ) : null}
+                    </span>
+                    <button type="button" className="boton-icono" aria-label={`${t.planQuitar}: ${i.nombre}`} title={t.planQuitar}
+                      onClick={() => planes.quitar(plan.id, k)}>
+                      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+                    </button>
+                  </div>
+                );
+              })}
+              {ruta ? <a className="enlace" href={ruta} target="_blank" rel="noopener noreferrer">{t.planRuta}</a> : null}
+            </section>
+          );
+        })}
+
+        {plan.items.length ? (
+          <div className="plan-acciones">
+            <button type="button" className="boton-principal"
+              onClick={() => descargar(`${nombreArchivo(plan.nombre)}.ics`, planIcs(plan, enlace), 'text/calendar')}>
+              {t.planCalendario}
+            </button>
+            <button type="button" className="boton-secundario" onClick={compartir}>{t.planCompartir}</button>
+          </div>
+        ) : null}
+        {copiado ? <p className="nota" role="status">{t.planCopiado}</p> : null}
+
+        <div className="plan-acciones">
+          {!editando ? <button type="button" className="boton-secundario" onClick={() => setEditando(true)}>{t.planRenombrar}</button> : null}
+          {borrando ? (
+            <button type="button" className="boton-secundario peligro"
+              onClick={() => { planes.borrar(plan.id); window.location.hash = '#planes'; }}>{t.planBorrarSeguro}</button>
+          ) : (
+            <button type="button" className="boton-secundario" onClick={() => setBorrando(true)}>{t.planBorrar}</button>
+          )}
+        </div>
+        <p className="nota">{t.planNota}</p>
       </div>
     </main>
   );

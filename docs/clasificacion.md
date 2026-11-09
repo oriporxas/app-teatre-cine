@@ -28,7 +28,7 @@ Cada actividad recibe exactamente un **tipo**:
 - **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios. Un espectáculo de circo con algún payaso sigue siendo circo.
 - **clown** (subtipo de teatro): cuando el clown o los payasos son la razón principal del espectáculo, el tipo es «teatro» y el subtipo «clown» (decisión de Uri, 8/11/2026). En los eventos, un taller de clown tiene disciplina «clown».
 - **danza**: espectáculos cuya disciplina principal es la danza (contemporánea, ballet, flamenco, danzas urbanas…).
-- **musical**: teatro musical y espectáculos musicales («Musical…», «Espectacle musical…», «…, el musical», o cuando la descripción lo presenta como un musical). Es un género propio: por ahora no sale en la app (decisión de Uri, 8/11/2026).
+- **musical**: teatro musical («Musical…», «…, el musical», «Teatre musical», o cuando la descripción lo presenta como un musical: «és un musical», «aquest musical»). Un «espectacle musical» que en realidad es un concierto (un grupo que toca sus canciones) es «otro». En la app, el teatro musical sale dentro de teatro con la etiqueta «Musical» (decisión de Uri, 9/11/2026; antes no salía).
 - **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios). Cada evento lleva además su **disciplina** (teatro, magia, circo, danza, musical, música…): un taller de danza es un evento de disciplina «danza». En la app solo salen, por ahora, los eventos de teatro, magia y circo.
 - **cine**: proyecciones y ciclos de cine (se mostrarán en la fase 6).
 - **otro**: todo lo que no es del sector: conciertos y ópera, exposiciones, visitas guiadas y rutas, deportes, mercados y ferias, cuentacuentos y narración oral, espectáculos de divulgación o sensibilización (medio ambiente, ciencia…), talleres de otras materias (cocina, pintura, manualidades, informática…), actos institucionales.
@@ -41,6 +41,12 @@ Además del tipo, cada actividad tiene un campo **magia**:
 - `incluye`: espectáculo de otro tipo (circo, humor, variedades, divulgación…) que hace algún número de magia de verdad, de forma secundaria. Se guarda como información, pero **no sale al buscar magia**.
 - `tema`: evento cuyo tema es la magia: festival de magia, taller o curso de magia, conferencia sobre magia. **Los talleres de magia son «evento > formación» con magia = tema**, nunca «magia».
 - `no`: sin relación con la magia. También cuando la magia solo es el argumento de una historia (ver criterio 4).
+
+### Género de las obras de teatro (campo aparte)
+
+En los tipos «teatro» y «musical», el campo **generos** dice el género de la obra (como mucho dos), para que la app lo muestre en la tarjeta (decisión de Uri, 9/11/2026). Valores: `musical`, `títeres`, `monólogo` (también el stand-up), `improvisación`, `clown`, `cabaret`, `teatro de objetos`, `teatro físico` (o gestual), `lectura dramatizada`, `teatro documental`, `suspense` (thriller, intriga), `tragicomedia`, `comedia` (también humor, sátira y farsa), `drama`, `tragedia`.
+
+**Solo si es seguro**: cuando la descripción lo dice («és una comèdia», «aquest musical», «un monòleg», «un espectacle de titelles», «Gènere: Comèdia») o cuando el argumento no deja ninguna duda. Una palabra suelta no basta («una mica de comèdia», «el drama de l'habitatge», «una alta dosi d'improvisació», «direcció musical»). Si hay dudas, la lista va vacía: es mejor no poner género que ponerlo mal. En los demás tipos, la lista va vacía.
 
 ### Cómo decidir
 
@@ -235,3 +241,12 @@ generales:
   etiqueta. → El clown tiene vocabulario propio, separado del circo y del
   teatro; con el clown como razón principal es teatro › clown. Los eventos se
   filtran por su tipo real y muestran su disciplina. Magia: 55 de 55.
+- **9/11/2026, Uri pide ver el género de las obras:** en teatro salían
+  musicales sin etiqueta y quiere saber el género de un vistazo. → Nuevo campo
+  `generos` (como mucho dos) en teatro y musical, solo si es seguro
+  (`pipeline/genero.py`: etiqueta de la fuente, frase explícita o título; una
+  palabra suelta no basta y las contradicciones anulan). El teatro musical
+  seguro sale dentro de teatro con la etiqueta «Musical»; el «espectacle
+  musical» sin más espera a la IA. Resultado: 175 de 527 obras con género
+  (comedia 68, monólogo 55, musical 36, títeres 23…). La IA devolverá también
+  `generos`. Magia: 54 de 54 (una de las 55 ya no está en cartel).
