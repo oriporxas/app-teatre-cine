@@ -143,6 +143,15 @@ Cuando la activemos (sin prisa; Uri avisará):
 - Usar el procesamiento por lotes (Batch) para el trabajo nocturno, que cuesta la mitad.
 - Cuando toque crear la clave, guiar a Uri paso a paso. Uri nunca la pegará en el chat.
 
+### Compartir los planes con los amigos (Uri, 9 de noviembre)
+Los planes (itinerarios) tienen que poder compartirse con los amigos por cualquier vía: redes sociales, historias de Instagram, WhatsApp, SMS, correo electrónico, Telegram y lo que sea. La idea es que quien lo reciba vea el plan (días, horas, obras y salas) y, si tiene la app, lo pueda abrir y guardar con un toque.
+- **Ya hecho:** el botón «Compartir» de cada plan abre el menú de compartir del propio móvil, que ofrece WhatsApp, SMS, correo, Telegram y las demás apps instaladas. Se envía como texto (días, horas, obras y salas). Si el móvil no tiene ese menú, el texto se copia para pegarlo donde se quiera.
+- **Pendiente:**
+  - **Enlace al plan:** que quien lo reciba lo abra en la app, con las fichas, y lo guarde como suyo. Se puede hacer sin servidor, metiendo el plan dentro del propio enlace, en cuanto la app esté publicada en su propia dirección.
+  - **Imagen para historias de Instagram** (formato vertical) con el plan, preparada en el propio móvil para compartirla como foto. Instagram no acepta texto suelto en las historias: hace falta una imagen.
+  - **Más adelante, con cuentas:** planes compartidos en los que varios amigos apuntan qué quieren ver, y avisos si cambia una función del plan.
+- Como el resto de la app: nada de lo que se comparte pasa por un servidor nuestro mientras no haya cuentas. Solo se envía lo que la persona decide compartir.
+
 ### Qué se hace ahora
 - No se construye nada de la escala mundial todavía. Se sigue con Barcelona.
 - Pero las decisiones técnicas de hoy se toman de forma que crecer no obligue a rehacerlo todo:

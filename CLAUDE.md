@@ -111,6 +111,12 @@ local, y se le envía la copia de seguridad.
   las fichas de trayectoria y premios suben a Opus; Haiku, para extraer
   datos sin interpretar. Trabajo nocturno por lotes (Batch, mitad de precio). Guiar a Uri paso a paso para crear la
   clave; nunca la pegará en el chat.
+- **Compartir planes (Uri, 9/11/2026):** con los amigos por cualquier vía
+  (redes sociales, historias de Instagram, WhatsApp, SMS, correo…). Hoy:
+  menú de compartir del móvil con el plan en texto. Pendiente: enlace que
+  abre el plan en la app (sin servidor, el plan dentro del enlace, cuando la
+  app esté publicada), imagen vertical para historias y, con cuentas, planes
+  en grupo. Detalle en el brief.
 - **Hoy:** nada de escala mundial, pero sin cerrarle la puerta: datos con
   ciudad y país (zona horaria, moneda, idiomas), cada fuente como pieza
   independiente y modelo de IA por tarea en un ajuste. Ver
