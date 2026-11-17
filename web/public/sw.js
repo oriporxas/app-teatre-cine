@@ -1,7 +1,7 @@
 // Permite instalar la app y abrirla sin conexión con la última cartelera descargada.
 // - La cartelera (datos/*.json): primero la red, para tener lo de hoy; si no hay red, la guardada.
 // - El resto de la app: lo guardado, y se actualiza por detrás.
-const CACHE = 'cartelera-v2';
+const CACHE = 'cartelera-v3';
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './icono.svg', './icono-192.png'])));

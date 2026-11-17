@@ -16,13 +16,13 @@
 from __future__ import annotations
 
 import json
-import os
+import os  # noqa: F401  (lo usan otras partes)
 import re
 import time
 
 from pathlib import Path
 
-from . import config
+from . import config, ia
 from .ajustes import Ciudad, TareaIA
 from .genero import GENEROS, MAXIMO as MAXIMO_GENEROS
 from .senales import SUBTIPOS_MAGIA
@@ -109,14 +109,8 @@ def _entrada(a: dict, senal: dict) -> dict:
     }
 
 
-# La clave de la IA. En GitHub es el secreto ANTHROPIC_API_KEY; en las sesiones de Claude en la nube,
-# que no pasan variables ANTHROPIC_*, se guarda como CLAVE_IA_CARTELERA.
-def clave() -> str | None:
-    return os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("CLAVE_IA_CARTELERA")
-
-
-def disponible() -> bool:
-    return bool(clave())
+clave = ia.clave
+disponible = ia.disponible
 
 
 def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], candidatos: list[str],
@@ -144,12 +138,13 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
         import anthropic  # solo hace falta si hay clave
 
         # La dirección se fija: en algunos entornos ANTHROPIC_BASE_URL apunta a otro servicio.
-        cliente = anthropic.Anthropic(api_key=clave(), base_url="https://api.anthropic.com", max_retries=4)
+        cliente = ia.cliente()
         pendientes = pendientes[: tarea.maximo_por_ejecucion]
         for n in range(0, len(pendientes), tarea.por_peticion):
             lote = pendientes[n:n + tarea.por_peticion]
             mensaje = json.dumps([entradas[i] for i in lote], ensure_ascii=False)
             try:
+                ia.GASTO.comprobar()
                 peticion = dict(
                     model=tarea.modelo,
                     max_tokens=16000,
@@ -168,6 +163,7 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                     respuesta = cliente.beta.messages.create(
                         betas=["server-side-fallback-2026-07-01"], fallbacks="default", **peticion)
                 uso = respuesta.usage
+                ia.GASTO.sumar(tarea.nombre, tarea.modelo, uso)
                 informe["tokens_entrada"] += uso.input_tokens or 0
                 informe["tokens_salida"] += uso.output_tokens or 0
                 informe["tokens_cache"] += getattr(uso, "cache_read_input_tokens", 0) or 0
@@ -190,6 +186,9 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                     cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
                                       "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
                 informe["enviadas"] += len(lote)
+            except ia.TopeDeGasto as e:
+                informe["aviso"] = str(e)
+                break
             except anthropic.AuthenticationError:
                 informe["errores"] += 1
                 informe["aviso"] = "La clave de la IA no es válida."

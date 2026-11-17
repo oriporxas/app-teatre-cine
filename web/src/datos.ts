@@ -40,6 +40,14 @@ export interface Espectaculo {
   comprobado?: string;
   /** Ficha artística tal como la da la fuente: [papel, personas]. */
   equipo?: [string, string][];
+  /** Idioma al que la IA ha traducido la descripción. */
+  traducido?: string;
+  /** Premios que cita la descripción (con la cita literal). */
+  premios?: { es: string; ca: string; cita: string }[];
+  /** Temas de la obra (IA, solo si la descripción los deja claros). */
+  temas?: Record<string, string[]>;
+  /** Magia: trayectoria y premios del artista, buscados por la IA con fuentes comprobadas. */
+  artista_ficha?: { nombre: string; trayectoria?: Record<string, string>; premios: { premio: string; anio?: number | null; fuente: string }[]; fuentes: string[] };
 }
 
 export interface Ciudad {

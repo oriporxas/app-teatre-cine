@@ -16,3 +16,5 @@ moneda = "EUR"                 # código de moneda (ISO 4217)
 idiomas = ["es", "ca"]         # idiomas de la app en esta ciudad (el primero, por defecto)
 fuentes = ["open_data_bcn"]
 activa = true
+cine = true                    # cartelera de cine: cines de la ciudad + TMDB (pipeline/cine)
+noticias = true                # noticias de teatro, cine y magia (ajustes/noticias.toml)

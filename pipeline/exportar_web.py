@@ -150,6 +150,10 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None) -> dict:
             encoding="utf-8")
     fichas = leer_json(config.carpeta_ciudad(ciudad.id) / "espectaculos.json", [])
     items = [i for i in (_item(f) for f in fichas) if i]
+    from . import enriquecer_ia  # traducción, premios citados y temas (IA)
+    enriquecer_ia.aplicar(ciudad, items, informe)
+    from . import fichas_personas  # trayectoria y premios (con fuente) de los magos
+    fichas_personas.aplicar(ciudad, items, informe)
     items.sort(key=lambda i: (i["funciones"][0][0], (i["funciones"][0] + [""])[1]))
     datos = {
         "ciudad": ciudad.ficha(),
@@ -166,4 +170,4 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None) -> dict:
     indice = leer_json(CARPETA_WEB / "ciudades.json", {}) or {}
     indice[ciudad.id] = {**ciudad.ficha(), "actualizado": informe.get("fecha"), "espectaculos": len(items)}
     guardar_json(CARPETA_WEB / "ciudades.json", indice)
-    return {"espectaculos_app": len(items)}
+    return {"espectaculos_app": len(items), **{k: informe[k] for k in ("ia_fichas", "fichas_personas") if k in informe}}

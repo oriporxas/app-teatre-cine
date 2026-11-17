@@ -37,6 +37,38 @@ maximo_por_ejecucion = 200
 
 # 3. Fichas de trayectoria y premios (fase 3; todavía no se usa).
 [fichas_personas]
-activa = false
-modelo = "claude-opus-5-5"
+activa = true
+# Opus da fichas algo más completas (0,42 $ por artista en la prueba del 17/11/2026);
+# Sonnet cuesta la mitad. Cada artista se busca una vez cada 60 días.
+modelo = "claude-sonnet-5-5"
 esfuerzo = "medium"
+maximo_por_ejecucion = 20     # hoy solo magos y magas (búsqueda web: 10 $ cada 1000 búsquedas)
+
+# Freno de gasto: si una ejecución llega a este tope (en dólares), ninguna tarea de IA
+# vuelve a llamar a la IA hasta el día siguiente. Lo pendiente se hace otro día.
+[presupuesto]
+maximo_usd_por_ejecucion = 2.0
+
+# 4. Traducir al castellano las descripciones que la fuente da en catalán (y al revés).
+[traducir]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"
+por_peticion = 5
+maximo_por_ejecucion = 1500
+
+# 5. Leer los horarios de las webs de los cines (la IA convierte la página en sesiones).
+[horarios_cine]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"
+por_peticion = 1
+maximo_por_ejecucion = 60
+
+# 6. Clasificar las noticias (teatro, cine, magia o circo; o nada que ver).
+[noticias]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"
+por_peticion = 30
+maximo_por_ejecucion = 400

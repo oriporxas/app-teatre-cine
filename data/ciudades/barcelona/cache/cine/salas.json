@@ -1,0 +1,405 @@
+{
+  "cines": [
+    {
+      "barrio": null,
+      "direccion": "Av Drassanes 14",
+      "distrito": "Ciutat Vella",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086000452.html",
+      "guia": {
+        "nombre_guia": "Sala de Cinema - Escola Oficial d'Idiomes Barcelona - Drassanes",
+        "web": null
+      },
+      "id": "92086000452",
+      "lat": 41.376851005705056,
+      "lon": 2.17340795601217,
+      "nombre": "Escola Oficial d'Idiomes Barcelona - Drassanes",
+      "nombre_fuente": "Sala de Cinema",
+      "web": null
+    },
+    {
+      "barrio": null,
+      "direccion": "C Canuda 6",
+      "distrito": "Ciutat Vella",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086000771.html",
+      "guia": {
+        "nombre_guia": "Sala de Cinema - Ateneu Barcelonès",
+        "web": null
+      },
+      "id": "92086000771",
+      "lat": 41.38468020422838,
+      "lon": 2.171664472093875,
+      "nombre": "Ateneu Barcelonès",
+      "nombre_fuente": "Sala de Cinema",
+      "web": null
+    },
+    {
+      "barrio": null,
+      "direccion": "Rambla de Prat 16",
+      "distrito": "Gràcia",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086003023.html",
+      "guia": {
+        "nombre_guia": "Mooby Bosque Multicines",
+        "web": "https://www.moobycinemas.com/bosque"
+      },
+      "id": "92086003023",
+      "lat": 41.40139721074222,
+      "lon": 2.151721868976122,
+      "nombre": "Mooby Bosque",
+      "nombre_fuente": "Mooby Bosque Multicines",
+      "web": "https://www.moobycinemas.com/bosque"
+    },
+    {
+      "barrio": null,
+      "direccion": "Passatge de Méndez Vigo 5",
+      "distrito": "Eixample",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086004036.html",
+      "guia": {
+        "nombre_guia": "Sala de Cinema - Institut Italià de Cultura de Barcelona",
+        "web": "https://iicbarcellona.esteri.it/it/"
+      },
+      "id": "92086004036",
+      "lat": 41.393348934470026,
+      "lon": 2.1674562767737857,
+      "nombre": "Institut Italià de Cultura de Barcelona",
+      "nombre_fuente": "Sala de Cinema",
+      "web": "https://iicbarcellona.esteri.it/it/"
+    },
+    {
+      "barrio": null,
+      "direccion": "C Immaculada 25",
+      "distrito": "Sarrià-Sant Gervasi",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086006075.html",
+      "guia": {
+        "nombre_guia": "Sala de Cinema - Escola Pia de Sarrià-Calassanç",
+        "web": null
+      },
+      "id": "92086006075",
+      "lat": 41.40692032299082,
+      "lon": 2.124704428980365,
+      "nombre": "Escola Pia de Sarrià-Calassanç",
+      "nombre_fuente": "Sala de Cinema",
+      "web": null
+    },
+    {
+      "barrio": null,
+      "direccion": "C Portlligat 11",
+      "distrito": "Nou Barris",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086012748.html",
+      "guia": {
+        "nombre_guia": "Sala de Cinema - Fàbrica de Creació Ateneu Popular 9 Barris",
+        "web": "http://www.ateneu9b.net"
+      },
+      "id": "92086012748",
+      "lat": 41.44963594619758,
+      "lon": 2.1789659850098335,
+      "nombre": "Fàbrica de Creació Ateneu Popular 9 Barris",
+      "nombre_fuente": "Sala de Cinema",
+      "web": "http://www.ateneu9b.net"
+    },
+    {
+      "barrio": null,
+      "direccion": "Av Diagonal 647",
+      "distrito": "Les Corts",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086015533.html",
+      "guia": {
+        "nombre_guia": "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona",
+        "web": null
+      },
+      "id": "92086015533",
+      "lat": 41.384899977274,
+      "lon": 2.1152496599636663,
+      "nombre": "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona",
+      "nombre_fuente": "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona",
+      "web": null
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Balmes 422",
+      "distrito": "Sarrià-Sant Gervasi",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99400331613.html",
+      "guia": {
+        "nombre_guia": "Cinema Mooby Balmes",
+        "web": "https://www.moobycinemas.com/balmes"
+      },
+      "id": "99400331613",
+      "lat": 41.407187934740534,
+      "lon": 2.138629902460266,
+      "nombre": "Mooby Balmes",
+      "nombre_fuente": "Cinema Mooby Balmes",
+      "web": "https://www.moobycinemas.com/balmes"
+    },
+    {
+      "barrio": null,
+      "direccion": "G.V. Corts Catalanes 373",
+      "distrito": "Eixample",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99400267342.html",
+      "guia": {
+        "nombre_guia": "Cinemes Mooby Arenas *Arenas de Barcelona",
+        "web": "https://www.moobycinemas.com/arenas"
+      },
+      "id": "99400267342",
+      "lat": 41.376038338441205,
+      "lon": 2.1499752959539173,
+      "nombre": "Mooby Arenas",
+      "nombre_fuente": "Cinemes Mooby Arenas *Arenas de Barcelona",
+      "web": "https://www.moobycinemas.com/arenas"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Potosí 2",
+      "distrito": "Sant Andreu",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_159174943.html",
+      "guia": {
+        "nombre_guia": "Cinema Yelmo *La Maquinista",
+        "web": "https://yelmocines.es/cartelera/barcelona/westfield-la-maquinista"
+      },
+      "id": "159174943",
+      "lat": 41.44277588752411,
+      "lon": 2.200238929630626,
+      "nombre": "Yelmo La Maquinista",
+      "nombre_fuente": "Cinema Yelmo *La Maquinista",
+      "web": "https://yelmocines.es/cartelera/barcelona/westfield-la-maquinista"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer d'Aribau 8",
+      "distrito": "Eixample",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_75990017485.html",
+      "guia": {
+        "nombre_guia": "Cinema Mooby Aribau",
+        "web": "https://www.moobycinemas.com/aribau"
+      },
+      "id": "75990017485",
+      "lat": 41.38630515602415,
+      "lon": 2.162705965424409,
+      "nombre": "Mooby Aribau",
+      "nombre_fuente": "Cinema Mooby Aribau",
+      "web": "https://www.moobycinemas.com/aribau"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Verdi 32",
+      "distrito": "Gràcia",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_75990131879.html",
+      "guia": {
+        "nombre_guia": "Cinemes Verdi",
+        "web": "https://barcelona.cines-verdi.com/"
+      },
+      "id": "75990131879",
+      "lat": 41.40419449687223,
+      "lon": 2.1572305541553853,
+      "nombre": "Cinemes Verdi",
+      "nombre_fuente": "Cinemes Verdi",
+      "web": "https://barcelona.cines-verdi.com/"
+    },
+    {
+      "barrio": null,
+      "direccion": "Avinguda Diagonal 3",
+      "distrito": "Sant Martí",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_1317124759.html",
+      "guia": {
+        "nombre_guia": "Cinesa Diagonal Mar",
+        "web": "http://www.cinesa.es"
+      },
+      "id": "1317124759",
+      "lat": 41.4110058350133,
+      "lon": 2.2185977535691412,
+      "nombre": "Cinesa Diagonal Mar",
+      "nombre_fuente": "Cinesa Diagonal Mar",
+      "web": "http://www.cinesa.es"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Girona 175",
+      "distrito": "Eixample",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_75990332131.html",
+      "guia": {
+        "nombre_guia": "Cinemes Girona",
+        "web": "http://www.cinemesgirona.cat"
+      },
+      "id": "75990332131",
+      "lat": 41.39962729390151,
+      "lon": 2.1646297912750754,
+      "nombre": "Cinemes Girona",
+      "nombre_fuente": "Cinemes Girona",
+      "web": "http://www.cinemesgirona.cat"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Santa Fe de Nou Mèxic 18",
+      "distrito": "Sarrià-Sant Gervasi",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99180125327.html",
+      "guia": {
+        "nombre_guia": "Cinesa Diagonal *C. Lúdic Diagonal",
+        "web": "http://www.cinesa.es"
+      },
+      "id": "99180125327",
+      "lat": 41.39430009944098,
+      "lon": 2.1373766143053032,
+      "nombre": "Cinesa Diagonal",
+      "nombre_fuente": "Cinesa Diagonal *C. Lúdic Diagonal",
+      "web": "http://www.cinesa.es"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Torrijos 49",
+      "distrito": "Gràcia",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_75990349641.html",
+      "guia": {
+        "nombre_guia": "Cinemes Verdi Park",
+        "web": "https://barcelona.cines-verdi.com/"
+      },
+      "id": "75990349641",
+      "lat": 41.40446418648502,
+      "lon": 2.157681863312379,
+      "nombre": "Verdi Park",
+      "nombre_fuente": "Cinemes Verdi Park",
+      "web": "https://barcelona.cines-verdi.com/"
+    },
+    {
+      "barrio": null,
+      "direccion": "C Moià 8",
+      "distrito": "Sarrià-Sant Gervasi",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99400025390.html",
+      "guia": {
+        "nombre_guia": "Sala de Projecció 35mm - Institut Français de Barcelone",
+        "web": "http://www.institutfrancais.es/barcelona"
+      },
+      "id": "99400025390",
+      "lat": 41.39528332259959,
+      "lon": 2.151795435612186,
+      "nombre": "Institut Français de Barcelone",
+      "nombre_fuente": "Sala de Projecció 35mm",
+      "web": "http://www.institutfrancais.es/barcelona"
+    },
+    {
+      "barrio": null,
+      "direccion": "Ronda del General Mitre 34",
+      "distrito": "Sarrià-Sant Gervasi",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99217141611.html",
+      "guia": {
+        "nombre_guia": "Mooby  Gran Sarrià Multicines",
+        "web": "https://www.moobycinemas.com/sarria"
+      },
+      "id": "99217141611",
+      "lat": 41.393863887739755,
+      "lon": 2.1332127747413,
+      "nombre": "Mooby Gran Sarrià",
+      "nombre_fuente": "Mooby  Gran Sarrià Multicines",
+      "web": "https://www.moobycinemas.com/sarria"
+    },
+    {
+      "barrio": null,
+      "direccion": "Plaça de Salvador Seguí 1",
+      "distrito": "Ciutat Vella",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_92086011802.html",
+      "guia": {
+        "nombre_guia": "Filmoteca de Catalunya",
+        "web": "http://www.filmoteca.cat"
+      },
+      "id": "92086011802",
+      "lat": 41.37860387331031,
+      "lon": 2.171014700660908,
+      "nombre": "Filmoteca de Catalunya",
+      "nombre_fuente": "Filmoteca de Catalunya",
+      "web": "http://www.filmoteca.cat"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Floridablanca 135",
+      "distrito": "Eixample",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_2086161222.html",
+      "guia": {
+        "nombre_guia": "Cinemes Renoir *Floridablanca",
+        "web": "http://www.cinesrenoir.com"
+      },
+      "id": "2086161222",
+      "lat": 41.3817111645999,
+      "lon": 2.162573907772066,
+      "nombre": "Renoir Floridablanca",
+      "nombre_fuente": "Cinemes Renoir *Floridablanca",
+      "web": "http://www.cinesrenoir.com"
+    },
+    {
+      "barrio": null,
+      "direccion": "Avinguda de Rio de Janeiro 42",
+      "distrito": "Nou Barris",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_1257094507.html",
+      "guia": {
+        "nombre_guia": "Cinesa SOM Multiespai",
+        "web": "https://www.cinesa.es/Cines/SOM-Multiespai"
+      },
+      "id": "1257094507",
+      "lat": 41.43512473027454,
+      "lon": 2.1810417657639785,
+      "nombre": "Cinesa SOM Multiespai",
+      "nombre_fuente": "Cinesa SOM Multiespai",
+      "web": "https://www.cinesa.es/Cines/SOM-Multiespai"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer de Béjar 53",
+      "distrito": "Sants-Montjuïc",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99400589817.html",
+      "guia": {
+        "nombre_guia": "Zumzeig Cinecooperativa",
+        "web": "http://zumzeigcine.coop"
+      },
+      "id": "99400589817",
+      "lat": 41.3773796666311,
+      "lon": 2.145083420619182,
+      "nombre": "Zumzeig Cinecooperativa",
+      "nombre_fuente": "Zumzeig Cinecooperativa",
+      "web": "http://zumzeigcine.coop"
+    },
+    {
+      "barrio": null,
+      "direccion": "Pl Tibidabo 3",
+      "distrito": "Sarrià-Sant Gervasi",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99400187001.html",
+      "guia": {
+        "nombre_guia": "Cinema Dididado - Parc d'Atraccions del Tibidabo",
+        "web": "http://www.tibidabo.cat"
+      },
+      "id": "99400187001",
+      "lat": 41.42179367685009,
+      "lon": 2.1197957867323467,
+      "nombre": "Cinema Dididado",
+      "nombre_fuente": "Cinema Dididado",
+      "web": "http://www.tibidabo.cat"
+    },
+    {
+      "barrio": null,
+      "direccion": "Carrer dels Carders 12",
+      "distrito": "Ciutat Vella",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_99400504551.html",
+      "guia": {
+        "nombre_guia": "Recursos d'Animació Intercultural RAI",
+        "web": "https://rai.barcelona"
+      },
+      "id": "99400504551",
+      "lat": 41.38619023824582,
+      "lon": 2.1800919458135435,
+      "nombre": "Recursos d'Animació Intercultural RAI",
+      "nombre_fuente": "Recursos d'Animació Intercultural RAI",
+      "web": "https://rai.barcelona"
+    },
+    {
+      "barrio": null,
+      "direccion": "Avinguda Diagonal 208",
+      "distrito": "Sant Martí",
+      "fuente": "https://guia.barcelona.cat/ca/detall/cinema_95122123236.html",
+      "guia": {
+        "nombre_guia": "Mooby Glòries Multicines",
+        "web": "https://www.moobycinemas.com/glories"
+      },
+      "id": "95122123236",
+      "lat": 41.40497574863421,
+      "lon": 2.1925213552739606,
+      "nombre": "Mooby Glòries",
+      "nombre_fuente": "Mooby Glòries Multicines",
+      "web": "https://www.moobycinemas.com/glories"
+    }
+  ],
+  "fecha": "2026-11-10"
+}

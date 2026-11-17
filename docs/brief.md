@@ -21,6 +21,12 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
 - Qué sale en la app por ahora (Uri, 8 de noviembre, al probar la app): solo teatro, magia y circo, y los eventos de esas disciplinas (talleres, festivales, charlas de teatro, magia o circo). Fuera, por ahora, la danza, los conciertos y los talleres o actividades de otras materias. Se irán añadiendo más adelante. Los musicales también estaban fuera; desde el 9 de noviembre salen dentro de teatro con su etiqueta (ver «Género de las obras»). Para volver a dejarlos fuera basta con un cambio de una línea (`MUSICALES_EN_TEATRO` en `pipeline/exportar_web.py`).
 - Género de las obras (Uri, 9 de noviembre): cada obra de teatro enseña su género en la tarjeta (comedia, drama, musical, monólogo, títeres, improvisación, clown, cabaret, suspense, tragicomedia, tragedia, teatro de objetos, teatro físico, lectura dramatizada, teatro documental), para saber de un vistazo si interesa sin entrar en la ficha, y en Teatro se puede filtrar por género. Solo cuando es seguro: cuando la descripción lo dice (de forma explícita, «és una comèdia», «aquest musical», «Gènere: Comèdia», o en el título). Cuando se active la IA, también cuando el argumento no deje ninguna duda. Si hay dudas, no se pone.
 - Planes (Uri, 9 de noviembre): se pueden guardar itinerarios con las funciones que alguien quiere ver, qué día, a qué hora y dónde, para preparar un fin de semana o unas vacaciones en otra ciudad. En la ficha, cada función tiene un «+» para añadirla a un plan. Cada plan se ve por días, con la hora, la sala, la dirección, «Cómo llegar», la ruta del día entre salas y un aviso si dos funciones coinciden. Se puede pasar al calendario del móvil y compartir. Se guardan en el móvil, como los favoritos, y cada función guarda su ciudad y su zona horaria, para que un plan pueda mezclar ciudades cuando haya más.
+- Primer borrador completo (Uri, 14 de noviembre, con 13,24 $ de crédito para la IA): activar la IA, añadir ya toda la cartelera de cine, noticias del sector separadas por teatro, cine y magia, carteles bien visibles, y un diseño negro, rojo y blanco «visual, elegante, práctico y artístico». Hecho el 17 de noviembre:
+  - **Cine (la fase 6 se adelanta):** cartelera de los cines de Barcelona con horarios leídos de sus webs (solo las que lo permiten), más las proyecciones de la agenda municipal. Cada película dice en qué cines y a qué horas se proyecta, en qué versión (VOSE, VOSC, VO, catalán, castellano), y lleva cartel, sinopsis, reparto, dirección, tráiler y premios (TMDB y Wikidata). Búsqueda por cine, cercanía, género, versión, película, actor o director. Detalle en `docs/fuentes/cine.md`.
+  - **Noticias:** medios con canal público (betevé, Ara, La Vanguardia, El País, Espinof, Cinemanía). La IA decide el tema y escribe un resumen de una frase; la noticia completa se lee en el medio.
+  - **IA activada:** clasifica (Sonnet; lo dudoso, Opus), traduce las descripciones al castellano, saca los premios que cita cada descripción (solo si la cita está en el texto) y los temas de cada obra, y clasifica las noticias (Haiku). Freno de gasto por ejecución en `ajustes/ia.toml`; el gasto queda en `data/gasto_ia.json`.
+  - **Nuevas pantallas:** Inicio («Qué ver hoy»: empieza pronto, hoy en escena, hoy en el cine, estrenos, magia, últimos días, noticias), Cine, Noticias, buscador único (obras, películas, personas, salas y cines) y fichas de persona que unen teatro y cine.
+  - **Ocultar géneros:** en «Más filtros», los géneros de teatro que no interesan dejan de salir (se guarda en el móvil).
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios
@@ -112,7 +118,7 @@ Reglas: dar preferencia a los datos abiertos, respetar las condiciones de uso de
 3. Fichas de personas y premios hechas con IA y con fuentes. Aquí se mide el coste real.
 4. Funciones extra: mapa, favoritos, alertas y críticas. Hecho (8/11/2026): mapa de salas propio, dibujado con los distritos de los datos abiertos del Ayuntamiento (sin servicios de mapas de terceros), con los mismos filtros de la cartelera; favoritos guardados en el propio móvil y, desde el 9/11/2026, planes (itinerarios) por días. Pendiente: alertas y favoritos en la nube (necesitan cuentas y un servidor) y críticas.
 5. Más fuentes: webs de las salas, enlaces de compra concretos, salas que falten, festivales y eventos profesionales.
-6. Cine.
+6. Cine. Adelantado y hecho el 17/11/2026 (ver «Decisiones tomadas»). Pendiente: los cines cuya web no permite leer horarios (Cinesa, Girona…), con un proveedor de horarios o acuerdos.
 
 ## Visión a largo plazo
 Escrita el 8 de noviembre de 2026 para que no se pierda de vista en ninguna sesión. **No cambia el plan de fases**: la prioridad sigue siendo Barcelona.
@@ -161,6 +167,7 @@ Los planes (itinerarios) tienen que poder compartirse con los amigos por cualqui
 - Si alguna decisión ya tomada choca con esta visión, se avisa a Uri y se le explica sin tecnicismos.
 
 ## Pendiente de Uri
+- Al volver de GitHub (17/11/2026): aceptar el pull request; crear en GitHub los secretos `ANTHROPIC_API_KEY` (clave de la IA) y `TMDB_TOKEN` (clave de TMDB) para que la actualización diaria use la IA y el cine completo; elegir dónde publicar la app (Claude propone opciones gratuitas).
 - ~~Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).~~ Hecho el 8/11/2026: clave creada y prueba hecha.
 - Aprobar qué modelos usa la IA (propuesta: Sonnet clasifica y Opus revisa lo dudoso; ver `docs/pruebas/2026-11-08-prueba-modelos.md`).
 - Presupuesto mensual y saldo en la consola de Anthropic: la propuesta cuesta unos 4,6 $ la primera vez y como mucho 12 $ al mes en Barcelona.

@@ -30,6 +30,8 @@ class Ciudad:
     idiomas: tuple[str, ...]
     fuentes: tuple[str, ...]
     activa: bool = True
+    cine: bool = False       # cartelera de cine (pipeline/cine)
+    noticias: bool = False   # noticias de teatro, cine y magia (pipeline/noticias.py)
 
     def hoy(self) -> dt.date:
         """El día que es ahora en esa ciudad (no en el servidor)."""
@@ -64,7 +66,7 @@ def ciudades() -> dict[str, Ciudad]:
         ZoneInfo(d["zona_horaria"])  # falla pronto si la zona horaria está mal escrita
         res[id_] = Ciudad(id=id_, nombre=d["nombre"], pais=d["pais"], zona_horaria=d["zona_horaria"],
                           moneda=d["moneda"], idiomas=tuple(d["idiomas"]), fuentes=tuple(d["fuentes"]),
-                          activa=d.get("activa", True))
+                          activa=d.get("activa", True), cine=d.get("cine", False), noticias=d.get("noticias", False))
     return res
 
 
@@ -83,6 +85,8 @@ def tareas_ia() -> dict[str, TareaIA]:
     res = {}
     conocidos = {"modelo", "activa", "esfuerzo", "por_peticion", "maximo_por_ejecucion", "umbral_confianza"}
     for nombre, d in _leer("ia.toml").items():
+        if "modelo" not in d:
+            continue  # secciones que no son tareas (p. ej. [presupuesto])
         d = dict(d)
         for clave in list(conocidos | set(d)):
             var = f"IA_{nombre}_{clave}".upper()

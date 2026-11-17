@@ -1,7 +1,7 @@
 import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, type FormEvent, type RefObject } from 'react';
 import { cargarCartelera, type Cartelera, type Espectaculo } from './datos';
 import {
-  FILTROS_INICIALES, FUNCIONES, GENEROS, MESES_CALENDARIO, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
+  FILTROS_INICIALES, FUNCIONES, GENEROS, MESES_CALENDARIO, guardarOcultos, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
   distanciaA, fmtCorto, fmtDia, fmtDistancia, fmtRango, funcionesEnRango, hoyEn, pasa, precioTxt, publicoTxt, rango,
   sumaDias, tipoTxt,
   type ClaveFecha, type Filtros,
@@ -13,25 +13,39 @@ import { MapaSalas, agruparSalas } from './Mapa';
 import {
   claveItem, descargar, enlaceRuta, itemDe, planIcs, porDias, solapes, usePlanes, type ItemPlan, type Plan, type Planes,
 } from './planes';
+import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCine } from './cine';
+import { Cartelito, FichaCine, FichaPelicula, VistaCine, VistaMapaCine, enlacePeli } from './Cine';
+import { VistaNoticias, cargarNoticias, type Noticia } from './Noticias';
+import { VistaInicio } from './Inicio';
+import { VistaBuscar, VistaPersona, indicePersonas } from './Buscar';
 
 const POR_PAGINA = 40;
 
 // --- Rutas: la dirección dice qué pantalla se ve, así funciona el botón «atrás» del móvil.
 // Solo letras, números y guiones (#mapa, #ficha-open-data-bcn-994…), para que el enlace
 // funcione en cualquier sitio donde se publique la app.
-type Ruta = { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
-  | { vista: 'planes' } | { vista: 'plan'; id: string };
+type Ruta = { vista: 'inicio' } | { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
+  | { vista: 'planes' } | { vista: 'plan'; id: string } | { vista: 'cine' } | { vista: 'peli'; id: string } | { vista: 'sala'; id: string }
+  | { vista: 'mapa-cine' } | { vista: 'noticias' } | { vista: 'buscar' } | { vista: 'persona'; id: string };
 
 const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function leerRuta(): Ruta {
   const h = window.location.hash.replace(/^#\/?/, '');
   if (h.startsWith('ficha-')) return { vista: 'ficha', clave: h.slice(6) };
+  if (h.startsWith('peli-')) return { vista: 'peli', id: h.slice(5) };
+  if (h.startsWith('sala-')) return { vista: 'sala', id: h.slice(5) };
+  if (h.startsWith('persona-')) return { vista: 'persona', id: h.slice(8) };
+  if (h === 'cartelera') return { vista: 'cartelera' };
+  if (h === 'cine') return { vista: 'cine' };
+  if (h === 'mapa-cine') return { vista: 'mapa-cine' };
+  if (h === 'noticias') return { vista: 'noticias' };
+  if (h === 'buscar') return { vista: 'buscar' };
   if (h === 'mapa') return { vista: 'mapa' };
   if (h === 'favoritos') return { vista: 'favoritos' };
   if (h === 'planes') return { vista: 'planes' };
   if (h.startsWith('plan-')) return { vista: 'plan', id: h.slice(5) };
-  return { vista: 'cartelera' };
+  return { vista: 'inicio' };
 }
 
 const enlaceFicha = (id: string) => `#ficha-${claveFicha(id)}`;
@@ -44,6 +58,13 @@ export default function App() {
   const [filtros, setFiltros] = useState<Filtros>(FILTROS_INICIALES);
   const [hoja, setHoja] = useState<null | 'filtros' | 'calendario'>(null);
   const [limite, setLimite] = useState(POR_PAGINA);
+  const [cine, setCine] = useState<CarteleraCine | null>(null);
+  const [errorCine, setErrorCine] = useState(false);
+  const [noticias, setNoticias] = useState<Noticia[] | null>(null);
+  const [errorNoticias, setErrorNoticias] = useState(false);
+  const [filtrosCine, setFiltrosCine] = useState<FiltrosCine>(FILTROS_CINE);
+  const [busqueda, setBusqueda] = useState('');
+  const [reloj, setReloj] = useState(0);
   const navegado = useRef(false);
   const scrollLista = useRef(0);
   const t = TEXTOS[lang];
@@ -59,6 +80,11 @@ export default function App() {
 
   useEffect(() => {
     cargarCartelera('barcelona').then(setCartelera).catch(() => setError(true));
+    cargarCine('barcelona').then(setCine).catch(() => setErrorCine(true));
+    cargarNoticias('barcelona').then(setNoticias).catch(() => setErrorNoticias(true));
+    // La hora avanza: «empieza pronto» y las sesiones ya empezadas se recalculan cada minuto.
+    const id = window.setInterval(() => setReloj((n) => n + 1), 60000);
+    return () => window.clearInterval(id);
   }, []);
 
   useEffect(() => {
@@ -82,12 +108,37 @@ export default function App() {
     else window.location.hash = '#cartelera';
   }, []);
 
-  const hoy = cartelera ? hoyEn(cartelera.ciudad.zona_horaria) : '';
+  const zona = cartelera?.ciudad.zona_horaria || 'Europe/Madrid';
+  const hoy = hoyEn(zona);
+  const ahora = useMemo(() => horaAhora(zona), [zona, reloj]); // eslint-disable-line react-hooks/exhaustive-deps
   const lista = cartelera?.espectaculos ?? [];
   const actual = ruta.vista === 'ficha' ? lista.find((e) => claveFicha(e.id) === ruta.clave) : undefined;
+  const peli = ruta.vista === 'peli' ? cine?.peliculas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}`) : undefined;
+  const salaCine = ruta.vista === 'sala' ? cine?.cines.find((c) => c.id.replace(/[^A-Za-z0-9-]+/g, '-') === ruta.id) : undefined;
+  const personas = useMemo(() => indicePersonas(lista, cine, lang, t), [lista, cine, lang, t]);
+  const cambiarCine = useCallback((c: Partial<FiltrosCine>) => setFiltrosCine((f) => ({ ...f, ...c })), []);
+  const idsPelis = useMemo(() => new Set((cine?.peliculas || []).map((p) => p.id)), [cine]);
 
   return (
     <div className="app">
+      {ruta.vista === 'inicio' ? (
+        <VistaInicio t={t} lang={lang} setLang={setLang} cartelera={cartelera} cine={cine} noticias={noticias} hoy={hoy} ahora={ahora}
+          irABuscar={() => { window.location.hash = '#buscar'; }} />
+      ) : null}
+      {ruta.vista === 'cine' ? (
+        <VistaCine t={t} lang={lang} datos={cine} error={errorCine} hoy={hoy} ahora={ahora} favs={favs} ubic={ubic}
+          filtros={filtrosCine} cambiar={cambiarCine} />
+      ) : null}
+      {ruta.vista === 'peli' && peli && cine ? (
+        <FichaPelicula t={t} lang={lang} p={peli} datos={cine} hoy={hoy} ahora={ahora} volver={volver} favs={favs} planes={planes}
+          zona={zona} ciudad="barcelona" />
+      ) : null}
+      {ruta.vista === 'peli' && cine && !peli ? <main className="pantalla"><p className="aviso">{t.sinResultados}</p></main> : null}
+      {ruta.vista === 'sala' && salaCine && cine ? <FichaCine t={t} lang={lang} c={salaCine} datos={cine} hoy={hoy} ahora={ahora} volver={volver} /> : null}
+      {ruta.vista === 'mapa-cine' ? <VistaMapaCine t={t} datos={cine} hoy={hoy} ubic={ubic} /> : null}
+      {ruta.vista === 'noticias' ? <VistaNoticias t={t} lang={lang} noticias={noticias} error={errorNoticias} /> : null}
+      {ruta.vista === 'buscar' ? <VistaBuscar t={t} lang={lang} q={busqueda} setQ={setBusqueda} lista={lista} cine={cine} personas={personas} hoy={hoy} /> : null}
+      {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id)} volver={volver} /> : null}
       {ruta.vista === 'cartelera' || (ruta.vista === 'ficha' && !actual) ? (
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
@@ -103,26 +154,30 @@ export default function App() {
         <VistaMapa t={t} cartelera={cartelera} hoy={hoy} filtros={filtros} cambiar={cambiar}
           abrirCalendario={() => setHoja('calendario')} favs={favs} ubic={ubic} />
       ) : null}
-      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lista={lista} hoy={hoy} favs={favs} /> : null}
+      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} planes={planes} /> : null}
       {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} /> : null}
-      {ruta.vista === 'plan' ? <VistaPlan t={t} lista={lista} hoy={hoy} planes={planes} id={ruta.id} /> : null}
+      {ruta.vista === 'plan' ? <VistaPlan t={t} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
-        <a href="#cartelera" aria-current={ruta.vista === 'cartelera' || ruta.vista === 'ficha' ? 'page' : undefined}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M4 6h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4z" /><path d="M10 6v12" strokeDasharray="2 2" /></svg>
-          {t.navCartelera}
+        <a href="#inicio" aria-current={ruta.vista === 'inicio' || ruta.vista === 'buscar' || ruta.vista === 'persona' ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M4 11l8-7 8 7v9H4z" /><path d="M10 20v-5h4v5" /></svg>
+          {t.navInicio}
         </a>
-        <a href="#mapa" aria-current={ruta.vista === 'mapa' ? 'page' : undefined}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z" /><circle cx="12" cy="10" r="2" /></svg>
-          {t.navMapa}
+        <a href="#cartelera" aria-current={['cartelera', 'ficha', 'mapa'].includes(ruta.vista) ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M3 4h18v3c-2.5 1.6-5.6 2.5-9 2.5S5.5 8.6 3 7z" /><path d="M3 7c1 4.5 1.6 9 1.6 13H3zM21 7c-1 4.5-1.6 9-1.6 13H21z" /></svg>
+          {t.navEscena}
         </a>
-        <a href="#favoritos" aria-current={ruta.vista === 'favoritos' ? 'page' : undefined}>
+        <a href="#cine" aria-current={['cine', 'peli', 'sala', 'mapa-cine'].includes(ruta.vista) ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><rect x="3" y="6" width="18" height="13" rx="2" /><path d="M3 10h18M7 6l2 4M12 6l2 4M17 6l2 4" /></svg>
+          {t.navCine}
+        </a>
+        <a href="#noticias" aria-current={ruta.vista === 'noticias' ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M5 5h11v14H6a1 1 0 0 1-1-1z" /><path d="M16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12h5M8 15h3" /></svg>
+          {t.navNoticias}
+        </a>
+        <a href="#favoritos" aria-current={['favoritos', 'planes', 'plan'].includes(ruta.vista) ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
-          {t.navFavoritos}
-        </a>
-        <a href="#planes" aria-current={ruta.vista === 'planes' || ruta.vista === 'plan' ? 'page' : undefined}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="5" width="16" height="15" rx="2" /><path d="M4 10h16M9 3v4M15 3v4M9 15l2 2 4-4" /></svg>
-          {t.navPlanes}
+          {t.navGuardado}
         </a>
       </nav>
 
@@ -166,7 +221,7 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
             <span className="sobretitulo">
               {cartelera ? `${cartelera.ciudad.nombre} · ${t.actualizado} ${fmtDia(cartelera.actualizado, t).split(' ').slice(1).join(' ')}` : 'Barcelona'}
             </span>
-            <h1>{t.cartelera}</h1>
+            <h1>{t.escena}</h1>
           </div>
           <div className="idiomas" role="group" aria-label="Idioma">
             {(['es', 'ca'] as Idioma[]).map((l) => (
@@ -398,7 +453,7 @@ function Tarjeta({ e, t, desde, hasta, alAbrir, guardado, dist }: {
 
 // --- Ficha ------------------------------------------------------------------------
 
-function Corazon({ lleno }: { lleno?: boolean }) {
+export function Corazon({ lleno }: { lleno?: boolean }) {
   return (
     <svg className={lleno ? 'corazon lleno' : 'corazon'} aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"
       fill={lleno ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinejoin="round">
@@ -418,7 +473,8 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
   const fs = e.funciones.filter(([f]) => f >= hoy);
   const idiomaDesc = e.descripcion?.[lang] ? lang : Object.keys(e.descripcion || {})[0];
   const desc = idiomaDesc ? e.descripcion?.[idiomaDesc] : '';
-  const notaDesc = idiomaDesc && idiomaDesc !== lang ? t.textoOriginal[idiomaDesc] : '';
+  const notaDesc = idiomaDesc && idiomaDesc !== lang ? t.textoOriginal[idiomaDesc]
+    : e.traducido && e.traducido === idiomaDesc ? (idiomaDesc === 'es' ? t.traducidoIA : t.traducidoIACa) : '';
   const direccion = [e.direccion, e.barrio].filter(Boolean).join(' · ');
   // Solo los datos que se conocen: lo no indicado no aparece.
   const datos = [
@@ -515,6 +571,25 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
             <h3>{t.descripcion}</h3>
             <p className="descripcion" lang={idiomaDesc}>{desc}</p>
             {notaDesc ? <span className="nota">{notaDesc}</span> : null}
+            {e.temas?.[lang]?.length ? (
+              <span className="etiquetas temas" aria-label={t.temasObra}>
+                {e.temas[lang].map((x) => <span key={x} className="etiqueta suave">#{x}</span>)}
+              </span>
+            ) : null}
+          </section>
+        ) : null}
+
+        {e.premios?.length ? (
+          <section className="bloque">
+            <h3>{t.premiosCitados}</h3>
+            <ul className="premios">
+              {e.premios.map((x) => (
+                <li key={x.cita} className="premio ganado">
+                  <span className="premio-icono" aria-hidden="true">★</span>
+                  <span>{lang === 'ca' ? x.ca : x.es}<span className="premio-cita">{t.citaTxt} «{x.cita}»</span></span>
+                </li>
+              ))}
+            </ul>
           </section>
         ) : null}
 
@@ -532,10 +607,26 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
           </section>
         ) : null}
 
-        {e.tipo === 'magia' ? (
-          <section className="caja discontinua">
-            <h3 className="caja-titulo">{t.magoTit}</h3>
-            <p className="texto-suave">{t.magoTxt}</p>
+        {e.tipo === 'magia' && e.artista_ficha ? (
+          <section className="caja mago">
+            <h3>{t.magoTit}</h3>
+            <span className="caja-titulo">{e.artista_ficha.nombre}</span>
+            {e.artista_ficha.trayectoria?.[lang] ? <p className="descripcion">{e.artista_ficha.trayectoria[lang]}</p> : null}
+            {e.artista_ficha.premios.length ? (
+              <ul className="premios">
+                {e.artista_ficha.premios.map((x) => (
+                  <li key={`${x.premio}-${x.anio}`} className="premio ganado">
+                    <span className="premio-icono" aria-hidden="true">★</span>
+                    <span>{x.premio}{x.anio ? ` · ${x.anio}` : ''} <a className="fuente-mini" href={x.fuente} target="_blank" rel="noopener noreferrer">{t.fuente}</a></span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+            {e.artista_ficha.fuentes.length ? (
+              <span className="nota">{t.fuente}: {e.artista_ficha.fuentes.map((u, i) => (
+                <a key={u} href={u} target="_blank" rel="noopener noreferrer">{i ? ', ' : ''}{(u.match(/^https?:\/\/([^/]+)/)?.[1] || u).replace(/^www\./, '')}</a>
+              ))}. {t.magoNota}</span>
+            ) : null}
           </section>
         ) : null}
 
@@ -743,6 +834,26 @@ function HojaFiltros({ t, lista, hoy, filtros, cambiar, cerrar, ubic }: {
           {opciones('idioma', ['catalan', 'castellano', 'ingles', 'cualquiera'], t.idiomas)}
           <span className="nota">{t.notaIdioma}</span>
         </div>
+
+        <div className="grupo" role="group" aria-labelledby="titulo-ocultos">
+          <h3 id="titulo-ocultos">{t.ocultarGeneros}</h3>
+          <div className="opciones">
+            {GENEROS.filter((g) => lista.some((e) => e.generos?.includes(g))).map((g) => {
+              const oculto = filtros.ocultos.includes(g);
+              return (
+                <button key={g} type="button" className="chip pequeno" aria-pressed={oculto}
+                  onClick={() => {
+                    const v = oculto ? filtros.ocultos.filter((x) => x !== g) : [...filtros.ocultos, g];
+                    guardarOcultos(v);
+                    cambiar({ ocultos: v });
+                  }}>
+                  {oculto ? '✕ ' : ''}{t.generos[g]}
+                </button>
+              );
+            })}
+          </div>
+          <span className="nota">{t.ocultarGenerosNota}</span>
+        </div>
         </div>
 
         <div className="hoja-botones">
@@ -848,23 +959,47 @@ function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs,
 
 // --- Favoritos ----------------------------------------------------------------------------
 
-function VistaFavoritos({ t, lista, hoy, favs }: { t: Textos; lista: Espectaculo[]; hoy: string; favs: Favoritos }) {
+function VistaFavoritos({ t, lang, lista, cine, hoy, favs, planes }: {
+  t: Textos; lang: Idioma; lista: Espectaculo[]; cine: CarteleraCine | null; hoy: string; favs: Favoritos; planes: Planes;
+}) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const guardados = lista.filter((e) => favs.es(e.id) && e.funciones.some(([d]) => d >= hoy))
     .sort((a, b) => (a.funciones.find(([d]) => d >= hoy)?.[0] ?? '').localeCompare(b.funciones.find(([d]) => d >= hoy)?.[0] ?? ''));
-  const fuera = lista.length ? favs.ids.length - guardados.length : 0;
+  const pelis = (cine?.peliculas || []).filter((p) => favs.es(p.id));
+  const fuera = lista.length && cine ? favs.ids.length - guardados.length - pelis.length : 0;
   return (
     <main className="pantalla">
       <header className="cabecera">
         <div className="titulo">
-          <span className="sobretitulo">{t.resultados(guardados.length)}</span>
-          <h1>{t.favTit}</h1>
+          <span className="sobretitulo">{t.favTit}</span>
+          <h1>{t.guardadoTit}</h1>
         </div>
       </header>
       <div className="lista">
-        {guardados.length === 0 ? <p className="aviso">{t.favVacio}</p> : null}
+        <section className="bloque">
+          <div className="fila-cabecera sin-padding">
+            <h2 className="seccion-titulo">{t.planesTit}</h2>
+            <a className="ver-todo" href="#planes">{t.verTodo}</a>
+          </div>
+          {planes.planes.length === 0 ? <p className="texto-suave">{t.planesVacio}</p> : null}
+          {planes.planes.slice(0, 3).map((pl) => (
+            <a key={pl.id} className="tarjeta plan-tarjeta" href={`#plan-${pl.id}`}>
+              <span className="tarjeta-nombre">{pl.nombre}</span>
+              <span className="tarjeta-lugar">{[t.planFunciones(pl.items.length), rangoPlan(pl, t)].filter(Boolean).join(' · ')}</span>
+            </a>
+          ))}
+        </section>
+        <h2 className="seccion-titulo">{t.favObras}</h2>
+        {guardados.length === 0 && pelis.length === 0 ? <p className="aviso">{t.favVacio}</p> : null}
         {guardados.map((e) => (
           <Tarjeta key={e.id} e={e} t={t} desde={hoy} hasta="9999-12-31" alAbrir={() => {}} guardado />
+        ))}
+        {pelis.length ? <h2 className="seccion-titulo">{t.favPelis}</h2> : null}
+        {pelis.map((p) => (
+          <a key={p.id} className="fila-resultado" href={enlacePeli(p.id)}>
+            <Cartelito src={p.cartel} alt={p.titulo} clase="mini-cartel" />
+            <span><span className="caja-titulo">{(lang === 'ca' && p.titulo_ca) || p.titulo}</span><span className="texto-suave">{t.sesiones(p.sesiones.filter((s) => s[1] >= hoy).length)}</span></span>
+          </a>
         ))}
         {fuera > 0 ? <p className="nota">{t.favFuera(fuera)}</p> : null}
         <p className="nota">{t.favNota}</p>
@@ -914,7 +1049,7 @@ function FormNuevoPlan({ t, alCrear, boton, inicial = '' }: {
 }
 
 // Hoja para elegir a qué plan va una función (o crear uno nuevo).
-function HojaPlan({ t, item, planes, cerrar, listo }: {
+export function HojaPlan({ t, item, planes, cerrar, listo }: {
   t: Textos; item: ItemPlan; planes: Planes; cerrar: () => void; listo: (planId: string, nombre: string) => void;
 }) {
   const primero = useRef<HTMLButtonElement>(null);
@@ -983,12 +1118,13 @@ function VistaPlanes({ t, planes }: { t: Textos; planes: Planes }) {
   );
 }
 
-function VistaPlan({ t, lista, hoy, planes, id }: { t: Textos; lista: Espectaculo[]; hoy: string; planes: Planes; id: string }) {
+function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
   const [editando, setEditando] = useState(false);
   const [borrando, setBorrando] = useState(false);
   const [copiado, setCopiado] = useState(false);
-  const enCartel = useMemo(() => new Set(lista.map((e) => e.id)), [lista]);
+  const enCartel = useMemo(() => new Set([...lista.map((e) => e.id), ...idsPelis]), [lista, idsPelis]);
+  const enlaceItem = (id: string) => (idsPelis.has(id) ? enlacePeli(id) : enlaceFicha(id));
   const plan = planes.planes.find((p) => p.id === id);
   const barra = (
     <div className="ficha-barra">
@@ -1001,7 +1137,7 @@ function VistaPlan({ t, lista, hoy, planes, id }: { t: Textos; lista: Espectacul
   if (!plan) return <main className="pantalla">{barra}<div className="ficha"><p className="aviso">{t.planesVacio}</p></div></main>;
 
   const choques = solapes(plan.items);
-  const enlace = (i: ItemPlan) => `${window.location.origin}${window.location.pathname}${enlaceFicha(i.id)}`;
+  const enlace = (i: ItemPlan) => `${window.location.origin}${window.location.pathname}${enlaceItem(i.id)}`;
   const compartir = async () => {
     const texto = planTexto(plan, t);
     if (navigator.share) {
@@ -1037,7 +1173,7 @@ function VistaPlan({ t, lista, hoy, planes, id }: { t: Textos; lista: Espectacul
                   <div key={k} className="plan-item">
                     <span className="plan-hora">{i.hora || '—'}</span>
                     <span className="plan-info">
-                      {enCartel.has(i.id) ? <a className="caja-titulo" href={enlaceFicha(i.id)}>{i.nombre}</a> : <span className="caja-titulo">{i.nombre}</span>}
+                      {enCartel.has(i.id) ? <a className="caja-titulo" href={enlaceItem(i.id)}>{i.nombre}</a> : <span className="caja-titulo">{i.nombre}</span>}
                       {!i.hora ? <span className="texto-suave">{t.planSinHora}</span> : null}
                       {lugar ? <span className="texto-suave">{lugar}</span> : null}
                       {choque ? <span className="plan-choque">{t.planSolape(choque)}</span> : null}

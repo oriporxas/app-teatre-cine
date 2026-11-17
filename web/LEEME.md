@@ -13,6 +13,12 @@ ciudad en `public/datos/<ciudad>.json` y el móvil la descarga y busca dentro.
 - `src/Mapa.tsx`, `src/favoritos.ts`, `src/ubicacion.ts`, `src/planes.ts`: mapa
   de salas, favoritos, ubicación y planes (itinerarios); todo se guarda solo en
   el móvil.
+- `src/Inicio.tsx` (qué ver hoy), `src/Cine.tsx` + `src/cine.ts` (cartelera de
+  cine, ficha de película y de cine, mapa de cines), `src/Noticias.tsx`,
+  `src/Buscar.tsx` (buscador único y fichas de persona).
+- Datos que descarga el móvil: `public/datos/<ciudad>.json` (escena),
+  `<ciudad>-cine.json`, `<ciudad>-noticias.json` y `<ciudad>-mapa.json`.
+- Diseño: negro, rojo y blanco; los colores están en `:root` de `src/estilos.css`.
 - `public/sw.js`: permite abrirla sin conexión con la última cartelera.
 
 Probarla en el ordenador:

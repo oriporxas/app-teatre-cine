@@ -25,10 +25,17 @@ guardada en el entorno de la nube de Claude «app-teatre-cine» como
 `CLAVE_IA_CARTELERA` (las variables `ANTHROPIC_*` no llegan a las sesiones),
 y `clasificar_ia.clave()` acepta los dos nombres. La prueba de los tres modelos
 está hecha (`docs/pruebas/2026-11-08-prueba-modelos.md`, costó 1,33 $).
-Pendiente de Uri: aprobar la propuesta (Sonnet + Opus para lo dudoso). Cuando
-vuelva GitHub, crear allí el secreto `ANTHROPIC_API_KEY` para la tarea diaria;
-hasta entonces la app clasifica solo por señales. Ver «Plan por fases» en el
-brief.
+Uri aprobó la propuesta al pedir el primer borrador completo (14/11/2026).
+
+Primer borrador completo (17/11/2026, pedido el 14/11 con 13,24 $ de crédito):
+IA activada en teatro (clasificar, traducir, premios citados, temas) y en
+noticias; **cine** (`pipeline/cine/`, `docs/fuentes/cine.md`); **noticias**
+(`pipeline/noticias.py`, `ajustes/noticias.toml`); diseño negro, rojo y blanco;
+pantallas Inicio, Escena, Cine, Noticias, Guardado, buscador único y personas.
+GitHub volvió el 14/11/2026: ya se puede hacer push. Pendiente de Uri: crear en
+GitHub los secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` (sin ellos, la tarea
+diaria clasifica solo por señales y el cine sale sin datos de TMDB) y elegir
+alojamiento.
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
 móvil en https://claude.ai/artifact/9WzwWKvR8AT6zFEhQKjvrU (cartelera con
@@ -36,7 +43,7 @@ pestañas, fechas, buscador, filtros, idioma ES/CA, ficha y avance de mapa y
 favoritos). Uri aprobó el aspecto y pidió cambios (precio con deslizable,
 idiomas, ocultar lo no indicado), ya aplicados y anotados en el brief.
 
-Aviso (8/11/2026): GitHub suspendió la cuenta de Uri (oriporxas) sin explicar
+Historial (8-14/11/2026, ya resuelto): GitHub suspendió la cuenta de Uri (oriporxas) sin explicar
 el motivo; se le propuso escribir a soporte. Mientras dure, no hay acceso al
 repositorio ni se ejecuta la tarea diaria. Uri tiene copias completas del
 proyecto. No crear otra cuenta para esquivar la suspensión.
@@ -47,9 +54,7 @@ con Claude Code mediante la app de GitHub, una tarea diaria de Actions que
 recoge datos abiertos respetando robots.txt) ofreciendo cambiar lo que haga
 falta. Si GitHub pone pegas a la tarea diaria, plan B: hacer la recogida
 fuera de GitHub (servidor pequeño en la nube) y dejar GitHub solo para el
-código. **Uri pidió (8/11/2026) no intentar nada con GitHub (ni push) hasta
-que él avise de que le han devuelto la cuenta**: se trabaja y se guarda en
-local, y se le envía la copia de seguridad.
+código. Uri avisó el 14/11/2026 de que le devolvieron la cuenta.
 
 ## Principios (no negociables)
 
@@ -169,6 +174,13 @@ Detalle y razones en `docs/arquitectura.md`.
     solo lo que se sabe y solo teatro, magia, circo y sus eventos.
   - `equipo.py`: equipo artístico desde la ficha artística de la descripción.
   - `genero.py`: género de las obras de teatro, solo si es seguro.
+  - `ia.py`: cliente de la IA, coste de cada petición y **freno de gasto** por
+    ejecución (`[presupuesto]` de `ajustes/ia.toml`); registro en
+    `data/gasto_ia.json`. Toda tarea de IA pasa por aquí.
+  - `enriquecer_ia.py`: traducción, premios citados (con la cita literal, que
+    se comprueba) y temas de cada ficha publicada (tarea «traducir»).
+  - `cine/`: cartelera de cine (salas, lectores de horarios, TMDB y Wikidata).
+  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml`.
 - `web/` — la app (fase 2): React + Vite, web instalable en el móvil (PWA).
   El móvil descarga el archivo de su ciudad y busca dentro (rápido, gratis,
   sin conexión). Cómo probarla y construirla: `web/LEEME.md`
@@ -238,6 +250,16 @@ Detalle y razones en `docs/arquitectura.md`.
   «Musical», solo si es seguro que es teatro musical (un «espectacle musical»
   puede ser un concierto). Interruptor: `MUSICALES_EN_TEATRO` en
   `pipeline/exportar_web.py`.
+- Diseño (Uri, 14/11/2026): negro, rojo y blanco; títulos en Playfair Display,
+  textos en Inter; el rojo de texto es `--acento-texto` (legible sobre negro) y el
+  de fondo, `--acento` (con texto blanco). Sesiones de cine como «entradas».
+- Cine: la app carga `web/public/datos/<ciudad>-cine.json`; rutas `#cine`,
+  `#peli-<id>`, `#sala-<id>`, `#mapa-cine`. Noticias: `<ciudad>-noticias.json`,
+  ruta `#noticias`. Buscador: `#buscar`; personas: `#persona-<clave>`
+  (`t<id TMDB>` o `n-<nombre>`). La sesión de cine se añade a un plan con «+».
+- En las sesiones de Claude en la nube: la IA con `CLAVE_IA_CARTELERA` y TMDB
+  con `TMDB_TOKEN=proxy-injected` (la red pone la clave). Antes de lanzar algo que
+  gaste, fijar un tope con `IA_TOPE_USD`.
 - Ubicación (Uri, 8/11/2026): `web/src/ubicacion.ts` (GPS con permiso, o
   marcar el punto en el mapa) entra en los filtros (`cerca`, `orden`,
   `distanciaMax`). Nunca sale del móvil. En la vista previa de Claude el GPS

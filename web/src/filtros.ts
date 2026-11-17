@@ -29,12 +29,26 @@ export interface Filtros {
   cerca: { lat: number; lon: number } | null;
   orden: 'fecha' | 'cerca';
   distanciaMax: number | null; // km
+  ocultos: string[]; // géneros de teatro que la persona no quiere ver (se guarda en el móvil)
+}
+
+function ocultosGuardados(): string[] {
+  try {
+    const v = JSON.parse(localStorage.getItem('generosOcultos') || '[]');
+    return Array.isArray(v) ? v.filter((x) => typeof x === 'string') : [];
+  } catch {
+    return [];
+  }
+}
+
+export function guardarOcultos(v: string[]) {
+  try { localStorage.setItem('generosOcultos', JSON.stringify(v)); } catch { /* sin almacenamiento */ }
 }
 
 export const FILTROS_INICIALES: Filtros = {
   tipo: 'todo', subMagia: 'todas', subEvento: 'todos', genero: 'todos', fecha: 'todo', desde: '', hasta: '', q: '',
   precioMax: null, sinPrecio: false, publico: 'cualquiera', idioma: 'cualquiera',
-  cerca: null, orden: 'fecha', distanciaMax: null,
+  cerca: null, orden: 'fecha', distanciaMax: null, ocultos: ocultosGuardados(),
 };
 
 /** Distancia en metros entre dos puntos (fórmula del haversine). */
@@ -116,6 +130,8 @@ export function pasa(e: Espectaculo, f: Filtros, hoy: string, ignorar: Ignorar =
     if (ignorar !== 'sub' && f.tipo === 'magia' && f.subMagia !== 'todas' && (e.subtipo || 'magia general') !== f.subMagia) return false;
     if (ignorar !== 'sub' && f.tipo === 'eventos' && f.subEvento !== 'todos' && e.subtipo !== f.subEvento) return false;
     if (ignorar !== 'sub' && f.tipo === 'teatro' && f.genero !== 'todos' && !(e.generos || []).includes(f.genero)) return false;
+    // Géneros ocultos: no salen, salvo que se elija ese género a propósito
+    if (f.ocultos.length && f.genero === 'todos' && e.generos?.some((g) => f.ocultos.includes(g))) return false;
   }
   if (ignorar === 'fecha') return pasaResto(e, f);
   const [desde, hasta] = rango(f, hoy);
@@ -174,7 +190,7 @@ export function fmtCorto(iso: string, t: Textos): string {
 
 export function cuantosFiltros(f: Filtros): number {
   return (f.precioMax != null ? 1 : 0) + (f.publico !== 'cualquiera' ? 1 : 0) + (f.idioma !== 'cualquiera' ? 1 : 0)
-    + (f.distanciaMax != null && f.cerca ? 1 : 0);
+    + (f.distanciaMax != null && f.cerca ? 1 : 0) + (f.ocultos.length ? 1 : 0);
 }
 
 // --- Presentación -----------------------------------------------------------

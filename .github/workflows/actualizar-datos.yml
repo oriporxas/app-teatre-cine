@@ -1,5 +1,6 @@
-# Proceso diario: descarga las agendas, lee fichas nuevas, clasifica y guarda
-# los resultados en la carpeta data/ del repositorio. Funciona solo: nadie
+# Proceso diario: descarga las agendas, lee fichas nuevas, clasifica, lee los
+# horarios de los cines y las noticias, y guarda los resultados en data/ y en
+# web/public/datos/. El gasto de IA tiene un tope diario (ajustes/ia.toml). Funciona solo: nadie
 # tiene que revisar nada. También se puede lanzar a mano desde la pestaña
 # «Actions» → «Actualizar datos» → «Run workflow».
 name: Actualizar datos
@@ -44,6 +45,9 @@ jobs:
           # Clave de la IA de Claude. Si no existe, se clasifica solo por señales.
           # Qué modelo hace cada tarea se decide en ajustes/ia.toml.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Clave de TMDB (datos de las películas: carteles, sinopsis, reparto…).
+          # Si no existe, el cine sale con los datos de las webs de los cines.
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
         run: python -m pipeline.principal --minutos-lectura "${{ github.event.inputs.minutos_lectura || '35' }}"
 
       # Se guarda aunque el paso anterior avise de un error: cada ciudad ya ha

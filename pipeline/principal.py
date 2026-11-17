@@ -29,7 +29,7 @@ import sys
 import time
 import traceback
 
-from . import ajustes, clasificar_ia, config, exportar_web, fuentes, genero, publico, salas, senales
+from . import ajustes, clasificar_ia, config, exportar_web, fuentes, genero, ia, publico, salas, senales
 from .ajustes import Ciudad
 from .fuentes.base import Contexto
 from .util import guardar_json
@@ -202,6 +202,19 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_publico"] = sum(1 for f in fichas if f["publico"])
     # Archivo de la ciudad para la app (fase 2)
     informe["app"] = exportar_web.exportar(ciudad, informe, mapa)
+    # Cine y noticias: piezas aparte; si fallan, la cartelera de escena ya está guardada.
+    if ciudad.cine and leer_webs:  # sin leer webs no hay horarios: se conserva la cartelera de ayer
+        try:
+            from . import cine
+            informe["cine"] = cine.recoger(ciudad, hoy, descargar=descargar, leer_webs=leer_webs)
+        except Exception as e:  # noqa: BLE001
+            informe["errores"].append(f"cine: {type(e).__name__}: {e}")
+    if ciudad.noticias and descargar:
+        try:
+            from . import noticias
+            informe["noticias"] = noticias.recoger(ciudad, hoy)
+        except Exception as e:  # noqa: BLE001
+            informe["errores"].append(f"noticias: {type(e).__name__}: {e}")
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
     guardar_json(carpeta / "informe.json", informe)
     (carpeta / "informe_fallo.json").unlink(missing_ok=True)
@@ -224,6 +237,8 @@ def ejecutar(solo: str | None = None, **opciones) -> dict:
             "salas": inf.get("salas_con_espectaculos"),
             "errores": inf.get("errores", []),
         }
+    indice["gasto_ia_usd"] = round(ia.GASTO.usd, 4)
+    ia.GASTO.guardar()
     if not solo:
         guardar_json(config.DATOS / "indice.json", indice)
     return indice
