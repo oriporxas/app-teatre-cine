@@ -42,7 +42,7 @@ const es = {
   comprar: 'Comprar entradas', descripcion: 'De qué va', equipo: 'Equipo artístico',
   // Los papeles llegan en catalán («direcció», «intèrprets»): se traducen palabra a palabra.
   papel: (p: string) => mayuscula(traducirPapel(p)),
-  textoOriginal: { ca: 'Texto original en catalán. Se traducirá al castellano cuando se active la IA.', es: '' } as Record<string, string>,
+  textoOriginal: { ca: 'Texto original en catalán.', es: '', en: 'Texto original en inglés.' } as Record<string, string>,
   magoTit: 'El mago, su trayectoria y sus premios',
   magoTxt: 'Llega en la fase 3: la ficha del artista con todos sus premios y reconocimientos, cada uno explicado y con su fuente.',
   fuente: 'Fuente', comprobado: 'comprobado el',
@@ -188,7 +188,7 @@ const ca: Textos = {
   precio: 'Preu', duracion: 'Durada', publico: 'Públic', idioma: 'Idioma', nivel: 'Nivell',
   comprar: 'Comprar entrades', descripcion: 'De què va', equipo: 'Equip artístic',
   papel: (p: string) => mayuscula(p),
-  textoOriginal: { ca: '', es: 'Text original en castellà.' },
+  textoOriginal: { ca: '', es: 'Text original en castellà.', en: 'Text original en anglès.' },
   magoTit: 'El mag, la seva trajectòria i els seus premis',
   magoTxt: "Arriba a la fase 3: la fitxa de l'artista amb tots els seus premis i reconeixements, cadascun explicat i amb la seva font.",
   fuente: 'Font', comprobado: 'comprovat el',

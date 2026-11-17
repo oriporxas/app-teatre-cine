@@ -20,7 +20,7 @@ import re
 from . import ajustes, config, ia
 from .util import guardar_json, huella, leer_json
 
-IDIOMAS = {"ca": "catalán", "es": "castellano"}
+IDIOMAS = {"ca": "catalán", "es": "castellano", "en": "inglés", "fr": "francés", "it": "italiano"}
 VERSION_INSTRUCCIONES = 2  # al cambiar las instrucciones, se rehace lo hecho con las anteriores
 VAGOS = re.compile(r"sin (nombre|especificar)|no especificad|\(sin |sin precisar|premios? (literarios|varios)\b", re.I)
 ESQUEMA = {
@@ -75,7 +75,7 @@ def aplicar(ciudad, items: list[dict], informe: dict) -> None:
         if not desc:
             continue
         origen = it.get("idioma_textos") if it.get("idioma_textos") in desc else next(iter(desc))
-        destino = "es" if origen == "ca" else "ca"
+        destino = "es" if origen != "es" else "ca"  # catalán, inglés… → castellano; castellano → catalán
         firma = huella(it["id"], desc[origen], destino, tarea.modelo if tarea else "", VERSION_INSTRUCCIONES)
         origen_por_id[it["id"]] = (origen, destino, firma)
         if cache.get(it["id"], {}).get("firma") != firma:

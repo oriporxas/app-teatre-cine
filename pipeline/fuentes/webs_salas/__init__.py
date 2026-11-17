@@ -36,7 +36,7 @@ import urllib.parse
 
 from ... import ajustes, config, ia
 from ...cine import red
-from ...horario import leer_precios
+from ...horario import leer_dias, leer_horas, leer_precios
 from ...util import guardar_json, huella, leer_json, normalizar
 from ..base import Contexto, Resultado, id_global
 
@@ -52,6 +52,9 @@ EDUCATIVOS = re.compile(r"\b(centre educatiu|escola|escuela|institut|instituto|f
 PROGRAMACION = re.compile(r"programaci|cartell|cartelera|agenda|espectacl|espectácul|espectacul|temporada|calendari|"
                           r"events?\b|funcions|shows?\b|obres", re.I)
 MAX_TEXTO = 30000
+VERSION = 2  # al cambiar las instrucciones o el esquema, se vuelve a leer cada página con la IA
+RANGO = re.compile(r"\b(del?|desde|entre)\s+(el\s+)?\d{1,2}\b.{0,25}\b(al|a|fins al|fins el|hasta el|hasta|y el|i el)\s+(el\s+)?\d{1,2}\b"
+                   r"|\b(fins|hasta|until)\s+(al|el|the)?\s*\d{1,2}\b|(?<![\d:.])\d{1,2}\s*[-–]\s*\d{1,2}\s+(de\s+|d')?[a-z]{3}", re.I)
 MESES = {
     1: ("gen", "ene", "jan"), 2: ("feb",), 3: ("mar",), 4: ("abr", "apr"), 5: ("mai", "may"), 6: ("jun", "juny"),
     7: ("jul",), 8: ("ago", "agost", "aug"), 9: ("set", "sep"), 10: ("oct", "octu"), 11: ("nov",), 12: ("des", "dic", "dec"),
@@ -69,11 +72,17 @@ ESQUEMA = {
                 "type": "object",
                 "properties": {"fecha": {"type": "string"}, "hora": {"type": "string"}, "cita": {"type": "string"}},
                 "required": ["fecha", "hora", "cita"], "additionalProperties": False}},
+            "periodo": {"type": "object", "properties": {
+                "inicio": {"type": "string"}, "fin": {"type": "string"}, "cita": {"type": "string"},
+                "cita_horario": {"type": "string"}},
+                "required": ["inicio", "fin", "cita", "cita_horario"], "additionalProperties": False},
+            "cita_lugar": {"type": "string"},
             "cita_precio": {"type": "string"},
             "enlace": {"type": "string"},
             "idioma": {"type": "string", "enum": ["ca", "es", "en", "otro"]},
         },
-        "required": ["titulo", "cita_titulo", "descripcion", "funciones", "cita_precio", "enlace", "idioma"],
+        "required": ["titulo", "cita_titulo", "descripcion", "funciones", "periodo", "cita_lugar", "cita_precio", "enlace",
+                     "idioma"],
         "additionalProperties": False}}},
     "required": ["obras"], "additionalProperties": False,
 }
@@ -85,7 +94,12 @@ SISTEMA = (
     "- «descripcion»: un fragmento literal del texto que describa la obra (máximo 600 caracteres), o vacío.\n"
     "- «funciones»: cada función con «fecha» (AAAA-MM-DD), «hora» (HH:MM, o vacío si no se dice) y «cita»: el fragmento "
     "literal del texto donde se leen el día y el mes (y la hora). Si el mes está en otra parte (por ejemplo, en un "
-    "encabezado), la cita son los dos fragmentos literales unidos con « … ». Si no hay fechas concretas, la obra no va.\n"
+    "encabezado), la cita son los dos fragmentos literales unidos con « … ». Solo días concretos de función: un periodo "
+    "(«del 19 al 29 de novembre», «fins al 30 de desembre») NO son funciones de su primer y último día.\n"
+    "- «periodo»: si la web da un periodo, «inicio» y «fin» (AAAA-MM-DD), «cita» (el fragmento literal del periodo) y "
+    "«cita_horario» (el fragmento literal con los días de la semana y la hora, p. ej. «De dijous a dissabte a les 20 h»; "
+    "vacío si no lo dice). Si no hay periodo, todo vacío.\n"
+    "- «cita_lugar»: si la web tiene varias salas o locales, el fragmento literal que dice en cuál es esta obra; si no, vacío.\n"
     "- «cita_precio»: el fragmento literal con el precio, o vacío.\n"
     "- «enlace»: la dirección (las que van entre corchetes en el texto) de la página o la compra de esa obra, o vacío.\n"
     "- «idioma»: el idioma del texto de esa obra (ca, es, en u otro).\n"
@@ -144,6 +158,31 @@ def hora_en_cita(hora: str, cita: str) -> bool:
     return bool(re.search(patron, cita.lower()))
 
 
+def _funciones_de_periodo(per: dict, t: str, hoy: dt.date) -> list[dict]:
+    """Funciones de un periodo («del 19 al 29 de novembre» + «de dijous a dissabte a les 20 h»), calculadas por
+    nuestro programa a partir del texto literal; si la web no dice qué días, ninguna."""
+    try:
+        ini, fin = dt.date.fromisoformat(per.get("inicio", "")), dt.date.fromisoformat(per.get("fin", ""))
+    except ValueError:
+        return []
+    cita, cita_h = per.get("cita") or "", per.get("cita_horario") or ""
+    if not (ini <= fin <= hoy + dt.timedelta(days=400)) or (fin - ini).days > 200 or not esta(cita, t) \
+            or not fecha_en_cita(ini, cita) or not fecha_en_cita(fin, cita) or not cita_h or not esta(cita_h, t):
+        return []
+    dias = leer_dias(cita_h, ini, fin)
+    horas = leer_horas(cita_h)
+    hora = horas[0]["inicio"] if len(horas) == 1 else None  # varias horas: no se sabe cuál va con cada día
+    fechas = {dt.date.fromisoformat(x) for x in dias["fechas"]}
+    d = max(ini, hoy)
+    while d <= fin and dias["semana"]:
+        if d.weekday() in dias["semana"]:
+            fechas.add(d)
+        d += dt.timedelta(days=1)
+    excluidas = {dt.date.fromisoformat(x) for x in dias["excepto"]}
+    return [{"fecha": x.isoformat(), "hora": hora, "cita": f"{cita} … {cita_h}"}
+            for x in sorted(fechas - excluidas) if ini <= x <= fin and x >= hoy]
+
+
 def verificar_obra(o: dict, texto: str, enlaces: set[str], hoy: dt.date) -> dict | None:
     t = normalizar(texto)
     titulo = (o.get("titulo") or "").strip()
@@ -158,26 +197,43 @@ def verificar_obra(o: dict, texto: str, enlaces: set[str], hoy: dt.date) -> dict
         cita = f.get("cita") or ""
         if not (hoy <= fecha <= hoy + dt.timedelta(days=400)) or not esta(cita, t) or not fecha_en_cita(fecha, cita):
             continue
+        if RANGO.search(normalizar(cita)):  # «del 19 al 29»: es un periodo, no dos funciones
+            continue
         hora = f.get("hora") or ""
         hora = hora if re.fullmatch(r"([01]\d|2[0-3]):[0-5]\d", hora) and hora_en_cita(hora, cita) else None
         funciones.append({"fecha": fecha.isoformat(), "hora": hora, "cita": cita})
+    funciones += _funciones_de_periodo(o.get("periodo") or {}, t, hoy)
+    funciones = limpiar_funciones(funciones)
     if not funciones:
         return None
     cita_precio = o.get("cita_precio") or ""
     precio = leer_precios(cita_precio) if cita_precio and esta(cita_precio, t) else None
     desc = o.get("descripcion") or ""
-    # Sin repetir: el mismo día con hora y sin hora es una sola función (la que tiene hora).
-    con_hora = {f["fecha"] for f in funciones if f["hora"]}
-    funciones = [f for f in funciones if f["hora"] or f["fecha"] not in con_hora]
+    cita_lugar = o.get("cita_lugar") or ""
     return {
         "titulo": titulo,
         "descripcion": desc if desc and esta(desc, t) else "",
-        "funciones": sorted({(f["fecha"], f["hora"] or ""): f for f in funciones}.values(), key=lambda f: (f["fecha"], f["hora"] or "")),
+        "funciones": funciones,
         "precio": precio,
         "texto_precio": cita_precio if precio else "",
         "enlace": o.get("enlace") if o.get("enlace") in enlaces else None,
         "idioma": o.get("idioma") if o.get("idioma") in ("ca", "es", "en") else None,
+        "lugar": cita_lugar if cita_lugar and esta(cita_lugar, t) else "",
     }
+
+
+def limpiar_funciones(funciones: list[dict]) -> list[dict]:
+    """Sin repetir; el mismo día con hora y sin hora es una sola función (la que tiene hora)."""
+    con_hora = {f["fecha"] for f in funciones if f.get("hora")}
+    unicas = {(f["fecha"], f.get("hora") or ""): f for f in funciones if f.get("hora") or f["fecha"] not in con_hora}
+    return sorted(unicas.values(), key=lambda f: (f["fecha"], f.get("hora") or ""))
+
+
+def propias(nombre: str, otros: list[str]) -> set[str]:
+    """Palabras del nombre de una sala que no tienen las otras salas con la misma web
+    («The Comedy Clubhouse *Canvis Nous» frente a «… *Laietana & Nikki's» → {canvis, nous})."""
+    comunes = set().union(*(set(normalizar(x).split()) for x in otros)) if otros else set()
+    return {w for w in normalizar(nombre).split() if len(w) > 2 and w not in comunes}
 
 
 # --- La fuente -----------------------------------------------------------------------------------
@@ -237,13 +293,23 @@ def recoger(ctx: Contexto) -> Resultado:
     inf = {"salas_sin_agenda": len(salas), "con_web": 0, "paginas": 0, "leidas_ia": 0, "obras": 0, "descartadas": 0,
            "funciones": 0}
     actividades = []
+    # Salas que comparten web (dos locales de la misma compañía): cada obra solo va a la sala que la
+    # página nombra; si la página no lo dice, no se puede saber y no sale.
+    webs_de = {s["id"]: _web_de(s, cache_guia, ctx.hoy, ctx.leer_webs) for s in salas}
+    dominio = lambda u: urllib.parse.urlsplit(u or "").netloc.removeprefix("www.")  # noqa: E731
+    por_dominio: dict[str, list[str]] = {}
+    for s in salas:
+        if webs_de.get(s["id"]):
+            por_dominio.setdefault(dominio(webs_de[s["id"]]), []).append(s["nombre"])
     for s in salas:
         if time.monotonic() > fin:
             inf["aviso"] = "sin tiempo: el resto, mañana"
             break
-        web = _web_de(s, cache_guia, ctx.hoy, ctx.leer_webs)
+        web = webs_de.get(s["id"])
         if not web:
             continue
+        compartida = [n for n in por_dominio.get(dominio(web), []) if n != s["nombre"]]
+        mias = propias(s["nombre"], compartida) if compartida else set()
         inf["con_web"] += 1
         paginas = _paginas(web) if ctx.leer_webs else []
         if not paginas:  # sin conexión o la web no responde hoy: lo de la última lectura
@@ -252,7 +318,7 @@ def recoger(ctx: Contexto) -> Resultado:
         for url, texto, enlaces in paginas:
             inf["paginas"] += 1
             clave = f"{s['id']}|{url}"
-            firma = huella(texto[:MAX_TEXTO], tarea.modelo if tarea else "")
+            firma = huella(texto[:MAX_TEXTO], tarea.modelo if tarea else "", VERSION)
             reg = cache_ia.get(clave)
             if (not reg or reg.get("firma") != firma) and tarea and tarea.activa and ia.disponible() and texto.strip():
                 try:
@@ -273,25 +339,43 @@ def recoger(ctx: Contexto) -> Resultado:
                     continue
             if not reg:
                 continue
-            for o in reg.get("obras", []):
-                v = verificar_obra(o, reg.get("texto", texto), set(reg.get("enlaces", enlaces)), ctx.hoy)
-                if not v:
-                    inf["descartadas"] += 1
+            obras = [v for v in (verificar_obra(o, reg.get("texto", texto), set(reg.get("enlaces", enlaces)), ctx.hoy)
+                                 for o in reg.get("obras", []))]
+            inf["descartadas"] += sum(1 for v in obras if not v)
+            obras = [v for v in obras if v]
+            # Un enlace que sirve para varias obras es la lista de la web, no la página de la obra.
+            usos: dict[str, int] = {}
+            for v in obras:
+                if v["enlace"]:
+                    usos[v["enlace"]] = usos.get(v["enlace"], 0) + 1
+            for v in obras:
+                if v["enlace"] and (usos[v["enlace"]] > 1 or v["enlace"].rstrip("/") == url.rstrip("/")):
+                    v["enlace"] = None
+                if compartida and not (mias and mias & set(normalizar(v["lugar"]).split())):
+                    inf["web_compartida"] = inf.get("web_compartida", 0) + 1
                     continue
                 actividades.append(_actividad(v, s, url, ciudad, ctx.hoy))
-                inf["obras"] += 1
-                inf["funciones"] += len(v["funciones"])
     guardar_json(ruta_guia, cache_guia)
-    # Una sola ficha por obra: la misma obra en dos páginas de la misma sala se junta.
+    # Una sola ficha por obra: la misma obra en dos páginas de la misma sala, o con el título alargado
+    # («Con vista al mar» y «Con vista al mar - Segona temporada»), se junta en una.
     juntas: dict[str, dict] = {}
-    for a in actividades:
-        if a["id"] in juntas:
-            j = juntas[a["id"]]
-            vistas = {(f["fecha"], f["hora"]) for f in j["horario"]["proximas_funciones"]}
-            j["horario"]["proximas_funciones"] += [f for f in a["horario"]["proximas_funciones"] if (f["fecha"], f["hora"]) not in vistas]
-            j["horario"]["proximas_funciones"].sort(key=lambda f: (f["fecha"], f["hora"] or ""))
+    for a in sorted(actividades, key=lambda a: len(a["titulo"])):
+        t = normalizar(a["titulo"])
+        igual = next((j for j in juntas.values() if j["lugar"]["clave"] == a["lugar"]["clave"]
+                      and (normalizar(j["titulo"]) == t or t.startswith(normalizar(j["titulo"]) + " "))), None)
+        if igual:
+            igual["horario"]["proximas_funciones"] = limpiar_funciones(igual["horario"]["proximas_funciones"]
+                                                                        + a["horario"]["proximas_funciones"])
+            igual["fin"] = max(igual["fin"], a["fin"])
+            igual["extra"]["citas"] += a["extra"]["citas"]
+            for campo in ("enlace_compra",):
+                igual[campo] = igual.get(campo) or a.get(campo)
         else:
             juntas[a["id"]] = a
+    for a in juntas.values():
+        a["horario"]["proximas_funciones"] = [{"fecha": f["fecha"], "hora": f.get("hora")} for f in a["horario"]["proximas_funciones"]]
+    inf["obras"] = len(juntas)
+    inf["funciones"] = sum(len(a["horario"]["proximas_funciones"]) for a in juntas.values())
     return Resultado(actividades=list(juntas.values()), informe=inf)
 
 
@@ -306,7 +390,7 @@ def _actividad(v: dict, s: dict, url: str, ciudad, hoy: dt.date) -> dict:
         "inicio": min(fechas), "fin": max(fechas),
         "horario": {
             "filas": [{"texto": {"dias": texto_horario, **({"precios": v["texto_precio"]} if v["texto_precio"] else {})}}],
-            "proximas_funciones": [{"fecha": f["fecha"], "hora": f["hora"]} for f in v["funciones"]],
+            "proximas_funciones": [{"fecha": f["fecha"], "hora": f.get("hora")} for f in v["funciones"]],
             "precio": {**v["precio"], "moneda": ciudad.moneda} if v["precio"] else None,
             "duracion_minutos": None, "idiomas": [],
         },

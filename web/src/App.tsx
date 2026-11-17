@@ -481,7 +481,8 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
   const [aviso, setAviso] = useState<{ texto: string; plan: string } | null>(null);
   useLayoutEffect(() => { window.scrollTo(0, 0); setCuantas(6); setAviso(null); }, [e.id]);
   const fs = e.funciones.filter(([f]) => f >= hoy);
-  const idiomaDesc = e.descripcion?.[lang] ? lang : Object.keys(e.descripcion || {})[0];
+  // El texto en el idioma de la app; si no, en el otro idioma de la app; si no, el original (p. ej. inglés).
+  const idiomaDesc = e.descripcion?.[lang] ? lang : (['es', 'ca'].find((k) => e.descripcion?.[k]) || Object.keys(e.descripcion || {})[0]);
   const desc = idiomaDesc ? e.descripcion?.[idiomaDesc] : '';
   const notaDesc = idiomaDesc && idiomaDesc !== lang ? t.textoOriginal[idiomaDesc]
     : e.traducido && e.traducido === idiomaDesc ? (idiomaDesc === 'es' ? t.traducidoIA : t.traducidoIACa) : '';

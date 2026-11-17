@@ -54,6 +54,31 @@ class TestWebsSalas(unittest.TestCase):
         o = self.obra(funciones=[{"fecha": "2025-11-20", "hora": "", "cita": "Dv 20 i Ds 21 de novembre"}])
         self.assertIsNone(w.verificar_obra(o, self.texto, self.enlaces, HOY))
 
+    def test_un_periodo_no_son_dos_funciones(self):
+        # Error del 17/11/2026: «del 19 al 29 de novembre» salía como funciones del 19 y del 29.
+        texto, enlaces = w.texto_pagina("<h3>Con vista al mar</h3><p>Del 19 al 29 de novembre. De dijous a dissabte a les 20 h</p>", "https://s.cat/")
+        o = self.obra(titulo="Con vista al mar", cita_titulo="Con vista al mar", cita_precio="", enlace="",
+                      funciones=[{"fecha": "2026-11-19", "hora": "", "cita": "Del 19 al 29 de novembre"},
+                                 {"fecha": "2026-11-29", "hora": "", "cita": "Del 19 al 29 de novembre"}])
+        self.assertIsNone(w.verificar_obra(o, texto, enlaces, HOY))
+        # Con el periodo y los días de la semana, las funciones las calcula el programa:
+        o["periodo"] = {"inicio": "2026-11-19", "fin": "2026-11-29", "cita": "Del 19 al 29 de novembre",
+                        "cita_horario": "De dijous a dissabte a les 20 h"}
+        v = w.verificar_obra(o, texto, enlaces, HOY)
+        self.assertEqual([(f["fecha"], f["hora"]) for f in v["funciones"]],
+                         [("2026-11-19", "20:00"), ("2026-11-20", "20:00"), ("2026-11-21", "20:00"),
+                          ("2026-11-26", "20:00"), ("2026-11-27", "20:00"), ("2026-11-28", "20:00")])
+        # Sin días de la semana no se inventa nada:
+        o["periodo"]["cita_horario"] = ""
+        self.assertIsNone(w.verificar_obra(o, texto, enlaces, HOY))
+
+    def test_web_compartida_por_dos_salas(self):
+        # Error del 17/11/2026: los dos locales de The Comedy Clubhouse tienen la misma web y cada
+        # espectáculo salía en los dos. Solo va a la sala que nombra la página.
+        a, b = "The Comedy Clubhouse *Canvis Nous", "The Comedy Clubhouse *Laietana & Nikki's"
+        self.assertEqual(w.propias(a, [b]), {"canvis", "nous"})
+        self.assertEqual(w.propias(b, [a]), {"laietana", "nikki"})
+
 
 if __name__ == "__main__":
     unittest.main()
