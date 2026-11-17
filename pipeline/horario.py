@@ -14,7 +14,7 @@ import html
 import re
 from html.parser import HTMLParser
 
-from .util import normalizar
+from .util import normalizar, sin_acentos
 
 COLUMNAS = {
     "timetable-period": "periodo",
@@ -204,23 +204,63 @@ def leer_dias(texto: str, inicio: dt.date | None = None, fin: dt.date | None = N
 
 # --- Precios, duración e idioma -------------------------------------------
 
-_EUROS = re.compile(r"(\d+(?:[.,]\d{1,2})?)\s*(?:€|euros?\b)")
-_RANGO = re.compile(r"(\d+(?:[.,]\d{1,2})?)\s*(?:a|-|i)\s*(\d+(?:[.,]\d{1,2})?)\s*(?:€|euros?\b)")
+# Los precios NO pasan por `normalizar` (que quita los signos): «24,95 €» y «24.95 €» tienen
+# que quedarse con sus decimales. Error de noviembre de 2026: «24.95 €» salía como «95 €».
+_NUM = r"\d+(?:[.,']\d+)*"
+_EUROS = re.compile(rf"(?<![\d.,'])({_NUM})\s*(?:€|eur\b|euros?\b)")
+# «€15»: solo si el «€» no cierra otro importe («49 €\n10 sessions» no es «€10») y va pegado.
+_EUROS_ANTES = re.compile(rf"(?<![\d\s])\s?€ ?({_NUM})(?![\d.,'])|^€ ?({_NUM})(?![\d.,'])")
+_RANGO = re.compile(rf"(?<![\d.,'])({_NUM})\s*(?:€\s*)?(?:a|al|-|–|i|y|/)\s*({_NUM})\s*(?:€|eur\b|euros?\b)")
 _GRATIS = re.compile(r"\b(gratuit|gratuita|gratuits|gratuites|gratis|gratuito|gratuita|entrada lliure|entrada libre|acces lliure|acces gratuit)\b")
 
 
+def importe(texto: str) -> float | None:
+    """«24,95» → 24.95; «24.95» → 24.95; «12'5» → 12.5; «1.200» → 1200; «20.30.5» → None."""
+    if re.fullmatch(r"\d+", texto):
+        return float(texto)
+    if re.fullmatch(r"\d{1,3}(?:\.\d{3})+(?:,\d{1,2})?", texto):  # miles con punto
+        return float(texto.replace(".", "").replace(",", "."))
+    if re.fullmatch(r"\d+[.,']\d{1,2}", texto):
+        return float(re.sub(r"[,']", ".", texto))
+    return None  # forma rara: mejor no mostrar nada que mostrar un precio falso
+
+
+def _texto_precio(*textos: str) -> str:
+    t = sin_acentos(" ".join(x for x in textos if x)).lower()
+    t = re.sub(r"[ \t]+", " ", t.replace("’", "'").replace("‘", "'"))
+    return re.sub(r"\s*\n\s*", " | ", t)  # el salto de línea separa importes: «€ | 1 h» no es «€1»
+
+
+def aparece(valor: float, texto: str) -> bool:
+    """¿Está este importe escrito, tal cual, en el texto original? (con coma, punto o apóstrofo)."""
+    if valor == int(valor):
+        formas = [str(int(valor))]
+        formas += [f"{int(valor)}{sep}00" for sep in ".,'"] + [f"{int(valor)}{sep}0" for sep in ".,'"]
+        formas += [f"{int(valor):,}".replace(",", ".")] if valor >= 1000 else []
+    else:
+        cent = f"{valor:.2f}"
+        formas = [cent.replace(".", sep) for sep in ".,'"]
+        if cent.endswith("0"):
+            formas += [cent[:-1].replace(".", sep) for sep in ".,'"]
+    t = _texto_precio(texto)
+    return any(re.search(rf"(?<![\d.,']){re.escape(f)}(?![\d]|[.,']\d)", t) for f in formas)
+
+
 def leer_precios(*textos: str) -> dict | None:
-    """Saca importes en euros. Devuelve None si no hay ninguna pista de precio."""
-    t = normalizar(" ".join(x for x in textos if x))
-    if not t:
+    """Saca importes en euros. Devuelve None si no hay ninguna pista de precio.
+
+    Cada importe que se devuelve está escrito tal cual en el texto (`aparece`): si no, se descarta."""
+    original = " ".join(x for x in textos if x)
+    t = _texto_precio(original)
+    if not t.strip():
         return None
     importes = []
     for m in _RANGO.finditer(t):
         importes += [m.group(1), m.group(2)]
-    importes += _EUROS.findall(t)
-    valores = sorted({float(x.replace(",", ".")) for x in importes if float(x.replace(",", ".")) < 1000})
-    gratis = bool(_GRATIS.search(t))
-    taquilla_inversa = "taquilla inversa" in t
+    importes += _EUROS.findall(t) + [a or b for a, b in _EUROS_ANTES.findall(t)]
+    valores = sorted({v for v in (importe(x) for x in importes) if v is not None and 0 < v < 1000 and aparece(v, original)})
+    gratis = bool(_GRATIS.search(normalizar(original)))
+    taquilla_inversa = "taquilla inversa" in normalizar(original)
     if not valores and not gratis and not taquilla_inversa:
         return None
     res = {"gratis": gratis and not valores, "taquilla_inversa": taquilla_inversa}
