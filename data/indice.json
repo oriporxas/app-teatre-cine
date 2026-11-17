@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-17T14:20:35+0000",
+  "actualizado": "2026-11-17T20:04:39+0000",
   "ciudades": {
     "barcelona": {
       "errores": [],
@@ -17,5 +17,5 @@
       "zona_horaria": "Europe/Madrid"
     }
   },
-  "gasto_ia_usd": 1.3781
+  "gasto_ia_usd": 0.0002
 }

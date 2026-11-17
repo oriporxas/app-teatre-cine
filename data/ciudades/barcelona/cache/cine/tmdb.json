@@ -1,4 +1,12 @@
 {
+  "it:16a mostra de cinema etnografic de catalunya compartint natures territoris cosmologies vides trenades": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:33a festival de cinema independent de barcelona l alternativa 2026": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
   "it:592 metroz goiti": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -210,6 +218,10 @@
       "trailer": "VizUz0xkyFQ",
       "wikidata": null
     },
+    "fecha": "2026-11-17"
+  },
+  "it:aula de cinema 2026 2027": {
+    "datos": null,
     "fecha": "2026-11-17"
   },
   "it:baraka": {
@@ -568,6 +580,10 @@
     "datos": null,
     "fecha": "2026-11-17"
   },
+  "it:cinema violeta": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
   "it:ciudad sin sueno": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/l2JNUcLimAYEhbHKLuRQ44LJJO1.jpg",
@@ -742,6 +758,10 @@
       "trailer": "svJQu7O26Jo",
       "wikidata": "Q134016229"
     },
+    "fecha": "2026-11-17"
+  },
+  "it:dart": {
+    "datos": null,
     "fecha": "2026-11-17"
   },
   "it:deep listening la historia de pauline oliveros": {
@@ -1074,6 +1094,10 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:el meu primer festival": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
   "it:el padre": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -1393,6 +1417,10 @@
     "fecha": "2026-11-17"
   },
   "it:fiscal elola": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:gaudeix del ficma a turull": {
     "datos": null,
     "fecha": "2026-11-17"
   },
@@ -2595,6 +2623,10 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:mostra de cinema emergent": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
   "it:natura sagrada": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -2704,6 +2736,10 @@
     "fecha": "2026-11-17"
   },
   "it:planetari postals d uns altres mons": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:proces d immigracio i precarietat laboral": {
     "datos": null,
     "fecha": "2026-11-17"
   },
@@ -3227,6 +3263,18 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:stampa models de mirar": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:tarda de cinema": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:temps de cinema migracions": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
   "it:tiempos de ilusion:toledano": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
@@ -3343,6 +3391,44 @@
       "tmdb": 1404684,
       "trailer": "vZtK0AdeXk8",
       "wikidata": "Q138504368"
+    },
+    "fecha": "2026-11-17"
+  },
+  "it:veus transhumants": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/fUZXr6AsrplzQ7s4Eb2JGyglyTP.jpg",
+      "direccion": [
+        {
+          "id": 5743569,
+          "nombre": "Paula Escribano"
+        }
+      ],
+      "duracion": null,
+      "edad": null,
+      "estreno": "2025-03-25",
+      "fondo": null,
+      "generos": [
+        "Documental"
+      ],
+      "guion": [],
+      "idioma_original": "ca",
+      "imdb": null,
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "ES"
+      ],
+      "reparto": [],
+      "sinopsis": {
+        "ca": "Un documental etnogràfic de divulgació que neix amb la intenció de comprendre i valorar la transhumància a peu en l’actualitat a Catalunya. Des de la mirada curiosa i polièdrica de l’antropologia, l’audiovisual acompanya diverses persones de diferents localitats que avui dia es dediquen al pasturatge extensiu i semiextensiu."
+      },
+      "titulo": "Veus transhumants",
+      "titulo_ca": null,
+      "titulo_original": "Veus transhumants",
+      "tmdb": 1560839,
+      "trailer": "oSLjRHUU4xE",
+      "wikidata": null
     },
     "fecha": "2026-11-17"
   },
@@ -3589,6 +3675,18 @@
       "trailer": "qWX1ba0f-Qg",
       "wikidata": "Q123058740"
     },
+    "fecha": "2026-11-17"
+  },
+  "it:xavier agramont el fotograf descobert:guerrero": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:xiv cicle de cinema rec i accio projeccio si decido quedarme": {
+    "datos": null,
+    "fecha": "2026-11-17"
+  },
+  "it:xiv festival internacional de cinema i discapacitat de barcelona inclus": {
+    "datos": null,
     "fecha": "2026-11-17"
   },
   "itt0053125": {
@@ -4801,6 +4899,124 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt25399154": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/flnb7COkqD4dZNZiCacNkai22vz.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/af6foHxOaClxDKqBSKxMyV50C4W.jpg",
+          "id": 28605,
+          "nombre": "Markus Schleinzer"
+        }
+      ],
+      "duracion": 94,
+      "edad": null,
+      "estreno": "2026-04-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg",
+      "generos": [
+        "Drama",
+        "Historia",
+        "Bélica"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/af6foHxOaClxDKqBSKxMyV50C4W.jpg",
+          "id": 28605,
+          "nombre": "Markus Schleinzer"
+        },
+        {
+          "id": 1918103,
+          "nombre": "Alexander Brom"
+        }
+      ],
+      "idioma_original": "de",
+      "imdb": "tt25399154",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/A5RZld33aDbLVkuUlvZV5SyDhc1.jpg",
+          "id": 3391971,
+          "nombre": "Tara Nome Doyle"
+        }
+      ],
+      "nota_tmdb": 7.6,
+      "paises": [
+        "AT",
+        "DE"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eytKTAVD9fP8kklbW4dMilbceig.jpg",
+          "id": 7152,
+          "nombre": "Sandra Hüller",
+          "papel": "Rose"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gMlt1SZ6eOUinOcSTc7QhrlEuuy.jpg",
+          "id": 5926511,
+          "nombre": "Caro Braun",
+          "papel": "Suzanna"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lbDsn2cj6ATAL4Su10Usp0R5b4t.jpg",
+          "id": 1817655,
+          "nombre": "Marisa Growaldt",
+          "papel": "The Narrator (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/doCAnt1rXCLmbLlMA9wQx215LSF.jpg",
+          "id": 50244,
+          "nombre": "Robert Gwisdek",
+          "papel": "The Bailiff"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2vz3pSqdPUEtJ5xcNTWh7eZVdkj.jpg",
+          "id": 928468,
+          "nombre": "Godehard Giese",
+          "papel": "The Large-Scale Farmer"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4AiU1EdwWlNuxBbYV1qLxc09mv1.jpg",
+          "id": 39249,
+          "nombre": "Maria Dragus",
+          "papel": "His Wife"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vSidsrCNYtL7oAR9tcsn3oCGGLl.jpg",
+          "id": 1467525,
+          "nombre": "Larisa Faber",
+          "papel": "His Deceased Wife"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6138LUa2LOiptGunhP5rGiNrSm6.jpg",
+          "id": 5926521,
+          "nombre": "Annalisa Hohl",
+          "papel": "His Daughter"
+        },
+        {
+          "id": 6494292,
+          "nombre": "Ruby De Quero",
+          "papel": "His Daughter"
+        },
+        {
+          "id": 6494294,
+          "nombre": "Enni Kräker",
+          "papel": "His Daughter"
+        }
+      ],
+      "sinopsis": {
+        "en": "In the early 17th century, a soldier arrives at an isolated Protestant village in Germany claiming to be the heir to an abandoned farmstead. Even though he proves to be a good man, the villagers’ suspicions about his identity grow and they force a reckoning.",
+        "es": "En medio de la agitación de la Guerra de los Treinta Años, un misterioso soldado aparece en una apartada aldea protestante afirmando ser el heredero de una mansión abandonada hace mucho tiempo. Su búsqueda de reconocimiento y aceptación se ve complicada por un secreto: ha llegado a la aldea bajo una identidad y un nombre falsos, y fingiendo pertenecer a otro género. Sin embargo, Rose —que es el verdadero nombre del soldado— no se detendrá ante nada para lograr sus objetivos."
+      },
+      "titulo": "Rose",
+      "titulo_ca": null,
+      "titulo_original": "Rose",
+      "tmdb": 1176962,
+      "trailer": "hQGIx7gk_uc",
+      "wikidata": "Q136458718"
+    },
+    "fecha": "2026-11-17"
+  },
   "itt27369017": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/lkWqvj24NG3vEgu19ZQ9erG3Vj7.jpg",
@@ -5780,6 +5996,129 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt32890033": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/tQ8CR2Xuokcg8Pp2R7KDTA5N683.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg",
+          "id": 124747,
+          "nombre": "Pierre Coffin"
+        }
+      ],
+      "duracion": 90,
+      "edad": "7",
+      "estreno": "2026-06-24",
+      "fondo": "https://image.tmdb.org/t/p/w1280/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+      "generos": [
+        "Aventura",
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dprj5Un51JO2QzQnDmHuBrqRQc3.jpg",
+          "id": 1024175,
+          "nombre": "Brian Lynch"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg",
+          "id": 124747,
+          "nombre": "Pierre Coffin"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt32890033",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/trywZMdhKM04PL1lH5OECXRxL1u.jpg",
+          "id": 11098,
+          "nombre": "John Powell"
+        }
+      ],
+      "nota_tmdb": 7.5,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg",
+          "id": 124747,
+          "nombre": "Pierre Coffin",
+          "papel": "The Minions (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3tJe8t90lrcQzXj9cRcpW9wmj2c.jpg",
+          "id": 34517,
+          "nombre": "Trey Parker",
+          "papel": "Goomi (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jMvLGCVXLaBqjRLf5olyvEucZob.jpg",
+          "id": 27319,
+          "nombre": "Christoph Waltz",
+          "papel": "Max (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/AnpevvFjyFPRL3vDGo7o1Woina1.jpg",
+          "id": 19,
+          "nombre": "Allison Janney",
+          "papel": "Olivia (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2ojZrkt5rdkUi857WSeCatxXdGS.jpg",
+          "id": 44735,
+          "nombre": "Jesse Eisenberg",
+          "papel": "Dort (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg",
+          "id": 1229,
+          "nombre": "Jeff Bridges",
+          "papel": "Frank / Elwood (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cU124pdfKA84tDvoapECkJ57rR2.jpg",
+          "id": 1059597,
+          "nombre": "Zoey Deutch",
+          "papel": "Debbie (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gOvwNz5joi5yWJ7dAhuF8WA2aas.jpg",
+          "id": 452205,
+          "nombre": "Bobby Moynihan",
+          "papel": "Phillips (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+          "id": 31549,
+          "nombre": "Phil LaMarr",
+          "papel": "Howard (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mDLDvsx8PaZoEThkBdyaG1JxPdf.jpg",
+          "id": 1,
+          "nombre": "George Lucas",
+          "papel": "George Lucas (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Aquesta és la història desenfrenada, ridícula i totalment real de com els Minions van conquerir Hollywood, es van convertir en estrelles de cinema, van perdre tot, van desfermar monstres sobre el món i després van unir forces per intentar salvar el planeta del caos que ells mateixos van crear.",
+        "en": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+        "es": "Narra la historia de cómo los minions conquistaron la industria de Hollywood, se convirtieron en estrellas de cine, lo perdieron todo, desataron monstruos en el mundo y luego se unieron para intentar salvar al planeta del caos que acababan de crear."
+      },
+      "titulo": "Minions & Monsters",
+      "titulo_ca": "Minions & Monsters",
+      "titulo_original": "Minions & Monsters",
+      "tmdb": 1315772,
+      "trailer": "C_IdQivkD_M",
+      "wikidata": "Q127605787"
+    },
+    "fecha": "2026-11-17"
+  },
   "itt33296229": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/7338FnwdzX9oNpODZIJH1OliUGV.jpg",
@@ -6358,6 +6697,122 @@
       "tmdb": 1400940,
       "trailer": "WGOv9Pzh9cE",
       "wikidata": "Q131460936"
+    },
+    "fecha": "2026-11-17"
+  },
+  "itt35298123": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gHqq6STc0lnPFXs8CuZ6fZMwMPA.jpg",
+          "id": 1827119,
+          "nombre": "Jane Schoenbrun"
+        }
+      ],
+      "duracion": 106,
+      "edad": null,
+      "estreno": "2026-08-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
+      "generos": [
+        "Comedia",
+        "Terror",
+        "Romance"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gHqq6STc0lnPFXs8CuZ6fZMwMPA.jpg",
+          "id": 1827119,
+          "nombre": "Jane Schoenbrun"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt35298123",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7lz7nqq9I8WUMGJRJVBhRV8n9eJ.jpg",
+          "id": 2787219,
+          "nombre": "Alex G"
+        }
+      ],
+      "nota_tmdb": 6.1,
+      "paises": [
+        "GB",
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iWMeyJAghUYP3zxmOxzcYLU5G8Z.jpg",
+          "id": 2559506,
+          "nombre": "Hannah Einbinder",
+          "papel": "Kris"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3Ny8ZYahb33vpqNEPNCE2IOXPew.jpg",
+          "id": 12214,
+          "nombre": "Gillian Anderson",
+          "papel": "Billy"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ju3aa2yJL4h5msWcbEryh7cjXOt.jpg",
+          "id": 3054663,
+          "nombre": "Amanda Fix",
+          "papel": "Young Billy"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pnO8qBwvLJfN54UaKsy0QQlAc8u.jpg",
+          "id": 3706720,
+          "nombre": "Arthur Conti",
+          "papel": "Alex"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nlEirkGOQPVUVgNzIqEJysnt70q.jpg",
+          "id": 2425998,
+          "nombre": "Eva Victor",
+          "papel": "DJ Ella Giastic"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg",
+          "id": 1838225,
+          "nombre": "Zach Cherry",
+          "papel": "Will"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5BwGUREK2H6acSH5Inqmy2hFpGY.jpg",
+          "id": 2198504,
+          "nombre": "Sarah Sherman",
+          "papel": "Kris' Agent"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vVj7GjHL9hOilbKwViXZpnUlbcQ.jpg",
+          "id": 52801,
+          "nombre": "Patrick Fischler",
+          "papel": "Rudolph"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4mw6xj8Aj3ixjjeUj9pZdZPTbvz.jpg",
+          "id": 19152,
+          "nombre": "Dylan Baker",
+          "papel": "Jeffrey"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yWaCA2iKmVps20SFxwiB1DvbN6j.jpg",
+          "id": 1508653,
+          "nombre": "Jasmin Savoy Brown",
+          "papel": "Mari"
+        }
+      ],
+      "sinopsis": {
+        "en": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film’s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
+        "es": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio."
+      },
+      "titulo": "Adolescencia, sexo y muerte en campamento Miasma",
+      "titulo_ca": null,
+      "titulo_original": "Teenage Sex and Death at Camp Miasma",
+      "tmdb": 1240889,
+      "trailer": "j9TsiTgYZGw",
+      "wikidata": "Q134434223"
     },
     "fecha": "2026-11-17"
   },
@@ -7314,6 +7769,133 @@
       "tmdb": 1474225,
       "trailer": "A8MFxc0QlT0",
       "wikidata": "Q139285779"
+    },
+    "fecha": "2026-11-17"
+  },
+  "itt36841161": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
+          "id": 1454651,
+          "nombre": "Steve Cox"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
+          "id": 1448172,
+          "nombre": "Matthew Walker"
+        }
+      ],
+      "duracion": 81,
+      "edad": "A",
+      "estreno": "2026-09-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "generos": [
+        "Animación",
+        "Ciencia ficción",
+        "Comedia",
+        "Familia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
+          "id": 7316,
+          "nombre": "Mark Burton"
+        },
+        {
+          "id": 1220429,
+          "nombre": "Giles Pilbrow"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt36841161",
+      "lema": "¿Qué es eso que viene por la colina?.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
+          "id": 1273153,
+          "nombre": "Natalie Holt"
+        }
+      ],
+      "nota_tmdb": 7.3,
+      "paises": [
+        "GB",
+        "FR"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
+          "id": 224354,
+          "nombre": "Justin Fletcher",
+          "papel": "Shaun / Timmy (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
+          "id": 1212388,
+          "nombre": "John Sparkes",
+          "papel": "The Farmer / Bitzer (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
+          "id": 7063,
+          "nombre": "Nina Sosanya",
+          "papel": "The Vet (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
+          "id": 124557,
+          "nombre": "Kate Harbour",
+          "papel": "Timmy's Mum (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
+          "id": 1235023,
+          "nombre": "Rich Webber",
+          "papel": "Shirley (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
+          "id": 185065,
+          "nombre": "Emma Tate",
+          "papel": "Hazel (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
+          "id": 155527,
+          "nombre": "Simon Greenall",
+          "papel": "The Twins (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
+          "id": 22810,
+          "nombre": "Andy Nyman",
+          "papel": "Nuts (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
+          "id": 34900,
+          "nombre": "Paul Whitehouse",
+          "papel": "Shop Keeper (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
+          "id": 1908668,
+          "nombre": "Roman Kemp",
+          "papel": "Pizza Boy (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
+        "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+        "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
+      },
+      "titulo": "La oveja Shaun: Misión calabaza",
+      "titulo_ca": "El xai Shaun: Missió Carbassa",
+      "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "tmdb": 1477104,
+      "trailer": "daZMq0AyOMc",
+      "wikidata": "Q134694705"
     },
     "fecha": "2026-11-17"
   },
@@ -8808,6 +9390,99 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt41902195": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/d9moHIig8e21mN1RCk8zu80ld3k.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wKOnSxOHgJRXoqd7IaAtb028wsj.jpg",
+          "id": 94155,
+          "nombre": "Stefan Schwartz"
+        }
+      ],
+      "duracion": 70,
+      "edad": null,
+      "estreno": "2026-11-23",
+      "fondo": "https://image.tmdb.org/t/p/w1280/soJPwfGLYvFEuDCC25HsCLP2hjw.jpg",
+      "generos": [
+        "Drama",
+        "Aventura",
+        "Fantasía"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/U2bwiLRz8HfVXN4JJGpZBVDMRu.jpg",
+          "id": 129,
+          "nombre": "J. R. R. Tolkien"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tcZE30s0wA9H85598aGFaXgvoqA.jpg",
+          "id": 1276959,
+          "nombre": "John D. Payne"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mzPLmSrqMQkQc0n8Kft07Han3zu.jpg",
+          "id": 1276960,
+          "nombre": "Patrick McKay"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7bTwDKXb8BsvI5b1b4UeKQhBCCN.jpg",
+          "id": 1301304,
+          "nombre": "Justin Doble"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt41902195",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1wqSZVvB018H2mZbemMSn6gH4zq.jpg",
+          "id": 1648346,
+          "nombre": "Robert Aramayo",
+          "papel": "Elrond"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ljqVjVzp9pgcfTTU3oJbKtnd6im.jpg",
+          "id": 1274938,
+          "nombre": "Owain Arthur",
+          "papel": "Prince Durin IV"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kG1Xg85F9yAggCMquo4XouAOjdo.jpg",
+          "id": 1321628,
+          "nombre": "Morfydd Clark",
+          "papel": "Galadriel"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fRglwdtHHjLGAMIoCkqXwQ9bIfd.jpg",
+          "id": 2056333,
+          "nombre": "Sophia Nomvete",
+          "papel": "Princess Disa"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/52AAfocWk3d8J3a15iznfD3cabW.jpg",
+          "id": 2309879,
+          "nombre": "Charlie Vickers",
+          "papel": "Sauron"
+        }
+      ],
+      "sinopsis": {
+        "en": "As Middle-earth's fate hangs in the balance, Sauron reaches the height of his power in his quest for the One Ring."
+      },
+      "titulo": "The Lord of the Rings: The Rings of Power – Forging the One Ring",
+      "titulo_ca": null,
+      "titulo_original": "The Lord of the Rings: The Rings of Power – Forging the One Ring",
+      "tmdb": 1828101,
+      "trailer": "maP_Kyy3DCA",
+      "wikidata": null
+    },
+    "fecha": "2026-11-17"
+  },
   "itt42205124": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/7pksyM5i9GeCJzlDscQ5te13vaL.jpg",
@@ -9284,6 +9959,55 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt46666063": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/rkoVLCKCqVCo3c7u4QktJf2ATEM.jpg",
+      "direccion": [],
+      "duracion": 60,
+      "edad": "Ai",
+      "estreno": "2026-11-14",
+      "fondo": "https://image.tmdb.org/t/p/w1280/cetFNvBn6N5JkdjeJB18xRUHvFg.jpg",
+      "generos": [
+        "Animación",
+        "Familia"
+      ],
+      "guion": [],
+      "idioma_original": "en",
+      "imdb": "tt46666063",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
+          "id": 59070,
+          "nombre": "Morwenna Banks"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
+          "id": 6645,
+          "nombre": "Richard Ridings"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2sAIKIeHia3k2SVJB0oyJQz7QoN.jpg",
+          "id": 2769219,
+          "nombre": "Amelie Bea Smith"
+        }
+      ],
+      "sinopsis": {
+        "en": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
+        "es": "Hay divas que no necesitan presentación y Peppa Pig es una de ellas. Esta vez, la popular cerdita y su familia se preparan para celebrar una ocasión muy especial: la primera Navidad de la pequeña Evie, la nueva integrante de la familia. Entre aventuras en la nieve, representaciones navideñas y los preparativos para decorar el árbol, Peppa, George y sus seres queridos compartirán algunos de sus momentos favoritos de estas fiestas navideñas."
+      },
+      "titulo": "Diversión Navideña con Peppa: La Experiencia en Cines",
+      "titulo_ca": null,
+      "titulo_original": "Festive Fun with Peppa",
+      "tmdb": 1778515,
+      "trailer": null,
+      "wikidata": null
+    },
+    "fecha": "2026-11-17"
+  },
   "itt50486016": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
@@ -9435,18 +10159,22 @@
   "p1208946": "Q6161447",
   "p1209572": "Q47332720",
   "p1211862": "Q4685264",
+  "p1212388": "Q6258580",
   "p1212667": "Q16207915",
   "p1218908": "Q7682072",
   "p12214": "Q485298",
   "p1229796": "Q75168191",
   "p1230": "Q215072",
   "p1244217": "Q11778966",
+  "p124557": "Q6375522",
+  "p124747": "Q3384479",
   "p12513": "Q436769",
   "p12516": "Q232874",
   "p1252841": "Q7296622",
   "p1257348": "Q10334166",
   "p125825": "Q43723",
   "p1262481": "Q18811838",
+  "p1274938": "Q23770470",
   "p127564": "Q130894",
   "p1277188": "Q20965633",
   "p1289925": "Q97119788",
@@ -9457,6 +10185,7 @@
   "p1298406": "",
   "p1302077": "Q52269021",
   "p1315036": "Q16738674",
+  "p1321628": "Q24572561",
   "p132450": "Q580414",
   "p1327": "Q170510",
   "p1327945": "Q36697214",
@@ -9477,6 +10206,8 @@
   "p1427948": "Q18097962",
   "p1442194": "Q113164284",
   "p1443615": "Q2665604",
+  "p1448172": "",
+  "p1454651": "Q115325763",
   "p1459456": "Q9012641",
   "p147056": "Q2933352",
   "p1473119": "Q20081051",
@@ -9498,6 +10229,7 @@
   "p16269": "Q382393",
   "p1640439": "Q26923245",
   "p1643163": "Q111419908",
+  "p1648346": "Q21155102",
   "p1658652": "Q33645100",
   "p1665": "Q45647",
   "p1674275": "Q117337684",
@@ -9512,6 +10244,7 @@
   "p1786006": "",
   "p1813": "Q36301",
   "p1814793": "Q108494222",
+  "p1817655": "",
   "p18197": "Q232113",
   "p18248": "Q229957",
   "p1827119": "Q61641240",
@@ -9520,6 +10253,7 @@
   "p1846370": "Q57584369",
   "p1892": "Q175535",
   "p18999": "Q150482",
+  "p19": "Q229487",
   "p1904884": "Q113000116",
   "p1912381": "Q102427314",
   "p19274": "Q220308",
@@ -9533,6 +10267,7 @@
   "p19854": "Q6294057",
   "p2022317": "",
   "p20334": "Q11359443",
+  "p2056333": "Q110498189",
   "p2064168": "Q20888373",
   "p206905": "Q1411012",
   "p2091": "Q209186",
@@ -9545,6 +10280,7 @@
   "p223": "Q55215",
   "p2230991": "Q73889193",
   "p2231098": "Q125310919",
+  "p224354": "Q6317587",
   "p224871": "",
   "p224874": "Q3698926",
   "p2269143": "Q17503525",
@@ -9583,14 +10319,17 @@
   "p2705856": "",
   "p2707814": "",
   "p2725308": "",
+  "p27319": "Q76819",
   "p27460": "Q533571",
   "p27462": "Q3326153",
   "p27471": "Q5982905",
   "p2762775": "Q56349283",
+  "p2769219": "Q95233135",
   "p2836518": "",
   "p2845902": "Q108830043",
   "p2846013": "Q112570656",
   "p2856423": "",
+  "p28605": "Q86714",
   "p2869815": "",
   "p287": "Q35332",
   "p28846": "Q310637",
@@ -9607,6 +10346,7 @@
   "p3194501": "Q28699137",
   "p3292": "Q298347",
   "p3430763": "",
+  "p34517": "Q44414",
   "p3483": "Q2790121",
   "p3489": "Q132616",
   "p3516191": "Q135261819",
@@ -9645,6 +10385,7 @@
   "p4985213": "",
   "p500": "Q37079",
   "p5020549": "",
+  "p50244": "Q2157388",
   "p5026": "Q8006",
   "p512079": "Q509777",
   "p5171095": "",
@@ -9675,6 +10416,7 @@
   "p5676": "Q55469",
   "p5690471": "",
   "p5692144": "",
+  "p5743569": "",
   "p578014": "Q6066826",
   "p58285": "Q2372851",
   "p5882480": "",
@@ -9683,6 +10425,8 @@
   "p58989": "Q926680",
   "p58995": "Q112989581",
   "p58997": "",
+  "p59070": "Q6915202",
+  "p5926511": "",
   "p59315": "Q200355",
   "p59373": "Q180491",
   "p5950831": "",
@@ -9700,6 +10444,7 @@
   "p64194": "Q1377022",
   "p6462200": "Q141857229",
   "p6575430": "",
+  "p6645": "Q3431161",
   "p6677": "Q207506",
   "p67262": "Q9048215",
   "p6807": "Q316446",
@@ -9708,6 +10453,7 @@
   "p70046": "Q3482797",
   "p70047": "Q1078163",
   "p70048": "Q1281916",
+  "p7063": "Q526266",
   "p71070": "Q189226",
   "p7152": "Q70003",
   "p72857": "Q4767265",
@@ -9733,6 +10479,7 @@
   "p932161": "Q2422285",
   "p932967": "Q360531",
   "p938080": "Q8192289",
+  "p94155": "Q3497894",
   "p942619": "Q9012655",
   "p955": "Q39666",
   "p95606": "Q5927386",
@@ -10209,6 +10956,7 @@
   "wQ108494222": [],
   "wQ108830043": [],
   "wQ1091339": [],
+  "wQ110498189": [],
   "wQ110954886": [],
   "wQ111370320": [
     {
@@ -10298,6 +11046,13 @@
     {
       "anio": 1985,
       "premio": "Premio Hugo a la mejor presentación dramática",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ115325763": [
+    {
+      "anio": 2022,
+      "premio": "Premi Infantil i Juvenil BAFTA - Director",
       "tipo": "nominado"
     }
   ],
@@ -10643,6 +11398,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ127605787": [],
   "wQ1281916": [
     {
       "anio": 2007,
@@ -10845,6 +11601,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ134694705": [],
   "wQ134839397": [],
   "wQ134895": [
     {
@@ -11207,6 +11964,13 @@
   "wQ136002124": [],
   "wQ136387857": [],
   "wQ136428321": [],
+  "wQ136458718": [
+    {
+      "anio": 2026,
+      "premio": "Oso de Plata a la Mejor interpretación protagónica",
+      "tipo": "ganado"
+    }
+  ],
   "wQ136563724": [
     {
       "anio": 2026,
@@ -12870,6 +13634,13 @@
   ],
   "wQ2092899": [],
   "wQ20965633": [],
+  "wQ21155102": [
+    {
+      "anio": 2026,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "ganado"
+    }
+  ],
   "wQ21197590": [],
   "wQ215072": [
     {
@@ -12885,6 +13656,13 @@
     {
       "anio": null,
       "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    }
+  ],
+  "wQ2157388": [
+    {
+      "anio": null,
+      "premio": "Deutscher Filmpreis",
       "tipo": "ganado"
     }
   ],
@@ -13160,6 +13938,328 @@
     }
   ],
   "wQ22946162": [],
+  "wQ229487": [
+    {
+      "anio": 1997,
+      "premio": "Theatre World Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio del National Board of Review al mejor reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premi Satellite al millor repartiment",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premi Drama Desk a la millor actriu en un musical",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premi Satellite a la millor actriu de sèrie de televisió dramàtica",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Drama Desk Award for Outstanding Featured Actress in a Play",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Globo de Oro a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Emmy a la mejor actriz - Serie dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Emmy a la mejor actriz - Serie dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie de comedia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie de comedia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Primetime Emmy a la mejor actriz invitada - Serie dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "BAFTA a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2026,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premio Tony a la mejor actriz principal en un musical",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Primetime Emmy a la mejor actriz invitada - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie de comedia",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Independent Spirit Award a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premi Drama Desk a la millor actriu en un musical",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2008,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Emmy a la mejor actriz - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Independent Spirit Award a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Emmy a la mejor actriz - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Emmy a la mejor actriz - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Globo de Oro a la mejor actriz de serie de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Premi Satellite a la millor actriu de sèrie de televisió dramàtica",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Emmy a la mejor actriz - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Globo de Oro a la mejor actriz de serie de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premi Satellite a la millor actriu de sèrie de televisió dramàtica",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premi TCA a l'assoliment individual en drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Drama Desk Award for Outstanding Featured Actress in a Play",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Drama Desk Award for Outstanding Featured Actress in a Play",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
   "wQ229957": [
     {
       "anio": 1990,
@@ -13463,6 +14563,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ23770470": [],
   "wQ241701": [
     {
       "anio": null,
@@ -13493,6 +14594,23 @@
     }
   ],
   "wQ244678": [],
+  "wQ24572561": [
+    {
+      "anio": 2021,
+      "premio": "BAFTA Cymru",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2021,
+      "premio": "Premi del Cercle de Crítics Cinematogràfics de Londres a la millor actriu britànica de l'any",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2023,
+      "premio": "Canneseries",
+      "tipo": "ganado"
+    }
+  ],
   "wQ25191": [
     {
       "anio": 2010,
@@ -14419,7 +15537,21 @@
     }
   ],
   "wQ33645100": [],
+  "wQ3384479": [
+    {
+      "anio": 2016,
+      "premio": "Premi Seiyu familiar",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Óscar a la mejor película de animación",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ3431161": [],
   "wQ3482797": [],
+  "wQ3497894": [],
   "wQ3527989": [
     {
       "anio": 2022,
@@ -15819,6 +16951,68 @@
       "tipo": "ganado"
     }
   ],
+  "wQ44414": [
+    {
+      "anio": null,
+      "premio": "Premios Peabody",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Annie",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Laurence Olivier",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio Tony a la mejor dirección en un musical",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "The Game Awards - Mejor interpretación",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Primetime Emmy al mejor programa animado",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Primetime Emmy al mejor programa animado",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2008,
+      "premio": "Primetime Emmy al mejor programa animado",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio Tony a la mejor banda sonora original",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio Tony al mejor guion de un musical",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "The Game Awards - Mejor interpretación",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Óscar a la mejor canción original",
+      "tipo": "nominado"
+    }
+  ],
   "wQ44857": [
     {
       "anio": 2006,
@@ -16236,6 +17430,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ526266": [],
   "wQ533571": [],
   "wQ535622": [
     {
@@ -16867,6 +18062,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ6258580": [],
   "wQ6294057": [
     {
       "anio": 2012,
@@ -16880,8 +18076,21 @@
     }
   ],
   "wQ6300538": [],
+  "wQ6317587": [
+    {
+      "anio": null,
+      "premio": "Miembro de la Orden del Imperio británico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Premi BAFTA infantil al millor intèrpret",
+      "tipo": "nominado"
+    }
+  ],
   "wQ63198577": [],
   "wQ63382252": [],
+  "wQ6375522": [],
   "wQ66753809": [],
   "wQ67881": [
     {
@@ -16926,6 +18135,13 @@
     }
   ],
   "wQ68783644": [],
+  "wQ6915202": [
+    {
+      "anio": 2015,
+      "premio": "Tinniswood Award",
+      "tipo": "ganado"
+    }
+  ],
   "wQ70003": [
     {
       "anio": 2006,
@@ -17325,6 +18541,108 @@
       "tipo": "nominado"
     }
   ],
+  "wQ76819": [
+    {
+      "anio": 2010,
+      "premio": "Romy",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Condecoración Austriaca de las Ciencias y las Artes",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1982,
+      "premio": "Premi O.E. Hasse",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premio del Festival de Cannes al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premi bavarès de televisió",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Premio del Cine Europeo al Mejor Logro Europeo en el Mundo del Cine",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Globo de Oro al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Globo de Oro al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio del Sindicato de Actores al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Washington D.C. Area Film Critics Association Award for Best Supporting Actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Premios Óscar",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Globo de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    }
+  ],
   "wQ7682072": [],
   "wQ7836302": [
     {
@@ -17701,6 +19019,23 @@
     }
   ],
   "wQ86694039": [],
+  "wQ86714": [
+    {
+      "anio": 2011,
+      "premio": "Premio del Cine Europeo al descubrimiento del año",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Austrian Film Award for Best Director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Austrian Film Award for Best Screenplay",
+      "tipo": "nominado"
+    }
+  ],
   "wQ89322300": [],
   "wQ9012641": [],
   "wQ9012655": [],
@@ -17861,6 +19196,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ95233135": [],
   "wQ95817312": [
     {
       "anio": 2023,

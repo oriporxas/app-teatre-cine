@@ -1,0 +1,148 @@
+{
+  "cine": {
+    "anomalias": [
+      {
+        "accion": "se usa la dirección",
+        "detalle": "el lugar se llama como la ciudad",
+        "id": "agenda:None",
+        "regla": "sala",
+        "titulo": "Barcelona"
+      }
+    ],
+    "corregidas_por_regla": {
+      "sala": 1
+    },
+    "fecha": "2026-11-17",
+    "publicadas": 140
+  },
+  "escena": {
+    "anomalias": [
+      {
+        "accion": "función quitada",
+        "detalle": "2027-10-30 fuera del periodo 2026-11-07–2026-12-26",
+        "id": "open_data_bcn:99400696171",
+        "regla": "fecha",
+        "titulo": "Buenrollistas"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400776438",
+        "id": "open_data_bcn:99400776441",
+        "regla": "repetida",
+        "titulo": "Teatre adults"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400776438",
+        "id": "open_data_bcn:99400776443",
+        "regla": "repetida",
+        "titulo": "Teatre adults"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-10-30 fuera del periodo 2026-11-15–2026-12-30",
+        "id": "open_data_bcn:99400778523",
+        "regla": "fecha",
+        "titulo": "De Perras y Criadas"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-11-08 fuera del periodo 2026-11-15–2026-12-30",
+        "id": "open_data_bcn:99400778523",
+        "regla": "fecha",
+        "titulo": "De Perras y Criadas"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-11-13 fuera del periodo 2026-11-15–2026-12-30",
+        "id": "open_data_bcn:99400778523",
+        "regla": "fecha",
+        "titulo": "De Perras y Criadas"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-29 fuera del periodo 2026-11-05–2026-11-28",
+        "id": "open_data_bcn:99400783607",
+        "regla": "fecha",
+        "titulo": "El sopar dels infidels"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-01-03 fuera del periodo 2026-12-04–2026-12-18",
+        "id": "open_data_bcn:99400783776",
+        "regla": "fecha",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-01-09 fuera del periodo 2026-12-04–2026-12-18",
+        "id": "open_data_bcn:99400783776",
+        "regla": "fecha",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-01-10 fuera del periodo 2026-12-04–2026-12-18",
+        "id": "open_data_bcn:99400783776",
+        "regla": "fecha",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-02-05 fuera del periodo 2026-12-04–2026-12-18",
+        "id": "open_data_bcn:99400783776",
+        "regla": "fecha",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-02-14 fuera del periodo 2026-12-04–2026-12-18",
+        "id": "open_data_bcn:99400783776",
+        "regla": "fecha",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-03-14 fuera del periodo 2026-12-04–2026-12-18",
+        "id": "open_data_bcn:99400783776",
+        "regla": "fecha",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400673396",
+        "id": "open_data_bcn:99400786635",
+        "regla": "repetida",
+        "titulo": "Màgia"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-04 fuera del periodo 2026-11-04–2026-11-26",
+        "id": "open_data_bcn:99400789383",
+        "regla": "fecha",
+        "titulo": "The Two-Character Play"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2028-02-25 fuera del periodo 2027-03-11–2027-04-25",
+        "id": "open_data_bcn:99400790058",
+        "regla": "fecha",
+        "titulo": "Misión impro-sible"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400747753",
+        "id": "open_data_bcn:99400790463",
+        "regla": "repetida",
+        "titulo": "Teatre i creació escènica"
+      }
+    ],
+    "corregidas_por_regla": {
+      "fecha": 13,
+      "repetida": 4,
+      "sin_funciones": 1
+    },
+    "fecha": "2026-11-17",
+    "publicadas": 594
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "con_actividades": 70,
+  "fecha": "2026-11-17",
+  "por_tipo": {
+    "auditorio": {
+      "oficiales": 26,
+      "sin_actividades": 16
+    },
+    "cine": {
+      "oficiales": 25,
+      "sin_actividades": 22
+    },
+    "teatro": {
+      "oficiales": 121,
+      "sin_actividades": 59
+    }
+  },
+  "salas_oficiales": 161,
+  "sin_actividades": 91,
+  "sin_actividades_detalle": [
+    {
+      "actividades": 0,
+      "clave": "via106103-1",
+      "nombre": "Auditori Carme Serrallonga i Calafell",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via132908-23",
+      "nombre": "Auditori Universitat Pompeu Fabra *R T Fargas",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via216906-7",
+      "nombre": "Centre d'Estudis i Recursos Culturals - Pati Manning",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via49509-110",
+      "nombre": "Conservatori Municipal de Música de Barcelona",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via303705-4",
+      "nombre": "Edifici Palau de la Generalitat",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via144601-643",
+      "nombre": "Facultat de Biologia - UB",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via181608-134",
+      "nombre": "Facultat de Comunicació *Campus de la Comunicació-Poblenou - UPF",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via359109-18",
+      "nombre": "Institut Pau Claris",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via316809-16",
+      "nombre": "Museu Etnològic i de Cultures del Món *Parc Montjuïc",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via16601-1",
+      "nombre": "Museu d'Art Contemporani de Barcelona",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via280600-9",
+      "nombre": "Museu d'Història de Barcelona. Plaça del Rei",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via248050-1",
+      "nombre": "Museu d'Història de Catalunya",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via234001-5",
+      "nombre": "Palau Sant Jordi",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via32051-4",
+      "nombre": "Parc Científic de Barcelona",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via144601-647",
+      "nombre": "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona",
+      "tipo": [
+        "auditorio",
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via344407-6",
+      "nombre": "Centre Artesà Tradicionàrius",
+      "tipo": [
+        "auditorio",
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via23403-8",
+      "nombre": "Cinema Mooby Aribau",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via32700-422",
+      "nombre": "Cinema Mooby Balmes",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via264308-2",
+      "nombre": "Cinema Yelmo *La Maquinista",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via145003-175",
+      "nombre": "Cinemes Girona",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via127704-135",
+      "nombre": "Cinemes Renoir *Floridablanca",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via356803-32",
+      "nombre": "Cinemes Verdi",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via341908-49",
+      "nombre": "Cinemes Verdi Park",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via315806-18",
+      "nombre": "Cinesa Diagonal *C. Lúdic Diagonal",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via144601-3",
+      "nombre": "Cinesa Diagonal Mar",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via282650-42",
+      "nombre": "Cinesa SOM Multiespai",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via140203-14",
+      "nombre": "Escola Oficial d'Idiomes Barcelona - Drassanes",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via263509-11",
+      "nombre": "Fàbrica de Creació Ateneu Popular 9 Barris",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via207905-5",
+      "nombre": "Institut Italià de Cultura de Barcelona",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via143904-34",
+      "nombre": "Mooby  Gran Sarrià Multicines",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via144601-208",
+      "nombre": "Mooby Glòries Multicines",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via335701-3",
+      "nombre": "Parc d'Atraccions del Tibidabo",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via37601-53",
+      "nombre": "Zumzeig Cinecooperativa",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via61402-6",
+      "nombre": "Ateneu Barcelonès",
+      "tipo": [
+        "cine",
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via162400-25",
+      "nombre": "Escola Pia de Sarrià-Calassanç",
+      "tipo": [
+        "cine",
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via65607-12",
+      "nombre": "Recursos d'Animació Intercultural RAI",
+      "tipo": [
+        "cine",
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via169409-373",
+      "nombre": "Teatre Arenas Barcelona *Arenas de Barcelona",
+      "tipo": [
+        "cine",
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via120909-20",
+      "nombre": "Agrupació Congrés",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via169409-572",
+      "nombre": "Aquarella Music Restaurant",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via320704-33",
+      "nombre": "Aquitània Teatre",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via325402-99",
+      "nombre": "Asociación Artística La Banda",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via326201-53",
+      "nombre": "Associació Catalana per la Integració i el Desenvolupament Humà",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via703-10",
+      "nombre": "Atelier Barcelona",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via252706-8",
+      "nombre": "Ateneu Hortenc",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via339509-6",
+      "nombre": "Ateneu Montserrat",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via277809-3",
+      "nombre": "Ateneu del Raval",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via217104-62",
+      "nombre": "Casa de Cuenca de Barcelona",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via274709-2",
+      "nombre": "Centre Cultural  Els Catalanistes",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via32700-208",
+      "nombre": "Centre Educatiu Escola Pia Balmes",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via71600-25",
+      "nombre": "Centre Educatiu Jesuïtes Casp - Sagrat Cor de Jesús",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via350308-680",
+      "nombre": "Centre Educatiu Jesuïtes del Clot",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via310904-55",
+      "nombre": "Centre Educatiu Jesús, Maria i Josep",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via44709-8",
+      "nombre": "Centre Educatiu La Salle Bonanova",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via247659-131",
+      "nombre": "Centre Educatiu Lestonnac",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via323203-71",
+      "nombre": "Centre Educatiu Maria Auxiliadora",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via182203-16",
+      "nombre": "Centre Educatiu Sagrat Cor Besòs",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via285807-42",
+      "nombre": "Centre Educatiu Salesià de Sant Josep",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via220109-31",
+      "nombre": "Centre Educatiu Sant Josep",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via139805-85",
+      "nombre": "Centre Educatiu Santa Teresa - Ganduxer",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via270901-176",
+      "nombre": "Centre Moral i Cultural del Poblenou",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via296600-12",
+      "nombre": "Centre parroquial Nostra Sra. del Carme",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via34308-35",
+      "nombre": "Centro Galego de Barcelona",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via74506-2",
+      "nombre": "City Hall Barcelona",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via324308-10",
+      "nombre": "Comedianet",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via191204-580",
+      "nombre": "Cooperativa La Formiga Martinenca",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via151200-22",
+      "nombre": "Cooperativa Nova Obrera",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via109203-25",
+      "nombre": "El Teatre Més Petit",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via30602-113",
+      "nombre": "Escola Cavall Bernat",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via208602-32",
+      "nombre": "Escola ETP Xavier",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via21306-24",
+      "nombre": "Escola Oficial d'Idiomes Barcelona - Drassanes",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via8501-95",
+      "nombre": "Escuela Suiza",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via23403-5",
+      "nombre": "Espai Aribau Immersive",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via253505-11",
+      "nombre": "Espai Escènic Ruqueria Querubí",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via12000-15",
+      "nombre": "Foment Hortenc",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via213307-1",
+      "nombre": "Fundació Joan Miró",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via27302-83",
+      "nombre": "Fundació Orfeó Gracienc",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via28000-205",
+      "nombre": "Institució Cultural del C.I.C.",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via310008-32",
+      "nombre": "Institut Moisès Broggi",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via341103-21",
+      "nombre": "La Perla 29",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via223606-246",
+      "nombre": "Luz de Gas",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via89707-17",
+      "nombre": "Parròquia de Sant Medir",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via89707-82",
+      "nombre": "Sala Clan Destino Mental",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via361009-99",
+      "nombre": "Sala El Molino",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via236700-25",
+      "nombre": "Sala Or",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via91403-15",
+      "nombre": "Societat Cultural i Esportiva La Lira",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via272500-36",
+      "nombre": "Teatre Badabadoc",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via703-6",
+      "nombre": "Teatre Flamenc Barcelona",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via316809-36",
+      "nombre": "Teatre Grec",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via330504-12",
+      "nombre": "Teatre Metamorfosis",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via56209-10",
+      "nombre": "The Comedy Clubhouse *Canvis Nous",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "clave": "via177101-6",
+      "nombre": "The Comedy Clubhouse *Laietana & Nikki's",
+      "tipo": [
+        "teatro"
+      ]
+    }
+  ]
+}
