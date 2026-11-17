@@ -15,6 +15,10 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400658681|https://www.salaarsteatre.com/|Els Tres Porquets": {
+    "fecha": "2026-11-17",
+    "url": "https://www.salaarsteatre.com/els-tres-porquets/"
+  },
   "open_data_bcn:99400658916|http://www.teatregoya.cat|Ultrashow": {
     "fecha": "2026-11-17",
     "url": "https://www.teatregoya.cat/ca/ex/ultrashow/"
@@ -26,6 +30,10 @@
   "open_data_bcn:99400663892|http://www.teatreneu.com|Los hijos - Adolescentes": {
     "fecha": "2026-11-17",
     "url": "https://www.teatreneu.com/ca/cartellera/c/9-los-hijos-adolescentes.html"
+  },
+  "open_data_bcn:99400672327|https://www.salaarsteatre.com/|La casa de Bernarda Alba": {
+    "fecha": "2026-11-17",
+    "url": "https://www.salaarsteatre.com/la-casa-de-bernarda-alba/"
   },
   "open_data_bcn:99400674800|http://www.salaarsteatre.com|Miss Cuarenta (Diario de una cuarentona)": {
     "fecha": "2026-11-17",
@@ -67,9 +75,17 @@
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/espectaculo-familiar/barcelona/cleptomago-magia-con-shado"
   },
+  "open_data_bcn:99400720613|https://elmalda.cat/|Guillermotta": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/guillermotta/"
+  },
   "open_data_bcn:99400728391|https://teatrebalmes.com/|Piensa en Wilbur": {
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/piensa-en-wilbur"
+  },
+  "open_data_bcn:99400728454|http://www.teatreneu.com|Viviendo a todo gas": {
+    "fecha": "2026-11-17",
+    "url": "https://www.teatreneu.com/ca/cartellera/c/4-monoleg-barcelona-viviendo-a-todo-gass.html"
   },
   "open_data_bcn:99400729250|http://www.salaarsteatre.com|Pecados de pareja": {
     "fecha": "2026-11-17",
@@ -78,6 +94,10 @@
   "open_data_bcn:99400733386|http://www.llantiol.com|Lo puto mejor": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400734269|https://www.balanaenviu.com/|No cruces los brazos": {
+    "fecha": "2026-11-17",
+    "url": "https://www.balanaenviu.com/espectaculo/david-cepo-coliseum"
   },
   "open_data_bcn:99400735330|https://www.balanaenviu.com/|Miserable": {
     "fecha": "2026-11-17",
@@ -107,6 +127,10 @@
     "fecha": "2026-11-17",
     "url": "https://www.teatreneu.com/ca/cartellera/c/633-monologos-vermut.html"
   },
+  "open_data_bcn:99400752389|https://www.salaarsteatre.com/|El llibre de la selva": {
+    "fecha": "2026-11-17",
+    "url": null
+  },
   "open_data_bcn:99400752457|https://teatrebalmes.com/ca|El nuevo musical de los 80s y 90s": {
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/es/musicales/barcelona/el-nuevo-musical-de-los-80s-90s"
@@ -127,6 +151,10 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400758904|https://teatremuntaner.com/|Cómo pasar de los 60 sin morir en el intento": {
+    "fecha": "2026-11-17",
+    "url": "https://teatremuntaner.com/ca/espectaculos/como-pasar-de-los-60-sin-morir-en-el-intento/"
+  },
   "open_data_bcn:99400759010|http://www.salaarsteatre.com|Ellas y ellos": {
     "fecha": "2026-11-17",
     "url": null
@@ -134,6 +162,10 @@
   "open_data_bcn:99400759410|https://www.teatrecondal.cat/|Germans de sang": {
     "fecha": "2026-11-17",
     "url": "https://www.teatrecondal.cat/ca/ex/germans-de-sang/"
+  },
+  "open_data_bcn:99400760135|https://www.eixampleteatre.cat/|Noche de chicas": {
+    "fecha": "2026-11-17",
+    "url": "https://www.eixampleteatre.cat/es/NOCHE-DE-CHICAS"
   },
   "open_data_bcn:99400760137|https://www.eixampleteatre.cat|Bonobos": {
     "fecha": "2026-11-17",
@@ -171,6 +203,10 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400763497|http://www.tantarantana.com|Perfectament imperfecta": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/perfectament-imperfecta-temporada-teatre-26-27/"
+  },
   "open_data_bcn:99400763580|https://www.salaversusglories.cat/|Tu, jo... i vosaltres... i les cançons...": {
     "fecha": "2026-11-17",
     "url": "https://www.salaversusglories.cat/ca/temporada/c/127-tu-jo-vosaltres-i-les-cancons.html"
@@ -191,6 +227,14 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400765506|https://teatremuntaner.com/|Conversaciones con mi mente": {
+    "fecha": "2026-11-17",
+    "url": "https://teatremuntaner.com/ca/espectaculos/joaquin-caserza-conversaciones-con-mi-mente/"
+  },
+  "open_data_bcn:99400765684|https://www.teatrecondal.cat/|Ella era Anita": {
+    "fecha": "2026-11-17",
+    "url": "https://www.teatrecondal.cat/ca/ex/ella-era-anita/"
+  },
   "open_data_bcn:99400765814|https://www.lavillarroel.cat/ca/|Els Fills": {
     "fecha": "2026-11-17",
     "url": "https://www.lavillarroel.cat/ca/ex/els-fills/"
@@ -199,9 +243,29 @@
     "fecha": "2026-11-17",
     "url": "https://www.lavillarroel.cat/ca/ex/boja/"
   },
+  "open_data_bcn:99400766527|https://www.balanaenviu.com/|Lo nunca visto": {
+    "fecha": "2026-11-17",
+    "url": "https://www.balanaenviu.com/espectaculo/berto-romero-coliseum"
+  },
+  "open_data_bcn:99400767508|https://www.balanaenviu.com/|Humor Blanco": {
+    "fecha": "2026-11-17",
+    "url": "https://www.balanaenviu.com/espectaculo/david-suarez"
+  },
+  "open_data_bcn:99400767561|https://elmalda.cat/|Observin aquests fills de puta": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/observin-aquests-fills-de-puta/"
+  },
   "open_data_bcn:99400771138|https://cat.teatremuntaner.com/|Un tal Shakespeare": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400771234|https://www.salaarsteatre.com/|La Bella i la Bèstia": {
+    "fecha": "2026-11-17",
+    "url": "https://www.salaarsteatre.com/la-bella-i-la-bestia/"
+  },
+  "open_data_bcn:99400771866|http://www.tantarantana.com|Quería ser maricón pero nací sudaca": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/queria-ser-maricon-pero-naci-sudaca-teatre-temporada-26-27/"
   },
   "open_data_bcn:99400772035|https://teatrebalmes.com/|Aventures amb Maui – Tribut a Vaiana": {
     "fecha": "2026-11-17",
@@ -218,6 +282,10 @@
   "open_data_bcn:99400774208|https://www.balanaenviu.com/|Mamma Mia!": {
     "fecha": "2026-11-17",
     "url": "https://www.balanaenviu.com/espectaculo/mamma-mia"
+  },
+  "open_data_bcn:99400776977|https://www.balanaenviu.com/|Diva de Barrio": {
+    "fecha": "2026-11-17",
+    "url": "https://www.balanaenviu.com/espectaculo/isabel-rey"
   },
   "open_data_bcn:99400778218|https://www.balanaenviu.com/|Acojonado": {
     "fecha": "2026-11-17",
@@ -263,9 +331,21 @@
     "fecha": "2026-11-17",
     "url": "https://www.salapangoli.com/producto/el-sindrome-netflix/"
   },
+  "open_data_bcn:99400781371|https://teatrebalmes.com/|Vamos a tener que ir al psicólogo después de esto": {
+    "fecha": "2026-11-17",
+    "url": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/vamos-a-tener-que-ir-al-psicologo-despues-de-esto-1"
+  },
   "open_data_bcn:99400781373|https://www.eixampleteatre.cat/ca/|Burundanga": {
     "fecha": "2026-11-17",
     "url": "https://eixampleteatre.koobin.cat/burundanga"
+  },
+  "open_data_bcn:99400781889|https://teatreapolo.com|El Lazarillo de Tormes": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/el-brujo-el-lazarillo-de-tormes/"
+  },
+  "open_data_bcn:99400781890|https://teatreapolo.com|La segunda venida de Cristo o el yoga de Jesús": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/el-brujo-la-segunda-venida-de-cristo/"
   },
   "open_data_bcn:99400782489|https://www.lluisosteatre.cat/|La mama dels arbres": {
     "fecha": "2026-11-17",
@@ -274,6 +354,10 @@
   "open_data_bcn:99400782496|https://www.lluisosteatre.cat/|El lleó no em fa por": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400782532|http://www.teatrepoliorama.com|Màgic Pablo - El Gran Repte": {
+    "fecha": "2026-11-17",
+    "url": "https://www.teatrepoliorama.com/ca/programacio/c/908-magia-kids-el-gran-repte.html"
   },
   "open_data_bcn:99400782539|https://www.balanaenviu.com/|Noticiero Live Show": {
     "fecha": "2026-11-17",
@@ -343,6 +427,10 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400783630|https://teatreolia.cat/|Mitja Taronja": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreolia.cat/mitja-taronja-2026/"
+  },
   "open_data_bcn:99400783631|https://cat.teatremuntaner.com/|Saludos cordiales": {
     "fecha": "2026-11-17",
     "url": null
@@ -375,6 +463,10 @@
     "fecha": "2026-11-17",
     "url": "https://www.sat-teatre.cat/ca/p/c/727-mular-o-la-gran-captura.html"
   },
+  "open_data_bcn:99400784980|https://www.balanaenviu.com/|Les Coses Excepcionals": {
+    "fecha": "2026-11-17",
+    "url": "https://www.balanaenviu.com/espectaculo/lescosesexcepcionals"
+  },
   "open_data_bcn:99400784985|http://www.teatreneu.com|L’eminència humana": {
     "fecha": "2026-11-17",
     "url": null
@@ -390,6 +482,10 @@
   "open_data_bcn:99400785002|https://www.lavillarroel.cat/ca/|Morning sun": {
     "fecha": "2026-11-17",
     "url": "https://www.lavillarroel.cat/ca/ex/morning-sun/"
+  },
+  "open_data_bcn:99400785108|https://teatreolia.cat/|Desídia": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreolia.cat/desidia-2026/"
   },
   "open_data_bcn:99400785112|https://teatreolia.cat/|L’última magdalena de Barcelona": {
     "fecha": "2026-11-17",
@@ -418,6 +514,10 @@
   "open_data_bcn:99400786325|http://www.teatreneu.com|La biblioteca secreta": {
     "fecha": "2026-11-17",
     "url": "https://www.teatreneu.com/ca/cartellera/c/653-magia-kids-la-biblioteca-secreta.html"
+  },
+  "open_data_bcn:99400786327|http://www.teatreneu.com|Agència Matrimonial 7 d'Amor": {
+    "fecha": "2026-11-17",
+    "url": "https://www.teatreneu.com/ca/cartellera/c/652-agencia-matrimonial-damor.html"
   },
   "open_data_bcn:99400786341|https://www.teatregoya.cat/|Un sogre de lloguer": {
     "fecha": "2026-11-17",
@@ -455,9 +555,41 @@
     "fecha": "2026-11-17",
     "url": "https://www.teatregoya.cat/ca/ex/assassinat-per-a-dos/"
   },
+  "open_data_bcn:99400787026|https://elmalda.cat/|Bisila": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/bisila/"
+  },
+  "open_data_bcn:99400787027|https://elmalda.cat/|Escenes d'una separació": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/escenes-duna-separacio/"
+  },
+  "open_data_bcn:99400787030|https://elmalda.cat/|Els oblidats": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/els-oblidats/"
+  },
   "open_data_bcn:99400787031|https://elmalda.cat/|Allò de l'Iran": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400787032|https://elmalda.cat/|Calla, nena": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/calla-nena/"
+  },
+  "open_data_bcn:99400787033|https://elmalda.cat/|El piset": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/el-piset/"
+  },
+  "open_data_bcn:99400787035|https://elmalda.cat/|Cartografia de la llum": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/cartografia-de-la-llum/"
+  },
+  "open_data_bcn:99400787044|https://www.salafenix.com/|Lötò. Un ritual de emancipación corporal": {
+    "fecha": "2026-11-17",
+    "url": "https://salafenix.com/programacio/loto-un-ritual-de-emancipacion-corporal/"
+  },
+  "open_data_bcn:99400787886|http://www.tantarantana.com|En estat d'excepció": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/en-estat-dexcepcio-teatre-temporada-26-27/"
   },
   "open_data_bcn:99400787890|https://www.teatrecondal.cat/|El monstre de colors": {
     "fecha": "2026-11-17",
@@ -487,6 +619,18 @@
     "fecha": "2026-11-17",
     "url": "https://www.lavillarroel.cat/ca/ex/nadales/"
   },
+  "open_data_bcn:99400788098|https://www.salafenix.com/|Ocells a la frontera": {
+    "fecha": "2026-11-17",
+    "url": "https://salafenix.com/programacio/ocells-a-la-frontera/"
+  },
+  "open_data_bcn:99400788099|https://www.salafenix.com/|Trampantojo, o el relat de la història d'Espanya": {
+    "fecha": "2026-11-17",
+    "url": "https://salafenix.com/programacio/trampantojo/"
+  },
+  "open_data_bcn:99400788100|https://www.salafenix.com/|Iaia: memòria històrica": {
+    "fecha": "2026-11-17",
+    "url": "https://salafenix.com/programacio/iaia-memoria-historica/"
+  },
   "open_data_bcn:99400788114|http://www.salaarsteatre.com|Master Sex": {
     "fecha": "2026-11-17",
     "url": null
@@ -494,6 +638,10 @@
   "open_data_bcn:99400788115|https://www.salaarsteatre.com/|La Caputxeta i el llop": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400788116|https://teatreapolo.com|El ladrón de Arabia. Tributo a Aladdin": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/el-ladron-de-arabia-tributo-a-aladdin/"
   },
   "open_data_bcn:99400788128|https://teatresdelfarro.com/|Sonata del Clar de Lluna": {
     "fecha": "2026-11-17",
@@ -510,6 +658,10 @@
   "open_data_bcn:99400788132|https://cat.teatremuntaner.com/|Humor de madre": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400788133|https://teatremuntaner.com/|Pareja abierta": {
+    "fecha": "2026-11-17",
+    "url": "https://teatremuntaner.com/ca/espectaculos/pareja-abierta/"
   },
   "open_data_bcn:99400788134|https://www.salapangoli.com/|Juguem a nines?": {
     "fecha": "2026-11-17",
@@ -539,6 +691,10 @@
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/el-multiverso-de-wiz-problema"
   },
+  "open_data_bcn:99400788418|http://www.tantarantana.com|El punk no ha mort": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/el-punk-no-ha-mort-temporada-teatre-26-27/"
+  },
   "open_data_bcn:99400788610|https://www.balanaenviu.com/|Verborrea": {
     "fecha": "2026-11-17",
     "url": "https://www.balanaenviu.com/espectaculo/verborrea"
@@ -554,6 +710,10 @@
   "open_data_bcn:99400788651|https://teatregaudibarcelona.com/|Me no pausa": {
     "fecha": "2026-11-17",
     "url": "https://teatregaudibarcelona.koobin.com/ca/me-no-pausa"
+  },
+  "open_data_bcn:99400788717|https://elmalda.cat/|Dibuixant de laberints": {
+    "fecha": "2026-11-17",
+    "url": "https://elmalda.cat/espectacle/el-dibuixant-de-laberints/"
   },
   "open_data_bcn:99400788807|https://cat.teatremuntaner.com/|Las vacas no vuelan": {
     "fecha": "2026-11-17",
@@ -591,13 +751,33 @@
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/el-raro-de-los-90"
   },
+  "open_data_bcn:99400789160|http://www.tantarantana.com|Exhumar": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/exhumar-teatre-26-27/"
+  },
+  "open_data_bcn:99400789168|http://www.tantarantana.com|La mujer del tercero": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/la-mujer-del-tercero-teatre-26-27/"
+  },
+  "open_data_bcn:99400789169|http://www.tantarantana.com|Yeguas sueltas": {
+    "fecha": "2026-11-17",
+    "url": "https://tantarantana.com/production/yeguas-sueltas-teatre-26-27/"
+  },
   "open_data_bcn:99400789179|https://www.sat-teatre.cat/|Cinc minuts": {
     "fecha": "2026-11-17",
     "url": "https://www.sat-teatre.cat/ca/p/c/730-cinc-minuts.html"
   },
+  "open_data_bcn:99400789184|https://www.teatrecondal.cat/|Receta para un musical": {
+    "fecha": "2026-11-17",
+    "url": "https://www.teatrecondal.cat/ca/ex/receta-para-un-musical/"
+  },
   "open_data_bcn:99400789352|https://www.teatreromea.cat/|Tinc un volcà": {
     "fecha": "2026-11-17",
     "url": "https://www.teatreromea.cat/ca/ex/tinc-un-volca/"
+  },
+  "open_data_bcn:99400789355|https://www.balanaenviu.com/|Titó El Musical": {
+    "fecha": "2026-11-17",
+    "url": "https://www.balanaenviu.com/espectaculo/tito-elmusical"
   },
   "open_data_bcn:99400789363|https://www.balanaenviu.com/|El 2026, vist per sentència": {
     "fecha": "2026-11-17",
@@ -639,9 +819,29 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400789433|https://teatreapolo.com|Tadeo Jones y la lámpara maravillosa": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/tadeo-jones-y-la-lampara-maravillosa/"
+  },
+  "open_data_bcn:99400789436|https://teatreapolo.com|Karim - Todo va a ir bien… o no": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/karim-todo-va-a-ir-bien-o-no/"
+  },
+  "open_data_bcn:99400789469|https://teatreolia.cat/|L'esquerda": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreolia.cat/lesquerda-2027/"
+  },
+  "open_data_bcn:99400789473|https://teatreolia.cat/|U-tòpica": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreolia.cat/utopica-2027/"
+  },
   "open_data_bcn:99400789487|https://cat.teatremuntaner.com/|Abbi pazienza": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400789490|https://www.salapangoli.com/|Adultos disfuncionales": {
+    "fecha": "2026-11-17",
+    "url": "https://www.salapangoli.com/producto/adultos-difsuncionales/"
   },
   "open_data_bcn:99400789507|https://teatrebalmes.com/|Meugenio. 25 años de humor eterno": {
     "fecha": "2026-11-17",
@@ -651,9 +851,17 @@
     "fecha": "2026-11-17",
     "url": null
   },
+  "open_data_bcn:99400789512|https://teatrebalmes.com/|Les obres completes de William Shakespeare (abreujades)": {
+    "fecha": "2026-11-17",
+    "url": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/les-obres-completes-de-william-shakespeare-abreujades"
+  },
   "open_data_bcn:99400789513|https://teatrebalmes.com/|Y tú, ¿Tienes pueblo?": {
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/y-tu-tienes-pueblo"
+  },
+  "open_data_bcn:99400789515|https://teatrebalmes.com/|Pantomima": {
+    "fecha": "2026-11-17",
+    "url": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/pantomima"
   },
   "open_data_bcn:99400789516|https://teatrebalmes.com/|El Baul Mágico - Tributo a Disney": {
     "fecha": "2026-11-17",
@@ -671,9 +879,25 @@
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/cosas-que-me-sorprenden-de"
   },
+  "open_data_bcn:99400789561|https://heartbreakhotel.cat/|Retorn a Haifa": {
+    "fecha": "2026-11-17",
+    "url": "https://heartbreakhotel.cat/retorn-a-haifa"
+  },
+  "open_data_bcn:99400789562|https://heartbreakhotel.cat/|Lluna Plena": {
+    "fecha": "2026-11-17",
+    "url": "https://heartbreakhotel.cat/lluna-plena"
+  },
+  "open_data_bcn:99400789564|https://heartbreakhotel.cat/|La paret de vidre": {
+    "fecha": "2026-11-17",
+    "url": "https://heartbreakhotel.cat/la-paret-de-vidre"
+  },
   "open_data_bcn:99400789567|https://heartbreakhotel.cat/|Dublinesos (els morts)": {
     "fecha": "2026-11-17",
     "url": null
+  },
+  "open_data_bcn:99400789568|https://heartbreakhotel.cat/|Teoria King Kong": {
+    "fecha": "2026-11-17",
+    "url": "https://heartbreakhotel.cat/teoria-king-kong"
   },
   "open_data_bcn:99400789953|http://www.tantarantana.com|Transfer": {
     "fecha": "2026-11-17",
@@ -694,5 +918,21 @@
   "open_data_bcn:99400790020|https://www.teatregoya.cat/|Alícia al país dels mòbils": {
     "fecha": "2026-11-17",
     "url": "https://www.teatregoya.cat/ca/ex/alicia-al-pais-dels-mobils/"
+  },
+  "open_data_bcn:99400790032|https://www.salafenix.com/|Ollas limpias, ollas sucias": {
+    "fecha": "2026-11-17",
+    "url": "https://salafenix.com/programacio/ollas-limpias-ollas-sucias/"
+  },
+  "open_data_bcn:99400790036|http://www.anticteatre.com|Cavitat f.": {
+    "fecha": "2026-11-17",
+    "url": "https://www.anticteatre.com/events/event/cavitat-f-alba-ramio-i-guell"
+  },
+  "open_data_bcn:99400790058|https://teatreapolo.com|Misión impro-sible": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/mision-impro-sible/"
+  },
+  "open_data_bcn:99400790059|https://teatreapolo.com|Los 3 Tenores": {
+    "fecha": "2026-11-17",
+    "url": "https://teatreapolo.com/cartelera/los-3-tenores-un-historia-cantada/"
   }
 }
