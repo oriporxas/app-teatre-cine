@@ -17,7 +17,7 @@ import collections
 from ... import horario, senales
 from ...util import leer_json
 from ..base import Contexto, Resultado, id_global
-from . import agendas, descargar, guia, lugares
+from . import agendas, descargar, guia, lugares, mapa
 
 NOMBRE = "open_data_bcn"
 DESCRIPCION = "Agendas de Open Data BCN y fichas públicas de guia.barcelona.cat"
@@ -106,4 +106,5 @@ def recoger(ctx: Contexto) -> Resultado:
         a["guia"] = g if g and not g.get("no_disponible") else None
 
     lugares.asignar(actividades, equipamientos, ctx.ciudad.id)
-    return Resultado([_comun(a, ctx, prioridad[i]) for i, a in actividades.items()], informe)
+    return Resultado([_comun(a, ctx, prioridad[i]) for i, a in actividades.items()], informe,
+                     mapa=mapa.obtener(ctx.carpeta_cache, ctx.hoy))

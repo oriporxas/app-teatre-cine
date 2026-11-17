@@ -1,0 +1,15 @@
+# Medios de los que salen las noticias de la app (canales RSS públicos).
+# La IA (tarea «noticias» de ia.toml) decide de qué va cada noticia: teatro, cine,
+# magia o circo. Las demás (exposiciones, música, libros…) no salen.
+# La app enseña el titular, el medio, la fecha y un resumen breve escrito por la IA,
+# y enlaza siempre al artículo original.
+
+[barcelona]
+fuentes = [
+  { nombre = "betevé", url = "https://beteve.cat/cultura/feed/", idioma = "ca" },
+  { nombre = "Ara", url = "https://www.ara.cat/rss/cultura/", idioma = "ca" },
+  { nombre = "La Vanguardia", url = "https://www.lavanguardia.com/rss/cultura.xml", idioma = "es" },
+  { nombre = "El País", url = "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada", idioma = "es" },
+  { nombre = "Espinof", url = "https://www.espinof.com/index.xml", idioma = "es" },
+  { nombre = "Cinemanía", url = "https://www.20minutos.es/rss/cinemania/", idioma = "es" },
+]

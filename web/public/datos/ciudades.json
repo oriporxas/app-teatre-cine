@@ -1,0 +1,15 @@
+{
+  "barcelona": {
+    "actualizado": "2026-11-17",
+    "espectaculos": 595,
+    "id": "barcelona",
+    "idiomas": [
+      "es",
+      "ca"
+    ],
+    "moneda": "EUR",
+    "nombre": "Barcelona",
+    "pais": "ES",
+    "zona_horaria": "Europe/Madrid"
+  }
+}

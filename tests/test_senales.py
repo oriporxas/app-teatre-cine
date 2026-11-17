@@ -114,10 +114,38 @@ class TestSenales(unittest.TestCase):
                                        "salvar l'Àrtic."))
         self.assertEqual(r["magia"], "no")
 
-    def test_espectaculo_musical_infantil_es_teatro(self):
+    def test_espectaculo_musical_es_musical(self):
+        # Decisión de Uri (8/11/2026): los musicales no son teatro; por ahora no salen.
         r = senales.analizar(actividad("Espectacle musical 'Viatge a l'hivern'",
                                        "Una gran aventura nadalenca amb cançons, música en directe i un concert final."))
-        self.assertEqual(r["tipo"], "teatro")
+        self.assertEqual(r["tipo"], "musical")
+        r = senales.analizar(actividad('Teatre "Exemple, el musical"', "Una comèdia sobre una família."))
+        self.assertEqual(r["tipo"], "musical")
+
+    def test_la_palabra_musical_sola_no_es_teatro(self):
+        r = senales.analizar(actividad("Taller en família 'Estimulació musical per a nadons'",
+                                       "Jocs i cançons per compartir amb els infants."))
+        self.assertEqual(r["tipo"], "otro")
+
+    def test_taller_de_danza_es_evento_de_danza(self):
+        r = senales.analizar(actividad("Taller 'Dansa contemporània'", "Classes de dansa i coreografia per a adults."))
+        self.assertEqual((r["tipo"], r.get("disciplina")), ("evento", "danza"))
+
+    def test_taller_de_teatro_es_evento_de_teatro(self):
+        r = senales.analizar(actividad("Taller 'Improvisació teatral'", "Jocs d'improvisació i teatre per a adults."))
+        self.assertEqual((r["tipo"], r.get("disciplina")), ("evento", "teatro"))
+
+    def test_ensayo_abierto_ajeno_al_sector(self):
+        r = senales.analizar(actividad("Assaig obert de la colla", "Vine a veure com assagem els castells."))
+        self.assertEqual(r["tipo"], "otro")
+
+    def test_espectaculo_de_danza_con_poco_vocabulario(self):
+        r = senales.analizar(actividad('Espectacle "Prova"', "Una peça de dansa amb coreografia de l'autora."))
+        self.assertEqual(r["tipo"], "danza")
+
+    def test_concierto_con_titulo_de_espectaculo(self):
+        r = senales.analizar(actividad('Espectacle "Soulful nit"', "Una banda de jazz i gospel en directe."))
+        self.assertEqual(r["tipo"], "otro")
 
     def test_personaje_famoso_mago_de_oz(self):
         r = senales.analizar(actividad('Musical "El Mago de Oz"', "Un musical familiar sobre la història de la Dorothy."))
@@ -158,9 +186,33 @@ class TestSenales(unittest.TestCase):
         self.assertEqual(senales.analizar(actividad("Concert de piano"))["tipo"], "otro")
         self.assertEqual(senales.analizar(actividad("Exposició 'Fonts màgiques'"))["tipo"], "otro")
 
+    def test_sin_formato_ni_vocabulario_escenico_no_es_teatro(self):
+        r = senales.analizar(actividad("Alteracions de trànsit amb motiu de la cursa popular",
+                                       "Recorregut: inici a la plaça i arribada al passeig, on hi haurà un escenari amb música."))
+        self.assertEqual(r["tipo"], "otro")
+        self.assertLess(r["confianza"], 0.7)  # dudoso: la IA lo revisará
+
+    def test_espectaculo_en_medio_del_titulo_sigue_siendo_espectaculo(self):
+        r = senales.analizar(actividad("Matinals infantils. Espectacle familiar 'Prova'",
+                                       "Un espectacle per a tota la família."))
+        self.assertEqual(r["tipo"], "teatro")
+
+    def test_clown_es_teatro_con_etiqueta(self):
+        r = senales.analizar(actividad('Espectacle de clown "Prova"', "Un pallasso i les seves aventures."))
+        self.assertEqual((r["tipo"], r["subtipo"]), ("teatro", "clown"))
+
+    def test_circo_con_un_payaso_sigue_siendo_circo(self):
+        r = senales.analizar(actividad('Espectacle de circ "Prova"',
+                                       "Acrobàcies, malabars i trapezi, amb un pallasso que presenta els números."))
+        self.assertEqual(r["tipo"], "circo")
+
     def test_festival_de_magia(self):
         r = senales.analizar(actividad("Festival de Màgia d'Exemple 2026"))
         self.assertEqual((r["tipo"], r["subtipo"], r["magia"]), ("evento", "festival", "tema"))
+
+    def test_ciclo_de_musica_no_es_del_sector(self):
+        r = senales.analizar(actividad("Cicle de Jazz al barri", "Concerts de jazz cada divendres a l'escenari de la plaça."))
+        self.assertEqual(r["tipo"], "otro")
 
     def test_festival_con_ordinal_delante(self):
         r = senales.analizar(actividad("12è Festival de Màgia d'Exemple"))

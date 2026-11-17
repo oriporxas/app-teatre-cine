@@ -64,6 +64,9 @@ class Contexto:
 class Resultado:
     actividades: list[dict]
     informe: dict = field(default_factory=dict)
+    # Opcional: contorno de las zonas de la ciudad para el mapa de la app
+    # ({"areas": [{"nombre": …, "anillos": [[[lon, lat], …], …]}], "fuente": …}).
+    mapa: dict | None = None
 
 
 def id_global(fuente: str, id_origen: str) -> str:

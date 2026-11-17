@@ -28,6 +28,11 @@ URL = "https://guia.barcelona.cat/ca/detall/{slug}_{id}.html"
 ESPERA_SEGUNDOS = 10
 # Minutos máximos leyendo fichas en una ejecución, si no se indica otra cosa.
 MINUTOS_POR_DEFECTO = 30
+# Versión del lector. Al mejorarlo, las fichas leídas con una versión anterior a las que les
+# faltaba algo (descripción o cartel) se vuelven a leer, poco a poco y con la misma pausa.
+# 2 (8/11/2026): la guía marca a veces la descripción y el cartel con otra clase
+# («cos notranslate», «img-destacada») y el lector anterior no los veía.
+LECTOR = 2
 
 
 def _limpiar(fragmento: str) -> str:
@@ -52,7 +57,7 @@ def analizar(pagina: str) -> dict:
     # Descripción: los <div class="cos"> antes de las pestañas.
     fin_desc = bloque.find('<div id="contenidor-pestanes"')
     zona_desc = bloque[:fin_desc] if fin_desc > 0 else bloque
-    trozos = re.findall(r'<div class="(?:entradeta|cos)">(.*?)</div>', zona_desc, re.S)
+    trozos = re.findall(r'<div class="(?:entradeta|cos)(?:\s[^"]*)?">(.*?)</div>', zona_desc, re.S)
     descripcion = "\n".join(t for t in (_limpiar(x) for x in trozos) if t)
     if descripcion:
         m = re.search(r"^\s*(?:Organitza|Organiza)\s*:\s*(.+)$", descripcion, re.M)
@@ -60,7 +65,7 @@ def analizar(pagina: str) -> dict:
             datos["organiza"] = m.group(1).strip()
         datos["descripcion"] = descripcion
 
-    img = re.search(r'<div class="img-guia"><img[^>]+src="([^"]+)"', zona_desc)
+    img = re.search(r'<div class="img-(?:guia|destacada)[^"]*"><img[^>]+src="([^"]+)"', zona_desc)
     if img:
         datos["imagen"] = img.group(1)
 
@@ -111,9 +116,14 @@ def actualizar(actividades: dict[str, dict], prioridad: dict[str, float], ruta_c
     for id_ in list(cache):
         if id_ not in actividades:
             del cache[id_]
-    pendientes = [i for i, a in actividades.items()
-                  if cache.get(i, {}).get("modificado_origen") != a.get("modificado")]
-    pendientes.sort(key=lambda i: -prioridad.get(i, 0))
+    def incompleta(ficha: dict) -> bool:
+        return (not ficha.get("no_disponible") and ficha.get("lector", 1) < LECTOR
+                and not (ficha.get("descripcion") and ficha.get("imagen")))
+
+    nuevas = [i for i, a in actividades.items() if cache.get(i, {}).get("modificado_origen") != a.get("modificado")]
+    releer = [i for i in actividades if i in cache and i not in nuevas and incompleta(cache[i])]
+    # Primero las nuevas o cambiadas; después, las que el lector anterior leyó a medias.
+    pendientes = sorted(nuevas, key=lambda i: -prioridad.get(i, 0)) + sorted(releer, key=lambda i: -prioridad.get(i, 0))
     limite = time.monotonic() + minutos_maximos * 60
     leidas = errores = 0
     ultima = 0.0
@@ -131,6 +141,7 @@ def actualizar(actividades: dict[str, dict], prioridad: dict[str, float], ruta_c
             datos["url"] = url
             datos["comprobado"] = time.strftime("%Y-%m-%d")
             datos["modificado_origen"] = a.get("modificado")
+            datos["lector"] = LECTOR
             cache[id_] = datos
             leidas += 1
         except urllib.error.HTTPError as e:

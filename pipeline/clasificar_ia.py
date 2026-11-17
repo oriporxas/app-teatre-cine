@@ -16,20 +16,23 @@
 from __future__ import annotations
 
 import json
-import os
+import os  # noqa: F401  (lo usan otras partes)
 import re
 import time
 
 from pathlib import Path
 
-from . import config
+from . import config, ia
 from .ajustes import Ciudad, TareaIA
+from .genero import GENEROS, MAXIMO as MAXIMO_GENEROS
 from .senales import SUBTIPOS_MAGIA
 from .util import guardar_json, huella, leer_json
 
 IDIOMAS = {"ca": "catalán", "es": "castellano", "en": "inglés", "fr": "francés", "it": "italiano",
            "de": "alemán", "pt": "portugués"}
-TIPOS = ["teatro", "magia", "circo", "danza", "evento", "cine", "otro"]
+TIPOS = ["teatro", "magia", "circo", "danza", "musical", "evento", "cine", "otro"]
+# De qué disciplina es cada actividad (en los eventos, la del taller, festival o charla).
+DISCIPLINAS = ["teatro", "clown", "magia", "circo", "danza", "musical", "música", "cine", "otra"]
 RELACION_MAGIA = ["principal", "incluye", "tema", "no"]
 
 ESQUEMA = {
@@ -43,11 +46,13 @@ ESQUEMA = {
                     "id": {"type": "string"},
                     "tipo": {"type": "string", "enum": TIPOS},
                     "subtipo": {"type": "string"},
+                    "disciplina": {"type": "string", "enum": DISCIPLINAS},
                     "magia": {"type": "string", "enum": RELACION_MAGIA},
+                    "generos": {"type": "array", "items": {"type": "string", "enum": list(GENEROS)}},
                     "confianza": {"type": "number"},
                     "motivo": {"type": "string"},
                 },
-                "required": ["id", "tipo", "subtipo", "magia", "confianza", "motivo"],
+                "required": ["id", "tipo", "subtipo", "disciplina", "magia", "generos", "confianza", "motivo"],
                 "additionalProperties": False,
             },
         }
@@ -74,7 +79,12 @@ def instrucciones(ciudad: Ciudad, idioma_textos: str) -> str:
         f"{criterios()}\n\n"
         "Formato de respuesta: un objeto por actividad, con el mismo «id». «subtipo» es una etiqueta "
         "breve en castellano (vacía si no aplica); para el tipo «magia» tiene que ser exactamente una de: "
-        f"{', '.join(SUBTIPOS_MAGIA)}. «confianza» va de 0 a 1 y dice lo segura que es la "
+        f"{', '.join(SUBTIPOS_MAGIA)}; para el tipo «teatro», «clown» si el clown es la razón principal del "
+        "espectáculo (si no, vacío). «disciplina» es la disciplina de la actividad (en un evento, la del "
+        "taller, festival o charla: un taller de danza tiene disciplina «danza»). «generos»: solo en los "
+        f"tipos «teatro» y «musical», el género de la obra, como mucho {MAXIMO_GENEROS}, de esta lista: "
+        f"{', '.join(GENEROS)}; ponlo solo si la descripción lo dice o si el argumento no deja ninguna duda "
+        "(si no estás muy seguro, lista vacía); en los demás tipos, lista vacía. «confianza» va de 0 a 1 y dice lo segura que es la "
         "decisión: decide siempre, aunque dudes, y baja la confianza. «motivo» es una frase breve en "
         "castellano que explique la decisión citando la pista que la justifica (título, descripción, "
         "sala o artista). Usa solo lo que dicen los datos: no inventes artistas ni premios."
@@ -99,8 +109,8 @@ def _entrada(a: dict, senal: dict) -> dict:
     }
 
 
-def disponible() -> bool:
-    return bool(os.environ.get("ANTHROPIC_API_KEY"))
+clave = ia.clave
+disponible = ia.disponible
 
 
 def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], candidatos: list[str],
@@ -114,7 +124,8 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
             del cache[id_]
     informe = {"tarea": tarea.nombre, "modelo": tarea.modelo, "activa": tarea.activa,
                "disponible": disponible(), "candidatas": len(candidatos), "enviadas": 0,
-               "errores": 0, "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0}
+               "errores": 0, "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0,
+               "tokens_cache_escritura": 0}
     idioma = next((a.get("idioma_textos") for a in actividades.values()), "ca")
     sistema = instrucciones(ciudad, idioma) if disponible() else ""
     firma = huella(sistema, tarea.modelo, tarea.esfuerzo)
@@ -126,12 +137,14 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
     if tarea.activa and disponible() and pendientes:
         import anthropic  # solo hace falta si hay clave
 
-        cliente = anthropic.Anthropic(max_retries=4)
+        # La dirección se fija: en algunos entornos ANTHROPIC_BASE_URL apunta a otro servicio.
+        cliente = ia.cliente()
         pendientes = pendientes[: tarea.maximo_por_ejecucion]
         for n in range(0, len(pendientes), tarea.por_peticion):
             lote = pendientes[n:n + tarea.por_peticion]
             mensaje = json.dumps([entradas[i] for i in lote], ensure_ascii=False)
             try:
+                ia.GASTO.comprobar()
                 peticion = dict(
                     model=tarea.modelo,
                     max_tokens=16000,
@@ -150,9 +163,11 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                     respuesta = cliente.beta.messages.create(
                         betas=["server-side-fallback-2026-07-01"], fallbacks="default", **peticion)
                 uso = respuesta.usage
+                ia.GASTO.sumar(tarea.nombre, tarea.modelo, uso)
                 informe["tokens_entrada"] += uso.input_tokens or 0
                 informe["tokens_salida"] += uso.output_tokens or 0
                 informe["tokens_cache"] += getattr(uso, "cache_read_input_tokens", 0) or 0
+                informe["tokens_cache_escritura"] += getattr(uso, "cache_creation_input_tokens", 0) or 0
                 if respuesta.stop_reason in ("refusal", "max_tokens"):
                     informe["errores"] += 1
                     continue
@@ -164,9 +179,16 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                     r["subtipo"] = r.get("subtipo") or None
                     if r["tipo"] == "magia" and r["subtipo"] not in SUBTIPOS_MAGIA:
                         r["subtipo"] = "magia general"
+                    if r["tipo"] != "evento":
+                        r.pop("disciplina", None)
+                    r["generos"] = ([g for g in GENEROS if g in (r.get("generos") or [])][:MAXIMO_GENEROS]
+                                    if r["tipo"] in ("teatro", "musical") else [])
                     cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
                                       "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
                 informe["enviadas"] += len(lote)
+            except ia.TopeDeGasto as e:
+                informe["aviso"] = str(e)
+                break
             except anthropic.AuthenticationError:
                 informe["errores"] += 1
                 informe["aviso"] = "La clave de la IA no es válida."

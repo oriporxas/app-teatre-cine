@@ -9,11 +9,21 @@ Escrito el 8/11/2026. **Hoy solo funciona Barcelona, a propósito.**
 | Trabajo | Qué hace | Cuándo | Quién espera |
 |---|---|---|---|
 | **Recogida** (`pipeline/`) | descarga fuentes, lee webs respetando sus límites, entiende horarios, clasifica, agrupa salas | cada día a horas fijas (GitHub Actions, 05:17 UTC) | nadie |
-| **Búsqueda** (fase 2, por hacer) | responde a lo que pide el usuario | al momento | el usuario: menos de 1 segundo |
+| **Búsqueda** (`web/`, fase 2) | responde a lo que pide el usuario | al momento | el usuario: menos de 1 segundo |
 
 La búsqueda nunca lee webs ni llama a la IA: solo consulta datos ya
 preparados. Por eso el coste crece con las ciudades y los espectáculos, no
 con las búsquedas.
+
+**Cómo es hoy la búsqueda (fase 2).** Al terminar la recogida,
+`pipeline/exportar_web.py` escribe un archivo por ciudad
+(`web/public/datos/<ciudad>.json`, unos 1,2 MB, 0,3 MB comprimido) con lo que
+la app necesita, y un índice (`web/public/datos/ciudades.json`). El móvil
+descarga el archivo de su ciudad una vez y busca dentro, al instante y sin
+conexión. Servir archivos así es gratis o casi en cualquier alojamiento de
+webs, y no cuesta más por buscar más. Solo se envía lo que se sabe (los
+campos desconocidos no viajan) y solo lo que sale en la app (teatro, magia,
+circo y eventos; ni danza ni cine por ahora).
 
 ## 2. Ciudades (`ajustes/ciudades.toml`)
 
@@ -70,12 +80,18 @@ donde hacerlo está marcado en `pipeline/principal.py`.
 Cada tarea tiene su modelo, su esfuerzo y su tope diario. Cambiar de modelo
 es cambiar una línea. Hoy:
 
-| Tarea | Modelo provisional | Qué hace |
+| Tarea | Modelo (prueba del 8/11/2026) | Qué hace |
 |---|---|---|
-| `clasificar` | `claude-haiku-5-5` | clasifica lo nuevo o cambiado |
+| `clasificar` | `claude-sonnet-5-5` (esfuerzo medio) | clasifica lo nuevo o cambiado |
 | `revisar_dudosos` | `claude-opus-5-5` | vuelve a mirar lo que la tarea anterior decidió con confianza < 0,7 |
-| `fichas_personas` | `claude-opus-5-5` (desactivada) | fase 3: trayectorias y premios |
+| `fichas_personas` | `claude-sonnet-5-5` + búsqueda web | trayectoria y premios (con fuente comprobada) de los magos |
+| `traducir` | `claude-haiku-5-5` | traduce las descripciones, saca los premios citados (cita comprobada) y los temas |
+| `noticias` | `claude-haiku-5-5` | tema y resumen de una frase de cada noticia |
+| `horarios_cine` | `claude-haiku-5-5` (reservada) | para leer webs de cines sin lector propio (aún no se usa) |
 
+- **Freno de gasto** (`pipeline/ia.py`): todas las tareas pasan por el mismo contador; al
+  llegar al tope de `[presupuesto]` (o de `IA_TOPE_USD`), ninguna vuelve a llamar a la IA
+  en esa ejecución. Lo pendiente se hace otro día. Gasto por día y tarea: `data/gasto_ia.json`.
 - Cada tarea tiene su memoria (`data/ciudades/<ciudad>/cache/ia/<tarea>.json`):
   nada se paga dos veces si no cambia.
 - Para pruebas puntuales (por ejemplo, comparar modelos) se puede sustituir un
@@ -83,12 +99,24 @@ es cambiar una línea. Hoy:
 - Sin la clave `ANTHROPIC_API_KEY` no se usa la IA y no se gasta nada.
 
 **Al activar la IA (cuando Uri avise):**
-1. Probar Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia y enseñar
-   aciertos y coste de cada uno; fijar los modelos en `ajustes/ia.toml` con
-   esos datos.
+1. ~~Probar Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia~~ Hecho
+   (`docs/pruebas/2026-11-08-prueba-modelos.md`, `pipeline/comparar_modelos.py`);
+   modelos fijados en `ajustes/ia.toml`. Activada el 17/11/2026 (gasto de la primera
+   noche, en `data/gasto_ia.json`).
 2. Pasar el trabajo nocturno al procesamiento por lotes (Batch), que cuesta
    la mitad: se envía el lote en una ejecución y se recogen los resultados en
    la misma o en la siguiente. Hoy las peticiones son directas.
+
+## 4 bis. Cine y noticias (17/11/2026)
+
+- `pipeline/cine/`: pieza aparte de la ciudad (`cine = true` en `ajustes/ciudades.toml`).
+  No son actividades de la agenda sino películas con sesiones en muchos cines. Lectores por
+  tipo de web (no por cine), robots.txt siempre respetado, TMDB y Wikidata con caché.
+  Detalle en `docs/fuentes/cine.md`.
+- `pipeline/noticias.py`: canales RSS de `ajustes/noticias.toml` por ciudad
+  (`noticias = true`).
+- La app descarga un archivo por cosa: `<ciudad>.json` (escena), `<ciudad>-cine.json`,
+  `<ciudad>-noticias.json`. Para otra ciudad basta con sus fuentes y sus medios.
 
 ## 5. Dónde viven los datos
 
@@ -102,12 +130,19 @@ data/
     informe.json                   qué ha pasado hoy
     cache/<fuente>/…               memoria de cada fuente
     cache/ia/<tarea>.json          memoria de cada tarea de IA
+web/public/datos/
+  ciudades.json                    ciudades que tiene la app
+  <ciudad>.json                    la cartelera que descarga el móvil
 ```
 
-### Cómo serán las tablas de la base de datos (fase 2)
+### Cuándo llegará una base de datos
 
-Cuando se monte la búsqueda, estos archivos se cargarán en una base de datos
-de verdad. Las tablas seguirán el mismo formato:
+Mientras una ciudad quepa en un archivo que el móvil descarga en un momento
+(miles de espectáculos), no hace falta base de datos: es más rápido, más
+barato y funciona sin conexión. Llegará en la **fase 4**, con las cuentas
+(favoritos y alertas guardados en la nube), o antes si una ciudad crece tanto
+que su archivo pesa demasiado (entonces se parte por fechas o por barrios, o
+se busca en el servidor). Las tablas seguirán el mismo formato:
 
 - **ciudades**: id, nombre, país, zona horaria, moneda, idiomas.
 - **salas**: id (`<ciudad>:…`), ciudad, nombre, salas interiores, dirección,
@@ -123,7 +158,7 @@ un segundo aunque haya muchas ciudades.
 
 | Hoy | Por qué choca a gran escala | Qué se hará |
 |---|---|---|
-| Los resultados se guardan como archivos dentro del repositorio | Con muchas ciudades el repositorio crecería sin parar, y buscar en archivos no da respuestas en menos de un segundo | En la fase 2 (ya prevista) se cargan en una base de datos; el repositorio queda para el código. El programa no cambia: solo dónde guarda |
+| Los resultados se guardan como archivos dentro del repositorio | Con muchas ciudades el repositorio crecería sin parar | La búsqueda ya es rápida (el móvil busca en el archivo de su ciudad). Cuando haya más ciudades o cuentas (fase 4), los datos pasan a una base de datos y a un almacén de archivos fuera del repositorio, que queda para el código. El programa no cambia: solo dónde guarda |
 | La recogida se hace en GitHub Actions (gratis hasta 2.000 minutos al mes) | Muchas ciudades no cabrían en ese tiempo | Cuando haya más ciudades, pasar la recogida a un servidor en la nube que trabaje con muchas fuentes a la vez. Como cada ciudad y cada fuente son independientes, se pueden repartir |
 | Las fuentes se leen una detrás de otra | Más lento de lo necesario | Lo mismo: leerlas a la vez, cada una con su propio límite de velocidad |
 | La capa de señales solo entiende catalán, castellano e inglés | En otras ciudades no sirve tal cual | Allí la IA hace el trabajo principal; las señales quedan como ayuda local |

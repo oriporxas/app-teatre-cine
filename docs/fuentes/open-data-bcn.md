@@ -99,13 +99,21 @@ usan; de todas formas, el brief dice que solo son una pista y que fallan.
 - `robots.txt` permite esas páginas y pide **Crawl-delay: 10**: el programa
   espera 10 segundos entre páginas, siempre. También prohíbe los listados y
   búsquedas (`/llistat`, `pg=search`), que no se usan.
-- De la ficha se extrae: descripción (`div.cos`), organizador, imagen, sala y
-  su identificador (el bloque `info-lloc` enlaza a `<sala>_<id>.html`), «Se
-  celebra a» (tipo de lugar), enlaces («Web venda d'entrades», «Web») y
-  estado («Cancel·lat»…).
-- Se guarda en `data/ciudades/barcelona/cache/open_data_bcn/guia.json` con la fecha de lectura y la versión
-  (`modified`) de la actividad. Solo se relee si el Ayuntamiento modifica la
-  actividad.
+- De la ficha se extrae: descripción (`div.entradeta` y `div.cos`, que a veces
+  llevan otra clase, `notranslate`), organizador, imagen (`div.img-guia` o
+  `div.img-destacada`), sala y su identificador (el bloque `info-lloc` enlaza a
+  `<sala>_<id>.html`), «Se celebra a» (tipo de lugar), enlaces («Web venda
+  d'entrades», «Web») y estado («Cancel·lat»…).
+- La **ficha artística** va dentro de la descripción (suele empezar con
+  «Fitxa artística»), escrita de muchas maneras; la lee `pipeline/equipo.py`.
+- Se guarda en `data/ciudades/barcelona/cache/open_data_bcn/guia.json` con la fecha de lectura, la versión
+  (`modified`) de la actividad y la versión del lector (`lector`). Se relee si
+  el Ayuntamiento modifica la actividad, o si una versión anterior del lector
+  la leyó sin descripción o sin cartel (8/11/2026: el lector 1 no veía las
+  clases `notranslate` ni `img-destacada`; unas 960 fichas se releen poco a
+  poco, primero las que salen en la app).
+- Las **imágenes** están en `estatics-nasia.dtibcn.cat`, cuyo robots.txt
+  prohíbe todo acceso automático: no se descargan; la app solo las enlaza.
 - Orden de lectura: primero espectáculos y actividades con título poco claro,
   después festivales, talleres y charlas, y al final conciertos, exposiciones
   y visitas. El proceso diario lee como mucho 35 minutos (unas 200 fichas);

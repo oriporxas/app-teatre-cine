@@ -19,15 +19,17 @@ tiene dos partes:
 
 Cada actividad recibe exactamente un **tipo**:
 
-- **teatro**: obras de teatro de cualquier género (drama, comedia, musical, teatro familiar e infantil, títeres y marionetas, clown teatral, monólogos y stand-up, improvisación, cabaret y variedades, lecturas dramatizadas, zarzuela).
+- **teatro**: obras de teatro de cualquier género (drama, comedia, teatro familiar e infantil, títeres y marionetas, clown teatral, monólogos y stand-up, improvisación, cabaret y variedades, lecturas dramatizadas, zarzuela).
 - **magia**: espectáculos cuya **razón única y principal** es que un mago, ilusionista, mentalista o hipnotizador haga magia en directo ante el público. Incluye el ilusionismo, la magia de cerca, la magia de escena, la cartomagia, el escapismo, la magia cómica y la magia familiar, **el mentalismo y la hipnosis de espectáculo** (los dos son ramas de la magia). Cada espectáculo de magia lleva un **subtipo**, que la app mostrará como etiqueta y servirá para filtrar:
   - `magia de cerca`: a pocos centímetros del público, en mesa o en salas pequeñas (close-up, «màgia de prop», cartomagia, magia de salón o de cámara);
   - `mentalismo`: lectura de la mente, predicciones, telepatía, «lo imposible en tu mente»;
   - `hipnosis`: hipnosis de espectáculo con voluntarios;
   - `magia general`: magia de escena, grandes ilusiones, magia familiar o cómica, o cuando mezcla varias sin que domine una.
-- **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios, payasos de circo.
+- **circo**: circo clásico y contemporáneo, acrobacias, malabares, aéreos, equilibrios. Un espectáculo de circo con algún payaso sigue siendo circo.
+- **clown** (subtipo de teatro): cuando el clown o los payasos son la razón principal del espectáculo, el tipo es «teatro» y el subtipo «clown» (decisión de Uri, 8/11/2026). En los eventos, un taller de clown tiene disciplina «clown».
 - **danza**: espectáculos cuya disciplina principal es la danza (contemporánea, ballet, flamenco, danzas urbanas…).
-- **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios).
+- **musical**: teatro musical («Musical…», «…, el musical», «Teatre musical», o cuando la descripción lo presenta como un musical: «és un musical», «aquest musical»). Un «espectacle musical» que en realidad es un concierto (un grupo que toca sus canciones) es «otro». En la app, el teatro musical sale dentro de teatro con la etiqueta «Musical» (decisión de Uri, 9/11/2026; antes no salía).
+- **evento**: actividades del sector de las artes escénicas que no son una función normal. Subtipos: `festival` (festivales, muestras y ciclos), `formación` (talleres, cursos, clases, masterclass), `conferencia o coloquio` (charlas, mesas redondas, presentaciones, encuentros), `ensayo abierto`, `puertas abiertas`, `estreno` (presentación o gala de estreno), `convocatoria` (plazos para presentar espectáculos, cortos o proyectos) y `premios` (galas, concursos, entregas de premios). Cada evento lleva además su **disciplina** (teatro, magia, circo, danza, musical, música…): un taller de danza es un evento de disciplina «danza». En la app solo salen, por ahora, los eventos de teatro, magia y circo.
 - **cine**: proyecciones y ciclos de cine (se mostrarán en la fase 6).
 - **otro**: todo lo que no es del sector: conciertos y ópera, exposiciones, visitas guiadas y rutas, deportes, mercados y ferias, cuentacuentos y narración oral, espectáculos de divulgación o sensibilización (medio ambiente, ciencia…), talleres de otras materias (cocina, pintura, manualidades, informática…), actos institucionales.
 
@@ -40,6 +42,12 @@ Además del tipo, cada actividad tiene un campo **magia**:
 - `tema`: evento cuyo tema es la magia: festival de magia, taller o curso de magia, conferencia sobre magia. **Los talleres de magia son «evento > formación» con magia = tema**, nunca «magia».
 - `no`: sin relación con la magia. También cuando la magia solo es el argumento de una historia (ver criterio 4).
 
+### Género de las obras de teatro (campo aparte)
+
+En los tipos «teatro» y «musical», el campo **generos** dice el género de la obra (como mucho dos), para que la app lo muestre en la tarjeta (decisión de Uri, 9/11/2026). Valores: `musical`, `títeres`, `monólogo` (también el stand-up), `improvisación`, `clown`, `cabaret`, `teatro de objetos`, `teatro físico` (o gestual), `lectura dramatizada`, `teatro documental`, `suspense` (thriller, intriga), `tragicomedia`, `comedia` (también humor, sátira y farsa), `drama`, `tragedia`.
+
+**Solo si es seguro**: cuando la descripción lo dice («és una comèdia», «aquest musical», «un monòleg», «un espectacle de titelles», «Gènere: Comèdia») o cuando el argumento no deja ninguna duda. Una palabra suelta no basta («una mica de comèdia», «el drama de l'habitatge», «una alta dosi d'improvisació», «direcció musical»). Si hay dudas, la lista va vacía: es mejor no poner género que ponerlo mal. En los demás tipos, la lista va vacía.
+
 ### Cómo decidir
 
 1. **Lee y entiende la descripción, no solo el título.** El título no basta, ni para incluir ni para excluir: hay espectáculos de magia cuyo título no lo dice y que solo se reconocen por la descripción o por el artista (cuando se presenta como «Mag …», «Mago …», «Maga …», ilusionista o mentalista), y hay muchas obras con «màgia» en el título que no son magia. Usa título, descripción, sala, tipo de lugar, organizador, artista y horario.
@@ -51,7 +59,9 @@ Además del tipo, cada actividad tiene un campo **magia**:
 7. **Disciplina principal.** Si un espectáculo mezcla disciplinas, el tipo es la que domina según la descripción. Si la magia es solo una parte (un número dentro de un espectáculo de circo, clown o variedades), el tipo es el de la disciplina principal y magia = `incluye`.
 8. **Mentalismo e hipnosis son magia.** Todo espectáculo de mentalismo o de hipnosis de espectáculo es «magia», con su subtipo, aunque no use la palabra «màgia». Solo si es el número del espectáculo: un «gato hipnotizador» o un «asno mago» que son personajes de un cuento no cuentan. «Escapisme» suele significar «evasión», no el número de escapismo.
 9. **Público familiar o infantil no cambia el tipo.** Un espectáculo de magia para familias («espectacle de màgia familiar») es «magia»; una obra infantil con magia en el argumento es «teatro».
-10. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
+10. **Teatro no es la opción por defecto.** Si nada indica que sea un espectáculo o un evento de artes escénicas (ni el formato, ni la palabra «espectáculo», ni vocabulario de la disciplina), es «otro»: una carrera popular, una feria, un aviso de cortes de tráfico, una charla sobre vivienda. Que la descripción nombre un teatro o un escenario no basta.
+11. **Cuidado con las palabras que comparten varias artes.** «Direcció», «obra», «escenari», «companyia», «intèrprets», «comèdia» o «improvisació» aparecen también en danza, música, cine o pintura («una obra d'art», «la Divina comèdia», «Contact Improvisació»), y «musical» sola suele ser música («estimulació musical per a nadons»). No bastan para decir que algo es teatro: hace falta que sea teatro de verdad (una obra, títeres, clown, monólogo, cabaret…) o que lo diga la descripción.
+12. **Decide siempre.** Si dudas, elige la opción más probable y baja la confianza (0,5 o menos si es casi un empate; 0,9 o más si es evidente).
 <!-- criterios:fin -->
 
 ---
@@ -75,7 +85,18 @@ Además del tipo, cada actividad tiene un campo **magia**:
    - lee el **género que declara la descripción** («Contacontes…»,
      «Espectacle de divulgació…», «Espectacle de circ…») y le hace caso;
    - reconoce el **mentalismo** y la **hipnosis** y pone el **tipo de magia**
-     (de cerca, general, mentalismo o hipnosis).
+     (de cerca, general, mentalismo o hipnosis);
+   - separa las palabras propias del teatro («teatre», «dramatúrgia», «titelles»,
+     «monòleg», «clown») de las que comparten varias artes («direcció», «obra»,
+     «escenari», «companyia»), que cuentan poco;
+   - reconoce los **musicales** como género propio y, en los eventos, su
+     **disciplina** (un taller de danza o de música no es de teatro);
+   - si casi no hay vocabulario de teatro, circo o magia y sí de danza o de
+     música, no lo da por teatro;
+   - no da nada por teatro «por defecto»: si el título no dice qué es, no
+     lleva la palabra «espectáculo» y casi no hay vocabulario escénico, queda
+     como «otro» dudoso (confianza 0,5) y fuera de la cartelera hasta que la
+     IA lo lea.
 
    No contiene ninguna lista de espectáculos, artistas ni salas.
    - Si no hay clave de IA, su decisión es la que se publica
@@ -108,8 +129,9 @@ en la misma carpeta, que incluye también lo descartado):
 
 | Campo | Qué es |
 |---|---|
-| `tipo` | teatro, magia, circo, danza, evento, cine u otro |
+| `tipo` | teatro, magia, circo, danza, musical, evento, cine u otro |
 | `subtipo` | etiqueta breve (formación, festival…); en magia, el tipo de magia: magia de cerca, magia general, mentalismo o hipnosis |
+| `disciplina` | solo en los eventos: de qué es el taller, festival o charla (teatro, magia, circo, danza, musical, música…) |
 | `magia` | principal, incluye, tema o no (al buscar magia solo salen los «principal») |
 | `confianza` | de 0 a 1 |
 | `motivo` | frase que explica la decisión |
@@ -141,24 +163,23 @@ generales:
 
 ### Coste y modelo
 
-- Modelos provisionales (`ajustes/ia.toml`): `claude-haiku-5-5` para
-  clasificar y `claude-opus-5-5` para revisar los dudosos. Se cambian
-  editando ese archivo, sin tocar el código. Cuando se active la IA se
-  probarán Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia para
-  elegir con datos (aciertos y coste), y el trabajo nocturno pasará al
-  procesamiento por lotes (Batch), que cuesta la mitad.
+- Modelos (`ajustes/ia.toml`), elegidos con la prueba de los tres modelos del
+  8/11/2026 (`docs/pruebas/2026-11-08-prueba-modelos.md`):
+  `claude-sonnet-5-5` (esfuerzo medio) para clasificar y `claude-opus-5-5`
+  para revisar los dudosos (confianza < 0,7, aprox. 1 de cada 10). Haiku
+  acertó la magia igual, pero en los casos difíciles se equivoca con mucha
+  confianza, y la revisión de dudosos no lo corrige. Se cambian editando ese
+  archivo, sin tocar el código. El trabajo nocturno pasará al procesamiento
+  por lotes (Batch), que cuesta la mitad.
 - Se envían 10 actividades por petición (5 en la revisión) y las
   instrucciones van en caché.
 - No todo se envía a la IA: de ~6.900 actividades vigentes, unas 1.800 son
   candidatas (las demás son claramente conciertos, exposiciones, visitas,
   talleres de otras materias…).
-- Estimación (precios de octubre de 2026: Haiku 5.5 a 0,10 $/0,50 $ y Opus
-  5.5 a 4 $/20 $ por millón de tokens de entrada/salida; a confirmar con el
-  coste real). Todo con Haiku: unos 0,30 $ la primera vez y menos de 1 $/mes.
-  Todo con Opus: unos 10–15 $ la primera vez y 10–20 $/mes. Con la
-  combinación prevista (Haiku y solo los dudosos a Opus), según cuántos
-  dudosos salgan, algo intermedio: del orden de 2–5 $ la primera vez y unos
-  pocos dólares al mes. El informe diario (`informe.json` de cada ciudad,
+- Coste medido en la prueba (por 1000 actividades): Haiku 0,13–0,17 $,
+  Sonnet 2,1 $, Opus 4,3–5,3 $. Con Sonnet y la revisión de dudosos con Opus,
+  en Barcelona: unos 4,6 $ la primera vez (1712 candidatas) y como mucho
+  12 $/mes (6 $ por lotes), contando 150 novedades al día. El informe diario (`informe.json` de cada ciudad,
   apartado `ia`) guarda los tokens gastados por tarea para medir el coste
   real.
 
@@ -200,3 +221,39 @@ generales:
   distinguir su tipo (talleres infantiles o para adultos, festivales…). →
   Cada ficha lleva ahora `publico`, edades y, en la formación, `nivel`; el
   informe de la prueba agrupa los eventos por tipo.
+- **8/11/2026, al montar la app (fase 2):** con la cartelera a la vista
+  aparecieron como «teatro» actividades que no lo son (un aviso de cortes de
+  tráfico por una carrera, una media maratón, una feria de manga, una bienal
+  de arte digital), porque la capa de señales daba por teatro todo lo que
+  no tenía disciplina clara. → Criterio 10: sin formato en el título, sin la
+  palabra «espectáculo» y casi sin vocabulario escénico, es «otro» dudoso.
+  Salen de la cartelera 45 actividades; la medición de magia sigue en 55 de
+  55.
+- **8/11/2026, Uri prueba la app:** salían muchos talleres y espectáculos que
+  no eran de teatro, magia ni circo (danza, musicales, talleres de música para
+  bebés…). Decisión de Uri: por ahora, solo teatro, magia y circo. → Los
+  musicales son un tipo propio; cada evento lleva su disciplina; las palabras
+  que comparten varias artes cuentan poco (criterio 11); y la app no publica
+  lo dudoso (confianza menor de 0,6) hasta que la IA lo lea. La app pasa de
+  944 a 633 actividades. La medición de magia sigue en 55 de 55.
+- **8/11/2026, Uri revisa los eventos:** pide quitar «Sobre magia» y «Otros»
+  (todo tiene que estar clasificado) y poner el clown en teatro con su
+  etiqueta. → El clown tiene vocabulario propio, separado del circo y del
+  teatro; con el clown como razón principal es teatro › clown. Los eventos se
+  filtran por su tipo real y muestran su disciplina. Magia: 55 de 55.
+- **9/11/2026, Uri pide ver el género de las obras:** en teatro salían
+  musicales sin etiqueta y quiere saber el género de un vistazo. → Nuevo campo
+  `generos` (como mucho dos) en teatro y musical, solo si es seguro
+  (`pipeline/genero.py`: etiqueta de la fuente, frase explícita o título; una
+  palabra suelta no basta y las contradicciones anulan). El teatro musical
+  seguro sale dentro de teatro con la etiqueta «Musical»; el «espectacle
+  musical» sin más espera a la IA. Resultado: 175 de 527 obras con género
+  (comedia 68, monólogo 55, musical 36, títeres 23…). La IA devolverá también
+  `generos`. Magia: 54 de 54 (una de las 55 ya no está en cartel).
+- **17/11/2026, IA activada (primer borrador completo):** 1.585 candidatas
+  clasificadas con Sonnet 5.5 y 136 dudosas revisadas con Opus 5.5 (4,68 $). La
+  IA devuelve también el género de las obras. Prueba de magia: 46 de 47 (la que
+  falla, «Magic brains», es el caso límite conocido). Tarea nueva «traducir»
+  (Haiku): traducción, premios citados (con cita literal comprobada; fuera los
+  premios sin nombre, de personajes o de la obra original) y temas. Detalle en
+  `docs/pruebas/2026-11-17-primer-borrador.md`.

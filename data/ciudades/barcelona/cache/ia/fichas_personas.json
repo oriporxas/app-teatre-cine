@@ -1,0 +1,252 @@
+{
+  "aleix vidal": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "daniel sanchez": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "el mago pop": {
+    "busquedas": 1,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://es.wikipedia.org/wiki/Antonio_D%C3%ADaz_(ilusionista)",
+        "https://academiadelasartesescenicas.es/el-mago-pop/",
+        "https://www.elmagopop.com/en/news/97-el-mago-pop-receives-the-gentleman-award-eleg.html",
+        "https://www.elmagopop.com/en/home.html",
+        "https://www.elmagopop.com/en/el-mago-pop-biography.html",
+        "https://en.wikipedia.org/wiki/El_Mago_Pop"
+      ],
+      "nombre": "El Mago Pop",
+      "premios": [
+        {
+          "anio": 2008,
+          "fuente": "https://academiadelasartesescenicas.es/el-mago-pop/",
+          "premio": "Premio Nacional de Magia"
+        },
+        {
+          "anio": 2025,
+          "fuente": "https://www.elmagopop.com/en/news/97-el-mago-pop-receives-the-gentleman-award-eleg.html",
+          "premio": "Gentleman Award"
+        },
+        {
+          "anio": null,
+          "fuente": "https://www.elmagopop.com/en/home.html",
+          "premio": "Académico de Honor de la Academia de las Artes Escénicas de España"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Antonio Díaz Cascajosa, El Mago Pop (Badia del Vallès, 1986), és il·lusionista i llicenciat en Art Dramàtic per l'Institut del Teatre de Barcelona; el 2008 va rebre el Premio Nacional de Magia. Des del 2013 és conegut pels seus programes a Discovery Max i ha estat l'artista d'Espanya que més entrades ha venut entre el 2017 i el 2021, a més de portar el seu espectacle Nada es imposible a Broadway. El 2025 va rebre el Gentleman Award i va ser nomenat Acadèmic d'Honor de l'Acadèmia de les Arts Escèniques d'Espanya.",
+        "es": "Antonio Díaz Cascajosa, El Mago Pop (Badia del Vallès, 1986), es ilusionista y licenciado en Arte Dramático por el Institut del Teatre de Barcelona; en 2008 recibió el Premio Nacional de Magia. Desde 2013 es conocido por sus programas en Discovery Max y ha sido el artista de España que más entradas ha vendido entre 2017 y 2021, además de llevar su espectáculo Nada es imposible a Broadway. En 2025 recibió el Gentleman Award y fue nombrado Académico de Honor de la Academia de las Artes Escénicas de España."
+      }
+    }
+  },
+  "hausson": {
+    "busquedas": 2,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://es.wikipedia.org/wiki/Hausson",
+        "https://www.barcelona.cat/barcelonacultura/es/recomanem/hausson-salon-maravillas-teatre-gaudi",
+        "https://tickets.oneboxtds.com/golems/events/51902?sessionView=LIST",
+        "https://www.mammaproof.org/barcelona/agenda-amarilla/top-magic-con-hausson/"
+      ],
+      "nombre": "Hausson",
+      "premios": [
+        {
+          "anio": 2018,
+          "fuente": "https://www.barcelona.cat/barcelonacultura/es/recomanem/hausson-salon-maravillas-teatre-gaudi",
+          "premio": "Premio Nacional de Cultura"
+        },
+        {
+          "anio": null,
+          "fuente": "https://es.wikipedia.org/wiki/Hausson",
+          "premio": "1.er Premio Internacional de Monte Carlo"
+        },
+        {
+          "anio": null,
+          "fuente": "https://es.wikipedia.org/wiki/Hausson",
+          "premio": "Premio Nacional de Manipulación"
+        },
+        {
+          "anio": null,
+          "fuente": "https://es.wikipedia.org/wiki/Hausson",
+          "premio": "Medalla de Oro al Mérito Mágico"
+        },
+        {
+          "anio": null,
+          "fuente": "https://es.wikipedia.org/wiki/Hausson",
+          "premio": "Premio FAD Sebastià Gasch de music-hall"
+        },
+        {
+          "anio": null,
+          "fuente": "https://tickets.oneboxtds.com/golems/events/51902?sessionView=LIST",
+          "premio": "Premio Nacional de Prestidigitación"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Hausson és el nom artístic de l'il·lusionista barceloní Jesús Julve i Salvadó (Barcelona, 1955), que va començar en la prestidigitació als nou anys i es va especialitzar en la manipulació i la màgia escènica de mig format. Joan Brossa va escriure per a ell la Gran Sessió de Màgia en dues parts (Teatre Romea, 1991) i Poemància (1996), i el seu il·lusionisme va derivar cap a la poesia escènica i la performance. Actualment ofereix il·lusionisme de cambra i mentalisme al Golem's Magic Lounge de Barcelona.",
+        "es": "Hausson es el nombre artístico del ilusionista barcelonés Jesús Julve i Salvadó (Barcelona, 1955), que empezó en la prestidigitación a los nueve años y se especializó en la manipulación y la magia escénica de medio formato. Joan Brossa escribió para él la Gran Sessió de Màgia en dues parts (Teatro Romea, 1991) y Poemància (1996), y su ilusionismo derivó hacia la poesía escénica y la performance. Actualmente ofrece ilusionismo de cámara y mentalismo en el Golem's Magic Lounge de Barcelona."
+      }
+    }
+  },
+  "luis pardo m minerva": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "mag lari": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://cinemagavia.es/strafalari-critica-teatro/"
+      ],
+      "nombre": "Mag Lari",
+      "premios": [
+        {
+          "anio": null,
+          "fuente": "https://cinemagavia.es/strafalari-critica-teatro/",
+          "premio": "Premio Nacional de Magia Cómica"
+        },
+        {
+          "anio": null,
+          "fuente": "https://cinemagavia.es/strafalari-critica-teatro/",
+          "premio": "Mejor Espectáculo de la Fira de Tàrrega"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Mag Lari (Josep Maria Lari) és un mag amb més de 30 anys de trajectòria, considerat un dels il·lusionistes més ben valorats del panorama nacional. Va estrenar Strafalari, un espectacle de gran format, al Teatre Marquina de Barcelona. Compta amb guardons com el Premi Nacional de Màgia Còmica i el de Millor Espectacle de la Fira de Tàrrega.",
+        "es": "Mag Lari (Josep Maria Lari) es un mago con más de 30 años de trayectoria, considerado uno de los ilusionistas mejor valorados del panorama nacional. Estrenó Strafalari, un espectáculo de gran formato, en el Teatro Marquina de Barcelona. Cuenta con galardones como el Premio Nacional de Magia Cómica y el de Mejor Espectáculo de la Fira de Tàrrega."
+      }
+    }
+  },
+  "mag lluc": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "mag marín": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://www.celebrents.es/mag-marin-49373/",
+        "https://enplatea.com/?p=15728"
+      ],
+      "nombre": "Marín (Mag Marín)",
+      "premios": [
+        {
+          "anio": null,
+          "fuente": "https://www.celebrents.es/mag-marin-49373/",
+          "premio": "Premio Nacional de Magia de España, Portugal y Francia"
+        },
+        {
+          "anio": null,
+          "fuente": "https://enplatea.com/?p=15728",
+          "premio": "Ganador del programa Pura Magia (TVE)"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Marín és un mag, humorista i showman de Granollers (Barcelona) que ha portat la seva màgia per tot el país. És conegut per guanyar el programa de televisió Pura Magia de RTVE. El seu espectacle barreja màgia d'escenari, grans il·lusions, màgia de prop i mentalisme amb humor.",
+        "es": "Marín es un mago, humorista y showman de Granollers (Barcelona) que ha llevado su magia por todo el país. Es conocido por ganar el programa de televisión Pura Magia de RTVE. Su espectáculo mezcla magia de escenario, grandes ilusiones, magia de cerca y mentalismo con humor."
+      }
+    }
+  },
+  "mag stigman": {
+    "busquedas": 1,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://es.wikipedia.org/wiki/Mag_Stigman",
+        "https://www.independent.cat/noticia/78665/mag-stigman-guardonat-als-premis-teatre-barcelona"
+      ],
+      "nombre": "Mag Stigman",
+      "premios": [
+        {
+          "anio": 2022,
+          "fuente": "https://es.wikipedia.org/wiki/Mag_Stigman",
+          "premio": "Premis Teatre Barcelona – Millor espectacle de màgia (Més que màgia)"
+        },
+        {
+          "anio": null,
+          "fuente": "https://www.independent.cat/noticia/78665/mag-stigman-guardonat-als-premis-teatre-barcelona",
+          "premio": "Premis Teatre Barcelona – Millor espectacle de màgia (Més que màgia)"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Ignasi Stigman Pascual, conegut com a Mag Stigman (Barcelona, 1984), és mag, showman i psicòleg que combina espectacles en sales, televisió i internet amb l'ús de la màgia en l'ensenyament. Va començar com a psicòleg educatiu, imparteix un curs de màgia per a educadors a la Universitat Blanquerna i des del 2020 és el mag del programa infantil Catakrac de Betevé. El seu espectacle «Més que màgia» va guanyar el premi al millor espectacle de màgia als Premis Teatre Barcelona.",
+        "es": "Ignasi Stigman Pascual, conocido como Mag Stigman (Barcelona, 1984), es mago, showman y psicólogo que combina espectáculos en salas, televisión e internet con el uso de la magia en la enseñanza. Empezó como psicólogo educativo, imparte un curso de magia para educadores en la Universidad Blanquerna y desde 2020 es el mago del programa infantil Catakrac de Betevé. Su espectáculo «Més que màgia» ganó el premio al mejor espectáculo de magia en los Premis Teatre Barcelona."
+      }
+    }
+  },
+  "magia i comèdia al bosc de les fades": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "manu llari": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://www.lafactoriadelshow.com/manu-llari",
+        "https://magojr.es/mago-manu-llari/",
+        "https://www.teatreneu.com/es/programacion.html",
+        "https://www.atrapalo.com/entradas/inexplicable-manu-llari_e4906209/"
+      ],
+      "nombre": "Manu Llari",
+      "premios": [],
+      "trayectoria": {
+        "ca": "Manu Llari és un mag professional de Barcelona, especialitzat en màgia infantil i per a adults, amb un estil creatiu i visual. Ha treballat amb El Mago Pop (Antonio Díaz) i forma part de l'equip de mags creatius de «48 horas con» de Discovery Max. Actualment presenta a Barcelona l'espectacle «Inexplicable», de màgia innovadora amb participació del públic i humor.",
+        "es": "Manu Llari es un mago profesional de Barcelona, especializado en magia infantil y para adultos, con un estilo creativo y visual. Ha trabajado con El Mago Pop (Antonio Díaz) y forma parte del equipo de magos creativos de «48 horas con» de Discovery Max. Actualmente presenta en Barcelona el espectáculo «Inexplicable», de magia innovadora con participación del público y humor."
+      }
+    }
+  },
+  "màgia kids": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "màgic pablo el gran repte": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "sergi armentano": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://sjdespi.cat/es/bloque-informativo/agenda/cultura/noches-de-comedia-illusions-con-sergi-armentano",
+        "https://www.telecinco.es/noticias/catalunya/20240624/sergi-armentano-magia-jason-derulo-tour_18_012770653.html"
+      ],
+      "nombre": "Sergi Armentano",
+      "premios": [
+        {
+          "anio": 2019,
+          "fuente": "https://sjdespi.cat/es/bloque-informativo/agenda/cultura/noches-de-comedia-illusions-con-sergi-armentano",
+          "premio": "Premio Nacional de Magia"
+        },
+        {
+          "anio": 2019,
+          "fuente": "https://www.telecinco.es/noticias/catalunya/20240624/sergi-armentano-magia-jason-derulo-tour_18_012770653.html",
+          "premio": "Premio Nacional de Magia"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Sergi Armentano és un mag català amb més de disset anys d'experiència i més de dues mil actuacions, que va debutar als 8 anys. Protagonitza el programa Wowzzy Baboom! del Canal 33 i va ser assessor de màgia a la gira de l'artista Jason Derulo. Va guanyar el Premi Nacional de Màgia el 2019.",
+        "es": "Sergi Armentano es un mago catalán con más de diecisiete años de experiencia y más de dos mil actuaciones, que debutó a los 8 años. Protagoniza el programa Wowzzy Baboom! de Canal 33 y fue asesor de magia en la gira del artista Jason Derulo. Ganó el Premio Nacional de Magia en 2019."
+      }
+    }
+  },
+  "shado": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  }
+}

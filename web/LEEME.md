@@ -1,0 +1,34 @@
+# App (fase 2)
+
+Web instalable en el móvil (PWA) hecha con React y Vite. No tiene servidor
+propio: cada noche `pipeline/exportar_web.py` escribe la cartelera de cada
+ciudad en `public/datos/<ciudad>.json` y el móvil la descarga y busca dentro.
+
+- `src/datos.ts`: forma de la cartelera (lo que no se sabe no viene).
+- `src/filtros.ts`: búsqueda y filtros (decisiones de Uri en `docs/brief.md`).
+- `src/textos.ts`: textos en castellano y catalán.
+- `src/App.tsx`: pantallas (cartelera, ficha, «Más filtros», calendario, mapa,
+  favoritos y planes). La dirección (`#ficha-…`, `#mapa`, `#planes`,
+  `#plan-…`) dice qué pantalla se ve, así funciona el botón «atrás» del móvil.
+- `src/Mapa.tsx`, `src/favoritos.ts`, `src/ubicacion.ts`, `src/planes.ts`: mapa
+  de salas, favoritos, ubicación y planes (itinerarios); todo se guarda solo en
+  el móvil.
+- `src/Inicio.tsx` (qué ver hoy), `src/Cine.tsx` + `src/cine.ts` (cartelera de
+  cine, ficha de película y de cine, mapa de cines), `src/Noticias.tsx`,
+  `src/Buscar.tsx` (buscador único y fichas de persona).
+- Datos que descarga el móvil: `public/datos/<ciudad>.json` (escena),
+  `<ciudad>-cine.json`, `<ciudad>-noticias.json` y `<ciudad>-mapa.json`.
+- Diseño: negro, rojo y blanco; los colores están en `:root` de `src/estilos.css`.
+- `public/sw.js`: permite abrirla sin conexión con la última cartelera.
+
+Probarla en el ordenador:
+
+```bash
+cd web && npm install && npm run dev
+```
+
+Preparar la versión para publicar (queda en `web/dist/`):
+
+```bash
+cd web && npm run check && npm run build
+```

@@ -29,12 +29,27 @@ import sys
 import time
 import traceback
 
-from . import ajustes, clasificar_ia, config, fuentes, publico, salas, senales
+from . import ajustes, clasificar_ia, config, exportar_web, fuentes, genero, ia, publico, salas, senales
 from .ajustes import Ciudad
 from .fuentes.base import Contexto
 from .util import guardar_json
 
-TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "evento", "cine")
+TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "musical", "evento", "cine")
+
+
+def _generos(a: dict, clasif: dict) -> list[str]:
+    """Género de las obras de teatro, solo si es seguro (pipeline/genero.py; Uri, 9/11/2026)."""
+    if clasif["tipo"] not in ("teatro", "musical"):
+        return []
+    if clasif.get("clasificado_por") == "ia" and isinstance(clasif.get("generos"), list):
+        elegidos = set(clasif["generos"])
+        if clasif["tipo"] == "musical":
+            elegidos.add("musical")  # la IA ha leído la descripción y dice que es teatro musical
+        if clasif.get("subtipo") == "clown":
+            elegidos.add("clown")
+        return [g for g in genero.GENEROS if g in elegidos][:genero.MAXIMO]
+    texto = "\n".join(v for v in (a.get("descripcion") or {}).values() if v)
+    return genero.leer(a["titulo"], texto, clasif.get("subtipo"))
 
 
 def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
@@ -54,6 +69,8 @@ def _ficha(a: dict, clasif: dict, ciudad: Ciudad) -> dict:
         "descripcion": a["descripcion"],
         "tipo": clasif["tipo"],
         "subtipo": clasif.get("subtipo"),
+        "generos": _generos(a, clasif),
+        "disciplina": clasif.get("disciplina"),
         "magia": clasif["magia"],
         "confianza": clasif["confianza"],
         "motivo": clasif["motivo"],
@@ -128,6 +145,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
 
     # 1. Recoger de cada fuente (piezas independientes)
     actividades: dict[str, dict] = {}
+    mapa: dict | None = None
     for nombre in ciudad.fuentes:
         ctx = Contexto(ciudad=ciudad, hoy=hoy,
                        carpeta_descargas=config.DESCARGAS / ciudad.id / nombre,
@@ -140,6 +158,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
             informe["fuentes"][nombre] = {"error": traceback.format_exc(limit=3)}
             continue
         informe["fuentes"][nombre] = resultado.informe
+        mapa = mapa or resultado.mapa  # el contorno de la ciudad, de la primera fuente que lo dé
         # 2. Juntar. Pendiente para cuando haya una 2.ª fuente en la misma ciudad:
         # detectar la misma obra en varias fuentes y dejar una sola ficha (principio 4).
         for a in resultado.actividades:
@@ -168,7 +187,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     # Todas las decisiones (también las de «otro»), para poder revisarlas.
     guardar_json(carpeta / "clasificacion.json",
                  {i: {"titulo": actividades[i]["titulo"], **{k: final[i].get(k) for k in
-                      ("tipo", "subtipo", "magia", "confianza", "motivo", "clasificado_por")}}
+                      ("tipo", "subtipo", "disciplina", "magia", "confianza", "motivo", "clasificado_por")}}
                   for i in final}, por_lineas=True)
     informe["publicadas"] = len(fichas)
     informe["por_tipo"] = dict(collections.Counter(f["tipo"] for f in fichas))
@@ -181,6 +200,21 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_detalle"] = sum(1 for f in fichas if f["detalle_leido"])
     informe["con_idioma"] = sum(1 for f in fichas if f["idiomas"])
     informe["con_publico"] = sum(1 for f in fichas if f["publico"])
+    # Archivo de la ciudad para la app (fase 2)
+    informe["app"] = exportar_web.exportar(ciudad, informe, mapa)
+    # Cine y noticias: piezas aparte; si fallan, la cartelera de escena ya está guardada.
+    if ciudad.cine and leer_webs:  # sin leer webs no hay horarios: se conserva la cartelera de ayer
+        try:
+            from . import cine
+            informe["cine"] = cine.recoger(ciudad, hoy, descargar=descargar, leer_webs=leer_webs)
+        except Exception as e:  # noqa: BLE001
+            informe["errores"].append(f"cine: {type(e).__name__}: {e}")
+    if ciudad.noticias and descargar:
+        try:
+            from . import noticias
+            informe["noticias"] = noticias.recoger(ciudad, hoy)
+        except Exception as e:  # noqa: BLE001
+            informe["errores"].append(f"noticias: {type(e).__name__}: {e}")
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
     guardar_json(carpeta / "informe.json", informe)
     (carpeta / "informe_fallo.json").unlink(missing_ok=True)
@@ -203,6 +237,8 @@ def ejecutar(solo: str | None = None, **opciones) -> dict:
             "salas": inf.get("salas_con_espectaculos"),
             "errores": inf.get("errores", []),
         }
+    indice["gasto_ia_usd"] = round(ia.GASTO.usd, 4)
+    ia.GASTO.guardar()
     if not solo:
         guardar_json(config.DATOS / "indice.json", indice)
     return indice
