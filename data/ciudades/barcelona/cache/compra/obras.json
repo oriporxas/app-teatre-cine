@@ -343,10 +343,6 @@
     "fecha": "2026-11-17",
     "url": "https://teatreapolo.com/cartelera/el-brujo-el-lazarillo-de-tormes/"
   },
-  "open_data_bcn:99400781890|https://teatreapolo.com|La segunda venida de Cristo o el yoga de Jesús": {
-    "fecha": "2026-11-17",
-    "url": "https://teatreapolo.com/cartelera/el-brujo-la-segunda-venida-de-cristo/"
-  },
   "open_data_bcn:99400782489|https://www.lluisosteatre.cat/|La mama dels arbres": {
     "fecha": "2026-11-17",
     "url": null
@@ -538,6 +534,10 @@
   "open_data_bcn:99400786650|https://teatreapolo.com|Busco pis": {
     "fecha": "2026-11-17",
     "url": "https://entradas.gruposmedia.com/entradas/es/busco_pis"
+  },
+  "open_data_bcn:99400786661|https://cat.teatremuntaner.com/|Sobria y Serena. El chou": {
+    "fecha": "2026-11-17",
+    "url": null
   },
   "open_data_bcn:99400786807|http://www.teatreneu.com|Inexplicable": {
     "fecha": "2026-11-17",
@@ -751,10 +751,6 @@
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/el-raro-de-los-90"
   },
-  "open_data_bcn:99400789160|http://www.tantarantana.com|Exhumar": {
-    "fecha": "2026-11-17",
-    "url": "https://tantarantana.com/production/exhumar-teatre-26-27/"
-  },
   "open_data_bcn:99400789168|http://www.tantarantana.com|La mujer del tercero": {
     "fecha": "2026-11-17",
     "url": "https://tantarantana.com/production/la-mujer-del-tercero-teatre-26-27/"
@@ -934,5 +930,21 @@
   "open_data_bcn:99400790059|https://teatreapolo.com|Los 3 Tenores": {
     "fecha": "2026-11-17",
     "url": "https://teatreapolo.com/cartelera/los-3-tenores-un-historia-cantada/"
+  },
+  "open_data_bcn:99400790346|https://www.eixampleteatre.cat|¿Quieres pecar conmigo?": {
+    "fecha": "2026-11-17",
+    "url": "https://www.eixampleteatre.cat/es/Quieres-Pecar-Conmigo"
+  },
+  "open_data_bcn:99400790351|https://www.eixampleteatre.cat|Vademecum": {
+    "fecha": "2026-11-17",
+    "url": "https://eixampleteatre.koobin.cat/es/vademecum"
+  },
+  "open_data_bcn:99400790364|https://cat.teatremuntaner.com/|Cero dramas": {
+    "fecha": "2026-11-17",
+    "url": null
+  },
+  "open_data_bcn:99400790368|https://teatrebalmes.com/|Y tú, ¿de qué te ríes?": {
+    "fecha": "2026-11-17",
+    "url": "https://teatrebalmes.com/ca/humor/barcelona/y-tu-de-que-te-ries"
   }
 }

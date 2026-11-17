@@ -1,15 +1,15 @@
 {
-  "actividades_vigentes": 6413,
+  "actividades_vigentes": 6302,
   "app": {
     "compra": {
-      "buscadas_hoy": 0,
-      "con_enlace": 327,
-      "encontradas": 151,
-      "obra": 244,
-      "portadas": 234,
-      "sala": 83
+      "buscadas_hoy": 5,
+      "con_enlace": 334,
+      "encontradas": 152,
+      "obra": 249,
+      "portadas": 237,
+      "sala": 85
     },
-    "espectaculos_app": 623,
+    "espectaculos_app": 626,
     "fichas_personas": {
       "buscados_hoy": 0,
       "con_ficha": 7,
@@ -17,11 +17,11 @@
     },
     "ia_fichas": {
       "con_premios": 16,
-      "con_traduccion": 560,
-      "fichas_con_texto": 563,
-      "hechas": 0,
+      "con_traduccion": 577,
+      "fichas_con_texto": 580,
+      "hechas": 23,
       "modelo": "claude-haiku-5-5",
-      "pendientes": 3
+      "pendientes": 26
     },
     "verificacion": {
       "corregidas_por_regla": {
@@ -29,7 +29,193 @@
         "repetida": 4,
         "sin_funciones": 1
       },
-      "publicadas": 623
+      "publicadas": 626
+    }
+  },
+  "cine": {
+    "cines": {
+      "Ateneu Barcelonès": {
+        "como": "sin web",
+        "sesiones": 0
+      },
+      "Cinema Dididado": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      },
+      "Cinemes Girona": {
+        "como": "elqueque",
+        "sesiones": 0
+      },
+      "Cinemes Verdi": {
+        "como": "elqueque",
+        "sesiones": 87
+      },
+      "Cinesa Diagonal": {
+        "como": "su web no permite programas (robots.txt)",
+        "sesiones": 0
+      },
+      "Cinesa Diagonal Mar": {
+        "como": "su web no permite programas (robots.txt)",
+        "sesiones": 0
+      },
+      "Cinesa SOM Multiespai": {
+        "como": "su web no permite programas (robots.txt)",
+        "sesiones": 0
+      },
+      "Escola Oficial d'Idiomes Barcelona - Drassanes": {
+        "como": "sin web",
+        "sesiones": 0
+      },
+      "Escola Pia de Sarrià-Calassanç": {
+        "como": "sin web",
+        "sesiones": 0
+      },
+      "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona": {
+        "como": "sin web",
+        "sesiones": 0
+      },
+      "Filmoteca de Catalunya": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      },
+      "Fàbrica de Creació Ateneu Popular 9 Barris": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      },
+      "Institut Français de Barcelone": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      },
+      "Institut Italià de Cultura de Barcelona": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      },
+      "Mooby Arenas": {
+        "como": "elqueque",
+        "sesiones": 296
+      },
+      "Mooby Aribau": {
+        "como": "elqueque",
+        "sesiones": 114
+      },
+      "Mooby Balmes": {
+        "como": "elqueque",
+        "sesiones": 312
+      },
+      "Mooby Bosque": {
+        "como": "elqueque",
+        "sesiones": 61
+      },
+      "Mooby Glòries": {
+        "como": "elqueque",
+        "sesiones": 206
+      },
+      "Mooby Gran Sarrià": {
+        "como": "elqueque",
+        "sesiones": 74
+      },
+      "Recursos d'Animació Intercultural RAI": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      },
+      "Renoir Floridablanca": {
+        "como": "pillalas",
+        "sesiones": 164
+      },
+      "Verdi Park": {
+        "como": "elqueque",
+        "sesiones": 0
+      },
+      "Yelmo La Maquinista": {
+        "como": "su web no permite programas (robots.txt)",
+        "sesiones": 0
+      },
+      "Zumzeig Cinecooperativa": {
+        "como": "sin horarios legibles en su web",
+        "sesiones": 0
+      }
+    },
+    "con_sesiones_en_cines": 8,
+    "con_tmdb": 79,
+    "fecha": "2026-11-18",
+    "peliculas": 142,
+    "sesiones_agenda": 126,
+    "sesiones_cines": 1314,
+    "tmdb": {
+      "con_premios": 22,
+      "identificadas": 96,
+      "peliculas": 159,
+      "sin_identificar": [
+        "El cascanueces (The Royal Ballet) ? Registrat en directe a la Royal Opera House de Londres",
+        "El sentido de la birra",
+        "Sessió TETA: Wild Horse Nine",
+        "Sessió de Curtmetratges - Terror 2026*",
+        "El Meu Primer Festival",
+        "XIV Festival Internacional de Cinema i Discapacitat de Barcelona \"Inclús",
+        "33a Festival de Cinema Independent de Barcelona \"L'Alternativa 2026",
+        "Projecció ''Sorda",
+        "Cicle de Cinema Africà i Dona Projecció documental + debat ''Bintang Bolongdala Masaneh Ceesay",
+        "DART",
+        "Cinefòrum",
+        "Tarda de cinema",
+        "Projecció \"Talent Km. 0",
+        "Aula de Cinema 2026-2027",
+        "Vivir rodando",
+        "Projecció i col•loqui \"Miss Carbón",
+        "Peixet, el petit aventurer",
+        "Petits moments màgics: curtmetratges",
+        "Hospital de Campanya",
+        "La nave del olvido",
+        "Numakage Public pool",
+        "Cinema menut",
+        "Planeta Polaris",
+        "Deep listening: La història de Pauline Oliveros",
+        "L'Oliva i el terratrèmol invisible",
+        "Petits moments màgics",
+        "E.T.",
+        "Natura sagrada",
+        "Cinema participatiu",
+        "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve",
+        "Donetes",
+        "El tresor de barracuda",
+        "Petit Pantalla",
+        "Planetari Postals d’uns altres mons",
+        "Planetari Forats negres",
+        "Planetari Kiru i el misteri de la Lluna perduda",
+        "592 metroz goiti",
+        "Apnees i altres gramàtiques",
+        "Dones en transformació: l’Àfrica, entre la tradició i el canvi",
+        "Planetari 3clipsi",
+        "Cinema mut ''SUNRISE. A song of two humans.",
+        "Mostra de cinema emergent",
+        "Cinefòrum 200 metres",
+        "Projecció",
+        "Numacage public pool",
+        "El padre",
+        "El secret de la mallarenga",
+        "Setge a la democràcia",
+        "Temps de cinema. Migracions",
+        "Antes del silencio",
+        "Gaudeix del FICMA a Turull",
+        "Cinema Violeta",
+        "Baraka",
+        "XIV Cicle de Cinema \"REC i ACCIÓ\". Projecció \"Si decido quedarme",
+        "Road movies. El hidalgo de los mares (Raoul Walsh, 1951)",
+        "Kirikú i la bruixa",
+        "L’Emilie i el secret de les tempestes",
+        "Cinema per a tota la família 'Tot allò que balla",
+        "Numakage Public Pool",
+        "Procés d'immigració i precarietat laboral",
+        "Stampa. Models de Mirar",
+        "Xavier Agramont, el fotògraf descobert",
+        "Fiscal Elola"
+      ]
+    },
+    "verificacion": {
+      "corregidas_por_regla": {
+        "sala": 1
+      },
+      "publicadas": 142
     }
   },
   "ciudad": {
@@ -44,10 +230,39 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "ia": 1019,
-    "señales": 116
+    "ia": 1011,
+    "señales": 114
   },
   "cobertura": {
+    "cines_con_horarios": [
+      "Cinemes Verdi",
+      "Mooby Arenas",
+      "Mooby Aribau",
+      "Mooby Balmes",
+      "Mooby Bosque",
+      "Mooby Glòries",
+      "Mooby Gran Sarrià",
+      "Renoir Floridablanca"
+    ],
+    "cines_sin_horarios": {
+      "Ateneu Barcelonès": "sin web",
+      "Cinema Dididado": "sin horarios legibles en su web",
+      "Cinemes Girona": "elqueque",
+      "Cinesa Diagonal": "su web no permite programas (robots.txt)",
+      "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
+      "Cinesa SOM Multiespai": "su web no permite programas (robots.txt)",
+      "Escola Oficial d'Idiomes Barcelona - Drassanes": "sin web",
+      "Escola Pia de Sarrià-Calassanç": "sin web",
+      "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona": "sin web",
+      "Filmoteca de Catalunya": "sin horarios legibles en su web",
+      "Fàbrica de Creació Ateneu Popular 9 Barris": "sin horarios legibles en su web",
+      "Institut Français de Barcelone": "sin horarios legibles en su web",
+      "Institut Italià de Cultura de Barcelona": "sin horarios legibles en su web",
+      "Recursos d'Animació Intercultural RAI": "sin horarios legibles en su web",
+      "Verdi Park": "elqueque",
+      "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
+      "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
+    },
     "con_actividades": 87,
     "fecha": "2026-11-17",
     "por_tipo": {
@@ -68,21 +283,21 @@
     "sin_actividades": 74
   },
   "compra": {
-    "buscadas_hoy": 0,
-    "con_enlace": 327,
-    "encontradas": 151,
-    "obra": 244,
-    "portadas": 234,
-    "sala": 83
+    "buscadas_hoy": 5,
+    "con_enlace": 334,
+    "encontradas": 152,
+    "obra": 249,
+    "portadas": 237,
+    "sala": 85
   },
-  "con_detalle": 892,
-  "con_enlace_compra": 417,
-  "con_idioma": 51,
-  "con_precio": 1097,
-  "con_publico": 260,
-  "duracion_minutos": 0.2,
+  "con_detalle": 970,
+  "con_enlace_compra": 423,
+  "con_idioma": 50,
+  "con_precio": 1087,
+  "con_publico": 268,
+  "duracion_minutos": 44.4,
   "errores": [],
-  "fecha": "2026-11-17",
+  "fecha": "2026-11-18",
   "fichas_personas": {
     "buscados_hoy": 0,
     "con_ficha": 7,
@@ -90,20 +305,41 @@
   },
   "fuentes": {
     "open_data_bcn": {
-      "actividades_vigentes": 6342,
+      "actividades_vigentes": 6233,
+      "descarga": {
+        "agendas": {
+          "activitats": {
+            "conjunto": "agenda-diaria",
+            "fichero_json_completo": "bloqueado (403)",
+            "registros": 4338
+          },
+          "cultural": {
+            "conjunto": "agenda-cultural",
+            "fichero_json_completo": "bloqueado (403)",
+            "registros": 4417
+          }
+        },
+        "fecha": "2026-11-17T23:13:15+0000"
+      },
       "equipamientos": 3043,
+      "guia": {
+        "errores": 0,
+        "fichas_en_cache": 1571,
+        "leidas_hoy": 210,
+        "pendientes": 5210
+      },
       "por_agenda": {
-        "activitats": 2064,
-        "activitats+cultural": 1937,
-        "cultural": 2341
+        "activitats": 2022,
+        "activitats+cultural": 1903,
+        "cultural": 2308
       }
     },
     "webs_salas": {
       "con_web": 19,
-      "descartadas": 20,
-      "funciones": 120,
-      "leidas_ia": 0,
-      "obras": 71,
+      "descartadas": 31,
+      "funciones": 114,
+      "leidas_ia": 5,
+      "obras": 69,
       "paginas": 29,
       "salas_sin_agenda": 35,
       "web_compartida": 20
@@ -112,68 +348,96 @@
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1655,
+      "candidatas": 1632,
       "disponible": true,
-      "enviadas": 0,
+      "enviadas": 162,
       "errores": 0,
       "modelo": "claude-sonnet-5-5",
-      "pendientes_antes": 0,
+      "pendientes_antes": 162,
       "pendientes_despues": 0,
       "tarea": "clasificar",
-      "tokens_cache": 0,
-      "tokens_cache_escritura": 0,
-      "tokens_entrada": 0,
-      "tokens_salida": 0
+      "tokens_cache": 81520,
+      "tokens_cache_escritura": 5095,
+      "tokens_entrada": 62879,
+      "tokens_salida": 17346
     },
     "revisar_dudosos": {
       "activa": true,
-      "candidatas": 194,
+      "candidatas": 177,
       "disponible": true,
-      "enviadas": 0,
+      "enviadas": 24,
       "errores": 0,
       "modelo": "claude-opus-5-5",
-      "pendientes_antes": 0,
+      "pendientes_antes": 24,
       "pendientes_despues": 0,
       "tarea": "revisar_dudosos",
-      "tokens_cache": 0,
-      "tokens_cache_escritura": 0,
-      "tokens_entrada": 0,
-      "tokens_salida": 0
+      "tokens_cache": 20380,
+      "tokens_cache_escritura": 5095,
+      "tokens_entrada": 8334,
+      "tokens_salida": 5101
     }
   },
   "ia_fichas": {
     "con_premios": 16,
-    "con_traduccion": 560,
-    "fichas_con_texto": 563,
-    "hechas": 0,
+    "con_traduccion": 577,
+    "fichas_con_texto": 580,
+    "hechas": 23,
     "modelo": "claude-haiku-5-5",
-    "pendientes": 3
+    "pendientes": 26
   },
-  "inicio": "2026-11-17T21:57:08+0000",
+  "inicio": "2026-11-17T23:13:15+0000",
   "magia": {
     "incluye": 5,
     "principal": 15,
     "tema": 4
   },
+  "noticias": {
+    "clasificadas_hoy": 11,
+    "eventos": 18,
+    "leidas": 302,
+    "medios": 13,
+    "por_canal": {
+      "https://beteve.cat/cultura/feed/": 15,
+      "https://beteve.cat/tag/festivals/feed/": 6,
+      "https://beteve.cat/tag/magia/feed/": 4,
+      "https://www.20minutos.es/rss/cinemania/": 71,
+      "https://www.ara.cat/rss/cultura/": 63,
+      "https://www.eldiario.es/rss/cultura/teatro": 5,
+      "https://www.elmundo.es/rss/cultura/teatro.xml": 7,
+      "https://www.espinof.com/index.xml": 20,
+      "https://www.lavanguardia.com/rss/cultura.xml": 100,
+      "https://www.vilaweb.cat/categoria/cultura/arts-esceniques/feed/": 1,
+      "https://www.vilaweb.cat/etiqueta/circ/feed/": 0,
+      "https://www.vilaweb.cat/etiqueta/magia/feed/": 0,
+      "https://www.zirkolika.com/feed/": 10
+    },
+    "por_tema": {
+      "cine": 82,
+      "circo": 7,
+      "magia": 4,
+      "teatro": 24
+    },
+    "publicadas": 117
+  },
   "por_tipo": {
-    "cine": 157,
+    "cine": 154,
     "circo": 14,
-    "danza": 86,
-    "evento": 352,
+    "danza": 85,
+    "evento": 353,
     "magia": 15,
     "musical": 37,
     "otro": 1,
-    "teatro": 473
+    "teatro": 466
   },
-  "publicadas": 1135,
-  "salas_con_espectaculos": 209,
-  "salas_con_nombre": 194,
+  "publicadas": 1125,
+  "salas_con_espectaculos": 208,
+  "salas_con_nombre": 197,
   "verificacion": {
     "corregidas_por_regla": {
       "fecha": 10,
       "repetida": 4,
       "sin_funciones": 1
     },
-    "publicadas": 623
+    "publicadas": 626
   }
 }

@@ -902,6 +902,125 @@
     "datos": null,
     "fecha": "2026-11-17"
   },
+  "it:el 47": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/gzdhZFz3gUTu5MneQZYozmbKsLf.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
+          "id": 1152634,
+          "nombre": "Marcel Barrena"
+        }
+      ],
+      "duracion": 110,
+      "edad": "7",
+      "estreno": "2024-09-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/tZdhMgbN7R1zDMAZ0zSFxxnClcM.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
+          "id": 1152634,
+          "nombre": "Marcel Barrena"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/f5HQElD4y1YYE9Oblwib2DIh1sm.jpg",
+          "id": 54528,
+          "nombre": "Alberto Marini"
+        }
+      ],
+      "idioma_original": "ca",
+      "imdb": "tt27751957",
+      "lema": "Ver Gratis en vercineo.net",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eWcoXDt1VwcXjSckMWcPePfq9ka.jpg",
+          "id": 1119139,
+          "nombre": "Arnau Bataller"
+        }
+      ],
+      "nota_tmdb": 7.4,
+      "paises": [
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1oBOegVHnzjNAU3PFsulfYApEb8.jpg",
+          "id": 87015,
+          "nombre": "Eduard Fernández",
+          "papel": "Manolo Vital"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg",
+          "id": 33410,
+          "nombre": "Clara Segura",
+          "papel": "Carmen"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pwjNbRQP4GXVREfB96SuzHh2hqq.jpg",
+          "id": 3578018,
+          "nombre": "Zoe Bonafonte",
+          "papel": "Joana"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/v3R6t0PyZ8Aqa4KZ6RC3h4xZryX.jpg",
+          "id": 1413918,
+          "nombre": "Salva Reina",
+          "papel": "Felipín"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/w0X8DGeLyY9L1VbDaWw2jcEpjai.jpg",
+          "id": 2020259,
+          "nombre": "Óscar de la Fuente",
+          "papel": "Antonio"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6TreWuZXVK9qYoHC0qLSbnHA1e0.jpg",
+          "id": 1149067,
+          "nombre": "David Verdaguer",
+          "papel": "Serra"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/he5a5qQV3ZydOpTiBGb4HCrc8Z6.jpg",
+          "id": 1261476,
+          "nombre": "Carlos Cuevas",
+          "papel": "Pasqual"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oLrguHu0Er29T8QyhZ2R0mCGSQ0.jpg",
+          "id": 1621789,
+          "nombre": "Betsy Túrnez",
+          "papel": "Aurora"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wFNhG5zX9qsoCCo9QEdkGuxjN7m.jpg",
+          "id": 2480558,
+          "nombre": "Maria Morera Colomer",
+          "papel": "Mar"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jWPoPWtcDDYNBA7RJjUZ1CnfgZ4.jpg",
+          "id": 1373422,
+          "nombre": "Aimar Vega",
+          "papel": "Josep"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Inspirat en la història real de Manolo Vital, un conductor d'autobús que va ajudar a crear la Barcelona moderna durant el boom de la ciutat dels anys setanta. El 1978, a Barcelona, el conductor d’autobús Manolo Vital es va apoderar del bus de la línia 47 per desmuntar una mentida que l’Ajuntament s’entestava a repetir: que els autobusos no podien pujar els carrers del barri de Torre Baró. Un acte de dissidència pacífica emmarcat en els moviments veïnals de base que van transformar la ciutat i van canviar la imatge dels seus suburbis per sempre.",
+        "en": "Based on a true story, in late 1970s Barcelona, Manolo Vital, a bus driver, takes bold action to protest the neglect of Torre Baró, an immigrant neighborhood. His act becomes a symbol of resistance against systemic inequality during a pivotal moment in the city’s modern transformation.",
+        "es": "¿P‌e‌lí‌cu‌las gr‌at‌is? N‌o l‌o co‌pi‌es, es‌crí‌be‌lo t‌al cu‌al e‌n Go‌og‌le: v‌e‌r‌c‌i‌n‌e‌o  Un acto de disidencia pacífica y el movimiento vecinal de base en 1978 transformó Barcelona y cambió la imagen de sus suburbios para siempre. Manolo Vital, un conductor de autobús que se adueñó del bus de la línea 47 para desmontar una mentira que el Ayuntamiento se empeñaba en repetir: los autobuses no podían subir las cuestas del distrito de Torre Baró. Un acto de rebeldía que demostró ser un catalizador para el cambio, de que las personas se enorgullecen de sus raíces, de una lucha del vecindario, de la clase trabajadora que ayudó a crear la Barcelona moderna de los años setenta."
+      },
+      "titulo": "El 47",
+      "titulo_ca": "El 47",
+      "titulo_original": "El 47",
+      "tmdb": 1174481,
+      "trailer": "PctPdv7LiuE",
+      "wikidata": "Q115774787"
+    },
+    "fecha": "2026-11-18"
+  },
   "it:el director:orden": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/9FKhEtXhX2Omvc7kVcjvDYk8DWG.jpg",
@@ -1423,6 +1542,101 @@
   "it:gaudeix del ficma a turull": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "it:hermanas:sanz": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/42gyhoe1yiijW7kk9FDqIVvahGP.jpg",
+      "direccion": [
+        {
+          "id": 233517,
+          "nombre": "Ione Hernández"
+        }
+      ],
+      "duracion": 101,
+      "edad": null,
+      "estreno": "2026-11-27",
+      "fondo": "https://image.tmdb.org/t/p/w1280/kITiyC72qt25UlF0xPDH5rydZZn.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "id": 233517,
+          "nombre": "Ione Hernández"
+        }
+      ],
+      "idioma_original": "es",
+      "imdb": null,
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/46VjvDA7znpxJvYmbu4t9PjoGfJ.jpg",
+          "id": 24974,
+          "nombre": "Emma Suárez",
+          "papel": "Chelo"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hSkjzOfvRQ8DUJdhWveIKgRlyXb.jpg",
+          "id": 3623,
+          "nombre": "Elena Anaya",
+          "papel": "Marta"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iRzSywkVPw6UWRdpuBrdvac1sCZ.jpg",
+          "id": 2545929,
+          "nombre": "León Martínez"
+        },
+        {
+          "id": 6489158,
+          "nombre": "Carlota Keiko"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xXz52TcVhY9Kare35IzNtUXbJ1i.jpg",
+          "id": 3073635,
+          "nombre": "Aritz Kortabarria",
+          "papel": "Marcos"
+        },
+        {
+          "id": 5727130,
+          "nombre": "Lier Alava",
+          "papel": "Frank"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vx14Gz6TNZCbKonTZGV6V7qaKKP.jpg",
+          "id": 1587311,
+          "nombre": "Tirma Ayerbe",
+          "papel": "Dorleta"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iTswC5Qjmv8McucuShSDwVl6Smu.jpg",
+          "id": 840814,
+          "nombre": "Josean Bengoetxea",
+          "papel": "Javier"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8LWJuJewcbs3j6XZbBJUoXrvPBv.jpg",
+          "id": 6282519,
+          "nombre": "Nora Otxoteko",
+          "papel": "Genoveva"
+        }
+      ],
+      "sinopsis": {
+        "en": "Two sisters bring their families together for a summer weekend near Madrid to celebrate milestones and the San Juan Festival. The celebration turns dark when a child makes a serious sexual abuse allegation.",
+        "es": "Dos hermanas reúnen a sus familias durante un fin de semana de verano cerca de Madrid para celebrar algunos hitos y las fiestas de San Juan. La celebración se ve empañada cuando un niño formula una grave acusación de abuso sexual."
+      },
+      "titulo": "Sisters",
+      "titulo_ca": null,
+      "titulo_original": "Hermanas",
+      "tmdb": 1556887,
+      "trailer": "sC9FbZQ6X0k",
+      "wikidata": null
+    },
+    "fecha": "2026-11-18"
   },
   "it:hospital de campanya": {
     "datos": null,
@@ -2155,6 +2369,117 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:llueve sobre babel:sol": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/o6IDuFe3bBUR46DQbTy4tRCvnuk.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1a6GeheLcrmdLni2aU64JOLtIWM.jpg",
+          "id": 5063511,
+          "nombre": "Gala del Sol"
+        }
+      ],
+      "duracion": 113,
+      "edad": null,
+      "estreno": "2026-01-02",
+      "fondo": "https://image.tmdb.org/t/p/w1280/gmIQjFkhobVTkApuMljsMmewJzc.jpg",
+      "generos": [
+        "Fantasía",
+        "Drama",
+        "Comedia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1a6GeheLcrmdLni2aU64JOLtIWM.jpg",
+          "id": 5063511,
+          "nombre": "Gala del Sol"
+        }
+      ],
+      "idioma_original": "es",
+      "imdb": "tt32808757",
+      "lema": null,
+      "musica": [
+        {
+          "id": 3666765,
+          "nombre": "Martín de Lima"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "CO",
+        "US",
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/83w0YugFXSyawTofjWtm5IuBGh3.jpg",
+          "id": 2035247,
+          "nombre": "Jhon Narváez",
+          "papel": "Don Alfonso"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wuUuV8CWwiRgc7OUEwrvfKSdxcZ.jpg",
+          "id": 1431632,
+          "nombre": "John Alex Castillo",
+          "papel": "Gian Salai"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qFX6RKP31iayOhUvR7RhLdIIIMI.jpg",
+          "id": 1974936,
+          "nombre": "Sofia Buenaventura",
+          "papel": "Erato"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gAzgiaz6OUk2kmUvvwjVU3O1E4Z.jpg",
+          "id": 3870270,
+          "nombre": "Saray Nohemi Rebolledo Ospino",
+          "papel": "La Flaca"
+        },
+        {
+          "id": 5063481,
+          "nombre": "Felipe Aguilar Rodríguez",
+          "papel": "Dante"
+        },
+        {
+          "id": 5063486,
+          "nombre": "Jose Mojica",
+          "papel": "Timbí"
+        },
+        {
+          "id": 5063490,
+          "nombre": "William Hurtado",
+          "papel": "Jacob"
+        },
+        {
+          "id": 5063492,
+          "nombre": "Johan Zapata",
+          "papel": "Monet"
+        },
+        {
+          "id": 5063493,
+          "nombre": "Jhon Bayron Quintero Valencia",
+          "papel": "Darla Experiment"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yC178rWhKkeBZR3Gll7S0m6Ht01.jpg",
+          "id": 3012372,
+          "nombre": "Celina Biurrun",
+          "papel": "Uma"
+        }
+      ],
+      "sinopsis": {
+        "en": "In a retro-futuristic, tropical-punk twist on Dante’s Inferno, a group of misfits converges at Babel, a legendary dive bar that doubles as purgatory, where La Flaca—the city’s Grim Reaper—presides. Here, souls gamble years of their lives with her, daring to outwit Death Herself.",
+        "es": "En el bar Babel, donde vivos y muertos se mezclan, Dante busca recordar su pasado antes de que la Flaca, la Muerte en esta ciudad, cobre su deuda. Jacob esconde de su padre, un sacerdote fanático, su deseo de ser drag queen, mientras Uma, una gitana con su propia apuesta, intenta engañar a la Flaca para salvar a su hija. Entre pactos y desafíos, sus destinos chocan en una lucha contra lo inevitable."
+      },
+      "titulo": "Llueve sobre Babel",
+      "titulo_ca": null,
+      "titulo_original": "Llueve sobre Babel",
+      "tmdb": 1388977,
+      "trailer": "mLSZjalFco0",
+      "wikidata": "Q131978276"
+    },
+    "fecha": "2026-11-18"
+  },
   "it:los domingos": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/kwpDm6qtON8pLCSY0C8MltMofEE.jpg",
@@ -2755,6 +3080,10 @@
     "datos": null,
     "fecha": "2026-11-17"
   },
+  "it:projeccio sorda": {
+    "datos": null,
+    "fecha": "2026-11-18"
+  },
   "it:projeccio talent km 0": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -3270,6 +3599,134 @@
   "it:tarda de cinema": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "it:telefono rojo volamos hacia moscu:kubrick": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/snsOoRb1d4WD6q62PRfBuGLJ8xr.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yFT0VyIelI9aegZrsAwOG5iVP4v.jpg",
+          "id": 240,
+          "nombre": "Stanley Kubrick"
+        }
+      ],
+      "duracion": 95,
+      "edad": "18",
+      "estreno": "1964-01-29",
+      "fondo": "https://image.tmdb.org/t/p/w1280/7i0L2ee4Iy0aXV6vR5u1ZmblOrx.jpg",
+      "generos": [
+        "Comedia",
+        "Bélica"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yFT0VyIelI9aegZrsAwOG5iVP4v.jpg",
+          "id": 240,
+          "nombre": "Stanley Kubrick"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zvaYee6lkHqjLE47IHPZfUWijSS.jpg",
+          "id": 8950,
+          "nombre": "Terry Southern"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2BXNZWnxTux7cC4wdfLUwFbGY4i.jpg",
+          "id": 14250,
+          "nombre": "Peter George"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2BXNZWnxTux7cC4wdfLUwFbGY4i.jpg",
+          "id": 14250,
+          "nombre": "Peter George"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt0057012",
+      "lema": "Línea directa a la comedia de suspense.",
+      "musica": [
+        {
+          "id": 14252,
+          "nombre": "Laurie Johnson"
+        }
+      ],
+      "nota_tmdb": 8.1,
+      "paises": [
+        "GB",
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sCVIv2DGoC9U16anTjLwMxKBPZ.jpg",
+          "id": 12446,
+          "nombre": "Peter Sellers",
+          "papel": "Group Capt. Lionel Mandrake / President Merkin Muffley / Dr. Strangelove"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iZON8v2ExgNzY943W0UDWXeRZrz.jpg",
+          "id": 862,
+          "nombre": "George C. Scott",
+          "papel": "General 'Buck' Turgidson"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dCTe6BsGSp9QTcva2Pz4wbxxYMY.jpg",
+          "id": 3088,
+          "nombre": "Sterling Hayden",
+          "papel": "Brigadier General Jack D. Ripper"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bO88300vMddcIXuRZvMm5QLXdr.jpg",
+          "id": 4966,
+          "nombre": "Keenan Wynn",
+          "papel": "Colonel Bat Guano"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8UwvsZe0frSzCoyC8KGSfjAaZBf.jpg",
+          "id": 14253,
+          "nombre": "Slim Pickens",
+          "papel": "Major \"King\" Kong"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/187FadUt4kYNbrRfWp1sHynmGWW.jpg",
+          "id": 6600,
+          "nombre": "Peter Bull",
+          "papel": "Botschafter De Sadesky"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sgc8yxYr8ecNn1TXjWXWx3wmUYA.jpg",
+          "id": 15152,
+          "nombre": "James Earl Jones",
+          "papel": "Lt. Lothar Zogg"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ts9KswPwZfhJQFdp4WBhzPfVJOQ.jpg",
+          "id": 126354,
+          "nombre": "Tracy Reed",
+          "papel": "Miss Scott"
+        },
+        {
+          "id": 12485,
+          "nombre": "Jack Creley",
+          "papel": "Mr. Staines"
+        },
+        {
+          "id": 1332529,
+          "nombre": "Frank Berry",
+          "papel": "Lt. Dietrich"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Convençut que els comunistes estan contaminant a la nació americana, el general Jack D. Ripper, en un accés de bogeria paranoica, ordena un atac aeri nuclear per sorpresa sobre la Unió Soviètica. El seu ajudant, el capità Mandrake, tracta d'esbrinar el codi per detenir el bombardeig. Per solucionar el problema, el president d'EE. UU. es comunica amb Moscou per convèncer al dirigent soviètic de què l'atac és un estúpid error. Mentrestant, l'assessor del president, un antic científic nazi, el Dr. Strangelove, confirma l'existència de la \"Màquina del Judici Final\", un dispositiu de represàlia soviètic capaç d'acabar amb la humanitat per sempre.",
+        "en": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
+        "es": "Convencido de que los comunistas están contaminando los Estados Unidos, un general ordena, en un acceso de locura, un ataque aéreo nuclear sorpresa contra la Unión Soviética. Su ayudante, el capitán Mandrake, trata de encontrar la fórmula para impedir el bombardeo. Por su parte, el presidente de los EE.UU. se pone en contacto con Moscú para convencer al gobierno soviético de que el ataque no es más que un estúpido error. Mientras tanto, el asesor estadounidense, un antiguo científico nazi, el doctor Strangelove, confirma la existencia de la «Máquina del Juicio Final», un dispositivo de represalia soviético capaz de acabar con la humanidad para siempre."
+      },
+      "titulo": "¿Teléfono rojo? Volamos hacia Moscú",
+      "titulo_ca": "Doctor Strangelove",
+      "titulo_original": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "tmdb": 935,
+      "trailer": "IE9CmX15PYA",
+      "wikidata": "Q105702"
+    },
+    "fecha": "2026-11-18"
   },
   "it:temps de cinema migracions": {
     "datos": null,
@@ -10151,6 +10608,7 @@
   "p1136406": "Q2023710",
   "p1149067": "Q23728778",
   "p1150114": "Q6036248",
+  "p1152634": "Q1592579",
   "p1159954": "Q22248002",
   "p1172108": "Q20752077",
   "p118545": "Q2315802",
@@ -10166,6 +10624,7 @@
   "p1229796": "Q75168191",
   "p1230": "Q215072",
   "p1244217": "Q11778966",
+  "p12446": "Q177984",
   "p124557": "Q6375522",
   "p124747": "Q3384479",
   "p12513": "Q436769",
@@ -10203,7 +10662,9 @@
   "p1405715": "",
   "p140853": "Q5765653",
   "p1413390": "Q95817312",
+  "p1413918": "Q20021106",
   "p1427948": "Q18097962",
+  "p1431632": "Q56243874",
   "p1442194": "Q113164284",
   "p1443615": "Q2665604",
   "p1448172": "",
@@ -10261,12 +10722,14 @@
   "p19360": "Q441676",
   "p1946699": "Q43288763",
   "p1966008": "Q33123460",
+  "p1974936": "",
   "p19769": "Q1091339",
   "p19824": "Q5675218",
   "p19826": "Q3180247",
   "p19854": "Q6294057",
   "p2022317": "",
   "p20334": "Q11359443",
+  "p2035247": "",
   "p2056333": "Q110498189",
   "p2064168": "Q20888373",
   "p206905": "Q1411012",
@@ -10293,6 +10756,7 @@
   "p2299": "Q303957",
   "p2307481": "Q61685429",
   "p2327575": "Q16298631",
+  "p233517": "",
   "p234352": "Q1924847",
   "p234619": "Q1528739",
   "p234959": "",
@@ -10301,6 +10765,7 @@
   "p2387": "Q16296",
   "p239271": "Q15854232",
   "p2396803": "",
+  "p240": "Q2001",
   "p2424427": "Q137822415",
   "p24379": "Q599249",
   "p24687": "Q2834938",
@@ -10308,6 +10773,7 @@
   "p24977": "Q276739",
   "p2524429": "",
   "p2543463": "Q123612026",
+  "p2545929": "",
   "p2549328": "",
   "p2559506": "Q106873503",
   "p2617257": "",
@@ -10339,12 +10805,14 @@
   "p3060195": "Q111672778",
   "p30614": "Q193815",
   "p3070857": "",
+  "p3088": "Q323166",
   "p3119545": "Q21197590",
   "p3126191": "Q124499794",
   "p31422": "Q5923495",
   "p3153596": "Q86694039",
   "p3194501": "Q28699137",
   "p3292": "Q298347",
+  "p33410": "Q8346586",
   "p3430763": "",
   "p34517": "Q44414",
   "p3483": "Q2790121",
@@ -10353,6 +10821,7 @@
   "p3571802": "",
   "p3578018": "",
   "p3582598": "Q125935843",
+  "p3623": "Q240949",
   "p36662": "Q219655",
   "p3697864": "",
   "p3698073": "",
@@ -10366,6 +10835,7 @@
   "p3774884": "",
   "p3810": "Q134895",
   "p3813575": "",
+  "p3870270": "",
   "p39187": "Q7088045",
   "p3960217": "",
   "p40684": "Q5236475",
@@ -10382,11 +10852,13 @@
   "p4845878": "",
   "p48576": "Q928366",
   "p4893226": "",
+  "p4966": "Q946859",
   "p4985213": "",
   "p500": "Q37079",
   "p5020549": "",
   "p50244": "Q2157388",
   "p5026": "Q8006",
+  "p5063511": "",
   "p512079": "Q509777",
   "p5171095": "",
   "p51894": "Q932019",
@@ -10443,6 +10915,7 @@
   "p63306": "Q2057920",
   "p64194": "Q1377022",
   "p6462200": "Q141857229",
+  "p6489158": "",
   "p6575430": "",
   "p6645": "Q3431161",
   "p6677": "Q207506",
@@ -10471,6 +10944,7 @@
   "p84833": "Q3574497",
   "p85": "Q37175",
   "p85034": "Q1063412",
+  "p862": "Q182450",
   "p87015": "Q1224788",
   "p88124": "Q1138674",
   "p884": "Q104061",
@@ -10699,6 +11173,88 @@
     {
       "anio": 2018,
       "premio": "Premi del públic a la millor pel·lícula europea",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ105702": [
+    {
+      "anio": 1964,
+      "premio": "Premi Bodil a la millor pel·lícula no-estatunidenca",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1964,
+      "premio": "New York Film Critics Circle Award a la millor direcció",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "BAFTA a la mejor película británica",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "BAFTA a la mejor película",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "United Nations Awards",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Premio Hugo a la mejor presentación dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1964,
+      "premio": "Premio del Sindicato de Directores a la mejor dirección",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "BAFTA a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Premio Hugo a la mejor presentación dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "United Nations Awards",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "BAFTA al mejor guion de película británica",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "BAFTA a la mejor película británica",
       "tipo": "nominado"
     }
   ],
@@ -11113,6 +11669,43 @@
       "tipo": "nominado"
     }
   ],
+  "wQ115774787": [
+    {
+      "anio": 2025,
+      "premio": "Gaudí a la millor pel·lícula",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Gaudí al mejor actor secundario",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Gaudí a la mejor dirección",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Gaudí al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Gaudí al mejor actor secundario",
+      "tipo": "nominado"
+    }
+  ],
   "wQ116055498": [],
   "wQ11681419": [
     {
@@ -11434,6 +12027,7 @@
   "wQ131523413": [],
   "wQ131547207": [],
   "wQ131900904": [],
+  "wQ131978276": [],
   "wQ132240260": [],
   "wQ132616": [
     {
@@ -12398,6 +12992,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ1592579": [],
   "wQ16156312": [],
   "wQ16207915": [
     {
@@ -12923,6 +13518,33 @@
       "tipo": "nominado"
     }
   ],
+  "wQ177984": [
+    {
+      "anio": null,
+      "premio": "Comendador de la Orden del Imperio británico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Globo de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1980,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1960,
+      "premio": "Óscar al mejor cortometraje",
+      "tipo": "nominado"
+    }
+  ],
   "wQ180491": [
     {
       "anio": null,
@@ -12950,6 +13572,83 @@
       "anio": 2022,
       "premio": "Time 100",
       "tipo": "ganado"
+    }
+  ],
+  "wQ182450": [
+    {
+      "anio": 1971,
+      "premio": "Óscar al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1958,
+      "premio": "Theatre World Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1971,
+      "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Primetime Emmy al mejor actor de reparto - Miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Clarence Derwent Awards",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1960,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1962,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1971,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1972,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1960,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1974,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1976,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1959,
+      "premio": "Premio Tony al mejor actor de reparto en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1991,
+      "premio": "Razzie al peor actor",
+      "tipo": "nominado"
     }
   ],
   "wQ18350026": [
@@ -13222,6 +13921,125 @@
       "anio": 2008,
       "premio": "Premios del Sindicato de Actores",
       "tipo": "nominado"
+    }
+  ],
+  "wQ2001": [
+    {
+      "anio": 2000,
+      "premio": "BAFTA Academy Fellowship Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1969,
+      "premio": "Óscar a los mejores efectos visuales",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "León de Oro por la carrera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Science Fiction and Fantasy Hall of Fame",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Comendador de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "National Board of Review por Mejor Película",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1976,
+      "premio": "BAFTA al mejor director",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1972,
+      "premio": "Premio Hugo a la mejor presentación dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2008,
+      "premio": "Gran Premio Honorífico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1969,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1969,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1972,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1972,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1972,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1976,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1976,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1976,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1981,
+      "premio": "Razzie al peor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ20021106": [
+    {
+      "anio": null,
+      "premio": "Premio Goya a la mejor interpretación masculina de reparto",
+      "tipo": "ganado"
     }
   ],
   "wQ20031439": [
@@ -14564,6 +15382,18 @@
     }
   ],
   "wQ23770470": [],
+  "wQ240949": [
+    {
+      "anio": 2012,
+      "premio": "Premio Goya a la mejor interpretación femenina protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
+      "tipo": "ganado"
+    }
+  ],
   "wQ241701": [
     {
       "anio": null,
@@ -15523,6 +16353,13 @@
     }
   ],
   "wQ3180247": [],
+  "wQ323166": [
+    {
+      "anio": null,
+      "premio": "Estrella de Plata",
+      "tipo": "ganado"
+    }
+  ],
   "wQ33123460": [],
   "wQ3326153": [
     {
@@ -17972,6 +18809,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ56243874": [],
   "wQ56349283": [],
   "wQ5675218": [],
   "wQ57167212": [
@@ -19018,6 +19856,78 @@
       "tipo": "nominado"
     }
   ],
+  "wQ8346586": [
+    {
+      "anio": 2010,
+      "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Premio Nacional de Cultura de Cataluña",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premio Memorial Margarita Xirgu",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premi Butaca a la millor actriu teatral",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Premi Butaca a la millor actriu teatral",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Premio Butaca a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Premio Ciudad de Barcelona",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Premi Butaca a la millor actriu teatral",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Premi Butaca a la millor actriu teatral",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Cruz de San Jorge",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2025,
+      "premio": "Premio Goya a la mejor interpretación femenina de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2025,
+      "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+      "tipo": "ganado"
+    }
+  ],
   "wQ86694039": [],
   "wQ86714": [
     {
@@ -19179,6 +20089,13 @@
     }
   ],
   "wQ943790": [],
+  "wQ946859": [
+    {
+      "anio": null,
+      "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    }
+  ],
   "wQ948023": [
     {
       "anio": 1976,

@@ -39,14 +39,6 @@
     },
     "tema": "otro"
   },
-  "https://beteve.cat/catakrac/el-secret-de-les-4-cartes/": {
-    "evento": false,
-    "resumen": {
-      "ca": "El mag Stigman visita l'Institut Escola Arts de Barcelona per mostrar El secret de les 4 cartes, un truc de màgia.",
-      "es": "El mago Stigman visita el Institut Escola Arts de Barcelona para mostrar El secreto de las 4 cartas, un truco de magia."
-    },
-    "tema": "magia"
-  },
   "https://beteve.cat/catakrac/el-truc-de-la-triple-coincidencia/": {
     "evento": false,
     "resumen": {
@@ -156,14 +148,6 @@
     "resumen": {
       "ca": "Anàlisi lingüística de les formes tió i cagatió i de com es diu correctament en català.",
       "es": "Análisis lingüístico de las formas tió y cagatió y de cómo se dice correctamente en catalán."
-    },
-    "tema": "otro"
-  },
-  "https://beteve.cat/cultura/trasllat-port-vell-sonar-dia-sonar-d/": {
-    "evento": false,
-    "resumen": {
-      "ca": "Segons La Vanguardia, el Sónar de Dia i el Sónar+D podrien traslladar-se al Port Vell el juny del 2027.",
-      "es": "Según La Vanguardia, el Sónar de Día y el Sónar+D podrían trasladarse al Port Vell en junio de 2027."
     },
     "tema": "otro"
   },
@@ -364,14 +348,6 @@
     "resumen": {
       "ca": "La crítica considera que Martin McDonagh es confirma com un dels cineastes més lliures de Hollywood amb 'Wild Horse Nine'.",
       "es": "La crítica considera que Martin McDonagh se confirma como uno de los cineastas más libres de Hollywood con 'Wild Horse Nine'."
-    },
-    "tema": "cine"
-  },
-  "https://www.20minutos.es/cinemania/noticias/adam-driver-star-wars-kylo-ren-quiso-volver_7059294_0.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "Adam Driver confessa que va voler tornar a 'Star Wars', però li van dir que no, malgrat que el seu personatge hagués mort.",
-      "es": "Adam Driver confiesa que quiso volver a 'Star Wars' aunque le dijeron que no, pese a que su personaje hubiese muerto."
     },
     "tema": "cine"
   },
@@ -588,6 +564,14 @@
     "resumen": {
       "ca": "Alan Ritchson protagonitza Motor City, un thriller de venjança ambientat al Detroit dels setanta, que arriba a Movistar Plus.",
       "es": "Alan Ritchson protagoniza Motor City, un thriller de venganza ambientado en el Detroit de los setenta, que llega a Movistar Plus."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/noticias/rey-carlos-bienvenida-robert-pattinson-james-bond_7062331_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El rei Carles III dona la benvinguda a Robert Pattinson com a nou Bond, en línia amb els vincles de Bond amb la reialesa.",
+      "es": "El rey Carlos III da la bienvenida a Robert Pattinson como nuevo Bond, en línea con los vínculos de Bond con la realeza."
     },
     "tema": "cine"
   },
@@ -895,6 +879,14 @@
     },
     "tema": "cine"
   },
+  "https://www.ara.cat/campdetarragona/llegir-llibre-nen-teva-nena-crea-moment-especial_128_5907836.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Marta Moreno, formada com a mestra i com a il·lustradora, és il·lustradora de llibres infantils i parla de llegir amb nens.",
+      "es": "Marta Moreno, formada como maestra y como ilustradora, es ilustradora de libros infantiles y habla de la lectura compartida con niños."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/ciencia-medi-ambient/neurociencia/museus-teatre-cinema-secret-envellir-millor_1_5904877.html": {
     "evento": false,
     "resumen": {
@@ -967,6 +959,14 @@
     },
     "tema": "cine"
   },
+  "https://www.ara.cat/cultura/byung-chul-han-lliures-lligams_1_5913713.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Byung-Chul Han parla de la llibertat i dels lligams, després de contemplar la imatge de la Mare de Déu a Santa Maria del Mar.",
+      "es": "Byung-Chul Han habla sobre la libertad y los lazos, tras contemplar la imagen de la Virgen en Santa Maria del Mar."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/cultura/cinema/critiques/adolescencia-sexo-muerte-miasma-divertit_1_5912003.html": {
     "evento": false,
     "resumen": {
@@ -1020,14 +1020,6 @@
     "resumen": {
       "ca": "El Festival de Cinema LGTBIQ+ Endimaris Sitges celebra la sisena edició del 19 al 29 de novembre, amb Coward i Gugu's World com a títols destacats.",
       "es": "El Festival de Cine LGTBIQ+ Endimaris Sitges celebra su sexta edición del 19 al 29 de noviembre, con Coward y Gugu's World como títulos destacados."
-    },
-    "tema": "cine"
-  },
-  "https://www.ara.cat/cultura/cinema/isaki-lacuesta-jaleos-catalunya-flamenc_1_5908239.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "Isaki Lacuesta parla del seu nou documental, que relaciona Catalunya amb l'origen del flamenc.",
-      "es": "Isaki Lacuesta habla de su nuevo documental, que relaciona Catalunya con el origen del flamenco."
     },
     "tema": "cine"
   },
@@ -1140,22 +1132,6 @@
     "resumen": {
       "ca": "Maria Rovira (Oye Sherman) presenta l'espectacle Una història certa sobre la mentida en tres funcions a l'Espai Texas, dins del Festival Clàssics.",
       "es": "Maria Rovira (Oye Sherman) presenta su espectáculo Una història certa sobre la mentida en tres funciones en el Espai Texas, dentro del Festival Clàssics."
-    },
-    "tema": "teatro"
-  },
-  "https://www.ara.cat/cultura/patrimoni/pepe-serra-pintures-profanes-arribaran-sixena-cap-alteracio_1_5908365.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "Pepe Serra assegura que les pintures profanes de Sixena arribaran sense cap alteració i que el desmuntatge començarà al novembre.",
-      "es": "Pepe Serra asegura que las pinturas profanas de Sixena llegarán sin alteraciones y comenzará su desmontaje en noviembre."
-    },
-    "tema": "otro"
-  },
-  "https://www.ara.cat/cultura/teatre/carles-sans-teatre-poliorama-preparant-jubilacio_1_5902994.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "Carles Sans torna als escenaris amb un espectacle de paraula després de la seva etapa amb Tricicle, en una obra que busca l'humor verbal.",
-      "es": "Carles Sans vuelve a los escenarios con un espectáculo de palabra tras su etapa con Tricicle, en una obra que busca el humor verbal."
     },
     "tema": "teatro"
   },
@@ -1295,14 +1271,6 @@
     },
     "tema": "otro"
   },
-  "https://www.eldiario.es/cultura/teatro/cgt-cnt-denuncian-vulneracion-derecho-huelga-espectaculos-teatrales-rey-leon-miserables_1_13622787.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "La CGT i la CNT denuncien la vulneració del dret de vaga en espectacles com 'El rei lleó' i 'Los Miserables', amb teatres que han desplaçat o cancel·lat funcions de l'11 de novembre.",
-      "es": "CGT y CNT denuncian la vulneración del derecho a huelga en espectáculos como 'El rey león' y 'Los Miserables', con teatros que han desplazado o cancelado funciones del 11 de noviembre."
-    },
-    "tema": "teatro"
-  },
   "https://www.eldiario.es/cultura/teatro/cgt-convoca-concentracion-frente-teatro-real-vulnerar-derecho-huelga-trabajadores_1_13641351.html": {
     "evento": false,
     "resumen": {
@@ -1383,6 +1351,14 @@
     },
     "tema": "teatro"
   },
+  "https://www.elmundo.es/la-lectura/2026/11/18/6af5a593fdddff3a7f8b4596.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Omar Ayuso i Pablo Messiez presenten La forma humana, sobre el plaer i l'herència familiar, i critiquen la imposició moral sobre el sexe.",
+      "es": "Omar Ayuso y Pablo Messiez presentan La forma humana, sobre el placer y la herencia familiar, y critican la imposición moral sobre el sexo."
+    },
+    "tema": "teatro"
+  },
   "https://www.elmundo.es/loc/famosos/2026/11/16/6afb2888e85ecedd5f8b4592.html": {
     "evento": false,
     "resumen": {
@@ -1391,11 +1367,11 @@
     },
     "tema": "otro"
   },
-  "https://www.espinof.com/actores-y-actrices/christopher-lloyd-fortuna-mis-padres-era-heredada-nino-me-dejaba-maravillado-opulencia-nuestra-mansion-propia-edad-dorada": {
+  "https://www.espinof.com/actores-y-actrices/brad-pitt-quiere-ser-villano-james-bond-robert-pattinson-vamos-alla": {
     "evento": false,
     "resumen": {
-      "ca": "L'actor Christopher Lloyd, Doc Brown de Regreso al futuro, publica les seves memòries i evoca l'opulència de la seva infància familiar.",
-      "es": "El actor Christopher Lloyd, Doc Brown de Regreso al futuro, publica sus memorias y evoca la opulencia de su infancia familiar."
+      "ca": "Brad Pitt afirma que vol ser el dolent de la pròxima pel·lícula de James Bond, amb Pattinson com a nou 007.",
+      "es": "Brad Pitt afirma que quiere ser el villano de la próxima película de James Bond, con Pattinson como nuevo 007."
     },
     "tema": "cine"
   },
@@ -1463,6 +1439,14 @@
     },
     "tema": "cine"
   },
+  "https://www.espinof.com/directores-y-guionistas/a-steven-spielberg-no-le-apetecia-hacer-terror-martin-scorsese-no-queria-meterse-holocausto-solucion-fue-intercambiar-sus-trabajos": {
+    "evento": false,
+    "resumen": {
+      "ca": "S'explica que Spielberg i Scorsese van intercanviar projectes, i l'origen del rodatge de La llista de Schindler.",
+      "es": "Se explica que Spielberg y Scorsese intercambiaron proyectos, y el origen del rodaje de La lista de Schindler."
+    },
+    "tema": "cine"
+  },
   "https://www.espinof.com/directores-y-guionistas/director-godzilla-minus-zero-defiende-sonido-como-mejor-catalizador-terror-salia-cada-sesion-profundamente-conmocionado": {
     "evento": false,
     "resumen": {
@@ -1511,14 +1495,6 @@
     },
     "tema": "cine"
   },
-  "https://www.espinof.com/hbo/meses-despues-rugir-salas-cine-se-estrena-hbo-max-mejores-peliculas-ciencia-ficcion-terror-ano": {
-    "evento": false,
-    "resumen": {
-      "ca": "Després de passar pels cinemes, una de les millors pel·lícules de ciència ficció i terror de l'any arriba a HBO Max.",
-      "es": "Tras su paso por las salas, una de las mejores películas de ciencia ficción y terror del año llega a HBO Max."
-    },
-    "tema": "cine"
-  },
   "https://www.espinof.com/la-1/david-broncano-carga-vox-su-denuncia-a-revuelta-junta-electoral-central-se-han-aprovechado-programa": {
     "evento": false,
     "resumen": {
@@ -1526,6 +1502,14 @@
       "es": "David Broncano responde a Vox tras su denuncia a La Revuelta ante la Junta Electoral Central por la entrevista a Santiago Abascal."
     },
     "tema": "otro"
+  },
+  "https://www.espinof.com/netflix/john-wick-venganza-nuevo-exito-netflix-brutal-pelicula-accion-que-numero-1-63-paises": {
+    "evento": false,
+    "resumen": {
+      "ca": "La pel·lícula d'acció No nos rendimos és número 1 en 63 països a la llista de Netflix.",
+      "es": "La película de acción No nos rendimos es número 1 en 63 países en la lista de Netflix."
+    },
+    "tema": "cine"
   },
   "https://www.espinof.com/proyectos/nadie-skydance-ha-visto-man-of-tomorrow-james-gunn-asegura-que-secuela-superman-no-esta-siendo-modificada-ejecutivos-estudio": {
     "evento": false,
@@ -1535,35 +1519,11 @@
     },
     "tema": "cine"
   },
-  "https://www.espinof.com/series-de-ficcion/temporada-3-anillos-poder-ha-cambiado-razon-sauron-para-crear-anillo-unico-controvertida-apuesta-a-favor-romance-oscuro": {
-    "evento": false,
-    "resumen": {
-      "ca": "La temporada 3 de Els Anells de Poder canvia la raó de Sauron per forjar l'Anell Únic amb un controvertit romanç fosc.",
-      "es": "La temporada 3 de Los Anillos de Poder cambia la razón de Sauron para forjar el Anillo Único con un controvertido romance oscuro."
-    },
-    "tema": "otro"
-  },
   "https://www.espinof.com/trailers/3-anos-despues-problema-3-cuerpos-vuelve-ambiciosa-serie-ciencia-ficcion-netflix-fin-tiene-fecha-estreno-trailer-su-temporada-2": {
     "evento": false,
     "resumen": {
       "ca": "La sèrie de ciència ficció El problema dels 3 cossos de Netflix tindrà segona temporada, amb data d'estrena i tràiler.",
       "es": "La serie de ciencia ficción El problema de los 3 cuerpos de Netflix tendrá segunda temporada, con fecha de estreno y tráiler."
-    },
-    "tema": "otro"
-  },
-  "https://www.lavanguardia.com/cultura/20261111/11681831/messiez-omar-ayuso-temporada-alta.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "Pablo Messiez estrena a Temporada Alta 'La forma humana', obra sobre la seva lluita contra el clixé.",
-      "es": "Pablo Messiez estrena en Temporada Alta 'La forma humana', obra sobre su lucha contra el cliché."
-    },
-    "tema": "teatro"
-  },
-  "https://www.lavanguardia.com/cultura/20261112/11658854/mar-pujol-idea-tenia-adulta-choca-adulta-realidad.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "La cantautora Mar Pujol presenta 'D'aquesta aigua no en beuré', reflexió sobre les contradiccions de la vida.",
-      "es": "La cantautora Mar Pujol presenta 'D'aquesta aigua no en beuré', reflexión sobre las contradicciones de la vida."
     },
     "tema": "otro"
   },
@@ -1590,14 +1550,6 @@
       "es": "Arundhati Roy visita Barcelona para hablar de su último libro y asistir a la proyección restaurada de su primer filme."
     },
     "tema": "otro"
-  },
-  "https://www.lavanguardia.com/cultura/20261112/11682095/lecciones-cine-mudo.html": {
-    "evento": false,
-    "resumen": {
-      "ca": "Titular sense entradeta que apunta a una notícia sobre el cinema mut.",
-      "es": "Titular sin entradilla que apunta a una noticia sobre el cine mudo."
-    },
-    "tema": "cine"
   },
   "https://www.lavanguardia.com/cultura/20261112/11682382/bola-negra-querido-celeste-t2-castillo-copan-nominaciones-premios-forque-cine-series.html": {
     "evento": true,
@@ -2095,6 +2047,14 @@
     },
     "tema": "otro"
   },
+  "https://www.lavanguardia.com/cultura/20261117/11686705/director-pelicula-incomoda-cuenta-cara-periodismo.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Dani de la Orden estrena una pel·lícula que retrata l'experiència de David Jiménez al capdavant d'un diari.",
+      "es": "Dani de la Orden estrena una película que retrata la experiencia de David Jiménez al frente de un diario."
+    },
+    "tema": "cine"
+  },
   "https://www.lavanguardia.com/cultura/20261117/11686777/histeria-protesta-naturaleza-refugio-loop-toma-hotel-almanac.html": {
     "evento": true,
     "resumen": {
@@ -2108,6 +2068,14 @@
     "resumen": {
       "ca": "Se subhasta un quadre de Van Gogh després d'un pacte amb els hereus jueus dels seus antics propietaris.",
       "es": "Se subasta un cuadro de Van Gogh tras un pacto con los herederos judíos de sus antiguos propietarios."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261117/11686869/byung-chul-han-santa-maria-mar-libres-lazos.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Byung-Chul Han rep el doctorat honoris causa de la Ramon Llull i publica el llibre Sense respecte.",
+      "es": "Byung-Chul Han recibe el honoris causa de la Ramon Llull y publica el libro Sin respeto, hablando de la libertad y los lazos."
     },
     "tema": "otro"
   },
@@ -2255,6 +2223,14 @@
     },
     "tema": "otro"
   },
+  "https://www.lavanguardia.com/cultura/musica/20261118/11686878/estopa-anuncia-nuevos-conciertos-valencia-barcelona-madrid-agotar-entradas.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El duo Estopa anuncia nous concerts a València, Barcelona i Madrid després d'exhaurir les entrades de la seva gira.",
+      "es": "El dúo Estopa anuncia nuevos conciertos en València, Barcelona y Madrid tras agotar las entradas de su gira."
+    },
+    "tema": "otro"
+  },
   "https://www.lavanguardia.com/cultura/teatro/20261113/11682642/rita-dos-hermanos-decision-vital.html": {
     "evento": false,
     "resumen": {
@@ -2348,6 +2324,14 @@
     "resumen": {
       "ca": "El musical 'Gaudí, el despertar del geni' arriba al Poliorama amb Estel Aparicio com el Gaudí nen.",
       "es": "El musical 'Gaudí, el despertar del geni' llega al Poliorama con Estel Aparicio como el Gaudí niño."
+    },
+    "tema": "teatro"
+  },
+  "https://www.vilaweb.cat/noticies/carles-sans/": {
+    "evento": false,
+    "resumen": {
+      "ca": "Carles Sans, que es retira dels escenaris amb l'espectacle Me'n vaig, parla de la seva intenció de no votar.",
+      "es": "Carles Sans, que se retira de los escenarios con el espectáculo Me'n vaig, habla de su plan de no votar."
     },
     "tema": "teatro"
   },
