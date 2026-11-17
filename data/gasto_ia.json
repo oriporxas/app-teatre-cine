@@ -1,13 +1,13 @@
 {
   "2026-11-17": {
     "por_tarea": {
-      "clasificar": 3.6934,
+      "clasificar": 3.7648,
       "fichas_personas": 2.2638,
-      "leer_webs": 0.0487,
+      "leer_webs": 0.0974,
       "noticias": 0.0634,
-      "revisar_dudosos": 1.3608,
-      "traducir": 0.304
+      "revisar_dudosos": 1.4778,
+      "traducir": 0.3047
     },
-    "usd": 7.7341
+    "usd": 7.9719
   }
 }

@@ -90,6 +90,20 @@ verificador, como todo. Pruebas: `tests/test_webs_salas.py`.
 
 Para que una sala no desaparezca al cubrirla, la auditoría no cuenta lo que trae este lector.
 
+**Primera lectura (17/11/2026).**
+- Salas y webs: 35 teatros sin agenda (sin contar escuelas); 19 con web en la guía; 29 páginas leídas.
+- Lo que extrajo la IA: 71 obras pasaron las comprobaciones y 20 se descartaron.
+- Lo que llegó a la app: 29 obras, después de la clasificación (el resto eran fiestas, conciertos,
+  presentaciones de libros…). Son de The Comedy Clubhouse (sus dos locales), Teatre Metamorfosis,
+  Badabadoc y el Centre Moral i Cultural del Poblenou.
+- Errores encontrados al revisarlo a mano, y corregidos con su prueba:
+  - un periodo («del 19 al 29») salía como dos funciones;
+  - dos locales con la misma web recibían los dos todos los espectáculos;
+  - el enlace a la lista de espectáculos pasaba por enlace de la obra.
+- Gasto el primer día: 0,10 $ de lectura y unos 0,55 $ de clasificar las obras nuevas. Los días
+  siguientes solo se pagan las páginas que cambian y las obras nuevas.
+- Tiempo: como mucho 8 minutos al día.
+
 ## Más adelante
 - Lo mismo para los cines sin horarios cuando su web lo permita (tarea «horarios_cine», reservada).
 - Proveedores de pago donde los haya (cine: International Showtimes) y que las salas publiquen

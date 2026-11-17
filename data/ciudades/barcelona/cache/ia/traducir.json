@@ -8151,6 +8151,22 @@
     },
     "traduccion": "Comedia de nivel de fin de semana que se niega a usar '¡Es domingo!' como excusa."
   },
+  "webs_salas:15066811f63197bd": {
+    "destino": "ca",
+    "firma": "1f5a802546870fd0",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "felicitat",
+        "vida i treball"
+      ],
+      "es": [
+        "felicidad",
+        "vida y trabajo"
+      ]
+    },
+    "traduccion": "Amb vista al mar ens mostra com vivim la nostra vida treballant per comprar-nos el temps per poder gaudir-ne, i aquest temps mai arriba. Una peça dedicada a la veritable felicitat: aquella que només es pot sentir fent el que realment estimes i sentint-te qui realment ets."
+  },
   "webs_salas:1eb88c22c16ed822": {
     "destino": "es",
     "firma": "d26819e722478f4b",

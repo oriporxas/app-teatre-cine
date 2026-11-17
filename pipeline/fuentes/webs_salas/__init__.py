@@ -289,7 +289,7 @@ def recoger(ctx: Contexto) -> Resultado:
     cache_guia = leer_json(ruta_guia, {}) or {}
     cache_ia = leer_json(ruta_ia, {}) or {}
     tarea = ajustes.tareas_ia().get("leer_webs")
-    fin = time.monotonic() + 60 * min(ctx.minutos_lectura or 15, 15)
+    fin = time.monotonic() + 60 * min(ctx.minutos_lectura or 8, 8)  # la tarea diaria no debe pasar de ~40 min
     inf = {"salas_sin_agenda": len(salas), "con_web": 0, "paginas": 0, "leidas_ia": 0, "obras": 0, "descartadas": 0,
            "funciones": 0}
     actividades = []
@@ -349,7 +349,12 @@ def recoger(ctx: Contexto) -> Resultado:
                 if v["enlace"]:
                     usos[v["enlace"]] = usos.get(v["enlace"], 0) + 1
             for v in obras:
-                if v["enlace"] and (usos[v["enlace"]] > 1 or v["enlace"].rstrip("/") == url.rstrip("/")):
+                ruta_enlace = urllib.parse.urlsplit(v["enlace"] or "").path
+                # En la propia web, «…/all-events/» o «…/agenda/» sin el título es la lista; en una web de
+                # venta de entradas, «…/events/60154» es la compra de esa obra.
+                lista = dominio(v["enlace"]) == dominio(url) and PROGRAMACION.search(ruta_enlace) \
+                    and not (set(normalizar(v["titulo"]).split()) & set(normalizar(ruta_enlace).split()))
+                if v["enlace"] and (usos[v["enlace"]] > 1 or v["enlace"].rstrip("/") == url.rstrip("/") or lista):
                     v["enlace"] = None
                 if compartida and not (mias and mias & set(normalizar(v["lugar"]).split())):
                     inf["web_compartida"] = inf.get("web_compartida", 0) + 1

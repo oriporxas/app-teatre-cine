@@ -1,15 +1,15 @@
 {
-  "actividades_vigentes": 6443,
+  "actividades_vigentes": 6413,
   "app": {
     "compra": {
       "buscadas_hoy": 0,
-      "con_enlace": 342,
+      "con_enlace": 327,
       "encontradas": 151,
-      "obra": 259,
+      "obra": 244,
       "portadas": 234,
       "sala": 83
     },
-    "espectaculos_app": 639,
+    "espectaculos_app": 623,
     "fichas_personas": {
       "buscados_hoy": 0,
       "con_ficha": 7,
@@ -17,19 +17,19 @@
     },
     "ia_fichas": {
       "con_premios": 16,
-      "con_traduccion": 570,
-      "fichas_con_texto": 573,
-      "hechas": 35,
+      "con_traduccion": 560,
+      "fichas_con_texto": 563,
+      "hechas": 0,
       "modelo": "claude-haiku-5-5",
-      "pendientes": 38
+      "pendientes": 3
     },
     "verificacion": {
       "corregidas_por_regla": {
-        "fecha": 25,
+        "fecha": 10,
         "repetida": 4,
         "sin_funciones": 1
       },
-      "publicadas": 639
+      "publicadas": 623
     }
   },
   "ciudad": {
@@ -44,7 +44,7 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "ia": 1035,
+    "ia": 1019,
     "señales": 116
   },
   "cobertura": {
@@ -69,18 +69,18 @@
   },
   "compra": {
     "buscadas_hoy": 0,
-    "con_enlace": 342,
+    "con_enlace": 327,
     "encontradas": 151,
-    "obra": 259,
+    "obra": 244,
     "portadas": 234,
     "sala": 83
   },
-  "con_detalle": 908,
-  "con_enlace_compra": 432,
+  "con_detalle": 892,
+  "con_enlace_compra": 417,
   "con_idioma": 51,
   "con_precio": 1097,
   "con_publico": 260,
-  "duracion_minutos": 0.5,
+  "duracion_minutos": 0.2,
   "errores": [],
   "fecha": "2026-11-17",
   "fichas_personas": {
@@ -99,19 +99,20 @@
       }
     },
     "webs_salas": {
-      "con_web": 24,
-      "descartadas": 16,
-      "funciones": 206,
+      "con_web": 19,
+      "descartadas": 20,
+      "funciones": 120,
       "leidas_ia": 0,
-      "obras": 141,
-      "paginas": 32,
-      "salas_sin_agenda": 42
+      "obras": 71,
+      "paginas": 29,
+      "salas_sin_agenda": 35,
+      "web_compartida": 20
     }
   },
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1685,
+      "candidatas": 1655,
       "disponible": true,
       "enviadas": 0,
       "errores": 0,
@@ -126,7 +127,7 @@
     },
     "revisar_dudosos": {
       "activa": true,
-      "candidatas": 207,
+      "candidatas": 194,
       "disponible": true,
       "enviadas": 0,
       "errores": 0,
@@ -142,13 +143,13 @@
   },
   "ia_fichas": {
     "con_premios": 16,
-    "con_traduccion": 570,
-    "fichas_con_texto": 573,
-    "hechas": 35,
+    "con_traduccion": 560,
+    "fichas_con_texto": 563,
+    "hechas": 0,
     "modelo": "claude-haiku-5-5",
-    "pendientes": 38
+    "pendientes": 3
   },
-  "inicio": "2026-11-17T21:45:49+0000",
+  "inicio": "2026-11-17T21:57:08+0000",
   "magia": {
     "incluye": 5,
     "principal": 15,
@@ -157,22 +158,22 @@
   "por_tipo": {
     "cine": 157,
     "circo": 14,
-    "danza": 87,
-    "evento": 356,
+    "danza": 86,
+    "evento": 352,
     "magia": 15,
     "musical": 37,
     "otro": 1,
-    "teatro": 484
+    "teatro": 473
   },
-  "publicadas": 1151,
-  "salas_con_espectaculos": 210,
-  "salas_con_nombre": 195,
+  "publicadas": 1135,
+  "salas_con_espectaculos": 209,
+  "salas_con_nombre": 194,
   "verificacion": {
     "corregidas_por_regla": {
-      "fecha": 25,
+      "fecha": 10,
       "repetida": 4,
       "sin_funciones": 1
     },
-    "publicadas": 639
+    "publicadas": 623
   }
 }
