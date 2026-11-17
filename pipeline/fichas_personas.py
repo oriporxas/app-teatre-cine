@@ -77,7 +77,12 @@ def buscar(cli, tarea, nombre: str, espectaculo: str) -> tuple[dict | None, int]
         return None, busquedas
     norm = lambda u: re.sub(r"[#?].*$", "", (u or "").rstrip("/"))  # noqa: E731
     vistas = {norm(u) for u in urls}
-    premios = [p for p in datos.get("premios") or [] if p.get("premio") and norm(p.get("fuente")) in vistas]
+    premios, vistos_p = [], set()
+    for p in datos.get("premios") or []:
+        clave = (str(p.get("premio", "")).lower().strip(), p.get("anio"))
+        if p.get("premio") and norm(p.get("fuente")) in vistas and clave not in vistos_p:
+            vistos_p.add(clave)
+            premios.append(p)
     fuentes = [u for u in datos.get("fuentes") or [] if norm(u) in vistas][:6]
     if not fuentes and not premios:
         return None, busquedas  # sin ninguna fuente comprobable no se publica nada
@@ -115,6 +120,10 @@ def aplicar(ciudad, items: list[dict], informe: dict) -> None:
             except Exception as e:  # noqa: BLE001
                 inf.setdefault("errores", []).append(f"{type(e).__name__}: {str(e)[:150]}")
         if reg and reg.get("ficha"):
-            it["artista_ficha"] = reg["ficha"]
+            ficha = dict(reg["ficha"])
+            vistos_p: set = set()
+            ficha["premios"] = [x for x in ficha.get("premios", [])
+                                if not ((x["premio"].lower(), x.get("anio")) in vistos_p or vistos_p.add((x["premio"].lower(), x.get("anio"))))]
+            it["artista_ficha"] = ficha
             inf["con_ficha"] += 1
     informe["fichas_personas"] = inf

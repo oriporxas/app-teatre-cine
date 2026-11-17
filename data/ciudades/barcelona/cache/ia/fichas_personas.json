@@ -1,4 +1,9 @@
 {
+  "aleix vidal": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
   "daniel sanchez": {
     "busquedas": 3,
     "fecha": "2026-11-17",
@@ -89,6 +94,69 @@
       }
     }
   },
+  "luis pardo m minerva": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "mag lari": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://cinemagavia.es/strafalari-critica-teatro/"
+      ],
+      "nombre": "Mag Lari",
+      "premios": [
+        {
+          "anio": null,
+          "fuente": "https://cinemagavia.es/strafalari-critica-teatro/",
+          "premio": "Premio Nacional de Magia Cómica"
+        },
+        {
+          "anio": null,
+          "fuente": "https://cinemagavia.es/strafalari-critica-teatro/",
+          "premio": "Mejor Espectáculo de la Fira de Tàrrega"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Mag Lari (Josep Maria Lari) és un mag amb més de 30 anys de trajectòria, considerat un dels il·lusionistes més ben valorats del panorama nacional. Va estrenar Strafalari, un espectacle de gran format, al Teatre Marquina de Barcelona. Compta amb guardons com el Premi Nacional de Màgia Còmica i el de Millor Espectacle de la Fira de Tàrrega.",
+        "es": "Mag Lari (Josep Maria Lari) es un mago con más de 30 años de trayectoria, considerado uno de los ilusionistas mejor valorados del panorama nacional. Estrenó Strafalari, un espectáculo de gran formato, en el Teatro Marquina de Barcelona. Cuenta con galardones como el Premio Nacional de Magia Cómica y el de Mejor Espectáculo de la Fira de Tàrrega."
+      }
+    }
+  },
+  "mag lluc": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
+  "mag marín": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": {
+      "fuentes": [
+        "https://www.celebrents.es/mag-marin-49373/",
+        "https://enplatea.com/?p=15728"
+      ],
+      "nombre": "Marín (Mag Marín)",
+      "premios": [
+        {
+          "anio": null,
+          "fuente": "https://www.celebrents.es/mag-marin-49373/",
+          "premio": "Premio Nacional de Magia de España, Portugal y Francia"
+        },
+        {
+          "anio": null,
+          "fuente": "https://enplatea.com/?p=15728",
+          "premio": "Ganador del programa Pura Magia (TVE)"
+        }
+      ],
+      "trayectoria": {
+        "ca": "Marín és un mag, humorista i showman de Granollers (Barcelona) que ha portat la seva màgia per tot el país. És conegut per guanyar el programa de televisió Pura Magia de RTVE. El seu espectacle barreja màgia d'escenari, grans il·lusions, màgia de prop i mentalisme amb humor.",
+        "es": "Marín es un mago, humorista y showman de Granollers (Barcelona) que ha llevado su magia por todo el país. Es conocido por ganar el programa de televisión Pura Magia de RTVE. Su espectáculo mezcla magia de escenario, grandes ilusiones, magia de cerca y mentalismo con humor."
+      }
+    }
+  },
   "mag stigman": {
     "busquedas": 1,
     "fecha": "2026-11-17",
@@ -144,6 +212,11 @@
     "fecha": "2026-11-17",
     "ficha": null
   },
+  "màgic pablo el gran repte": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
+  },
   "sergi armentano": {
     "busquedas": 3,
     "fecha": "2026-11-17",
@@ -170,5 +243,10 @@
         "es": "Sergi Armentano es un mago catalán con más de diecisiete años de experiencia y más de dos mil actuaciones, que debutó a los 8 años. Protagoniza el programa Wowzzy Baboom! de Canal 33 y fue asesor de magia en la gira del artista Jason Derulo. Ganó el Premio Nacional de Magia en 2019."
       }
     }
+  },
+  "shado": {
+    "busquedas": 3,
+    "fecha": "2026-11-17",
+    "ficha": null
   }
 }
