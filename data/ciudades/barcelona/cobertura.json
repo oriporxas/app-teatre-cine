@@ -1,39 +1,23 @@
 {
-  "con_actividades": 70,
+  "con_actividades": 87,
   "fecha": "2026-11-17",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
-      "sin_actividades": 16
+      "sin_actividades": 8
     },
     "cine": {
       "oficiales": 25,
-      "sin_actividades": 22
+      "sin_actividades": 18
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 59
+      "sin_actividades": 51
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 91,
+  "sin_actividades": 74,
   "sin_actividades_detalle": [
-    {
-      "actividades": 0,
-      "barrio": "Sarrià",
-      "calle": "Plaça de Sarrià",
-      "clave": "via106103-1",
-      "codigo_postal": "8017",
-      "distrito": "Sarrià-Sant Gervasi",
-      "id": "99400777866",
-      "lat": 41.400011080793654,
-      "lon": 2.122120839557872,
-      "nombre": "Auditori Carme Serrallonga i Calafell",
-      "numero": "1",
-      "tipo": [
-        "auditorio"
-      ]
-    },
     {
       "actividades": 0,
       "barrio": "la Vila Olímpica del Poblenou",
@@ -62,38 +46,6 @@
       "lon": 2.1668129104163323,
       "nombre": "Centre d'Estudis i Recursos Culturals - Pati Manning",
       "numero": "7",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Dreta de l'Eixample",
-      "calle": "Carrer del Bruc",
-      "clave": "via49509-110",
-      "codigo_postal": "8009",
-      "distrito": "Eixample",
-      "id": "92086009592",
-      "lat": 41.39564643402851,
-      "lon": 2.167959616957582,
-      "nombre": "Conservatori Municipal de Música de Barcelona",
-      "numero": "110",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Barri Gòtic",
-      "calle": "Pl Sant Jaume",
-      "clave": "via303705-4",
-      "codigo_postal": "8002",
-      "distrito": "Ciutat Vella",
-      "id": "93280123622",
-      "lat": 41.38283778118398,
-      "lon": 2.17681821745256,
-      "nombre": "Edifici Palau de la Generalitat",
-      "numero": "4",
       "tipo": [
         "auditorio"
       ]
@@ -132,54 +84,6 @@
     },
     {
       "actividades": 0,
-      "barrio": "Sant Pere, Santa Caterina i la Ribera",
-      "calle": "Pg Lluís Companys",
-      "clave": "via359109-18",
-      "codigo_postal": "8018",
-      "distrito": "Ciutat Vella",
-      "id": "92086001555",
-      "lat": 41.39128260500432,
-      "lon": 2.18134710585921,
-      "nombre": "Institut Pau Claris",
-      "numero": "18",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Poble-sec",
-      "calle": "Pg Santa Madrona",
-      "clave": "via316809-16",
-      "codigo_postal": "8038",
-      "distrito": "Sants-Montjuïc",
-      "id": "99400065683",
-      "lat": 41.369093660609174,
-      "lon": 2.156001328720349,
-      "nombre": "Museu Etnològic i de Cultures del Món *Parc Montjuïc",
-      "numero": "16",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Raval",
-      "calle": "Pl Àngels",
-      "clave": "via16601-1",
-      "codigo_postal": "8001",
-      "distrito": "Ciutat Vella",
-      "id": "99400063278",
-      "lat": 41.383177415641065,
-      "lon": 2.1678485289915796,
-      "nombre": "Museu d'Art Contemporani de Barcelona",
-      "numero": "1",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
       "barrio": "el Barri Gòtic",
       "calle": "Plaça del Rei",
       "clave": "via280600-9",
@@ -206,22 +110,6 @@
       "lon": 2.1858736814996145,
       "nombre": "Museu d'Història de Catalunya",
       "numero": "1",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Poble-sec",
-      "calle": "Passeig Olímpic",
-      "clave": "via234001-5",
-      "codigo_postal": "8038",
-      "distrito": "Sants-Montjuïc",
-      "id": "98168154622",
-      "lat": 41.362000114137196,
-      "lon": 2.1523962021929672,
-      "nombre": "Palau Sant Jordi",
-      "numero": "5",
       "tipo": [
         "auditorio"
       ]
@@ -257,23 +145,6 @@
       "tipo": [
         "auditorio",
         "cine"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Vila de Gràcia",
-      "calle": "Trvs Sant Antoni",
-      "clave": "via344407-6",
-      "codigo_postal": "8012",
-      "distrito": "Gràcia",
-      "id": "99400165038",
-      "lat": 41.40254484377345,
-      "lon": 2.1547130775919525,
-      "nombre": "Centre Artesà Tradicionàrius",
-      "numero": "6",
-      "tipo": [
-        "auditorio",
-        "teatro"
       ]
     },
     {
@@ -454,22 +325,6 @@
     },
     {
       "actividades": 0,
-      "barrio": "la Trinitat Nova",
-      "calle": "C Portlligat",
-      "clave": "via263509-11",
-      "codigo_postal": "8042",
-      "distrito": "Nou Barris",
-      "id": "92086012748",
-      "lat": 41.44963594619758,
-      "lon": 2.1789659850098335,
-      "nombre": "Fàbrica de Creació Ateneu Popular 9 Barris",
-      "numero": "11",
-      "tipo": [
-        "cine"
-      ]
-    },
-    {
-      "actividades": 0,
       "barrio": "la Dreta de l'Eixample",
       "calle": "Passatge de Méndez Vigo",
       "clave": "via207905-5",
@@ -518,22 +373,6 @@
     },
     {
       "actividades": 0,
-      "barrio": "Vallvidrera, el Tibidabo i les Planes",
-      "calle": "Pl Tibidabo",
-      "clave": "via335701-3",
-      "codigo_postal": "8035",
-      "distrito": "Sarrià-Sant Gervasi",
-      "id": "99400187001",
-      "lat": 41.42179367685009,
-      "lon": 2.1197957867323467,
-      "nombre": "Parc d'Atraccions del Tibidabo",
-      "numero": "3",
-      "tipo": [
-        "cine"
-      ]
-    },
-    {
-      "actividades": 0,
       "barrio": "Hostafrancs",
       "calle": "Carrer de Béjar",
       "clave": "via37601-53",
@@ -546,23 +385,6 @@
       "numero": "53",
       "tipo": [
         "cine"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Barri Gòtic",
-      "calle": "C Canuda",
-      "clave": "via61402-6",
-      "codigo_postal": "8002",
-      "distrito": "Ciutat Vella",
-      "id": "92086000770",
-      "lat": 41.38468020422838,
-      "lon": 2.171664472093875,
-      "nombre": "Ateneu Barcelonès",
-      "numero": "6",
-      "tipo": [
-        "cine",
-        "teatro"
       ]
     },
     {
@@ -594,23 +416,6 @@
       "lon": 2.1802665555913836,
       "nombre": "Recursos d'Animació Intercultural RAI",
       "numero": "12",
-      "tipo": [
-        "cine",
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Nova Esquerra de l'Eixample",
-      "calle": "G.V. Corts Catalanes",
-      "clave": "via169409-373",
-      "codigo_postal": "8015",
-      "distrito": "Eixample",
-      "id": "99400274608",
-      "lat": 41.376038338441205,
-      "lon": 2.1499752959539173,
-      "nombre": "Teatre Arenas Barcelona *Arenas de Barcelona",
-      "numero": "373",
       "tipo": [
         "cine",
         "teatro"
@@ -954,22 +759,6 @@
     },
     {
       "actividades": 0,
-      "barrio": "les Tres Torres",
-      "calle": "C Ganduxer",
-      "clave": "via139805-85",
-      "codigo_postal": "8022",
-      "distrito": "Sarrià-Sant Gervasi",
-      "id": "92086006167",
-      "lat": 41.399968634043724,
-      "lon": 2.1335788480441584,
-      "nombre": "Centre Educatiu Santa Teresa - Ganduxer",
-      "numero": "85",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
       "barrio": "el Poblenou",
       "calle": "C Pujades",
       "clave": "via270901-176",
@@ -1210,22 +999,6 @@
     },
     {
       "actividades": 0,
-      "barrio": "el Poble-sec",
-      "calle": "Av Miramar",
-      "clave": "via213307-1",
-      "codigo_postal": "8038",
-      "distrito": "Sants-Montjuïc",
-      "id": "92086000171",
-      "lat": 41.368292261821246,
-      "lon": 2.1601492925476364,
-      "nombre": "Fundació Joan Miró",
-      "numero": "1",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
       "barrio": "la Vila de Gràcia",
       "calle": "C Astúries",
       "clave": "via27302-83",
@@ -1236,22 +1009,6 @@
       "lon": 2.1564231919641506,
       "nombre": "Fundació Orfeó Gracienc",
       "numero": "83",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "Sant Gervasi - Galvany",
-      "calle": "Via Augusta",
-      "clave": "via28000-205",
-      "codigo_postal": "8021",
-      "distrito": "Sarrià-Sant Gervasi",
-      "id": "1281145134",
-      "lat": 41.39769728598179,
-      "lon": 2.1388954166038783,
-      "nombre": "Institució Cultural del C.I.C.",
-      "numero": "205",
       "tipo": [
         "teatro"
       ]
@@ -1284,22 +1041,6 @@
       "lon": 2.1595773944945718,
       "nombre": "La Perla 29",
       "numero": "21",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "Sant Gervasi - Galvany",
-      "calle": "C Muntaner",
-      "clave": "via223606-246",
-      "codigo_postal": "8021",
-      "distrito": "Sarrià-Sant Gervasi",
-      "id": "75990090931",
-      "lat": 41.39462416093732,
-      "lon": 2.1490629497204705,
-      "nombre": "Luz de Gas",
-      "numero": "246",
       "tipo": [
         "teatro"
       ]
@@ -1364,22 +1105,6 @@
       "lon": 2.1570985765474258,
       "nombre": "Sala Or",
       "numero": "25",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "Sant Andreu",
-      "calle": "Carrer de Coroleu",
-      "clave": "via91403-15",
-      "codigo_postal": "8030",
-      "distrito": "Sant Andreu",
-      "id": "92086010382",
-      "lat": 41.43277351042538,
-      "lon": 2.188165402398198,
-      "nombre": "Societat Cultural i Esportiva La Lira",
-      "numero": "15",
       "tipo": [
         "teatro"
       ]

@@ -18,13 +18,6 @@
   "escena": {
     "anomalias": [
       {
-        "accion": "función quitada",
-        "detalle": "2027-10-30 fuera del periodo 2026-11-07–2026-12-26",
-        "id": "open_data_bcn:99400696171",
-        "regla": "fecha",
-        "titulo": "Buenrollistas"
-      },
-      {
         "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400776438",
         "id": "open_data_bcn:99400776441",
@@ -37,27 +30,6 @@
         "id": "open_data_bcn:99400776443",
         "regla": "repetida",
         "titulo": "Teatre adults"
-      },
-      {
-        "accion": "función quitada",
-        "detalle": "2027-10-30 fuera del periodo 2026-11-15–2026-12-30",
-        "id": "open_data_bcn:99400778523",
-        "regla": "fecha",
-        "titulo": "De Perras y Criadas"
-      },
-      {
-        "accion": "función quitada",
-        "detalle": "2027-11-08 fuera del periodo 2026-11-15–2026-12-30",
-        "id": "open_data_bcn:99400778523",
-        "regla": "fecha",
-        "titulo": "De Perras y Criadas"
-      },
-      {
-        "accion": "función quitada",
-        "detalle": "2027-11-13 fuera del periodo 2026-11-15–2026-12-30",
-        "id": "open_data_bcn:99400778523",
-        "regla": "fecha",
-        "titulo": "De Perras y Criadas"
       },
       {
         "accion": "función quitada",
@@ -124,7 +96,7 @@
       },
       {
         "accion": "función quitada",
-        "detalle": "2028-02-25 fuera del periodo 2027-03-11–2027-04-25",
+        "detalle": "2027-02-25 fuera del periodo 2027-03-11–2027-04-25",
         "id": "open_data_bcn:99400790058",
         "regla": "fecha",
         "titulo": "Misión impro-sible"
@@ -135,14 +107,126 @@
         "id": "open_data_bcn:99400790463",
         "regla": "repetida",
         "titulo": "Teatre i creació escènica"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-28 fuera del periodo 2026-11-21–2026-11-21",
+        "id": "webs_salas:1eb88c22c16ed822",
+        "regla": "fecha",
+        "titulo": "Show Up Go Up"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-05 fuera del periodo 2026-11-21–2026-11-21",
+        "id": "webs_salas:1eb88c22c16ed822",
+        "regla": "fecha",
+        "titulo": "Show Up Go Up"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-01 fuera del periodo 2026-11-24–2026-11-24",
+        "id": "webs_salas:37da0cd745ae965c",
+        "regla": "fecha",
+        "titulo": "Fat Goose"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-08 fuera del periodo 2026-11-24–2026-11-24",
+        "id": "webs_salas:37da0cd745ae965c",
+        "regla": "fecha",
+        "titulo": "Fat Goose"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-06 fuera del periodo 2026-11-22–2026-11-22",
+        "id": "webs_salas:56eb6a05b9989d98",
+        "regla": "fecha",
+        "titulo": "Open Improv Workshop"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-30 fuera del periodo 2026-11-23–2026-11-23",
+        "id": "webs_salas:5bed0ecaa732abda",
+        "regla": "fecha",
+        "titulo": "Coming In Hot"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-07 fuera del periodo 2026-11-23–2026-11-23",
+        "id": "webs_salas:5bed0ecaa732abda",
+        "regla": "fecha",
+        "titulo": "Coming In Hot"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-27 fuera del periodo 2026-11-20–2026-11-20",
+        "id": "webs_salas:5c846e3bf33f8f92",
+        "regla": "fecha",
+        "titulo": "Friday Night Live"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-27 fuera del periodo 2026-11-20–2026-11-20",
+        "id": "webs_salas:9301af4e9ef4eac4",
+        "regla": "fecha",
+        "titulo": "Show Up Go Up (Fri.)"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-04 fuera del periodo 2026-11-20–2026-11-20",
+        "id": "webs_salas:9301af4e9ef4eac4",
+        "regla": "fecha",
+        "titulo": "Show Up Go Up (Fri.)"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-25 fuera del periodo 2026-11-18–2026-11-18",
+        "id": "webs_salas:a6a0685b92e257f4",
+        "regla": "fecha",
+        "titulo": "Wednesday Night Comedy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-01 fuera del periodo 2026-11-17–2026-11-17",
+        "id": "webs_salas:b67294cdfe18c6e7",
+        "regla": "fecha",
+        "titulo": "Big Mic Energy"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-26 fuera del periodo 2026-11-19–2026-11-19",
+        "id": "webs_salas:b7366657c2214721",
+        "regla": "fecha",
+        "titulo": "Typical Adult Behavior"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-28 fuera del periodo 2026-11-21–2026-11-21",
+        "id": "webs_salas:e64df8667e014ec6",
+        "regla": "fecha",
+        "titulo": "Open Writing Workshop"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-12-05 fuera del periodo 2026-11-21–2026-11-21",
+        "id": "webs_salas:e64df8667e014ec6",
+        "regla": "fecha",
+        "titulo": "Open Writing Workshop"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-27 fuera del periodo 2026-11-20–2026-11-20",
+        "id": "webs_salas:f4a9e036cc21d4ea",
+        "regla": "fecha",
+        "titulo": "The Friday Spotlight"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 13,
+      "fecha": 25,
       "repetida": 4,
       "sin_funciones": 1
     },
     "fecha": "2026-11-17",
-    "publicadas": 594
+    "publicadas": 639
   }
 }
