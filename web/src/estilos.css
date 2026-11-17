@@ -24,7 +24,8 @@
 }
 
 * { box-sizing: border-box; }
-html, body { margin: 0; background: var(--fondo); }
+html { margin: 0; background: var(--fondo); }
+body { margin: 0; background: transparent; } /* el telón (body::before) va entre los dos */
 /* La página entera se desplaza: así se puede deslizar en cualquier móvil y dentro de otras apps. */
 body {
   color: var(--texto);
@@ -49,7 +50,7 @@ h1, h2, h3, p { margin: 0; }
   display: flex;
   flex-direction: column;
   padding-top: env(safe-area-inset-top);
-  background: var(--fondo);
+  background: transparent; /* deja ver el telón del fondo (body::before) */
 }
 .pantalla { flex: 1 0 auto; display: flex; flex-direction: column; }
 
@@ -364,10 +365,7 @@ h1 { font-weight: 700; }
 
 /* --- Inicio --- */
 .portada { position: relative; padding-top: 24px; gap: 16px; }
-.portada::before {
-  content: ''; position: absolute; inset: -3px 0 auto 0; height: 220px; z-index: -1; pointer-events: none;
-  background: radial-gradient(120% 90% at 50% 0%, rgba(209, 31, 53, 0.28), rgba(209, 31, 53, 0.06) 55%, transparent 75%);
-}
+/* (El brillo rojo de la portada se quitó el 17/11/2026: ahora el fondo es el telón.) */
 .inicio { position: relative; z-index: 0; }
 .marca { font-family: var(--titulos); font-size: 20px; font-weight: 700; letter-spacing: 0.01em; }
 .marca em { font-style: italic; color: var(--acento-texto); }
@@ -529,3 +527,94 @@ a.chip { text-decoration: none; display: inline-flex; align-items: center; }
 .resumen .segmentos { margin-left: auto; }
 .caja.mago { border-color: var(--acento); background: linear-gradient(160deg, #1d0a0e, var(--superficie) 60%); }
 .fuente-mini { font-size: 12px; color: var(--texto-suave); }
+
+
+/* ===================== Cambios de Uri (17/11/2026) ===================== */
+
+/* Fondo: telón de teatro color vino, apagado para que mande lo de delante. Pliegues verticales
+   con luz y sombra, bambalina oscura arriba y el centro casi negro, donde va el contenido. */
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(ellipse 70% 80% at 50% 48%, rgba(10, 10, 11, 0.9) 0%, rgba(10, 10, 11, 0.8) 45%, rgba(10, 10, 11, 0.5) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 16%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.65) 100%),
+    repeating-linear-gradient(90deg,
+      #1f050b 0px, #3a0a15 10px, #5a1322 22px, #6a1828 27px, #4a0f1c 36px, #2a0710 48px, #1f050b 56px);
+}
+.ficha-barra { background: rgba(10, 10, 11, 0.88); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+
+/* Barra de abajo con seis secciones: un poco más compacta. */
+.nav { padding-left: 2px; padding-right: 2px; }
+.nav a { font-size: 11px; letter-spacing: -0.01em; min-width: 0; }
+.nav a svg { width: 21px; height: 21px; }
+
+/* Botones con icono al lado del texto */
+.con-icono { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.con-icono svg { flex: 0 0 auto; }
+
+/* Película: un desplegable por cine con sus horas dentro */
+.cine-desplegable { border: 1px solid var(--borde); border-radius: 14px; background: rgba(20, 20, 22, 0.92); overflow: hidden; }
+.cine-desplegable + .cine-desplegable { margin-top: 8px; }
+.cine-desplegable summary {
+  list-style: none; display: flex; align-items: center; gap: 10px; padding: 12px 14px; cursor: pointer; min-height: 56px;
+}
+.cine-desplegable summary::-webkit-details-marker { display: none; }
+.cine-desplegable-texto { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.cine-desplegable summary .flecha { color: var(--texto-suave); transition: transform 0.2s; flex: 0 0 auto; }
+.cine-desplegable[open] summary .flecha { transform: rotate(180deg); color: var(--acento-texto); }
+.cine-desplegable[open] summary { border-bottom: 1px solid var(--borde); }
+.cine-desplegable-cuerpo { display: flex; flex-direction: column; gap: 12px; padding: 12px 14px 14px; }
+
+/* Horas que llevan a la compra (teatro y ficha de cine) */
+a.hora-chip { text-decoration: none; }
+.funcion-derecha a.hora-chip { font-size: 15px; padding: 5px 10px; }
+.compra { display: flex; flex-direction: column; gap: 6px; }
+
+/* Plan: título con lápiz, acciones arriba, ruta bien visible y borrar abajo */
+.plan-titulo { display: flex; align-items: center; gap: 6px; }
+.plan-titulo h2 { flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; }
+.plan-titulo .boton-icono { color: var(--texto-suave); flex: 0 0 auto; }
+.boton-ruta {
+  display: flex; align-items: center; gap: 10px; width: 100%; min-height: 50px; padding: 0 14px; margin-top: 4px;
+  border-radius: 12px; border: 1px solid var(--acento); background: rgba(209, 31, 53, 0.14); color: var(--texto);
+  font-weight: 700; font-size: 15px; text-align: left;
+}
+.boton-ruta svg:first-child { color: var(--acento-texto); }
+.boton-ruta .flecha-derecha { margin-left: auto; color: var(--texto-suave); }
+.plan-borrar { display: flex; justify-content: center; padding-top: 8px; border-top: 1px solid var(--borde); }
+.plan-borrar .boton-secundario { flex: 0 1 260px; }
+.boton-principal.peligro { background: #B3261E; border-color: #B3261E; }
+.plan-opcion.con-icono { flex-direction: row; justify-content: flex-start; text-align: left; gap: 14px; }
+.plan-opcion.con-icono > span { display: flex; flex-direction: column; gap: 2px; }
+.plan-opcion.con-icono svg { color: var(--acento-texto); }
+
+/* Ruta del día */
+.ruta-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.ruta-lista li { display: flex; align-items: center; gap: 12px; }
+.ruta-num {
+  flex: 0 0 auto; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--acento); color: var(--sobre-acento); font-weight: 800; font-size: 14px;
+}
+.ruta-lista .plan-info { flex: 1; min-width: 0; }
+.ruta-apps { display: flex; flex-wrap: wrap; gap: 8px; }
+.ruta-apps > * { flex: 1 1 140px; }
+.ruta .ruta-linea { fill: none; stroke: var(--acento-texto); stroke-linecap: round; stroke-linejoin: round; }
+.ruta .ruta-parada { fill: var(--acento); stroke: #fff; }
+.ruta .ruta-numero { fill: #fff; font-family: var(--ui); font-weight: 800; text-anchor: middle; dominant-baseline: central; }
+
+/* Pregunta de seguridad (borrar plan) */
+.fondo-hoja.centrado { justify-content: center; align-items: center; padding: 16px; }
+.dialogo {
+  background: var(--superficie); border: 1px solid var(--borde-fuerte); border-radius: 18px; padding: 20px;
+  width: 100%; max-width: 380px; display: flex; flex-direction: column; gap: 18px;
+}
+.dialogo-texto { font-size: 17px; line-height: 1.45; font-weight: 600; }
+.dialogo-botones { display: flex; gap: 10px; }
+.dialogo-botones > * { flex: 1; }
+.fila-enlaces { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.boton-principal.con-icono, .boton-secundario.con-icono { display: flex; }
+/* El mapa de la ruta, dentro de la hoja: que no se encoja (si no, se corta y una parada queda fuera). */
+.hoja .mapa { flex: 0 0 auto; }
+.hoja .mapa svg { aspect-ratio: 4 / 3; }
+.tema-evento { background: transparent; border: 1px solid var(--acento-texto); color: var(--acento-texto); }
+.noticia-meta { flex-wrap: wrap; }

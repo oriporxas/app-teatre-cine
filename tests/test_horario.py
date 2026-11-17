@@ -53,6 +53,11 @@ class TestHorario(unittest.TestCase):
         self.assertEqual(horario.leer_precios("Entrada general: 49.19 €\n10 Sessions")["minimo"], 49.19)  # ni las sesiones
         self.assertEqual(horario.leer_precios("Entrada general de: 8 a 32 €\n1 h durada")["minimo"], 8)  # ni la duración
 
+    def test_fechas_pasadas_no_saltan_al_anyo_siguiente(self):
+        # «De Perras y Criadas» (17/11/2026): «30 octubre» salía como función del 30/10/2027.
+        d = horario.leer_dias("30 octubre,\n27 novembre i\n6 desembre", dt.date(2026, 11, 15), dt.date(2026, 12, 30))
+        self.assertEqual(d["fechas"], ["2026-10-30", "2026-11-27", "2026-12-06"])
+
     def test_cada_precio_esta_en_el_texto(self):
         self.assertTrue(horario.aparece(24.95, "Espectacle: 24.95 €"))
         self.assertTrue(horario.aparece(24.95, "Espectacle: 24,95 €"))

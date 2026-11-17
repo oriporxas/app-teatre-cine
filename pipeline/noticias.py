@@ -35,10 +35,11 @@ ESQUEMA = {
         "properties": {
             "id": {"type": "string"},
             "tema": {"type": "string", "enum": TEMAS},
+            "evento": {"type": "boolean"},
             "resumen_es": {"type": "string"},
             "resumen_ca": {"type": "string"},
         },
-        "required": ["id", "tema", "resumen_es", "resumen_ca"], "additionalProperties": False}}},
+        "required": ["id", "tema", "evento", "resumen_es", "resumen_ca"], "additionalProperties": False}}},
     "required": ["noticias"], "additionalProperties": False,
 }
 SISTEMA = (
@@ -47,7 +48,10 @@ SISTEMA = (
     "musicales, monólogos, títeres, ópera escenificada no; premios y festivales de teatro sí), «cine» "
     "(películas, estrenos, festivales y premios de cine, actores y directores de cine; las series de "
     "televisión no), «magia» (magos, ilusionismo, mentalismo), «circo» (circo, acrobacias, clown de circo) "
-    "u «otro» (todo lo demás: música, libros, arte, series, televisión, política cultural general). "
+    "u «otro» (todo lo demás: música, libros, arte, danza, series, televisión, política cultural general). "
+    "«evento»: true solo si la noticia trata de un evento concreto de ese tema: festival, muestra o ciclo, gala o "
+    "entrega de premios, feria, convención o congreso, taller o curso; false para estrenos, críticas, entrevistas, "
+    "obituarios y noticias del sector. "
     "Escribe un resumen neutro de una sola frase (máximo 30 palabras) en castellano y otro en catalán, "
     "con tus palabras y solo con lo que dice el titular y la entradilla: no inventes datos."
 )
@@ -77,9 +81,9 @@ def _imagen(item: str) -> str | None:
 
 
 def leer_canal(fuente: dict, desde: dt.datetime) -> list[dict]:
-    try:
-        b = urllib.request.urlopen(urllib.request.Request(fuente["url"], headers={"User-Agent": AGENTE}), timeout=30).read()
-    except Exception:  # noqa: BLE001 - un medio caído no para los demás
+    from .cine import red  # respeta robots.txt y las pausas de cada web
+    b = red.pedir(fuente["url"], timeout=30)
+    if not b:  # medio caído o que no deja leer su canal: no para los demás
         return []
     texto = b.decode("utf-8", "replace")
     res = []
@@ -111,14 +115,19 @@ def recoger(ciudad, hoy: dt.date) -> dict:
     informe = {"medios": len(fuentes), "leidas": 0, "clasificadas_hoy": 0, "publicadas": 0}
     if not fuentes:
         return informe
-    desde = dt.datetime.combine(hoy - dt.timedelta(days=DIAS), dt.time(), tzinfo=dt.timezone.utc)
     todas: dict[str, dict] = {}
+    por_medio: dict[str, int] = {}
     for fuente in fuentes:
-        for n in leer_canal(fuente, desde):
+        desde = dt.datetime.combine(hoy - dt.timedelta(days=int(fuente.get("dias", DIAS))), dt.time(), tzinfo=dt.timezone.utc)
+        leidas = leer_canal(fuente, desde)
+        por_medio[fuente["url"]] = len(leidas)
+        for n in leidas:
             todas.setdefault(n["enlace"], n)
+    informe["por_canal"] = por_medio
     informe["leidas"] = len(todas)
     ruta_cache = config.carpeta_cache(ciudad.id, "noticias") / "clasificacion.json"
-    cache = {k: v for k, v in (leer_json(ruta_cache, {}) or {}).items() if k in todas}
+    # Las clasificadas antes de existir «evento» se vuelven a clasificar (una vez).
+    cache = {k: v for k, v in (leer_json(ruta_cache, {}) or {}).items() if k in todas and "evento" in v}
     tarea = ajustes.tareas_ia().get("noticias")
     pendientes = [k for k in todas if k not in cache]
     if tarea and tarea.activa and ia.disponible() and pendientes:
@@ -140,7 +149,8 @@ def recoger(ciudad, hoy: dt.date) -> dict:
                 continue
             for x in (r or {}).get("noticias", []):
                 if x["id"] in por_id:
-                    cache[por_id[x["id"]]] = {"tema": x["tema"], "resumen": {"es": x["resumen_es"], "ca": x["resumen_ca"]}}
+                    cache[por_id[x["id"]]] = {"tema": x["tema"], "evento": bool(x.get("evento")),
+                                              "resumen": {"es": x["resumen_es"], "ca": x["resumen_ca"]}}
                     informe["clasificadas_hoy"] += 1
         guardar_json(ruta_cache, cache)
     salida = []
@@ -150,11 +160,12 @@ def recoger(ciudad, hoy: dt.date) -> dict:
             continue
         salida.append({k2: v for k2, v in {
             "titulo": n["titulo"], "enlace": n["enlace"], "medio": n["medio"], "fecha": n["fecha"],
-            "idioma": n["idioma"], "tema": c["tema"], "resumen": c["resumen"], "imagen": n["imagen"],
+            "idioma": n["idioma"], "tema": c["tema"], "evento": c.get("evento"), "resumen": c["resumen"], "imagen": n["imagen"],
         }.items() if v})
     salida.sort(key=lambda n: n["fecha"], reverse=True)
     informe["publicadas"] = len(salida)
     informe["por_tema"] = {t: sum(1 for n in salida if n["tema"] == t) for t in ("teatro", "cine", "magia", "circo")}
+    informe["eventos"] = sum(1 for n in salida if n.get("evento"))
     CARPETA_WEB.mkdir(parents=True, exist_ok=True)
     (CARPETA_WEB / f"{ciudad.id}-noticias.json").write_text(
         json.dumps({"actualizado": hoy.isoformat(), "noticias": salida}, ensure_ascii=False, separators=(",", ":")),

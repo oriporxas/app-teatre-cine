@@ -2,14 +2,30 @@
 # La IA (tarea «noticias» de ia.toml) decide de qué va cada noticia: teatro, cine,
 # magia o circo. Las demás (exposiciones, música, libros…) no salen.
 # La app enseña el titular, el medio, la fecha y un resumen breve escrito por la IA,
-# y enlaza siempre al artículo original.
+# y enlaza siempre al artículo original. La IA marca además si la noticia trata de un
+# evento (festival, gala o premios, feria, convención, taller…): pestaña «Eventos».
+#
+# «dias»: cuántos días atrás se miran (10 si no se dice). Los medios especializados en magia
+# o circo publican menos, así que se mira más atrás.
+# Solo canales cuyo robots.txt deja leerlos (se comprueba en cada lectura). Comprobados el
+# 17/11/2026; no se pudieron usar (lo prohíben o no tienen canal): Núvol, Recomana,
+# Teatre Barcelona, Escena Catalana, Circ.cat, Google Noticias, webs de tiendas de magia,
+# El País (su robots.txt no deja leer el canal). Artezblai: su canal lleva meses sin noticias.
 
 [barcelona]
 fuentes = [
   { nombre = "betevé", url = "https://beteve.cat/cultura/feed/", idioma = "ca" },
   { nombre = "Ara", url = "https://www.ara.cat/rss/cultura/", idioma = "ca" },
   { nombre = "La Vanguardia", url = "https://www.lavanguardia.com/rss/cultura.xml", idioma = "es" },
-  { nombre = "El País", url = "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada", idioma = "es" },
   { nombre = "Espinof", url = "https://www.espinof.com/index.xml", idioma = "es" },
   { nombre = "Cinemanía", url = "https://www.20minutos.es/rss/cinemania/", idioma = "es" },
+  # Artes escénicas, circo, magia y festivales
+  { nombre = "Zirkolika", url = "https://www.zirkolika.com/feed/", idioma = "es", dias = 45 },
+  { nombre = "betevé", url = "https://beteve.cat/tag/magia/feed/", idioma = "ca", dias = 60 },
+  { nombre = "betevé", url = "https://beteve.cat/tag/festivals/feed/", idioma = "ca", dias = 20 },
+  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/categoria/cultura/arts-esceniques/feed/", idioma = "ca", dias = 30 },
+  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/etiqueta/circ/feed/", idioma = "ca", dias = 60 },
+  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/etiqueta/magia/feed/", idioma = "ca", dias = 60 },
+  { nombre = "El Mundo", url = "https://www.elmundo.es/rss/cultura/teatro.xml", idioma = "es" },
+  { nombre = "elDiario.es", url = "https://www.eldiario.es/rss/cultura/teatro", idioma = "es", dias = 20 },
 ]

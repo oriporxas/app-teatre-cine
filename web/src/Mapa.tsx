@@ -37,9 +37,12 @@ const LAT0 = 41.39;
 const COS = Math.cos((LAT0 * Math.PI) / 180);
 const proyectar = (lon: number, lat: number): [number, number] => [lon * COS * 1000, -lat * 1000];
 
-export function MapaSalas({ t, salas, elegida, elegir, ciudad, posicion, marcando, alMarcar }: {
+export interface Parada { lat: number; lon: number; nombre: string }
+
+export function MapaSalas({ t, salas, elegida, elegir, ciudad, posicion, marcando, alMarcar, ruta }: {
   t: Textos; salas: Sala[]; elegida: string | null; elegir: (id: string | null) => void; ciudad: string;
   posicion?: { lat: number; lon: number } | null; marcando?: boolean; alMarcar?: (lat: number, lon: number) => void;
+  ruta?: Parada[];
 }) {
   const movido = useRef(false);
   const [datos, setDatos] = useState<DatosMapa | null>(null);
@@ -72,7 +75,19 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad, posicion, marcand
     const m = 2;
     return [Math.min(...xs) - m, Math.min(...ys) - m, Math.max(...xs) - Math.min(...xs) + 2 * m, Math.max(...ys) - Math.min(...ys) + 2 * m];
   }, [datos]);
-  const v = vista ?? encuadre;
+  // Con una ruta, el mapa empieza encuadrando sus paradas (con margen, y al menos 1,5 km de ancho).
+  const encuadreRuta = useMemo<[number, number, number, number] | null>(() => {
+    if (!ruta?.length || !encuadre) return null;
+    const pts = ruta.map((p) => proyectar(p.lon, p.lat));
+    const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+    const cx = (Math.min(...xs) + Math.max(...xs)) / 2, cy = (Math.min(...ys) + Math.max(...ys)) / 2;
+    const proporcion = encuadre[3] / encuadre[2];
+    let w = Math.max(Math.max(...xs) - Math.min(...xs), 1.5) * 1.5;
+    w = Math.max(w, (Math.max(...ys) - Math.min(...ys)) * 1.5 / proporcion);
+    w = Math.min(w, encuadre[2]);
+    return [cx - w / 2, cy - (w * proporcion) / 2, w, w * proporcion];
+  }, [ruta, encuadre]);
+  const v = vista ?? encuadreRuta ?? encuadre;
 
   // Al saber dónde está la persona, el mapa se acerca a esa zona.
   useEffect(() => {
@@ -143,6 +158,22 @@ export function MapaSalas({ t, salas, elegida, elegir, ciudad, posicion, marcand
             </g>
           );
         })}
+        {ruta?.length ? (() => {
+          const pts = ruta.map((p) => proyectar(p.lon, p.lat));
+          const r = v[2] / 34;
+          return (
+            <g className="ruta" pointerEvents="none">
+              {pts.length > 1 ? <polyline points={pts.map(([x, y]) => `${x},${y}`).join(' ')} className="ruta-linea"
+                style={{ strokeWidth: v[2] / 160, strokeDasharray: `${v[2] / 60} ${v[2] / 90}` }} /> : null}
+              {pts.map(([x, y], i) => (
+                <g key={i}>
+                  <circle cx={x} cy={y} r={r} className="ruta-parada" style={{ strokeWidth: v[2] / 260 }}><title>{`${i + 1}. ${ruta[i].nombre}`}</title></circle>
+                  <text x={x} y={y} className="ruta-numero" style={{ fontSize: `${r * 1.15}px` }}>{i + 1}</text>
+                </g>
+              ))}
+            </g>
+          );
+        })() : null}
         {posicion ? (() => {
           const [x, y] = proyectar(posicion.lon, posicion.lat);
           const r = v[2] / 45;

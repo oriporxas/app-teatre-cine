@@ -201,7 +201,7 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_idioma"] = sum(1 for f in fichas if f["idiomas"])
     informe["con_publico"] = sum(1 for f in fichas if f["publico"])
     # Archivo de la ciudad para la app (fase 2)
-    informe["app"] = exportar_web.exportar(ciudad, informe, mapa)
+    informe["app"] = exportar_web.exportar(ciudad, informe, mapa, leer_webs=leer_webs)
     # Cine y noticias: piezas aparte; si fallan, la cartelera de escena ya está guardada.
     if ciudad.cine and leer_webs:  # sin leer webs no hay horarios: se conserva la cartelera de ayer
         try:
@@ -215,6 +215,12 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
             informe["noticias"] = noticias.recoger(ciudad, hoy)
         except Exception as e:  # noqa: BLE001
             informe["errores"].append(f"noticias: {type(e).__name__}: {e}")
+    # ¿Se escapa alguna sala o cine? Lista oficial de equipamientos contra lo que tenemos.
+    try:
+        from . import cobertura
+        informe["cobertura"] = cobertura.auditar(ciudad, None, list(actividades.values()), informe.get("cine"))
+    except Exception as e:  # noqa: BLE001
+        informe["errores"].append(f"cobertura: {type(e).__name__}: {e}")
     informe["duracion_minutos"] = round((time.monotonic() - t0) / 60, 1)
     guardar_json(carpeta / "informe.json", informe)
     (carpeta / "informe_fallo.json").unlink(missing_ok=True)

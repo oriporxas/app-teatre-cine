@@ -181,7 +181,15 @@ Detalle y razones en `docs/arquitectura.md`.
   - `enriquecer_ia.py`: traducción, premios citados (con la cita literal, que
     se comprueba) y temas de cada ficha publicada (tarea «traducir»).
   - `cine/`: cartelera de cine (salas, lectores de horarios, TMDB y Wikidata).
-  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml`.
+  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml` (teatro, cine, magia,
+    circo y la marca «evento»: festival, gala, feria, taller…).
+  - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
+    cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
+    de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.
+  - `compra.py`: busca en la web de la sala la página de la obra (la agenda da la portada);
+    `compra_tipo` «obra» o «sala» (el botón lo dice).
+  - `cobertura.py`: lista oficial de teatros, auditorios y cines contra lo que tenemos
+    (`cobertura.json`): qué salas se escapan.
 - `web/` — la app (fase 2): React + Vite, web instalable en el móvil (PWA).
   El móvil descarga el archivo de su ciudad y busca dentro (rápido, gratis,
   sin conexión). Cómo probarla y construirla: `web/LEEME.md`
@@ -197,6 +205,18 @@ Detalle y razones en `docs/arquitectura.md`.
   cada día antes del proceso).
 
 ## Cosas que conviene saber
+
+- **Veracidad (Uri, 17/11/2026, lo más importante):** cada error que se encuentre se arregla en
+  la causa **y** se añade una prueba con el caso real (`tests/test_verificar.py`,
+  `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
+  «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
+  coste): `docs/veracidad.md`.
+- Cambios de pantalla de Uri (17/11/2026): barra de abajo Inicio, Escena, Cine, Planes, Desat
+  (solo lo guardado), Notícies; en la película, cada cine es un desplegable con sus horas; la
+  hora lleva a la compra de esa sesión (Mooby, Verdi y Renoir lo permiten); en Inicio, fila de
+  «Salas» (página `#teatro-<id>`); en el plan: Compartir (con «stories» dentro), Añadir a mi
+  calendario, «Ruta del día» con mapa propio y botones a Google/Apple Maps, lápiz para el
+  nombre y «Borrar plan» abajo con pregunta; fondo de telón color vino muy apagado.
 
 - El fichero JSON completo de Open Data BCN y su web normal devuelven 403 a
   los programas (desde la nube de Claude y desde GitHub). La API sí funciona.

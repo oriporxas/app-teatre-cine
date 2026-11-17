@@ -27,6 +27,15 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
   - **IA activada:** clasifica (Sonnet; lo dudoso, Opus), traduce las descripciones al castellano, saca los premios que cita cada descripción (solo si la cita está en el texto) y los temas de cada obra, y clasifica las noticias (Haiku). Freno de gasto por ejecución en `ajustes/ia.toml`; el gasto queda en `data/gasto_ia.json`.
   - **Nuevas pantallas:** Inicio («Qué ver hoy»: empieza pronto, hoy en escena, hoy en el cine, estrenos, magia, últimos días, noticias), Cine, Noticias, buscador único (obras, películas, personas, salas y cines) y fichas de persona que unen teatro y cine.
   - **Ocultar géneros:** en «Más filtros», los géneros de teatro que no interesan dejan de salir (se guarda en el móvil).
+- Revisión de Uri del primer borrador (17 de noviembre):
+  - **Veracidad, lo más importante:** un precio salía mal (95 € en vez de 24,95 €). Uri pide una solución para que todo sea verídico y no se escape ninguna sala, cine ni evento. Respuesta: verificador antes de publicar, cada error convertido en prueba automática, enlaces de compra honestos y auditoría de cobertura contra la lista oficial de salas. Detalle en `docs/veracidad.md`, con el siguiente paso propuesto (lector de webs de salas, con su coste).
+  - **Compra:** al pulsar una hora se va a la compra de esa sesión en la web oficial (cines que lo permiten); en teatro, a la página de la obra en la web de la sala; si solo hay la portada, el botón dice «Web de la sala».
+  - **Película:** cada cine es un desplegable con sus horas, para no tener que desplazarse tanto.
+  - **Barra de abajo:** Inicio, Escena, Cine, Planes, Desat (solo lo guardado), Notícies (la última).
+  - **Inicio:** además de «Cines», una fila de «Salas» de teatro, cada una con su página.
+  - **Planes:** primero «Compartir» (y dentro, «Compartir en stories»), después «Añadir a mi calendario», los dos con su icono; «Ruta del día» como botón visible con icono de mapa que abre el recorrido en un mapa dentro de la app, con la opción de abrirlo en Google Maps, Apple Maps u otra app de mapas; un lápiz junto al título para cambiar el nombre; abajo, solo «Borrar plan», con una pregunta de seguridad.
+  - **Fondo:** telón de teatro color vino, muy apagado: lo importante es lo de delante.
+  - **Noticias:** también de magia, circo y eventos (Zirkolika, betevé, VilaWeb, El Mundo, elDiario.es), con pestañas Teatro, Cine, Magia, Circo y Eventos.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios

@@ -9,6 +9,8 @@ export interface Noticia {
   fecha: string;
   idioma?: string;
   tema: 'teatro' | 'cine' | 'magia' | 'circo';
+  /** Festival, gala o premios, feria, convención, taller… */
+  evento?: boolean;
   resumen?: Record<string, string>;
   imagen?: string;
 }
@@ -33,7 +35,8 @@ export function TarjetaNoticia({ n, t, lang, compacta }: { n: Noticia; t: Textos
       ) : null}
       <span className="noticia-texto">
         <span className="noticia-meta">
-          <span className={`tema tema-${n.tema}`}>{t.temasNoticia[n.tema === 'circo' ? 'magia' : n.tema]}</span>
+          <span className={`tema tema-${n.tema}`}>{t.temasNoticia[n.tema]}</span>
+          {n.evento ? <span className="tema tema-evento">{t.temasNoticia.evento}</span> : null}
           <span>{n.medio} · {hace(n.fecha, t)}</span>
         </span>
         <span className="noticia-titulo">{n.titulo}</span>
@@ -46,17 +49,18 @@ export function TarjetaNoticia({ n, t, lang, compacta }: { n: Noticia; t: Textos
 export function VistaNoticias({ t, lang, noticias, error }: { t: Textos; lang: Idioma; noticias: Noticia[] | null; error: boolean }) {
   const [tema, setTema] = useState('todo');
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
-  const lista = (noticias || []).filter((n) => tema === 'todo' || n.tema === tema || (tema === 'magia' && n.tema === 'circo'));
+  const pasa = (n: Noticia, k: string) => k === 'todo' || (k === 'eventos' ? !!n.evento : n.tema === k);
+  const lista = (noticias || []).filter((n) => pasa(n, tema));
   return (
     <main className="pantalla">
       <header className="cabecera">
         <div className="titulo"><span className="sobretitulo">{t.noticiasSub}</span><h1>{t.noticiasTitulo}</h1></div>
       </header>
       <div className="chips" role="group" aria-label={t.noticiasTitulo}>
-        {['todo', 'teatro', 'cine', 'magia'].map((k) => (
+        {['todo', 'teatro', 'cine', 'magia', 'circo', 'eventos'].map((k) => (
           <button key={k} type="button" className="chip" aria-pressed={tema === k} onClick={() => setTema(k)}>
             {t.temasNoticia[k]}
-            {noticias ? <span className="num">{(noticias || []).filter((n) => k === 'todo' || n.tema === k || (k === 'magia' && n.tema === 'circo')).length}</span> : null}
+            {noticias ? <span className="num">{(noticias || []).filter((n) => pasa(n, k)).length}</span> : null}
           </button>
         ))}
       </div>

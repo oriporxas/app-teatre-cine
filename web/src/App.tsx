@@ -11,7 +11,8 @@ import { useFavoritos, type Favoritos } from './favoritos';
 import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
 import {
-  claveItem, descargar, enlaceRuta, imagenPlan, itemDe, planIcs, porDias, solapes, usePlanes, type ItemPlan, type Plan, type Planes,
+  claveItem, descargar, enlaceGeo, imagenPlan, itemDe, paradasRuta, planIcs, porDias, rutaGoogle, solapes, tramoApple, usePlanes,
+  type ItemPlan, type Plan, type Planes,
 } from './planes';
 import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCine } from './cine';
 import { Cartelito, FichaCine, FichaPelicula, VistaCine, VistaMapaCine, enlacePeli } from './Cine';
@@ -26,7 +27,8 @@ const POR_PAGINA = 40;
 // funcione en cualquier sitio donde se publique la app.
 type Ruta = { vista: 'inicio' } | { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
   | { vista: 'planes' } | { vista: 'plan'; id: string } | { vista: 'cine' } | { vista: 'peli'; id: string } | { vista: 'sala'; id: string }
-  | { vista: 'mapa-cine' } | { vista: 'noticias' } | { vista: 'buscar' } | { vista: 'persona'; id: string };
+  | { vista: 'mapa-cine' } | { vista: 'noticias' } | { vista: 'buscar' } | { vista: 'persona'; id: string }
+  | { vista: 'teatro'; id: string };
 
 const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -35,6 +37,7 @@ function leerRuta(): Ruta {
   if (h.startsWith('ficha-')) return { vista: 'ficha', clave: h.slice(6) };
   if (h.startsWith('peli-')) return { vista: 'peli', id: h.slice(5) };
   if (h.startsWith('sala-')) return { vista: 'sala', id: h.slice(5) };
+  if (h.startsWith('teatro-')) return { vista: 'teatro', id: h.slice(7) };
   if (h.startsWith('persona-')) return { vista: 'persona', id: h.slice(8) };
   if (h === 'cartelera') return { vista: 'cartelera' };
   if (h === 'cine') return { vista: 'cine' };
@@ -49,6 +52,8 @@ function leerRuta(): Ruta {
 }
 
 const enlaceFicha = (id: string) => `#ficha-${claveFicha(id)}`;
+/** Página de una sala de teatro (con todo lo que tiene en cartel). */
+export const enlaceSala = (id: string) => `#teatro-${claveFicha(id)}`;
 
 export default function App() {
   const [lang, setLang] = useState<Idioma>(idiomaInicial);
@@ -154,8 +159,9 @@ export default function App() {
         <VistaMapa t={t} cartelera={cartelera} hoy={hoy} filtros={filtros} cambiar={cambiar}
           abrirCalendario={() => setHoja('calendario')} favs={favs} ubic={ubic} />
       ) : null}
-      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} planes={planes} /> : null}
+      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} /> : null}
       {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} /> : null}
+      {ruta.vista === 'teatro' ? <VistaSala t={t} lista={lista} hoy={hoy} id={ruta.id} volver={volver} cargada={!!cartelera} /> : null}
       {ruta.vista === 'plan' ? <VistaPlan t={t} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
@@ -163,7 +169,7 @@ export default function App() {
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M4 11l8-7 8 7v9H4z" /><path d="M10 20v-5h4v5" /></svg>
           {t.navInicio}
         </a>
-        <a href="#cartelera" aria-current={['cartelera', 'ficha', 'mapa'].includes(ruta.vista) ? 'page' : undefined}>
+        <a href="#cartelera" aria-current={['cartelera', 'ficha', 'mapa', 'teatro'].includes(ruta.vista) ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M3 4h18v3c-2.5 1.6-5.6 2.5-9 2.5S5.5 8.6 3 7z" /><path d="M3 7c1 4.5 1.6 9 1.6 13H3zM21 7c-1 4.5-1.6 9-1.6 13H21z" /></svg>
           {t.navEscena}
         </a>
@@ -171,13 +177,17 @@ export default function App() {
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><rect x="3" y="6" width="18" height="13" rx="2" /><path d="M3 10h18M7 6l2 4M12 6l2 4M17 6l2 4" /></svg>
           {t.navCine}
         </a>
+        <a href="#planes" aria-current={['planes', 'plan'].includes(ruta.vista) ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4M7.5 14.5h3M7.5 17.5h6" /></svg>
+          {t.navPlanes}
+        </a>
+        <a href="#favoritos" aria-current={ruta.vista === 'favoritos' ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
+          {t.navGuardado}
+        </a>
         <a href="#noticias" aria-current={ruta.vista === 'noticias' ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M5 5h11v14H6a1 1 0 0 1-1-1z" /><path d="M16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12h5M8 15h3" /></svg>
           {t.navNoticias}
-        </a>
-        <a href="#favoritos" aria-current={['favoritos', 'planes', 'plan'].includes(ruta.vista) ? 'page' : undefined}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
-          {t.navGuardado}
         </a>
       </nav>
 
@@ -509,12 +519,15 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
         {e.sala || direccion ? (
           <section className="caja">
             <h3>{t.donde}</h3>
-            {e.sala ? <span className="caja-titulo">{e.sala}</span> : null}
+            {e.sala ? (e.sala_id ? <a className="caja-titulo" href={enlaceSala(e.sala_id)}>{e.sala}</a> : <span className="caja-titulo">{e.sala}</span>) : null}
             {e.sala_interior ? <span className="texto-claro">{e.sala_interior}</span> : null}
             {direccion ? <span className="texto-suave">{direccion}</span> : null}
-            {e.lat != null && e.lon != null ? (
-              <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${e.lat},${e.lon}`} target="_blank" rel="noopener noreferrer">{t.comoLlegar}</a>
-            ) : null}
+            <span className="fila-enlaces">
+              {e.lat != null && e.lon != null ? (
+                <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${e.lat},${e.lon}`} target="_blank" rel="noopener noreferrer">{t.comoLlegar}</a>
+              ) : null}
+              {e.sala_id ? <a className="enlace" href={enlaceSala(e.sala_id)}>{t.verSala}</a> : null}
+            </span>
           </section>
         ) : null}
 
@@ -526,7 +539,9 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
               <span key={`${dia}-${hora}-${i}`} className="funcion">
                 <span>{fmtDia(dia, t)}</span>
                 <span className="funcion-derecha">
-                  {hora ? <span className="texto-claro">{hora}</span> : null}
+                  {hora ? (e.compra && e.compra_tipo === 'obra' ? (
+                    <a className="hora-chip" href={e.compra} target="_blank" rel="noopener noreferrer" aria-label={`${t.comprar}: ${fmtDia(dia, t)} ${hora}`}>{hora}</a>
+                  ) : <span className="texto-claro">{hora}</span>) : null}
                   {enPlan ? (
                     <a className="boton-icono en-plan" href={`#plan-${enPlan.id}`} aria-label={t.enPlan(enPlan.nombre)} title={t.enPlan(enPlan.nombre)}>
                       <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12l5 5 9-10" /></svg>
@@ -564,7 +579,14 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
           </div>
         ) : null}
 
-        {e.compra ? <a className="boton-principal" href={e.compra} target="_blank" rel="noopener noreferrer">{t.comprar}</a> : null}
+        {e.compra ? (
+          <div className="compra">
+            <a className={e.compra_tipo === 'sala' ? 'boton-secundario' : 'boton-principal'} href={e.compra} target="_blank" rel="noopener noreferrer">
+              {e.compra_tipo === 'sala' ? t.webSala : t.comprar}
+            </a>
+            {e.compra_tipo ? <span className="nota">{e.compra_tipo === 'sala' ? t.compraSalaNota : t.compraObraNota}</span> : null}
+          </div>
+        ) : null}
 
         {desc ? (
           <section className="bloque">
@@ -959,8 +981,8 @@ function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs,
 
 // --- Favoritos ----------------------------------------------------------------------------
 
-function VistaFavoritos({ t, lang, lista, cine, hoy, favs, planes }: {
-  t: Textos; lang: Idioma; lista: Espectaculo[]; cine: CarteleraCine | null; hoy: string; favs: Favoritos; planes: Planes;
+function VistaFavoritos({ t, lang, lista, cine, hoy, favs }: {
+  t: Textos; lang: Idioma; lista: Espectaculo[]; cine: CarteleraCine | null; hoy: string; favs: Favoritos;
 }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const guardados = lista.filter((e) => favs.es(e.id) && e.funciones.some(([d]) => d >= hoy))
@@ -976,19 +998,6 @@ function VistaFavoritos({ t, lang, lista, cine, hoy, favs, planes }: {
         </div>
       </header>
       <div className="lista">
-        <section className="bloque">
-          <div className="fila-cabecera sin-padding">
-            <h2 className="seccion-titulo">{t.planesTit}</h2>
-            <a className="ver-todo" href="#planes">{t.verTodo}</a>
-          </div>
-          {planes.planes.length === 0 ? <p className="texto-suave">{t.planesVacio}</p> : null}
-          {planes.planes.slice(0, 3).map((pl) => (
-            <a key={pl.id} className="tarjeta plan-tarjeta" href={`#plan-${pl.id}`}>
-              <span className="tarjeta-nombre">{pl.nombre}</span>
-              <span className="tarjeta-lugar">{[t.planFunciones(pl.items.length), rangoPlan(pl, t)].filter(Boolean).join(' · ')}</span>
-            </a>
-          ))}
-        </section>
         <h2 className="seccion-titulo">{t.favObras}</h2>
         {guardados.length === 0 && pelis.length === 0 ? <p className="aviso">{t.favVacio}</p> : null}
         {guardados.map((e) => (
@@ -1003,6 +1012,47 @@ function VistaFavoritos({ t, lang, lista, cine, hoy, favs, planes }: {
         ))}
         {fuera > 0 ? <p className="nota">{t.favFuera(fuera)}</p> : null}
         <p className="nota">{t.favNota}</p>
+      </div>
+    </main>
+  );
+}
+
+// --- Sala de teatro: dónde está y todo lo que tiene en cartel ------------------------------
+
+function VistaSala({ t, lista, hoy, id, volver, cargada }: {
+  t: Textos; lista: Espectaculo[]; hoy: string; id: string; volver: () => void; cargada: boolean;
+}) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
+  const obras = lista.filter((e) => e.sala_id && claveFicha(e.sala_id) === id && e.funciones.some(([d]) => d >= hoy))
+    .sort((a, b) => (a.funciones.find(([d]) => d >= hoy)?.[0] ?? '').localeCompare(b.funciones.find(([d]) => d >= hoy)?.[0] ?? ''));
+  const s = obras[0];
+  const web = obras.map((e) => e.compra_sala || (e.compra_tipo === 'sala' ? e.compra : undefined)).find(Boolean);
+  return (
+    <main className="pantalla">
+      <div className="ficha-barra">
+        <button type="button" className="boton-volver" onClick={volver} aria-label={t.volver}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 5l-7 7 7 7" /></svg>
+          {t.navEscena}
+        </button>
+      </div>
+      <div className="ficha">
+        {!s ? <p className="aviso">{cargada ? t.sinResultados : t.cargando}</p> : (
+          <>
+            <div className="ficha-cabecera">
+              <span className="sobretitulo">{t.salasTit}</span>
+              <h2>{s.sala}</h2>
+              <span className="texto-suave">{[s.direccion, s.barrio].filter(Boolean).join(' · ')}</span>
+              <span className="fila-enlaces">
+                {s.lat != null && s.lon != null ? (
+                  <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lon}`} target="_blank" rel="noopener noreferrer">{t.comoLlegar}</a>
+                ) : null}
+                {web ? <a className="enlace" href={web} target="_blank" rel="noopener noreferrer">{t.webSala}</a> : null}
+              </span>
+            </div>
+            <h3 className="seccion-titulo">{t.salaObras} · {t.resultados(obras.length)}</h3>
+            {obras.map((e) => <Tarjeta key={e.id} e={e} t={t} desde={hoy} hasta="9999-12-31" alAbrir={() => {}} />)}
+          </>
+        )}
       </div>
     </main>
   );
@@ -1118,11 +1168,138 @@ function VistaPlanes({ t, planes }: { t: Textos; planes: Planes }) {
   );
 }
 
+// Iconos de las acciones del plan (trazo, como el resto de la app).
+const IconoCompartir = () => (
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v12M7 8l5-5 5 5" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" /></svg>
+);
+const IconoCalendario = () => (
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5" /></svg>
+);
+const IconoMapa = () => (
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z" /><path d="M9 4v14M15 6v14" /></svg>
+);
+const IconoLapiz = () => (
+  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z" /><path d="M13.5 6.5l4 4" /></svg>
+);
+const IconoPapelera = () => (
+  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3" /></svg>
+);
+
+// Hoja de compartir: el plan en texto (WhatsApp, mensajes, correo…) o como imagen para stories.
+function HojaCompartir({ t, plan, cerrar }: { t: Textos; plan: Plan; cerrar: () => void }) {
+  const primero = useRef<HTMLButtonElement>(null);
+  useHoja(cerrar, primero);
+  const [copiado, setCopiado] = useState(false);
+  const texto = async () => {
+    const txt = planTexto(plan, t);
+    if (navigator.share) {
+      try { await navigator.share({ title: plan.nombre, text: txt }); cerrar(); return; } catch { /* cancelado o no permitido: copiar */ }
+    }
+    try { await navigator.clipboard.writeText(txt); setCopiado(true); } catch { /* sin portapapeles */ }
+  };
+  // Imagen vertical para historias: con el menú de compartir del móvil si deja compartir archivos; si no, se descarga.
+  const imagen = async () => {
+    const blob = await imagenPlan(plan, (d) => fmtDia(d, t), t.planPieImagen);
+    if (!blob) return;
+    const archivo = new File([blob], `${nombreArchivo(plan.nombre)}.png`, { type: 'image/png' });
+    if (navigator.canShare?.({ files: [archivo] })) {
+      try { await navigator.share({ files: [archivo], title: plan.nombre }); cerrar(); return; } catch { /* cancelado */ }
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = archivo.name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+  };
+  return (
+    <div className="fondo-hoja" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
+      <div className="hoja hoja-baja" role="dialog" aria-modal="true" aria-labelledby="titulo-compartir">
+        <div className="hoja-cabecera">
+          <div className="calendario-titulo"><h2 id="titulo-compartir">{t.planCompartir}</h2><span className="cuando">{plan.nombre}</span></div>
+          <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
+        </div>
+        <div className="hoja-cuerpo">
+          <button type="button" className="plan-opcion con-icono" onClick={texto}>
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M4 5h16v11H9l-5 4z" /></svg>
+            <span><span className="caja-titulo">{t.compartirTexto}</span><span className="texto-suave">{t.compartirTextoSub}</span></span>
+          </button>
+          <button type="button" className="plan-opcion con-icono" onClick={imagen}>
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5" /><circle cx="12" cy="10" r="3" /><path d="M9 17h6" /></svg>
+            <span><span className="caja-titulo">{t.compartirStories}</span><span className="texto-suave">{t.compartirStoriesSub}</span></span>
+          </button>
+          {copiado ? <p className="nota" role="status">{t.planCopiado}</p> : null}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Ruta del día dentro de la app: mapa con las paradas en orden y botones para abrirla en la app de mapas.
+const ES_IOS = typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) && 'ontouchend' in document;
+const ES_ANDROID = typeof navigator !== 'undefined' && /Android/i.test(navigator.userAgent);
+
+function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: ItemPlan[]; cerrar: () => void }) {
+  const primero = useRef<HTMLButtonElement>(null);
+  useHoja(cerrar, primero);
+  const paradas = paradasRuta(items);
+  const sinUbicacion = items.filter((i) => i.lat == null || i.lon == null);
+  const google = rutaGoogle(paradas);
+  return (
+    <div className="fondo-hoja" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
+      <div className="hoja" role="dialog" aria-modal="true" aria-labelledby="titulo-ruta">
+        <div className="hoja-cabecera">
+          <div className="calendario-titulo"><h2 id="titulo-ruta">{t.rutaTit}</h2><span className="cuando">{fmtDia(dia, t)} · {t.rutaParadas(paradas.length)}</span></div>
+          <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
+        </div>
+        <div className="hoja-cuerpo">
+          <MapaSalas t={t} salas={[]} elegida={null} elegir={() => {}} ciudad={items[0]?.ciudad || 'barcelona'}
+            ruta={paradas.map((p) => ({ lat: p.lat, lon: p.lon, nombre: p.sala || p.nombre }))} />
+          <ol className="ruta-lista">
+            {paradas.map((p, k) => (
+              <li key={k}>
+                <span className="ruta-num" aria-hidden="true">{k + 1}</span>
+                <span className="plan-info">
+                  <span className="caja-titulo">{p.hora ? `${p.hora} · ` : ''}{p.nombre}</span>
+                  <span className="texto-suave">{[p.sala, p.direccion].filter(Boolean).join(' · ')}</span>
+                </span>
+                <a className="enlace" target="_blank" rel="noopener noreferrer"
+                  href={ES_IOS ? tramoApple(p, paradas[k - 1]) : ES_ANDROID ? enlaceGeo(p) : rutaGoogle([p]) || undefined}>{t.rutaTramo}</a>
+              </li>
+            ))}
+          </ol>
+          {sinUbicacion.length ? <p className="nota">{t.rutaSinMapa}: {sinUbicacion.map((i) => i.nombre).join(', ')}</p> : null}
+          <span className="dato-etiqueta">{t.rutaAbrirEn}</span>
+          <div className="ruta-apps">
+            {google ? <a className="boton-secundario con-icono" href={google} target="_blank" rel="noopener noreferrer"><IconoMapa />Google Maps</a> : null}
+            {paradas.length ? <a className="boton-secundario con-icono" href={tramoApple(paradas[0])} target="_blank" rel="noopener noreferrer"><IconoMapa />Apple Maps</a> : null}
+            {ES_ANDROID && paradas.length ? <a className="boton-secundario con-icono" href={enlaceGeo(paradas[0])}><IconoMapa />{t.rutaOtra}</a> : null}
+          </div>
+          {paradas.length > 1 ? <p className="nota">{t.rutaAppleNota}</p> : null}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function DialogoBorrar({ t, nombre, borrar, cerrar }: { t: Textos; nombre: string; borrar: () => void; cerrar: () => void }) {
+  const primero = useRef<HTMLButtonElement>(null);
+  useHoja(cerrar, primero);
+  return (
+    <div className="fondo-hoja centrado" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
+      <div className="dialogo" role="alertdialog" aria-modal="true" aria-labelledby="titulo-borrar">
+        <p id="titulo-borrar" className="dialogo-texto">{t.borrarPregunta(nombre)}</p>
+        <div className="dialogo-botones">
+          <button ref={primero} type="button" className="boton-secundario" onClick={cerrar}>{t.cancelar}</button>
+          <button type="button" className="boton-principal peligro" onClick={borrar}>{t.borrarSi}</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
   const [editando, setEditando] = useState(false);
-  const [borrando, setBorrando] = useState(false);
-  const [copiado, setCopiado] = useState(false);
+  const [hoja, setHoja] = useState<null | 'compartir' | 'borrar' | { ruta: string }>(null);
   const enCartel = useMemo(() => new Set([...lista.map((e) => e.id), ...idsPelis]), [lista, idsPelis]);
   const enlaceItem = (id: string) => (idsPelis.has(id) ? enlacePeli(id) : enlaceFicha(id));
   const plan = planes.planes.find((p) => p.id === id);
@@ -1138,27 +1315,7 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
 
   const choques = solapes(plan.items);
   const enlace = (i: ItemPlan) => `${window.location.origin}${window.location.pathname}${enlaceItem(i.id)}`;
-  const compartir = async () => {
-    const texto = planTexto(plan, t);
-    if (navigator.share) {
-      try { await navigator.share({ title: plan.nombre, text: texto }); return; } catch { /* cancelado o no permitido: copiar */ }
-    }
-    try { await navigator.clipboard.writeText(texto); setCopiado(true); } catch { /* sin portapapeles */ }
-  };
-  // Imagen vertical para historias (Instagram, WhatsApp…): con el menú de compartir del móvil
-  // si deja compartir archivos; si no, se descarga.
-  const compartirImagen = async () => {
-    const blob = await imagenPlan(plan, (d) => fmtDia(d, t), t.planPieImagen);
-    if (!blob) return;
-    const archivo = new File([blob], `${nombreArchivo(plan.nombre)}.png`, { type: 'image/png' });
-    if (navigator.canShare?.({ files: [archivo] })) {
-      try { await navigator.share({ files: [archivo], title: plan.nombre }); return; } catch { /* cancelado */ }
-    }
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = archivo.name; document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 5000);
-  };
+  const dias = porDias(plan.items);
 
   return (
     <main className="pantalla">
@@ -1168,14 +1325,30 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
           {editando ? (
             <FormNuevoPlan t={t} boton={t.planGuardar} inicial={plan.nombre}
               alCrear={(nombre) => { planes.renombrar(plan.id, nombre); setEditando(false); }} />
-          ) : <h2>{plan.nombre}</h2>}
+          ) : (
+            <div className="plan-titulo">
+              <h2>{plan.nombre}</h2>
+              <button type="button" className="boton-icono" aria-label={t.editarNombre} title={t.editarNombre} onClick={() => setEditando(true)}>
+                <IconoLapiz />
+              </button>
+            </div>
+          )}
+          {editando ? <button type="button" className="enlace" onClick={() => setEditando(false)}>{t.cancelar}</button> : null}
           <span className="texto-suave">{[t.planFunciones(plan.items.length), rangoPlan(plan, t)].filter(Boolean).join(' · ')}</span>
         </div>
 
-        {plan.items.length === 0 ? <p className="aviso">{t.planVacio}</p> : null}
+        {plan.items.length ? (
+          <div className="plan-acciones">
+            <button type="button" className="boton-principal con-icono" onClick={() => setHoja('compartir')}><IconoCompartir />{t.planCompartir}</button>
+            <button type="button" className="boton-secundario con-icono"
+              onClick={() => descargar(`${nombreArchivo(plan.nombre)}.ics`, planIcs(plan, enlace), 'text/calendar')}>
+              <IconoCalendario />{t.planCalendario}
+            </button>
+          </div>
+        ) : <p className="aviso">{t.planVacio}</p>}
 
-        {porDias(plan.items).map(([dia, items]) => {
-          const ruta = enlaceRuta(items);
+        {dias.map(([dia, items]) => {
+          const conMapa = items.some((i) => i.lat != null && i.lon != null);
           return (
             <section key={dia} className={dia < hoy ? 'bloque plan-dia pasado' : 'bloque plan-dia'}>
               <h3>{fmtDia(dia, t)}{dia < hoy ? ` · ${t.planPasado}` : ''}</h3>
@@ -1192,9 +1365,6 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
                       {lugar ? <span className="texto-suave">{lugar}</span> : null}
                       {choque ? <span className="plan-choque">{t.planSolape(choque)}</span> : null}
                       {!enCartel.has(i.id) && dia >= hoy && lista.length ? <span className="nota">{t.planFuera}</span> : null}
-                      {i.lat != null && i.lon != null ? (
-                        <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${i.lat},${i.lon}`} target="_blank" rel="noopener noreferrer">{t.comoLlegar}</a>
-                      ) : null}
                     </span>
                     <button type="button" className="boton-icono" aria-label={`${t.planQuitar}: ${i.nombre}`} title={t.planQuitar}
                       onClick={() => planes.quitar(plan.id, k)}>
@@ -1203,34 +1373,29 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
                   </div>
                 );
               })}
-              {ruta ? <a className="enlace" href={ruta} target="_blank" rel="noopener noreferrer">{t.planRuta}</a> : null}
+              {conMapa ? (
+                <button type="button" className="boton-ruta" onClick={() => setHoja({ ruta: dia })}>
+                  <IconoMapa />{t.planRuta}
+                  <svg className="flecha-derecha" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 6l6 6-6 6" /></svg>
+                </button>
+              ) : null}
             </section>
           );
         })}
 
-        {plan.items.length ? (
-          <div className="plan-acciones">
-            <button type="button" className="boton-principal"
-              onClick={() => descargar(`${nombreArchivo(plan.nombre)}.ics`, planIcs(plan, enlace), 'text/calendar')}>
-              {t.planCalendario}
-            </button>
-            <button type="button" className="boton-secundario" onClick={compartir}>{t.planCompartir}</button>
-            <button type="button" className="boton-secundario" onClick={compartirImagen}>{t.planImagen}</button>
-          </div>
-        ) : null}
-        {copiado ? <p className="nota" role="status">{t.planCopiado}</p> : null}
-
-        <div className="plan-acciones">
-          {!editando ? <button type="button" className="boton-secundario" onClick={() => setEditando(true)}>{t.planRenombrar}</button> : null}
-          {borrando ? (
-            <button type="button" className="boton-secundario peligro"
-              onClick={() => { planes.borrar(plan.id); window.location.hash = '#planes'; }}>{t.planBorrarSeguro}</button>
-          ) : (
-            <button type="button" className="boton-secundario" onClick={() => setBorrando(true)}>{t.planBorrar}</button>
-          )}
-        </div>
         <p className="nota">{t.planNota}</p>
+        <div className="plan-borrar">
+          <button type="button" className="boton-secundario peligro con-icono" onClick={() => setHoja('borrar')}><IconoPapelera />{t.planBorrar}</button>
+        </div>
       </div>
+      {hoja === 'compartir' ? <HojaCompartir t={t} plan={plan} cerrar={() => setHoja(null)} /> : null}
+      {hoja === 'borrar' ? (
+        <DialogoBorrar t={t} nombre={plan.nombre} cerrar={() => setHoja(null)}
+          borrar={() => { planes.borrar(plan.id); window.location.hash = '#planes'; }} />
+      ) : null}
+      {hoja && typeof hoja === 'object' ? (
+        <HojaRuta t={t} dia={hoja.ruta} items={dias.find(([d]) => d === hoja.ruta)?.[1] || []} cerrar={() => setHoja(null)} />
+      ) : null}
     </main>
   );
 }

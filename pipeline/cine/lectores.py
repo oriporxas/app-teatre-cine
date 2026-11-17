@@ -67,7 +67,17 @@ def _palabras(s: str) -> set[str]:
 
 # --- elqueque (Mooby, Verdi…) -------------------------------------------------------
 
-def _eventos_elqueque(ev: dict, id_cine: str, base: str) -> list[dict]:
+def enlace_sesion(plantilla: str | None, codigo, id_teatro, idioma: str = "esp") -> str | None:
+    """Enlace de compra de UNA sesión, tal como lo forma la propia web del cine:
+    `shop_url` con «%s» → código de la sesión, idioma y número del cine (en ese orden)."""
+    if not plantilla or not codigo or "%s" not in plantilla:
+        return None
+    url = plantilla.replace("%s", urllib.parse.quote(str(codigo)), 1)
+    url = url.replace("%s", idioma if "theatre=" in url else idioma.upper(), 1)
+    return url.replace("%s", urllib.parse.quote(str(id_teatro or "")), 1)
+
+
+def _eventos_elqueque(ev: dict, id_cine: str, base: str, tienda: dict | None = None) -> list[dict]:
     peli = {
         "titulo": re.sub(r"\s*\((VOSE|VOS|VO|CAT|ESP|VOSC|3D)\)\s*$", "", ev.get("locale_title") or ev.get("name") or "", flags=re.I).strip(),
         "titulo_original": ev.get("name") or ev.get("title_name"),
@@ -83,8 +93,12 @@ def _eventos_elqueque(ev: dict, id_cine: str, base: str) -> list[dict]:
         if not p.get("time"):
             continue
         fecha, hora = _fecha_hora(str(p["time"]))
+        # Compra directa de esta sesión; si la web no da el código, la cartelera del cine.
+        directa = enlace_sesion((tienda or {}).get("shop_url"), p.get("performance_code") or p.get("code"),
+                                (tienda or {}).get("id"))
         res.append({"cine": id_cine, "pelicula": peli, "fecha": fecha, "hora": hora, "version": v,
-                    "sala": (p.get("hall_name") or "").title() or None, "compra": base})
+                    "sala": (p.get("hall_name") or "").title() or None, "compra": directa or base,
+                    "compra_directa": bool(directa)})
     return res
 
 
@@ -110,7 +124,7 @@ def elqueque(cine: dict) -> list[dict] | None:
             if not elegida or not (nombre & _palabras(elegida.get("name") or "")):
                 return []
         return [s for ev in elegida.get("events") or [] if not ev.get("coming_soon") or ev.get("performances")
-                for s in _eventos_elqueque(ev, cine["id"], web)]
+                for s in _eventos_elqueque(ev, cine["id"], web, elegida)]
     if "/api/get-" in texto or "elqueque" in texto:  # Verdi: datos en la API pública de la web
         teatros = red.pedir(f"{raiz}/api/get-theaters")
         eventos = red.pedir(f"{raiz}/api/get-events")
@@ -133,7 +147,7 @@ def elqueque(cine: dict) -> list[dict] | None:
         res = []
         for ev in (eventos.get("result", []) if isinstance(eventos, dict) else []):
             if ev.get("theater_id") == id_teatro:
-                res += _eventos_elqueque(ev, cine["id"], f"{raiz}/cartelera")
+                res += _eventos_elqueque(ev, cine["id"], f"{raiz}/cartelera", teatro)
         return res
     return None
 
@@ -163,7 +177,7 @@ def _renoir_dia(texto: str, id_cine: str) -> list[dict]:
             sala = re.search(r"sala\s*(\d+)", pase)
             for href, hora in re.findall(r'<a href="([^"]+)"[^>]*>\s*(\d{1,2}:\d{2})\s*</a>', pase):
                 res.append({"cine": id_cine, "pelicula": peli, "hora": hora, "version": version(ver),
-                            "sala": f"Sala {int(sala.group(1))}" if sala else None, "compra": href,
+                            "sala": f"Sala {int(sala.group(1))}" if sala else None, "compra": href, "compra_directa": "/pase/" in (href or ""),
                             "especial": (_limpio(m.group(1)) if (m := re.search(r'pase-cartelera-tag">(.*?)</div>', pase, re.S)) else None)})
     # quitar duplicados exactos
     vistos, unicos = set(), []

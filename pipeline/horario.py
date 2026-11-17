@@ -150,6 +150,11 @@ def _anyo_para(mes: int, dia: int, inicio: dt.date | None, fin: dt.date | None) 
     dentro = [c for c in candidatos if (not inicio or c >= inicio) and (not fin or c <= fin)]
     if dentro:
         return dentro[0]
+    if inicio and fin:
+        # Fuera del periodo que da la propia fuente: la fecha más cercana a ese periodo, sin
+        # pasarla al año siguiente (error de noviembre de 2026: «30 octubre», ya pasado, salía
+        # como función del 30/10/2027). Si cae fuera, el verificador la quita.
+        return min(candidatos, key=lambda c: min(abs((c - inicio).days), abs((c - fin).days)))
     if inicio:
         despues = [c for c in candidatos if c >= inicio]
         if despues:

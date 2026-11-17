@@ -118,6 +118,40 @@ export function porDias(items: ItemPlan[]): [string, ItemPlan[]][] {
 }
 
 /** Ruta del día en el mapa (de sala en sala, en el orden de las funciones). */
+// --- Ruta del día ---------------------------------------------------------------------------
+
+export interface ParadaRuta { lat: number; lon: number; nombre: string; sala?: string; hora?: string; direccion?: string }
+
+/** Paradas del día en orden (las que tienen ubicación; dos seguidas en la misma sala cuentan como una). */
+export function paradasRuta(items: ItemPlan[]): ParadaRuta[] {
+  const res: ParadaRuta[] = [];
+  for (const i of items) {
+    if (i.lat == null || i.lon == null) continue;
+    const ultima = res[res.length - 1];
+    if (ultima && ultima.lat === i.lat && ultima.lon === i.lon) { ultima.nombre += ` · ${i.nombre}`; continue; }
+    res.push({ lat: i.lat, lon: i.lon, nombre: i.nombre, sala: i.sala, hora: i.hora, direccion: i.direccion });
+  }
+  return res;
+}
+
+/** Google Maps con todas las paradas (en el móvil abre su app si está instalada). */
+export function rutaGoogle(p: ParadaRuta[]): string | null {
+  if (!p.length) return null;
+  if (p.length === 1) return `https://www.google.com/maps/dir/?api=1&destination=${p[0].lat},${p[0].lon}`;
+  return `https://www.google.com/maps/dir/${p.map((x) => `${x.lat},${x.lon}`).join('/')}`;
+}
+
+/** Apple Maps: un tramo (desde donde estás, o desde la parada anterior) hasta una parada. */
+export function tramoApple(destino: ParadaRuta, origen?: ParadaRuta): string {
+  const d = `daddr=${destino.lat},${destino.lon}`;
+  return `https://maps.apple.com/?${origen ? `saddr=${origen.lat},${origen.lon}&` : ''}${d}`;
+}
+
+/** Cualquier app de mapas instalada (Android pregunta cuál usar). */
+export function enlaceGeo(p: ParadaRuta): string {
+  return `geo:${p.lat},${p.lon}?q=${p.lat},${p.lon}(${encodeURIComponent(p.sala || p.nombre)})`;
+}
+
 export function enlaceRuta(items: ItemPlan[]): string | null {
   const puntos = items.filter((i) => i.lat != null && i.lon != null).map((i) => `${i.lat},${i.lon}`);
   const unicos = puntos.filter((p, k) => p !== puntos[k - 1]);

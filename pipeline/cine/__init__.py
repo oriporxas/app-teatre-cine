@@ -119,7 +119,7 @@ def recoger(ciudad, hoy: dt.date, descargar: bool = True, leer_webs: bool = True
             if p.get(campo) and not actual.get(campo):
                 actual[campo] = p[campo]
         actual["sesiones"].append([s["cine"], s["fecha"], s.get("hora"), s.get("version"), s.get("sala"),
-                                   s.get("compra"), s.get("especial")])
+                                   s.get("compra"), s.get("especial"), 1 if s.get("compra_directa") else 0])
     informe["tmdb"] = tmdb.enriquecer(pelis, cache, hoy) if descargar or leer_webs else {"aviso": "sin conexión"}
     # La misma película en cines distintos (una web da su código de IMDb y otra no): se junta.
     por_tmdb: dict[int, str] = {}
@@ -181,6 +181,9 @@ def recoger(ciudad, hoy: dt.date, descargar: bool = True, leer_webs: bool = True
     pelis_app.sort(key=lambda p: (-len(p["sesiones"]), p["titulo"]))
     salida = {"ciudad": ciudad.ficha(), "actualizado": hoy.isoformat(), "atribucion": ATRIBUCION,
               "cines": cines_app, "peliculas": pelis_app}
+    from .. import verificar  # nada sale sin pasar las comprobaciones
+    informe["verificacion"] = verificar.cine(ciudad, salida, hoy, DIAS)
+    pelis_app = salida["peliculas"]
     CARPETA_WEB.mkdir(parents=True, exist_ok=True)
     (CARPETA_WEB / f"{ciudad.id}-cine.json").write_text(
         json.dumps(salida, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

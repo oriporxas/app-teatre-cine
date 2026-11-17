@@ -142,7 +142,7 @@ const es = {
   notaTmdb: 'Nota TMDB', centroCivico: 'Centro cultural', cinesSinHorarios: 'Cines con horarios en su propia web',
   atribucionTmdb: 'Datos de películas: TMDB. Este producto usa la API de TMDB pero no está avalado ni certificado por TMDB. Premios: Wikidata (CC0).',
   noticiasTitulo: 'Noticias', noticiasSub: 'Lo último del teatro, el cine y la magia',
-  temasNoticia: { todo: 'Todo', teatro: 'Teatro', cine: 'Cine', magia: 'Magia y circo' } as Record<string, string>,
+  temasNoticia: { todo: 'Todo', teatro: 'Teatro', cine: 'Cine', magia: 'Magia', circo: 'Circo', eventos: 'Eventos', evento: 'Evento' } as Record<string, string>,
   leerEn: (m: string): string => `Leer en ${m}`, resumenIA: 'Resumen hecho con IA a partir del titular. La noticia completa está en el medio.',
   haceHoras: (h: number): string => (h < 1 ? 'hace un momento' : h < 24 ? `hace ${h} h` : h < 48 ? 'ayer' : `hace ${Math.floor(h / 24)} días`),
   buscarTitulo: 'Buscar', obras: 'Obras y espectáculos', peliculasTit: 'Películas', personas: 'Personas', lugares: 'Salas y cines',
@@ -157,6 +157,20 @@ const es = {
   magoNota: 'Resumen hecho con IA a partir de las fuentes citadas.',
   planImagen: 'Imagen para historias', planPieImagen: 'Mi plan en Cartelera Barcelona',
   anadirSesion: (d: string): string => `Añadir la sesión del ${d} a un plan`,
+  // Cambios de Uri (17/11/2026)
+  proxima: 'Próxima:', verCine: 'Ver el cine',
+  compraDirecta: 'Pulsa una hora para comprar la entrada de esa sesión en la web oficial del cine.',
+  compraEnWebCine: 'Este cine no deja enlazar cada sesión: la hora abre su web, donde se compra.',
+  webSala: 'Web de la sala', compraObraNota: 'Abre la página de esta obra en la web oficial de la sala, donde se compran las entradas.',
+  compraSalaNota: 'La sala no publica un enlace para esta obra: el botón abre su web.',
+  editarNombre: 'Editar el nombre', cancelar: 'Cancelar',
+  compartirTexto: 'Enviar el plan', compartirTextoSub: 'WhatsApp, mensajes, correo…',
+  compartirStories: 'Compartir en stories', compartirStoriesSub: 'Imagen vertical para Instagram, WhatsApp…',
+  borrarPregunta: (n: string): string => `¿Borrar el plan «${n}»? No se puede deshacer.`, borrarSi: 'Sí, borrar',
+  rutaTit: 'Ruta del día', rutaAbrirEn: 'Abrir la ruta en', rutaOtra: 'Otra app de mapas',
+  rutaParadas: (n: number): string => (n === 1 ? '1 parada' : `${n} paradas`), rutaSinMapa: 'Sin ubicación en el mapa',
+  rutaAppleNota: 'Apple Maps abre un tramo cada vez: pulsa cada parada para ir a la siguiente.',
+  rutaTramo: 'Ir aquí', salasTit: 'Salas', mapaVer: 'Mapa', salaObras: 'En cartel en esta sala', verSala: 'Ver la sala',
 };
 
 export type Textos = typeof es;
@@ -271,7 +285,7 @@ const ca: Textos = {
   notaTmdb: 'Nota TMDB', centroCivico: 'Centre cultural', cinesSinHorarios: 'Cinemes amb horaris al seu propi web',
   atribucionTmdb: 'Dades de pel·lícules: TMDB. Aquest producte fa servir l’API de TMDB però no està avalat ni certificat per TMDB. Premis: Wikidata (CC0).',
   noticiasTitulo: 'Notícies', noticiasSub: 'El més nou del teatre, el cinema i la màgia',
-  temasNoticia: { todo: 'Tot', teatro: 'Teatre', cine: 'Cinema', magia: 'Màgia i circ' },
+  temasNoticia: { todo: 'Tot', teatro: 'Teatre', cine: 'Cinema', magia: 'Màgia', circo: 'Circ', eventos: 'Esdeveniments', evento: 'Esdeveniment' },
   leerEn: (m: string) => `Llegir a ${m}`, resumenIA: 'Resum fet amb IA a partir del titular. La notícia completa és al mitjà.',
   haceHoras: (h: number) => (h < 1 ? 'fa un moment' : h < 24 ? `fa ${h} h` : h < 48 ? 'ahir' : `fa ${Math.floor(h / 24)} dies`),
   buscarTitulo: 'Cercar', obras: 'Obres i espectacles', peliculasTit: 'Pel·lícules', personas: 'Persones', lugares: 'Sales i cinemes',
@@ -286,6 +300,19 @@ const ca: Textos = {
   magoNota: 'Resum fet amb IA a partir de les fonts citades.',
   planImagen: 'Imatge per a històries', planPieImagen: 'El meu pla a Cartellera Barcelona',
   anadirSesion: (d: string) => `Afegir la sessió del ${d} a un pla`,
+  proxima: 'Propera:', verCine: 'Veure el cinema',
+  compraDirecta: "Prem una hora per comprar l'entrada d'aquella sessió al web oficial del cinema.",
+  compraEnWebCine: "Aquest cinema no deixa enllaçar cada sessió: l'hora obre el seu web, on es compra.",
+  webSala: 'Web de la sala', compraObraNota: "Obre la pàgina d'aquesta obra al web oficial de la sala, on es compren les entrades.",
+  compraSalaNota: 'La sala no publica cap enllaç per a aquesta obra: el botó obre el seu web.',
+  editarNombre: 'Editar el nom', cancelar: 'Cancel·lar',
+  compartirTexto: 'Enviar el pla', compartirTextoSub: 'WhatsApp, missatges, correu…',
+  compartirStories: 'Compartir a stories', compartirStoriesSub: 'Imatge vertical per a Instagram, WhatsApp…',
+  borrarPregunta: (n: string) => `Vols esborrar el pla «${n}»? No es pot desfer.`, borrarSi: 'Sí, esborrar',
+  rutaTit: 'Ruta del dia', rutaAbrirEn: 'Obrir la ruta a', rutaOtra: 'Una altra app de mapes',
+  rutaParadas: (n: number) => (n === 1 ? '1 parada' : `${n} parades`), rutaSinMapa: 'Sense ubicació al mapa',
+  rutaAppleNota: 'Apple Maps obre un tram cada vegada: prem cada parada per anar a la següent.',
+  rutaTramo: 'Anar-hi', salasTit: 'Sales', mapaVer: 'Mapa', salaObras: 'En cartell en aquesta sala', verSala: 'Veure la sala',
 };
 
 export const TEXTOS: Record<Idioma, Textos> = { es, ca };
