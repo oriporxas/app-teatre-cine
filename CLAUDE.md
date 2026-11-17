@@ -33,10 +33,12 @@ noticias; **cine** (`pipeline/cine/`, `docs/fuentes/cine.md`); **noticias**
 (`pipeline/noticias.py`, `ajustes/noticias.toml`); diseño negro, rojo y blanco;
 pantallas Inicio, Escena, Cine, Noticias, Guardado, buscador único y personas.
 Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
-GitHub volvió el 14/11/2026: ya se puede hacer push. Pendiente de Uri: crear en
-GitHub los secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` (sin ellos, la tarea
-diaria clasifica solo por señales y el cine sale sin datos de TMDB) y elegir
-alojamiento.
+GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KEY` y
+`TMDB_TOKEN` en GitHub: **creados por Uri** (lo confirmó el 17/11/2026; no volver a
+preguntárselo). Claude no puede leer los secretos: se comprueban en el registro de la tarea
+diaria (sale `***` si existen). Ojo: la tarea diaria no se ha ejecutado desde el 8/11/2026
+(cuenta suspendida); revisar que vuelva a ejecutarse. Pendiente de Uri: elegir alojamiento.
+**Antes de dar algo por pendiente o hecho, comprobarlo** (no fiarse de notas antiguas).
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
 móvil en https://claude.ai/artifact/9WzwWKvR8AT6zFEhQKjvrU (cartelera con
@@ -158,7 +160,10 @@ Detalle y razones en `docs/arquitectura.md`.
     actividades en el formato común de `fuentes/base.py`. Hoy:
     `fuentes/open_data_bcn/` (agendas por la API oficial, fichas de
     guia.barcelona.cat a **1 página cada 10 s** como pide su robots.txt,
-    salas con la lista oficial de equipamientos). Para añadir una fuente:
+    salas con la lista oficial de equipamientos) y `fuentes/webs_salas/`
+    (Uri, 17/11/2026: la web oficial de los teatros que no salen en la agenda,
+    según `cobertura.json`; la IA extrae con citas literales que el programa
+    comprueba; ver `docs/veracidad.md`). Para añadir una fuente:
     nueva carpeta con `recoger(ctx)` y nombrarla en `ajustes/ciudades.toml`.
   - `horario.py`: días, horas, precios, duración e idioma desde el texto.
   - `publico.py`: a quién va dirigida cada actividad (y edades) y el nivel de
@@ -181,7 +186,15 @@ Detalle y razones en `docs/arquitectura.md`.
   - `enriquecer_ia.py`: traducción, premios citados (con la cita literal, que
     se comprueba) y temas de cada ficha publicada (tarea «traducir»).
   - `cine/`: cartelera de cine (salas, lectores de horarios, TMDB y Wikidata).
-  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml`.
+  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml` (teatro, cine, magia,
+    circo y la marca «evento»: festival, gala, feria, taller…).
+  - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
+    cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
+    de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.
+  - `compra.py`: busca en la web de la sala la página de la obra (la agenda da la portada);
+    `compra_tipo` «obra» o «sala» (el botón lo dice).
+  - `cobertura.py`: lista oficial de teatros, auditorios y cines contra lo que tenemos
+    (`cobertura.json`): qué salas se escapan.
 - `web/` — la app (fase 2): React + Vite, web instalable en el móvil (PWA).
   El móvil descarga el archivo de su ciudad y busca dentro (rápido, gratis,
   sin conexión). Cómo probarla y construirla: `web/LEEME.md`
@@ -197,6 +210,18 @@ Detalle y razones en `docs/arquitectura.md`.
   cada día antes del proceso).
 
 ## Cosas que conviene saber
+
+- **Veracidad (Uri, 17/11/2026, lo más importante):** cada error que se encuentre se arregla en
+  la causa **y** se añade una prueba con el caso real (`tests/test_verificar.py`,
+  `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
+  «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
+  coste): `docs/veracidad.md`.
+- Cambios de pantalla de Uri (17/11/2026): barra de abajo Inicio, Escena, Cine, Planes, Desat
+  (solo lo guardado), Notícies; en la película, cada cine es un desplegable con sus horas; la
+  hora lleva a la compra de esa sesión (Mooby, Verdi y Renoir lo permiten); en Inicio, fila de
+  «Salas» (página `#teatro-<id>`); en el plan: Compartir (con «stories» dentro), Añadir a mi
+  calendario, «Ruta del día» con mapa propio y botones a Google/Apple Maps, lápiz para el
+  nombre y «Borrar plan» abajo con pregunta; fondo de telón color vino muy apagado.
 
 - El fichero JSON completo de Open Data BCN y su web normal devuelven 403 a
   los programas (desde la nube de Claude y desde GitHub). La API sí funciona.

@@ -34,6 +34,10 @@ export interface Espectaculo {
   descripcion?: Record<string, string>;
   idioma_textos?: string;
   compra?: string;
+  /** «obra»: página o compra de esta obra en la web oficial; «sala»: solo la portada de la sala. */
+  compra_tipo?: 'obra' | 'sala';
+  /** Portada de la sala, cuando «compra» es la página de la obra. */
+  compra_sala?: string;
   imagen?: string;
   fuente?: string;
   fuente_url?: string;

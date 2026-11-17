@@ -46,11 +46,25 @@ def descargar_equipamientos(carpeta: Path) -> list[dict]:
         "categoria": f.get("secondary_filters_name") or None,
         "via_id": str(f.get("addresses_road_id") or "") or None,
         "numero": str(f.get("addresses_start_street_number") or "") or None,
+        # Para las salas que solo se conocen por esta lista (lector de webs de salas):
+        "calle": (f.get("addresses_road_name") or "").strip() or None,
+        "barrio": (f.get("addresses_neighborhood_name") or "").strip() or None,
+        "distrito": (f.get("addresses_district_name") or "").strip() or None,
+        "codigo_postal": str(f.get("addresses_zip_code") or "").zfill(5) if f.get("addresses_zip_code") else None,
+        "lat": _numero(f.get("geo_epgs_4326_lat")),
+        "lon": _numero(f.get("geo_epgs_4326_lon")),
     } for f in filas]
     carpeta.mkdir(parents=True, exist_ok=True)
     with open(carpeta / "equipamientos.json", "w", encoding="utf-8") as f:
         json.dump(equip, f, ensure_ascii=False)
     return equip
+
+
+def _numero(x) -> float | None:
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
 
 
 def clave_lugar(a: dict) -> str:

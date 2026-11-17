@@ -216,14 +216,22 @@ function ListaCines({ t, datos, res, hoy, cerca }: {
 
 // --- Ficha de película -------------------------------------------------------------------
 
-function agrupar(s: Sesion[]): [string, [string, Sesion[]][]][] {
-  const dias = new Map<string, Map<string, Sesion[]>>();
-  for (const x of s) {
-    if (!dias.has(x[1])) dias.set(x[1], new Map());
-    const m = dias.get(x[1])!;
-    m.set(x[0], [...(m.get(x[0]) || []), x]);
+// Cine → días → sesiones, con los cines ordenados por su primera sesión.
+function porCines(s: Sesion[]): [string, [string, Sesion[]][]][] {
+  const orden = [...s].sort((a, b) => (a[1] + (a[2] || '')).localeCompare(b[1] + (b[2] || '')));
+  const cines = new Map<string, Map<string, Sesion[]>>();
+  for (const x of orden) {
+    if (!cines.has(x[0])) cines.set(x[0], new Map());
+    const m = cines.get(x[0])!;
+    m.set(x[1], [...(m.get(x[1]) || []), x]);
   }
-  return [...dias.entries()].map(([d, m]) => [d, [...m.entries()]]);
+  return [...cines.entries()].map(([c, m]) => [c, [...m.entries()]]);
+}
+
+// Enlace de compra en el idioma de la app (las tiendas de Mooby y Verdi lo llevan en la dirección).
+export function enlaceCompra(url: string | null | undefined, lang: Idioma): string | undefined {
+  if (!url) return undefined;
+  return lang === 'ca' ? url.replace('language=esp', 'language=cat').replace('language=ESP', 'language=CAT') : url;
 }
 
 export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, planes, zona, ciudad }: {
@@ -231,15 +239,14 @@ export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, pla
   favs: Favoritos; planes: Planes; zona: string; ciudad: string;
 }) {
   const cines = useMemo(() => new Map(datos.cines.map((c) => [c.id, c])), [datos]);
-  const [dias, setDias] = useState(3);
   const [version, setVersion] = useState('todas');
   const [paraPlan, setParaPlan] = useState<ItemPlan | null>(null);
   const [aviso, setAviso] = useState<{ texto: string; plan: string } | null>(null);
-  useLayoutEffect(() => { window.scrollTo(0, 0); setDias(3); setAviso(null); }, [p.id]);
+  useLayoutEffect(() => { window.scrollTo(0, 0); setAviso(null); }, [p.id]);
   const futuras = p.sesiones.filter((s) => s[1] > hoy || (s[1] === hoy && (!s[2] || s[2] >= ahora)));
   const versiones = [...new Set(futuras.map((s) => s[3]).filter(Boolean))] as string[];
   const visibles = futuras.filter((s) => version === 'todas' || s[3] === version);
-  const grupos = agrupar(visibles);
+  const grupos = porCines(visibles);
   const titulo = tituloPeli(p, lang);
   const sinopsis = p.sinopsis?.[lang] || p.sinopsis?.es || p.sinopsis?.ca || Object.values(p.sinopsis || {})[0];
   const guardada = favs.es(p.id);
@@ -311,41 +318,56 @@ export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, pla
               ))}
             </div>
           ) : null}
-          {grupos.slice(0, dias).map(([dia, porCine]) => (
-            <div key={dia} className="dia-sesiones">
-              <h4>{dia === hoy ? `${t.sesionesHoy} · ${fmtDia(dia, t)}` : fmtDia(dia, t)}</h4>
-              {porCine.map(([cid, ss]) => {
-                const c = cines.get(cid);
-                return (
-                  <div key={cid} className="cine-sesiones">
-                    <a className="cine-nombre" href={enlaceCine(cid)}>{c?.nombre || cid}</a>
-                    <div className="entradas">
-                      {ss.map((s, i) => {
-                        const enPlan = planes.conFuncion(p.id, s[1], s[2] || undefined);
-                        return (
-                          <span key={`${s[2]}-${i}`} className="entrada">
-                            <a className="entrada-hora" href={s[5] || c?.web || undefined} target="_blank" rel="noopener noreferrer"
-                              aria-label={`${t.comprarEntrada}: ${c?.nombre} ${s[2] || ''}`}>
-                              <strong>{s[2] || '—'}</strong>
-                              <span className="entrada-meta">{[s[3] ? t.versiones[s[3]] || s[3] : '', s[4]].filter(Boolean).join(' · ')}</span>
-                              {s[6] ? <span className="entrada-especial">{s[6]}</span> : null}
-                            </a>
-                            {enPlan ? (
-                              <a className="entrada-plan hecho" href={`#plan-${enPlan.id}`} aria-label={t.enPlan(enPlan.nombre)}>✓</a>
-                            ) : (
-                              <button type="button" className="entrada-plan" aria-label={t.anadirSesion(`${fmtDia(s[1], t)} ${s[2] || ''}`)}
-                                onClick={() => setParaPlan(item(s))}>+</button>
-                            )}
-                          </span>
-                        );
-                      })}
+          {grupos.map(([cid, porDia]) => {
+            const c = cines.get(cid);
+            const primera = porDia[0][1][0];
+            const total = porDia.reduce((n, [, ss]) => n + ss.length, 0);
+            const directas = porDia.some(([, ss]) => ss.some((s) => s[7] === 1));
+            return (
+              <details key={cid} className="cine-desplegable" open={grupos.length === 1}>
+                <summary>
+                  <span className="cine-desplegable-texto">
+                    <span className="cine-nombre">{c?.nombre || cid}</span>
+                    <span className="texto-suave">
+                      {[c?.barrio, `${t.proxima} ${primera[1] === hoy ? t.sesionesHoy : fmtDia(primera[1], t)}${primera[2] ? ` · ${primera[2]}` : ''}`, t.sesiones(total)].filter(Boolean).join(' · ')}
+                    </span>
+                  </span>
+                  <svg className="flecha" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+                </summary>
+                <div className="cine-desplegable-cuerpo">
+                  {porDia.map(([dia, ss]) => (
+                    <div key={dia} className="dia-sesiones">
+                      <h4>{dia === hoy ? `${t.sesionesHoy} · ${fmtDia(dia, t)}` : fmtDia(dia, t)}</h4>
+                      <div className="entradas">
+                        {ss.map((s, i) => {
+                          const enPlan = planes.conFuncion(p.id, s[1], s[2] || undefined);
+                          const directa = s[7] === 1;
+                          return (
+                            <span key={`${s[2]}-${i}`} className="entrada">
+                              <a className="entrada-hora" href={enlaceCompra(s[5] || c?.web, lang)} target="_blank" rel="noopener noreferrer"
+                                aria-label={`${directa ? t.comprarEntrada : t.horariosEnWeb}: ${c?.nombre} ${s[2] || ''}`}>
+                                <strong>{s[2] || '—'}</strong>
+                                <span className="entrada-meta">{[s[3] ? t.versiones[s[3]] || s[3] : '', s[4]].filter(Boolean).join(' · ')}</span>
+                                {s[6] ? <span className="entrada-especial">{s[6]}</span> : null}
+                              </a>
+                              {enPlan ? (
+                                <a className="entrada-plan hecho" href={`#plan-${enPlan.id}`} aria-label={t.enPlan(enPlan.nombre)}>✓</a>
+                              ) : (
+                                <button type="button" className="entrada-plan" aria-label={t.anadirSesion(`${fmtDia(s[1], t)} ${s[2] || ''}`)}
+                                  onClick={() => setParaPlan(item(s))}>+</button>
+                              )}
+                            </span>
+                          );
+                        })}
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
-          ))}
-          {grupos.length > dias ? <button type="button" className="boton-secundario" onClick={() => setDias(dias + 4)}>{t.verMasFechas}</button> : null}
+                  ))}
+                  <span className="nota">{directas ? t.compraDirecta : t.compraEnWebCine}</span>
+                  <a className="enlace" href={enlaceCine(cid)}>{t.verCine}</a>
+                </div>
+              </details>
+            );
+          })}
           {grupos.length === 0 ? <span className="texto-suave">{t.sinFechas}</span> : null}
           {aviso ? <p className="aviso-plan" role="status">{aviso.texto} <a href={`#plan-${aviso.plan}`}>{t.verPlan}</a></p> : null}
         </section>
@@ -411,15 +433,22 @@ export function FichaCine({ t, lang, c, datos, hoy, ahora, volver }: {
         </div>
         {pelis.length === 0 ? <p className="texto-suave">{c.ver_en ? t.verEn(datos.cines.find((x) => x.id === c.ver_en)?.nombre || '') : t.sinFechas}</p> : null}
         {pelis.map(({ p, s }) => (
-          <a key={p.id} className="tarjeta tarjeta-peli compacta" href={enlacePeli(p.id)}>
-            <Cartelito src={p.cartel} alt={tituloPeli(p, lang)} clase="peli-cartel" />
+          <div key={p.id} className="tarjeta tarjeta-peli compacta">
+            <a href={enlacePeli(p.id)} tabIndex={-1} aria-hidden="true"><Cartelito src={p.cartel} alt={tituloPeli(p, lang)} clase="peli-cartel" /></a>
             <span className="peli-info">
-              <span className="tarjeta-nombre">{tituloPeli(p, lang)}</span>
+              <a className="tarjeta-nombre" href={enlacePeli(p.id)}>{tituloPeli(p, lang)}</a>
               <span className="texto-suave">{[fmtHoraMin(p.duracion), (p.generos || []).slice(0, 2).join(', ')].filter(Boolean).join(' · ')}</span>
-              <span className="horas">{s.map((x, i) => <span key={i} className="hora-chip">{x[2] || '—'}{x[3] ? <small> {t.versiones[x[3]] || x[3]}</small> : null}</span>)}</span>
+              {/* Cada hora lleva a la compra de esa sesión en la web del cine (si la web lo permite). */}
+              <span className="horas">{s.map((x, i) => (
+                <a key={i} className="hora-chip" href={enlaceCompra(x[5] || c.web, lang)} target="_blank" rel="noopener noreferrer"
+                  aria-label={`${x[7] === 1 ? t.comprarEntrada : t.horariosEnWeb}: ${tituloPeli(p, lang)} ${x[2] || ''}`}>
+                  {x[2] || '—'}{x[3] ? <small> {t.versiones[x[3]] || x[3]}</small> : null}
+                </a>
+              ))}</span>
             </span>
-          </a>
+          </div>
         ))}
+        {pelis.length ? <p className="nota">{pelis.some(({ s }) => s.some((x) => x[7] === 1)) ? t.compraDirecta : t.compraEnWebCine}</p> : null}
         {c.fuente ? <p className="nota">{t.fuente}: <a href={c.fuente} target="_blank" rel="noopener noreferrer">Guia BCN</a></p> : null}
       </div>
     </main>

@@ -15,6 +15,7 @@ Decisiones de Uri que se aplican aquí (brief, 8/11/2026):
 
 from __future__ import annotations
 
+import datetime as dt
 import json
 import re
 
@@ -141,7 +142,7 @@ def _item(f: dict) -> dict | None:
     })
 
 
-def exportar(ciudad, informe: dict, mapa: dict | None = None) -> dict:
+def exportar(ciudad, informe: dict, mapa: dict | None = None, leer_webs: bool = True) -> dict:
     """Escribe el archivo de la ciudad (y su mapa, si la fuente lo da) y actualiza el índice."""
     if mapa:
         CARPETA_WEB.mkdir(parents=True, exist_ok=True)
@@ -154,6 +155,13 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None) -> dict:
     enriquecer_ia.aplicar(ciudad, items, informe)
     from . import fichas_personas  # trayectoria y premios (con fuente) de los magos
     fichas_personas.aplicar(ciudad, items, informe)
+    from . import compra  # página de la obra en la web de la sala, en vez de su portada
+    compra.aplicar(ciudad, items, informe, leer_webs=leer_webs)
+    # Verificador: nada sale en la app sin pasar las comprobaciones (pipeline/verificar.py).
+    from . import verificar
+    mapa_ciudad = mapa or leer_json(CARPETA_WEB / f"{ciudad.id}-mapa.json", None)
+    hoy = dt.date.fromisoformat(informe["fecha"]) if informe.get("fecha") else dt.date.today()
+    informe["verificacion"] = verificar.escena(ciudad, items, fichas, mapa_ciudad, hoy)
     items.sort(key=lambda i: (i["funciones"][0][0], (i["funciones"][0] + [""])[1]))
     datos = {
         "ciudad": ciudad.ficha(),
@@ -170,4 +178,4 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None) -> dict:
     indice = leer_json(CARPETA_WEB / "ciudades.json", {}) or {}
     indice[ciudad.id] = {**ciudad.ficha(), "actualizado": informe.get("fecha"), "espectaculos": len(items)}
     guardar_json(CARPETA_WEB / "ciudades.json", indice)
-    return {"espectaculos_app": len(items), **{k: informe[k] for k in ("ia_fichas", "fichas_personas") if k in informe}}
+    return {"espectaculos_app": len(items), **{k: informe[k] for k in ("ia_fichas", "fichas_personas", "compra", "verificacion") if k in informe}}

@@ -8,6 +8,7 @@ import { Cartelito, Version, enlaceCine, enlacePeli } from './Cine';
 import { TarjetaNoticia, type Noticia } from './Noticias';
 
 const enlaceFicha = (id: string) => `#ficha-${id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
+const enlaceSala = (id: string) => `#teatro-${id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
 
 function Fila({ titulo, enlace, t, children }: { titulo: string; enlace?: string; t: Textos; children: React.ReactNode }) {
   return (
@@ -50,6 +51,16 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const lista = cartelera?.espectaculos ?? [];
   const hora = Number(ahora.split(':')[0] || 12);
+  // Salas de teatro con funciones (no solo eventos), de más a menos obras en cartel.
+  const salas = useMemo(() => {
+    const m = new Map<string, [string, string, number]>();
+    for (const e of lista) {
+      if (!e.sala_id || !e.sala || e.tipo === 'eventos' || !e.funciones.some(([d]) => d >= hoy)) continue;
+      const x = m.get(e.sala_id) || [e.sala_id, e.sala, 0];
+      m.set(e.sala_id, [x[0], x[1], x[2] + 1]);
+    }
+    return [...m.values()].sort((a, b) => b[2] - a[2] || a[1].localeCompare(b[1])).slice(0, 40);
+  }, [lista, hoy]);
 
   const datos = useMemo(() => {
     const fin7 = sumaDias(hoy, 7);
@@ -191,6 +202,15 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
             {cine.cines.filter((c) => !c.centro && cine.peliculas.some((p) => p.sesiones.some((s) => s[0] === c.id && s[1] === hoy))).map((c) => (
               <a key={c.id} className="chip-cine" href={enlaceCine(c.id)}>{c.nombre}</a>
             ))}
+          </div>
+        </section>
+      ) : null}
+
+      {salas.length ? (
+        <section className="fila-inicio">
+          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.salasTit}</h2><a className="ver-todo" href="#mapa">{t.mapaVer}</a></div>
+          <div className="carrusel">
+            {salas.map(([id, nombre]) => <a key={id} className="chip-cine" href={enlaceSala(id)}>{nombre}</a>)}
           </div>
         </section>
       ) : null}

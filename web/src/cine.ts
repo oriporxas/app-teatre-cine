@@ -5,7 +5,8 @@ export interface Persona { id?: number; nombre: string; foto?: string; papel?: s
 export interface Premio { premio: string; anio?: number; tipo: 'ganado' | 'nominado' }
 
 // [cine, fecha, hora, versión, sala, compra, especial]
-export type Sesion = [string, string, string | null, string | null, string | null, string | null, string | null];
+// [cine, día, hora, versión, sala, enlace de compra, pase especial, 1 si el enlace es la compra de ESA sesión]
+export type Sesion = [string, string, string | null, string | null, string | null, string | null, string | null, number?];
 
 export interface Pelicula {
   id: string;

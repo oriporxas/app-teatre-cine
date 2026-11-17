@@ -72,3 +72,14 @@ modelo = "claude-haiku-5-5"
 esfuerzo = "low"
 por_peticion = 30
 maximo_por_ejecucion = 400
+
+# Lector de webs de salas (pipeline/fuentes/webs_salas): extraer la programación de la web
+# oficial de las salas que no salen en la agenda municipal. Solo extraer datos, sin interpretar
+# (por eso el modelo barato); cada dato se comprueba después contra el texto de la página.
+# Solo se vuelve a pedir cuando la página cambia.
+[leer_webs]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"
+por_peticion = 1
+maximo_por_ejecucion = 120

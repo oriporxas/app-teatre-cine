@@ -42,6 +42,29 @@ class TestHorario(unittest.TestCase):
         self.assertTrue(horario.leer_precios("Entrada Gratuïta")["gratis"])
         self.assertIsNone(horario.leer_precios("Cal inscripció prèvia"))
 
+    def test_precios_con_decimales(self):
+        # Error que vio Uri (17/11/2026): «Magia i comèdia al Bosc de les Fades» salía a 95 €.
+        p = horario.leer_precios("Entrada general de: 24.95 a 34.95 €\nEspectacle + Visita: 34.95 €\nEspectacle: 24.95 €")
+        self.assertEqual((p["minimo"], p["maximo"]), (24.95, 34.95))
+        self.assertEqual(horario.leer_precios("Entrada anticipada: 12,44 €")["minimo"], 12.44)
+        self.assertEqual(horario.leer_precios("Preu: 12'5 euros")["minimo"], 12.5)
+        self.assertEqual(horario.leer_precios("a les 20.30 h, 15 €")["minimo"], 15)  # la hora no es un precio
+        self.assertEqual(horario.leer_precios("Dies 5 i 6: 15 €")["minimo"], 15)  # ni los días
+        self.assertEqual(horario.leer_precios("Entrada general: 49.19 €\n10 Sessions")["minimo"], 49.19)  # ni las sesiones
+        self.assertEqual(horario.leer_precios("Entrada general de: 8 a 32 €\n1 h durada")["minimo"], 8)  # ni la duración
+
+    def test_fechas_pasadas_no_saltan_al_anyo_siguiente(self):
+        # «De Perras y Criadas» (17/11/2026): «30 octubre» salía como función del 30/10/2027.
+        d = horario.leer_dias("30 octubre,\n27 novembre i\n6 desembre", dt.date(2026, 11, 15), dt.date(2026, 12, 30))
+        self.assertEqual(d["fechas"], ["2026-10-30", "2026-11-27", "2026-12-06"])
+
+    def test_cada_precio_esta_en_el_texto(self):
+        self.assertTrue(horario.aparece(24.95, "Espectacle: 24.95 €"))
+        self.assertTrue(horario.aparece(24.95, "Espectacle: 24,95 €"))
+        self.assertTrue(horario.aparece(3.5, "Preu 3,50 €"))
+        self.assertFalse(horario.aparece(95, "Espectacle: 24.95 €"))
+        self.assertFalse(horario.aparece(24, "Espectacle: 24.95 €"))
+
     def test_duracion_e_idioma(self):
         self.assertEqual(horario.leer_duracion("Durada: 1 hora i 15 minuts"), 75)
         self.assertEqual(horario.leer_duracion("Durada: 70 minuts"), 70)
