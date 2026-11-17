@@ -15,8 +15,10 @@ todo funciona sin errores. Crédito disponible: 13,24 $. Tope acordado: 11 $.
 - Género de la obra: 303 de 449 obras de teatro (solo cuando es seguro).
 - Traducción al castellano: 535 de 538 descripciones (Haiku).
 - Temas de la obra: 391 fichas.
-- Premios que cita la descripción: solo con cita literal comprobada; se descartan los premios sin
-  nombre, los de personajes o personas de las que trata la obra y los de la obra original.
+- Premios que cita la descripción: 16 obras (Premis Max, FETEN, Teatre Barcelona, Serra d'Or…),
+  solo con cita literal comprobada. Una primera pasada dio 25, con errores (premios sin nombre, el
+  Nobel de la persona de la que trata una obra, el premio de la novela original); se afinaron las
+  instrucciones y se repitió.
 - Magos: 15 buscados en internet; 7 con ficha (trayectoria y premios con fuente comprobada); los
   otros 8, sin información fiable, no se publican.
 
@@ -41,9 +43,9 @@ todo funciona sin errores. Crédito disponible: 13,24 $. Tope acordado: 11 $.
 | Clasificar (1.585 actividades) | Sonnet 5.5 | 3,52 |
 | Revisar dudosos (136) | Opus 5.5 | 1,16 |
 | Fichas de magos (15, con búsqueda web) | Sonnet 5.5 (+ 1 prueba con Opus) | 2,26 |
-| Traducir, premios citados y temas (538, dos pasadas) | Haiku 5.5 | ~0,30 |
+| Traducir, premios citados y temas (538, dos pasadas) | Haiku 5.5 | 0,30 |
 | Noticias (293) | Haiku 5.5 | 0,03 |
-| **Total** | | **~7,3** de 11 |
+| **Total** | | **7,27** de 11 |
 
 A partir de ahora solo se procesa lo nuevo: con el tope diario de 2 $ (`ajustes/ia.toml`), el
 gasto normal estimado es de unos céntimos a 0,5 $ al día.
