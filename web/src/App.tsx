@@ -11,7 +11,7 @@ import { useFavoritos, type Favoritos } from './favoritos';
 import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
 import {
-  claveItem, descargar, enlaceRuta, itemDe, planIcs, porDias, solapes, usePlanes, type ItemPlan, type Plan, type Planes,
+  claveItem, descargar, enlaceRuta, imagenPlan, itemDe, planIcs, porDias, solapes, usePlanes, type ItemPlan, type Plan, type Planes,
 } from './planes';
 import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCine } from './cine';
 import { Cartelito, FichaCine, FichaPelicula, VistaCine, VistaMapaCine, enlacePeli } from './Cine';
@@ -1145,6 +1145,20 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
     }
     try { await navigator.clipboard.writeText(texto); setCopiado(true); } catch { /* sin portapapeles */ }
   };
+  // Imagen vertical para historias (Instagram, WhatsApp…): con el menú de compartir del móvil
+  // si deja compartir archivos; si no, se descarga.
+  const compartirImagen = async () => {
+    const blob = await imagenPlan(plan, (d) => fmtDia(d, t), t.planPieImagen);
+    if (!blob) return;
+    const archivo = new File([blob], `${nombreArchivo(plan.nombre)}.png`, { type: 'image/png' });
+    if (navigator.canShare?.({ files: [archivo] })) {
+      try { await navigator.share({ files: [archivo], title: plan.nombre }); return; } catch { /* cancelado */ }
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = archivo.name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+  };
 
   return (
     <main className="pantalla">
@@ -1201,6 +1215,7 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
               {t.planCalendario}
             </button>
             <button type="button" className="boton-secundario" onClick={compartir}>{t.planCompartir}</button>
+            <button type="button" className="boton-secundario" onClick={compartirImagen}>{t.planImagen}</button>
           </div>
         ) : null}
         {copiado ? <p className="nota" role="status">{t.planCopiado}</p> : null}

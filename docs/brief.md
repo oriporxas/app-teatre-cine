@@ -154,7 +154,7 @@ Los planes (itinerarios) tienen que poder compartirse con los amigos por cualqui
 - **Ya hecho:** el botón «Compartir» de cada plan abre el menú de compartir del propio móvil, que ofrece WhatsApp, SMS, correo, Telegram y las demás apps instaladas. Se envía como texto (días, horas, obras y salas). Si el móvil no tiene ese menú, el texto se copia para pegarlo donde se quiera.
 - **Pendiente:**
   - **Enlace al plan:** que quien lo reciba lo abra en la app, con las fichas, y lo guarde como suyo. Se puede hacer sin servidor, metiendo el plan dentro del propio enlace, en cuanto la app esté publicada en su propia dirección.
-  - **Imagen para historias de Instagram** (formato vertical) con el plan, preparada en el propio móvil para compartirla como foto. Instagram no acepta texto suelto en las historias: hace falta una imagen.
+  - ~~**Imagen para historias de Instagram**~~ Hecho (17/11/2026): «Imagen para historias» dibuja en el móvil una imagen vertical del plan (negro, rojo y blanco) y la comparte con el menú del móvil o la descarga.
   - **Más adelante, con cuentas:** planes compartidos en los que varios amigos apuntan qué quieren ver, y avisos si cambia una función del plan.
 - Como el resto de la app: nada de lo que se comparte pasa por un servidor nuestro mientras no haya cuentas. Solo se envía lo que la persona decide compartir.
 

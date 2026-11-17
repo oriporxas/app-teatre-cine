@@ -266,17 +266,17 @@ def enriquecer(pelis: dict[str, dict], carpeta_cache: Path, hoy: dt.date) -> dic
     ruta = carpeta_cache / "tmdb.json"
     cache = leer_json(ruta, {}) or {}
     informe = {"peliculas": len(pelis), "identificadas": 0, "sin_identificar": []}
-    if not disponible():
-        informe["aviso"] = "sin clave de TMDB"
-        return informe
+    hay_clave = disponible()
+    if not hay_clave:
+        informe["aviso"] = "sin clave de TMDB: solo se usa lo que ya estaba guardado"
     for clave, peli in pelis.items():
         reg = cache.get(f"i{clave}")
-        if not reg or (hoy - dt.date.fromisoformat(reg["fecha"])).days >= DIAS_VALIDEZ:
+        if hay_clave and (not reg or (hoy - dt.date.fromisoformat(reg["fecha"])).days >= DIAS_VALIDEZ):
             id_ = identificar(peli, hoy)
             datos = ficha(id_) if id_ else None
             reg = {"fecha": hoy.isoformat(), "datos": datos}
             cache[f"i{clave}"] = reg
-        if reg["datos"]:
+        if reg and reg["datos"]:
             peli["tmdb"] = reg["datos"]
             informe["identificadas"] += 1
         else:
@@ -285,7 +285,8 @@ def enriquecer(pelis: dict[str, dict], carpeta_cache: Path, hoy: dt.date) -> dic
     # Premios: película, dirección y las 4 primeras personas del reparto
     personas = {p["id"] for peli in pelis.values() if peli.get("tmdb")
                 for p in peli["tmdb"]["direccion"] + peli["tmdb"]["reparto"][:4]}
-    qid_persona = wikidata_personas(sorted(personas), cache)
+    qid_persona = wikidata_personas(sorted(personas), cache) if hay_clave else {
+        p: cache[f"p{p}"] for p in personas if cache.get(f"p{p}")}
     qids = [peli["tmdb"]["wikidata"] for peli in pelis.values() if peli.get("tmdb") and peli["tmdb"].get("wikidata")]
     todos = premios(qids + list(qid_persona.values()), cache)
     guardar_json(ruta, cache)

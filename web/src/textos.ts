@@ -155,6 +155,7 @@ const es = {
   acercaDe: 'Acerca de', acercaTxt: 'Cartelera Barcelona: proyecto personal sin ánimo de lucro. Datos de la agenda: Ajuntament de Barcelona (Open Data BCN y Guia BCN), CC BY 4.0.',
   favPelis: 'Películas', favObras: 'Obras y espectáculos', guardadoTit: 'Guardado',
   magoNota: 'Resumen hecho con IA a partir de las fuentes citadas.',
+  planImagen: 'Imagen para historias', planPieImagen: 'Mi plan en Cartelera Barcelona',
   anadirSesion: (d: string): string => `Añadir la sesión del ${d} a un plan`,
 };
 
@@ -283,6 +284,7 @@ const ca: Textos = {
   acercaDe: 'Quant a', acercaTxt: "Cartellera Barcelona: projecte personal sense ànim de lucre. Dades de l'agenda: Ajuntament de Barcelona (Open Data BCN i Guia BCN), CC BY 4.0.",
   favPelis: 'Pel·lícules', favObras: 'Obres i espectacles', guardadoTit: 'Desat',
   magoNota: 'Resum fet amb IA a partir de les fonts citades.',
+  planImagen: 'Imatge per a històries', planPieImagen: 'El meu pla a Cartellera Barcelona',
   anadirSesion: (d: string) => `Afegir la sessió del ${d} a un pla`,
 };
 

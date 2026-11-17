@@ -178,3 +178,64 @@ export function descargar(nombre: string, contenido: string, tipo: string) {
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 5000);
 }
+
+/** Imagen vertical (1080×1920) del plan para compartir en historias de Instagram, WhatsApp…
+ *  Se dibuja en el propio móvil: no se envía nada a ningún servidor. */
+export async function imagenPlan(plan: Plan, fmtDia: (d: string) => string, pie: string): Promise<Blob | null> {
+  const W = 1080, H = 1920, M = 90;
+  const c = document.createElement('canvas');
+  c.width = W; c.height = H;
+  const g = c.getContext('2d');
+  if (!g) return null;
+  try { await document.fonts?.ready; } catch { /* sin fuentes web: se usan las del sistema */ }
+  const serif = "'Playfair Display', Georgia, serif";
+  const sans = "Inter, system-ui, sans-serif";
+  g.fillStyle = '#0A0A0B'; g.fillRect(0, 0, W, H);
+  // telón rojo arriba
+  const grad = g.createLinearGradient(0, 0, 0, 420);
+  grad.addColorStop(0, 'rgba(209,31,53,0.55)'); grad.addColorStop(1, 'rgba(209,31,53,0)');
+  g.fillStyle = grad; g.fillRect(0, 0, W, 420);
+  g.fillStyle = '#D11F35'; g.fillRect(0, 0, W, 14);
+  g.fillStyle = '#FAF8F5';
+  g.font = `italic 700 44px ${serif}`; g.fillText('Cartelera Barcelona', M, 140);
+  // título del plan (hasta dos líneas)
+  g.font = `900 92px ${serif}`;
+  const palabras = plan.nombre.split(' ');
+  let linea = '', y = 290;
+  const lineas: string[] = [];
+  for (const p of palabras) {
+    const prueba = linea ? `${linea} ${p}` : p;
+    if (g.measureText(prueba).width > W - 2 * M && linea) { lineas.push(linea); linea = p; } else linea = prueba;
+  }
+  lineas.push(linea);
+  for (const l of lineas.slice(0, 2)) { g.fillText(l, M, y); y += 104; }
+  y += 30;
+  const recorta = (s: string, ancho: number) => {
+    if (g.measureText(s).width <= ancho) return s;
+    while (s.length > 3 && g.measureText(`${s}…`).width > ancho) s = s.slice(0, -1);
+    return `${s}…`;
+  };
+  for (const [dia, items] of porDias(plan.items)) {
+    if (y > H - 260) break;
+    g.fillStyle = '#FF5A6E'; g.font = `800 34px ${sans}`;
+    g.fillText(fmtDia(dia).toUpperCase(), M, y); y += 24;
+    for (const i of items) {
+      if (y > H - 260) break;
+      // entrada blanca con la hora
+      g.fillStyle = '#FAF8F5';
+      g.beginPath(); g.roundRect(M, y, W - 2 * M, 150, 18); g.fill();
+      g.fillStyle = '#D11F35'; g.font = `900 56px ${serif}`;
+      g.fillText(i.hora || '—', M + 34, y + 92);
+      g.fillStyle = '#0A0A0B'; g.font = `800 40px ${sans}`;
+      g.fillText(recorta(i.nombre, W - 2 * M - 260), M + 220, y + 68);
+      g.fillStyle = '#4A4744'; g.font = `500 30px ${sans}`;
+      g.fillText(recorta(i.sala || '', W - 2 * M - 260), M + 220, y + 114);
+      y += 176;
+    }
+    y += 36;
+  }
+  g.fillStyle = '#ABA7A1'; g.font = `500 30px ${sans}`;
+  g.fillText(pie, M, H - 110);
+  g.fillStyle = '#D11F35'; g.fillRect(M, H - 80, 120, 6);
+  return new Promise((r) => c.toBlob((b) => r(b), 'image/png'));
+}

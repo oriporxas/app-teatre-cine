@@ -118,10 +118,10 @@ código. Uri avisó el 14/11/2026 de que le devolvieron la cuenta.
   clave; nunca la pegará en el chat.
 - **Compartir planes (Uri, 9/11/2026):** con los amigos por cualquier vía
   (redes sociales, historias de Instagram, WhatsApp, SMS, correo…). Hoy:
-  menú de compartir del móvil con el plan en texto. Pendiente: enlace que
-  abre el plan en la app (sin servidor, el plan dentro del enlace, cuando la
-  app esté publicada), imagen vertical para historias y, con cuentas, planes
-  en grupo. Detalle en el brief.
+  menú de compartir del móvil con el plan en texto y una imagen vertical para
+  historias (`imagenPlan` en `web/src/planes.ts`). Pendiente: enlace que abre el
+  plan en la app (sin servidor, el plan dentro del enlace, cuando la app esté
+  publicada) y, con cuentas, planes en grupo. Detalle en el brief.
 - **Hoy:** nada de escala mundial, pero sin cerrarle la puerta: datos con
   ciudad y país (zona horaria, moneda, idiomas), cada fuente como pieza
   independiente y modelo de IA por tarea en un ajuste. Ver

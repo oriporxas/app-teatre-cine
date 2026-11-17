@@ -84,8 +84,14 @@ es cambiar una línea. Hoy:
 |---|---|---|
 | `clasificar` | `claude-sonnet-5-5` (esfuerzo medio) | clasifica lo nuevo o cambiado |
 | `revisar_dudosos` | `claude-opus-5-5` | vuelve a mirar lo que la tarea anterior decidió con confianza < 0,7 |
-| `fichas_personas` | `claude-opus-5-5` (desactivada) | fase 3: trayectorias y premios |
+| `fichas_personas` | `claude-sonnet-5-5` + búsqueda web | trayectoria y premios (con fuente comprobada) de los magos |
+| `traducir` | `claude-haiku-5-5` | traduce las descripciones, saca los premios citados (cita comprobada) y los temas |
+| `noticias` | `claude-haiku-5-5` | tema y resumen de una frase de cada noticia |
+| `horarios_cine` | `claude-haiku-5-5` (reservada) | para leer webs de cines sin lector propio (aún no se usa) |
 
+- **Freno de gasto** (`pipeline/ia.py`): todas las tareas pasan por el mismo contador; al
+  llegar al tope de `[presupuesto]` (o de `IA_TOPE_USD`), ninguna vuelve a llamar a la IA
+  en esa ejecución. Lo pendiente se hace otro día. Gasto por día y tarea: `data/gasto_ia.json`.
 - Cada tarea tiene su memoria (`data/ciudades/<ciudad>/cache/ia/<tarea>.json`):
   nada se paga dos veces si no cambia.
 - Para pruebas puntuales (por ejemplo, comparar modelos) se puede sustituir un
@@ -95,10 +101,22 @@ es cambiar una línea. Hoy:
 **Al activar la IA (cuando Uri avise):**
 1. ~~Probar Haiku 5.5, Sonnet 5.5 y Opus 5.5 con la prueba de magia~~ Hecho
    (`docs/pruebas/2026-11-08-prueba-modelos.md`, `pipeline/comparar_modelos.py`);
-   modelos fijados en `ajustes/ia.toml`, pendientes del visto bueno de Uri.
+   modelos fijados en `ajustes/ia.toml`. Activada el 17/11/2026 (gasto de la primera
+   noche, en `data/gasto_ia.json`).
 2. Pasar el trabajo nocturno al procesamiento por lotes (Batch), que cuesta
    la mitad: se envía el lote en una ejecución y se recogen los resultados en
    la misma o en la siguiente. Hoy las peticiones son directas.
+
+## 4 bis. Cine y noticias (17/11/2026)
+
+- `pipeline/cine/`: pieza aparte de la ciudad (`cine = true` en `ajustes/ciudades.toml`).
+  No son actividades de la agenda sino películas con sesiones en muchos cines. Lectores por
+  tipo de web (no por cine), robots.txt siempre respetado, TMDB y Wikidata con caché.
+  Detalle en `docs/fuentes/cine.md`.
+- `pipeline/noticias.py`: canales RSS de `ajustes/noticias.toml` por ciudad
+  (`noticias = true`).
+- La app descarga un archivo por cosa: `<ciudad>.json` (escena), `<ciudad>-cine.json`,
+  `<ciudad>-noticias.json`. Para otra ciudad basta con sus fuentes y sus medios.
 
 ## 5. Dónde viven los datos
 
