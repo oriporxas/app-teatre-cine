@@ -31,7 +31,7 @@ from .cine import red
 from .util import guardar_json, leer_json, normalizar
 
 DIAS_VALIDEZ = 7
-MINUTOS_MAX = 12  # tiempo máximo buscando cada día (lo que no dé tiempo, al día siguiente)
+MINUTOS_MAX = 8  # tiempo máximo buscando cada día (lo que no dé tiempo, al día siguiente; la tarea diaria no debe pasar de ~40 min)
 PORTADAS = {"", "ca", "es", "en", "cat", "esp", "index.php", "index.html", "index.htm", "inici", "inicio", "home",
             "ca/inici", "es/inicio", "ca/home", "es/home"}
 VACIAS = {"el", "la", "els", "les", "los", "las", "lo", "de", "del", "dels", "d", "l", "i", "y", "a", "al", "en", "un",
@@ -169,14 +169,34 @@ def menus(pagina: str, base: str) -> set[str]:
     return {u.split("#")[0] for m in _MENUS.finditer(pagina) for u, _ in enlaces(m.group(0), base)}
 
 
-def boton_compra(pagina: str, url_obra: str, del_menu: set[str]) -> str | None:
-    """El único enlace de compra propio de la página de la obra (no los del menú de la web)."""
+def limpia(url: str) -> str:
+    """Sin parámetros de seguimiento (_gl, utm_…, fbclid…): el mismo enlace, más limpio."""
+    p = urllib.parse.urlsplit(url)
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query, keep_blank_values=True)
+         if not re.match(r"(_gl|_ga|utm_\w+|fbclid|gclid|mc_\w+)$", k)]
+    return urllib.parse.urlunsplit((p.scheme, p.netloc, p.path, urllib.parse.urlencode(q), ""))
+
+
+def boton_compra(pagina: str, url_obra: str, del_menu: set[str], titulo: str | None = None) -> str | None:
+    """El único enlace de compra propio de la página de la obra (no los del menú de la web).
+
+    Con `titulo`, el enlace tiene que nombrar la obra (en su dirección o en su texto). Error del
+    17/11/2026: en la página de una obra, el único botón «Entrades» era de OTRA obra (un recuadro
+    de «otros espectáculos»). Si el botón no nombra la obra, se usa la página de la obra."""
     del_menu = del_menu | menus(pagina, url_obra)
     cuerpo = _MENUS.sub(" ", pagina)
-    propios = {u.split("#")[0] for u, texto in enlaces(cuerpo, url_obra)
-               if u.startswith("http") and TEXTO_COMPRA.search(normalizar(texto)) and u.split("#")[0] not in del_menu
-               and u.split("#")[0].rstrip("/") != url_obra.split("#")[0].rstrip("/") and not es_portada(u)}
-    return next(iter(propios)) if len(propios) == 1 else None
+    propios: dict[str, str] = {}
+    for u, texto in enlaces(cuerpo, url_obra):
+        u = u.split("#")[0]
+        if (u.startswith("http") and TEXTO_COMPRA.search(normalizar(texto)) and u not in del_menu
+                and u.rstrip("/") != url_obra.split("#")[0].rstrip("/") and not es_portada(u)):
+            propios[u] = propios.get(u, "") + " " + texto
+    if len(propios) != 1:
+        return None
+    u, texto = next(iter(propios.items()))
+    if titulo and not encaje(titulo, palabras(texto) | _palabras_url(u)):
+        return None
+    return limpia(u)
 
 
 def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) -> None:
@@ -214,7 +234,7 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
                     pagina = red.pedir(encontrada, timeout=25)
                     pagina = pagina.decode("utf-8", "replace") if pagina else ""
                     if pagina and habla_de(pagina, it.get("nombre") or ""):
-                        final = boton_compra(pagina, encontrada, del_menu) or encontrada
+                        final = boton_compra(pagina, encontrada, del_menu, it.get("nombre")) or limpia(encontrada)
                 reg = {"fecha": hoy.isoformat(), "url": final}
                 cache[clave] = reg
                 inf["buscadas_hoy"] += 1

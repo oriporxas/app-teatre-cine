@@ -38,8 +38,23 @@ class TestCompra(unittest.TestCase):
         <a href="https://tickets.example.com/events/123">Comprar entrades</a><footer><a href="/reserves">Reserves</a></footer>"""
         self.assertTrue(compra.habla_de(pagina, "La gavina"))
         self.assertEqual(compra.boton_compra(pagina, "https://sala.cat/obra/la-gavina", set()), "https://tickets.example.com/events/123")
+        # Con el título, el botón tiene que nombrar la obra (si no, se usa la página de la obra).
+        self.assertIsNone(compra.boton_compra(pagina, "https://sala.cat/obra/la-gavina", set(), "La gavina"))
+        nombra = pagina.replace("events/123", "events/la-gavina-123")
+        self.assertEqual(compra.boton_compra(nombra, "https://sala.cat/obra/la-gavina", set(), "La gavina"),
+                         "https://tickets.example.com/events/la-gavina-123")
         dos = pagina + '<a href="https://tickets.example.com/events/124">Comprar</a>'
         self.assertIsNone(compra.boton_compra(dos, "https://sala.cat/obra/la-gavina", set()))  # varias sesiones: la página de la obra
+
+    def test_boton_de_otra_obra(self):
+        # Error del 17/11/2026: en la página de «Vamos a tener que ir al psicólogo…», el único botón
+        # de compra era de «El nuevo musical de los 80s y 90s».
+        pagina = '<h1>Vamos a tener que ir al psicólogo después de esto</h1><a href="https://teatre.cat/ca/musicales/el-nuevo-musical-de-los-80s-90s">Entrades</a>'
+        self.assertIsNone(compra.boton_compra(pagina, "https://teatre.cat/ca/humor/vamos-a-tener", set(),
+                                              "Vamos a tener que ir al psicólogo después de esto"))
+
+    def test_sin_seguimiento(self):
+        self.assertEqual(compra.limpia("https://x.koobin.cat/obra?_gl=1%2Aabc&utm_source=x&id=3"), "https://x.koobin.cat/obra?id=3")
 
 
 if __name__ == "__main__":
