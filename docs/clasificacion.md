@@ -250,3 +250,10 @@ generales:
   musical» sin más espera a la IA. Resultado: 175 de 527 obras con género
   (comedia 68, monólogo 55, musical 36, títeres 23…). La IA devolverá también
   `generos`. Magia: 54 de 54 (una de las 55 ya no está en cartel).
+- **17/11/2026, IA activada (primer borrador completo):** 1.585 candidatas
+  clasificadas con Sonnet 5.5 y 136 dudosas revisadas con Opus 5.5 (4,68 $). La
+  IA devuelve también el género de las obras. Prueba de magia: 46 de 47 (la que
+  falla, «Magic brains», es el caso límite conocido). Tarea nueva «traducir»
+  (Haiku): traducción, premios citados (con cita literal comprobada; fuera los
+  premios sin nombre, de personajes o de la obra original) y temas. Detalle en
+  `docs/pruebas/2026-11-17-primer-borrador.md`.

@@ -32,6 +32,7 @@ IA activada en teatro (clasificar, traducir, premios citados, temas) y en
 noticias; **cine** (`pipeline/cine/`, `docs/fuentes/cine.md`); **noticias**
 (`pipeline/noticias.py`, `ajustes/noticias.toml`); diseño negro, rojo y blanco;
 pantallas Inicio, Escena, Cine, Noticias, Guardado, buscador único y personas.
+Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
 GitHub volvió el 14/11/2026: ya se puede hacer push. Pendiente de Uri: crear en
 GitHub los secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` (sin ellos, la tarea
 diaria clasifica solo por señales y el cine sale sin datos de TMDB) y elegir

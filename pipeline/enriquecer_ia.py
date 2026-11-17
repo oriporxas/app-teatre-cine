@@ -21,6 +21,8 @@ from . import ajustes, config, ia
 from .util import guardar_json, huella, leer_json
 
 IDIOMAS = {"ca": "catalán", "es": "castellano"}
+VERSION_INSTRUCCIONES = 2  # al cambiar las instrucciones, se rehace lo hecho con las anteriores
+VAGOS = re.compile(r"sin (nombre|especificar)|no especificad|\(sin |sin precisar|premios? (literarios|varios)\b", re.I)
 ESQUEMA = {
     "type": "object",
     "properties": {"fichas": {"type": "array", "items": {
@@ -47,7 +49,11 @@ SISTEMA = (
     "compañía o sus artistas (por ejemplo «Premi Max al millor espectacle 2024», «finalista dels Premis Butaca»). "
     "Para cada uno: el nombre del premio en castellano y en catalán, y «cita»: el fragmento EXACTO de la descripción "
     "original (copiado letra por letra, sin cambiar nada) donde se menciona. Si no se menciona ningún premio, lista vacía. "
-    "No incluyas festivales donde solo se ha representado, ni premios que no estén en el texto.\n"
+    "Solo cuentan los premios de ESTA obra o espectáculo, de su compañía o de las personas que lo hacen (autoría, "
+    "dirección, intérpretes). NO incluyas: premios de personajes o de personas reales de las que trata la obra; premios "
+    "de la novela, película u obra original en que se basa; festivales donde solo se ha representado; menciones sin "
+    "nombre de premio («carregada de premis», «una premiada comèdia», «un dels més guardonats»); ni premios que no estén "
+    "en el texto.\n"
     "3. «temas_es» y «temas_ca»: de 1 a 3 temas principales de la obra en minúsculas y en pocas palabras (por ejemplo "
     "«familia», «memoria histórica», «amor», «salud mental»), solo si la descripción los deja claros; si no, listas vacías. "
     "Usa solo lo que dice el texto: no inventes nada."
@@ -70,7 +76,7 @@ def aplicar(ciudad, items: list[dict], informe: dict) -> None:
             continue
         origen = it.get("idioma_textos") if it.get("idioma_textos") in desc else next(iter(desc))
         destino = "es" if origen == "ca" else "ca"
-        firma = huella(it["id"], desc[origen], destino, tarea.modelo if tarea else "")
+        firma = huella(it["id"], desc[origen], destino, tarea.modelo if tarea else "", VERSION_INSTRUCCIONES)
         origen_por_id[it["id"]] = (origen, destino, firma)
         if cache.get(it["id"], {}).get("firma") != firma:
             pendientes.append(it)
@@ -101,7 +107,8 @@ def aplicar(ciudad, items: list[dict], informe: dict) -> None:
                 texto = _normal(it["descripcion"][origen])
                 # Principio 4: un premio solo vale si su cita está, tal cual, en la descripción.
                 premios = [{"es": p["premio_es"], "ca": p["premio_ca"], "cita": p["cita"]}
-                           for p in x.get("premios", []) if p.get("cita") and _normal(p["cita"]) in texto]
+                           for p in x.get("premios", []) if p.get("cita") and _normal(p["cita"]) in texto
+                           and not VAGOS.search(p.get("premio_es", ""))]
                 cache[it["id"]] = {"firma": firma, "destino": destino, "traduccion": x["traduccion"],
                                    "premios": premios,
                                    "temas": {"es": x.get("temas_es", [])[:3], "ca": x.get("temas_ca", [])[:3]}}
