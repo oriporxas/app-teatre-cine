@@ -176,7 +176,8 @@ Los planes (itinerarios) tienen que poder compartirse con los amigos por cualqui
 - Si alguna decisión ya tomada choca con esta visión, se avisa a Uri y se le explica sin tecnicismos.
 
 ## Pendiente de Uri
-- Al volver de GitHub (17/11/2026): aceptar el pull request; crear en GitHub los secretos `ANTHROPIC_API_KEY` (clave de la IA) y `TMDB_TOKEN` (clave de TMDB) para que la actualización diaria use la IA y el cine completo; elegir dónde publicar la app (Claude propone opciones gratuitas).
+- Aceptar cada pull request (botones «Merge pull request» y «Confirm merge»). Los secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` ya están creados en GitHub (Uri, 17/11/2026).
+- Elegir dónde publicar la app (Claude propone opciones gratuitas).
 - ~~Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).~~ Hecho el 8/11/2026: clave creada y prueba hecha.
 - Aprobar qué modelos usa la IA (propuesta: Sonnet clasifica y Opus revisa lo dudoso; ver `docs/pruebas/2026-11-08-prueba-modelos.md`).
 - Presupuesto mensual y saldo en la consola de Anthropic: la propuesta cuesta unos 4,6 $ la primera vez y como mucho 12 $ al mes en Barcelona.

@@ -70,16 +70,27 @@ asociaciones con escenario, pero también salas como Aquitània Teatre, El Teatr
 Hall o Comedianet, que no publican en la agenda municipal). De 25 cines oficiales, 8 tienen
 horarios. **Esa lista es el trabajo pendiente para no dejar nada fuera.**
 
-## Siguiente paso propuesto (decisión de Uri: tiene coste)
+## 5. Lector de webs de salas (aprobado por Uri el 17/11/2026)
 
-**Lector de webs de salas.** Para cada sala de la auditoría que no sale en la agenda municipal, la
-IA lee la página de programación de su web oficial (si su robots.txt lo permite) y saca las obras
-con fechas, horas y precios. Las mismas reglas: cada fecha, hora y precio tiene que estar escrito
-tal cual en la página (si no, no sale); una sola ficha por obra aunque salga también en la agenda.
+`pipeline/fuentes/webs_salas/`: una fuente más, como la agenda municipal. Para cada teatro de la
+auditoría que no sale en nuestras fuentes (menos escuelas, institutos y facultades):
 
-- Coste estimado: unos 0,05–0,15 $ al día con el modelo barato (Haiku), porque solo se vuelven a
-  leer las páginas que cambian.
-- Lo mismo para los cines sin horarios cuando su web lo permita (tarea «horarios_cine» de
-  `ajustes/ia.toml`, ya reservada).
-- Más adelante: proveedores de pago donde los haya (cine: International Showtimes) y que las
-  salas publiquen directamente en la app con verificación automática (visión a largo plazo).
+1. su web, de la ficha de la guía oficial (guia.barcelona.cat, respetando sus 10 s entre páginas);
+2. la portada y hasta dos páginas de programación de esa web, solo si su robots.txt lo permite y
+   no prohíbe que su contenido pase por una IA;
+3. la IA (modelo barato, tarea «leer_webs» de `ajustes/ia.toml`) extrae las obras **con la cita
+   literal** de cada dato; solo se vuelve a pedir cuando la página cambia;
+4. el programa comprueba cada cita sin fiarse de la IA: el título está en la página; cada fecha
+   sale en su cita (día y mes, y el año si lo pone); la hora también, o se quita; el precio lo lee
+   nuestro propio lector de precios; el enlace tiene que ser uno de la página. Lo que no pasa, fuera.
+
+Lo que sale pasa después por la clasificación (solo se publica teatro, magia, circo y sus eventos:
+las fiestas, conciertos o presentaciones de libros de esas webs se quedan fuera) y por el
+verificador, como todo. Pruebas: `tests/test_webs_salas.py`.
+
+Para que una sala no desaparezca al cubrirla, la auditoría no cuenta lo que trae este lector.
+
+## Más adelante
+- Lo mismo para los cines sin horarios cuando su web lo permita (tarea «horarios_cine», reservada).
+- Proveedores de pago donde los haya (cine: International Showtimes) y que las salas publiquen
+  directamente en la app con verificación automática (visión a largo plazo).

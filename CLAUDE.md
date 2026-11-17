@@ -33,10 +33,12 @@ noticias; **cine** (`pipeline/cine/`, `docs/fuentes/cine.md`); **noticias**
 (`pipeline/noticias.py`, `ajustes/noticias.toml`); diseño negro, rojo y blanco;
 pantallas Inicio, Escena, Cine, Noticias, Guardado, buscador único y personas.
 Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
-GitHub volvió el 14/11/2026: ya se puede hacer push. Pendiente de Uri: crear en
-GitHub los secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` (sin ellos, la tarea
-diaria clasifica solo por señales y el cine sale sin datos de TMDB) y elegir
-alojamiento.
+GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KEY` y
+`TMDB_TOKEN` en GitHub: **creados por Uri** (lo confirmó el 17/11/2026; no volver a
+preguntárselo). Claude no puede leer los secretos: se comprueban en el registro de la tarea
+diaria (sale `***` si existen). Ojo: la tarea diaria no se ha ejecutado desde el 8/11/2026
+(cuenta suspendida); revisar que vuelva a ejecutarse. Pendiente de Uri: elegir alojamiento.
+**Antes de dar algo por pendiente o hecho, comprobarlo** (no fiarse de notas antiguas).
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
 móvil en https://claude.ai/artifact/9WzwWKvR8AT6zFEhQKjvrU (cartelera con
@@ -158,7 +160,10 @@ Detalle y razones en `docs/arquitectura.md`.
     actividades en el formato común de `fuentes/base.py`. Hoy:
     `fuentes/open_data_bcn/` (agendas por la API oficial, fichas de
     guia.barcelona.cat a **1 página cada 10 s** como pide su robots.txt,
-    salas con la lista oficial de equipamientos). Para añadir una fuente:
+    salas con la lista oficial de equipamientos) y `fuentes/webs_salas/`
+    (Uri, 17/11/2026: la web oficial de los teatros que no salen en la agenda,
+    según `cobertura.json`; la IA extrae con citas literales que el programa
+    comprueba; ver `docs/veracidad.md`). Para añadir una fuente:
     nueva carpeta con `recoger(ctx)` y nombrarla en `ajustes/ciudades.toml`.
   - `horario.py`: días, horas, precios, duración e idioma desde el texto.
   - `publico.py`: a quién va dirigida cada actividad (y edades) y el nivel de

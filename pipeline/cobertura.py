@@ -21,6 +21,7 @@ from . import config
 from .util import guardar_json, leer_json
 
 CATEGORIAS = {"Teatres": "teatro", "Auditoris": "auditorio", "Cinemes": "cine"}
+FUENTE_WEBS = "webs_salas"
 
 
 def auditar(ciudad, equipamientos: list[dict] | None, actividades: list[dict], cine_informe: dict | None = None) -> dict:
@@ -30,9 +31,12 @@ def auditar(ciudad, equipamientos: list[dict] | None, actividades: list[dict], c
         equipamientos = leer_json(ruta, []) or []
     con_actividad: collections.Counter = collections.Counter()
     for a in actividades:
-        d = a.get("direccion") or {}
-        if a.get("sala_id"):  # «barcelona:via268003-450»
-            con_actividad[str(a["sala_id"]).rsplit(":", 1)[-1]] += 1
+        if a.get("fuente") == FUENTE_WEBS:  # lo que lee el lector de webs no cuenta: si no, la sala saldría
+            continue                        # «cubierta» y al día siguiente se dejaría de leer su web
+        d = a.get("direccion") or (a.get("lugar") or {}).get("direccion") or {}
+        clave = a.get("sala_id") or (a.get("lugar") or {}).get("clave")  # «barcelona:via268003-450»
+        if clave:
+            con_actividad[str(clave).rsplit(":", 1)[-1]] += 1
         elif d.get("via_id") and d.get("numero"):
             con_actividad[f"via{d['via_id']}-{d['numero']}"] += 1
     salas: dict[str, dict] = {}
@@ -41,11 +45,13 @@ def auditar(ciudad, equipamientos: list[dict] | None, actividades: list[dict], c
         if not tipo or not (e.get("via_id") and e.get("numero")):
             continue
         clave = f"via{e['via_id']}-{e['numero']}"
-        s = salas.setdefault(clave, {"nombre": e.get("pertenece_a") or e.get("nombre"), "tipos": set(), "id": e.get("id")})
+        s = salas.setdefault(clave, {"nombre": e.get("pertenece_a") or e.get("nombre"), "tipos": set(), "id": e.get("id"),
+                                     **{k: e.get(k) for k in ("calle", "numero", "barrio", "distrito", "codigo_postal", "lat", "lon")}})
         s["tipos"].add(tipo)
     cubiertas, huecos = [], []
     for clave, s in salas.items():
-        fila = {"nombre": s["nombre"], "tipo": sorted(s["tipos"]), "clave": clave, "actividades": con_actividad.get(clave, 0)}
+        fila = {"nombre": s["nombre"], "tipo": sorted(s["tipos"]), "clave": clave, "actividades": con_actividad.get(clave, 0),
+                **{k: s[k] for k in ("id", "calle", "numero", "barrio", "distrito", "codigo_postal", "lat", "lon") if s.get(k)}}
         (cubiertas if fila["actividades"] else huecos).append(fila)
     huecos.sort(key=lambda x: (x["tipo"], x["nombre"] or ""))
     resumen = {
