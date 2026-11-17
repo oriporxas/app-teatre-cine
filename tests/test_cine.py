@@ -93,3 +93,11 @@ class TestPremiosCitados(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestFichasMagos(unittest.TestCase):
+    def test_json_al_final_del_texto(self):
+        from pipeline.fichas_personas import _json_final
+        texto = 'He buscado… {"x": 1} y al final:\n{"encontrado": true, "nombre": "Mag Prova", "premios": []}'
+        self.assertEqual(_json_final(texto)["nombre"], "Mag Prova")
+        self.assertIsNone(_json_final("sin json"))
