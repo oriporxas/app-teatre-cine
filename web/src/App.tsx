@@ -11,7 +11,7 @@ import { useFavoritos, type Favoritos } from './favoritos';
 import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
 import {
-  claveItem, descargar, enlaceGeo, imagenPlan, itemDe, paradasRuta, planIcs, porDias, rutaGoogle, solapes, tramoApple, usePlanes,
+  abrirRutaEnMovil, claveItem, descargar, imagenPlan, itemDe, paradasRuta, planIcs, porDias, rutaIncrustada, solapes, usePlanes,
   type ItemPlan, type Plan, type Planes,
 } from './planes';
 import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCine } from './cine';
@@ -162,7 +162,7 @@ export default function App() {
       {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} /> : null}
       {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} /> : null}
       {ruta.vista === 'teatro' ? <VistaSala t={t} lista={lista} hoy={hoy} id={ruta.id} volver={volver} cargada={!!cartelera} /> : null}
-      {ruta.vista === 'plan' ? <VistaPlan t={t} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
+      {ruta.vista === 'plan' ? <VistaPlan t={t} lang={lang} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
         <a href="#inicio" aria-current={ruta.vista === 'inicio' || ruta.vista === 'buscar' || ruta.vista === 'persona' ? 'page' : undefined}>
@@ -1234,16 +1234,13 @@ function HojaCompartir({ t, plan, cerrar }: { t: Textos; plan: Plan; cerrar: () 
   );
 }
 
-// Ruta del día dentro de la app: mapa con las paradas en orden y botones para abrirla en la app de mapas.
-const ES_IOS = typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) && 'ontouchend' in document;
-const ES_ANDROID = typeof navigator !== 'undefined' && /Android/i.test(navigator.userAgent);
 
-function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: ItemPlan[]; cerrar: () => void }) {
+function HojaRuta({ t, lang, dia, items, cerrar }: { t: Textos; lang: Idioma; dia: string; items: ItemPlan[]; cerrar: () => void }) {
   const primero = useRef<HTMLButtonElement>(null);
   useHoja(cerrar, primero);
   const paradas = paradasRuta(items);
   const sinUbicacion = items.filter((i) => i.lat == null || i.lon == null);
-  const google = rutaGoogle(paradas);
+  const mapa = rutaIncrustada(paradas, lang);
   return (
     <div className="fondo-hoja" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
       <div className="hoja" role="dialog" aria-modal="true" aria-labelledby="titulo-ruta">
@@ -1252,8 +1249,13 @@ function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: It
           <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
         </div>
         <div className="hoja-cuerpo">
-          <MapaSalas t={t} salas={[]} elegida={null} elegir={() => {}} ciudad={items[0]?.ciudad || 'barcelona'}
-            ruta={paradas.map((p) => ({ lat: p.lat, lon: p.lon, nombre: p.sala || p.nombre }))} />
+          {/* El mapa de Google dentro de la app, con el recorrido a pie por las calles. */}
+          {mapa ? <iframe className="mapa-google" src={mapa} title={t.rutaTit} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen /> : null}
+          {paradas.length ? (
+            <button type="button" className="boton-principal con-icono" onClick={() => abrirRutaEnMovil(paradas)}>
+              <IconoMapa />{t.rutaAbrirMovil}
+            </button>
+          ) : null}
           <ol className="ruta-lista">
             {paradas.map((p, k) => (
               <li key={k}>
@@ -1262,19 +1264,11 @@ function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: It
                   <span className="caja-titulo">{p.hora ? `${p.hora} · ` : ''}{p.nombre}</span>
                   <span className="texto-suave">{[p.sala, p.direccion].filter(Boolean).join(' · ')}</span>
                 </span>
-                <a className="enlace" target="_blank" rel="noopener noreferrer"
-                  href={ES_IOS ? tramoApple(p, paradas[k - 1]) : ES_ANDROID ? enlaceGeo(p) : rutaGoogle([p]) || undefined}>{t.rutaTramo}</a>
               </li>
             ))}
           </ol>
           {sinUbicacion.length ? <p className="nota">{t.rutaSinMapa}: {sinUbicacion.map((i) => i.nombre).join(', ')}</p> : null}
-          <span className="dato-etiqueta">{t.rutaAbrirEn}</span>
-          <div className="ruta-apps">
-            {google ? <a className="boton-secundario con-icono" href={google} target="_blank" rel="noopener noreferrer"><IconoMapa />Google Maps</a> : null}
-            {paradas.length ? <a className="boton-secundario con-icono" href={tramoApple(paradas[0])} target="_blank" rel="noopener noreferrer"><IconoMapa />Apple Maps</a> : null}
-            {ES_ANDROID && paradas.length ? <a className="boton-secundario con-icono" href={enlaceGeo(paradas[0])}><IconoMapa />{t.rutaOtra}</a> : null}
-          </div>
-          {paradas.length > 1 ? <p className="nota">{t.rutaAppleNota}</p> : null}
+          <p className="nota">{t.rutaNota}</p>
         </div>
       </div>
     </div>
@@ -1297,7 +1291,7 @@ function DialogoBorrar({ t, nombre, borrar, cerrar }: { t: Textos; nombre: strin
   );
 }
 
-function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
+function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; lang: Idioma; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
   const [editando, setEditando] = useState(false);
   const [hoja, setHoja] = useState<null | 'compartir' | 'borrar' | { ruta: string }>(null);
@@ -1395,7 +1389,7 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
           borrar={() => { planes.borrar(plan.id); window.location.hash = '#planes'; }} />
       ) : null}
       {hoja && typeof hoja === 'object' ? (
-        <HojaRuta t={t} dia={hoja.ruta} items={dias.find(([d]) => d === hoja.ruta)?.[1] || []} cerrar={() => setHoja(null)} />
+        <HojaRuta t={t} lang={lang} dia={hoja.ruta} items={dias.find(([d]) => d === hoja.ruta)?.[1] || []} cerrar={() => setHoja(null)} />
       ) : null}
     </main>
   );

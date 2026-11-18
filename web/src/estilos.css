@@ -627,3 +627,6 @@ a.hora-chip { text-decoration: none; }
 .lista-desplegable { display: flex; flex-direction: column; }
 .fila-lista { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; text-decoration: none; border-top: 1px solid var(--borde); }
 .fila-lista:active { background: var(--superficie-2); }
+
+/* Ruta del plan: el mapa de Google dentro de la app (Uri, 18/11/2026) */
+.mapa-google { display: block; width: 100%; aspect-ratio: 4 / 3; border: 1px solid var(--borde); border-radius: 16px; background: #17171B; }
