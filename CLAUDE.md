@@ -203,10 +203,12 @@ Detalle y razones en `docs/arquitectura.md`.
     (`pagina_obra`, de `compra.py`); la IA cita y el programa comprueba cada cita. Solo
     completa lo que falta. Tarea «fichas_obra» de `ia.toml`, 8 min/día como mucho.
   - `personas.py`: foto, descripción, premios y Wikipedia de las personas del equipo, desde
-    Wikidata (gratis). Solo si hay **una única** persona española con ese nombre y un oficio de
-    escena o cine (`OFICIOS`, comprobados uno a uno; sin escritores ni músicos: un poeta
-    tocayo se colaba). Si cambia `OFICIOS`, subir `VERSION`. La consulta por grupos (SPARQL)
-    suele estar limitada desde la nube de Claude; entonces va nombre a nombre.
+    Wikidata (gratis). Solo si (1) hay **una sola** persona con ese nombre en todo Wikidata,
+    (2) española y con oficio de escena o cine (`OFICIOS`, comprobados uno a uno) y (3) su papel
+    en la obra encaja con el oficio (`PAPELES`). Casos reales que lo motivaron: un poeta tocayo
+    de un músico, una presentadora tocaya de una persona de vestuario. Si cambian las reglas,
+    subir `VERSION`. La consulta por grupos (SPARQL) a veces está limitada desde la nube de
+    Claude; entonces va nombre a nombre (más lento).
   - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
     cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
     de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.
