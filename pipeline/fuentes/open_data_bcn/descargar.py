@@ -37,21 +37,32 @@ def _pedir(url: str) -> bytes:
         return respuesta.read()
 
 
+class ErrorDescarga(RuntimeError):
+    """Un fallo de descarga que dice qué dirección falló (para saberlo en el registro diario)."""
+
+
 def _pedir_con_reintentos(url: str, intentos: int = 4) -> bytes:
+    """Pide una dirección con reintentos. Un 403 («prohibido») se reintenta dos veces con una pausa
+    larga: el 18/11/2026 la API respondió 403 a GitHub un rato y funcionaba antes y después. Es la
+    misma petición, sin trucos para saltarse nada; si sigue diciendo que no, se deja."""
     espera = 2
+    prohibidos = 0
     for n in range(intentos):
         try:
             return _pedir(url)
         except urllib.error.HTTPError as e:
-            # Un 403/404 no se arregla reintentando: el servidor dice que no.
+            if e.code in (401, 403) and prohibidos < 2:
+                prohibidos += 1
+                time.sleep(30 * prohibidos ** 2)  # 30 s y 2 min
+                continue
             if e.code in (401, 403, 404) or n == intentos - 1:
-                raise
-        except (urllib.error.URLError, TimeoutError, ConnectionError):
+                raise ErrorDescarga(f"{url} → HTTP {e.code}") from e
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             if n == intentos - 1:
-                raise
+                raise ErrorDescarga(f"{url} → {type(e).__name__}: {e}") from e
         time.sleep(espera)
         espera *= 2
-    raise RuntimeError("inalcanzable")
+    raise ErrorDescarga(f"{url} → sin respuesta tras {intentos} intentos")
 
 
 def recursos(conjunto: str) -> list[dict]:

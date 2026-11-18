@@ -38,8 +38,10 @@ GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KE
 preguntárselo). Claude no puede leer los secretos: se comprueban en el registro de la tarea
 diaria (sale `***` si existen). Comprobado el 17/11/2026 en la ejecución manual (run
 44197396365): los dos llegan, 141 pruebas bien, 44 min, 0,51 $, 626 fichas en la app, commit
-automático «Datos del …» hecho. La tarea programada no se había ejecutado del 8 al 17/11
-(cuenta suspendida): vigilar que vuelva a salir sola a las 05:17 UTC. Pendiente de Uri:
+automático «Datos del …» hecho. La tarea programada vuelve a salir sola (18/11, con una hora de
+retraso de GitHub), pero ese día la API del Ayuntamiento respondió 403 a GitHub en la primera
+consulta: ahora un 403 se reintenta dos veces con pausa larga (`descargar.py`) y hay un segundo
+intento a las 13:17 UTC que solo trabaja si faltan los datos del día. Pendiente de Uri:
 elegir alojamiento.
 **Antes de dar algo por pendiente o hecho, comprobarlo** (no fiarse de notas antiguas).
 
