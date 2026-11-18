@@ -36,8 +36,11 @@ Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
 GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KEY` y
 `TMDB_TOKEN` en GitHub: **creados por Uri** (lo confirmó el 17/11/2026; no volver a
 preguntárselo). Claude no puede leer los secretos: se comprueban en el registro de la tarea
-diaria (sale `***` si existen). Ojo: la tarea diaria no se ha ejecutado desde el 8/11/2026
-(cuenta suspendida); revisar que vuelva a ejecutarse. Pendiente de Uri: elegir alojamiento.
+diaria (sale `***` si existen). Comprobado el 17/11/2026 en la ejecución manual (run
+44197396365): los dos llegan, 141 pruebas bien, 44 min, 0,51 $, 626 fichas en la app, commit
+automático «Datos del …» hecho. La tarea programada no se había ejecutado del 8 al 17/11
+(cuenta suspendida): vigilar que vuelva a salir sola a las 05:17 UTC. Pendiente de Uri:
+elegir alojamiento.
 **Antes de dar algo por pendiente o hecho, comprobarlo** (no fiarse de notas antiguas).
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
