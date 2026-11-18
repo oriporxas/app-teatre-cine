@@ -760,6 +760,119 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:club kid:firstman": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/l4q1gziNMhpVQAzCIwmtbLSB1T9.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6yDqPgPQ26htKIdPFIlezn5mS6X.jpg",
+          "id": 1760947,
+          "nombre": "Jordan Firstman"
+        }
+      ],
+      "duracion": 122,
+      "edad": "16",
+      "estreno": "2026-11-04",
+      "fondo": "https://image.tmdb.org/t/p/w1280/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6yDqPgPQ26htKIdPFIlezn5mS6X.jpg",
+          "id": 1760947,
+          "nombre": "Jordan Firstman"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt38058097",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/p7Wj8KkSKTM5JGR22tethLlVMXJ.jpg",
+          "id": 1554206,
+          "nombre": "Cristóbal Tapia de Veer"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6yDqPgPQ26htKIdPFIlezn5mS6X.jpg",
+          "id": 1760947,
+          "nombre": "Jordan Firstman",
+          "papel": "Peter"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/w6sVPpoxQ6veVEzWCPV96nFRHm4.jpg",
+          "id": 5171095,
+          "nombre": "Reggie Absolom",
+          "papel": "Arlo"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/c4tJZGeygZf0tX2VCyOqzxICijb.jpg",
+          "id": 1289968,
+          "nombre": "Cara Delevingne",
+          "papel": "Sophie"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6JrirYMMyt7xuWICSvROipsMjOm.jpg",
+          "id": 1413390,
+          "nombre": "Diego Calva",
+          "papel": "Oscar"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hXJmhnsi6JwtlTLASj8mUMFzYdW.jpg",
+          "id": 1532312,
+          "nombre": "Kirby Howell-Baptiste",
+          "papel": "Edison"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/t1IbM9x1vJOzg02tQr68x9F4gI3.jpg",
+          "id": 13023,
+          "nombre": "Colleen Camp",
+          "papel": "Evelyn"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yjB62bE4jH1KtAKDMjlicd27Em2.jpg",
+          "id": 1248292,
+          "nombre": "Vicki Pepperdine",
+          "papel": "Lydia Chestworth"
+        },
+        {
+          "id": 2061080,
+          "nombre": "Nigil Whyte",
+          "papel": "Devon"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qQAM7wKrppcjbfWpjS3ETX3yDJA.jpg",
+          "id": 5857295,
+          "nombre": "Eldar Isgandarov",
+          "papel": "Nicky"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dN8FoFvDRwLBMYOog2n4jdtperV.jpg",
+          "id": 4786524,
+          "nombre": "Saturn Risin9",
+          "papel": "Saffron"
+        }
+      ],
+      "sinopsis": {
+        "en": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+        "es": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora."
+      },
+      "titulo": "Club Kid",
+      "titulo_ca": null,
+      "titulo_original": "Club Kid",
+      "tmdb": 1585239,
+      "trailer": "guKEdb_iRXw",
+      "wikidata": "Q139042812"
+    },
+    "fecha": "2026-11-18"
+  },
   "it:dart": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -5097,6 +5210,114 @@
     "datos": null,
     "fecha": "2026-11-17"
   },
+  "itt18259698": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/hNfmTq2zaU03gHlg6tBZWcMVcci.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4D35RYO5s52XhJ2JFsVZGxZTIr.jpg",
+          "id": 1046739,
+          "nombre": "Daniel Raim"
+        }
+      ],
+      "duracion": 140,
+      "edad": null,
+      "estreno": "2026-11-20",
+      "fondo": "https://image.tmdb.org/t/p/w1280/h2LsSToMcLDRwc4cxuLl9TPRX7Q.jpg",
+      "generos": [
+        "Documental"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4D35RYO5s52XhJ2JFsVZGxZTIr.jpg",
+          "id": 1046739,
+          "nombre": "Daniel Raim"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt18259698",
+      "lema": null,
+      "musica": [
+        {
+          "id": 1571953,
+          "nombre": "David Lebolt"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/s0KBnwAxr6Aujbi6cA3inDqH8Fe.jpg",
+          "id": 95501,
+          "nombre": "Yasujirō Ozu",
+          "papel": "Self (archive footage)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7Y4mkVstQxhegwlOwAsGRfZfHXC.jpg",
+          "id": 2303,
+          "nombre": "Wim Wenders",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/q47wPwySJvhj6HQoYb7ON1TjbcV.jpg",
+          "id": 34374,
+          "nombre": "香川京子",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jddYE0uzNicgSPFKDTV29OUPhjP.jpg",
+          "id": 26882,
+          "nombre": "Kiyoshi Kurosawa",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hfnvLjmLKQyx1ftkuC6hhHwoTtM.jpg",
+          "id": 45138,
+          "nombre": "Luc Dardenne",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7un9C6VGcjveENYXQIqLPeP7YZx.jpg",
+          "id": 71174,
+          "nombre": "蔡明亮",
+          "papel": "Self"
+        },
+        {
+          "id": 5579883,
+          "nombre": "Akiko Ozu",
+          "papel": "Self"
+        },
+        {
+          "id": 5579884,
+          "nombre": "Isao Shirosawa",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eQFkZFcppvujKARAwbYsJCGQTIJ.jpg",
+          "id": 552000,
+          "nombre": "山内静夫",
+          "papel": "Self"
+        },
+        {
+          "id": 5579885,
+          "nombre": "Michiko Yamanouchi",
+          "papel": "Self"
+        }
+      ],
+      "sinopsis": {
+        "en": "Unveiling Yasujiro Ozu’s legacy through his personal diaries, letters, and interviews, the documentary delves into his life, creative process, and lasting impact on filmmaking."
+      },
+      "titulo": "The Ozu Diaries",
+      "titulo_ca": null,
+      "titulo_original": "The Ozu Diaries",
+      "tmdb": 1423984,
+      "trailer": "Mrzlapj07mY",
+      "wikidata": "Q141752461"
+    },
+    "fecha": "2026-11-18"
+  },
   "itt2056785": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
@@ -8108,6 +8329,115 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt36639956": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/u1pOihB5pQVKDltJI4SponBvbd0.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jc6e7PVJVIYvDft7D37I95kxZVs.jpg",
+          "id": 1397397,
+          "nombre": "Louis Clichy"
+        }
+      ],
+      "duracion": 90,
+      "edad": "7",
+      "estreno": "2026-10-14",
+      "fondo": "https://image.tmdb.org/t/p/w1280/15xJ819H4W6bBt5buS9wHJ86HTp.jpg",
+      "generos": [
+        "Animación",
+        "Drama",
+        "Familia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jc6e7PVJVIYvDft7D37I95kxZVs.jpg",
+          "id": 1397397,
+          "nombre": "Louis Clichy"
+        },
+        {
+          "id": 2945577,
+          "nombre": "Franck Salomé"
+        }
+      ],
+      "idioma_original": "fr",
+      "imdb": "tt36639956",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": 8.1,
+      "paises": [
+        "FR",
+        "BE"
+      ],
+      "reparto": [
+        {
+          "id": 5951467,
+          "nombre": "Gary Clichy",
+          "papel": "Christophe (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6ks9zfw3IFcz6t2IAhokM90D5E1.jpg",
+          "id": 1437681,
+          "nombre": "Rod Paradot",
+          "papel": "JB (voice)"
+        },
+        {
+          "id": 5951466,
+          "nombre": "Dimitri Colas",
+          "papel": "Jean (voice)"
+        },
+        {
+          "id": 5951468,
+          "nombre": "Aurélie Vassort",
+          "papel": "Catherine (voice)"
+        },
+        {
+          "id": 3573176,
+          "nombre": "Brune Moulin",
+          "papel": "Clara (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/itQkV39IyDouF7lWy9xmwJdgy3f.jpg",
+          "id": 47826,
+          "nombre": "Alexandre Astier",
+          "papel": "Michel (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wkI3RmKxNMtxNBOfSpgMgQsR53K.jpg",
+          "id": 1496508,
+          "nombre": "Jean-Pascal Zadi",
+          "papel": "The Priest (voice)"
+        },
+        {
+          "id": 6561191,
+          "nombre": "Antoine Philippe",
+          "papel": "Alcide (voice)"
+        },
+        {
+          "id": 1308631,
+          "nombre": "Margaux Vallé",
+          "papel": "Sophie (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tRVnpLzyrGCAWpVILkBFrkCOwot.jpg",
+          "id": 1595982,
+          "nombre": "Axel Huet",
+          "papel": "The Bailiff (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "En una granja al cor de la Beauce, en Christophe, d’11 anys, segueix els passos del seu pare. Però a l’escola, a casa, al tractor, en Christophe s’inclina… i cau. Es veu obligat a portar una cotilla ortopèdica per poder caminar dret. Mentre la granja travessa moments difícils, en Christophe creix com pot. Descobreix la música i coneix la Clara, amb qui tot sembla possible",
+        "en": "11-year-old Christophe tries to live up to his rigid and distant father on the family farm in rural France. But the young boy starts to lean over and collapse without warning — on the tractor, at school, at dinner... A doctor finds the solution: Christophe must wear an iron corset to keep himself upright. Forced to reinvent his life away from the farm, Christophe discovers a new passion for music, meets a new friend, and follows her into his first mischief.",
+        "es": "En la Francia rural, Christophe (10 años) intenta estar a la altura de su padre, un hombre rígido y distante, en la granja familiar. Sin embargo, el niño empieza a inclinarse y a desplomarse sin previo aviso: en el tractor, en la escuela, durante la cena... Un médico encuentra la solución: Christophe debe llevar un corsé de hierro para mantenerse erguido. Obligado a reinventar su vida lejos de la granja, Christophe descubre una nueva pasión por la música, conoce a una nueva amiga y la sigue en sus primeras travesuras. Pero ¿acaso servirá todo esto para corregir lo que está desequilibrado?"
+      },
+      "titulo": "Chico de hierro",
+      "titulo_ca": null,
+      "titulo_original": "Le Corset",
+      "tmdb": 947493,
+      "trailer": "b0wfPCB5XY8",
+      "wikidata": "Q139623089"
+    },
+    "fecha": "2026-11-18"
+  },
   "itt36822560": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/wz7HsO4RQ5hCkW0Aavv6PoqR0Wo.jpg",
@@ -10585,12 +10915,51 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt7829440": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/3LYA5cBnRSHYUMSP51aJVQdIDzo.jpg",
+      "direccion": [
+        {
+          "id": 1046702,
+          "nombre": "David Bickerstaff"
+        }
+      ],
+      "duracion": 85,
+      "edad": null,
+      "estreno": "2017-09-26",
+      "fondo": "https://image.tmdb.org/t/p/w1280/qEhivdwDng8au4lTUYYA0514Apx.jpg",
+      "generos": [
+        "Documental",
+        "Historia"
+      ],
+      "guion": [],
+      "idioma_original": "en",
+      "imdb": "tt7829440",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [],
+      "reparto": [],
+      "sinopsis": {
+        "en": "EXHIBITION ON SCREEN open its fifth season with Canaletto & the Art of Venice, an immersive journey into the life and art of Venice’s famous view-painter. No artist better captures the essence and allure of Venice than Giovanni Antonio Canal, better known as Canaletto.  The remarkable group of over 200 paintings, drawings and prints on display offer unparalleled insight into the artistry of Canaletto and his contemporaries, and the city he became a master at capturing. The film also offers the chance to step inside two official royal residences - Buckingham Palace and Windsor Castle – to learn more about the artist, and Joseph Smith, the man who introduced Canaletto to Britain.",
+        "es": "David Bickerstaff dirige este documental centrado en la vida y obra del pintor Canaletto, y en la exposición temporal que ha ido recorriendo varias ciudades en todo el mundo. El Queen’s Gallery del Palacio de Buckingham ha sido el último lugar en albergar los diferentes cuadros del artista."
+      },
+      "titulo": "Canaletto y el arte de Venecia",
+      "titulo_ca": null,
+      "titulo_original": "Canaletto & the Art of Venice",
+      "tmdb": 470671,
+      "trailer": "leMvPFVlb0c",
+      "wikidata": "Q51435379"
+    },
+    "fecha": "2026-11-18"
+  },
   "p101542": "Q3527989",
   "p102222": "Q275932",
   "p1033661": "Q7836302",
   "p1042010": "Q16908467",
   "p1043788": "Q137437386",
   "p1046702": "Q22946162",
+  "p1046739": "Q22114868",
   "p106093": "Q7181929",
   "p1071955": "Q747950",
   "p1074587": "Q28708638",
@@ -10657,6 +11026,7 @@
   "p137028": "Q11234476",
   "p1373650": "Q73226863",
   "p138": "Q3772",
+  "p1397397": "Q61875074",
   "p140538": "Q6300538",
   "p1405665": "Q27040203",
   "p1405715": "",
@@ -10665,6 +11035,7 @@
   "p1413918": "Q20021106",
   "p1427948": "Q18097962",
   "p1431632": "Q56243874",
+  "p1437681": "Q19945198",
   "p1442194": "Q113164284",
   "p1443615": "Q2665604",
   "p1448172": "",
@@ -10754,6 +11125,7 @@
   "p228719": "Q169394",
   "p22970": "Q310937",
   "p2299": "Q303957",
+  "p2303": "Q55411",
   "p2307481": "Q61685429",
   "p2327575": "Q16298631",
   "p233517": "",
@@ -10782,6 +11154,7 @@
   "p2638": "Q83410",
   "p2639": "Q228928",
   "p2640": "Q541270",
+  "p26882": "Q53834",
   "p2705856": "",
   "p2707814": "",
   "p2725308": "",
@@ -10814,6 +11187,7 @@
   "p3292": "Q298347",
   "p33410": "Q8346586",
   "p3430763": "",
+  "p34374": "Q3201022",
   "p34517": "Q44414",
   "p3483": "Q2790121",
   "p3489": "Q132616",
@@ -10902,6 +11276,9 @@
   "p59315": "Q200355",
   "p59373": "Q180491",
   "p5950831": "",
+  "p5951466": "",
+  "p5951467": "",
+  "p5951468": "",
   "p6056796": "",
   "p608": "Q55400",
   "p6091": "Q62557",
@@ -10956,6 +11333,7 @@
   "p94155": "Q3497894",
   "p942619": "Q9012655",
   "p955": "Q39666",
+  "p95501": "Q55402",
   "p95606": "Q5927386",
   "p964834": "Q943790",
   "p96690": "Q22926984",
@@ -12769,6 +13147,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ139623089": [],
   "wQ139784770": [],
   "wQ140319866": [
     {
@@ -12830,6 +13209,7 @@
   "wQ141237134": [],
   "wQ141336617": [],
   "wQ141514484": [],
+  "wQ141752461": [],
   "wQ141857229": [],
   "wQ14537": [
     {
@@ -13923,6 +14303,13 @@
       "tipo": "nominado"
     }
   ],
+  "wQ19945198": [
+    {
+      "anio": null,
+      "premio": "César al mejor actor revelación",
+      "tipo": "ganado"
+    }
+  ],
   "wQ2001": [
     {
       "anio": 2000,
@@ -14630,6 +15017,13 @@
     {
       "anio": 2023,
       "premio": "Globo de Oro al mejor actor de reparto de serie, miniserie o telefilme",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ22114868": [
+    {
+      "anio": 2001,
+      "premio": "Óscar al mejor documental corto",
       "tipo": "nominado"
     }
   ],
@@ -16353,6 +16747,28 @@
     }
   ],
   "wQ3180247": [],
+  "wQ3201022": [
+    {
+      "anio": 1998,
+      "premio": "Medalla con Cinta Púrpura",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1994,
+      "premio": "Kinuyo Tanaka Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1994,
+      "premio": "Blue Ribbon Awards for Best Supporting Actress",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Orde del Sol Naixent, Raigs d'Or amb Roseta",
+      "tipo": "ganado"
+    }
+  ],
   "wQ323166": [
     {
       "anio": null,
@@ -18248,6 +18664,7 @@
     }
   ],
   "wQ509777": [],
+  "wQ51435379": [],
   "wQ52269021": [
     {
       "anio": 2018,
@@ -18351,6 +18768,18 @@
       "anio": 2023,
       "premio": "Golden Globe Award for Best Supporting Actress in a Television Series/Musical-Comedy or Drama",
       "tipo": "nominado"
+    }
+  ],
+  "wQ53834": [
+    {
+      "anio": 2021,
+      "premio": "Medalla con Cinta Púrpura",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Premio Máquina del Tiempo",
+      "tipo": "ganado"
     }
   ],
   "wQ541270": [],
@@ -18638,6 +19067,295 @@
       "tipo": "nominado"
     }
   ],
+  "wQ55402": [
+    {
+      "anio": 1952,
+      "premio": "Blue Ribbon al millor director",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1958,
+      "premio": "Trofeu Sutherland",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1958,
+      "premio": "Medalla con Cinta Púrpura",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1950,
+      "premio": "Premi Mainichi al millor guió",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Mainichi al mejor director",
+      "tipo": "ganado"
+    }
+  ],
+  "wQ55411": [
+    {
+      "anio": 1982,
+      "premio": "León de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Palma de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio del Festival de Cannes al mejor director",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio Helmut Käutner",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Gran Cruz del Mérito con Estrella de la Orden del Mérito de la República Federal de Alemania",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Orden del Mérito de las Ciencias y las Artes",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Orden del Mérito de Renania del Norte-Westfalia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Anillo de Honor de la ciudad de Wuppertal",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Leopardo de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Comendador de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Comendador de la Orden del Mérito de Portugal",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo al mejor director",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1999,
+      "premio": "Premio del Cine Europeo al mejor documental",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio del Cine Europeo al mejor documental",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1985,
+      "premio": "BAFTA al mejor director",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Medalla de Oro al Mérito Cultural Gloria Artis",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Pour le Mérite",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2008,
+      "premio": "Premio Goya a la mejor película documental",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Gran Premio del Jurado",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Oso de Oro Honorífico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1976,
+      "premio": "Premio Fipresci",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Premio Fipresci",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Premio del Jurado Ecuménico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Oso de Plata",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premi Robert Bresson",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premi Un certain regard",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premio del Jurado Ecuménico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premio François Chalais",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "César al mejor documental",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Premi Herbert Strate",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Oso de Berlín",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Doctorado honoris causa por la Universidad Sorbona Nueva-París 3",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Premi del Cinema Europeu a la trajectòria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden del Mérito de la República Federal de Alemania",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden al Mérito de Berlín",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden del Sol Naciente",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Medalla al Mérito Cultural «Gloria Artis»",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2008,
+      "premio": "Premios Goya",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2008,
+      "premio": "5th Yerevan Golden Apricot International Film Festival",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Premios César",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Oso de oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Praemium Imperiale",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2026,
+      "premio": "Premio honorario",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1999,
+      "premio": "Premio del Cine Europeo al mejor documental",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premio del Cine Europeo a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premio del Cine Europeo al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio del Cine Europeo al mejor documental",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Premi del públic a la millor pel·lícula europea",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Óscar a la mejor película de habla no inglesa",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Óscar al mejor documental largo",
+      "tipo": "nominado"
+    }
+  ],
   "wQ55469": [
     {
       "anio": 1963,
@@ -18883,6 +19601,13 @@
     }
   ],
   "wQ61685429": [],
+  "wQ61875074": [
+    {
+      "anio": 2019,
+      "premio": "César a la mejor película de animación",
+      "tipo": "nominado"
+    }
+  ],
   "wQ62557": [
     {
       "anio": null,

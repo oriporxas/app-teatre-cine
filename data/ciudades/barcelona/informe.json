@@ -48,7 +48,7 @@
       },
       "Cinemes Verdi": {
         "como": "elqueque",
-        "sesiones": 87
+        "sesiones": 328
       },
       "Cinesa Diagonal": {
         "como": "su web no permite programas (robots.txt)",
@@ -92,7 +92,7 @@
       },
       "Mooby Arenas": {
         "como": "elqueque",
-        "sesiones": 296
+        "sesiones": 304
       },
       "Mooby Aribau": {
         "como": "elqueque",
@@ -104,7 +104,7 @@
       },
       "Mooby Bosque": {
         "como": "elqueque",
-        "sesiones": 61
+        "sesiones": 58
       },
       "Mooby Glòries": {
         "como": "elqueque",
@@ -112,7 +112,7 @@
       },
       "Mooby Gran Sarrià": {
         "como": "elqueque",
-        "sesiones": 74
+        "sesiones": 240
       },
       "Recursos d'Animació Intercultural RAI": {
         "como": "sin horarios legibles en su web",
@@ -136,15 +136,15 @@
       }
     },
     "con_sesiones_en_cines": 8,
-    "con_tmdb": 79,
+    "con_tmdb": 82,
     "fecha": "2026-11-18",
-    "peliculas": 142,
+    "peliculas": 145,
     "sesiones_agenda": 126,
-    "sesiones_cines": 1314,
+    "sesiones_cines": 1726,
     "tmdb": {
       "con_premios": 22,
-      "identificadas": 96,
-      "peliculas": 159,
+      "identificadas": 100,
+      "peliculas": 163,
       "sin_identificar": [
         "El cascanueces (The Royal Ballet) ? Registrat en directe a la Royal Opera House de Londres",
         "El sentido de la birra",
@@ -215,9 +215,10 @@
       "corregidas_por_regla": {
         "sala": 1
       },
-      "publicadas": 142
+      "publicadas": 145
     }
   },
+  "cine_actualizado": "2026-11-18T14:25:35+0000",
   "ciudad": {
     "id": "barcelona",
     "idiomas": [
