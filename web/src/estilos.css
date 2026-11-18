@@ -618,3 +618,12 @@ a.hora-chip { text-decoration: none; }
 .hoja .mapa svg { aspect-ratio: 4 / 3; }
 .tema-evento { background: transparent; border: 1px solid var(--acento-texto); color: var(--acento-texto); }
 .noticia-meta { flex-wrap: wrap; }
+
+/* Inicio: «Todos los cines» y «Todas las salas» como listas desplegables (Uri, 18/11/2026) */
+.lista-inicio { margin: 0 16px; }
+.lista-inicio + .lista-inicio { margin-top: 10px; }
+.lista-inicio summary .seccion-titulo { margin: 0; }
+.lista-inicio summary a { color: var(--acento-texto); }
+.lista-desplegable { display: flex; flex-direction: column; }
+.fila-lista { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; text-decoration: none; border-top: 1px solid var(--borde); }
+.fila-lista:active { background: var(--superficie-2); }

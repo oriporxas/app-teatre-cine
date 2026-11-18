@@ -59,8 +59,13 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
       const x = m.get(e.sala_id) || [e.sala_id, e.sala, 0];
       m.set(e.sala_id, [x[0], x[1], x[2] + 1]);
     }
-    return [...m.values()].sort((a, b) => b[2] - a[2] || a[1].localeCompare(b[1])).slice(0, 40);
+    return [...m.values()].sort((a, b) => a[1].localeCompare(b[1], 'ca'));
   }, [lista, hoy]);
+  // Cines con sesiones desde hoy (sin los centros cívicos), por orden alfabético.
+  const cines = useMemo(() => (cine?.cines || [])
+    .map((c) => [c, (cine?.peliculas || []).filter((p) => p.sesiones.some((s) => s[0] === c.id && s[1] >= hoy)).length] as const)
+    .filter(([c, n]) => !c.centro && n > 0)
+    .sort(([a], [b]) => a.nombre.localeCompare(b.nombre, 'ca')), [cine, hoy]);
 
   const datos = useMemo(() => {
     const fin7 = sumaDias(hoy, 7);
@@ -195,24 +200,41 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
         </section>
       ) : null}
 
-      {cine?.cines.length ? (
-        <section className="fila-inicio">
-          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.porCine}</h2><a className="ver-todo" href="#mapa-cine">{t.mapaCines}</a></div>
-          <div className="carrusel">
-            {cine.cines.filter((c) => !c.centro && cine.peliculas.some((p) => p.sesiones.some((s) => s[0] === c.id && s[1] === hoy))).map((c) => (
-              <a key={c.id} className="chip-cine" href={enlaceCine(c.id)}>{c.nombre}</a>
+      {/* Todos los cines y todas las salas: listas desplegables (Uri, 18/11/2026). */}
+      {cines.length ? (
+        <details className="cine-desplegable lista-inicio">
+          <summary>
+            <span className="cine-desplegable-texto"><span className="seccion-titulo">{t.todosCines}</span>
+              <span className="texto-suave">{cines.length} · <a href="#mapa-cine" onClick={(ev) => ev.stopPropagation()}>{t.mapaCines}</a></span></span>
+            <svg className="flecha" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+          </summary>
+          <div className="lista-desplegable">
+            {cines.map(([c, n]) => (
+              <a key={c.id} className="fila-lista" href={enlaceCine(c.id)}>
+                <span className="caja-titulo">{c.nombre}</span>
+                <span className="texto-suave">{[c.barrio, t.peliculas(n)].filter(Boolean).join(' · ')}</span>
+              </a>
             ))}
           </div>
-        </section>
+        </details>
       ) : null}
 
       {salas.length ? (
-        <section className="fila-inicio">
-          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.salasTit}</h2><a className="ver-todo" href="#mapa">{t.mapaVer}</a></div>
-          <div className="carrusel">
-            {salas.map(([id, nombre]) => <a key={id} className="chip-cine" href={enlaceSala(id)}>{nombre}</a>)}
+        <details className="cine-desplegable lista-inicio">
+          <summary>
+            <span className="cine-desplegable-texto"><span className="seccion-titulo">{t.todasSalas}</span>
+              <span className="texto-suave">{salas.length} · <a href="#mapa" onClick={(ev) => ev.stopPropagation()}>{t.mapaVer}</a></span></span>
+            <svg className="flecha" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+          </summary>
+          <div className="lista-desplegable">
+            {salas.map(([id, nombre, n]) => (
+              <a key={id} className="fila-lista" href={enlaceSala(id)}>
+                <span className="caja-titulo">{nombre}</span>
+                <span className="texto-suave">{t.obrasN(n)}</span>
+              </a>
+            ))}
           </div>
-        </section>
+        </details>
       ) : null}
 
       <footer className="pie">

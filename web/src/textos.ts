@@ -119,7 +119,7 @@ const es = {
   planVacio: 'Este plan está vacío. Añade funciones desde la ficha de cada espectáculo.',
   verMasFechas: 'Ver más fechas', volverPlanes: 'Tus planes',
   // Inicio, cine, noticias, buscador y personas (14/11/2026)
-  navInicio: 'Inicio', navEscena: 'Escena', navCine: 'Cine', navNoticias: 'Noticias', navGuardado: 'Guardado',
+  navInicio: 'Inicio', navEscena: 'Teatro', navCine: 'Cine', navNoticias: 'Noticias', navGuardado: 'Guardado',
   escena: 'Escena', escenaSub: 'Teatro, magia, circo y eventos',
   saludo: (h: number): string => (h < 6 ? 'Buenas noches' : h < 14 ? 'Buenos días' : h < 21 ? 'Buenas tardes' : 'Buenas noches'),
   inicioTitulo: 'Qué ver hoy en Barcelona',
@@ -170,7 +170,8 @@ const es = {
   rutaTit: 'Ruta del día', rutaAbrirEn: 'Abrir la ruta en', rutaOtra: 'Otra app de mapas',
   rutaParadas: (n: number): string => (n === 1 ? '1 parada' : `${n} paradas`), rutaSinMapa: 'Sin ubicación en el mapa',
   rutaAppleNota: 'Apple Maps abre un tramo cada vez: pulsa cada parada para ir a la siguiente.',
-  rutaTramo: 'Ir aquí', salasTit: 'Salas', mapaVer: 'Mapa', salaObras: 'En cartel en esta sala', verSala: 'Ver la sala',
+  rutaTramo: 'Ir aquí', salasTit: 'Salas', mapaVer: 'Mapa', todasSalas: 'Todas las salas',
+  obrasN: (n: number): string => (n === 1 ? '1 obra' : `${n} obras`), salaObras: 'En cartel en esta sala', verSala: 'Ver la sala',
 };
 
 export type Textos = typeof es;
@@ -262,7 +263,7 @@ const ca: Textos = {
   planNota: 'Els plans es desen en aquest mòbil. Més endavant, amb un compte, també als teus altres dispositius.',
   planVacio: "Aquest pla és buit. Afegeix funcions des de la fitxa de cada espectacle.",
   verMasFechas: 'Veure més dates', volverPlanes: 'Els teus plans',
-  navInicio: 'Inici', navEscena: 'Escena', navCine: 'Cinema', navNoticias: 'Notícies', navGuardado: 'Desat',
+  navInicio: 'Inici', navEscena: 'Teatre', navCine: 'Cinema', navNoticias: 'Notícies', navGuardado: 'Desat',
   escena: 'Escena', escenaSub: 'Teatre, màgia, circ i esdeveniments',
   saludo: (h: number) => (h < 6 ? 'Bona nit' : h < 14 ? 'Bon dia' : h < 21 ? 'Bona tarda' : 'Bona nit'),
   inicioTitulo: 'Què veure avui a Barcelona',
@@ -312,7 +313,8 @@ const ca: Textos = {
   rutaTit: 'Ruta del dia', rutaAbrirEn: 'Obrir la ruta a', rutaOtra: 'Una altra app de mapes',
   rutaParadas: (n: number) => (n === 1 ? '1 parada' : `${n} parades`), rutaSinMapa: 'Sense ubicació al mapa',
   rutaAppleNota: 'Apple Maps obre un tram cada vegada: prem cada parada per anar a la següent.',
-  rutaTramo: 'Anar-hi', salasTit: 'Sales', mapaVer: 'Mapa', salaObras: 'En cartell en aquesta sala', verSala: 'Veure la sala',
+  rutaTramo: 'Anar-hi', salasTit: 'Sales', mapaVer: 'Mapa', todasSalas: 'Totes les sales',
+  obrasN: (n: number) => (n === 1 ? '1 obra' : `${n} obres`), salaObras: 'En cartell en aquesta sala', verSala: 'Veure la sala',
 };
 
 export const TEXTOS: Record<Idioma, Textos> = { es, ca };
