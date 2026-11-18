@@ -214,6 +214,7 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
         inf["con_enlace"] += 1
         if not es_portada(url):
             it["compra_tipo"] = "obra"
+            it["pagina_obra"] = url  # el enlace de la agenda ya es de la obra (su página o su venta)
             inf["obra"] += 1
             continue
         inf["portadas"] += 1
@@ -229,19 +230,22 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
                     de_portada = enlaces(texto, url)
                     webs[raiz] = (de_portada + [(u, "") for u in _del_sitemap(raiz)], menus(texto, url))
                 candidatos, del_menu = webs[raiz]
-                encontrada, final = elegir(it.get("nombre") or "", candidatos, url), None
+                encontrada, final, de_la_obra = elegir(it.get("nombre") or "", candidatos, url), None, None
                 if encontrada:
                     pagina = red.pedir(encontrada, timeout=25)
                     pagina = pagina.decode("utf-8", "replace") if pagina else ""
                     if pagina and habla_de(pagina, it.get("nombre") or ""):
-                        final = boton_compra(pagina, encontrada, del_menu, it.get("nombre")) or limpia(encontrada)
-                reg = {"fecha": hoy.isoformat(), "url": final}
+                        de_la_obra = limpia(encontrada)
+                        final = boton_compra(pagina, encontrada, del_menu, it.get("nombre")) or de_la_obra
+                reg = {"fecha": hoy.isoformat(), "url": final, "pagina": de_la_obra}
                 cache[clave] = reg
                 inf["buscadas_hoy"] += 1
             except Exception as e:  # noqa: BLE001 - una web rara no para la exportación
                 inf.setdefault("errores", []).append(f"{raiz}: {type(e).__name__}")
         if reg and reg.get("url"):
             it["compra"] = reg["url"]
+            # La página de la obra en la web de la sala (de ahí sale la ficha completa: fichas_obra.py).
+            it["pagina_obra"] = reg.get("pagina") or (reg["url"] if _misma_web(reg["url"], url) else None)
             it["compra_sala"] = url
             it["compra_tipo"] = "obra"
             inf["encontradas"] += 1

@@ -1,31 +1,62 @@
 # Medios de los que salen las noticias de la app (canales RSS públicos).
-# La IA (tarea «noticias» de ia.toml) decide de qué va cada noticia: teatro, cine,
-# magia o circo. Las demás (exposiciones, música, libros…) no salen.
-# La app enseña el titular, el medio, la fecha y un resumen breve escrito por la IA,
-# y enlaza siempre al artículo original. La IA marca además si la noticia trata de un
-# evento (festival, gala o premios, feria, convención, taller…): pestaña «Eventos».
+# La IA (tarea «noticias» de ia.toml) decide de qué va cada noticia: teatro, cine, magia o circo
+# (las demás —exposiciones, música, libros…— no salen); si trata de un evento (festival, gala o
+# premios, feria, convención, taller…); y su ámbito: Barcelona, España o Mundo (Uri, 18/11/2026).
+# La app enseña el titular, el medio, la fecha y un resumen breve escrito por la IA (en castellano
+# y catalán, también de las noticias en inglés), y enlaza siempre al artículo original.
 #
-# «dias»: cuántos días atrás se miran (10 si no se dice). Los medios especializados en magia
-# o circo publican menos, así que se mira más atrás.
+# «ambito»: de dónde es el medio (barcelona, espana o mundo). Es una pista: la IA mira de qué
+# trata cada noticia (un medio de Madrid puede hablar de un estreno en Barcelona).
+# «dias»: cuántos días atrás se miran (10 si no se dice). Los medios de magia o circo publican
+# menos, así que se mira más atrás.
 # Solo canales cuyo robots.txt deja leerlos (se comprueba en cada lectura). Comprobados el
-# 17/11/2026; no se pudieron usar (lo prohíben o no tienen canal): Núvol, Recomana,
-# Teatre Barcelona, Escena Catalana, Circ.cat, Google Noticias, webs de tiendas de magia,
-# El País (su robots.txt no deja leer el canal). Artezblai: su canal lleva meses sin noticias.
+# 17-18/11/2026. No se pueden usar (lo prohíben o no tienen canal): Núvol, Recomana, Teatre
+# Barcelona, Escena Catalana, Revista Teatral, Circ.cat, Google Noticias, El País, RTVE, Butaca en
+# Anfiteatro, Artezblai (sin noticias desde enero), El Periódico, El Nacional, Time Out, 3Cat,
+# The Stage, BroadwayWorld, WhatsOnStage, Screen Daily, Vanish, Magicseen, CircusTalk, Circostrada.
 
 [barcelona]
 fuentes = [
-  { nombre = "betevé", url = "https://beteve.cat/cultura/feed/", idioma = "ca" },
-  { nombre = "Ara", url = "https://www.ara.cat/rss/cultura/", idioma = "ca" },
-  { nombre = "La Vanguardia", url = "https://www.lavanguardia.com/rss/cultura.xml", idioma = "es" },
-  { nombre = "Espinof", url = "https://www.espinof.com/index.xml", idioma = "es" },
-  { nombre = "Cinemanía", url = "https://www.20minutos.es/rss/cinemania/", idioma = "es" },
-  # Artes escénicas, circo, magia y festivales
-  { nombre = "Zirkolika", url = "https://www.zirkolika.com/feed/", idioma = "es", dias = 45 },
-  { nombre = "betevé", url = "https://beteve.cat/tag/magia/feed/", idioma = "ca", dias = 60 },
-  { nombre = "betevé", url = "https://beteve.cat/tag/festivals/feed/", idioma = "ca", dias = 20 },
-  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/categoria/cultura/arts-esceniques/feed/", idioma = "ca", dias = 30 },
-  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/etiqueta/circ/feed/", idioma = "ca", dias = 60 },
-  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/etiqueta/magia/feed/", idioma = "ca", dias = 60 },
-  { nombre = "El Mundo", url = "https://www.elmundo.es/rss/cultura/teatro.xml", idioma = "es" },
-  { nombre = "elDiario.es", url = "https://www.eldiario.es/rss/cultura/teatro", idioma = "es", dias = 20 },
+  # --- Barcelona y Cataluña ---
+  { nombre = "betevé", url = "https://beteve.cat/cultura/feed/", idioma = "ca", ambito = "barcelona" },
+  { nombre = "betevé", url = "https://beteve.cat/tag/magia/feed/", idioma = "ca", ambito = "barcelona", dias = 60 },
+  { nombre = "betevé", url = "https://beteve.cat/tag/festivals/feed/", idioma = "ca", ambito = "barcelona", dias = 20 },
+  { nombre = "Ara", url = "https://www.ara.cat/rss/cultura/", idioma = "ca", ambito = "barcelona" },
+  { nombre = "La Vanguardia", url = "https://www.lavanguardia.com/rss/cultura.xml", idioma = "es", ambito = "barcelona" },
+  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/categoria/cultura/arts-esceniques/feed/", idioma = "ca", ambito = "barcelona", dias = 30 },
+  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/etiqueta/circ/feed/", idioma = "ca", ambito = "barcelona", dias = 60 },
+  { nombre = "VilaWeb", url = "https://www.vilaweb.cat/etiqueta/magia/feed/", idioma = "ca", ambito = "barcelona", dias = 60 },
+  { nombre = "El Crític", url = "https://www.elcritic.cat/feed/", idioma = "ca", ambito = "barcelona", dias = 20 },
+  { nombre = "Barcelona Secreta", url = "https://barcelonasecreta.com/feed/", idioma = "es", ambito = "barcelona" },
+  { nombre = "Zirkolika", url = "https://www.zirkolika.com/feed/", idioma = "es", ambito = "barcelona", dias = 45 },
+  # --- España ---
+  { nombre = "El Mundo", url = "https://e00-elmundo.uecdn.es/elmundo/rss/cultura.xml", idioma = "es", ambito = "espana" },
+  { nombre = "El Mundo", url = "https://www.elmundo.es/rss/cultura/teatro.xml", idioma = "es", ambito = "espana" },
+  { nombre = "elDiario.es", url = "https://www.eldiario.es/rss/cultura/teatro", idioma = "es", ambito = "espana", dias = 20 },
+  { nombre = "ABC", url = "https://www.abc.es/rss/2.0/cultura/", idioma = "es", ambito = "espana" },
+  { nombre = "ABC", url = "https://www.abc.es/rss/2.0/cultura/teatros/", idioma = "es", ambito = "espana", dias = 20 },
+  { nombre = "El Confidencial", url = "https://rss.elconfidencial.com/cultura/", idioma = "es", ambito = "espana" },
+  { nombre = "El Español", url = "https://www.elespanol.com/rss/cultura/", idioma = "es", ambito = "espana" },
+  { nombre = "20minutos", url = "https://www.20minutos.es/rss/cultura/", idioma = "es", ambito = "espana" },
+  { nombre = "Europa Press", url = "https://www.europapress.es/rss/rss.aspx?ch=00126", idioma = "es", ambito = "espana" },
+  { nombre = "Godot", url = "https://www.revistagodot.com/feed/", idioma = "es", ambito = "espana", dias = 20 },
+  { nombre = "Masescena", url = "https://www.masescena.es/feed/", idioma = "es", ambito = "espana", dias = 20 },
+  { nombre = "Cinemanía", url = "https://www.20minutos.es/rss/cinemania/", idioma = "es", ambito = "espana" },
+  { nombre = "Espinof", url = "https://www.espinof.com/index.xml", idioma = "es", ambito = "espana" },
+  { nombre = "Fotogramas", url = "https://www.fotogramas.es/rss/all.xml/", idioma = "es", ambito = "espana" },
+  { nombre = "SensaCine", url = "https://www.sensacine.com/rss/noticias.xml", idioma = "es", ambito = "espana" },
+  # --- Mundo ---
+  { nombre = "Infobae", url = "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/", idioma = "es", ambito = "mundo", dias = 5 },
+  { nombre = "Variety", url = "https://variety.com/feed/", idioma = "en", ambito = "mundo" },
+  { nombre = "Deadline", url = "https://deadline.com/feed/", idioma = "en", ambito = "mundo" },
+  { nombre = "The Hollywood Reporter", url = "https://www.hollywoodreporter.com/feed/", idioma = "en", ambito = "mundo" },
+  { nombre = "IndieWire", url = "https://www.indiewire.com/feed/", idioma = "en", ambito = "mundo" },
+  { nombre = "The Guardian", url = "https://www.theguardian.com/stage/rss", idioma = "en", ambito = "mundo" },
+  { nombre = "The Guardian", url = "https://www.theguardian.com/film/rss", idioma = "en", ambito = "mundo" },
+  { nombre = "The New York Times", url = "https://rss.nytimes.com/services/xml/rss/nyt/Theater.xml", idioma = "en", ambito = "mundo" },
+  { nombre = "The New York Times", url = "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml", idioma = "en", ambito = "mundo" },
+  { nombre = "Playbill", url = "https://playbill.com/rss/news", idioma = "en", ambito = "mundo" },
+  { nombre = "American Theatre", url = "https://www.americantheatre.org/feed/", idioma = "en", ambito = "mundo", dias = 20 },
+  { nombre = "Genii", url = "https://geniimagazine.com/feed/", idioma = "en", ambito = "mundo", dias = 60 },
+  { nombre = "The Circus Diaries", url = "https://www.thecircusdiaries.com/feed/", idioma = "en", ambito = "mundo", dias = 60 },
 ]

@@ -162,12 +162,18 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None, leer_webs: bool = 
     mapa_ciudad = mapa or leer_json(CARPETA_WEB / f"{ciudad.id}-mapa.json", None)
     hoy = dt.date.fromisoformat(informe["fecha"]) if informe.get("fecha") else dt.date.today()
     informe["verificacion"] = verificar.escena(ciudad, items, fichas, mapa_ciudad, hoy)
+    # Ficha completa desde la página oficial de cada obra (comprueba cada dato con su cita) y, de las
+    # personas del equipo, foto y premios de Wikidata.
+    from . import fichas_obra, personas
+    fichas_obra.aplicar(ciudad, items, informe, leer_webs=leer_webs)
+    personas_app = personas.aplicar(ciudad, items, informe, leer_webs=leer_webs)
     items.sort(key=lambda i: (i["funciones"][0][0], (i["funciones"][0] + [""])[1]))
     datos = {
         "ciudad": ciudad.ficha(),
         "actualizado": informe.get("fecha"),
         "licencia": "Datos: Ajuntament de Barcelona (Open Data BCN y Guia BCN), CC BY 4.0",
         "espectaculos": items,
+        "personas": personas_app,
     }
     # Compacto (sin espacios): es lo que descarga el móvil.
     ruta = CARPETA_WEB / f"{ciudad.id}.json"
@@ -178,4 +184,4 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None, leer_webs: bool = 
     indice = leer_json(CARPETA_WEB / "ciudades.json", {}) or {}
     indice[ciudad.id] = {**ciudad.ficha(), "actualizado": informe.get("fecha"), "espectaculos": len(items)}
     guardar_json(CARPETA_WEB / "ciudades.json", indice)
-    return {"espectaculos_app": len(items), **{k: informe[k] for k in ("ia_fichas", "fichas_personas", "compra", "verificacion") if k in informe}}
+    return {"espectaculos_app": len(items), **{k: informe[k] for k in ("ia_fichas", "fichas_personas", "compra", "verificacion", "fichas_obra", "personas") if k in informe}}

@@ -18,7 +18,7 @@ import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCi
 import { Cartelito, FichaCine, FichaPelicula, VistaCine, VistaMapaCine, enlacePeli } from './Cine';
 import { VistaNoticias, cargarNoticias, type Noticia } from './Noticias';
 import { VistaInicio } from './Inicio';
-import { VistaBuscar, VistaPersona, indicePersonas } from './Buscar';
+import { VistaBuscar, VistaPersona, indicePersonas, separarNombres, slug } from './Buscar';
 
 const POR_PAGINA = 40;
 
@@ -120,7 +120,7 @@ export default function App() {
   const actual = ruta.vista === 'ficha' ? lista.find((e) => claveFicha(e.id) === ruta.clave) : undefined;
   const peli = ruta.vista === 'peli' ? cine?.peliculas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}`) : undefined;
   const salaCine = ruta.vista === 'sala' ? cine?.cines.find((c) => c.id.replace(/[^A-Za-z0-9-]+/g, '-') === ruta.id) : undefined;
-  const personas = useMemo(() => indicePersonas(lista, cine, lang, t), [lista, cine, lang, t]);
+  const personas = useMemo(() => indicePersonas(lista, cine, lang, t, cartelera?.personas), [lista, cine, lang, t, cartelera]);
   const cambiarCine = useCallback((c: Partial<FiltrosCine>) => setFiltrosCine((f) => ({ ...f, ...c })), []);
   const idsPelis = useMemo(() => new Set((cine?.peliculas || []).map((p) => p.id)), [cine]);
 
@@ -143,7 +143,7 @@ export default function App() {
       {ruta.vista === 'mapa-cine' ? <VistaMapaCine t={t} datos={cine} hoy={hoy} ubic={ubic} /> : null}
       {ruta.vista === 'noticias' ? <VistaNoticias t={t} lang={lang} noticias={noticias} error={errorNoticias} /> : null}
       {ruta.vista === 'buscar' ? <VistaBuscar t={t} lang={lang} q={busqueda} setQ={setBusqueda} lista={lista} cine={cine} personas={personas} hoy={hoy} /> : null}
-      {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id)} volver={volver} /> : null}
+      {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id) || [...personas.values()].find((x) => `n-${slug(x.nombre)}` === ruta.id)} volver={volver} /> : null}
       {ruta.vista === 'cartelera' || (ruta.vista === 'ficha' && !actual) ? (
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
@@ -609,7 +609,7 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
               {e.premios.map((x) => (
                 <li key={x.cita} className="premio ganado">
                   <span className="premio-icono" aria-hidden="true">★</span>
-                  <span>{lang === 'ca' ? x.ca : x.es}<span className="premio-cita">{t.citaTxt} «{x.cita}»</span></span>
+                  <span>{lang === 'ca' ? x.ca : x.es}<span className="premio-cita">{x.origen === 'web' ? t.citaWeb : t.citaTxt} «{x.cita}»</span></span>
                 </li>
               ))}
             </ul>
@@ -623,7 +623,13 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
               {e.equipo.map(([papel, personas]) => (
                 <div key={papel} className="equipo-fila">
                   <dt>{t.papel(papel)}</dt>
-                  <dd>{personas}</dd>
+                  <dd>{/* Cada nombre lleva a su ficha (sus obras y, si está en Wikidata, foto y premios). */}
+                    {separarNombres(personas).length ? personas.split(/(\s*(?:,|;|\/|\s+i\s+|\s+y\s+|\s+&\s+)\s*)/).map((trozo, k) => (
+                      separarNombres(trozo).length === 1 && separarNombres(trozo)[0] === trozo.trim()
+                        ? <a key={k} className="persona-enlace" href={`#persona-n-${slug(trozo.trim())}`}>{trozo}</a>
+                        : <span key={k}>{trozo}</span>
+                    )) : personas}
+                  </dd>
                 </div>
               ))}
             </dl>

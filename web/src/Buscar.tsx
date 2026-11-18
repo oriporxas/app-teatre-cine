@@ -1,7 +1,7 @@
 // Buscador único (obras, películas, personas, salas y cines) y ficha de persona, que une el
 // teatro y el cine: quien dirige una película y actúa en una obra sale con las dos cosas.
 import { useLayoutEffect, useMemo, useRef } from 'react';
-import type { Espectaculo } from './datos';
+import type { Espectaculo , PersonaEscena } from './datos';
 import type { CarteleraCine, Persona, Premio } from './cine';
 import { tituloPeli } from './cine';
 import { normaliza, tipoTxt } from './filtros';
@@ -14,11 +14,16 @@ export interface FichaPersona {
   foto?: string;
   premios?: Premio[];
   wikidata?: string;
+  descripcion?: string;
+  wikipedia?: string;
   pelis: { id: string; titulo: string; rol: string }[];
   obras: { id: string; titulo: string; rol: string }[];
 }
 
-const slug = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+export const slug = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+// La misma clave que pipeline/personas.py (normalizar: «l·l» → «ll», sin signos, espacios → guiones).
+const clavePy = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/l·l|l\.l/g, 'll')
+  .replace(/[^a-z0-9€]+/g, ' ').trim().replace(/\s+/g, '-');
 
 /** Nombres de una línea de la ficha artística: «Anna Prova, Joan Exemple i Marta Exemple». */
 export function separarNombres(s: string): string[] {
@@ -26,7 +31,8 @@ export function separarNombres(s: string): string[] {
     .filter((x) => x.length > 3 && x.length < 60 && /^[A-ZÀ-Ý]/.test(x) && x.split(' ').length <= 6);
 }
 
-export function indicePersonas(lista: Espectaculo[], cine: CarteleraCine | null, lang: Idioma, t: Textos): Map<string, FichaPersona> {
+export function indicePersonas(lista: Espectaculo[], cine: CarteleraCine | null, lang: Idioma, t: Textos,
+  escena?: Record<string, PersonaEscena>): Map<string, FichaPersona> {
   const res = new Map<string, FichaPersona>();
   const porNombre = new Map<string, string>();
   const obtener = (clave: string, nombre: string) => {
@@ -58,6 +64,14 @@ export function indicePersonas(lista: Espectaculo[], cine: CarteleraCine | null,
       for (const n of separarNombres(nombres)) {
         const clave = porNombre.get(slug(n)) || `n-${slug(n)}`;
         const f = obtener(clave, n);
+        const w = escena?.[clavePy(n)];
+        if (w) {
+          f.foto = f.foto || w.foto;
+          f.premios = f.premios || w.premios;
+          f.wikidata = f.wikidata || w.wikidata;
+          f.descripcion = f.descripcion || w.descripcion?.[lang] || w.descripcion?.es || w.descripcion?.ca;
+          f.wikipedia = f.wikipedia || w.wikipedia;
+        }
         if (!f.obras.some((y) => y.id === e.id)) f.obras.push({ id: e.id, titulo: e.nombre, rol: t.papel(papel) });
       }
     }
@@ -168,6 +182,8 @@ export function VistaPersona({ t, p, volver }: { t: Textos; p: FichaPersona | un
             <div>
               <span className="sobretitulo">{t.fichaPersona}</span>
               <h2>{p.nombre}</h2>
+              {p.descripcion ? <span className="texto-suave persona-desc">{p.descripcion[0].toUpperCase() + p.descripcion.slice(1)}</span> : null}
+              {p.wikipedia ? <a className="enlace" href={p.wikipedia} target="_blank" rel="noopener noreferrer">Wikipedia</a> : null}
             </div>
           </div>
           {p.premios?.length ? (

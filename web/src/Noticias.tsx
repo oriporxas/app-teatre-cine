@@ -11,6 +11,10 @@ export interface Noticia {
   tema: 'teatro' | 'cine' | 'magia' | 'circo';
   /** Festival, gala o premios, feria, convención, taller… */
   evento?: boolean;
+  /** De dónde es lo que cuenta: Barcelona (y Cataluña), España o Mundo. */
+  ambito?: 'barcelona' | 'espana' | 'mundo';
+  /** Titular traducido (si el original está en otro idioma). */
+  titulos?: Record<string, string>;
   resumen?: Record<string, string>;
   imagen?: string;
 }
@@ -37,9 +41,9 @@ export function TarjetaNoticia({ n, t, lang, compacta }: { n: Noticia; t: Textos
         <span className="noticia-meta">
           <span className={`tema tema-${n.tema}`}>{t.temasNoticia[n.tema]}</span>
           {n.evento ? <span className="tema tema-evento">{t.temasNoticia.evento}</span> : null}
-          <span>{n.medio} · {hace(n.fecha, t)}</span>
+          <span>{[n.ambito ? t.ambitos[n.ambito] : '', n.medio, hace(n.fecha, t)].filter(Boolean).join(' · ')}</span>
         </span>
-        <span className="noticia-titulo">{n.titulo}</span>
+        <span className="noticia-titulo" lang={n.titulos?.[lang] ? lang : n.idioma}>{n.titulos?.[lang] || n.titulo}</span>
         {!compacta && n.resumen?.[lang] ? <span className="texto-suave">{n.resumen[lang]}</span> : null}
       </span>
     </a>
@@ -48,19 +52,28 @@ export function TarjetaNoticia({ n, t, lang, compacta }: { n: Noticia; t: Textos
 
 export function VistaNoticias({ t, lang, noticias, error }: { t: Textos; lang: Idioma; noticias: Noticia[] | null; error: boolean }) {
   const [tema, setTema] = useState('todo');
+  const [ambito, setAmbito] = useState('todo');
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const pasa = (n: Noticia, k: string) => k === 'todo' || (k === 'eventos' ? !!n.evento : n.tema === k);
-  const lista = (noticias || []).filter((n) => pasa(n, tema));
+  const enAmbito = (noticias || []).filter((n) => ambito === 'todo' || n.ambito === ambito);
+  const lista = enAmbito.filter((n) => pasa(n, tema));
   return (
     <main className="pantalla">
       <header className="cabecera">
         <div className="titulo"><span className="sobretitulo">{t.noticiasSub}</span><h1>{t.noticiasTitulo}</h1></div>
       </header>
+      <div className="segmentos" role="group" aria-label={t.ambitoTit}>
+        {['todo', 'barcelona', 'espana', 'mundo'].map((k) => (
+          <button key={k} type="button" className="segmento" aria-pressed={ambito === k} onClick={() => setAmbito(k)}>
+            {k === 'todo' ? t.temasNoticia.todo : t.ambitos[k]}
+          </button>
+        ))}
+      </div>
       <div className="chips" role="group" aria-label={t.noticiasTitulo}>
         {['todo', 'teatro', 'cine', 'magia', 'circo', 'eventos'].map((k) => (
           <button key={k} type="button" className="chip" aria-pressed={tema === k} onClick={() => setTema(k)}>
             {t.temasNoticia[k]}
-            {noticias ? <span className="num">{(noticias || []).filter((n) => pasa(n, k)).length}</span> : null}
+            {noticias ? <span className="num">{enAmbito.filter((n) => pasa(n, k)).length}</span> : null}
           </button>
         ))}
       </div>

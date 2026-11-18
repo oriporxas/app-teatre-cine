@@ -28,6 +28,8 @@ from .util import guardar_json, huella, leer_json
 AGENTE = "CarteleraBarcelona/1.0"
 DIAS = 10
 TEMAS = ["teatro", "cine", "magia", "circo", "otro"]
+AMBITOS = ["barcelona", "espana", "mundo"]
+MAXIMO_APP = 600  # noticias que se guardan para la app (las más recientes)
 ESQUEMA = {
     "type": "object",
     "properties": {"noticias": {"type": "array", "items": {
@@ -36,10 +38,14 @@ ESQUEMA = {
             "id": {"type": "string"},
             "tema": {"type": "string", "enum": TEMAS},
             "evento": {"type": "boolean"},
+            "ambito": {"type": "string", "enum": AMBITOS},
+            "titulo_es": {"type": "string"},
+            "titulo_ca": {"type": "string"},
             "resumen_es": {"type": "string"},
             "resumen_ca": {"type": "string"},
         },
-        "required": ["id", "tema", "evento", "resumen_es", "resumen_ca"], "additionalProperties": False}}},
+        "required": ["id", "tema", "evento", "ambito", "titulo_es", "titulo_ca", "resumen_es", "resumen_ca"],
+        "additionalProperties": False}}},
     "required": ["noticias"], "additionalProperties": False,
 }
 SISTEMA = (
@@ -52,6 +58,10 @@ SISTEMA = (
     "«evento»: true solo si la noticia trata de un evento concreto de ese tema: festival, muestra o ciclo, gala o "
     "entrega de premios, feria, convención o congreso, taller o curso; false para estrenos, críticas, entrevistas, "
     "obituarios y noticias del sector. "
+    "«ambito»: de dónde es lo que cuenta la noticia: «barcelona» (Barcelona o Cataluña), «espana» (el resto de España) "
+    "o «mundo» (fuera de España). Te doy el ámbito del medio como pista, pero manda el contenido. "
+    "«titulo_es» y «titulo_ca»: el titular en castellano y en catalán (traducido fielmente si está en otro idioma; "
+    "si ya está en ese idioma, igual). "
     "Escribe un resumen neutro de una sola frase (máximo 30 palabras) en castellano y otro en catalán, "
     "con tus palabras y solo con lo que dice el titular y la entradilla: no inventes datos."
 )
@@ -103,7 +113,7 @@ def leer_canal(fuente: dict, desde: dt.datetime) -> list[dict]:
         if not titulo or not enlace or fecha < desde:
             continue
         res.append({"titulo": titulo, "enlace": enlace.strip(), "fecha": fecha.isoformat(),
-                    "medio": fuente["nombre"], "idioma": fuente.get("idioma"),
+                    "medio": fuente["nombre"], "idioma": fuente.get("idioma"), "ambito": fuente.get("ambito"),
                     "entradilla": _texto(_campo(item, "description", "summary"))[:400],
                     "imagen": _imagen(item)})
     return res
@@ -127,7 +137,8 @@ def recoger(ciudad, hoy: dt.date) -> dict:
     informe["leidas"] = len(todas)
     ruta_cache = config.carpeta_cache(ciudad.id, "noticias") / "clasificacion.json"
     # Las clasificadas antes de existir «evento» se vuelven a clasificar (una vez).
-    cache = {k: v for k, v in (leer_json(ruta_cache, {}) or {}).items() if k in todas and "evento" in v}
+    # Las clasificadas antes de existir «ambito» se vuelven a clasificar (una vez).
+    cache = {k: v for k, v in (leer_json(ruta_cache, {}) or {}).items() if k in todas and "ambito" in v}
     tarea = ajustes.tareas_ia().get("noticias")
     pendientes = [k for k in todas if k not in cache]
     if tarea and tarea.activa and ia.disponible() and pendientes:
@@ -135,8 +146,8 @@ def recoger(ciudad, hoy: dt.date) -> dict:
         pendientes = pendientes[: tarea.maximo_por_ejecucion]
         for n in range(0, len(pendientes), tarea.por_peticion):
             lote = pendientes[n:n + tarea.por_peticion]
-            entrada = [{"id": huella(k)[:12], "medio": todas[k]["medio"], "titular": todas[k]["titulo"],
-                        "entradilla": todas[k]["entradilla"][:300]} for k in lote]
+            entrada = [{"id": huella(k)[:12], "medio": todas[k]["medio"], "ambito_del_medio": todas[k].get("ambito"),
+                        "titular": todas[k]["titulo"], "entradilla": todas[k]["entradilla"][:300]} for k in lote]
             por_id = {huella(k)[:12]: k for k in lote}
             try:
                 r = ia.pedir_json(cli, tarea="noticias", modelo=tarea.modelo, esfuerzo=tarea.esfuerzo, sistema=SISTEMA,
@@ -149,7 +160,8 @@ def recoger(ciudad, hoy: dt.date) -> dict:
                 continue
             for x in (r or {}).get("noticias", []):
                 if x["id"] in por_id:
-                    cache[por_id[x["id"]]] = {"tema": x["tema"], "evento": bool(x.get("evento")),
+                    cache[por_id[x["id"]]] = {"tema": x["tema"], "evento": bool(x.get("evento")), "ambito": x.get("ambito"),
+                                              "titulo": {"es": x.get("titulo_es"), "ca": x.get("titulo_ca")},
                                               "resumen": {"es": x["resumen_es"], "ca": x["resumen_ca"]}}
                     informe["clasificadas_hoy"] += 1
         guardar_json(ruta_cache, cache)
@@ -160,12 +172,16 @@ def recoger(ciudad, hoy: dt.date) -> dict:
             continue
         salida.append({k2: v for k2, v in {
             "titulo": n["titulo"], "enlace": n["enlace"], "medio": n["medio"], "fecha": n["fecha"],
-            "idioma": n["idioma"], "tema": c["tema"], "evento": c.get("evento"), "resumen": c["resumen"], "imagen": n["imagen"],
+            "idioma": n["idioma"], "tema": c["tema"], "evento": c.get("evento"), "ambito": c.get("ambito") or n.get("ambito"),
+            "titulos": {k3: v3 for k3, v3 in (c.get("titulo") or {}).items() if v3 and v3 != n["titulo"]} or None,
+            "resumen": c["resumen"], "imagen": n["imagen"],
         }.items() if v})
     salida.sort(key=lambda n: n["fecha"], reverse=True)
+    salida = salida[:MAXIMO_APP]
     informe["publicadas"] = len(salida)
     informe["por_tema"] = {t: sum(1 for n in salida if n["tema"] == t) for t in ("teatro", "cine", "magia", "circo")}
     informe["eventos"] = sum(1 for n in salida if n.get("evento"))
+    informe["por_ambito"] = {a: sum(1 for n in salida if n.get("ambito") == a) for a in AMBITOS}
     CARPETA_WEB.mkdir(parents=True, exist_ok=True)
     (CARPETA_WEB / f"{ciudad.id}-noticias.json").write_text(
         json.dumps({"actualizado": hoy.isoformat(), "noticias": salida}, ensure_ascii=False, separators=(",", ":")),

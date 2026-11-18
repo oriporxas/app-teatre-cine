@@ -630,3 +630,12 @@ a.hora-chip { text-decoration: none; }
 
 /* Ruta del plan: el mapa de Google dentro de la app (Uri, 18/11/2026) */
 .mapa-google { display: block; width: 100%; aspect-ratio: 4 / 3; border: 1px solid var(--borde); border-radius: 16px; background: #17171B; }
+
+/* Noticias: Barcelona / España / Mundo (Uri, 18/11/2026) */
+.segmentos { display: flex; margin: 4px 16px 0; padding: 3px; border-radius: 12px; background: var(--superficie-2); gap: 2px; }
+.segmento { flex: 1; min-height: 38px; border: 0; border-radius: 9px; background: transparent; color: var(--texto-suave); font-weight: 700; font-size: 14px; }
+.segmento[aria-pressed='true'] { background: var(--acento); color: var(--sobre-acento); }
+
+/* Equipo de la obra: cada nombre lleva a su ficha (Uri, 18/11/2026) */
+.persona-enlace { color: inherit; text-decoration: underline; text-decoration-color: var(--acento-texto); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.persona-desc { display: block; margin-top: 4px; }
