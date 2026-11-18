@@ -10,6 +10,10 @@ on:
     # Cada día a las 05:17 (hora UTC; 06:17 en invierno y 07:17 en verano en
     # Barcelona). El Ayuntamiento actualiza sus agendas de madrugada.
     - cron: "17 5 * * *"
+    # Segundo intento por la tarde (13:17 UTC): solo trabaja si el de la mañana no dejó los datos
+    # del día (p. ej. el 18/11/2026 la web del Ayuntamiento respondió «prohibido» un rato). Si ya
+    # están, termina en un minuto.
+    - cron: "17 13 * * *"
   workflow_dispatch:
     inputs:
       minutos_lectura:
@@ -34,13 +38,34 @@ jobs:
         with:
           python-version: "3.12"
 
+      # ¿Están ya los datos de hoy? (cada ciudad escribe su informe con la fecha de allí solo si terminó bien)
+      - name: Comprobar si ya hay datos de hoy
+        id: hoy
+        run: |
+          python - >> "$GITHUB_OUTPUT" <<'FIN'
+          import datetime, json, pathlib, tomllib, zoneinfo
+          ciudades = tomllib.loads(pathlib.Path("ajustes/ciudades.toml").read_text())
+          hecho = True
+          for cid, c in ciudades.items():
+              if not c.get("activa", True):
+                  continue
+              hoy = datetime.datetime.now(zoneinfo.ZoneInfo(c["zona_horaria"])).date().isoformat()
+              informe = pathlib.Path(f"data/ciudades/{cid}/informe.json")
+              fecha = json.loads(informe.read_text()).get("fecha") if informe.exists() else None
+              hecho = hecho and fecha == hoy
+          print(f"hecho={'si' if hecho else 'no'}")
+          FIN
+
       - name: Instalar dependencias
+        if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
         run: pip install -r requirements.txt
 
       - name: Comprobar el programa (pruebas automáticas)
+        if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
         run: python -m unittest discover -s tests -t .
 
       - name: Actualizar datos
+        if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
         env:
           # Clave de la IA de Claude. Si no existe, se clasifica solo por señales.
           # Qué modelo hace cada tarea se decide en ajustes/ia.toml.
@@ -53,7 +78,7 @@ jobs:
       # Se guarda aunque el paso anterior avise de un error: cada ciudad ya ha
       # dejado sus datos buenos (o los de ayer, si una fuente falló).
       - name: Guardar los datos en el repositorio
-        if: always()
+        if: ${{ always() && !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
         run: |
           git config user.name "actualizador-automatico"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

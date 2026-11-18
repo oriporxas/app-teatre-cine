@@ -36,8 +36,13 @@ Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
 GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KEY` y
 `TMDB_TOKEN` en GitHub: **creados por Uri** (lo confirmó el 17/11/2026; no volver a
 preguntárselo). Claude no puede leer los secretos: se comprueban en el registro de la tarea
-diaria (sale `***` si existen). Ojo: la tarea diaria no se ha ejecutado desde el 8/11/2026
-(cuenta suspendida); revisar que vuelva a ejecutarse. Pendiente de Uri: elegir alojamiento.
+diaria (sale `***` si existen). Comprobado el 17/11/2026 en la ejecución manual (run
+44197396365): los dos llegan, 141 pruebas bien, 44 min, 0,51 $, 626 fichas en la app, commit
+automático «Datos del …» hecho. La tarea programada vuelve a salir sola (18/11, con una hora de
+retraso de GitHub), pero ese día la API del Ayuntamiento respondió 403 a GitHub en la primera
+consulta: ahora un 403 se reintenta dos veces con pausa larga (`descargar.py`) y hay un segundo
+intento a las 13:17 UTC que solo trabaja si faltan los datos del día. Pendiente de Uri:
+elegir alojamiento.
 **Antes de dar algo por pendiente o hecho, comprobarlo** (no fiarse de notas antiguas).
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de

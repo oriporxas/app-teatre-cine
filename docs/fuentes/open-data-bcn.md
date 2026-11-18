@@ -156,3 +156,13 @@ siendo la misma ficha.
   sala, horario, precio y enlace de compra. Hoy tiene unas 400 actividades
   vigentes en Barcelona ciudad (~110 de teatro). Útil como segunda fuente y para
   cruzar categorías; habrá que evitar duplicados (una sola ficha por obra).
+
+## 403 pasajeros desde GitHub (18/11/2026)
+
+La tarea programada del 18/11 recibió «403 Forbidden» en la primera consulta a la API
+(`package_show`), siete horas después de que la misma consulta funcionara desde GitHub y mientras
+funcionaba desde la nube de Claude. Parece un bloqueo pasajero del servidor del Ayuntamiento a
+las direcciones de GitHub. Medidas: `_pedir_con_reintentos` reintenta un 403 dos veces (tras 30 s y
+2 min, la misma petición, sin cambiar nada para saltarse un bloqueo) y el error dice qué dirección
+falló; y la tarea diaria tiene un segundo intento a las 13:17 UTC que solo trabaja si no están los
+datos del día.
