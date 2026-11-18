@@ -14,9 +14,12 @@ unos días en completarse). Las fotos son de Wikimedia Commons (licencias libres
 from __future__ import annotations
 
 import datetime as dt
+import json
 import re
 import time
+import urllib.error
 import urllib.parse
+import urllib.request
 
 from . import config
 from .cine.tmdb import _wd
@@ -43,6 +46,61 @@ def separar(nombres: str) -> list[str]:
 
 def clave(nombre: str) -> str:
     return normalizar(nombre).replace(" ", "-")
+
+
+SPARQL = "https://query.wikidata.org/sparql"
+AGENTE = "CarteleraBarcelona/1.0 (cartelera de artes escénicas; uso personal)"
+POR_LOTE = 40
+
+
+def _sparql(consulta: str) -> dict | None:
+    url = f"{SPARQL}?{urllib.parse.urlencode({'query': consulta, 'format': 'json'})}"
+    for intento in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": AGENTE,
+                                                                             "Accept": "application/sparql-results+json"}), timeout=60) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            time.sleep(min(int(e.headers.get("Retry-After") or 10), 60) if e.code == 429 else 5 * (intento + 1))
+        except Exception:  # noqa: BLE001
+            time.sleep(5 * (intento + 1))
+    return None
+
+
+def candidatos_lote(nombres: list[str]) -> dict[str, set[str]] | None:
+    """{nombre normalizado: personas de Wikidata con ese nombre exacto (o alias), españolas y de las artes}.
+    Una sola consulta para muchos nombres (mucho más rápido que buscarlos uno a uno)."""
+    esc = lambda n: n.replace("\\", "").replace('"', '\\"')  # noqa: E731
+    valores = " ".join(f'"{esc(n)}"@{l}' for n in nombres for l in ("es", "ca", "en"))
+    oficios = " ".join(f"wd:{o}" for o in sorted(OFICIOS))
+    consulta = (f"SELECT DISTINCT ?item ?nombre WHERE {{ VALUES ?nombre {{ {valores} }} "
+                "?item rdfs:label|skos:altLabel ?nombre . ?item wdt:P31 wd:Q5 . "
+                f"FILTER EXISTS {{ ?item wdt:P27 wd:{ESPANA} }} "
+                f"FILTER EXISTS {{ VALUES ?o {{ {oficios} }} ?item wdt:P106 ?o }} }}")
+    r = _sparql(consulta)
+    if r is None:
+        return None
+    res: dict[str, set[str]] = {}
+    for b in r.get("results", {}).get("bindings", []):
+        res.setdefault(normalizar(b["nombre"]["value"]), set()).add(b["item"]["value"].rsplit("/", 1)[-1])
+    return res
+
+
+def detalles(qids: list[str]) -> dict[str, dict]:
+    """Foto, descripción y Wikipedia de cada persona (de 50 en 50)."""
+    res = {}
+    for n in range(0, len(qids), 50):
+        r = _wd(action="wbgetentities", ids="|".join(qids[n:n + 50]), props="descriptions|claims|sitelinks", languages="es|ca")
+        for q, e in ((r or {}).get("entities") or {}).items():
+            claims = e.get("claims") or {}
+            foto = next((((c.get("mainsnak") or {}).get("datavalue") or {}).get("value") for c in claims.get("P18", [])), None)
+            desc = {l: e["descriptions"][l]["value"] for l in ("es", "ca") if l in (e.get("descriptions") or {})}
+            sitios = e.get("sitelinks") or {}
+            wiki = next((f"https://{l[:2]}.wikipedia.org/wiki/{urllib.parse.quote(sitios[l]['title'].replace(' ', '_'))}"
+                         for l in ("eswiki", "cawiki") if l in sitios), None)
+            res[q] = {"wikidata": q, "descripcion": desc or None, "wikipedia": wiki,
+                      "foto": f"https://commons.wikimedia.org/wiki/Special:FilePath/{urllib.parse.quote(foto.replace(' ', '_'))}?width=300" if foto else None}
+    return res
 
 
 def _buscar(nombre: str) -> dict | None:
@@ -98,22 +156,23 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
             for n in separar(gente):
                 nombres.setdefault(clave(n), n)
     inf = {"nombres": len(nombres), "buscados_hoy": 0, "encontrados": 0}
-    for k, n in nombres.items():
-        reg = cache.get(k)
-        if reg and (hoy - dt.date.fromisoformat(reg["fecha"])).days < DIAS_VALIDEZ:
-            continue
+    pendientes = [(k, n) for k, n in nombres.items()
+                  if not (cache.get(k) and (hoy - dt.date.fromisoformat(cache[k]["fecha"])).days < DIAS_VALIDEZ)]
+    for i in range(0, len(pendientes), POR_LOTE):
         if not leer_webs or time.monotonic() > fin:
-            continue
-        try:
-            datos = _buscar(n)
-        except RuntimeError:
+            break
+        lote = pendientes[i:i + POR_LOTE]
+        encontrados = candidatos_lote([n for _, n in lote])
+        if encontrados is None:
             inf["aviso"] = "Wikidata no responde: el resto, otro día"
             break
-        cache[k] = {"fecha": hoy.isoformat(), "nombre": n, "datos": datos or {}}
-        inf["buscados_hoy"] += 1
-        if inf["buscados_hoy"] % 25 == 0:
-            guardar_json(ruta, cache)
-        time.sleep(0.5)
+        unicos = {k: next(iter(encontrados[normalizar(n)])) for k, n in lote if len(encontrados.get(normalizar(n), ())) == 1}
+        info = detalles(sorted(set(unicos.values())))
+        for k, n in lote:  # una sola persona posible: esa; ninguna o varias: nada (no se adivina)
+            cache[k] = {"fecha": hoy.isoformat(), "nombre": n, "datos": info.get(unicos.get(k), {}) if k in unicos else {}}
+        inf["buscados_hoy"] += len(lote)
+        guardar_json(ruta, cache)
+        time.sleep(1)
     # Premios de las personas encontradas (la misma lectura de Wikidata que usa el cine).
     qids = [r["datos"]["wikidata"] for r in cache.values() if (r.get("datos") or {}).get("wikidata")]
     cache_premios = cache.setdefault("_premios", {}) if isinstance(cache.get("_premios", {}), dict) else {}

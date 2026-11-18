@@ -1,0 +1,6899 @@
+{
+  "http://tickets.fantastixsuper3.com/fanmuslinkIV/index.jsp?nom_cache=FANTASTIX&property=FANTASTIX&grupActiv=1&_gl=1*1rxmgj6*_ga*MTU5MDMzMDUzNy4xNzkzODgwOTk1*_ga_N76J1ZZJD3*czE3OTM4ODA5OTIkbzEkZzAkdDE3OTM4ODEwMDEkajYwJGwwJGg5Mjk3NzM2Njk.*_gcl_aw*R0NMLjE3OTM4ODA5OTUuRUFJYUlRb2JDaE1JbjhDVnR1Zndsd01WUWM5RUJ4MzdXZzZlRUFBWUFTQUFFZ0pTUlBEX0J3RQ..*_gcl_au*MTQ0MDQyNzM0OC4xNzkzODgwOTg3": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "97f0cca3cca97a70",
+    "imagen": null
+  },
+  "https://circoraluy.janto.es/espectaculo/circo-raluy-legacy--cyborg--barcelona-2026/CKE172": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "884ef49d3c526201",
+    "imagen": null
+  },
+  "https://comedy4you.bol.pt/Comprar/Bilhetes/182261-barcelona_bumba_na_fofinha_joana_marques-teatre_l_alianca_poblenou/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "b6e43b744e173709",
+    "imagen": "https://img.bol.pt/producao/imagens/espectaculos/cartaz156602_grande.jpg"
+  },
+  "https://dice.fm/event/k6789o-variets-by-churros-cabaret-brutal-20th-nov-teatre-balmes-barcelona-tickets?lng=es": {
+    "datos": null,
+    "fecha": "2026-11-18",
+    "firma": "a7cd20b3956d9b58",
+    "imagen": "https://dice-media.imgix.net/attachments/2026-10-01/ae5e58f2-3224-4ae4-9b70-7dc2c79e2dcf.jpg?rect=0%2C216%2C1080%2C648&w=1300&h=630&auto=compress"
+  },
+  "https://elcentrepoblenou.cat/lestel-de-natzaret-6/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Direcció",
+          "Núria Recasens, Josep Maria Recasens, Assumpta Bruguera"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0700d81333b4b411",
+    "imagen": "https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-ESTEL-A4-I-A3-2026.png"
+  },
+  "https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Direcció",
+          "Marçal Olivé"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "d449dddd0a764fa8",
+    "imagen": "https://elcentrepoblenou.cat/wp-content/uploads/2026/06/Cartell_Botiga-scaled.jpg"
+  },
+  "https://elmalda.cat/espectacle/bisila/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Autoria",
+          "Amada Bokesa, Arnau Aiguabella"
+        ],
+        [
+          "Interpretació",
+          "Amada Bokesa, Arnau Aiguabella, Valentina Scapusio"
+        ],
+        [
+          "Direcció",
+          "Carla Coll"
+        ],
+        [
+          "Assistència direcció",
+          "Valentina Scapusio"
+        ],
+        [
+          "Escenografia",
+          "Camille Latron"
+        ],
+        [
+          "Vestuari",
+          "Sofia Archer"
+        ],
+        [
+          "Fotografia",
+          "Heidi Ramírez"
+        ],
+        [
+          "Moviment",
+          "Shorlady Preciado"
+        ],
+        [
+          "Disseny de so",
+          "Pol Cluella"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "95ca4056adcba2d7",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/06/BISILA-Banner-web-vertical.jpg"
+  },
+  "https://elmalda.cat/espectacle/calla-nena/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Dramatúrgia",
+          "Mariona Esplugues"
+        ],
+        [
+          "Direcció escènica",
+          "Montse Rodríguez"
+        ],
+        [
+          "Intèrprets",
+          "Rosa May, Mariona Esplugues"
+        ],
+        [
+          "Assessorament artístic i dramatúrgic",
+          "Andrea Castellanos"
+        ],
+        [
+          "Disseny d’espai sonor",
+          "Gerard Bosch"
+        ],
+        [
+          "Composició musical",
+          "Pep Lladó"
+        ],
+        [
+          "Vestuari i caracterització",
+          "Andrea Castellanos"
+        ],
+        [
+          "Disseny d’ il·luminació",
+          "Paula Costas"
+        ],
+        [
+          "Fotografia",
+          "MW Fotografia"
+        ],
+        [
+          "Cap tècnic",
+          "Gerard Bosch"
+        ],
+        [
+          "Premsa i comunicació",
+          "Nil Martín"
+        ],
+        [
+          "Producció executiva i distribució",
+          "Tot Produccions (Cristina Ferrer)"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Beca Barcelona Crea 2026",
+          "cita": "Aquesta obra ha rebut una Beca Barcelona Crea 2026",
+          "es": "Beca Barcelona Crea 2026",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "2133693a360bd15b",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/09/Banner-web-vertical-copia.jpg"
+  },
+  "https://elmalda.cat/espectacle/cartografia-de-la-llum/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Idea",
+          "Col·lectiu Desasosiego (Alex Solsona, Camille Latron, Carla Coll)"
+        ],
+        [
+          "Direcció",
+          "Alex Solsona"
+        ],
+        [
+          "Text",
+          "Carla Coll"
+        ],
+        [
+          "Espai",
+          "Camille Latron"
+        ],
+        [
+          "Interpretació",
+          "Carla Coll, Camille Latron, intèrpret a determinar"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e1c5a178bdcb8e3e",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/06/CARTOGRAFIA-Banner-web-vertical.jpg"
+  },
+  "https://elmalda.cat/espectacle/el-dibuixant-de-laberints/": {
+    "datos": {
+      "duracion": 85,
+      "equipo": [
+        [
+          "Autoria",
+          "Nil Martín López"
+        ],
+        [
+          "Direcció",
+          "Júlia Valdivielso"
+        ],
+        [
+          "Interpretació",
+          "Carla Coll, Nil Martín"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Elaine Grayling"
+        ],
+        [
+          "Producció",
+          "Laura Molner"
+        ],
+        [
+          "Disseny d’escenografia i vestuari",
+          "Camille Latron Llorens"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Joan Griset"
+        ],
+        [
+          "Disseny de so",
+          "Gerard Bosch"
+        ],
+        [
+          "Audiovisuals",
+          "Arnau Aiguabella, Nil Martín"
+        ],
+        [
+          "Assessorament dramatúrgic",
+          "Joan Yago"
+        ],
+        [
+          "Assessorament vocal",
+          "Mariona Esplugues"
+        ],
+        [
+          "Veu en off",
+          "David Vert"
+        ],
+        [
+          "Sintonia late night",
+          "Pep Lladó"
+        ],
+        [
+          "Confecció telons",
+          "Berta Mas"
+        ],
+        [
+          "Figuració vídeo",
+          "Ari Alhama, Martí Alós, Anna Calopa, Sara Domènech"
+        ],
+        [
+          "Fotografies promocionals",
+          "Désirée Gómez"
+        ],
+        [
+          "Vídeo teaser",
+          "Désirée Gómez, Albert Tissot"
+        ],
+        [
+          "Fotografia d’espectacle",
+          "MW Fotografia, Martí Boixader"
+        ],
+        [
+          "Comunicació i premsa",
+          "Laura Molner, Nil Martín"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Nominat Premi Revelació – Nil Martín López (IX Premis Teatre Barcelona)",
+          "cita": "NOMINAT PREMI REVELACIÓ – NIL MARTÍN LÓPEZ (IX PREMIS TEATRE BARCELONA)",
+          "es": "Nominado Premio Revelación – Nil Martín López (IX Premios Teatre Barcelona)",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "cab64e951a36e997",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/09/laberint-vertical-copia.jpg"
+  },
+  "https://elmalda.cat/espectacle/el-piset/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Dramatúrgia",
+          "Joana Castellano"
+        ],
+        [
+          "Direcció",
+          "Eu Manzanares"
+        ],
+        [
+          "Interpretació",
+          "Julia Calzada, Joana Castellano, Gisela Guitart, Paula Segura"
+        ],
+        [
+          "Assessoria de dramatúrgia",
+          "Joan Yago"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Sergi Cerdan"
+        ],
+        [
+          "Escenografia",
+          "Clàudia Serra"
+        ],
+        [
+          "Figurinisme i caracterització",
+          "Núria Llunell"
+        ],
+        [
+          "Moviment",
+          "Davo Marín"
+        ],
+        [
+          "Equip tècnic i disseny de so",
+          "Gerard Bosch"
+        ],
+        [
+          "Un espectacle de",
+          "Cia. Facòf"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Espectacle seleccionat a la convocatòria de textos 25-26 d’On el teatre batega",
+          "cita": "Espectacle seleccionat a la convocatòria de textos 25-26 d’On el teatre batega",
+          "es": "Espectáculo seleccionado en la convocatoria de textos 25-26 de On el teatre batega",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "84da10d732a19b89",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/06/PISET-Banner-web-vertical.jpg"
+  },
+  "https://elmalda.cat/espectacle/els-oblidats/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Un monòleg de",
+          "Laura Aubert, Carla Coll"
+        ],
+        [
+          "Traduccions de",
+          "Salvador Oliva, Josep Maria de Sagarra"
+        ],
+        [
+          "Intèrpret",
+          "Laura Aubert"
+        ],
+        [
+          "Regidoria",
+          "Candela Díaz Sanz"
+        ],
+        [
+          "Direcció",
+          "Adrià Aubert"
+        ],
+        [
+          "Ajudant de direcció",
+          "Carla Coll"
+        ],
+        [
+          "Moviment",
+          "Robert González"
+        ],
+        [
+          "Disseny de vestuari",
+          "Maria Albadalejo"
+        ],
+        [
+          "Caracterització",
+          "Toni Santos"
+        ],
+        [
+          "Disseny d'escenografia",
+          "Enric Romaní"
+        ],
+        [
+          "Atrezzo",
+          "Montse Farrarons"
+        ],
+        [
+          "Il·luminació",
+          "Adrià Aubert"
+        ],
+        [
+          "Espai sonor",
+          "Damià Duran"
+        ],
+        [
+          "Cançó original",
+          "Ariadna Cabiró"
+        ],
+        [
+          "Producció",
+          "Montse Farrarons"
+        ],
+        [
+          "Producció executiva",
+          "Marina Marcos"
+        ],
+        [
+          "Premsa i comunicació",
+          "Ester Cánovas, Anna Castillo"
+        ],
+        [
+          "Fotografies promocionals",
+          "Sergi Panizo"
+        ],
+        [
+          "Vídeo promocional",
+          "Marta Caravaca, Gusto Audiovisual"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7ef0dc2c2957453a",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/06/OBLIDATS-Banner-web-vertical.jpg"
+  },
+  "https://elmalda.cat/espectacle/escenes-duna-separacio/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Direcció",
+          "Mercè Vila Godoy"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Jordi Robles"
+        ],
+        [
+          "Dramatúrgia",
+          "Eva Pauné Martínez"
+        ],
+        [
+          "Repartiment",
+          "Patricia Bargalló, Mar Pawlowsky, Eric Balbàs"
+        ],
+        [
+          "Escenografia",
+          "Albert Ventura"
+        ],
+        [
+          "Vestuari",
+          "Carlota Ricart"
+        ],
+        [
+          "Cap tècnica",
+          "Maria Vaillo"
+        ],
+        [
+          "Il·luminació",
+          "Mireia Sintes"
+        ],
+        [
+          "Disseny de so",
+          "Dolo Beltrán"
+        ],
+        [
+          "Comunicació",
+          "Pablo Cavero, El Eje"
+        ],
+        [
+          "Fotografies promocionals i de cartell",
+          "Itsaso Arizkuren"
+        ],
+        [
+          "Fotografies d’assajos i escena",
+          "Aitor Rodero"
+        ],
+        [
+          "Distribució i producció executiva",
+          "Biel Martínez Lorca"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "aef1ddd707eec2d9",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2025/09/ESTIUEGI-vertical-copia-2.jpg"
+  },
+  "https://elmalda.cat/espectacle/guillermotta/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Dramatúrgia i direcció",
+          "Jordi Prat, Coll"
+        ],
+        [
+          "Direcció musical",
+          "Jordi Cornudella"
+        ],
+        [
+          "Intèrpret",
+          "Jordi Vidal"
+        ],
+        [
+          "Piano",
+          "Jordi Cornudella"
+        ],
+        [
+          "Vestuari",
+          "Míriam Compte"
+        ],
+        [
+          "Caracterització",
+          "Núria Llunell"
+        ],
+        [
+          "Espai escènic i Il·luminació",
+          "Joan Griset"
+        ],
+        [
+          "Disseny cartell",
+          "David Pintó"
+        ],
+        [
+          "Fotografies",
+          "Pere Elies"
+        ],
+        [
+          "Distribució",
+          "Monicadegira"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "28579063aa50e26d",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2022/07/GUILLERMOTTA-vertical.jpg"
+  },
+  "https://elmalda.cat/espectacle/hi-im-steven-3/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Dramatúrgia i direcció",
+          "Cia. Les Pinyes"
+        ],
+        [
+          "Intèrprets",
+          "Marta Asamar Garcia, Cèlia Castellano Algaba, Noèlia Fajardo Franch"
+        ],
+        [
+          "Text",
+          "Ramon Micó Vallvé"
+        ],
+        [
+          "Escenografia",
+          "Enric Romaní"
+        ],
+        [
+          "Figurinisme i caracterització",
+          "Cia. Les Pinyes"
+        ],
+        [
+          "Il·luminació",
+          "Adrià Aubert"
+        ],
+        [
+          "Disseny de so",
+          "Damià Duran"
+        ],
+        [
+          "Confecció",
+          "Florencia Gonzalez Lahuerta"
+        ],
+        [
+          "Disseny i construcció de titelles",
+          "Magí Ferré Catà"
+        ],
+        [
+          "Producció",
+          "Anna Castillo"
+        ],
+        [
+          "Producció executiva",
+          "Marina Marcos"
+        ],
+        [
+          "Comunicació i premsa",
+          "Ester Cánovas, Anna Castillo"
+        ],
+        [
+          "Distribució",
+          "Montse Farrarons"
+        ],
+        [
+          "Fotografies promocionals i de funció",
+          "Sergi Panizo"
+        ],
+        [
+          "Vídeo promocional",
+          "Gusto Productora Audiovisual"
+        ],
+        [
+          "Tema musical",
+          "Carinyo – Svetlana"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "bd2c2a05e6f07c5d",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2026/06/STEVEN-Banner-web-vertical.jpg"
+  },
+  "https://elmalda.cat/espectacle/observin-aquests-fills-de-puta/": {
+    "datos": {
+      "duracion": 100,
+      "equipo": [
+        [
+          "Autor",
+          "Adrián Perea"
+        ],
+        [
+          "Co-Direcció",
+          "Dúo Fàcil, Adrián Perea Nava"
+        ],
+        [
+          "Intèrprets",
+          "Marc Domingo, Cris Martínez, Francesc Marginet Sensada, Clara Mingueza, Abel Reyes Alabart, Marc Tarrida Aribau, Agnès Casals Visús, Gerard Franch Lopera"
+        ],
+        [
+          "Espai Escènic i disseny de llum",
+          "Ona Guilera"
+        ],
+        [
+          "Sorollista",
+          "Àlex Polls"
+        ],
+        [
+          "Assesorament de vestuari",
+          "Jess Sibina"
+        ],
+        [
+          "Producció executiva",
+          "Judit M. Gené"
+        ],
+        [
+          "Fotografies",
+          "Laia Nogueras"
+        ],
+        [
+          "Tràiler",
+          "Irene Pagès Molina"
+        ],
+        [
+          "Vídeo",
+          "David Andrés"
+        ],
+        [
+          "Coproducció",
+          "Fundació Joan Brossa-Centre de les Arts Lliures, Dúo Fàcil"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f328fc0c2563d3c5",
+    "imagen": "https://elmalda.cat/wp-content/uploads/2024/06/OBSERVIN-AQUESTS-vertical.jpg"
+  },
+  "https://entradium.com/ca/events/classics-barcelona": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://entradium.com/ca/events/el-geperut": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://entradium.com/ca/events/els-pastorets-d-abraxas-teatre-barcelona-foment-martinenc": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://entradium.com/ca/events/greta-la-rateta-que-escombrava-barcelona": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://entradium.com/ca/events/l-aneguet-lleig-2daa5e49-b226-4c34-920d-e580276bc620": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://entradium.com/ca/events/point": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://entradium.com/events/eden-serrano-en-barcelona-golem-s": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
+  "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/el-cantante/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Direcció i dramatúrgia",
+          "Ivan Morales"
+        ],
+        [
+          "Intèrprets",
+          "Ivan Morales, Dudu Alves"
+        ],
+        [
+          "Visió externa i ajudantia de direcció",
+          "Irene Vicente"
+        ],
+        [
+          "Vestuari i escenografia",
+          "Jose Novoa"
+        ],
+        [
+          "Llums",
+          "Toni Ubach"
+        ],
+        [
+          "Producció",
+          "Júlia Simó, Maria Rovelló"
+        ],
+        [
+          "Distribució",
+          "Guillem Albasanz"
+        ],
+        [
+          "Producció",
+          "Centre de les Arts Lliures de la Fundació Joan Brossa, Cassandra Projectes Artístics"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5493f5b4e5d46f30",
+    "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/07/17_EL-CANTANTE.jpg"
+  },
+  "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/no-pares-sigue-sigue/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Idea orginal i text",
+          "Sergi Casero"
+        ],
+        [
+          "Direcció",
+          "Sergi Casero, Mònica Molins"
+        ],
+        [
+          "En escena",
+          "Sergi Casero"
+        ],
+        [
+          "Acompanyament dramatúrgic",
+          "Markos Goikolea"
+        ],
+        [
+          "Disseny de llum",
+          "Miguel Ruz"
+        ],
+        [
+          "Disseny de so",
+          "Guillem Rodríguez"
+        ],
+        [
+          "Vestuari",
+          "Sara Clemente"
+        ],
+        [
+          "Producció",
+          "Centrale Fies"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "27d074faf1528fc3",
+    "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/09/no-pares_web-1920x1280.jpg"
+  },
+  "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/se-necesita-un-pantalon/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Creació escènica",
+          "Víctor Colmenero Mir"
+        ],
+        [
+          "Text",
+          "Ramón Gómez de la Serna"
+        ],
+        [
+          "Assistència tècnica i musical",
+          "Pol Clusella"
+        ],
+        [
+          "Fotografia i vídeo",
+          "Mala Sombra Estudio"
+        ],
+        [
+          "Arxiu documental",
+          "manuscrit original, inèdit cedit per Joan Gil Gregorio"
+        ],
+        [
+          "Coproducció",
+          "Centre de les Arts Lliures de la Fundació Joan Brossa – IF Barcelona"
+        ],
+        [
+          "Agraïments",
+          "La Poderosa, La Caldera, Gloria G. Durán"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "78270d3e4c23db19",
+    "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/09/2026_SNUP_VICTOR_FR_00008-1-768x575.png"
+  },
+  "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/si-deu-es-bellesa-la-bellesa-existeix/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Autoria",
+          "Albert Arribas, Sílvia Delagneau, Alícia Gorina"
+        ],
+        [
+          "Text",
+          "Albert Arribas"
+        ],
+        [
+          "Direcció",
+          "Alícia Gorina"
+        ],
+        [
+          "Escenografia, vestuari i acció plàstica",
+          "Sílvia Delagneau"
+        ],
+        [
+          "Intèrpret",
+          "Oriol Guinart"
+        ],
+        [
+          "Il·luminació",
+          "Quim Algora"
+        ],
+        [
+          "Ajudanta d'escenografia i confecció blocs de guix",
+          "Aurembiaix Montardit"
+        ],
+        [
+          "Producció executiva i comunicació",
+          "Centaure Produccions"
+        ],
+        [
+          "Producció",
+          "Centaure Produccions"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Crítica Serra d'Or 2025 a la millor aportació a l'escena contemporània",
+          "cita": "Premi Crítica Serra d’Or 2025 a la millor aportació a l’escena contemporània",
+          "es": "Premio Crítica Serra d'Or 2025 a la mejor aportación a la escena contemporánea",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "2fa33222cd7fa15b",
+    "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/07/11_SI-DEU-ES-BELLESA.jpg"
+  },
+  "https://heartbreakhotel.cat/la-paret-de-vidre": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Autoria",
+          "Toni Sala"
+        ],
+        [
+          "Direcció",
+          "Albert Arribas"
+        ],
+        [
+          "Intèrpret",
+          "Mara Jiménez"
+        ],
+        [
+          "Escenografia",
+          "Aurembiaix Montardit"
+        ],
+        [
+          "Vestuari",
+          "Manuel Mateos"
+        ],
+        [
+          "Producció i comunicació",
+          "Centaure Produccions"
+        ],
+        [
+          "Fotografia del cartell",
+          "Marta Corredor"
+        ],
+        [
+          "Agraïments",
+          "Esteve Miralles"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "995f3209f4b53cf7",
+    "imagen": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/YKb3zkp4bguVMqOL/captura-de-pantalla-2026-06-27-a-les-22.16.40-kKZGr9evVAj6FfMU.png"
+  },
+  "https://heartbreakhotel.cat/lluna-plena": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Dirección",
+          "Àlex Rigola"
+        ],
+        [
+          "Adaptación",
+          "Àlex Rigola"
+        ],
+        [
+          "Diseño de luces",
+          "Àlex Rigola"
+        ],
+        [
+          "Traducción",
+          "Mercè Ubach"
+        ],
+        [
+          "Repartiment",
+          "Andreu Benito, Luisa Castell, Miranda Gas & Ernest Villegas"
+        ],
+        [
+          "Espai escènic",
+          "Patrícia Albizu"
+        ],
+        [
+          "Fotografía",
+          "Martín Ramiro/Àlex Rigola"
+        ],
+        [
+          "Ajudant de direcció",
+          "Maria Cambil"
+        ],
+        [
+          "Assistència a la direcció",
+          "Nora Rigola"
+        ],
+        [
+          "Coordinació tècnica",
+          "Igor Pinto"
+        ],
+        [
+          "Produccció executiva",
+          "Titus Andrònic sl"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Butaca al millor espectacle de petit format",
+          "cita": "PREMI BUTACA MILLOR ESPECTACLE DE PETIT FORMAT",
+          "es": "Premio Butaca al mejor espectáculo de pequeño formato",
+          "origen": "web"
+        },
+        {
+          "ca": "Nominada als Premis de la Crítica",
+          "cita": "LLUÏSA CASTELL NOMINADA ALS PREMIS DE LA CRÏTICA I ALS PREMIS BUTACA",
+          "es": "Nominada a los Premios de la Crítica",
+          "origen": "web"
+        },
+        {
+          "ca": "Nominada als Premis Butaca",
+          "cita": "LLUÏSA CASTELL NOMINADA ALS PREMIS DE LA CRÏTICA I ALS PREMIS BUTACA",
+          "es": "Nominada a los Premios Butaca",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "d9e5785e59d53bcc",
+    "imagen": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/YKb3zkp4bguVMqOL/img_2990bn2-AoPWjX984aIZRDa9.png"
+  },
+  "https://heartbreakhotel.cat/retorn-a-haifa": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Adaptació, disseny de llums i direcció",
+          "Àlex Rigola"
+        ],
+        [
+          "Repartiment",
+          "Chantal Aimeé, Jordi Figueras, Ariadna Gil I Carles Roig"
+        ],
+        [
+          "Traducció",
+          "Anna Gil Bardají"
+        ],
+        [
+          "Espai escènic",
+          "Patricia Albizu"
+        ],
+        [
+          "Ajudant de direcció",
+          "Paula Blanco"
+        ],
+        [
+          "Produccció executiva",
+          "Mireia Pol"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Nominada als Premis Butaca a Millor espectacle petit format",
+          "cita": "NOMINADA ALS PREMIS BUTACA MILLOR ESPECTACLE PETIT FORMAT",
+          "es": "Nominada a los Premios Butaca a Mejor espectáculo de pequeño formato",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "8d00b612ed284896",
+    "imagen": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/YKb3zkp4bguVMqOL/i00a5950-3yyk4Gp68dz9g8l5.jpg"
+  },
+  "https://heartbreakhotel.cat/teoria-king-kong": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Autoria",
+          "Virginie Despentes"
+        ],
+        [
+          "Traducció",
+          "Marina Espasa"
+        ],
+        [
+          "Adaptació",
+          "M. Àngels Cabré"
+        ],
+        [
+          "Direcció",
+          "Isis Martín"
+        ],
+        [
+          "Repartiment",
+          "Maria Pau Pigem"
+        ],
+        [
+          "Dramaturgista",
+          "Aleix Fauró"
+        ],
+        [
+          "Espai escènic",
+          "Paula Font, Paula González"
+        ],
+        [
+          "Disseny de llums",
+          "Manoly Rubio Garcia"
+        ],
+        [
+          "Vestuari",
+          "Berta Riera"
+        ],
+        [
+          "Espai sonor",
+          "Uriel Ireland"
+        ],
+        [
+          "Disseny de vídeo",
+          "Mariana Echeverri"
+        ],
+        [
+          "Coordinació d'intimitat",
+          "Lola Clavo"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Laura Giberga, Ariadna Rossell"
+        ],
+        [
+          "Produccció executiva",
+          "Anna Maruny, Júlia Simó"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7c408d138bb40234",
+    "imagen": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/YKb3zkp4bguVMqOL/kingkongretrat-bw-sWwYid5TH9pDW4eK.png"
+  },
+  "https://mercatflors.cat/espectacle/i-les-idees-volen-3/?_gl=1*1te9bbw*_up*MQ..*_ga*OTU1NTczMTM5LjE3ODM5MjE4NDE.*_ga_M1CT00MXEK*czE3ODM5MjE4NDEkbzEkZzAkdDE3ODM5MjE4NDEkajYwJGwwJGgw": {
+    "datos": {
+      "duracion": 30,
+      "equipo": [
+        [
+          "Autoria",
+          "Quim Girón, Jou Serra, Joan Cot"
+        ],
+        [
+          "Música i espai sonor",
+          "Joan Cot Ros"
+        ],
+        [
+          "Disseny i espai lumínic",
+          "Jou Serra"
+        ],
+        [
+          "I nterpretació i moviment",
+          "Quim Girón"
+        ],
+        [
+          "Producció administrativa",
+          "Elclimamola"
+        ],
+        [
+          "Producció en gira",
+          "Jaume Nieto"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Especial Ciutat de Barcelona",
+          "cita": "el Premi Especial Ciutat de Barcelona per l’espectacle Sifonòfor l’any 2016",
+          "es": "Premio Especial Ciutat de Barcelona",
+          "origen": "web"
+        },
+        {
+          "ca": "Espectacle recomanat Cuaderno de Espectáculos Recomendados de La Red",
+          "cita": "Espectacle recomanat Cuaderno de Espectáculos Recomendados de La Red",
+          "es": "Espectáculo recomendado por el Cuaderno de Espectáculos Recomendados de La Red",
+          "origen": "web"
+        },
+        {
+          "ca": "Seleccionat al Circuito Danza a Escena 2021",
+          "cita": "Seleccionat al Circuito Danza a Escena 2021",
+          "es": "Seleccionado en el Circuito Danza a Escena 2021",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "2bfbb1080aaf445b",
+    "imagen": "https://mercatflors.cat/wp-content/uploads/2024/05/Animal-Religion_i-les-idees-voen_380x230-jpg.webp"
+  },
+  "https://mercatflors.cat/espectacle/la-casa-intemperie/?_gl=1*1p0mb0p*_up*MQ..*_ga*OTU1NTczMTM5LjE3ODM5MjE4NDE.*_ga_M1CT00MXEK*czE3ODM5MjE4NDEkbzEkZzAkdDE3ODM5MjE4NDEkajYwJGwwJGgw": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Artistes de circ",
+          "Wanja Kahlert, Anna Pascual/ L’adolescent Ot Bretones i/o Laia Vives"
+        ],
+        [
+          "Direcció",
+          "Rolando San Martín"
+        ],
+        [
+          "Dramatúrgia",
+          "Anna Pascual, Wanja Kahlert, Rolando San Martín"
+        ],
+        [
+          "Vestuari",
+          "Bàrbara Glaenzel"
+        ],
+        [
+          "Espai sonor",
+          "LLuis Casahuga"
+        ],
+        [
+          "Distribució",
+          "Nicoletta Battaglia"
+        ],
+        [
+          "Producció",
+          "Berta Pascual Fernández"
+        ],
+        [
+          "Producció i distribució",
+          "La Utópica"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi d’Espectacles Nocturns a FETEN 2016",
+          "cita": "Va estar reconegut amb el premi d’Espectacles Nocturns a FETEN 2016",
+          "es": "Premio de Espectáculos Nocturnos en FETEN 2016 (de la compañía, por Acrometria)",
+          "origen": "web"
+        },
+        {
+          "ca": "premi Freiburger Leiter al Millor Espectacle de Carrer de la Kulturbörse Freiburg 2016",
+          "cita": "el premi Freiburger Leiter al Millor Espectacle de Carrer de la Kulturbörse Freiburg 2016",
+          "es": "Premio Freiburger Leiter al Mejor Espectáculo de Calle de la Kulturbörse Freiburg 2016",
+          "origen": "web"
+        },
+        {
+          "ca": "el premi a la Millor Campanya Nova Zirkolika 2012",
+          "cita": "el premi a la Millor Campanya Nova Zirkolika 2012",
+          "es": "Premio a la Mejor Campaña Nueva Zirkolika 2012",
+          "origen": "web"
+        },
+        {
+          "ca": "l’Aplaudiment a la Creació Emergent FAD 2013",
+          "cita": "l’Aplaudiment a la Creació Emergent FAD 2013",
+          "es": "Aplauso a la Creación Emergente FAD 2013",
+          "origen": "web"
+        },
+        {
+          "ca": "premi especial Zirkólica",
+          "cita": "Després de tot el 2022, premi especial Zirkólica",
+          "es": "Premio especial Zirkólica",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "6661ca2a331c6036",
+    "imagen": null
+  },
+  "https://rossishowtime.com/circodelmiedo/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "3f3b3fb4a41a8834",
+    "imagen": null
+  },
+  "https://rossishowtime.com/viva-el-circo/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c877c55e0604a63e",
+    "imagen": null
+  },
+  "https://salafenix.com/programacio/iaia-memoria-historica/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Creació i interpretació",
+          "Alba Valldaura"
+        ],
+        [
+          "Mirada externa",
+          "Jordi Dueso, Susana Borderia"
+        ],
+        [
+          "Cap tècnica",
+          "Gemma Abellan"
+        ],
+        [
+          "Producció executiva i distribució",
+          "Pau Gómez"
+        ],
+        [
+          "Fotografies",
+          "Transmutaciones, CCimagen"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f431a0d784cf3806",
+    "imagen": "https://salafenix.com/wp-content/uploads/30092023-037A3464-L-Embarral-700x467.jpg"
+  },
+  "https://salafenix.com/programacio/loto-un-ritual-de-emancipacion-corporal/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Direcció",
+          "Silvia Albert Sopale, mirada externa Carla Rovira"
+        ],
+        [
+          "Companyia",
+          "No es país para negras"
+        ],
+        [
+          "Producció",
+          "Periferia Cimarronas"
+        ],
+        [
+          "Il·luminació",
+          "Raúl Beldarrain"
+        ],
+        [
+          "Escenografia",
+          "Agnes Essontu Luque, Lluís Anglès Marimón, Silvia Albert Sopale"
+        ],
+        [
+          "Disseny de so",
+          "Mani Tapes"
+        ],
+        [
+          "Vestuari",
+          "Amada Sumonte, Silvia Albert Sopale"
+        ],
+        [
+          "Agraïments",
+          "Metáfora Studio Arts, Victorinos Bolekia Bonay"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "13289add90677b19",
+    "imagen": "https://salafenix.com/wp-content/uploads/DSC9823-Distribucion-Periferia-Cimarronas-467x700.jpg"
+  },
+  "https://salafenix.com/programacio/ocells-a-la-frontera/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Text i direcció",
+          "Marcela Terra"
+        ],
+        [
+          "Intèrprets",
+          "Martí Costa Olivé, Antonella Posso"
+        ],
+        [
+          "Disseny escènic",
+          "Meridiano 70ymedio Teatro"
+        ],
+        [
+          "Il·luminació i vestuari",
+          "Consuelo Barrera"
+        ],
+        [
+          "Espacio sonoro",
+          "Diego Caicedo"
+        ],
+        [
+          "Traducció",
+          "Miquel Vilanova"
+        ],
+        [
+          "Veus en off",
+          "Ashtar Alahmad, Padi Padilla, Miquel Vilanova, Antonella Posso, Javier Roma, Nicholas Spengler, Lara Serodio"
+        ],
+        [
+          "Fotografia i vídeo",
+          "Consuelo Barrera / Marcela Terra"
+        ],
+        [
+          "Disseny gràfic",
+          "Consuelo Barrera"
+        ],
+        [
+          "Assessorament en accessibilitat",
+          "Joan Heras"
+        ],
+        [
+          "Producció",
+          "Meridiano 70ymedio Teatro"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "2n Premi Finalista de la 9a convocatòria 2026 del Laboratori d'Arts Escèniques Tísner de Cotxeres Borrell",
+          "cita": "Amb el suport de: Centre Cívic del Besòs i el Maresme i Laboratori d'Arts Escèniques Tísner de Cotxeres Borrell – 2n Premi Finalista de la 9a convocatòria 2026",
+          "es": "2n Premio Finalista de la 9a convocatoria 2026 del Laboratori d'Arts Escèniques Tísner de Cotxeres Borrell",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "126e9eaae3190aa0",
+    "imagen": "https://salafenix.com/wp-content/uploads/23.HDA-original-700x526.jpg"
+  },
+  "https://salafenix.com/programacio/ollas-limpias-ollas-sucias/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Direcció",
+          "Sonia Espinosa Muñoz"
+        ],
+        [
+          "Actriu",
+          "Silvia Albert Sopale"
+        ],
+        [
+          "Text",
+          "Juan Tomás de Ávila Laurel"
+        ],
+        [
+          "Vestuari",
+          "Rogelio Lorda"
+        ],
+        [
+          "Escenografia i il·luminació",
+          "Manoly Rubio"
+        ],
+        [
+          "Producció",
+          "Lara Renard"
+        ],
+        [
+          "Ajudant de direcció i producció",
+          "Roger Serradell Zamora"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c412c2419ea86008",
+    "imagen": "https://salafenix.com/wp-content/uploads/PHOTO-2026-08-24-20-46-32.jpg"
+  },
+  "https://salafenix.com/programacio/trampantojo/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Dramatúrgia, direcció i idea original",
+          "Maria Villarejo Barberà"
+        ],
+        [
+          "Intèrprets",
+          "Cristina Sales Sarriera, Ana Nicolas de Cabo, Adrià Pagès Moliner, Maria Villarejo Barberà"
+        ],
+        [
+          "Veus en off",
+          "Lia Sampai"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Selene Sánchez de Carvalho"
+        ],
+        [
+          "Fotografies",
+          "Josep Tobella"
+        ],
+        [
+          "Foto cartel",
+          "Marc Sirisi"
+        ],
+        [
+          "Vestuari",
+          "Julia Ledesma"
+        ],
+        [
+          "Escenografia",
+          "Julia Ledesma, Anxo Baranga"
+        ],
+        [
+          "Coreografia",
+          "Esther Samâeh"
+        ],
+        [
+          "Edició d’àudios",
+          "Carlo Fidel"
+        ],
+        [
+          "Assessorament",
+          "Antonio Manuel, Beatriz Contreras, Julieta Mora. Pepelú Guardiola"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "premi a la millor actriu per a Maria Villarejo en el marc del Festival MUTIS 2024",
+          "cita": "L’obra va obtenir el premi a la millor actriu per a Maria Villarejo en el marc del Festival MUTIS 2024",
+          "es": "premio a la mejor actriz para Maria Villarejo en el marco del Festival MUTIS 2024",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "1d59681ac2224aaa",
+    "imagen": "https://salafenix.com/wp-content/uploads/Trampantojo-19-mar-2025-045-1-700x525.jpg"
+  },
+  "https://tantarantana.com/production/el-punk-no-ha-mort-temporada-teatre-26-27/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Direcció",
+          "Mònica Molins"
+        ],
+        [
+          "Autoria",
+          "Josep Sobrevals"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Maria Vaillo"
+        ],
+        [
+          "Espai sonor",
+          "Ignasi Guasch"
+        ],
+        [
+          "Interpretació",
+          "Josep Sobrevals"
+        ],
+        [
+          "Direcció de producció",
+          "Ignasi Guasch Martínez (Produccions del Senyor Màsters)"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "819835ad4af3d5ff",
+    "imagen": "https://tantarantana.com/wp-content/uploads/2026/08/EL-PUNK-NO-HA-MORT-Tantarantana-imatge.png"
+  },
+  "https://tantarantana.com/production/en-estat-dexcepcio-teatre-temporada-26-27/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Dramatúrgia",
+          "Falk Richter"
+        ],
+        [
+          "Traducció",
+          "Albert Tola"
+        ],
+        [
+          "Direcció",
+          "Eric Balbàs"
+        ],
+        [
+          "Adjuntia de direcció",
+          "Maria Hernandez Giralt"
+        ],
+        [
+          "Interpretació",
+          "Alicia González Laá, Òscar Muñoz, Enzo Oliver"
+        ],
+        [
+          "Escenografia",
+          "Albert Ventura"
+        ],
+        [
+          "Vestuari",
+          "Carlota Ricart"
+        ],
+        [
+          "Il·luminació",
+          "Mireia Sintes"
+        ],
+        [
+          "Disseny de so",
+          "Neus Ballbé"
+        ],
+        [
+          "Comunicació",
+          "Pablo Cavero Asencio"
+        ],
+        [
+          "Cap tècnic",
+          "Andrea Forlenza"
+        ],
+        [
+          "Producció",
+          "El Eje"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "69aa4fd3b57a969a",
+    "imagen": "https://tantarantana.com/wp-content/uploads/2026/08/En-estat-dexcepció_EL-EJE_Temporada_26_27-0-principal.png"
+  },
+  "https://tantarantana.com/production/la-mujer-del-tercero-teatre-26-27/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Dramatúrgia",
+          "Víctor Borrás"
+        ],
+        [
+          "Edició",
+          "Tamara Milagros, Omar Morán"
+        ],
+        [
+          "Direcció",
+          "Omar Morán"
+        ],
+        [
+          "Actriu",
+          "Tamara Ferreira"
+        ],
+        [
+          "Disseny sonor",
+          "Diego Betancourt"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Antonieta Henríquez"
+        ],
+        [
+          "Disseny de vestuari",
+          "Teatro Apátrida"
+        ],
+        [
+          "Producció",
+          "Morán, Ferreira"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "92e978d6ac5bfc3c",
+    "imagen": "https://tantarantana.com/wp-content/uploads/2026/10/La-mujer-del-tercero-BCN-OFF-TEATRO-APÁTRIDA-XXSS-1.png.jpg"
+  },
+  "https://tantarantana.com/production/perfectament-imperfecta-temporada-teatre-26-27/": {
+    "datos": {
+      "duracion": 85,
+      "equipo": [
+        [
+          "Autoria",
+          "Carla Gracia Mercadé"
+        ],
+        [
+          "Direcció",
+          "Laura Domènech Vila"
+        ],
+        [
+          "Interpretació",
+          "Montse Rodríguez, Clusella"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Irene Ferrer Panicot"
+        ],
+        [
+          "Disseny de so",
+          "Laura Domènech Vila"
+        ],
+        [
+          "Vídeos",
+          "Xavier Vila Bover"
+        ],
+        [
+          "Fotografia promocional",
+          "Ariadna Arnés"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "98d613f6de95cec8",
+    "imagen": "https://tantarantana.com/wp-content/uploads/2025/07/Perfectament-imperfecta-MONTSE-RODRÍGUEZ-I-CLUSELLA-Temporada-25-26-1.png"
+  },
+  "https://tantarantana.com/production/queria-ser-maricon-pero-naci-sudaca-teatre-temporada-26-27/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Creació i interpretació",
+          "Mazorra"
+        ],
+        [
+          "Acompanyament en la dramatúrgia",
+          "Oriol Morales, Pujolar"
+        ],
+        [
+          "Acompanyament en la direcció escènica",
+          "Erik Forsberg, Oriol Morales, Pujolar"
+        ],
+        [
+          "Disseny d’espai escènic i lumínic",
+          "Edgar Mora"
+        ],
+        [
+          "Construcció d’escenografia",
+          "Josep Pijuan"
+        ],
+        [
+          "Vestuari",
+          "Rodrigo Muñoz"
+        ],
+        [
+          "Disseny de so",
+          "Erik Forsberg"
+        ],
+        [
+          "Disseny audiovisual",
+          "Queer Falafel"
+        ],
+        [
+          "Comunicació",
+          "Paula Castillo"
+        ],
+        [
+          "Producció executiva",
+          "Erik Forsberg"
+        ],
+        [
+          "Producció administrativa",
+          "Làudanum"
+        ],
+        [
+          "Distribució a Mèxic",
+          "Artistas Prado"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e8bde5c7dd77f486",
+    "imagen": "https://tantarantana.com/wp-content/uploads/2026/06/Quería-ser-maricón-pero-nací-sudaca_MAZORRA_-Temporada_25_26-0.png"
+  },
+  "https://tantarantana.com/production/yeguas-sueltas-teatre-26-27/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Direcció i dramatúrgia",
+          "Ernes Orellana Gómez"
+        ],
+        [
+          "Interpretació",
+          "Lorenza Quezada, Ymar Fuentes Morán, Mala Reyes, Bruna Ramírez"
+        ],
+        [
+          "Disseny d’escenografia i vestuari",
+          "Jorge Zambrano"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Catalina Devia"
+        ],
+        [
+          "Disseny audiovisual",
+          "Wincy Oyarce"
+        ],
+        [
+          "Univers sonor",
+          "Marcello Martínez"
+        ],
+        [
+          "Producció general i assistència de direcció",
+          "Macarena Guzmán"
+        ],
+        [
+          "Realitzadores de vestuari",
+          "Muriel Parra, Javiera Labbé, Althia Cepeceda"
+        ],
+        [
+          "Encarregada de premsa",
+          "Francisca Palma"
+        ],
+        [
+          "Equip de fotografia",
+          "Registro Contracultural (Marlene Echeverria, Andrés Valenzuela, Charlie Di Ferrera)"
+        ],
+        [
+          "Assessoria històrica",
+          "Eva la Medallita, Marcela Di Monti, Raquel Troncoso, Lucha Venegas, Alejandra Soto"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "d8aeab1c3ad21dc6",
+    "imagen": "https://tantarantana.com/wp-content/uploads/2026/10/Yeguas-sueltas-BCN-OFF-TEATRO-SUR-CAPÇALERA-WEB.png"
+  },
+  "https://teatreapolo.com/cartelera/el-brujo-el-lazarillo-de-tormes/": {
+    "datos": {
+      "duracion": 100,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "81e0149adf78247f",
+    "imagen": "https://teatreapolo.com/wp-content/uploads/2022/06/el-brujo-lazarillo-de-tormes-330x467-1.jpg"
+  },
+  "https://teatreapolo.com/cartelera/el-ladron-de-arabia-tributo-a-aladdin/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Compañía",
+          "Onbeat"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e46522184a537848",
+    "imagen": "https://teatreapolo.com/wp-content/uploads/2026/09/el-ladron-de-arabia-aladdin-330x467-1.jpg"
+  },
+  "https://teatreapolo.com/cartelera/karim-todo-va-a-ir-bien-o-no/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "350291f3b1b9a3eb",
+    "imagen": "https://teatreapolo.com/wp-content/uploads/2026/07/karim-todo-va-a-ir-bien-o-no-330x467-1.jpg"
+  },
+  "https://teatreapolo.com/cartelera/los-3-tenores-un-historia-cantada/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Alain Damas, Víctor Díaz, Francisco Ortiz, Takashi Koizumi"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7131dffc8b34d898",
+    "imagen": "https://teatreapolo.com/wp-content/uploads/2026/10/los-3-tenores-una-historia-cantada-330x467-1.jpg"
+  },
+  "https://teatreapolo.com/cartelera/mision-impro-sible/": {
+    "datos": {
+      "duracion": 105,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Aguilera, Mení"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5055a947b1884a7a",
+    "imagen": "https://teatreapolo.com/wp-content/uploads/2026/10/mision-impro-sible-330x467-1.jpg"
+  },
+  "https://teatreapolo.com/cartelera/tadeo-jones-y-la-lampara-maravillosa/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "6d3baa62f25aa4dd",
+    "imagen": "https://teatreapolo.com/wp-content/uploads/2026/10/tadeo-jones-y-la-lampara-maravillosa-330x467-1.jpg"
+  },
+  "https://teatrebalmes.com/ca/artes-escenicas/barcelona/les-obres-completes-de-william-shakespeare-abreujades": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Tres actors"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7b455ac3a44d38a3",
+    "imagen": "https://static.tickelio.com/images/0/0/1/8/6/8/les-obres-completes-de-william-shakespeare-abreujades.png"
+  },
+  "https://teatrebalmes.com/ca/artes-escenicas/barcelona/pantomima": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Artistes",
+          "Cia TrastornArts"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "b89bcceabed76170",
+    "imagen": "https://static.tickelio.com/images/0/0/1/9/0/8/pantomima.png"
+  },
+  "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Direcció",
+          "Naim Thomas"
+        ],
+        [
+          "Autor del guió i lletres",
+          "Naim Thomas"
+        ],
+        [
+          "Música original",
+          "Pedro Chalkho / Naim Thomas"
+        ],
+        [
+          "Coreografia",
+          "Ivanna Gómez"
+        ],
+        [
+          "Disseny d'escenografia i llums",
+          "Naim Thomas / David León"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "abf8035f47457af5",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/8/4/se-ha-escrito-un-crimen.png"
+  },
+  "https://teatrebalmes.com/ca/artes-escenicas/barcelona/vamos-a-tener-que-ir-al-psicologo-despues-de-esto-1": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "15c6a266ce649ed0",
+    "imagen": null
+  },
+  "https://teatrebalmes.com/ca/espectaculo-familiar/barcelona/chuchuwa-juega-viajando": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e4a665cbf5f5353a",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/7/8/chuchuwa-juega-viajando.png"
+  },
+  "https://teatrebalmes.com/ca/espectaculo-familiar/barcelona/cleptomago-magia-con-shado": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "1bbdb273afe743ae",
+    "imagen": "https://static.tickelio.com/images/0/0/1/5/2/0/cleptomago-magia-con-shado.jpeg"
+  },
+  "https://teatrebalmes.com/ca/espectaculo-familiar/barcelona/el-baul-magico-tributo-a-disney": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c111f40f4516f609",
+    "imagen": "https://static.tickelio.com/images/0/0/1/5/0/2/el-baul-magico-tributo-a-disney.png"
+  },
+  "https://teatrebalmes.com/ca/espectaculo-familiar/barcelona/la-magia-del-hielo-tributo-a-frozen": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "853bf73278bfe57a",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/9/3/la-magia-del-hielo-tributo-a-frozen.png"
+  },
+  "https://teatrebalmes.com/ca/espectaculo-familiar/barcelona/un-mag-per-nadal": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Artista",
+          "Aleix Vidal"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "b62167138ffa0982",
+    "imagen": "https://static.tickelio.com/images/0/0/1/7/6/0/un-mag-per-nadal.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/25-anos-de-humor-eterno": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Protagonizado por",
+          "Toni Climent “El Indio”"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "10457096fd7bd5dc",
+    "imagen": "https://static.tickelio.com/images/0/0/1/9/3/6/25-anos-de-humor-eterno.jpeg"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/como-en-la-casa-de-uno-en-ningun-sitio": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5ea77971a9158d44",
+    "imagen": "https://static.tickelio.com/images/0/0/1/8/0/2/como-en-la-casa-de-uno-en-ningun-sitio.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/cosas-que-me-sorprenden-de": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0c2e504eb897365b",
+    "imagen": "https://static.tickelio.com/images/0/0/1/7/6/6/cosas-que-me-sorprenden-de.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/del-reves": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f69377d4f3bfde88",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/2/6/del-reves.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/el-multiverso-de-wiz-problema": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "442f210bb968a798",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/1/1/el-multiverso-de-wiz-problema.jpeg"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/el-raro-de-los-90": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Artistas",
+          "David Dominguez"
+        ],
+        [
+          "Producción",
+          "HUB de Humor"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f98c9b8be402e63a",
+    "imagen": "https://static.tickelio.com/images/0/0/1/3/4/2/el-raro-de-los-90.jpeg"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/oveja-negra": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Artistes",
+          "Juampi González"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c5f5ab297c3383c4",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/3/2/oveja-negra.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/piensa-en-wilbur": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Producción y distribución",
+          "MPC Management"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e5041a88e6a6ff85",
+    "imagen": "https://static.tickelio.com/images/0/0/1/3/5/7/piensa-en-wilbur.jpeg"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/vaga-y-maleanta": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5b3a55d307868233",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/1/7/vaga-y-maleanta.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/y-tu-de-que-te-ries": {
+    "datos": {
+      "duracion": 100,
+      "equipo": [
+        [
+          "Artistas",
+          "Alex O'dogherty"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "dbc8693acab6779a",
+    "imagen": "https://static.tickelio.com/images/0/0/2/0/3/6/y-tu-de-que-te-ries.jpeg"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/y-tu-tienes-pueblo": {
+    "datos": {
+      "duracion": 95,
+      "equipo": [
+        [
+          "Artistes",
+          "Fran Pati"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "ecfe32a4dbf357f1",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/2/0/y-tu-tienes-pueblo.png"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/yo-sobrevivi-a-la-egb": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Artistes",
+          "Jordi Merca"
+        ],
+        [
+          "Producció i distribució",
+          "MPC Management"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "a2b496e9b96bc4e4",
+    "imagen": "https://static.tickelio.com/images/0/0/1/3/4/5/yo-sobrevivi-a-la-egb.png"
+  },
+  "https://teatrebalmes.com/es/artes-escenicas/barcelona/madres": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Producción",
+          "La Piconera"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "02f083166cb8542a",
+    "imagen": "https://static.tickelio.com/images/0/0/1/6/1/9/madres.jpeg"
+  },
+  "https://teatrebalmes.com/es/humor/barcelona/digamelon": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Guion y dirección",
+          "Judit Martín"
+        ],
+        [
+          "Regiduría",
+          "Marina H. Asciutti"
+        ],
+        [
+          "Ojo externo",
+          "Emma Bassas"
+        ],
+        [
+          "Fotografía",
+          "Noemí Elías"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "3579ca17a339b162",
+    "imagen": "https://static.tickelio.com/images/0/0/1/6/5/5/digamelon.png"
+  },
+  "https://teatrebalmes.com/es/humor/barcelona/escocia": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "6771d9ae3772eeb9",
+    "imagen": "https://static.tickelio.com/images/0/0/1/3/5/4/escocia.png"
+  },
+  "https://teatrebalmes.com/es/musicales/barcelona/el-nuevo-musical-de-los-80s-90s": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "d9df3c8e501e1ee0",
+    "imagen": "https://static.tickelio.com/images/0/0/1/4/6/6/el-nuevo-musical-de-los-80s-90s.jpeg"
+  },
+  "https://teatredesarria.cat/programacio/larquitecte-prohibit": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Idea original i producció executiva",
+          "La Tremenda Companyia"
+        ],
+        [
+          "Direcció escènica",
+          "Martí Torras Mayneris"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Mario Rebugent"
+        ],
+        [
+          "Llibret",
+          "Jaume Viñas"
+        ],
+        [
+          "Música i lletres",
+          "Marc Sambola"
+        ],
+        [
+          "Interpretació musical en directe",
+          "Jordi Costa, Neus Soler"
+        ],
+        [
+          "Intèrprets",
+          "Clàudia Abellán, Paula Amell, Arnau Fà, Lu Martín, Abril Morera, Gerard Portolés, Queralt Sánchez, Alba Serrano"
+        ],
+        [
+          "Escenografia",
+          "Mariona Ubia"
+        ],
+        [
+          "Disseny i confecció de vestuari",
+          "Guillem Martí"
+        ],
+        [
+          "Moviment",
+          "Judit Entrena"
+        ],
+        [
+          "Disseny de llums",
+          "Marc Campmany"
+        ],
+        [
+          "Disseny de l’espai sonor",
+          "Albert Bajona"
+        ],
+        [
+          "Disseny gràfic",
+          "Alba Serrano"
+        ],
+        [
+          "Coproducció",
+          "Federació d’Ateneus de Catalunya"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e54c05c7d5f2eb69",
+    "imagen": "https://teatredesarria.cat/storage/app/uploads/public/6ad/a1a/45d/thumb_1942_1200_628_0_0_auto.webp"
+  },
+  "https://teatremuntaner.com/ca/espectaculos/como-pasar-de-los-60-sin-morir-en-el-intento/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Albert Boira"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "dc12fe5579463bc5",
+    "imagen": "https://teatremuntaner.com/og.jpg"
+  },
+  "https://teatremuntaner.com/ca/espectaculos/joaquin-caserza-conversaciones-con-mi-mente/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7c288de9f5811537",
+    "imagen": "https://teatremuntaner.com/og.jpg"
+  },
+  "https://teatremuntaner.com/ca/espectaculos/pareja-abierta/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Dirección",
+          "Isabel Martí"
+        ],
+        [
+          "Intérpretes",
+          "Rafa Alarcón, Marta Chiner"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "fdeb305ab06631ab",
+    "imagen": "https://teatremuntaner.com/og.jpg"
+  },
+  "https://teatreolia.cat/desidia-2026/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "DRAMATÚRGIA I DIRECCIÓ",
+          "Sara Q. Pipó"
+        ],
+        [
+          "AJUDANTIA DE DIRECCIÓ",
+          "Lili Molina Martínez"
+        ],
+        [
+          "INTERPRETACIÓ",
+          "Georgina Balart, Marta Codina, Zaida Lloveras"
+        ],
+        [
+          "DISSENY DE SO",
+          "Ernest Pipó"
+        ],
+        [
+          "ESCENOGRAFIA",
+          "Cesc Colomina"
+        ],
+        [
+          "IL·LUMINACIÓ",
+          "Sílvia Valls/Sara Q. Pipó"
+        ],
+        [
+          "VESTUARI",
+          "Elena Baliarda"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "374e2ea9c040517d",
+    "imagen": null
+  },
+  "https://teatreolia.cat/lesquerda-2027/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "DRAMATÚRGIA I DIRECCIÓ",
+          "Jorge-Yamam Serrano"
+        ],
+        [
+          "INTÈRPRET",
+          "Cristina Gamiz"
+        ],
+        [
+          "AJUDANT DE DIRECCIÓ",
+          "Inés Jiménez"
+        ],
+        [
+          "ESPAI SONOR",
+          "Diego Paqué"
+        ],
+        [
+          "DISSENY DE IL·LUMINACIÓ",
+          "Marc Inglés"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "33a74578f075511c",
+    "imagen": "https://teatreolia.cat/wp-content/uploads/2026/07/LEsquerda-TeatreEolia.webp"
+  },
+  "https://teatreolia.cat/mitja-taronja-2026/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "COMPANIA",
+          "La Canina"
+        ],
+        [
+          "AUTORIA I DIRECCIÓ",
+          "Sílvia Navarro, Perramon"
+        ],
+        [
+          "INTERPRETACIÓ",
+          "Adrià Díaz, Sergi Gibert, Júlia Santacana"
+        ],
+        [
+          "ESCENOGRAFIA, VESTUARI I IL·LUMINACIÓ",
+          "Tània Gumbau"
+        ],
+        [
+          "GRAFISME ESCENOGRAFIA",
+          "Daniel Rodríguez"
+        ],
+        [
+          "AJUDANTIA D'ESCENOGRAFIA",
+          "Àlex Reviriego"
+        ],
+        [
+          "ESPAI SONOR",
+          "Mireia Vilar"
+        ],
+        [
+          "ASSESSORIA DE MOVIMENT",
+          "Ernest Fuster"
+        ],
+        [
+          "AJUDANTIA DE DIRECCIÓ EN PRÀCTIQUES",
+          "Lluna Marquès"
+        ],
+        [
+          "FOTOGRAFIES",
+          "Roser Blanch, Blanca Carreras"
+        ],
+        [
+          "PRODUCCIÓ",
+          "Júlia Santacana"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Mostra'T CC Parc Sandaru 2026 (Espectacle guanyador; la pàgina diu que va guanyar el premi a Millor Espectacle el 2025)",
+          "cita": "Espectacle guanyador del Premi Mostra’T CC Parc Sandaru 2026 .",
+          "es": "Premio Mostra'T CC Parc Sandaru 2026 (Espectáculo ganador; la página dice que ganó el premio a Mejor Espectáculo en 2025)",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "605b71036a7b9c71",
+    "imagen": "https://teatreolia.cat/wp-content/uploads/2026/06/Mitja-taronja-RRSS-2.jpg"
+  },
+  "https://teatreolia.cat/utopica-2027/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "COMPANYIA",
+          "Movimentarium"
+        ],
+        [
+          "AUTORIA",
+          "Veri de Morais, Alen Sánchez"
+        ],
+        [
+          "DIRECCIÓ",
+          "Veri de Morais"
+        ],
+        [
+          "INTERPRETACIÓ",
+          "Alen Sánchez, Neus Soler"
+        ],
+        [
+          "COMPOSICIÓ MUSICAL",
+          "Neus Soler"
+        ],
+        [
+          "IL·LUMINACIÓ",
+          "Anna Espunya"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Espectacle guanyador de la Beca Odisseu Eòlia Fundació Miranda",
+          "cita": "Espectacle guanyador de la Beca Odisseu Eòlia Fundació Miranda amb el suport de l’Ajuntament de Barcelona (ICUB).",
+          "es": "Espectáculo ganador de la Beca Odisseu Eòlia Fundació Miranda",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "b8ddf31d0859741d",
+    "imagen": "https://teatreolia.cat/wp-content/uploads/2026/07/utopica-web01.jpg"
+  },
+  "https://teatreraval.com/portfolio-item/noli-me-tangere/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Direcció",
+          "Emilià Carilla"
+        ],
+        [
+          "Text original",
+          "Jordi Vaqué, Emilià Carilla"
+        ],
+        [
+          "Intèrprets",
+          "Jordi Vaqué, Xavier Martínez, Toni Viñals, Graham Lister, Emilià Carilla"
+        ],
+        [
+          "Il·luminació",
+          "Mattia Russo"
+        ],
+        [
+          "Vestuari",
+          "Gloria Viguer Zabala"
+        ],
+        [
+          "Sastreria",
+          "Leo Quintana"
+        ],
+        [
+          "Fotògraf",
+          "Marc Sirisi"
+        ],
+        [
+          "Producció",
+          "Gabriella Dilorenzo"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "3ac2c7a8f3650060",
+    "imagen": "https://teatreraval.com/wp-content/uploads/2026/07/NOLISNOU1.png"
+  },
+  "https://teatresdelfarro.com/espectacle/sonata-del-clar-de-lluna-cat/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Autoria",
+          "Iannis Ritsos (1909-1990)"
+        ],
+        [
+          "Traducció",
+          "Joan Casas Fuster"
+        ],
+        [
+          "Direcció escènica i dramatúrgia",
+          "Gerard Bidegain, Figuerola"
+        ],
+        [
+          "Actriu",
+          "Montse Alcoverro"
+        ],
+        [
+          "Piano",
+          "Joel Díaz Vilà"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Zúbel Arana"
+        ],
+        [
+          "Espai escènic i imatge",
+          "Rafa Haro"
+        ],
+        [
+          "Vestuari i il·luminació",
+          "Marta Rodríguez Rojas"
+        ],
+        [
+          "Fotografies",
+          "May Cirkus"
+        ],
+        [
+          "Cartell",
+          "Pau Oliver"
+        ],
+        [
+          "Producció",
+          "Teorema Teatre"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "14c780662c7b9f3b",
+    "imagen": "https://teatresdelfarro.com/wp-content/uploads/2026/09/POSTER-SONATA-2-724x1024.png"
+  },
+  "https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "127ba40dda7f4ddd",
+    "imagen": "https://teatrometamorfosis.com/wp-content/uploads/2026/11/Flyer-2711-pdf.jpg"
+  },
+  "https://tickets.museocerabcn.com/ca/564-tickets/8325-magia-y-comedia-en-el-bosc-de-les-fades/info": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "0b0441ee655268e4",
+    "imagen": null
+  },
+  "https://www.anticteatre.com/events/event/el-pollo-campero-comidas-para-llevar-estar-en-el-aire": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Idea, text i direcció",
+          "Cristina Celada"
+        ],
+        [
+          "Disseny de il·luminació",
+          "Miguel Ruz"
+        ],
+        [
+          "Disseny de l’espai sonor",
+          "Miguel Ruz"
+        ],
+        [
+          "Disseny de l’espai escènic",
+          "Miguel Ruz"
+        ],
+        [
+          "A escena",
+          "Cristina Celada, Miguel Ruz"
+        ],
+        [
+          "Mirada externa",
+          "Albert Pérez"
+        ],
+        [
+          "Assistència en moviment",
+          "Rosa Romero"
+        ],
+        [
+          "Assistència en dramatúrgia",
+          "Rocío Bello"
+        ],
+        [
+          "Disseny audiovisual",
+          "Miguel Ruz"
+        ],
+        [
+          "Vestuari",
+          "Chiqui González"
+        ],
+        [
+          "Producció",
+          "Anna Bohigas"
+        ],
+        [
+          "Disseny de web i comunicacions",
+          "Jaume Blanc"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premiat al CENIT i als Premis Andalusos de Teatre (per Sekvantaro, peces codependents de durada relativa en què les actrius intentaran no fer teatre)",
+          "cita": "estrenem Sekvantaro – peces codependents de durada relativa en què les actrius intentaran no fer teatre (2013), premiat al CENIT i als Premis Andalusos de Teatre.",
+          "es": "Premiado al CENIT y Premios Andaluces de Teatro (por Sekvantaro, peces codependents de durada relativa en què les actrius intentaran no fer teatre)",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "5fa9c72f4feac7d9",
+    "imagen": "https://www.anticteatre.com/wp-content/uploads/2026/08/estar-en-el-aire.jpg"
+  },
+  "https://www.atrium.cat/ca/programacio/c/191-avi-et-traure-daqui.html": {
+    "datos": {
+      "duracion": 85,
+      "equipo": [
+        [
+          "Dramatúrgia i direcció",
+          "Víctor Borràs Gasch"
+        ],
+        [
+          "Interpretació",
+          "Àurea Márquez, Miquel Malirach"
+        ],
+        [
+          "Escenografia",
+          "Llorenç Corbella"
+        ],
+        [
+          "Vídeo",
+          "Nina Solà"
+        ],
+        [
+          "Assessorament de moviment",
+          "Montse Colomé"
+        ],
+        [
+          "Il·luminació",
+          "Marco Rubio"
+        ],
+        [
+          "Espai sonor",
+          "Laia Vallès"
+        ],
+        [
+          "Vestuari",
+          "Nídia Tusal"
+        ],
+        [
+          "Producció i distribució",
+          "Maria Hervàs, Míriam Millet"
+        ],
+        [
+          "Administració",
+          "Montse Valentí, Yolanda Torralbo"
+        ],
+        [
+          "Comunicació i premsa",
+          "Maria Moix, Míriam Salazar"
+        ],
+        [
+          "Assistència tècnica",
+          "Íngrid Codina, Daniel Roda"
+        ],
+        [
+          "Cap tècnic",
+          "Pau Senserrich"
+        ],
+        [
+          "Ajudantia de dramatúrgia",
+          "Laia Borràs, Mireia Moncunill, Biel Rossell"
+        ],
+        [
+          "Producció",
+          "Teatre Nu"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0b8421d411e1428f",
+    "imagen": "https://www.atrium.cat/img/image/fotos/0p4a1430_rid.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.atrium.cat/ca/programacio/c/192-pastorets-o-qui-va-inventar-linfern-titol-pro.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Autor",
+          "Josep Pedrals"
+        ],
+        [
+          "Direcció Escènica",
+          "Marc Chornet Artells"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Paula Comellas"
+        ],
+        [
+          "Repartiment",
+          "Anna Pérez Moya, Mireia Sala/Paula Comellas, Mariona Mas, Abad, Xavier Torra"
+        ],
+        [
+          "Espai Sonor i música",
+          "Gerard Marsal"
+        ],
+        [
+          "Escenografia i disseny audiovisual",
+          "Alfonso Ferri"
+        ],
+        [
+          "Il·luminació",
+          "Lluís Serra"
+        ],
+        [
+          "Vestuari",
+          "Laura Sanz"
+        ],
+        [
+          "Producció",
+          "Neus Pàmies"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "3f70330a15a36800",
+    "imagen": "https://www.atrium.cat/img/image/fotos/imatge_provisional.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.atrium.cat/ca/programacio/c/195-sala.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Autoria",
+          "Ivan Benet, Sergi Pompermayer"
+        ],
+        [
+          "Direcció",
+          "Xavier Ricart"
+        ],
+        [
+          "Intèrpret",
+          "Ivan Benet"
+        ],
+        [
+          "Escenografia",
+          "Anna Tantull"
+        ],
+        [
+          "Espai sonor",
+          "Aida Oset"
+        ],
+        [
+          "Vestuari",
+          "Maria Armengol"
+        ],
+        [
+          "Producció",
+          "Júlia Simó Puyo"
+        ],
+        [
+          "Distribució",
+          "Guillem Albasanz"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e92ff7df71989517",
+    "imagen": "https://www.atrium.cat/img/image/fotos/img_3015-2_rid.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.atrium.cat/ca/programacio/c/199-missa-pagesa.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Autoria",
+          "Dolors Miquel"
+        ],
+        [
+          "Direcció d'escena",
+          "Neus Pàmies Juárez"
+        ],
+        [
+          "Repartiment",
+          "Paula Comellas Felip, Erick Garcia Vollmer, Xènia J. Martos"
+        ],
+        [
+          "Espai escènic i il·luminació",
+          "Marc Chornet Artells"
+        ],
+        [
+          "Dramatúrgia",
+          "Dissident.Cia, Marc Chornet Artells, Neus Pàmies Juárez"
+        ],
+        [
+          "Música",
+          "Neus Pàmies Juárez, Dissident.Cia"
+        ],
+        [
+          "Producció companyia",
+          "Judit Morcillo"
+        ],
+        [
+          "Assistència tècnica",
+          "Anna Lapeyra Amat"
+        ],
+        [
+          "Fotografia i vídeo promocional",
+          "Albert Rué"
+        ],
+        [
+          "Producció",
+          "Cassandra Projectes Artístics"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f4ed33fb66567c1b",
+    "imagen": "https://www.atrium.cat/img/image/fotos/imatgecartellmissapagesa_rid.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.balanaenviu.com/espectaculo/berto-romero-coliseum": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Direcció",
+          "Berto Romero, Miquel Company"
+        ],
+        [
+          "Guió",
+          "Berto Romero, Rafel Barceló, Tomàs Fuentes"
+        ],
+        [
+          "Cor",
+          "Messengers"
+        ],
+        [
+          "Efectes especials",
+          "DDT"
+        ],
+        [
+          "Música",
+          "Miquel Company, Iván Lagarto, Berto Romero"
+        ],
+        [
+          "Vestuari",
+          "Serena Buselli, Rosa Pérez Cadenas"
+        ],
+        [
+          "Escenografia",
+          "Miquel Company"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "fe9187255fd5547f",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/f5cd7145f3c48872c1df962be1443722.jpg"
+  },
+  "https://www.balanaenviu.com/espectaculo/cabaret": {
+    "datos": {
+      "duracion": 125,
+      "equipo": [
+        [
+          "Direcció",
+          "Julio Awad"
+        ],
+        [
+          "Direcció d'Escenografia i Vestuari",
+          "Felype de Lima"
+        ],
+        [
+          "Coreografia",
+          "Gillian Bruce"
+        ],
+        [
+          "Disseny d'Il·luminació",
+          "Valerio Tiberi"
+        ],
+        [
+          "Disseny de So",
+          "Poti Martin"
+        ],
+        [
+          "Disseny de Caracterització",
+          "Kley Kafe"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "149d789686d6169a",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/9e7e26bbf72c24619b0450f64557f1e4.jpg"
+  },
+  "https://www.balanaenviu.com/espectaculo/danielfez": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Stand Up",
+          "Daniel Fez"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "1de2f6bcaae33d8f",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/david-cepo-coliseum": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "fa153345ac83c7c8",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/f46e4f636d41dcda6b09cc882e64cca5.jpg"
+  },
+  "https://www.balanaenviu.com/espectaculo/david-suarez": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "200d672340e5e132",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/eureka": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autor",
+          "Jonathan Spector"
+        ],
+        [
+          "Direcció",
+          "Pau Roca"
+        ],
+        [
+          "Ajudantia",
+          "Júlia Cortina"
+        ],
+        [
+          "Producció",
+          "Pol Cornudella, Adriana Nadal"
+        ],
+        [
+          "Repartiment",
+          "Ramón Madaula, Rosa Boladeras, Enric Cambray, Vicenta Ndongo, Alba Sáez"
+        ],
+        [
+          "Disseny Escenografia",
+          "Paula Bosch"
+        ],
+        [
+          "Disseny d'Il·luminació",
+          "Guillem Gelabert"
+        ],
+        [
+          "Disseny de Vestuari",
+          "Pol Cornudella"
+        ],
+        [
+          "Disseny de So",
+          "Sergi Andrade"
+        ],
+        [
+          "Construcció Escenografia",
+          "Marc Sala Audet"
+        ],
+        [
+          "Xarxes Socials",
+          "Eladi Bonastre"
+        ],
+        [
+          "Disseny Gràfic",
+          "Edu Buch"
+        ],
+        [
+          "Fotografia",
+          "Kiku Piñol"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "2e131a9f29b2b9c4",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/ilustres-ignorantes": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Artistes",
+          "Javier Coronas, Pepe Colubi, Raúl Cimas"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "72eaaddaa4541d9f",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/f7ea8badba078e45d0526e8650cff225.jpg"
+  },
+  "https://www.balanaenviu.com/espectaculo/isabel-rey": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Elenc",
+          "Isabel Rey"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f60420b91d636bd5",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/lescosesexcepcionals": {
+    "datos": {
+      "duracion": 65,
+      "equipo": [
+        [
+          "Autoria",
+          "Duncan Macmillan"
+        ],
+        [
+          "Traducción",
+          "Adriana Nadal"
+        ],
+        [
+          "Ajudantia de Direcció",
+          "Julia Cortina"
+        ],
+        [
+          "Producción",
+          "Sixto Paz Produccions"
+        ],
+        [
+          "Escenografía",
+          "Paula Bosch"
+        ],
+        [
+          "Iluminación",
+          "Ignasi Bosch, Guillem Gelabert"
+        ],
+        [
+          "Disseny Gràfic",
+          "Eduard Buch"
+        ],
+        [
+          "Fotografia",
+          "Kiku Piñol"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e14230c65a265d47",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/los-morancos": {
+    "datos": {
+      "duracion": 105,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "d9cdb19b7690d83c",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/mamma-mia": {
+    "datos": {
+      "duracion": 165,
+      "equipo": [
+        [
+          "Direcció",
+          "Juan Carlos Fisher"
+        ],
+        [
+          "Adaptació",
+          "David Serrano"
+        ],
+        [
+          "Direcció de Producció Artística",
+          "Carmen Márquez"
+        ],
+        [
+          "Ajudant de Direcció",
+          "Rómulo Assereto"
+        ],
+        [
+          "Producció",
+          "SOM Produce"
+        ],
+        [
+          "Direcció de Casting",
+          "Carmen Márquez, Carmelo Lorenzo, Blanca Azorín"
+        ],
+        [
+          "Música i Lletres",
+          "Benny Andersson, Björn Ulvaeus"
+        ],
+        [
+          "Direcció Musical",
+          "Joan Miquel Pérez"
+        ],
+        [
+          "Coreografies",
+          "Iker Karrera"
+        ],
+        [
+          "Disseny d'Escenografia",
+          "Ricardo Sánchez-Cuerda"
+        ],
+        [
+          "Disseny de Vestuari",
+          "Gabriela Salaverri"
+        ],
+        [
+          "Disseny d'Il·luminació",
+          "Felipe Ramos"
+        ],
+        [
+          "Disseny de So",
+          "Gastón Briski"
+        ],
+        [
+          "Disseny de Caracterització",
+          "Chema Noci"
+        ],
+        [
+          "Assistents de Coreografies",
+          "Carla Diego, Fernando Lázaro"
+        ],
+        [
+          "Traducció i Adaptació de les cançons",
+          "Alejandro Serrano, David Serrano"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi a Millor Coreografia als Premis Teatro Musical",
+          "cita": "Ha estat guardonat amb el premi a Millor Coreografia als Premis Teatro Musical .",
+          "es": "Premio a Mejor Coreografía en los Premios Teatro Musical",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "3ddf5acea6267838",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/bbdd922fedd21eac3998fba5721ceac0.jpg"
+  },
+  "https://www.balanaenviu.com/espectaculo/mentes-peligrosas": {
+    "datos": {
+      "duracion": 105,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Ana Morgade, Andreu Casanova, David Cepo, Galder Varas, JJ Vaquero"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "86708d28f4a9a07d",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/cd2c96ce4a63e540a830dce5d42c1c5a.jpg"
+  },
+  "https://www.balanaenviu.com/espectaculo/tito-elmusical": {
+    "datos": {
+      "duracion": 50,
+      "equipo": [
+        [
+          "Direcció",
+          "Cristina Jiménez"
+        ],
+        [
+          "Guió",
+          "Santi Anaya, Cristina Jiménez"
+        ],
+        [
+          "Coreografia",
+          "Pau Llimós"
+        ],
+        [
+          "Músiques",
+          "Joan Roy, Daniel Vega, Miriam Romero, Marc Parrot"
+        ],
+        [
+          "Producció",
+          "NOSTROMO LIVE · Sota Llicència 3Cat"
+        ],
+        [
+          "Repartiment",
+          "Bittor Fernández, Berta Luna, Joan Carles Romeu, Andrea González, Carles Urpí, Helena Fajula, Núria Moya"
+        ],
+        [
+          "Escenografia",
+          "Pizzaro Studio"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e51c0f44593a4304",
+    "imagen": null
+  },
+  "https://www.balanaenviu.com/espectaculo/verborrea": {
+    "datos": {
+      "duracion": 95,
+      "equipo": [
+        [
+          "Text i Direcció",
+          "Pablo Remón"
+        ],
+        [
+          "Intèrprets",
+          "Javier Cámara, Israel Elejalde, Marta Nieto, Emilio Tomé"
+        ],
+        [
+          "Escenografia",
+          "Monica Boromello"
+        ],
+        [
+          "Il·luminació",
+          "David Picazo"
+        ],
+        [
+          "Disseny de Vestuari",
+          "Ana López Cóbos, Sara Sánchez de la Morena"
+        ],
+        [
+          "Espai Sonor",
+          "Sandra Vicente"
+        ],
+        [
+          "Ajudant de Direcció",
+          "Juan Ollero"
+        ],
+        [
+          "Direcció de Producció",
+          "Jordi Buxó"
+        ],
+        [
+          "Producció Executiva",
+          "Pablo Ramos Escola"
+        ],
+        [
+          "Una Producció de",
+          "Nave 10 Matadero, Buxman Producciones"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "90202b590b1982c9",
+    "imagen": "https://pro-balana-laravel.s3.amazonaws.com/uploads/shows/og/65102236f9b2f76b69f149490f126fa8.png"
+  },
+  "https://www.codetickets.com/portal/codeticketsrp/teatre-barcelona/34762/mag-lari-strafalari_6711": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "52be85dba7ce5fe8",
+    "imagen": "https://static.portalticket.com/prod/images/codetickets.jpg"
+  },
+  "https://www.daualsecartsesceniques.cat/ca/programacio/c/272-et-vindre-a-tapar.html": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Direcció i text",
+          "Roger Ribó"
+        ],
+        [
+          "Intèrprets",
+          "Maite Bassa, Alba Rosa, Blanca Solé"
+        ],
+        [
+          "Composició musical",
+          "Pedro González"
+        ],
+        [
+          "Violinista",
+          "Núria Domènech"
+        ],
+        [
+          "Disseny de vestuari",
+          "Carme Clua"
+        ],
+        [
+          "Disseny de llums",
+          "Pau Juny"
+        ],
+        [
+          "Tècnic",
+          "Pau Segura"
+        ],
+        [
+          "Cant",
+          "Marc Domínguez"
+        ],
+        [
+          "Fotografia",
+          "Teresa Zafón, Justin Brown"
+        ],
+        [
+          "Disseny gràfic",
+          "Sepjo Llavi"
+        ],
+        [
+          "Producció",
+          "Montse Enguita, Elisenda Ribó"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi a la millor interpretació conjunta al XII CENIT (Certamen de Nuevos Investigadores Teatrales) organitzat per la companyia Atalaya al Teatro TNT de Sevilla",
+          "cita": "Premi a la millor interpretació conjunta al XII CENIT (Certamen de Nuevos Investigadores Teatrales) organitzat per la companyia Atalaya al Teatro TNT de Sevilla.",
+          "es": "Premio a la mejor interpretación conjunta en el XII CENIT (Certamen de Nuevos Investigadores Teatrales) organizado por la compañía Atalaya en el Teatro TNT de Sevilla",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "8ff212ab952b5ede",
+    "imagen": "https://www.daualsecartsesceniques.cat/img/image/fotos/978.jpeg?w=600&h=600&zc=1&aoe=1&q=80"
+  },
+  "https://www.daualsecartsesceniques.cat/ca/programacio/c/273-ofec.html": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Autora",
+          "Gina Surià Gúdel"
+        ],
+        [
+          "Direcció",
+          "Mònica Molins Duran"
+        ],
+        [
+          "Intèrpret",
+          "Helena Ruíz Ramírez"
+        ],
+        [
+          "Ajudant de direcció",
+          "Miranda Gil Rodríguez"
+        ],
+        [
+          "Escenografia, vestuari i il·luminació",
+          "Mercè Lucchetti"
+        ],
+        [
+          "Audiovisuals",
+          "Mònica Molins Duran"
+        ],
+        [
+          "Assessora de moviment",
+          "Carlota Malo"
+        ],
+        [
+          "Disseny gràfic",
+          "Mònica Molins Duran, Miranda Gil Rodríguez"
+        ],
+        [
+          "Fotografia",
+          "Miranda Gil Rodríguez, Mònica Molins Duran, Carla Salcedo"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "6e3efa0a6a83d34a",
+    "imagen": "https://www.daualsecartsesceniques.cat/img/image/fotos/980.jpeg?w=600&h=600&zc=1&aoe=1&q=80"
+  },
+  "https://www.eixampleteatre.cat/es/NOCHE-DE-CHICAS": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Guión, dirección e interpretación",
+          "Sil de Castro"
+        ],
+        [
+          "Diseño luces y sonido",
+          "Lucía Zambudio"
+        ],
+        [
+          "Producción",
+          "Sil de Castro, UnaRisaMás"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7f13665e4ff7fa1a",
+    "imagen": null
+  },
+  "https://www.eixampleteatre.cat/es/Quieres-Pecar-Conmigo": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autor",
+          "Borja Rabanal"
+        ],
+        [
+          "Dirección",
+          "Borja Rabanal / Joan Olivé"
+        ],
+        [
+          "Producción",
+          "Mer Roman"
+        ],
+        [
+          "Escenografia",
+          "Albert Ventura"
+        ],
+        [
+          "Diseño de luz y sonido",
+          "Nestor González"
+        ],
+        [
+          "Paz",
+          "Gemma Iglesias"
+        ],
+        [
+          "Mónica",
+          "Mònica Macfer"
+        ],
+        [
+          "Gloria",
+          "Marta Fíguls"
+        ],
+        [
+          "Francoise de la Fleur",
+          "Elias Torrecillas / Carles Pulido / Joan Olivé"
+        ],
+        [
+          "Roberto",
+          "Benjamín Montes / Ferran Terraza"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "eb9f3175127e7fe8",
+    "imagen": null
+  },
+  "https://www.entrapolis.com/entradas/els-pastorets-carrer-sant-pere-mes-alt-25-08003-barcelona-19122026": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "ca5268da76a47aa5",
+    "imagen": null
+  },
+  "https://www.entrapolis.com/entradas/els-pastorets-del-centre": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0ebcd26f7fd0f820",
+    "imagen": "https://www.entrapolis.com/image/event/big/553871788264793_1.png"
+  },
+  "https://www.entrapolis.com/entradas/els-pastorets-dels-lluisos-dhorta-2026": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "b07acdbabd8dc6be",
+    "imagen": "https://www.entrapolis.com/image/event/big/581041793610584_1.png"
+  },
+  "https://www.entrapolis.com/entradas/teatre-de-fet-amor": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "276536d675f3b005",
+    "imagen": "https://www.entrapolis.com/image/event/big/573541793002305_1.png"
+  },
+  "https://www.golems.cat/MARICARMEN/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "735b76dfe8cf8b8c",
+    "imagen": null
+  },
+  "https://www.golems.cat/PARE-NOSTRE/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Producción",
+          "HUB de Humor"
+        ],
+        [
+          "Distribución",
+          "MPC Management"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "a1f2fad214beddaa",
+    "imagen": null
+  },
+  "https://www.laperla29.cat/ca/temporada/c/296-tots-ocells.html": {
+    "datos": {
+      "duracion": 210,
+      "equipo": [
+        [
+          "De",
+          "Wajdi Mouawad"
+        ],
+        [
+          "Direcció i espai",
+          "Oriol Broggi"
+        ],
+        [
+          "Traducció",
+          "Cristina Genebat"
+        ],
+        [
+          "Amb",
+          "Xavier Boada, Joan Carreras, Màrcia Cisteró, Marissa Josa, Miriam Moukhles, Eduard Paredes, Xavier Ruano, Anna Ycobalzeta"
+        ],
+        [
+          "Vestuari",
+          "Berta Riera"
+        ],
+        [
+          "So",
+          "Damien Bazin"
+        ],
+        [
+          "Vídeo",
+          "Francesc Isern"
+        ],
+        [
+          "Llums",
+          "Pep Barcons"
+        ],
+        [
+          "Veus",
+          "Xavier Ricart, Montse Vellvehí"
+        ],
+        [
+          "Suport vídeo",
+          "Aurembiaix Montardit"
+        ],
+        [
+          "Construcció d'escenografia",
+          "Taller d'escenografia Castells, Pascualín Estructures"
+        ],
+        [
+          "Regidoria",
+          "Marc Serra, Maria Molist, Aran Broggi"
+        ],
+        [
+          "Tècnics funcions",
+          "Roger Blasco, Pau Montull, Pau Segura"
+        ],
+        [
+          "Fotografia i vídeo procés de creació",
+          "Alex Rademakers"
+        ],
+        [
+          "Fotografies espectacle",
+          "Bito Cels"
+        ],
+        [
+          "Clip promocional",
+          "David Andreu"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e8c42077732b0654",
+    "imagen": "https://www.laperla29.cat/img/image/fotos/tots_ocells_cartell_disseny_vtots_a1_amb_anna-eduard_v3.jpg?w=600&h=600&zc=1&aoe=1&q=80"
+  },
+  "https://www.lapuntual.info/ca/espectacle/loop/": {
+    "datos": {
+      "duracion": 50,
+      "equipo": [
+        [
+          "Idea Original i titellaire",
+          "Eugenio Navarro"
+        ],
+        [
+          "Dramatúrgia i direcció",
+          "Pablo Ariel"
+        ],
+        [
+          "Titelles i espai escènic",
+          "Eugenio Navarro"
+        ],
+        [
+          "Banda Sonora",
+          "Leroy Anderson"
+        ],
+        [
+          "Fotografia",
+          "Jesús Atienza"
+        ],
+        [
+          "Vídeo",
+          "Carlos Rufete"
+        ],
+        [
+          "Disseny gràfic",
+          "Llorenç Perelló"
+        ],
+        [
+          "Postproducció",
+          "Marta Duran"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0a9830512afe8d77",
+    "imagen": null
+  },
+  "https://www.lavillarroel.cat/ca/ex/boja/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Autoria",
+          "Mariona Esplugues"
+        ],
+        [
+          "Direcció artística",
+          "Mariona Esplugues"
+        ],
+        [
+          "Direcció escènica",
+          "Andrea Castellanos"
+        ],
+        [
+          "Intèrpret",
+          "Mariona Esplugues"
+        ],
+        [
+          "Escenografia i vestuari",
+          "Andrea Castellanos, Mariona Esplugues"
+        ],
+        [
+          "Il·luminació",
+          "Ona Grau"
+        ],
+        [
+          "Espai sonor",
+          "Marc Oller, Andrea Castellanos, Mariona Esplugues"
+        ],
+        [
+          "Vídeo creació",
+          "Andrea Monje, Marc Oller"
+        ],
+        [
+          "Moviment",
+          "Andrea Castellanos, Mariona Esplugues"
+        ],
+        [
+          "Caracterització",
+          "Andrea Castellanos"
+        ],
+        [
+          "Direcció de producció",
+          "Mariona Esplugues"
+        ],
+        [
+          "Producció executiva",
+          "Cristina Ferrer"
+        ],
+        [
+          "Direcció tècnica",
+          "Gerard Bosch"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Andrea Castellanos"
+        ],
+        [
+          "Ajudantia de producció",
+          "Andrea Castellanos"
+        ],
+        [
+          "Assessorament dramatúrgic i audiovisual",
+          "Marc Oller, Andrea Castellanos, Andrea Monje"
+        ],
+        [
+          "Regidoria",
+          "Cristina Ferrer"
+        ],
+        [
+          "Perruqueria i maquillatge",
+          "Cristina Ferrer"
+        ],
+        [
+          "Tècnic de llums/ so / microfonia / audiovisuals",
+          "Gerard Bosch"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Andrés Piza"
+        ],
+        [
+          "Confecció del vestuari",
+          "Menkes"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Nil Martín López"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "La Villarroel"
+        ],
+        [
+          "Reportatge fotogràfic",
+          "MW Fotografia"
+        ],
+        [
+          "Disseny gràfic i d'imatge",
+          "Mariona Esplugues"
+        ],
+        [
+          "Distribució",
+          "Cristina Ferrer (Tot Produccions)"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi BBVA de Teatre 2025 al Millor Espectacle + Menció a la Millor Interpretació",
+          "cita": "Premi BBVA de Teatre 2025 al Millor Espectacle + Menció a la Millor Interpretació",
+          "es": "Premio BBVA de Teatro 2025 al Mejor Espectáculo + Mención a la Mejor Interpretación",
+          "origen": "web"
+        },
+        {
+          "ca": "Premi Mostra Igualada 2025 al Millor Espectacle per a Joves",
+          "cita": "Premi Mostra Igualada 2025 al Millor Espectacle per a Joves",
+          "es": "Premio Mostra Igualada 2025 al Mejor Espectáculo para Jóvenes",
+          "origen": "web"
+        },
+        {
+          "ca": "Premi Revelació Teatre Barcelona 2023",
+          "cita": "Premi Revelació Teatre Barcelona 2023",
+          "es": "Premio Revelación Teatre Barcelona 2023",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "c8ed226412c38b68",
+    "imagen": null
+  },
+  "https://www.lavillarroel.cat/ca/ex/els-fills/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Lucy Kirkwood"
+        ],
+        [
+          "Traducció",
+          "Cristina Genebat"
+        ],
+        [
+          "Direcció",
+          "David Selvas"
+        ],
+        [
+          "Intèrprets",
+          "Emma Vilarasau, Mercè Aránega, Jordi Boixaderas"
+        ],
+        [
+          "Escenografia",
+          "Josep Iglésias"
+        ],
+        [
+          "Vestuari",
+          "Maria Armengol"
+        ],
+        [
+          "Ambientació vestuari",
+          "Marta Pell"
+        ],
+        [
+          "Caracterització",
+          "Noelia López"
+        ],
+        [
+          "Il·luminació",
+          "David Bofarull"
+        ],
+        [
+          "So",
+          "Lucas Ariel Vallejos"
+        ],
+        [
+          "Meritori de so",
+          "Roc de Lanuza Alesan"
+        ],
+        [
+          "Coreografia",
+          "Ana Pérez"
+        ],
+        [
+          "Direcció tècnica",
+          "Enric Alarcón"
+        ],
+        [
+          "Ajudant de direcció",
+          "Carla Vilaró"
+        ],
+        [
+          "Regidora",
+          "Marc Lucchetti Berraondo"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Andrés Piza"
+        ],
+        [
+          "Construcció de l'escenografia",
+          "Tallers Castells, Jorba-Miró, Pilar Albadalejo"
+        ],
+        [
+          "Vídeo promocional",
+          "Mar Orfila"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "La Villarroel"
+        ],
+        [
+          "Fotos escena i xxss",
+          "Marc Mampel"
+        ],
+        [
+          "Imatge cartell",
+          "Marta Mas"
+        ],
+        [
+          "Disseny gràfic",
+          "Queralt Guinart"
+        ],
+        [
+          "Distribució",
+          "Teresa Parés"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Millor Obra als Writers' Guild Awards del Regne Unit de 2018",
+          "cita": "Millor Obra als Writers' Guild Awards del Regne Unit de 2018",
+          "es": "Mejor Obra en los Writers' Guild Awards del Reino Unido de 2018",
+          "origen": "web"
+        },
+        {
+          "ca": "Nominada a 2 premis Tony el 2018",
+          "cita": "Nominada a 2 premis Tony el 2018",
+          "es": "Nominada a 2 premios Tony en 2018",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "f1da8a57a5064071",
+    "imagen": null
+  },
+  "https://www.lavillarroel.cat/ca/ex/i-say-potato/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Autoria i dramatúrgia",
+          "Joan Yago"
+        ],
+        [
+          "Direcció",
+          "Joan Maria Segura, Bernadas"
+        ],
+        [
+          "Intèrprets",
+          "Anna Moliner, Joan Negrié"
+        ],
+        [
+          "Escenografia",
+          "Enric Planas"
+        ],
+        [
+          "Vestuari",
+          "Carlota Ricart"
+        ],
+        [
+          "Il·luminació",
+          "Isa Joaniquet"
+        ],
+        [
+          "Música i espai sonor",
+          "Xavier Mestres"
+        ],
+        [
+          "Producció executiva",
+          "Joan Negrié"
+        ],
+        [
+          "Productora",
+          "Roser Soler"
+        ],
+        [
+          "Producció en gira",
+          "Àngel Monlleó"
+        ],
+        [
+          "Gerència",
+          "Manel Torres"
+        ],
+        [
+          "Regidoria",
+          "Marc Pinyol"
+        ],
+        [
+          "Responsable tècnic",
+          "Ramon Beneito"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Andrés Piza"
+        ],
+        [
+          "Premsa i comunicació",
+          "Laia Marín"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "La Villarroel"
+        ],
+        [
+          "Fotografia cartell",
+          "Sergi Panizo"
+        ],
+        [
+          "Disseny gràfic",
+          "Albert Rué"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "3f5fe37f3ff333d5",
+    "imagen": null
+  },
+  "https://www.lavillarroel.cat/ca/ex/morning-sun/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Simon Stephens"
+        ],
+        [
+          "Traducció",
+          "Adriana Nadal"
+        ],
+        [
+          "Direcció",
+          "Pau Roca"
+        ],
+        [
+          "Intèrprets",
+          "Míriam Iscla, Anna Güell, Raquel Ferri"
+        ],
+        [
+          "Escenografia",
+          "Paula Bosch"
+        ],
+        [
+          "Vestuari",
+          "Pol Cornudella"
+        ],
+        [
+          "Disseny de llums",
+          "Quim Algora"
+        ],
+        [
+          "Disseny de so i composició musical",
+          "Guillem Rodriguez"
+        ],
+        [
+          "Moviment",
+          "Alba Saez"
+        ],
+        [
+          "Direcció de producció",
+          "Adriana Nadal, Pol Cornudella"
+        ],
+        [
+          "Producció executiva",
+          "Sixto Paz Produccions"
+        ],
+        [
+          "Direcció tècnica",
+          "Paula Bosch"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Júlia Cortina"
+        ],
+        [
+          "Regidoria",
+          "Bibi Guzman"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Andrés Piza"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "La Villarroel"
+        ],
+        [
+          "Reportatge fotogràfic",
+          "Kiku Piñol"
+        ],
+        [
+          "Disseny gràfic",
+          "Edu Buch"
+        ],
+        [
+          "Distribució",
+          "Focus"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "06a1fe525babeedb",
+    "imagen": null
+  },
+  "https://www.lavillarroel.cat/ca/ex/nadales/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Idea original",
+          "Iban Beltran"
+        ],
+        [
+          "Dramatúrgia",
+          "Carles Pedragosa"
+        ],
+        [
+          "Poemes i conferències",
+          "Josep Pedrals"
+        ],
+        [
+          "Creació i interpretació",
+          "Iban Beltran, Carles Pedragosa, Josep Pedrals"
+        ],
+        [
+          "Vestuari i atrezzo",
+          "Camille Latron"
+        ],
+        [
+          "Il·luminació i so",
+          "Maria Sistac"
+        ],
+        [
+          "Vídeo",
+          "Asimetric Films"
+        ],
+        [
+          "Producció executiva",
+          "Helena Font Barbero, Marc Permanyer Conde"
+        ],
+        [
+          "Col·laboració de direcció",
+          "Jordi Oriol"
+        ],
+        [
+          "Assessorament de moviment",
+          "Anna Pérez"
+        ],
+        [
+          "Cap tècnic Indi Gest",
+          "Albert Glas"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Andrés Piza"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "La Villarroel"
+        ],
+        [
+          "Fotografia",
+          "César Font"
+        ],
+        [
+          "Administració",
+          "Manon Almellones Descharrois"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f87f601eace5ce0a",
+    "imagen": null
+  },
+  "https://www.lavillarroel.cat/ca/ex/you-say-tomato/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Autoria",
+          "Joan Yago"
+        ],
+        [
+          "Direcció i dramatúrgia",
+          "Joan Maria Segura"
+        ],
+        [
+          "Coreografia",
+          "Joan Maria Segura Bernadas"
+        ],
+        [
+          "Direcció musical i arranjaments",
+          "Xavier Mestres"
+        ],
+        [
+          "Disseny d'espai i vestuari",
+          "Albert Pascual"
+        ],
+        [
+          "Disseny de llums",
+          "Marc Salicrú"
+        ],
+        [
+          "Intèrprets",
+          "Anna Moliner, Joan Negrié"
+        ],
+        [
+          "Producció executiva",
+          "Joan Negrié"
+        ],
+        [
+          "Productor",
+          "Eloi Isern"
+        ],
+        [
+          "Producció en gira",
+          "Manel Torres"
+        ],
+        [
+          "Gerència",
+          "Manel Torres"
+        ],
+        [
+          "Ajudantia de vestuari",
+          "Paloma Arza"
+        ],
+        [
+          "Assessorament de caracterització",
+          "Àngels Salinas"
+        ],
+        [
+          "Responsable tècnic",
+          "Ramon Beneito"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Andrés Piza"
+        ],
+        [
+          "Premsa",
+          "Laia Marín"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "La Villarroel"
+        ],
+        [
+          "Disseny gràfic i fotografies",
+          "Jordi Egea, Albert Rué"
+        ],
+        [
+          "Agraïments",
+          "Núria Cartanyà, Raimon Borrell, Mediaframe TV, Estudios de grabación La Rulot, Carme Negrié"
+        ],
+        [
+          "Distribució",
+          "Mar Puig"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0ca5c2223acc6333",
+    "imagen": null
+  },
+  "https://www.salaarsteatre.com/els-tres-porquets/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Mare / Llop",
+          "Roser Mateo"
+        ],
+        [
+          "Assenyat",
+          "Anna Carrasco"
+        ],
+        [
+          "Juganera",
+          "Menai Renobell"
+        ],
+        [
+          "Gandul",
+          "Martí Guixà"
+        ],
+        [
+          "Direcció",
+          "Albert Pueyo"
+        ],
+        [
+          "Ajudant de direcció",
+          "Virginia Sánchez"
+        ],
+        [
+          "Direcció vocal",
+          "Oriol Barber"
+        ],
+        [
+          "Lletres",
+          "Jordi Fornieles"
+        ],
+        [
+          "Llibret",
+          "Mar Colàs"
+        ],
+        [
+          "Vestuari",
+          "Laura Taus, Moisés Prats"
+        ],
+        [
+          "Producció",
+          "Magatzem d’Ars"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "b3b88f359788a5cb",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2023/05/3-porquets-scaled.jpg"
+  },
+  "https://www.salaarsteatre.com/la-casa-de-bernarda-alba/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Dirección",
+          "Albert Pueyo"
+        ],
+        [
+          "Reparto",
+          "Anna Toro, Roser Mateo, Esther Pané, Ariadna Cornella, Gemma Vilallonga, Carlota Gil, Anna Piqué, Anna Puigdueta"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "6006e9796385e6ae",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2025/07/A3-4-1-scaled.jpg"
+  },
+  "https://www.salapangoli.com/producto/adultos-difsuncionales/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "52e6a647b84686f4",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/amor-en-catalan-sexo-en-argentino/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c1d4e75daf68a507",
+    "imagen": "https://www.salapangoli.com/wordpress/wp-content/uploads/2024/03/Amor-En-Catalan-Sexo-En-Argentino-Home.jpg"
+  },
+  "https://www.salapangoli.com/producto/de-perras-y-criadas/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Direcció i dramaturgia",
+          "Fèlix Herzog"
+        ],
+        [
+          "Intèrprets",
+          "Marta Fons"
+        ],
+        [
+          "Companyia",
+          "White Rabbit"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f729e2bb52c4b0c2",
+    "imagen": "https://www.salapangoli.com/wordpress/wp-content/uploads/2022/02/petit-corregit.png"
+  },
+  "https://www.salapangoli.com/producto/el-sindrome-netflix/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Guió i direcció",
+          "Xavier miralles"
+        ],
+        [
+          "Intèrprets",
+          "Kike Torres, Xavier Miralles"
+        ],
+        [
+          "Companyia",
+          "El Gato Sonámbulo"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "4b3492a987ef05b8",
+    "imagen": "https://www.salapangoli.com/wordpress/wp-content/uploads/2023/03/El-Sindrome-Netflix-Home.jpg"
+  },
+  "https://www.salapangoli.com/producto/els-ratolinets-perez-un-viatge-musical-per-a-tota-la-familia/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "bad7b30f47f4b236",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/juguem-a-nines/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "433db431c0511928",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/la-mofeta-presumida/": {
+    "datos": {
+      "duracion": 45,
+      "equipo": [
+        [
+          "Guió i direcció",
+          "Xavi Clapés, Xavier Miralles"
+        ],
+        [
+          "Intèrprets",
+          "Xavi Clapés, Joana Rosselló, Isa Mateu"
+        ],
+        [
+          "Companyia",
+          "Els Pangolinets"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "cf66a8107b949ffe",
+    "imagen": "https://www.salapangoli.com/wordpress/wp-content/uploads/2023/02/La-mofeta-presumida-Home.jpg"
+  },
+  "https://www.salapangoli.com/producto/les-histories-den-tilikum/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "91ff5ed3ebedd766",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/mala-mare/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Marta Fons, Xavier Miralles"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "6b4dcb96210dd3ed",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/salir-del-terrado/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Direcció i dramaturgia",
+          "Xavier miralles"
+        ],
+        [
+          "Intèrprets",
+          "Marta Fons, Xavier Miralles"
+        ],
+        [
+          "Companyia",
+          "El Gato Sonámbulo"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5b2cf625f68a49c8",
+    "imagen": "https://www.salapangoli.com/wordpress/wp-content/uploads/2021/11/2-SalirDelTerrado-Web-1.jpg"
+  },
+  "https://www.salapangoli.com/producto/si-tu-supieras/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "97363597342a4014",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/terapia-sexual/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Dirección",
+          "Oscar Reyes"
+        ],
+        [
+          "Dramaturgia",
+          "Marc Lluís Fernández"
+        ],
+        [
+          "Intérpretes",
+          "Carla Pizan, Marc Lluís Fernández, Lu Fabrés"
+        ],
+        [
+          "Diseño",
+          "Marc Lluís Fernández"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0f5e39a7939954eb",
+    "imagen": null
+  },
+  "https://www.salapangoli.com/producto/trio-una-comedia-sexual/": {
+    "datos": {
+      "duracion": 120,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0c9611bc2874591c",
+    "imagen": "https://www.salapangoli.com/wordpress/wp-content/uploads/2023/10/Trio_Home-1.jpg"
+  },
+  "https://www.salapangoli.com/producto/volum-2-de-les-histories-den-tilikum/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7944f772bc642072",
+    "imagen": null
+  },
+  "https://www.salaversusglories.cat/ca/temporada-25-26/c/131-la-torradora.html": {
+    "datos": {
+      "duracion": 85,
+      "equipo": [
+        [
+          "Dramatúrgia i direcció",
+          "Roc Esquius, Sergi Belbel"
+        ],
+        [
+          "Interpretació",
+          "Antonio del Valle, Ramon Godino, Laura Pau"
+        ],
+        [
+          "Ajudant de direcció",
+          "Elna Roca"
+        ],
+        [
+          "Disseny de llums",
+          "Daniel Gener"
+        ],
+        [
+          "Escenografia",
+          "Paula Font"
+        ],
+        [
+          "Disseny de so",
+          "Marçal Cruz"
+        ],
+        [
+          "Disseny de vestuari",
+          "Gerard Navarro"
+        ],
+        [
+          "Fotografia",
+          "Sergi Panizo"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "9e2c3ac4d56fcfdd",
+    "imagen": "https://www.salaversusglories.cat/img/image/fotos/www-sergipanizo-cat_251107_torradora_cartell-master_baixa.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.salaversusglories.cat/ca/temporada-25-26/c/143-el-rei-oblidat-la-historia-del-quart-rei-dori.html": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Direcció i dramatúrgia",
+          "Elna Roca"
+        ],
+        [
+          "Intèrprets",
+          "Emma Clarke, Oleguer Falguera"
+        ],
+        [
+          "Escenografia",
+          "Elna Roca, Emma Clarke, Oleguer Falguera"
+        ],
+        [
+          "Disseny i confecció de vestuari",
+          "Borja Gandul"
+        ],
+        [
+          "Disseny de llums",
+          "Maria Martín"
+        ],
+        [
+          "Fotografies d'escena i promocionals",
+          "Xavi Blanco"
+        ],
+        [
+          "Assessorament en gènere i antiracisme",
+          "Lucía Mendoza"
+        ],
+        [
+          "Producció",
+          "Altres Direccions"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "d8713da54cdcec5d",
+    "imagen": "https://www.salaversusglories.cat/img/image/fotos/2r1a3292.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.salaversusglories.cat/ca/temporada/c/127-tu-jo-vosaltres-i-les-cancons.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Idea i creació",
+          "Daniel Anglès, Pilar Capellades"
+        ],
+        [
+          "Direcció",
+          "Daniel Anglès"
+        ],
+        [
+          "Direcció musical i arranjaments",
+          "Sergi Cuenca"
+        ],
+        [
+          "Intèrprets",
+          "Daniel Anglès, Pilar Capellades, Sergi Cuenca"
+        ],
+        [
+          "Pianista suplent",
+          "Blai Mañer"
+        ],
+        [
+          "Direcció tècnica vocal",
+          "Susanna Domènech"
+        ],
+        [
+          "Mirada externa",
+          "Mariona Castillo"
+        ],
+        [
+          "Adaptacions al català",
+          "Daniel Anglès, Pilar Capellades, Marc Gómez, Gara Roda, Albert Mas-Griera, Joan Vázquez"
+        ],
+        [
+          "Il·luminació",
+          "Paula Costas"
+        ],
+        [
+          "So",
+          "Carles Bernal, Núria Vallina"
+        ],
+        [
+          "Fotografia",
+          "David Ruano"
+        ],
+        [
+          "Disseny i grafisme",
+          "Pau Oliver"
+        ],
+        [
+          "Estilisme",
+          "Assumpta Solé"
+        ],
+        [
+          "Fotografia adicional",
+          "Àgata Casanovas"
+        ],
+        [
+          "Material promocional",
+          "Pol Juidia"
+        ],
+        [
+          "Restauració mirall",
+          "Juanjo Balsera"
+        ],
+        [
+          "Piano",
+          "Jorquera Pianos"
+        ],
+        [
+          "Gerència EM+P",
+          "Xavi Navarro"
+        ],
+        [
+          "Administració EM+P",
+          "Nadina Campàs"
+        ],
+        [
+          "Producció tècnica",
+          "Contracorrent"
+        ],
+        [
+          "Distribució",
+          "Mediterránea Gira"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "8167c6d95e3ea1d7",
+    "imagen": "https://www.salaversusglories.cat/img/image/fotos/i26tujoellella009801.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.salaversusglories.cat/ca/temporada/c/129-el-lladre-de-llibretes.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Autoria",
+          "Gianni Solla"
+        ],
+        [
+          "Traducció de la novel·la",
+          "Pau Vidal"
+        ],
+        [
+          "Adaptació i direcció",
+          "David Pintó, Codinasaltas"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Montse Vellvehí"
+        ],
+        [
+          "Intèrpret",
+          "Albert Triola"
+        ],
+        [
+          "Música original",
+          "Clara Peya"
+        ],
+        [
+          "Il·luminació",
+          "Anna Espunya"
+        ],
+        [
+          "Espai",
+          "Josep Castells Planas"
+        ],
+        [
+          "Vestuari",
+          "Nídia Tusal"
+        ],
+        [
+          "Moviment",
+          "Ariadna Peya"
+        ],
+        [
+          "Ajudant d'il·luminació",
+          "Andrés Piza"
+        ],
+        [
+          "Adaptació del vestuari",
+          "Tàndem costura teatral (Teresa, Gema Navarro)"
+        ],
+        [
+          "Construcció escenografia",
+          "Taller d'Escenografia Castells"
+        ],
+        [
+          "Gravació i mescles",
+          "Marçal Cruz"
+        ],
+        [
+          "Estudi de gravació",
+          "Oido"
+        ],
+        [
+          "Caracterització",
+          "Clàudia de Anta"
+        ],
+        [
+          "Fotos i vídeo promocional",
+          "Mireia Tor"
+        ],
+        [
+          "Fotos i vídeos d'escena",
+          "Isabel Casanova, Jaume Ferrer"
+        ],
+        [
+          "Disseny gràfic",
+          "Pau Oliver"
+        ],
+        [
+          "Distribució",
+          "Eli Riera"
+        ],
+        [
+          "Producció i comunicació",
+          "Sílvia Artigas Vilà"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "8518d5a89959d4f6",
+    "imagen": "https://www.salaversusglories.cat/img/image/fotos/promocional_1mireiator.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.salaversusglories.cat/ca/temporada/c/144-canada.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Dramatúrgia i direcció",
+          "Alícia Serrat"
+        ],
+        [
+          "Intèrprets",
+          "Rai Borrell, Jordi Andújar, Míriam Tortosa"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c8d79c29bec9d9ac",
+    "imagen": "https://www.salaversusglories.cat/img/image/fotos/canadaimatge-2.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.sat-teatre.cat/ca/p/c/727-mular-o-la-gran-captura.html": {
+    "datos": {
+      "duracion": 45,
+      "equipo": [
+        [
+          "Text i direcció",
+          "Víctor Borràs"
+        ],
+        [
+          "Interpretació",
+          "Mariona Blanco, Pau Castillo, Irene Mas"
+        ],
+        [
+          "Música",
+          "Anna Sala"
+        ],
+        [
+          "Escenografia",
+          "Joan Pena, Elisabet Pané, Quimet Felis (Plàncton Escena)"
+        ],
+        [
+          "Vestuari",
+          "OcuitO"
+        ],
+        [
+          "Il·luminació",
+          "Marc Espinosa"
+        ],
+        [
+          "Acompanyament",
+          "Margarida Troguet"
+        ],
+        [
+          "Fotografia i vídeo",
+          "Pere Lloveras (Circular Comunicació)"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi FETEN a la millor escenografia i caracterització 2026",
+          "cita": "Premi FETEN a la millor escenografia i caracterització 2026",
+          "es": "Premio FETEN a la mejor escenografía y caracterización 2026",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "ade8377e53b2c46c",
+    "imagen": "https://www.sat-teatre.cat/img/image/fotos/mular2.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.sat-teatre.cat/ca/p/c/730-cinc-minuts.html": {
+    "datos": {
+      "duracion": 45,
+      "equipo": [
+        [
+          "Idea i producció",
+          "De_paper"
+        ],
+        [
+          "Dramatúrgia",
+          "Jordi Palet, De_paper"
+        ],
+        [
+          "Direcció",
+          "Jordi Palet"
+        ],
+        [
+          "Direcció de moviment",
+          "Montse Colomé"
+        ],
+        [
+          "Interpretació",
+          "Joan Alfred Mengual, Núria Lozano"
+        ],
+        [
+          "Escenografia, il·lustracions i titelles",
+          "Joan Alfred Mengual"
+        ],
+        [
+          "Música",
+          "Núria Lozano"
+        ],
+        [
+          "Il·luminació",
+          "Toni Ubach, Oriol Rafí"
+        ],
+        [
+          "So",
+          "Oriol Rafí, Oriol Cases"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "9671f34f875de355",
+    "imagen": "https://www.sat-teatre.cat/img/image/fotos/cincmunuts1.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.sat-teatre.cat/ca/p/c/731-nallar.html": {
+    "datos": {
+      "duracion": 35,
+      "equipo": [
+        [
+          "Direcció artística",
+          "Esther Westermeyer"
+        ],
+        [
+          "Direcció escènica",
+          "Maria Casellas"
+        ],
+        [
+          "Interpretació",
+          "Laia Piró o Berta Vidal, Neus Umbert, Esther Westermeyer"
+        ],
+        [
+          "Il·luminació i tècnica",
+          "Guillem Bonfill"
+        ],
+        [
+          "Composició musical i espai sonor",
+          "Joana Gomila"
+        ],
+        [
+          "Coreografia",
+          "Ana Pérez"
+        ],
+        [
+          "Espai escènic",
+          "Anna Tantull"
+        ],
+        [
+          "Vestuari",
+          "Lluna Albert"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi FETEN 2026 a Millor Espectacle per a la Primera Infància",
+          "cita": "Premi FETEN 2026 a Millor Espectacle per a la Primera Infància",
+          "es": "Premio FETEN 2026 a Millor Espectacle para la Primera Infancia",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "ed8b9aedf46fb63e",
+    "imagen": "https://www.sat-teatre.cat/img/image/fotos/nallar3.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatrecondal.cat/ca/ex/bons-i-dolents/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Autoria",
+          "Joel Joan"
+        ],
+        [
+          "Direcció",
+          "Nelson Valente"
+        ],
+        [
+          "Repartiment",
+          "Joel Joan, Agnès Busquets, Oriol Casals, Nesa Vidaurrázaga, Ana Gago"
+        ],
+        [
+          "Escenografia",
+          "Albert Pascual"
+        ],
+        [
+          "Vestuari",
+          "Ariadna Julià"
+        ],
+        [
+          "Il·luminació",
+          "Mireia Sintes"
+        ],
+        [
+          "Espai sonor",
+          "David Solans"
+        ],
+        [
+          "Caracterització",
+          "Imma Capell"
+        ],
+        [
+          "Producció executiva",
+          "Joel Joan, Núria Costas"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0950397625b1e7c4",
+    "imagen": null
+  },
+  "https://www.teatrecondal.cat/ca/ex/el-monstre-de-colors/": {
+    "datos": {
+      "duracion": 50,
+      "equipo": [
+        [
+          "Autoria",
+          "Anna Llenas"
+        ],
+        [
+          "Dramatúrgia i direcció",
+          "Ruth García"
+        ],
+        [
+          "Repartiment",
+          "Laia Garcia - Nuna, Laura Bosch - Monstre"
+        ],
+        [
+          "Escenografia",
+          "Joan Pena, Elisabet Pané, Quimet Felis"
+        ],
+        [
+          "Vestuari",
+          "Joan Pena"
+        ],
+        [
+          "Il·luminació",
+          "Sergi Illa"
+        ],
+        [
+          "Espai sonor",
+          "Joan Colomo"
+        ],
+        [
+          "Direcció de producció",
+          "Lluís Rovira"
+        ],
+        [
+          "Producció executiva",
+          "Mònica Gálvez"
+        ],
+        [
+          "Direcció tècnica",
+          "Sergi Illa"
+        ],
+        [
+          "Regidoria",
+          "Maria Rovira"
+        ],
+        [
+          "Tècnics de llum, so i microfonia",
+          "Gerard Bosch, Sergi Pérez"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Aleix Arbonès"
+        ],
+        [
+          "Tècnics del teatre",
+          "Víctor Bartolomé"
+        ],
+        [
+          "Construcció d'escenografia",
+          "Joan Pena, Elisabet Pané, Quimet Felis"
+        ],
+        [
+          "Confecció de vestuari",
+          "Joan Pena"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Laura Suárez"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Focus"
+        ],
+        [
+          "Reportatge fotogràfic",
+          "Arian Botey, Laura Suárez"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "98ebcea26aa64fcf",
+    "imagen": null
+  },
+  "https://www.teatrecondal.cat/ca/ex/ella-era-anita/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Autoria",
+          "Ester Bartomeu"
+        ],
+        [
+          "Dramatúrgia",
+          "Alícia Serrat, Gara Roda, Ester Bartomeu"
+        ],
+        [
+          "Text",
+          "Alícia Serrat"
+        ],
+        [
+          "Traducció i adaptació de lletres",
+          "Alícia Serrat, Gara Roda"
+        ],
+        [
+          "Lletres Chicago",
+          "Roger Batalla, Roger Peña"
+        ],
+        [
+          "Direcció i arranjaments musicals",
+          "Andrea Puig Doria"
+        ],
+        [
+          "Direcció tècnica vocal",
+          "Susanna Domènech Sànchez"
+        ],
+        [
+          "Direcció",
+          "Gara Roda"
+        ],
+        [
+          "Coreografia",
+          "Tatiana Monells"
+        ],
+        [
+          "Coreografia claqué",
+          "Ester Bartomeu"
+        ],
+        [
+          "Vestuari",
+          "Companyia"
+        ],
+        [
+          "Il·luminació",
+          "Paula Costas"
+        ],
+        [
+          "Espai sonor",
+          "Carla Casanovas Escolano"
+        ],
+        [
+          "Caracterització",
+          "Núria Llunell"
+        ],
+        [
+          "Intèrprets",
+          "Ester Bartomeu, Queralt Albinyana, Xaro Campo, Clara Casals"
+        ],
+        [
+          "Veu en off",
+          "Coco Comín"
+        ],
+        [
+          "Producció executiva",
+          "Cristina Ferrer (Tot Produccions)"
+        ],
+        [
+          "Ajudantia de producció",
+          "Sílvia Mercè"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Aleix Arbonès"
+        ],
+        [
+          "Tècnics del teatre",
+          "Víctor Bartolomé"
+        ],
+        [
+          "Tècnica de so",
+          "Marta Martínez Gómez"
+        ],
+        [
+          "Confecció de vestuari",
+          "Leo Quintana"
+        ],
+        [
+          "Comunicació",
+          "Mònica Homs"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Focus"
+        ],
+        [
+          "Reportatge fotogràfic",
+          "Glòria Solsona Puntós"
+        ],
+        [
+          "Disseny imatge",
+          "Jan Bartomeu"
+        ],
+        [
+          "Disseny gràfic",
+          "Jan Bartomeu, Mònica Floreta"
+        ],
+        [
+          "Distribució",
+          "Cristina Ferrer (Tot Produccions)"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "45a7fea31739e971",
+    "imagen": null
+  },
+  "https://www.teatrecondal.cat/ca/ex/germans-de-sang/": {
+    "datos": {
+      "duracion": 200,
+      "equipo": [
+        [
+          "Direcció",
+          "Daniel Anglès"
+        ],
+        [
+          "Direcció coreogràfica",
+          "Ariadna Peya"
+        ],
+        [
+          "Direcció musical",
+          "Andreu Gallén"
+        ],
+        [
+          "Escenografia",
+          "Alessio Meloni"
+        ],
+        [
+          "Vestuari",
+          "Marc Udina"
+        ],
+        [
+          "Il·luminació",
+          "David Bofarull (AAI)"
+        ],
+        [
+          "So",
+          "Jordi Ballbé"
+        ],
+        [
+          "Llibret, música i lletres",
+          "Willy Russell"
+        ],
+        [
+          "Adaptació al català",
+          "Albert Mas-Griera"
+        ],
+        [
+          "Arranjaments musicals",
+          "Andreu Gallén"
+        ],
+        [
+          "Producció",
+          "Focus"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "fea60a0bd78888a2",
+    "imagen": null
+  },
+  "https://www.teatrecondal.cat/ca/ex/receta-para-un-musical/": {
+    "datos": {
+      "duracion": 110,
+      "equipo": [
+        [
+          "Autoria",
+          "David Ordinas, Pablo Puyol"
+        ],
+        [
+          "Direcció",
+          "David Ordinas, Pablo Puyol"
+        ],
+        [
+          "Adaptació",
+          "David Ordinas, Pablo Puyol"
+        ],
+        [
+          "Intèrprets",
+          "David Ordinas, Pablo Puyol"
+        ],
+        [
+          "Espai sonor",
+          "David Ordinas"
+        ],
+        [
+          "Producció executiva",
+          "Lorena Toda"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Aleix Arbonès"
+        ],
+        [
+          "Tècnic del teatre",
+          "Víctor Bartolomé"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Focus"
+        ],
+        [
+          "Producció",
+          "Desconcierto Producciones"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e8d4263ce5290d4a",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/alicia-al-pais-dels-mobils/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Autoria",
+          "Marta Buchaca"
+        ],
+        [
+          "Direcció",
+          "Jordi Andújar"
+        ],
+        [
+          "Composició musical",
+          "Keco Pujol"
+        ],
+        [
+          "Intèrprets",
+          "Jordi Llordella-Rubén Albaladejo, Júlia Bonjoch-Xuel Díaz-Judith Porta, Marc Pujol, Queralt Albinyana-Cristina Murillo-Cris Vidal"
+        ],
+        [
+          "Escenografia visual i vestuari",
+          "Desilence"
+        ],
+        [
+          "Disseny d'l·luminació",
+          "Isidre Ortiz, Jaume Gomez"
+        ],
+        [
+          "Disseny de so",
+          "Josep Sanchez Rico"
+        ],
+        [
+          "Producció executiva",
+          "Gisela Juanet"
+        ],
+        [
+          "Ajudant de producció",
+          "Martina De Cabo"
+        ],
+        [
+          "Coordinació tècnica",
+          "Cristian Nadal, Carles Merodio, Ferran Peig"
+        ],
+        [
+          "Ajudant de direcció",
+          "Míriam Puntí"
+        ],
+        [
+          "Coreògrafa",
+          "Bealia Guerra"
+        ],
+        [
+          "Regidor",
+          "Xavier Flores"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Tècnica del teatre",
+          "Eva Rotllán"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Viu el teatre (Khushi Espelt)"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Focus"
+        ],
+        [
+          "Administració",
+          "Ana Mª Montero"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f4d035e489861994",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/assassinat-per-a-dos/": {
+    "datos": {
+      "duracion": 95,
+      "equipo": [
+        [
+          "Adaptació i direcció",
+          "Zenón Recalde"
+        ],
+        [
+          "Direcció musical",
+          "Gaby Goldman"
+        ],
+        [
+          "Traducció i adaptació",
+          "David Pintó basat en la versió de Zenón Recalde"
+        ],
+        [
+          "Intèrprets",
+          "Dídac Flores / Mikel Herzog Jr"
+        ],
+        [
+          "Cover",
+          "Nicolás Sans"
+        ],
+        [
+          "Escenografia",
+          "Javier Alegría"
+        ],
+        [
+          "Vestuari",
+          "Silvina Falcón"
+        ],
+        [
+          "Il·luminació",
+          "Alba Santiago"
+        ],
+        [
+          "Producció executiva",
+          "El Tío Caracoles Production Company, Ana Belén Beas, Miguel Ángel Chulia"
+        ],
+        [
+          "Tècnic de so, vídeo i llums",
+          "Alba Santiago"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Tècnica del teatre",
+          "Eva Rotllán"
+        ],
+        [
+          "Premsa i comunicació",
+          "Carlos Rivera"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Focus"
+        ],
+        [
+          "Disseny gràfic",
+          "Maktub_Justdesign"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Una premiada comèdia musical",
+          "cita": "Una premiada comèdia musical que reinventa el gènere detectivesc amb humor, música en directe i un desplegament interpretatiu extraordinari.",
+          "es": "Comedia musical premiada",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "c1c444aafe897a3f",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/buenrollistas/": {
+    "datos": {
+      "duracion": 100,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "36b7e1152066ced9",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/el-fil-invisible/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Dramatúrgia",
+          "Alícia Serrat, Daniel Anglès, Víctor Arbelo"
+        ],
+        [
+          "Text",
+          "Alícia Serrat"
+        ],
+        [
+          "Lletres",
+          "Daniel Anglès, Víctor Arbelo, Alícia Serrat"
+        ],
+        [
+          "Música",
+          "Víctor Arbelo, Alícia Serrat"
+        ],
+        [
+          "Direcció",
+          "Alícia Serrat"
+        ],
+        [
+          "Direcció musical",
+          "Víctor Arbelo"
+        ],
+        [
+          "Coreografia",
+          "Oscar Reyes"
+        ],
+        [
+          "Escenografia i vestuari",
+          "Joana Martí"
+        ],
+        [
+          "Il·luminació",
+          "Paula Costas"
+        ],
+        [
+          "Espai sonor",
+          "Jordi Ballbé, Cristian Nadal"
+        ],
+        [
+          "Intèrprets",
+          "Mariona Castillo (Narradora), Alba Serrano (Nura), Clara Subiràs (Lia), Adrià Cid (Quim), Jan Català (Àlex)"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "82f154d89e2d0d7a",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/panorama-des-del-pont/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Arthur Miller"
+        ],
+        [
+          "Traducció",
+          "Joan Sellent"
+        ],
+        [
+          "Direcció",
+          "Sílvia Munt"
+        ],
+        [
+          "Repartiment",
+          "David Selvas Jansana, Laura Conejero, Laura Gaja, Eduard Buch, Nil Cardoner, Jan D. Casablancas"
+        ],
+        [
+          "Escenografia",
+          "Laura Clos “Closca”"
+        ],
+        [
+          "Vestuari",
+          "Carlota Ricart"
+        ],
+        [
+          "Il·luminació",
+          "Bernat Jansà"
+        ],
+        [
+          "Disseny de so",
+          "Orestes Gas"
+        ],
+        [
+          "Direcció de producció",
+          "Josep Domènech"
+        ],
+        [
+          "Cap de producció",
+          "Blanca Arderiu"
+        ],
+        [
+          "Producció executiva",
+          "Macarena García"
+        ],
+        [
+          "Direcció tècnica",
+          "AP7. Projectes tècnics – Enric Alarcon"
+        ],
+        [
+          "Ajudantia de direcció",
+          "Tània Banús"
+        ],
+        [
+          "Regidoria",
+          "Rita Capella"
+        ],
+        [
+          "Tècnic de llums",
+          "Lucas Ser"
+        ],
+        [
+          "Tècnic de so",
+          "Bernat Villà"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Tècnica del teatre",
+          "Eva Rotllán"
+        ],
+        [
+          "Confecció del vestuari",
+          "Taller de confecció GORETTI"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Bea Moyano, Mariona Gómez"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Focus"
+        ],
+        [
+          "Reportatge fotogràfic",
+          "Kiku Piñol"
+        ],
+        [
+          "Disseny gràfic",
+          "Queralt Guinart"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e55b8f8dd37a0384",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/pintamusica/": {
+    "datos": {
+      "duracion": 30,
+      "equipo": [
+        [
+          "Idea original",
+          "Gisela Juanet"
+        ],
+        [
+          "Autoria",
+          "Berta Ros, Gisela Juanet, Lorena Lliró"
+        ],
+        [
+          "Direcció escènica",
+          "Gisela Juanet, Lluís Juanet"
+        ],
+        [
+          "Direcció musical, composició i arranjament",
+          "Berta Ros, Lorena Lliró"
+        ],
+        [
+          "Intèrprets i músics",
+          "Berta Ros / Núria Gomez / Joana Campo, Raul Viana / Hector Canós / Marcel·lí Bayer / Guillem Payaró / Andreu Domènech, Lorena Lliró / Cris Vidal / Elisenda Andrés"
+        ],
+        [
+          "Escenografia",
+          "Mateo Tikas, Natividad Gerbolés"
+        ],
+        [
+          "Disseny espai escènic",
+          "Lluís Juanet, Gisela Juanet"
+        ],
+        [
+          "Disseny de vestuari",
+          "Gemma Malé"
+        ],
+        [
+          "Il·luminació",
+          "Lluís Juanet"
+        ],
+        [
+          "Audiovisual",
+          "Pau Gascón, Rosa Cardús"
+        ],
+        [
+          "Assessorament en art",
+          "Núria Garcia"
+        ],
+        [
+          "Assessorament pedagògic",
+          "Berta Juanet"
+        ],
+        [
+          "Assessorament en llenguatge de signes",
+          "Natàlia Ros"
+        ],
+        [
+          "Regidoria",
+          "Xavi Flores"
+        ],
+        [
+          "Cap tècnic",
+          "Carles Merodio"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Tècnica del teatre",
+          "Eva Rotllán"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Focus"
+        ],
+        [
+          "Administració",
+          "Ana Mª Montero"
+        ],
+        [
+          "Agraïments",
+          "Duna Montero, Maria Roca, escola Sant Medir"
+        ],
+        [
+          "Distribució",
+          "Clara Fontdevila (distribucio@viuelteatre.com)"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5f9833818bdb74d9",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/poncia/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Text",
+          "Luis Luque"
+        ],
+        [
+          "Direcció",
+          "Luis Luque"
+        ],
+        [
+          "Composició de música original",
+          "Luis Miguel Cobo"
+        ],
+        [
+          "Intèrpret",
+          "Lolita Flores"
+        ],
+        [
+          "Disseny d'espai escènic",
+          "Mónica Boromello"
+        ],
+        [
+          "Disseny de vestuari",
+          "Almudena Rodríguez Huertas"
+        ],
+        [
+          "Disseny d'il·luminació",
+          "Paco Ariza"
+        ],
+        [
+          "Productor",
+          "Jesús Cimarro"
+        ],
+        [
+          "Ajudant de direcció",
+          "Álvaro Lizarrondo"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Focus"
+        ],
+        [
+          "Fotografia",
+          "Javier Naval"
+        ],
+        [
+          "Aplicacions gràfiques",
+          "Focus"
+        ],
+        [
+          "Producció",
+          "Pentación Espectáculos, Teatro Español"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "ccf10b0116fa2784",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/ultrashow/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "Autoria i repartiment",
+          "Miguel Noguera"
+        ],
+        [
+          "Tècnic (Barcelona)",
+          "Sergi Flores"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Tècnica del teatre",
+          "Eva Rotllán"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f61fa15486e40dcc",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/un-sogre-de-lloguer/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Susanna Garachana, Jaume Viñas"
+        ],
+        [
+          "Direcció",
+          "Daniel Anglès"
+        ],
+        [
+          "Codirecció",
+          "Jaume Viñas"
+        ],
+        [
+          "Intèrprets",
+          "Joan Pera, Muntsa Alcañiz, Clàudia Bravo, Edu Lloveras"
+        ],
+        [
+          "Escenografia",
+          "Enric Planas"
+        ],
+        [
+          "Vestuari i caracterització",
+          "Núria Llunell"
+        ],
+        [
+          "Il·luminació",
+          "Paula Costas"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "e12cd152afbd886e",
+    "imagen": null
+  },
+  "https://www.teatrelliure.com/ca/entrades": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "DE",
+          "WILLIAM SHAKESPEARE"
+        ],
+        [
+          "ADAPTACIÓ",
+          "LLÀTZER GARCIA"
+        ],
+        [
+          "DIRECCIÓ",
+          "DAVID SELVAS"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "01bf9a23aba8dab8",
+    "imagen": null
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/17-magia-barcelona-inexplicable.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Amb",
+          "Manu Llari"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "39c9c9215bea2e47",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/inexplicable.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/19-ultima-planta.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "339e04b1614aa168",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/ultimaplanta.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/3-impro-show.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "fef09774c3c6fe79",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/1080pxx1080px_1.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/4-monoleg-barcelona-viviendo-a-todo-gass.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "114b3530d765795a",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/352_890x468f2dsgdsg.jpg?w=600&h=600&zc=1&aoe=1&q=80"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/6-la-llibreria-magica.html": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c9cb68e3f82151d6",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/magica.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/633-monologos-vermut.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Dirección",
+          "Gabriel Córdoba"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "30f1179b43e393fb",
+    "imagen": null
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/638-viejovenes.html": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Intérpretes",
+          "Raquel Ramos, Gabriel Cordoba"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "8054be3bcad8a3ef",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/viejoneves_1080x1080.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/642-una-capseta-que-batega.html": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Direcció",
+          "Mireia Casado"
+        ],
+        [
+          "Repartiment",
+          "Aïda Puig, Naís Santapau / Génesis Abigail"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "ca203186f691d2c4",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/1080x1080_01_principal.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/652-agencia-matrimonial-damor.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "5697ed27dd96977a",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/cartell1080x1080.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/653-magia-kids-la-biblioteca-secreta.html": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "0033d21a64094e94",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/1080x1008.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/654-un-somni-pirata.html": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "6fed160c49a5cab9",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/sp-1080x1080.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/656-la-nit-mes-magica.html": {
+    "datos": {
+      "duracion": 50,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "bba76026c9fdbd90",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/nmm-1080x1080.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/8-magia-a-la-carta.html": {
+    "datos": {
+      "duracion": 65,
+      "equipo": [
+        [
+          "Amb",
+          "Daniel Sánchez"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Nacional de Màgia",
+          "cita": "Amb la qualitat i el talent d’un jove Premi Nacional de Màgia, aquest espectacle ofereix una experiència única i inoblidable.",
+          "es": "Premio Nacional de Magia",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-18",
+    "firma": "61393c9d19911558",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/1080pxx1080pxfoto.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/9-los-hijos-adolescentes.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Amb",
+          "Andrés Torres"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "9fe9c07349d4209d",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/1080x1080_2.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatrepoliorama.com/ca/programacio/c/906-les-dones-pineiro.html": {
+    "datos": {
+      "duracion": 105,
+      "equipo": [
+        [
+          "Autoria",
+          "Joan Yago"
+        ],
+        [
+          "Direcció",
+          "Israel Solà"
+        ],
+        [
+          "Repartiment",
+          "Mamen Duch, Xavi Francès, Aitor Galisteo-Rocher, Esther López, Marta Pérez, Carme Pla, Marc Rius, Àgata Roca, Júlia Truyol"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "335ccfb1b1c6898f",
+    "imagen": "https://www.teatrepoliorama.com/img/image/fotos/galeriaweb14.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatrepoliorama.com/ca/programacio/c/908-magia-kids-el-gran-repte.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Intèrprets",
+          "Pablo Barán, Judit Gómez, Clara Pallarés, Clara Guim, Laura Santos"
+        ],
+        [
+          "Direcció i dramatúrgia",
+          "Jordi Casado, Olivas"
+        ],
+        [
+          "Coreografia",
+          "Clara Pallarés"
+        ],
+        [
+          "Escenografia",
+          "Enric Planas"
+        ],
+        [
+          "Visuals",
+          "Desilence"
+        ],
+        [
+          "Veu en off",
+          "Eduard Estivill"
+        ],
+        [
+          "Vestuari",
+          "Carles Solé"
+        ],
+        [
+          "Perruqueria",
+          "Toni Santos"
+        ],
+        [
+          "Cap tècnic",
+          "Oriol Micó"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Marc Inglés Rabal"
+        ],
+        [
+          "Tècnics d’il·luminació i so",
+          "Marc Inglés Rabal, Pau Lahuerta"
+        ],
+        [
+          "Assistència de producció",
+          "Carla Bastard"
+        ],
+        [
+          "So",
+          "Articwave Studio"
+        ],
+        [
+          "Disseny gràfic",
+          "Pablo Barangé"
+        ],
+        [
+          "Il·lustracions",
+          "Elena Gómez"
+        ],
+        [
+          "Fotografia i vídeo",
+          "Ignasi Paredes, César Pérez"
+        ],
+        [
+          "Comunicació",
+          "Carmen Vicente"
+        ],
+        [
+          "Màrqueting digital",
+          "Marcel Fernández"
+        ],
+        [
+          "Agraïments",
+          "Jesús Bastard, Manuel Barangé"
+        ],
+        [
+          "Idea original i producció",
+          "MAGICPABLO®"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "9373bacb20543b30",
+    "imagen": "https://www.teatrepoliorama.com/img/image/fotos/portadafitxaespectaclewebpolio.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatrepoliorama.com/ca/programacio/c/918-un-tal-quixot.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Autor i director",
+          "Marcel Tomàs"
+        ],
+        [
+          "Intèrprets",
+          "Toni Escribano, Marcel Tomàs"
+        ],
+        [
+          "Creació",
+          "Marcel Tomàs, Susana Lloret"
+        ],
+        [
+          "Veu en off",
+          "Pep Cruz"
+        ],
+        [
+          "Coreografia",
+          "Marta Ribera"
+        ],
+        [
+          "BSO",
+          "Carles Serras"
+        ],
+        [
+          "Fotografia",
+          "Marcel Asso"
+        ],
+        [
+          "Il·luminació",
+          "Gerard Canadell"
+        ],
+        [
+          "Comunicació",
+          "Paula Vilardell"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "7a66bde0326dfab0",
+    "imagen": "https://www.teatrepoliorama.com/img/image/fotos/3424_quixotquadrat.png?w=600&h=600&zc=1&aoe=1&q=80&f=png"
+  },
+  "https://www.teatrepoliorama.com/ca/programacio/c/919-jana-el-musical.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Repartiment",
+          "Mar López, Anila Padrós, Lluís Rubio, Júlia Conangla, Julen Gerrikabeitia"
+        ],
+        [
+          "Dramatúrgia",
+          "Mar Puig"
+        ],
+        [
+          "Música i lletres",
+          "Mateu Peramiquel"
+        ],
+        [
+          "Direcció escènica",
+          "properament"
+        ],
+        [
+          "Direcció musical",
+          "Andreu Perelló"
+        ],
+        [
+          "Direcció de moviment",
+          "properament"
+        ],
+        [
+          "Disseny d'il·luminació",
+          "properament"
+        ],
+        [
+          "Disseny sonor",
+          "properament"
+        ],
+        [
+          "Disseny d'escenografia",
+          "properament"
+        ],
+        [
+          "Coordinadora de Producció",
+          "Ares Lara"
+        ],
+        [
+          "Videografia",
+          "Artur Cruz"
+        ],
+        [
+          "Fotografia i Cartell",
+          "Sergi Panizo"
+        ],
+        [
+          "Direcció executiva",
+          "Mateu Peramiquel"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "c9693344fb50a062",
+    "imagen": "https://www.teatrepoliorama.com/img/image/fotos/5015.png?w=600&h=600&zc=1&aoe=1&q=80&f=png"
+  },
+  "https://www.teatrepoliorama.com/ca/programacio/c/923-cyrano.html": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Direcció",
+          "Paco Mir"
+        ],
+        [
+          "Versió",
+          "Paco Mir, a partir de la versió de Bru de Sala de l’obra d’Edmond Rostand"
+        ],
+        [
+          "Escenografia",
+          "Núria Maluquer"
+        ],
+        [
+          "Construcció de l’escenografia",
+          "Joan Jorba"
+        ],
+        [
+          "Vestuari",
+          "Carlota Ricart, Lucia Romero"
+        ],
+        [
+          "Il·luminació",
+          "Justo Gallego"
+        ],
+        [
+          "Mestre d’armes",
+          "Gemma Beltrán"
+        ],
+        [
+          "Música",
+          "Jaume Vilaseca"
+        ],
+        [
+          "Ajudant de direcció",
+          "Anna Muñoz"
+        ],
+        [
+          "Producció executiva",
+          "Mercè Puy"
+        ],
+        [
+          "Repartiment",
+          "Francesc Marginet, Laia Alsina, Laura Pau, Marc Domingo, Martí Atance, Maria Cirici"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "f53f35e6ece41a9a",
+    "imagen": "https://www.teatrepoliorama.com/img/image/fotos/copiadegaleriainterior870x580.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreromea.cat/ca/ex/el-boti/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Joe Orton"
+        ],
+        [
+          "Direcció",
+          "Miquel Gorriz"
+        ],
+        [
+          "Intèrprets",
+          "Pere Arquillué, Albert Pérez, Maria Ribera, Joan Esteve, Marc Tarrida Aribau, Roberto G Alonso"
+        ],
+        [
+          "Escenografia",
+          "Max Glaenzel"
+        ],
+        [
+          "Vestuari",
+          "Adriana Parra"
+        ],
+        [
+          "Il·luminació",
+          "Toni Ubach"
+        ],
+        [
+          "Direcció de producció",
+          "Anna Rius"
+        ],
+        [
+          "Producció executiva",
+          "Marta Margarit"
+        ],
+        [
+          "Ajudant de direcció - Moviment/Coreografia",
+          "Ferran Carvajal"
+        ],
+        [
+          "Ajudantia d'escenografia",
+          "Paula González Infante"
+        ],
+        [
+          "Regidoria",
+          "Montse Tixé"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Sergio Lobaco"
+        ],
+        [
+          "Tècnic del teatre",
+          "Isard Dané"
+        ],
+        [
+          "Construcció de l'escenografia",
+          "Albert Ventura"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Teatre Romea"
+        ],
+        [
+          "Col·laboradors",
+          "Proxima Serveis Funeraris"
+        ],
+        [
+          "Distribució",
+          "Mola Produccions"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "fc831882104d996f",
+    "imagen": null
+  },
+  "https://www.teatreromea.cat/ca/ex/el-retrat-de-dorian-gray/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Direcció d'escena i dramatúrgia",
+          "Marc Rosich"
+        ],
+        [
+          "Direcció musical i composició",
+          "Jordi Cornudella"
+        ],
+        [
+          "Intèrprets",
+          "Àngel Gonyalons, Toni Viñals, Odo Cabot, Pol Blancafort"
+        ],
+        [
+          "Músics",
+          "Leos Quintet"
+        ],
+        [
+          "Moviment",
+          "Montserrat Colomé"
+        ],
+        [
+          "Escenografia",
+          "Sebastià Brosa"
+        ],
+        [
+          "Vestuari",
+          "Joana Martí"
+        ],
+        [
+          "Il·luminació",
+          "Bernat Jansà"
+        ],
+        [
+          "Espai sonor",
+          "Jordi Ballbé"
+        ],
+        [
+          "Caracterització",
+          "Toni Santos"
+        ],
+        [
+          "Direcció de producció",
+          "Maite Pijuan"
+        ],
+        [
+          "Producció executiva",
+          "Àlvar Rovira"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "b6f84e806d35345d",
+    "imagen": null
+  },
+  "https://www.teatreromea.cat/ca/ex/la-promesa-del-alba/": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Adaptació i direcció",
+          "Josep Maria Flotats"
+        ],
+        [
+          "Traducció",
+          "Salvador Oliva"
+        ],
+        [
+          "Intèrpret",
+          "Josep Maria Flotats"
+        ],
+        [
+          "Il·luminació",
+          "Kiko Planas"
+        ],
+        [
+          "Espai sonor",
+          "Jordi Bonet"
+        ],
+        [
+          "Caracterització",
+          "Toni Santos"
+        ],
+        [
+          "Direcció de producció",
+          "Maite Pijuan"
+        ],
+        [
+          "Producció executiva",
+          "Sira Castells"
+        ],
+        [
+          "Direcció tècnica",
+          "Moi Cuenca"
+        ],
+        [
+          "Coordinació tècnica",
+          "Jordi Farràs"
+        ],
+        [
+          "Ajudantia de direcció i regidoria",
+          "Iban Beltran"
+        ],
+        [
+          "Ajudantia de producció",
+          "Sara López"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Sergio Lobaco"
+        ],
+        [
+          "Tècnic del teatre",
+          "Isard Dané"
+        ],
+        [
+          "Màrqueting i comunicació i disseny gràfic",
+          "Teatre Romea"
+        ],
+        [
+          "Reportatge Fotogràfic",
+          "David Ruano"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "838388ca44303dd4",
+    "imagen": null
+  },
+  "https://www.teatreromea.cat/ca/ex/sopa-de-lletres/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Idea original i creació",
+          "Cristina Noguer, Ovidi Llorente"
+        ],
+        [
+          "Direcció",
+          "Ana P. Jiménez"
+        ],
+        [
+          "Dramatúrgia",
+          "Dora Cantero"
+        ],
+        [
+          "Intèrprets",
+          "Cristina Noguer, Ovidi Llorente, Tanja Haupt"
+        ],
+        [
+          "Composició musical",
+          "Tanja Haup"
+        ],
+        [
+          "Disseny i creació d'escenografia",
+          "Pablo Paz"
+        ],
+        [
+          "Disseny d'il·luminació",
+          "Yuri Plana"
+        ],
+        [
+          "Disseny de vestuari",
+          "Núria Espinach"
+        ],
+        [
+          "Disseny de so",
+          "Nacho López"
+        ],
+        [
+          "Assessorament moviment",
+          "David Gol"
+        ],
+        [
+          "Tècnics llum i so en gira",
+          "Nacho López, Yuri Plana"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Sergio Lobaco"
+        ],
+        [
+          "Tècnic del teatre",
+          "Isard Dané"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Teatre Romea"
+        ],
+        [
+          "Disseny cartell",
+          "Maria Diamantes"
+        ],
+        [
+          "Fotografia i video",
+          "Vador Maynou, Display"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "ce90bf69b877aec2",
+    "imagen": null
+  },
+  "https://www.teatreromea.cat/ca/ex/tinc-un-volca/": {
+    "datos": {
+      "duracion": 50,
+      "equipo": [
+        [
+          "Dramatúrgia",
+          "Carmen Marfà"
+        ],
+        [
+          "Banda Sonora",
+          "Els Amics de les Arts"
+        ],
+        [
+          "Direcció",
+          "Roger Julià"
+        ],
+        [
+          "Intèrprets",
+          "A determinar"
+        ],
+        [
+          "Escenografia i vestuari",
+          "A determinar"
+        ],
+        [
+          "Il·luminació",
+          "A determinar"
+        ],
+        [
+          "Espai sonor",
+          "A determinar"
+        ],
+        [
+          "Producció artística",
+          "Daniel Anglès"
+        ],
+        [
+          "Producció executiva",
+          "Gisela Juanet"
+        ],
+        [
+          "Discogràfica",
+          "A determinar"
+        ],
+        [
+          "Ajudant de producció",
+          "Martina de Cabo"
+        ],
+        [
+          "Assessorament en llengua de signes",
+          "A determinar"
+        ],
+        [
+          "Regidoria",
+          "Xavi Flores"
+        ],
+        [
+          "Tècnic",
+          "Carles Merodio"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Sergio Lobaco"
+        ],
+        [
+          "Tècnic del teatre",
+          "Isard Dané"
+        ],
+        [
+          "Màrqueting i comunicació",
+          "Viu el Teatre"
+        ],
+        [
+          "Màrqueting i comunicació del teatre",
+          "Teatre Romea"
+        ],
+        [
+          "Videomakers",
+          "Khushi Espelt"
+        ],
+        [
+          "Cartell",
+          "Joan Turu"
+        ],
+        [
+          "Disseny gràfic",
+          "Pere Pujades"
+        ],
+        [
+          "Administració",
+          "Ana Montero"
+        ],
+        [
+          "Distribució",
+          "Clara Fontdevila"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "596ddd11f21d6eb0",
+    "imagen": null
+  },
+  "https://www.teatrevictoria.com/ca/cartellera/c/332-el-mago-pop.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "1ac41c58ee98d0d8",
+    "imagen": "https://www.teatrevictoria.com/img/image/fotos/web_1000x1250_sintexto.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.tnc.cat/ca/on-comprar": {
+    "datos": {},
+    "fecha": "2026-11-18",
+    "firma": "6f66536c7ceab84e",
+    "imagen": null
+  },
+  "https://www.triateatre.cat/ca/cartellera/c/3577-jo-travesti.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Idea original",
+          "Roberto G.Alonso"
+        ],
+        [
+          "Intèrprets",
+          "Roberto G. Alonso, Jordi Cornudella"
+        ],
+        [
+          "Dramatúrgia i direcció",
+          "Josep Maria Miró"
+        ],
+        [
+          "Direcció musical",
+          "Jordi Cornudella"
+        ],
+        [
+          "Coreografia",
+          "Roberto G. Alonso"
+        ],
+        [
+          "Escenografia",
+          "Albert Pascual"
+        ],
+        [
+          "Vestuari",
+          "Albert Pascual, víctor Guerrero"
+        ],
+        [
+          "Disseny d'il·luminació",
+          "Ganecha Gil"
+        ],
+        [
+          "Disseny espai sonor",
+          "Arnau Grande"
+        ],
+        [
+          "Ajudant de direcció",
+          "Marta Ferández Martí"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "19dcfa426d710ccd",
+    "imagen": "https://www.triateatre.cat/img/image/fotos/8405.jpeg?w=600&h=600&zc=1&aoe=1&q=80"
+  }
+}
