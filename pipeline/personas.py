@@ -61,7 +61,10 @@ def _sparql(consulta: str) -> dict | None:
                                                                              "Accept": "application/sparql-results+json"}), timeout=60) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
-            time.sleep(min(int(e.headers.get("Retry-After") or 10), 60) if e.code == 429 else 5 * (intento + 1))
+            espera = int(e.headers.get("Retry-After") or 10) if e.code == 429 else 5 * (intento + 1)
+            if espera > 60:  # nos piden parar un buen rato: se sigue nombre a nombre (más lento)
+                return None
+            time.sleep(espera)
         except Exception:  # noqa: BLE001
             time.sleep(5 * (intento + 1))
     return None
@@ -162,10 +165,21 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
         if not leer_webs or time.monotonic() > fin:
             break
         lote = pendientes[i:i + POR_LOTE]
-        encontrados = candidatos_lote([n for _, n in lote])
-        if encontrados is None:
-            inf["aviso"] = "Wikidata no responde: el resto, otro día"
-            break
+        encontrados = candidatos_lote([n for _, n in lote]) if not inf.get("uno_a_uno") else None
+        if encontrados is None:  # la consulta por grupos no va: nombre a nombre, hasta que se acabe el tiempo
+            inf["uno_a_uno"] = True
+            try:
+                for k, n in lote:
+                    if time.monotonic() > fin:
+                        break
+                    cache[k] = {"fecha": hoy.isoformat(), "nombre": n, "datos": _buscar(n) or {}}
+                    inf["buscados_hoy"] += 1
+                    time.sleep(0.5)
+            except RuntimeError:
+                inf["aviso"] = "Wikidata no responde: el resto, otro día"
+                break
+            guardar_json(ruta, cache)
+            continue
         unicos = {k: next(iter(encontrados[normalizar(n)])) for k, n in lote if len(encontrados.get(normalizar(n), ())) == 1}
         info = detalles(sorted(set(unicos.values())))
         for k, n in lote:  # una sola persona posible: esa; ninguna o varias: nada (no se adivina)
