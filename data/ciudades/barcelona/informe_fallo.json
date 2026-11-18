@@ -1,0 +1,34 @@
+{
+  "aviso": "Alguna fuente ha fallado: se conservan los resultados anteriores de esta ciudad.",
+  "ciudad": {
+    "id": "barcelona",
+    "idiomas": [
+      "es",
+      "ca"
+    ],
+    "moneda": "EUR",
+    "nombre": "Barcelona",
+    "pais": "ES",
+    "zona_horaria": "Europe/Madrid"
+  },
+  "errores": [
+    "open_data_bcn: HTTPError: HTTP Error 403: Forbidden"
+  ],
+  "fecha": "2026-11-18",
+  "fuentes": {
+    "open_data_bcn": {
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/app-teatre-cine/app-teatre-cine/pipeline/principal.py\", line 155, in ejecutar_ciudad\n    resultado = fuentes.cargar(nombre).recoger(ctx)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/app-teatre-cine/app-teatre-cine/pipeline/fuentes/open_data_bcn/__init__.py\", line 85, in recoger\n    informe[\"descarga\"] = descargar.descargar(ctx.carpeta_descargas)\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/app-teatre-cine/app-teatre-cine/pipeline/fuentes/open_data_bcn/descargar.py\", line 95, in descargar\n    res = recursos(conjunto)\n          ^^^^^^^^^^^^^^^^^^\nurllib.error.HTTPError: HTTP Error 403: Forbidden\n"
+    },
+    "webs_salas": {
+      "con_web": 19,
+      "descartadas": 20,
+      "funciones": 115,
+      "leidas_ia": 5,
+      "obras": 71,
+      "paginas": 29,
+      "salas_sin_agenda": 35,
+      "web_compartida": 20
+    }
+  },
+  "inicio": "2026-11-18T06:21:25+0000"
+}
