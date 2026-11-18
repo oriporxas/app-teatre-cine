@@ -32,7 +32,7 @@ import traceback
 from . import ajustes, clasificar_ia, config, exportar_web, fuentes, genero, ia, publico, salas, senales
 from .ajustes import Ciudad
 from .fuentes.base import Contexto
-from .util import guardar_json
+from .util import guardar_json, leer_json
 
 TIPOS_PUBLICADOS = ("teatro", "magia", "circo", "danza", "musical", "evento", "cine")
 
@@ -250,6 +250,29 @@ def ejecutar(solo: str | None = None, **opciones) -> dict:
     return indice
 
 
+def solo_cine(solo: str | None = None) -> dict:
+    """Actualización ligera del mediodía: solo la cartelera de cine (las sesiones cambian más que el
+    teatro). Unos minutos y casi sin IA; el resto de la cartelera se queda como la dejó la mañana."""
+    from . import cine
+    res = {"actualizado": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "ciudades": {}}
+    for ciudad in ajustes.ciudades().values():
+        if (solo and ciudad.id != solo) or (not solo and not ciudad.activa) or not ciudad.cine:
+            continue
+        try:
+            inf = cine.recoger(ciudad, ciudad.hoy(), descargar=True, leer_webs=True)
+            ruta = config.carpeta_ciudad(ciudad.id) / "informe.json"
+            informe = leer_json(ruta, {}) or {}
+            informe["cine"] = inf
+            informe["cine_actualizado"] = res["actualizado"]
+            guardar_json(ruta, informe)
+            res["ciudades"][ciudad.id] = {"peliculas": inf.get("peliculas"), "errores": []}
+        except Exception as e:  # noqa: BLE001 - si falla, el cine de la mañana sigue en la app
+            res["ciudades"][ciudad.id] = {"errores": [f"cine: {type(e).__name__}: {e}"]}
+    res["gasto_ia_usd"] = round(ia.GASTO.usd, 4)
+    ia.GASTO.guardar()
+    return res
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--ciudad", help="procesar solo esta ciudad (clave de ajustes/ciudades.toml)")
@@ -257,7 +280,12 @@ def main() -> None:
     p.add_argument("--sin-lectura", "--sin-guia", action="store_true", help="no leer páginas web nuevas")
     p.add_argument("--minutos-lectura", "--minutos-guia", type=float, help="tiempo máximo leyendo webs por fuente")
     p.add_argument("--hoy", help="fecha de referencia (AAAA-MM-DD); por defecto, la de cada ciudad")
+    p.add_argument("--solo-cine", action="store_true", help="actualizar solo la cartelera de cine (la del mediodía)")
     args = p.parse_args()
+    if args.solo_cine:
+        res = solo_cine(args.ciudad)
+        print(json.dumps(res, ensure_ascii=False, indent=2))
+        sys.exit(1 if any(c["errores"] for c in res["ciudades"].values()) else 0)
     indice = ejecutar(args.ciudad, descargar=not args.sin_descarga, leer_webs=not args.sin_lectura,
                       minutos_lectura=args.minutos_lectura,
                       hoy=dt.date.fromisoformat(args.hoy) if args.hoy else None)

@@ -10,9 +10,9 @@ on:
     # Cada día a las 05:17 (hora UTC; 06:17 en invierno y 07:17 en verano en
     # Barcelona). El Ayuntamiento actualiza sus agendas de madrugada.
     - cron: "17 5 * * *"
-    # Segundo intento por la tarde (13:17 UTC): solo trabaja si el de la mañana no dejó los datos
-    # del día (p. ej. el 18/11/2026 la web del Ayuntamiento respondió «prohibido» un rato). Si ya
-    # están, termina en un minuto.
+    # Mediodía (13:17 UTC; 14:17 en invierno en Barcelona): si la de la mañana no dejó los datos
+    # del día (p. ej. el 18/11/2026 la web del Ayuntamiento respondió «prohibido» un rato), se hace
+    # la actualización completa; si ya están, solo se renueva el cine (unos minutos), que cambia más.
     - cron: "17 13 * * *"
   workflow_dispatch:
     inputs:
@@ -57,12 +57,16 @@ jobs:
           FIN
 
       - name: Instalar dependencias
-        if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
         run: pip install -r requirements.txt
 
       - name: Comprobar el programa (pruebas automáticas)
-        if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
         run: python -m unittest discover -s tests -t .
+
+      - name: Actualizar solo el cine (mediodía, si los datos del día ya están)
+        if: ${{ github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si' }}
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+        run: python -m pipeline.principal --solo-cine
 
       - name: Actualizar datos
         if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
@@ -78,7 +82,7 @@ jobs:
       # Se guarda aunque el paso anterior avise de un error: cada ciudad ya ha
       # dejado sus datos buenos (o los de ayer, si una fuente falló).
       - name: Guardar los datos en el repositorio
-        if: ${{ always() && !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
+        if: always()
         run: |
           git config user.name "actualizador-automatico"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -86,7 +90,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin cambios hoy."
           else
-            git commit -q -m "Datos del $(date -u +%Y-%m-%d)"
+            git commit -q -m "Datos del $(date -u +%Y-%m-%d)${{ steps.hoy.outputs.hecho == 'si' && github.event.schedule == '17 13 * * *' && ' (cine del mediodía)' || '' }}"
             for intento in 1 2 3 4; do
               git pull -q --rebase && git push -q && break
               sleep $((intento * 5))

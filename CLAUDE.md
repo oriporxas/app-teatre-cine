@@ -41,8 +41,13 @@ diaria (sale `***` si existen). Comprobado el 17/11/2026 en la ejecución manual
 automático «Datos del …» hecho. La tarea programada vuelve a salir sola (18/11, con una hora de
 retraso de GitHub), pero ese día la API del Ayuntamiento respondió 403 a GitHub en la primera
 consulta: ahora un 403 se reintenta dos veces con pausa larga (`descargar.py`) y hay un segundo
-intento a las 13:17 UTC que solo trabaja si faltan los datos del día. Pendiente de Uri:
-elegir alojamiento.
+intento a las 13:17 UTC: si faltan los datos del día hace la actualización completa; si ya
+están, solo renueva el cine (`principal --solo-cine`, Uri 18/11/2026: el cine cambia más).
+Publicación (Uri, 18/11/2026: de momento solo para él, para probarla): propuesta Cloudflare
+Pages desde el repositorio privado (raíz `web`, `npm ci && npm run build`, salida `dist`; se
+publica sola con cada commit de datos) con dirección poco evidente y fuera de buscadores
+(`web/public/robots.txt`, `_headers`, meta noindex). Privacidad total (solo su correo) con
+Cloudflare Access: pide tarjeta aunque sea gratis; queda como opción.
 **Antes de dar algo por pendiente o hecho, comprobarlo** (no fiarse de notas antiguas).
 
 Maqueta de la fase 2 (8/11/2026, con 112 actividades reales): prototipo de
