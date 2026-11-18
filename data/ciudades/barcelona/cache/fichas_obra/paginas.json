@@ -2627,6 +2627,61 @@
     "firma": "0b0441ee655268e4",
     "imagen": null
   },
+  "https://www.anticteatre.com/events/event/cavitat-f-alba-ramio-i-guell": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Autoria, direcció i interpretació",
+          "Alba Ramió, Güell"
+        ],
+        [
+          "Acompanyament dramatúrgic",
+          "Andrea Pellejero"
+        ],
+        [
+          "Acompanyament coreogràfic",
+          "Maria Jurado"
+        ],
+        [
+          "Espai sonor i mirada externa",
+          "Pol Jubany Itxart"
+        ],
+        [
+          "Disseny de llums",
+          "Gabriela Bianchif"
+        ],
+        [
+          "Disseny de vestuari",
+          "Marta Lofi"
+        ],
+        [
+          "Confecció de vestuari",
+          "Maria del Mar"
+        ],
+        [
+          "Escenografia",
+          "Llorenç Balaguer / Tapisseria Torres"
+        ],
+        [
+          "Producció executiva",
+          "Mara Maso"
+        ],
+        [
+          "Vídeo",
+          "Ignasi Castañer"
+        ],
+        [
+          "Imatge",
+          "Marta Cardellach"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "3e870b4aefb24db7",
+    "imagen": "https://www.anticteatre.com/wp-content/uploads/2026/10/marta-cardellach-4708-scaled.jpg"
+  },
   "https://www.anticteatre.com/events/event/el-pollo-campero-comidas-para-llevar-estar-en-el-aire": {
     "datos": {
       "duracion": 80,
@@ -4359,6 +4414,65 @@
     "fecha": "2026-11-18",
     "firma": "b3b88f359788a5cb",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2023/05/3-porquets-scaled.jpg"
+  },
+  "https://www.salaarsteatre.com/la-bella-i-la-bestia/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Bella",
+          "Anna Carrasco"
+        ],
+        [
+          "Bèstia /pare",
+          "Martí Guixà"
+        ],
+        [
+          "Galant / Ser Àbric",
+          "Jordi Vicente"
+        ],
+        [
+          "Vilatans / Bruixa / Espurna",
+          "Roser Mateo"
+        ],
+        [
+          "Direcció",
+          "Albert Pueyo"
+        ],
+        [
+          "Ajudant de direcció",
+          "Virginia Sanchez"
+        ],
+        [
+          "Direcció vocal",
+          "Oriol Barber"
+        ],
+        [
+          "Coreògraf",
+          "Edu Lacueva"
+        ],
+        [
+          "Llibret",
+          "Virginia Sanchez"
+        ],
+        [
+          "Escenografia",
+          "Alba Tramutolo, Irene Segura"
+        ],
+        [
+          "Vestuari",
+          "Emma Pla, Maria Martínez"
+        ],
+        [
+          "Producció",
+          "Magatzem d’Ars"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-18",
+    "firma": "39e777c16480f084",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2026/01/Bella-Bestia_cartell-scaled.jpg"
   },
   "https://www.salaarsteatre.com/la-casa-de-bernarda-alba/": {
     "datos": {
