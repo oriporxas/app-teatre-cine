@@ -44,6 +44,30 @@ class TestPersonas(unittest.TestCase):
     def test_clave_igual_que_la_app(self):
         self.assertEqual(personas.clave("Marcel·lí Antúnez"), "marcelli-antunez")
 
+    def test_solo_gente_de_escena(self):
+        """Caso real (18/11/2026): el músico Jordi Cornudella recibió la ficha de un poeta con el mismo
+        nombre. Una persona de Wikidata sin oficio de escena no sale, aunque el nombre coincida."""
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+
+        class Ciudad:
+            id = "prueba"
+
+        with tempfile.TemporaryDirectory() as d:
+            ruta = Path(d) / "wikidata.json"
+            hoy = __import__("datetime").date.today().isoformat()
+            ruta.write_text(__import__("json").dumps({
+                "jordi-cornudella": {"fecha": hoy, "v": personas.VERSION, "nombre": "Jordi Cornudella",
+                                     "datos": {"wikidata": "Q1", "oficios": ["Q49757", "Q333634"]}},  # poeta, traductor
+                "anna-puig": {"fecha": hoy, "v": personas.VERSION, "nombre": "Anna Puig",
+                              "datos": {"wikidata": "Q2", "oficios": ["Q2259451"]}},  # actriz de teatro
+                "_premios": {}}))
+            items = [{"equipo": [["Música", "Jordi Cornudella"], ["Intèrprets", "Anna Puig"]]}]
+            with mock.patch.object(personas.config, "carpeta_cache", lambda c, p: Path(d)):
+                salida = personas.aplicar(Ciudad(), items, {}, leer_webs=False)
+        self.assertEqual(list(salida), ["anna-puig"])
+
 
 if __name__ == "__main__":
     unittest.main()

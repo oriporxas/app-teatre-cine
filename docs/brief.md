@@ -36,6 +36,13 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
   - **Planes:** primero «Compartir» (y dentro, «Compartir en stories»), después «Añadir a mi calendario», los dos con su icono; «Ruta del día» como botón visible con icono de mapa que abre el recorrido en un mapa dentro de la app, con la opción de abrirlo en Google Maps, Apple Maps u otra app de mapas; un lápiz junto al título para cambiar el nombre; abajo, solo «Borrar plan», con una pregunta de seguridad.
   - **Fondo:** telón de teatro color vino, muy apagado: lo importante es lo de delante.
   - **Noticias:** también de magia, circo y eventos (Zirkolika, betevé, VilaWeb, El Mundo, elDiario.es), con pestañas Teatro, Cine, Magia, Circo y Eventos.
+- Segunda revisión de Uri (18 de noviembre):
+  - **Fichas de teatro, magia y circo con el mismo nivel que el cine:** cartel, equipo artístico completo, duración y premios desde la página oficial de la obra en la web de su sala (la IA copia con la cita literal y el programa comprueba cada cita; `pipeline/fichas_obra.py`). Las personas del equipo enlazan a su ficha, con foto, a qué se dedican, premios y Wikipedia cuando están en Wikidata (`pipeline/personas.py`): solo si hay **una única** persona española con ese nombre y un oficio de escena o de cine; si hay dudas, no se pone nada.
+  - **Inicio:** «Todos los cines» y «Todas las salas», cada uno un desplegable vertical con la lista completa.
+  - **Noticias de todo el mundillo:** unos 40 canales de medios de Barcelona, España y el mundo (teatro, cine, magia, circo y eventos), con un selector Barcelona / España / Mundo. La IA decide el ámbito de cada noticia por lo que cuenta, no solo por el medio. Coste estimado: unos 0,10–0,15 $ al día.
+  - **«Escena» pasa a llamarse «Teatro»** en la barra de abajo y en el título de la pantalla.
+  - **Ruta del día:** el mapa de Google Maps dentro de la app (como en muchas webs) y un botón «Abrir la ruta en el móvil» que la abre en Google Maps si está instalado y, si no, en la app de mapas del móvil.
+  - **Publicación:** de momento solo para Uri, para probarla: Cloudflare Pages desde el repositorio privado, con una dirección poco evidente y fuera de los buscadores.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios

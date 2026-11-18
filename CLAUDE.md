@@ -31,7 +31,7 @@ Primer borrador completo (17/11/2026, pedido el 14/11 con 13,24 $ de crédito):
 IA activada en teatro (clasificar, traducir, premios citados, temas) y en
 noticias; **cine** (`pipeline/cine/`, `docs/fuentes/cine.md`); **noticias**
 (`pipeline/noticias.py`, `ajustes/noticias.toml`); diseño negro, rojo y blanco;
-pantallas Inicio, Escena, Cine, Noticias, Guardado, buscador único y personas.
+pantallas Inicio, Teatro (antes «Escena»), Cine, Noticias, Guardado, buscador único y personas.
 Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
 GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KEY` y
 `TMDB_TOKEN` en GitHub: **creados por Uri** (lo confirmó el 17/11/2026; no volver a
@@ -196,8 +196,17 @@ Detalle y razones en `docs/arquitectura.md`.
   - `enriquecer_ia.py`: traducción, premios citados (con la cita literal, que
     se comprueba) y temas de cada ficha publicada (tarea «traducir»).
   - `cine/`: cartelera de cine (salas, lectores de horarios, TMDB y Wikidata).
-  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml` (teatro, cine, magia,
-    circo y la marca «evento»: festival, gala, feria, taller…).
+  - `noticias.py`: noticias de unos 40 canales de `ajustes/noticias.toml` (teatro, cine, magia,
+    circo y la marca «evento»: festival, gala, feria, taller…), cada una con su ámbito
+    (barcelona, espana, mundo) decidido por la IA según lo que cuenta.
+  - `fichas_obra.py`: cartel, equipo, duración y premios desde la página oficial de la obra
+    (`pagina_obra`, de `compra.py`); la IA cita y el programa comprueba cada cita. Solo
+    completa lo que falta. Tarea «fichas_obra» de `ia.toml`, 8 min/día como mucho.
+  - `personas.py`: foto, descripción, premios y Wikipedia de las personas del equipo, desde
+    Wikidata (gratis). Solo si hay **una única** persona española con ese nombre y un oficio de
+    escena o cine (`OFICIOS`, comprobados uno a uno; sin escritores ni músicos: un poeta
+    tocayo se colaba). Si cambia `OFICIOS`, subir `VERSION`. La consulta por grupos (SPARQL)
+    suele estar limitada desde la nube de Claude; entonces va nombre a nombre.
   - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
     cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
     de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.
@@ -226,6 +235,12 @@ Detalle y razones en `docs/arquitectura.md`.
   `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
   «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
   coste): `docs/veracidad.md`.
+- Cambios de Uri (18/11/2026): «Escena» se llama «Teatro» (barra y título); en Inicio,
+  «Todos los cines» y «Todas las salas» como desplegables verticales; noticias con selector
+  Barcelona / España / Mundo; la ruta del plan es un mapa de Google Maps incrustado
+  (`rutaIncrustada` en `web/src/planes.ts`, sin clave) y un botón «Abrir la ruta en el móvil»
+  (`abrirRutaEnMovil`: Google Maps si está, si no la app de mapas del móvil); fichas de obra
+  y de persona como en el cine (`fichas_obra.py`, `personas.py`).
 - Cambios de pantalla de Uri (17/11/2026): barra de abajo Inicio, Escena, Cine, Planes, Desat
   (solo lo guardado), Notícies; en la película, cada cine es un desplegable con sus horas; la
   hora lleva a la compra de esa sesión (Mooby, Verdi y Renoir lo permiten); en Inicio, fila de

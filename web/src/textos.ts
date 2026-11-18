@@ -120,7 +120,7 @@ const es = {
   verMasFechas: 'Ver más fechas', volverPlanes: 'Tus planes',
   // Inicio, cine, noticias, buscador y personas (14/11/2026)
   navInicio: 'Inicio', navEscena: 'Teatro', navCine: 'Cine', navNoticias: 'Noticias', navGuardado: 'Guardado',
-  escena: 'Escena', escenaSub: 'Teatro, magia, circo y eventos',
+  escena: 'Teatro', escenaSub: 'Teatro, magia, circo y eventos',
   saludo: (h: number): string => (h < 6 ? 'Buenas noches' : h < 14 ? 'Buenos días' : h < 21 ? 'Buenas tardes' : 'Buenas noches'),
   inicioTitulo: 'Qué ver hoy en Barcelona',
   buscarTodo: 'Obras, películas, personas, salas…',
@@ -267,7 +267,7 @@ const ca: Textos = {
   planVacio: "Aquest pla és buit. Afegeix funcions des de la fitxa de cada espectacle.",
   verMasFechas: 'Veure més dates', volverPlanes: 'Els teus plans',
   navInicio: 'Inici', navEscena: 'Teatre', navCine: 'Cinema', navNoticias: 'Notícies', navGuardado: 'Desat',
-  escena: 'Escena', escenaSub: 'Teatre, màgia, circ i esdeveniments',
+  escena: 'Teatre', escenaSub: 'Teatre, màgia, circ i esdeveniments',
   saludo: (h: number) => (h < 6 ? 'Bona nit' : h < 14 ? 'Bon dia' : h < 21 ? 'Bona tarda' : 'Bona nit'),
   inicioTitulo: 'Què veure avui a Barcelona',
   buscarTodo: 'Obres, pel·lícules, persones, sales…',

@@ -26,14 +26,40 @@ from .cine.tmdb import _wd
 from .util import guardar_json, leer_json, normalizar
 
 DIAS_VALIDEZ = 30
+VERSION = 2  # sube cuando cambia la lista de oficios: los nombres se vuelven a buscar
 MINUTOS_MAX = 8
 ESPANA = "Q29"
-# Profesiones de las artes escénicas y el audiovisual (Wikidata).
-OFICIOS = {
-    "Q33999", "Q2259451", "Q10800557", "Q10798782", "Q2405480", "Q3387717", "Q2526255", "Q3455803", "Q214917",
-    "Q28389", "Q487596", "Q148401", "Q1528185", "Q10301125", "Q2401741", "Q14469390", "Q5716684", "Q2490358",
-    "Q245068", "Q18545066", "Q177220", "Q36834", "Q2629392", "Q1281618", "Q1415090", "Q3282637", "Q1414443",
-    "Q947873", "Q13235160", "Q2722764", "Q17351648", "Q15212951", "Q36180", "Q1930187",
+# Oficios de la escena y el audiovisual (Wikidata). Solo oficios propios del escenario: «escritor»,
+# «cantante» o «compositor» dejaban pasar a tocayos de otros campos (error del 18/11/2026: el
+# músico Jordi Cornudella recibió la ficha de un poeta con el mismo nombre).
+OFICIOS = {  # comprobados uno a uno en Wikidata el 18/11/2026
+    "Q33999",     # actor / actriz
+    "Q2259451",   # actor de teatro
+    "Q10800557",  # actor de cine
+    "Q10798782",  # actor de televisión
+    "Q2405480",   # actor de voz
+    "Q3387717",   # director de escena
+    "Q2526255",   # director de cine
+    "Q214917",    # dramaturgo
+    "Q487596",    # dramaturgista
+    "Q1759246",   # productor teatral
+    "Q15855449",  # mago (espectáculo)
+    "Q1658894",   # ilusionista
+    "Q19805041",  # mentalista
+    "Q16746942",  # hipnotizador
+    "Q15618890",  # ventrílocuo
+    "Q7358",      # payaso
+    "Q17307272",  # artista de circo
+    "Q11957145",  # acróbata
+    "Q3997657",   # trapecista
+    "Q10540773",  # malabarista
+    "Q19828939",  # contorsionista
+    "Q5716684",   # bailarín
+    "Q2490358",   # coreógrafo
+    "Q245068",    # humorista
+    "Q18545066",  # monologuista
+    "Q2629392",   # titiritero
+    "Q10774753",  # artista de performance
 }
 
 
@@ -101,7 +127,8 @@ def detalles(qids: list[str]) -> dict[str, dict]:
             sitios = e.get("sitelinks") or {}
             wiki = next((f"https://{l[:2]}.wikipedia.org/wiki/{urllib.parse.quote(sitios[l]['title'].replace(' ', '_'))}"
                          for l in ("eswiki", "cawiki") if l in sitios), None)
-            res[q] = {"wikidata": q, "descripcion": desc or None, "wikipedia": wiki,
+            oficios = sorted({((c.get("mainsnak") or {}).get("datavalue") or {}).get("value", {}).get("id") for c in claims.get("P106", [])} - {None})
+            res[q] = {"wikidata": q, "descripcion": desc or None, "wikipedia": wiki, "oficios": oficios,
                       "foto": f"https://commons.wikimedia.org/wiki/Special:FilePath/{urllib.parse.quote(foto.replace(' ', '_'))}?width=300" if foto else None}
     return res
 
@@ -140,6 +167,7 @@ def _buscar(nombre: str) -> dict | None:
                  for l in ("eswiki", "cawiki") if l in sitios), None)
     return {
         "wikidata": q,
+        "oficios": sorted(valores("P106") - {None}),
         "foto": f"https://commons.wikimedia.org/wiki/Special:FilePath/{urllib.parse.quote(foto.replace(' ', '_'))}?width=300" if foto else None,
         "descripcion": desc or None,
         "wikipedia": wiki,
@@ -160,7 +188,8 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
                 nombres.setdefault(clave(n), n)
     inf = {"nombres": len(nombres), "buscados_hoy": 0, "encontrados": 0}
     pendientes = [(k, n) for k, n in nombres.items()
-                  if not (cache.get(k) and (hoy - dt.date.fromisoformat(cache[k]["fecha"])).days < DIAS_VALIDEZ)]
+                  if not (cache.get(k) and cache[k].get("v") == VERSION
+                          and (hoy - dt.date.fromisoformat(cache[k]["fecha"])).days < DIAS_VALIDEZ)]
     for i in range(0, len(pendientes), POR_LOTE):
         if not leer_webs or time.monotonic() > fin:
             break
@@ -172,7 +201,7 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
                 for k, n in lote:
                     if time.monotonic() > fin:
                         break
-                    cache[k] = {"fecha": hoy.isoformat(), "nombre": n, "datos": _buscar(n) or {}}
+                    cache[k] = {"fecha": hoy.isoformat(), "v": VERSION, "nombre": n, "datos": _buscar(n) or {}}
                     inf["buscados_hoy"] += 1
                     time.sleep(0.5)
             except RuntimeError:
@@ -183,10 +212,20 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
         unicos = {k: next(iter(encontrados[normalizar(n)])) for k, n in lote if len(encontrados.get(normalizar(n), ())) == 1}
         info = detalles(sorted(set(unicos.values())))
         for k, n in lote:  # una sola persona posible: esa; ninguna o varias: nada (no se adivina)
-            cache[k] = {"fecha": hoy.isoformat(), "nombre": n, "datos": info.get(unicos.get(k), {}) if k in unicos else {}}
+            cache[k] = {"fecha": hoy.isoformat(), "v": VERSION, "nombre": n,
+                        "datos": info.get(unicos.get(k), {}) if k in unicos else {}}
         inf["buscados_hoy"] += len(lote)
         guardar_json(ruta, cache)
         time.sleep(1)
+    # Las fichas guardadas sin sus oficios (de antes del 18/11/2026) se comprueban otra vez.
+    sin_oficios = sorted({r["datos"]["wikidata"] for k, r in cache.items() if k != "_premios"
+                          and (r.get("datos") or {}).get("wikidata") and "oficios" not in r["datos"]})
+    if sin_oficios and leer_webs:
+        nuevos = detalles(sin_oficios)
+        for k, r in cache.items():
+            q = (r.get("datos") or {}).get("wikidata") if k != "_premios" else None
+            if q in nuevos:
+                r["datos"] = nuevos[q]
     # Premios de las personas encontradas (la misma lectura de Wikidata que usa el cine).
     qids = [r["datos"]["wikidata"] for r in cache.values() if (r.get("datos") or {}).get("wikidata")]
     cache_premios = cache.setdefault("_premios", {}) if isinstance(cache.get("_premios", {}), dict) else {}
@@ -196,8 +235,8 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
     salida = {}
     for k in nombres:
         d = (cache.get(k) or {}).get("datos") or {}
-        if d.get("wikidata"):
-            ficha = {x: v for x, v in d.items() if v}
+        if d.get("wikidata") and set(d.get("oficios") or []) & OFICIOS:  # solo oficios de escena (ver arriba)
+            ficha = {x: v for x, v in d.items() if v and x != "oficios"}
             p = cache_premios.get(f"w{d['wikidata']}")
             if p:
                 ficha["premios"] = p

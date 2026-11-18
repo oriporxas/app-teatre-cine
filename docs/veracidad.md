@@ -104,6 +104,41 @@ Para que una sala no desaparezca al cubrirla, la auditoría no cuenta lo que tra
   siguientes solo se pagan las páginas que cambian y las obras nuevas.
 - Tiempo: como mucho 8 minutos al día.
 
+## 6. Fichas de obra y de personas (Uri, 18/11/2026)
+
+Uri pidió para el teatro, la magia y el circo el mismo nivel de información que en el cine.
+
+**Fichas de obra** (`pipeline/fichas_obra.py`). Cuando `compra.py` encuentra la página oficial de
+la obra en la web de su sala:
+- **Cartel:** la imagen que la propia página declara como suya. Si la misma imagen sale en obras
+  distintas, es el logotipo de la sala y no se usa.
+- **Equipo, duración y premios:** la IA (modelo barato) copia cada dato con su **cita literal**, y
+  el programa comprueba que la cita está en la página, que cada nombre está en su cita y que los
+  minutos (o las horas) están en la suya. Los premios llevan «Según la web de la obra».
+- Solo se completa lo que falta: el texto, las fechas y los precios siguen siendo los de la agenda.
+
+**Personas** (`pipeline/personas.py`), desde Wikidata. Un nombre se da por la misma persona solo si
+hay **una única** persona española con ese nombre exacto (o alias) y con un oficio de escena o de
+cine (actor, director de escena, dramaturgo, mago, mentalista, payaso, acróbata, bailarín…). Si hay
+dos posibles, o ninguna, no se pone nada.
+
+Error encontrado al revisarlo (18/11/2026) y corregido con su prueba (`tests/test_fichas_obra.py`):
+- al músico de una obra le salía la ficha de un poeta con el mismo nombre, porque la lista de
+  oficios aceptaba escritores y músicos;
+- además, varios códigos de oficio no eran los correctos.
+
+Ahora la lista solo tiene oficios de escena y de cine, comprobados uno a uno, y las personas ya
+guardadas se vuelven a buscar. A cambio, los músicos y compositores no tienen ficha de persona: sus
+nombres siguen saliendo en el equipo.
+
+Primera lectura (18/11/2026):
+- 193 páginas de obra leídas.
+- Equipo nuevo en 19 obras y ampliado en 120.
+- Premios citados en 19 obras más.
+- Duración en 10 obras más.
+- 7 carteles nuevos.
+- Gasto: unos 0,14 $.
+
 ## Más adelante
 - Lo mismo para los cines sin horarios cuando su web lo permita (tarea «horarios_cine», reservada).
 - Proveedores de pago donde los haya (cine: International Showtimes) y que las salas publiquen
