@@ -64,6 +64,7 @@
       }
     ],
     "wQ19301130": [],
+    "wQ21045503": [],
     "wQ27974958": [],
     "wQ29463765": [],
     "wQ29511160": [],
@@ -172,7 +173,8 @@
   "abraxas-teatre": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Abraxas Teatre"
+    "nombre": "Abraxas Teatre",
+    "v": 2
   },
   "ada-vilaro": {
     "datos": {},
@@ -187,32 +189,38 @@
   "agueda-miguel": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Àgueda Miguel"
+    "nombre": "Àgueda Miguel",
+    "v": 2
   },
   "alana-osbourne": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Alana Osbourne"
+    "nombre": "Alana Osbourne",
+    "v": 2
   },
   "albert-baldoma": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Albert Baldomà"
+    "nombre": "Albert Baldomà",
+    "v": 2
   },
   "albert-pueyo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Albert Pueyo"
+    "nombre": "Albert Pueyo",
+    "v": 2
   },
   "albert-rodriguez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Albert Rodríguez"
+    "nombre": "Albert Rodríguez",
+    "v": 2
   },
   "alfred-casas": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Alfred Casas"
+    "nombre": "Alfred Casas",
+    "v": 2
   },
   "almudena-rodriguez-huertas": {
     "datos": {},
@@ -247,7 +255,8 @@
   "andres-torres": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Andrés Torres"
+    "nombre": "Andrés Torres",
+    "v": 2
   },
   "andreu-domenech": {
     "datos": {},
@@ -257,7 +266,8 @@
   "andrew-tarbet": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Andrew Tarbet"
+    "nombre": "Andrew Tarbet",
+    "v": 2
   },
   "anna-alarcon": {
     "datos": {
@@ -266,6 +276,12 @@
         "es": "actriz española"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Festival_de_M%C3%A1laga_2020_-_Anna_Alarc%C3%B3n-2.jpg?width=300",
+      "oficios": [
+        "Q10798782",
+        "Q10800557",
+        "Q2259451",
+        "Q33999"
+      ],
       "wikidata": "Q105652958",
       "wikipedia": "https://es.wikipedia.org/wiki/Anna_Alarc%C3%B3n_Vis%C3%BAs"
     },
@@ -275,27 +291,32 @@
   "anna-carrasco": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Anna Carrasco"
+    "nombre": "Anna Carrasco",
+    "v": 2
   },
   "anna-pique": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Anna Piqué"
+    "nombre": "Anna Piqué",
+    "v": 2
   },
   "anna-puigdueta": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Anna Puigdueta"
+    "nombre": "Anna Puigdueta",
+    "v": 2
   },
   "anna-toro": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Anna Toro"
+    "nombre": "Anna Toro",
+    "v": 2
   },
   "ariadna-cornella": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Ariadna Cornella"
+    "nombre": "Ariadna Cornella",
+    "v": 2
   },
   "associacio-teresa-gubiades": {
     "datos": {},
@@ -305,12 +326,14 @@
   "at-el-partiqui": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "AT El Partiquí"
+    "nombre": "AT El Partiquí",
+    "v": 2
   },
   "beatriz-ribas": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Beatriz Ribas"
+    "nombre": "Beatriz Ribas",
+    "v": 2
   },
   "berta-juanet": {
     "datos": {},
@@ -330,12 +353,14 @@
   "brice-cannavo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Brice Cannavo"
+    "nombre": "Brice Cannavo",
+    "v": 2
   },
   "cacauet-teatre": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cacauet Teatre"
+    "nombre": "Cacauet Teatre",
+    "v": 2
   },
   "carles-merodio": {
     "datos": {},
@@ -349,6 +374,11 @@
         "es": "escritor español"
       },
       "foto": null,
+      "oficios": [
+        "Q36180",
+        "Q4263842",
+        "Q49757"
+      ],
       "wikidata": "Q5751283",
       "wikipedia": "https://es.wikipedia.org/wiki/Carlos_Pardo_%28escritor%29"
     },
@@ -358,7 +388,8 @@
   "carlota-gil": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Carlota Gil"
+    "nombre": "Carlota Gil",
+    "v": 2
   },
   "carlota-olcina": {
     "datos": {
@@ -367,6 +398,9 @@
         "es": "actriz española"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlota_Olcina_%28cropped%29.jpg?width=300",
+      "oficios": [
+        "Q33999"
+      ],
       "wikidata": "Q5653632",
       "wikipedia": "https://es.wikipedia.org/wiki/Carlota_Olcina"
     },
@@ -380,6 +414,9 @@
         "es": "actriz española"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/1928-05-30%2C_Mundo_Gr%C3%A1fico%2C_Carmen_Collado.jpg?width=300",
+      "oficios": [
+        "Q33999"
+      ],
       "wikidata": "Q139800621",
       "wikipedia": null
     },
@@ -399,12 +436,14 @@
   "cesc-calafell": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cesc Calafell"
+    "nombre": "Cesc Calafell",
+    "v": 2
   },
   "cia-candida": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia Càndida"
+    "nombre": "Cia Càndida",
+    "v": 2
   },
   "cia-creart": {
     "datos": {},
@@ -414,7 +453,8 @@
   "cia-la-puntual-eugenio-navarro": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia. La Puntual- Eugenio Navarro"
+    "nombre": "Cia. La Puntual- Eugenio Navarro",
+    "v": 2
   },
   "cia-magatzem-d-ars": {
     "datos": {},
@@ -424,27 +464,32 @@
   "cia-magatzem-d-arts": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia. Magatzem d'Arts"
+    "nombre": "Cia. Magatzem d'Arts",
+    "v": 2
   },
   "cia-marga-socias": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia. Marga Socias"
+    "nombre": "Cia. Marga Socias",
+    "v": 2
   },
   "cia-maria-jover": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia. Maria Jover"
+    "nombre": "Cia. Maria Jover",
+    "v": 2
   },
   "cia-pau-palaus": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia. Pau Palaus"
+    "nombre": "Cia. Pau Palaus",
+    "v": 2
   },
   "cia-peixospeixeres": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Cia. Peixospeixeres"
+    "nombre": "Cia. Peixospeixeres",
+    "v": 2
   },
   "cia-viu-el-teatre": {
     "datos": {},
@@ -454,7 +499,8 @@
   "clara-algaba": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Clara Algaba"
+    "nombre": "Clara Algaba",
+    "v": 2
   },
   "clara-fontdevila-distribucio-viuelteatre-com": {
     "datos": {},
@@ -467,17 +513,10 @@
     "nombre": "Clara Manyós"
   },
   "clara-peya": {
-    "datos": {
-      "descripcion": {
-        "ca": "pianista i compositora catalana",
-        "es": "pianista y compositora española"
-      },
-      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/%C2%A9Dani_Codina_%C3%92mnium_%2852883490675%29.jpg?width=300",
-      "wikidata": "Q56808101",
-      "wikipedia": "https://es.wikipedia.org/wiki/Clara_Peya"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Clara Peya"
+    "nombre": "Clara Peya",
+    "v": 2
   },
   "claudia-benito": {
     "datos": {
@@ -486,6 +525,9 @@
         "es": "actriz española"
       },
       "foto": null,
+      "oficios": [
+        "Q33999"
+      ],
       "wikidata": "Q110601706",
       "wikipedia": "https://ca.wikipedia.org/wiki/Claudia_Benito_Comas"
     },
@@ -495,12 +537,14 @@
   "claudia-serra": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Clàudia Serra"
+    "nombre": "Clàudia Serra",
+    "v": 2
   },
   "companyia-kali-teatre": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Companyia Kali Teatre"
+    "nombre": "Companyia Kali Teatre",
+    "v": 2
   },
   "cris-vidal": {
     "datos": {},
@@ -514,26 +558,35 @@
         "es": "guionista española"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Cris_Clemente.jpg?width=300",
+      "oficios": [
+        "Q28389",
+        "Q3387717",
+        "Q36180"
+      ],
       "wikidata": "Q16188785",
       "wikipedia": "https://ca.wikipedia.org/wiki/Cristina_Clemente_i_G%C3%A0lvez"
     },
     "fecha": "2026-11-18",
-    "nombre": "Cristina Clemente"
+    "nombre": "Cristina Clemente",
+    "v": 2
   },
   "damien-bazin": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Damien Bazin"
+    "nombre": "Damien Bazin",
+    "v": 2
   },
   "daniel-sanchez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Daniel Sanchez"
+    "nombre": "Daniel Sanchez",
+    "v": 2
   },
   "david-cepo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "David Cepo"
+    "nombre": "David Cepo",
+    "v": 2
   },
   "david-menendez": {
     "datos": {
@@ -541,11 +594,18 @@
         "ca": "actor i músic català"
       },
       "foto": null,
+      "oficios": [
+        "Q10798782",
+        "Q10800557",
+        "Q2259451",
+        "Q639669"
+      ],
       "wikidata": "Q132457830",
       "wikipedia": null
     },
     "fecha": "2026-11-18",
-    "nombre": "David Menéndez"
+    "nombre": "David Menéndez",
+    "v": 2
   },
   "david-pinto": {
     "datos": {
@@ -554,11 +614,18 @@
         "es": "director y adaptador Catalán"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Pint%C3%B3_Kursaal.jpg?width=300",
+      "oficios": [
+        "Q333634",
+        "Q3387717",
+        "Q639669",
+        "Q822146"
+      ],
       "wikidata": "Q97335040",
       "wikipedia": "https://ca.wikipedia.org/wiki/David_Pint%C3%B3_Codinasaltas"
     },
     "fecha": "2026-11-18",
-    "nombre": "David Pintó"
+    "nombre": "David Pintó",
+    "v": 2
   },
   "david-selvas": {
     "datos": {
@@ -567,11 +634,17 @@
         "es": "actor, productor teatral y director"
       },
       "foto": null,
+      "oficios": [
+        "Q1759246",
+        "Q3387717",
+        "Q33999"
+      ],
       "wikidata": "Q5239637",
       "wikipedia": "https://es.wikipedia.org/wiki/David_Selvas"
     },
     "fecha": "2026-11-18",
-    "nombre": "David Selvas"
+    "nombre": "David Selvas",
+    "v": 2
   },
   "descartable-teatre": {
     "datos": {},
@@ -585,11 +658,16 @@
         "es": "cantante española"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Cultura_contra_la_Repressi%C3%B3_%2848098555987%29.jpg?width=300",
+      "oficios": [
+        "Q177220",
+        "Q33999"
+      ],
       "wikidata": "Q11917581",
       "wikipedia": "https://es.wikipedia.org/wiki/Dolo_Beltr%C3%A1n"
     },
     "fecha": "2026-11-18",
-    "nombre": "Dolo Beltrán"
+    "nombre": "Dolo Beltrán",
+    "v": 2
   },
   "dolors-vilarasau": {
     "datos": {},
@@ -613,16 +691,22 @@
         "es": "actor y humorista español"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Edu_Soto_La_risa_cuando_est%C3%A1_prohibida_te_lleva_a_un_terreno_bastante_peligroso2.png?width=300",
+      "oficios": [
+        "Q12406482",
+        "Q33999"
+      ],
       "wikidata": "Q11681279",
       "wikipedia": "https://es.wikipedia.org/wiki/Edu_Soto"
     },
     "fecha": "2026-11-18",
-    "nombre": "Edu Soto"
+    "nombre": "Edu Soto",
+    "v": 2
   },
   "eduard-hidalgo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Eduard Hidalgo"
+    "nombre": "Eduard Hidalgo",
+    "v": 2
   },
   "el-conde-de-torrefiel": {
     "datos": {},
@@ -632,12 +716,14 @@
   "el-malda": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "El Maldà"
+    "nombre": "El Maldà",
+    "v": 2
   },
   "elias-ashtari": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Elias Ashtari"
+    "nombre": "Elias Ashtari",
+    "v": 2
   },
   "elisenda-andres": {
     "datos": {},
@@ -652,27 +738,32 @@
   "esther-pane": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Esther Pané"
+    "nombre": "Esther Pané",
+    "v": 2
   },
   "eu-manzanares": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Eu Manzanares"
+    "nombre": "Eu Manzanares",
+    "v": 2
   },
   "eugenio-navarro": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Eugenio Navarro"
+    "nombre": "Eugenio Navarro",
+    "v": 2
   },
   "eva-rotllan": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Eva Rotllán"
+    "nombre": "Eva Rotllán",
+    "v": 2
   },
   "federica-porello": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Federica Porello"
+    "nombre": "Federica Porello",
+    "v": 2
   },
   "federico-garcia-lorca": {
     "datos": {
@@ -681,11 +772,24 @@
         "es": "escritor español"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Federico_Garc%C3%ADa_Lorca._Huerta_de_San_Vicente%2C_Granada.jpg?width=300",
+      "oficios": [
+        "Q15296811",
+        "Q1776724",
+        "Q214917",
+        "Q3387717",
+        "Q36180",
+        "Q36834",
+        "Q49757",
+        "Q639669",
+        "Q8178443",
+        "Q822146"
+      ],
       "wikidata": "Q41408",
       "wikipedia": "https://es.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca"
     },
     "fecha": "2026-11-18",
-    "nombre": "Federico García Lorca"
+    "nombre": "Federico García Lorca",
+    "v": 2
   },
   "festival-d-automne": {
     "datos": {},
@@ -700,12 +804,14 @@
   "francesc-gomez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Francesc Gómez"
+    "nombre": "Francesc Gómez",
+    "v": 2
   },
   "francesc-isern": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Francesc Isern"
+    "nombre": "Francesc Isern",
+    "v": 2
   },
   "gabriel-cordoba": {
     "datos": {},
@@ -715,7 +821,8 @@
   "gemma-iglesias": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Gemma Iglesias"
+    "nombre": "Gemma Iglesias",
+    "v": 2
   },
   "gemma-male": {
     "datos": {},
@@ -725,17 +832,20 @@
   "gemma-polo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Gemma Polo"
+    "nombre": "Gemma Polo",
+    "v": 2
   },
   "gemma-vilallonga": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Gemma Vilallonga"
+    "nombre": "Gemma Vilallonga",
+    "v": 2
   },
   "gerard-franch": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Gerard Franch"
+    "nombre": "Gerard Franch",
+    "v": 2
   },
   "gisela-juanet": {
     "datos": {},
@@ -750,17 +860,20 @@
   "grup-gespa": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Grup Gespa"
+    "nombre": "Grup Gespa",
+    "v": 2
   },
   "guillaume-toussaint-fromentin": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Guillaume Toussaint Fromentin"
+    "nombre": "Guillaume Toussaint Fromentin",
+    "v": 2
   },
   "guillem-balart": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Guillem Balart"
+    "nombre": "Guillem Balart",
+    "v": 2
   },
   "guillem-payaro": {
     "datos": {},
@@ -775,12 +888,14 @@
   "guillem-valverde": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Guillem Valverde"
+    "nombre": "Guillem Valverde",
+    "v": 2
   },
   "hannah-bilsky": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Hannah Bilsky"
+    "nombre": "Hannah Bilsky",
+    "v": 2
   },
   "hector-canos": {
     "datos": {},
@@ -790,7 +905,8 @@
   "indi-gest": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Indi Gest"
+    "nombre": "Indi Gest",
+    "v": 2
   },
   "institut-del-teatre": {
     "datos": {},
@@ -820,20 +936,14 @@
   "jaume-ventura": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jaume Ventura"
+    "nombre": "Jaume Ventura",
+    "v": 2
   },
   "javier-coronas": {
-    "datos": {
-      "descripcion": {
-        "ca": "showman i humorista català",
-        "es": "humorista español"
-      },
-      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Malaga_Film_Festival_2025_-_Javier_Coronas-2_%28cropped%29.jpg?width=300",
-      "wikidata": "Q5927618",
-      "wikipedia": "https://es.wikipedia.org/wiki/Javier_Coronas"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Javier Coronas"
+    "nombre": "Javier Coronas",
+    "v": 2
   },
   "javier-munoz": {
     "datos": {
@@ -841,6 +951,10 @@
         "es": "(1967 - 2021)"
       },
       "foto": null,
+      "oficios": [
+        "Q2526255",
+        "Q28389"
+      ],
       "wikidata": "Q135682979",
       "wikipedia": null
     },
@@ -860,7 +974,8 @@
   "jessica-sibina": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jessica Sibina"
+    "nombre": "Jessica Sibina",
+    "v": 2
   },
   "jesus-cimarro": {
     "datos": {},
@@ -870,12 +985,14 @@
   "joan-carreras": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Joan Carreras"
+    "nombre": "Joan Carreras",
+    "v": 2
   },
   "joan-griset": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Joan Griset"
+    "nombre": "Joan Griset",
+    "v": 2
   },
   "joan-yago": {
     "datos": {
@@ -884,11 +1001,18 @@
         "es": "dramaturgo español"
       },
       "foto": null,
+      "oficios": [
+        "Q214917",
+        "Q28389",
+        "Q3387717",
+        "Q487596"
+      ],
       "wikidata": "Q56848094",
       "wikipedia": "https://ca.wikipedia.org/wiki/Joan_Yago"
     },
     "fecha": "2026-11-18",
-    "nombre": "Joan Yago"
+    "nombre": "Joan Yago",
+    "v": 2
   },
   "joana-campo": {
     "datos": {},
@@ -906,52 +1030,63 @@
     "nombre": "Joana Rosselló"
   },
   "jordi-cornudella": {
-    "datos": {
-      "descripcion": {
-        "ca": "poeta, traductor i editor català",
-        "es": "poeta, traductor y editor español"
-      },
-      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordi_Cornudella_i_Martorell.png?width=300",
-      "wikidata": "Q11590805",
-      "wikipedia": "https://es.wikipedia.org/wiki/Jordi_Cornudella"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jordi Cornudella"
+    "nombre": "Jordi Cornudella",
+    "v": 2
   },
   "jordi-fornieles": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jordi Fornieles"
+    "nombre": "Jordi Fornieles",
+    "v": 2
   },
   "jordi-merca": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jordi Merca"
+    "nombre": "Jordi Merca",
+    "v": 2
   },
   "jordi-prat": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jordi Prat"
+    "nombre": "Jordi Prat",
+    "v": 2
   },
   "jordi-vidal": {
-    "datos": {},
+    "datos": {
+      "descripcion": {
+        "ca": "actor espanyol",
+        "es": "actor español"
+      },
+      "foto": null,
+      "oficios": [
+        "Q33999"
+      ],
+      "wikidata": "Q21045503",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Jordi_Vidal_G%C3%B3mez"
+    },
     "fecha": "2026-11-18",
-    "nombre": "Jordi Vidal"
+    "nombre": "Jordi Vidal",
+    "v": 2
   },
   "jordina-salvany": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jordina Salvany"
+    "nombre": "Jordina Salvany",
+    "v": 2
   },
   "jorge-santini": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jorge Santini"
+    "nombre": "Jorge Santini",
+    "v": 2
   },
   "jose-novoa": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Jose Novoa"
+    "nombre": "Jose Novoa",
+    "v": 2
   },
   "josep-maria-folch": {
     "datos": {
@@ -960,11 +1095,16 @@
         "es": "escritor español"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Josep_Maria_Folch_i_Torres_-_Ilustraci%C3%B3_Catalana.jpg?width=300",
+      "oficios": [
+        "Q214917",
+        "Q36180"
+      ],
       "wikidata": "Q9013203",
       "wikipedia": "https://es.wikipedia.org/wiki/Josep_Maria_Folch_i_Torres"
     },
     "fecha": "2026-11-18",
-    "nombre": "Josep Maria Folch"
+    "nombre": "Josep Maria Folch",
+    "v": 2
   },
   "josep-maria-jauma": {
     "datos": {},
@@ -974,22 +1114,26 @@
   "julie-dacquin": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Julie Dacquin"
+    "nombre": "Julie Dacquin",
+    "v": 2
   },
   "julie-tenret": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "JULIE TENRET"
+    "nombre": "JULIE TENRET",
+    "v": 2
   },
   "julie-tenret-sicaire-durieux": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Julie Tenret Sicaire Durieux"
+    "nombre": "Julie Tenret Sicaire Durieux",
+    "v": 2
   },
   "la-badabadoc": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "La Badabadoc"
+    "nombre": "La Badabadoc",
+    "v": 2
   },
   "laura-clos-closca": {
     "datos": {},
@@ -1003,31 +1147,41 @@
         "es": "Conductora de radio y televisión española-méxicana"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Laura_Garc%C3%ADa_Arroyo.jpg?width=300",
+      "oficios": [
+        "Q13590141",
+        "Q33999",
+        "Q36180"
+      ],
       "wikidata": "Q29463765",
       "wikipedia": "https://es.wikipedia.org/wiki/Laura_Garc%C3%ADa_Arroyo"
     },
     "fecha": "2026-11-18",
-    "nombre": "Laura Garcia"
+    "nombre": "Laura Garcia",
+    "v": 2
   },
   "laura-pont": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Laura Pont"
+    "nombre": "Laura Pont",
+    "v": 2
   },
   "laura-roig": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Laura Roig"
+    "nombre": "Laura Roig",
+    "v": 2
   },
   "laura-taus": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Laura Taus"
+    "nombre": "Laura Taus",
+    "v": 2
   },
   "les-heyvan": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Les Heyvan"
+    "nombre": "Les Heyvan",
+    "v": 2
   },
   "les-inexactes": {
     "datos": {},
@@ -1040,11 +1194,19 @@
         "ca": "dramaturg, actor i director de teatre català"
       },
       "foto": null,
+      "oficios": [
+        "Q214917",
+        "Q3387717",
+        "Q33999",
+        "Q3455803",
+        "Q487596"
+      ],
       "wikidata": "Q27974958",
       "wikipedia": "https://ca.wikipedia.org/wiki/Ll%C3%A0tzer_Garcia_Alonso"
     },
     "fecha": "2026-11-18",
-    "nombre": "Llàtzer García"
+    "nombre": "Llàtzer García",
+    "v": 2
   },
   "lluis-juanet": {
     "datos": {},
@@ -1058,6 +1220,12 @@
         "es": "cantante y actriz española (n. 1958)"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Lolita_Flores.jpg?width=300",
+      "oficios": [
+        "Q10800557",
+        "Q177220",
+        "Q639669",
+        "Q947873"
+      ],
       "wikidata": "Q539872",
       "wikipedia": "https://es.wikipedia.org/wiki/Lolita_%28cantante%29"
     },
@@ -1083,6 +1251,9 @@
     "datos": {
       "descripcion": null,
       "foto": null,
+      "oficios": [
+        "Q36834"
+      ],
       "wikidata": "Q141345987",
       "wikipedia": null
     },
@@ -1092,7 +1263,8 @@
   "magatzem-d-ars": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Magatzem d’Ars"
+    "nombre": "Magatzem d’Ars",
+    "v": 2
   },
   "magrana-arts": {
     "datos": {},
@@ -1102,17 +1274,23 @@
   "mar-colas": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mar Colàs"
+    "nombre": "Mar Colàs",
+    "v": 2
   },
   "mar-sola": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mar Solà"
+    "nombre": "Mar Solà",
+    "v": 2
   },
   "marcelli-bayer": {
     "datos": {
       "descripcion": null,
       "foto": null,
+      "oficios": [
+        "Q15981151",
+        "Q36834"
+      ],
       "wikidata": "Q140655108",
       "wikipedia": null
     },
@@ -1125,6 +1303,9 @@
         "es": "directora de cine"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Seminci_2025_-_Mar%C3%ADa_Ant%C3%B3n_Cabot.jpg?width=300",
+      "oficios": [
+        "Q2526255"
+      ],
       "wikidata": "Q134987241",
       "wikipedia": null
     },
@@ -1132,17 +1313,10 @@
     "nombre": "María Antón Cabot"
   },
   "maria-armengol": {
-    "datos": {
-      "descripcion": {
-        "ca": "pintor, escultor, dissenyador industrial",
-        "es": "escultor español"
-      },
-      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Mari%C3%A0_Armengol.jpg?width=300",
-      "wikidata": "Q107417017",
-      "wikipedia": "https://es.wikipedia.org/wiki/Mario_Armengol"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Maria Armengol"
+    "nombre": "Maria Armengol",
+    "v": 2
   },
   "maria-roca": {
     "datos": {},
@@ -1152,17 +1326,20 @@
   "mario-andres-gomez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mario Andrés Gómez"
+    "nombre": "Mario Andrés Gómez",
+    "v": 2
   },
   "mariona-sagarra": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mariona Sagarra"
+    "nombre": "Mariona Sagarra",
+    "v": 2
   },
   "marta-fons": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Marta Fons"
+    "nombre": "Marta Fons",
+    "v": 2
   },
   "marta-perez": {
     "datos": {
@@ -1171,21 +1348,27 @@
         "es": "actriz española"
       },
       "foto": null,
+      "oficios": [
+        "Q33999"
+      ],
       "wikidata": "Q19301130",
       "wikipedia": "https://ca.wikipedia.org/wiki/Marta_P%C3%A9rez_i_Sol%C3%A9"
     },
     "fecha": "2026-11-18",
-    "nombre": "Marta Pérez"
+    "nombre": "Marta Pérez",
+    "v": 2
   },
   "marti-guixa": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Martí Guixà"
+    "nombre": "Martí Guixà",
+    "v": 2
   },
   "marti-madaula": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Martí Madaula"
+    "nombre": "Martí Madaula",
+    "v": 2
   },
   "martin-melinsky": {
     "datos": {},
@@ -1205,22 +1388,26 @@
   "menai-renobell": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Menai Renobell"
+    "nombre": "Menai Renobell",
+    "v": 2
   },
   "merce-badia": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mercè Badia"
+    "nombre": "Mercè Badia",
+    "v": 2
   },
   "merce-vila-godoy": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mercè Vila Godoy"
+    "nombre": "Mercè Vila Godoy",
+    "v": 2
   },
   "miguel-lago": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Miguel Lago"
+    "nombre": "Miguel Lago",
+    "v": 2
   },
   "miguel-noguera": {
     "datos": {
@@ -1228,26 +1415,38 @@
         "es": "humorista y escritor español"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Miguelnoguera.JPG?width=300",
+      "oficios": [
+        "Q12406482",
+        "Q15296811",
+        "Q177220",
+        "Q33999",
+        "Q36180",
+        "Q715301"
+      ],
       "wikidata": "Q5489701",
       "wikipedia": "https://es.wikipedia.org/wiki/Miguel_Noguera"
     },
     "fecha": "2026-11-18",
-    "nombre": "Miguel Noguera"
+    "nombre": "Miguel Noguera",
+    "v": 2
   },
   "miquel-grima": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Miquel Grima"
+    "nombre": "Miquel Grima",
+    "v": 2
   },
   "miriam-compte": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Míriam Compte"
+    "nombre": "Míriam Compte",
+    "v": 2
   },
   "moises-prats": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Moisés Prats"
+    "nombre": "Moisés Prats",
+    "v": 2
   },
   "monica-boromello": {
     "datos": {},
@@ -1257,12 +1456,14 @@
   "monica-moreira": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Mònica Moreira"
+    "nombre": "Mònica Moreira",
+    "v": 2
   },
   "mpc-management": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "MPC Management"
+    "nombre": "MPC Management",
+    "v": 2
   },
   "muntsa-alcaniz": {
     "datos": {
@@ -1271,11 +1472,16 @@
         "es": "actriz española"
       },
       "foto": null,
+      "oficios": [
+        "Q121594",
+        "Q33999"
+      ],
       "wikidata": "Q11938000",
       "wikipedia": "https://ca.wikipedia.org/wiki/Muntsa_Alca%C3%B1iz"
     },
     "fecha": "2026-11-18",
-    "nombre": "Muntsa Alcañiz"
+    "nombre": "Muntsa Alcañiz",
+    "v": 2
   },
   "natalia-ros": {
     "datos": {},
@@ -1290,12 +1496,14 @@
   "negroni-produccions": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Negroni Produccions"
+    "nombre": "Negroni Produccions",
+    "v": 2
   },
   "nestor-navarro": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Néstor Navarro"
+    "nombre": "Néstor Navarro",
+    "v": 2
   },
   "neus-abellan": {
     "datos": {},
@@ -1309,11 +1517,15 @@
         "es": "Actor catalán"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Nil_Cardoner.jpg?width=300",
+      "oficios": [
+        "Q33999"
+      ],
       "wikidata": "Q926874",
       "wikipedia": "https://es.wikipedia.org/wiki/Nil_Cardoner"
     },
     "fecha": "2026-11-18",
-    "nombre": "Nil Cardoner"
+    "nombre": "Nil Cardoner",
+    "v": 2
   },
   "ninas-buenas": {
     "datos": {},
@@ -1328,7 +1540,8 @@
   "nuria-corominas": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Núria Corominas"
+    "nombre": "Núria Corominas",
+    "v": 2
   },
   "nuria-garcia": {
     "datos": {
@@ -1337,6 +1550,10 @@
         "es": "guionista española"
       },
       "foto": null,
+      "oficios": [
+        "Q28389",
+        "Q7042855"
+      ],
       "wikidata": "Q113795327",
       "wikipedia": null
     },
@@ -1351,7 +1568,8 @@
   "nuria-llunell": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Núria Llunell"
+    "nombre": "Núria Llunell",
+    "v": 2
   },
   "odeon-theatre-de-l-europe": {
     "datos": {},
@@ -1361,22 +1579,26 @@
   "oriol-barber": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Oriol Barber"
+    "nombre": "Oriol Barber",
+    "v": 2
   },
   "oriol-bellvitge": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Oriol Bellvitge"
+    "nombre": "Oriol Bellvitge",
+    "v": 2
   },
   "oscar-machancoses": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Oscar Machancoses"
+    "nombre": "Oscar Machancoses",
+    "v": 2
   },
   "pablo-messiez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pablo Messiez"
+    "nombre": "Pablo Messiez",
+    "v": 2
   },
   "paco-ariza": {
     "datos": {},
@@ -1391,12 +1613,14 @@
   "pau-matas": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pau Matas"
+    "nombre": "Pau Matas",
+    "v": 2
   },
   "paula-vicente": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Paula Vicente"
+    "nombre": "Paula Vicente",
+    "v": 2
   },
   "pentacion-espectaculos": {
     "datos": {},
@@ -1404,59 +1628,52 @@
     "nombre": "Pentación Espectáculos"
   },
   "pepe-colubi": {
-    "datos": {
-      "descripcion": {
-        "ca": "periodista i escriptor espanyol",
-        "es": "periodista y escritor español"
-      },
-      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Pepe_Colubi.jpg?width=300",
-      "wikidata": "Q6071735",
-      "wikipedia": "https://es.wikipedia.org/wiki/Pepe_Colubi"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pepe Colubi"
+    "nombre": "Pepe Colubi",
+    "v": 2
   },
   "pepi-labrador": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pepi Labrador"
+    "nombre": "Pepi Labrador",
+    "v": 2
   },
   "pere-elies": {
-    "datos": {
-      "descripcion": {
-        "ca": "Escriptor, publicista i docent català"
-      },
-      "foto": null,
-      "wikidata": "Q16941923",
-      "wikipedia": "https://ca.wikipedia.org/wiki/Pere_Elies_i_Busqueta"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pere Elies"
+    "nombre": "Pere Elies",
+    "v": 2
   },
   "pilar-grimalt": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pilar Grimalt"
+    "nombre": "Pilar Grimalt",
+    "v": 2
   },
   "pol-clusella": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Pol Clusella"
+    "nombre": "Pol Clusella",
+    "v": 2
   },
   "queralt-borja": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Queralt Borja"
+    "nombre": "Queralt Borja",
+    "v": 2
   },
   "quico-gutierrez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Quico Gutiérrez"
+    "nombre": "Quico Gutiérrez",
+    "v": 2
   },
   "quim-algora": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Quim Algora"
+    "nombre": "Quim Algora",
+    "v": 2
   },
   "quim-avila": {
     "datos": {
@@ -1465,11 +1682,15 @@
         "es": "actor español"
       },
       "foto": null,
+      "oficios": [
+        "Q33999"
+      ],
       "wikidata": "Q111276502",
       "wikipedia": null
     },
     "fecha": "2026-11-18",
-    "nombre": "Quim Àvila"
+    "nombre": "Quim Àvila",
+    "v": 2
   },
   "quim-bigas": {
     "datos": {
@@ -1477,6 +1698,9 @@
         "ca": "coreògraf català"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Quim_Bigas_at_Sism%C3%B2graf_2017.jpg?width=300",
+      "oficios": [
+        "Q2490358"
+      ],
       "wikidata": "Q29511160",
       "wikipedia": "https://ca.wikipedia.org/wiki/Quim_Bigas"
     },
@@ -1486,7 +1710,8 @@
   "ramon-comico": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Ramón cómico"
+    "nombre": "Ramón cómico",
+    "v": 2
   },
   "raquel-loscos": {
     "datos": {
@@ -1494,11 +1719,16 @@
         "ca": "guionista i dramaturga catalana"
       },
       "foto": null,
+      "oficios": [
+        "Q214917",
+        "Q28389"
+      ],
       "wikidata": "Q96480014",
       "wikipedia": null
     },
     "fecha": "2026-11-18",
-    "nombre": "Raquel Loscos"
+    "nombre": "Raquel Loscos",
+    "v": 2
   },
   "raul-cimas": {
     "datos": {
@@ -1507,11 +1737,17 @@
         "es": "actor, guionista y humorista español"
       },
       "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Ra%C3%BAl_Cimas.jpg?width=300",
+      "oficios": [
+        "Q12406482",
+        "Q28389",
+        "Q33999"
+      ],
       "wikidata": "Q6101121",
       "wikipedia": "https://es.wikipedia.org/wiki/Ra%C3%BAl_Cimas"
     },
     "fecha": "2026-11-18",
-    "nombre": "Raúl Cimas"
+    "nombre": "Raúl Cimas",
+    "v": 2
   },
   "raul-viana": {
     "datos": {},
@@ -1526,22 +1762,26 @@
   "rocio-raval": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Rocío Raval"
+    "nombre": "Rocío Raval",
+    "v": 2
   },
   "roger-munoz": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Roger Muñoz"
+    "nombre": "Roger Muñoz",
+    "v": 2
   },
   "roger-sahuquillo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Roger Sahuquillo"
+    "nombre": "Roger Sahuquillo",
+    "v": 2
   },
   "rosa-bigas": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Rosa Bigas"
+    "nombre": "Rosa Bigas",
+    "v": 2
   },
   "rosa-cardus": {
     "datos": {},
@@ -1551,12 +1791,14 @@
   "roser-mateo": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Roser Mateo"
+    "nombre": "Roser Mateo",
+    "v": 2
   },
   "rut-girona": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Rut Girona"
+    "nombre": "Rut Girona",
+    "v": 2
   },
   "sala-flyhard": {
     "datos": {},
@@ -1571,12 +1813,14 @@
   "sandrine-heyraud-focus": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Sandrine Heyraud Focus"
+    "nombre": "Sandrine Heyraud Focus",
+    "v": 2
   },
   "sara-vinyals": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Sara Vinyals"
+    "nombre": "Sara Vinyals",
+    "v": 2
   },
   "sebastia-brosa": {
     "datos": {},
@@ -1586,12 +1830,14 @@
   "sergi-flores": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Sergi Flores"
+    "nombre": "Sergi Flores",
+    "v": 2
   },
   "shantala-pepe": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Shantala Pèpe"
+    "nombre": "Shantala Pèpe",
+    "v": 2
   },
   "tanya-beyeler": {
     "datos": {},
@@ -1601,7 +1847,8 @@
   "teatre-lliure": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Teatre Lliure"
+    "nombre": "Teatre Lliure",
+    "v": 2
   },
   "teatro-amaro": {
     "datos": {},
@@ -1621,7 +1868,8 @@
   "thomas-dechaufour": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Thomas Dechaufour"
+    "nombre": "Thomas Dechaufour",
+    "v": 2
   },
   "uriel-ireland": {
     "datos": {},
@@ -1631,17 +1879,20 @@
   "valeria-pisati": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Valeria Pisati"
+    "nombre": "Valeria Pisati",
+    "v": 2
   },
   "victor-parrado": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Victor Parrado"
+    "nombre": "Victor Parrado",
+    "v": 2
   },
   "virginia-sanchez": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Virginia Sánchez"
+    "nombre": "Virginia Sánchez",
+    "v": 2
   },
   "viu-el-teatre": {
     "datos": {},
@@ -1651,7 +1902,8 @@
   "william-shakespeare": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "William Shakespeare"
+    "nombre": "William Shakespeare",
+    "v": 2
   },
   "xavi-clapes": {
     "datos": {},
@@ -1661,7 +1913,8 @@
   "xavi-dolc": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Xavi Dolç"
+    "nombre": "Xavi Dolç",
+    "v": 2
   },
   "xavi-flores": {
     "datos": {},
@@ -1671,12 +1924,14 @@
   "xavier-bobes": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Xavier Bobés"
+    "nombre": "Xavier Bobés",
+    "v": 2
   },
   "xavier-bobes-sola": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Xavier Bobés Solà"
+    "nombre": "Xavier Bobés Solà",
+    "v": 2
   },
   "xavier-miralles": {
     "datos": {},
@@ -1686,7 +1941,8 @@
   "xavier-ricart": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Xavier Ricart"
+    "nombre": "Xavier Ricart",
+    "v": 2
   },
   "xesca-salva": {
     "datos": {},
@@ -1694,20 +1950,15 @@
     "nombre": "Xesca Salvà"
   },
   "yannick-garcia": {
-    "datos": {
-      "descripcion": {
-        "ca": "escriptor, intèrpret, traductor i corrector editorial català"
-      },
-      "foto": null,
-      "wikidata": "Q17044803",
-      "wikipedia": "https://ca.wikipedia.org/wiki/Yannick_Garcia_Porres"
-    },
+    "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Yannick Garcia"
+    "nombre": "Yannick Garcia",
+    "v": 2
   },
   "zoe-tenret": {
     "datos": {},
     "fecha": "2026-11-18",
-    "nombre": "Zoé Tenret"
+    "nombre": "Zoé Tenret",
+    "v": 2
   }
 }
