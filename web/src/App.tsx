@@ -3,7 +3,7 @@ import { cargarCartelera, type Cartelera, type Espectaculo } from './datos';
 import {
   FILTROS_INICIALES, FUNCIONES, GENEROS, MESES_CALENDARIO, guardarOcultos, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
   distanciaA, fmtCorto, fmtDia, fmtDistancia, fmtRango, funcionesEnRango, hoyEn, pasa, vigentes, precioTxt, publicoTxt, rango,
-  sumaDias, tipoTxt,
+  normaliza, sumaDias, tipoTxt,
   type ClaveFecha, type Filtros,
 } from './filtros';
 import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from './textos';
@@ -15,7 +15,7 @@ import {
   abrirRutaEnMovil, claveItem, descargar, imagenPlan, itemDe, paradasRuta, planIcs, porDias, rutaIncrustada, solapes, usePlanes,
   type ItemPlan, type Plan, type Planes,
 } from './planes';
-import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCine } from './cine';
+import { FILTROS_CINE, cargarCine, horaAhora, tituloPeli, type CarteleraCine, type FiltrosCine, type Pelicula } from './cine';
 import { Cartelito, FichaCine, FichaPelicula, VistaCine, VistaMapaCine, enlacePeli } from './Cine';
 import { VistaNoticias, cargarNoticias, type Noticia } from './Noticias';
 import { VistaInicio } from './Inicio';
@@ -29,7 +29,7 @@ const POR_PAGINA = 40;
 type Ruta = { vista: 'inicio' } | { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
   | { vista: 'planes' } | { vista: 'plan'; id: string } | { vista: 'cine' } | { vista: 'peli'; id: string } | { vista: 'sala'; id: string }
   | { vista: 'mapa-cine' } | { vista: 'noticias' } | { vista: 'buscar' } | { vista: 'persona'; id: string }
-  | { vista: 'teatro'; id: string } | { vista: 'historial' } | { vista: 'eventos' };
+  | { vista: 'teatro'; id: string } | { vista: 'historial' } | { vista: 'eventos' } | { vista: 'caducados' };
 
 const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -50,6 +50,7 @@ function leerRuta(): Ruta {
   if (h === 'planes') return { vista: 'planes' };
   if (h === 'historial') return { vista: 'historial' };
   if (h === 'eventos') return { vista: 'eventos' };
+  if (h === 'caducados') return { vista: 'caducados' };
   if (h.startsWith('plan-')) return { vista: 'plan', id: h.slice(5) };
   return { vista: 'inicio' };
 }
@@ -148,11 +149,38 @@ export default function App() {
   // Lo que ya ha empezado o pasado desaparece al momento (se recalcula cada minuto).
   const lista = useMemo(() => vigentes(cartelera?.espectaculos ?? [], hoy, ahora), [cartelera, hoy, ahora]);
   const vigente = useMemo(() => (cartelera ? { ...cartelera, espectaculos: lista } : null), [cartelera, lista]);
+  // Caducado (Uri, 19/11/2026): lo que terminó en el último mes sigue en la app con su etiqueta. Lo que
+  // termina hoy pasa aquí al momento; lo de días anteriores lo guarda el proceso diario (caducados).
+  const limiteCad = sumaDias(hoy, -30);
+  const caducados = useMemo(() => {
+    const vivos = new Set(lista.map((e) => e.id));
+    const res = new Map<string, Espectaculo>();
+    for (const e of cartelera?.espectaculos ?? []) {
+      if (!vivos.has(e.id) && e.funciones.length) res.set(e.id, { ...e, caducado: e.funciones[e.funciones.length - 1][0] });
+    }
+    for (const e of cartelera?.caducados ?? []) {
+      if (!vivos.has(e.id) && !res.has(e.id) && (e.caducado || '') >= limiteCad) res.set(e.id, e);
+    }
+    return [...res.values()].sort((a, b) => (b.caducado || '').localeCompare(a.caducado || ''));
+  }, [cartelera, lista, limiteCad]);
+  // Películas: solo cuando la actualización confirma que ya no están en ningún cine. Que hoy no tengan
+  // más sesiones anunciadas no basta: a veces el cine aún no ha publicado la semana siguiente.
+  const pelisCaducadas = useMemo(() => {
+    if (!cine) return [];
+    const futura = (p: Pelicula) => p.sesiones.some((x) => x[1] > hoy || (x[1] === hoy && (!x[2] || x[2] >= ahora)));
+    const vivas = new Set(cine.peliculas.filter(futura).map((p) => p.id));
+    return (cine.caducadas ?? []).filter((p) => !vivas.has(p.id) && (p.caducado || '') >= limiteCad)
+      .map((p) => ({ ...p, sesiones: p.sesiones ?? [] }))
+      .sort((a, b) => (b.caducado || '').localeCompare(a.caducado || ''));
+  }, [cine, hoy, ahora, limiteCad]);
   // La ficha se abre aunque la obra ya no esté en cartel (desde un plan o el historial).
   const actual = ruta.vista === 'ficha'
-    ? (lista.find((e) => claveFicha(e.id) === ruta.clave) ?? cartelera?.espectaculos.find((e) => claveFicha(e.id) === ruta.clave))
+    ? (lista.find((e) => claveFicha(e.id) === ruta.clave) ?? caducados.find((e) => claveFicha(e.id) === ruta.clave))
     : undefined;
-  const peli = ruta.vista === 'peli' ? cine?.peliculas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}`) : undefined;
+  const peli = ruta.vista === 'peli'
+    ? (cine?.peliculas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}` && !p.caducado && !pelisCaducadas.some((x) => x.id === p.id))
+      ?? pelisCaducadas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}`))
+    : undefined;
   const salaCine = ruta.vista === 'sala' ? cine?.cines.find((c) => c.id.replace(/[^A-Za-z0-9-]+/g, '-') === ruta.id) : undefined;
   const personas = useMemo(() => indicePersonas(lista, cine, lang, t, cartelera?.personas), [lista, cine, lang, t, cartelera]);
   const cambiarCine = useCallback((c: Partial<FiltrosCine>) => setFiltrosCine((f) => ({ ...f, ...c })), []);
@@ -162,11 +190,11 @@ export default function App() {
     <div className="app">
       {ruta.vista === 'inicio' ? (
         <VistaInicio t={t} lang={lang} setLang={setLang} cartelera={vigente} cine={cine} noticias={noticias} hoy={hoy} ahora={ahora}
-          irABuscar={() => { window.location.hash = '#buscar'; }} />
+          irABuscar={() => { window.location.hash = '#buscar'; }} nCaducados={caducados.length + pelisCaducadas.length} />
       ) : null}
       {ruta.vista === 'cine' ? (
         <VistaCine t={t} lang={lang} datos={cine} error={errorCine} hoy={hoy} ahora={ahora} favs={favs} hist={hist} ubic={ubic}
-          eventos={lista.filter((e) => e.tipo === 'eventos' && e.disciplina === 'cine')}
+          eventos={lista.filter((e) => e.tipo === 'eventos' && e.disciplina === 'cine')} caducadas={pelisCaducadas}
           filtros={filtrosCine} cambiar={cambiarCine} />
       ) : null}
       {ruta.vista === 'peli' && peli && cine ? (
@@ -177,14 +205,15 @@ export default function App() {
       {ruta.vista === 'sala' && salaCine && cine ? <FichaCine t={t} lang={lang} c={salaCine} datos={cine} hoy={hoy} ahora={ahora} volver={volver} /> : null}
       {ruta.vista === 'mapa-cine' ? <VistaMapaCine t={t} datos={cine} hoy={hoy} ubic={ubic} /> : null}
       {ruta.vista === 'noticias' ? <VistaNoticias t={t} lang={lang} noticias={noticias} error={errorNoticias} /> : null}
-      {ruta.vista === 'buscar' ? <VistaBuscar t={t} lang={lang} q={busqueda} setQ={setBusqueda} lista={lista} cine={cine} personas={personas} hoy={hoy} /> : null}
+      {ruta.vista === 'buscar' ? <VistaBuscar t={t} lang={lang} q={busqueda} setQ={setBusqueda} lista={lista} cine={cine} personas={personas} hoy={hoy}
+        caducados={caducados} pelisCaducadas={pelisCaducadas} /> : null}
       {ruta.vista === 'persona' ? <VistaPersona t={t} lang={lang} p={personas.get(ruta.id) || [...personas.values()].find((x) => `n-${slug(x.nombre)}` === ruta.id)} volver={volver} /> : null}
       {ruta.vista === 'cartelera' || (ruta.vista === 'ficha' && !actual) ? (
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={vigente} error={error} hoy={hoy}
           filtros={filtros} cambiar={cambiar} limite={limite} setLimite={setLimite}
           abrirFiltros={() => setHoja('filtros')} abrirCalendario={() => setHoja('calendario')} scrollLista={scrollLista} favs={favs}
-          ubic={ubic} hist={hist}
+          ubic={ubic} hist={hist} caducados={caducados}
         />
       ) : null}
       {ruta.vista === 'ficha' && actual && cartelera ? (
@@ -194,8 +223,10 @@ export default function App() {
         <VistaMapa t={t} cartelera={vigente} hoy={hoy} filtros={filtros} cambiar={cambiar}
           abrirCalendario={() => setHoja('calendario')} favs={favs} ubic={ubic} />
       ) : null}
-      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} hist={hist} planes={planes} /> : null}
+      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} hist={hist} planes={planes}
+        caducados={caducados} pelisCaducadas={pelisCaducadas} /> : null}
       {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} hist={hist} favs={favs} /> : null}
+      {ruta.vista === 'caducados' ? <VistaCaducados t={t} lang={lang} obras={caducados} pelis={pelisCaducadas} /> : null}
       {ruta.vista === 'historial' ? <VistaHistorial t={t} hist={hist} planes={planes} favs={favs} /> : null}
       {ruta.vista === 'teatro' ? <VistaSala t={t} lista={lista} hoy={hoy} id={ruta.id} volver={volver} cargada={!!cartelera} /> : null}
       {ruta.vista === 'plan' ? <VistaPlan t={t} lang={lang} lista={cartelera?.espectaculos ?? []} vigentes={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} hist={hist} id={ruta.id} /> : null}
@@ -240,9 +271,10 @@ interface PropsCartelera {
   filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; limite: number; setLimite: (n: number) => void;
   abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>; favs: Favoritos; ubic: Ubicacion;
   hist: Historial;
+  caducados: Espectaculo[];
 }
 
-function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs, ubic, hist }: PropsCartelera) {
+function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs, ubic, hist, caducados }: PropsCartelera) {
   const lista = cartelera?.espectaculos ?? [];
   const q = useDeferredValue(filtros.q);
   const f = useMemo(() => ({ ...filtros, q }), [filtros, q]);
@@ -308,6 +340,20 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
             {t.verMas} ({resultados.length - limite})
           </button>
         ) : null}
+        {/* Al buscar, también lo caducado del último mes, con su etiqueta (Uri, 19/11/2026). */}
+        {f.q.trim().length >= 2 ? (() => {
+          const n = normaliza(f.q.trim());
+          const cad = caducados.filter((e) => (f.tipo === 'todo' || e.tipo === f.tipo)
+            && normaliza([e.nombre, e.artista, e.sala].join(' ')).includes(n)).slice(0, 20);
+          return cad.length ? (
+            <section className="bloque">
+              <h3 className="seccion-titulo">{t.caducadosBusqueda}</h3>
+              {cad.map((e) => <FilaCaducada key={e.id} t={t} nombre={e.nombre} imagen={e.imagen} enlace={enlaceFicha(e.id)}
+                detalle={[tipoTxt(e, t), e.sala].filter(Boolean).join(' · ')} caducado={e.caducado} />)}
+            </section>
+          ) : null;
+        })() : null}
+        {cartelera ? <a className="boton-secundario enlace-caducados" href="#caducados">{t.caducadosVer}</a> : null}
         {cartelera ? <p className="licencia">{cartelera.licencia}</p> : null}
       </div>
     </main>
@@ -575,7 +621,10 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, hist, cartelera }: {
       <div className="ficha">
         <Cartel e={e} t={t} clase="ficha-imagen" />
         <div className="ficha-cabecera">
-          <Etiquetas e={e} t={t} />
+          <span className="etiquetas-ficha">
+            <Etiquetas e={e} t={t} />
+            {fs.length === 0 ? <span className="etiqueta caducado">{t.caducado}</span> : null}
+          </span>
           <h2>{e.nombre}</h2>
           {e.artista ? <span className="ficha-artista">{e.artista}</span> : null}
         </div>
@@ -1052,6 +1101,60 @@ function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs,
 
 // --- Favoritos ----------------------------------------------------------------------------
 
+/** Una fila de algo caducado: imagen, nombre, qué es y cuándo terminó, con la etiqueta «Caducado». */
+export function FilaCaducada({ t, nombre, imagen, enlace, detalle, caducado }: {
+  t: Textos; nombre: string; imagen?: string; enlace: string; detalle: string; caducado?: string;
+}) {
+  return (
+    <a className="fila-resultado caducada" href={enlace}>
+      <Cartelito src={imagen} alt={nombre} clase="mini-cartel" />
+      <span>
+        <span className="etiqueta caducado">{t.caducado}</span>
+        <span className="caja-titulo">{nombre}</span>
+        <span className="texto-suave">{[detalle, caducado ? t.termino(fmtCorto(caducado, t)) : ''].filter(Boolean).join(' · ')}</span>
+      </span>
+    </a>
+  );
+}
+
+/** Lo que terminó en el último mes, separado por tipo (Uri, 19/11/2026). */
+function VistaCaducados({ t, lang, obras, pelis }: { t: Textos; lang: Idioma; obras: Espectaculo[]; pelis: Pelicula[] }) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
+  const [tipo, setTipo] = useState<string>('todo');
+  const filas = [
+    ...pelis.map((p) => ({ id: `p${p.id}`, clase: 'peli', nombre: tituloPeli(p, lang), imagen: p.cartel, enlace: enlacePeli(p.id),
+      detalle: [t.filtroCad.peli, p.anio, (p.direccion || []).map((d) => d.nombre).join(', ')].filter(Boolean).join(' · '), caducado: p.caducado })),
+    ...obras.map((e) => ({ id: `o${e.id}`, clase: e.tipo, nombre: e.nombre, imagen: e.imagen, enlace: enlaceFicha(e.id),
+      detalle: [tipoTxt(e, t), e.sala].filter(Boolean).join(' · '), caducado: e.caducado })),
+  ].sort((a, b) => (b.caducado || '').localeCompare(a.caducado || ''));
+  const visibles = filas.filter((x) => tipo === 'todo' || x.clase === tipo);
+  return (
+    <main className="pantalla">
+      <header className="cabecera">
+        <div className="titulo">
+          <span className="sobretitulo">{t.caducadosSub}</span>
+          <h1>{t.caducadosTit}</h1>
+        </div>
+      </header>
+      <div className="chips">
+        {['todo', 'peli', 'teatro', 'magia', 'circo', 'eventos'].map((k) => {
+          const n = filas.filter((x) => k === 'todo' || x.clase === k).length;
+          return k === 'todo' || n ? (
+            <button key={k} type="button" className="chip pequeno" aria-pressed={tipo === k} onClick={() => setTipo(k)}>
+              {t.filtroCad[k]}<span className="num">{n}</span>
+            </button>
+          ) : null;
+        })}
+      </div>
+      <div className="lista">
+        {filas.length === 0 ? <p className="aviso">{t.caducadosVacio}</p> : null}
+        {visibles.map((x) => <FilaCaducada key={x.id} t={t} nombre={x.nombre} imagen={x.imagen} enlace={x.enlace} detalle={x.detalle} caducado={x.caducado} />)}
+        <p className="nota">{t.caducadosNota}</p>
+      </div>
+    </main>
+  );
+}
+
 /** Selector de la Agenda: Planes, Guardado e Historial (la barra de abajo tiene una sola pestaña). */
 function SegmentosAgenda({ t, actual, n }: { t: Textos; actual: 'planes' | 'favoritos' | 'historial'; n: [number, number, number] }) {
   const segs: [typeof actual, string, number][] = [['planes', t.navPlanes, n[0]], ['favoritos', t.navGuardado, n[1]], ['historial', t.segHistorial, n[2]]];
@@ -1083,14 +1186,18 @@ function CabeceraAgenda({ t, sub, actual, n }: { t: Textos; sub: string; actual:
   );
 }
 
-function VistaFavoritos({ t, lang, lista, cine, hoy, favs, hist, planes }: {
+function VistaFavoritos({ t, lang, lista, cine, hoy, favs, hist, planes, caducados, pelisCaducadas }: {
   t: Textos; lang: Idioma; lista: Espectaculo[]; cine: CarteleraCine | null; hoy: string; favs: Favoritos; hist: Historial; planes: Planes;
+  caducados: Espectaculo[]; pelisCaducadas: Pelicula[];
 }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const guardados = lista.filter((e) => favs.es(e.id))
     .sort((a, b) => (a.funciones[0]?.[0] ?? '').localeCompare(b.funciones[0]?.[0] ?? ''));
-  const pelis = (cine?.peliculas || []).filter((p) => favs.es(p.id));
-  const fuera = lista.length && cine ? favs.ids.length - guardados.length - pelis.length : 0;
+  const caducadasIds = new Set(pelisCaducadas.map((p) => p.id));
+  const pelis = (cine?.peliculas || []).filter((p) => favs.es(p.id) && !caducadasIds.has(p.id));
+  const obrasCad = caducados.filter((e) => favs.es(e.id));
+  const pelisCad = pelisCaducadas.filter((p) => favs.es(p.id));
+  const fuera = lista.length && cine ? favs.ids.length - guardados.length - pelis.length - obrasCad.length - pelisCad.length : 0;
   // Lo ya visto o hecho va al final, tachado.
   const obrasPend = guardados.filter((e) => !hist.es(claveObra(e.id)));
   const obrasHechas = guardados.filter((e) => hist.es(claveObra(e.id)));
@@ -1122,6 +1229,11 @@ function VistaFavoritos({ t, lang, lista, cine, hoy, favs, hist, planes }: {
             marcado={marca(e.tipo, t).hecho} />
         ))}
         {pelisHechas.map((p) => filaPeli(p, true))}
+        {obrasCad.length || pelisCad.length ? <h2 className="seccion-titulo">{t.caducadosTit}</h2> : null}
+        {pelisCad.map((p) => <FilaCaducada key={p.id} t={t} nombre={tituloPeli(p, lang)} imagen={p.cartel} enlace={enlacePeli(p.id)}
+          detalle={t.filtroCad.peli} caducado={p.caducado} />)}
+        {obrasCad.map((e) => <FilaCaducada key={e.id} t={t} nombre={e.nombre} imagen={e.imagen} enlace={enlaceFicha(e.id)}
+          detalle={[tipoTxt(e, t), e.sala].filter(Boolean).join(' · ')} caducado={e.caducado} />)}
         {fuera > 0 ? <p className="nota">{t.favFuera(fuera)}</p> : null}
         <p className="nota">{t.favNota}</p>
       </div>

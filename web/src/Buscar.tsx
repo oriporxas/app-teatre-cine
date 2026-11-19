@@ -2,11 +2,12 @@
 // teatro y el cine: quien dirige una película y actúa en una obra sale con las dos cosas.
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { cargarPersona, type DatosPersona, type Espectaculo, type PersonaEscena } from './datos';
-import type { CarteleraCine, Persona, Premio } from './cine';
+import type { CarteleraCine, Pelicula, Persona, Premio } from './cine';
 import { tituloPeli } from './cine';
 import { normaliza, tipoTxt } from './filtros';
 import type { Idioma, Textos } from './textos';
 import { Cartelito, PremiosLista, clavePersona, enlaceCine, enlacePeli } from './Cine';
+import { FilaCaducada } from './App';
 
 export interface FichaPersona {
   clave: string;
@@ -81,9 +82,9 @@ export function indicePersonas(lista: Espectaculo[], cine: CarteleraCine | null,
 
 const enlaceFicha = (id: string) => `#ficha-${id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
 
-export function VistaBuscar({ t, lang, q, setQ, lista, cine, personas, hoy }: {
+export function VistaBuscar({ t, lang, q, setQ, lista, cine, personas, hoy, caducados = [], pelisCaducadas = [] }: {
   t: Textos; lang: Idioma; q: string; setQ: (q: string) => void; lista: Espectaculo[]; cine: CarteleraCine | null;
-  personas: Map<string, FichaPersona>; hoy: string;
+  personas: Map<string, FichaPersona>; hoy: string; caducados?: Espectaculo[]; pelisCaducadas?: Pelicula[];
 }) {
   const entrada = useRef<HTMLInputElement>(null);
   useLayoutEffect(() => { window.scrollTo(0, 0); entrada.current?.focus({ preventScroll: true }); }, []);
@@ -91,15 +92,25 @@ export function VistaBuscar({ t, lang, q, setQ, lista, cine, personas, hoy }: {
   const r = useMemo(() => {
     if (n.length < 2) return null;
     const obras = lista.filter((e) => e.funciones.some(([d]) => d >= hoy) && normaliza([e.nombre, e.artista, e.sala, ...(e.equipo || []).map((x) => x[1])].join(' ')).includes(n)).slice(0, 30);
-    const pelis = (cine?.peliculas || []).filter((p) => normaliza([p.titulo, p.titulo_ca, p.titulo_original, ...(p.direccion || []).map((x) => x.nombre), ...(p.reparto || []).map((x) => x.nombre)].join(' ')).includes(n)).slice(0, 30);
+    const textoPeli = (p: Pelicula) => normaliza([p.titulo, p.titulo_ca, p.titulo_original, ...(p.direccion || []).map((x) => x.nombre), ...(p.reparto || []).map((x) => x.nombre)].join(' '));
+    const cadIds = new Set(pelisCaducadas.map((p) => p.id));
+    // Lo caducado del último mes también sale, con su etiqueta (Uri, 19/11/2026).
+    const caducadas = [
+      ...pelisCaducadas.filter((p) => textoPeli(p).includes(n)).map((p) => ({ id: `p${p.id}`, nombre: tituloPeli(p, lang), imagen: p.cartel,
+        enlace: enlacePeli(p.id), detalle: [t.filtroCad.peli, p.anio].filter(Boolean).join(' · '), caducado: p.caducado })),
+      ...caducados.filter((e) => normaliza([e.nombre, e.artista, e.sala, ...(e.equipo || []).map((x) => x[1])].join(' ')).includes(n))
+        .map((e) => ({ id: `o${e.id}`, nombre: e.nombre, imagen: e.imagen, enlace: enlaceFicha(e.id),
+          detalle: [tipoTxt(e, t), e.sala].filter(Boolean).join(' · '), caducado: e.caducado })),
+    ].slice(0, 30);
+    const pelis = (cine?.peliculas || []).filter((p) => !cadIds.has(p.id) && normaliza([p.titulo, p.titulo_ca, p.titulo_original, ...(p.direccion || []).map((x) => x.nombre), ...(p.reparto || []).map((x) => x.nombre)].join(' ')).includes(n)).slice(0, 30);
     const gente = [...personas.values()].filter((p) => normaliza(p.nombre).includes(n))
       .sort((a, b) => (b.pelis.length + b.obras.length) - (a.pelis.length + a.obras.length)).slice(0, 20);
     const salas = new Map<string, { nombre: string; enlace: string; detalle: string }>();
     for (const e of lista) if (e.sala && normaliza(e.sala).includes(n) && !salas.has(e.sala)) salas.set(e.sala, { nombre: e.sala, enlace: '#cartelera', detalle: e.barrio || '' });
     for (const c of cine?.cines || []) if (normaliza(c.nombre).includes(n)) salas.set(c.id, { nombre: c.nombre, enlace: enlaceCine(c.id), detalle: c.barrio || '' });
-    return { obras, pelis, gente, salas: [...salas.values()].slice(0, 15) };
-  }, [n, lista, cine, personas, hoy]);
-  const total = r ? r.obras.length + r.pelis.length + r.gente.length + r.salas.length : 0;
+    return { obras, pelis, gente, salas: [...salas.values()].slice(0, 15), caducadas };
+  }, [n, lista, cine, personas, hoy, caducados, pelisCaducadas, lang, t]);
+  const total = r ? r.obras.length + r.pelis.length + r.gente.length + r.salas.length + r.caducadas.length : 0;
   return (
     <main className="pantalla">
       <header className="cabecera">
@@ -148,6 +159,12 @@ export function VistaBuscar({ t, lang, q, setQ, lista, cine, personas, hoy }: {
                 <span><span className="caja-titulo">{e.nombre}</span><span className="texto-suave">{[tipoTxt(e, t), e.sala].filter(Boolean).join(' · ')}</span></span>
               </a>
             ))}
+          </section>
+        ) : null}
+        {r?.caducadas.length ? (
+          <section className="bloque">
+            <h3 className="seccion-titulo">{t.caducadosBusqueda}</h3>
+            {r.caducadas.map((x) => <FilaCaducada key={x.id} t={t} nombre={x.nombre} imagen={x.imagen} enlace={x.enlace} detalle={x.detalle} caducado={x.caducado} />)}
           </section>
         ) : null}
         {r?.salas.length ? (

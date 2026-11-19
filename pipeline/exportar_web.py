@@ -168,11 +168,17 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None, leer_webs: bool = 
     fichas_obra.aplicar(ciudad, items, informe, leer_webs=leer_webs)
     personas_app = personas.aplicar(ciudad, items, informe, leer_webs=leer_webs)
     items.sort(key=lambda i: (i["funciones"][0][0], (i["funciones"][0] + [""])[1]))
+    # Lo caducado del último mes (Uri, 19/11/2026): se compara con la versión anterior del archivo.
+    from . import caducados as cad
+    anteriores = (leer_json(CARPETA_WEB / f"{ciudad.id}.json", {}) or {}).get("espectaculos", [])
+    caducados = cad.actualizar(ciudad, "escena", hoy, anteriores, items, cad.ultima_funcion, cad.recortar_escena)
+    informe["caducados"] = len(caducados)
     datos = {
         "ciudad": ciudad.ficha(),
         "actualizado": informe.get("fecha"),
         "licencia": "Datos: Ajuntament de Barcelona (Open Data BCN y Guia BCN), CC BY 4.0",
         "espectaculos": items,
+        "caducados": caducados,
         "personas": personas_app,
     }
     # Compacto (sin espacios): es lo que descarga el móvil.

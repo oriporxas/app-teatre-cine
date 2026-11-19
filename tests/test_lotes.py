@@ -56,7 +56,8 @@ class TestLotes(unittest.TestCase):
         self.carpeta = Path(self.dir.name)
         self.cli = IAFalsa()
         ia.GASTO.usd, ia.GASTO.por_tarea, ia.GASTO.tope = 0.0, {}, 10.0
-        self.parches = [mock.patch.object(ia, "disponible", lambda: True), mock.patch.object(ia, "cliente", lambda: self.cli)]
+        self.parches = [mock.patch.object(ia, "disponible", lambda: True), mock.patch.object(ia, "cliente", lambda: self.cli),
+                        mock.patch.object(ia, "directo_hasta", lambda: 0)]  # aquí se prueban los lotes
         for p in self.parches:
             p.start()
 
@@ -111,6 +112,16 @@ class TestLotes(unittest.TestCase):
             lotes.esperar(1)
         normal.assert_called_once()
         self.assertEqual(lotes.recogidas, [({"ok": "normal"}, {"obra": "A"})])
+
+    def test_pocas_peticiones_van_directas(self):
+        """Con pocas preguntas (o al mediodía) no se espera a un lote: la respuesta llega al momento."""
+        lotes = ia.Lotes("prueba", self.carpeta)
+        with mock.patch.object(ia, "directo_hasta", lambda: 3), \
+                mock.patch.object(ia, "pedir_json", return_value={"ok": "directa"}) as normal:
+            self.enviar(lotes, {"a": ("mensaje A", {"obra": "A"})})
+        normal.assert_called_once()
+        self.assertEqual(self.cli.enviados, [])  # ningún lote
+        self.assertEqual(lotes.recogidas, [({"ok": "directa"}, {"obra": "A"})])
 
     def test_tope_de_gasto(self):
         ia.GASTO.usd = 99.0

@@ -54,8 +54,11 @@ maximo_por_ejecucion = 20     # hoy solo magos y magas (búsqueda web: 10 $ cada
 # ha llegado, se cancela (no se cobra) y se pregunta al momento por la vía normal, a precio completo.
 # Así lo nuevo nunca queda para otra ejecución. Las respuestas son las mismas: mismo modelo, mismas
 # instrucciones y mismas comprobaciones; solo cambia cuándo llegan y el precio.
+# Con pocas preguntas (3 peticiones o menos) y en la actualización rápida del mediodía no compensa el
+# lote: van directas (a precio completo, céntimos) y la respuesta llega al momento.
 [lotes]
 espera_maxima_minutos = 10
+directo_hasta = 3
 
 [presupuesto]
 maximo_usd_por_ejecucion = 2.0

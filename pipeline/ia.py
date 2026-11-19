@@ -131,6 +131,12 @@ def _peticion(modelo: str, esfuerzo: str, sistema: str, mensaje: str, esquema: d
     )
 
 
+def directo_hasta() -> int:
+    """Con pocas peticiones, no compensa esperar a un lote: van directas ([lotes] de ia.toml)."""
+    from .ajustes import _leer
+    return int((_leer("ia.toml").get("lotes") or {}).get("directo_hasta", 3))
+
+
 def espera_lotes() -> float:
     """Segundos que una ejecución espera las respuestas de un lote ([lotes] de ia.toml)."""
     if "IA_ESPERA_LOTES_MIN" in os.environ:
@@ -190,6 +196,15 @@ class Lotes:
             return
         self.cli = cli or self.cli
         GASTO.comprobar()
+        # Pocas peticiones (o la actualización rápida del mediodía): directas, sin esperar a un lote.
+        # Cuestan el doble, pero son céntimos, y lo nuevo sale enseguida.
+        if config.RAPIDA or len(peticiones) <= directo_hasta():
+            for mensaje, datos in peticiones.values():
+                respuesta = pedir_json(self._cliente(), tarea=self.tarea, modelo=modelo, esfuerzo=esfuerzo, sistema=sistema,
+                                       mensaje=mensaje, esquema=esquema, max_tokens=max_tokens)
+                self.recogidas.append((respuesta, datos))
+                self.informe["directas"] = self.informe.get("directas", 0) + 1
+            return
         from .util import huella
         cuerpo, guardadas = [], {}
         for clave_, (mensaje, datos) in peticiones.items():

@@ -10,6 +10,8 @@ export type Sesion = [string, string, string | null, string | null, string | nul
 
 export interface Pelicula {
   id: string;
+  /** Si ya no tiene sesiones: fecha de la última (sale un mes con «Caducado»). */
+  caducado?: string;
   titulo: string;
   titulo_ca?: string;
   titulo_original?: string;
@@ -56,6 +58,8 @@ export interface CarteleraCine {
   atribucion: string;
   cines: Cine[];
   peliculas: Pelicula[];
+  /** Películas que terminaron en el último mes, sin sesiones (pipeline/caducados.py). */
+  caducadas?: Pelicula[];
 }
 
 export async function cargarCine(ciudad: string): Promise<CarteleraCine> {

@@ -679,3 +679,11 @@ a.hora-chip { text-decoration: none; }
 .enlaces-persona { display: flex; flex-wrap: wrap; gap: 4px 14px; }
 .persona-bio { font-size: 16px; line-height: 1.55; color: var(--texto-claro); }
 .fila-trabajo { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border-bottom: 1px solid var(--superficie-2); }
+
+/* Caducado (Uri, 19/11/2026) */
+.etiqueta.caducado { background: transparent; border-color: #8A8780; color: #C9C5BC; }
+.fila-resultado.caducada > span:last-child .etiqueta { align-self: flex-start; height: 20px; font-size: 11px; margin-bottom: 2px; }
+.fila-resultado.caducada .caja-titulo { color: var(--texto-claro); }
+.etiquetas-ficha { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.enlace-caducados { margin-top: 8px; }
+a.enlace-caducados-inicio { display: flex; align-items: center; gap: 10px; padding: 12px 14px; min-height: 56px; margin-top: 8px; text-decoration: none; color: inherit; }

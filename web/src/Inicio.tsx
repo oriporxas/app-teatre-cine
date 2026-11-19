@@ -44,9 +44,9 @@ function PosterPeli({ p, lang, detalle, estreno, t }: { p: Pelicula; lang: Idiom
   );
 }
 
-export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, ahora, irABuscar }: {
+export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, ahora, irABuscar, nCaducados = 0 }: {
   t: Textos; lang: Idioma; setLang: (l: Idioma) => void; cartelera: Cartelera | null; cine: CarteleraCine | null;
-  noticias: Noticia[] | null; hoy: string; ahora: string; irABuscar: () => void;
+  noticias: Noticia[] | null; hoy: string; ahora: string; irABuscar: () => void; nCaducados?: number;
 }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const lista = cartelera?.espectaculos ?? [];
@@ -264,6 +264,14 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
             ))}
           </div>
         </details>
+      ) : null}
+
+      {nCaducados ? (
+        <a className="cine-desplegable lista-inicio enlace-caducados-inicio" href="#caducados">
+          <span className="cine-desplegable-texto"><span className="seccion-titulo">{t.caducadosTit}</span>
+            <span className="texto-suave">{t.caducadosSub} · {nCaducados}</span></span>
+          <svg className="flecha" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 6l6 6-6 6" /></svg>
+        </a>
       ) : null}
 
       <footer className="pie">

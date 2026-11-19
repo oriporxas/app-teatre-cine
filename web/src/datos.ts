@@ -24,6 +24,8 @@ export interface Espectaculo {
   funciones: [string, string?][];
   /** Lo pone la app: primera fecha de la obra aunque ya haya pasado (para «Últimos días»). */
   desde?: string;
+  /** Si ya ha terminado: fecha de la última función (sale un mes con «Caducado»). */
+  caducado?: string;
   precio_min?: number;
   precio_max?: number;
   gratis?: boolean;
@@ -80,6 +82,8 @@ export interface Cartelera {
   actualizado: string;
   licencia: string;
   espectaculos: Espectaculo[];
+  /** Lo que terminó en el último mes (pipeline/caducados.py). */
+  caducados?: Espectaculo[];
   /** Clave: el nombre en minúsculas, sin acentos y con guiones (como pipeline/personas.py). */
   personas?: Record<string, PersonaEscena>;
 }
