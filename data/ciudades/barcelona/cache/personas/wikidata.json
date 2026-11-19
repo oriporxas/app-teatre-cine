@@ -368,6 +368,12 @@
     "nombre": "Andrés Torres",
     "v": 2
   },
+  "andreu-casadella": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Andreu Casadellà",
+    "v": 3
+  },
   "andreu-domenech": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -418,6 +424,12 @@
     "nombre": "Anna Carrasco",
     "v": 2
   },
+  "anna-pascual": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Anna Pascual",
+    "v": 3
+  },
   "anna-pique": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -460,6 +472,12 @@
     "nombre": "AT El Partiquí",
     "v": 2
   },
+  "barbara-glaenzl": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Bàrbara Glaenzl",
+    "v": 3
+  },
   "beatriz-ribas": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -476,6 +494,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Berta Ros",
+    "v": 3
+  },
+  "bido-de-nou-barris": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Bidó de Nou Barris",
     "v": 3
   },
   "biljana-camilloni": {
@@ -911,6 +935,12 @@
     "nombre": "El Conde de Torrefiel",
     "v": 3
   },
+  "el-graner": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "El Graner",
+    "v": 3
+  },
   "el-malda": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1189,6 +1219,12 @@
     "nombre": "Javier Naval",
     "v": 3
   },
+  "jelena-vujovic": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Jelena Vujovic",
+    "v": 3
+  },
   "jep-barcelo": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1375,6 +1411,12 @@
     "nombre": "La Calòrica",
     "v": 3
   },
+  "la-turbo": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "La Turbo",
+    "v": 3
+  },
   "laura-clos-closca": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1415,6 +1457,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Les Inexactes",
+    "v": 3
+  },
+  "linda-de-berardinis": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Linda De Berardinis",
     "v": 3
   },
   "llatzer-garcia": {
@@ -1833,10 +1881,22 @@
     "nombre": "Pablo Messiez",
     "v": 2
   },
+  "pablo-monedero-otto": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Pablo Monedero (Otto)",
+    "v": 3
+  },
   "paco-ariza": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Paco Ariza",
+    "v": 3
+  },
+  "para-feruzi": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Para Feruzi",
     "v": 3
   },
   "pau-gascon": {
@@ -2158,6 +2218,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Viu el Teatre",
+    "v": 3
+  },
+  "wanja-kahlert": {
+    "datos": {},
+    "fecha": "2026-11-19",
+    "nombre": "Wanja Kahlert",
     "v": 3
   },
   "william-shakespeare": {

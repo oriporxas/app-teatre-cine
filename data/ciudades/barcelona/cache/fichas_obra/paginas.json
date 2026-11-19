@@ -769,6 +769,53 @@
     "firma": "5493f5b4e5d46f30",
     "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/07/17_EL-CANTANTE.jpg"
   },
+  "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/las-devociones-live-set/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Concepte, dramatúrgia, direcció, text i interpretació",
+          "Alberto Cortés"
+        ],
+        [
+          "Disseny d’il·luminació",
+          "Benito Jiménez"
+        ],
+        [
+          "Vestuari",
+          "Gloria Trenado"
+        ],
+        [
+          "Barret",
+          "Patricia Buffuna"
+        ],
+        [
+          "Violins",
+          "Luz Prado"
+        ],
+        [
+          "Piano",
+          "Tacet est musicae"
+        ],
+        [
+          "Cor",
+          "ProyectoeLe"
+        ],
+        [
+          "Pintura",
+          "Miguel Oliver"
+        ],
+        [
+          "Producció",
+          "El Mandaíto Produccions SL"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "7f02bd763c17c690",
+    "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/07/19_LAS-DEVOCIONES-LIVE-SET-768x512.jpg"
+  },
   "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/no-pares-sigue-sigue/": {
     "datos": {
       "duracion": 75,
@@ -811,6 +858,37 @@
     "fecha": "2026-11-18",
     "firma": "27d074faf1528fc3",
     "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/09/no-pares_web-1920x1280.jpg"
+  },
+  "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/parias/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Crea i manipula",
+          "Javier Aranda"
+        ],
+        [
+          "Fotografia i vídeo",
+          "Javier Macipe"
+        ],
+        [
+          "Disseny gràfic",
+          "Alfonso Val"
+        ],
+        [
+          "Assessor literari",
+          "Diago Lezaun"
+        ],
+        [
+          "Local d’assaig i taller",
+          "Teatro Arbolé"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "1f940bb29c8471ac",
+    "imagen": "https://fundaciojoanbrossa.cat/wp-content/uploads/2026/07/20_PARIAS.jpg"
   },
   "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/se-necesita-un-pantalon/": {
     "datos": {
@@ -3601,6 +3679,16 @@
     "firma": "ca5268da76a47aa5",
     "imagen": null
   },
+  "https://www.entrapolis.com/entradas/els-pastorets-de-vallvidrera-mercat-cultural-de-vallvidrera-11122026": {
+    "datos": {
+      "duracion": 120,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "b318aae66eca6959",
+    "imagen": "https://www.entrapolis.com/image/event/big/583591794216234_1.png"
+  },
   "https://www.entrapolis.com/entradas/els-pastorets-del-centre": {
     "datos": {
       "duracion": null,
@@ -6235,6 +6323,33 @@
     "fecha": "2026-11-18",
     "firma": "bba76026c9fdbd90",
     "imagen": "https://www.teatreneu.com/img/image/fotos/nmm-1080x1080.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.teatreneu.com/ca/cartellera/c/657-the-two-character-play.html": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Production company",
+          "Blue Book Theatre Company"
+        ],
+        [
+          "Director",
+          "Kaitlin Kemp"
+        ],
+        [
+          "Assistant Director",
+          "Daniel Gavilovski"
+        ],
+        [
+          "Actors",
+          "Javier Belay, Madalena Pelouro"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "f71c47c662ad12cd",
+    "imagen": "https://www.teatreneu.com/img/image/fotos/cartel2_jpg.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
   },
   "https://www.teatreneu.com/ca/cartellera/c/8-magia-a-la-carta.html": {
     "datos": {

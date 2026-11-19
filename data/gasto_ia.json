@@ -21,12 +21,14 @@
   },
   "2026-11-19": {
     "por_tarea": {
-      "clasificar": 0.2781,
+      "clasificar": 0.3968,
+      "eventos_cine": 0.0037,
+      "fichas_obra": 0.0021,
       "leer_webs": 0.034,
-      "noticias": 0.0112,
-      "revisar_dudosos": 0.1503,
-      "traducir": 0.003
+      "noticias": 0.0346,
+      "revisar_dudosos": 0.2422,
+      "traducir": 0.0109
     },
-    "usd": 0.4766
+    "usd": 0.7243
   }
 }

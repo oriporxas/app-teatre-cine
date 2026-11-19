@@ -36260,6 +36260,26 @@
       "trailer": "maP_Kyy3DCA"
     },
     {
+      "anio": 2023,
+      "duracion": 142,
+      "id": "p-tt102724",
+      "imdb": "tt102724",
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-11-22",
+          "11:30",
+          null,
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222849&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "titulo": "Turandot - Ópera de Viena",
+      "titulo_original": "Turandot - Ópera Estatal de Viena"
+    },
+    {
       "anio": 1951,
       "cartel": "https://image.tmdb.org/t/p/w500/21aAQ59swa68yYuI7XYyLTn0jqQ.jpg",
       "direccion": [

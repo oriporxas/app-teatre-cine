@@ -12,7 +12,7 @@
   "cines_sin_horarios": {
     "Ateneu Barcelonès": "sin web",
     "Cinema Dididado": "sin horarios legibles en su web",
-    "Cinemes Girona": "elqueque",
+    "Cinemes Girona": "sin horarios legibles en su web",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
     "Cinesa SOM Multiespai": "su web no permite programas (robots.txt)",
@@ -25,10 +25,10 @@
     "Institut Italià de Cultura de Barcelona": "sin horarios legibles en su web",
     "Recursos d'Animació Intercultural RAI": "sin horarios legibles en su web",
     "Verdi Park": "elqueque",
-    "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
+    "Yelmo La Maquinista": "sin horarios legibles en su web",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 88,
+  "con_actividades": 89,
   "fecha": "2026-11-19",
   "por_tipo": {
     "auditorio": {
@@ -41,11 +41,11 @@
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 50
+      "sin_actividades": 49
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 73,
+  "sin_actividades": 72,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -1054,22 +1054,6 @@
       "lon": 2.1595773944945718,
       "nombre": "La Perla 29",
       "numero": "21",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Bordeta",
-      "calle": "C Constitució",
-      "clave": "via89707-17",
-      "codigo_postal": "08014",
-      "distrito": "Sants-Montjuïc",
-      "id": "1179141110",
-      "lat": 41.36980570082707,
-      "lon": 2.1377953451607983,
-      "nombre": "Parròquia de Sant Medir",
-      "numero": "17",
       "tipo": [
         "teatro"
       ]
