@@ -263,6 +263,8 @@ Detalle y razones en `docs/arquitectura.md`.
   cada día antes del proceso).
 - `herramientas/` — comprobaciones de la app en tamaño móvil (Playwright) y preparación de la vista
   previa de Claude; ver `herramientas/LEEME.md`.
+- `docs/proximos-pasos.md` — lo pendiente de Uri, lo que hace la app sola y los siguientes pasos
+  del proyecto por prioridad (19/11/2026). Mantenerlo al día.
 - `docs/copia-de-seguridad.md` — qué contiene la copia (zip + bundle), qué no (claves) y cómo
   restaurarla. Antes de hacer un bundle: `git branch -f main origin/main` (la `main` local puede ser
   antigua).

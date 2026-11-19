@@ -195,11 +195,10 @@ Los planes (itinerarios) tienen que poder compartirse con los amigos por cualqui
 - Si alguna decisión ya tomada choca con esta visión, se avisa a Uri y se le explica sin tecnicismos.
 
 ## Pendiente de Uri
-- Aceptar cada pull request (botones «Merge pull request» y «Confirm merge»). Los secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` ya están creados en GitHub (Uri, 17/11/2026).
-- Elegir dónde publicar la app (Claude propone opciones gratuitas).
-- ~~Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).~~ Hecho el 8/11/2026: clave creada y prueba hecha.
-- Aprobar qué modelos usa la IA (propuesta: Sonnet clasifica y Opus revisa lo dudoso; ver `docs/pruebas/2026-11-08-prueba-modelos.md`).
-- Presupuesto mensual y saldo en la consola de Anthropic: la propuesta cuesta unos 4,6 $ la primera vez y como mucho 12 $ al mes en Barcelona.
-- Recargar el crédito de la IA en la consola de Anthropic (Billing): el 19/11/2026 quedaban unos 4 $. Con los lotes, un día normal cuesta unos 0,30–0,35 $ (unos 10 $ al mes).
-- Nombre de la app (más adelante). Mientras, se llama «Cartelera Barcelona».
-- Dónde publicar la app (cuando se aclare lo de GitHub; Claude propondrá opciones gratuitas).
+Lista completa y al día, con los pasos: `docs/proximos-pasos.md` (19/11/2026). En resumen:
+- Recargar el crédito de la IA (consola de Anthropic → Billing). El 19/11/2026 quedaban unos 3,75 $; un día normal cuesta unos 0,30–0,45 $.
+- Publicar la app en Cloudflare Pages (la cuenta ya está creada).
+- Probar la app unos días en el móvil y apuntar lo que falle o quiera cambiar.
+- Guardar la copia de seguridad en dos sitios.
+- Cuando quiera: nombre de la app (mientras, «Cartelera Barcelona»), presupuesto mensual de la IA y si quiere Cloudflare Access (pide tarjeta).
+- Hecho: secretos `ANTHROPIC_API_KEY` y `TMDB_TOKEN` creados en GitHub (17/11/2026); modelos de la IA aprobados al pedir el primer borrador (14/11/2026); alojamiento elegido: Cloudflare Pages (18/11/2026).

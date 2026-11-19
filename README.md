@@ -10,6 +10,7 @@ magia, circo, cine, eventos y noticias del sector, como web instalable en el mó
 - De dónde salen los datos: [`docs/fuentes/open-data-bcn.md`](docs/fuentes/open-data-bcn.md)
 - Cómo se clasifican los espectáculos: [`docs/clasificacion.md`](docs/clasificacion.md)
 - Pruebas de calidad: [`docs/pruebas/`](docs/pruebas/)
+- Próximos pasos: [`docs/proximos-pasos.md`](docs/proximos-pasos.md)
 - Copia de seguridad y cómo restaurarla: [`docs/copia-de-seguridad.md`](docs/copia-de-seguridad.md)
 - Herramientas de comprobación: [`herramientas/`](herramientas/)
 
