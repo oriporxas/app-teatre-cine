@@ -173,9 +173,9 @@ def detalles(qids: list[str]) -> dict[str, dict]:
     return res
 
 
-def humanos_con_nombre(nombre: str) -> int | None:
-    """Cuántas personas hay en Wikidata con ese nombre exacto (o alias). None si Wikidata no responde.
-    Si son varias, el nombre es común y no se adivina quién es (biografias.py)."""
+def humanos_con_nombre(nombre: str) -> list[tuple[str, set[str]]] | None:
+    """Las personas de Wikidata con ese nombre exacto (o alias), con sus oficios. None si Wikidata no
+    responde. Si son varias, el nombre es común y no se adivina quién es (biografias.py)."""
     candidatos: list[str] = []
     for idioma in ("es", "ca"):
         r = _wd(action="wbsearchentities", search=nombre, language=idioma, type="item", limit=7)
@@ -183,19 +183,19 @@ def humanos_con_nombre(nombre: str) -> int | None:
             return None
         candidatos += [x["id"] for x in r.get("search", []) if x.get("id") not in candidatos]
     if not candidatos:
-        return 0
+        return []
     r = _wd(action="wbgetentities", ids="|".join(candidatos[:14]), props="labels|aliases|claims", languages="es|ca|en")
     if r is None:
         return None
-    objetivo, n = normalizar(nombre), 0
-    for e in (r.get("entities") or {}).values():
+    objetivo, res = normalizar(nombre), []
+    for q, e in (r.get("entities") or {}).items():
         claims = e.get("claims") or {}
-        es_humano = any(((c.get("mainsnak") or {}).get("datavalue") or {}).get("value", {}).get("id") == "Q5"
-                        for c in claims.get("P31", []))
+        valores = lambda p: {((c.get("mainsnak") or {}).get("datavalue") or {}).get("value", {}).get("id") for c in claims.get(p, [])}  # noqa: E731
         nombres = {normalizar(v["value"]) for v in (e.get("labels") or {}).values()}
         nombres |= {normalizar(a["value"]) for l in (e.get("aliases") or {}).values() for a in l}
-        n += es_humano and objetivo in nombres
-    return n
+        if "Q5" in valores("P31") and objetivo in nombres:
+            res.append((q, valores("P106") - {None}))
+    return res
 
 
 def _buscar(nombre: str) -> dict | None:

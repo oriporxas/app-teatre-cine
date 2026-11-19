@@ -26,7 +26,8 @@ class TestBiografias(unittest.TestCase):
         self.assertLessEqual(len(b), biografias.MAX_BIO)
         self.assertTrue(b.endswith("."))
 
-    def buscar(self, resultados, humanos=1, lugar="Barcelona, Spain"):
+    def buscar(self, resultados, humanos=None, lugar="Barcelona, Spain"):
+        humanos = [("Q1", {"Q33999"})] if humanos is None else humanos
         def get(ruta, **p):
             return {"results": resultados} if ruta == "/search/person" else None
         with mock.patch.object(biografias.tmdb, "_get", get), \
@@ -52,7 +53,13 @@ class TestBiografias(unittest.TestCase):
         self.assertEqual(self.buscar([resultado(1, "Anna Puig", "Camera")])[:2], (None, "ninguna"))
 
     def test_nombre_comun_en_wikidata(self):
-        self.assertEqual(self.buscar([resultado(1, "Anna Puig", "Acting")], humanos=3)[:2], (None, "nombre común"))
+        tres = [("Q1", {"Q33999"}), ("Q2", set()), ("Q3", set())]
+        self.assertEqual(self.buscar([resultado(1, "Anna Puig", "Acting")], humanos=tres)[:2], (None, "nombre común"))
+
+    def test_otra_persona_en_wikidata(self):
+        """Caso real (Arnau Puig): actor en TMDB, filósofo en Wikidata. Son dos personas: no se adivina."""
+        filosofo = [("Q9", {"Q4964182"})]
+        self.assertEqual(self.buscar([resultado(1, "Anna Puig", "Acting")], humanos=filosofo)[:2], (None, "otra persona en Wikidata"))
 
     def test_otro_pais(self):
         r = [resultado(1, "Anna Puig", "Acting", idiomas=("en",))]

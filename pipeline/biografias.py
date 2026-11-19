@@ -18,7 +18,8 @@ Precisión (principio 4):
   2. en TMDB hay **una sola** persona con ese nombre exacto, con trabajos y con un oficio que encaja
      con su papel en la obra (intérprete ↔ actuación, dirección ↔ dirección, texto ↔ guion), tiene
      relación con el país de la ciudad (nació allí o es conocida por obras en sus idiomas) y en
-     Wikidata no hay varias personas con ese nombre (si las hay, es un nombre común: no se adivina).
+     Wikidata no hay otra persona con ese nombre: ni varias (nombre común), ni una que no sea de escena
+     o de cine (caso real: «Arnau Puig», actor en TMDB y filósofo en Wikidata). Si no, no se adivina.
   Si algo no encaja, la persona sale como hasta ahora: con su nombre y sus obras.
 
 Se guarda en archivos aparte (`web/public/datos/<ciudad>-personas-<n>.json`, 16 trozos) que la app
@@ -44,7 +45,7 @@ MINUTOS_MAX = 8
 TROZOS = 16
 MAX_BIO = 700
 MAX_CONOCIDA = 6
-VERSION = 1
+VERSION = 2  # 2: también fuera si en Wikidata hay otra persona (no de escena ni cine) con ese nombre
 CARPETA_WEB = config.RAIZ / "web" / "public" / "datos"
 
 # Oficio de TMDB que encaja con cada grupo de papeles de personas.PAPELES (mismo orden: intérpretes,
@@ -145,8 +146,10 @@ def buscar_escena(nombre: str, papeles: set[str], ciudad) -> tuple[int | None, s
     humanos = personas.humanos_con_nombre(nombre)
     if humanos is None:
         return None, "sin comprobar", None  # Wikidata no responde: se vuelve a mirar otro día
-    if humanos > 1:
+    if len(humanos) > 1:
         return None, "nombre común", None
+    if humanos and humanos[0][0] != datos.get("wikidata") and not humanos[0][1] & personas.OFICIOS:
+        return None, "otra persona en Wikidata", None  # p. ej., un filósofo con el mismo nombre
     return x["id"], "ok", datos
 
 
@@ -201,7 +204,8 @@ def aplicar(ciudad, informe: dict, leer_webs: bool = True) -> dict:
     wikidata_escena = {k: v for k, v in (escena.get("personas") or {}).items()}  # clave de personas.py
     for k, n in nombres.items():
         reg = busquedas.get(k)
-        if (viejo(reg, DIAS_BUSQUEDA) or (reg or {}).get("v") != VERSION) and puede and time.monotonic() < fin:
+        caduco = viejo(reg, DIAS_BUSQUEDA) or ((reg or {}).get("v") != VERSION and (reg or {}).get("motivo") == "ok")
+        if caduco and puede and time.monotonic() < fin:
             try:
                 id_, motivo, d = buscar_escena(n, papeles[k], ciudad)
             except RuntimeError:
