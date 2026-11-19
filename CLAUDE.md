@@ -261,6 +261,11 @@ Detalle y razones en `docs/arquitectura.md`.
 - `docs/fuentes/open-data-bcn.md` — notas técnicas de la fuente de Barcelona.
 - `tests/` — `python -m unittest discover -s tests -t .` (se ejecutan también
   cada día antes del proceso).
+- `herramientas/` — comprobaciones de la app en tamaño móvil (Playwright) y preparación de la vista
+  previa de Claude; ver `herramientas/LEEME.md`.
+- `docs/copia-de-seguridad.md` — qué contiene la copia (zip + bundle), qué no (claves) y cómo
+  restaurarla. Antes de hacer un bundle: `git branch -f main origin/main` (la `main` local puede ser
+  antigua).
 
 ## Cosas que conviene saber
 
