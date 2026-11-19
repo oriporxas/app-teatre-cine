@@ -1,18 +1,12 @@
 {
   "cines_con_horarios": [
-    "Cinemes Verdi",
-    "Mooby Arenas",
-    "Mooby Aribau",
-    "Mooby Balmes",
-    "Mooby Bosque",
-    "Mooby Glòries",
-    "Mooby Gran Sarrià",
     "Renoir Floridablanca"
   ],
   "cines_sin_horarios": {
     "Ateneu Barcelonès": "sin web",
     "Cinema Dididado": "sin horarios legibles en su web",
     "Cinemes Girona": "sin horarios legibles en su web",
+    "Cinemes Verdi": "sin horarios legibles en su web",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
     "Cinesa SOM Multiespai": "su web no permite programas (robots.txt)",
@@ -23,9 +17,15 @@
     "Fàbrica de Creació Ateneu Popular 9 Barris": "sin horarios legibles en su web",
     "Institut Français de Barcelone": "sin horarios legibles en su web",
     "Institut Italià de Cultura de Barcelona": "sin horarios legibles en su web",
+    "Mooby Arenas": "sin horarios legibles en su web",
+    "Mooby Aribau": "sin horarios legibles en su web",
+    "Mooby Balmes": "sin horarios legibles en su web",
+    "Mooby Bosque": "sin horarios legibles en su web",
+    "Mooby Glòries": "sin horarios legibles en su web",
+    "Mooby Gran Sarrià": "sin horarios legibles en su web",
     "Recursos d'Animació Intercultural RAI": "sin horarios legibles en su web",
-    "Verdi Park": "elqueque",
-    "Yelmo La Maquinista": "sin horarios legibles en su web",
+    "Verdi Park": "sin horarios legibles en su web",
+    "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
   "con_actividades": 89,

@@ -217,5 +217,6 @@
 "open_data_bcn:99400790704": {"confianza": 0.93, "huella": "644816794d88dd59", "tipo": "proyección"},
 "open_data_bcn:99400790743": {"confianza": 0.95, "huella": "5071cf5f8225f9b0", "tipo": "proyección"},
 "open_data_bcn:99400790747": {"confianza": 0.95, "huella": "676d1950219f2bee", "tipo": "proyección"},
-"open_data_bcn:99400790750": {"confianza": 0.95, "huella": "82a8eab54e8470b1", "tipo": "proyección"}
+"open_data_bcn:99400790750": {"confianza": 0.95, "huella": "82a8eab54e8470b1", "tipo": "proyección"},
+"webs_salas:b1a53a42fd68963e": {"confianza": 0.6, "huella": "dcf789606f442525", "tipo": "no es de cine"}
 }

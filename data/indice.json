@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-19T09:38:26+0000",
+  "actualizado": "2026-11-19T14:27:52+0000",
   "ciudades": {
     "barcelona": {
       "errores": [],
-      "espectaculos": 1186,
+      "espectaculos": 1184,
       "fecha": "2026-11-19",
       "id": "barcelona",
       "idiomas": [
@@ -17,5 +17,5 @@
       "zona_horaria": "Europe/Madrid"
     }
   },
-  "gasto_ia_usd": 0.2463
+  "gasto_ia_usd": 0.1657
 }

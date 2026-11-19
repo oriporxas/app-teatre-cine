@@ -726,6 +726,216 @@
     "firma": "82b80724424d34a3",
     "imagen": null
   },
+  "https://espaitexas.cat/espectacle/acorar/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Text i interpretació",
+          "TONI GOMILA"
+        ],
+        [
+          "Direcció",
+          "Rafel Duran"
+        ],
+        [
+          "Ajudant de direcció",
+          "Antònia Jaume"
+        ],
+        [
+          "Espai escènic i vestuari",
+          "Rafel Lladó"
+        ],
+        [
+          "Vídeo",
+          "Jaume Miralles"
+        ],
+        [
+          "Construcció",
+          "Kake Portas"
+        ],
+        [
+          "PINTURA TèXTIL",
+          "Pere Terrassa"
+        ],
+        [
+          "MàSCARA",
+          "Margalida Munar"
+        ],
+        [
+          "VeuS EN OFF",
+          "Antònia Jaume, Miquel Àngel Torrens"
+        ],
+        [
+          "ASSESSORAMENT LINGÜÍSTIC",
+          "Margalida Quetglas"
+        ],
+        [
+          "FOTOGRAFIA",
+          "Francesc Meseguer"
+        ],
+        [
+          "COMUNICACIÓ",
+          "Cristina Bugallo"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Serra d'Or 2013 al millor text de teatre en català",
+          "cita": "Premi Serra d’Or 2013 al millor text de teatre en català.",
+          "es": "Premio Serra d'Or 2013 al mejor texto de teatro en catalán",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-19",
+    "firma": "bb5cd99471b877ad",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2024/03/acorar-65.png"
+  },
+  "https://espaitexas.cat/espectacle/andres-fajngold-grosso-modo/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "UN ESPECTACLE DE",
+          "ANDRÉS FAJNGOLD"
+        ],
+        [
+          "PRODUCCIÓN",
+          "HILÀRIA"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "480a7ae82998dab4",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
+  },
+  "https://espaitexas.cat/espectacle/autonomos-el-musical/": {
+    "datos": {
+      "duracion": 85,
+      "equipo": [],
+      "premios": [
+        {
+          "ca": "10 Nominacions en 9 categories als premis de públic BroadwayWorld",
+          "cita": "L’espectacle va rebre 10 Nominacions en 9 categories als premis de públic BroadwayWorld, on destaquen Millor Musical de Petit Format i Millor Musical Original.",
+          "es": "10 Nominaciones en 9 categorías a los premios de público BroadwayWorld",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-19",
+    "firma": "0ca6d4cc204537a4",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
+  },
+  "https://espaitexas.cat/espectacle/eloi-vila-de-bales-i-cigrons-corcats/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "AUTORIA I INTERPRETACIÓ",
+          "ELOI VILA"
+        ],
+        [
+          "DIRECCIÓ",
+          "FEL FAIXEDAS"
+        ],
+        [
+          "PRODUCCIÓ EXECUTIVA",
+          "DAVID BATLLE"
+        ],
+        [
+          "CAP TÈCNIC",
+          "JOAN FERRER"
+        ],
+        [
+          "UNA PRODUCCIÓ DE",
+          "CAL TET PRODUCCIONS"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "4f8958cb0aaecf9b",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
+  },
+  "https://espaitexas.cat/espectacle/rita/": {
+    "datos": {
+      "duracion": 80,
+      "equipo": [
+        [
+          "ESCRITA PER",
+          "MARTA BUCHACA"
+        ],
+        [
+          "PRODUCCIÓ EXECUTIVA",
+          "NATÀLIA BORONAT"
+        ],
+        [
+          "AJUDANTIA DE DIRECCIÓ I REGIDORIA",
+          "NORA LÓPEZ"
+        ],
+        [
+          "AJUDANT DE PRODUCCIÓ",
+          "CLARA ROCHE"
+        ],
+        [
+          "ESCENOGRAFIA",
+          "Sebastià Brosa, Giovanna Sambugaro, Kiara Santos, Milagros Fernandez Pérez, Violeta Covas"
+        ],
+        [
+          "DISSENY DE LLUMS",
+          "ANNA ESPUNYA"
+        ],
+        [
+          "DISSENY DE VESTUARI",
+          "Marta Pell"
+        ],
+        [
+          "DISSENY DE SO",
+          "Carles Bernal"
+        ],
+        [
+          "Adaptació de so",
+          "Eloi Vallvé"
+        ],
+        [
+          "UNA PRODUCCIÓ DE",
+          "LA POCKET"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi Frederic Roda 2019",
+          "cita": "El text, guanyador del Premi Frederic Roda 2019",
+          "es": "Premio Frederic Roda 2019",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-19",
+    "firma": "0d79d7c218b66f31",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
+  },
+  "https://espaitexas.cat/espectacle/una-historia-certa-sobre-la-mentida/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "ESCRITA I PROTAGONITZADA PER",
+          "OYE SHERMAN"
+        ],
+        [
+          "UNA PRODUCCIÓ DE",
+          "FESTIVAL CLÀSSICS"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "e0083e68783a3280",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
+  },
   "https://fundaciojoanbrossa.cat/arxiu-arts-en-viu/el-cantante/": {
     "datos": {
       "duracion": null,
@@ -2692,6 +2902,16 @@
     "fecha": "2026-11-18",
     "firma": "14c780662c7b9f3b",
     "imagen": "https://teatresdelfarro.com/wp-content/uploads/2026/09/POSTER-SONATA-2-724x1024.png"
+  },
+  "https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-19",
+    "firma": "34716b35d67b991e",
+    "imagen": "https://teatrometamorfosis.com/wp-content/uploads/2026/11/Flyer-2711-pdf.jpg"
   },
   "https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/": {
     "datos": {},

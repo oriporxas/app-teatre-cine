@@ -231,6 +231,11 @@
     "fecha": "2026-11-17",
     "url": "https://www.teatrecondal.cat/ca/ex/ella-era-anita/"
   },
+  "open_data_bcn:99400765792|https://www.balanaenviu.com/|Tremenda": {
+    "fecha": "2026-11-19",
+    "pagina": null,
+    "url": null
+  },
   "open_data_bcn:99400765814|https://www.lavillarroel.cat/ca/|Els Fills": {
     "fecha": "2026-11-17",
     "url": "https://www.lavillarroel.cat/ca/ex/els-fills/"
@@ -494,6 +499,11 @@
   "open_data_bcn:99400786248|https://www.teatreromea.cat/|La promesa de l'Alba": {
     "fecha": "2026-11-17",
     "url": "https://www.teatreromea.cat/ca/ex/la-promesa-del-alba/"
+  },
+  "open_data_bcn:99400786254|https://www.balanaenviu.com/|013 Origen": {
+    "fecha": "2026-11-19",
+    "pagina": null,
+    "url": null
   },
   "open_data_bcn:99400786279|https://www.teatreneu.com/|Un somni pirata": {
     "fecha": "2026-11-17",
@@ -934,5 +944,15 @@
   "open_data_bcn:99400790368|https://teatrebalmes.com/|Y tú, ¿de qué te ríes?": {
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/y-tu-de-que-te-ries"
+  },
+  "open_data_bcn:99400790717|https://www.balanaenviu.com/|Humano Detectado": {
+    "fecha": "2026-11-19",
+    "pagina": null,
+    "url": null
+  },
+  "open_data_bcn:99400790720|https://www.balanaenviu.com/|Fascismo del Bueno": {
+    "fecha": "2026-11-19",
+    "pagina": null,
+    "url": null
   }
 }

@@ -1,19 +1,9 @@
 {
   "cine": {
-    "anomalias": [
-      {
-        "accion": "se usa la dirección",
-        "detalle": "el lugar se llama como la ciudad",
-        "id": "agenda:None",
-        "regla": "sala",
-        "titulo": "Barcelona"
-      }
-    ],
-    "corregidas_por_regla": {
-      "sala": 1
-    },
+    "anomalias": [],
+    "corregidas_por_regla": {},
     "fecha": "2026-11-19",
-    "publicadas": 144
+    "publicadas": 68
   },
   "escena": {
     "anomalias": [
@@ -220,6 +210,6 @@
       "sala": 3
     },
     "fecha": "2026-11-19",
-    "publicadas": 679
+    "publicadas": 682
   }
 }
