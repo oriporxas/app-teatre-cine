@@ -51,6 +51,30 @@
     },
     "traduccion": "Los Premios Zirkòlika de Circo de Cataluña son unos galardones que reconocen los mejores trabajos de los artistas y compañías de circo del país. Se entregan cada año en la Noche del Circo, una gala-espectáculo con las actuaciones de muchos de los artistas que han sido reconocidos en las últimas ediciones de los premios. Todo ello con el objetivo de visibilizar esta disciplina artística y contribuir a su profesionalización."
   },
+  "open_data_bcn:99400280534": {
+    "destino": "es",
+    "firma": "bbb1c660f987fd56",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "màgia"
+      ],
+      "es": [
+        "magia"
+      ]
+    },
+    "traduccion": "El Màgicus es el festival de magia joven de Barcelona. Se celebra anualmente en los Lluïsos de Gràcia y tiene como objetivo principal ofrecer una plataforma de exhibición y aprendizaje para los y las jóvenes ilusionistas de entre 14 y 25 años, acompañándolos en su camino hacia la profesionalización. El Màgicus está impulsado y organizado por los Lluïsos de Gràcia, una entidad sociocultural con una larga trayectoria en el barrio. La estructura del festival se divide en los siguientes ejes: dos concursos, uno de magia de cerca y otro de escena, una gala con los concursantes finalistas y un mago internacional invitado, y un taller infantil de magia. Concurso de magia de cerca: números realizados a corta distancia (cartas, monedas, objetos cotidianos) donde la interacción con el público es constante."
+  },
+  "open_data_bcn:99400300596": {
+    "destino": "es",
+    "firma": "b3fd984eac1784d7",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "Un pueblo valiente adapta libremente el clásico de Folch i Torres y ofrece una obra llena de aventuras, buen humor y música en directo. ¡Os esperamos! El espectáculo tiene una duración aproximada de 100 minutos y no hay entreacto."
+  },
   "open_data_bcn:99400365436": {
     "destino": "es",
     "firma": "8a266f03def1edf8",
@@ -158,6 +182,20 @@
       ]
     },
     "traduccion": "Los dramas históricos de Shakespeare hablan del poder. Ponen al descubierto cómo, en el fondo, un sistema de poder es una ficción que aspira a perpetuarse a través de la violencia. Enrique IV es, probablemente, una de las obras que lo explican mejor. Aquí, su autor confronta este sistema con un antisistema irreductible y genial dispuesto a desenmascararlo: Falstaff. Uno de los mejores personajes del universo shakespeariano. El director David Selvas aborda este Shakespeare pocas veces representado en nuestros escenarios. Una mirada contemporánea a los mecanismos sociales y políticos que nos conforman como colectivo. Sir John Falstaff nos invita a una fiesta queer, insurrecta y subversiva, en pleno siglo XXI."
+  },
+  "open_data_bcn:99400640465": {
+    "destino": "es",
+    "firma": "07e8f7ec1577f4c4",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "misteri"
+      ],
+      "es": [
+        "misterio"
+      ]
+    },
+    "traduccion": "En algún rincón fuera del tiempo hay un bar llamado El Peix Daurat. Un lugar donde cinco personajes se encuentran atrapados en una búsqueda incansable, donde nada es del todo lo que parece y donde la realidad quizá esconde muchas más capas de las que imaginamos. Este diciembre, abrimos las puertas de este universo con el 31.º Circo de Invierno del Ateneu Popular 9 Barris. Una creación de Anna Pascual y Wanja Kahlert que combina el circo, la música y el lenguaje escénico para construir un universo misterioso, poético, inquietante y también absurdo. Sinopsis: Cinco personajes trágicos se encuentran en el bar El Peix Daurat, un espacio fuera del tiempo, unidos por la búsqueda incansable del misterio. Como una semilla que brota sin haber visto nunca la luz del sol, se adentran en la oscuridad para descubrir un mundo que siempre ha estado ahí."
   },
   "open_data_bcn:99400640892": {
     "destino": "es",
@@ -3143,6 +3181,20 @@
       "es": []
     },
     "traduccion": "Tallerista: Claudia Cantone."
+  },
+  "open_data_bcn:99400774244": {
+    "destino": "es",
+    "firma": "e19a187bbb2a90da",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "dones artistes"
+      ],
+      "es": [
+        "mujeres artistas"
+      ]
+    },
+    "traduccion": "A cargo de Sílvia Comes. Con 365 Dones l'Any, el TNC impulsa un ciclo dedicado a recuperar el legado de grandes mujeres de la historia catalana, que en muchas ocasiones no han recibido la relevancia y el reconocimiento que merecían. Después de cuatro ediciones dedicadas a Aurora Bertrana, Anna Maria Martínez Sagi, Marina Ginestà y Margarida Rugall, respectivamente, este año la artista plástica Remedios Varo es la protagonista. Remedios Varo fue una pintora surrealista destacada por su capacidad para integrar ciencia, magia y misticismo en mundos imaginarios llenos de simbolismo. Su obra es importante por la visión femenina e introspectiva con una estética detallista y onírica única. La dramaturga Eu Manzanares ha llevado a cabo una investigación sobre esta pintora catalana establecida en México y ha creado el texto «La Reme i jo», que presentaremos en el CCBarceloneta bajo la dirección teatral de Sílvia Comes."
   },
   "open_data_bcn:99400774488": {
     "destino": "es",
@@ -8475,6 +8527,58 @@
     },
     "traduccion": "Tras la gran acogida de su visita anterior a Barcelona, \"El Circo del Miedo\" vuelve a la ciudad del 20 de noviembre al 12 de diciembre de 2026, con una experiencia que combina circo, teatro y terror inmersivo. Durante 90 minutos, los espectadores se adentrarán en un inquietante universo guiados por el misterioso maestro de ceremonias Radu Bratianu, un personaje que conduce al público por un mundo oscuro habitado por payasos asesinos, vampiros aéreos, demonios y criaturas surgidas de las pesadillas. El espectáculo reúne artistas internacionales que protagonizan impactantes números acrobáticos en una atmósfera cargada de suspense, efectos especiales, humor negro y adrenalina. La producción ha sido nominada a los Horror Awards 2025 de Barcelona, reforzando su trayectoria dentro del género del terror escénico."
   },
+  "open_data_bcn:99400790553": {
+    "destino": "es",
+    "firma": "97b78292e472779f",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "¡Tras nuestro éxito en Suiza, la obra \"Infàmia\" vuelve a Barcelona! Estamos contentos de llevar esta producción a la V Mostra de Teatre Amateur de Barcelona – Memorial Eduard Araujo. El grupo de teatro TelÓbert del Centre Sant Pere 1892 os invita a vivir una tarde llena de reflexión y pasión por el teatro. No os perdáis esta adaptación libre del texto de Pere Riera, bajo la dirección de Núria Torner."
+  },
+  "open_data_bcn:99400790554": {
+    "destino": "es",
+    "firma": "0eebe69179022dca",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "paternitat",
+        "relacions afectives"
+      ],
+      "es": [
+        "paternidad",
+        "relaciones afectivas"
+      ]
+    },
+    "traduccion": "Un padre se ha separado de la madre de su hijo. En este momento intenta analizar sus relaciones afectivas para tratar de ofrecer a su hijo más herramientas para amar de una manera saludable. Cada vivencia dará paso a una canción del repertorio de Pol Fuentes, tanto en solitario como con Rosa-Luxemburg. Se trata de un montaje teatral musical íntimo e inmersivo. A cargo de Pol Fuentes"
+  },
+  "open_data_bcn:99400790581": {
+    "destino": "es",
+    "firma": "e6789a059338a633",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "aventura",
+        "treball i disciplina"
+      ],
+      "es": [
+        "aventura",
+        "trabajo y disciplina"
+      ]
+    },
+    "traduccion": "¡A bordo! ¡Tierra a la vista! ¿Cómo es vivir en el mar? ¿Es una travesía llena de aventuras y misterios, o más bien una dura experiencia de trabajo y disciplina? Nuestro protagonista, en Jim, un buscavidas, sube a bordo de un barco donde se trabaja mucho y mucho, y no hay días libres. ¿Se saldrá, con la picardía de en Jim, de seguir todas estas normas y obligaciones? ¡Acompañadnos en este viaje por el mundo a través de la comedia, el circo y los sonidos! Espectáculo familiar para todos los públicos. A cargo de Cia La Quimera Teatre, compañía multidisciplinaria de teatro físico, circo y clown."
+  },
+  "open_data_bcn:99400790594": {
+    "destino": "es",
+    "firma": "cfbac4461889de52",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "¿Te gustaría subir al escenario pero no sabes por dónde empezar? En este taller de iniciación perderemos el miedo y descubriremos las herramientas básicas de la interpretación. A través de juegos teatrales y dinámicas de grupo, trabajaremos aspectos clave como la escucha activa, la atención, el desarrollo de la imaginación y la sensibilidad emocional. Un espacio lúdico y libre de juicios donde despertar tu creatividad. A cargo de Jordi Ciurana, actor, docente y director teatral."
+  },
   "webs_salas:06cf230b024b496e": {
     "destino": "es",
     "firma": "e6bf704d2eae8330",
@@ -8502,17 +8606,17 @@
     "traduccion": "Comedia de nivel de fin de semana que se niega a usar '¡Es domingo!' como excusa."
   },
   "webs_salas:15066811f63197bd": {
-    "destino": "ca",
-    "firma": "1f5a802546870fd0",
+    "destino": "es",
+    "firma": "0e102f7e06a30283",
     "premios": [],
     "temas": {
       "ca": [
         "felicitat",
-        "vida i treball"
+        "treball i temps"
       ],
       "es": [
         "felicidad",
-        "vida y trabajo"
+        "trabajo y tiempo"
       ]
     },
     "traduccion": "Amb vista al mar ens mostra com vivim la nostra vida treballant per comprar-nos el temps per poder gaudir-ne, i aquest temps mai arriba. Una peça dedicada a la veritable felicitat: aquella que només es pot sentir fent el que realment estimes i sentint-te qui realment ets."

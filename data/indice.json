@@ -1,12 +1,10 @@
 {
-  "actualizado": "2026-11-18T06:21:25+0000",
+  "actualizado": "2026-11-19T06:19:24+0000",
   "ciudades": {
     "barcelona": {
-      "errores": [
-        "open_data_bcn: HTTPError: HTTP Error 403: Forbidden"
-      ],
-      "espectaculos": null,
-      "fecha": "2026-11-18",
+      "errores": [],
+      "espectaculos": 1134,
+      "fecha": "2026-11-19",
       "id": "barcelona",
       "idiomas": [
         "es",
@@ -15,9 +13,9 @@
       "moneda": "EUR",
       "nombre": "Barcelona",
       "pais": "ES",
-      "salas": null,
+      "salas": 207,
       "zona_horaria": "Europe/Madrid"
     }
   },
-  "gasto_ia_usd": 0.0097
+  "gasto_ia_usd": 0.4764
 }

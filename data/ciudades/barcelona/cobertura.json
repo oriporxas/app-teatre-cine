@@ -28,8 +28,8 @@
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 87,
-  "fecha": "2026-11-17",
+  "con_actividades": 88,
+  "fecha": "2026-11-19",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
@@ -41,11 +41,11 @@
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 51
+      "sin_actividades": 50
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 74,
+  "sin_actividades": 73,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -354,6 +354,22 @@
     },
     {
       "actividades": 0,
+      "barrio": "Sant Gervasi - Galvany",
+      "calle": "C Moià",
+      "clave": "via222501-8",
+      "codigo_postal": "08006",
+      "distrito": "Sarrià-Sant Gervasi",
+      "id": "99400025390",
+      "lat": 41.39528332259959,
+      "lon": 2.151795435612186,
+      "nombre": "Institut Français de Barcelone",
+      "numero": "8",
+      "tipo": [
+        "cine"
+      ]
+    },
+    {
+      "actividades": 0,
       "barrio": "la Dreta de l'Eixample",
       "calle": "Passatge de Méndez Vigo",
       "clave": "via207905-5",
@@ -396,22 +412,6 @@
       "lon": 2.1925213552739606,
       "nombre": "Mooby Glòries Multicines",
       "numero": "208",
-      "tipo": [
-        "cine"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "Hostafrancs",
-      "calle": "Carrer de Béjar",
-      "clave": "via37601-53",
-      "codigo_postal": "08014",
-      "distrito": "Sants-Montjuïc",
-      "id": "99400589817",
-      "lat": 41.3773796666311,
-      "lon": 2.145083420619182,
-      "nombre": "Zumzeig Cinecooperativa",
-      "numero": "53",
       "tipo": [
         "cine"
       ]
@@ -910,22 +910,6 @@
       "lon": 2.15883709685629,
       "nombre": "El Teatre Més Petit",
       "numero": "25",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Bordeta",
-      "calle": "Rbla Badal",
-      "clave": "via30602-113",
-      "codigo_postal": "08014",
-      "distrito": "Sants-Montjuïc",
-      "id": "99400108472",
-      "lat": 41.37105397510644,
-      "lon": 2.1319459303712893,
-      "nombre": "Escola Cavall Bernat",
-      "numero": "113",
       "tipo": [
         "teatro"
       ]
