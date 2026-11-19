@@ -118,6 +118,19 @@ export const GENEROS = ['musical', 'comedia', 'drama', 'monólogo', 'títeres', 
 export const TIPOS_EVENTO = ['festival', 'formación', 'conferencia o coloquio', 'ensayo abierto', 'puertas abiertas',
   'estreno', 'convocatoria', 'premios'];
 
+/** Solo lo que aún se puede ver, según la hora del móvil: las funciones de hoy que no han empezado
+ * (o sin hora) y las de los días siguientes. Lo que ya no tiene funciones desaparece de la app al
+ * momento, sin esperar a la actualización de la noche. `desde` guarda la primera fecha original. */
+export function vigentes(lista: Espectaculo[], hoy: string, ahora: string): Espectaculo[] {
+  const salida: Espectaculo[] = [];
+  for (const e of lista) {
+    const f = e.funciones.filter(([d, h]) => d > hoy || (d === hoy && (!h || h >= ahora)));
+    if (f.length === 0) continue;
+    salida.push(f.length === e.funciones.length ? e : { ...e, funciones: f, desde: e.funciones[0]?.[0] });
+  }
+  return salida;
+}
+
 export function funcionesEnRango(e: Espectaculo, desde: string, hasta: string) {
   return e.funciones.filter(([f]) => f >= desde && f <= hasta);
 }

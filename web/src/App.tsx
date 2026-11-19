@@ -2,12 +2,13 @@ import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, use
 import { cargarCartelera, type Cartelera, type Espectaculo } from './datos';
 import {
   FILTROS_INICIALES, FUNCIONES, GENEROS, MESES_CALENDARIO, guardarOcultos, PRECIO_TOPE, TIPOS_EVENTO, cuantosFiltros, duracionTxt, filtrar,
-  distanciaA, fmtCorto, fmtDia, fmtDistancia, fmtRango, funcionesEnRango, hoyEn, pasa, precioTxt, publicoTxt, rango,
+  distanciaA, fmtCorto, fmtDia, fmtDistancia, fmtRango, funcionesEnRango, hoyEn, pasa, vigentes, precioTxt, publicoTxt, rango,
   sumaDias, tipoTxt,
   type ClaveFecha, type Filtros,
 } from './filtros';
 import { TEXTOS, guardarIdioma, idiomaInicial, type Idioma, type Textos } from './textos';
 import { useFavoritos, type Favoritos } from './favoritos';
+import { claveObra, clavePeli, clavePlan, marca, useHistorial, type Clase, type Hecho, type Historial } from './historial';
 import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
 import {
@@ -28,7 +29,7 @@ const POR_PAGINA = 40;
 type Ruta = { vista: 'inicio' } | { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
   | { vista: 'planes' } | { vista: 'plan'; id: string } | { vista: 'cine' } | { vista: 'peli'; id: string } | { vista: 'sala'; id: string }
   | { vista: 'mapa-cine' } | { vista: 'noticias' } | { vista: 'buscar' } | { vista: 'persona'; id: string }
-  | { vista: 'teatro'; id: string };
+  | { vista: 'teatro'; id: string } | { vista: 'historial' };
 
 const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -47,6 +48,7 @@ function leerRuta(): Ruta {
   if (h === 'mapa') return { vista: 'mapa' };
   if (h === 'favoritos') return { vista: 'favoritos' };
   if (h === 'planes') return { vista: 'planes' };
+  if (h === 'historial') return { vista: 'historial' };
   if (h.startsWith('plan-')) return { vista: 'plan', id: h.slice(5) };
   return { vista: 'inicio' };
 }
@@ -76,6 +78,13 @@ export default function App() {
   const favs = useFavoritos();
   const ubic = useUbicacion();
   const planes = usePlanes();
+  const hist = useHistorial();
+  // «Agenda» abre el último apartado usado (Planes, Guardado o Historial).
+  const [agenda, setAgenda] = useState<string>(() => { try { return localStorage.getItem('agenda') || '#planes'; } catch { return '#planes'; } });
+  useEffect(() => {
+    const h = { planes: '#planes', plan: '#planes', favoritos: '#favoritos', historial: '#historial' }[ruta.vista as string];
+    if (h) { setAgenda(h); try { localStorage.setItem('agenda', h); } catch { /* sin almacenamiento */ } }
+  }, [ruta.vista]);
   // La ubicación entra en los filtros (para la distancia y el orden «más cerca»).
   useEffect(() => {
     setFiltros((f) => (ubic.pos
@@ -84,12 +93,25 @@ export default function App() {
   }, [ubic.pos]);
 
   useEffect(() => {
-    cargarCartelera('barcelona').then(setCartelera).catch(() => setError(true));
-    cargarCine('barcelona').then(setCine).catch(() => setErrorCine(true));
-    cargarNoticias('barcelona').then(setNoticias).catch(() => setErrorNoticias(true));
-    // La hora avanza: «empieza pronto» y las sesiones ya empezadas se recalculan cada minuto.
+    let cargado = 0;
+    const cargar = () => {
+      cargado = Date.now();
+      cargarCartelera('barcelona').then(setCartelera).catch(() => setError(true));
+      cargarCine('barcelona').then(setCine).catch(() => setErrorCine(true));
+      cargarNoticias('barcelona').then(setNoticias).catch(() => setErrorNoticias(true));
+    };
+    cargar();
+    // La hora avanza: «empieza pronto» y lo que ya ha empezado se recalcula cada minuto.
     const id = window.setInterval(() => setReloj((n) => n + 1), 60000);
-    return () => window.clearInterval(id);
+    // Al volver a la app (el móvil la deja abierta en segundo plano), si han pasado más de 30 minutos,
+    // se descarga la cartelera otra vez por si ha habido actualización.
+    const alVolver = () => {
+      if (document.visibilityState !== 'visible') return;
+      setReloj((n) => n + 1);
+      if (Date.now() - cargado > 30 * 60000) cargar();
+    };
+    document.addEventListener('visibilitychange', alVolver);
+    return () => { window.clearInterval(id); document.removeEventListener('visibilitychange', alVolver); };
   }, []);
 
   useEffect(() => {
@@ -116,8 +138,13 @@ export default function App() {
   const zona = cartelera?.ciudad.zona_horaria || 'Europe/Madrid';
   const hoy = hoyEn(zona);
   const ahora = useMemo(() => horaAhora(zona), [zona, reloj]); // eslint-disable-line react-hooks/exhaustive-deps
-  const lista = cartelera?.espectaculos ?? [];
-  const actual = ruta.vista === 'ficha' ? lista.find((e) => claveFicha(e.id) === ruta.clave) : undefined;
+  // Lo que ya ha empezado o pasado desaparece al momento (se recalcula cada minuto).
+  const lista = useMemo(() => vigentes(cartelera?.espectaculos ?? [], hoy, ahora), [cartelera, hoy, ahora]);
+  const vigente = useMemo(() => (cartelera ? { ...cartelera, espectaculos: lista } : null), [cartelera, lista]);
+  // La ficha se abre aunque la obra ya no esté en cartel (desde un plan o el historial).
+  const actual = ruta.vista === 'ficha'
+    ? (lista.find((e) => claveFicha(e.id) === ruta.clave) ?? cartelera?.espectaculos.find((e) => claveFicha(e.id) === ruta.clave))
+    : undefined;
   const peli = ruta.vista === 'peli' ? cine?.peliculas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}`) : undefined;
   const salaCine = ruta.vista === 'sala' ? cine?.cines.find((c) => c.id.replace(/[^A-Za-z0-9-]+/g, '-') === ruta.id) : undefined;
   const personas = useMemo(() => indicePersonas(lista, cine, lang, t, cartelera?.personas), [lista, cine, lang, t, cartelera]);
@@ -127,16 +154,16 @@ export default function App() {
   return (
     <div className="app">
       {ruta.vista === 'inicio' ? (
-        <VistaInicio t={t} lang={lang} setLang={setLang} cartelera={cartelera} cine={cine} noticias={noticias} hoy={hoy} ahora={ahora}
+        <VistaInicio t={t} lang={lang} setLang={setLang} cartelera={vigente} cine={cine} noticias={noticias} hoy={hoy} ahora={ahora}
           irABuscar={() => { window.location.hash = '#buscar'; }} />
       ) : null}
       {ruta.vista === 'cine' ? (
-        <VistaCine t={t} lang={lang} datos={cine} error={errorCine} hoy={hoy} ahora={ahora} favs={favs} ubic={ubic}
+        <VistaCine t={t} lang={lang} datos={cine} error={errorCine} hoy={hoy} ahora={ahora} favs={favs} hist={hist} ubic={ubic}
           filtros={filtrosCine} cambiar={cambiarCine} />
       ) : null}
       {ruta.vista === 'peli' && peli && cine ? (
         <FichaPelicula t={t} lang={lang} p={peli} datos={cine} hoy={hoy} ahora={ahora} volver={volver} favs={favs} planes={planes}
-          zona={zona} ciudad="barcelona" />
+          hist={hist} zona={zona} ciudad="barcelona" />
       ) : null}
       {ruta.vista === 'peli' && cine && !peli ? <main className="pantalla"><p className="aviso">{t.sinResultados}</p></main> : null}
       {ruta.vista === 'sala' && salaCine && cine ? <FichaCine t={t} lang={lang} c={salaCine} datos={cine} hoy={hoy} ahora={ahora} volver={volver} /> : null}
@@ -146,23 +173,24 @@ export default function App() {
       {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id) || [...personas.values()].find((x) => `n-${slug(x.nombre)}` === ruta.id)} volver={volver} /> : null}
       {ruta.vista === 'cartelera' || (ruta.vista === 'ficha' && !actual) ? (
         <VistaCartelera
-          t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
+          t={t} lang={lang} setLang={setLang} cartelera={vigente} error={error} hoy={hoy}
           filtros={filtros} cambiar={cambiar} limite={limite} setLimite={setLimite}
           abrirFiltros={() => setHoja('filtros')} abrirCalendario={() => setHoja('calendario')} scrollLista={scrollLista} favs={favs}
-          ubic={ubic}
+          ubic={ubic} hist={hist}
         />
       ) : null}
       {ruta.vista === 'ficha' && actual && cartelera ? (
-        <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} favs={favs} planes={planes} cartelera={cartelera} />
+        <Ficha t={t} lang={lang} e={actual} hoy={hoy} volver={volver} favs={favs} planes={planes} hist={hist} cartelera={cartelera} />
       ) : null}
       {ruta.vista === 'mapa' ? (
-        <VistaMapa t={t} cartelera={cartelera} hoy={hoy} filtros={filtros} cambiar={cambiar}
+        <VistaMapa t={t} cartelera={vigente} hoy={hoy} filtros={filtros} cambiar={cambiar}
           abrirCalendario={() => setHoja('calendario')} favs={favs} ubic={ubic} />
       ) : null}
-      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} /> : null}
-      {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} /> : null}
+      {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} hist={hist} planes={planes} /> : null}
+      {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} hist={hist} favs={favs} /> : null}
+      {ruta.vista === 'historial' ? <VistaHistorial t={t} hist={hist} planes={planes} favs={favs} /> : null}
       {ruta.vista === 'teatro' ? <VistaSala t={t} lista={lista} hoy={hoy} id={ruta.id} volver={volver} cargada={!!cartelera} /> : null}
-      {ruta.vista === 'plan' ? <VistaPlan t={t} lang={lang} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
+      {ruta.vista === 'plan' ? <VistaPlan t={t} lang={lang} lista={cartelera?.espectaculos ?? []} vigentes={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} hist={hist} id={ruta.id} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
         <a href="#inicio" aria-current={ruta.vista === 'inicio' || ruta.vista === 'buscar' || ruta.vista === 'persona' ? 'page' : undefined}>
@@ -177,13 +205,9 @@ export default function App() {
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><rect x="3" y="6" width="18" height="13" rx="2" /><path d="M3 10h18M7 6l2 4M12 6l2 4M17 6l2 4" /></svg>
           {t.navCine}
         </a>
-        <a href="#planes" aria-current={['planes', 'plan'].includes(ruta.vista) ? 'page' : undefined}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4M7.5 14.5h3M7.5 17.5h6" /></svg>
-          {t.navPlanes}
-        </a>
-        <a href="#favoritos" aria-current={ruta.vista === 'favoritos' ? 'page' : undefined}>
-          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
-          {t.navGuardado}
+        <a href={agenda} aria-current={['planes', 'plan', 'favoritos', 'historial'].includes(ruta.vista) ? 'page' : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4M8.5 15.5l2.5 2.5 4.5-5" /></svg>
+          {t.navAgenda}
         </a>
         <a href="#noticias" aria-current={ruta.vista === 'noticias' ? 'page' : undefined}>
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M5 5h11v14H6a1 1 0 0 1-1-1z" /><path d="M16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12h5M8 15h3" /></svg>
@@ -207,9 +231,10 @@ interface PropsCartelera {
   t: Textos; lang: Idioma; setLang: (l: Idioma) => void; cartelera: Cartelera | null; error: boolean; hoy: string;
   filtros: Filtros; cambiar: (c: Partial<Filtros>) => void; limite: number; setLimite: (n: number) => void;
   abrirFiltros: () => void; abrirCalendario: () => void; scrollLista: RefObject<number>; favs: Favoritos; ubic: Ubicacion;
+  hist: Historial;
 }
 
-function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs, ubic }: PropsCartelera) {
+function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, cambiar, limite, setLimite, abrirFiltros, abrirCalendario, scrollLista, favs, ubic, hist }: PropsCartelera) {
   const lista = cartelera?.espectaculos ?? [];
   const q = useDeferredValue(filtros.q);
   const f = useMemo(() => ({ ...filtros, q }), [filtros, q]);
@@ -266,6 +291,7 @@ function VistaCartelera({ t, lang, setLang, cartelera, error, hoy, filtros, camb
         {cartelera && !q.trim() ? <CercaDeTi t={t} lista={lista} f={f} hoy={hoy} /> : null}
         {resultados.slice(0, limite).map((e) => (
           <Tarjeta key={e.id} e={e} t={t} desde={desde} hasta={hasta} guardado={favs.es(e.id)} dist={distanciaA(e, f)}
+            marcado={hist.es(claveObra(e.id)) ? marca(e.tipo, t).hecho : undefined}
             alAbrir={() => { scrollLista.current = window.scrollY; }} />
         ))}
         {cartelera && resultados.length === 0 ? <p className="aviso">{t.vacio}</p> : null}
@@ -436,25 +462,30 @@ function Cartel({ e, t, clase }: { e: Espectaculo; t: Textos; clase: string }) {
   );
 }
 
-function Tarjeta({ e, t, desde, hasta, alAbrir, guardado, dist }: {
+function Tarjeta({ e, t, desde, hasta, alAbrir, guardado, dist, marcado, tachado }: {
   e: Espectaculo; t: Textos; desde: string; hasta: string; alAbrir: () => void; guardado?: boolean; dist?: number | null;
+  /** «Vista», «Visto» o «Hecho» si está en el historial. */
+  marcado?: string; tachado?: boolean;
 }) {
   const fs = funcionesEnRango(e, desde, hasta);
-  const [dia, hora] = fs[0];
+  const [dia, hora] = fs[0] ?? [];
   const precio = precioTxt(e, t);
   const lugar = [e.sala, e.barrio, dist != null ? fmtDistancia(dist) : ''].filter(Boolean).join(' · ');
   return (
-    <a className="tarjeta" href={enlaceFicha(e.id)} onClick={alAbrir}>
+    <a className={tachado ? 'tarjeta tachado' : 'tarjeta'} href={enlaceFicha(e.id)} onClick={alAbrir}>
       <Cartel e={e} t={t} clase="tarjeta-imagen" />
       <span className="tarjeta-cabeza">
         <Etiquetas e={e} t={t} />
-        {guardado ? <Corazon lleno /> : null}
+        <span className="tarjeta-marcas">
+          {marcado ? <span className="etiqueta marca-hecho"><IconoCheck lleno />{marcado}</span> : null}
+          {guardado ? <Corazon lleno /> : null}
+        </span>
       </span>
       <span className="tarjeta-nombre">{e.nombre}</span>
       {e.artista ? <span className="tarjeta-artista">{e.artista}</span> : null}
       {lugar ? <span className="tarjeta-lugar">{lugar}</span> : null}
       <span className="tarjeta-pie">
-        <span className="cuando">{fmtDia(dia, t)}{hora ? ` · ${hora}` : ''}{fs.length > 1 ? `  +${fs.length - 1}` : ''}</span>
+        {dia ? <span className="cuando">{fmtDia(dia, t)}{hora ? ` · ${hora}` : ''}{fs.length > 1 ? `  +${fs.length - 1}` : ''}</span> : <span />}
         {precio ? <span className="precio">{precio}</span> : null}
       </span>
     </a>
@@ -462,6 +493,27 @@ function Tarjeta({ e, t, desde, hasta, alAbrir, guardado, dist }: {
 }
 
 // --- Ficha ------------------------------------------------------------------------
+
+export function IconoCheck({ lleno }: { lleno?: boolean }) {
+  return (
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+      {lleno ? null : <circle cx="12" cy="12" r="9" strokeWidth="1.8" />}
+      <path d="M7.5 12.5l3 3 6-6.5" />
+    </svg>
+  );
+}
+
+/** Botón ✓ para marcar algo como visto o hecho (y quitar la marca). Lo marcado va al historial. */
+export function BotonMarca({ t, hist, h, grande }: { t: Textos; hist: Historial; h: Omit<Hecho, 'fecha'>; grande?: boolean }) {
+  const m = marca(h.clase, t);
+  const hecho = hist.es(h.clave);
+  return (
+    <button type="button" className={`boton-marca${hecho ? ' marcado' : ''}${grande ? ' grande' : ''}`} aria-pressed={hecho}
+      title={hecho ? t.quitarMarca : m.marcar} onClick={() => hist.alternar(h)}>
+      <IconoCheck lleno={hecho} />{hecho ? m.hecho : m.marcar}
+    </button>
+  );
+}
 
 export function Corazon({ lleno }: { lleno?: boolean }) {
   return (
@@ -472,15 +524,15 @@ export function Corazon({ lleno }: { lleno?: boolean }) {
   );
 }
 
-function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
-  t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void; favs: Favoritos; planes: Planes; cartelera: Cartelera;
+function Ficha({ t, lang, e, hoy, volver, favs, planes, hist, cartelera }: {
+  t: Textos; lang: Idioma; e: Espectaculo; hoy: string; volver: () => void; favs: Favoritos; planes: Planes; hist: Historial; cartelera: Cartelera;
 }) {
   const guardado = favs.es(e.id);
   const [cuantas, setCuantas] = useState(6);
   const [paraPlan, setParaPlan] = useState<ItemPlan | null>(null);
   const [aviso, setAviso] = useState<{ texto: string; plan: string } | null>(null);
   useLayoutEffect(() => { window.scrollTo(0, 0); setCuantas(6); setAviso(null); }, [e.id]);
-  const fs = e.funciones.filter(([f]) => f >= hoy);
+  const fs = e.funciones.filter(([d, h]) => d > hoy || (d === hoy && (!h || h >= horaAhora(cartelera.ciudad.zona_horaria))));
   // El texto en el idioma de la app; si no, en el otro idioma de la app; si no, el original (p. ej. inglés).
   const idiomaDesc = e.descripcion?.[lang] ? lang : (['es', 'ca'].find((k) => e.descripcion?.[k]) || Object.keys(e.descripcion || {})[0]);
   const desc = idiomaDesc ? e.descripcion?.[idiomaDesc] : '';
@@ -503,11 +555,14 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 5l-7 7 7 7" /></svg>
           {t.cartelera}
         </button>
-        <button type="button" className="boton-icono boton-corazon" aria-pressed={guardado}
-          aria-label={guardado ? t.favQuitar : t.favGuardar} title={guardado ? t.favQuitar : t.favGuardar}
-          onClick={() => favs.alternar(e.id)}>
-          <Corazon lleno={guardado} />
-        </button>
+        <span className="barra-derecha">
+          <BotonMarca t={t} hist={hist} h={{ clave: claveObra(e.id), clase: e.tipo, nombre: e.nombre, detalle: e.sala, enlace: enlaceFicha(e.id) }} />
+          <button type="button" className="boton-icono boton-corazon" aria-pressed={guardado}
+            aria-label={guardado ? t.favQuitar : t.favGuardar} title={guardado ? t.favQuitar : t.favGuardar}
+            onClick={() => favs.alternar(e.id)}>
+            <Corazon lleno={guardado} />
+          </button>
+        </span>
       </div>
       <div className="ficha">
         <Cartel e={e} t={t} clase="ficha-imagen" />
@@ -534,6 +589,7 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
 
         <section className="bloque">
           <h3>{t.funciones}</h3>
+          {fs.length === 0 ? <p className="aviso">{t.fueraDeCartel}</p> : null}
           {fs.slice(0, cuantas).map(([dia, hora], i) => {
             const enPlan = planes.conFuncion(e.id, dia, hora);
             return (
@@ -988,35 +1044,76 @@ function VistaMapa({ t, cartelera, hoy, filtros, cambiar, abrirCalendario, favs,
 
 // --- Favoritos ----------------------------------------------------------------------------
 
-function VistaFavoritos({ t, lang, lista, cine, hoy, favs }: {
-  t: Textos; lang: Idioma; lista: Espectaculo[]; cine: CarteleraCine | null; hoy: string; favs: Favoritos;
+/** Selector de la Agenda: Planes, Guardado e Historial (la barra de abajo tiene una sola pestaña). */
+function SegmentosAgenda({ t, actual, n }: { t: Textos; actual: 'planes' | 'favoritos' | 'historial'; n: [number, number, number] }) {
+  const segs: [typeof actual, string, number][] = [['planes', t.navPlanes, n[0]], ['favoritos', t.navGuardado, n[1]], ['historial', t.segHistorial, n[2]]];
+  return (
+    <nav className="segmentos-agenda" aria-label={t.agendaTit}>
+      {segs.map(([k, txt, num]) => (
+        <a key={k} href={`#${k}`} aria-current={actual === k ? 'page' : undefined}>
+          {txt}{num ? <span className="num">{num}</span> : null}
+        </a>
+      ))}
+    </nav>
+  );
+}
+
+/** Lo que cuenta cada apartado de la Agenda (para el selector). */
+function cuentasAgenda(planes: Planes, favs: Favoritos, hist: Historial): [number, number, number] {
+  return [planes.planes.filter((p) => !hist.es(clavePlan(p.id))).length, favs.ids.length, hist.lista.length];
+}
+
+function CabeceraAgenda({ t, sub, actual, n }: { t: Textos; sub: string; actual: 'planes' | 'favoritos' | 'historial'; n: [number, number, number] }) {
+  return (
+    <header className="cabecera cabecera-agenda">
+      <div className="titulo">
+        <span className="sobretitulo">{sub || ' '}</span>
+        <h1>{t.agendaTit}</h1>
+      </div>
+      <SegmentosAgenda t={t} actual={actual} n={n} />
+    </header>
+  );
+}
+
+function VistaFavoritos({ t, lang, lista, cine, hoy, favs, hist, planes }: {
+  t: Textos; lang: Idioma; lista: Espectaculo[]; cine: CarteleraCine | null; hoy: string; favs: Favoritos; hist: Historial; planes: Planes;
 }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
-  const guardados = lista.filter((e) => favs.es(e.id) && e.funciones.some(([d]) => d >= hoy))
-    .sort((a, b) => (a.funciones.find(([d]) => d >= hoy)?.[0] ?? '').localeCompare(b.funciones.find(([d]) => d >= hoy)?.[0] ?? ''));
+  const guardados = lista.filter((e) => favs.es(e.id))
+    .sort((a, b) => (a.funciones[0]?.[0] ?? '').localeCompare(b.funciones[0]?.[0] ?? ''));
   const pelis = (cine?.peliculas || []).filter((p) => favs.es(p.id));
   const fuera = lista.length && cine ? favs.ids.length - guardados.length - pelis.length : 0;
+  // Lo ya visto o hecho va al final, tachado.
+  const obrasPend = guardados.filter((e) => !hist.es(claveObra(e.id)));
+  const obrasHechas = guardados.filter((e) => hist.es(claveObra(e.id)));
+  const pelisPend = pelis.filter((p) => !hist.es(clavePeli(p.id)));
+  const pelisHechas = pelis.filter((p) => hist.es(clavePeli(p.id)));
+  const filaPeli = (p: (typeof pelis)[number], tachada: boolean) => (
+    <a key={p.id} className={tachada ? 'fila-resultado tachado' : 'fila-resultado'} href={enlacePeli(p.id)}>
+      <Cartelito src={p.cartel} alt={p.titulo} clase="mini-cartel" />
+      <span>
+        <span className="caja-titulo">{(lang === 'ca' && p.titulo_ca) || p.titulo}</span>
+        <span className="texto-suave">{tachada ? `✓ ${marca('peli', t).hecho}` : t.sesiones(p.sesiones.filter((s) => s[1] >= hoy).length)}</span>
+      </span>
+    </a>
+  );
   return (
     <main className="pantalla">
-      <header className="cabecera">
-        <div className="titulo">
-          <span className="sobretitulo">{t.favTit}</span>
-          <h1>{t.guardadoTit}</h1>
-        </div>
-      </header>
+      <CabeceraAgenda t={t} actual="favoritos" sub={t.guardadoTit} n={cuentasAgenda(planes, favs, hist)} />
       <div className="lista">
-        <h2 className="seccion-titulo">{t.favObras}</h2>
         {guardados.length === 0 && pelis.length === 0 ? <p className="aviso">{t.favVacio}</p> : null}
-        {guardados.map((e) => (
+        {obrasPend.length ? <h2 className="seccion-titulo">{t.favObras}</h2> : null}
+        {obrasPend.map((e) => (
           <Tarjeta key={e.id} e={e} t={t} desde={hoy} hasta="9999-12-31" alAbrir={() => {}} guardado />
         ))}
-        {pelis.length ? <h2 className="seccion-titulo">{t.favPelis}</h2> : null}
-        {pelis.map((p) => (
-          <a key={p.id} className="fila-resultado" href={enlacePeli(p.id)}>
-            <Cartelito src={p.cartel} alt={p.titulo} clase="mini-cartel" />
-            <span><span className="caja-titulo">{(lang === 'ca' && p.titulo_ca) || p.titulo}</span><span className="texto-suave">{t.sesiones(p.sesiones.filter((s) => s[1] >= hoy).length)}</span></span>
-          </a>
+        {pelisPend.length ? <h2 className="seccion-titulo">{t.favPelis}</h2> : null}
+        {pelisPend.map((p) => filaPeli(p, false))}
+        {obrasHechas.length || pelisHechas.length ? <h2 className="seccion-titulo">{t.yaVistos}</h2> : null}
+        {obrasHechas.map((e) => (
+          <Tarjeta key={e.id} e={e} t={t} desde={hoy} hasta="9999-12-31" alAbrir={() => {}} guardado tachado
+            marcado={marca(e.tipo, t).hecho} />
         ))}
+        {pelisHechas.map((p) => filaPeli(p, true))}
         {fuera > 0 ? <p className="nota">{t.favFuera(fuera)}</p> : null}
         <p className="nota">{t.favNota}</p>
       </div>
@@ -1141,35 +1238,93 @@ export function HojaPlan({ t, item, planes, cerrar, listo }: {
   );
 }
 
-function VistaPlanes({ t, planes }: { t: Textos; planes: Planes }) {
+function VistaPlanes({ t, planes, hist, favs }: { t: Textos; planes: Planes; hist: Historial; favs: Favoritos }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
   const [creando, setCreando] = useState(false);
+  const activos = planes.planes.filter((p) => !hist.es(clavePlan(p.id)));
+  const hechos = planes.planes.filter((p) => hist.es(clavePlan(p.id)));
+  const tarjeta = (p: Plan, hecho: boolean) => (
+    <a key={p.id} className={hecho ? 'tarjeta plan-tarjeta tachado' : 'tarjeta plan-tarjeta'} href={`#plan-${p.id}`}>
+      <span className="tarjeta-cabeza">
+        <span className="tarjeta-nombre">{p.nombre}</span>
+        {hecho ? <span className="etiqueta marca-hecho"><IconoCheck lleno />{t.hecho}</span> : null}
+      </span>
+      <span className="tarjeta-lugar">{[t.planFunciones(p.items.length), rangoPlan(p, t)].filter(Boolean).join(' · ')}</span>
+      {p.items.length ? (
+        <span className="texto-suave plan-resumen">{p.items.slice(0, 3).map((i) => i.nombre).join(' · ')}{p.items.length > 3 ? ' …' : ''}</span>
+      ) : null}
+    </a>
+  );
   return (
     <main className="pantalla">
-      <header className="cabecera">
-        <div className="titulo">
-          <span className="sobretitulo">{planes.planes.length ? t.planFunciones(planes.planes.reduce((n, p) => n + p.items.length, 0)) : ' '}</span>
-          <h1>{t.planesTit}</h1>
-        </div>
-      </header>
+      <CabeceraAgenda t={t} actual="planes" n={cuentasAgenda(planes, favs, hist)}
+        sub={activos.length ? t.planFunciones(activos.reduce((n, p) => n + p.items.length, 0)) : t.planesTit} />
       <div className="lista">
         <p className="texto-suave">{t.planesIntro}</p>
         {planes.planes.length === 0 ? <p className="aviso">{t.planesVacio}</p> : null}
-        {planes.planes.map((p) => (
-          <a key={p.id} className="tarjeta plan-tarjeta" href={`#plan-${p.id}`}>
-            <span className="tarjeta-nombre">{p.nombre}</span>
-            <span className="tarjeta-lugar">{[t.planFunciones(p.items.length), rangoPlan(p, t)].filter(Boolean).join(' · ')}</span>
-            {p.items.length ? (
-              <span className="texto-suave plan-resumen">{p.items.slice(0, 3).map((i) => i.nombre).join(' · ')}{p.items.length > 3 ? ' …' : ''}</span>
-            ) : null}
-          </a>
-        ))}
+        {activos.map((p) => tarjeta(p, false))}
         {creando ? (
           <FormNuevoPlan t={t} boton={t.planCrearSolo} alCrear={(nombre) => { window.location.hash = `#plan-${planes.crear(nombre)}`; }} />
         ) : (
           <button type="button" className="boton-secundario" onClick={() => setCreando(true)}>+ {t.planNuevo}</button>
         )}
+        {hechos.length ? <h2 className="seccion-titulo">{t.planesHechos}</h2> : null}
+        {hechos.map((p) => tarjeta(p, true))}
         <p className="nota">{t.planNota}</p>
+      </div>
+    </main>
+  );
+}
+
+/** Historial: todo lo marcado como visto o hecho, por meses (lo más reciente primero). */
+function VistaHistorial({ t, hist, planes, favs }: { t: Textos; hist: Historial; planes: Planes; favs: Favoritos }) {
+  useLayoutEffect(() => { window.scrollTo(0, 0); }, []);
+  const [filtro, setFiltro] = useState<'todo' | 'cine' | 'escena' | 'eventos' | 'plan'>('todo');
+  const grupo = (c: Clase) => (c === 'peli' ? 'cine' : c === 'plan' ? 'plan' : c === 'eventos' ? 'eventos' : 'escena');
+  const lista = hist.lista.filter((h) => filtro === 'todo' || grupo(h.clase) === filtro);
+  const meses: [string, Hecho[]][] = [];
+  for (const h of lista) {
+    const m = h.fecha.slice(0, 7);
+    if (meses.length && meses[meses.length - 1][0] === m) meses[meses.length - 1][1].push(h);
+    else meses.push([m, [h]]);
+  }
+  const cuenta = (k: string) => hist.lista.filter((h) => k === 'todo' || grupo(h.clase) === k).length;
+  return (
+    <main className="pantalla">
+      <CabeceraAgenda t={t} actual="historial" n={cuentasAgenda(planes, favs, hist)}
+        sub={hist.lista.length ? t.historialResumen(hist.lista.length) : t.segHistorial} />
+      <div className="lista">
+        {hist.lista.length === 0 ? <p className="aviso">{t.historialVacio}</p> : (
+          <div className="chips sin-margen">
+            {(['todo', 'cine', 'escena', 'eventos', 'plan'] as const).map((k) => (
+              <button key={k} type="button" className="chip pequeno" aria-pressed={filtro === k} onClick={() => setFiltro(k)}>
+                {t.filtroHist[k]}<span className="num">{cuenta(k)}</span>
+              </button>
+            ))}
+          </div>
+        )}
+        {hist.lista.length && lista.length === 0 ? <p className="aviso">{t.historialNada}</p> : null}
+        {meses.map(([mes, hs]) => (
+          <section key={mes} className="bloque">
+            <h2 className="seccion-titulo">{t.mesesLargos[Number(mes.slice(5)) - 1]} {mes.slice(0, 4)}</h2>
+            {hs.map((h) => (
+              <div key={h.clave} className="fila-historial">
+                <span className="hist-check" aria-hidden="true"><IconoCheck lleno /></span>
+                <a className="hist-info" href={h.enlace}>
+                  <span className="caja-titulo">{h.nombre}</span>
+                  <span className="texto-suave">
+                    {[t.claseTxt[h.clase], t.marcadoEl(marca(h.clase, t).hecho, fmtCorto(h.fecha, t)), h.detalle].filter(Boolean).join(' · ')}
+                  </span>
+                </a>
+                <button type="button" className="boton-icono" aria-label={`${t.quitarMarca}: ${h.nombre}`} title={t.quitarMarca}
+                  onClick={() => hist.quitar(h.clave)}>
+                  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+                </button>
+              </div>
+            ))}
+          </section>
+        ))}
+        <p className="nota">{t.historialNota}</p>
       </div>
     </main>
   );
@@ -1297,12 +1452,22 @@ function DialogoBorrar({ t, nombre, borrar, cerrar }: { t: Textos; nombre: strin
   );
 }
 
-function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; lang: Idioma; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
+function VistaPlan({ t, lang, lista, vigentes: enCartelera, idsPelis, hoy, planes, hist, id }: {
+  t: Textos; lang: Idioma; lista: Espectaculo[]; vigentes: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; hist: Historial; id: string;
+}) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
   const [editando, setEditando] = useState(false);
   const [hoja, setHoja] = useState<null | 'compartir' | 'borrar' | { ruta: string }>(null);
-  const enCartel = useMemo(() => new Set([...lista.map((e) => e.id), ...idsPelis]), [lista, idsPelis]);
+  const enCartel = useMemo(() => new Set([...enCartelera.map((e) => e.id), ...idsPelis]), [enCartelera, idsPelis]);
+  const porId = useMemo(() => new Map(lista.map((e) => [e.id, e])), [lista]);
+  const claseItem = (i: ItemPlan): Clase => i.clase ?? (idsPelis.has(i.id) ? 'peli' : porId.get(i.id)?.tipo ?? 'teatro');
   const enlaceItem = (id: string) => (idsPelis.has(id) ? enlacePeli(id) : enlaceFicha(id));
+  // Marca de cada función: la de su obra o película (vista una vez, vista en todos los planes).
+  const marcaItem = (i: ItemPlan): Omit<Hecho, 'fecha'> => {
+    const clase = claseItem(i);
+    return { clave: clase === 'peli' ? clavePeli(i.id) : claveObra(i.id), clase, nombre: i.nombre, detalle: i.sala,
+      enlace: clase === 'peli' ? enlacePeli(i.id) : enlaceFicha(i.id) };
+  };
   const plan = planes.planes.find((p) => p.id === id);
   const barra = (
     <div className="ficha-barra">
@@ -1328,7 +1493,7 @@ function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; l
               alCrear={(nombre) => { planes.renombrar(plan.id, nombre); setEditando(false); }} />
           ) : (
             <div className="plan-titulo">
-              <h2>{plan.nombre}</h2>
+              <h2 className={hist.es(clavePlan(plan.id)) ? 'tachado' : undefined}>{plan.nombre}</h2>
               <button type="button" className="boton-icono" aria-label={t.editarNombre} title={t.editarNombre} onClick={() => setEditando(true)}>
                 <IconoLapiz />
               </button>
@@ -1336,6 +1501,9 @@ function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; l
           )}
           {editando ? <button type="button" className="enlace" onClick={() => setEditando(false)}>{t.cancelar}</button> : null}
           <span className="texto-suave">{[t.planFunciones(plan.items.length), rangoPlan(plan, t)].filter(Boolean).join(' · ')}</span>
+          <BotonMarca t={t} hist={hist} grande
+            h={{ clave: clavePlan(plan.id), clase: 'plan', nombre: plan.nombre, enlace: `#plan-${plan.id}`,
+              detalle: [t.planFunciones(plan.items.length), rangoPlan(plan, t)].filter(Boolean).join(' · ') }} />
         </div>
 
         {plan.items.length ? (
@@ -1357,8 +1525,10 @@ function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; l
                 const k = claveItem(i);
                 const choque = choques.get(k);
                 const lugar = [i.sala, i.direccion, i.barrio].filter(Boolean).join(' · ');
+                const m = marcaItem(i);
+                const vista = hist.es(m.clave);
                 return (
-                  <div key={k} className="plan-item">
+                  <div key={k} className={vista ? 'plan-item tachado' : 'plan-item'}>
                     <span className="plan-hora">{i.hora || '—'}</span>
                     <span className="plan-info">
                       {enCartel.has(i.id) ? <a className="caja-titulo" href={enlaceItem(i.id)}>{i.nombre}</a> : <span className="caja-titulo">{i.nombre}</span>}
@@ -1367,10 +1537,17 @@ function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; l
                       {choque ? <span className="plan-choque">{t.planSolape(choque)}</span> : null}
                       {!enCartel.has(i.id) && dia >= hoy && lista.length ? <span className="nota">{t.planFuera}</span> : null}
                     </span>
+                    <span className="plan-item-botones">
+                    <button type="button" className={vista ? 'boton-icono check marcado' : 'boton-icono check'} aria-pressed={vista}
+                      aria-label={`${vista ? t.quitarMarca : marca(m.clase, t).marcar}: ${i.nombre}`} title={vista ? t.quitarMarca : marca(m.clase, t).marcar}
+                      onClick={() => hist.alternar(m)}>
+                      <IconoCheck lleno={vista} />
+                    </button>
                     <button type="button" className="boton-icono" aria-label={`${t.planQuitar}: ${i.nombre}`} title={t.planQuitar}
                       onClick={() => planes.quitar(plan.id, k)}>
                       <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
                     </button>
+                    </span>
                   </div>
                 );
               })}

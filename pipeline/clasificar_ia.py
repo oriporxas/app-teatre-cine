@@ -113,6 +113,55 @@ clave = ia.clave
 disponible = ia.disponible
 
 
+def _anotar(cache: dict, r: dict, huella_: str, modelo: str) -> None:
+    """Guarda en la caché un resultado de la IA, con los valores dentro de lo permitido."""
+    r["confianza"] = max(0.0, min(1.0, float(r["confianza"])))
+    r["subtipo"] = r.get("subtipo") or None
+    if r["tipo"] == "magia" and r["subtipo"] not in SUBTIPOS_MAGIA:
+        r["subtipo"] = "magia general"
+    if r["tipo"] != "evento":
+        r.pop("disciplina", None)
+    r["generos"] = ([g for g in GENEROS if g in (r.get("generos") or [])][:MAXIMO_GENEROS]
+                    if r["tipo"] in ("teatro", "musical") else [])
+    cache[r["id"]] = {"huella": huella_, "resultado": r, "modelo": modelo, "fecha": time.strftime("%Y-%m-%d")}
+
+
+def _por_lotes(tarea: TareaIA, sistema: str, entradas: dict, huellas: dict, pendientes: list[str],
+               cache: dict, carpeta_cache: Path, informe: dict) -> None:
+    """Lo mismo que la vía normal, pero por lotes (mitad de precio). Las respuestas de lotes de días
+    anteriores solo se aceptan si el texto de la actividad no ha cambiado desde que se pidió."""
+    lotes = ia.Lotes(tarea.nombre, carpeta_cache)
+    en_curso = {i for d in lotes.datos_en_curso() for i in (d or {}).get("huellas", {})}
+    nuevos = [i for i in pendientes if i not in en_curso][: tarea.maximo_por_ejecucion]
+    peticiones = {}
+    for n in range(0, len(nuevos), tarea.por_peticion):
+        lote = nuevos[n:n + tarea.por_peticion]
+        peticiones[str(n)] = (json.dumps([entradas[i] for i in lote], ensure_ascii=False),
+                              {"huellas": {i: huellas[i] for i in lote}})
+    try:
+        lotes.enviar(None, modelo=tarea.modelo, esfuerzo=tarea.esfuerzo, sistema=sistema, esquema=ESQUEMA,
+                     peticiones=peticiones)
+        lotes.esperar()
+    except ia.TopeDeGasto as e:
+        informe["aviso"] = str(e)
+    except Exception as e:  # noqa: BLE001 - sin lotes hoy: lo pendiente se pide mañana
+        informe["errores"] += 1
+        informe.setdefault("detalles", []).append(f"lotes: {type(e).__name__}: {str(e)[:200]}")
+    for respuesta, datos in lotes.recogidas:
+        pedidas = (datos or {}).get("huellas", {})
+        for r in (respuesta or {}).get("clasificaciones", []):
+            # Solo si la actividad sigue igual que cuando se preguntó (si no, se vuelve a preguntar).
+            if r.get("id") in pedidas and huellas.get(r["id"]) == pedidas[r["id"]]:
+                try:
+                    _anotar(cache, r, huellas[r["id"]], tarea.modelo)
+                except (KeyError, TypeError, ValueError):
+                    informe["errores"] += 1
+    for k in ("errores", "tokens_entrada", "tokens_salida", "tokens_cache", "tokens_cache_escritura"):
+        informe[k] += lotes.informe[k]
+    informe["enviadas"] += sum(len(d["huellas"]) for _, d in peticiones.values()) if lotes.informe["enviadas"] else 0
+    informe["lotes"] = {k: v for k, v in lotes.informe.items() if k in ("enviadas", "recogidas", "en_curso", "repetidas_normal")}
+
+
 def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], candidatos: list[str],
                tarea: TareaIA, carpeta_cache: Path, ciudad: Ciudad) -> tuple[dict[str, dict], dict]:
     """Clasifica con IA, con el modelo de `tarea`, los candidatos que no estén ya en caché.
@@ -134,7 +183,11 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
     pendientes = [i for i in candidatos if cache.get(i, {}).get("huella") != huellas[i]]
     informe["pendientes_antes"] = len(pendientes)
 
-    if tarea.activa and disponible() and pendientes:
+    if tarea.activa and disponible() and (pendientes or (carpeta_cache / f"lotes_{tarea.nombre}.json").exists()) \
+            and tarea.por_lotes:
+        _por_lotes(tarea, sistema, entradas, huellas, pendientes, cache, carpeta_cache, informe)
+        guardar_json(ruta_cache, cache, por_lineas=True)
+    elif tarea.activa and disponible() and pendientes:
         import anthropic  # solo hace falta si hay clave
 
         # La dirección se fija: en algunos entornos ANTHROPIC_BASE_URL apunta a otro servicio.
@@ -175,16 +228,7 @@ def clasificar(actividades: dict[str, dict], senales_por_id: dict[str, dict], ca
                 for r in json.loads(texto)["clasificaciones"]:
                     if r["id"] not in huellas:
                         continue
-                    r["confianza"] = max(0.0, min(1.0, float(r["confianza"])))
-                    r["subtipo"] = r.get("subtipo") or None
-                    if r["tipo"] == "magia" and r["subtipo"] not in SUBTIPOS_MAGIA:
-                        r["subtipo"] = "magia general"
-                    if r["tipo"] != "evento":
-                        r.pop("disciplina", None)
-                    r["generos"] = ([g for g in GENEROS if g in (r.get("generos") or [])][:MAXIMO_GENEROS]
-                                    if r["tipo"] in ("teatro", "musical") else [])
-                    cache[r["id"]] = {"huella": huellas[r["id"]], "resultado": r,
-                                      "modelo": tarea.modelo, "fecha": time.strftime("%Y-%m-%d")}
+                    _anotar(cache, r, huellas[r["id"]], tarea.modelo)
                 informe["enviadas"] += len(lote)
             except ia.TopeDeGasto as e:
                 informe["aviso"] = str(e)

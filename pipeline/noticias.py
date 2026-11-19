@@ -119,6 +119,47 @@ def leer_canal(fuente: dict, desde: dt.datetime) -> list[dict]:
     return res
 
 
+def _anotar(cache: dict, r: dict | None, por_id: dict[str, str]) -> int:
+    """Guarda en la caché lo que la IA dice de cada noticia. Devuelve cuántas."""
+    n = 0
+    for x in (r or {}).get("noticias", []):
+        if x.get("id") in por_id:
+            cache[por_id[x["id"]]] = {"tema": x["tema"], "evento": bool(x.get("evento")), "ambito": x.get("ambito"),
+                                      "titulo": {"es": x.get("titulo_es"), "ca": x.get("titulo_ca")},
+                                      "resumen": {"es": x["resumen_es"], "ca": x["resumen_ca"]}}
+            n += 1
+    return n
+
+
+def _entrada(k: str, n: dict) -> dict:
+    return {"id": huella(k)[:12], "medio": n["medio"], "ambito_del_medio": n.get("ambito"),
+            "titular": n["titulo"], "entradilla": n["entradilla"][:300]}
+
+
+def _por_lotes(tarea, todas: dict, pendientes: list[str], cache: dict, carpeta, informe: dict) -> None:
+    """Las noticias nuevas, por lotes (mitad de precio). Si la respuesta llega otro día, se usa igual:
+    una noticia no cambia."""
+    lotes = ia.Lotes("noticias", carpeta)
+    en_curso = {k for d in lotes.datos_en_curso() for k in (d or {}).values()}
+    nuevas = [k for k in pendientes if k not in en_curso][: tarea.maximo_por_ejecucion]
+    peticiones = {}
+    for n in range(0, len(nuevas), tarea.por_peticion):
+        lote = nuevas[n:n + tarea.por_peticion]
+        peticiones[str(n)] = (json.dumps([_entrada(k, todas[k]) for k in lote], ensure_ascii=False),
+                              {huella(k)[:12]: k for k in lote})
+    try:
+        lotes.enviar(None, modelo=tarea.modelo, esfuerzo=tarea.esfuerzo, sistema=SISTEMA, esquema=ESQUEMA,
+                     peticiones=peticiones)
+        lotes.esperar()
+    except ia.TopeDeGasto as e:
+        informe["aviso"] = str(e)
+    except Exception as e:  # noqa: BLE001 - sin lotes hoy: las noticias nuevas se piden mañana
+        informe.setdefault("errores", []).append(f"lotes: {type(e).__name__}: {str(e)[:150]}")
+    for r, por_id in lotes.recogidas:
+        informe["clasificadas_hoy"] += _anotar(cache, r, por_id or {})
+    informe["lotes"] = {k: v for k, v in lotes.informe.items() if k in ("enviadas", "recogidas", "en_curso", "repetidas_normal", "errores")}
+
+
 def recoger(ciudad, hoy: dt.date) -> dict:
     with open(config.RAIZ / "ajustes" / "noticias.toml", "rb") as f:
         fuentes = (tomllib.load(f).get(ciudad.id) or {}).get("fuentes", [])
@@ -141,13 +182,15 @@ def recoger(ciudad, hoy: dt.date) -> dict:
     cache = {k: v for k, v in (leer_json(ruta_cache, {}) or {}).items() if k in todas and "ambito" in v}
     tarea = ajustes.tareas_ia().get("noticias")
     pendientes = [k for k in todas if k not in cache]
-    if tarea and tarea.activa and ia.disponible() and pendientes:
+    if tarea and tarea.activa and ia.disponible() and tarea.por_lotes:
+        _por_lotes(tarea, todas, pendientes, cache, ruta_cache.parent, informe)
+        guardar_json(ruta_cache, cache)
+    elif tarea and tarea.activa and ia.disponible() and pendientes:
         cli = ia.cliente()
         pendientes = pendientes[: tarea.maximo_por_ejecucion]
         for n in range(0, len(pendientes), tarea.por_peticion):
             lote = pendientes[n:n + tarea.por_peticion]
-            entrada = [{"id": huella(k)[:12], "medio": todas[k]["medio"], "ambito_del_medio": todas[k].get("ambito"),
-                        "titular": todas[k]["titulo"], "entradilla": todas[k]["entradilla"][:300]} for k in lote]
+            entrada = [_entrada(k, todas[k]) for k in lote]
             por_id = {huella(k)[:12]: k for k in lote}
             try:
                 r = ia.pedir_json(cli, tarea="noticias", modelo=tarea.modelo, esfuerzo=tarea.esfuerzo, sistema=SISTEMA,
@@ -158,12 +201,7 @@ def recoger(ciudad, hoy: dt.date) -> dict:
             except Exception as e:  # noqa: BLE001
                 informe.setdefault("errores", []).append(f"{type(e).__name__}: {str(e)[:150]}")
                 continue
-            for x in (r or {}).get("noticias", []):
-                if x["id"] in por_id:
-                    cache[por_id[x["id"]]] = {"tema": x["tema"], "evento": bool(x.get("evento")), "ambito": x.get("ambito"),
-                                              "titulo": {"es": x.get("titulo_es"), "ca": x.get("titulo_ca")},
-                                              "resumen": {"es": x["resumen_es"], "ca": x["resumen_ca"]}}
-                    informe["clasificadas_hoy"] += 1
+            informe["clasificadas_hoy"] += _anotar(cache, r, por_id)
         guardar_json(ruta_cache, cache)
     salida = []
     for k, n in todas.items():

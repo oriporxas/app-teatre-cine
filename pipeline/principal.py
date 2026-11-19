@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import concurrent.futures
 import datetime as dt
 import json
 import sys
@@ -136,12 +137,43 @@ def _clasificar(actividades: dict[str, dict], ciudad: Ciudad, informe: dict) -> 
     return final
 
 
+def _cine_y_noticias(ciudad: Ciudad, hoy: dt.date, descargar: bool, leer_webs: bool) -> dict:
+    """Cine y noticias: no dependen de la cartelera de escena, así que van en paralelo con ella (mientras
+    se leen las fichas de la guía o se espera a la IA). Si la agenda municipal falla, se actualizan igual."""
+    res: dict = {"errores": []}
+    if ciudad.cine and leer_webs:  # sin leer webs no hay horarios: se conserva la cartelera de ayer
+        try:
+            from . import cine
+            res["cine"] = cine.recoger(ciudad, hoy, descargar=descargar, leer_webs=leer_webs)
+        except Exception as e:  # noqa: BLE001
+            res["errores"].append(f"cine: {type(e).__name__}: {e}")
+    if ciudad.noticias and descargar:
+        try:
+            from . import noticias
+            res["noticias"] = noticias.recoger(ciudad, hoy)
+        except Exception as e:  # noqa: BLE001
+            res["errores"].append(f"noticias: {type(e).__name__}: {e}")
+    return res
+
+
+def _unir(informe: dict, futuro) -> None:
+    try:
+        res = futuro.result()
+    except Exception as e:  # noqa: BLE001
+        res = {"errores": [f"cine y noticias: {type(e).__name__}: {e}"]}
+    informe["errores"] += res.pop("errores", [])
+    informe.update(res)
+
+
 def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = True,
                     minutos_lectura: float | None = None, hoy: dt.date | None = None) -> dict:
     hoy = hoy or ciudad.hoy()
     t0 = time.monotonic()
     informe: dict = {"ciudad": ciudad.ficha(), "fecha": hoy.isoformat(),
                      "inicio": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "fuentes": {}, "errores": []}
+    paralelo = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+    cine_y_noticias = paralelo.submit(_cine_y_noticias, ciudad, hoy, descargar, leer_webs)
+    paralelo.shutdown(wait=False)
 
     # 1. Recoger de cada fuente (piezas independientes)
     actividades: dict[str, dict] = {}
@@ -165,8 +197,9 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
             actividades[a["id"]] = a
 
     if informe["errores"]:
-        # Mejor los datos de ayer completos que los de hoy a medias.
+        # Mejor los datos de ayer completos que los de hoy a medias (el cine y las noticias sí se renuevan).
         informe["aviso"] = "Alguna fuente ha fallado: se conservan los resultados anteriores de esta ciudad."
+        _unir(informe, cine_y_noticias)
         guardar_json(config.carpeta_ciudad(ciudad.id) / "informe_fallo.json", informe)
         return informe
     informe["actividades_vigentes"] = len(actividades)
@@ -202,19 +235,8 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["con_publico"] = sum(1 for f in fichas if f["publico"])
     # Archivo de la ciudad para la app (fase 2)
     informe["app"] = exportar_web.exportar(ciudad, informe, mapa, leer_webs=leer_webs)
-    # Cine y noticias: piezas aparte; si fallan, la cartelera de escena ya está guardada.
-    if ciudad.cine and leer_webs:  # sin leer webs no hay horarios: se conserva la cartelera de ayer
-        try:
-            from . import cine
-            informe["cine"] = cine.recoger(ciudad, hoy, descargar=descargar, leer_webs=leer_webs)
-        except Exception as e:  # noqa: BLE001
-            informe["errores"].append(f"cine: {type(e).__name__}: {e}")
-    if ciudad.noticias and descargar:
-        try:
-            from . import noticias
-            informe["noticias"] = noticias.recoger(ciudad, hoy)
-        except Exception as e:  # noqa: BLE001
-            informe["errores"].append(f"noticias: {type(e).__name__}: {e}")
+    # Cine y noticias (en paralelo desde el principio): si fallan, la cartelera de escena ya está guardada.
+    _unir(informe, cine_y_noticias)
     # ¿Se escapa alguna sala o cine? Lista oficial de equipamientos contra lo que tenemos.
     try:
         from . import cobertura

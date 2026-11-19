@@ -22,6 +22,7 @@ import json
 import os
 import urllib.error
 import re
+import threading
 import time
 import unicodedata
 import urllib.parse
@@ -183,11 +184,17 @@ def wikidata_personas(ids_tmdb: list[int], cache: dict) -> dict[int, str]:
 
 
 _WD_SATURADO = False
+CERROJO_WIKIDATA = threading.RLock()
 
 
 def _wd(**params) -> dict | None:
     """Petición a la API de Wikidata. Si Wikidata pide ir más despacio (429), se espera lo que
     diga y, si sigue saturado, se deja para la próxima ejecución (la caché guarda lo hecho)."""
+    with CERROJO_WIKIDATA:  # de una en una, como pide Wikidata (el cine y la escena van en paralelo)
+        return _wd_sin_cerrojo(**params)
+
+
+def _wd_sin_cerrojo(**params) -> dict | None:
     global _WD_SATURADO
     if _WD_SATURADO:
         return None

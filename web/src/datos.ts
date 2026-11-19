@@ -22,6 +22,8 @@ export interface Espectaculo {
   lat?: number;
   lon?: number;
   funciones: [string, string?][];
+  /** Lo pone la app: primera fecha de la obra aunque ya haya pasado (para «Últimos días»). */
+  desde?: string;
   precio_min?: number;
   precio_max?: number;
   gratis?: boolean;

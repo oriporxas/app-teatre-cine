@@ -11,6 +11,7 @@
 
 from __future__ import annotations
 
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -23,6 +24,8 @@ BOTS_IA = ("gptbot", "claudebot", "anthropic-ai", "claude-web", "ccbot", "google
 
 _robots: dict[str, tuple[urllib.robotparser.RobotFileParser | None, bool, float]] = {}
 _ultima: dict[str, float] = {}
+_cerrojos: dict[str, threading.Lock] = {}
+_CERROJO_GENERAL = threading.Lock()
 
 
 def _reglas(url: str):
@@ -72,20 +75,28 @@ def permite_ia(url: str) -> bool:
     return bool(rp) and not bloquea_ia
 
 
+def _cerrojo(host: str) -> threading.Lock:
+    with _CERROJO_GENERAL:
+        return _cerrojos.setdefault(host, threading.Lock())
+
+
 def pedir(url: str, timeout: int = 40, cabeceras: dict | None = None) -> bytes | None:
-    """Devuelve el contenido, o None si robots.txt no lo permite o la web no responde."""
-    if not permitido(url):
-        return None
-    _, _, pausa = _reglas(url)
+    """Devuelve el contenido, o None si robots.txt no lo permite o la web no responde.
+    Una web nunca recibe dos peticiones a la vez ni más deprisa de lo que pide (aunque el cine, las
+    noticias y la escena vayan en paralelo)."""
     host = urllib.parse.urlsplit(url).netloc
-    espera = _ultima.get(host, 0) + pausa - time.monotonic()
-    if espera > 0:
-        time.sleep(espera)
-    try:
-        r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": AGENTE, **(cabeceras or {})}),
-                                   timeout=timeout)
-        return r.read()
-    except Exception:  # noqa: BLE001
-        return None
-    finally:
-        _ultima[host] = time.monotonic()
+    with _cerrojo(host):
+        if not permitido(url):
+            return None
+        _, _, pausa = _reglas(url)
+        espera = _ultima.get(host, 0) + pausa - time.monotonic()
+        if espera > 0:
+            time.sleep(espera)
+        try:
+            r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": AGENTE, **(cabeceras or {})}),
+                                       timeout=timeout)
+            return r.read()
+        except Exception:  # noqa: BLE001
+            return None
+        finally:
+            _ultima[host] = time.monotonic()

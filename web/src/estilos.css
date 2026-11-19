@@ -639,3 +639,38 @@ a.hora-chip { text-decoration: none; }
 /* Equipo de la obra: cada nombre lleva a su ficha (Uri, 18/11/2026) */
 .persona-enlace { color: inherit; text-decoration: underline; text-decoration-color: var(--acento-texto); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .persona-desc { display: block; margin-top: 4px; }
+
+/* Visto / Hecho, historial y Agenda (Uri, 19/11/2026) */
+.barra-derecha { display: inline-flex; align-items: center; gap: 4px; }
+.boton-marca {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 12px; border-radius: 999px;
+  border: 1px solid var(--separador); background: transparent; color: var(--texto-claro); font-size: 14px; font-weight: 700; white-space: nowrap;
+}
+.boton-marca.marcado { background: var(--acento); border-color: var(--acento); color: var(--sobre-acento); }
+.boton-marca.grande { align-self: flex-start; min-height: 46px; padding: 0 16px; font-size: 15px; }
+.etiqueta.marca-hecho { gap: 3px; background: transparent; border-color: var(--acento); color: var(--acento-texto); }
+.etiqueta.marca-hecho svg { width: 14px; height: 14px; }
+.tarjeta-marcas { display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto; }
+.tachado .tarjeta-nombre, .tachado .caja-titulo, h2.tachado {
+  text-decoration: line-through; text-decoration-color: var(--acento-texto); text-decoration-thickness: 2px;
+}
+.tarjeta.tachado, .fila-resultado.tachado, .plan-item.tachado { opacity: 0.62; }
+.plan-item-botones { display: inline-flex; }
+.boton-icono.check { color: var(--texto-suave); }
+.boton-icono.check.marcado { color: var(--acento-texto); }
+.segmentos-agenda {
+  display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--superficie); border: 1px solid var(--borde-fuerte);
+}
+.segmentos-agenda a {
+  flex: 1 1 0; display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 42px; min-width: 0; padding: 0 8px;
+  border-radius: 999px; color: var(--texto-suave); font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap;
+}
+.segmentos-agenda a[aria-current='page'] { background: var(--texto); color: var(--fondo); }
+.segmentos-agenda .num { font-size: 12px; opacity: 0.72; }
+.fila-historial {
+  display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 6px 0;
+  border-bottom: 1px solid var(--superficie-2);
+}
+.hist-check { color: var(--acento-texto); display: inline-flex; }
+.hist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; text-decoration: none; padding: 4px 0; }
+.hist-info .caja-titulo { overflow-wrap: anywhere; }

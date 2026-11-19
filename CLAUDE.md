@@ -46,6 +46,12 @@ están, solo renueva el cine (`principal --solo-cine`, Uri 18/11/2026: el cine c
 19/11/2026: la tarea programada salió sola (06:19 UTC, una hora tarde) y terminó bien: 47 min,
 0,48 $ (sobre todo clasificar obras nuevas), 627 fichas. Crédito de IA restante estimado el
 19/11: unos 4 $ de 13,24 $; un día normal con todo lo del PR #8 costará unos 0,5–0,65 $.
+IA por lotes (Uri, 19/11/2026: «sí, hazlo»): clasificar, revisar dudosos y noticias van por lotes
+(Message Batches, mitad de precio; `ia.Lotes`, `por_lotes = true` y `[lotes]` en `ajustes/ia.toml`).
+La tarea espera como mucho 20 min; lo que no llegue lo recoge la siguiente ejecución. Una respuesta
+de otro día solo vale si el texto de la obra no ha cambiado. El cine y las noticias van en un hilo
+aparte desde el principio (en paralelo con la guía y la IA), así que también se renuevan si falla la
+agenda municipal; `red.pedir` y Wikidata llevan cerrojos para no visitar dos veces a la vez una web.
 Publicación (Uri, 18/11/2026: de momento solo para él, para probarla): propuesta Cloudflare
 Pages desde el repositorio privado (raíz `web`, `npm ci && npm run build`, salida `dist`; se
 publica sola con cada commit de datos) con dirección poco evidente y fuera de buscadores
@@ -240,6 +246,14 @@ Detalle y razones en `docs/arquitectura.md`.
   `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
   «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
   coste): `docs/veracidad.md`.
+- Cambios de Uri (19/11/2026): la barra de abajo tiene 5 pestañas: Inicio, Teatro, Cine, **Agenda**
+  (Planes, Guardado e Historial, con un selector arriba; recuerda el último apartado) y Noticias.
+  Botón ✓ para marcar como **vista** (películas y obras), **visto** (magia y circo) o **hecho**
+  (eventos y planes enteros): en las fichas, en cada función de un plan y en el plan. Lo marcado sale
+  tachado en Guardado y Planes, con una etiqueta en las tarjetas, y queda en el **Historial** (`#historial`,
+  `web/src/historial.ts`, en el móvil). La app quita al momento lo que ya ha empezado
+  (`vigentes` en `web/src/filtros.ts`, cada minuto) y vuelve a descargar la cartelera al volver a la
+  app si han pasado más de 30 min.
 - Cambios de Uri (18/11/2026): «Escena» se llama «Teatro» (barra y título); en Inicio,
   «Todos los cines» y «Todas las salas» como desplegables verticales; noticias con selector
   Barcelona / España / Mundo; la ruta del plan es un mapa de Google Maps incrustado
@@ -309,6 +323,7 @@ Detalle y razones en `docs/arquitectura.md`.
 - Diseño (Uri, 14/11/2026): negro, rojo y blanco; títulos en Playfair Display,
   textos en Inter; el rojo de texto es `--acento-texto` (legible sobre negro) y el
   de fondo, `--acento` (con texto blanco). Sesiones de cine como «entradas».
+- Agenda: rutas `#planes`, `#plan-<id>`, `#favoritos` y `#historial`.
 - Cine: la app carga `web/public/datos/<ciudad>-cine.json`; rutas `#cine`,
   `#peli-<id>`, `#sala-<id>`, `#mapa-cine`. Noticias: `<ciudad>-noticias.json`,
   ruta `#noticias`. Buscador: `#buscar`; personas: `#persona-<clave>`
