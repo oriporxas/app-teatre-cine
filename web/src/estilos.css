@@ -687,3 +687,10 @@ a.hora-chip { text-decoration: none; }
 .etiquetas-ficha { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .enlace-caducados { margin-top: 8px; }
 a.enlace-caducados-inicio { display: flex; align-items: center; gap: 10px; padding: 12px 14px; min-height: 56px; margin-top: 8px; text-decoration: none; color: inherit; }
+
+/* Empieza pronto: tres filas (cine, escena y eventos) bajo un mismo título (Uri, 19/11/2026) */
+.empieza-pronto { display: flex; flex-direction: column; gap: 6px; }
+.pronto-fila { display: flex; flex-direction: column; gap: 6px; }
+.pronto-cabecera { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 16px; }
+.pronto-cabecera h3 { font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--texto-claro); }
+.pronto-nada { padding: 2px 16px 8px; font-size: 14px; }

@@ -269,9 +269,10 @@ Detalle y razones en `docs/arquitectura.md`.
   `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
   «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
   coste): `docs/veracidad.md`.
-- Cambios de Uri (19/11/2026, tarde): en Inicio, «Empieza pronto en el cine» (90 min) y «Empieza
-  pronto en el teatro» (teatro, magia y circo de cualquier tipo, lo que queda hoy), y «Próximos
-  eventos» (`#eventos` abre Teatro con el filtro de eventos); en Cine, «Eventos de cine» arriba; ficha
+- Cambios de Uri (19/11/2026, tarde): en Inicio, un apartado «Empieza pronto» con tres filas, en este
+  orden y siempre visibles (si no hay nada, lo dice): Cine (sesiones de las próximas 2 horas), Escena
+  (teatro, magia y circo de cualquier tipo y género, 3 horas) y Eventos (3 horas); además, la fila
+  «Próximos eventos» (`#eventos` abre Teatro con el filtro de eventos); en Cine, «Eventos de cine» arriba; ficha
   de persona con biografía, nacimiento, trabajos destacados y enlaces (TMDB, Wikipedia).
 - Sobre las API: las de datos (Ayuntamiento, TMDB, Wikidata) se usan según sus condiciones de uso;
   robots.txt rige la lectura de páginas web (guía, webs de salas y cines, noticias).
