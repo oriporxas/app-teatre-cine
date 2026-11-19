@@ -12,9 +12,12 @@
   },
   "2026-11-18": {
     "por_tarea": {
-      "leer_webs": 0.0097
+      "fichas_obra": 0.1396,
+      "leer_webs": 0.0097,
+      "noticias": 0.1307,
+      "traducir": 0.0006
     },
-    "usd": 0.0097
+    "usd": 0.2806
   },
   "2026-11-19": {
     "por_tarea": {
@@ -22,8 +25,8 @@
       "leer_webs": 0.034,
       "noticias": 0.0112,
       "revisar_dudosos": 0.1503,
-      "traducir": 0.0028
+      "traducir": 0.003
     },
-    "usd": 0.4764
+    "usd": 0.4766
   }
 }

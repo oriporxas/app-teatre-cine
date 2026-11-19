@@ -71,7 +71,7 @@ activa = true
 modelo = "claude-haiku-5-5"
 esfuerzo = "low"
 por_peticion = 30
-maximo_por_ejecucion = 400
+maximo_por_ejecucion = 1500  # unos 40 medios (Barcelona, España y Mundo); solo se clasifican las nuevas
 
 # Lector de webs de salas (pipeline/fuentes/webs_salas): extraer la programación de la web
 # oficial de las salas que no salen en la agenda municipal. Solo extraer datos, sin interpretar
@@ -83,3 +83,12 @@ modelo = "claude-haiku-5-5"
 esfuerzo = "low"
 por_peticion = 1
 maximo_por_ejecucion = 120
+
+# Ficha completa de cada obra desde su página oficial (pipeline/fichas_obra.py): equipo, duración y
+# premios con cita literal comprobada. Solo extraer (modelo barato); solo se pide si la página cambia.
+[fichas_obra]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"
+por_peticion = 1
+maximo_por_ejecucion = 400

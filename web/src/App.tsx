@@ -11,14 +11,14 @@ import { useFavoritos, type Favoritos } from './favoritos';
 import { useUbicacion, type Ubicacion } from './ubicacion';
 import { MapaSalas, agruparSalas } from './Mapa';
 import {
-  claveItem, descargar, enlaceGeo, imagenPlan, itemDe, paradasRuta, planIcs, porDias, rutaGoogle, solapes, tramoApple, usePlanes,
+  abrirRutaEnMovil, claveItem, descargar, imagenPlan, itemDe, paradasRuta, planIcs, porDias, rutaIncrustada, solapes, usePlanes,
   type ItemPlan, type Plan, type Planes,
 } from './planes';
 import { FILTROS_CINE, cargarCine, horaAhora, type CarteleraCine, type FiltrosCine } from './cine';
 import { Cartelito, FichaCine, FichaPelicula, VistaCine, VistaMapaCine, enlacePeli } from './Cine';
 import { VistaNoticias, cargarNoticias, type Noticia } from './Noticias';
 import { VistaInicio } from './Inicio';
-import { VistaBuscar, VistaPersona, indicePersonas } from './Buscar';
+import { VistaBuscar, VistaPersona, indicePersonas, separarNombres, slug } from './Buscar';
 
 const POR_PAGINA = 40;
 
@@ -120,7 +120,7 @@ export default function App() {
   const actual = ruta.vista === 'ficha' ? lista.find((e) => claveFicha(e.id) === ruta.clave) : undefined;
   const peli = ruta.vista === 'peli' ? cine?.peliculas.find((p) => enlacePeli(p.id) === `#peli-${ruta.id}`) : undefined;
   const salaCine = ruta.vista === 'sala' ? cine?.cines.find((c) => c.id.replace(/[^A-Za-z0-9-]+/g, '-') === ruta.id) : undefined;
-  const personas = useMemo(() => indicePersonas(lista, cine, lang, t), [lista, cine, lang, t]);
+  const personas = useMemo(() => indicePersonas(lista, cine, lang, t, cartelera?.personas), [lista, cine, lang, t, cartelera]);
   const cambiarCine = useCallback((c: Partial<FiltrosCine>) => setFiltrosCine((f) => ({ ...f, ...c })), []);
   const idsPelis = useMemo(() => new Set((cine?.peliculas || []).map((p) => p.id)), [cine]);
 
@@ -143,7 +143,7 @@ export default function App() {
       {ruta.vista === 'mapa-cine' ? <VistaMapaCine t={t} datos={cine} hoy={hoy} ubic={ubic} /> : null}
       {ruta.vista === 'noticias' ? <VistaNoticias t={t} lang={lang} noticias={noticias} error={errorNoticias} /> : null}
       {ruta.vista === 'buscar' ? <VistaBuscar t={t} lang={lang} q={busqueda} setQ={setBusqueda} lista={lista} cine={cine} personas={personas} hoy={hoy} /> : null}
-      {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id)} volver={volver} /> : null}
+      {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id) || [...personas.values()].find((x) => `n-${slug(x.nombre)}` === ruta.id)} volver={volver} /> : null}
       {ruta.vista === 'cartelera' || (ruta.vista === 'ficha' && !actual) ? (
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={cartelera} error={error} hoy={hoy}
@@ -162,7 +162,7 @@ export default function App() {
       {ruta.vista === 'favoritos' ? <VistaFavoritos t={t} lang={lang} lista={lista} cine={cine} hoy={hoy} favs={favs} /> : null}
       {ruta.vista === 'planes' ? <VistaPlanes t={t} planes={planes} /> : null}
       {ruta.vista === 'teatro' ? <VistaSala t={t} lista={lista} hoy={hoy} id={ruta.id} volver={volver} cargada={!!cartelera} /> : null}
-      {ruta.vista === 'plan' ? <VistaPlan t={t} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
+      {ruta.vista === 'plan' ? <VistaPlan t={t} lang={lang} lista={lista} idsPelis={idsPelis} hoy={hoy} planes={planes} id={ruta.id} /> : null}
 
       <nav className="nav" aria-label={t.seccionesLabel}>
         <a href="#inicio" aria-current={ruta.vista === 'inicio' || ruta.vista === 'buscar' || ruta.vista === 'persona' ? 'page' : undefined}>
@@ -609,7 +609,7 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
               {e.premios.map((x) => (
                 <li key={x.cita} className="premio ganado">
                   <span className="premio-icono" aria-hidden="true">★</span>
-                  <span>{lang === 'ca' ? x.ca : x.es}<span className="premio-cita">{t.citaTxt} «{x.cita}»</span></span>
+                  <span>{lang === 'ca' ? x.ca : x.es}<span className="premio-cita">{x.origen === 'web' ? t.citaWeb : t.citaTxt} «{x.cita}»</span></span>
                 </li>
               ))}
             </ul>
@@ -623,7 +623,13 @@ function Ficha({ t, lang, e, hoy, volver, favs, planes, cartelera }: {
               {e.equipo.map(([papel, personas]) => (
                 <div key={papel} className="equipo-fila">
                   <dt>{t.papel(papel)}</dt>
-                  <dd>{personas}</dd>
+                  <dd>{/* Cada nombre lleva a su ficha (sus obras y, si está en Wikidata, foto y premios). */}
+                    {separarNombres(personas).length ? personas.split(/(\s*(?:,|;|\/|\s+i\s+|\s+y\s+|\s+&\s+)\s*)/).map((trozo, k) => (
+                      separarNombres(trozo).length === 1 && separarNombres(trozo)[0] === trozo.trim()
+                        ? <a key={k} className="persona-enlace" href={`#persona-n-${slug(trozo.trim())}`}>{trozo}</a>
+                        : <span key={k}>{trozo}</span>
+                    )) : personas}
+                  </dd>
                 </div>
               ))}
             </dl>
@@ -1234,16 +1240,13 @@ function HojaCompartir({ t, plan, cerrar }: { t: Textos; plan: Plan; cerrar: () 
   );
 }
 
-// Ruta del día dentro de la app: mapa con las paradas en orden y botones para abrirla en la app de mapas.
-const ES_IOS = typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) && 'ontouchend' in document;
-const ES_ANDROID = typeof navigator !== 'undefined' && /Android/i.test(navigator.userAgent);
 
-function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: ItemPlan[]; cerrar: () => void }) {
+function HojaRuta({ t, lang, dia, items, cerrar }: { t: Textos; lang: Idioma; dia: string; items: ItemPlan[]; cerrar: () => void }) {
   const primero = useRef<HTMLButtonElement>(null);
   useHoja(cerrar, primero);
   const paradas = paradasRuta(items);
   const sinUbicacion = items.filter((i) => i.lat == null || i.lon == null);
-  const google = rutaGoogle(paradas);
+  const mapa = rutaIncrustada(paradas, lang);
   return (
     <div className="fondo-hoja" onClick={(ev) => { if (ev.target === ev.currentTarget) cerrar(); }}>
       <div className="hoja" role="dialog" aria-modal="true" aria-labelledby="titulo-ruta">
@@ -1252,8 +1255,13 @@ function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: It
           <BotonCerrar t={t} cerrar={cerrar} refBoton={primero} />
         </div>
         <div className="hoja-cuerpo">
-          <MapaSalas t={t} salas={[]} elegida={null} elegir={() => {}} ciudad={items[0]?.ciudad || 'barcelona'}
-            ruta={paradas.map((p) => ({ lat: p.lat, lon: p.lon, nombre: p.sala || p.nombre }))} />
+          {/* El mapa de Google dentro de la app, con el recorrido a pie por las calles. */}
+          {mapa ? <iframe className="mapa-google" src={mapa} title={t.rutaTit} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen /> : null}
+          {paradas.length ? (
+            <button type="button" className="boton-principal con-icono" onClick={() => abrirRutaEnMovil(paradas)}>
+              <IconoMapa />{t.rutaAbrirMovil}
+            </button>
+          ) : null}
           <ol className="ruta-lista">
             {paradas.map((p, k) => (
               <li key={k}>
@@ -1262,19 +1270,11 @@ function HojaRuta({ t, dia, items, cerrar }: { t: Textos; dia: string; items: It
                   <span className="caja-titulo">{p.hora ? `${p.hora} · ` : ''}{p.nombre}</span>
                   <span className="texto-suave">{[p.sala, p.direccion].filter(Boolean).join(' · ')}</span>
                 </span>
-                <a className="enlace" target="_blank" rel="noopener noreferrer"
-                  href={ES_IOS ? tramoApple(p, paradas[k - 1]) : ES_ANDROID ? enlaceGeo(p) : rutaGoogle([p]) || undefined}>{t.rutaTramo}</a>
               </li>
             ))}
           </ol>
           {sinUbicacion.length ? <p className="nota">{t.rutaSinMapa}: {sinUbicacion.map((i) => i.nombre).join(', ')}</p> : null}
-          <span className="dato-etiqueta">{t.rutaAbrirEn}</span>
-          <div className="ruta-apps">
-            {google ? <a className="boton-secundario con-icono" href={google} target="_blank" rel="noopener noreferrer"><IconoMapa />Google Maps</a> : null}
-            {paradas.length ? <a className="boton-secundario con-icono" href={tramoApple(paradas[0])} target="_blank" rel="noopener noreferrer"><IconoMapa />Apple Maps</a> : null}
-            {ES_ANDROID && paradas.length ? <a className="boton-secundario con-icono" href={enlaceGeo(paradas[0])}><IconoMapa />{t.rutaOtra}</a> : null}
-          </div>
-          {paradas.length > 1 ? <p className="nota">{t.rutaAppleNota}</p> : null}
+          <p className="nota">{t.rutaNota}</p>
         </div>
       </div>
     </div>
@@ -1297,7 +1297,7 @@ function DialogoBorrar({ t, nombre, borrar, cerrar }: { t: Textos; nombre: strin
   );
 }
 
-function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
+function VistaPlan({ t, lang, lista, idsPelis, hoy, planes, id }: { t: Textos; lang: Idioma; lista: Espectaculo[]; idsPelis: Set<string>; hoy: string; planes: Planes; id: string }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [id]);
   const [editando, setEditando] = useState(false);
   const [hoja, setHoja] = useState<null | 'compartir' | 'borrar' | { ruta: string }>(null);
@@ -1395,7 +1395,7 @@ function VistaPlan({ t, lista, idsPelis, hoy, planes, id }: { t: Textos; lista: 
           borrar={() => { planes.borrar(plan.id); window.location.hash = '#planes'; }} />
       ) : null}
       {hoja && typeof hoja === 'object' ? (
-        <HojaRuta t={t} dia={hoja.ruta} items={dias.find(([d]) => d === hoja.ruta)?.[1] || []} cerrar={() => setHoja(null)} />
+        <HojaRuta t={t} lang={lang} dia={hoja.ruta} items={dias.find(([d]) => d === hoja.ruta)?.[1] || []} cerrar={() => setHoja(null)} />
       ) : null}
     </main>
   );

@@ -120,7 +120,7 @@ export function porDias(items: ItemPlan[]): [string, ItemPlan[]][] {
 /** Ruta del día en el mapa (de sala en sala, en el orden de las funciones). */
 // --- Ruta del día ---------------------------------------------------------------------------
 
-export interface ParadaRuta { lat: number; lon: number; nombre: string; sala?: string; hora?: string; direccion?: string }
+export interface ParadaRuta { lat: number; lon: number; nombre: string; sala?: string; hora?: string; direccion?: string; ciudad?: string }
 
 /** Paradas del día en orden (las que tienen ubicación; dos seguidas en la misma sala cuentan como una). */
 export function paradasRuta(items: ItemPlan[]): ParadaRuta[] {
@@ -129,9 +129,54 @@ export function paradasRuta(items: ItemPlan[]): ParadaRuta[] {
     if (i.lat == null || i.lon == null) continue;
     const ultima = res[res.length - 1];
     if (ultima && ultima.lat === i.lat && ultima.lon === i.lon) { ultima.nombre += ` · ${i.nombre}`; continue; }
-    res.push({ lat: i.lat, lon: i.lon, nombre: i.nombre, sala: i.sala, hora: i.hora, direccion: i.direccion });
+    res.push({ lat: i.lat, lon: i.lon, nombre: i.nombre, sala: i.sala, hora: i.hora, direccion: i.direccion, ciudad: i.ciudad });
   }
   return res;
+}
+
+/** Cómo se busca cada parada en Google Maps: por la dirección de la sala. Con las coordenadas, Google
+ * pone a la parada el nombre del negocio más cercano (p. ej. una tienda en vez del teatro). */
+export function lugarRuta(p: ParadaRuta): string {
+  const ciudad = p.ciudad ? p.ciudad.charAt(0).toUpperCase() + p.ciudad.slice(1) : '';
+  return p.direccion ? [p.direccion, ciudad].filter(Boolean).join(', ') : `${p.lat},${p.lon}`;
+}
+
+/** Mapa de Google dentro de la app con el recorrido a pie entre las paradas (sin clave: el mapa
+ * «incrustado» que usan muchas webs). Con una sola parada, el mapa de esa sala. */
+export function rutaIncrustada(p: ParadaRuta[], idioma: string): string | null {
+  if (!p.length) return null;
+  const e = encodeURIComponent;
+  if (p.length === 1) return `https://maps.google.com/maps?q=${e(lugarRuta(p[0]))}&z=15&hl=${idioma}&output=embed`;
+  const [ini, ...resto] = p.map(lugarRuta);
+  return `https://maps.google.com/maps?f=d&saddr=${e(ini)}&daddr=${resto.map(e).join('+to:')}&dirflg=w&hl=${idioma}&output=embed`;
+}
+
+/** Abre la ruta (desde donde estés, pasando por todas las paradas) en el móvil: con Google Maps si
+ * está instalado; si no, con la app de mapas del móvil (en el iPhone, Apple Maps, que solo hace un
+ * tramo: hasta la primera parada). En el ordenador, Google Maps en otra pestaña. */
+export function abrirRutaEnMovil(p: ParadaRuta[]): void {
+  if (!p.length) return;
+  const e = encodeURIComponent;
+  const lugares = p.map(lugarRuta);
+  const destino = lugares[lugares.length - 1];
+  const paso = lugares.slice(0, -1);
+  const web = `https://www.google.com/maps/dir/?api=1&destination=${e(destino)}${paso.length ? `&waypoints=${paso.map(e).join('%7C')}` : ''}`;
+  const ua = navigator.userAgent;
+  const ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && 'ontouchend' in document);
+  if (ios) {
+    // Primero la app de Google Maps; si a los 1,5 s seguimos aquí, es que no está: Apple Maps.
+    let fuera = false;
+    const marcha = () => { fuera = true; };
+    document.addEventListener('visibilitychange', marcha, { once: true });
+    window.addEventListener('pagehide', marcha, { once: true });
+    window.location.href = `comgooglemaps://?daddr=${lugares.map(e).join('+to:')}`;
+    window.setTimeout(() => {
+      if (!fuera && document.visibilityState === 'visible') window.location.href = `https://maps.apple.com/?daddr=${e(lugares[0])}`;
+    }, 1500);
+    return;
+  }
+  // Android abre este enlace con la app de Google Maps si está instalada; el ordenador, en la web.
+  window.open(web, '_blank', 'noopener');
 }
 
 /** Google Maps con todas las paradas (en el móvil abre su app si está instalada). */

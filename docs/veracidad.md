@@ -104,6 +104,50 @@ Para que una sala no desaparezca al cubrirla, la auditoría no cuenta lo que tra
   siguientes solo se pagan las páginas que cambian y las obras nuevas.
 - Tiempo: como mucho 8 minutos al día.
 
+## 6. Fichas de obra y de personas (Uri, 18/11/2026)
+
+Uri pidió para el teatro, la magia y el circo el mismo nivel de información que en el cine.
+
+**Fichas de obra** (`pipeline/fichas_obra.py`). Cuando `compra.py` encuentra la página oficial de
+la obra en la web de su sala:
+- **Cartel:** la imagen que la propia página declara como suya. Si la misma imagen sale en obras
+  distintas, es el logotipo de la sala y no se usa.
+- **Equipo, duración y premios:** la IA (modelo barato) copia cada dato con su **cita literal**, y
+  el programa comprueba que la cita está en la página, que cada nombre está en su cita y que los
+  minutos (o las horas) están en la suya. Los premios llevan «Según la web de la obra».
+- Solo se completa lo que falta: el texto, las fechas y los precios siguen siendo los de la agenda.
+
+**Personas** (`pipeline/personas.py`), desde Wikidata. Un nombre se da por la misma persona solo si
+se cumplen las tres condiciones:
+1. en todo Wikidata hay **una sola** persona con ese nombre exacto (o alias); si hay varias, aunque
+   solo una sea actriz, el nombre es común y no se adivina;
+2. es española y su oficio es de escena o de cine (actor, director de escena, dramaturgo, mago,
+   mentalista, payaso, acróbata, bailarín…);
+3. su papel en la obra encaja con ese oficio: una actriz para «Intèrprets», un director de escena
+   para «Direcció», un dramaturgo para «Autoria»… Los papeles técnicos (vestuario, luces, sonido,
+   escenografía, cartel) no tienen ficha.
+
+Si algo no encaja, no se pone nada: el nombre sigue saliendo en el equipo, con sus obras.
+
+Errores encontrados al revisarlo (18/11/2026), corregidos con su prueba (`tests/test_fichas_obra.py`):
+- al músico de una obra le salía la ficha de un poeta con el mismo nombre, porque la lista de
+  oficios aceptaba escritores y músicos; además, varios códigos de oficio no eran los correctos;
+- a una persona de vestuario llamada «Laura Garcia» le salía la ficha de una presentadora de
+  televisión; en Wikidata hay 6 personas con ese nombre y 7 «Marta Pérez», así que la regla de
+  «una sola persona» no bastaba si solo se miraba a la gente de escena.
+
+Ahora la lista solo tiene oficios de escena y de cine, comprobados uno a uno, y se aplican las
+tres condiciones. Las personas ya guardadas se vuelven a comprobar. A cambio, los músicos,
+compositores y equipos técnicos no tienen ficha de persona.
+
+Primera lectura (18/11/2026):
+- 193 páginas de obra leídas.
+- Equipo nuevo en 19 obras y ampliado en 120.
+- Premios citados en 19 obras más.
+- Duración en 10 obras más.
+- 7 carteles nuevos.
+- Gasto: unos 0,14 $.
+
 ## Más adelante
 - Lo mismo para los cines sin horarios cuando su web lo permita (tarea «horarios_cine», reservada).
 - Proveedores de pago donde los haya (cine: International Showtimes) y que las salas publiquen

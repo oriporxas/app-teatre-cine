@@ -47,7 +47,7 @@ export interface Espectaculo {
   /** Idioma al que la IA ha traducido la descripción. */
   traducido?: string;
   /** Premios que cita la descripción (con la cita literal). */
-  premios?: { es: string; ca: string; cita: string }[];
+  premios?: { es: string; ca: string; cita: string; origen?: 'web' }[];
   /** Temas de la obra (IA, solo si la descripción los deja claros). */
   temas?: Record<string, string[]>;
   /** Magia: trayectoria y premios del artista, buscados por la IA con fuentes comprobadas. */
@@ -63,11 +63,23 @@ export interface Ciudad {
   idiomas: string[];
 }
 
+/** Persona del equipo de las obras con ficha en Wikidata (solo coincidencias seguras). */
+export interface PersonaEscena {
+  wikidata: string;
+  foto?: string;
+  descripcion?: Record<string, string>;
+  wikipedia?: string;
+  premios?: { premio: string; anio?: number; tipo: 'ganado' | 'nominado' }[];
+  fuente?: string;
+}
+
 export interface Cartelera {
   ciudad: Ciudad;
   actualizado: string;
   licencia: string;
   espectaculos: Espectaculo[];
+  /** Clave: el nombre en minúsculas, sin acentos y con guiones (como pipeline/personas.py). */
+  personas?: Record<string, PersonaEscena>;
 }
 
 export async function cargarCartelera(ciudad = 'barcelona'): Promise<Cartelera> {

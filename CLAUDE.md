@@ -31,7 +31,7 @@ Primer borrador completo (17/11/2026, pedido el 14/11 con 13,24 $ de crédito):
 IA activada en teatro (clasificar, traducir, premios citados, temas) y en
 noticias; **cine** (`pipeline/cine/`, `docs/fuentes/cine.md`); **noticias**
 (`pipeline/noticias.py`, `ajustes/noticias.toml`); diseño negro, rojo y blanco;
-pantallas Inicio, Escena, Cine, Noticias, Guardado, buscador único y personas.
+pantallas Inicio, Teatro (antes «Escena»), Cine, Noticias, Guardado, buscador único y personas.
 Informe y gasto (~7,3 $): `docs/pruebas/2026-11-17-primer-borrador.md`.
 GitHub volvió el 14/11/2026: ya se puede hacer push. Secretos `ANTHROPIC_API_KEY` y
 `TMDB_TOKEN` en GitHub: **creados por Uri** (lo confirmó el 17/11/2026; no volver a
@@ -43,6 +43,9 @@ retraso de GitHub), pero ese día la API del Ayuntamiento respondió 403 a GitHu
 consulta: ahora un 403 se reintenta dos veces con pausa larga (`descargar.py`) y hay un segundo
 intento a las 13:17 UTC: si faltan los datos del día hace la actualización completa; si ya
 están, solo renueva el cine (`principal --solo-cine`, Uri 18/11/2026: el cine cambia más).
+19/11/2026: la tarea programada salió sola (06:19 UTC, una hora tarde) y terminó bien: 47 min,
+0,48 $ (sobre todo clasificar obras nuevas), 627 fichas. Crédito de IA restante estimado el
+19/11: unos 4 $ de 13,24 $; un día normal con todo lo del PR #8 costará unos 0,5–0,65 $.
 Publicación (Uri, 18/11/2026: de momento solo para él, para probarla): propuesta Cloudflare
 Pages desde el repositorio privado (raíz `web`, `npm ci && npm run build`, salida `dist`; se
 publica sola con cada commit de datos) con dirección poco evidente y fuera de buscadores
@@ -196,8 +199,19 @@ Detalle y razones en `docs/arquitectura.md`.
   - `enriquecer_ia.py`: traducción, premios citados (con la cita literal, que
     se comprueba) y temas de cada ficha publicada (tarea «traducir»).
   - `cine/`: cartelera de cine (salas, lectores de horarios, TMDB y Wikidata).
-  - `noticias.py`: noticias de los medios de `ajustes/noticias.toml` (teatro, cine, magia,
-    circo y la marca «evento»: festival, gala, feria, taller…).
+  - `noticias.py`: noticias de unos 40 canales de `ajustes/noticias.toml` (teatro, cine, magia,
+    circo y la marca «evento»: festival, gala, feria, taller…), cada una con su ámbito
+    (barcelona, espana, mundo) decidido por la IA según lo que cuenta.
+  - `fichas_obra.py`: cartel, equipo, duración y premios desde la página oficial de la obra
+    (`pagina_obra`, de `compra.py`); la IA cita y el programa comprueba cada cita. Solo
+    completa lo que falta. Tarea «fichas_obra» de `ia.toml`, 8 min/día como mucho.
+  - `personas.py`: foto, descripción, premios y Wikipedia de las personas del equipo, desde
+    Wikidata (gratis). Solo si (1) hay **una sola** persona con ese nombre en todo Wikidata,
+    (2) española y con oficio de escena o cine (`OFICIOS`, comprobados uno a uno) y (3) su papel
+    en la obra encaja con el oficio (`PAPELES`). Casos reales que lo motivaron: un poeta tocayo
+    de un músico, una presentadora tocaya de una persona de vestuario. Si cambian las reglas,
+    subir `VERSION`. La consulta por grupos (SPARQL) a veces está limitada desde la nube de
+    Claude; entonces va nombre a nombre (más lento).
   - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
     cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
     de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.
@@ -226,6 +240,12 @@ Detalle y razones en `docs/arquitectura.md`.
   `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
   «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
   coste): `docs/veracidad.md`.
+- Cambios de Uri (18/11/2026): «Escena» se llama «Teatro» (barra y título); en Inicio,
+  «Todos los cines» y «Todas las salas» como desplegables verticales; noticias con selector
+  Barcelona / España / Mundo; la ruta del plan es un mapa de Google Maps incrustado
+  (`rutaIncrustada` en `web/src/planes.ts`, sin clave) y un botón «Abrir la ruta en el móvil»
+  (`abrirRutaEnMovil`: Google Maps si está, si no la app de mapas del móvil); fichas de obra
+  y de persona como en el cine (`fichas_obra.py`, `personas.py`).
 - Cambios de pantalla de Uri (17/11/2026): barra de abajo Inicio, Escena, Cine, Planes, Desat
   (solo lo guardado), Notícies; en la película, cada cine es un desplegable con sus horas; la
   hora lleva a la compra de esa sesión (Mooby, Verdi y Renoir lo permiten); en Inicio, fila de

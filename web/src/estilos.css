@@ -618,3 +618,24 @@ a.hora-chip { text-decoration: none; }
 .hoja .mapa svg { aspect-ratio: 4 / 3; }
 .tema-evento { background: transparent; border: 1px solid var(--acento-texto); color: var(--acento-texto); }
 .noticia-meta { flex-wrap: wrap; }
+
+/* Inicio: «Todos los cines» y «Todas las salas» como listas desplegables (Uri, 18/11/2026) */
+.lista-inicio { margin: 0 16px; }
+.lista-inicio + .lista-inicio { margin-top: 10px; }
+.lista-inicio summary .seccion-titulo { margin: 0; }
+.lista-inicio summary a { color: var(--acento-texto); }
+.lista-desplegable { display: flex; flex-direction: column; }
+.fila-lista { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; text-decoration: none; border-top: 1px solid var(--borde); }
+.fila-lista:active { background: var(--superficie-2); }
+
+/* Ruta del plan: el mapa de Google dentro de la app (Uri, 18/11/2026) */
+.mapa-google { display: block; width: 100%; aspect-ratio: 4 / 3; border: 1px solid var(--borde); border-radius: 16px; background: #17171B; }
+
+/* Noticias: Barcelona / España / Mundo (Uri, 18/11/2026) */
+.segmentos { display: flex; margin: 4px 16px 0; padding: 3px; border-radius: 12px; background: var(--superficie-2); gap: 2px; }
+.segmento { flex: 1; min-height: 38px; border: 0; border-radius: 9px; background: transparent; color: var(--texto-suave); font-weight: 700; font-size: 14px; }
+.segmento[aria-pressed='true'] { background: var(--acento); color: var(--sobre-acento); }
+
+/* Equipo de la obra: cada nombre lleva a su ficha (Uri, 18/11/2026) */
+.persona-enlace { color: inherit; text-decoration: underline; text-decoration-color: var(--acento-texto); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.persona-desc { display: block; margin-top: 4px; }
