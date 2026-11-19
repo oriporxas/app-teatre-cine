@@ -82,31 +82,38 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
     const sesHoy = (p: Pelicula) => p.sesiones.filter((s) => s[1] === hoy && (!s[2] || s[2] >= ahora));
     const cineHoy = pelis.filter((p) => sesHoy(p).length && p.cartel).sort((a, b) => sesHoy(b).length - sesHoy(a).length);
     const estrenos = pelis.filter((p) => esEstreno(p, hoy) && p.sesiones.some((s) => s[1] >= hoy));
-    // Empieza pronto, en dos filas (Uri, 19/11/2026): el cine (lo de los próximos 90 minutos) y el
-    // teatro, la magia y el circo de cualquier tipo y género (lo próximo de hoy, por orden de hora).
+    // Empieza pronto (Uri, 19/11/2026): un apartado con tres filas, en este orden: cine (sesiones de las
+    // próximas 2 horas), escena (teatro, magia y circo de cualquier tipo y género, próximas 3 horas) y
+    // eventos (próximas 3 horas).
     type Pronto = { enlace: string; nombre: string; lugar: string; hora: string; min: number; version?: string | null; tipo?: string };
     const unaPorTitulo = (xs: Pronto[]) => {
       const vistos = new Set<string>();
-      return xs.sort((a, b) => a.min - b.min).filter((x) => (vistos.has(x.enlace) ? false : (vistos.add(x.enlace), true))).slice(0, 12);
+      return xs.sort((a, b) => a.min - b.min).filter((x) => (vistos.has(x.enlace) ? false : (vistos.add(x.enlace), true))).slice(0, 40);
     };
-    const prontoEscena: Pronto[] = [];
-    for (const e of escenaHoy) {
-      const h = funcionesHoy(e).find(([, hh]) => hh)?.[1];
-      const m = h ? minutosHasta(hoy, h, hoy, ahora) : null;
-      if (m != null && m >= 0) prontoEscena.push({ enlace: enlaceFicha(e.id), nombre: e.nombre, lugar: e.sala || '', hora: h!, min: m, tipo: tipoTxt(e, t) });
-    }
+    const proximas = (xs: Espectaculo[], max: number) => {
+      const res: Pronto[] = [];
+      for (const e of xs) {
+        const h = funcionesHoy(e).find(([, hh]) => hh)?.[1];
+        const m = h ? minutosHasta(hoy, h, hoy, ahora) : null;
+        if (m != null && m >= 0 && m <= max) res.push({ enlace: enlaceFicha(e.id), nombre: e.nombre, lugar: e.sala || '', hora: h!, min: m, tipo: tipoTxt(e, t) });
+      }
+      return res;
+    };
+    const prontoEscena = proximas(escenaHoy, 180);
+    const prontoEventos = proximas(lista.filter((e) => e.tipo === 'eventos'), 180);
     const prontoCine: Pronto[] = [];
     const cinesMap = new Map((cine?.cines || []).map((c) => [c.id, c]));
     for (const p of pelis) {
       for (const s of sesHoy(p)) {
         const m = minutosHasta(s[1], s[2], hoy, ahora);
-        if (m != null && m >= 0 && m <= 90) prontoCine.push({ enlace: enlacePeli(p.id), nombre: tituloPeli(p, lang), lugar: cinesMap.get(s[0])?.nombre || '', hora: s[2]!, min: m, version: s[3] });
+        if (m != null && m >= 0 && m <= 120) prontoCine.push({ enlace: enlacePeli(p.id), nombre: tituloPeli(p, lang), lugar: cinesMap.get(s[0])?.nombre || '', hora: s[2]!, min: m, version: s[3] });
       }
     }
     // Eventos (festivales, talleres, charlas, premios…): los próximos, por fecha.
     const eventos = lista.filter((e) => e.tipo === 'eventos' && e.funciones.length)
       .sort((a, b) => (a.funciones[0][0] + (a.funciones[0][1] || '')).localeCompare(b.funciones[0][0] + (b.funciones[0][1] || '')));
-    return { escenaHoy, magia, ultimos, cineHoy, estrenos, eventos, prontoEscena: unaPorTitulo(prontoEscena), prontoCine: unaPorTitulo(prontoCine) };
+    return { escenaHoy, magia, ultimos, cineHoy, estrenos, eventos, prontoEscena: unaPorTitulo(prontoEscena), prontoCine: unaPorTitulo(prontoCine),
+      prontoEventos: unaPorTitulo(prontoEventos) };
   }, [lista, cine, hoy, ahora, lang, t]);
 
   return (
@@ -132,35 +139,32 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
 
       {!cartelera && !cine ? <p className="aviso">{t.cargando}</p> : null}
 
-      {datos.prontoCine.length ? (
-        <section className="fila-inicio">
-          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.prontoCine}</h2><a className="ver-todo" href="#cine">{t.verTodo}</a></div>
-          <div className="carrusel">
-            {datos.prontoCine.map((x, i) => (
-              <a key={`${x.enlace}-${x.hora}-${i}`} className="ticket" href={x.enlace}>
-                <span className="ticket-hora">{x.hora}</span>
-                <span className="ticket-cuando">{t.empiezaEn(x.min)}</span>
-                <span className="ticket-nombre">{x.nombre}</span>
-                <span className="ticket-lugar">{x.lugar}{x.version ? ` · ${t.versiones[x.version] || x.version}` : ''}</span>
-              </a>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      {datos.prontoEscena.length ? (
-        <section className="fila-inicio">
-          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.prontoEscena}</h2><a className="ver-todo" href="#cartelera">{t.verTodo}</a></div>
-          <div className="carrusel">
-            {datos.prontoEscena.map((x, i) => (
-              <a key={`${x.enlace}-${x.hora}-${i}`} className="ticket ticket-escena" href={x.enlace}>
-                <span className="ticket-hora">{x.hora}</span>
-                <span className="ticket-cuando">{t.empiezaEn(x.min)}</span>
-                <span className="ticket-nombre">{x.nombre}</span>
-                <span className="ticket-lugar">{[x.tipo, x.lugar].filter(Boolean).join(' · ')}</span>
-              </a>
-            ))}
-          </div>
+      {cartelera || cine ? (
+        <section className="fila-inicio empieza-pronto">
+          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.ahoraMismo}</h2></div>
+          {([
+            ['cine', t.navCine, datos.prontoCine, '#cine', t.prontoNadaCine],
+            ['escena', t.escena2, datos.prontoEscena, '#cartelera', t.prontoNadaEscena],
+            ['eventos', t.tipos.eventos, datos.prontoEventos, '#eventos', t.prontoNadaEventos],
+          ] as const).map(([k, titulo, xs, enlace, nada]) => (
+            <div key={k} className="pronto-fila">
+              <div className="pronto-cabecera"><h3>{titulo}</h3>{xs.length ? <a className="ver-todo" href={enlace}>{t.verTodo}</a> : null}</div>
+              {xs.length ? (
+                <div className="carrusel">
+                  {xs.map((x, i) => (
+                    <a key={`${x.enlace}-${x.hora}-${i}`} className={k === 'cine' ? 'ticket' : 'ticket ticket-escena'} href={x.enlace}>
+                      <span className="ticket-hora">{x.hora}</span>
+                      <span className="ticket-cuando">{t.empiezaEn(x.min)}</span>
+                      <span className="ticket-nombre">{x.nombre}</span>
+                      <span className="ticket-lugar">{k === 'cine'
+                        ? `${x.lugar}${x.version ? ` · ${t.versiones[x.version] || x.version}` : ''}`
+                        : [x.tipo, x.lugar].filter(Boolean).join(' · ')}</span>
+                    </a>
+                  ))}
+                </div>
+              ) : <p className="texto-suave pronto-nada">{nada}</p>}
+            </div>
+          ))}
         </section>
       ) : null}
 
