@@ -52,7 +52,8 @@ pieza que lee webs trabaja como mucho 2 min (`config.tope_minutos`). Unos 14 min
 IA por lotes (Uri, 19/11/2026: «sí, hazlo»): clasificar, revisar dudosos y noticias van por lotes
 (Message Batches, mitad de precio; `ia.Lotes`, `por_lotes = true` y `[lotes]` en `ajustes/ia.toml`).
 La tarea espera como mucho 10 min; si algo no ha llegado, se cancela (no se cobra) y se pregunta al
-momento por la vía normal (Uri, 19/11/2026: lo nuevo tiene que salir enseguida). Las respuestas son las
+momento por la vía normal (Uri, 19/11/2026: lo nuevo tiene que salir enseguida). Con 3 peticiones o
+menos, y siempre en la rápida del mediodía, van directas (`directo_hasta` en `[lotes]`). Las respuestas son las
 mismas (mismo modelo, instrucciones y comprobaciones). Una respuesta de un lote de otra ejecución solo
 vale si el texto de la obra no ha cambiado. El cine y las noticias van en un hilo
 aparte desde el principio (en paralelo con la guía y la IA), así que también se renuevan si falla la
@@ -234,6 +235,12 @@ Detalle y razones en `docs/arquitectura.md`.
     lotes) dice qué es evento (festival, ciclo, cinefórum, premios, concurso, taller, estreno) y qué
     proyección suelta; los eventos salen como eventos con disciplina «cine» (en Teatro → Eventos, en
     Inicio y arriba en Cine) y dejan de salir como «película».
+  - `caducados.py`: lo que terminó en el último mes (Uri, 19/11/2026) sigue en la app con la etiqueta
+    «Caducado» (buscador, apartado `#caducados` por tipo, Guardado); más de un mes, fuera. Cada día se
+    compara con la versión anterior del archivo de la app: lo que ya no está y tenía todas sus funciones
+    o sesiones pasadas se guarda en `data/ciudades/<c>/caducados_{escena,cine}.json`. Teatro: la app lo
+    pasa a caducado al momento cuando acaba su última función; películas: solo cuando la actualización
+    confirma que ya no están en ningún cine (los cines publican la semana siguiente a destiempo).
   - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
     cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
     de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.

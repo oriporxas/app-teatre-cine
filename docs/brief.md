@@ -54,6 +54,7 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
   - **Personas:** ficha con foto, oficio, nacimiento, biografía y trabajos destacados (TMDB) y enlace a Wikipedia (Wikidata), para el reparto del cine y la gente de teatro cuando es seguro que es la misma persona.
   - **Inicio:** «Empieza pronto» en dos filas, cine y teatro (teatro, magia y circo de cualquier tipo y género), y una fila de «Próximos eventos».
   - **Eventos de cine:** festivales, ciclos, cinefórums, premios, concursos y talleres de cine salen como eventos (no como películas), también arriba en la pestaña Cine. No es prioridad, pero sí importante.
+  - **Caducado:** lo que terminó en el último mes (obras, películas y eventos) sigue apareciendo al buscar, con la etiqueta «Caducado», y en un apartado propio separado por tipo (también lo guardado). Lo que terminó hace más de un mes desaparece de la app. Las películas solo se marcan cuando la actualización confirma que ya no están en ningún cine.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios
