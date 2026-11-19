@@ -1,7 +1,7 @@
 // Buscador único (obras, películas, personas, salas y cines) y ficha de persona, que une el
 // teatro y el cine: quien dirige una película y actúa en una obra sale con las dos cosas.
-import { useLayoutEffect, useMemo, useRef } from 'react';
-import type { Espectaculo , PersonaEscena } from './datos';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { cargarPersona, type DatosPersona, type Espectaculo, type PersonaEscena } from './datos';
 import type { CarteleraCine, Persona, Premio } from './cine';
 import { tituloPeli } from './cine';
 import { normaliza, tipoTxt } from './filtros';
@@ -165,8 +165,30 @@ export function VistaBuscar({ t, lang, q, setQ, lista, cine, personas, hoy }: {
   );
 }
 
-export function VistaPersona({ t, p, volver }: { t: Textos; p: FichaPersona | undefined; volver: () => void }) {
+/** «7 de diciembre de 1980» / «7 de desembre de 1980» («d'abril», «d'agost», «d'octubre»). */
+function fechaLarga(iso: string, t: Textos, lang: Idioma): string {
+  const [a, m, d] = iso.split('-').map(Number);
+  if (!a || !m || !d) return iso;
+  const mes = t.mesesLargos[m - 1];
+  return lang === 'ca' && /^[aeiou]/.test(mes) ? `${d} d'${mes} de ${a}` : `${d} de ${mes} de ${a}`;
+}
+
+export function VistaPersona({ t, lang, p, volver }: { t: Textos; lang: Idioma; p: FichaPersona | undefined; volver: () => void }) {
   useLayoutEffect(() => { window.scrollTo(0, 0); }, [p?.clave]);
+  // La ficha ampliada (TMDB y Wikidata) se descarga al abrir la persona.
+  const [d, setD] = useState<DatosPersona | undefined>(undefined);
+  useEffect(() => {
+    setD(undefined);
+    if (!p) return;
+    let vivo = true;
+    cargarPersona('barcelona', [...new Set([p.clave, `n-${slug(p.nombre)}`])]).then((x) => { if (vivo) setD(x); });
+    return () => { vivo = false; };
+  }, [p]);
+  const foto = p?.foto || d?.foto;
+  const descripcion = p?.descripcion || d?.descripcion?.[lang] || d?.descripcion?.es || d?.descripcion?.ca;
+  const wikipedia = p?.wikipedia || d?.wikipedia;
+  const idiomaBio = d?.bio ? ([lang, 'es', 'ca', 'en'].find((k) => d.bio?.[k])) : undefined;
+  const nacio = d && (d.nacimiento || d.lugar) ? t.nacio(d.nacimiento ? fechaLarga(d.nacimiento, t, lang) : '', d.lugar || '') : '';
   return (
     <main className="pantalla">
       <div className="ficha-barra">
@@ -178,14 +200,37 @@ export function VistaPersona({ t, p, volver }: { t: Textos; p: FichaPersona | un
       {!p ? <div className="ficha"><p className="aviso">{t.sinResultados}</p></div> : (
         <div className="ficha">
           <div className="persona-cabecera">
-            <Cartelito src={p.foto} alt={p.nombre} clase="persona-foto grande" />
+            <Cartelito src={foto} alt={p.nombre} clase="persona-foto grande" />
             <div>
-              <span className="sobretitulo">{t.fichaPersona}</span>
+              <span className="sobretitulo">{d?.oficio ? t.oficios[d.oficio] || t.fichaPersona : t.fichaPersona}</span>
               <h2>{p.nombre}</h2>
-              {p.descripcion ? <span className="texto-suave persona-desc">{p.descripcion[0].toUpperCase() + p.descripcion.slice(1)}</span> : null}
-              {p.wikipedia ? <a className="enlace" href={p.wikipedia} target="_blank" rel="noopener noreferrer">Wikipedia</a> : null}
+              {descripcion ? <span className="texto-suave persona-desc">{descripcion[0].toUpperCase() + descripcion.slice(1)}</span> : null}
+              {nacio ? <span className="texto-suave persona-desc">{nacio}</span> : null}
+              {d?.muerte ? <span className="texto-suave persona-desc">{t.murio(fechaLarga(d.muerte, t, lang))}</span> : null}
+              <span className="enlaces-persona">
+                {wikipedia ? <a className="enlace" href={wikipedia} target="_blank" rel="noopener noreferrer">Wikipedia</a> : null}
+                {d?.tmdb ? <a className="enlace" href={`https://www.themoviedb.org/person/${d.tmdb}`} target="_blank" rel="noopener noreferrer">{t.verEnTmdb}</a> : null}
+              </span>
             </div>
           </div>
+          {idiomaBio ? (
+            <section className="bloque">
+              <h3>{t.bioTit}</h3>
+              <p className="persona-bio" lang={idiomaBio}>{d!.bio![idiomaBio]}</p>
+              {idiomaBio === 'en' ? <span className="nota">{t.bioEnIngles}</span> : null}
+            </section>
+          ) : null}
+          {d?.conocida?.length ? (
+            <section className="bloque">
+              <h3>{t.conocidaPor}</h3>
+              {d.conocida.map(([titulo, anio, tipo, papel]) => (
+                <span key={`${titulo}-${anio}`} className="fila-trabajo">
+                  <span className="caja-titulo">{titulo}</span>
+                  <span className="texto-suave">{[anio, t.tipoObra[tipo], papel].filter(Boolean).join(' · ')}</span>
+                </span>
+              ))}
+            </section>
+          ) : null}
           {p.premios?.length ? (
             <section className="bloque">
               <h3>{t.premiosTit}</h3>
@@ -206,6 +251,7 @@ export function VistaPersona({ t, p, volver }: { t: Textos; p: FichaPersona | un
               </a>
             ))}
           </section>
+          {d ? <p className="nota">{t.datosPersonaNota}</p> : null}
         </div>
       )}
     </main>

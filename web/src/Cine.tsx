@@ -10,8 +10,9 @@ import type { Favoritos } from './favoritos';
 import type { Ubicacion } from './ubicacion';
 import type { ItemPlan, Planes } from './planes';
 import { MapaSalas, type Sala } from './Mapa';
-import { BotonMarca, Corazon, HojaPlan, IconoCheck } from './App';
+import { BotonMarca, Corazon, HojaPlan, IconoCheck, enlaceFicha } from './App';
 import { clavePeli, marca, type Historial } from './historial';
+import type { Espectaculo } from './datos';
 
 export const enlacePeli = (id: string) => `#peli-${id.replace(/[^A-Za-z0-9-]+/g, '-')}`;
 export const enlaceCine = (id: string) => `#sala-${id.replace(/[^A-Za-z0-9-]+/g, '-')}`;
@@ -57,8 +58,10 @@ const fmtHoraMin = (n?: number) => (n ? `${Math.floor(n / 60)} h ${n % 60 ? `${n
 
 // --- Cartelera de cine -----------------------------------------------------------------
 
-export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic, filtros, cambiar }: {
+export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic, filtros, cambiar, eventos = [] }: {
   t: Textos; lang: Idioma; datos: CarteleraCine | null; error: boolean; hoy: string; ahora: string; favs: Favoritos; hist: Historial;
+  /** Eventos de cine de la agenda: festivales, ciclos, cinefórums, premios, talleres… (Uri, 19/11/2026) */
+  eventos?: Espectaculo[];
   ubic: Ubicacion; filtros: FiltrosCine; cambiar: (c: Partial<FiltrosCine>) => void;
 }) {
   const [modo, setModo] = useState<'peliculas' | 'cines'>('peliculas');
@@ -132,6 +135,22 @@ export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic,
           <button type="button" aria-pressed={modo === 'cines'} onClick={() => setModo('cines')}>{t.porCine}</button>
         </div>
       </div>
+
+      {eventos.length && modo === 'peliculas' ? (
+        <section className="fila-inicio eventos-cine">
+          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.eventosCine}</h2><a className="ver-todo" href="#eventos">{t.verTodo}</a></div>
+          <div className="carrusel">
+            {eventos.slice(0, 14).map((e) => (
+              <a key={e.id} className="ticket ticket-escena" href={enlaceFicha(e.id)}>
+                <span className="ticket-hora">{fmtDia(e.funciones[0][0], t)}</span>
+                <span className="ticket-cuando">{t.eventos[e.subtipo || ''] || t.tipos.eventos}</span>
+                <span className="ticket-nombre">{e.nombre}</span>
+                <span className="ticket-lugar">{e.sala || ''}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <div className="lista">
         {!datos && !error ? <p className="aviso">{t.cargando}</p> : null}

@@ -108,7 +108,7 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
     cache = leer_json(ruta, {}) or {}
     tarea = ajustes.tareas_ia().get("fichas_obra")
     hoy = dt.date.today()
-    fin = time.monotonic() + MINUTOS_MAX * 60
+    fin = time.monotonic() + config.tope_minutos(MINUTOS_MAX) * 60
     inf = {"con_pagina": 0, "leidas_hoy": 0, "ia_hoy": 0, "cartel_nuevo": 0, "equipo_nuevo": 0, "equipo_ampliado": 0,
            "duracion_nueva": 0, "premios_nuevos": 0}
     for it in items:

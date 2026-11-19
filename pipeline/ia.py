@@ -155,8 +155,11 @@ class Lotes:
       qué versión del texto se pidió) y se guarda con el lote, por si la respuesta llega otro día.
     - Si la IA rechaza una petición (filtro de seguridad) o falla el servidor, esa petición se repite al
       momento por la vía normal, que tiene modelo de reserva.
-    - Lo que no ha terminado al acabar la espera queda en `carpeta/lotes_<tarea>.json` y lo recoge la
-      siguiente ejecución (la del mediodía o la de mañana). Nada se paga dos veces.
+    - Si al acabar la espera la IA aún no ha contestado algo, se cancela esa parte del lote (lo que no
+      se ha procesado no se cobra) y se pregunta al momento por la vía normal (Uri, 19/11/2026: «lo nuevo
+      tiene que detectarse rápido»). Así nada queda para horas después y nada se paga dos veces.
+    - Si la ejecución se corta a medias, el lote queda en `carpeta/lotes_<tarea>.json` y lo recoge la
+      siguiente.
     """
 
     def __init__(self, tarea: str, carpeta: Path, cli=None) -> None:
@@ -164,7 +167,8 @@ class Lotes:
         self.ruta = Path(carpeta) / f"lotes_{tarea}.json"
         self.cli = cli
         self.recogidas: list[tuple[dict | None, object]] = []
-        self.informe = {"enviadas": 0, "recogidas": 0, "repetidas_normal": 0, "en_curso": 0, "errores": 0,
+        self._rescatando = False
+        self.informe = {"enviadas": 0, "recogidas": 0, "repetidas_normal": 0, "en_curso": 0, "canceladas": 0, "errores": 0,
                         "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0, "tokens_cache_escritura": 0}
         self.pendientes: list[dict] = (leer_json(self.ruta, {}) or {}).get("lotes", [])
         if self.pendientes and disponible():
@@ -201,16 +205,34 @@ class Lotes:
         self.informe["enviadas"] += len(cuerpo)
         self.guardar()  # si la ejecución se corta, el lote no se pierde
 
-    def esperar(self, segundos: float | None = None) -> None:
-        """Espera a que terminen los lotes pendientes, como mucho `segundos`."""
+    def esperar(self, segundos: float | None = None, rescatar: bool = True) -> None:
+        """Espera a que terminen los lotes pendientes, como mucho `segundos`. Si después queda algo y
+        `rescatar`, se cancela y se pregunta por la vía normal (sin esperar a otra ejecución)."""
         fin = time.monotonic() + (espera_lotes() if segundos is None else segundos)
         pausa = 10.0
         while self.pendientes and time.monotonic() < fin:
             time.sleep(min(pausa, max(0.0, fin - time.monotonic())))
             pausa = min(pausa * 1.5, 60.0)
             self._revisar()
+        if self.pendientes and rescatar and disponible():
+            self._rescatar()
         self.informe["en_curso"] = sum(len(l["peticiones"]) for l in self.pendientes)
         self.guardar()
+
+    def _rescatar(self) -> None:
+        """Cancela lo que la IA aún no ha contestado y lo pide por la vía normal."""
+        cli = self._cliente()
+        for lote in self.pendientes:
+            try:
+                cli.messages.batches.cancel(lote["id"])
+            except Exception as e:  # noqa: BLE001 - si ya había terminado, se recoge igual
+                self.informe.setdefault("detalles", []).append(f"cancelar: {type(e).__name__}: {str(e)[:100]}")
+        self._rescatando = True
+        fin = time.monotonic() + 180  # cancelar tarda poco: lo ya contestado se recoge y se paga a mitad
+        while self.pendientes and time.monotonic() < fin:
+            time.sleep(5)
+            self._revisar()
+        self._rescatando = False
 
     def guardar(self) -> None:
         guardar_json(self.ruta, {"lotes": self.pendientes})
@@ -262,6 +284,9 @@ class Lotes:
                 self.informe["recogidas"] += 1
             elif tipo == "errored" and getattr(r.result.error, "type", "") != "invalid_request":
                 self._normal(cli, lote, p)  # fallo del servidor: se repite ahora
+            elif tipo in ("canceled", "expired") and self._rescatando:
+                self.informe["canceladas"] += 1
+                self._normal(cli, lote, p)  # no llegó a tiempo: se pregunta ahora por la vía normal
             else:  # petición mal formada, cancelada o caducada: se vuelve a pedir otro día
                 self.informe["errores"] += 1
                 self.informe.setdefault("detalles", []).append(f"{r.custom_id}: {tipo}")

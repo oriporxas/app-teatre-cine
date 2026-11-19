@@ -26,7 +26,7 @@ CARPETA_WEB = config.RAIZ / "web" / "public" / "datos"
 TIPOS_APP = {"teatro": "teatro", "magia": "magia", "circo": "circo", "evento": "eventos"}
 # Por ahora la app es solo de teatro, magia y circo (Uri, 8/11/2026): los eventos (talleres,
 # festivales, charlas…) solo salen si son de una de esas disciplinas o sobre magia.
-DISCIPLINAS_APP = ("teatro", "magia", "circo", "clown")
+DISCIPLINAS_APP = ("teatro", "magia", "circo", "clown", "cine")  # cine: eventos de cine (Uri, 19/11/2026)
 # Teatro musical (Uri, 9/11/2026): sale dentro de teatro con la etiqueta «Musical», pero solo si
 # es seguro que es teatro musical (lo dice el título, una etiqueta o una frase; o la IA). Para
 # volver a dejarlos fuera de la app, basta con poner False.

@@ -17,6 +17,19 @@ DOCS = RAIZ / "docs"
 DESCARGAS = Path(os.environ.get("CARPETA_DESCARGAS", RAIZ / "descargas"))
 
 
+# Actualización rápida del mediodía (Uri, 19/11/2026): lo nuevo de la agenda tiene que salir enseguida,
+# pero la tarea no puede pasar de unos minutos (GitHub da 2.000 minutos al mes). Con RAPIDA, cada pieza
+# que lee webs (compra, fichas de obra, personas, webs de salas) trabaja como mucho 2 minutos: lo nuevo
+# va primero y el resto lo hace la de la mañana.
+RAPIDA = False
+MINUTOS_RAPIDA = 2
+
+
+def tope_minutos(normal: float) -> float:
+    """Minutos que puede trabajar una pieza en esta ejecución."""
+    return min(normal, MINUTOS_RAPIDA) if RAPIDA else normal
+
+
 def carpeta_ciudad(ciudad: str) -> Path:
     """Resultados de una ciudad: data/ciudades/<ciudad>/."""
     return DATOS / "ciudades" / ciudad

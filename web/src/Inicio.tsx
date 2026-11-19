@@ -82,28 +82,32 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
     const sesHoy = (p: Pelicula) => p.sesiones.filter((s) => s[1] === hoy && (!s[2] || s[2] >= ahora));
     const cineHoy = pelis.filter((p) => sesHoy(p).length && p.cartel).sort((a, b) => sesHoy(b).length - sesHoy(a).length);
     const estrenos = pelis.filter((p) => esEstreno(p, hoy) && p.sesiones.some((s) => s[1] >= hoy));
-    // Empieza pronto: lo que empieza en las próximas 2 horas, de cine y de escena
-    const pronto: { enlace: string; nombre: string; lugar: string; hora: string; min: number; version?: string | null }[] = [];
+    // Empieza pronto, en dos filas (Uri, 19/11/2026): el cine (lo de los próximos 90 minutos) y el
+    // teatro, la magia y el circo de cualquier tipo y género (lo próximo de hoy, por orden de hora).
+    type Pronto = { enlace: string; nombre: string; lugar: string; hora: string; min: number; version?: string | null; tipo?: string };
+    const unaPorTitulo = (xs: Pronto[]) => {
+      const vistos = new Set<string>();
+      return xs.sort((a, b) => a.min - b.min).filter((x) => (vistos.has(x.enlace) ? false : (vistos.add(x.enlace), true))).slice(0, 12);
+    };
+    const prontoEscena: Pronto[] = [];
     for (const e of escenaHoy) {
-      const h = funcionesHoy(e)[0][1];
+      const h = funcionesHoy(e).find(([, hh]) => hh)?.[1];
       const m = h ? minutosHasta(hoy, h, hoy, ahora) : null;
-      if (m != null && m >= 0 && m <= 120) pronto.push({ enlace: enlaceFicha(e.id), nombre: e.nombre, lugar: e.sala || '', hora: h!, min: m });
+      if (m != null && m >= 0) prontoEscena.push({ enlace: enlaceFicha(e.id), nombre: e.nombre, lugar: e.sala || '', hora: h!, min: m, tipo: tipoTxt(e, t) });
     }
+    const prontoCine: Pronto[] = [];
     const cinesMap = new Map((cine?.cines || []).map((c) => [c.id, c]));
     for (const p of pelis) {
       for (const s of sesHoy(p)) {
         const m = minutosHasta(s[1], s[2], hoy, ahora);
-        if (m != null && m >= 0 && m <= 90) pronto.push({ enlace: enlacePeli(p.id), nombre: tituloPeli(p, lang), lugar: cinesMap.get(s[0])?.nombre || '', hora: s[2]!, min: m, version: s[3] });
+        if (m != null && m >= 0 && m <= 90) prontoCine.push({ enlace: enlacePeli(p.id), nombre: tituloPeli(p, lang), lugar: cinesMap.get(s[0])?.nombre || '', hora: s[2]!, min: m, version: s[3] });
       }
     }
-    pronto.sort((a, b) => a.min - b.min);
-    // una entrada por obra o película (la sesión más próxima)
-    const vistos = new Set<string>();
-    const unicos = pronto.filter((x) => (vistos.has(x.enlace) ? false : (vistos.add(x.enlace), true)));
-    pronto.length = 0;
-    pronto.push(...unicos);
-    return { escenaHoy, magia, ultimos, cineHoy, estrenos, pronto: pronto.slice(0, 12) };
-  }, [lista, cine, hoy, ahora, lang]);
+    // Eventos (festivales, talleres, charlas, premios…): los próximos, por fecha.
+    const eventos = lista.filter((e) => e.tipo === 'eventos' && e.funciones.length)
+      .sort((a, b) => (a.funciones[0][0] + (a.funciones[0][1] || '')).localeCompare(b.funciones[0][0] + (b.funciones[0][1] || '')));
+    return { escenaHoy, magia, ultimos, cineHoy, estrenos, eventos, prontoEscena: unaPorTitulo(prontoEscena), prontoCine: unaPorTitulo(prontoCine) };
+  }, [lista, cine, hoy, ahora, lang, t]);
 
   return (
     <main className="pantalla inicio">
@@ -128,16 +132,32 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
 
       {!cartelera && !cine ? <p className="aviso">{t.cargando}</p> : null}
 
-      {datos.pronto.length ? (
+      {datos.prontoCine.length ? (
         <section className="fila-inicio">
-          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.ahoraMismo}</h2></div>
+          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.prontoCine}</h2><a className="ver-todo" href="#cine">{t.verTodo}</a></div>
           <div className="carrusel">
-            {datos.pronto.map((x, i) => (
+            {datos.prontoCine.map((x, i) => (
               <a key={`${x.enlace}-${x.hora}-${i}`} className="ticket" href={x.enlace}>
                 <span className="ticket-hora">{x.hora}</span>
                 <span className="ticket-cuando">{t.empiezaEn(x.min)}</span>
                 <span className="ticket-nombre">{x.nombre}</span>
                 <span className="ticket-lugar">{x.lugar}{x.version ? ` · ${t.versiones[x.version] || x.version}` : ''}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {datos.prontoEscena.length ? (
+        <section className="fila-inicio">
+          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.prontoEscena}</h2><a className="ver-todo" href="#cartelera">{t.verTodo}</a></div>
+          <div className="carrusel">
+            {datos.prontoEscena.map((x, i) => (
+              <a key={`${x.enlace}-${x.hora}-${i}`} className="ticket ticket-escena" href={x.enlace}>
+                <span className="ticket-hora">{x.hora}</span>
+                <span className="ticket-cuando">{t.empiezaEn(x.min)}</span>
+                <span className="ticket-nombre">{x.nombre}</span>
+                <span className="ticket-lugar">{[x.tipo, x.lugar].filter(Boolean).join(' · ')}</span>
               </a>
             ))}
           </div>
@@ -175,6 +195,15 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
           {datos.magia.slice(0, 12).map((e) => {
             const f = e.funciones.find(([d]) => d >= hoy);
             return <PosterObra key={e.id} e={e} t={t} detalle={[f ? fmtDia(f[0], t) : '', e.sala].filter(Boolean).join(' · ')} />;
+          })}
+        </Fila>
+      ) : null}
+
+      {datos.eventos.length ? (
+        <Fila titulo={t.proximosEventos} enlace="#eventos" t={t}>
+          {datos.eventos.slice(0, 14).map((e) => {
+            const f = e.funciones[0];
+            return <PosterObra key={e.id} e={e} t={t} detalle={[tipoTxt(e, t), f ? fmtDia(f[0], t) : ''].filter(Boolean).join(' · ')} />;
           })}
         </Fila>
       ) : null}

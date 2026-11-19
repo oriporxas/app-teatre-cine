@@ -50,10 +50,12 @@ maximo_por_ejecucion = 20     # hoy solo magos y magas (búsqueda web: 10 $ cada
 # vuelve a llamar a la IA hasta el día siguiente. Lo pendiente se hace otro día.
 # Peticiones por lotes (Uri, 19/11/2026: «sí, hazlo»). Las tareas con «por_lotes = true» envían
 # todas sus preguntas juntas a la vez; Anthropic las cobra a mitad de precio y las contesta cuando
-# tiene hueco (casi siempre en minutos; como mucho, 24 horas). La tarea diaria espera como mucho
-# estos minutos; lo que no haya llegado lo recoge la siguiente ejecución (mediodía o mañana).
+# tiene hueco (en la prueba real, 2 minutos). La tarea espera como mucho estos minutos; si algo no
+# ha llegado, se cancela (no se cobra) y se pregunta al momento por la vía normal, a precio completo.
+# Así lo nuevo nunca queda para otra ejecución. Las respuestas son las mismas: mismo modelo, mismas
+# instrucciones y mismas comprobaciones; solo cambia cuándo llegan y el precio.
 [lotes]
-espera_maxima_minutos = 20
+espera_maxima_minutos = 10
 
 [presupuesto]
 maximo_usd_por_ejecucion = 2.0
@@ -87,6 +89,17 @@ por_lotes = true
 # oficial de las salas que no salen en la agenda municipal. Solo extraer datos, sin interpretar
 # (por eso el modelo barato); cada dato se comprueba después contra el texto de la página.
 # Solo se vuelve a pedir cuando la página cambia.
+# Eventos de cine (Uri, 19/11/2026): de lo que la agenda tiene de cine, qué es un evento (festival,
+# ciclo, cinefórum, premios, concurso, taller…) y qué una proyección suelta. Unas 200 actividades la
+# primera vez (céntimos); después, solo las nuevas.
+[eventos_cine]
+activa = true
+modelo = "claude-haiku-5-5"
+esfuerzo = "low"
+por_peticion = 20
+maximo_por_ejecucion = 400
+por_lotes = true
+
 [leer_webs]
 activa = true
 modelo = "claude-haiku-5-5"

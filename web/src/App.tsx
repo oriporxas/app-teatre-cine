@@ -29,7 +29,7 @@ const POR_PAGINA = 40;
 type Ruta = { vista: 'inicio' } | { vista: 'cartelera' } | { vista: 'ficha'; clave: string } | { vista: 'mapa' } | { vista: 'favoritos' }
   | { vista: 'planes' } | { vista: 'plan'; id: string } | { vista: 'cine' } | { vista: 'peli'; id: string } | { vista: 'sala'; id: string }
   | { vista: 'mapa-cine' } | { vista: 'noticias' } | { vista: 'buscar' } | { vista: 'persona'; id: string }
-  | { vista: 'teatro'; id: string } | { vista: 'historial' };
+  | { vista: 'teatro'; id: string } | { vista: 'historial' } | { vista: 'eventos' };
 
 const claveFicha = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -49,11 +49,12 @@ function leerRuta(): Ruta {
   if (h === 'favoritos') return { vista: 'favoritos' };
   if (h === 'planes') return { vista: 'planes' };
   if (h === 'historial') return { vista: 'historial' };
+  if (h === 'eventos') return { vista: 'eventos' };
   if (h.startsWith('plan-')) return { vista: 'plan', id: h.slice(5) };
   return { vista: 'inicio' };
 }
 
-const enlaceFicha = (id: string) => `#ficha-${claveFicha(id)}`;
+export const enlaceFicha = (id: string) => `#ficha-${claveFicha(id)}`;
 /** Página de una sala de teatro (con todo lo que tiene en cartel). */
 export const enlaceSala = (id: string) => `#teatro-${claveFicha(id)}`;
 
@@ -79,6 +80,12 @@ export default function App() {
   const ubic = useUbicacion();
   const planes = usePlanes();
   const hist = useHistorial();
+  // «#eventos» (desde Inicio): la cartelera de Teatro con el filtro de eventos puesto.
+  useEffect(() => {
+    if (ruta.vista !== 'eventos') return;
+    setFiltros((f) => ({ ...f, tipo: 'eventos' }));
+    window.location.replace('#cartelera');
+  }, [ruta.vista]);
   // «Agenda» abre el último apartado usado (Planes, Guardado o Historial).
   const [agenda, setAgenda] = useState<string>(() => { try { return localStorage.getItem('agenda') || '#planes'; } catch { return '#planes'; } });
   useEffect(() => {
@@ -159,6 +166,7 @@ export default function App() {
       ) : null}
       {ruta.vista === 'cine' ? (
         <VistaCine t={t} lang={lang} datos={cine} error={errorCine} hoy={hoy} ahora={ahora} favs={favs} hist={hist} ubic={ubic}
+          eventos={lista.filter((e) => e.tipo === 'eventos' && e.disciplina === 'cine')}
           filtros={filtrosCine} cambiar={cambiarCine} />
       ) : null}
       {ruta.vista === 'peli' && peli && cine ? (
@@ -170,7 +178,7 @@ export default function App() {
       {ruta.vista === 'mapa-cine' ? <VistaMapaCine t={t} datos={cine} hoy={hoy} ubic={ubic} /> : null}
       {ruta.vista === 'noticias' ? <VistaNoticias t={t} lang={lang} noticias={noticias} error={errorNoticias} /> : null}
       {ruta.vista === 'buscar' ? <VistaBuscar t={t} lang={lang} q={busqueda} setQ={setBusqueda} lista={lista} cine={cine} personas={personas} hoy={hoy} /> : null}
-      {ruta.vista === 'persona' ? <VistaPersona t={t} p={personas.get(ruta.id) || [...personas.values()].find((x) => `n-${slug(x.nombre)}` === ruta.id)} volver={volver} /> : null}
+      {ruta.vista === 'persona' ? <VistaPersona t={t} lang={lang} p={personas.get(ruta.id) || [...personas.values()].find((x) => `n-${slug(x.nombre)}` === ruta.id)} volver={volver} /> : null}
       {ruta.vista === 'cartelera' || (ruta.vista === 'ficha' && !actual) ? (
         <VistaCartelera
           t={t} lang={lang} setLang={setLang} cartelera={vigente} error={error} hoy={hoy}

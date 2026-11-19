@@ -21,7 +21,16 @@ class IAFalsa:
         self.enviados = []
         self.estado = "in_progress"
         self.respuestas = {}  # custom_id -> resultado
-        self.messages = NS(batches=NS(create=self._crear, retrieve=self._mirar, results=self._resultados))
+        self.cancelados = []
+        self.messages = NS(batches=NS(create=self._crear, retrieve=self._mirar, results=self._resultados, cancel=self._cancelar))
+
+    def _cancelar(self, id_):
+        """Lo ya contestado se queda; lo demás pasa a «cancelado» (no se cobra)."""
+        self.cancelados.append(id_)
+        n = int(id_.removeprefix("lote")) - 1
+        for r in self.enviados[n]:
+            self.respuestas.setdefault(r["custom_id"], NS(type="canceled"))
+        self.estado = "ended"
 
     def _crear(self, requests):
         self.enviados.append(list(requests))
@@ -61,10 +70,25 @@ class TestLotes(unittest.TestCase):
         lotes.enviar(self.cli, modelo="claude-haiku-5-5", esfuerzo="low", sistema="S", esquema={"type": "object"},
                      peticiones=peticiones)
 
-    def test_si_no_termina_hoy_lo_recoge_la_siguiente_ejecucion(self):
+    def test_lo_que_no_llega_a_tiempo_se_pregunta_al_momento(self):
+        """Uri (19/11/2026): lo nuevo tiene que detectarse rápido, no horas después."""
         lotes = ia.Lotes("prueba", self.carpeta)
         self.enviar(lotes, {"a": ("mensaje A", {"obra": "A"}), "b": ("mensaje B", {"obra": "B"})})
-        lotes.esperar(0)
+        # La IA ya ha contestado A pero no B cuando se acaba la espera.
+        cid_a = self.cli.enviados[0][0]["custom_id"]
+        self.cli.respuestas[cid_a] = bien({"ok": "A por lotes"})
+        with mock.patch.object(ia, "pedir_json", return_value={"ok": "B normal"}) as normal, \
+                mock.patch.object(ia.time, "sleep", lambda s: None):
+            lotes.esperar(0)
+        self.assertEqual(self.cli.cancelados, ["lote1"])
+        normal.assert_called_once()  # solo B, a precio completo
+        self.assertEqual(sorted(d["obra"] for _, d in lotes.recogidas), ["A", "B"])
+        self.assertEqual(lotes.datos_en_curso(), [])
+
+    def test_si_la_ejecucion_se_corta_lo_recoge_la_siguiente(self):
+        lotes = ia.Lotes("prueba", self.carpeta)
+        self.enviar(lotes, {"a": ("mensaje A", {"obra": "A"}), "b": ("mensaje B", {"obra": "B"})})
+        lotes.esperar(0, rescatar=False)
         self.assertEqual(lotes.recogidas, [])
         self.assertEqual(sorted(d["obra"] for d in lotes.datos_en_curso()), ["A", "B"])  # no se vuelven a pedir
         # Al día siguiente la IA ya ha contestado: se recoge al abrir, a mitad de precio.

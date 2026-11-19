@@ -674,3 +674,8 @@ a.hora-chip { text-decoration: none; }
 .hist-check { color: var(--acento-texto); display: inline-flex; }
 .hist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; text-decoration: none; padding: 4px 0; }
 .hist-info .caja-titulo { overflow-wrap: anywhere; }
+
+/* Ficha ampliada de persona (Uri, 19/11/2026) */
+.enlaces-persona { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.persona-bio { font-size: 16px; line-height: 1.55; color: var(--texto-claro); }
+.fila-trabajo { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border-bottom: 1px solid var(--superficie-2); }

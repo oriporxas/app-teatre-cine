@@ -173,6 +173,31 @@ def detalles(qids: list[str]) -> dict[str, dict]:
     return res
 
 
+def humanos_con_nombre(nombre: str) -> int | None:
+    """Cuántas personas hay en Wikidata con ese nombre exacto (o alias). None si Wikidata no responde.
+    Si son varias, el nombre es común y no se adivina quién es (biografias.py)."""
+    candidatos: list[str] = []
+    for idioma in ("es", "ca"):
+        r = _wd(action="wbsearchentities", search=nombre, language=idioma, type="item", limit=7)
+        if r is None:
+            return None
+        candidatos += [x["id"] for x in r.get("search", []) if x.get("id") not in candidatos]
+    if not candidatos:
+        return 0
+    r = _wd(action="wbgetentities", ids="|".join(candidatos[:14]), props="labels|aliases|claims", languages="es|ca|en")
+    if r is None:
+        return None
+    objetivo, n = normalizar(nombre), 0
+    for e in (r.get("entities") or {}).values():
+        claims = e.get("claims") or {}
+        es_humano = any(((c.get("mainsnak") or {}).get("datavalue") or {}).get("value", {}).get("id") == "Q5"
+                        for c in claims.get("P31", []))
+        nombres = {normalizar(v["value"]) for v in (e.get("labels") or {}).values()}
+        nombres |= {normalizar(a["value"]) for l in (e.get("aliases") or {}).values() for a in l}
+        n += es_humano and objetivo in nombres
+    return n
+
+
 def _buscar(nombre: str) -> dict | None:
     """La ficha de Wikidata de esa persona, o None si no hay una única coincidencia segura."""
     candidatos: list[str] = []
@@ -224,7 +249,7 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
     ruta = config.carpeta_cache(ciudad.id, "personas") / "wikidata.json"
     cache = leer_json(ruta, {}) or {}
     hoy = dt.date.today()
-    fin = time.monotonic() + MINUTOS_MAX * 60
+    fin = time.monotonic() + config.tope_minutos(MINUTOS_MAX) * 60
     nombres: dict[str, str] = {}
     papeles: dict[str, set[str]] = {}
     for it in items:

@@ -12,13 +12,13 @@ on:
     - cron: "17 5 * * *"
     # Mediodía (13:17 UTC; 14:17 en invierno en Barcelona): si la de la mañana no dejó los datos
     # del día (p. ej. el 18/11/2026 la web del Ayuntamiento respondió «prohibido» un rato), se hace
-    # la actualización completa; si ya están, solo se renueva el cine (unos minutos), que cambia más.
+    # la actualización completa; si ya están, una rápida (unos 15 min): lo nuevo de la agenda, cine y noticias.
     - cron: "17 13 * * *"
   workflow_dispatch:
     inputs:
       minutos_lectura:
         description: "Minutos máximos leyendo páginas web (por fuente)"
-        default: "35"
+        default: "28"
 
 permissions:
   contents: write
@@ -62,11 +62,15 @@ jobs:
       - name: Comprobar el programa (pruebas automáticas)
         run: python -m unittest discover -s tests -t .
 
-      - name: Actualizar solo el cine (mediodía, si los datos del día ya están)
+      # Mediodía (Uri, 19/11/2026: lo nuevo tiene que salir enseguida): si los datos de la mañana ya
+      # están, actualización rápida: lo nuevo o cambiado de la agenda (6 min de guía), la IA solo para
+      # eso, el cine y las noticias. Unos 15 minutos.
+      - name: Actualización rápida (mediodía, si los datos del día ya están)
         if: ${{ github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si' }}
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
-        run: python -m pipeline.principal --solo-cine
+        run: python -m pipeline.principal --rapida
 
       - name: Actualizar datos
         if: ${{ !(github.event.schedule == '17 13 * * *' && steps.hoy.outputs.hecho == 'si') }}
@@ -77,7 +81,9 @@ jobs:
           # Clave de TMDB (datos de las películas: carteles, sinopsis, reparto…).
           # Si no existe, el cine sale con los datos de las webs de los cines.
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
-        run: python -m pipeline.principal --minutos-lectura "${{ github.event.inputs.minutos_lectura || '35' }}"
+        # 28 minutos de guía: con la rápida del mediodía, el total queda dentro de los 2.000 minutos
+        # gratis al mes de GitHub (las fichas nuevas y las de teatro, magia y circo van primero).
+        run: python -m pipeline.principal --minutos-lectura "${{ github.event.inputs.minutos_lectura || '28' }}"
 
       # Se guarda aunque el paso anterior avise de un error: cada ciudad ya ha
       # dejado sus datos buenos (o los de ayer, si una fuente falló).
@@ -90,7 +96,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin cambios hoy."
           else
-            git commit -q -m "Datos del $(date -u +%Y-%m-%d)${{ steps.hoy.outputs.hecho == 'si' && github.event.schedule == '17 13 * * *' && ' (cine del mediodía)' || '' }}"
+            git commit -q -m "Datos del $(date -u +%Y-%m-%d)${{ steps.hoy.outputs.hecho == 'si' && github.event.schedule == '17 13 * * *' && ' (mediodía)' || '' }}"
             for intento in 1 2 3 4; do
               git pull -q --rebase && git push -q && break
               sleep $((intento * 5))
