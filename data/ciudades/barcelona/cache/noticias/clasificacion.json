@@ -116,6 +116,14 @@
       "es": "La agenda gastronómica de noviembre en Barcelona: todos los planes para los amantes de la buena mesa"
     }
   },
+  "https://beteve.cat/agenda/festival-cruilla-barcelona-cartell/": {
+    "evento": true,
+    "resumen": {
+      "ca": "El festival Cruïlla torna a Barcelona el 2027 amb el seu 17 aniversari i anuncia els primers artistes confirmats.",
+      "es": "El festival Cruïlla vuelve a Barcelona en 2027 con su 17 aniversario y anuncia los primeros artistas confirmados."
+    },
+    "tema": "otro"
+  },
   "https://beteve.cat/agenda/primavera-sound-cartell-horaris-festival-barcelona/": {
     "ambito": "barcelona",
     "evento": true,
@@ -220,6 +228,14 @@
       "es": "El truco de la predicción de una carta mágica, por el mago Stigman"
     }
   },
+  "https://beteve.cat/cultura/arxiu-fotografic-barcelona-marta-povo/": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'Arxiu Fotogràfic de Barcelona presenta una exposició dedicada a la fotògrafa Marta Povo, comissariada per Món Casas.",
+      "es": "El Arxiu Fotogràfic de Barcelona presenta una exposición dedicada a la fotógrafa Marta Povo, comisariada por Món Casas."
+    },
+    "tema": "otro"
+  },
   "https://beteve.cat/cultura/carmelera-homenatge-carrers-gent-carmel-ritme-rumba/": {
     "ambito": "barcelona",
     "evento": false,
@@ -259,6 +275,14 @@
       "es": "El Meu Primer Festival llena las salas e incorpora un jurado con discapacidad"
     }
   },
+  "https://beteve.cat/cultura/estopa-concert-sorpresa-tibidabo/": {
+    "evento": false,
+    "resumen": {
+      "ca": "Estopa ofereix un concert sorpresa i íntim al Parc d'Atraccions del Tibidabo, en el marc dels LOS40 Music Awards.",
+      "es": "Estopa ofrece un concierto sorpresa e íntimo en el Parc d'Atraccions del Tibidabo, dentro del marco de los LOS40 Music Awards."
+    },
+    "tema": "otro"
+  },
   "https://beteve.cat/cultura/exposicio-50-anys-front-alliberament-gai-catalunya-model/": {
     "ambito": "barcelona",
     "evento": true,
@@ -271,6 +295,14 @@
       "ca": "50 anys d’història del Front d’Alliberament Gai de Catalunya en una exposició",
       "es": "50 años de historia del Frente de Liberación Gay de Cataluña en una exposición"
     }
+  },
+  "https://beteve.cat/cultura/jungle-jorge-drexler-kneecap-cruilla-2027/": {
+    "evento": false,
+    "resumen": {
+      "ca": "El festival Cruïlla 2027 anuncia Jungle, Daniel Caesar, Kneecap, Beirut i Jorge Drexler com a primers artistes confirmats.",
+      "es": "El festival Cruïlla 2027 anuncia a Jungle, Daniel Caesar, Kneecap, Beirut y Jorge Drexler como primeros artistas confirmados."
+    },
+    "tema": "otro"
   },
   "https://beteve.cat/cultura/maping-ajuntament-generalitat-placa-sant-jaume-nadal/": {
     "ambito": "barcelona",
@@ -337,6 +369,22 @@
       "es": "Rosalía suma nueve nominaciones a los premios Grammy 2027"
     }
   },
+  "https://beteve.cat/cultura/socunbohemio-cantautor-fisic-barcelona-supercomputing-center/": {
+    "evento": false,
+    "resumen": {
+      "ca": "Socunbohemio, músic i físic del Barcelona Supercomputing Center, apareix a Mirador Barcelona i presenta el seu segon disc a la Sala Apolo.",
+      "es": "Socunbohemio, músico y físico del Barcelona Supercomputing Center, aparece en Mirador Barcelona y presenta su segundo disco en la Sala Apolo."
+    },
+    "tema": "otro"
+  },
+  "https://beteve.cat/cultura/surt-venda-grand-theft-auto-vi-videojoc-segle/": {
+    "evento": false,
+    "resumen": {
+      "ca": "Surt a la venda el videojoc Grand Theft Auto VI, després de tretze anys d'espera des de l'anterior entrega de la saga.",
+      "es": "Sale a la venta el videojuego Grand Theft Auto VI, tras trece años de espera desde la anterior entrega de la saga."
+    },
+    "tema": "otro"
+  },
   "https://beteve.cat/cultura/tio-nadal-cagatio-catala-dubte-llengua/": {
     "ambito": "barcelona",
     "evento": false,
@@ -401,6 +449,14 @@
       "ca": "Els colors de les ‘Perifèries’",
       "es": "Los colores de las ‘Periferias’"
     }
+  },
+  "https://beteve.cat/tot-passa/colita-protagonista-del-fotofest-poblenou-2026/": {
+    "evento": false,
+    "resumen": {
+      "ca": "Colita és la protagonista del FotoFest 2026, una biennal de fotografia que reuneix 22 autors en 13 espais fins al 28 de novembre.",
+      "es": "Colita es la protagonista del FotoFest 2026, una bienal de fotografía que reúne 22 autores en 13 espacios hasta el 28 de noviembre."
+    },
+    "tema": "otro"
   },
   "https://beteve.cat/tot-passa/dolor-magenta-una-novel-la-negra-ambientada-a-la-barcelona-confinada-del-2020/": {
     "ambito": "barcelona",
@@ -726,6 +782,14 @@
       "ca": "Tothom dret: entra el mestre Kobo Abe",
       "es": "Todo el mundo derecho: entra el maestro Kobo Abe"
     }
+  },
+  "https://llegim.ara.cat/entrevistes/marta-marin-domine-veure-morir-amics-persones-estimo-prefereixo-anar-jo-abans_128_5905137.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'escriptora Marta Marín-Dòmine debuta com a dietarista amb Una dona que passa, un any de reflexions personals, polítiques i culturals.",
+      "es": "La escritora Marta Marín-Dòmine debuta como diarista con Una dona que passa, un año de reflexiones personales, políticas y culturales."
+    },
+    "tema": "otro"
   },
   "https://llegim.ara.cat/opinio/regal-d-hivern-ideal_129_5907346.html": {
     "ambito": "mundo",
@@ -1247,6 +1311,22 @@
       "es": "La Galería de las Colecciones Reales expone una obra firmada por Velázquez de Felipe IV, un préstamo de la National Gallery"
     }
   },
+  "https://www.20minutos.es/cinemania/criticas/critica-adolescencia-sexo-muerte-campamento-miasma-irresistible-divertida-queer-slasher_7056286_3.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Crítica de 'Adolescència, sexe i mort a Campament Miasma', una divertida deconstrucció queer del slasher.",
+      "es": "Crítica de 'Adolescencia, sexo y muerte en Campamento Miasma', una divertida deconstrucción queer del slasher."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/criticas/critica-citas-pelicula-recursos-faciles-irrita-no-llega-molestar_7056274_3.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Crítica de 'Citas: La pel·lícula', una comèdia romàntica previsible però a estones agradable.",
+      "es": "Crítica de 'Citas: La película', una comedia romántica previsible pero a ratos agradable."
+    },
+    "tema": "cine"
+  },
   "https://www.20minutos.es/cinemania/criticas/critica-juegos-hambre-amanecer-cosecha-mejor-pelicula-llamas-joseph-zada-mckenna-grace_7056700_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1272,6 +1352,14 @@
       "ca": "Crítica de 'El niño': Netflix recorda la tragèdia d'Ortuella en una adaptació de la novel·la de Fernando Aramburu",
       "es": "Crítica de 'El niño': Netflix rememora la tragedia de Ortuella en una adaptación de la novela de Fernando Aramburu"
     }
+  },
+  "https://www.20minutos.es/cinemania/criticas/critica-rose-drama-epoca-feminista-gran-actuacion-sandra-huller_7056257_3.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Crítica de 'Rose', un drama d'època feminista amb una gran interpretació de Sandra Hüller.",
+      "es": "Crítica de 'Rose', un drama de época feminista con una gran actuación de Sandra Hüller."
+    },
+    "tema": "cine"
   },
   "https://www.20minutos.es/cinemania/criticas/critica-scrooge-los-fantasmas-navidad-deliciosamente-gotica-con-un-necesario-regreso-johnny-depp_7060421_3.html": {
     "ambito": "mundo",
@@ -1311,6 +1399,22 @@
       "ca": "Crítica de 'Wild Horse Nine': Martin McDonagh es confirma com un dels cineastes més lliures de Hollywood",
       "es": "Crítica de 'Wild Horse Nine': Martin McDonagh se confirma como uno de los cineastas más libres de Hollywood"
     }
+  },
+  "https://www.20minutos.es/cinemania/muere-cyra-toledo-actriz-mararia-epilogo-hermana-presentadora-jose-toledo_7062585_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Mor l'actriu Cyra Toledo, de 'Mararía' i 'Epílogo', germana de la presentadora Jose Toledo.",
+      "es": "Muere la actriz Cyra Toledo, de 'Mararía' y 'Epílogo', hermana de la presentadora Jose Toledo."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/noticias/ahsoka-starfighter-asi-celebrara-star-wars-su-50-aniversario-2027_7060367_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Star Wars celebrarà el seu 50 aniversari el 2027 amb nous estrenes i una versió restaurada de La guerra de les galàxies.",
+      "es": "Star Wars celebrará su 50 aniversario en 2027 con nuevos estrenos y una versión restaurada de La guerra de las galaxias."
+    },
+    "tema": "cine"
   },
   "https://www.20minutos.es/cinemania/noticias/andrea-g-bermejo-es-nueva-directora-comunicacion-academia-cine_7060199_0.html": {
     "ambito": "espana",
@@ -1377,6 +1481,14 @@
       "es": "Netflix descubre las películas que inspiraron 'La bola negra': no está el director que esperabas"
     }
   },
+  "https://www.20minutos.es/cinemania/noticias/christopher-nolan-odisea-contrario-montaje-director_7062560_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Christopher Nolan afirma que 'La odisea' té moltes escenes eliminades que ningú no veurà mai, i explica per què no hi haurà metratge estès.",
+      "es": "Christopher Nolan afirma que 'La odisea' tiene muchas escenas eliminadas que nadie verá, y explica por qué no habrá metraje extendido."
+    },
+    "tema": "cine"
+  },
   "https://www.20minutos.es/cinemania/noticias/colision-luis-zahera-netflix-top-mas-vista-ranking_7059196_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1416,6 +1528,14 @@
       "es": "Es oficial, tenemos nuevo James Bond: Robert Pattinson sucederá a Daniel Craig como 007"
     }
   },
+  "https://www.20minutos.es/cinemania/noticias/espadas-armas-cine-peliculas-senor-anillos-conan-inmortales-toledo-espana_7055136_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Una companyia de Toledo, Marto, va fabricar les espases de pel·lícules com El senyor dels anells i Conan el bàrbar.",
+      "es": "Una compañía de Toledo, Marto, fabricó las espadas de películas como El señor de los anillos y Conan, el bárbaro."
+    },
+    "tema": "cine"
+  },
   "https://www.20minutos.es/cinemania/noticias/fe-religiosa-cine-familiar-quien-es-nuevo-lider-dc-por-que-va-cambiarlo-todo-despues-james-gunn_7059099_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1454,6 +1574,30 @@
       "ca": "Glenn Close no s'oblida dels Javis en rebre el seu Oscar honorífic: «Moltes gràcies per incloure'm en una pel·lícula tan brillant»",
       "es": "Glenn Close no se olvida de los Javis al recibir su Oscar honorífico: \"Muchas gracias por incluirme en una película tan brillante\""
     }
+  },
+  "https://www.20minutos.es/cinemania/noticias/ha-estado-superman-2-detras-despido-james-gunn-los-feos-rumores-sobre-secuela_7060717_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Rumors sobre si la seqüela 'Superman 2' va influir en el acomiadament de James Gunn, amb el film previst per a l'estiu següent.",
+      "es": "Rumores sobre si la secuela 'Superman 2' influyó en el despido de James Gunn, con la película prevista para el verano siguiente."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/noticias/jeff-bezos-revela-como-eligio-robert-pattinson-nuevo-james-bond-cinco-finalistas_7062603_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Jeff Bezos explica el procés de selecció de Robert Pattinson com a nou James Bond, després de fer proves amb cinc finalistes.",
+      "es": "Jeff Bezos explica el proceso de selección de Robert Pattinson como nuevo James Bond, tras hacer pruebas con cinco finalistas."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/noticias/juegos-hambre-amanecer-cosecha-haymitch-maysilee-todos-personajes_7058215_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Guia dels personatges de Els jocs de la fam: Ballada de pardals i serps, amb tributs, rebels i tirans de Panem.",
+      "es": "Guía de los personajes de Los juegos del hambre: Amanecer en la cosecha, con tributos, rebeldes y tiranos de Panem."
+    },
+    "tema": "cine"
   },
   "https://www.20minutos.es/cinemania/noticias/keira-knightley-no-ha-vuelto-ver-love-actually-desde-estreno-gente-cita-no-significa-nada-para-mi_7059362_0.html": {
     "ambito": "mundo",
@@ -1598,6 +1742,14 @@
       "es": "Muere a los 43 años Ray Tintori, cineasta y novio de la actriz Heidi Gardner"
     }
   },
+  "https://www.20minutos.es/cinemania/noticias/muerte-robin-hood-llega-streaming-fecha-estreno-espana-pelicula-hugh-jackman_7062669_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La mort de Robin Hood arriba al streaming i s'anuncia la data d'estrena a Espanya, protagonitzada per Hugh Jackman.",
+      "es": "La muerte de Robin Hood llega al streaming y se anuncia su fecha de estreno en España, protagonizada por Hugh Jackman."
+    },
+    "tema": "cine"
+  },
   "https://www.20minutos.es/cinemania/noticias/netflix-publicidad-streaming-dias-contados-reluce_7056582_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1610,6 +1762,14 @@
       "ca": "La major molèstia del streaming pot tenir els dies comptats: Netflix ja sap que no és or tot el que llueix",
       "es": "El mayor fastidio del streaming puede tener sus días contados: Netflix ya sabe que no es oro todo lo que reluce"
     }
+  },
+  "https://www.20minutos.es/cinemania/noticias/odisea-christopher-nolan-disponible-formato-fisico-digital-17-noviembre_7050912_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La Odisea de Nolan arriba al format físic i digital el 17 de novembre, cosa que acosta la seva arribada al streaming.",
+      "es": "La Odisea de Nolan llega a formato físico y digital el 17 de noviembre, lo que acerca su llegada al streaming."
+    },
+    "tema": "cine"
   },
   "https://www.20minutos.es/cinemania/noticias/odisea-christopher-nolan-ya-disponible-formato-fisico-digital-17-noviembre_7050912_0.html": {
     "ambito": "mundo",
@@ -1676,6 +1836,14 @@
       "es": "Ni los Javis ni Christopher Nolan pueden con ella: la película más popular del momento es una absoluta sorpresa"
     }
   },
+  "https://www.20minutos.es/cinemania/noticias/ramayana-bola-negra-odisea-christopher-nolan-javis-sorpresa_7059166_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Una pel·lícula índia és la més popular del moment a nivell mundial, malgrat la seva feble taquilla a Espanya.",
+      "es": "Una película india es la más popular del momento a nivel mundial, pese a su débil taquilla en España."
+    },
+    "tema": "cine"
+  },
   "https://www.20minutos.es/cinemania/noticias/reacher-se-pasa-movistar-alan-ritchson-motor-city-un-thriller-accion-que-desafia-las-reglas-cine_7060715_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1702,6 +1870,14 @@
       "es": "Ni el rey Carlos III ha podido resistirse a darle la bienvenida a Robert Pattinson como nuevo Bond"
     }
   },
+  "https://www.20minutos.es/cinemania/noticias/rey-carlos-felicitar-robert-pattinson-james-bond-007-bienvenido-servicio-su-majestad_7062331_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El rei Carles III felicita Robert Pattinson com a nou James Bond.",
+      "es": "El rey Carlos III felicita a Robert Pattinson como nuevo James Bond."
+    },
+    "tema": "cine"
+  },
   "https://www.20minutos.es/cinemania/noticias/robert-pattinson-james-bond-margaret-qualley-favorita_7061762_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1714,6 +1890,14 @@
       "ca": "Ni Sydney Sweeney ni Anya Taylor-Joy: aquesta és l'actriu favorita per ser la pròxima noia Bond segons les apostes",
       "es": "Ni Sydney Sweeney ni Anya Taylor-Joy: esta es la actriz favorita para ser la próxima chica Bond según las apuestas"
     }
+  },
+  "https://www.20minutos.es/cinemania/noticias/scrooge-fantasmas-navidad-johnny-depp-lidera-taquilla-espana_7061608_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "'Scrooge i els fantasmes de Nadal', amb Johnny Depp, encapçala la taquilla desbancant 'La bola negra'.",
+      "es": "'Scrooge y los fantasmas de la Navidad', con Johnny Depp, encabeza la taquilla desbancando a 'La bola negra'."
+    },
+    "tema": "cine"
   },
   "https://www.20minutos.es/cinemania/noticias/scrooge-fantasmas-navidad-johnny-depp-numero-uno-taquilla-espana_7061608_0.html": {
     "ambito": "mundo",
@@ -1793,6 +1977,38 @@
       "es": "'Trinidad' estrena su tráiler con Karla Sofía Gascón, Paz Vega y Gabriela Andrada: fecha de estreno y más del wéstern del año"
     }
   },
+  "https://www.20minutos.es/cinemania/noticias/una-cuarta-guardianes-galaxia-idea-chris-pratt-ahora-que-james-gunn-esta-fuera-dc_7061427_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Chris Pratt planteja la possibilitat d'una quarta entrega de Guardians de la galàxia després de la sortida de James Gunn de DC.",
+      "es": "Chris Pratt plantea la posibilidad de una cuarta entrega de Guardianes de la galaxia tras la salida de James Gunn de DC."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/noticias/viernes-13-13-peliculas-rodada-titulo-fecha-estreno_7062829_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La 13a pel·lícula de 'Divendres 13' ja està rodada, comptarà amb una actriu de 'Rancho Dutton' i s'estrenarà el 2027.",
+      "es": "La 13ª película de 'Viernes 13' ya está rodada, contará con una actriz de 'Rancho Dutton' y se estrenará en 2027."
+    },
+    "tema": "cine"
+  },
+  "https://www.20minutos.es/cinemania/noticias/visionquest-vengadores-doomsday-escena-postcreditos-bruja-escarlata-doctor-doom_7060098_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La sèrie 'VisionQuest', protagonitzada per Paul Bettany, acaba amb una escena rellevant per al futur del MCU.",
+      "es": "La serie 'VisionQuest', protagonizada por Paul Bettany, termina con una escena relevante para el futuro del MCU."
+    },
+    "tema": "otro"
+  },
+  "https://www.20minutos.es/cinemania/series/5-1-millones-visualizaciones-cinco-dias-the-body-cuerpo-nueva-serie-netflix_7062485_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La sèrie de Netflix The Body acumula 5,1 milions de visualitzacions en cinc dies i és molt aplaudida.",
+      "es": "La serie de Netflix The Body acumula 5,1 millones de visualizaciones en cinco días y es muy aplaudida."
+    },
+    "tema": "otro"
+  },
   "https://www.20minutos.es/cinemania/series/abe-bueno-jallad-apostol-santiago-the-chosen-los-elegidos-jesus-nazaret-fue-una-victima-politica_7061152_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1805,6 +2021,14 @@
       "ca": "Abe Bueno-Jallad, l'apòstol Jaume a 'The Chosen' ('Els escollits'): «Jesús de Natzaret va ser una víctima política»",
       "es": "Abe Bueno-Jallad, el apóstol Santiago en 'The Chosen' ('Los elegidos'): \"Jesús de Nazaret fue una víctima política\""
     }
+  },
+  "https://www.20minutos.es/cinemania/series/anatomia-grey-spin-off-breaking-bad-shonda-rhimes_7059477_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Un problema financer ha frenat la producció de l'spin-off d'Anatomia de Grey desenvolupat a Texas.",
+      "es": "Un problema financiero ha frenado la producción del spin-off de Anatomía de Grey desarrollado en Texas."
+    },
+    "tema": "otro"
   },
   "https://www.20minutos.es/cinemania/series/can-yaman-cambia-las-normas-actor-turco-da-un-giro-180-grados-con-esta-serie-espanola_7060669_0.html": {
     "ambito": "espana",
@@ -1831,6 +2055,14 @@
       "ca": "Confirmat per Netflix: 'El problema dels 3 cossos' tornarà amb una temporada 2 gairebé tres anys després",
       "es": "Confirmado por Netflix: 'El problema de los 3 cuerpos' regresará con una temporada 2 casi tres años después"
     }
+  },
+  "https://www.20minutos.es/cinemania/series/creador-senor-los-anillos-los-anillos-poder-responde-las-criticas-los-fans-no-estan-mando_7061649_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El creador de la sèrie El senyor dels anells: Els anells de poder respon als fans després de l'estrena de la tercera temporada.",
+      "es": "El creador de la serie El señor de los anillos: Los anillos de poder responde a los fans tras el estreno de la tercera temporada."
+    },
+    "tema": "otro"
   },
   "https://www.20minutos.es/cinemania/series/dexter-resurreccion-cuantos-episodios-tiene-temporada-2-fechas-estreno-skyshowtime-3_7054115_0.html": {
     "ambito": "mundo",
@@ -1870,6 +2102,14 @@
       "ca": "'La edat daurada': quants episodis té la temporada 4? Dates d'estrena a HBO Max Espanya",
       "es": "'La edad dorada': ¿cuántos episodios tiene la temporada 4? Fechas de estreno en HBO Max España"
     }
+  },
+  "https://www.20minutos.es/cinemania/series/entrevista-morfydd-clark-tercera-temporada-anillos-poder-galadriel-cate-blanchett_7053909_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'actriu Morfydd Clark parla del canvi de Galadriel a la tercera temporada de Els anells de poder.",
+      "es": "La actriz Morfydd Clark habla del cambio de Galadriel en la tercera temporada de Los anillos de poder."
+    },
+    "tema": "otro"
   },
   "https://www.20minutos.es/cinemania/series/entrevista-morfydd-clark-tercera-temporada-anillos-poder-sauron-galadriel_7053909_0.html": {
     "ambito": "mundo",
@@ -2105,6 +2345,14 @@
       "es": "¿Qué pasará con la serie de Jimmy Olsen tras el despido de James Gunn? Su protagonista no lo tiene claro"
     }
   },
+  "https://www.20minutos.es/cinemania/series/que-se-avecina-cuantos-episodios-tiene-temporada-17-fechas-estreno-prime-video_7062501_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La sèrie La que se avecina torna a Prime Video amb la seva temporada 17, de 8 episodis.",
+      "es": "La serie La que se avecina regresa a Prime Video con su temporada 17, de 8 episodios."
+    },
+    "tema": "otro"
+  },
   "https://www.20minutos.es/cinemania/series/reencuentro-the-office-steve-carell-jenna-fischer-john-krasinski-mas-volveran-reunion-fecha-nbc_7062114_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -2169,6 +2417,14 @@
       "ca": "'The Chosen': quants episodis té la temporada 6? Dates d'estrena en streaming",
       "es": "'The Chosen': ¿cuántos episodios tiene la temporada 6? Fechas de estreno en streaming"
     }
+  },
+  "https://www.20minutos.es/cinemania/series/the-chosen-cuantos-episodios-sexta-temporada-fechas-estreno-streaming-17-noviembre-primeros-capitulos_7060228_0.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La sisena temporada de la sèrie The Chosen arribarà a Espanya el 17 de novembre.",
+      "es": "La sexta temporada de la serie The Chosen llegará a España el 17 de noviembre."
+    },
+    "tema": "otro"
   },
   "https://www.20minutos.es/cinemania/series/tierra-mafiosos-episodios-temporada-2-fechas-estreno-skyshowtime-capitulo-noveno-capitulo_7036611_0.html": {
     "ambito": "mundo",
@@ -3301,6 +3557,14 @@
       "es": "Museos, teatro y cine: el secreto para envejecer mejor"
     }
   },
+  "https://www.ara.cat/cultura/arquitectura/l-arquitectura-contemporania-reclama-lloc-patrimoni_1_5911158.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La conservació de l'arquitectura contemporània guanya presència, i l'AADIPA del COAC li dedica l'edició d'enguany del seu cicle.",
+      "es": "La conservación de la arquitectura contemporánea gana presencia, y el AADIPA del COAC le dedica la edición de este año de su ciclo."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/cultura/art/castanyers-flor-gogh-reapareix-despres-mig-segle-preu-164-milions-d-euros_1_5914354.html": {
     "ambito": "mundo",
     "evento": false,
@@ -3326,6 +3590,14 @@
       "ca": "Les pintures profanes de Sixena ja s'han desinstal·lat del MNAC",
       "es": "Las pinturas profanas de Sixena ya se han desinstalado del MNAC"
     }
+  },
+  "https://www.ara.cat/cultura/art/gran-misteri-jan-eyck-retrat-retrat-national-gallery-londres_1_5913598.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La National Gallery de Londres dedica una mostra als misteris de Jan van Eyck, amb el retrat Arnolfini com a referència.",
+      "es": "La National Gallery de Londres dedica una muestra a los misterios de Jan van Eyck, con el retrato Arnolfini como referencia."
+    },
+    "tema": "otro"
   },
   "https://www.ara.cat/cultura/art/imperdibles-nova-edicio-fira-videoart-loop_1_5912211.html": {
     "ambito": "barcelona",
@@ -3404,6 +3676,14 @@
       "ca": "La ventada fa malbé el laberint de vidre del pavelló Mies van der Rohe",
       "es": "El viento daña el laberinto de cristal del pabellón Mies van der Rohe"
     }
+  },
+  "https://www.ara.cat/cultura/art/vols-comencar-col-leccionar-art-setmana-l-art-t-ho-posa-facil_1_5914395.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La comissària Alexia Medici presenta la sisena edició de la Setmana de l'Art, amb galeries d'arreu del país del 25 al 29 de novembre.",
+      "es": "La comisaria Alexia Medici presenta la sexta edición de la Setmana de l'Art, con galerías de todo el país del 25 al 29 de noviembre."
+    },
+    "tema": "otro"
   },
   "https://www.ara.cat/cultura/bola-negra-arrasa-nominacions-als-premis-cinema-europeu_1_5910552.html": {
     "ambito": "mundo",
@@ -3639,6 +3919,14 @@
       "es": "La actriz Marta Angelat explica que ha superado un coma"
     }
   },
+  "https://www.ara.cat/cultura/miro-generalitat-comprat-milions_1_5914554.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El Departament de Cultura compra per 1,61 milions d'euros la pintura Siurana, el poble, de Joan Miró, que passa als fons públics.",
+      "es": "El Departament de Cultura compra por 1,61 millones de euros la pintura Siurana, el poble, de Joan Miró, que pasa a fondos públicos."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/cultura/musica/allergiques-pollen-vam-decidir-treure-tota-merda-minut-mig-gent-pogues-entendre-passa_128_5906968.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -3756,6 +4044,14 @@
       "es": "'Uketamo', aprender a abrazar la vida tal como viene"
     }
   },
+  "https://www.ara.cat/gent/famosos/l-audiencia-nacional-admet-denuncia-julio-iglesias-agressio-sexual_1_5914644.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'Audiència Nacional admet la querella de dues extreballadores contra Julio Iglesias per presumptes delictes contra la llibertat sexual.",
+      "es": "La Audiencia Nacional admite la querella de dos extrabajadoras contra Julio Iglesias por presuntos delitos contra la libertad sexual."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/gent/joana-sanz-esclata-dani-alves-em-vas-miques_1_5912669.html": {
     "ambito": "espana",
     "evento": false,
@@ -3781,6 +4077,14 @@
       "ca": "Júlia Creus, actriu de ‘Merlí’: “A la sèrie es van aprofitar molt de nosaltres”",
       "es": "Júlia Creus, actriz de ‘Merlí’: “En la serie se aprovecharon mucho de nosotros”"
     }
+  },
+  "https://www.ara.cat/gent/musics/amaia-montero-humana-no-em-mereixo-aixo_1_5914970.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Els membres de La Oreja de Van Gogh parlen a la Cadena Ser sobre la pressió mediàtica arran del retorn d'Amaia Montero.",
+      "es": "Los miembros de La Oreja de Van Gogh hablan en la Cadena Ser sobre la presión mediática tras el retorno de Amaia Montero."
+    },
+    "tema": "otro"
   },
   "https://www.ara.cat/gent/visita-sorpresa-katy-perry-justin-trudeau-l-ateneu-barcelones_1_5914346.html": {
     "ambito": "barcelona",
@@ -3834,6 +4138,14 @@
       "es": "Canal Sur aparta al humorista Manolo Sarria por una denuncia de acoso sexual"
     }
   },
+  "https://www.ara.cat/media/foto-nen-africa-famelic-mocs-mosques-ja-no-funciona_128_5914459.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La directora de la Fundació Photographic Social Vision reflexiona sobre el fotoperiodisme social i l'evolució de les imatges de denúncia.",
+      "es": "La directora de la Fundació Photographic Social Vision reflexiona sobre el fotoperiodismo social y la evolución de las imágenes de denuncia."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/media/graupera-treu-ouija-ministra-garcia-traductora_129_5913299.html": {
     "ambito": "espana",
     "evento": false,
@@ -3847,6 +4159,14 @@
       "es": "Graupera saca la ouija y la ministra García se hace traductora"
     }
   },
+  "https://www.ara.cat/media/griso-art-treballar-dones-pasturar-migrants_129_5915150.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Una columna critica l'entrevista de Susanna Griso a Pedro Sánchez i l'enfocament del seu programa matinal contra el president.",
+      "es": "Una columna critica la entrevista de Susanna Griso a Pedro Sánchez y el enfoque de su programa matinal contra el presidente."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/media/periodisme-porro-trabuc-montse-minguez_129_5913663.html": {
     "ambito": "espana",
     "evento": false,
@@ -3859,6 +4179,22 @@
       "ca": "Periodisme de porró i trabuc contra Montse Mínguez",
       "es": "Periodismo de porra y trabuco contra Montse Mínguez"
     }
+  },
+  "https://www.ara.cat/media/videojocs/gta-vi-videojoc-mes-esperat-segle-fenomen-precedents_1_5913307.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "GTA VI arriba com el videojoc més esperat del segle, amb una expectació que transcendeix el món dels videojocs.",
+      "es": "GTA VI llega como el videojuego más esperado del siglo, con una expectación que trasciende el mundo de los videojuegos."
+    },
+    "tema": "otro"
+  },
+  "https://www.ara.cat/societat/abusos/bisbat-d-urgell-obre-proces-judicial-canonic-capella-acusat-violar-seminarista_1_5915141.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El Bisbat d'Urgell obre un procés judicial canònic al capellà acusat de violar un seminarista, després de suspendre'l.",
+      "es": "El Obispado de Urgell abre un proceso judicial canónico al sacerdote acusado de violar a un seminarista, tras suspenderlo."
+    },
+    "tema": "otro"
   },
   "https://www.ara.cat/societat/barcelona/aixi-quedat-nou-mercat-l-abaceria-gracia_1_5913114.html": {
     "ambito": "barcelona",
@@ -3899,6 +4235,14 @@
       "es": "En la PAU se revisó más el examen de literatura catalana que el polémico de matemáticas"
     }
   },
+  "https://www.ara.cat/societat/educacio/president-conferencia-degans-medicina-aposta-canviar-l-acces-grau_1_5915030.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El president de la conferència de degans de medicina proposa canviar l'accés al grau, en el marc d'un debat obert al sector.",
+      "es": "El presidente de la conferencia de decanos de medicina propone cambiar el acceso al grado, en el marco de un debate abierto en el sector."
+    },
+    "tema": "otro"
+  },
   "https://www.ara.cat/societat/mobilitat/nova-jornada-vaga-dels-maquinistes-renfe-aixi-afecta-rodalies_1_5912289.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -3911,6 +4255,14 @@
       "ca": "La vaga de maquinistes de Renfe torna a deixar Rodalies sota mínims",
       "es": "La huelga de maquinistas de Renfe vuelve a dejar Rodalies en servicios mínimos"
     }
+  },
+  "https://www.ara.cat/societat/salut/sol-licituds-d-eutanasia-creixen-30-l_1_5914575.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Les sol·licituds d'eutanàsia creixen un 30% a l'Estat, segons les darreres dades del Ministeri de Sanitat.",
+      "es": "Las solicitudes de eutanasia crecen un 30% en el Estado, según los últimos datos del Ministerio de Sanidad."
+    },
+    "tema": "otro"
   },
   "https://www.elconfidencial.com/cultura/2026-11-15/marlaska-y-el-cortafuegos-ministerial_4464586/": {
     "ambito": "espana",
@@ -4249,6 +4601,14 @@
       "ca": "CGT convoca una concentració davant del Teatre Real per vulnerar el dret de vaga dels seus treballadors",
       "es": "CGT convoca una concentración frente al Teatro Real por vulnerar el derecho a huelga de sus trabajadores"
     }
+  },
+  "https://www.eldiario.es/cultura/teatro/javier-bardem-rompe-miedo-teatro-homenajear-maestro-hubiera-gustado-madre-viera-obra_1_13673406.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Javier Bardem estrena '¡Chéjov, Chéjov!', obra dirigida per Juan Carlos Corazza sobre textos d'Antón Chèkhov, al costat d'altres alumnes del seu mestre.",
+      "es": "Javier Bardem estrena '¡Chéjov, Chéjov!', obra dirigida por Juan Carlos Corazza sobre textos de Antón Chejov, junto a otros alumnos de su maestro."
+    },
+    "tema": "teatro"
   },
   "https://www.eldiario.es/cultura/teatro/maria-medeiros-encarna-poeta-fernando-pessoa-obra-imagenes-subyugantes-resultado-desigual_129_13651228.html": {
     "ambito": "espana",
@@ -5043,6 +5403,38 @@
       "es": "Brad Pitt quiere ser el villano en la próxima película de James Bond: \"Mi amigo Javier Bardem lo hizo muy bien, dejó un listón muy alto\""
     }
   },
+  "https://www.espinof.com/actores-y-actrices/convirtieron-clasico-cine-basura-pornografica-actriz-lana-turner-odia-remake-pelicula-mitica-su-carrera": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'actriu Lana Turner critica durament el remake de 'El carter sempre truca dues vegades', la pel·lícula més cèlebre de la seva carrera.",
+      "es": "La actriz Lana Turner critica duramente el remake de 'El cartero siempre llama dos veces', la película más célebre de su carrera."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/actores-y-actrices/guitarricadelafuente-revela-inesperado-papel-su-madre-bola-negra-quien-mejor-que-ella": {
+    "evento": false,
+    "resumen": {
+      "ca": "Guitarricadelafuente explica en televisió estatunidenca el paper inesperat de la seva mare en la promoció de 'La bola negra'.",
+      "es": "Guitarricadelafuente cuenta en televisión estadounidense el papel inesperado de su madre en la promoción de 'La bola negra'."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/actores-y-actrices/joseph-zada-como-se-preparo-para-interpretar-al-joven-haymitch-amanecer-cosecha-pase-mes-viendo-todo-que-woody-harrelson-ha-hecho": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'actor Joseph Zada explica com es va preparar per interpretar el jove Haymitch a Els jocs de la fam: Ballada de pardals i serps.",
+      "es": "El actor Joseph Zada explica cómo se preparó para interpretar al joven Haymitch en Los juegos del hambre: Amanecer en la cosecha."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/actores-y-actrices/nos-gusta-robert-pattinson-como-james-bond-sabemos-a-quien-darle-gracias-jeff-bezos-estuvo-muy-involucrado-su-fichaje": {
+    "evento": false,
+    "resumen": {
+      "ca": "Jeff Bezos hauria tingut un paper important en l'elecció de Robert Pattinson com a nou James Bond.",
+      "es": "Jeff Bezos habría tenido un papel importante en la elección de Robert Pattinson como nuevo James Bond."
+    },
+    "tema": "cine"
+  },
   "https://www.espinof.com/actores-y-actrices/robert-pattinson-2020-sus-entrenamientos-fisicos-haces-ejercicio-todos-dias-eres-parte-problema-verdad-estaba-bromeando": {
     "ambito": "mundo",
     "evento": false,
@@ -5082,6 +5474,14 @@
       "es": "Tom Cruise (64 años): \"Quiero un mundo sin guerra. Quiero un mundo sin locura. Quiero ver que a la gente le va bien\""
     }
   },
+  "https://www.espinof.com/amazon-prime-video/senor-anillos-anillos-poder-ha-sido-destronada-piedad-autentica-serie-numero-1-amazon-prime-video": {
+    "evento": false,
+    "resumen": {
+      "ca": "La tercera temporada de la sèrie El senyor dels anells: Els anells de poder es converteix en la més vista de Prime Video en diversos països.",
+      "es": "La tercera temporada de la serie El señor de los anillos: Los anillos de poder se convierte en la más vista de Prime Video en varios países."
+    },
+    "tema": "otro"
+  },
   "https://www.espinof.com/anime/3-dias-llega-a-netflix-mayores-secuelas-anime-historia-nueva-generacion-heroes-para-continuar-legado-big-three": {
     "ambito": "mundo",
     "evento": false,
@@ -5094,6 +5494,22 @@
       "ca": "En 3 dies arriba a Netflix una de les majors seqüeles d'anime de la història. Una nova generació d'herois per continuar el llegat del Big Three",
       "es": "En 3 días llega a Netflix una de las mayores secuelas de anime de la historia. Una nueva generación de héroes para continuar el legado del Big Three"
     }
+  },
+  "https://www.espinof.com/anime/este-anime-isekai-absolutamente-imparable-re-zero-confirma-su-temporada-5-tenemos-primer-vistazo-siguiente-parada-para-subaru": {
+    "evento": false,
+    "resumen": {
+      "ca": "Re:ZERO confirma la cinquena temporada i es mostra un primer avanç de la següent etapa per a Subaru.",
+      "es": "Re:ZERO confirma su quinta temporada y se muestra un primer avance de la siguiente etapa para Subaru."
+    },
+    "tema": "otro"
+  },
+  "https://www.espinof.com/cine-clasico/superman-se-interpreto-a-durante-anos-40-eso-que-columbia-intentaron-que-colara-destrozando-vida-su-protagonista": {
+    "evento": false,
+    "resumen": {
+      "ca": "Segons la notícia, Columbia va intentar que Superman s'interpretés a si mateix als anys 40, en una història sobre els curtmetratges de Fleischer Studios.",
+      "es": "Según la noticia, Columbia intentó que Superman se interpretara a sí mismo en los años 40, en una historia sobre los cortometrajes de Fleischer Studios."
+    },
+    "tema": "cine"
   },
   "https://www.espinof.com/criticas/amanecer-cosecha-carga-legado-juegos-hambre-consigue-salir-bien-parada-adaptacion-estupenda-historia-haymitch": {
     "ambito": "mundo",
@@ -5108,6 +5524,14 @@
       "es": "'Amanecer en la cosecha' carga con el legado de 'Los juegos del hambre', pero consigue salir bien parada con una adaptación estupenda de la historia de Haymitch"
     }
   },
+  "https://www.espinof.com/criticas/no1-46-paises-esta-pelicula-basada-hechos-reales-aspiraciones-al-oscar-cuenta-potente-historia-revolucion": {
+    "evento": false,
+    "resumen": {
+      "ca": "Un biopic clàssic, basat en fets reals i dirigit per una guanyadora de l'Oscar, arrasa en streaming.",
+      "es": "Un biopic clásico, basado en hechos reales y dirigido por una ganadora del Óscar, arrasa en streaming."
+    },
+    "tema": "cine"
+  },
   "https://www.espinof.com/criticas/victorian-psycho-divertidisimo-tobogan-gore-locura-que-aprovecha-piruetas-visuales-para-ocultar-sus-obvios-errores-bulto": {
     "ambito": "mundo",
     "evento": false,
@@ -5121,6 +5545,14 @@
       "es": "'Victorian Psycho' es un divertidísimo tobogán hacia el gore y la locura que aprovecha las piruetas visuales para ocultar sus obvios errores de bulto"
     }
   },
+  "https://www.espinof.com/directores-y-guionistas/20-anos-peliculas-atrevidas-personales-christopher-nolan-que-sigue-siendo-reivindicable-su-filmografia": {
+    "evento": false,
+    "resumen": {
+      "ca": "Es recorda el vintè aniversari d'una pel·lícula de Christopher Nolan, que el mitjà considera la seva obra més reivindicable.",
+      "es": "Se recuerda el vigésimo aniversario de una película de Christopher Nolan, considerada por el medio su obra más reivindicable."
+    },
+    "tema": "cine"
+  },
   "https://www.espinof.com/directores-y-guionistas/a-steven-spielberg-no-le-apetecia-hacer-terror-martin-scorsese-no-queria-meterse-holocausto-solucion-fue-intercambiar-sus-trabajos": {
     "ambito": "mundo",
     "evento": false,
@@ -5133,6 +5565,14 @@
       "ca": "A Steven Spielberg no li feia gana fer terror i Martin Scorsese no volia ficar-se en l'Holocaust. La solució va ser intercanviar les seves feines",
       "es": "A Steven Spielberg no le apetecía hacer terror y Martin Scorsese no quería meterse en el Holocausto. La solución fue intercambiar sus trabajos"
     }
+  },
+  "https://www.espinof.com/directores-y-guionistas/denis-villeneuve-confiesa-que-que-estaba-buscando-al-elegir-al-nuevo-james-bond-necesito-creer-que-asesino-no-todo-mundo-tiene-esa-impresion": {
+    "evento": false,
+    "resumen": {
+      "ca": "Denis Villeneuve explica que buscava que el nou James Bond semblés un assassí en triar Robert Pattinson per al paper.",
+      "es": "Denis Villeneuve explica que buscaba que el nuevo James Bond pareciera un asesino al elegir a Robert Pattinson para el papel."
+    },
+    "tema": "cine"
   },
   "https://www.espinof.com/directores-y-guionistas/director-godzilla-minus-zero-defiende-sonido-como-mejor-catalizador-terror-salia-cada-sesion-profundamente-conmocionado": {
     "ambito": "mundo",
@@ -5173,6 +5613,38 @@
       "es": "Kyle Eastwood, hijo de Clint Eastwood: \"Mi padre ha interpretado a muchos tipos duros, pero no es tan duro como parece\""
     }
   },
+  "https://www.espinof.com/directores-y-guionistas/marvel-planeaba-robert-downey-jr-como-doctor-doom-antes-despido-jonathan-majors-asi-iba-a-ser-vengadores-the-kang-dinasty": {
+    "evento": false,
+    "resumen": {
+      "ca": "Marvel planejava incloure Robert Downey Jr. com a Doctor Doom a 'Vengadores: The Kang Dynasty' abans del acomiadament de Jonathan Majors.",
+      "es": "Marvel planeaba incluir a Robert Downey Jr. como Doctor Doom en 'Vengadores: The Kang Dynasty' antes del despido de Jonathan Majors."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/directores-y-guionistas/mazazo-a-paquita-salas-exito-bola-negra-javis-cuestionan-regreso-su-exitosa-comedia-tampoco-buena": {
+    "evento": false,
+    "resumen": {
+      "ca": "Els Javis qüestionen el retorn de la seva exitosa comèdia Paquita Salas, afirmant que no és tan bona.",
+      "es": "Los Javis cuestionan el regreso de su exitosa comedia Paquita Salas, afirmando que no es tan buena."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/directores-y-guionistas/santiago-segura-61-anos-yo-quise-llevar-a-mi-madre-a-sitio-alta-cocina-disfruto-que-le-habria-gustado-haberme-visto-masterchef": {
+    "evento": false,
+    "resumen": {
+      "ca": "Santiago Segura explica que va portar la seva mare a un restaurant d'alta cuina, on va gaudir tant que hauria volgut veure'l a MasterChef.",
+      "es": "Santiago Segura relata que llevó a su madre a un restaurante de alta cocina, donde disfrutó tanto que le habría gustado verle en MasterChef."
+    },
+    "tema": "otro"
+  },
+  "https://www.espinof.com/directores-y-guionistas/temporada-3-anillos-poder-pego-tijeretazo-a-sus-tramas-principales-razon-su-protagonista-no-era-buen-chico": {
+    "evento": false,
+    "resumen": {
+      "ca": "La temporada 3 de 'Els Anells de Poder' va eliminar una trama principal per la mala reputació del seu protagonista, segons la notícia.",
+      "es": "La temporada 3 de 'Los Anillos de Poder' eliminó una trama principal por la mala reputación de su protagonista, según la noticia."
+    },
+    "tema": "otro"
+  },
   "https://www.espinof.com/entretenimiento/hace-20-anos-saga-james-bond-cambio-para-siempre-joya-que-marco-inicio-mejor-etapa-personaje": {
     "ambito": "mundo",
     "evento": false,
@@ -5185,6 +5657,14 @@
       "ca": "Fa 20 anys la saga de James Bond va canviar per sempre amb una joia que va marcar l'inici de la millor etapa del personatge",
       "es": "Hace 20 años la saga de James Bond cambió para siempre con una joya que marcó el inicio de la mejor etapa del personaje"
     }
+  },
+  "https://www.espinof.com/entrevistas/protagonistas-the-chosen-reconocen-que-serie-les-ha-influido-fe-me-ha-ayudado-a-saber-que-todos-somos-humanos": {
+    "evento": false,
+    "resumen": {
+      "ca": "Abe Bueno-Jallad, actor de 'The Chosen', explica que la sèrie l'ha ajudat a saber que tots som humans en la seva relació amb la fe.",
+      "es": "Abe Bueno-Jallad, actor de 'The Chosen', explica que la serie le ha ayudado a saber que todos somos humanos en su relación con la fe."
+    },
+    "tema": "otro"
   },
   "https://www.espinof.com/entrevistas/vanessa-benavente-interpretar-a-madre-jesus-pequena-pieza-dentro-historia-mucho-grande": {
     "ambito": "espana",
@@ -5211,6 +5691,22 @@
       "ca": "Estrenes (18 de novembre). 138 sèries, pel·lícules i documentals a Netflix, Prime Video, HBO Max, Disney+, Movistar Plus, Filmin i SkyShowtime",
       "es": "Estrenos (18 de noviembre). 138 series, películas y documentales en Netflix, Prime Video, HBO Max, Disney+, Movistar Plus, Filmin y SkyShowtime"
     }
+  },
+  "https://www.espinof.com/estrenos/fans-llevan-20-anos-esperando-tercera-entrega-esta-superproduccion-protagonizada-nicolas-cage-ahora-se-va-a-estrenar-version-mejorada-para-cine-casa": {
+    "evento": false,
+    "resumen": {
+      "ca": "S'estrenarà una versió millorada per al cinema a casa d'una pel·lícula de Nicolas Cage, la tercera entrega de la qual els fans esperen des de fa més de 20 anys.",
+      "es": "Se estrenará una versión mejorada para cine en casa de una película de Nicolas Cage cuya tercera entrega esperan los fans desde hace más de 20 años."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/estrenos/insulsa-gracia-torpe-nueva-pelicula-christian-bale-nicolas-cage-completo-desastre-criticos": {
+    "evento": false,
+    "resumen": {
+      "ca": "La crítica considera un desastre 'Madden', pel·lícula protagonitzada per Christian Bale i Nicolas Cage, llançada directament en streaming.",
+      "es": "La crítica considera un desastre 'Madden', película protagonizada por Christian Bale y Nicolas Cage, lanzada directamente en streaming."
+    },
+    "tema": "cine"
   },
   "https://www.espinof.com/estrenos/mejores-peliculas-johnny-depp-publico-afirma-que-solo-estas-5-peliculas-toda-su-carrera-superan-a-scrooge-fantasmas-navidad": {
     "ambito": "mundo",
@@ -5264,6 +5760,14 @@
       "es": "Entre 'John Wick' y 'Venganza'. El nuevo éxito de Netflix es una brutal película de acción que ya es número 1 en 63 países"
     }
   },
+  "https://www.espinof.com/otros/wachowski-inician-batalla-legal-para-recuperar-matrix-encienden-alarmas-futuro-mitica-saga-ciencia-ficcion": {
+    "evento": false,
+    "resumen": {
+      "ca": "Les Wachowski inicien una batalla legal per recuperar 'Matrix', cosa que genera dubtes sobre el futur de la saga després de la compra del estudi per Paramount.",
+      "es": "Las Wachowski inician una batalla legal para recuperar 'Matrix', lo que genera dudas sobre el futuro de la saga tras la compra del estudio por Paramount."
+    },
+    "tema": "cine"
+  },
   "https://www.espinof.com/proyectos/nadie-skydance-ha-visto-man-of-tomorrow-james-gunn-asegura-que-secuela-superman-no-esta-siendo-modificada-ejecutivos-estudio": {
     "ambito": "mundo",
     "evento": false,
@@ -5276,6 +5780,22 @@
       "ca": "\"Ningú de Skydance no ha vist Man of Tomorrow\". James Gunn respon als rumors i assegura que la seqüela de 'Superman' està a salvo",
       "es": "\"Nadie de Skydance ha visto Man of Tomorrow\". James Gunn responde a los rumores y asegura que la secuela de 'Superman' está a salvo"
     }
+  },
+  "https://www.espinof.com/proyectos/vin-diesel-se-despide-fast-furious-anuncia-su-nueva-saga-accion-autor-proxima-pelicula-john-wick": {
+    "evento": false,
+    "resumen": {
+      "ca": "Vin Diesel anuncia que deixarà 'Fast & Furious' i que la seva propera pel·lícula d'acció serà 'Burial Hill', dirigida per l'autor de 'John Wick 4'.",
+      "es": "Vin Diesel anuncia que dejará 'Fast & Furious' y que su próxima película de acción será 'Burial Hill', dirigida por el autor de 'John Wick 4'."
+    },
+    "tema": "cine"
+  },
+  "https://www.espinof.com/proyectos/vuelve-jason-casi-20-anos-viernes-13-regresara-a-cines-a-estrellas-rancho-dutton-decimotercera-pelicula-saga": {
+    "evento": false,
+    "resumen": {
+      "ca": "'Divendres 13' torna als cinemes després de gairebé 20 anys, amb una estrella de 'Rancho Dutton' a la seva tretzena pel·lícula.",
+      "es": "'Viernes 13' regresa a los cines tras casi 20 años, con una estrella de 'Rancho Dutton' en su decimotercera película."
+    },
+    "tema": "cine"
   },
   "https://www.espinof.com/trailers/3-anos-despues-problema-3-cuerpos-vuelve-ambiciosa-serie-ciencia-ficcion-netflix-fin-tiene-fecha-estreno-trailer-su-temporada-2": {
     "ambito": "mundo",
@@ -8436,6 +8956,118 @@
       "es": "Vicent Enric Belda y Josep Maria Fulquet, premios literarios de Gandia con una mirada compartida"
     }
   },
+  "https://www.lavanguardia.com/cultura/20261118/11686890/videojuegos-critica-grand-theft-auto-vi-gtavi.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La Vanguardia publica una anàlisi de GTA VI, al qual ha tingut accés anticipat, amb cinc estrelles pel seu món virtual detallat.",
+      "es": "La Vanguardia publica un análisis de GTA VI, al que ha tenido acceso anticipado, con cinco estrellas por su mundo virtual detallado."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687131/museo-dali-figueres-expone-retrato-artista-hizo-madre-16-anos.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "El Museu Dalí de Figueres exhibirà durant sis mesos un retrat de la seva mare pintat per Dalí als 16 anys, adquirit recentment.",
+      "es": "El Museo Dalí de Figueres exhibirá durante seis meses un retrato de su madre pintado por Dalí a los 16 años, recién adquirido."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687136/magda-como-fanatismo-miedo-llevar-alguien-matar-hijos.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "L'obra 'Magda' indaga en la psicologia de la dona de Goebbels, que la va portar al fanatisme i la por fins a matar els seus fills.",
+      "es": "La obra 'Magda' indaga en la psicología de la mujer de Goebbels, que llevó al fanatismo y al miedo a matar a sus hijos."
+    },
+    "tema": "teatro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687168/fenomeno-grand-theft-auto-gta-vi-mayor-lanzamiento-todos-tiempos.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "GTA VI ha generat 1.400 milions de dòlars abans del llançament, i diverses empreses han donat dies lliures als treballadors per jugar-hi.",
+      "es": "GTA VI ha generado 1.400 millones de dólares antes de su lanzamiento, y varias empresas han dado días libres a sus trabajadores para jugarlo."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687227/volcan-alaska-planeta-venus-permiten-fechar-exactitud-caida-babilonia-destruccion-gran-capital-imperio-hitita-hattusa.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Anells dels arbres d'Alaska i dades de Venus permeten datar la caiguda de Babilònia i la destrucció de Hattusa, després d'una sequera greu.",
+      "es": "Anillos de árboles de Alaska y datos de Venus permiten datar la caída de Babilonia y la destrucción de Hattusa, tras una sequía grave."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687256/aragon-tacha-urtasun-supremacista-cobarde-criticar-sentencia-sijena.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Aragó i el ministre Urtasun s'enfronten per la sentència de Sijena, criticada per Urtasun per ignorar els criteris dels tècnics del MNAC.",
+      "es": "Aragón y el ministro Urtasun se enfrentan por la sentencia de Sijena, criticada por Urtasun por ignorar los criterios de los técnicos del MNAC."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687259/generalitat-compra-pintura-joan-miro-siurana-el-poble.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La Generalitat compra una pintura de Miró per 1,6 milions d'euros per la seva gran rellevància patrimonial per entendre l'evolució del pintor.",
+      "es": "La Generalitat compra una pintura de Miró por 1,6 millones de euros por su gran relevancia patrimonial para entender la evolución del pintor."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687487/gta-vi-alcanza-1-650-millones-dolares-estimados-ingresos-lanzamiento.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "S'estima que GTA VI generarà 3.000 milions de dòlars en ingressos i superarà els 30 milions d'unitats venudes a finals d'any.",
+      "es": "Se estima que GTA VI generará 3.000 millones de dólares en ingresos y superará los 30 millones de unidades vendidas a finales de año."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261118/11687590/miro-tapies-chillida-asoman-historica-plaza-navona-roma.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "La Fundació La Caixa porta a Roma quinze obres de les avantguardes espanyoles, entre elles de Miró, Tàpies i Chillida, a la plaça Navona.",
+      "es": "La Fundación La Caixa lleva a Roma quince obras de vanguardias españolas, entre ellas de Miró, Tàpies y Chillida, en la plaza Navona."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261119/11682478/eduard-fernandez-el-mal-padre-tener-hijo-mas-dificil-bonito.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Eduard Fernández parla de la paternitat i del seu paper de progenitor absent i narcisista a El mal padre, dirigida per Roberto Bueso.",
+      "es": "Eduard Fernández habla de la paternidad y de su papel como progenitor ausente y narcisista en El mal padre, dirigida por Roberto Bueso."
+    },
+    "tema": "cine"
+  },
+  "https://www.lavanguardia.com/cultura/20261119/11687580/xavier-alberti-teatro-pacto-convivencia-necesitamos-humanos.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Xavier Albertí, que dirigeix La ira de Narciso de Sergio Blanco al Teatre de l'Abadia, defensa el teatre com a pacte de convivència.",
+      "es": "Xavier Albertí, que dirige La ira de Narciso de Sergio Blanco en el Teatro de la Abadía, defiende el teatro como pacto de convivencia."
+    },
+    "tema": "teatro"
+  },
+  "https://www.lavanguardia.com/cultura/20261119/11687613/arte-conceptual-fabrica.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Un article titulat Arte conceptual de fábrica, sense entradilla disponible.",
+      "es": "Un artículo titulado Arte conceptual de fábrica, sin entradilla disponible."
+    },
+    "tema": "otro"
+  },
+  "https://www.lavanguardia.com/cultura/20261119/11687615/peeping-tom-revisita-temporada-alta.html": {
+    "evento": true,
+    "resumen": {
+      "ca": "Peeping Tom torna al Temporada Alta amb un cap de setmana de programació que inclou La Veronal, Mateus i Tarrida i Xavier Bobés.",
+      "es": "Peeping Tom vuelve al Temporada Alta con un fin de semana de programación que incluye a La Veronal, Mateus y Tarrida y Xavier Bobés."
+    },
+    "tema": "teatro"
+  },
+  "https://www.lavanguardia.com/cultura/20261119/11687845/gogh-llega-record-190-4-millones-castanos-flor-vendidos-disputa-nazi.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Una obra de Van Gogh arriba a un preu rècord en subhasta, marcada pel litigi entre la família propietària i els hereus del seu antic amo.",
+      "es": "Una obra de Van Gogh alcanza un precio récord en subasta, marcada por la disputa entre la familia propietaria y los herederos de su antiguo dueño."
+    },
+    "tema": "otro"
+  },
   "https://www.lavanguardia.com/cultura/arte/20261117/11686407/familia-judia-expoliada-nazis-pide-sotheby-s-detenga-subasta-gogh.html": {
     "ambito": "mundo",
     "evento": false,
@@ -8474,6 +9106,14 @@
       "ca": "«El tren fluvial»: el somni de la gran ciutat",
       "es": "‘El tren fluvial’: el sueño de la gran ciudad"
     }
+  },
+  "https://www.lavanguardia.com/cultura/cine/20261118/11687224/jeff-bezos-satisfecho-robert-pattinson-nuevo-bond-participe-activamente-eleccion.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Jeff Bezos valora positivament Robert Pattinson com a nou James Bond, en una franquícia sota control creatiu d'Amazon des del 2025.",
+      "es": "Jeff Bezos valora positivamente a Robert Pattinson como nuevo James Bond, en una franquicia bajo control creativo de Amazon desde 2025."
+    },
+    "tema": "cine"
   },
   "https://www.lavanguardia.com/cultura/culturas/20261113/11682224/viaje-cuentos-infantiles-regalo.html": {
     "ambito": "barcelona",
@@ -8695,6 +9335,14 @@
       "ca": "Estopa anuncia nous concerts a València, Barcelona i Madrid després d'esgotar les entrades",
       "es": "Estopa anuncia nuevos conciertos en València, Barcelona y Madrid tras agotar las entradas"
     }
+  },
+  "https://www.lavanguardia.com/cultura/musica/20261118/11687186/harry-styles-billie-eilish-cher-cartel-principal-proximo-glastonbury.html": {
+    "evento": false,
+    "resumen": {
+      "ca": "Harry Styles, Billie Eilish i Cher encapçalen el cartell del proper Glastonbury, juntament amb Sam Fender, Massive Attack i The xx, entre altres.",
+      "es": "Harry Styles, Billie Eilish y Cher encabezan el cartel del próximo Glastonbury, junto a Sam Fender, Massive Attack y The xx, entre otros."
+    },
+    "tema": "otro"
   },
   "https://www.lavanguardia.com/cultura/teatro/20261113/11682642/rita-dos-hermanos-decision-vital.html": {
     "ambito": "barcelona",
@@ -10489,6 +11137,14 @@
       "ca": "HOP Sant Adrià omple els carrers de circ, dansa i art urbà",
       "es": "HOP Sant Adrià llena las calles de circo, danza y arte urbano"
     }
+  },
+  "https://zirkolika.com/actualidad/humor-figueres-presenta-su-19a-edicion/": {
+    "evento": true,
+    "resumen": {
+      "ca": "Humor Figueres celebra la 19a edició del 4 al 7 de desembre, coincidint amb el pont de la Immaculada.",
+      "es": "Humor Figueres celebra su 19ª edición del 4 al 7 de diciembre, coincidiendo con el puente de la Purísima."
+    },
+    "tema": "otro"
   },
   "https://zirkolika.com/actualidad/manel-sala-ulls-presenta-una-retrospectiva-de-25-anos-de-circo/": {
     "ambito": "barcelona",

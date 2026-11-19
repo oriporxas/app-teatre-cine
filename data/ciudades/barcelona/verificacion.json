@@ -12,8 +12,8 @@
     "corregidas_por_regla": {
       "sala": 1
     },
-    "fecha": "2026-11-17",
-    "publicadas": 142
+    "fecha": "2026-11-19",
+    "publicadas": 143
   },
   "escena": {
     "anomalias": [
@@ -109,6 +109,13 @@
         "titulo": "Teatre i creació escènica"
       },
       {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400732578",
+        "id": "open_data_bcn:99400790594",
+        "regla": "repetida",
+        "titulo": "Teatre: Connecta amb la teva expressivitat!"
+      },
+      {
         "accion": "función quitada",
         "detalle": "2026-11-20 fuera del periodo 2026-11-21–2026-12-11",
         "id": "webs_salas:1eb88c22c16ed822",
@@ -118,10 +125,10 @@
     ],
     "corregidas_por_regla": {
       "fecha": 10,
-      "repetida": 4,
+      "repetida": 5,
       "sin_funciones": 1
     },
-    "fecha": "2026-11-18",
-    "publicadas": 626
+    "fecha": "2026-11-19",
+    "publicadas": 627
   }
 }

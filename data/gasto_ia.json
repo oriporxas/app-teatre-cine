@@ -17,6 +17,16 @@
       "noticias": 0.1307,
       "traducir": 0.0006
     },
-    "usd": 0.2807
+    "usd": 0.2806
+  },
+  "2026-11-19": {
+    "por_tarea": {
+      "clasificar": 0.2781,
+      "leer_webs": 0.034,
+      "noticias": 0.0112,
+      "revisar_dudosos": 0.1503,
+      "traducir": 0.003
+    },
+    "usd": 0.4766
   }
 }

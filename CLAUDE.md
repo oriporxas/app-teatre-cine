@@ -43,6 +43,9 @@ retraso de GitHub), pero ese día la API del Ayuntamiento respondió 403 a GitHu
 consulta: ahora un 403 se reintenta dos veces con pausa larga (`descargar.py`) y hay un segundo
 intento a las 13:17 UTC: si faltan los datos del día hace la actualización completa; si ya
 están, solo renueva el cine (`principal --solo-cine`, Uri 18/11/2026: el cine cambia más).
+19/11/2026: la tarea programada salió sola (06:19 UTC, una hora tarde) y terminó bien: 47 min,
+0,48 $ (sobre todo clasificar obras nuevas), 627 fichas. Crédito de IA restante estimado el
+19/11: unos 4 $ de 13,24 $; un día normal con todo lo del PR #8 costará unos 0,5–0,65 $.
 Publicación (Uri, 18/11/2026: de momento solo para él, para probarla): propuesta Cloudflare
 Pages desde el repositorio privado (raíz `web`, `npm ci && npm run build`, salida `dist`; se
 publica sola con cada commit de datos) con dirección poco evidente y fuera de buscadores
