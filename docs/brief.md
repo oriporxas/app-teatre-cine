@@ -43,6 +43,11 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
   - **«Escena» pasa a llamarse «Teatro»** en la barra de abajo y en el título de la pantalla.
   - **Ruta del día:** el mapa de Google Maps dentro de la app (como en muchas webs) y un botón «Abrir la ruta en el móvil» que la abre en Google Maps si está instalado y, si no, en la app de mapas del móvil.
   - **Publicación:** de momento solo para Uri, para probarla: Cloudflare Pages desde el repositorio privado, con una dirección poco evidente y fuera de los buscadores.
+- Tercera revisión de Uri (19 de noviembre):
+  - **La prioridad: que todo esté al día y comprobado a cualquier hora.** Dos actualizaciones al día bastan (la agenda municipal se renueva una vez por noche; el cine, dos), y además la app quita al momento, con la hora del móvil, cada función o sesión que ya ha empezado y lo que ya no tiene funciones. Si la app se queda abierta en segundo plano, al volver descarga la cartelera otra vez.
+  - **IA por lotes:** el trabajo de cada noche (clasificar obras, revisar las dudosas y las noticias) se pide por lotes, que cuesta la mitad; la IA contesta en minutos (como mucho, 24 horas) y la tarea espera hasta 20 minutos. Lo que no llegue lo recoge la actualización siguiente.
+  - **Visto / Hecho:** se puede tachar lo ya visto o hecho: «Vista» para películas y obras de teatro, «Visto» para espectáculos de magia y circo, «Hecho» para eventos (talleres, festivales, charlas) y para planes enteros. Botón ✓ en cada ficha, en cada función de un plan y en el plan. Lo tachado queda en un **historial** por meses, con filtros (Cine, Escena, Eventos, Planes).
+  - **Barra de abajo más corta:** cinco pestañas (Inicio, Teatro, Cine, Agenda, Noticias). «Agenda» junta Planes, Guardado e Historial con un selector arriba y abre el último apartado usado.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios
@@ -188,5 +193,6 @@ Los planes (itinerarios) tienen que poder compartirse con los amigos por cualqui
 - ~~Avisar cuándo activar la IA (entonces: prueba de los tres modelos y creación de la clave, paso a paso).~~ Hecho el 8/11/2026: clave creada y prueba hecha.
 - Aprobar qué modelos usa la IA (propuesta: Sonnet clasifica y Opus revisa lo dudoso; ver `docs/pruebas/2026-11-08-prueba-modelos.md`).
 - Presupuesto mensual y saldo en la consola de Anthropic: la propuesta cuesta unos 4,6 $ la primera vez y como mucho 12 $ al mes en Barcelona.
+- Recargar el crédito de la IA en la consola de Anthropic (Billing): el 19/11/2026 quedaban unos 4 $. Con los lotes, un día normal cuesta unos 0,30–0,35 $ (unos 10 $ al mes).
 - Nombre de la app (más adelante). Mientras, se llama «Cartelera Barcelona».
 - Dónde publicar la app (cuando se aclare lo de GitHub; Claude propondrá opciones gratuitas).

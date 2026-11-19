@@ -23,6 +23,7 @@ modelo = "claude-sonnet-5-5"
 esfuerzo = "medium"            # low, medium, high: cuánto «piensa» antes de responder
 por_peticion = 10              # actividades que se envían juntas en cada petición
 maximo_por_ejecucion = 1000    # tope diario, para controlar el coste
+por_lotes = true               # por lotes: mitad de precio (ver [lotes])
 
 # 2. Revisar los casos dudosos con un modelo superior.
 #    Se vuelven a mirar las decisiones de la tarea anterior con una seguridad
@@ -34,6 +35,7 @@ esfuerzo = "medium"
 umbral_confianza = 0.7
 por_peticion = 5
 maximo_por_ejecucion = 200
+por_lotes = true
 
 # 3. Fichas de trayectoria y premios (fase 3; todavía no se usa).
 [fichas_personas]
@@ -46,6 +48,13 @@ maximo_por_ejecucion = 20     # hoy solo magos y magas (búsqueda web: 10 $ cada
 
 # Freno de gasto: si una ejecución llega a este tope (en dólares), ninguna tarea de IA
 # vuelve a llamar a la IA hasta el día siguiente. Lo pendiente se hace otro día.
+# Peticiones por lotes (Uri, 19/11/2026: «sí, hazlo»). Las tareas con «por_lotes = true» envían
+# todas sus preguntas juntas a la vez; Anthropic las cobra a mitad de precio y las contesta cuando
+# tiene hueco (casi siempre en minutos; como mucho, 24 horas). La tarea diaria espera como mucho
+# estos minutos; lo que no haya llegado lo recoge la siguiente ejecución (mediodía o mañana).
+[lotes]
+espera_maxima_minutos = 20
+
 [presupuesto]
 maximo_usd_por_ejecucion = 2.0
 
@@ -72,6 +81,7 @@ modelo = "claude-haiku-5-5"
 esfuerzo = "low"
 por_peticion = 30
 maximo_por_ejecucion = 1500  # unos 40 medios (Barcelona, España y Mundo); solo se clasifican las nuevas
+por_lotes = true
 
 # Lector de webs de salas (pipeline/fuentes/webs_salas): extraer la programación de la web
 # oficial de las salas que no salen en la agenda municipal. Solo extraer datos, sin interpretar

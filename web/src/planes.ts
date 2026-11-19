@@ -19,6 +19,8 @@ export interface ItemPlan {
   duracion?: number; // minutos
   ciudad: string;
   zona: string; // zona horaria de la ciudad, p. ej. Europe/Madrid
+  /** Qué es: película o tipo de espectáculo (para marcarlo como visto o hecho). */
+  clase?: 'peli' | Espectaculo['tipo'];
 }
 
 export interface Plan {
@@ -48,7 +50,7 @@ function guardar(planes: Plan[]) {
 export function itemDe(e: Espectaculo, dia: string, hora: string | undefined, ciudad: string, zona: string): ItemPlan {
   return {
     id: e.id, dia, hora, nombre: e.nombre, sala: e.sala, direccion: e.direccion, barrio: e.barrio,
-    lat: e.lat, lon: e.lon, duracion: e.duracion, ciudad, zona,
+    lat: e.lat, lon: e.lon, duracion: e.duracion, ciudad, zona, clase: e.tipo,
   };
 }
 

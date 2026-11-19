@@ -76,7 +76,7 @@ export function VistaInicio({ t, lang, setLang, cartelera, cine, noticias, hoy, 
     const ultimos = lista.filter((e) => {
       if (e.tipo === 'eventos') return false;
       const futuras = e.funciones.filter(([d]) => d >= hoy);
-      return futuras.length > 0 && futuras[futuras.length - 1][0] <= fin7 && e.funciones[0][0] < hoy;
+      return futuras.length > 0 && futuras[futuras.length - 1][0] <= fin7 && (e.desde ?? e.funciones[0][0]) < hoy;
     });
     const pelis = cine?.peliculas || [];
     const sesHoy = (p: Pelicula) => p.sesiones.filter((s) => s[1] === hoy && (!s[2] || s[2] >= ahora));

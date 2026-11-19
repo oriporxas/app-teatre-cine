@@ -51,6 +51,7 @@ class TareaIA:
     por_peticion: int = 10
     maximo_por_ejecucion: int = 1000
     umbral_confianza: float | None = None
+    por_lotes: bool = False  # pedir por lotes (mitad de precio; respuestas en minutos, como mucho 24 h)
     extra: dict = field(default_factory=dict)
 
 
@@ -83,7 +84,7 @@ def _convertir(valor: str, ejemplo):
 @lru_cache(maxsize=None)
 def tareas_ia() -> dict[str, TareaIA]:
     res = {}
-    conocidos = {"modelo", "activa", "esfuerzo", "por_peticion", "maximo_por_ejecucion", "umbral_confianza"}
+    conocidos = {"modelo", "activa", "esfuerzo", "por_peticion", "maximo_por_ejecucion", "umbral_confianza", "por_lotes"}
     for nombre, d in _leer("ia.toml").items():
         if "modelo" not in d:
             continue  # secciones que no son tareas (p. ej. [presupuesto])

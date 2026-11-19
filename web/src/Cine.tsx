@@ -10,7 +10,8 @@ import type { Favoritos } from './favoritos';
 import type { Ubicacion } from './ubicacion';
 import type { ItemPlan, Planes } from './planes';
 import { MapaSalas, type Sala } from './Mapa';
-import { Corazon, HojaPlan } from './App';
+import { BotonMarca, Corazon, HojaPlan, IconoCheck } from './App';
+import { clavePeli, marca, type Historial } from './historial';
 
 export const enlacePeli = (id: string) => `#peli-${id.replace(/[^A-Za-z0-9-]+/g, '-')}`;
 export const enlaceCine = (id: string) => `#sala-${id.replace(/[^A-Za-z0-9-]+/g, '-')}`;
@@ -56,8 +57,8 @@ const fmtHoraMin = (n?: number) => (n ? `${Math.floor(n / 60)} h ${n % 60 ? `${n
 
 // --- Cartelera de cine -----------------------------------------------------------------
 
-export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, ubic, filtros, cambiar }: {
-  t: Textos; lang: Idioma; datos: CarteleraCine | null; error: boolean; hoy: string; ahora: string; favs: Favoritos;
+export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic, filtros, cambiar }: {
+  t: Textos; lang: Idioma; datos: CarteleraCine | null; error: boolean; hoy: string; ahora: string; favs: Favoritos; hist: Historial;
   ubic: Ubicacion; filtros: FiltrosCine; cambiar: (c: Partial<FiltrosCine>) => void;
 }) {
   const [modo, setModo] = useState<'peliculas' | 'cines'>('peliculas');
@@ -136,6 +137,7 @@ export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, ubic, filtr
         {!datos && !error ? <p className="aviso">{t.cargando}</p> : null}
         {datos && modo === 'peliculas' ? res.map(({ p, s }) => (
           <TarjetaPeli key={p.id} p={p} s={s} t={t} lang={lang} hoy={hoy} ahora={ahora} cines={cines} guardada={favs.es(p.id)}
+            vista={hist.es(clavePeli(p.id)) ? marca('peli', t).hecho : undefined}
             dist={f.cerca ? Math.min(...s.map((x) => { const c = cines.get(x[0]); return c?.lat != null && c.lon != null ? distancia(f.cerca!, c.lat, c.lon) : Infinity; })) : null} />
         )) : null}
         {datos && modo === 'cines' ? <ListaCines t={t} datos={datos} res={res} hoy={hoy} cerca={f.cerca} /> : null}
@@ -146,8 +148,9 @@ export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, ubic, filtr
   );
 }
 
-function TarjetaPeli({ p, s, t, lang, hoy, ahora, cines, guardada, dist }: {
+function TarjetaPeli({ p, s, t, lang, hoy, ahora, cines, guardada, dist, vista }: {
   p: Pelicula; s: Sesion[]; t: Textos; lang: Idioma; hoy: string; ahora: string; cines: Map<string, Cine>; guardada: boolean; dist: number | null;
+  vista?: string;
 }) {
   const proxima = s[0];
   const versiones = [...new Set(s.map((x) => x[3]).filter(Boolean))] as string[];
@@ -161,6 +164,7 @@ function TarjetaPeli({ p, s, t, lang, hoy, ahora, cines, guardada, dist }: {
         <span className="etiquetas">
           {esEstreno(p, hoy) ? <span className="etiqueta roja">{t.estreno}</span> : null}
           {p.premios?.some((x) => x.tipo === 'ganado') ? <span className="etiqueta genero">★ {t.premiada}</span> : null}
+          {vista ? <span className="etiqueta marca-hecho"><IconoCheck lleno />{vista}</span> : null}
           {guardada ? <Corazon lleno /> : null}
         </span>
         <span className="tarjeta-nombre">{titulo}</span>
@@ -234,9 +238,9 @@ export function enlaceCompra(url: string | null | undefined, lang: Idioma): stri
   return lang === 'ca' ? url.replace('language=esp', 'language=cat').replace('language=ESP', 'language=CAT') : url;
 }
 
-export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, planes, zona, ciudad }: {
+export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, planes, hist, zona, ciudad }: {
   t: Textos; lang: Idioma; p: Pelicula; datos: CarteleraCine; hoy: string; ahora: string; volver: () => void;
-  favs: Favoritos; planes: Planes; zona: string; ciudad: string;
+  favs: Favoritos; planes: Planes; hist: Historial; zona: string; ciudad: string;
 }) {
   const cines = useMemo(() => new Map(datos.cines.map((c) => [c.id, c])), [datos]);
   const [version, setVersion] = useState('todas');
@@ -253,7 +257,7 @@ export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, pla
   const item = (s: Sesion): ItemPlan => {
     const c = cines.get(s[0]);
     return { id: p.id, dia: s[1], hora: s[2] || undefined, nombre: titulo, sala: c?.nombre, direccion: c?.direccion, barrio: c?.barrio,
-      lat: c?.lat, lon: c?.lon, duracion: p.duracion, ciudad, zona };
+      lat: c?.lat, lon: c?.lon, duracion: p.duracion, ciudad, zona, clase: 'peli' };
   };
   const personas = (lista: Persona[] | undefined, titulo2: string, fotos = false) => (lista?.length ? (
     <section className="bloque">
@@ -277,10 +281,13 @@ export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, pla
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 5l-7 7 7 7" /></svg>
           {t.navCine}
         </button>
-        <button type="button" className="boton-icono boton-corazon" aria-pressed={guardada} aria-label={guardada ? t.favQuitar : t.favGuardar}
-          onClick={() => favs.alternar(p.id)}>
-          <Corazon lleno={guardada} />
-        </button>
+        <span className="barra-derecha">
+          <BotonMarca t={t} hist={hist} h={{ clave: clavePeli(p.id), clase: 'peli', nombre: titulo, enlace: enlacePeli(p.id) }} />
+          <button type="button" className="boton-icono boton-corazon" aria-pressed={guardada} aria-label={guardada ? t.favQuitar : t.favGuardar}
+            onClick={() => favs.alternar(p.id)}>
+            <Corazon lleno={guardada} />
+          </button>
+        </span>
       </div>
       <div className="peli-hero">
         {p.fondo ? <img className="peli-fondo" src={p.fondo} alt="" aria-hidden="true" referrerPolicy="no-referrer" /> : null}

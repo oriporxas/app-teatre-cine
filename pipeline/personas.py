@@ -26,7 +26,7 @@ import urllib.parse
 import urllib.request
 
 from . import config
-from .cine.tmdb import _wd
+from .cine.tmdb import CERROJO_WIKIDATA, _wd
 from .util import guardar_json, leer_json, normalizar
 
 DIAS_VALIDEZ = 30
@@ -111,6 +111,11 @@ POR_LOTE = 40
 
 
 def _sparql(consulta: str) -> dict | None:
+    with CERROJO_WIKIDATA:  # de una en una (el cine también consulta Wikidata, en paralelo)
+        return _sparql_sin_cerrojo(consulta)
+
+
+def _sparql_sin_cerrojo(consulta: str) -> dict | None:
     url = f"{SPARQL}?{urllib.parse.urlencode({'query': consulta, 'format': 'json'})}"
     for intento in range(3):
         try:

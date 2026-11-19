@@ -14,6 +14,9 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import threading
+import time
+from pathlib import Path
 
 from . import config
 from .util import guardar_json, leer_json
@@ -29,6 +32,8 @@ PRECIOS = {
 PRECIO_BUSQUEDA_WEB = 10.0 / 1000
 
 RUTA_GASTO = config.RAIZ / "data" / "gasto_ia.json"
+DESCUENTO_LOTES = 0.5  # las peticiones por lotes (Message Batches) cuestan la mitad
+_CERROJO = threading.Lock()  # el cine y las noticias van en paralelo con la escena
 
 
 class TopeDeGasto(Exception):
@@ -67,14 +72,15 @@ class _Gasto:
         if self.usd >= self.limite():
             raise TopeDeGasto(f"tope de gasto de la ejecución alcanzado ({self.usd:.2f} $ de {self.limite():.2f} $)")
 
-    def sumar(self, tarea: str, modelo: str, uso, busquedas: int = 0) -> float:
+    def sumar(self, tarea: str, modelo: str, uso, busquedas: int = 0, factor: float = 1.0) -> float:
         entrada, salida = PRECIOS.get(modelo, PRECIOS["claude-opus-5-5"])
         leido = getattr(uso, "cache_read_input_tokens", 0) or 0
         escrito = getattr(uso, "cache_creation_input_tokens", 0) or 0
         coste = ((uso.input_tokens or 0) * entrada + leido * entrada * 0.1 + escrito * entrada * 1.25
-                 + (uso.output_tokens or 0) * salida) / 1e6 + busquedas * PRECIO_BUSQUEDA_WEB
-        self.usd += coste
-        self.por_tarea[tarea] = self.por_tarea.get(tarea, 0.0) + coste
+                 + (uso.output_tokens or 0) * salida) / 1e6 * factor + busquedas * PRECIO_BUSQUEDA_WEB
+        with _CERROJO:
+            self.usd += coste
+            self.por_tarea[tarea] = self.por_tarea.get(tarea, 0.0) + coste
         return coste
 
     def guardar(self) -> None:
@@ -104,12 +110,7 @@ def pedir_json(cli, *, tarea: str, modelo: str, esfuerzo: str, sistema: str, men
     """Una petición con respuesta en JSON validado por el esquema. Devuelve None si la IA no responde
     (rechazo o respuesta cortada). Lanza TopeDeGasto si ya no queda presupuesto."""
     GASTO.comprobar()
-    peticion = dict(
-        model=modelo, max_tokens=max_tokens,
-        system=[{"type": "text", "text": sistema, "cache_control": {"type": "ephemeral"}}],
-        output_config={"effort": esfuerzo, "format": {"type": "json_schema", "schema": esquema}},
-        messages=[{"role": "user", "content": mensaje}],
-    )
+    peticion = _peticion(modelo, esfuerzo, sistema, mensaje, esquema, max_tokens)
     if "haiku" in modelo:  # Haiku no admite modelo de reserva en el servidor
         respuesta = cli.messages.create(**peticion)
     else:
@@ -119,3 +120,163 @@ def pedir_json(cli, *, tarea: str, modelo: str, esfuerzo: str, sistema: str, men
         return None
     texto = next((b.text for b in respuesta.content if b.type == "text"), "")
     return json.loads(texto) if texto else None
+
+
+def _peticion(modelo: str, esfuerzo: str, sistema: str, mensaje: str, esquema: dict, max_tokens: int) -> dict:
+    return dict(
+        model=modelo, max_tokens=max_tokens,
+        system=[{"type": "text", "text": sistema, "cache_control": {"type": "ephemeral"}}],
+        output_config={"effort": esfuerzo, "format": {"type": "json_schema", "schema": esquema}},
+        messages=[{"role": "user", "content": mensaje}],
+    )
+
+
+def espera_lotes() -> float:
+    """Segundos que una ejecución espera las respuestas de un lote ([lotes] de ia.toml)."""
+    if "IA_ESPERA_LOTES_MIN" in os.environ:
+        return 60 * float(os.environ["IA_ESPERA_LOTES_MIN"])
+    from .ajustes import _leer
+    return 60 * float((_leer("ia.toml").get("lotes") or {}).get("espera_maxima_minutos", 20))
+
+
+class Lotes:
+    """Peticiones a la IA por lotes (Message Batches de Anthropic): cuestan **la mitad**, pero la IA
+    las contesta cuando tiene hueco: casi siempre en unos minutos y, como mucho, en 24 horas.
+
+    Uso (una tarea, p. ej. «noticias»):
+        lotes = Lotes("noticias", carpeta)      # recoge lo que dejaron pendiente ejecuciones anteriores
+        en_curso = lotes.datos_en_curso()       # lo que la IA aún está contestando: no se vuelve a pedir
+        lotes.enviar(cli, modelo=..., esfuerzo=..., sistema=..., esquema=..., peticiones={id: (mensaje, datos)})
+        lotes.esperar()                         # como mucho [lotes] espera_maxima_minutos
+        for respuesta, datos in lotes.recogidas: ...
+        lotes.guardar()
+
+    - `datos` es lo que quien llama necesita para usar cada respuesta (qué obras o noticias son, con
+      qué versión del texto se pidió) y se guarda con el lote, por si la respuesta llega otro día.
+    - Si la IA rechaza una petición (filtro de seguridad) o falla el servidor, esa petición se repite al
+      momento por la vía normal, que tiene modelo de reserva.
+    - Lo que no ha terminado al acabar la espera queda en `carpeta/lotes_<tarea>.json` y lo recoge la
+      siguiente ejecución (la del mediodía o la de mañana). Nada se paga dos veces.
+    """
+
+    def __init__(self, tarea: str, carpeta: Path, cli=None) -> None:
+        self.tarea = tarea
+        self.ruta = Path(carpeta) / f"lotes_{tarea}.json"
+        self.cli = cli
+        self.recogidas: list[tuple[dict | None, object]] = []
+        self.informe = {"enviadas": 0, "recogidas": 0, "repetidas_normal": 0, "en_curso": 0, "errores": 0,
+                        "tokens_entrada": 0, "tokens_salida": 0, "tokens_cache": 0, "tokens_cache_escritura": 0}
+        self.pendientes: list[dict] = (leer_json(self.ruta, {}) or {}).get("lotes", [])
+        if self.pendientes and disponible():
+            self._revisar()
+
+    # -- lo que la IA aún está contestando
+    def datos_en_curso(self) -> list:
+        return [p["datos"] for lote in self.pendientes for p in lote["peticiones"].values()]
+
+    def _cliente(self):
+        if self.cli is None:
+            self.cli = cliente()
+        return self.cli
+
+    def enviar(self, cli, *, modelo: str, esfuerzo: str, sistema: str, esquema: dict,
+               peticiones: dict[str, tuple[str, object]], max_tokens: int = 16000) -> None:
+        """Envía un lote nuevo. Lanza TopeDeGasto si ya no queda presupuesto en esta ejecución."""
+        if not peticiones:
+            return
+        self.cli = cli or self.cli
+        GASTO.comprobar()
+        from .util import huella
+        cuerpo, guardadas = [], {}
+        for clave_, (mensaje, datos) in peticiones.items():
+            cid = huella(self.tarea, modelo, esfuerzo, sistema, mensaje)  # 16 cifras hexadecimales
+            if cid in guardadas:
+                continue
+            guardadas[cid] = {"mensaje": mensaje, "datos": datos}
+            cuerpo.append({"custom_id": cid, "params": _peticion(modelo, esfuerzo, sistema, mensaje, esquema, max_tokens)})
+        lote = self._cliente().messages.batches.create(requests=cuerpo)
+        self.pendientes.append({"id": lote.id, "creado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                                "modelo": modelo, "esfuerzo": esfuerzo, "sistema": sistema, "esquema": esquema,
+                                "max_tokens": max_tokens, "peticiones": guardadas})
+        self.informe["enviadas"] += len(cuerpo)
+        self.guardar()  # si la ejecución se corta, el lote no se pierde
+
+    def esperar(self, segundos: float | None = None) -> None:
+        """Espera a que terminen los lotes pendientes, como mucho `segundos`."""
+        fin = time.monotonic() + (espera_lotes() if segundos is None else segundos)
+        pausa = 10.0
+        while self.pendientes and time.monotonic() < fin:
+            time.sleep(min(pausa, max(0.0, fin - time.monotonic())))
+            pausa = min(pausa * 1.5, 60.0)
+            self._revisar()
+        self.informe["en_curso"] = sum(len(l["peticiones"]) for l in self.pendientes)
+        self.guardar()
+
+    def guardar(self) -> None:
+        guardar_json(self.ruta, {"lotes": self.pendientes})
+
+    # -- recoger
+    def _revisar(self) -> None:
+        cli = self._cliente()
+        quedan = []
+        for lote in self.pendientes:
+            try:
+                estado = cli.messages.batches.retrieve(lote["id"])
+            except Exception as e:  # noqa: BLE001 - sin respuesta: se mira en la próxima vuelta
+                self.informe.setdefault("detalles", []).append(f"{type(e).__name__}: {str(e)[:120]}")
+                quedan.append(lote)
+                continue
+            if estado.processing_status != "ended":
+                creado = dt.datetime.fromisoformat(lote["creado"])
+                if dt.datetime.now(dt.timezone.utc) - creado < dt.timedelta(hours=30):
+                    quedan.append(lote)
+                continue  # más de 30 horas: caducado; sus peticiones se vuelven a pedir
+            self._recoger(cli, lote)
+        self.pendientes = quedan
+
+    def _recoger(self, cli, lote: dict) -> None:
+        for r in cli.messages.batches.results(lote["id"]):
+            p = lote["peticiones"].get(r.custom_id)
+            if p is None:
+                continue
+            tipo = r.result.type
+            if tipo == "succeeded":
+                msg = r.result.message
+                GASTO.sumar(self.tarea, lote["modelo"], msg.usage, factor=DESCUENTO_LOTES)
+                u = msg.usage
+                self.informe["tokens_entrada"] += u.input_tokens or 0
+                self.informe["tokens_salida"] += u.output_tokens or 0
+                self.informe["tokens_cache"] += getattr(u, "cache_read_input_tokens", 0) or 0
+                self.informe["tokens_cache_escritura"] += getattr(u, "cache_creation_input_tokens", 0) or 0
+                if msg.stop_reason == "refusal":
+                    self._normal(cli, lote, p)
+                    continue
+                texto = next((b.text for b in msg.content if b.type == "text"), "")
+                try:
+                    respuesta = json.loads(texto) if texto and msg.stop_reason != "max_tokens" else None
+                except json.JSONDecodeError:
+                    respuesta = None
+                if respuesta is None:
+                    self.informe["errores"] += 1
+                self.recogidas.append((respuesta, p["datos"]))
+                self.informe["recogidas"] += 1
+            elif tipo == "errored" and getattr(r.result.error, "type", "") != "invalid_request":
+                self._normal(cli, lote, p)  # fallo del servidor: se repite ahora
+            else:  # petición mal formada, cancelada o caducada: se vuelve a pedir otro día
+                self.informe["errores"] += 1
+                self.informe.setdefault("detalles", []).append(f"{r.custom_id}: {tipo}")
+
+    def _normal(self, cli, lote: dict, p: dict) -> None:
+        """La misma petición por la vía normal (precio completo, con modelo de reserva)."""
+        try:
+            respuesta = pedir_json(cli, tarea=self.tarea, modelo=lote["modelo"], esfuerzo=lote["esfuerzo"],
+                                   sistema=lote["sistema"], mensaje=p["mensaje"], esquema=lote["esquema"],
+                                   max_tokens=lote["max_tokens"])
+        except TopeDeGasto:
+            return  # se pedirá otro día
+        except Exception as e:  # noqa: BLE001
+            self.informe["errores"] += 1
+            self.informe.setdefault("detalles", []).append(f"{type(e).__name__}: {str(e)[:120]}")
+            return
+        self.informe["repetidas_normal"] += 1
+        self.recogidas.append((respuesta, p["datos"]))
