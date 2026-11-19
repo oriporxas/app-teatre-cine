@@ -26,7 +26,7 @@ CARPETA_WEB = config.RAIZ / "web" / "public" / "datos"
 TIPOS_APP = {"teatro": "teatro", "magia": "magia", "circo": "circo", "evento": "eventos"}
 # Por ahora la app es solo de teatro, magia y circo (Uri, 8/11/2026): los eventos (talleres,
 # festivales, charlas…) solo salen si son de una de esas disciplinas o sobre magia.
-DISCIPLINAS_APP = ("teatro", "magia", "circo", "clown")
+DISCIPLINAS_APP = ("teatro", "magia", "circo", "clown", "cine")  # cine: eventos de cine (Uri, 19/11/2026)
 # Teatro musical (Uri, 9/11/2026): sale dentro de teatro con la etiqueta «Musical», pero solo si
 # es seguro que es teatro musical (lo dice el título, una etiqueta o una frase; o la IA). Para
 # volver a dejarlos fuera de la app, basta con poner False.
@@ -168,11 +168,17 @@ def exportar(ciudad, informe: dict, mapa: dict | None = None, leer_webs: bool = 
     fichas_obra.aplicar(ciudad, items, informe, leer_webs=leer_webs)
     personas_app = personas.aplicar(ciudad, items, informe, leer_webs=leer_webs)
     items.sort(key=lambda i: (i["funciones"][0][0], (i["funciones"][0] + [""])[1]))
+    # Lo caducado del último mes (Uri, 19/11/2026): se compara con la versión anterior del archivo.
+    from . import caducados as cad
+    anteriores = (leer_json(CARPETA_WEB / f"{ciudad.id}.json", {}) or {}).get("espectaculos", [])
+    caducados = cad.actualizar(ciudad, "escena", hoy, anteriores, items, cad.ultima_funcion, cad.recortar_escena)
+    informe["caducados"] = len(caducados)
     datos = {
         "ciudad": ciudad.ficha(),
         "actualizado": informe.get("fecha"),
         "licencia": "Datos: Ajuntament de Barcelona (Open Data BCN y Guia BCN), CC BY 4.0",
         "espectaculos": items,
+        "caducados": caducados,
         "personas": personas_app,
     }
     # Compacto (sin espacios): es lo que descarga el móvil.

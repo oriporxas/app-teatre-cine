@@ -24,6 +24,8 @@ export interface Espectaculo {
   funciones: [string, string?][];
   /** Lo pone la app: primera fecha de la obra aunque ya haya pasado (para «Últimos días»). */
   desde?: string;
+  /** Si ya ha terminado: fecha de la última función (sale un mes con «Caducado»). */
+  caducado?: string;
   precio_min?: number;
   precio_max?: number;
   gratis?: boolean;
@@ -80,6 +82,8 @@ export interface Cartelera {
   actualizado: string;
   licencia: string;
   espectaculos: Espectaculo[];
+  /** Lo que terminó en el último mes (pipeline/caducados.py). */
+  caducados?: Espectaculo[];
   /** Clave: el nombre en minúsculas, sin acentos y con guiones (como pipeline/personas.py). */
   personas?: Record<string, PersonaEscena>;
 }
@@ -88,4 +92,43 @@ export async function cargarCartelera(ciudad = 'barcelona'): Promise<Cartelera> 
   const r = await fetch(`./datos/${ciudad}.json`);
   if (!r.ok) throw new Error(`No se ha podido cargar la cartelera (${r.status})`);
   return r.json();
+}
+
+/** Ficha ampliada de una persona (pipeline/biografias.py): TMDB y Wikidata. Va en archivos aparte que
+ * solo se descargan al abrir la ficha de una persona. */
+export interface DatosPersona {
+  tmdb?: number;
+  nombre?: string;
+  foto?: string;
+  oficio?: string;
+  nacimiento?: string;
+  muerte?: string;
+  lugar?: string;
+  bio?: Record<string, string>;
+  /** Trabajos más vistos: [título, año, «pelicula» | «serie», papel o personaje]. */
+  conocida?: [string, number | null, 'pelicula' | 'serie', string][];
+  wikidata?: string;
+  descripcion?: Record<string, string>;
+  wikipedia?: string;
+}
+
+/** En qué archivo está cada persona (la misma cuenta que pipeline/biografias.py: trozo()). */
+export function trozoPersona(clave: string): number {
+  let n = 0;
+  for (let i = 0; i < clave.length; i++) n += clave.charCodeAt(i);
+  return n % 16;
+}
+
+const trozos = new Map<string, Promise<Record<string, DatosPersona>>>();
+
+export function cargarPersona(ciudad: string, claves: string[]): Promise<DatosPersona | undefined> {
+  const pedir = (clave: string) => {
+    const archivo = `./datos/${ciudad}-personas-${trozoPersona(clave)}.json`;
+    if (!trozos.has(archivo)) {
+      trozos.set(archivo, fetch(archivo).then((r) => (r.ok ? r.json() : { personas: {} }))
+        .then((d) => d.personas || {}).catch(() => { trozos.delete(archivo); return {}; }));
+    }
+    return trozos.get(archivo)!.then((t) => t[clave]);
+  };
+  return Promise.all(claves.map(pedir)).then((xs) => xs.find(Boolean));
 }

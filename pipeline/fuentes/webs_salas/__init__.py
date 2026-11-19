@@ -289,7 +289,7 @@ def recoger(ctx: Contexto) -> Resultado:
     cache_guia = leer_json(ruta_guia, {}) or {}
     cache_ia = leer_json(ruta_ia, {}) or {}
     tarea = ajustes.tareas_ia().get("leer_webs")
-    fin = time.monotonic() + 60 * min(ctx.minutos_lectura or 8, 8)  # la tarea diaria no debe pasar de ~40 min
+    fin = time.monotonic() + 60 * config.tope_minutos(min(ctx.minutos_lectura or 8, 8))  # la tarea diaria no debe pasar de ~40 min
     inf = {"salas_sin_agenda": len(salas), "con_web": 0, "paginas": 0, "leidas_ia": 0, "obras": 0, "descartadas": 0,
            "funciones": 0}
     actividades = []

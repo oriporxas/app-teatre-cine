@@ -4,14 +4,15 @@ import {
   FILTROS_CINE, VERSIONES, esEstreno, filtrarPeliculas, minutosHasta, tituloPeli,
   type Cine, type CarteleraCine, type FiltrosCine, type Pelicula, type Persona, type Premio, type Sesion,
 } from './cine';
-import { distancia, fmtDia, fmtDistancia, sumaDias, type ClaveFecha } from './filtros';
+import { distancia, fmtDia, fmtDistancia, normaliza, sumaDias, type ClaveFecha } from './filtros';
 import type { Idioma, Textos } from './textos';
 import type { Favoritos } from './favoritos';
 import type { Ubicacion } from './ubicacion';
 import type { ItemPlan, Planes } from './planes';
 import { MapaSalas, type Sala } from './Mapa';
-import { BotonMarca, Corazon, HojaPlan, IconoCheck } from './App';
+import { BotonMarca, Corazon, FilaCaducada, HojaPlan, IconoCheck, enlaceFicha } from './App';
 import { clavePeli, marca, type Historial } from './historial';
+import type { Espectaculo } from './datos';
 
 export const enlacePeli = (id: string) => `#peli-${id.replace(/[^A-Za-z0-9-]+/g, '-')}`;
 export const enlaceCine = (id: string) => `#sala-${id.replace(/[^A-Za-z0-9-]+/g, '-')}`;
@@ -57,8 +58,12 @@ const fmtHoraMin = (n?: number) => (n ? `${Math.floor(n / 60)} h ${n % 60 ? `${n
 
 // --- Cartelera de cine -----------------------------------------------------------------
 
-export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic, filtros, cambiar }: {
+export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic, filtros, cambiar, eventos = [], caducadas = [] }: {
   t: Textos; lang: Idioma; datos: CarteleraCine | null; error: boolean; hoy: string; ahora: string; favs: Favoritos; hist: Historial;
+  /** Eventos de cine de la agenda: festivales, ciclos, cinefórums, premios, talleres… (Uri, 19/11/2026) */
+  eventos?: Espectaculo[];
+  /** Películas que terminaron en el último mes (salen al buscar, con «Caducado»). */
+  caducadas?: Pelicula[];
   ubic: Ubicacion; filtros: FiltrosCine; cambiar: (c: Partial<FiltrosCine>) => void;
 }) {
   const [modo, setModo] = useState<'peliculas' | 'cines'>('peliculas');
@@ -133,6 +138,22 @@ export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic,
         </div>
       </div>
 
+      {eventos.length && modo === 'peliculas' ? (
+        <section className="fila-inicio eventos-cine">
+          <div className="fila-cabecera"><h2 className="seccion-titulo">{t.eventosCine}</h2><a className="ver-todo" href="#eventos">{t.verTodo}</a></div>
+          <div className="carrusel">
+            {eventos.slice(0, 14).map((e) => (
+              <a key={e.id} className="ticket ticket-escena" href={enlaceFicha(e.id)}>
+                <span className="ticket-hora">{fmtDia(e.funciones[0][0], t)}</span>
+                <span className="ticket-cuando">{t.eventos[e.subtipo || ''] || t.tipos.eventos}</span>
+                <span className="ticket-nombre">{e.nombre}</span>
+                <span className="ticket-lugar">{e.sala || ''}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <div className="lista">
         {!datos && !error ? <p className="aviso">{t.cargando}</p> : null}
         {datos && modo === 'peliculas' ? res.map(({ p, s }) => (
@@ -142,6 +163,19 @@ export function VistaCine({ t, lang, datos, error, hoy, ahora, favs, hist, ubic,
         )) : null}
         {datos && modo === 'cines' ? <ListaCines t={t} datos={datos} res={res} hoy={hoy} cerca={f.cerca} /> : null}
         {datos && res.length === 0 ? <p className="aviso">{t.vacio}</p> : null}
+        {datos && filtros.q.trim().length >= 2 ? (() => {
+          const n = normaliza(filtros.q.trim());
+          const cad = caducadas.filter((p) => normaliza([p.titulo, p.titulo_ca, p.titulo_original, ...(p.direccion || []).map((x) => x.nombre),
+            ...(p.reparto || []).map((x) => x.nombre)].join(' ')).includes(n)).slice(0, 20);
+          return cad.length ? (
+            <section className="bloque">
+              <h3 className="seccion-titulo">{t.caducadosBusqueda}</h3>
+              {cad.map((p) => <FilaCaducada key={p.id} t={t} nombre={tituloPeli(p, lang)} imagen={p.cartel} enlace={enlacePeli(p.id)}
+                detalle={[p.anio, (p.direccion || []).map((d) => d.nombre).join(', ')].filter(Boolean).join(' · ')} caducado={p.caducado} />)}
+            </section>
+          ) : null;
+        })() : null}
+        {datos ? <a className="boton-secundario enlace-caducados" href="#caducados">{t.caducadosVer}</a> : null}
         {datos ? <p className="nota">{t.atribucionTmdb}</p> : null}
       </div>
     </main>
@@ -295,6 +329,7 @@ export function FichaPelicula({ t, lang, p, datos, hoy, ahora, volver, favs, pla
           <Cartelito src={p.cartel} alt={`${t.imagen} «${titulo}»`} clase="peli-cartel grande" />
           <div className="peli-hero-texto">
             <span className="etiquetas">
+              {p.caducado ? <span className="etiqueta caducado">{t.caducado}</span> : null}
               {esEstreno(p, hoy) ? <span className="etiqueta roja">{t.estreno}</span> : null}
               {p.edad ? <span className="etiqueta suave">{t.edadTxt(p.edad)}</span> : null}
               {p.nota ? <span className="etiqueta suave" title={t.notaTmdb}>★ {p.nota.toFixed(1)}</span> : null}

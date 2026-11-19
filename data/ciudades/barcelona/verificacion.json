@@ -13,10 +13,115 @@
       "sala": 1
     },
     "fecha": "2026-11-19",
-    "publicadas": 143
+    "publicadas": 144
   },
   "escena": {
     "anomalias": [
+      {
+        "accion": "nombre de sala oculto",
+        "detalle": "la sala se llama como la ciudad (Barcelona)",
+        "id": "open_data_bcn:99400304966",
+        "regla": "sala",
+        "titulo": "El Meu Primer Festival"
+      },
+      {
+        "accion": "nombre de sala oculto",
+        "detalle": "la sala se llama como la ciudad (Barcelona)",
+        "id": "open_data_bcn:99400557740",
+        "regla": "sala",
+        "titulo": "XIV Festival Internacional de Cinema i Discapacitat de Barcelona \"Inclús"
+      },
+      {
+        "accion": "nombre de sala oculto",
+        "detalle": "la sala se llama como la ciudad (Barcelona)",
+        "id": "open_data_bcn:99400640061",
+        "regla": "sala",
+        "titulo": "33a Festival de Cinema Independent de Barcelona \"L'Alternativa 2026"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400658401",
+        "id": "open_data_bcn:99400702277",
+        "regla": "repetida",
+        "titulo": "Anem al Teatre"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-01-23 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-02-06 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-02-12 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-02-20 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-02-26 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-03-06 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-03-13 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-03-20 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-04-02 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-04-09 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2027-04-17 fuera del periodo 2026-11-28–2027-01-09",
+        "id": "open_data_bcn:99400750190",
+        "regla": "fecha",
+        "titulo": "No me toques el cuento"
+      },
       {
         "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400776438",
@@ -89,13 +194,6 @@
       },
       {
         "accion": "función quitada",
-        "detalle": "2026-12-04 fuera del periodo 2026-11-04–2026-11-26",
-        "id": "open_data_bcn:99400789383",
-        "regla": "fecha",
-        "titulo": "The Two-Character Play"
-      },
-      {
-        "accion": "función quitada",
         "detalle": "2027-02-25 fuera del periodo 2027-03-11–2027-04-25",
         "id": "open_data_bcn:99400790058",
         "regla": "fecha",
@@ -114,21 +212,14 @@
         "id": "open_data_bcn:99400790594",
         "regla": "repetida",
         "titulo": "Teatre: Connecta amb la teva expressivitat!"
-      },
-      {
-        "accion": "función quitada",
-        "detalle": "2026-11-20 fuera del periodo 2026-11-21–2026-12-11",
-        "id": "webs_salas:1eb88c22c16ed822",
-        "regla": "fecha",
-        "titulo": "Show Up Go Up"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 10,
-      "repetida": 5,
-      "sin_funciones": 1
+      "fecha": 19,
+      "repetida": 6,
+      "sala": 3
     },
     "fecha": "2026-11-19",
-    "publicadas": 627
+    "publicadas": 679
   }
 }

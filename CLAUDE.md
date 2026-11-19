@@ -42,14 +42,20 @@ automático «Datos del …» hecho. La tarea programada vuelve a salir sola (18
 retraso de GitHub), pero ese día la API del Ayuntamiento respondió 403 a GitHub en la primera
 consulta: ahora un 403 se reintenta dos veces con pausa larga (`descargar.py`) y hay un segundo
 intento a las 13:17 UTC: si faltan los datos del día hace la actualización completa; si ya
-están, solo renueva el cine (`principal --solo-cine`, Uri 18/11/2026: el cine cambia más).
+están, una **actualización rápida** (`principal --rapida`, Uri 19/11/2026: lo nuevo tiene que salir
+enseguida): agenda, 6 min de guía (lo nuevo va primero), IA solo para lo nuevo, cine y noticias; cada
+pieza que lee webs trabaja como mucho 2 min (`config.tope_minutos`). Unos 14 min. La de la mañana lee
+28 min de guía (antes 35) para no pasar de los 2.000 minutos gratis al mes de GitHub (~1.700).
 19/11/2026: la tarea programada salió sola (06:19 UTC, una hora tarde) y terminó bien: 47 min,
 0,48 $ (sobre todo clasificar obras nuevas), 627 fichas. Crédito de IA restante estimado el
 19/11: unos 4 $ de 13,24 $; un día normal con todo lo del PR #8 costará unos 0,5–0,65 $.
 IA por lotes (Uri, 19/11/2026: «sí, hazlo»): clasificar, revisar dudosos y noticias van por lotes
 (Message Batches, mitad de precio; `ia.Lotes`, `por_lotes = true` y `[lotes]` en `ajustes/ia.toml`).
-La tarea espera como mucho 20 min; lo que no llegue lo recoge la siguiente ejecución. Una respuesta
-de otro día solo vale si el texto de la obra no ha cambiado. El cine y las noticias van en un hilo
+La tarea espera como mucho 10 min; si algo no ha llegado, se cancela (no se cobra) y se pregunta al
+momento por la vía normal (Uri, 19/11/2026: lo nuevo tiene que salir enseguida). Con 3 peticiones o
+menos, y siempre en la rápida del mediodía, van directas (`directo_hasta` en `[lotes]`). Las respuestas son las
+mismas (mismo modelo, instrucciones y comprobaciones). Una respuesta de un lote de otra ejecución solo
+vale si el texto de la obra no ha cambiado. El cine y las noticias van en un hilo
 aparte desde el principio (en paralelo con la guía y la IA), así que también se renuevan si falla la
 agenda municipal; `red.pedir` y Wikidata llevan cerrojos para no visitar dos veces a la vez una web.
 Publicación (Uri, 18/11/2026: de momento solo para él, para probarla): propuesta Cloudflare
@@ -218,6 +224,23 @@ Detalle y razones en `docs/arquitectura.md`.
     de un músico, una presentadora tocaya de una persona de vestuario. Si cambian las reglas,
     subir `VERSION`. La consulta por grupos (SPARQL) a veces está limitada desde la nube de
     Claude; entonces va nombre a nombre (más lento).
+  - `biografias.py`: ficha ampliada de cada persona (Uri, 19/11/2026): foto, oficio, nacimiento,
+    biografía y trabajos destacados desde TMDB, y descripción y enlace a Wikipedia desde Wikidata. Cine:
+    la persona de los créditos (sin adivinar). Teatro: solo si en TMDB hay una sola persona con ese
+    nombre, con trabajos y oficio que encaja con su papel, del país de la ciudad, y en Wikidata no hay
+    varias con ese nombre. En 16 archivos `web/public/datos/<ciudad>-personas-<n>.json` que la app
+    descarga al abrir una persona. La Wikipedia no se copia: su servicio para programas responde
+    «demasiadas peticiones» desde aquí y sus páginas no admiten programas; se enlaza.
+  - `eventos_cine.py`: de lo que la agenda tiene de cine (y lo que habla de cine), la IA (Haiku, por
+    lotes) dice qué es evento (festival, ciclo, cinefórum, premios, concurso, taller, estreno) y qué
+    proyección suelta; los eventos salen como eventos con disciplina «cine» (en Teatro → Eventos, en
+    Inicio y arriba en Cine) y dejan de salir como «película».
+  - `caducados.py`: lo que terminó en el último mes (Uri, 19/11/2026) sigue en la app con la etiqueta
+    «Caducado» (buscador, apartado `#caducados` por tipo, Guardado); más de un mes, fuera. Cada día se
+    compara con la versión anterior del archivo de la app: lo que ya no está y tenía todas sus funciones
+    o sesiones pasadas se guarda en `data/ciudades/<c>/caducados_{escena,cine}.json`. Teatro: la app lo
+    pasa a caducado al momento cuando acaba su última función; películas: solo cuando la actualización
+    confirma que ya no están en ningún cine (los cines publican la semana siguiente a destiempo).
   - `verificar.py`: **nada sale en la app sin pasar sus comprobaciones** (precio escrito tal
     cual en la fuente, fechas dentro del periodo, horas, sala, mapa, equipo, enlaces, sesiones
     de cine). Lo que falla no se enseña y queda en `verificacion.json`. Ver `docs/veracidad.md`.
@@ -246,6 +269,12 @@ Detalle y razones en `docs/arquitectura.md`.
   `tests/test_horario.py`…). Los precios no pasan por `normalizar` (quitaba los decimales:
   «24.95 €» salía «95 €»). Detalle y siguiente paso propuesto (lector de webs de salas, con
   coste): `docs/veracidad.md`.
+- Cambios de Uri (19/11/2026, tarde): en Inicio, «Empieza pronto en el cine» (90 min) y «Empieza
+  pronto en el teatro» (teatro, magia y circo de cualquier tipo, lo que queda hoy), y «Próximos
+  eventos» (`#eventos` abre Teatro con el filtro de eventos); en Cine, «Eventos de cine» arriba; ficha
+  de persona con biografía, nacimiento, trabajos destacados y enlaces (TMDB, Wikipedia).
+- Sobre las API: las de datos (Ayuntamiento, TMDB, Wikidata) se usan según sus condiciones de uso;
+  robots.txt rige la lectura de páginas web (guía, webs de salas y cines, noticias).
 - Cambios de Uri (19/11/2026): la barra de abajo tiene 5 pestañas: Inicio, Teatro, Cine, **Agenda**
   (Planes, Guardado e Historial, con un selector arriba; recuerda el último apartado) y Noticias.
   Botón ✓ para marcar como **vista** (películas y obras), **visto** (magia y circo) o **hecho**

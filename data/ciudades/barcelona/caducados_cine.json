@@ -1,0 +1,1009 @@
+{
+  "p-t-16a-mostra-de-cinema-etnografic-de-catalunya-compartint-na": {
+    "agenda": "open_data_bcn:99400765522",
+    "caducado": "2026-11-17",
+    "cartel": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/destacat.760x428.4c9a1db6.jpg",
+    "gratis": true,
+    "id": "p-t-16a-mostra-de-cinema-etnografic-de-catalunya-compartint-na",
+    "sinopsis": {
+      "ca": "El Museu Etnològic i de Cultures del Món (MuEC) a la seva seu Montcada, en col·laboració amb l'Institut Català d'Antropologia (ICA), presenta una nova edició de la Mostra de Cinema Etnogràfic de Catalunya, una iniciativa que apropa al públic produccions audiovisuals centrades en la diversitat cultural, les transformacions socials i les múltiples formes d'entendre i habitar el món.\nSota el títol\nCompartint natures: territoris, cosmologies, vides trenades, aquesta edició proposa reflexionar sobre les relacions entre els éssers humans, els territoris i els mons més que humans en un context marcat per la crisi climàtica i social i pels reptes de l'actual era de l'Antropocè. A través del cinema etnogràfic, el cicle convida a qüestionar les fronteres entre natura i cultura i a explorar diferents formes de convivència, coneixement i interdependència.\nPROGRAMA\nSessió 1 - 3 de novembre de 2026\nTE"
+    },
+    "titulo": "16a Mostra de Cinema Etnogràfic de Catalunya 'Compartint natures: territoris, cosmologies, vides trenades"
+  },
+  "p-t-baraka": {
+    "agenda": "open_data_bcn:99400788850",
+    "caducado": "2026-11-18",
+    "gratis": true,
+    "id": "p-t-baraka",
+    "titulo": "Baraka"
+  },
+  "p-t-gaudeix-del-ficma-a-turull": {
+    "agenda": "open_data_bcn:99400787444",
+    "caducado": "2026-11-18",
+    "cartel": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/1118_SUNCINE_SUN_2.760x428.28b064d0.jpg",
+    "gratis": true,
+    "id": "p-t-gaudeix-del-ficma-a-turull",
+    "sinopsis": {
+      "ca": "L'Aula es converteix en cinema gràcies al SUNCINE - Festival Internacional de Cine del Medi Ambient, que es celebra anualment a Barcelona i Mèxic per ser un punt de trobada de la indústria cinematogràfica, activistes ambientals i ciutadania. Vine a gaudir d'un curtmetratge al Bosc Turull!\nA càrrec de l'Aula Ambiental Bosc Turull.\nActivitat dirigida a públic general.\nEmmarcada en la 33a edició del SUNCINE – Festival Internacional de Cinema del Medi Ambient."
+    },
+    "titulo": "Gaudeix del FICMA a Turull"
+  },
+  "p-t-projeccio-i-col-loqui-miss-carbon": {
+    "agenda": "open_data_bcn:99400749630",
+    "caducado": "2026-11-18",
+    "gratis": true,
+    "id": "p-t-projeccio-i-col-loqui-miss-carbon",
+    "titulo": "Projecció i col•loqui \"Miss Carbón"
+  },
+  "p-t-road-movies-el-hidalgo-de-los-mares-raoul-walsh-1951": {
+    "agenda": "open_data_bcn:99400789292",
+    "caducado": "2026-11-18",
+    "gratis": true,
+    "id": "p-t-road-movies-el-hidalgo-de-los-mares-raoul-walsh-1951",
+    "titulo": "Road movies. El hidalgo de los mares (Raoul Walsh, 1951)"
+  },
+  "p-t-setge-a-la-democracia": {
+    "agenda": "open_data_bcn:99400786765",
+    "caducado": "2026-11-18",
+    "gratis": true,
+    "id": "p-t-setge-a-la-democracia",
+    "titulo": "Setge a la democràcia"
+  },
+  "p-t-temps-de-cinema-migracions": {
+    "agenda": "open_data_bcn:99400786949",
+    "caducado": "2026-11-18",
+    "id": "p-t-temps-de-cinema-migracions",
+    "titulo": "Temps de cinema. Migracions"
+  },
+  "tmdb-1320471": {
+    "agenda": "open_data_bcn:99400770504",
+    "anio": 2024,
+    "caducado": "2026-11-18",
+    "cartel": "https://image.tmdb.org/t/p/w500/1tYd4NSyctZPRQm5i0ggWDX8RkU.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ihwI4qQUoumuu2gYdEq3r9XcDN9.jpg",
+        "id": 3774850,
+        "nombre": "Clara Serrano Llorens"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oRog5xv66HWLv2kj6QVfSozapvE.jpg",
+        "id": 3774884,
+        "nombre": "Gerard Simó Gimeno"
+      }
+    ],
+    "duracion": 74,
+    "estreno": "2024-12-13",
+    "fondo": "https://image.tmdb.org/t/p/w1280/nrvDUtnazg4BS9K2KENaWNs6jpe.jpg",
+    "generos": [
+      "Drama",
+      "Familia"
+    ],
+    "gratis": true,
+    "guion": [
+      {
+        "id": 4845897,
+        "nombre": "Laura Corominas Espelt"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ihwI4qQUoumuu2gYdEq3r9XcDN9.jpg",
+        "id": 3774850,
+        "nombre": "Clara Serrano Llorens"
+      },
+      {
+        "id": 3774887,
+        "nombre": "Ariadna Ulldemolins Abad"
+      }
+    ],
+    "id": "tmdb-1320471",
+    "idioma_original": "ca",
+    "imdb": "tt33246300",
+    "musica": [
+      {
+        "id": 4824917,
+        "nombre": "Laura Casaponsa"
+      }
+    ],
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "id": 4845877,
+        "nombre": "Miquel Mas Martínez",
+        "papel": "Bruno"
+      },
+      {
+        "id": 4845878,
+        "nombre": "Antonia Fernández Mir",
+        "papel": "Natividad"
+      },
+      {
+        "id": 3960217,
+        "nombre": "Nunu Sales",
+        "papel": "Andy"
+      },
+      {
+        "id": 3697864,
+        "nombre": "Claudia Jara",
+        "papel": "Paula"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/8lF47kLdk6v1pybkmub9AUSmzkx.jpg",
+        "id": 3263104,
+        "nombre": "Jan Mediavilla",
+        "papel": "Max"
+      },
+      {
+        "id": 4845883,
+        "nombre": "Albert Caro Aguilera",
+        "papel": "Samu"
+      },
+      {
+        "id": 4845929,
+        "nombre": "Tessa Dela Merced",
+        "papel": "Gloria"
+      },
+      {
+        "id": 5702252,
+        "nombre": "Josep Sarrà",
+        "papel": "Pintor"
+      },
+      {
+        "id": 5702253,
+        "nombre": "Rosa Català Mallofré",
+        "papel": "Tarotista"
+      },
+      {
+        "id": 5702255,
+        "nombre": "Miquel Roig Segura",
+        "papel": "Lampista youtuber"
+      }
+    ],
+    "sinopsis": {
+      "ca": "La vida d’en Bruno, un noi de divuit anys, es veu cada vegada més limitada per la creixent dependència de la seva àvia Nati. El jove fa malabars entre cuidar la seva àvia, treballar i passar temps amb els seus amics. Quan rep la trucada d’una residència que ofereix una plaça pública per a la seva àvia, en Bruno intentarà mantenir l’equilibri per no perdre l’única família que ha conegut. Una pel·lícula sobre les relacions intergeneracionals, la família i la joventut.",
+      "en": "Bruno’s (18) life is increasingly limited by the growing dependence of his grandmother Natividad (86), the only family he has ever known. When the opportunity to take her to a nursing home arises, both will have to deal with a decision they had not allowed themselves to consider before.",
+      "es": "La vida de Bruno (18) se ve cada vez más limitada por la creciente dependencia de su abuela Natividad (86), la única familia que el joven ha conocido. Cuando surge la oportunidad de llevarla a una residencia geriátrica, ambos tendrán que enfrentarse a una decisión que no se habían permitido formular."
+    },
+    "titulo": "L’edat imminent",
+    "titulo_ca": "L’edat imminent",
+    "titulo_original": "L’edat imminent",
+    "tmdb": 1320471,
+    "trailer": "SlmD8vaSzZc"
+  },
+  "tmdb-1490133": {
+    "agenda": "open_data_bcn:99400786550",
+    "anio": 2025,
+    "caducado": "2026-11-18",
+    "cartel": "https://image.tmdb.org/t/p/w500/jcF3JByHhZNIFMKaHCA7YL7m62S.jpg",
+    "direccion": [
+      {
+        "id": 5473023,
+        "nombre": "David Serrano Blanquer"
+      }
+    ],
+    "estreno": "2025-06-06",
+    "fondo": "https://image.tmdb.org/t/p/w1280/8ZE6BjcFWYlLB1rZteGWN14Gd72.jpg",
+    "generos": [
+      "Documental"
+    ],
+    "gratis": true,
+    "guion": [
+      {
+        "id": 5473023,
+        "nombre": "David Serrano Blanquer"
+      }
+    ],
+    "id": "tmdb-1490133",
+    "idioma_original": "ca",
+    "imdb": "tt34712941",
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/audN7D8wL67Zpm1JWav9eCejgyJ.jpg",
+        "id": 942619,
+        "nombre": "Jordi Boixaderas",
+        "papel": "Arcadi (voice)",
+        "premios": [],
+        "wikidata": "Q9012655"
+      },
+      {
+        "id": 5473030,
+        "nombre": "Fernando Alcoya",
+        "papel": "Quimet"
+      },
+      {
+        "id": 5473031,
+        "nombre": "Mariona Armengol",
+        "papel": "Noia de la casa"
+      },
+      {
+        "id": 5473032,
+        "nombre": "Xavi P. Fornés",
+        "papel": "Tinent Jordà"
+      },
+      {
+        "id": 5473033,
+        "nombre": "Jordi Llop",
+        "papel": "Arcadi jove"
+      },
+      {
+        "id": 5473036,
+        "nombre": "Antoni Martí",
+        "papel": "Arcadi gran"
+      },
+      {
+        "id": 5473037,
+        "nombre": "Maria Nogueras",
+        "papel": "Conxa"
+      },
+      {
+        "id": 5473038,
+        "nombre": "Raimond J. Serrès",
+        "papel": "El solitari"
+      }
+    ],
+    "sinopsis": {
+      "ca": "L’Arcadi s’asseu davant la pantalla de la seva moviola i repassa les pel·lícules que ha filmat al llarg de la seva vida. Mentre les contempla, la memòria el transporta insistentment cap a allò que va marcar el seu destí: la cruesa de la primera línia del front durant la guerra i la descoberta de l’amor."
+    },
+    "titulo": "Arcadi",
+    "titulo_original": "Arcadi",
+    "tmdb": 1490133,
+    "trailer": "VizUz0xkyFQ"
+  },
+  "tmdb-1496903": {
+    "anio": 2025,
+    "caducado": "2026-11-18",
+    "cartel": "https://image.tmdb.org/t/p/w500/dRfDBbdVFsiRAKC5dhKcsIlPJI5.jpg",
+    "direccion": [
+      {
+        "id": 1046702,
+        "nombre": "David Bickerstaff",
+        "premios": [],
+        "wikidata": "Q22946162"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vCHuenz9BmE8H3j08yYr7VL07rF.jpg",
+        "id": 106093,
+        "nombre": "Phil Grabsky",
+        "premios": [],
+        "wikidata": "Q7181929"
+      }
+    ],
+    "duracion": 101,
+    "estreno": "2025-11-11",
+    "fondo": "https://image.tmdb.org/t/p/w1280/iIWciu5fiLSyUQHYzr6KMpLYKu2.jpg",
+    "generos": [
+      "Documental"
+    ],
+    "id": "tmdb-1496903",
+    "idioma_original": "en",
+    "imdb": "tt38351366",
+    "paises": [
+      "GB"
+    ],
+    "reparto": [
+      {
+        "id": 2361932,
+        "nombre": "Jack Bannell",
+        "papel": "Caravaggio"
+      }
+    ],
+    "sinopsis": {
+      "ca": "Després de cinc anys de preparació, aquest és el documental més extens mai realitzat sobre Caravaggio. Amb una obra mestra rere l’altra i el testimoni de destacats experts d’arreu del món, submergeix el públic en els relats ocults de la vida de l’artista, desentrellant pistes incrustades en la seva obra.",
+      "en": "Five years in production, this is the most extensive film ever made about one of the greatest artists of all time – Caravaggio. Featuring masterpiece after masterpiece and with first-hand testimony from the artist himself on the eve of his mysterious disappearance, this beautiful new film reveals Caravaggio as never before. Multi-award-winning filmmakers David Bickerstaff and Phil Grabsky delve into the hidden narratives of Caravaggio’s life, piecing together clues embedded within his incredible art. The intriguing self-depictions within his works — sometimes disguised, sometimes in plain sight — offer a rare window into his psyche and personal struggles. Join us as we unravel the story of one of history’s most brilliant, complex and controversial figures."
+    },
+    "titulo": "Caravaggio",
+    "titulo_original": "Caravaggio",
+    "tmdb": 1496903,
+    "trailer": "P4bzA9uNXEU"
+  },
+  "tmdb-1688701": {
+    "anio": 2026,
+    "caducado": "2026-11-17",
+    "cartel": "https://image.tmdb.org/t/p/w500/liwJpPDopllSa4sOLFyVdRZAmOV.jpg",
+    "direccion": [
+      {
+        "id": 3430763,
+        "nombre": "Tiago Benetti"
+      }
+    ],
+    "estreno": "2026-05-21",
+    "fondo": "https://image.tmdb.org/t/p/w1280/4XhMkq538gUsEou0fHuDFp9XDMZ.jpg",
+    "generos": [
+      "Drama"
+    ],
+    "guion": [
+      {
+        "id": 3430763,
+        "nombre": "Tiago Benetti"
+      }
+    ],
+    "id": "tmdb-1688701",
+    "idioma_original": "pt",
+    "imdb": "tt42934119",
+    "paises": [
+      "BR"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/jCO1KrlHqg5PKnaAKRevlSpeTut.jpg",
+        "id": 2396803,
+        "nombre": "Alexandre Machafer",
+        "papel": "André"
+      },
+      {
+        "id": 6204154,
+        "nombre": "Bella Maria Benetti",
+        "papel": "Helena"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oQPpesbBVni6HUPqRYGOjUN4QYs.jpg",
+        "id": 1257348,
+        "nombre": "Myrian Rios",
+        "papel": "Conceição",
+        "premios": [],
+        "wikidata": "Q10334166"
+      },
+      {
+        "id": 6204155,
+        "nombre": "Bárbara Marinho",
+        "papel": "Sandra"
+      },
+      {
+        "id": 4415803,
+        "nombre": "Tarcisio Rafael",
+        "papel": "Roberto"
+      },
+      {
+        "id": 6204156,
+        "nombre": "Frei Gilson"
+      },
+      {
+        "id": 6204157,
+        "nombre": "Padre Fábio Galdino"
+      }
+    ],
+    "sinopsis": {
+      "en": "A mother and her daughter are gravely hurt in a crash on the way to a long-awaited family reunion, and the girl fights for her life. Their path crosses that of a photographer who has distanced himself from faith, and a rosary begins to pass between people who all carry old wounds."
+    },
+    "titulo": "O Poder do Rosário",
+    "titulo_original": "O Poder do Rosário",
+    "tmdb": 1688701
+  },
+  "tmdb-1755565": {
+    "anio": 2026,
+    "caducado": "2026-11-18",
+    "cartel": "https://image.tmdb.org/t/p/w500/7pksyM5i9GeCJzlDscQ5te13vaL.jpg",
+    "direccion": [
+      {
+        "id": 2725308,
+        "nombre": "Paula Serra"
+      },
+      {
+        "id": 5882480,
+        "nombre": "Clàudia Serra"
+      }
+    ],
+    "duracion": 89,
+    "estreno": "2026-11-06",
+    "generos": [
+      "Terror",
+      "Suspense"
+    ],
+    "guion": [
+      {
+        "id": 2619613,
+        "nombre": "Clara Esteban"
+      },
+      {
+        "id": 133425,
+        "nombre": "Andrea Martínez"
+      },
+      {
+        "id": 3775082,
+        "nombre": "Pau Pujol"
+      }
+    ],
+    "id": "tmdb-1755565",
+    "idioma_original": "ca",
+    "imdb": "tt42205124",
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/n6XCImQ0cLhAAeLlUcMP0MxV7aj.jpg",
+        "id": 6213180,
+        "nombre": "Jael Borràs"
+      },
+      {
+        "id": 3698073,
+        "nombre": "Mia Sala-Patau"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/8VDS2NnHHoinvCuqi9MdEJaUwVx.jpg",
+        "id": 2869815,
+        "nombre": "Pablo Scapigliati"
+      },
+      {
+        "id": 1330982,
+        "nombre": "Marc Vila"
+      }
+    ],
+    "sinopsis": {
+      "ca": "L’Àlex, una cap de cau alegre i decidida, es queda atrapada amb el seu grup en una casa dels Pirineus durant una tempesta de neu. Però no estan sols: al refugi apareix el Leo, un nen misteriós que ningú sap d’on ha sortit. L’Àlex intenta garantir la seguretat de tothom mentre no arriba el rescat que els traurà d’allà, però el Leo complica la situació i porta la cap al límit de les seves forces i de la seva moral. En la lluita per protegir els seus, l’Àlex es veu obligada a fer coses que mai no hauria imaginat.",
+      "en": "Follow a group of eight explorers and two leaders who reach a mountain refuge in the Pyrenees, only to be cut off by a snowstorm. When they take a headcount, they discover an extra child that no one remembers."
+    },
+    "titulo": "11",
+    "titulo_original": "11",
+    "tmdb": 1755565,
+    "trailer": "rSciGK2clh8"
+  },
+  "tmdb-9764": {
+    "anio": 1975,
+    "caducado": "2026-11-17",
+    "cartel": "https://image.tmdb.org/t/p/w500/xYWPyzDfCmX6xK51wwGNkQNA9fv.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ca8fRqLDfTJTCamLKHp70up23ET.jpg",
+        "id": 5026,
+        "nombre": "Akira Kurosawa",
+        "premios": [
+          {
+            "anio": 1981,
+            "premio": "Gran Oficial de la Orden al Mérito de la República italiana",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Caballero Gran Cruz de la Orden al Mérito de la República Italiana",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1985,
+            "premio": "Orden de la Cultura",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1965,
+            "premio": "Premio Ramón Magsaysay",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Blue Ribbon al millor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1992,
+            "premio": "Praemium Imperiale",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden de la Amistad de los Pueblos",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1976,
+            "premio": "Persona de Mérito Cultural",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1998,
+            "premio": "Premi d'Honor de la Nació",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1965,
+            "premio": "Premio Asahi",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1990,
+            "premio": "Óscar honorífico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1948,
+            "premio": "Premio Mainichi al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1949,
+            "premio": "Premi Kinema Junpo a la millor pel·lícula de l'any",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1949,
+            "premio": "Premio Mainichi a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1950,
+            "premio": "Blue Ribbon Awards for Best Screenplay",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1951,
+            "premio": "National Board of Review Awards 1951",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1951,
+            "premio": "León de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1953,
+            "premio": "Premio Kinema Junpo",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1953,
+            "premio": "Premio Mainichi a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1953,
+            "premio": "Blue Ribbon Awards for Best Screenplay",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1954,
+            "premio": "León de Plata a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1959,
+            "premio": "Blue Ribbon Awards for Best Film",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1959,
+            "premio": "Premio Fipresci",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1959,
+            "premio": "Oso de Plata a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1964,
+            "premio": "Premio Mainichi a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1964,
+            "premio": "Blue Ribbon Awards for Best Screenplay",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1966,
+            "premio": "Blue Ribbon Awards for Best Film",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1966,
+            "premio": "Premio Mainichi a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1977,
+            "premio": "Cinta de Plata al mejor director de cine extranjero",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1977,
+            "premio": "David de Donatello al mejor director extranjero",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1978,
+            "premio": "Premio de Unión de Críticos de Cine a la mejor película extranjera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1980,
+            "premio": "Premi Hōchi Film a la millor pel·lícula",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1980,
+            "premio": "Palma de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "César a la mejor película extranjera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Blue Ribbon Awards for Best Film",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Premio Mainichi a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Premio Mainichi al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "BAFTA al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Cinta de Plata al mejor director de cine extranjero",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "David de Donatello al mejor director extranjero",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Blue Ribbon Awards for Best Film",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Premio Mainichi a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Premio Mainichi al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Premio Amanda a la mejor película extranjera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "David de Donatello al mejor director extranjero",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "BAFTA a la mejor película de habla no inglesa",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1994,
+            "premio": "Premi Kyoto d'arts i filosofia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Miembro de la Academia Estadounidense de las Artes y las Ciencias",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1953,
+            "premio": "Premi Mainichi al millor guió",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1964,
+            "premio": "Premi Mainichi al millor guió",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1990,
+            "premio": "Premi de la cultura asiàtica de Fukuoka",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1952,
+            "premio": "Premios Óscar",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1959,
+            "premio": "Oso de Plata",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Premios César",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q8006"
+      }
+    ],
+    "duracion": 144,
+    "edad": "APTA",
+    "estreno": "1975-08-02",
+    "fondo": "https://image.tmdb.org/t/p/w1280/33hRze5MIFzwV2MR3kF5QzPkgjR.jpg",
+    "generos": [
+      "Aventura",
+      "Drama"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6y3bFnu1ElR3HjifUSZPjCbALS5.jpg",
+        "id": 1133404,
+        "nombre": "Юрий Нагибин"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/sedn5TCx9lcwF6jr1l8fPYkxRlK.jpg",
+        "id": 58999,
+        "nombre": "Владимир Арсеньев"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ca8fRqLDfTJTCamLKHp70up23ET.jpg",
+        "id": 5026,
+        "nombre": "Akira Kurosawa"
+      }
+    ],
+    "id": "tmdb-9764",
+    "idioma_original": "ru",
+    "imdb": "tt0071411",
+    "lema": "Obra maestra ganadora del premio de la Academia de Kurosawa",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4Y4ENLMKJgMqxxvKdwOnsBShlQc.jpg",
+        "id": 63965,
+        "nombre": "Исаак Шварц"
+      }
+    ],
+    "nota": 7.9,
+    "paises": [
+      "JP",
+      "SU"
+    ],
+    "premios": [
+      {
+        "anio": 1976,
+        "premio": "Óscar a la mejor película de habla no inglesa",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1976,
+        "premio": "Óscar a la mejor película de habla no inglesa",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1976,
+        "premio": "Candidata internacional als Premis Oscar",
+        "tipo": "nominado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/xOD62hEkLUhZT2OhGcxLTOnf7J0.jpg",
+        "id": 1090508,
+        "nombre": "Юрий Соломин",
+        "papel": "Arsenev",
+        "premios": [
+          {
+            "anio": 2011,
+            "premio": "Orden del Sol Naciente de 3.ª clase",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Orden de Honor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1988,
+            "premio": "Artista del Pueblo de la URSS",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Orden al Mérito por la Patria 2.º grado",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1999,
+            "premio": "Tercer grado de la Orden al Mérito por la Patria",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Cuarto grado de la Orden al Mérito por la Patria",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1985,
+            "premio": "Orden de la Amistad de los Pueblos",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Medalla Conmemorativa del 1000.º Aniversario de Kazán",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1971,
+            "premio": "Premio Estatal Hermanos Vasiliev",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1974,
+            "premio": "Artista del Pueblo de la RSFSR",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1971,
+            "premio": "Artista de Honor de la RSFSR",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Orden al Mérito por la Patria de 1.ª clase",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Premi Estatal de la Federació Russa de literatura i art",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Máscara Dorada",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premi del Servei Federal de Seguretat de Rússia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Héroe del Trabajo de la Federación de Rusia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Orden del Santo Príncipe Daniel de Moscú",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Premio Estatal de la Federación de Rusia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden del Sol Naciente",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "People's Artist of the Kyrgyz Republic",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orde Clau de l'amistat",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q2623285"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ygva6jk16z14NLkflL3aldS91aa.jpg",
+        "id": 58989,
+        "nombre": "Максим Мунзук",
+        "papel": "Dersu Uzala",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Artista del Pueblo de la RSFSR",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1957,
+            "premio": "Artista de Honor de la RSFSR",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden de la Amistad de los Pueblos",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Medalla por el Trabajo Valiente en la Gran Guerra Patria 1941-1945",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Medalla al Trabajador Veterano",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q926680"
+      },
+      {
+        "id": 58995,
+        "nombre": "Михаил Бычков",
+        "papel": "Otryad Arseneva",
+        "premios": [],
+        "wikidata": "Q112989581"
+      },
+      {
+        "id": 58997,
+        "nombre": "B. Khorulev"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/3p8K1lgXjnKlHNwWvmTPqH2OnU3.jpg",
+        "id": 58994,
+        "nombre": "Vladimir Kremena",
+        "papel": "Turtwigin"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/39i0x768RUlL4JMgbHxEdrv1uWV.jpg",
+        "id": 47434,
+        "nombre": "Александр Пятков",
+        "papel": "Olenin"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/3fJBMBKicrNWrCfOqkYZe1eLQYG.jpg",
+        "id": 58991,
+        "nombre": "Svetlana Danilchenko",
+        "papel": "Anna"
+      },
+      {
+        "id": 58992,
+        "nombre": "Dmitri Korshikov",
+        "papel": "Wowa son of Arsenjev"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/mUz51OoM8AQp9q440uojeV1Is07.jpg",
+        "id": 58993,
+        "nombre": "Suimenkul Chokmorov",
+        "papel": "Jan Bao"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/cTxYhRlDQ3Jpmy6N9rC5GL1rlBS.jpg",
+        "id": 931915,
+        "nombre": "Даниил Нетребин",
+        "papel": "Politseyskiy"
+      }
+    ],
+    "sinopsis": {
+      "ca": "A principis del segle XX, l'explorador rus Vladímir Arséniev, és enviat a la regió del riu Ussuri amb el propòsit d'elaborar la cartografia de la zona. Allà fa amistat amb un vell caçador de la taigà anomenat Dersú Uzalà que viu tot sol al bosc. El vell caçador els acompanya i la seva ajuda esdevindrà indispensable. Durant el viatge, explica al seu amic els secrets del seu poble, les rutes que van servir els animals, les tradicions i les creences dels indígenes de la taigà.",
+      "en": "A military explorer meets and befriends a Goldi man in Russia’s unmapped forests. A deep and abiding bond evolves between the two men, one civilized in the usual sense, the other at home in the glacial Siberian woods.",
+      "es": "Un explorador del ejército conoce a un hombre de la tribu Goldi en los bosques no mapeados de Rusia. Con el tiempo, se crea un vínculo duradero entre los dos hombres: uno civilizado en el sentido usual, y el otro que tiene por hogar los bosques glaciares de Siberia."
+    },
+    "titulo": "Dersu Uzala (El cazador)",
+    "titulo_ca": "Dersu Uzala",
+    "titulo_original": "Дерсу Узала",
+    "tmdb": 9764,
+    "trailer": "oXGB-dKchz8"
+  }
+}

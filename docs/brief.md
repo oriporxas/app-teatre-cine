@@ -48,6 +48,13 @@ Un directorio único y actualizado de todo lo que hay en cartel en una ciudad: t
   - **IA por lotes:** el trabajo de cada noche (clasificar obras, revisar las dudosas y las noticias) se pide por lotes, que cuesta la mitad; la IA contesta en minutos (como mucho, 24 horas) y la tarea espera hasta 20 minutos. Lo que no llegue lo recoge la actualización siguiente.
   - **Visto / Hecho:** se puede tachar lo ya visto o hecho: «Vista» para películas y obras de teatro, «Visto» para espectáculos de magia y circo, «Hecho» para eventos (talleres, festivales, charlas) y para planes enteros. Botón ✓ en cada ficha, en cada función de un plan y en el plan. Lo tachado queda en un **historial** por meses, con filtros (Cine, Escena, Eventos, Planes).
   - **Barra de abajo más corta:** cinco pestañas (Inicio, Teatro, Cine, Agenda, Noticias). «Agenda» junta Planes, Guardado e Historial con un selector arriba y abre el último apartado usado.
+- Cuarta revisión de Uri (19 de noviembre, tarde):
+  - **Lotes sin esperas:** la precisión es la misma (mismo modelo, mismas instrucciones, mismas comprobaciones); si la IA no contesta en 10 minutos, lo que falte se pregunta al momento por la vía normal. Nada queda para «horas después».
+  - **La actualización del mediodía también busca lo nuevo** de la agenda (no solo el cine): unos 14 minutos. Al abrir la app, el móvil descarga la última versión ya preparada (no hace una actualización nueva).
+  - **Personas:** ficha con foto, oficio, nacimiento, biografía y trabajos destacados (TMDB) y enlace a Wikipedia (Wikidata), para el reparto del cine y la gente de teatro cuando es seguro que es la misma persona.
+  - **Inicio:** «Empieza pronto» en dos filas, cine y teatro (teatro, magia y circo de cualquier tipo y género), y una fila de «Próximos eventos».
+  - **Eventos de cine:** festivales, ciclos, cinefórums, premios, concursos y talleres de cine salen como eventos (no como películas), también arriba en la pestaña Cine. No es prioridad, pero sí importante.
+  - **Caducado:** lo que terminó en el último mes (obras, películas y eventos) sigue apareciendo al buscar, con la etiqueta «Caducado», y en un apartado propio separado por tipo (también lo guardado). Lo que terminó hace más de un mes desaparece de la app. Las películas solo se marcan cuando la actualización confirma que ya no están en ningún cine.
 - Dónde se trabaja: repositorio privado oriporxas/app-teatre-cine, con la app de Claude instalada, en sesiones de Claude Code en la nube. Uri acepta los cambios con «Create PR» y después «Merge pull request».
 
 ## Principios

@@ -134,7 +134,16 @@ def _clasificar(actividades: dict[str, dict], ciudad: Ciudad, informe: dict) -> 
             final[i] = base[i] | {"clasificado_por": "ia", "senales": r["pistas"]}
         else:
             final[i] = r | {"clasificado_por": "señales", "senales": r["pistas"]}
+    # Tarea 3: de lo que es cine, qué son eventos (festivales, ciclos, cinefórums, premios, talleres…).
+    try:
+        from . import eventos_cine
+        eventos_cine.revisar(actividades, final, ciudad, informe)
+    except Exception as e:  # noqa: BLE001 - sin esto, la cartelera sale igual
+        informe["errores"].append(f"eventos_cine: {type(e).__name__}: {e}")
     return final
+
+
+MINUTOS_GUIA_RAPIDA = 6  # en la rápida, solo las fichas nuevas de la guía (van primero por prioridad)
 
 
 def _cine_y_noticias(ciudad: Ciudad, hoy: dt.date, descargar: bool, leer_webs: bool) -> dict:
@@ -237,6 +246,12 @@ def ejecutar_ciudad(ciudad: Ciudad, descargar: bool = True, leer_webs: bool = Tr
     informe["app"] = exportar_web.exportar(ciudad, informe, mapa, leer_webs=leer_webs)
     # Cine y noticias (en paralelo desde el principio): si fallan, la cartelera de escena ya está guardada.
     _unir(informe, cine_y_noticias)
+    # Fichas de las personas del cine y del teatro (TMDB y Wikidata), para la app.
+    try:
+        from . import biografias
+        biografias.aplicar(ciudad, informe, leer_webs=leer_webs)
+    except Exception as e:  # noqa: BLE001
+        informe["errores"].append(f"biografias: {type(e).__name__}: {e}")
     # ¿Se escapa alguna sala o cine? Lista oficial de equipamientos contra lo que tenemos.
     try:
         from . import cobertura
@@ -302,8 +317,13 @@ def main() -> None:
     p.add_argument("--sin-lectura", "--sin-guia", action="store_true", help="no leer páginas web nuevas")
     p.add_argument("--minutos-lectura", "--minutos-guia", type=float, help="tiempo máximo leyendo webs por fuente")
     p.add_argument("--hoy", help="fecha de referencia (AAAA-MM-DD); por defecto, la de cada ciudad")
-    p.add_argument("--solo-cine", action="store_true", help="actualizar solo la cartelera de cine (la del mediodía)")
+    p.add_argument("--solo-cine", action="store_true", help="actualizar solo la cartelera de cine")
+    p.add_argument("--rapida", action="store_true",
+                   help="actualización rápida (la del mediodía): lo nuevo de la agenda, 6 min de guía, cine y noticias")
     args = p.parse_args()
+    if args.rapida:
+        config.RAPIDA = True
+        args.minutos_lectura = args.minutos_lectura if args.minutos_lectura is not None else MINUTOS_GUIA_RAPIDA
     if args.solo_cine:
         res = solo_cine(args.ciudad)
         print(json.dumps(res, ensure_ascii=False, indent=2))

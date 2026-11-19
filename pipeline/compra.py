@@ -204,7 +204,7 @@ def aplicar(ciudad, items: list[dict], informe: dict, leer_webs: bool = True) ->
     ruta = config.carpeta_cache(ciudad.id, "compra") / "obras.json"
     cache = leer_json(ruta, {}) or {}
     hoy = dt.date.today()
-    fin = time.monotonic() + MINUTOS_MAX * 60
+    fin = time.monotonic() + config.tope_minutos(MINUTOS_MAX) * 60
     webs: dict[str, tuple[list[tuple[str, str]], set[str]]] = {}
     inf = {"con_enlace": 0, "portadas": 0, "buscadas_hoy": 0, "encontradas": 0, "obra": 0, "sala": 0}
     for it in items:

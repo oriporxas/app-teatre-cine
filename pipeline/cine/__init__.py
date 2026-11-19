@@ -184,6 +184,11 @@ def recoger(ciudad, hoy: dt.date, descargar: bool = True, leer_webs: bool = True
     from .. import verificar  # nada sale sin pasar las comprobaciones
     informe["verificacion"] = verificar.cine(ciudad, salida, hoy, DIAS)
     pelis_app = salida["peliculas"]
+    # Lo caducado del último mes (Uri, 19/11/2026): películas que ya no tienen sesiones.
+    from .. import caducados as cad
+    anteriores = (leer_json(CARPETA_WEB / f"{ciudad.id}-cine.json", {}) or {}).get("peliculas", [])
+    salida["caducadas"] = cad.actualizar(ciudad, "cine", hoy, anteriores, pelis_app, cad.ultima_sesion, cad.recortar_cine)
+    informe["caducadas"] = len(salida["caducadas"])
     CARPETA_WEB.mkdir(parents=True, exist_ok=True)
     (CARPETA_WEB / f"{ciudad.id}-cine.json").write_text(
         json.dumps(salida, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

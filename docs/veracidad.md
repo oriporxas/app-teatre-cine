@@ -148,6 +148,31 @@ Primera lectura (18/11/2026):
 - 7 carteles nuevos.
 - Gasto: unos 0,14 $.
 
+## 7. Fichas ampliadas de personas (Uri, 19/11/2026)
+
+`pipeline/biografias.py`: foto, oficio, fecha y lugar de nacimiento, biografía breve y trabajos
+destacados desde TMDB, y descripción y enlace a la Wikipedia desde Wikidata.
+
+- **Cine:** la persona es la que TMDB da en los créditos de cada película. No se adivina nada.
+- **Teatro:** un nombre del equipo artístico se da por una persona de TMDB solo si se cumplen todas:
+  1. en TMDB hay una sola persona con ese nombre exacto y con trabajos (los perfiles vacíos y
+     repetidos no cuentan: caso real, «Nil Cardoner»);
+  2. su oficio en TMDB encaja con su papel en la obra (intérprete ↔ actuación, dirección ↔
+     dirección, texto ↔ guion);
+  3. tiene relación con el país de la ciudad (nació allí o es conocida por obras en sus idiomas);
+  4. en Wikidata no hay varias personas con ese nombre (si las hay, es un nombre común: caso real,
+     «Marta Pérez», con siete).
+- Pruebas: `tests/test_biografias.py`, con los casos reales.
+- Los textos de la Wikipedia no se copian: sus páginas no admiten programas y su servicio para
+  programas no responde desde aquí. La app enlaza al artículo.
+
+## 8. Eventos de cine (Uri, 19/11/2026)
+
+`pipeline/eventos_cine.py`: de las actividades de cine de la agenda (y de las que hablan de cine),
+la IA dice cuáles son eventos (festival, ciclo, cinefórum, premios, concurso, taller, estreno) y
+cuáles proyecciones sueltas. Solo se acepta con confianza ≥ 0,7, y una respuesta solo vale si el
+texto de la actividad no ha cambiado desde que se preguntó. Prueba: `tests/test_eventos_cine.py`.
+
 ## Más adelante
 - Lo mismo para los cines sin horarios cuando su web lo permita (tarea «horarios_cine», reservada).
 - Proveedores de pago donde los haya (cine: International Showtimes) y que las salas publiquen

@@ -1,0 +1,564 @@
+{
+  "open_data_bcn:99400700011": {
+    "barrio": "Sant Andreu",
+    "caducado": "2026-11-18",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "L'objectiu del taller és sempre a través del joc, ampliar el ventall expressiu del nostre cos i impulsar a la creació. D'aquesta manera busquem que cadascú pugui potenciar el seu propi procés creatiu, transitant constantment del cos al paper, de l'escena viva a la dramatúrgia. Al llarg del taller es desenvoluparan altres objectius complementaris: presència escènica, creació de personatges, la utilització de l'espai, fusió d'estils, canvis de ritme i energia interpretativa i altres recursos actorals .",
+      "es": "El objetivo del taller es siempre a través del juego, ampliar el abanico expresivo de nuestro cuerpo e impulsar la creación. De este modo buscamos que cada uno pueda potenciar su propio proceso creativo, transitando constantemente del cuerpo al papel, de la escena viva a la dramaturgia. A lo largo del taller se desarrollarán otros objetivos complementarios: presencia escénica, creación de personajes, la utilización del espacio, fusión de estilos, cambios de ritmo y energía interpretativa y otros recursos actorales."
+    },
+    "direccion": "Carrer Gran de Sant Andreu 111",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-iniciacio-al-teatre-de-creacio_99400700011.html",
+    "funciones": [
+      [
+        "2026-11-18",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400700011",
+    "idioma_textos": "ca",
+    "lat": 41.43088018380354,
+    "lon": 2.1894124386376466,
+    "nivel": "iniciación",
+    "nombre": "Iniciació al teatre de creació",
+    "precio_max": 56.48,
+    "precio_min": 56.48,
+    "sala": "Centre Cívic Sant Andreu",
+    "sala_id": "barcelona:via296202-111",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "teatre de creació",
+        "actuació"
+      ],
+      "es": [
+        "teatro de creación",
+        "actuación"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400702919": {
+    "barrio": "el Parc i la Llacuna del Poblenou",
+    "caducado": "2026-11-18",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Benvinguts al cabaret solidari \"Fragments: Des del Riu Fins al Mar\"! Aquest emocionant esdeveniment, reuneix talentosos artistes que es presenten de forma gratuïta per recaptar fons per ajuda sanitària a Gaza. Amb un variat espectacle ple de màgia, acrobàcies i humor, cada actuació promet portar-te a un món de creativitat i emoció, tot mentre recolzem una causa noble. No t'ho perdis!",
+      "es": "¡Bienvenidos al cabaret solidario \"Fragments: Des del Riu Fins al Mar\"! Este emocionante evento reúne a talentosos artistas que actúan de forma gratuita para recaudar fondos para la ayuda sanitaria en Gaza. Con un variado espectáculo lleno de magia, acrobacias y humor, cada actuación promete llevarte a un mundo de creatividad y emoción, mientras apoyamos una causa noble. ¡No te lo pierdas!"
+    },
+    "direccion": "Carrer de Buenaventura Muñoz 21",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-cabaret-des-del-riu-fins-al-mar_99400702919.html",
+    "funciones": [
+      [
+        "2026-11-18",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "cabaret"
+    ],
+    "id": "open_data_bcn:99400702919",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/1720704942_PALESTINALIBRE_FONDO_BLANCO_HORIZONTAL_A3.760x428.c668aa75.jpg",
+    "lat": 41.39174570900244,
+    "lon": 2.184766821590944,
+    "nombre": "Des del riu fins al mar",
+    "sala": "Centre Cívic Parc Sandaru",
+    "sala_id": "barcelona:via50803-21",
+    "temas": {
+      "ca": [
+        "solidaritat",
+        "ajuda humanitària"
+      ],
+      "es": [
+        "solidaridad",
+        "ayuda humanitaria"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400750539": {
+    "barrio": "el Clot",
+    "caducado": "2026-11-18",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A càrrec de la cia. Martín Melinsky Un maldestre oficinista, descontent amb la seva feina i la seva vida, emprèn un viatge cap a la seva pròpia validació, reconeixement i autoestima quan l'avorriment que genera la rutina el porti a jugar amb els seus elements de treball per transportar-se a mons de fantasia. ESPECTACLE DINS L'ESCENA BCN",
+      "es": "A cargo de la cia. Martín Melinsky. Un torpe oficinista, descontento con su trabajo y su vida, emprende un viaje hacia su propia validación, reconocimiento y autoestima cuando el aburrimiento que genera la rutina lo lleve a jugar con sus elementos de trabajo para transportarse a mundos de fantasía. ESPECTÁCULO DENTRO DE L'ESCENA BCN"
+    },
+    "direccion": "Gran Via de les Corts Catalanes 837",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Martín Melinsky"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-unic_99400750539.html",
+    "funciones": [
+      [
+        "2026-11-18",
+        "20:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400750539",
+    "idioma_textos": "ca",
+    "lat": 41.40494645411221,
+    "lon": 2.188461496328564,
+    "nombre": "Únic",
+    "sala": "Centre Cultural La Farinera del Clot",
+    "sala_id": "barcelona:via169409-837",
+    "sala_interior": "Teatre",
+    "temas": {
+      "ca": [
+        "rutina laboral",
+        "autoestima",
+        "fantasia"
+      ],
+      "es": [
+        "rutina laboral",
+        "autoestima",
+        "fantasía"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400755648": {
+    "barrio": "el Congrés i els Indians",
+    "caducado": "2026-11-17",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Vine a explorar com neix una peca escènica, quines decisions artístiques hi ha darrere i com podem esdevenir espectadores més actives ¡ crítiques. Alternarem diàlegs, anàlisi, tria de propostes ¡ debats per apropar-nos a les arts escèniques des d'una perspectiva més entenedora ¡ enriquidora. Vine a veure l'escena amb uns altres ulls! En aquesta ocasió, comptarem amb la participació de l'artista resident Pamela Demócrito, que mostrarà un fragment de la seva peça en creació Caos in Motion. A càrrec de: Maria Voronkova Durada: 90 minuts",
+      "es": "Ven a explorar cómo nace una pieza escénica, qué decisiones artísticas hay detrás y cómo podemos convertirnos en espectadores más activos y críticos. Alternaremos diálogos, análisis, selección de propuestas y debates para acercarnos a las artes escénicas desde una perspectiva más comprensible y enriquecedora. ¡Ven a ver la escena con otros ojos! En esta ocasión, contaremos con la participación de la artista residente Pamela Demócrito, que mostrará un fragmento de su pieza en creación Caos in Motion. A cargo de: Maria Voronkova. Duración: 90 minutos"
+    },
+    "direccion": "Carrer de Felip II 222",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/escoleta-de-cultura-conferencia-escenica-amb-l-artista-pamela-democrito_99400755648.html",
+    "funciones": [
+      [
+        "2026-11-17",
+        "19:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400755648",
+    "idioma_textos": "ca",
+    "lat": 41.42755131086321,
+    "lon": 2.1784411209301746,
+    "nombre": "Conferència escènica amb l'artista pamela demócrito",
+    "sala": "Centre Cívic Can Clariana Cultural",
+    "sala_id": "barcelona:via121402-222",
+    "subtipo": "conferencia o coloquio",
+    "temas": {
+      "ca": [
+        "arts escèniques",
+        "espectadors crítics"
+      ],
+      "es": [
+        "artes escénicas",
+        "espectadores críticos"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400770277": {
+    "barrio": "el Poblenou",
+    "caducado": "2026-11-17",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "L'entrada a cada espectacle anirà a càrrec dels participants. Taler per als amants del teatre que volen aprofundir en el coneixement de les obres teatrals. Gaudirem de tres peces de diferents estils i les comentarem, amb una sessió posterior a Can Felipa per contextualitzar l'obra, el seu rerefons. Compartirem materials complementaris per a una milor comprensió de cada obra. Impartit per: Companyia de teatre El Eje. Calendari del taller: Octubre: dimarts 13 introducció a l'espectacle i sortida al teatre, divendres 16; Novembre: dimarts 10 introducció a l'espectacle i sortida al teatre, divendres 13; Desembre: dimarts 15 introducció a l'espectacle i sortida al teatre, divendres 18.",
+      "es": "La entrada a cada espectáculo correrá a cargo de los participantes. Taller para los amantes del teatro que quieren profundizar en el conocimiento de las obras teatrales. Disfrutaremos de tres piezas de diferentes estilos y las comentaremos, con una sesión posterior en Can Felipa para contextualizar la obra, su trasfondo. Compartiremos materiales complementarios para una mejor comprensión de cada obra. Impartido por: Companyia de teatre El Eje. Calendario del taller: Octubre: martes 13 introducción al espectáculo y salida al teatre, viernes 16; Noviembre: martes 10 introducción al espectáculo y salida al teatre, viernes 13; Diciembre: martes 15 introducción al espectáculo y salida al teatre, viernes 18."
+    },
+    "direccion": "Plaça de Josep Maria Huertas Claveria 1",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-anem-al-teatre_99400770277.html",
+    "funciones": [
+      [
+        "2026-11-17",
+        "19:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400770277",
+    "idioma_textos": "ca",
+    "lat": 41.40367975860696,
+    "lon": 2.20050971216533,
+    "nombre": "Anem al teatre!",
+    "sala": "Centre Cívic Can Felipa",
+    "sala_id": "barcelona:via700802-1",
+    "subtipo": "formación",
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400781890": {
+    "artista": "Brujo",
+    "barrio": "el Poble-sec",
+    "caducado": "2026-11-17",
+    "compra": "https://teatreapolo.com/cartelera/el-brujo-la-segunda-venida-de-cristo/",
+    "compra_sala": "https://teatreapolo.com",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "El Brujo torna al Teatre Apolo de Barcelona amb l'estrena del seu nou espectacle: La segunda venida de Cristo o el yoga de Jesús. Medalla d'Or al Mèrit de les Belles Arts 2002 entre altres distincions, Rafael Álvarez, El Brujo té una trajectòria de més de 50 anys d'experiència sobre les taules i afirma que aquest espectacle és el títol més arriscat de tota la carrera en teatre, un monòleg enginyós amb grans tocs d'humor. Una obra complexa sobre l'exposició dels Evangelis, sobretot l'evangeli de Sant Joan, els fragments més cridaners, especials i simbòlics des de la perspectiva de la filosofia oriental i la ciència del ioga de l'Índia. És un moment en què el món necessita aquest coneixement.",
+      "es": "El Brujo vuelve al Teatro Apolo de Barcelona con el estreno de su nuevo espectáculo: La segunda venida de Cristo o el yoga de Jesús. Medalla de Oro al Mérito de las Bellas Artes 2002 entre otras distinciones, Rafael Álvarez, El Brujo, tiene una trayectoria de más de 50 años de experiencia sobre las tablas y afirma que este espectáculo es el título más arriesgado de toda su carrera en teatro, un monólogo ingenioso con grandes toques de humor. Una obra compleja sobre la exposición de los Evangelios, sobre todo el evangelio de San Juan, los fragmentos más llamativos, especiales y simbólicos desde la perspectiva de la filosofía oriental y la ciencia del yoga de la India. Es un momento en que el mundo necesita este conocimiento."
+    },
+    "direccion": "Avinguda del Paral·lel 57",
+    "duracion": 100,
+    "equipo": [
+      [
+        "amb",
+        "Brujo"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-la-segunda-venida-de-cristo-o-el-yoga-de-jesus-amb-el-brujo_99400781890.html",
+    "funciones": [
+      [
+        "2026-11-17",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400781890",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/cristo.760x428.3b9ab449.jpg",
+    "lat": 41.37478866980459,
+    "lon": 2.17033375490776,
+    "nombre": "La segunda venida de Cristo o el yoga de Jesús",
+    "precio_max": 30.0,
+    "precio_min": 22.0,
+    "premios": [
+      {
+        "ca": "Medalla d'Or al Mèrit de les Belles Arts 2002",
+        "cita": "Medalla d'Or al Mèrit de les Belles Arts 2002",
+        "es": "Medalla de Oro al Mérito de las Bellas Artes 2002"
+      }
+    ],
+    "sala": "Teatre Apolo",
+    "sala_id": "barcelona:via198804-57",
+    "temas": {
+      "ca": [
+        "evangelis",
+        "filosofia oriental",
+        "ioga"
+      ],
+      "es": [
+        "evangelios",
+        "filosofía oriental",
+        "yoga"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400785793": {
+    "barrio": "Sant Genís dels Agudells",
+    "caducado": "2026-11-18",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "A càrrec de Cia. La Bacanal Mentre la dictadura de Primo de Rivera amenaça de prendre el poder, l'avinguda Paral·lel esdevé el contrapunt que el poble necessita per fugir de la violència, el pistolerisme i la censura que s'ha apoderat de la ciutat de Barcelona. Què podem fer quan sembla que el món que fins ara coneixíem s'enfonsa i el perill i l'estat d'alerta són el nostre dia a dia? Com s'aconsegueix sobreviure en un món que no ens permet viure? Probablement esperant. Fumant i esperant que vinguin temps millors. Fumando espero combina cabaret i memòria històrica per tractar una època convulsa políticament i social.",
+      "es": "A cargo de Cia. La Bacanal Mientras la dictadura de Primo de Rivera amenaza con tomar el poder, la avenida Paral·lel se convierte en el contrapunto que el pueblo necesita para huir de la violencia, el pistolerismo y la censura que se ha apoderado de la ciudad de Barcelona. ¿Qué podemos hacer cuando parece que el mundo que hasta ahora conocíamos se hunde y el peligro y el estado de alerta son nuestro día a día? ¿Cómo se consigue sobrevivir en un mundo que no nos permite vivir? Probablemente esperando. Fumando y esperando a que vengan tiempos mejores. Fumando espero combina cabaret y memoria histórica para tratar una época convulsa política y socialmente."
+    },
+    "direccion": "Avinguda del Jordà 27",
+    "edad_min": 16,
+    "equipo": [
+      [
+        "autoria i direcció",
+        "Elias Ashtari"
+      ],
+      [
+        "intèrprets",
+        "Eduard Hidalgo, Laura Pont"
+      ],
+      [
+        "a càrrec de",
+        "Cia. La Bacanal"
+      ],
+      [
+        "direcció musical",
+        "Oscar Machancoses"
+      ],
+      [
+        "producció",
+        "La Bacanal"
+      ],
+      [
+        "tècnic",
+        "Víctor Ramos"
+      ],
+      [
+        "vestuari",
+        "Laura Pont"
+      ],
+      [
+        "espai escènic",
+        "Jess Sibina"
+      ],
+      [
+        "cartell",
+        "Sergi Miwa"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-fumando-espero_99400785793.html",
+    "funciones": [
+      [
+        "2026-11-18",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "cabaret"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400785793",
+    "idioma_textos": "ca",
+    "lat": 41.42689816008589,
+    "lon": 2.1374633929572053,
+    "nombre": "Fumando espero",
+    "publico": "juvenil y adultos",
+    "sala": "Centre Cívic Casa Groga",
+    "sala_id": "barcelona:via168803-27",
+    "temas": {
+      "ca": [
+        "memòria històrica",
+        "dictadura"
+      ],
+      "es": [
+        "memoria histórica",
+        "dictadura"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400787052": {
+    "artista": "Oye Sherman i Andrés Fajngold",
+    "barrio": "la Vila de Gràcia",
+    "caducado": "2026-11-17",
+    "compra": "https://espaitexas.cat/espectacle/oversharing/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Oye Sherman i Andrés Fajngold s'uneixen per fer allò que millor saben: explicar massa coses. A Oversharing, els dos còmics comparteixen escenari en un espectacle d'humor directe, imprevisible i sense filtres, on les anècdotes personals, les idees a mig coure i la improvisació es barregen amb l'absurd i la complicitat amb el públic. Un work in progress permanent en què qualsevol cosa pot passar. I, sobretot, qualsevol cosa es pot explicar. Encara que potser no calgués.",
+      "es": "Oye Sherman y Andrés Fajngold se unen para hacer lo que mejor saben: contar demasiadas cosas. En Oversharing, los dos cómicos comparten escenario en un espectáculo de humor directo, impredecible y sin filtros, donde las anécdotas personales, las ideas a medio cocer y la improvisación se mezclan con el absurdo y la complicidad con el público. Un work in progress permanente en el que cualquier cosa puede pasar. Y, sobre todo, cualquier cosa se puede contar. Aunque quizá no hiciera falta."
+    },
+    "direccion": "Carrer de Bailèn 205",
+    "duracion": 70,
+    "equipo": [
+      [
+        "autoria",
+        "Oye Sherman i Andrés Fajngold"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-oversharing-de-oye-sherman-i-andres-fajngold_99400787052.html",
+    "funciones": [
+      [
+        "2026-11-17",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400787052",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/oversharing.760x428.0620c3eb.jpg",
+    "lat": 41.40204173467415,
+    "lon": 2.163663388757884,
+    "nombre": "Oversharing",
+    "precio_max": 22.5,
+    "precio_min": 13.5,
+    "sala": "Espai Texas",
+    "sala_id": "barcelona:via31300-205",
+    "temas": {
+      "ca": [
+        "humor",
+        "improvisació"
+      ],
+      "es": [
+        "humor",
+        "improvisación"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400788810": {
+    "artista": "Cia. Tentacles",
+    "barrio": "Sant Antoni",
+    "caducado": "2026-11-18",
+    "compra": "https://cat.teatremuntaner.com/",
+    "compra_tipo": "sala",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "La Laia, l'Eli i la Carlota són amigues des de fa anys. La seva relació és un espai segur i de confiança; s'ho expliquen tot. Quan es van conèixer, el món els semblava més fàcil; quedaven a totes hores i es divertien parlant de coses trivials. Amb el pas del temps, cada cop se'ls fa més complicat veure's i cada cop se'ls fa més complicat continuar veient el món com quan eren nenes. El pes de la societat patriarcal en la qual viuen els està passant factura, fins al punt que ara, totes les converses que tenen al seu bar de sempre, giren entorn de les violències i discriminacions que pateixen per ser dones. Cadascuna lídia amb les seves vivències personals i, a la vegada, es veu travessada per les històries de les altres; al final, el punt comú, és que totes reben la mateixa pressió i violència social.",
+      "es": "La Laia, l'Eli y la Carlota son amigas desde hace años. Su relación es un espacio seguro y de confianza; se lo cuentan todo. Cuando se conocieron, el mundo les parecía más fácil; quedaban a todas horas y se divertían hablando de cosas triviales. Con el paso del tiempo, cada vez les resulta más complicado verse y cada vez les resulta más complicado seguir viendo el mundo como cuando eran niñas. El peso de la sociedad patriarcal en la que viven les está pasando factura, hasta el punto de que ahora, todas las conversaciones que tienen en su bar de siempre giran en torno a las violencias y discriminaciones que sufren por ser mujeres. Cada una lidia con sus vivencias personales y, a la vez, se ve atravesada por las historias de las otras; al final, el punto común es que todas reciben la misma presión y violencia social."
+    },
+    "direccion": "Carrer de Muntaner 4",
+    "duracion": 75,
+    "equipo": [
+      [
+        "a càrrec de",
+        "Cia. Tentacles"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-la-resta-be-a-carrec-de-la-cia-tentacles_99400788810.html",
+    "funciones": [
+      [
+        "2026-11-18",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "id": "open_data_bcn:99400788810",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/larestabe.760x428.a12c79cd.jpg",
+    "lat": 41.38403042999847,
+    "lon": 2.1630343315494867,
+    "nombre": "La Resta Bé",
+    "precio_max": 16.0,
+    "precio_min": 16.0,
+    "sala": "Teatre Muntaner",
+    "sala_id": "barcelona:via223606-4",
+    "temas": {
+      "ca": [
+        "violència masclista",
+        "amistat entre dones"
+      ],
+      "es": [
+        "violencia machista",
+        "amistad entre mujeres"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789160": {
+    "artista": "Teatro niño proletario (Xile)",
+    "barrio": "el Raval",
+    "caducado": "2026-11-17",
+    "compra": "https://tantarantana.com/production/exhumar-teatre-26-27/",
+    "compra_sala": "http://www.tantarantana.com",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "<< Una investigació artística – arqueològica >> Una conferència performàtica que exposa la investigació artística – arqueològica de la recerca dels fragments de l'edifici de La Moneda, bombardejada l'11 de setembre de 1973. Els detalls del projecte, situats en el present polític de Xile, obren portes al límit de la legalitat, amb el desig de recuperar i ofrenar a la comunitat un fragment fundacional de la nostra desmembrada memòria recent.",
+      "es": "<< Una investigación artística – arqueológica >> Una conferencia performática que expone la investigación artística – arqueológica de la búsqueda de los fragmentos del edificio de La Moneda, bombardeado el 11 de septiembre de 1973. Los detalles del proyecto, situados en el presente político de Chile, abren puertas al límite de la legalidad, con el deseo de recuperar y ofrecer a la comunidad un fragmento fundacional de nuestra desmembrada memoria reciente."
+    },
+    "direccion": "Carrer de les Flors 22",
+    "duracion": 60,
+    "equipo": [
+      [
+        "a càrrec de",
+        "Teatro niño proletario (Xile)"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-exhumar-a-carrec-de-teatro-nino-proletario-xile_99400789160.html",
+    "funciones": [
+      [
+        "2026-11-17",
+        "20:30"
+      ]
+    ],
+    "generos": [
+      "teatro documental"
+    ],
+    "id": "open_data_bcn:99400789160",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/exhumar.760x428.15fd4c50.jpg",
+    "lat": 41.37596959387577,
+    "lon": 2.1673789423748864,
+    "nombre": "Exhumar",
+    "precio_max": 23.0,
+    "precio_min": 14.0,
+    "sala": "Tantarantana Teatre",
+    "sala_id": "barcelona:via127409-22",
+    "sala_interior": "Baixos 22",
+    "temas": {
+      "ca": [
+        "memòria històrica"
+      ],
+      "es": [
+        "memoria histórica"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789410": {
+    "barrio": "la Vila de Gràcia",
+    "caducado": "2026-11-17",
+    "compra": "https://shop.paylogic.com/95553053262946499d12d8ff3257b963/tatty-macleod-at-golems-barcelona-17-november-2026",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "direccion": "Carrer de Sant Lluís 64",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-tatty-macleod_99400789410.html",
+    "funciones": [
+      [
+        "2026-11-17",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400789410",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/tatty.760x428.2bcbd059.jpg",
+    "lat": 41.40612256064371,
+    "lon": 2.161422452441883,
+    "nombre": "Tatty MacLeod",
+    "precio_max": 37.8,
+    "precio_min": 37.8,
+    "sala": "Teatre Golem's",
+    "sala_id": "barcelona:via306306-64",
+    "tipo": "teatro"
+  },
+  "open_data_bcn:99400790011": {
+    "barrio": "les Roquetes",
+    "caducado": "2026-11-18",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A càrrec d'El Racó del Gat",
+      "es": "A cargo de El Racó del Gat"
+    },
+    "direccion": "C Romaní 6",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-de-titelles-rondalles-llegides-l-altre-pirineu_99400790011.html",
+    "funciones": [
+      [
+        "2026-11-18",
+        "17:30"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790011",
+    "idioma_textos": "ca",
+    "lat": 41.44644518692781,
+    "lon": 2.1751243525917228,
+    "nombre": "Rondalles llegides: L'altre Pirineu",
+    "sala": "Centre Ton i Guida",
+    "sala_id": "barcelona:via287507-6",
+    "tipo": "teatro",
+    "traducido": "es"
+  }
+}
