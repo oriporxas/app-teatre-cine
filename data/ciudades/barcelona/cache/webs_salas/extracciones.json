@@ -1064,7 +1064,6 @@
       "https://www.cityhallbarcelona.com/event-details/inside86-main-room-house-2026-12-02-23-59",
       "https://www.cityhallbarcelona.com/event-details/khali-l-secret-room-l-techno-hard-techno-all-night-long",
       "https://www.cityhallbarcelona.com/event-details/leit-kontrol-adria-duch-kaiferz-bagtrash-main-room",
-      "https://www.cityhallbarcelona.com/event-details/lulu-obetko-l-secret-room-l-reggaeton-cumbia-all-night-long",
       "https://www.cityhallbarcelona.com/event-details/majo-alarcon-l-secret-room-l-indie-dance-melodic-techno-all-night-long-1",
       "https://www.cityhallbarcelona.com/event-details/martes-tuesday-2026-12-01-23-59",
       "https://www.cityhallbarcelona.com/event-details/metalcore-the-party-before-christmas",
@@ -1074,12 +1073,13 @@
       "https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-zion-lennox-main-room",
       "https://www.cityhallbarcelona.com/event-details/nalgotika-l-city-hall-l-main-room-l-dark-techno-acid-gabber-hardcore",
       "https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo",
+      "https://www.cityhallbarcelona.com/event-details/varvero-invites-main-room-techno-2026-12-15-23-59",
       "https://www.cityhallbarcelona.com/event-details/visperas-monday-perreo-tributo-al-reggaeton-old-school-ivy-queen-main-room",
       "https://www.cityhallbarcelona.com/event-details/vybe-l-city-hall-barcelona-l-bounce-all-night-long",
       "https://www.cityhallbarcelona.com/event-list"
     ],
     "fecha": "2026-11-20",
-    "firma": "26eb85e3b31e3a2d",
+    "firma": "4e274df916047b4f",
     "obras": [
       {
         "cita_lugar": "",
@@ -1104,7 +1104,7 @@
         "titulo": "REBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "SECRET ROOM",
         "cita_precio": "",
         "cita_titulo": "ANGELS GAVIRIA l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG",
         "descripcion": "",
@@ -1126,7 +1126,7 @@
         "titulo": "ANGELS GAVIRIA l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "MAIN ROOM",
         "cita_precio": "",
         "cita_titulo": "MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: WISIN & YANDEL | MAIN ROOM",
         "descripcion": "",
@@ -1148,7 +1148,7 @@
         "titulo": "MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: WISIN & YANDEL | MAIN ROOM"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "MAIN ROOM",
         "cita_precio": "",
         "cita_titulo": "LEIT KONTROL | ADRIÀ DUCH · KAIFERZ · BAGTRASH | MAIN ROOM",
         "descripcion": "",
@@ -1170,7 +1170,7 @@
         "titulo": "LEIT KONTROL | ADRIÀ DUCH · KAIFERZ · BAGTRASH | MAIN ROOM"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "SECRET ROOM",
         "cita_precio": "",
         "cita_titulo": "MAJO ALARCÓN l SECRET ROOM l INDIE DANCE / MELODIC TECHNO ALL NIGHT LONG",
         "descripcion": "",
@@ -1192,7 +1192,7 @@
         "titulo": "MAJO ALARCÓN l SECRET ROOM l INDIE DANCE / MELODIC TECHNO ALL NIGHT LONG"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "SECRET ROOM",
         "cita_precio": "",
         "cita_titulo": "DJ LULU OBETKO (ARG) l SECRET ROOM l REGGAETON / CUMBIA ALL NIGHT LONG",
         "descripcion": "",
@@ -1258,7 +1258,7 @@
         "titulo": "HARD TRANCE PARTY | PASTIS & FRANK TRAX"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "MAIN ROOM",
         "cita_precio": "",
         "cita_titulo": "MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: TEGO CALDERÓN | MAIN ROOM",
         "descripcion": "",
@@ -1280,7 +1280,7 @@
         "titulo": "MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: TEGO CALDERÓN | MAIN ROOM"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "SECRET ROOM",
         "cita_precio": "",
         "cita_titulo": "KHALI l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG",
         "descripcion": "",
@@ -1324,7 +1324,7 @@
         "titulo": "MARTES/TUESDAY"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "SECRET ROOM",
         "cita_precio": "",
         "cita_titulo": "Echoes of Karma | SECRET ROOM | MELODIC TECHNO",
         "descripcion": "",
@@ -1346,7 +1346,7 @@
         "titulo": "Echoes of Karma | SECRET ROOM | MELODIC TECHNO"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "MAIN ROOM",
         "cita_precio": "",
         "cita_titulo": "Inside86 | MAIN ROOM | HOUSE",
         "descripcion": "",
@@ -1368,7 +1368,7 @@
         "titulo": "Inside86 | MAIN ROOM | HOUSE"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "MAIN ROOM",
         "cita_precio": "",
         "cita_titulo": "VÍSPERAS | MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: IVY QUEEN | MAIN ROOM",
         "descripcion": "",
@@ -1412,7 +1412,7 @@
         "titulo": "MIERCOLES/WEDNESAY I showcase"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "SECRET ROOM",
         "cita_precio": "",
         "cita_titulo": "DJ LULU OBETKO (ARG) | SECRET ROOM | REGGAETON / CUMBIA ALL NIGHT LONG",
         "descripcion": "",
@@ -1446,7 +1446,7 @@
             "hora": ""
           }
         ],
-        "idioma": "en",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -1456,7 +1456,7 @@
         "titulo": "METALCORE | THE PARTY BEFORE CHRISTMAS"
       },
       {
-        "cita_lugar": "",
+        "cita_lugar": "MAIN ROOM",
         "cita_precio": "",
         "cita_titulo": "MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: ZION & LENNOX | MAIN ROOM",
         "descripcion": "",
@@ -1476,9 +1476,31 @@
           "inicio": ""
         },
         "titulo": "MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: ZION & LENNOX | MAIN ROOM"
+      },
+      {
+        "cita_lugar": "MAIN ROOM",
+        "cita_precio": "",
+        "cita_titulo": "Varvero Invites | MAIN ROOM | TECHNO",
+        "descripcion": "",
+        "enlace": "https://www.cityhallbarcelona.com/event-details/varvero-invites-main-room-techno-2026-12-15-23-59",
+        "funciones": [
+          {
+            "cita": "mar, 15 dic",
+            "fecha": "2026-12-15",
+            "hora": ""
+          }
+        ],
+        "idioma": "es",
+        "periodo": {
+          "cita": "",
+          "cita_horario": "",
+          "fin": "",
+          "inicio": ""
+        },
+        "titulo": "Varvero Invites | MAIN ROOM | TECHNO"
       }
     ],
-    "texto": "-->\nHOME | City Hall Barcelona Official Music Club\ntop of page\nCITY\nHALL\n365 DAYS OPEN\nHARD TECHNO, TECHNO, HOUSE &\nURBAN CLUB\nTICKETS\n[https://www.cityhallbarcelona.com]\nCITY\nHALL\n365 DAYS OPEN\nHARD TECHNO, TECHNO, HOUSE &\nURBAN CLUB\nTICKETS\n[https://www.cityhallbarcelona.com]\nWHAT'S\nGOING ON\nTONIGHT\nEVENTOS PROXIMOS...\nLULU OBETKO l SECRET ROOM l REGGAETON / CUMBIA ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/lulu-obetko-l-secret-room-l-reggaeton-cumbia-all-night-long] jue, 19 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/lulu-obetko-l-secret-room-l-reggaeton-cumbia-all-night-long]\nNALGÓTIKA l CITY HALL l MAIN ROOM l DARK TECHNO / ACID / GABBER / HARDCORE [https://www.cityhallbarcelona.com/event-details/nalgotika-l-city-hall-l-main-room-l-dark-techno-acid-gabber-hardcore] jue, 19 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/nalgotika-l-city-hall-l-main-room-l-dark-techno-acid-gabber-hardcore]\n1 día para el evento\nREBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO [https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo] sáb, 21 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo]\n3 días para el evento\nANGELS GAVIRIA l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/angels-gaviria-l-secret-room-l-techno-hard-techno-all-night-long] lun, 23 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/angels-gaviria-l-secret-room-l-techno-hard-techno-all-night-long]\n3 días para el evento\nMONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: WISIN & YANDEL | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-wisin-yandel-main-room] lun, 23 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-wisin-yandel-main-room]\n4 días para el evento\nLEIT KONTROL | ADRIÀ DUCH · KAIFERZ · BAGTRASH | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/leit-kontrol-adria-duch-kaiferz-bagtrash-main-room] mar, 24 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/leit-kontrol-adria-duch-kaiferz-bagtrash-main-room]\n4 días para el evento\nMAJO ALARCÓN l SECRET ROOM l INDIE DANCE / MELODIC TECHNO ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/majo-alarcon-l-secret-room-l-indie-dance-melodic-techno-all-night-long-1] mar, 24 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/majo-alarcon-l-secret-room-l-indie-dance-melodic-techno-all-night-long-1]\n5 días para el evento\nDJ LULU OBETKO (ARG) l SECRET ROOM l REGGAETON / CUMBIA ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-l-secret-room-l-reggaeton-cumbia-all-night-long] mié, 25 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-l-secret-room-l-reggaeton-cumbia-all-night-long]\n5 días para el evento\nVYBE l CITY HALL BARCELONA l BOUNCE ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/vybe-l-city-hall-barcelona-l-bounce-all-night-long] mié, 25 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/vybe-l-city-hall-barcelona-l-bounce-all-night-long]\n8 días para el evento\nHARD TRANCE PARTY | PASTIS & FRANK TRAX [https://www.cityhallbarcelona.com/event-details/hard-trance-party-pastis-frank-trax] sáb, 28 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/hard-trance-party-pastis-frank-trax]\n10 días para el evento\nMONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: TEGO CALDERÓN | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-tego-calderon-main-room-1] lun, 30 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-tego-calderon-main-room-1]\n10 días para el evento\nKHALI l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/khali-l-secret-room-l-techno-hard-techno-all-night-long] lun, 30 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/khali-l-secret-room-l-techno-hard-techno-all-night-long]\nMúltiples fechas\n11 días para el evento\nMARTES/TUESDAY [https://www.cityhallbarcelona.com/event-details/martes-tuesday-2026-12-01-23-59] mar, 01 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/martes-tuesday-2026-12-01-23-59]\n12 días para el evento\nEchoes of Karma | SECRET ROOM | MELODIC TECHNO [https://www.cityhallbarcelona.com/event-details/echoes-of-karma-secret-room-melodic-techno] mié, 02 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/echoes-of-karma-secret-room-melodic-techno]\nMúltiples fechas\n12 días para el evento\nInside86 | MAIN ROOM | HOUSE [https://www.cityhallbarcelona.com/event-details/inside86-main-room-house-2026-12-02-23-59] mié, 02 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/inside86-main-room-house-2026-12-02-23-59]\n17 días para el evento\nVÍSPERAS | MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: IVY QUEEN | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/visperas-monday-perreo-tributo-al-reggaeton-old-school-ivy-queen-main-room] lun, 07 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/visperas-monday-perreo-tributo-al-reggaeton-old-school-ivy-queen-main-room]\nMúltiples fechas\n19 días para el evento\nMIERCOLES/WEDNESAY I showcase [https://www.cityhallbarcelona.com/event-details/miercoles-wednesay-i-showcase-2026-12-09-23-59] mié, 09 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/miercoles-wednesay-i-showcase-2026-12-09-23-59]\nMúltiples fechas\n20 días para el evento\nDJ LULU OBETKO (ARG) | SECRET ROOM | REGGAETON / CUMBIA ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-secret-room-reggaeton-cumbia-all-night-long-2026-12-10-23-59] jue, 10 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-secret-room-reggaeton-cumbia-all-night-long-2026-12-10-23-59]\n22 días para el evento\nMETALCORE | THE PARTY BEFORE CHRISTMAS [https://www.cityhallbarcelona.com/event-details/metalcore-the-party-before-christmas] sáb, 12 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/metalcore-the-party-before-christmas]\n24 días para el evento\nMONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: ZION & LENNOX | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-zion-lennox-main-room] lun, 14 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-zion-lennox-main-room]\nCargar más\nTODOS LOS EVENTOS\n[https://www.cityhallbarcelona.com/event-list]\nSOMOS...\nTEATRO & CLUB\nEste teatro se convierte en templo del ritmo\nEn pleno centro de Barcelona, renace cada noche como uno de los clubs más icónicos de la ciudad. City Hall está abierto los 365 días del año, ofreciendo una programación internacional de techno, hard techno, house y música urbana.\nCon una atmósfera única, sonido de alta fidelidad y una historia que se funde con la cultura electrónica, es el lugar donde la escena cobra vida, noche tras noche.\nubicación\nEn el corazón de Barcelona.\nRambla Catalunya, 2-4.\nDonde cada paso te conecta con la ciudad real: su ritmo, su historia y su energía.\nUna ubicación que no se busca, se vive.\n​\nARTISTAS\nLos artistas internacionales eligen City Hall como parada natural dentro de sus tours, reconociendo la sala como un espacio clave para conectar con la ciudad y su público. Ese mismo prestigio se construye desde un trabajo auténtico y constante con la escena, donde DJs y productores de referencia a nivel mundial conviven con talentos locales en plena proyección.\nLOS MEJORES MOMENTOS, JUNTOS\nDejanos un mensaje\nNombre y apellido *\nMóvil *\nEmail *\nMensaje *\nEnviar\nbottom of page"
+    "texto": "-->\nHOME | City Hall Barcelona Official Music Club\ntop of page\nCITY\nHALL\n365 DAYS OPEN\nHARD TECHNO, TECHNO, HOUSE &\nURBAN CLUB\nTICKETS\n[https://www.cityhallbarcelona.com]\nCITY\nHALL\n365 DAYS OPEN\nHARD TECHNO, TECHNO, HOUSE &\nURBAN CLUB\nTICKETS\n[https://www.cityhallbarcelona.com]\nWHAT'S\nGOING ON\nTONIGHT\nEVENTOS PROXIMOS...\nNALGÓTIKA l CITY HALL l MAIN ROOM l DARK TECHNO / ACID / GABBER / HARDCORE [https://www.cityhallbarcelona.com/event-details/nalgotika-l-city-hall-l-main-room-l-dark-techno-acid-gabber-hardcore] jue, 19 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/nalgotika-l-city-hall-l-main-room-l-dark-techno-acid-gabber-hardcore]\n1 día para el evento\nREBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO [https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo] sáb, 21 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo]\n3 días para el evento\nANGELS GAVIRIA l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/angels-gaviria-l-secret-room-l-techno-hard-techno-all-night-long] lun, 23 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/angels-gaviria-l-secret-room-l-techno-hard-techno-all-night-long]\n3 días para el evento\nMONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: WISIN & YANDEL | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-wisin-yandel-main-room] lun, 23 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-wisin-yandel-main-room]\n4 días para el evento\nLEIT KONTROL | ADRIÀ DUCH · KAIFERZ · BAGTRASH | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/leit-kontrol-adria-duch-kaiferz-bagtrash-main-room] mar, 24 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/leit-kontrol-adria-duch-kaiferz-bagtrash-main-room]\n4 días para el evento\nMAJO ALARCÓN l SECRET ROOM l INDIE DANCE / MELODIC TECHNO ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/majo-alarcon-l-secret-room-l-indie-dance-melodic-techno-all-night-long-1] mar, 24 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/majo-alarcon-l-secret-room-l-indie-dance-melodic-techno-all-night-long-1]\n5 días para el evento\nDJ LULU OBETKO (ARG) l SECRET ROOM l REGGAETON / CUMBIA ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-l-secret-room-l-reggaeton-cumbia-all-night-long] mié, 25 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-l-secret-room-l-reggaeton-cumbia-all-night-long]\n5 días para el evento\nVYBE l CITY HALL BARCELONA l BOUNCE ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/vybe-l-city-hall-barcelona-l-bounce-all-night-long] mié, 25 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/vybe-l-city-hall-barcelona-l-bounce-all-night-long]\n8 días para el evento\nHARD TRANCE PARTY | PASTIS & FRANK TRAX [https://www.cityhallbarcelona.com/event-details/hard-trance-party-pastis-frank-trax] sáb, 28 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/hard-trance-party-pastis-frank-trax]\n10 días para el evento\nMONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: TEGO CALDERÓN | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-tego-calderon-main-room-1] lun, 30 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-tego-calderon-main-room-1]\n10 días para el evento\nKHALI l SECRET ROOM l TECHNO / HARD TECHNO ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/khali-l-secret-room-l-techno-hard-techno-all-night-long] lun, 30 nov\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/khali-l-secret-room-l-techno-hard-techno-all-night-long]\nMúltiples fechas\n11 días para el evento\nMARTES/TUESDAY [https://www.cityhallbarcelona.com/event-details/martes-tuesday-2026-12-01-23-59] mar, 01 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/martes-tuesday-2026-12-01-23-59]\n12 días para el evento\nEchoes of Karma | SECRET ROOM | MELODIC TECHNO [https://www.cityhallbarcelona.com/event-details/echoes-of-karma-secret-room-melodic-techno] mié, 02 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/echoes-of-karma-secret-room-melodic-techno]\nMúltiples fechas\n12 días para el evento\nInside86 | MAIN ROOM | HOUSE [https://www.cityhallbarcelona.com/event-details/inside86-main-room-house-2026-12-02-23-59] mié, 02 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/inside86-main-room-house-2026-12-02-23-59]\n17 días para el evento\nVÍSPERAS | MONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: IVY QUEEN | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/visperas-monday-perreo-tributo-al-reggaeton-old-school-ivy-queen-main-room] lun, 07 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/visperas-monday-perreo-tributo-al-reggaeton-old-school-ivy-queen-main-room]\nMúltiples fechas\n19 días para el evento\nMIERCOLES/WEDNESAY I showcase [https://www.cityhallbarcelona.com/event-details/miercoles-wednesay-i-showcase-2026-12-09-23-59] mié, 09 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/miercoles-wednesay-i-showcase-2026-12-09-23-59]\nMúltiples fechas\n20 días para el evento\nDJ LULU OBETKO (ARG) | SECRET ROOM | REGGAETON / CUMBIA ALL NIGHT LONG [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-secret-room-reggaeton-cumbia-all-night-long-2026-12-10-23-59] jue, 10 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/dj-lulu-obetko-arg-secret-room-reggaeton-cumbia-all-night-long-2026-12-10-23-59]\n22 días para el evento\nMETALCORE | THE PARTY BEFORE CHRISTMAS [https://www.cityhallbarcelona.com/event-details/metalcore-the-party-before-christmas] sáb, 12 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/metalcore-the-party-before-christmas]\n24 días para el evento\nMONDAY PERREO | TRIBUTO AL REGGAETON OLD SCHOOL: ZION & LENNOX | MAIN ROOM [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-zion-lennox-main-room] lun, 14 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/monday-perreo-tributo-al-reggaeton-old-school-zion-lennox-main-room]\nMúltiples fechas\n25 días para el evento\nVarvero Invites | MAIN ROOM | TECHNO [https://www.cityhallbarcelona.com/event-details/varvero-invites-main-room-techno-2026-12-15-23-59] mar, 15 dic\nDISCO CITY HALL BARCELONA l OFFICIAL MUS\nLeer más\nCompra tus entradas [https://www.cityhallbarcelona.com/event-details/varvero-invites-main-room-techno-2026-12-15-23-59]\nCargar más\nTODOS LOS EVENTOS\n[https://www.cityhallbarcelona.com/event-list]\nSOMOS...\nTEATRO & CLUB\nEste teatro se convierte en templo del ritmo\nEn pleno centro de Barcelona, renace cada noche como uno de los clubs más icónicos de la ciudad. City Hall está abierto los 365 días del año, ofreciendo una programación internacional de techno, hard techno, house y música urbana.\nCon una atmósfera única, sonido de alta fidelidad y una historia que se funde con la cultura electrónica, es el lugar donde la escena cobra vida, noche tras noche.\nubicación\nEn el corazón de Barcelona.\nRambla Catalunya, 2-4.\nDonde cada paso te conecta con la ciudad real: su ritmo, su historia y su energía.\nUna ubicación que no se busca, se vive.\n​\nARTISTAS\nLos artistas internacionales eligen City Hall como parada natural dentro de sus tours, reconociendo la sala como un espacio clave para conectar con la ciudad y su público. Ese mismo prestigio se construye desde un trabajo auténtico y constante con la escena, donde DJs y productores de referencia a nivel mundial conviven con talentos locales en plena proyección.\nLOS MEJORES MOMENTOS, JUNTOS\nDejanos un mensaje\nNombre y apellido *\nMóvil *\nEmail *\nMensaje *\nEnviar\nbottom of page"
   },
   "99400467597|https://www.cityhallbarcelona.com/event-details/echoes-of-karma-keyblow-civaro-ren-main-room-melodic-techno": {
     "enlaces": [],
@@ -1662,6 +1684,39 @@
       }
     ],
     "texto": "-->\nPLAY CUBE RECORDS | CIRCO PARAÍSO · ARTDETTA · DJ HXNDS | MAIN ROOM | City Hall Barcelona Official Music Club\ntop of page\nmar, 17 nov\n| DISCO CITY HALL BARCELONA l OFFICIAL MUS\nPLAY CUBE RECORDS | CIRCO PARAÍSO · ARTDETTA · DJ HXNDS | MAIN ROOM\nEl martes se juega en otra dimensión. PLAY CUBE RECORDS presenta su Label Showcase con CIRCO PARAÍSO, ARTDETTA y DJ HXNDS: Tech House, Techno y Breakbeat en la MAIN ROOM.\nCompra tus entradas\nHorario y ubicación\n17 nov 2026, 23:59 – 18 nov 2026, 5:00\nDISCO CITY HALL BARCELONA l OFFICIAL MUS, Rambla de Catalunya, 2-4, Eixample, 08007 Barcelona, España\nOtras fechas\nmar, 01 dic, 23:59\njue, 10 dic, 23:59\nmar, 15 dic, 23:59 Ver 7 fechas\nAcerca del evento\nEl martes se juega en otra dimensión. El 17 de noviembre, PLAY CUBE RECORDS lleva su LABEL SHOWCASE a la MAIN ROOM de City Hall: Tech House, Techno y Breakbeat para salir de la rutina y entrar en la pista.\nCIRCO PARAÍSO, ARTDETTA y DJ HXNDS comparten cabina en una noche de groove, pulsos de techno y ritmos rotos. Tres propuestas conectadas por un mismo sello y libertad para cambiar el rumbo de cada mezcla.\nPLAY CUBE RECORDS | LABEL SHOWCASE\nLINEUP | CIRCO PARAÍSO · ARTDETTA · DJ HXNDS\nTECH HOUSE · TECHNO · BREAKBEAT | MAIN ROOM\nDATO CURIOSO | City Hall tiene origen teatral: antes de convertirse en club fue un teatro. Hoy, su historia escénica convive con nuevas propuestas electrónicas en pleno centro de Barcelona.\nMostrar más\nEntradas\nTipo de entrada TICKET + 1 DRINK\nLeer más\nEntrada para 1 persona + 1 copa. Precio: 12 €.\nPrecio 15,00 €\n+0,38 € de comisión de servicio de entradas\nCantidad 0\nTipo de entrada MESA VIP | 5 PAX\nLeer más\nMesa VIP para 5 personas con 1 botella básica. Oferta exclusiva online.\nPrecio 180,00 €\n+4,50 € de comisión de servicio de entradas\nCantidad 0\nTipo de entrada LOUNGE VIP\nLeer más\nLounge VIP con 1 botella, sofá y zona VIP. Precio por reserva: 300 €.\nPrecio 300,00 €\n+7,50 € de comisión de servicio de entradas\nCantidad 0\nTotal\n0,00 €\nConfirmar pedido\nCompartir este evento\n[https://twitter.com/intent/tweet?url=https://www.cityhallbarcelona.com/event-details/play-cube-records-circo-paraiso-artdetta-dj-hxnds-main-room-2026-11-17-23-59?lang=es&text=Echa%20un%20vistazo%20a%20este%20evento.%20%C2%A1Esperamos%20verte%20all%C3%AD!] [https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cityhallbarcelona.com%2Fevent-details%2Fplay-cube-records-circo-paraiso-artdetta-dj-hxnds-main-room-2026-11-17-23-59%3Flang%3Des]\nbottom of page"
+  },
+  "99400467597|https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo": {
+    "enlaces": [
+      "https://twitter.com/intent/tweet?url=https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo?lang=es&text=Echa%20un%20vistazo%20a%20este%20evento.%20%C2%A1Esperamos%20verte%20all%C3%AD!",
+      "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cityhallbarcelona.com%2Fevent-details%2Freborn-3-aniversario-ultimo-capitulo%3Flang%3Des"
+    ],
+    "fecha": "2026-11-20",
+    "firma": "83af003ac4c33664",
+    "obras": [
+      {
+        "cita_lugar": "",
+        "cita_precio": "Precio 18,00 € … Precio 20,00 € … Precio 30,00 €",
+        "cita_titulo": "REBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO",
+        "descripcion": "El 21 de noviembre nos reunimos en City Hall para vivir el último capítulo de Reborn. Han sido tres años de música, noches intensas y personas que han hecho suya esta pista. Queremos celebrar todo lo que hemos vivido con vosotros y cerrar esta etapa como empezó: bailando juntos. La fecha coincide con el fin de semana en que nació MadHouse. Por eso, esta noche unirá sesiones dedicadas a las primeras MadHouse con sesiones 100 % Reborn: nuestros orígenes y estos tres años de historia en una misma pista. Una última noche bajo el nombre de Reborn. Nos vemos en la jaula.",
+        "enlace": "https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo",
+        "funciones": [
+          {
+            "cita": "21 nov 2026, 23:50 – 22 nov 2026, 6:00",
+            "fecha": "2026-11-21",
+            "hora": "23:50"
+          }
+        ],
+        "idioma": "es",
+        "periodo": {
+          "cita": "",
+          "cita_horario": "",
+          "fin": "",
+          "inicio": ""
+        },
+        "titulo": "REBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO"
+      }
+    ],
+    "texto": "REBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO | City Hall Barcelona Official Music Club\ntop of page\nsáb, 21 nov\n| DISCO CITY HALL BARCELONA l OFFICIAL MUS\nREBORN | 3.º ANIVERSARIO · ÚLTIMO CAPÍTULO\nCompra tus entradas\nHorario y ubicación\n21 nov 2026, 23:50 – 22 nov 2026, 6:00\nDISCO CITY HALL BARCELONA l OFFICIAL MUS, Rambla de Catalunya, 2-4, Eixample, 08007 Barcelona, España\nAcerca del evento\nEl 21 de noviembre nos reunimos en City Hall para vivir el último capítulo de Reborn. Han sido tres años de música, noches intensas y personas que han hecho suya esta pista. Queremos celebrar todo lo que hemos vivido con vosotros y cerrar esta etapa como empezó: bailando juntos. La fecha coincide con el fin de semana en que nació MadHouse. Por eso, esta noche unirá sesiones dedicadas a las primeras MadHouse con sesiones 100 % Reborn: nuestros orígenes y estos tres años de historia en una misma pista. Una última noche bajo el nombre de Reborn. Nos vemos en la jaula.\nMostrar más\nEntradas\nTipo de entrada Fase 4\nLa venta finaliza el\n21 nov, 23:00\nLeer más\nEntrada fase 4\nPrecio 18,00 €\n+0,45 € de comisión de servicio de entradas\nCantidad 0\nTipo de entrada Entrada general\nLeer más\nEntrada general\nPrecio 20,00 €\n+0,50 € de comisión de servicio de entradas\nCantidad 0\nTipo de entrada Pack 2 entradas\nLa venta finaliza el\n21 nov, 23:00\nLeer más\nEntrada para dos personas entrando simultaneamente\nPrecio 30,00 €\n+0,75 € de comisión de servicio de entradas\nCantidad 0\nTotal\n0,00 €\nConfirmar pedido\nCompartir este evento\n[https://twitter.com/intent/tweet?url=https://www.cityhallbarcelona.com/event-details/reborn-3-aniversario-ultimo-capitulo?lang=es&text=Echa%20un%20vistazo%20a%20este%20evento.%20%C2%A1Esperamos%20verte%20all%C3%AD!] [https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cityhallbarcelona.com%2Fevent-details%2Freborn-3-aniversario-ultimo-capitulo%3Flang%3Des]\nbottom of page"
   },
   "99400576665|https://www.labadabadoc-teatro.com/": {
     "enlaces": [
@@ -1990,17 +2045,17 @@
       "https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis",
       "https://teatrometamorfosis.com/es/contacto/",
       "https://teatrometamorfosis.com/es/el-espacio/",
-      "https://teatrometamorfosis.com/es/event/butoh-birthday-65-petit-festival-de-los-inicios/2024-05-24/",
-      "https://teatrometamorfosis.com/es/event/taller-teatro-musical/2025-09-16/",
+      "https://teatrometamorfosis.com/es/event/dragatha-christie-2/2024-06-22/",
       "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/",
       "https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/",
       "https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/",
       "https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1",
       "https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1",
+      "https://teatrometamorfosis.com/es/eventos/javier-lamattina/",
       "https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/",
-      "https://teatrometamorfosis.com/es/eventos/mishap-cervelli-in-fuga/",
       "https://teatrometamorfosis.com/es/eventos/nenucha-3/",
       "https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/",
+      "https://teatrometamorfosis.com/es/eventos/smut-slam-8/",
       "https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/",
       "https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/",
       "https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/",
@@ -2011,8 +2066,8 @@
       "https://teatrometamorfosis.com/events/",
       "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist"
     ],
-    "fecha": "2026-11-19",
-    "firma": "7edf9a55ac1ed72d",
+    "fecha": "2026-11-20",
+    "firma": "a107dfb7d8ab89b3",
     "obras": [
       {
         "cita_lugar": "",
@@ -2022,7 +2077,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/",
         "funciones": [
           {
-            "cita": "Nov 20 ... 20:30 - 23:00",
+            "cita": "Nov\n20",
             "fecha": "2026-11-20",
             "hora": "20:30"
           }
@@ -2044,7 +2099,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/nenucha-3/",
         "funciones": [
           {
-            "cita": "Nov 21 ... 21:00 - 23:00",
+            "cita": "Nov\n21",
             "fecha": "2026-11-21",
             "hora": "21:00"
           }
@@ -2066,12 +2121,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/",
         "funciones": [
           {
-            "cita": "Nov 27 ... 20:00 - 22:00",
+            "cita": "Nov\n27",
             "fecha": "2026-11-27",
             "hora": "20:00"
           }
         ],
-        "idioma": "en",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2088,12 +2143,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/",
         "funciones": [
           {
-            "cita": "Nov 29 ... 19:00 - 21:00",
+            "cita": "Nov\n29",
             "fecha": "2026-11-29",
             "hora": "19:00"
           }
         ],
-        "idioma": "ca",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2110,12 +2165,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/",
         "funciones": [
           {
-            "cita": "Dic 3 ... 20:00 - 22:00",
+            "cita": "Dic\n3",
             "fecha": "2026-12-03",
             "hora": "20:00"
           }
         ],
-        "idioma": "en",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2132,12 +2187,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/",
         "funciones": [
           {
-            "cita": "Dic 9 ... 20:00 - 22:00",
+            "cita": "Dic\n9",
             "fecha": "2026-12-09",
             "hora": "20:00"
           }
         ],
-        "idioma": "en",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2154,7 +2209,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/",
         "funciones": [
           {
-            "cita": "Dic 11 ... 20:30 - 22:00",
+            "cita": "Dic\n11",
             "fecha": "2026-12-11",
             "hora": "20:30"
           }
@@ -2176,7 +2231,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/",
         "funciones": [
           {
-            "cita": "Dic 18 ... 20:30 - 22:30",
+            "cita": "Dic\n18",
             "fecha": "2026-12-18",
             "hora": "20:30"
           }
@@ -2198,12 +2253,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/",
         "funciones": [
           {
-            "cita": "Dic 20 ... 20:00 - 22:00",
+            "cita": "Dic\n20",
             "fecha": "2026-12-20",
             "hora": "20:00"
           }
         ],
-        "idioma": "otro",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2213,7 +2268,7 @@
         "titulo": "THE HUMAN FISH EN CONCERT"
       }
     ],
-    "texto": "Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\nSala de arte y teatro\nNuestro teatro está ubicado en el centro de la vibrante Barcelona. El Teatro Metamorfosis es un punto de encuentro cultural para intercambiar conocimientos, apreciar las artes y disfrutar de un delicioso entretenimiento.\nEventos [https://teatrometamorfosis.com/es/events/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n[https://goo.gl/maps/hAGVuSiM7NL5omQD9]\nPróximos eventos\n9 eventos encontrados.\nList of events in Photo View\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN»\n[https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/]\nNov\n20\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN» [https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/]\n20:30\n-\n23:00\nNenucha\n[https://teatrometamorfosis.com/es/eventos/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/eventos/nenucha-3/]\n21:00\n-\n23:00\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1]\nEventos [https://teatrometamorfosis.com/events/]\nEl espacio\nTeatro Metamorfosis es un espacio versátil y adaptable, diseñado para albergar hasta 95 invitados, y está equipado con instalaciones de última generación para producciones teatrales, presentaciones de música en vivo, talleres, proyecciones y conferencias. También ofrecemos servicios de alquiler para eventos tanto privados como corporativos, creando una experiencia a medida para todos los asistentes.\nInformación técnica [https://teatrometamorfosis.com/es/el-espacio/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n«No pienses en hacer arte, simplemente hazlo. Deja que todos los demás decidan si es bueno o malo, si lo aman o lo odian. Mientras ellos deciden, haz aún más arte.» – Andy Warhol\nGaleria\n[https://teatrometamorfosis.com/es/eventos/mishap-cervelli-in-fuga/]\nCOS’E’ MISHAP Mishap, incidenti di percorso, è un format di Emanuele Pantano, con la regia di Filippo Susinno, in cui, in…\n[https://teatrometamorfosis.com/es/event/butoh-birthday-65-petit-festival-de-los-inicios/2024-05-24/]\nEl festival tiene lugar en dos espacios:Viernes 24 y sábado 25 de mayo en Barcelona cuidad @Teatro MetamorfosisEl domingo 26 de…\n[https://teatrometamorfosis.com/es/event/taller-teatro-musical/2025-09-16/]\nVive el teatro musical desde adentro. ¿Te gusta cantar, bailar o actuar? ¿O simplemente tienes ganas de probar algo nuevo? Este…\nVer la programación completa [https://teatrometamorfosis.com/events/]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
+    "texto": "Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\nSala de arte y teatro\nNuestro teatro está ubicado en el centro de la vibrante Barcelona. El Teatro Metamorfosis es un punto de encuentro cultural para intercambiar conocimientos, apreciar las artes y disfrutar de un delicioso entretenimiento.\nEventos [https://teatrometamorfosis.com/es/events/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n[https://goo.gl/maps/hAGVuSiM7NL5omQD9]\nPróximos eventos\n9 eventos encontrados.\nList of events in Photo View\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN»\n[https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/]\nNov\n20\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN» [https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/]\n20:30\n-\n23:00\nNenucha\n[https://teatrometamorfosis.com/es/eventos/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/eventos/nenucha-3/]\n21:00\n-\n23:00\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1]\nEventos [https://teatrometamorfosis.com/events/]\nEl espacio\nTeatro Metamorfosis es un espacio versátil y adaptable, diseñado para albergar hasta 95 invitados, y está equipado con instalaciones de última generación para producciones teatrales, presentaciones de música en vivo, talleres, proyecciones y conferencias. También ofrecemos servicios de alquiler para eventos tanto privados como corporativos, creando una experiencia a medida para todos los asistentes.\nInformación técnica [https://teatrometamorfosis.com/es/el-espacio/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n«No pienses en hacer arte, simplemente hazlo. Deja que todos los demás decidan si es bueno o malo, si lo aman o lo odian. Mientras ellos deciden, haz aún más arte.» – Andy Warhol\nGaleria\n[https://teatrometamorfosis.com/es/eventos/smut-slam-8/]\nThis exciting storytelling open mic based on real life, real lust, real sex is back in Barcelona on Thursday, June 5,…\n[https://teatrometamorfosis.com/es/event/dragatha-christie-2/2024-06-22/]\nSix suspects. Six weapons. Six motives. Welcome to the Snatch Hotel, where a murder awaits you behind its doors and you…\n[https://teatrometamorfosis.com/es/eventos/javier-lamattina/]\nVa de celebración y reencuentro. Javier Lamattina (Buenos Aires, 1974) se presenta en el teatro Metamorfosis con Los Custodios del Aire;…\nVer la programación completa [https://teatrometamorfosis.com/events/]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
   },
   "99400724220|https://teatrometamorfosis.com/es/events/": {
     "enlaces": [

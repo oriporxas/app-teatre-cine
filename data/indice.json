@@ -1,11 +1,9 @@
 {
-  "actualizado": "2026-11-20T06:21:17+0000",
+  "actualizado": "2026-11-20T14:26:14+0000",
   "ciudades": {
     "barcelona": {
-      "errores": [
-        "open_data_bcn: ErrorDescarga: https://opendata-ajuntament.barcelona.cat/data/api/3/action/package_show?id=agenda-diaria → HTTP 403"
-      ],
-      "espectaculos": null,
+      "errores": [],
+      "espectaculos": 1215,
       "fecha": "2026-11-20",
       "id": "barcelona",
       "idiomas": [
@@ -15,9 +13,9 @@
       "moneda": "EUR",
       "nombre": "Barcelona",
       "pais": "ES",
-      "salas": null,
+      "salas": 211,
       "zona_horaria": "Europe/Madrid"
     }
   },
-  "gasto_ia_usd": 0.047
+  "gasto_ia_usd": 0.2084
 }

@@ -114,6 +114,13 @@
       },
       {
         "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400739401",
+        "id": "open_data_bcn:99400773935",
+        "regla": "repetida",
+        "titulo": "Teatre"
+      },
+      {
+        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400776438",
         "id": "open_data_bcn:99400776441",
         "regla": "repetida",
@@ -202,14 +209,28 @@
         "id": "open_data_bcn:99400790594",
         "regla": "repetida",
         "titulo": "Teatre: Connecta amb la teva expressivitat!"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400774488",
+        "id": "open_data_bcn:99400790850",
+        "regla": "repetida",
+        "titulo": "Improvisació teatral"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-20 fuera del periodo 2026-11-21–2026-12-12",
+        "id": "webs_salas:1eb88c22c16ed822",
+        "regla": "fecha",
+        "titulo": "Show Up Go Up"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 19,
-      "repetida": 6,
+      "fecha": 20,
+      "repetida": 8,
       "sala": 3
     },
-    "fecha": "2026-11-19",
-    "publicadas": 682
+    "fecha": "2026-11-20",
+    "publicadas": 705
   }
 }

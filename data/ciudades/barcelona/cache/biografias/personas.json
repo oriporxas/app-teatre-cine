@@ -189,6 +189,13 @@
       "tmdb": null,
       "v": 1
     },
+    "alana-osbourne": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Alana Osbourne",
+      "tmdb": null,
+      "v": 2
+    },
     "alba-gallen": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -209,6 +216,13 @@
       "nombre": "Alba Paituví",
       "tmdb": null,
       "v": 1
+    },
+    "alba-pujol": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Alba Pujol",
+      "tmdb": 1572053,
+      "v": 2
     },
     "alba-rosa": {
       "fecha": "2026-11-19",
@@ -364,6 +378,20 @@
       "tmdb": null,
       "v": 1
     },
+    "albert-tola": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Albert Tola",
+      "tmdb": null,
+      "v": 2
+    },
+    "albert-triola": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Albert Triola",
+      "tmdb": 4467596,
+      "v": 2
+    },
     "albert-ventura": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -490,6 +518,13 @@
       "tmdb": null,
       "v": 1
     },
+    "alicia-gonzalez-laa": {
+      "fecha": "2026-11-20",
+      "motivo": "varias",
+      "nombre": "Alicia González Laá",
+      "tmdb": null,
+      "v": 2
+    },
     "alicia-gorina": {
       "fecha": "2026-11-19",
       "motivo": "varias",
@@ -567,6 +602,13 @@
       "tmdb": null,
       "v": 1
     },
+    "amada-bokesa": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Amada Bokesa",
+      "tmdb": 4977916,
+      "v": 2
+    },
     "amada-sumonte": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -594,6 +636,13 @@
       "nombre": "Amb la Cia. Arco Iris",
       "tmdb": null,
       "v": 1
+    },
+    "amb-laia-alsina": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Amb Laia Alsina",
+      "tmdb": null,
+      "v": 2
     },
     "amer-kabbani": {
       "fecha": "2026-11-19",
@@ -644,6 +693,20 @@
       "tmdb": null,
       "v": 1
     },
+    "ana-p-jimenez": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Ana P. Jiménez",
+      "tmdb": null,
+      "v": 2
+    },
+    "ana-perez": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Ana Pérez",
+      "tmdb": null,
+      "v": 2
+    },
     "ana-perez-garcia": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -657,6 +720,13 @@
       "nombre": "Andrea Castellanos",
       "tmdb": null,
       "v": 1
+    },
+    "andrea-forlenza": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Andrea Forlenza",
+      "tmdb": null,
+      "v": 2
     },
     "andrea-gonzalez": {
       "fecha": "2026-11-19",
@@ -678,6 +748,13 @@
       "nombre": "Andrea Marinel·lo",
       "tmdb": null,
       "v": 1
+    },
+    "andrea-monje": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Andrea Monje",
+      "tmdb": null,
+      "v": 2
     },
     "andrea-puig-doria": {
       "fecha": "2026-11-19",
@@ -742,6 +819,13 @@
       "tmdb": null,
       "v": 1
     },
+    "andrew-tarbet": {
+      "fecha": "2026-11-20",
+      "motivo": "nombre común",
+      "nombre": "Andrew Tarbet",
+      "tmdb": null,
+      "v": 2
+    },
     "angel-cordero": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -770,12 +854,26 @@
       "tmdb": null,
       "v": 1
     },
+    "animal-religion": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Animal Religion",
+      "tmdb": null,
+      "v": 2
+    },
     "animamundi-teatre": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Animamundi Teatre",
       "tmdb": null,
       "v": 1
+    },
+    "ann-perello": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Ann Perelló",
+      "tmdb": null,
+      "v": 2
     },
     "anna-bohigas": {
       "fecha": "2026-11-19",
@@ -903,6 +1001,13 @@
       "tmdb": null,
       "v": 1
     },
+    "anna-tantull": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Anna Tantull",
+      "tmdb": null,
+      "v": 2
+    },
     "anna-toro": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1022,6 +1127,13 @@
       "tmdb": null,
       "v": 1
     },
+    "ariadna-peya": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Ariadna Peya",
+      "tmdb": null,
+      "v": 2
+    },
     "arian-botey": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1034,6 +1146,13 @@
       "motivo": "ok",
       "nombre": "Ariana Bruguera",
       "tmdb": 2719032,
+      "v": 2
+    },
+    "arnau-aiguabella": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Arnau Aiguabella",
+      "tmdb": 2592896,
       "v": 2
     },
     "arnau-boces": {
@@ -1162,6 +1281,20 @@
       "tmdb": null,
       "v": 1
     },
+    "barbara-mestanza": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Bàrbara Mestanza",
+      "tmdb": 1436711,
+      "v": 2
+    },
+    "barbara-mestanza-i": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Bàrbara Mestanza i",
+      "tmdb": null,
+      "v": 2
+    },
     "barbara-vidal": {
       "fecha": "2026-11-19",
       "motivo": "otra persona en Wikidata",
@@ -1279,6 +1412,13 @@
       "motivo": "ok",
       "nombre": "Berta Ros",
       "tmdb": 1113121,
+      "v": 2
+    },
+    "berta-vidal": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Berta Vidal",
+      "tmdb": 4664559,
       "v": 2
     },
     "berto-romero": {
@@ -1421,6 +1561,13 @@
       "tmdb": null,
       "v": 1
     },
+    "brice-cannavo": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Brice Cannavo",
+      "tmdb": null,
+      "v": 2
+    },
     "bruna-ramirez": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -1441,6 +1588,13 @@
       "nombre": "Cacauet Teatre",
       "tmdb": null,
       "v": 1
+    },
+    "cal-tet-produccions": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "CAL TET PRODUCCIONS",
+      "tmdb": null,
+      "v": 2
     },
     "camille-latron": {
       "fecha": "2026-11-19",
@@ -1469,6 +1623,13 @@
       "nombre": "Carla Casanovas Escolano",
       "tmdb": null,
       "v": 1
+    },
+    "carla-coll": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Carla Coll",
+      "tmdb": 1837808,
+      "v": 2
     },
     "carla-diego": {
       "fecha": "2026-11-19",
@@ -1743,6 +1904,13 @@
       "tmdb": null,
       "v": 1
     },
+    "centrale-fies": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Centrale Fies",
+      "tmdb": null,
+      "v": 2
+    },
     "centre-civic-la-marina": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1763,6 +1931,13 @@
       "nombre": "César Font",
       "tmdb": null,
       "v": 1
+    },
+    "cesc-calafell": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Cesc Calafell",
+      "tmdb": null,
+      "v": 2
     },
     "cesc-colomina": {
       "fecha": "2026-11-19",
@@ -1896,6 +2071,13 @@
       "nombre": "Cia. La Canina",
       "tmdb": null,
       "v": 1
+    },
+    "cia-la-fatal": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Cia. La Fatal",
+      "tmdb": null,
+      "v": 2
     },
     "cia-la-perla-29": {
       "fecha": "2026-11-19",
@@ -2065,6 +2247,13 @@
       "tmdb": null,
       "v": 1
     },
+    "clara-altarriba": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Clara Altarriba",
+      "tmdb": 6086403,
+      "v": 2
+    },
     "clara-casals": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2093,6 +2282,13 @@
       "tmdb": null,
       "v": 1
     },
+    "clara-garces": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Clara Garcés",
+      "tmdb": 3461383,
+      "v": 2
+    },
     "clara-manyos": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -2105,6 +2301,13 @@
       "motivo": "ok",
       "nombre": "Clara Mingueza",
       "tmdb": 3718752,
+      "v": 2
+    },
+    "clara-peya": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Clara Peya",
+      "tmdb": null,
       "v": 2
     },
     "clara-roche": {
@@ -2141,6 +2344,13 @@
       "nombre": "Clàudia Bravo",
       "tmdb": null,
       "v": 1
+    },
+    "claudia-de-anta": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Clàudia de Anta",
+      "tmdb": null,
+      "v": 2
     },
     "claudia-valdes": {
       "fecha": "2026-11-19",
@@ -2247,6 +2457,20 @@
       "tmdb": null,
       "v": 1
     },
+    "coproduccio-mercat-de-les-flors": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Coproducció Mercat de les Flors",
+      "tmdb": null,
+      "v": 2
+    },
+    "creixent-amb-art": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Creixent amb art",
+      "tmdb": null,
+      "v": 2
+    },
     "cris-codina-viu-el-teatre": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2303,6 +2527,13 @@
       "tmdb": 582257,
       "v": 2
     },
+    "cristina-ferrer": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Cristina Ferrer",
+      "tmdb": null,
+      "v": 2
+    },
     "cristina-ferrer-tot-produccions": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2337,6 +2568,13 @@
       "nombre": "Cristina Murillo (titular)",
       "tmdb": null,
       "v": 1
+    },
+    "cristina-noguer": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Cristina Noguer",
+      "tmdb": null,
+      "v": 2
     },
     "cristina-sales-sarriera": {
       "fecha": "2026-11-19",
@@ -2457,6 +2695,13 @@
       "tmdb": null,
       "v": 1
     },
+    "daniela-feixas": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Daniela Feixas",
+      "tmdb": null,
+      "v": 2
+    },
     "dario-fo": {
       "fecha": "2026-11-19",
       "motivo": "otro país",
@@ -2485,11 +2730,25 @@
       "tmdb": 225124,
       "v": 2
     },
+    "david-batlle": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "DAVID BATLLE",
+      "tmdb": null,
+      "v": 2
+    },
     "david-cepo": {
       "fecha": "2026-11-19",
       "motivo": "ok",
       "nombre": "David Cepo",
       "tmdb": 5366834,
+      "v": 2
+    },
+    "david-crespo": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "David Crespo",
+      "tmdb": null,
       "v": 2
     },
     "david-dominguez": {
@@ -2505,6 +2764,13 @@
       "nombre": "David Franch",
       "tmdb": null,
       "v": 1
+    },
+    "david-gol": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "David Gol",
+      "tmdb": null,
+      "v": 2
     },
     "david-leon": {
       "fecha": "2026-11-19",
@@ -2590,6 +2856,13 @@
       "tmdb": null,
       "v": 1
     },
+    "david-suarez": {
+      "fecha": "2026-11-20",
+      "motivo": "varias",
+      "nombre": "David Suárez",
+      "tmdb": null,
+      "v": 2
+    },
     "de-paper": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2631,6 +2904,13 @@
       "nombre": "Dolors Vilarasau",
       "tmdb": null,
       "v": 1
+    },
+    "dora-cantero": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Dora Cantero",
+      "tmdb": null,
+      "v": 2
     },
     "duna-montero": {
       "fecha": "2026-11-19",
@@ -2730,6 +3010,13 @@
       "tmdb": null,
       "v": 1
     },
+    "eduard-tudela": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Eduard Tudela",
+      "tmdb": null,
+      "v": 2
+    },
     "edurne-vila": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2743,6 +3030,13 @@
       "nombre": "Eixample Teatre",
       "tmdb": null,
       "v": 1
+    },
+    "el-eje": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "El Eje",
+      "tmdb": null,
+      "v": 2
     },
     "el-gato-sonambulo": {
       "fecha": "2026-11-19",
@@ -2806,6 +3100,13 @@
       "nombre": "Elena Díaz Barrigón",
       "tmdb": null,
       "v": 1
+    },
+    "eli-riera": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Eli Riera",
+      "tmdb": null,
+      "v": 2
     },
     "elias-ashtari": {
       "fecha": "2026-11-19",
@@ -2877,6 +3178,13 @@
       "tmdb": null,
       "v": 2
     },
+    "eloi-vila": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Eloi Vila",
+      "tmdb": 1681450,
+      "v": 2
+    },
     "els-pangolinets": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2904,6 +3212,13 @@
       "nombre": "Emilià Carilla",
       "tmdb": null,
       "v": 1
+    },
+    "emiliana-artagaveytia": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Emiliana Artagaveytia",
+      "tmdb": null,
+      "v": 2
     },
     "emiliano-gonzalez": {
       "fecha": "2026-11-19",
@@ -2975,12 +3290,26 @@
       "tmdb": null,
       "v": 1
     },
+    "enzo-oliver": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Enzo Oliver",
+      "tmdb": 4295181,
+      "v": 2
+    },
     "equips-tecnics": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Equips tècnics",
       "tmdb": null,
       "v": 1
+    },
+    "eric-balbas": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Eric Balbàs",
+      "tmdb": 1500570,
+      "v": 2
     },
     "eric-pons": {
       "fecha": "2026-11-19",
@@ -3101,6 +3430,20 @@
       "tmdb": null,
       "v": 1
     },
+    "esther-westermeyer": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Esther Westermeyer",
+      "tmdb": null,
+      "v": 2
+    },
+    "estoy-rara": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Estoy Rara",
+      "tmdb": null,
+      "v": 2
+    },
     "eudald-ferre": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3157,6 +3500,13 @@
       "tmdb": null,
       "v": 1
     },
+    "falk-richter": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Falk Richter",
+      "tmdb": 3752459,
+      "v": 2
+    },
     "federacio-d-ateneus-de-catalunya": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3176,6 +3526,13 @@
       "motivo": "ok",
       "nombre": "Federico García Lorca",
       "tmdb": 931316,
+      "v": 2
+    },
+    "fel-faixedas": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "FEL FAIXEDAS",
+      "tmdb": null,
       "v": 2
     },
     "felipe-ramos": {
@@ -3311,6 +3668,13 @@
       "tmdb": null,
       "v": 1
     },
+    "francesc-marginet": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Francesc Marginet",
+      "tmdb": 4255606,
+      "v": 2
+    },
     "francesc-marginet-sensada": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3416,6 +3780,13 @@
       "tmdb": null,
       "v": 1
     },
+    "gema-navarro": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Gema Navarro)",
+      "tmdb": null,
+      "v": 2
+    },
     "gemma-abellan": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3463,6 +3834,13 @@
       "motivo": "ok",
       "nombre": "Georgina Balart",
       "tmdb": 3273479,
+      "v": 2
+    },
+    "georgina-latre": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Georgina Latre",
+      "tmdb": null,
       "v": 2
     },
     "gerard-bidegain": {
@@ -3525,6 +3903,13 @@
       "fecha": "2026-11-19",
       "motivo": "otra persona en Wikidata",
       "nombre": "Gerard Sesé",
+      "tmdb": null,
+      "v": 2
+    },
+    "gianni-solla": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Gianni Solla",
       "tmdb": null,
       "v": 2
     },
@@ -3626,11 +4011,25 @@
       "tmdb": null,
       "v": 1
     },
+    "guillaume-toussaint-fromentin": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Guillaume Toussaint Fromentin",
+      "tmdb": null,
+      "v": 2
+    },
     "guillem-balart": {
       "fecha": "2026-11-19",
       "motivo": "ok",
       "nombre": "Guillem Balart",
       "tmdb": 4527963,
+      "v": 2
+    },
+    "guillem-bonfill": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Guillem Bonfill",
+      "tmdb": null,
       "v": 2
     },
     "guillem-gelabert": {
@@ -3703,6 +4102,13 @@
       "tmdb": null,
       "v": 1
     },
+    "heidi-ramirez": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Heidi Ramírez",
+      "tmdb": null,
+      "v": 2
+    },
     "helena-fajula": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3751,6 +4157,13 @@
       "nombre": "Histrion 2020",
       "tmdb": null,
       "v": 1
+    },
+    "hovik-keuchkerian": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Hovik Keuchkerian",
+      "tmdb": 1131415,
+      "v": 2
     },
     "hub-de-humor": {
       "fecha": "2026-11-19",
@@ -3885,6 +4298,13 @@
       "tmdb": null,
       "v": 2
     },
+    "isabel-casanova": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Isabel Casanova",
+      "tmdb": null,
+      "v": 2
+    },
     "isabel-marti": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4004,10 +4424,31 @@
       "tmdb": null,
       "v": 1
     },
+    "jaume-ferrer": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Jaume Ferrer",
+      "tmdb": null,
+      "v": 2
+    },
+    "jaume-madaula": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Jaume Madaula",
+      "tmdb": 1485150,
+      "v": 2
+    },
     "jaume-miralles": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Jaume Miralles",
+      "tmdb": null,
+      "v": 2
+    },
+    "jaume-nieto": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Jaume Nieto",
       "tmdb": null,
       "v": 2
     },
@@ -4017,6 +4458,13 @@
       "nombre": "Jaume Ortanobas",
       "tmdb": null,
       "v": 1
+    },
+    "jaume-ventura": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Jaume Ventura",
+      "tmdb": null,
+      "v": 2
     },
     "jaume-vinas": {
       "fecha": "2026-11-19",
@@ -4073,6 +4521,13 @@
       "nombre": "Javiera Labbé",
       "tmdb": null,
       "v": 1
+    },
+    "jazmin-abuin": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Jazmín Abuín",
+      "tmdb": 1574055,
+      "v": 2
     },
     "jeff-blim": {
       "fecha": "2026-11-19",
@@ -4186,6 +4641,27 @@
       "tmdb": null,
       "v": 1
     },
+    "joan-cot": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Joan Cot",
+      "tmdb": null,
+      "v": 2
+    },
+    "joan-cot-ros": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Joan Cot Ros",
+      "tmdb": null,
+      "v": 2
+    },
+    "joan-ferrer": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "JOAN FERRER",
+      "tmdb": null,
+      "v": 2
+    },
     "joan-griset": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4270,12 +4746,26 @@
       "tmdb": null,
       "v": 2
     },
+    "joan-yago": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Joan Yago",
+      "tmdb": null,
+      "v": 2
+    },
     "joana-campo": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Joana Campo",
       "tmdb": null,
       "v": 1
+    },
+    "joana-gomila": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Joana Gomila",
+      "tmdb": null,
+      "v": 2
     },
     "joana-marti": {
       "fecha": "2026-11-19",
@@ -4354,6 +4844,13 @@
       "tmdb": null,
       "v": 1
     },
+    "jordi-boixaderas": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Jordi Boixaderas",
+      "tmdb": 942619,
+      "v": 2
+    },
     "jordi-bonet": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4415,6 +4912,13 @@
       "motivo": "ok",
       "nombre": "Jordi Galceran",
       "tmdb": 69102,
+      "v": 2
+    },
+    "jordi-llordella": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Jordi Llordella",
+      "tmdb": 1410725,
       "v": 2
     },
     "jordi-martinez": {
@@ -4508,12 +5012,26 @@
       "tmdb": null,
       "v": 2
     },
+    "josep-castells-planas": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Josep Castells Planas",
+      "tmdb": null,
+      "v": 2
+    },
     "josep-domenech": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Josep Domènech",
       "tmdb": null,
       "v": 1
+    },
+    "josep-julien": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Josep Julien",
+      "tmdb": 1067235,
+      "v": 2
     },
     "josep-lluis-gimenez": {
       "fecha": "2026-11-19",
@@ -4584,6 +5102,13 @@
       "nombre": "Josep Tobella",
       "tmdb": null,
       "v": 1
+    },
+    "jou-serra": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Jou Serra",
+      "tmdb": null,
+      "v": 2
     },
     "juampi-gonzalez": {
       "fecha": "2026-11-19",
@@ -4753,6 +5278,27 @@
       "tmdb": null,
       "v": 1
     },
+    "julie-dacquin": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Julie Dacquin",
+      "tmdb": 1383080,
+      "v": 2
+    },
+    "julie-tenret": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "JULIE TENRET",
+      "tmdb": null,
+      "v": 2
+    },
+    "julie-tenret-sicaire-durieux": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Julie Tenret Sicaire Durieux",
+      "tmdb": null,
+      "v": 2
+    },
     "julieta-mora-pepelu-guardiola": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4921,6 +5467,13 @@
       "tmdb": null,
       "v": 1
     },
+    "la-ruta-40": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "La Ruta 40",
+      "tmdb": null,
+      "v": 2
+    },
     "la-simbiotica": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4956,6 +5509,13 @@
       "tmdb": null,
       "v": 1
     },
+    "laia-alsina": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Laia Alsina",
+      "tmdb": null,
+      "v": 2
+    },
     "laia-borras": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4976,6 +5536,13 @@
       "nombre": "Laia Nogueras",
       "tmdb": null,
       "v": 1
+    },
+    "laia-piro": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Laia Piró",
+      "tmdb": 5133968,
+      "v": 2
     },
     "laia-valles": {
       "fecha": "2026-11-19",
@@ -5348,6 +5915,13 @@
       "tmdb": null,
       "v": 2
     },
+    "lucia-torres": {
+      "fecha": "2026-11-20",
+      "motivo": "otra persona en Wikidata",
+      "nombre": "Lucía Torres",
+      "tmdb": null,
+      "v": 2
+    },
     "lucia-zambudio": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5397,6 +5971,13 @@
       "tmdb": null,
       "v": 1
     },
+    "luna-albert": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Luna Albert",
+      "tmdb": null,
+      "v": 2
+    },
     "ma-dolors-fernandez": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5439,6 +6020,13 @@
       "tmdb": null,
       "v": 2
     },
+    "mag-marin": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Mag Marín",
+      "tmdb": null,
+      "v": 2
+    },
     "mag-stigman": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5459,6 +6047,13 @@
       "nombre": "Magda Francesch",
       "tmdb": null,
       "v": 1
+    },
+    "magda-puyo": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Magda Puyo",
+      "tmdb": null,
+      "v": 2
     },
     "magi-ferre-cata": {
       "fecha": "2026-11-19",
@@ -5572,6 +6167,13 @@
       "tmdb": null,
       "v": 1
     },
+    "mar-ulldemolins": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Mar Ulldemolins",
+      "tmdb": 1092527,
+      "v": 2
+    },
     "marc-artigau": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -5627,6 +6229,13 @@
       "nombre": "Marc Lluís Fernández",
       "tmdb": null,
       "v": 1
+    },
+    "marc-oller": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Marc Oller",
+      "tmdb": null,
+      "v": 2
     },
     "marc-parrot": {
       "fecha": "2026-11-19",
@@ -5740,6 +6349,13 @@
       "tmdb": null,
       "v": 1
     },
+    "marcel-asso": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Marcel Asso",
+      "tmdb": null,
+      "v": 2
+    },
     "marcel-li-bayer": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5831,6 +6447,13 @@
       "tmdb": null,
       "v": 2
     },
+    "maria-armengol": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Maria Armengol",
+      "tmdb": null,
+      "v": 2
+    },
     "maria-ballus": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5844,6 +6467,27 @@
       "nombre": "Maria Cambil",
       "tmdb": null,
       "v": 1
+    },
+    "maria-casellas": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Maria Casellas",
+      "tmdb": null,
+      "v": 2
+    },
+    "maria-diamantes": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Maria Diamantes",
+      "tmdb": null,
+      "v": 2
+    },
+    "maria-hernandez-giralt": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Maria Hernandez Giralt",
+      "tmdb": 5858610,
+      "v": 2
     },
     "maria-hervas": {
       "fecha": "2026-11-19",
@@ -5921,6 +6565,13 @@
       "nombre": "Maria Villarejo Barberà",
       "tmdb": null,
       "v": 1
+    },
+    "maribel-salvans": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Maribel Salvans",
+      "tmdb": null,
+      "v": 2
     },
     "marina-h-asciutti": {
       "fecha": "2026-11-19",
@@ -6041,6 +6692,13 @@
       "tmdb": 2798356,
       "v": 2
     },
+    "markos-goikolea": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Markos Goikolea",
+      "tmdb": 6320292,
+      "v": 2
+    },
     "marta-asamar-garcia": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6151,6 +6809,13 @@
       "motivo": "ok",
       "nombre": "Marta Pons",
       "tmdb": 5948977,
+      "v": 2
+    },
+    "marta-ribera": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Marta Ribera",
+      "tmdb": null,
       "v": 2
     },
     "marta-rodriguez-rojas": {
@@ -6349,6 +7014,13 @@
       "tmdb": 5328714,
       "v": 2
     },
+    "miki-dkai": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Miki Dkai",
+      "tmdb": null,
+      "v": 2
+    },
     "miki-esparbe": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -6489,6 +7161,13 @@
       "tmdb": null,
       "v": 1
     },
+    "mireia-tor": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Mireia Tor",
+      "tmdb": null,
+      "v": 2
+    },
     "mireia-vilar": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6592,6 +7271,13 @@
       "motivo": "ok",
       "nombre": "Mònica Macfer",
       "tmdb": 5053582,
+      "v": 2
+    },
+    "monica-molins": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Mònica Molins",
+      "tmdb": null,
       "v": 2
     },
     "monica-molins-duran": {
@@ -6727,6 +7413,13 @@
       "tmdb": null,
       "v": 1
     },
+    "nacho-lopez": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Nacho López",
+      "tmdb": null,
+      "v": 2
+    },
     "nadina-campas": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6790,6 +7483,13 @@
       "tmdb": null,
       "v": 2
     },
+    "negroni-produccions": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Negroni Produccions",
+      "tmdb": null,
+      "v": 2
+    },
     "neil-simon": {
       "fecha": "2026-11-19",
       "motivo": "varias",
@@ -6825,6 +7525,13 @@
       "tmdb": 4819802,
       "v": 2
     },
+    "neus-ballbe": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Neus Ballbé",
+      "tmdb": null,
+      "v": 2
+    },
     "neus-pamies": {
       "fecha": "2026-11-19",
       "motivo": "varias",
@@ -6838,6 +7545,13 @@
       "nombre": "Neus Soler",
       "tmdb": null,
       "v": 1
+    },
+    "neus-umbert": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Neus Umbert",
+      "tmdb": null,
+      "v": 2
     },
     "nicolas-sans": {
       "fecha": "2026-11-19",
@@ -6866,6 +7580,13 @@
       "nombre": "Nil Martín",
       "tmdb": null,
       "v": 1
+    },
+    "nil-martin-lopez": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Nil Martín López",
+      "tmdb": null,
+      "v": 2
     },
     "nina-sola": {
       "fecha": "2026-11-19",
@@ -6944,6 +7665,13 @@
       "tmdb": null,
       "v": 1
     },
+    "nuria-espinach": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Núria Espinach",
+      "tmdb": null,
+      "v": 2
+    },
     "nuria-garcia": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7020,6 +7748,13 @@
       "nombre": "Omar Morán",
       "tmdb": null,
       "v": 1
+    },
+    "ona-grau": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Ona Grau",
+      "tmdb": null,
+      "v": 2
     },
     "ona-guilera": {
       "fecha": "2026-11-19",
@@ -7119,6 +7854,13 @@
       "tmdb": 2989236,
       "v": 2
     },
+    "oscar-munoz": {
+      "fecha": "2026-11-20",
+      "motivo": "varias",
+      "nombre": "Òscar Muñoz",
+      "tmdb": null,
+      "v": 2
+    },
     "oscar-reyes": {
       "fecha": "2026-11-19",
       "motivo": "nombre común",
@@ -7133,6 +7875,13 @@
       "tmdb": null,
       "v": 1
     },
+    "ovidi-llorente": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Ovidi Llorente",
+      "tmdb": null,
+      "v": 2
+    },
     "oye-sherman": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7144,6 +7893,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Pablo Ariel",
+      "tmdb": null,
+      "v": 2
+    },
+    "pablo-cavero-asencio": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Pablo Cavero Asencio",
       "tmdb": null,
       "v": 2
     },
@@ -7160,6 +7916,13 @@
       "nombre": "Pablo Monedero (Otto)",
       "tmdb": null,
       "v": 1
+    },
+    "pablo-paz": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Pablo Paz",
+      "tmdb": null,
+      "v": 2
     },
     "pablo-picotto": {
       "fecha": "2026-11-19",
@@ -7242,6 +8005,13 @@
       "fecha": "2026-11-19",
       "motivo": "otra persona en Wikidata",
       "nombre": "Patricia Espejo",
+      "tmdb": null,
+      "v": 2
+    },
+    "patricia-sornosa": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Patricia Sornosa",
       "tmdb": null,
       "v": 2
     },
@@ -7350,6 +8120,13 @@
       "tmdb": null,
       "v": 1
     },
+    "pau-vidal": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Pau Vidal",
+      "tmdb": null,
+      "v": 2
+    },
     "pau-vila": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7406,12 +8183,26 @@
       "tmdb": null,
       "v": 1
     },
+    "paula-guardiola": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Paula Guardiola",
+      "tmdb": 5472291,
+      "v": 2
+    },
     "paula-s-viteri": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Paula S. Viteri",
       "tmdb": null,
       "v": 1
+    },
+    "paula-vilardell": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Paula Vilardell",
+      "tmdb": null,
+      "v": 2
     },
     "pedro-chalkho": {
       "fecha": "2026-11-19",
@@ -7441,6 +8232,13 @@
       "tmdb": null,
       "v": 1
     },
+    "pep-cruz": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Pep Cruz",
+      "tmdb": null,
+      "v": 2
+    },
     "pep-llado": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7454,6 +8252,13 @@
       "nombre": "Pep Martínez",
       "tmdb": null,
       "v": 1
+    },
+    "pep-munne": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Pep Munné",
+      "tmdb": 16950,
+      "v": 2
     },
     "pepa-lopez": {
       "fecha": "2026-11-19",
@@ -7559,6 +8364,13 @@
       "nombre": "Pol Blancafort",
       "tmdb": null,
       "v": 1
+    },
+    "pol-cluella": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Pol Cluella",
+      "tmdb": null,
+      "v": 2
     },
     "pol-clusella": {
       "fecha": "2026-11-19",
@@ -8148,6 +8960,13 @@
       "tmdb": null,
       "v": 2
     },
+    "sandrine-heyraud-focus": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Sandrine Heyraud Focus",
+      "tmdb": null,
+      "v": 2
+    },
     "santi-anaya": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -8168,6 +8987,13 @@
       "nombre": "Santi Rodríguez",
       "tmdb": null,
       "v": 1
+    },
+    "sara-clemente": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Sara Clemente",
+      "tmdb": null,
+      "v": 2
     },
     "sara-de-lucas": {
       "fecha": "2026-11-19",
@@ -8281,6 +9107,13 @@
       "tmdb": 319160,
       "v": 2
     },
+    "sergi-casero": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Sergi Casero",
+      "tmdb": null,
+      "v": 2
+    },
     "sergi-cuenca": {
       "fecha": "2026-11-19",
       "motivo": "otra persona en Wikidata",
@@ -8344,6 +9177,20 @@
       "tmdb": null,
       "v": 1
     },
+    "shantala-pepe": {
+      "fecha": "2026-11-20",
+      "motivo": "otro país",
+      "nombre": "Shantala Pèpe",
+      "tmdb": null,
+      "v": 2
+    },
+    "shorlady-preciado": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Shorlady Preciado",
+      "tmdb": null,
+      "v": 2
+    },
     "sil-de-castro": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8357,6 +9204,13 @@
       "nombre": "Silvia Albert Sopale",
       "tmdb": null,
       "v": 1
+    },
+    "silvia-artigas-vila": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Sílvia Artigas Vilà",
+      "tmdb": null,
+      "v": 2
     },
     "silvia-comes": {
       "fecha": "2026-11-19",
@@ -8427,6 +9281,13 @@
       "nombre": "Sixto Paz Produccions",
       "tmdb": null,
       "v": 1
+    },
+    "sofia-archer": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Sofia Archer",
+      "tmdb": null,
+      "v": 2
     },
     "som-produce": {
       "fecha": "2026-11-19",
@@ -8505,6 +9366,13 @@
       "tmdb": null,
       "v": 1
     },
+    "taller-castells": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Taller Castells",
+      "tmdb": null,
+      "v": 2
+    },
     "taller-d-escenografia-castells": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8533,6 +9401,13 @@
       "tmdb": null,
       "v": 1
     },
+    "tandem-costura-teatral-teresa": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Tàndem costura teatral (Teresa",
+      "tmdb": null,
+      "v": 2
+    },
     "tania-banus": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8546,6 +9421,20 @@
       "nombre": "Tània Gumbau",
       "tmdb": null,
       "v": 1
+    },
+    "tanja-haup": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Tanja Haup",
+      "tmdb": null,
+      "v": 2
+    },
+    "tanja-haupt": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Tanja Haupt",
+      "tmdb": null,
+      "v": 2
     },
     "tatiana-monells": {
       "fecha": "2026-11-19",
@@ -8715,6 +9604,13 @@
       "tmdb": null,
       "v": 1
     },
+    "thomas-dechaufour": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Thomas Dechaufour",
+      "tmdb": null,
+      "v": 2
+    },
     "thomas-roper": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8846,6 +9742,20 @@
       "motivo": "ninguna",
       "nombre": "Uri Plana",
       "tmdb": null,
+      "v": 2
+    },
+    "vador-maynou": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Vador Maynou",
+      "tmdb": null,
+      "v": 2
+    },
+    "valentina-scapusio": {
+      "fecha": "2026-11-20",
+      "motivo": "ok",
+      "nombre": "Valentina Scapusio",
+      "tmdb": 3599729,
       "v": 2
     },
     "valeria-pisati": {
@@ -9121,6 +10031,20 @@
       "tmdb": 5306720,
       "v": 2
     },
+    "xavier-granada": {
+      "fecha": "2026-11-20",
+      "motivo": "otra persona en Wikidata",
+      "nombre": "Xavier Granada",
+      "tmdb": null,
+      "v": 2
+    },
+    "xavier-granada-i": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Xavier Granada i",
+      "tmdb": null,
+      "v": 2
+    },
     "xavier-martinez": {
       "fecha": "2026-11-19",
       "motivo": "varias",
@@ -9177,6 +10101,13 @@
       "tmdb": null,
       "v": 1
     },
+    "yaiza-ares": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Yaiza Ares",
+      "tmdb": null,
+      "v": 2
+    },
     "ymar-fuentes-moran": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -9225,6 +10156,13 @@
       "nombre": "Zenón Recalde",
       "tmdb": null,
       "v": 1
+    },
+    "zoe-tenret": {
+      "fecha": "2026-11-20",
+      "motivo": "ninguna",
+      "nombre": "Zoé Tenret",
+      "tmdb": null,
+      "v": 2
     },
     "zubel-arana": {
       "fecha": "2026-11-19",
@@ -10784,6 +11722,56 @@
       },
       "fecha": "2026-11-19"
     },
+    "1067235": {
+      "datos": {
+        "conocida": [
+          [
+            "El Ministerio del Tiempo",
+            2015,
+            "serie",
+            "Falso Bernal Díaz del Castillo"
+          ],
+          [
+            "Cuéntame cómo pasó",
+            2001,
+            "serie",
+            "Tomás"
+          ],
+          [
+            "Hache",
+            2019,
+            "serie",
+            "Eladio Pérez"
+          ],
+          [
+            "Balandrau, viento salvaje",
+            2026,
+            "pelicula",
+            "Jaume"
+          ],
+          [
+            "Citas",
+            2015,
+            "serie",
+            "Octavi Llavina"
+          ],
+          [
+            "Haz conmigo lo que quieras",
+            2004,
+            "pelicula",
+            "Oriol"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/kWzVrFvgBqMep5s2dNdyOhmOWFX.jpg",
+        "lugar": "Barcelona, Spain",
+        "nacimiento": "1966-01-21",
+        "nombre": "Josep Julien",
+        "oficio": "Acting",
+        "tmdb": 1067235,
+        "wikidata": "Q15256732"
+      },
+      "fecha": "2026-11-20"
+    },
     "1071955": {
       "datos": {
         "bio": {
@@ -11069,6 +12057,54 @@
         "wikidata": "Q110954886"
       },
       "fecha": "2026-11-19"
+    },
+    "1092527": {
+      "datos": {
+        "conocida": [
+          [
+            "El Ministerio del Tiempo",
+            2015,
+            "serie",
+            "Maite"
+          ],
+          [
+            "Una pistola en cada mano",
+            2012,
+            "pelicula",
+            "Redactora"
+          ],
+          [
+            "Dime quién soy",
+            2020,
+            "serie",
+            "Laura"
+          ],
+          [
+            "Noche y dia",
+            2016,
+            "serie",
+            "Carmen García"
+          ],
+          [
+            "Hospital Central",
+            2000,
+            "serie",
+            "Marga"
+          ],
+          [
+            "La culpa",
+            2010,
+            "pelicula",
+            "Mujer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/mOd3tthx27OxHlYBVZB1spcrL8a.jpg",
+        "nombre": "Mar Ulldemolins",
+        "oficio": "Acting",
+        "tmdb": 1092527,
+        "wikidata": "Q19301005"
+      },
+      "fecha": "2026-11-20"
     },
     "1092531": {
       "datos": {
@@ -12081,6 +13117,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "1131415": {
+      "datos": {
+        "bio": {
+          "es": "Hovik Keuchkerian Burgui (14 de noviembre de 1972) es un comediante, escritor, poeta, actor y exboxeador español de origen armenio."
+        },
+        "conocida": [
+          [
+            "La casa de papel",
+            2017,
+            "serie",
+            "Bogotá"
+          ],
+          [
+            "Assassin's Creed",
+            2016,
+            "pelicula",
+            "Ojeda"
+          ],
+          [
+            "El hoyo 2",
+            2024,
+            "pelicula",
+            "Zamiatin"
+          ],
+          [
+            "El infiltrado",
+            2016,
+            "serie",
+            "Tabby"
+          ],
+          [
+            "La Casa de Papel: el fenómeno",
+            2020,
+            "pelicula",
+            "Self"
+          ],
+          [
+            "La casa de papel: De Tokio a Berlín",
+            2021,
+            "serie",
+            "Self"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/o5cGKWHlZl4RFROYlT2hD95j0lN.jpg",
+        "lugar": "Beirut, Lebanon",
+        "nacimiento": "1972-11-14",
+        "nombre": "Hovik Keuchkerian",
+        "oficio": "Acting",
+        "tmdb": 1131415,
+        "wikidata": "Q16300962"
+      },
+      "fecha": "2026-11-20"
+    },
     "1133349": {
       "datos": {
         "bio": {
@@ -12500,6 +13589,40 @@
         "wikidata": "Q6036248"
       },
       "fecha": "2026-11-19"
+    },
+    "1150158": {
+      "datos": {
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Bassem Marwan"
+          ],
+          [
+            "Rosewater",
+            2014,
+            "pelicula",
+            "Tavab"
+          ],
+          [
+            "Inch'Allah",
+            2012,
+            "pelicula",
+            "Imad"
+          ],
+          [
+            "Curse of Mesopotamia",
+            2015,
+            "pelicula",
+            "Ahmed/Madame"
+          ]
+        ],
+        "nombre": "Ahmad Massad",
+        "oficio": "Acting",
+        "tmdb": 1150158
+      },
+      "fecha": "2026-11-20"
     },
     "1152634": {
       "datos": {
@@ -18119,6 +19242,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "137427": {
+      "datos": {
+        "bio": {
+          "en": "Denis Villeneuve (born October 3, 1967) is a French-Canadian filmmaker. He has received seven Canadian Screen Awards as well as nominations for three Academy Awards, five BAFTA Awards, and two Golden Globe Awards. Villeneuve's films have grossed more than $1.8 billion worldwide. Villeneuve began his career in his home country, directing four French-language dramas: August 32nd on Earth (1998); Maelström (2000); Polytechnique (2009), a dramatization of the 1989 École Polytechnique massacre; and Incendies (2010). The last of these gained him international prominence and earned a nomination for the Academy Award for Best International Feature Film."
+        },
+        "conocida": [
+          [
+            "La llegada",
+            2016,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Blade Runner 2049",
+            2017,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Dune",
+            2021,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Prisioneros",
+            2013,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Sicario",
+            2015,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Dune: Parte dos",
+            2024,
+            "pelicula",
+            "Screenplay"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
+        "lugar": "Gentilly, Québec, Canada",
+        "nacimiento": "1967-10-03",
+        "nombre": "Denis Villeneuve",
+        "oficio": "Directing",
+        "tmdb": 137427,
+        "wikidata": "Q548823"
+      },
+      "fecha": "2026-11-20"
+    },
     "1374739": {
       "datos": {
         "conocida": [
@@ -18209,6 +19385,22 @@
         "wikidata": "Q3772"
       },
       "fecha": "2026-11-19"
+    },
+    "1383080": {
+      "datos": {
+        "conocida": [
+          [
+            "Negociador",
+            2014,
+            "pelicula",
+            "Recepcionista"
+          ]
+        ],
+        "nombre": "Julie Dacquin",
+        "oficio": "Acting",
+        "tmdb": 1383080
+      },
+      "fecha": "2026-11-20"
     },
     "1383124": {
       "datos": {
@@ -18816,6 +20008,52 @@
       },
       "fecha": "2026-11-19"
     },
+    "1410725": {
+      "datos": {
+        "conocida": [
+          [
+            "Contratiempo",
+            2017,
+            "pelicula",
+            "Club Bouncer"
+          ],
+          [
+            "Los ojos de Julia",
+            2010,
+            "pelicula",
+            "Botones"
+          ],
+          [
+            "Ocho apellidos catalanes",
+            2015,
+            "pelicula",
+            "Segurata Museo"
+          ],
+          [
+            "Ahora o nunca",
+            2015,
+            "pelicula",
+            "Representante AENA"
+          ],
+          [
+            "Tú también lo harías",
+            2023,
+            "serie",
+            "Cabo Anticontrabando"
+          ],
+          [
+            "El silencio antes de Bach",
+            2007,
+            "pelicula",
+            "Amigo de Mendelssohn"
+          ]
+        ],
+        "nombre": "Jordi Llordella",
+        "oficio": "Acting",
+        "tmdb": 1410725
+      },
+      "fecha": "2026-11-20"
+    },
     "1413390": {
       "datos": {
         "bio": {
@@ -19308,6 +20546,56 @@
         "wikidata": "Q65123837"
       },
       "fecha": "2026-11-19"
+    },
+    "1436711": {
+      "datos": {
+        "conocida": [
+          [
+            "Donde caben dos",
+            2021,
+            "pelicula",
+            "Chica guapa Iván"
+          ],
+          [
+            "42 segundos",
+            2022,
+            "pelicula",
+            "Chica 1"
+          ],
+          [
+            "Espejo, espejo",
+            2022,
+            "pelicula",
+            "Youtuber"
+          ],
+          [
+            "Los inocentes",
+            2013,
+            "pelicula",
+            "Lara"
+          ],
+          [
+            "Suc de síndria",
+            2019,
+            "pelicula",
+            ""
+          ],
+          [
+            "Un mal día lo tiene cualquiera",
+            2024,
+            "pelicula",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/3ebHRbrPYcdoH3rndrlmMsgpCq9.jpg",
+        "lugar": "Spain",
+        "nacimiento": "1990-01-01",
+        "nombre": "Bàrbara Mestanza",
+        "oficio": "Acting",
+        "tmdb": 1436711,
+        "wikidata": "Q19289954"
+      },
+      "fecha": "2026-11-20"
     },
     "1437681": {
       "datos": {
@@ -20109,6 +21397,56 @@
       },
       "fecha": "2026-11-19"
     },
+    "1485150": {
+      "datos": {
+        "conocida": [
+          [
+            "Eloïse",
+            2009,
+            "pelicula",
+            "Rubén"
+          ],
+          [
+            "Los Protegidos",
+            2010,
+            "serie",
+            "Héctor"
+          ],
+          [
+            "Gang",
+            2020,
+            "pelicula",
+            ""
+          ],
+          [
+            "ENA. La reina Victoria Eugenia",
+            2025,
+            "serie",
+            "Mateo Morral"
+          ],
+          [
+            "Castells",
+            2022,
+            "pelicula",
+            ""
+          ],
+          [
+            "Caracoles!",
+            2011,
+            "pelicula",
+            "Rafa"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/zSBc0Hl5aq8RVmUkGBQLx6nVlcj.jpg",
+        "lugar": "Sabadell, Spain",
+        "nacimiento": "1989-02-03",
+        "nombre": "Jaume Madaula",
+        "oficio": "Acting",
+        "tmdb": 1485150,
+        "wikidata": "Q101031139"
+      },
+      "fecha": "2026-11-20"
+    },
     "1486488": {
       "datos": {
         "bio": {
@@ -20525,6 +21863,53 @@
         "tmdb": 1500339
       },
       "fecha": "2026-11-19"
+    },
+    "1500570": {
+      "datos": {
+        "conocida": [
+          [
+            "Bird Box Barcelona",
+            2023,
+            "pelicula",
+            "Survivor"
+          ],
+          [
+            "Las leyes de la frontera",
+            2021,
+            "pelicula",
+            "Camarero La Font"
+          ],
+          [
+            "La mesías",
+            2023,
+            "serie",
+            "Al"
+          ],
+          [
+            "Carlos, rey emperador",
+            2015,
+            "serie",
+            "Fernando I de Habsburgo"
+          ],
+          [
+            "Les êtres chers",
+            2015,
+            "pelicula",
+            "Eduardo"
+          ],
+          [
+            "El muerto vivo",
+            2019,
+            "serie",
+            "David"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/12rGgXvtpiKNdmVs6ULwy34VuOb.jpg",
+        "nombre": "Eric Balbàs",
+        "oficio": "Acting",
+        "tmdb": 1500570
+      },
+      "fecha": "2026-11-20"
     },
     "1500586": {
       "datos": {
@@ -21818,6 +23203,53 @@
       },
       "fecha": "2026-11-19"
     },
+    "1572053": {
+      "datos": {
+        "conocida": [
+          [
+            "Josep",
+            2020,
+            "pelicula",
+            "Micaela / Enriqueta (voice)"
+          ],
+          [
+            "Vida perfecta",
+            2019,
+            "serie",
+            "Lourdes"
+          ],
+          [
+            "Noche y dia",
+            2016,
+            "serie",
+            "Fátima Comín"
+          ],
+          [
+            "Citas Barcelona",
+            2023,
+            "serie",
+            "Begoña"
+          ],
+          [
+            "El mal invisible",
+            2025,
+            "serie",
+            ""
+          ],
+          [
+            "Mario",
+            2025,
+            "pelicula",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/6BeEj1BwBU6NiMaxU8gDqXUZAuY.jpg",
+        "nombre": "Alba Pujol",
+        "oficio": "Acting",
+        "tmdb": 1572053
+      },
+      "fecha": "2026-11-20"
+    },
     "1573069": {
       "datos": {
         "conocida": [
@@ -21860,6 +23292,56 @@
         "tmdb": 1573069
       },
       "fecha": "2026-11-19"
+    },
+    "1574055": {
+      "datos": {
+        "conocida": [
+          [
+            "Jaula",
+            2022,
+            "pelicula",
+            "Enfermera 2"
+          ],
+          [
+            "La que se avecina",
+            2007,
+            "serie",
+            "Marta"
+          ],
+          [
+            "Machos alfa",
+            2022,
+            "serie",
+            "Lorena Lorenzo"
+          ],
+          [
+            "Ola de crímenes",
+            2018,
+            "pelicula",
+            "Chica en Cafetería"
+          ],
+          [
+            "Mentiras",
+            2020,
+            "serie",
+            "Trabajadora social"
+          ],
+          [
+            "Acacias 38",
+            2015,
+            "serie",
+            "Herminia"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/w1cTUNWC7s3UwUGaFhXEtiguh7F.jpg",
+        "lugar": "Vigo, Spain",
+        "nacimiento": "1983-09-15",
+        "nombre": "Jazmín Abuín",
+        "oficio": "Acting",
+        "tmdb": 1574055,
+        "wikidata": "Q106647551"
+      },
+      "fecha": "2026-11-20"
     },
     "1580945": {
       "datos": {
@@ -22502,6 +23984,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "1623101": {
+      "datos": {
+        "bio": {
+          "es": "Jorge López es un actor, cantante y bailarín chileno. Nació el 30 de octubre de 1990 en Llay-Llay, San Felipe de Aconcagua. Desde niño, López demostró su talento para la danza, aunque su vocación también fue por la actuación. A los 16 años, decidió convertirse definitivamente en actor, estudiando interpretación en la Academia de Arte Dramático Fernando González Mardones y en la Universidad de Artes, Ciencias y Comunicación de Santiago de Chile."
+        },
+        "conocida": [
+          [
+            "Élite",
+            2018,
+            "serie",
+            "Valerio Montesinos Rojas"
+          ],
+          [
+            "Soy Luna",
+            2016,
+            "serie",
+            "Ramiro Ponce"
+          ],
+          [
+            "La otra Zoey",
+            2023,
+            "pelicula",
+            "Diego"
+          ],
+          [
+            "Sayen: La ruta seca",
+            2023,
+            "pelicula",
+            "Gaspar"
+          ],
+          [
+            "Soy Luna: El último concierto",
+            2021,
+            "pelicula",
+            "Ramiro"
+          ],
+          [
+            "Soy Luna: En Concierto",
+            2017,
+            "pelicula",
+            "Ramiro"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/z8ex5ABsZjGVwenZTZVB5uHKgyv.jpg",
+        "lugar": "Santiago, Metropolitan Region, Chile",
+        "nacimiento": "1991-10-30",
+        "nombre": "Jorge López",
+        "oficio": "Acting",
+        "tmdb": 1623101,
+        "wikidata": "Q29052509"
+      },
+      "fecha": "2026-11-20"
+    },
     "1625558": {
       "datos": {
         "bio": {
@@ -22554,6 +24089,25 @@
         "wikidata": "Q15306031"
       },
       "fecha": "2026-11-19"
+    },
+    "1626246": {
+      "datos": {
+        "conocida": [
+          [
+            "Kyodai Ken Byclosser",
+            1985,
+            "serie",
+            "Ginjiro Mizuno / Byclosser Gin"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/rgX9ZW7HsSeKT0uUmiwPUef7Spk.jpg",
+        "muerte": "1990-05-15",
+        "nacimiento": "1964-01-01",
+        "nombre": "Yuki Tsuchiya",
+        "oficio": "Acting",
+        "tmdb": 1626246
+      },
+      "fecha": "2026-11-20"
     },
     "16269": {
       "datos": {
@@ -23337,6 +24891,15 @@
       },
       "fecha": "2026-11-19"
     },
+    "1681450": {
+      "datos": {
+        "foto": "https://image.tmdb.org/t/p/w185/px3d6Updq2pXuefvnA8e7PZ3Qac.jpg",
+        "nombre": "Eloi Vila",
+        "oficio": "Acting",
+        "tmdb": 1681450
+      },
+      "fecha": "2026-11-20"
+    },
     "1682080": {
       "datos": {
         "bio": {
@@ -23548,6 +25111,59 @@
         "wikidata": "Q67881"
       },
       "fecha": "2026-11-19"
+    },
+    "16950": {
+      "datos": {
+        "bio": {
+          "en": "Josep Munné Suriñà (born 1953), known as Pep Munné, is a Spanish film and television actor."
+        },
+        "conocida": [
+          [
+            "La casa de papel",
+            2017,
+            "serie",
+            "Mario Urbaneja"
+          ],
+          [
+            "Perdona si te llamo amor",
+            2014,
+            "pelicula",
+            "Leonardo"
+          ],
+          [
+            "Los amantes del Círculo Polar",
+            1998,
+            "pelicula",
+            "Javier"
+          ],
+          [
+            "Barcelona",
+            1994,
+            "pelicula",
+            "Ramone"
+          ],
+          [
+            "El niño pez",
+            2009,
+            "pelicula",
+            "Judge Bronté"
+          ],
+          [
+            "Velvet",
+            2014,
+            "serie",
+            "Gerardo Otegui"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/t6MJozPb86TkMeUmacWCyborQkW.jpg",
+        "lugar": "Barcelona, Catalonia, Spain",
+        "nacimiento": "1953-07-03",
+        "nombre": "Pep Munné",
+        "oficio": "Acting",
+        "tmdb": 16950,
+        "wikidata": "Q2399195"
+      },
+      "fecha": "2026-11-20"
     },
     "16980": {
       "datos": {
@@ -25032,6 +26648,15 @@
       },
       "fecha": "2026-11-19"
     },
+    "1837808": {
+      "datos": {
+        "foto": "https://image.tmdb.org/t/p/w185/p7TT7DxpCPAVYBlnz6xiGOpLzXD.jpg",
+        "nombre": "Carla Coll",
+        "oficio": "Acting",
+        "tmdb": 1837808
+      },
+      "fecha": "2026-11-20"
+    },
     "1838225": {
       "datos": {
         "bio": {
@@ -26377,6 +28002,55 @@
       },
       "fecha": "2026-11-19"
     },
+    "196737": {
+      "datos": {
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Notaire Maddad"
+          ],
+          [
+            "Clown",
+            2014,
+            "pelicula",
+            "ER Doctor"
+          ],
+          [
+            "Almacén 13",
+            2009,
+            "serie",
+            "M. Sempe"
+          ],
+          [
+            "Los 4400",
+            2004,
+            "serie",
+            "Peter Barton"
+          ],
+          [
+            "Juegos de mujer",
+            2004,
+            "pelicula",
+            "Raul"
+          ],
+          [
+            "The Listener",
+            2009,
+            "serie",
+            "Gerard Perrault"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/5oWrQwH4Xx243Nk3XdNnKiekEw4.jpg",
+        "lugar": "Canada ",
+        "nombre": "Allen Altman",
+        "oficio": "Acting",
+        "tmdb": 196737,
+        "wikidata": "Q2837869"
+      },
+      "fecha": "2026-11-20"
+    },
     "1967605": {
       "datos": {
         "conocida": [
@@ -26747,6 +28421,53 @@
         "wikidata": "Q6294057"
       },
       "fecha": "2026-11-19"
+    },
+    "201054": {
+      "datos": {
+        "bio": {
+          "en": "Peter Bellwood was born on July 24 1939. He was a writer and actor, known for Highlander II: The Quickening (1991), Highlander (1986) and Annie, the Women in the Life of a Man (1970). He died on July 13 2025."
+        },
+        "conocida": [
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Los inmortales II. El desafío",
+            1991,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Nikita",
+            1997,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Malévolo",
+            2002,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "El volcán asesino",
+            1982,
+            "pelicula",
+            "English Reporter"
+          ]
+        ],
+        "lugar": "York, England, UK",
+        "muerte": "2025-07-13",
+        "nacimiento": "1939-07-24",
+        "nombre": "Peter Bellwood",
+        "oficio": "Writing",
+        "tmdb": 201054,
+        "wikidata": "Q124365047"
+      },
+      "fecha": "2026-11-20"
     },
     "2020259": {
       "datos": {
@@ -27951,6 +29672,60 @@
         "wikidata": "Q2679090"
       },
       "fecha": "2026-11-19"
+    },
+    "218899": {
+      "datos": {
+        "bio": {
+          "en": "John Dunn-Hill was born in 1936 in Glasgow, UK. He was an actor, known for Punisher: War Zone (2008), 300 (2006) and Secret Window (2004)."
+        },
+        "conocida": [
+          [
+            "300",
+            2007,
+            "pelicula",
+            "Councilman"
+          ],
+          [
+            "La ventana secreta",
+            2004,
+            "pelicula",
+            "Tom Greenleaf"
+          ],
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Professor Said Haidar"
+          ],
+          [
+            "Punisher. Zona de guerra",
+            2008,
+            "pelicula",
+            "Cesare"
+          ],
+          [
+            "El club de medianoche",
+            1992,
+            "serie",
+            "Erin"
+          ],
+          [
+            "Los inmortales III. El hechicero",
+            1994,
+            "pelicula",
+            "Loony Napoleon"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/gyTy14cdl7XIDLA6rpRtnOO5GA.jpg",
+        "lugar": "Glasgow, Scotland, UK",
+        "muerte": "2015-09-22",
+        "nacimiento": "1936-01-01",
+        "nombre": "John Dunn-Hill",
+        "oficio": "Acting",
+        "tmdb": 218899,
+        "wikidata": "Q3181393"
+      },
+      "fecha": "2026-11-20"
     },
     "2192": {
       "datos": {
@@ -30345,6 +32120,55 @@
       },
       "fecha": "2026-11-19"
     },
+    "241930": {
+      "datos": {
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Professor Niv Cohen"
+          ],
+          [
+            "Vidas ajenas",
+            2004,
+            "pelicula",
+            "Bartender"
+          ],
+          [
+            "El loco, loco mundo del gendarme",
+            1982,
+            "pelicula",
+            "Un homme de main du Cerveau"
+          ],
+          [
+            "Un instante, una vida",
+            1977,
+            "pelicula",
+            "Reporter"
+          ],
+          [
+            "Un mal hijo",
+            1980,
+            "pelicula",
+            "officier de police"
+          ],
+          [
+            "Madonna: Innocence Lost",
+            1994,
+            "pelicula",
+            "Toussant"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/y2Ko6ktN4DpMooZUpTw3g3Hv5bl.jpg",
+        "lugar": "Фекамп, Квебек, Канада",
+        "nacimiento": "1942-10-16",
+        "nombre": "Dominique Briand",
+        "oficio": "Acting",
+        "tmdb": 241930
+      },
+      "fecha": "2026-11-20"
+    },
     "2424427": {
       "datos": {
         "conocida": [
@@ -31430,6 +33254,14 @@
         "tmdb": 2570378
       },
       "fecha": "2026-11-19"
+    },
+    "2592896": {
+      "datos": {
+        "nombre": "Arnau Aiguabella",
+        "oficio": "Acting",
+        "tmdb": 2592896
+      },
+      "fecha": "2026-11-20"
     },
     "2617257": {
       "datos": {
@@ -33789,6 +35621,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "28902": {
+      "datos": {
+        "bio": {
+          "en": "​From Wikipedia, the free encyclopedia. Gregory Widen is an American screenwriter and film director. A student in UCLA's screenwriting program, he sold his script for Highlander while still an undergraduate. Before entering the UCLA program, Widen attended Saddleback College in Mission Viejo, California. Widen worked as a firefighter for three years. He witnessed a person killed by an explosive backdraft, which became the basis for the screenplay for the movie Backdraft. In 1995 he wrote and directed the supernatural thriller The Prophecy starring Christopher Walken. Description above from the Wikipedia article Gregory Widen licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Llamaradas",
+            1991,
+            "pelicula",
+            "Engine Lieutenant"
+          ],
+          [
+            "Historias de la cripta",
+            1989,
+            "serie",
+            "Screenplay"
+          ],
+          [
+            "Ángeles y demonios",
+            1995,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Otra Vida",
+            2017,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Llamaradas 2",
+            2019,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/qCLjWpysaJlNgjSflhJ9R8pHD28.jpg",
+        "lugar": "Los Angeles County, California, USA",
+        "nacimiento": "1958-11-30",
+        "nombre": "Gregory Widen",
+        "oficio": "Writing",
+        "tmdb": 28902,
+        "wikidata": "Q487408"
+      },
+      "fecha": "2026-11-20"
+    },
     "2896203": {
       "datos": {
         "conocida": [
@@ -33811,6 +35696,59 @@
         "tmdb": 2896203
       },
       "fecha": "2026-11-19"
+    },
+    "29021": {
+      "datos": {
+        "bio": {
+          "ca": "Roxanne Hart (Trenton, Nova Jersey, 27 de juliol de 1952) és una actriu nord-americana, coneguda pels seus papers com a Brenda Wyatt a la pel·lícula Highlander de 1986 i com a infermera Camille Shutt a la sèrie de drama mèdic de la CBS Chicago Hope. Hart va rebre una nominació al premi Tony pel seu treball escènic."
+        },
+        "conocida": [
+          [
+            "Anatomía de Grey",
+            2005,
+            "serie",
+            "Dana Seabury"
+          ],
+          [
+            "House",
+            2004,
+            "serie",
+            "Margo Davis"
+          ],
+          [
+            "El mentalista",
+            2008,
+            "serie",
+            "Shirley Bauer"
+          ],
+          [
+            "True Detective",
+            2014,
+            "serie",
+            "Mrs. James"
+          ],
+          [
+            "Mentes criminales",
+            2005,
+            "serie",
+            "Andrea Benton"
+          ],
+          [
+            "The Blacklist",
+            2013,
+            "serie",
+            "Ava Ziegler"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/sNDRhIcW51b7ruS8yt0Xpwa12Mz.jpg",
+        "lugar": "Trenton, New Jersey, USA",
+        "nacimiento": "1952-07-27",
+        "nombre": "Roxanne Hart",
+        "oficio": "Acting",
+        "tmdb": 29021,
+        "wikidata": "Q460987"
+      },
+      "fecha": "2026-11-20"
     },
     "2945577": {
       "datos": {
@@ -34949,6 +36887,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "31925": {
+      "datos": {
+        "bio": {
+          "en": "Hugh Anthony Quarshie (born 22 December 1954) is a Ghanaian-born British actor of stage, television, and film. Some of his best-known roles include his appearances in the films Highlander (1986) and Star Wars Episode I: The Phantom Menace (1999), and his long-running role as Ric Griffin in the BBC medical drama Holby City (2001–present)."
+        },
+        "conocida": [
+          [
+            "La guerra de las galaxias. Episodio I: La amenaza fantasma",
+            1999,
+            "pelicula",
+            "Captain Panaka"
+          ],
+          [
+            "Animales fantásticos II. Los crímenes de Grindelwald",
+            2018,
+            "pelicula",
+            "Mustafa Kama"
+          ],
+          [
+            "Gorrión rojo",
+            2018,
+            "pelicula",
+            "Simon Benford"
+          ],
+          [
+            "Doctor Who",
+            2005,
+            "serie",
+            "Solomon"
+          ],
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Sunda Kastagir"
+          ],
+          [
+            "Jack Ryan de Tom Clancy",
+            2018,
+            "serie",
+            "Ekon Ameh"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/buBmcE8F8BpbL7M8yyxST2exMRP.jpg",
+        "lugar": "Accra, Gold Coast, Ghana",
+        "nacimiento": "1954-12-22",
+        "nombre": "Hugh Quarshie",
+        "oficio": "Acting",
+        "tmdb": 31925,
+        "wikidata": "Q487427"
+      },
+      "fecha": "2026-11-20"
+    },
     "3194501": {
       "datos": {
         "bio": {
@@ -35549,6 +37540,29 @@
         "tmdb": 3458889
       },
       "fecha": "2026-11-19"
+    },
+    "3461383": {
+      "datos": {
+        "conocida": [
+          [
+            "Salve Maria",
+            2024,
+            "pelicula",
+            "Matrona"
+          ],
+          [
+            "Creatura",
+            2023,
+            "pelicula",
+            "Loles"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/n14x48jF85P8RW1Lnv148ojG4Cj.jpg",
+        "nombre": "Clara Garcés",
+        "oficio": "Acting",
+        "tmdb": 3461383
+      },
+      "fecha": "2026-11-20"
     },
     "3481167": {
       "datos": {
@@ -36174,6 +38188,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "3599729": {
+      "datos": {
+        "conocida": [
+          [
+            "Alirón 2: El descanso",
+            2022,
+            "pelicula",
+            "Carla"
+          ]
+        ],
+        "nombre": "Valentina Scapusio",
+        "oficio": "Acting",
+        "tmdb": 3599729
+      },
+      "fecha": "2026-11-20"
+    },
     "3623": {
       "datos": {
         "bio": {
@@ -36721,6 +38751,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "3752459": {
+      "datos": {
+        "nombre": "Falk Richter",
+        "oficio": "Writing",
+        "tmdb": 3752459
+      },
+      "fecha": "2026-11-20"
+    },
     "37561": {
       "datos": {
         "bio": {
@@ -37043,6 +39081,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "38526": {
+      "datos": {
+        "bio": {
+          "en": "Rémy Girard (born August 10, 1950) is a Canadian actor and former television host from Quebec."
+        },
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Notary Lebel"
+          ],
+          [
+            "Patinazo a la gloria",
+            2007,
+            "pelicula",
+            "Father St. Pierre"
+          ],
+          [
+            "El violín rojo",
+            1998,
+            "pelicula",
+            "Customs Agent (Montréal)"
+          ],
+          [
+            "Las invasiones bárbaras",
+            2003,
+            "pelicula",
+            "Rémy"
+          ],
+          [
+            "Frontera",
+            2016,
+            "serie",
+            "Marquis de Beaumont"
+          ],
+          [
+            "Los misterios de Murdoch",
+            2008,
+            "serie",
+            "Joseph-Elzéar Bernier"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/enULDDsKvyNoUCZoFg10Mtq1MFk.jpg",
+        "lugar": "Jonquière, Québec, Canada",
+        "nacimiento": "1950-08-10",
+        "nombre": "Rémy Girard",
+        "oficio": "Acting",
+        "tmdb": 38526,
+        "wikidata": "Q2178753"
+      },
+      "fecha": "2026-11-20"
+    },
     "3855316": {
       "datos": {
         "foto": "https://image.tmdb.org/t/p/w185/7lUhlcUFhpdFr9aFpOo4E2wqjmA.jpg",
@@ -37051,6 +39142,59 @@
         "tmdb": 3855316
       },
       "fecha": "2026-11-19"
+    },
+    "38559": {
+      "datos": {
+        "bio": {
+          "en": "Christophe Guy Denis \"Christopher\" Lambert (born 29 March 1957) is an American-born French actor who has appeared in American, as well as French and other European productions. He is best known for his role as Connor MacLeod, or simply \"The Highlander\", from the movie and subsequent movie franchise series of the same name. He is also known for his roles as Tarzan in Greystoke: The Legend of Tarzan, Lord of the Apes and as the thunder god Raiden in the first movie adaptation of the video game Mortal Kombat. He is credited internationally as Christopher Lambert, with the exceptions of French-speaking countries, where he is known as Christophe Lambert."
+        },
+        "conocida": [
+          [
+            "Ghost Rider: Espíritu de venganza",
+            2011,
+            "pelicula",
+            "Methodius"
+          ],
+          [
+            "¡Ave, César!",
+            2016,
+            "pelicula",
+            "Arne Seslum"
+          ],
+          [
+            "The Blacklist",
+            2013,
+            "serie",
+            "Bastien Moreau"
+          ],
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Connor 'The Highlander' MacLeod"
+          ],
+          [
+            "Mortal Kombat",
+            1995,
+            "pelicula",
+            "Lord Raiden"
+          ],
+          [
+            "NCIS: Los Ángeles",
+            2009,
+            "serie",
+            "Marcel Janvier"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/nWcAHW2ZN4cP3VPWYH9WJCvhFvt.jpg",
+        "lugar": "Great Neck, Long Island, New York, USA",
+        "nacimiento": "1957-03-29",
+        "nombre": "Christopher Lambert",
+        "oficio": "Acting",
+        "tmdb": 38559,
+        "wikidata": "Q105158"
+      },
+      "fecha": "2026-11-20"
     },
     "3864782": {
       "datos": {
@@ -37634,6 +39778,117 @@
       },
       "fecha": "2026-11-19"
     },
+    "4253": {
+      "datos": {
+        "bio": {
+          "en": "Jon Polito (born December 29, 1950 — September 1, 2016) was an American actor. In a career spanning 35 years and over 220 film and television credits, he became best known for his work with the Coen Brothers, most notably as the Italian gangster Johnny Caspar in Miller's Crossing. He also appeared in the first two seasons of Homicide: Life on the Street and on the first season of Crime Story."
+        },
+        "conocida": [
+          [
+            "El gran Lebowski",
+            1998,
+            "pelicula",
+            "Private Snoop"
+          ],
+          [
+            "American Gangster",
+            2007,
+            "pelicula",
+            "Rossi"
+          ],
+          [
+            "Avatar: La leyenda de Aang",
+            2005,
+            "serie",
+            "Chief Arnook (voice)"
+          ],
+          [
+            "El mentalista",
+            2008,
+            "serie",
+            "Bertram Duesterberg"
+          ],
+          [
+            "Stuart Little",
+            1999,
+            "pelicula",
+            "Officer Sherman"
+          ],
+          [
+            "El cuervo",
+            1994,
+            "pelicula",
+            "Gideon"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/4HjxMy4Ir2dWz7ycX5l3sgxOY4g.jpg",
+        "lugar": "Philadelphia, Pennsylvania, USA",
+        "muerte": "2016-09-01",
+        "nacimiento": "1950-12-29",
+        "nombre": "Jon Polito",
+        "oficio": "Acting",
+        "tmdb": 4253,
+        "wikidata": "Q203205"
+      },
+      "fecha": "2026-11-20"
+    },
+    "4255606": {
+      "datos": {
+        "conocida": [
+          [
+            "La leyenda del Escanyapobres",
+            2024,
+            "pelicula",
+            "Pau"
+          ]
+        ],
+        "nombre": "Francesc Marginet",
+        "oficio": "Acting",
+        "tmdb": 4255606
+      },
+      "fecha": "2026-11-20"
+    },
+    "4295181": {
+      "datos": {
+        "conocida": [
+          [
+            "Boulevard",
+            2026,
+            "pelicula",
+            "Neizan"
+          ],
+          [
+            "Viaje de fin de curso: Mallorca",
+            2025,
+            "pelicula",
+            "Martín"
+          ],
+          [
+            "El secreto del orfebre",
+            2025,
+            "pelicula",
+            "Juan"
+          ],
+          [
+            "Ser o no ser",
+            2022,
+            "serie",
+            "Álex"
+          ],
+          [
+            "Jo mai mai",
+            2024,
+            "serie",
+            "Bruno"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/lzx9tY6OCCZvLbLCO367BT45ZU.jpg",
+        "nombre": "Enzo Oliver",
+        "oficio": "Acting",
+        "tmdb": 4295181
+      },
+      "fecha": "2026-11-20"
+    },
     "4307244": {
       "datos": {
         "bio": {
@@ -37744,6 +39999,28 @@
         "tmdb": 4465382
       },
       "fecha": "2026-11-19"
+    },
+    "4467596": {
+      "datos": {
+        "conocida": [
+          [
+            "Citas Barcelona",
+            2023,
+            "serie",
+            "Cura"
+          ],
+          [
+            "Viaje a la luna",
+            1998,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Albert Triola",
+        "oficio": "Acting",
+        "tmdb": 4467596
+      },
+      "fecha": "2026-11-20"
     },
     "44735": {
       "datos": {
@@ -38434,6 +40711,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "4664559": {
+      "datos": {
+        "nombre": "Berta Vidal",
+        "oficio": "Acting",
+        "tmdb": 4664559
+      },
+      "fecha": "2026-11-20"
+    },
     "4666780": {
       "datos": {
         "bio": {
@@ -38561,6 +40846,14 @@
         "tmdb": 4750393
       },
       "fecha": "2026-11-19"
+    },
+    "4751565": {
+      "datos": {
+        "nombre": "María José Tardón",
+        "oficio": "Production",
+        "tmdb": 4751565
+      },
+      "fecha": "2026-11-20"
     },
     "4764": {
       "datos": {
@@ -39094,6 +41387,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "4977916": {
+      "datos": {
+        "conocida": [
+          [
+            "A través de mi ventana 3: A través de tu mirada",
+            2024,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Amada Bokesa",
+        "oficio": "Acting",
+        "tmdb": 4977916
+      },
+      "fecha": "2026-11-20"
+    },
     "4985213": {
       "datos": {
         "nombre": "Diego René",
@@ -39591,6 +41900,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "5133968": {
+      "datos": {
+        "nombre": "Laia Piró",
+        "oficio": "Acting",
+        "tmdb": 5133968
+      },
+      "fecha": "2026-11-20"
+    },
     "513677": {
       "datos": {
         "bio": {
@@ -40030,6 +42347,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "52968": {
+      "datos": {
+        "bio": {
+          "en": "From Wikipedia, the free encyclopedia Russell Mulcahy (born 23 June 1953 in Melbourne, Victoria) is an Australian film director. His work is easily recognized by his use of fast cuts, tracking shots and use of glowing lights. Description above from the Wikipedia article Russell Mulcahy, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Resident Evil III. Extinción",
+            2007,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Teen Wolf",
+            2011,
+            "serie",
+            "Director"
+          ],
+          [
+            "Por trece razones",
+            2017,
+            "serie",
+            "Director"
+          ],
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Historias de la cripta",
+            1989,
+            "serie",
+            "Director"
+          ],
+          [
+            "Los inmortales II. El desafío",
+            1991,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/gzJDD5bj0fBgvyb2puB6O951Gnv.jpg",
+        "lugar": "Melbourne, Victoria, Australia",
+        "nacimiento": "1953-06-23",
+        "nombre": "Russell Mulcahy",
+        "oficio": "Directing",
+        "tmdb": 52968,
+        "wikidata": "Q436829"
+      },
+      "fecha": "2026-11-20"
+    },
     "5299192": {
       "datos": {
         "nombre": "Catalina Solivellas",
@@ -40169,6 +42539,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "5303751": {
+      "datos": {
+        "nombre": "Chiyomi Tanaka",
+        "oficio": "Crew",
+        "tmdb": 5303751
+      },
+      "fecha": "2026-11-20"
+    },
     "5306720": {
       "datos": {
         "nombre": "Xavier Frau",
@@ -40251,6 +42629,221 @@
         "tmdb": 5328714
       },
       "fecha": "2026-11-19"
+    },
+    "53515": {
+      "datos": {
+        "bio": {
+          "ca": "Beatrice Edney (Londres, 23 d’octubre de 1962) és una actriu de televisió i cinema anglesa."
+        },
+        "conocida": [
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Heather MacLeod"
+          ],
+          [
+            "Andor",
+            2022,
+            "serie",
+            "Judge"
+          ],
+          [
+            "En el nombre del padre",
+            1993,
+            "pelicula",
+            "Carole Richardson"
+          ],
+          [
+            "Agatha Christie: Poirot",
+            1989,
+            "serie",
+            "Mary Cavendish"
+          ],
+          [
+            "Los inmortales IV. Juego final",
+            2000,
+            "pelicula",
+            "Heather MacLeod"
+          ],
+          [
+            "Un gran día para ellas",
+            2008,
+            "pelicula",
+            "Mrs. Brummegan"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/kcG5KsstT97lzRZUG1pyveAj0no.jpg",
+        "lugar": "London, England, UK",
+        "nacimiento": "1962-10-23",
+        "nombre": "Beatie Edney",
+        "oficio": "Acting",
+        "tmdb": 53515,
+        "wikidata": "Q434754"
+      },
+      "fecha": "2026-11-20"
+    },
+    "53584": {
+      "datos": {
+        "bio": {
+          "en": "Alan North was an American actor. After serving in the Navy during World War II, North became a stage manager in New York. He first acted on Broadway in \"Plain and Fancy\" (1955), which led to further roles in diverse productions, ranging from musical comedy to straight dramatic parts. His film career included roles in Plaza Suite (1971), Serpico (1973), The Formula (1980), Trackdown: Finding the Goodbar Killer (1983), Thief of Hearts (1984), Highlander (1986), Act of Vengeance (1986), Billy Galvin (1986), The Fourth Protocol (1987), Lean on Me (1989), See No Evil, Hear No Evil (1989), Glory (1989) and The Long Kiss Goodnight (1996)."
+        },
+        "conocida": [
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Lieutenant Frank Moran"
+          ],
+          [
+            "Serpico",
+            1973,
+            "pelicula",
+            "Brown"
+          ],
+          [
+            "Tiempos de gloria",
+            1989,
+            "pelicula",
+            "Gov. John Albion Andrew"
+          ],
+          [
+            "Memoria letal",
+            1996,
+            "pelicula",
+            "Earl"
+          ],
+          [
+            "No me chilles, que no te veo",
+            1989,
+            "pelicula",
+            "Braddock"
+          ],
+          [
+            "Ley y orden",
+            1990,
+            "serie",
+            "Defense Attorney Reilly"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/ixzjcfIJx3P1Z8UidMlVQ8aH5HU.jpg",
+        "lugar": "The Bronx, New York, USA",
+        "muerte": "2000-01-19",
+        "nacimiento": "1920-12-23",
+        "nombre": "Alan North",
+        "oficio": "Acting",
+        "tmdb": 53584,
+        "wikidata": "Q1715146"
+      },
+      "fecha": "2026-11-20"
+    },
+    "53585": {
+      "datos": {
+        "bio": {
+          "ca": "Sheila Gish, nascuda Sheila Anne Syme Gash (Lincoln, England, 23 d’abril de 1942 - Camden, Londres, 9 de març de 2005), va ser una actriu anglesa. Pel seu paper al renaixement londinenc de la companyia musical Stephen Sondheim de 1995, va guanyar el premi Olivier a la millor interpretació secundària en un musical."
+        },
+        "conocida": [
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Rachel Ellenstein"
+          ],
+          [
+            "Mansfield Park",
+            1999,
+            "pelicula",
+            "Mrs. Norris"
+          ],
+          [
+            "Darling",
+            1965,
+            "pelicula",
+            "Cameo (uncredited)"
+          ],
+          [
+            "Inspector Morse",
+            1987,
+            "serie",
+            "Gwladys Probert"
+          ],
+          [
+            "Ley y desorden",
+            1995,
+            "serie",
+            "Maeve the Sex Therapist"
+          ],
+          [
+            "Jonathan Creek",
+            1997,
+            "serie",
+            "Serena Shale"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/Wgmks9bPcPEwZfZ8PgOdb7VGFQ.jpg",
+        "lugar": "Lincoln, England, United Kingdom",
+        "muerte": "2005-03-09",
+        "nacimiento": "1942-04-23",
+        "nombre": "Sheila Gish",
+        "oficio": "Acting",
+        "tmdb": 53585,
+        "wikidata": "Q531467"
+      },
+      "fecha": "2026-11-20"
+    },
+    "53587": {
+      "datos": {
+        "bio": {
+          "en": "Peter Diamond (10 August 1929 – 27 March 2004) was an English actor who had trained at the Royal Academy of Dramatic Art and is remembered as a stuntman on television or film."
+        },
+        "conocida": [
+          [
+            "La guerra de las galaxias",
+            1977,
+            "pelicula",
+            "Stormtrooper / Tusken Raider / Death Star Trooper / Garouf L"
+          ],
+          [
+            "El imperio contraataca",
+            1980,
+            "pelicula",
+            "Snowtrooper Gunner (uncredited)"
+          ],
+          [
+            "El retorno del Jedi",
+            1983,
+            "pelicula",
+            "Biker Scout Pushed Off Bike (uncredited)"
+          ],
+          [
+            "En busca del arca perdida",
+            1981,
+            "pelicula",
+            "German Soldier (uncredited)"
+          ],
+          [
+            "Indiana Jones y la última cruzada",
+            1989,
+            "pelicula",
+            "German Soldier (uncredited)"
+          ],
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Aman Fasil"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/nVb4nFvWloTdzopD42aNV5osYKU.jpg",
+        "lugar": "Durham, England, UK",
+        "muerte": "2004-03-27",
+        "nacimiento": "1929-08-10",
+        "nombre": "Peter Diamond",
+        "oficio": "Acting",
+        "tmdb": 53587,
+        "wikidata": "Q11903466"
+      },
+      "fecha": "2026-11-20"
     },
     "5364687": {
       "datos": {
@@ -40664,6 +43257,14 @@
         "wikidata": "Q147077"
       },
       "fecha": "2026-11-19"
+    },
+    "5472291": {
+      "datos": {
+        "nombre": "Paula Guardiola",
+        "oficio": "Production",
+        "tmdb": 5472291
+      },
+      "fecha": "2026-11-20"
     },
     "5474306": {
       "datos": {
@@ -42261,6 +44862,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "5858610": {
+      "datos": {
+        "nombre": "Maria Hernandez Giralt",
+        "oficio": "Acting",
+        "tmdb": 5858610
+      },
+      "fecha": "2026-11-20"
+    },
     "5883927": {
       "datos": {
         "bio": {
@@ -42620,6 +45229,47 @@
         "tmdb": 5926521
       },
       "fecha": "2026-11-19"
+    },
+    "592718": {
+      "datos": {
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Doctor in the Emergency Room"
+          ],
+          [
+            "De père en flic",
+            2009,
+            "pelicula",
+            "Fils Fric - Maxime"
+          ],
+          [
+            "La chute de Sparte",
+            2018,
+            "pelicula",
+            "Vendeur magasin"
+          ],
+          [
+            "Camping Sauvage",
+            2004,
+            "pelicula",
+            "Prison guard"
+          ],
+          [
+            "Adiós, felicidad",
+            2021,
+            "pelicula",
+            "Couple qui part"
+          ]
+        ],
+        "nombre": "Frédéric Paquet",
+        "oficio": "Acting",
+        "tmdb": 592718,
+        "wikidata": "Q3090096"
+      },
+      "fecha": "2026-11-20"
     },
     "59315": {
       "datos": {
@@ -43011,6 +45661,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "6086403": {
+      "datos": {
+        "nombre": "Clara Altarriba",
+        "oficio": "Acting",
+        "tmdb": 6086403
+      },
+      "fecha": "2026-11-20"
+    },
     "6091": {
       "datos": {
         "bio": {
@@ -43372,6 +46030,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "6320292": {
+      "datos": {
+        "nombre": "Markos Goikolea",
+        "oficio": "Writing",
+        "tmdb": 6320292
+      },
+      "fecha": "2026-11-20"
+    },
     "63306": {
       "datos": {
         "bio": {
@@ -43514,6 +46180,70 @@
         "wikidata": "Q1377022"
       },
       "fecha": "2026-11-19"
+    },
+    "6421297": {
+      "datos": {
+        "nombre": "Eugenio Tardón",
+        "oficio": "Directing",
+        "tmdb": 6421297
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421298": {
+      "datos": {
+        "nombre": "Carla Cañellas",
+        "oficio": "Directing",
+        "tmdb": 6421298
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421299": {
+      "datos": {
+        "nombre": "Jien Shizuka",
+        "oficio": "Acting",
+        "tmdb": 6421299
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421301": {
+      "datos": {
+        "nombre": "Doukan Yano",
+        "oficio": "Acting",
+        "tmdb": 6421301
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421302": {
+      "datos": {
+        "nombre": "Yoichi Fujimori",
+        "oficio": "Acting",
+        "tmdb": 6421302
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421305": {
+      "datos": {
+        "nombre": "Atsushi Nagano",
+        "oficio": "Acting",
+        "tmdb": 6421305
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421307": {
+      "datos": {
+        "nombre": "Isao Yamaguchi",
+        "oficio": "Acting",
+        "tmdb": 6421307
+      },
+      "fecha": "2026-11-20"
+    },
+    "6421308": {
+      "datos": {
+        "nombre": "Mariló Rodriguez",
+        "oficio": "Acting",
+        "tmdb": 6421308
+      },
+      "fecha": "2026-11-20"
     },
     "6437202": {
       "datos": {
@@ -43919,6 +46649,59 @@
         "wikidata": "Q298685"
       },
       "fecha": "2026-11-19"
+    },
+    "6574": {
+      "datos": {
+        "bio": {
+          "es": "Clarence J. \"Clancy\" Brown III (5 de enero de 1959) es un actor estadounidense conocido por su papel de El Kurgan en el clásico de culto Highlander. En 1992 protagonizó la película de terror Pet Sematary Two en el papel del sheriff Gus Gilbert. También se le recuerda por haber interpretado a personajes como el duro e imponente celador Byron Hadley en la premiada Cadena perpetua/Sueño de fuga, el Hermano Justin Crowe en la aclamada serie de HBO Carnivàle o el sargento Zim en Starship Troopers. También trabaja frecuentemente como actor de voz en series de televisión animadas, de entre las cuales destaca su papel como Eugene H. Cangrejo en la serie Bob Esponja."
+        },
+        "conocida": [
+          [
+            "Cadena perpetua",
+            1994,
+            "pelicula",
+            "Captain Byron T. Hadley"
+          ],
+          [
+            "Thor: Ragnarok",
+            2017,
+            "pelicula",
+            "Surtur (voice)"
+          ],
+          [
+            "The Flash",
+            2014,
+            "serie",
+            "General Wade Eiling"
+          ],
+          [
+            "Rick y Morty",
+            2013,
+            "serie",
+            "Risotto Groupon (voice)"
+          ],
+          [
+            "The Mandalorian",
+            2019,
+            "serie",
+            "Burg"
+          ],
+          [
+            "John Wick 4",
+            2023,
+            "pelicula",
+            "Harbinger"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg",
+        "lugar": "Urbana, Ohio, USA",
+        "nacimiento": "1959-01-05",
+        "nombre": "Clancy Brown",
+        "oficio": "Acting",
+        "tmdb": 6574,
+        "wikidata": "Q4488"
+      },
+      "fecha": "2026-11-20"
     },
     "6575430": {
       "datos": {
@@ -45342,6 +48125,60 @@
       },
       "fecha": "2026-11-19"
     },
+    "738": {
+      "datos": {
+        "bio": {
+          "es": "Thomas Sean Connery es un actor y productor de cine británico que ha ganado un premio Óscar, dos premios BAFTA (uno de ellos un BAFTA Academy Fellowship Award), y tres premios Globo de Oro. Gran parte de su fama es debida al personaje de James Bond, que interpretó en siete películas entre 1962 y 1983 (seis películas producidas por Eon Productions, así como Nunca digas nunca jamás, una nueva versión de Operación Trueno producida por Warner Bros.). En 1988, Connery ganó el premio Óscar al Mejor Actor de Reparto por su papel en The Untouchables."
+        },
+        "conocida": [
+          [
+            "Indiana Jones y la última cruzada",
+            1989,
+            "pelicula",
+            "Professor Henry Jones"
+          ],
+          [
+            "Los intocables de Eliot Ness",
+            1987,
+            "pelicula",
+            "Jim Malone"
+          ],
+          [
+            "La roca",
+            1996,
+            "pelicula",
+            "John Patrick Mason"
+          ],
+          [
+            "La liga de los hombres extraordinarios",
+            2003,
+            "pelicula",
+            "Allan Quatermain"
+          ],
+          [
+            "Agente 007 contra el Dr. No",
+            1962,
+            "pelicula",
+            "James Bond"
+          ],
+          [
+            "James Bond contra Goldfinger",
+            1964,
+            "pelicula",
+            "James Bond"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/cd0zKpYJ6eSutkrZkLFxQCGjhnF.jpg",
+        "lugar": "Fountainbridge, Edinburgh, Scotland, UK",
+        "muerte": "2020-10-31",
+        "nacimiento": "1930-08-25",
+        "nombre": "Sean Connery",
+        "oficio": "Acting",
+        "tmdb": 738,
+        "wikidata": "Q4573"
+      },
+      "fecha": "2026-11-20"
+    },
     "7489": {
       "datos": {
         "bio": {
@@ -45864,6 +48701,59 @@
         "wikidata": "Q21292833"
       },
       "fecha": "2026-11-19"
+    },
+    "77498": {
+      "datos": {
+        "bio": {
+          "en": "Lubna Azabal is a Belgian actress, born in Brussels to a Moroccan father and a Spanish mother. After studing at the Conservatoire royal of Brussels, she began a theatrical career in Belgium. In 1997, she took her first film role when Belgian film-maker Vincent Lannoo chose her to act beside Olivier Gourmet in his short film J'adore le cinéma. She performs in both French and Arabic films. She was raised trilingual (French, Spanish and Berber). She also speaks fluent English and Arabic. Her most widely known role is in the 2005 Golden Globe-winning Palestinian political thriller, Paradise Now. She can also be spotted in a smaller role in Ridley Scott's film Body of Lies."
+        },
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Nawal"
+          ],
+          [
+            "Red de mentiras",
+            2008,
+            "pelicula",
+            "Aisha's Sister Cala"
+          ],
+          [
+            "María Magdalena",
+            2018,
+            "pelicula",
+            "Susannah"
+          ],
+          [
+            "Coriolanus",
+            2011,
+            "pelicula",
+            "First Citizen (Tamora)"
+          ],
+          [
+            "Simone, la mujer del siglo",
+            2022,
+            "pelicula",
+            "Hafsia Hamdad"
+          ],
+          [
+            "Paradise Now",
+            2005,
+            "pelicula",
+            "Suha"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/qjsoXqKJPnmoMs1eyeTLBKKShYQ.jpg",
+        "lugar": "Bruxelles, Belgium",
+        "nacimiento": "1973-08-15",
+        "nombre": "Lubna Azabal",
+        "oficio": "Acting",
+        "tmdb": 77498,
+        "wikidata": "Q462256"
+      },
+      "fecha": "2026-11-20"
     },
     "78404": {
       "datos": {
@@ -46529,6 +49419,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "84573": {
+      "datos": {
+        "bio": {
+          "en": "Mélissa Désormeaux-Poulin (born July 3, 1981) is a Québec actress mostly known for her role of Jeanne Marwan in Denis Villeneuve's Incendies (2010)."
+        },
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Jeanne Marwan"
+          ],
+          [
+            "Épidémie",
+            2020,
+            "serie",
+            "Chloé Roy-Bélanger"
+          ],
+          [
+            "Gabrielle",
+            2013,
+            "pelicula",
+            "Sophie"
+          ],
+          [
+            "Hors les murs",
+            2012,
+            "pelicula",
+            "Anka"
+          ],
+          [
+            "Le trip à trois",
+            2017,
+            "pelicula",
+            "Estelle Legrand"
+          ],
+          [
+            "Dédé, à travers les brumes",
+            2009,
+            "pelicula",
+            "Sophie"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/bVQfqJXVSDB6x6GVKHIsOVoPrnS.jpg",
+        "lugar": "Montréal, Québec, Canada",
+        "nacimiento": "1981-07-03",
+        "nombre": "Mélissa Désormeaux-Poulin",
+        "oficio": "Acting",
+        "tmdb": 84573,
+        "wikidata": "Q2384494"
+      },
+      "fecha": "2026-11-20"
+    },
     "84706": {
       "datos": {
         "bio": {
@@ -47054,6 +49997,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "88592": {
+      "datos": {
+        "bio": {
+          "en": "Maxim Gaudette (born June 8, 1974) is a Canadian actor from Quebec. He won the Genie Award for Best Supporting Actor in 2010 for his role as Marc Lépine in the 2009 film Polytechnique Description above from the Wikipedia article Maxim Gaudette, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Simon Marwan"
+          ],
+          [
+            "Polytechnique",
+            2009,
+            "pelicula",
+            "The Assassin"
+          ],
+          [
+            "Confesiones de un asesino a sueldo",
+            2022,
+            "pelicula",
+            "Rodrigue 'Rod' Lemay"
+          ],
+          [
+            "Les 3 p'tits cochons",
+            2007,
+            "pelicula",
+            "Hugo"
+          ],
+          [
+            "2 secondes",
+            1998,
+            "pelicula",
+            ""
+          ],
+          [
+            "Lac Mystère",
+            2013,
+            "pelicula",
+            "Fred Moreau"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/iGFDGJmGUxLOSIamTENFDecJdkA.jpg",
+        "lugar": "Sherbrooke, Quebec, Canada",
+        "nacimiento": "1974-06-08",
+        "nombre": "Maxim Gaudette",
+        "oficio": "Acting",
+        "tmdb": 88592,
+        "wikidata": "Q3302455"
+      },
+      "fecha": "2026-11-20"
+    },
     "8950": {
       "datos": {
         "bio": {
@@ -47319,6 +50315,58 @@
         "wikidata": "Q448475"
       },
       "fecha": "2026-11-19"
+    },
+    "912": {
+      "datos": {
+        "bio": {
+          "en": "​From Wikipedia, the free encyclopedia Larry Ferguson is an American screenwriter and film director. As a screenwriter, his film credits include Highlander, Beverly Hills Cop II, The Hunt for Red October and Alien 3."
+        },
+        "conocida": [
+          [
+            "Alien III",
+            1992,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "La caza del Octubre Rojo",
+            1990,
+            "pelicula",
+            "Chief of the Boat (USS Dallas)"
+          ],
+          [
+            "El último gran héroe",
+            1993,
+            "pelicula",
+            "Self"
+          ],
+          [
+            "Los inmortales",
+            1986,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Superdetective en Hollywood II",
+            1987,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Al límite del riesgo",
+            1996,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/yayNcvBk09eaRDwAsHoDU69OF1L.jpg",
+        "lugar": "Madison, Illinois",
+        "nombre": "Larry Ferguson",
+        "oficio": "Writing",
+        "tmdb": 912,
+        "wikidata": "Q3218046"
+      },
+      "fecha": "2026-11-20"
     },
     "92572": {
       "datos": {
@@ -47892,6 +50940,56 @@
       },
       "fecha": "2026-11-19"
     },
+    "942619": {
+      "datos": {
+        "conocida": [
+          [
+            "Escape Room: La película",
+            2022,
+            "pelicula",
+            ""
+          ],
+          [
+            "Cher Amí",
+            2009,
+            "pelicula",
+            "Chevalier (voice)"
+          ],
+          [
+            "El método Grönholm",
+            2015,
+            "pelicula",
+            "Ferran Augé"
+          ],
+          [
+            "El minuto heróico: Yo también dejé el Opus Dei",
+            2025,
+            "serie",
+            "Voz en off (voice)"
+          ],
+          [
+            "El Pianista",
+            1998,
+            "pelicula",
+            "Toni Fisas"
+          ],
+          [
+            "Gimlet",
+            1995,
+            "pelicula",
+            "Policia 2"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/audN7D8wL67Zpm1JWav9eCejgyJ.jpg",
+        "lugar": "Sabadell, Barcelona, Cataluña, España",
+        "nacimiento": "1959-07-12",
+        "nombre": "Jordi Boixaderas",
+        "oficio": "Acting",
+        "tmdb": 942619,
+        "wikidata": "Q9012655"
+      },
+      "fecha": "2026-11-20"
+    },
     "944099": {
       "datos": {
         "bio": {
@@ -48366,6 +51464,87 @@
         "wikidata": "Q22926984"
       },
       "fecha": "2026-11-19"
+    },
+    "970213": {
+      "datos": {
+        "conocida": [
+          [
+            "La llegada",
+            2016,
+            "pelicula",
+            "African Representative"
+          ],
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Abou Tarek"
+          ],
+          [
+            "Diego Star",
+            2013,
+            "pelicula",
+            "Mohamed"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/pT72K2CqBelPtSVelkRci21HctE.jpg",
+        "nombre": "Abdelghafour Elaaziz",
+        "oficio": "Acting",
+        "tmdb": 970213,
+        "wikidata": "Q100450235"
+      },
+      "fecha": "2026-11-20"
+    },
+    "970214": {
+      "datos": {
+        "bio": {
+          "en": "Valérie Beaugrand-Champagne is known for Incendies (2010), Enemy (2013) and White Dog (2022)."
+        },
+        "conocida": [
+          [
+            "Incendios",
+            2010,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Gabrielle",
+            2013,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Chien blanc",
+            2022,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Amsterdam",
+            2013,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Circo del Sol: LoveSick",
+            2008,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Continental, un film sans fusil",
+            2007,
+            "pelicula",
+            "Screenplay"
+          ]
+        ],
+        "lugar": "Canada ",
+        "nombre": "Valérie Beaugrand-Champagne",
+        "oficio": "Writing",
+        "tmdb": 970214,
+        "wikidata": "Q69673780"
+      },
+      "fecha": "2026-11-20"
     },
     "970990": {
       "datos": {

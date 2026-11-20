@@ -44,10 +44,38 @@
     ],
     "wQ134987241": [],
     "wQ135682979": [],
+    "wQ1383469": [
+      {
+        "anio": 2000,
+        "premio": "Premio Nacional de Teatro de Cataluña",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2002,
+        "premio": "Premios Max",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1996,
+        "premio": "Premio Nacional de Literatura Dramática",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2021,
+        "premio": "Premio Sant Jordi de Novela",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2018,
+        "premio": "Premio Rosalía de Castro en lengua catalana",
+        "tipo": "ganado"
+      }
+    ],
     "wQ139800621": [],
     "wQ140655108": [],
     "wQ141345987": [],
     "wQ14513910": [],
+    "wQ15635172": [],
     "wQ16188785": [],
     "wQ16191306": [],
     "wQ16941923": [
@@ -57,6 +85,7 @@
         "tipo": "ganado"
       }
     ],
+    "wQ16943220": [],
     "wQ17044803": [
       {
         "anio": 2003,
@@ -73,6 +102,7 @@
     "wQ19301130": [],
     "wQ21045503": [],
     "wQ21530376": [],
+    "wQ249475": [],
     "wQ27974958": [],
     "wQ29463765": [],
     "wQ29511160": [],
@@ -194,6 +224,13 @@
       }
     ],
     "wQ63041345": [],
+    "wQ6774168": [
+      {
+        "anio": 2003,
+        "premio": "Premi Butaca a la millor actriu de teatre musical",
+        "tipo": "ganado"
+      }
+    ],
     "wQ6983585": [],
     "wQ8183923": [],
     "wQ9013203": [],
@@ -217,7 +254,8 @@
         "premio": "Premis Dignitat",
         "tipo": "ganado"
       }
-    ]
+    ],
+    "wQ99518233": []
   },
   "abel-folk": {
     "datos": {
@@ -241,6 +279,12 @@
     "nombre": "Abel Folk",
     "v": 3
   },
+  "abian-diaz": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Abián Díaz",
+    "v": 3
+  },
   "abraxas-teatre": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -251,6 +295,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Ada Vilaró",
+    "v": 3
+  },
+  "adriana-garcia": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Adriana Garcia",
     "v": 3
   },
   "agata-casanovas": {
@@ -356,6 +406,12 @@
     "nombre": "Albert Salazar",
     "v": 3
   },
+  "alejandro-lento": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Alejandro Lento",
+    "v": 3
+  },
   "alessio-meloni": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -382,6 +438,12 @@
     "nombre": "Alfred Casas",
     "v": 2
   },
+  "alicia-serrat": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Alícia Serrat",
+    "v": 3
+  },
   "almudena-rodriguez-huertas": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -392,6 +454,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Altre Festival Internacional d'Arts Escèniques",
+    "v": 3
+  },
+  "alvar-rovira": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Àlvar Rovira",
     "v": 3
   },
   "alvaro-lizarrondo": {
@@ -454,6 +522,34 @@
     "nombre": "Andrew Tarbet",
     "v": 2
   },
+  "angel-gonyalons": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Àngel Gonyalons",
+    "v": 3
+  },
+  "angel-llacer": {
+    "datos": {
+      "descripcion": {
+        "ca": "actor i presentador de televisió català",
+        "es": "actor y profesor de arte dramático español"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%80ngel_Ll%C3%A0cer_Pin%C3%B3s.JPG?width=300",
+      "oficios": [
+        "Q10800557",
+        "Q121594",
+        "Q2259451",
+        "Q3387717",
+        "Q33999",
+        "Q947873"
+      ],
+      "wikidata": "Q249475",
+      "wikipedia": "https://es.wikipedia.org/wiki/%C3%80ngel_Ll%C3%A0cer"
+    },
+    "fecha": "2026-11-20",
+    "nombre": "Àngel Llàcer",
+    "v": 3
+  },
   "angels-salinas": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -486,6 +582,18 @@
     "nombre": "Anna Carrasco",
     "v": 2
   },
+  "anna-cruz-magin-contrabaix": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Anna Cruz Magín (contrabaix)",
+    "v": 3
+  },
+  "anna-elefantana": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Anna Elefantana",
+    "v": 3
+  },
   "anna-pascual": {
     "datos": {},
     "fecha": "2026-11-19",
@@ -510,6 +618,18 @@
     "nombre": "Anna Toro",
     "v": 2
   },
+  "antoine-de-saint-exupery": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Antoine de Saint-Exupéry",
+    "v": 3
+  },
+  "ariadna-arnes": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Ariadna Arnés",
+    "v": 3
+  },
   "ariadna-cornella": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -532,6 +652,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Associació Teresa Gubiades",
+    "v": 3
+  },
+  "assumpta-sole": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Assumpta Solé",
     "v": 3
   },
   "at-el-partiqui": {
@@ -558,6 +684,12 @@
     "nombre": "Benjamí Conesa",
     "v": 3
   },
+  "bernat-jansa": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Bernat Jansà",
+    "v": 3
+  },
   "berta-juanet": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -582,10 +714,22 @@
     "nombre": "Biljana Camilloni",
     "v": 3
   },
+  "blai-maner": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Blai Mañer",
+    "v": 3
+  },
   "blood-brothers": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Blood brothers",
+    "v": 3
+  },
+  "borja-calvo": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Borja Calvo",
     "v": 3
   },
   "borja-rabanal": {
@@ -606,6 +750,12 @@
     "nombre": "Cacauet Teatre",
     "v": 2
   },
+  "carles-cuni": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Carles Cuní",
+    "v": 3
+  },
   "carles-martinez": {
     "datos": {},
     "fecha": "2026-11-19",
@@ -622,6 +772,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Carles Pulido",
+    "v": 3
+  },
+  "carles-serras": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Carles Serras",
     "v": 3
   },
   "carlos-cuevas": {
@@ -695,10 +851,22 @@
     "nombre": "Carmen Collado",
     "v": 3
   },
+  "cascai-teatre": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Cascai Teatre",
+    "v": 3
+  },
   "cassandra-projectes-artistics": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Cassandra Projectes Artístics",
+    "v": 3
+  },
+  "cecilia-collaco-bateria": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Cecília Collaço (bateria)",
     "v": 3
   },
   "centro-dramatico-nacional": {
@@ -723,6 +891,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Cia CREART",
+    "v": 3
+  },
+  "cia-la-perla-29": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Cia. La Perla 29",
     "v": 3
   },
   "cia-la-puntual-eugenio-navarro": {
@@ -779,6 +953,12 @@
     "nombre": "Clara Algaba",
     "v": 2
   },
+  "clara-casals": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Clara Casals",
+    "v": 3
+  },
   "clara-fontdevila-distribucio-viuelteatre-com": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -825,6 +1005,12 @@
     "fecha": "2026-11-18",
     "nombre": "Companyia Kali Teatre",
     "v": 2
+  },
+  "companyia-morts-de-gana": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Companyia Morts de Gana",
+    "v": 3
   },
   "cris-vidal": {
     "datos": {},
@@ -948,6 +1134,12 @@
     "nombre": "David Pintó",
     "v": 3
   },
+  "david-ruano": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "David Ruano",
+    "v": 3
+  },
   "david-selvas": {
     "datos": {
       "descripcion": {
@@ -971,6 +1163,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Descartable Teatre",
+    "v": 3
+  },
+  "didac-salabert": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Didac Salabert",
     "v": 3
   },
   "dolo-beltran": {
@@ -1051,6 +1249,12 @@
     "nombre": "El Maldà",
     "v": 2
   },
+  "el-petit-princep": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "El Petit Príncep",
+    "v": 3
+  },
   "elias-ashtari": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1073,6 +1277,18 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Emmanuel Manzano",
+    "v": 3
+  },
+  "ester-bartomeu": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Ester Bartomeu",
+    "v": 3
+  },
+  "ester-bartomeu-floreta-dramaturgia-alicia-serrat": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Ester Bartomeu Floreta Dramatúrgia: Alícia Serrat",
     "v": 3
   },
   "esther-lopez": {
@@ -1201,10 +1417,22 @@
     "nombre": "Fred Hocké",
     "v": 3
   },
+  "freddie-salas": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Freddie Salas",
+    "v": 3
+  },
   "gabriel-cordoba": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Gabriel Córdoba",
+    "v": 3
+  },
+  "gara-roda": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Gara Roda",
     "v": 3
   },
   "gemma-iglesias": {
@@ -1231,6 +1459,12 @@
     "nombre": "Gemma Vilallonga",
     "v": 2
   },
+  "gerard-canadell": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Gerard Canadell",
+    "v": 3
+  },
   "gerard-franch": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1254,6 +1488,12 @@
     "fecha": "2026-11-18",
     "nombre": "Grup Gespa",
     "v": 2
+  },
+  "grup-teatre": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Grup Teatre",
+    "v": 3
   },
   "guillaume-toussaint-fromentin": {
     "datos": {},
@@ -1333,6 +1573,12 @@
     "nombre": "Ion Iraizoz",
     "v": 3
   },
+  "irene-ferrer-panicot": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Irene Ferrer Panicot",
+    "v": 3
+  },
   "isa-mateu": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1380,6 +1626,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Ivanna Gómez",
+    "v": 3
+  },
+  "jana-gallifa-vasquez-piano": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Jana Gallifa Vàsquez (piano)",
     "v": 3
   },
   "jaume-casals": {
@@ -1452,6 +1704,12 @@
     "nombre": "Jesús Cimarro",
     "v": 3
   },
+  "jj-corrius": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "JJ Corrius",
+    "v": 3
+  },
   "joan-carreras": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1468,6 +1726,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Joan Sellent",
+    "v": 3
+  },
+  "joan-vazquez": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Joan Vázquez",
     "v": 3
   },
   "joan-yago": {
@@ -1508,10 +1772,32 @@
     "nombre": "Joana Rosselló",
     "v": 3
   },
+  "joaquin-caserza": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Joaquín Caserza",
+    "v": 3
+  },
   "jordi-ballbe": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Jordi Ballbé",
+    "v": 3
+  },
+  "jordi-banacolocha": {
+    "datos": {
+      "descripcion": {
+        "ca": "actor català"
+      },
+      "foto": null,
+      "oficios": [
+        "Q33999"
+      ],
+      "wikidata": "Q99518233",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Jordi_Banacolocha"
+    },
+    "fecha": "2026-11-20",
+    "nombre": "JORDI BANACOLOCHA",
     "v": 3
   },
   "jordi-cornudella": {
@@ -1556,6 +1842,12 @@
     "nombre": "Jorge Santini",
     "v": 2
   },
+  "jorquera-pianos": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Jorquera Pianos",
+    "v": 3
+  },
   "jose-novoa": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1578,6 +1870,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "JOSEP MARIA MESTRES",
+    "v": 3
+  },
+  "juanjo-balsera": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Juanjo Balsera",
     "v": 3
   },
   "julia-truyol": {
@@ -1623,6 +1921,12 @@
     "nombre": "Julie Tenret Sicaire Durieux",
     "v": 2
   },
+  "kiko-planas": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "KIKO PLANAS",
+    "v": 3
+  },
   "la-badabadoc": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1641,6 +1945,12 @@
     "nombre": "La Central de Circ",
     "v": 3
   },
+  "la-petita-brownie": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "La Petita Brownie",
+    "v": 3
+  },
   "la-turbo": {
     "datos": {},
     "fecha": "2026-11-19",
@@ -1651,6 +1961,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Laura Clos 'Closca'",
+    "v": 3
+  },
+  "laura-domenech-vila": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Laura Domènech Vila",
     "v": 3
   },
   "laura-garcia": {
@@ -1681,6 +1997,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Laurent Baffie",
+    "v": 3
+  },
+  "leos-quintet": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Leos Quintet",
     "v": 3
   },
   "les-heyvan": {
@@ -1723,6 +2045,18 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Lluís Marquès",
+    "v": 3
+  },
+  "lluis-soler": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "LLUÍS SOLER",
+    "v": 3
+  },
+  "lola-penaranda-saxofon": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Lola Peñaranda (saxofon)",
     "v": 3
   },
   "lolita-flores": {
@@ -1793,6 +2127,12 @@
     "nombre": "Magrana Arts",
     "v": 3
   },
+  "maite-pijuan": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Maite Pijuan",
+    "v": 3
+  },
   "mamen-duch": {
     "datos": {
       "descripcion": {
@@ -1811,6 +2151,12 @@
     "nombre": "Mamen Duch",
     "v": 3
   },
+  "manu-guix": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Manu Guix",
+    "v": 3
+  },
   "mar-colas": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1823,10 +2169,48 @@
     "nombre": "Mar Solà",
     "v": 2
   },
+  "marc-artigau": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Marc Artigau",
+    "v": 3
+  },
+  "marc-gomez": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Marc Gómez",
+    "v": 3
+  },
+  "marc-pociello": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Marc Pociello",
+    "v": 3
+  },
   "marc-rius": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Marc Rius",
+    "v": 3
+  },
+  "marc-rosich": {
+    "datos": {
+      "descripcion": {
+        "ca": "dramaturg, escriptor i traductor català",
+        "es": "director de teatro catalán"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Marc_Rosich.jpg?width=300",
+      "oficios": [
+        "Q214917",
+        "Q333634",
+        "Q3387717",
+        "Q36180"
+      ],
+      "wikidata": "Q16943220",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Marc_Rosich"
+    },
+    "fecha": "2026-11-20",
+    "nombre": "Marc Rosich",
     "v": 3
   },
   "marc-soler": {
@@ -1839,6 +2223,18 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Marc Udina",
+    "v": 3
+  },
+  "marcel-asso": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Marcel Asso",
+    "v": 3
+  },
+  "marcel-tomas": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Marcel Tomàs",
     "v": 3
   },
   "marcelli-bayer": {
@@ -1887,10 +2283,22 @@
     "nombre": "Mario Andrés Gómez",
     "v": 2
   },
+  "mariona-castillo": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Mariona Castillo",
+    "v": 3
+  },
   "mariona-castillo-sra-johnstone": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Mariona Castillo - Sra. Johnstone",
+    "v": 3
+  },
+  "mariona-escoda": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Mariona Escoda",
     "v": 3
   },
   "mariona-sagarra": {
@@ -1915,6 +2323,24 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Marta Pérez",
+    "v": 3
+  },
+  "marta-ribera": {
+    "datos": {
+      "descripcion": {
+        "ca": "actriu catalana",
+        "es": "actriz española"
+      },
+      "foto": null,
+      "oficios": [
+        "Q177220",
+        "Q33999"
+      ],
+      "wikidata": "Q6774168",
+      "wikipedia": "https://es.wikipedia.org/wiki/Marta_Ribera"
+    },
+    "fecha": "2026-11-20",
+    "nombre": "Marta Ribera",
     "v": 3
   },
   "marti-guixa": {
@@ -1945,6 +2371,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Mauro Molina",
+    "v": 3
+  },
+  "mediterranea-gira": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Mediterránea Gira",
     "v": 3
   },
   "menai-renobell": {
@@ -2058,6 +2490,18 @@
     "nombre": "Mònica Moreira",
     "v": 2
   },
+  "montse-rodriguez": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Montse Rodríguez",
+    "v": 3
+  },
+  "montserrat-colome": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Montserrat Colomé",
+    "v": 3
+  },
   "mpc-management": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -2080,6 +2524,12 @@
     },
     "fecha": "2026-11-18",
     "nombre": "Muntsa Alcañiz",
+    "v": 3
+  },
+  "nadina-campas": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Nadina Campàs",
     "v": 3
   },
   "naim-thomas": {
@@ -2201,6 +2651,12 @@
     "nombre": "Odeón Théâtre de l'Europe",
     "v": 3
   },
+  "odo-cabot": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Odo Cabot",
+    "v": 3
+  },
   "oriol-barber": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -2261,11 +2717,29 @@
     "nombre": "Pau Matas",
     "v": 2
   },
+  "pau-oliver": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Pau Oliver",
+    "v": 3
+  },
+  "paula-costas": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Paula Costas",
+    "v": 3
+  },
   "paula-vicente": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Paula Vicente",
     "v": 2
+  },
+  "paula-vilardell": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Paula Vilardell",
+    "v": 3
   },
   "pedro-chalkho": {
     "datos": {},
@@ -2283,6 +2757,24 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Pentación Espectáculos",
+    "v": 3
+  },
+  "pep-cruz": {
+    "datos": {
+      "descripcion": {
+        "ca": "actor i director de teatre i televisió català"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Autoinculpacions_191024_39530_dc_%2848974313373%29_%28cropped%29.jpg?width=300",
+      "oficios": [
+        "Q3387717",
+        "Q33999",
+        "Q81096"
+      ],
+      "wikidata": "Q15635172",
+      "wikipedia": "https://es.wikipedia.org/wiki/Pep_Cruz"
+    },
+    "fecha": "2026-11-20",
+    "nombre": "Pep Cruz",
     "v": 3
   },
   "pepe-colubi": {
@@ -2303,17 +2795,47 @@
     "nombre": "Pere Elies",
     "v": 2
   },
+  "pilar-capellades": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Pilar Capellades",
+    "v": 3
+  },
   "pilar-grimalt": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Pilar Grimalt",
     "v": 2
   },
+  "plaudite-teatre": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Plàudite Teatre",
+    "v": 3
+  },
+  "pol-blancafort": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Pol Blancafort",
+    "v": 3
+  },
   "pol-clusella": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Pol Clusella",
     "v": 2
+  },
+  "pol-juidia": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Pol Juidia",
+    "v": 3
+  },
+  "queralt-albinyana": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Queralt Albinyana",
+    "v": 3
   },
   "queralt-borja": {
     "datos": {},
@@ -2387,6 +2909,12 @@
     },
     "fecha": "2026-11-18",
     "nombre": "Raquel Loscos",
+    "v": 3
+  },
+  "raquel-ramos": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Raquel Ramos",
     "v": 3
   },
   "raul-cimas": {
@@ -2516,6 +3044,36 @@
     "nombre": "Sebastià Brosa",
     "v": 3
   },
+  "sergi-belbel": {
+    "datos": {
+      "descripcion": {
+        "ca": "dramaturg i director teatral català",
+        "es": "dramaturgo español"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergi_Belbel.JPG?width=300",
+      "oficios": [
+        "Q13418253",
+        "Q214917",
+        "Q28389",
+        "Q333634",
+        "Q3387717",
+        "Q3455803",
+        "Q36180",
+        "Q39020112"
+      ],
+      "wikidata": "Q1383469",
+      "wikipedia": "https://es.wikipedia.org/wiki/Sergi_Belbel"
+    },
+    "fecha": "2026-11-20",
+    "nombre": "Sergi Belbel",
+    "v": 3
+  },
+  "sergi-cuenca": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Sergi Cuenca",
+    "v": 3
+  },
   "sergi-flores": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -2538,6 +3096,18 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Sílvia Delagneau",
+    "v": 3
+  },
+  "susana-lloret": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Susana Lloret",
+    "v": 3
+  },
+  "susanna-domenech": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Susanna Domènech",
     "v": 3
   },
   "t-de-teatre": {
@@ -2588,10 +3158,22 @@
     "nombre": "Thomas Dechaufour",
     "v": 2
   },
+  "toni-escribano": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Toni Escribano",
+    "v": 3
+  },
   "toni-santos": {
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Toni Santos",
+    "v": 3
+  },
+  "toni-vinals": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Toni Viñals",
     "v": 3
   },
   "uriel-ireland": {
@@ -2671,6 +3253,12 @@
     "nombre": "Willy Russell",
     "v": 3
   },
+  "xaro-campo": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Xaro Campo",
+    "v": 3
+  },
   "xavi-clapes": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -2693,6 +3281,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Xavi Francès",
+    "v": 3
+  },
+  "xavi-navarro": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Xavi Navarro",
     "v": 3
   },
   "xavier-bobes": {
@@ -2718,6 +3312,12 @@
     "fecha": "2026-11-18",
     "nombre": "Xavier Ricart",
     "v": 2
+  },
+  "xavier-vila-bover": {
+    "datos": {},
+    "fecha": "2026-11-20",
+    "nombre": "Xavier Vila Bover",
+    "v": 3
   },
   "xesca-salva": {
     "datos": {},

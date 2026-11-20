@@ -1,12 +1,18 @@
 {
   "cines_con_horarios": [
+    "Cinemes Verdi",
+    "Mooby Arenas",
+    "Mooby Aribau",
+    "Mooby Balmes",
+    "Mooby Bosque",
+    "Mooby Glòries",
+    "Mooby Gran Sarrià",
     "Renoir Floridablanca"
   ],
   "cines_sin_horarios": {
     "Ateneu Barcelonès": "sin web",
     "Cinema Dididado": "sin horarios legibles en su web",
-    "Cinemes Girona": "sin horarios legibles en su web",
-    "Cinemes Verdi": "sin horarios legibles en su web",
+    "Cinemes Girona": "elqueque",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
     "Cinesa SOM Multiespai": "su web no permite programas (robots.txt)",
@@ -17,19 +23,13 @@
     "Fàbrica de Creació Ateneu Popular 9 Barris": "sin horarios legibles en su web",
     "Institut Français de Barcelone": "sin horarios legibles en su web",
     "Institut Italià de Cultura de Barcelona": "sin horarios legibles en su web",
-    "Mooby Arenas": "sin horarios legibles en su web",
-    "Mooby Aribau": "sin horarios legibles en su web",
-    "Mooby Balmes": "sin horarios legibles en su web",
-    "Mooby Bosque": "sin horarios legibles en su web",
-    "Mooby Glòries": "sin horarios legibles en su web",
-    "Mooby Gran Sarrià": "sin horarios legibles en su web",
     "Recursos d'Animació Intercultural RAI": "sin horarios legibles en su web",
-    "Verdi Park": "sin horarios legibles en su web",
+    "Verdi Park": "elqueque",
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 89,
-  "fecha": "2026-11-19",
+  "con_actividades": 90,
+  "fecha": "2026-11-20",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
@@ -41,11 +41,11 @@
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 49
+      "sin_actividades": 48
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 72,
+  "sin_actividades": 71,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -606,22 +606,6 @@
       "lon": 2.184884438262639,
       "nombre": "Casa de Cuenca de Barcelona",
       "numero": "62",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "Sant Andreu",
-      "calle": "C Ramon Batlle",
-      "clave": "via274709-2",
-      "codigo_postal": "08030",
-      "distrito": "Sant Andreu",
-      "id": "92086010369",
-      "lat": 41.431748352606995,
-      "lon": 2.1896711822825803,
-      "nombre": "Centre Cultural  Els Catalanistes",
-      "numero": "2",
       "tipo": [
         "teatro"
       ]

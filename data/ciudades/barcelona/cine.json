@@ -3,142 +3,39 @@
   "atribucion": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
   "caducadas": [
     {
-      "anio": 2026,
-      "caducado": "2026-11-19",
-      "cartel": "https://image.tmdb.org/t/p/w500/eS83uVLN6OAH5ZLrUPyoWDVXI2b.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oimdtYU6dkiWihL3kxx5KOHOq6E.jpg",
-          "id": 1500339,
-          "nombre": "Ervin Han"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/cWTCe2PW5QAwheyOqfIGMZ1QVWD.jpg",
-          "id": 228709,
-          "nombre": "Raúl García",
-          "premios": [],
-          "wikidata": "Q28858393"
-        }
-      ],
-      "duracion": 114,
-      "estreno": "2026-09-17",
-      "fondo": "https://image.tmdb.org/t/p/w1280/cM880xhKvr8vp7nfacFi8g6wWkG.jpg",
-      "generos": [
-        "Animación",
-        "Drama",
-        "Música"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oimdtYU6dkiWihL3kxx5KOHOq6E.jpg",
-          "id": 1500339,
-          "nombre": "Ervin Han"
-        },
-        {
-          "id": 4046167,
-          "nombre": "Jordan Katherine See"
-        }
-      ],
-      "id": "tmdb-748681",
-      "idioma_original": "en",
-      "imdb": "tt30388264",
-      "musica": [
-        {
-          "id": 4922820,
-          "nombre": "Isabel Latorre"
-        },
-        {
-          "id": 3114513,
-          "nombre": "Ricky Ho"
-        }
-      ],
-      "paises": [
-        "SG",
-        "ES",
-        "IT",
-        "CO"
-      ],
-      "premios": [
-        {
-          "anio": 2026,
-          "premio": "Cristall d'Annecy al llargmetratge",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 2026,
-          "premio": "Premi Asia Pacific Screen a la millor pel·lícula d'animació",
-          "tipo": "ganado"
-        }
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/nxPhGMhjlHt9J1Iu33z2YTsSWxj.jpg",
-          "id": 1218908,
-          "nombre": "Tan Kheng Hua",
-          "papel": "Fei (voice)",
-          "premios": [],
-          "wikidata": "Q7682072"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/HaSwo4Yp8x1VtYU54UoeDvUfG4.jpg",
-          "id": 1736757,
-          "nombre": "田邊和也",
-          "papel": "Takeshi Inoue (voice)",
-          "premios": [],
-          "wikidata": "Q30929628"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vxM7U4FhzcZqAW6Sx5Lg1iehXYS.jpg",
-          "id": 1211862,
-          "nombre": "Adrian Pang",
-          "papel": "Lim Bo Seng (voice)",
-          "premios": [
-            {
-              "anio": 2021,
-              "premio": "Singapuresos Més Influents",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q4685264"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/53YYrofxpMInmYhUXjRuw0umQGq.jpg",
-          "id": 2845902,
-          "nombre": "Ayden Sng",
-          "papel": "Kai (voice)",
-          "premios": [],
-          "wikidata": "Q108830043"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/1lACQepfukuZ0l6FnUpMO03WxcJ.jpg",
-          "id": 944099,
-          "nombre": "Enrique Arce",
-          "papel": "Hugo (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vCjTRlssuf9FqbaSQ6TUkM0uct.jpg",
-          "id": 1874097,
-          "nombre": "Fang Rong Foo",
-          "papel": "Fei (young) (voice)"
-        }
-      ],
-      "sinopsis": {
-        "ca": "La violinista és una pel·lícula dramàtica d'època d'animació del 2026. La pel·lícula abasta huit dècades de la història de Singapur, seguint dos amics de la infància amb talent musical al Singapur colonial, les vides dels quals es veuen capgirades per la Segona Guerra Mundial i la posterior ocupació japonesa.",
-        "en": "It is Singapore in the late 1930s. Kai and Fei are childhood friends and aspiring violinists. When Japan invades Malaya in 1941, Kai chooses to forgo his music career to join the anti-Japanese forces. After the war Kai goes missing. Determined to find him, Fei performs all over Southeast Asia, all the while seeking any news of Kai. Yet, as time fades, Fei has to decide if she must find her own music to define the remaining years of her life.",
-        "es": "Nos encontramos en Singapur, a finales de la década de 1930. Kai y Fei son amigos de la infancia y aspirantes a violinistas. Cuando Japón invade Malaya en 1941, Kai decide renunciar a su carrera musical para unirse a las fuerzas antijaponesas. Tras la guerra, Kai desaparece. Decidida a encontrarlo, Fei actúa por todo el Sudeste Asiático mientras busca cualquier noticia sobre él. Sin embargo, a medida que pasa el tiempo, Fei debe decidir si ha de encontrar su propia música para definir los años que le quedan de vida."
-      },
-      "titulo": "El violinista",
-      "titulo_ca": "La Violinista",
-      "titulo_original": "The Violinist",
-      "tmdb": 748681,
-      "trailer": "38fqIdZ4aZM"
-    },
-    {
       "agenda": "open_data_bcn:99400760845",
       "caducado": "2026-11-19",
       "gratis": true,
       "id": "p-t-deep-listening-la-historia-de-pauline-oliveros",
       "titulo": "Deep listening: La història de Pauline Oliveros"
+    },
+    {
+      "agenda": "open_data_bcn:99400761789",
+      "caducado": "2026-11-19",
+      "gratis": true,
+      "id": "p-t-l-oliva-i-el-terratremol-invisible",
+      "titulo": "L'Oliva i el terratrèmol invisible"
+    },
+    {
+      "agenda": "open_data_bcn:99400762080",
+      "caducado": "2026-11-19",
+      "gratis": true,
+      "id": "p-t-petits-moments-magics",
+      "sinopsis": {
+        "ca": "Cinema - curtmetratges, 45', 2022-2024, Doblat al català\nPetits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i a mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa\nLloc: Sala La Pau\nEdat recomanada: a partir de 4 anys"
+      },
+      "titulo": "Petits moments màgics"
+    },
+    {
+      "agenda": "open_data_bcn:99400788894",
+      "caducado": "2026-11-19",
+      "cartel": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/si_decido_quedarme.760x428.92634bfb.jpg",
+      "gratis": true,
+      "id": "p-t-xiv-cicle-de-cinema-rec-i-accio-projeccio-si-decido-quedar",
+      "sinopsis": {
+        "ca": "\"Si decido quedarme\" (títol original en anglès:\nIf I Stay) és una pel·lícula de drama romàntic adolescent estatunidenca del 2014 dirigida per R. J. Cutler i basada en la novel·la homònima del 2009 de Gayle Forman.\nLa Mia Hall es pensava que la decisió més difícil que hauria d'afrontar a la vida seria si fer realitat els seus somnis musicals al prestigiós conservatori Juilliard de Nova York o seguir un altre camí amb el seu xicot Adam, cantant del grup Willamette Stone. Però el que hauria d'haver estat un simple trajecte amb cotxe amb la seva família canvia en un instant, tenen un terrible accident i, de cop i volta, la seva vida penja d'un fil. Atrapada entre la vida i la mort durant un dia molt revelador, la Mia haurà de treure les forces d'on sigui i prendre una decisió transcendental."
+      },
+      "titulo": "XIV Cicle de Cinema \"REC i ACCIÓ\". Projecció \"Si decido quedarme"
     },
     {
       "agenda": "open_data_bcn:99400766270",
@@ -361,34 +258,6 @@
       "titulo_original": "Esta soledad",
       "tmdb": 1547311,
       "trailer": "Z73fH3guhYQ"
-    },
-    {
-      "agenda": "open_data_bcn:99400761789",
-      "caducado": "2026-11-19",
-      "gratis": true,
-      "id": "p-t-l-oliva-i-el-terratremol-invisible",
-      "titulo": "L'Oliva i el terratrèmol invisible"
-    },
-    {
-      "agenda": "open_data_bcn:99400762080",
-      "caducado": "2026-11-19",
-      "gratis": true,
-      "id": "p-t-petits-moments-magics",
-      "sinopsis": {
-        "ca": "Cinema - curtmetratges, 45', 2022-2024, Doblat al català\nPetits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i a mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa\nLloc: Sala La Pau\nEdat recomanada: a partir de 4 anys"
-      },
-      "titulo": "Petits moments màgics"
-    },
-    {
-      "agenda": "open_data_bcn:99400788894",
-      "caducado": "2026-11-19",
-      "cartel": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/si_decido_quedarme.760x428.92634bfb.jpg",
-      "gratis": true,
-      "id": "p-t-xiv-cicle-de-cinema-rec-i-accio-projeccio-si-decido-quedar",
-      "sinopsis": {
-        "ca": "\"Si decido quedarme\" (títol original en anglès:\nIf I Stay) és una pel·lícula de drama romàntic adolescent estatunidenca del 2014 dirigida per R. J. Cutler i basada en la novel·la homònima del 2009 de Gayle Forman.\nLa Mia Hall es pensava que la decisió més difícil que hauria d'afrontar a la vida seria si fer realitat els seus somnis musicals al prestigiós conservatori Juilliard de Nova York o seguir un altre camí amb el seu xicot Adam, cantant del grup Willamette Stone. Però el que hauria d'haver estat un simple trajecte amb cotxe amb la seva família canvia en un instant, tenen un terrible accident i, de cop i volta, la seva vida penja d'un fil. Atrapada entre la vida i la mort durant un dia molt revelador, la Mia haurà de treure les forces d'on sigui i prendre una decisió transcendental."
-      },
-      "titulo": "XIV Cicle de Cinema \"REC i ACCIÓ\". Projecció \"Si decido quedarme"
     },
     {
       "anio": 2019,
@@ -1250,6 +1119,137 @@
       "titulo_original": "Once Upon a Time in... Hollywood",
       "tmdb": 466272,
       "trailer": "_mUZobwljrc"
+    },
+    {
+      "anio": 2026,
+      "caducado": "2026-11-19",
+      "cartel": "https://image.tmdb.org/t/p/w500/eS83uVLN6OAH5ZLrUPyoWDVXI2b.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oimdtYU6dkiWihL3kxx5KOHOq6E.jpg",
+          "id": 1500339,
+          "nombre": "Ervin Han"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cWTCe2PW5QAwheyOqfIGMZ1QVWD.jpg",
+          "id": 228709,
+          "nombre": "Raúl García",
+          "premios": [],
+          "wikidata": "Q28858393"
+        }
+      ],
+      "duracion": 114,
+      "estreno": "2026-09-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/cM880xhKvr8vp7nfacFi8g6wWkG.jpg",
+      "generos": [
+        "Animación",
+        "Drama",
+        "Música"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oimdtYU6dkiWihL3kxx5KOHOq6E.jpg",
+          "id": 1500339,
+          "nombre": "Ervin Han"
+        },
+        {
+          "id": 4046167,
+          "nombre": "Jordan Katherine See"
+        }
+      ],
+      "id": "tmdb-748681",
+      "idioma_original": "en",
+      "imdb": "tt30388264",
+      "musica": [
+        {
+          "id": 4922820,
+          "nombre": "Isabel Latorre"
+        },
+        {
+          "id": 3114513,
+          "nombre": "Ricky Ho"
+        }
+      ],
+      "paises": [
+        "SG",
+        "ES",
+        "IT",
+        "CO"
+      ],
+      "premios": [
+        {
+          "anio": 2026,
+          "premio": "Cristall d'Annecy al llargmetratge",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 2026,
+          "premio": "Premi Asia Pacific Screen a la millor pel·lícula d'animació",
+          "tipo": "ganado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nxPhGMhjlHt9J1Iu33z2YTsSWxj.jpg",
+          "id": 1218908,
+          "nombre": "Tan Kheng Hua",
+          "papel": "Fei (voice)",
+          "premios": [],
+          "wikidata": "Q7682072"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/HaSwo4Yp8x1VtYU54UoeDvUfG4.jpg",
+          "id": 1736757,
+          "nombre": "田邊和也",
+          "papel": "Takeshi Inoue (voice)",
+          "premios": [],
+          "wikidata": "Q30929628"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vxM7U4FhzcZqAW6Sx5Lg1iehXYS.jpg",
+          "id": 1211862,
+          "nombre": "Adrian Pang",
+          "papel": "Lim Bo Seng (voice)",
+          "premios": [
+            {
+              "anio": 2021,
+              "premio": "Singapuresos Més Influents",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q4685264"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/53YYrofxpMInmYhUXjRuw0umQGq.jpg",
+          "id": 2845902,
+          "nombre": "Ayden Sng",
+          "papel": "Kai (voice)",
+          "premios": [],
+          "wikidata": "Q108830043"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1lACQepfukuZ0l6FnUpMO03WxcJ.jpg",
+          "id": 944099,
+          "nombre": "Enrique Arce",
+          "papel": "Hugo (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vCjTRlssuf9FqbaSQ6TUkM0uct.jpg",
+          "id": 1874097,
+          "nombre": "Fang Rong Foo",
+          "papel": "Fei (young) (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La violinista és una pel·lícula dramàtica d'època d'animació del 2026. La pel·lícula abasta huit dècades de la història de Singapur, seguint dos amics de la infància amb talent musical al Singapur colonial, les vides dels quals es veuen capgirades per la Segona Guerra Mundial i la posterior ocupació japonesa.",
+        "en": "It is Singapore in the late 1930s. Kai and Fei are childhood friends and aspiring violinists. When Japan invades Malaya in 1941, Kai chooses to forgo his music career to join the anti-Japanese forces. After the war Kai goes missing. Determined to find him, Fei performs all over Southeast Asia, all the while seeking any news of Kai. Yet, as time fades, Fei has to decide if she must find her own music to define the remaining years of her life.",
+        "es": "Nos encontramos en Singapur, a finales de la década de 1930. Kai y Fei son amigos de la infancia y aspirantes a violinistas. Cuando Japón invade Malaya en 1941, Kai decide renunciar a su carrera musical para unirse a las fuerzas antijaponesas. Tras la guerra, Kai desaparece. Decidida a encontrarlo, Fei actúa por todo el Sudeste Asiático mientras busca cualquier noticia sobre él. Sin embargo, a medida que pasa el tiempo, Fei debe decidir si ha de encontrar su propia música para definir los años que le quedan de vida."
+      },
+      "titulo": "El violinista",
+      "titulo_ca": "La Violinista",
+      "titulo_original": "The Violinist",
+      "tmdb": 748681,
+      "trailer": "38fqIdZ4aZM"
     },
     {
       "agenda": "open_data_bcn:99400788850",
@@ -3541,6 +3541,16 @@
           1
         ],
         [
+          "75990017485",
+          "2026-11-20",
+          "21:20",
+          "VOSE",
+          "Sala 04",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70206&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
           "75990131879",
           "2026-11-20",
           "21:20",
@@ -3741,6 +3751,16 @@
           1
         ],
         [
+          "99400331613",
+          "2026-11-21",
+          "18:30",
+          "VOSE",
+          "Sala 11",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189944&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
           "99400267342",
           "2026-11-21",
           "18:35",
@@ -3797,6 +3817,16 @@
           "VOSE",
           "Sala 08",
           "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194515&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-21",
+          "20:00",
+          "Castellano",
+          "Sala 07",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194702&language=esp&theatre=24",
           null,
           1
         ],
@@ -5636,16 +5666,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-20",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222820&language=ESP",
-          null,
-          1
-        ],
-        [
           "95122123236",
           "2026-11-20",
           "15:30",
@@ -5862,6 +5882,16 @@
           "Castellano",
           "Sala 06",
           "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194496&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-20",
+          "21:30",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70169&language=esp&theatre=28",
           null,
           1
         ],
@@ -8014,22 +8044,22 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-20",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222821&language=ESP",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-20",
           "15:50",
           "VOSE",
           "Sala 5",
           "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/wild-horse-nine/1097231/",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-20",
+          "15:50",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70170&language=esp&theatre=28",
           null,
           1
         ],
@@ -10071,6 +10101,16 @@
           1
         ],
         [
+          "75990017485",
+          "2026-11-20",
+          "18:15",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70163&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
           "75990131879",
           "2026-11-20",
           "18:30",
@@ -10297,6 +10337,16 @@
           "Castellano",
           "Sala 04",
           "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122538&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-21",
+          "20:45",
+          "Castellano",
+          "Sala 01",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194703&language=esp&theatre=24",
           null,
           1
         ],
@@ -11590,16 +11640,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-20",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222819&language=ESP",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-20",
           "15:50",
@@ -11916,16 +11956,6 @@
           "Castellano",
           "Sala 06",
           "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142422&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-21",
-          "22:00",
-          "Castellano",
-          "Sala 07",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118893&language=esp&theatre=26",
           null,
           1
         ],
@@ -16746,16 +16776,6 @@
           1
         ],
         [
-          "99217141611",
-          "2026-11-21",
-          "17:55",
-          "Castellano",
-          "Sala 07",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118895&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
           "99400331613",
           "2026-11-21",
           "18:40",
@@ -16772,16 +16792,6 @@
           "VOSE",
           "Sala 02",
           "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142432&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-21",
-          "20:00",
-          "VOSE",
-          "Sala 07",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118896&language=esp&theatre=26",
           null,
           1
         ],
@@ -19463,6 +19473,16 @@
           1
         ],
         [
+          "99400331613",
+          "2026-11-21",
+          "21:40",
+          "VOSE",
+          "Sala 11",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189770&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
           "75990131879",
           "2026-11-22",
           "16:00",
@@ -21360,6 +21380,26 @@
           "VOSE",
           null,
           "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222561&language=ESP",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-21",
+          "15:50",
+          "Castellano",
+          "Sala 06",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194506&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-21",
+          "21:00",
+          "VOSE",
+          "Sala 12",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189771&language=esp&theatre=29",
           null,
           1
         ],

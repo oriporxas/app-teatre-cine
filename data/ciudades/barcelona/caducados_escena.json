@@ -1,4 +1,71 @@
 {
+  "open_data_bcn:99400699115": {
+    "barrio": "Sant Pere, Santa Caterina i la Ribera",
+    "caducado": "2026-11-19",
+    "compra": "https://www.salaarsteatre.com",
+    "compra_tipo": "sala",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Bernat convida a la seva amant a passar el cap de setmana amb ell a la casa del camp, aprofitant que la seva dona va a visitar a la seva mare. Tot ho té sota control, fins i tot contracte una cuinera perquè no els falti de res. Però les coses no li surten com ell s'espera i la vetllada romàntica acabarà sent una nit molt moguda on tots els assistents hauran de representar un paper per no ser descoberts! No recomanada per menors de 15 anys.",
+      "es": "Bernat invita a su amante a pasar el fin de semana con él en la casa de campo, aprovechando que su mujer va a visitar a su madre. Lo tiene todo bajo control, incluso contrata a una cocinera para que no les falte de nada. Pero las cosas no le salen como él espera y la velada romántica acabará siendo una noche muy movida donde todos los asistentes tendrán que representar un papel para no ser descubiertos. No recomendada para menores de 15 años."
+    },
+    "direccion": "C Jonqueres 15",
+    "equipo": [
+      [
+        "bernat",
+        "Albert Pueyo"
+      ],
+      [
+        "josefina",
+        "Mònica Moreira"
+      ],
+      [
+        "robert",
+        "Jordi Fornieles"
+      ],
+      [
+        "susanna",
+        "Marta Fons"
+      ],
+      [
+        "susi",
+        "Gemma Iglesias"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-no-et-vesteixis-per-sopar_99400699115.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400699115",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/noetvisteixispersopar.760x428.88a35734.jpg",
+    "lat": 41.388513663974706,
+    "lon": 2.1739032470683863,
+    "nombre": "No et vesteixis per sopar",
+    "precio_max": 24.0,
+    "precio_min": 20.0,
+    "sala": "Sala Ars Teatre BCN",
+    "sala_id": "barcelona:via175106-15",
+    "temas": {
+      "ca": [
+        "infidelitat",
+        "engany"
+      ],
+      "es": [
+        "infidelidad",
+        "engaño"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400700011": {
     "barrio": "Sant Andreu",
     "caducado": "2026-11-18",
@@ -77,6 +144,50 @@
       "es": [
         "solidaridad",
         "ayuda humanitaria"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400726257": {
+    "barrio": "el Clot",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A càrrec de la cia. Cia Càndida / Sala Flyhard La inesperada visita d'una exitosa mentora i influenciadora esdevé una crítica punyent a les teràpies que volen esborrar identitats i sobre la manipulació disfressada d'ajuda. ESPECTACLE DINS EL CICLE ESCENA BCN",
+      "es": "A cargo de la cia. Cia Càndida / Sala Flyhard. La inesperada visita de una exitosa mentora e influencer se convierte en una crítica punzante a las terapias que quieren borrar identidades y sobre la manipulación disfrazada de ayuda. ESPECTÁCULO DENTRO DEL CICLO ESCENA BCN"
+    },
+    "direccion": "Gran Via de les Corts Catalanes 837",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Cia Càndida"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-la-confusio_99400726257.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "20:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400726257",
+    "idioma_textos": "ca",
+    "lat": 41.40487897583886,
+    "lon": 2.18840476699031,
+    "nombre": "La confusió",
+    "sala": "Centre Cultural La Farinera del Clot",
+    "sala_id": "barcelona:via169409-837",
+    "temas": {
+      "ca": [
+        "manipulació",
+        "identitat"
+      ],
+      "es": [
+        "manipulación",
+        "identidad"
       ]
     },
     "tipo": "teatro",
@@ -169,6 +280,53 @@
     "tipo": "eventos",
     "traducido": "es"
   },
+  "open_data_bcn:99400769636": {
+    "barrio": "la Prosperitat",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "L'obra ens convida a mirar de prop una realitat molt normalitzada. Entre rialles, anècdotes i situacions quotidianes, descobrirem per què dir «no, gràcies» encara pot generar incomoditat. Una obra per riure, reflexionar i qüestionar-nos allò que sovint donem per fet. A càrrec de la cia. Ressonàncies del Sud Organitza: PromoSalut Prospe",
+      "es": "La obra nos invita a mirar de cerca una realidad muy normalizada. Entre risas, anécdotas y situaciones cotidianas, descubriremos por qué decir «no, gracias» todavía puede generar incomodidad. Una obra para reír, reflexionar y cuestionarnos aquello que a menudo damos por hecho. A cargo de la cia. Ressonàncies del Sud Organitza: PromoSalut Prospe"
+    },
+    "direccion": "Pl Àngel Pestaña 1",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Ressonàncies del Sud"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-forum-l-alcohol-entra-a-escena_99400769636.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400769636",
+    "idioma_textos": "ca",
+    "lat": 41.44171279566282,
+    "lon": 2.179926813319305,
+    "nombre": "L'Alcohol entra a escena",
+    "sala": "Casal de Barri Comunitari de Prosperitat",
+    "sala_id": "barcelona:via16350-1",
+    "temas": {
+      "ca": [
+        "consum d'alcohol",
+        "pressió social"
+      ],
+      "es": [
+        "consumo de alcohol",
+        "presión social"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400770277": {
     "barrio": "el Poblenou",
     "caducado": "2026-11-17",
@@ -197,6 +355,102 @@
     "sala_id": "barcelona:via700802-1",
     "subtipo": "formación",
     "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400772114": {
+    "barrio": "Sarrià",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Elisa Coll reflexiona, des de l'humor i l'experiència autobiogràfica, sobre temes com la infància, l'obediència, la culpa o la por al fracàs. Espectacle recomanat per a un públic de més de 16 anys. A càrrec d'Elisa Coll",
+      "es": "Elisa Coll reflexiona, desde el humor y la experiencia autobiográfica, sobre temas como la infancia, la obediencia, la culpa o el miedo al fracaso. Espectáculo recomendado para un público de más de 16 años. A cargo de Elisa Coll"
+    },
+    "direccion": "Carrer d'Eduardo Conde 22",
+    "edad_min": 16,
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-gloria_99400772114.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "monólogo"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400772114",
+    "idioma_textos": "ca",
+    "lat": 41.39390619967619,
+    "lon": 2.1211872573336934,
+    "nombre": "Gloria",
+    "publico": "juvenil y adultos",
+    "sala": "Centre Cívic Sarrià",
+    "sala_id": "barcelona:via107300-22",
+    "temas": {
+      "ca": [
+        "infància",
+        "obediència",
+        "culpa"
+      ],
+      "es": [
+        "infancia",
+        "obediencia",
+        "culpa"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400778179": {
+    "artista": "Òscar Andreu",
+    "barrio": "el Poblenou",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "L'Òscar Andreu acomiada el seu espectacle \"Crida als ocells de colors llampants\" al Casino de l'Aliança de Barcelona amb una data única. El novembre de 2023 l'Òscar Andreu va presentar el seu primer espectacle de stand up. Crida als ocells de colors llampants és una biografia lingüística o com diu l'Òscar és un tractat (segurament el primer i últim) de sociolingüística divertida. En resum són les aventures esbojarrades d'un català catalanoparlant a la capital de Catalunya, repassa la història de la llengua i aprofita per descriure com ens comportem els catalans quan fem servir la nostra llengua. . El text de l'obra ha tingut una nova vida en forma de \"Manual de defensa del català\", el llibre més venut en la categoria de no ficció del Sant Jordi '26. Ara s'acomiada dels escenaris amb una data única: el 19 de novembre de 2026 al Casino de l'Aliança de Barcelona.",
+      "es": "Óscar Andreu se despide de su espectáculo \"Crida als ocells de colors llampants\" en el Casino de l'Aliança de Barcelona con una fecha única. En noviembre de 2023 Óscar Andreu presentó su primer espectáculo de stand up. Crida als ocells de colors llampants es una biografía lingüística o, como dice Óscar, un tratado (seguramente el primero y último) de sociolingüística divertida. En resumen, son las aventuras disparatadas de un catalán catalanoparlante en la capital de Cataluña, repasa la historia de la lengua y aprovecha para describir cómo nos comportamos los catalanes cuando usamos nuestra lengua. El texto de la obra ha tenido una nueva vida en forma de \"Manual de defensa del català\", el libro más vendido en la categoría de no ficción de Sant Jordi '26. Ahora se despide de los escenarios con una fecha única: el 19 de noviembre de 2026 en el Casino de l'Aliança de Barcelona."
+    },
+    "direccion": "Rbla Poblenou 42",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Òscar Andreu"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-crida-als-ocells-de-color-llampants-a-carrec-d-oscar-andreu_99400778179.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "monólogo"
+    ],
+    "id": "open_data_bcn:99400778179",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/Captura-de-pantalla-2026-10-02-101523.760x428.af1b4e95.jpg",
+    "lat": 41.39973479613865,
+    "lon": 2.203250053561388,
+    "nombre": "Crida als ocells de color llampants",
+    "precio_max": 18.0,
+    "precio_min": 18.0,
+    "sala": "Casino de l'Aliança del Poblenou",
+    "sala_id": "barcelona:via346800-42",
+    "sala_interior": "Teatre",
+    "temas": {
+      "ca": [
+        "llengua catalana",
+        "sociolingüística"
+      ],
+      "es": [
+        "lengua catalana",
+        "sociolingüística"
+      ]
+    },
+    "tipo": "teatro",
     "traducido": "es"
   },
   "open_data_bcn:99400781890": {
@@ -339,6 +593,106 @@
       "es": [
         "memoria histórica",
         "dictadura"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400785805": {
+    "barrio": "Sant Gervasi - la Bonanova",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Nacido al revés és el monòleg més personal de Gabriel Córdoba (Comedy Central, TV3), un espectacle d'humor que combina monòleg còmic autobiogràfic, identitat i comèdia irreverent. A través de la seva experiència, explica el viatge d'un jove d'un poble de Múrcia que arriba a la gran ciutat amb somnis de triomf i acaba descobrint-se a si mateix pel camí. Amb dinou anys de trajectòria, Gabriel ofereix una proposta honesta i àcida especialment recomanada per als amants de la comèdia en directe i de les veus amb personalitat.",
+      "es": "Nacido al revés es el monólogo más personal de Gabriel Córdoba (Comedy Central, TV3), un espectáculo de humor que combina monólogo cómico autobiográfico, identidad y comedia irreverente. A través de su experiencia, explica el viaje de un joven de un pueblo de Murcia que llega a la gran ciudad con sueños de triunfo y acaba descubriéndose a sí mismo por el camino. Con diecinueve años de trayectoria, Gabriel ofrece una propuesta honesta y ácida especialmente recomendada para los amantes de la comedia en directo y de las voces con personalidad."
+    },
+    "direccion": "Carrer de Muntaner 544",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-monoleg-nacido-al-reves_99400785805.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400785805",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/Captura.760x428.093674c9.jpg",
+    "lat": 41.405365338998074,
+    "lon": 2.135308972460361,
+    "nombre": "Nacido al revés",
+    "sala": "Centre Cívic Vil·la Florida",
+    "sala_id": "barcelona:via223606-544",
+    "temas": {
+      "ca": [
+        "identitat",
+        "humor autobiogràfic"
+      ],
+      "es": [
+        "identidad",
+        "humor autobiográfico"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400786081": {
+    "barrio": "la Dreta de l'Eixample",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Col·lectiu Delirant – teatre Fotografies: Àngel Garcia Teatre documental a partir de la vida de la Shima i de la seva relació amb l'Iran, amb la distància d'algú que ja no hi viu des del 2014. Com s'explica un país? Amb les seves tradicions, les seves danses, les seves músiques, la seva història, els seus déus, els seus herois? Amb les notícies que apareixen als mitjans? El Col·lectiu Delirant vol provar d'explicar què és Allò de l'Iran a través de la vida de la Shima, que fa anys en va marxar. El seu relat personal ens porta a la quotidianitat del dia a dia, a la repressió i a les petites formes de resistència, però també a la mirada de qui observa casa seva des de milers de quilòmetres. Una història íntima que travessa memòria, identitat i política, i que ens recorda que explicar el lloc d'on vens és també preguntar-te qui ets.",
+      "es": "Col·lectiu Delirant – teatre Fotografías: Àngel Garcia Teatro documental a partir de la vida de Shima y de su relación con Irán, con la distancia de alguien que ya no vive allí desde 2014. ¿Cómo se explica un país? ¿Con sus tradiciones, sus danzas, sus músicas, su historia, sus dioses, sus héroes? ¿Con las noticias que aparecen en los medios? El Col·lectiu Delirant intenta explicar qué es Allò de l'Iran a través de la vida de Shima, que hace años se fue de allí. Su relato personal nos lleva a la cotidianidad del día a día, a la represión y a las pequeñas formas de resistencia, pero también a la mirada de quien observa su casa desde miles de kilómetros. Una historia íntima que atraviesa memoria, identidad y política, y que nos recuerda que explicar el lugar de donde vienes es también preguntarte quién eres."
+    },
+    "direccion": "Carrer de València 302",
+    "equipo": [
+      [
+        "creació",
+        "Shima, Arnau Puig i Joan Codina Ciriquián"
+      ],
+      [
+        "interpretació",
+        "Shima i Arnau Puig"
+      ],
+      [
+        "vídeos",
+        "Xavi Esteban"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-allo-de-l-iran_99400786081.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "19:30"
+      ]
+    ],
+    "generos": [
+      "teatro documental"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400786081",
+    "idioma_textos": "ca",
+    "lat": 41.394518975814755,
+    "lon": 2.165900883899018,
+    "nombre": "Allò de l'Iran",
+    "sala": "Centre Cultural La Casa Elizalde",
+    "sala_id": "barcelona:via350308-302",
+    "temas": {
+      "ca": [
+        "memòria",
+        "identitat",
+        "política"
+      ],
+      "es": [
+        "memoria",
+        "identidad",
+        "política"
       ]
     },
     "tipo": "teatro",
@@ -503,6 +857,145 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400789168": {
+    "artista": "Teatro apátrida (Espanya - Xile)",
+    "barrio": "el Raval",
+    "caducado": "2026-11-19",
+    "compra": "https://tantarantana.com/production/la-mujer-del-tercero-teatre-26-27/",
+    "compra_sala": "http://www.tantarantana.com",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "<< El monòleg d'una mare >> Raquel és la dona del tercer pis i el seu fill és qui, en un rampell de fúria, ha fet miques les noves bústies de l'edifici. Des d'aquesta sentència s'inicia un monòleg profund d'una mare que té cura d'un fill que viu al marge del sistema. La seva confessió s'endinsa en les esquerdes dels vincles filials i en la urgència de les nostres societats d'atendre la salut mental.",
+      "es": "<< El monólogo de una madre >> Raquel es la mujer del tercer piso y su hijo es quien, en un arrebato de furia, ha hecho trizas los nuevos buzones del edificio. Desde esta sentencia se inicia un monólogo profundo de una madre que cuida de un hijo que vive al margen del sistema. Su confesión se adentra en las grietas de los vínculos filiales y en la urgencia de nuestras sociedades por atender la salud mental."
+    },
+    "direccion": "Carrer de les Flors 22",
+    "duracion": 55,
+    "equipo": [
+      [
+        "a càrrec de",
+        "Teatro apátrida (Espanya - Xile)"
+      ],
+      [
+        "Dramatúrgia",
+        "Víctor Borrás"
+      ],
+      [
+        "Edició",
+        "Tamara Milagros, Omar Morán"
+      ],
+      [
+        "Direcció",
+        "Omar Morán"
+      ],
+      [
+        "Actriu",
+        "Tamara Ferreira"
+      ],
+      [
+        "Disseny sonor",
+        "Diego Betancourt"
+      ],
+      [
+        "Disseny d’il·luminació",
+        "Antonieta Henríquez"
+      ],
+      [
+        "Disseny de vestuari",
+        "Teatro Apátrida"
+      ],
+      [
+        "Producció",
+        "Morán, Ferreira"
+      ]
+    ],
+    "ficha_fuente": "https://tantarantana.com/production/la-mujer-del-tercero-teatre-26-27/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-la-mujer-del-tercero-a-carrec-de-teatro-apatrida-espanya-xile_99400789168.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "20:30"
+      ]
+    ],
+    "generos": [
+      "monólogo"
+    ],
+    "id": "open_data_bcn:99400789168",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/mujerdeltercero.760x428.561c1e47.jpg",
+    "lat": 41.37596959387577,
+    "lon": 2.1673789423748864,
+    "nombre": "La mujer del tercero",
+    "pagina_obra": "https://tantarantana.com/production/la-mujer-del-tercero-teatre-26-27/",
+    "precio_max": 23.0,
+    "precio_min": 14.0,
+    "sala": "Tantarantana Teatre",
+    "sala_id": "barcelona:via127409-22",
+    "sala_interior": "Baixos 22",
+    "temas": {
+      "ca": [
+        "família",
+        "salut mental"
+      ],
+      "es": [
+        "familia",
+        "salud mental"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789295": {
+    "barrio": "Vilapicina i la Torre Llobeta",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Fins on pot arribar el dolor quan ningú no escolta? Un monòleg punyent sobre l'assetjament escolar, el silenci còmplice i les ferides que no es veuen. Una crida a mirar, escoltar i actuar. A càrrec de TrastornArts Col·labora Escola de Families de Torre Llobeta i Associació de Voluntariat de Torre Llobeta Públic a partir de 12 anys",
+      "es": "¿Hasta dónde puede llegar el dolor cuando nadie escucha? Un monólogo punzante sobre el acoso escolar, el silencio cómplice y las heridas que no se ven. Una llamada a mirar, escuchar y actuar. A cargo de TrastornArts. Colabora Escola de Families de Torre Llobeta y Associació de Voluntariat de Torre Llobeta. Público a partir de 12 años"
+    },
+    "direccion": "Carrer de Santa Fe 2",
+    "edad_min": 12,
+    "equipo": [
+      [
+        "a càrrec de",
+        "TrastornArts"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-va-faltar-un-gest_99400789295.html",
+    "funciones": [
+      [
+        "2026-11-19",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "drama"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789295",
+    "idioma_textos": "ca",
+    "lat": 41.42693150965028,
+    "lon": 2.173966250593847,
+    "nombre": "Va faltar un gest",
+    "publico": "juvenil y adultos",
+    "sala": "Centre Cívic Torre Llobeta",
+    "sala_id": "barcelona:via315704-2",
+    "temas": {
+      "ca": [
+        "assetjament escolar",
+        "silenci còmplice"
+      ],
+      "es": [
+        "acoso escolar",
+        "silencio cómplice"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400789410": {
     "barrio": "la Vila de Gràcia",
     "caducado": "2026-11-17",
@@ -560,5 +1053,30 @@
     "sala_id": "barcelona:via287507-6",
     "tipo": "teatro",
     "traducido": "es"
+  },
+  "open_data_bcn:99400790191": {
+    "barrio": "Sants",
+    "caducado": "2026-11-19",
+    "comprobado": "2026-11-19",
+    "direccion": "Pas de Fructuós Gelabert 6",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda cultural",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-cultural",
+    "funciones": [
+      [
+        "2026-11-19",
+        "17:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790191",
+    "idioma_textos": "ca",
+    "lat": 41.37483734331482,
+    "lon": 2.136421053260438,
+    "nombre": "Dones grans, grans dones. La vellesa femenina al cinema",
+    "sala": "Casal de Gent Gran Cotxeres de Sants",
+    "sala_id": "barcelona:via134958-6",
+    "subtipo": "formación",
+    "tipo": "eventos"
   }
 }
