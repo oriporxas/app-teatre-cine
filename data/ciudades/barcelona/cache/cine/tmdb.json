@@ -1652,6 +1652,10 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:fatherland:pawlikowski": {
+    "datos": null,
+    "fecha": "2026-11-20"
+  },
   "it:fiscal elola": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -1758,6 +1762,125 @@
   "it:hospital de campanya": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "it:incendies:villeneuve": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/rA40sUH6bHD5pAJ1jOcJFZPhlOe.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
+          "id": 137427,
+          "nombre": "Denis Villeneuve"
+        }
+      ],
+      "duracion": 131,
+      "edad": "12",
+      "estreno": "2010-09-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/f3ATwil5vmUeTsogBaMEKbBYBth.jpg",
+      "generos": [
+        "Drama",
+        "Bélica",
+        "Misterio"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
+          "id": 137427,
+          "nombre": "Denis Villeneuve"
+        },
+        {
+          "id": 970214,
+          "nombre": "Valérie Beaugrand-Champagne"
+        }
+      ],
+      "idioma_original": "fr",
+      "imdb": "tt1255953",
+      "lema": "La búsqueda empieza al revelarse el testamento de su madre",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/a6fnk0mOuVnOVzusjODwBPCUnny.jpg",
+          "id": 57069,
+          "nombre": "Grégoire Hetzel"
+        }
+      ],
+      "nota_tmdb": 8.1,
+      "paises": [
+        "CA",
+        "FR"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qjsoXqKJPnmoMs1eyeTLBKKShYQ.jpg",
+          "id": 77498,
+          "nombre": "Lubna Azabal",
+          "papel": "Nawal"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bVQfqJXVSDB6x6GVKHIsOVoPrnS.jpg",
+          "id": 84573,
+          "nombre": "Mélissa Désormeaux-Poulin",
+          "papel": "Jeanne Marwan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iGFDGJmGUxLOSIamTENFDecJdkA.jpg",
+          "id": 88592,
+          "nombre": "Maxim Gaudette",
+          "papel": "Simon Marwan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/enULDDsKvyNoUCZoFg10Mtq1MFk.jpg",
+          "id": 38526,
+          "nombre": "Rémy Girard",
+          "papel": "Notary Lebel"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5oWrQwH4Xx243Nk3XdNnKiekEw4.jpg",
+          "id": 196737,
+          "nombre": "Allen Altman",
+          "papel": "Notaire Maddad"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pT72K2CqBelPtSVelkRci21HctE.jpg",
+          "id": 970213,
+          "nombre": "Abdelghafour Elaaziz",
+          "papel": "Abou Tarek"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/y2Ko6ktN4DpMooZUpTw3g3Hv5bl.jpg",
+          "id": 241930,
+          "nombre": "Dominique Briand",
+          "papel": "Professor Niv Cohen"
+        },
+        {
+          "id": 592718,
+          "nombre": "Frédéric Paquet",
+          "papel": "Doctor in the Emergency Room"
+        },
+        {
+          "id": 1150158,
+          "nombre": "Ahmad Massad",
+          "papel": "Bassem Marwan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gyTy14cdl7XIDLA6rpRtnOO5GA.jpg",
+          "id": 218899,
+          "nombre": "John Dunn-Hill",
+          "papel": "Professor Said Haidar"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La Jeanne i en Simon Marwan són dos bessons la mare dels quals, que porta molt temps sense parlar, està a punt de morir. Però abans del fatal desenllaç els dóna dues cartes que han de ser lliurades a un pare al que creien mort i a un germà l'existència del qual desconeixien. Tots dos emprendran un viatge al Líban per localitzar-los i trobar respostes a la seva existència.",
+        "en": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two young adults' voyage to the core of deep-rooted hatred, never-ending wars and enduring love.",
+        "es": "Jeanne y Simon Marwan son dos mellizos cuya madre, que lleva mucho tiempo sin hablar, está a punto de morir. Pero, antes del fatal desenlace, les da dos cartas que deben ser entregadas a un padre al que creían muerto y a un hermano cuya existencia desconocían. Ambos emprenderán un viaje al Líbano para localizarlos y encontrar respuestas a su existencia. Basada en una obra de teatro de Wajdi Mouawad."
+      },
+      "titulo": "Incendios",
+      "titulo_ca": "Incendis",
+      "titulo_original": "Incendies",
+      "tmdb": 46738,
+      "trailer": "XJ69WnwvZhE",
+      "wikidata": "Q1212650"
+    },
+    "fecha": "2026-11-20"
   },
   "it:kiriku i la bruixa": {
     "datos": null,
@@ -3212,6 +3335,118 @@
   "it:projeccions al zumzeig": {
     "datos": null,
     "fecha": "2026-11-19"
+  },
+  "it:puedes verlo todo:fielder": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/g2PKUCpDChvYvT7IaUOYfjO0mbG.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/x0UOcjml8WnBfnb89QOh0iXM0w0.jpg",
+          "id": 1212667,
+          "nombre": "Nathan Fielder"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/h12zgCaZ24imkZlw0nry9T9mjGD.jpg",
+          "id": 1405665,
+          "nombre": "Lance Oppenheim"
+        }
+      ],
+      "duracion": 175,
+      "edad": null,
+      "estreno": "2026-10-16",
+      "fondo": "https://image.tmdb.org/t/p/w1280/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+      "generos": [
+        "Documental"
+      ],
+      "guion": [],
+      "idioma_original": "en",
+      "imdb": "tt45368240",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jtuiVE9M1D8ALzLltv1tfCKJfMt.jpg",
+          "id": 1966583,
+          "nombre": "Ari Balouzian"
+        }
+      ],
+      "nota_tmdb": 8.8,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/s7ej8dZ7zncd4nPBrkBUbArnTJl.jpg",
+          "id": 2269143,
+          "nombre": "Elizabeth Holmes",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/x0UOcjml8WnBfnb89QOh0iXM0w0.jpg",
+          "id": 1212667,
+          "nombre": "Nathan Fielder",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tLOCcMkylvIES7ZKFv6Dks6XmD.jpg",
+          "id": 6462200,
+          "nombre": "Billy Evans",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg",
+          "id": 71070,
+          "nombre": "Amanda Seyfried",
+          "papel": "Self / Elizabeth Holmes"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bE7zzh60RXydH3p632ZZSmsTlcn.jpg",
+          "id": 984629,
+          "nombre": "Christopher Abbott",
+          "papel": "Billy Evans"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/h12zgCaZ24imkZlw0nry9T9mjGD.jpg",
+          "id": 1405665,
+          "nombre": "Lance Oppenheim",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/m27JLpdojcJXaRM9gGUaomSUz0a.jpg",
+          "id": 6552342,
+          "nombre": "Christian Rasmus Holmes IV",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ja5uFBObNtfDTCq8ETefkoxoV47.jpg",
+          "id": 6552346,
+          "nombre": "Noel Anne Holmes",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6HdPMSnldhYWdJiH3yvWDUNDFGs.jpg",
+          "id": 78404,
+          "nombre": "Gary Wilmes",
+          "papel": "A24 Executive"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wzLtwcPc8VGYwBqeHl9d7gMVixL.jpg",
+          "id": 1386927,
+          "nombre": "Phillip Andre Botello",
+          "papel": "A24 Executive"
+        }
+      ],
+      "sinopsis": {
+        "en": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+        "es": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años."
+      },
+      "titulo": "Puedes verlo todo",
+      "titulo_ca": null,
+      "titulo_original": "You Can See Everything",
+      "tmdb": 1765072,
+      "trailer": "-B-gh1BlS4w",
+      "wikidata": "Q141336617"
+    },
+    "fecha": "2026-11-20"
   },
   "it:road movies el hidalgo de los mares raoul walsh 1951": {
     "datos": null,
@@ -4868,6 +5103,132 @@
       "wikidata": "Q114819"
     },
     "fecha": "2026-11-17"
+  },
+  "itt0091203": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/5ZxKote3fuIt8woDhVm8Gm51Blf.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gzJDD5bj0fBgvyb2puB6O951Gnv.jpg",
+          "id": 52968,
+          "nombre": "Russell Mulcahy"
+        }
+      ],
+      "duracion": 110,
+      "edad": "12",
+      "estreno": "1986-03-07",
+      "fondo": "https://image.tmdb.org/t/p/w1280/2EfbAWLq8s2f1LxTAIuLGYpKETV.jpg",
+      "generos": [
+        "Aventura",
+        "Acción",
+        "Fantasía"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qCLjWpysaJlNgjSflhJ9R8pHD28.jpg",
+          "id": 28902,
+          "nombre": "Gregory Widen"
+        },
+        {
+          "id": 201054,
+          "nombre": "Peter Bellwood"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yayNcvBk09eaRDwAsHoDU69OF1L.jpg",
+          "id": 912,
+          "nombre": "Larry Ferguson"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt0091203",
+      "lema": "Solo puede quedar uno",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/18ArWChN8AczTKlCnRBJrRwMhkN.jpg",
+          "id": 7714,
+          "nombre": "Michael Kamen"
+        }
+      ],
+      "nota_tmdb": 6.9,
+      "paises": [
+        "GB",
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nWcAHW2ZN4cP3VPWYH9WJCvhFvt.jpg",
+          "id": 38559,
+          "nombre": "Christopher Lambert",
+          "papel": "Connor 'The Highlander' MacLeod"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sNDRhIcW51b7ruS8yt0Xpwa12Mz.jpg",
+          "id": 29021,
+          "nombre": "Roxanne Hart",
+          "papel": "Brenda J. Wyatt"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg",
+          "id": 6574,
+          "nombre": "Clancy Brown",
+          "papel": "Victor 'The Kurgan' Kruger"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cd0zKpYJ6eSutkrZkLFxQCGjhnF.jpg",
+          "id": 738,
+          "nombre": "Sean Connery",
+          "papel": "Juan Sanchez Villa-Lobos Ramirez"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kcG5KsstT97lzRZUG1pyveAj0no.jpg",
+          "id": 53515,
+          "nombre": "Beatie Edney",
+          "papel": "Heather MacLeod"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ixzjcfIJx3P1Z8UidMlVQ8aH5HU.jpg",
+          "id": 53584,
+          "nombre": "Alan North",
+          "papel": "Lieutenant Frank Moran"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4HjxMy4Ir2dWz7ycX5l3sgxOY4g.jpg",
+          "id": 4253,
+          "nombre": "Jon Polito",
+          "papel": "Det. Walter Bedsoe"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/Wgmks9bPcPEwZfZ8PgOdb7VGFQ.jpg",
+          "id": 53585,
+          "nombre": "Sheila Gish",
+          "papel": "Rachel Ellenstein"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/buBmcE8F8BpbL7M8yyxST2exMRP.jpg",
+          "id": 31925,
+          "nombre": "Hugh Quarshie",
+          "papel": "Sunda Kastagir"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nVb4nFvWloTdzopD42aNV5osYKU.jpg",
+          "id": 53587,
+          "nombre": "Peter Diamond",
+          "papel": "Aman Fasil"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Són Immortals, destinats a viure eternament. Han de desafiar-se a duels a través dels temps fins que només en quedi un. Només decapitats pel full d'una espasa es poden alliberar de la seva lluita eterna i aconseguir el Premi: un poder inimaginable. Des de les terres altes d'Escòcia del segle XVI fins al Nova York dels nostres dies, els Immortals lluiten per la seva recompensa, mentre que el destí dels mortals se sosté en un fràgil equilibri.",
+        "en": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal.",
+        "es": "Son Inmortales, destinados a vivir eternamente. Deben retarse a duelos a través de los tiempos hasta que sólo quede uno. Sólo decapitados por la hoja de una espada pueden liberarse de su eterna lucha y conseguir el Premio: un poder inimaginable. Desde las tierras altas de Escocia del siglo XVI hasta el Nueva York de nuestros días, los Inmortales luchan por su recompensa, mientras el destino de los mortales se sostiene en un frágil equilibrio."
+      },
+      "titulo": "Los inmortales",
+      "titulo_ca": "Els immortals",
+      "titulo_original": "Highlander",
+      "tmdb": 8009,
+      "trailer": "koTNFnABag0",
+      "wikidata": "Q156539"
+    },
+    "fecha": "2026-11-20"
   },
   "itt0104652": {
     "datos": {
@@ -11197,6 +11558,87 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt48783320": {
+    "datos": {
+      "cartel": null,
+      "direccion": [
+        {
+          "id": 6421297,
+          "nombre": "Eugenio Tardón"
+        },
+        {
+          "id": 6421298,
+          "nombre": "Carla Cañellas"
+        }
+      ],
+      "duracion": 76,
+      "edad": null,
+      "estreno": null,
+      "fondo": null,
+      "generos": [],
+      "guion": [],
+      "idioma_original": "es",
+      "imdb": null,
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [],
+      "reparto": [
+        {
+          "id": 6421299,
+          "nombre": "Jien Shizuka"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rgX9ZW7HsSeKT0uUmiwPUef7Spk.jpg",
+          "id": 1626246,
+          "nombre": "Yuki Tsuchiya"
+        },
+        {
+          "id": 6421301,
+          "nombre": "Doukan Yano"
+        },
+        {
+          "id": 6421302,
+          "nombre": "Yoichi Fujimori"
+        },
+        {
+          "id": 5303751,
+          "nombre": "Chiyomi Tanaka"
+        },
+        {
+          "id": 6421305,
+          "nombre": "Atsushi Nagano"
+        },
+        {
+          "id": 6421307,
+          "nombre": "Isao Yamaguchi"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/z8ex5ABsZjGVwenZTZVB5uHKgyv.jpg",
+          "id": 1623101,
+          "nombre": "Jorge López"
+        },
+        {
+          "id": 6421308,
+          "nombre": "Mariló Rodriguez"
+        },
+        {
+          "id": 4751565,
+          "nombre": "María José Tardón"
+        }
+      ],
+      "sinopsis": {
+        "en": "lnari sets out on a journey to discover the meaning of Kotodama, delving into Japanese art and calligraphy, while following the routes of the Camino de Santiago, in Spain, and the Shikoku Henro, in Japan. On his way, the action of walking and the calligraphic line reveal themselves to be the expressions of a same idea: the way as a process. Pilgrims, monks, artisans and calligraphers become the voices of a universal history, creating a bridge between the past and the present, East and West."
+      },
+      "titulo": "Kotodama, el Camino del Espejo",
+      "titulo_ca": null,
+      "titulo_original": "Kotodama, el Camino del Espejo",
+      "tmdb": 1752136,
+      "trailer": null,
+      "wikidata": null
+    },
+    "fecha": "2026-11-20"
+  },
   "itt50486016": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
@@ -11429,6 +11871,7 @@
   "p136495": "Q18350026",
   "p137028": "Q11234476",
   "p1373650": "Q73226863",
+  "p137427": "Q548823",
   "p138": "Q3772",
   "p1397397": "Q61875074",
   "p140538": "Q6300538",
@@ -11465,6 +11908,7 @@
   "p1573069": "",
   "p1589570": "Q106367065",
   "p1603600": "Q47460321",
+  "p1626246": "",
   "p16269": "Q382393",
   "p1640439": "Q26923245",
   "p1643163": "Q111419908",
@@ -11583,6 +12027,7 @@
   "p2869815": "",
   "p287": "Q35332",
   "p28846": "Q310637",
+  "p29021": "Q460987",
   "p2978": "Q360426",
   "p3038957": "",
   "p3054663": "Q123739722",
@@ -11621,6 +12066,8 @@
   "p3774884": "",
   "p3810": "Q134895",
   "p3813575": "",
+  "p38526": "Q2178753",
+  "p38559": "Q105158",
   "p3870270": "",
   "p39187": "Q7088045",
   "p3960217": "",
@@ -11652,6 +12099,7 @@
   "p525": "Q25191",
   "p5269231": "",
   "p5284715": "Q137170965",
+  "p52968": "Q436829",
   "p5299192": "",
   "p5299202": "",
   "p5299203": "",
@@ -11707,8 +12155,14 @@
   "p6213180": "",
   "p63306": "Q2057920",
   "p64194": "Q1377022",
+  "p6421297": "",
+  "p6421298": "",
+  "p6421299": "",
+  "p6421301": "",
+  "p6421302": "",
   "p6462200": "Q141857229",
   "p6489158": "",
+  "p6574": "Q4488",
   "p6575430": "",
   "p6645": "Q3431161",
   "p6677": "Q207506",
@@ -11724,10 +12178,12 @@
   "p7152": "Q70003",
   "p72857": "Q4767265",
   "p72946": "Q3187987",
+  "p738": "Q4573",
   "p74943": "Q3701686",
   "p75915": "Q490406",
   "p76556": "Q2013068",
   "p77008": "Q3086808",
+  "p77498": "Q462256",
   "p79510": "Q61473527",
   "p81051": "Q981690",
   "p819": "Q125904",
@@ -11735,6 +12191,7 @@
   "p84425": "Q2778106",
   "p84426": "Q74428",
   "p844266": "Q68783644",
+  "p84573": "Q2384494",
   "p84833": "Q3574497",
   "p85": "Q37175",
   "p85034": "Q1063412",
@@ -11742,6 +12199,7 @@
   "p87015": "Q1224788",
   "p88124": "Q1138674",
   "p884": "Q104061",
+  "p88592": "Q3302455",
   "p90": "Q232273",
   "p92572": "Q20031439",
   "p932161": "Q2422285",
@@ -11969,6 +12427,18 @@
     {
       "anio": 2018,
       "premio": "Premi del públic a la millor pel·lícula europea",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ105158": [
+    {
+      "anio": 1986,
+      "premio": "César al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1986,
+      "premio": "César al mejor actor",
       "tipo": "nominado"
     }
   ],
@@ -12549,6 +13019,33 @@
     {
       "anio": 2025,
       "premio": "British Academy Games Award for Performer in a Supporting Role",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ1212650": [
+    {
+      "anio": 2011,
+      "premio": "Premio Genie a la mejor película",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Premi del Festival Internacional de Cinema de Toronto a la millor pel·lícula canadenca",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Premi Iris a la millor pel·lícula",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor película de habla no inglesa",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Candidata internacional als Premis Oscar",
       "tipo": "nominado"
     }
   ],
@@ -13783,6 +14280,7 @@
     }
   ],
   "wQ1528739": [],
+  "wQ156539": [],
   "wQ15721444": [
     {
       "anio": null,
@@ -15424,6 +15922,23 @@
       "tipo": "ganado"
     }
   ],
+  "wQ2178753": [
+    {
+      "anio": 1991,
+      "premio": "Academy of Canadian Cinema and Television Award for Best Performance by an Actor in a Leading Role",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Oficial de la Orden de Canadá",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Premio Denise-Pelletier",
+      "tipo": "ganado"
+    }
+  ],
   "wQ219655": [
     {
       "anio": 2009,
@@ -16329,6 +16844,7 @@
     }
   ],
   "wQ23770470": [],
+  "wQ2384494": [],
   "wQ240949": [
     {
       "anio": 2012,
@@ -17362,6 +17878,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ3302455": [],
   "wQ33123460": [],
   "wQ3326153": [
     {
@@ -18811,6 +19328,7 @@
   ],
   "wQ43288763": [],
   "wQ436769": [],
+  "wQ436829": [],
   "wQ43723": [
     {
       "anio": 1980,
@@ -19003,7 +19521,239 @@
       "tipo": "nominado"
     }
   ],
+  "wQ4488": [],
   "wQ45647": [],
+  "wQ4573": [
+    {
+      "anio": 1971,
+      "premio": "Premio Henrietta",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premi del Cercle de Crítics Cinematogràfics de Londres a l'actor de l'any",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "National Board of Review Award al millor actor de repartiment",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio del Cine Alemán al Mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premi del Kansas City Film Critics Circle al millor actor secundari",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Comendador de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Globo de Oro al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Premio Cecil B. DeMille",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "MTV Movie Award al mejor dúo en pantalla",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "BAFTA Academy Fellowship Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1999,
+      "premio": "Premio Kennedy Center Honors",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1999,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Knight Bachelor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Gran oficial de l'orde de Manuel Amador Guerrero",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premi del Cinema Europeu a la trajectòria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Brunelleschi Lifetime Achievement Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Comendador de la Orden del Imperio británico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Doctor honoris causa per la Universitat de St Andrews",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden de Manuel Amador Guerrero",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1972,
+      "premio": "Premios Globo de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "León de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Premios Saturn",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden Nacional de la Legión de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premios Óscar",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premios del Cine Europeo",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1998,
+      "premio": "BAFTA Academy Fellowship Award",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Globo de Oro al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Globo de Oro al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Satellite al mejor actor - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1999,
+      "premio": "Razzie a la peor pareja",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio del Cine Alemán al Mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1987,
+      "premio": "National Society of Film Critics Award al millor actor de repartiment",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Razzie al peor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1990,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1988,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1997,
+      "premio": "MTV Movie Award al mejor dúo en pantalla",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1991,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1988,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ460987": [
+    {
+      "anio": 1983,
+      "premio": "Premio Tony a la mejor actriz de reparto en una obra de teatro",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ462256": [
+    {
+      "anio": 2011,
+      "premio": "Academy of Canadian Cinema and Television Award for Best Performance by an Actress in a Leading Role",
+      "tipo": "ganado"
+    }
+  ],
   "wQ4685264": [
     {
       "anio": 2021,
@@ -19473,6 +20223,93 @@
     }
   ],
   "wQ541270": [],
+  "wQ548823": [
+    {
+      "anio": 2017,
+      "premio": "Oficial de la Orden de Canadá",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Company de l'Ordre des arts et des lettres du Québec",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premi d'Arts Escèniques del Governador General",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premi Genie al millor guió",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Premios Hugo",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premi Genie al millor guió",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Caballero de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Doctor honoris causa per la Universitat del Quebec a Montreal",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2019,
+      "premio": "Caballero de la Orden Nacional de Quebec",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Ray Bradbury",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2025,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    }
+  ],
   "wQ55215": [
     {
       "anio": 2015,

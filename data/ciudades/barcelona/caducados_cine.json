@@ -17,6 +17,13 @@
     "id": "p-t-baraka",
     "titulo": "Baraka"
   },
+  "p-t-deep-listening-la-historia-de-pauline-oliveros": {
+    "agenda": "open_data_bcn:99400760845",
+    "caducado": "2026-11-19",
+    "gratis": true,
+    "id": "p-t-deep-listening-la-historia-de-pauline-oliveros",
+    "titulo": "Deep listening: La història de Pauline Oliveros"
+  },
   "p-t-gaudeix-del-ficma-a-turull": {
     "agenda": "open_data_bcn:99400787444",
     "caducado": "2026-11-18",
@@ -27,6 +34,23 @@
       "ca": "L'Aula es converteix en cinema gràcies al SUNCINE - Festival Internacional de Cine del Medi Ambient, que es celebra anualment a Barcelona i Mèxic per ser un punt de trobada de la indústria cinematogràfica, activistes ambientals i ciutadania. Vine a gaudir d'un curtmetratge al Bosc Turull!\nA càrrec de l'Aula Ambiental Bosc Turull.\nActivitat dirigida a públic general.\nEmmarcada en la 33a edició del SUNCINE – Festival Internacional de Cinema del Medi Ambient."
     },
     "titulo": "Gaudeix del FICMA a Turull"
+  },
+  "p-t-l-oliva-i-el-terratremol-invisible": {
+    "agenda": "open_data_bcn:99400761789",
+    "caducado": "2026-11-19",
+    "gratis": true,
+    "id": "p-t-l-oliva-i-el-terratremol-invisible",
+    "titulo": "L'Oliva i el terratrèmol invisible"
+  },
+  "p-t-petits-moments-magics": {
+    "agenda": "open_data_bcn:99400762080",
+    "caducado": "2026-11-19",
+    "gratis": true,
+    "id": "p-t-petits-moments-magics",
+    "sinopsis": {
+      "ca": "Cinema - curtmetratges, 45', 2022-2024, Doblat al català\nPetits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i a mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa\nLloc: Sala La Pau\nEdat recomanada: a partir de 4 anys"
+    },
+    "titulo": "Petits moments màgics"
   },
   "p-t-projeccio-i-col-loqui-miss-carbon": {
     "agenda": "open_data_bcn:99400749630",
@@ -54,6 +78,17 @@
     "caducado": "2026-11-18",
     "id": "p-t-temps-de-cinema-migracions",
     "titulo": "Temps de cinema. Migracions"
+  },
+  "p-t-xiv-cicle-de-cinema-rec-i-accio-projeccio-si-decido-quedar": {
+    "agenda": "open_data_bcn:99400788894",
+    "caducado": "2026-11-19",
+    "cartel": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/si_decido_quedarme.760x428.92634bfb.jpg",
+    "gratis": true,
+    "id": "p-t-xiv-cicle-de-cinema-rec-i-accio-projeccio-si-decido-quedar",
+    "sinopsis": {
+      "ca": "\"Si decido quedarme\" (títol original en anglès:\nIf I Stay) és una pel·lícula de drama romàntic adolescent estatunidenca del 2014 dirigida per R. J. Cutler i basada en la novel·la homònima del 2009 de Gayle Forman.\nLa Mia Hall es pensava que la decisió més difícil que hauria d'afrontar a la vida seria si fer realitat els seus somnis musicals al prestigiós conservatori Juilliard de Nova York o seguir un altre camí amb el seu xicot Adam, cantant del grup Willamette Stone. Però el que hauria d'haver estat un simple trajecte amb cotxe amb la seva família canvia en un instant, tenen un terrible accident i, de cop i volta, la seva vida penja d'un fil. Atrapada entre la vida i la mort durant un dia molt revelador, la Mia haurà de treure les forces d'on sigui i prendre una decisió transcendental."
+    },
+    "titulo": "XIV Cicle de Cinema \"REC i ACCIÓ\". Projecció \"Si decido quedarme"
   },
   "tmdb-1320471": {
     "agenda": "open_data_bcn:99400770504",
@@ -170,6 +205,98 @@
     "titulo_original": "L’edat imminent",
     "tmdb": 1320471,
     "trailer": "SlmD8vaSzZc"
+  },
+  "tmdb-1447088": {
+    "agenda": "open_data_bcn:99400766270",
+    "anio": 2025,
+    "caducado": "2026-11-19",
+    "cartel": "https://image.tmdb.org/t/p/w500/lq0y98BHFqqSXrQsx5XN3IpTMKh.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/xepcS7I3WTFSvTbIcAAsXOTpqv5.jpg",
+        "id": 2213460,
+        "nombre": "Pep Bonet"
+      }
+    ],
+    "duracion": 70,
+    "edad": "A",
+    "estreno": "2025-03-19",
+    "fondo": "https://image.tmdb.org/t/p/w1280/w6zsGYmShHrUlwvtDLmgcnbQI7V.jpg",
+    "generos": [
+      "Documental"
+    ],
+    "gratis": true,
+    "guion": [
+      {
+        "id": 5299192,
+        "nombre": "Catalina Solivellas"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/egQOd80IDmyYifNOMdAp2sW4Ap9.jpg",
+        "id": 132450,
+        "nombre": "José Corbacho"
+      }
+    ],
+    "id": "tmdb-1447088",
+    "idioma_original": "ca",
+    "imdb": "tt35945037",
+    "lema": "El viaje de Jose Corbacho y Catalina Solivellas para llevar a escena una versión libre de El Quijote, interpretada por actores amateurs diagnosticados con trastorno mental.",
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/egQOd80IDmyYifNOMdAp2sW4Ap9.jpg",
+        "id": 132450,
+        "nombre": "José Corbacho",
+        "premios": [],
+        "wikidata": "Q580414"
+      },
+      {
+        "id": 5299192,
+        "nombre": "Catalina Solivellas"
+      },
+      {
+        "id": 5299202,
+        "nombre": "César López"
+      },
+      {
+        "id": 5299203,
+        "nombre": "Aina Romera"
+      },
+      {
+        "id": 5299204,
+        "nombre": "Guillem Pérez"
+      },
+      {
+        "id": 5299205,
+        "nombre": "Maje Mayrata"
+      },
+      {
+        "id": 5299206,
+        "nombre": "Maria Isabel Llaneras"
+      },
+      {
+        "id": 5299207,
+        "nombre": "Simó Sastre"
+      },
+      {
+        "id": 5299211,
+        "nombre": "Toni Ramon Ferragut"
+      },
+      {
+        "id": 5299212,
+        "nombre": "Miquel Gomila"
+      }
+    ],
+    "sinopsis": {
+      "ca": "José Corbacho i Catalina Solivellas es van conèixer fa trenta anys compartint escenaris, camerinos, rialles i també alguna pena. Aquí van començar a ser conscients de com pot arribar a ser de terapèutic el teatre. Anys després, i inspirats pel muntatge d'una versió lliure del Quixot, decideixen treballar amb actors i actrius amateurs de Mallorca amb un diagnòstic en salut mental.",
+      "en": "José Corbacho and Catalina Solivellas met thirty years ago sharing stages, dressing rooms, laughter and also some sadness. They\r they began to be aware of how therapeutic theater can be in difficult times. Years later, and inspired by Don Quixote, they decided to\r put together a free version of the chivalric novel, together with Mallorcan amateur actors and actresses with a mental health\r diagnosis. The documentary proposes a journey in which José, Catalina and the wonderful company created for the occasion, share\r stages, dressing rooms, laughter and also some tears.",
+      "es": "José Corbacho y Catalina Solivellas se conocieron hace treinta años compartiendo escenarios, camerinos, risas y también alguna pena. Ahí empezaron a ser conscientes de lo terapéutico que puede llegar a ser el teatro en los momentos difíciles. Años después, e inspirados por el El Quijote, deciden montar una versión libre de la novela de caballería, junto a actores y actrices amateurs de Mallorca con un diagnóstico en salud mental. El documental propone un viaje en el que Jose, Catalina y la maravillosa compañía creada para la ocasión, comparten escenarios, camerinos, risas y también alguna lágrima."
+    },
+    "titulo": "En un lugar de la mente",
+    "titulo_original": "A un lloc de la Ment",
+    "tmdb": 1447088
   },
   "tmdb-1490133": {
     "agenda": "open_data_bcn:99400786550",
@@ -299,6 +426,136 @@
     "titulo_original": "Caravaggio",
     "tmdb": 1496903,
     "trailer": "P4bzA9uNXEU"
+  },
+  "tmdb-1547311": {
+    "anio": 2026,
+    "caducado": "2026-11-19",
+    "cartel": "https://image.tmdb.org/t/p/w500/gDsAXwxRwH9nQCv1z5GvqVwPnTI.jpg",
+    "direccion": [
+      {
+        "id": 1298406,
+        "nombre": "Javier Giner"
+      }
+    ],
+    "duracion": 110,
+    "estreno": "2026-10-30",
+    "fondo": "https://image.tmdb.org/t/p/w1280/zppmTC0qSPBV7zJmzzXkt3aCuyj.jpg",
+    "generos": [
+      "Drama"
+    ],
+    "guion": [
+      {
+        "id": 1701842,
+        "nombre": "Luisa Matienzo"
+      },
+      {
+        "id": 1298406,
+        "nombre": "Javier Giner"
+      }
+    ],
+    "id": "tmdb-1547311",
+    "idioma_original": "es",
+    "imdb": "tt38349235",
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/dlalc7g1oK1oedaM5xjoIUQc0iC.jpg",
+        "id": 1074587,
+        "nombre": "Oriol Pla",
+        "papel": "Leo",
+        "premios": [
+          {
+            "anio": 2018,
+            "premio": "Premio Gaudí al mejor actor secundario",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premio Gaudí al mejor actor secundario",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "Premio Emmy Internacional al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio Nacional de Teatro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premios Nacionales de Cultura 2026",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premios Feroz",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q28708638"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/z8gCkzgavPFd5pW2gsuKvSV5yKk.jpg",
+        "id": 234619,
+        "nombre": "Marina Salas",
+        "papel": "Lorea",
+        "premios": [],
+        "wikidata": "Q1528739"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/wrHgAF22kMf5mZbAyWuqLTrEFx1.jpg",
+        "id": 1405715,
+        "nombre": "Gemma Martínez",
+        "papel": "Irati"
+      },
+      {
+        "id": 5692144,
+        "nombre": "Kai Etxaniz"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/7mLdnNvWHZsYycLUjUBE9yuPMpu.jpg",
+        "id": 970990,
+        "nombre": "Itziar Lazkano"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/zwOnSbH7DdtRNXjgWPbwMd1gsM5.jpg",
+        "id": 1493643,
+        "nombre": "Ione Irazabal"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/rcR7j2z6nm4LtmNNqJkGGw3NN4N.jpg",
+        "id": 1795540,
+        "nombre": "Miren Gaztañaga"
+      },
+      {
+        "id": 5692146,
+        "nombre": "Mikel Bustamente"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/gCodSmrUd3ostW5nFwqAqsiy75j.jpg",
+        "id": 2828107,
+        "nombre": "Ainhoa Artetxe"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yvlJ68jeSaT1amwgsNLDbvX44L3.jpg",
+        "id": 1960046,
+        "nombre": "Fernando Guallar"
+      }
+    ],
+    "sinopsis": {
+      "ca": "En Leo i la Lorea s'han estimat. Potser encara s’estimen. Però alguna cosa dins seu s'ha trencat. La seva relació, després de cinc anys, s’ha acabat. Ell carrega amb el seu pare malalt, atrapat entre la responsabilitat i una desconnexió emocional que li pesa. Ella, embolicada entre feines mal pagades i crisis personals, intenta refer-se sense saber gaire bé per on començar. Són dos cossos cansats i sols, travessats per la precarietat, per allò que no s’ha resolt, per l’herència emocional d’una generació que sembla arribar sempre tard a tot: a l’amor, a l’estabilitat, a la maduresa, a la calma, a la satisfacció personal.",
+      "en": "Leo and Lorea have loved one another. Maybe they still do. But something in them has broken. After five years, their relationship is done. He looks after his sick father, trapped between responsibility and an emotional void that weighs him down. She, caught up in poorly-paid jobs and personal crises, tries to get her life back on track without really knowing where to begin. They are two bodies, tired and alone, pierced by their precarious situation, by unresolved issues, by the emotional legacy of a generation who always seem to come late to everything: to love, to stability, to maturity, to serenity, to personal satisfaction.",
+      "es": "Tras el final de una relación después de cinco años, los dos miembros de la misma intentan salir adelante, lidiando con los problemas en sus vidas personales."
+    },
+    "titulo": "Esta soledad",
+    "titulo_original": "Esta soledad",
+    "tmdb": 1547311,
+    "trailer": "Z73fH3guhYQ"
   },
   "tmdb-1688701": {
     "anio": 2026,
@@ -441,6 +698,998 @@
     "titulo_original": "11",
     "tmdb": 1755565,
     "trailer": "rSciGK2clh8"
+  },
+  "tmdb-466272": {
+    "anio": 2019,
+    "caducado": "2026-11-19",
+    "cartel": "https://image.tmdb.org/t/p/w500/vKSyaptSA7zZ9H8mSfaDnvyQl9k.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
+        "id": 138,
+        "nombre": "Quentin Tarantino",
+        "premios": [
+          {
+            "anio": 2004,
+            "premio": "Oficial de la Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Premio Edgar",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden del Mérito de la República de Hungría",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Comendador de la Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premio de Luz del Festival de Lyon",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "BAFTA al mejor guion original",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Miembro de la Academia Estadounidense de las Artes y las Ciencias",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "National Board of Review por Mejor Película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Estrella del Paseo de la Fama de Hollywood",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "American Choreography Awards",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1992,
+            "premio": "Premio a la mejor dirección del Festival de Cine de Sitges",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1994,
+            "premio": "Palma de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1994,
+            "premio": "Globo de Oro al mejor guion",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1994,
+            "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1996,
+            "premio": "Premio Máquina del Tiempo",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Globo de Oro al mejor guion",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Globo de Oro al mejor guion",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Globo de Oro a la mejor película - comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Premios Globo de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Premios Óscar",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "David de Donatello a la mejor película extranjera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Premios Independent Spirit",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "César honorífico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premios Saturn",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Prix Fitzgerald",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Premis Britannia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Globo de Oro al mejor guion",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premio del Cine Europeo a la mejor película no europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q3772"
+      }
+    ],
+    "duracion": 162,
+    "edad": "16",
+    "estreno": "2019-07-24",
+    "fondo": "https://image.tmdb.org/t/p/w1280/kKTPv9LKKs5L3oO1y5FNObxAPWI.jpg",
+    "generos": [
+      "Comedia",
+      "Drama",
+      "Suspense"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
+        "id": 138,
+        "nombre": "Quentin Tarantino"
+      }
+    ],
+    "id": "tmdb-466272",
+    "idioma_original": "en",
+    "imdb": "tt7131622",
+    "lema": "En esta ciudad, todo puede cambiar.",
+    "nota": 7.4,
+    "paises": [
+      "CN",
+      "GB",
+      "US"
+    ],
+    "premios": [
+      {
+        "anio": 2020,
+        "premio": "Óscar al mejor diseño de producción",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2020,
+        "premio": "Oscar al mejor actor de reparto",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "National Board of Review a las 10 Películas más Destacadas",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2020,
+        "premio": "Óscar a la mejor película",
+        "tipo": "nominado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+        "id": 6193,
+        "nombre": "Leonardo DiCaprio",
+        "papel": "Rick Dalton",
+        "premios": [
+          {
+            "anio": 1997,
+            "premio": "Oso de Plata a la mejor interpretación masculina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Globo de Oro al mejor actor - Drama",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Globo de Oro al mejor actor - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Óscar al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Globo de Oro al mejor actor - Drama",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "Premi Horatio Alger",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Alliance of Women Film Journalists Award for Best Actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "BAFTA al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Premios Globo de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1997,
+            "premio": "Oso de Plata",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premi AACTA al millor actor protagonista",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio MTV Movie a la mejor interpretación masculina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "MTV Movie Award for Best Jaw Dropping Moment",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Caballero de la Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premi Crystal",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio del Sindicato de Actores al mejor actor protagonista",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Globo de Oro al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Satellite al mejor actor de reparto - drama",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1999,
+            "premio": "Teen Choice Award for Choice Hissy Fit",
+            "tipo": "nominado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Premio de la Crítica Cinematográfica al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1993,
+            "premio": "National Society of Film Critics Award al millor actor de repartiment",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Globo de Oro al mejor actor - Comedia o musical",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Globo de Oro al mejor actor - Drama",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Premio del Sindicato de Actores al mejor actor protagonista",
+            "tipo": "nominado"
+          },
+          {
+            "anio": null,
+            "premio": "Oso de Plata a la mejor interpretación masculina",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1994,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1997,
+            "premio": "MTV Movie Award al mejor dúo en pantalla",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2005,
+            "premio": "BAFTA al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio MTV Movie a la mejor interpretación masculina",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1997,
+            "premio": "MTV Movie Award al millor petó",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Premio del Sindicato de Actores al mejor reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premi Internacional AACTA al millor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": null,
+            "premio": "MTV Movie Awards al mejor villano",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "MTV Movie Award for Best Jaw Dropping Moment",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Premio del Sindicato de Actores al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premi AACTA al millor actor protagonista",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2008,
+            "premio": "Satellite al mejor actor - Drama",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1998,
+            "premio": "Razzie a la peor pareja",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1993,
+            "premio": "Globo de Oro al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2000,
+            "premio": "Razzie al peor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q38111"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
+        "id": 287,
+        "nombre": "Brad Pitt",
+        "papel": "Cliff Booth",
+        "premios": [
+          {
+            "anio": 2011,
+            "premio": "Premi Boston Society of Film Critics al millor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "National Society of Film Critics Award al millor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "Premio del Círculo de Críticos de Cine de Nueva York al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Premio de la Sociedad de Críticos de Cine de Phoenix al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "San Diego Film Critics Society Award for Best Performance by an Ensemble",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Premio Rembrandt",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1996,
+            "premio": "Premio Saturn al mejor actor secundario",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Premio del Sindicato de Actores al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Óscar a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1996,
+            "premio": "Globo de Oro al mejor actor de reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "BAFTA a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Copa Volpi al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Time 100",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2008,
+            "premio": "Time 100",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "BAFTA al mejor actor de reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Globo de Oro al mejor actor de reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1996,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Premi del públic a la millor pel·lícula europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Globo de Oro al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2026,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q35332"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
+        "id": 234352,
+        "nombre": "Margot Robbie",
+        "papel": "Sharon Tate",
+        "premios": [
+          {
+            "anio": 2013,
+            "premio": "Golden Schmoes Awards",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Premios Empire",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Premi Empire a la millor actriu revelació",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premi de la Crítica Cinematogràfica a la millor actriu en una pel·lícula d'acció",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premios People's Choice",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Premi internacional AACTA per a la millor actriu protagonista",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Premio de la Crítica Cinematográfica a la mejor actriz de comedia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premios de la Crítica Cinematográfica",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premios AACTA",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Premio Sant Jordi de Cine",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Premi Logie al nou talent femení més popular",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2011,
+            "premio": "Premi Logie a l'actriu més popular",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premis de la comunitat del Circuit",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Golden Schmoes Awards",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "MTV Movie Award a la millor interpretació revelació",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Young Hollywood Awards",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Associació de Crítics de Cinema de Seattle",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Gold Derby Awards",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Golden Schmoes Awards",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2015,
+            "premio": "BAFTA a la estrella emergente",
+            "tipo": "nominado"
+          },
+          {
+            "anio": null,
+            "premio": "2016 MTV Movie Awards",
+            "tipo": "nominado"
+          },
+          {
+            "anio": null,
+            "premio": "Teen Choice Awards 2016",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2018,
+            "premio": "BAFTA a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Premio del Sindicato de Actores a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Globo de Oro a la mejor actriz - Comedia o musical",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Óscar a la mejor actriz de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Globo de Oro a la mejor actriz de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Globo de Oro a la mejor actriz - Comedia o musical",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q1924847"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/NQjX6KjtDDyLnvbxhrU9xQWaYJ.jpg",
+        "id": 46593,
+        "nombre": "Emile Hirsch",
+        "papel": "Jay Sebring",
+        "premios": [],
+        "wikidata": "Q244678"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/r5WeMrU4YLJqRRE3joeOrBVicAH.jpg",
+        "id": 1392137,
+        "nombre": "Margaret Qualley",
+        "papel": "'Pussycat'"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ccQzw9I1BYBv0HHVJr4cvAWjtkI.jpg",
+        "id": 18082,
+        "nombre": "Timothy Olyphant",
+        "papel": "Jim Stacy"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/uVlPm7s3J1pLg6pLa5rYg43wd1.jpg",
+        "id": 1651362,
+        "nombre": "Julia Butters",
+        "papel": "Trudi Fraser"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/atdAs4pFGjUQ4m2W8kJYly7N6cC.jpg",
+        "id": 86654,
+        "nombre": "Austin Butler",
+        "papel": "'Tex'"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/hwcO08SVWkelfvgfIa5HsTMxsK8.jpg",
+        "id": 501,
+        "nombre": "Dakota Fanning",
+        "papel": "'Squeaky'"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/5RKGcElQiFZh4Mu9gInyUhr9Uu7.jpg",
+        "id": 6905,
+        "nombre": "Bruce Dern",
+        "papel": "George Spahn"
+      }
+    ],
+    "sinopsis": {
+      "ca": "Los Angeles, 1969. L'estrella de televisió Rick Dalton, un actor en hores baixes especialitzat en westerns, i el doble d'acció Cliff Booth, el seu millor amic, intenten sobreviure a una indústria cinematogràfica en canvi constant. Dalton és veí de la jove i prometedora actriu i model Sharon Tate, que acaba de casar-se amb el prestigiós director polonès Roman Polanski…",
+      "en": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
+      "es": "Los Angeles, 1969. La estrella de televisión Rick Dalton, un actor en horas bajas especializado en westerns, y el doble de acción Cliff Booth, su mejor amigo, tratan de sobrevivir a una industria cinematográfica en constante cambio. Dalton es vecino de la joven y prometedora actriz y modelo Sharon Tate, que acaba de casarse con el prestigioso director polaco Roman Polanski…"
+    },
+    "titulo": "Érase una vez en… Hollywood",
+    "titulo_ca": "Hi havia una vegada a... Hollywood",
+    "titulo_original": "Once Upon a Time in... Hollywood",
+    "tmdb": 466272,
+    "trailer": "_mUZobwljrc"
+  },
+  "tmdb-748681": {
+    "anio": 2026,
+    "caducado": "2026-11-19",
+    "cartel": "https://image.tmdb.org/t/p/w500/eS83uVLN6OAH5ZLrUPyoWDVXI2b.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oimdtYU6dkiWihL3kxx5KOHOq6E.jpg",
+        "id": 1500339,
+        "nombre": "Ervin Han"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/cWTCe2PW5QAwheyOqfIGMZ1QVWD.jpg",
+        "id": 228709,
+        "nombre": "Raúl García",
+        "premios": [],
+        "wikidata": "Q28858393"
+      }
+    ],
+    "duracion": 114,
+    "estreno": "2026-09-17",
+    "fondo": "https://image.tmdb.org/t/p/w1280/cM880xhKvr8vp7nfacFi8g6wWkG.jpg",
+    "generos": [
+      "Animación",
+      "Drama",
+      "Música"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oimdtYU6dkiWihL3kxx5KOHOq6E.jpg",
+        "id": 1500339,
+        "nombre": "Ervin Han"
+      },
+      {
+        "id": 4046167,
+        "nombre": "Jordan Katherine See"
+      }
+    ],
+    "id": "tmdb-748681",
+    "idioma_original": "en",
+    "imdb": "tt30388264",
+    "musica": [
+      {
+        "id": 4922820,
+        "nombre": "Isabel Latorre"
+      },
+      {
+        "id": 3114513,
+        "nombre": "Ricky Ho"
+      }
+    ],
+    "paises": [
+      "SG",
+      "ES",
+      "IT",
+      "CO"
+    ],
+    "premios": [
+      {
+        "anio": 2026,
+        "premio": "Cristall d'Annecy al llargmetratge",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2026,
+        "premio": "Premi Asia Pacific Screen a la millor pel·lícula d'animació",
+        "tipo": "ganado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/nxPhGMhjlHt9J1Iu33z2YTsSWxj.jpg",
+        "id": 1218908,
+        "nombre": "Tan Kheng Hua",
+        "papel": "Fei (voice)",
+        "premios": [],
+        "wikidata": "Q7682072"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/HaSwo4Yp8x1VtYU54UoeDvUfG4.jpg",
+        "id": 1736757,
+        "nombre": "田邊和也",
+        "papel": "Takeshi Inoue (voice)",
+        "premios": [],
+        "wikidata": "Q30929628"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vxM7U4FhzcZqAW6Sx5Lg1iehXYS.jpg",
+        "id": 1211862,
+        "nombre": "Adrian Pang",
+        "papel": "Lim Bo Seng (voice)",
+        "premios": [
+          {
+            "anio": 2021,
+            "premio": "Singapuresos Més Influents",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q4685264"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/53YYrofxpMInmYhUXjRuw0umQGq.jpg",
+        "id": 2845902,
+        "nombre": "Ayden Sng",
+        "papel": "Kai (voice)",
+        "premios": [],
+        "wikidata": "Q108830043"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/1lACQepfukuZ0l6FnUpMO03WxcJ.jpg",
+        "id": 944099,
+        "nombre": "Enrique Arce",
+        "papel": "Hugo (voice)"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vCjTRlssuf9FqbaSQ6TUkM0uct.jpg",
+        "id": 1874097,
+        "nombre": "Fang Rong Foo",
+        "papel": "Fei (young) (voice)"
+      }
+    ],
+    "sinopsis": {
+      "ca": "La violinista és una pel·lícula dramàtica d'època d'animació del 2026. La pel·lícula abasta huit dècades de la història de Singapur, seguint dos amics de la infància amb talent musical al Singapur colonial, les vides dels quals es veuen capgirades per la Segona Guerra Mundial i la posterior ocupació japonesa.",
+      "en": "It is Singapore in the late 1930s. Kai and Fei are childhood friends and aspiring violinists. When Japan invades Malaya in 1941, Kai chooses to forgo his music career to join the anti-Japanese forces. After the war Kai goes missing. Determined to find him, Fei performs all over Southeast Asia, all the while seeking any news of Kai. Yet, as time fades, Fei has to decide if she must find her own music to define the remaining years of her life.",
+      "es": "Nos encontramos en Singapur, a finales de la década de 1930. Kai y Fei son amigos de la infancia y aspirantes a violinistas. Cuando Japón invade Malaya en 1941, Kai decide renunciar a su carrera musical para unirse a las fuerzas antijaponesas. Tras la guerra, Kai desaparece. Decidida a encontrarlo, Fei actúa por todo el Sudeste Asiático mientras busca cualquier noticia sobre él. Sin embargo, a medida que pasa el tiempo, Fei debe decidir si ha de encontrar su propia música para definir los años que le quedan de vida."
+    },
+    "titulo": "El violinista",
+    "titulo_ca": "La Violinista",
+    "titulo_original": "The Violinist",
+    "tmdb": 748681,
+    "trailer": "38fqIdZ4aZM"
   },
   "tmdb-9764": {
     "anio": 1975,
