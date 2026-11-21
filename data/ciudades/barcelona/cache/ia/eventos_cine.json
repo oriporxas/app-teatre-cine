@@ -198,5 +198,8 @@
 "open_data_bcn:99400790747": {"confianza": 0.95, "huella": "676d1950219f2bee", "tipo": "proyección"},
 "open_data_bcn:99400790750": {"confianza": 0.95, "huella": "82a8eab54e8470b1", "tipo": "proyección"},
 "open_data_bcn:99400790917": {"confianza": 0.6, "huella": "e830412da733da67", "tipo": "no es de cine"},
+"open_data_bcn:99400791043": {"confianza": 0.8, "huella": "5b6398db0f3b3295", "tipo": "conferencia o coloquio"},
+"open_data_bcn:99400791044": {"confianza": 0.8, "huella": "114e9e5bd31045d7", "tipo": "conferencia o coloquio"},
+"open_data_bcn:99400791046": {"confianza": 0.6, "huella": "7d2b49048a56afb6", "tipo": "formación"},
 "webs_salas:b1a53a42fd68963e": {"confianza": 0.6, "huella": "dcf789606f442525", "tipo": "no es de cine"}
 }

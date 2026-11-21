@@ -3,7 +3,7 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-21",
-    "publicadas": 85
+    "publicadas": 101
   },
   "escena": {
     "anomalias": [
@@ -34,6 +34,13 @@
         "id": "open_data_bcn:99400702277",
         "regla": "repetida",
         "titulo": "Anem al Teatre"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400714868",
+        "id": "open_data_bcn:99400729803",
+        "regla": "repetida",
+        "titulo": "Improvisació teatral"
       },
       {
         "accion": "función quitada",
@@ -111,6 +118,20 @@
         "id": "open_data_bcn:99400750190",
         "regla": "fecha",
         "titulo": "No me toques el cuento"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400714867",
+        "id": "open_data_bcn:99400761359",
+        "regla": "repetida",
+        "titulo": "Teatre i expressió corporal"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400740067",
+        "id": "open_data_bcn:99400767580",
+        "regla": "repetida",
+        "titulo": "Teatre clown"
       },
       {
         "accion": "aviso",
@@ -220,10 +241,10 @@
     ],
     "corregidas_por_regla": {
       "fecha": 19,
-      "repetida": 8,
+      "repetida": 11,
       "sala": 3
     },
     "fecha": "2026-11-21",
-    "publicadas": 679
+    "publicadas": 665
   }
 }

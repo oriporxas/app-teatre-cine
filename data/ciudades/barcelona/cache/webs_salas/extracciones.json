@@ -2093,17 +2093,16 @@
       "https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis",
       "https://teatrometamorfosis.com/es/contacto/",
       "https://teatrometamorfosis.com/es/el-espacio/",
-      "https://teatrometamorfosis.com/es/event/dragatha-christie-2/2024-06-22/",
+      "https://teatrometamorfosis.com/es/event/las-negretti/2026-06-11/",
+      "https://teatrometamorfosis.com/es/event/stand-up-night-english-edition-9/2023-10-05/",
+      "https://teatrometamorfosis.com/es/eventos/bye-bye-ansiedad-especial-sant-jordi/",
       "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/",
-      "https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/",
       "https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/",
       "https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1",
       "https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1",
-      "https://teatrometamorfosis.com/es/eventos/javier-lamattina/",
       "https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/",
       "https://teatrometamorfosis.com/es/eventos/nenucha-3/",
       "https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/",
-      "https://teatrometamorfosis.com/es/eventos/smut-slam-8/",
       "https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/",
       "https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/",
       "https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/",
@@ -2114,45 +2113,23 @@
       "https://teatrometamorfosis.com/events/",
       "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist"
     ],
-    "fecha": "2026-11-20",
-    "firma": "a107dfb7d8ab89b3",
+    "fecha": "2026-11-21",
+    "firma": "f18b2342f7ec3b12",
     "obras": [
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "CUARTETO INSURGENTE – «DECONSTRUCCIÓN»",
-        "descripcion": "",
-        "enlace": "https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/",
-        "funciones": [
-          {
-            "cita": "Nov\n20",
-            "fecha": "2026-11-20",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "CUARTETO INSURGENTE – «DECONSTRUCCIÓN»"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "Nenucha",
+        "cita_titulo": "Nenucha\n[https://teatrometamorfosis.com/es/eventos/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/eventos/nenucha-3/]\n21:00\n-\n23:00",
         "descripcion": "",
         "enlace": "https://teatrometamorfosis.com/es/eventos/nenucha-3/",
         "funciones": [
           {
-            "cita": "Nov\n21",
+            "cita": "Nov\n21\nNenucha [https://teatrometamorfosis.com/es/eventos/nenucha-3/]\n21:00",
             "fecha": "2026-11-21",
             "hora": "21:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2164,17 +2141,17 @@
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "Top Comedy BCN",
+        "cita_titulo": "Top Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00",
         "descripcion": "",
         "enlace": "https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/",
         "funciones": [
           {
-            "cita": "Nov\n27",
+            "cita": "Nov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00",
             "fecha": "2026-11-27",
             "hora": "20:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2191,12 +2168,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/",
         "funciones": [
           {
-            "cita": "Nov\n29",
+            "cita": "Nov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00",
             "fecha": "2026-11-29",
             "hora": "19:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2213,12 +2190,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/",
         "funciones": [
           {
-            "cita": "Dic\n3",
+            "cita": "Dic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00",
             "fecha": "2026-12-03",
             "hora": "20:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2235,12 +2212,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/",
         "funciones": [
           {
-            "cita": "Dic\n9",
+            "cita": "Dic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00",
             "fecha": "2026-12-09",
             "hora": "20:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2257,12 +2234,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/",
         "funciones": [
           {
-            "cita": "Dic\n11",
+            "cita": "Dic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30",
             "fecha": "2026-12-11",
             "hora": "20:30"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2279,12 +2256,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/",
         "funciones": [
           {
-            "cita": "Dic\n18",
+            "cita": "Dic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30",
             "fecha": "2026-12-18",
             "hora": "20:30"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2301,12 +2278,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/",
         "funciones": [
           {
-            "cita": "Dic\n20",
+            "cita": "Dic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00",
             "fecha": "2026-12-20",
             "hora": "20:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2316,14 +2293,13 @@
         "titulo": "THE HUMAN FISH EN CONCERT"
       }
     ],
-    "texto": "Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\nSala de arte y teatro\nNuestro teatro está ubicado en el centro de la vibrante Barcelona. El Teatro Metamorfosis es un punto de encuentro cultural para intercambiar conocimientos, apreciar las artes y disfrutar de un delicioso entretenimiento.\nEventos [https://teatrometamorfosis.com/es/events/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n[https://goo.gl/maps/hAGVuSiM7NL5omQD9]\nPróximos eventos\n9 eventos encontrados.\nList of events in Photo View\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN»\n[https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/]\nNov\n20\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN» [https://teatrometamorfosis.com/es/eventos/cuarteto-insurgente-deconstruccion-4/]\n20:30\n-\n23:00\nNenucha\n[https://teatrometamorfosis.com/es/eventos/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/eventos/nenucha-3/]\n21:00\n-\n23:00\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1]\nEventos [https://teatrometamorfosis.com/events/]\nEl espacio\nTeatro Metamorfosis es un espacio versátil y adaptable, diseñado para albergar hasta 95 invitados, y está equipado con instalaciones de última generación para producciones teatrales, presentaciones de música en vivo, talleres, proyecciones y conferencias. También ofrecemos servicios de alquiler para eventos tanto privados como corporativos, creando una experiencia a medida para todos los asistentes.\nInformación técnica [https://teatrometamorfosis.com/es/el-espacio/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n«No pienses en hacer arte, simplemente hazlo. Deja que todos los demás decidan si es bueno o malo, si lo aman o lo odian. Mientras ellos deciden, haz aún más arte.» – Andy Warhol\nGaleria\n[https://teatrometamorfosis.com/es/eventos/smut-slam-8/]\nThis exciting storytelling open mic based on real life, real lust, real sex is back in Barcelona on Thursday, June 5,…\n[https://teatrometamorfosis.com/es/event/dragatha-christie-2/2024-06-22/]\nSix suspects. Six weapons. Six motives. Welcome to the Snatch Hotel, where a murder awaits you behind its doors and you…\n[https://teatrometamorfosis.com/es/eventos/javier-lamattina/]\nVa de celebración y reencuentro. Javier Lamattina (Buenos Aires, 1974) se presenta en el teatro Metamorfosis con Los Custodios del Aire;…\nVer la programación completa [https://teatrometamorfosis.com/events/]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
+    "texto": "Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\nSala de arte y teatro\nNuestro teatro está ubicado en el centro de la vibrante Barcelona. El Teatro Metamorfosis es un punto de encuentro cultural para intercambiar conocimientos, apreciar las artes y disfrutar de un delicioso entretenimiento.\nEventos [https://teatrometamorfosis.com/es/events/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n[https://goo.gl/maps/hAGVuSiM7NL5omQD9]\nPróximos eventos\n8 eventos encontrados.\nList of events in Photo View\nNenucha\n[https://teatrometamorfosis.com/es/eventos/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/eventos/nenucha-3/]\n21:00\n-\n23:00\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1]\nEventos [https://teatrometamorfosis.com/events/]\nEl espacio\nTeatro Metamorfosis es un espacio versátil y adaptable, diseñado para albergar hasta 95 invitados, y está equipado con instalaciones de última generación para producciones teatrales, presentaciones de música en vivo, talleres, proyecciones y conferencias. También ofrecemos servicios de alquiler para eventos tanto privados como corporativos, creando una experiencia a medida para todos los asistentes.\nInformación técnica [https://teatrometamorfosis.com/es/el-espacio/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n«No pienses en hacer arte, simplemente hazlo. Deja que todos los demás decidan si es bueno o malo, si lo aman o lo odian. Mientras ellos deciden, haz aún más arte.» – Andy Warhol\nGaleria\n[https://teatrometamorfosis.com/es/event/las-negretti/2026-06-11/]\nTe imaginas transformar la mierda en risas?? Bueno, a nosotras se nos da bien y por eso cada presentación que hacemos…\n[https://teatrometamorfosis.com/es/eventos/bye-bye-ansiedad-especial-sant-jordi/]\nEste monólogo divertido y profundo pretende ayudarte en los primeros pasos para conseguir entender la ansiedad y superarla. A través de…\n[https://teatrometamorfosis.com/es/event/stand-up-night-english-edition-9/2023-10-05/]\nGet ready for a night of laughter at our Stand-Up Comedy Show! Join us for an evening of non-stop giggles as…\nVer la programación completa [https://teatrometamorfosis.com/events/]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
   },
   "99400724220|https://teatrometamorfosis.com/es/events/": {
     "enlaces": [
       "https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis",
       "https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis",
       "https://teatrometamorfosis.com/es/event/casa-drassanes-al-teatre-balago-presenta-ningu/",
-      "https://teatrometamorfosis.com/es/event/cuarteto-insurgente-deconstruccion-4/",
       "https://teatrometamorfosis.com/es/event/dinamo-lucia-massalta-labitti/",
       "https://teatrometamorfosis.com/es/event/live-music-silent-cinema-christmas-carols/",
       "https://teatrometamorfosis.com/es/event/nenucha-3/",
@@ -2338,31 +2314,9 @@
       "https://teatrometamorfosis.com/es/wp-login.php?action=register",
       "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist"
     ],
-    "fecha": "2026-11-19",
-    "firma": "1fed1e624933cbfd",
+    "fecha": "2026-11-21",
+    "firma": "4901d174045ef530",
     "obras": [
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "CUARTETO INSURGENTE – «DECONSTRUCCIÓN»",
-        "descripcion": "",
-        "enlace": "https://teatrometamorfosis.com/es/event/cuarteto-insurgente-deconstruccion-4/",
-        "funciones": [
-          {
-            "cita": "Nov 20 … 20:30",
-            "fecha": "2026-11-20",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "CUARTETO INSURGENTE – «DECONSTRUCCIÓN»"
-      },
       {
         "cita_lugar": "",
         "cita_precio": "",
@@ -2371,7 +2325,7 @@
         "enlace": "https://teatrometamorfosis.com/es/event/nenucha-3/",
         "funciones": [
           {
-            "cita": "Nov 21 … 21:00",
+            "cita": "Nov 21 ... 21:00",
             "fecha": "2026-11-21",
             "hora": "21:00"
           }
@@ -2393,7 +2347,7 @@
         "enlace": "https://teatrometamorfosis.com/es/event/top-comedy-bcnon-friday/",
         "funciones": [
           {
-            "cita": "Nov 27 … 20:00",
+            "cita": "Nov 27 ... 20:00",
             "fecha": "2026-11-27",
             "hora": "20:00"
           }
@@ -2415,7 +2369,7 @@
         "enlace": "https://teatrometamorfosis.com/es/event/casa-drassanes-al-teatre-balago-presenta-ningu/",
         "funciones": [
           {
-            "cita": "Nov 29 … 19:00",
+            "cita": "Nov 29 ... 19:00",
             "fecha": "2026-11-29",
             "hora": "19:00"
           }
@@ -2427,7 +2381,7 @@
           "fin": "",
           "inicio": ""
         },
-        "titulo": "CASA DRASSANES AL TEATRE – Balago presenta «Ningú»"
+        "titulo": "Ningú"
       },
       {
         "cita_lugar": "",
@@ -2437,12 +2391,12 @@
         "enlace": "https://teatrometamorfosis.com/es/event/smut-slam-barcelona-4/",
         "funciones": [
           {
-            "cita": "Dic 3 … 20:00",
+            "cita": "Dic 3 ... 20:00",
             "fecha": "2026-12-03",
             "hora": "20:00"
           }
         ],
-        "idioma": "en",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2459,7 +2413,7 @@
         "enlace": "https://teatrometamorfosis.com/es/event/live-music-silent-cinema-christmas-carols/",
         "funciones": [
           {
-            "cita": "Dic 9 … 20:00",
+            "cita": "Dic 9 ... 20:00",
             "fecha": "2026-12-09",
             "hora": "20:00"
           }
@@ -2481,7 +2435,7 @@
         "enlace": "https://teatrometamorfosis.com/es/event/dinamo-lucia-massalta-labitti/",
         "funciones": [
           {
-            "cita": "Dic 11 … 20:30",
+            "cita": "Dic 11 ... 20:30",
             "fecha": "2026-12-11",
             "hora": "20:30"
           }
@@ -2503,12 +2457,12 @@
         "enlace": "https://teatrometamorfosis.com/es/event/nod-mila-trani-rocco-papia/",
         "funciones": [
           {
-            "cita": "Dic 18 … 20:30",
+            "cita": "Dic 18 ... 20:30",
             "fecha": "2026-12-18",
             "hora": "20:30"
           }
         ],
-        "idioma": "otro",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2525,7 +2479,7 @@
         "enlace": "https://teatrometamorfosis.com/es/event/the-human-fish-en-concert/",
         "funciones": [
           {
-            "cita": "Dic 20 … 20:00",
+            "cita": "Dic 20 ... 20:00",
             "fecha": "2026-12-20",
             "hora": "20:00"
           }
@@ -2540,14 +2494,13 @@
         "titulo": "THE HUMAN FISH EN CONCERT"
       }
     ],
-    "texto": "Eventos - Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\n9 eventos encontrados.\nList of events in Photo View\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN»\n[https://teatrometamorfosis.com/es/event/cuarteto-insurgente-deconstruccion-4/]\nNov\n20\nCUARTETO INSURGENTE – «DECONSTRUCCIÓN» [https://teatrometamorfosis.com/es/event/cuarteto-insurgente-deconstruccion-4/]\n20:30\n-\n23:00\nNenucha\n[https://teatrometamorfosis.com/es/event/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/event/nenucha-3/]\n21:00\n-\n23:00\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/event/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/event/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/event/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/event/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/event/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/event/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/event/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/event/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/event/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/event/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/event/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/event/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?hide_subsequent_recurrences=1&outlook-ical=1#038;ical=1]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
+    "texto": "Eventos - Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\n8 eventos encontrados.\nList of events in Photo View\nNenucha\n[https://teatrometamorfosis.com/es/event/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/es/event/nenucha-3/]\n21:00\n-\n23:00\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/event/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/event/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/event/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/event/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/event/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/event/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/event/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/event/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/event/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/event/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/event/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/event/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?hide_subsequent_recurrences=1&outlook-ical=1#038;ical=1]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
   },
   "99400724220|https://teatrometamorfosis.com/events/": {
     "enlaces": [
       "https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Events+-+Teatro+Metamorfosis",
       "https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Events+-+Teatro+Metamorfosis",
       "https://teatrometamorfosis.com/event/casa-drassanes-al-teatre-balago-presenta-ningu/",
-      "https://teatrometamorfosis.com/event/cuarteto-insurgente-deconstruccion-4/",
       "https://teatrometamorfosis.com/event/dinamo-lucia-massalta-labitti/",
       "https://teatrometamorfosis.com/event/live-music-silent-cinema-christmas-carols/",
       "https://teatrometamorfosis.com/event/nenucha-3/",
@@ -2562,31 +2515,9 @@
       "https://teatrometamorfosis.com/wp-login.php?action=register",
       "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist"
     ],
-    "fecha": "2026-11-19",
-    "firma": "110c3dfceac103ac",
+    "fecha": "2026-11-21",
+    "firma": "d06677d10f251d5a",
     "obras": [
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "CUARTETO INSURGENTE – “DECONSTRUCCIÓN”",
-        "descripcion": "",
-        "enlace": "https://teatrometamorfosis.com/event/cuarteto-insurgente-deconstruccion-4/",
-        "funciones": [
-          {
-            "cita": "Nov 20 8:30 pm",
-            "fecha": "2026-11-20",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "CUARTETO INSURGENTE – “DECONSTRUCCIÓN”"
-      },
       {
         "cita_lugar": "",
         "cita_precio": "",
@@ -2595,7 +2526,7 @@
         "enlace": "https://teatrometamorfosis.com/event/nenucha-3/",
         "funciones": [
           {
-            "cita": "Nov 21 9:00 pm",
+            "cita": "Nov 21 … 9:00 pm",
             "fecha": "2026-11-21",
             "hora": "21:00"
           }
@@ -2617,7 +2548,7 @@
         "enlace": "https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/",
         "funciones": [
           {
-            "cita": "Nov 27 8:00 pm",
+            "cita": "Nov 27 … 8:00 pm",
             "fecha": "2026-11-27",
             "hora": "20:00"
           }
@@ -2639,12 +2570,12 @@
         "enlace": "https://teatrometamorfosis.com/event/casa-drassanes-al-teatre-balago-presenta-ningu/",
         "funciones": [
           {
-            "cita": "Nov 29 7:00 pm",
+            "cita": "Nov 29 … 7:00 pm",
             "fecha": "2026-11-29",
             "hora": "19:00"
           }
         ],
-        "idioma": "es",
+        "idioma": "ca",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2661,7 +2592,7 @@
         "enlace": "https://teatrometamorfosis.com/event/smut-slam-barcelona-4/",
         "funciones": [
           {
-            "cita": "Dec 3 8:00 pm",
+            "cita": "Dec 3 … 8:00 pm",
             "fecha": "2026-12-03",
             "hora": "20:00"
           }
@@ -2683,7 +2614,7 @@
         "enlace": "https://teatrometamorfosis.com/event/live-music-silent-cinema-christmas-carols/",
         "funciones": [
           {
-            "cita": "Dec 9 8:00 pm",
+            "cita": "Dec 9 … 8:00 pm",
             "fecha": "2026-12-09",
             "hora": "20:00"
           }
@@ -2705,7 +2636,7 @@
         "enlace": "https://teatrometamorfosis.com/event/dinamo-lucia-massalta-labitti/",
         "funciones": [
           {
-            "cita": "Dec 11 8:30 pm",
+            "cita": "Dec 11 … 8:30 pm",
             "fecha": "2026-12-11",
             "hora": "20:30"
           }
@@ -2727,12 +2658,12 @@
         "enlace": "https://teatrometamorfosis.com/event/nod-mila-trani-rocco-papia/",
         "funciones": [
           {
-            "cita": "Dec 18 8:30 pm",
+            "cita": "Dec 18 … 8:30 pm",
             "fecha": "2026-12-18",
             "hora": "20:30"
           }
         ],
-        "idioma": "es",
+        "idioma": "otro",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2749,7 +2680,7 @@
         "enlace": "https://teatrometamorfosis.com/event/the-human-fish-en-concert/",
         "funciones": [
           {
-            "cita": "Dec 20 8:00 pm",
+            "cita": "Dec 20 … 8:00 pm",
             "fecha": "2026-12-20",
             "hora": "20:00"
           }
@@ -2764,7 +2695,7 @@
         "titulo": "THE HUMAN FISH EN CONCERT"
       }
     ],
-    "texto": "Events - Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/privacy-policy/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalytics\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSkip to content\n9 events found.\nList of events in Photo View\nCUARTETO INSURGENTE – “DECONSTRUCCIÓN”\n[https://teatrometamorfosis.com/event/cuarteto-insurgente-deconstruccion-4/]\nNov\n20\nCUARTETO INSURGENTE – “DECONSTRUCCIÓN” [https://teatrometamorfosis.com/event/cuarteto-insurgente-deconstruccion-4/]\n8:30 pm\n-\n11:00 pm\nNenucha\n[https://teatrometamorfosis.com/event/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/event/nenucha-3/]\n9:00 pm\n-\n11:00 pm\nTop Comedy BCN\n[https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/]\n8:00 pm\n-\n10:00 pm\nCASA DRASSANES AL TEATRE – Balago presenta “Ningú”\n[https://teatrometamorfosis.com/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta “Ningú” [https://teatrometamorfosis.com/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\n7:00 pm\n-\n9:00 pm\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/event/smut-slam-barcelona-4/]\nDec\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/event/smut-slam-barcelona-4/]\n8:00 pm\n-\n10:00 pm\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/event/live-music-silent-cinema-christmas-carols/]\nDec\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/event/live-music-silent-cinema-christmas-carols/]\n8:00 pm\n-\n10:00 pm\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/event/dinamo-lucia-massalta-labitti/]\nDec\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/event/dinamo-lucia-massalta-labitti/]\n8:30 pm\n-\n10:00 pm\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/event/nod-mila-trani-rocco-papia/]\nDec\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/event/nod-mila-trani-rocco-papia/]\n8:30 pm\n-\n10:30 pm\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/event/the-human-fish-en-concert/]\nDec\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/event/the-human-fish-en-concert/]\n8:00 pm\n-\n10:00 pm\nSubscribe to calendar\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Events+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Events+-+Teatro+Metamorfosis]\nExport .ics file [https://teatrometamorfosis.com/events/photo/?hide_subsequent_recurrences=1&ical=1]\nExport Outlook .ics file [https://teatrometamorfosis.com/events/photo/?hide_subsequent_recurrences=1&outlook-ical=1#038;ical=1]\nUsername or Email Address\nPassword\nRemember Me\nLost your password? [https://teatrometamorfosis.com/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/wp-login.php?action=register]"
+    "texto": "Events - Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/privacy-policy/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalytics\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSkip to content\n8 events found.\nList of events in Photo View\nNenucha\n[https://teatrometamorfosis.com/event/nenucha-3/]\nNov\n21\nNenucha [https://teatrometamorfosis.com/event/nenucha-3/]\n9:00 pm\n-\n11:00 pm\nTop Comedy BCN\n[https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/event/top-comedy-bcnon-friday/]\n8:00 pm\n-\n10:00 pm\nCASA DRASSANES AL TEATRE – Balago presenta “Ningú”\n[https://teatrometamorfosis.com/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta “Ningú” [https://teatrometamorfosis.com/event/casa-drassanes-al-teatre-balago-presenta-ningu/]\n7:00 pm\n-\n9:00 pm\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/event/smut-slam-barcelona-4/]\nDec\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/event/smut-slam-barcelona-4/]\n8:00 pm\n-\n10:00 pm\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/event/live-music-silent-cinema-christmas-carols/]\nDec\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/event/live-music-silent-cinema-christmas-carols/]\n8:00 pm\n-\n10:00 pm\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/event/dinamo-lucia-massalta-labitti/]\nDec\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/event/dinamo-lucia-massalta-labitti/]\n8:30 pm\n-\n10:00 pm\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/event/nod-mila-trani-rocco-papia/]\nDec\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/event/nod-mila-trani-rocco-papia/]\n8:30 pm\n-\n10:30 pm\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/event/the-human-fish-en-concert/]\nDec\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/event/the-human-fish-en-concert/]\n8:00 pm\n-\n10:00 pm\nSubscribe to calendar\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Events+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Events+-+Teatro+Metamorfosis]\nExport .ics file [https://teatrometamorfosis.com/events/photo/?hide_subsequent_recurrences=1&ical=1]\nExport Outlook .ics file [https://teatrometamorfosis.com/events/photo/?hide_subsequent_recurrences=1&outlook-ical=1#038;ical=1]\nUsername or Email Address\nPassword\nRemember Me\nLost your password? [https://teatrometamorfosis.com/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/wp-login.php?action=register]"
   },
   "99400755810|https://teatroflamencobarcelona.com/": {
     "enlaces": [

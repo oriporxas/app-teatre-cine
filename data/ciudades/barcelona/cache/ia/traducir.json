@@ -821,6 +821,22 @@
     },
     "traduccion": "Taller para explorar la creatividad a través de dinámicas teatrales y de movimiento. Mediante juegos dramáticos, ejercicios de coordinación e improvisación. Profesor/a: Fran Pedreros, de Carxofa Clown"
   },
+  "open_data_bcn:99400714868": {
+    "destino": "es",
+    "firma": "94138c9457bc3823",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "improvisació",
+        "expressivitat"
+      ],
+      "es": [
+        "improvisación",
+        "expresividad"
+      ]
+    },
+    "traduccion": "Taller para explorar la improvisación como técnica para crear escenas en el momento, confiando en la escucha, la espontaneidad y el juego colectivo. A través de ejercicios lúdicos basados en el uso del cuerpo y la voz, se trabajará la desinhibición, la imaginación, la expresividad y el humor como herramienta creativa, desde una mirada crítica. Profesor/a: Sole Cardigni, de Minusas Teatre"
+  },
   "open_data_bcn:99400715150": {
     "destino": "es",
     "firma": "598b13ef40045462",
@@ -2812,6 +2828,24 @@
     },
     "traduccion": "La obra presenta la historia de una mujer singular, inspirada en la figura de Chita Rivera, leyenda del teatro musical, pero narrada a través de múltiples espejos y voces. Pasaremos por la infancia dentro de una familia puertorriqueña, el accidente que la llevó a la danza, el estallido en Broadway con títulos como West Side Story, Chicago o Kiss of the Spider Woman. Pero también los obstáculos, la invisibilización, la maternidad, la lucha, la soledad. Los personajes que Chita interpretó se convierten en voces interiores: Anita, Velma, Aurora... ángeles y demonios de una identidad construida en el escenario. La historia lleva al espectador a adentrarse en una experiencia donde los límites entre realidad y ficción, entre biografía y ficción teatral, se diluyen. Lo que se construye, en el fondo, es la historia de cualquier mujer. Un equipo formado íntegramente por mujeres, lleno de energía y pasión por el escenario."
   },
+  "open_data_bcn:99400765780": {
+    "destino": "es",
+    "firma": "d2239d4c5fdeb000",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "família",
+        "vellesa",
+        "cures"
+      ],
+      "es": [
+        "familia",
+        "vejez",
+        "cuidados"
+      ]
+    },
+    "traduccion": "A cargo del grupo Ressonàncies del Sud. Después de 40 años de matrimonio, la Montse ha tomado una decisión que lo puede cambiar todo: quiere divorciarse. L'Estela, la Carmen y en Pau tendrán que afrontar una noticia inesperada que pone sobre la mesa la vejez, los cuidados y los mandatos patriarcales. En esta obra participativa, el público también tiene voz. ¿Conseguirán los hijos hacer cambiar de opinión a la madre? Al acabar la obra se abrirá un debate sobre el edadismo. Actividad relacionada con la charla de l'0Argumenta BCN del 11 de febrero"
+  },
   "open_data_bcn:99400765786": {
     "destino": "es",
     "firma": "49fda2fc026ce15b",
@@ -2988,6 +3022,22 @@
     },
     "traduccion": "Vive una experiencia artística donde el circo aéreo se fusiona con la expresión corporal y teatral. En este taller exploraremos el movimiento en el aire a través de telas y otros elementos aéreos, pero también trabajaremos la presencia escénica, la creatividad y la comunicación emocional a través del cuerpo. Hay que traer ropa cómoda. Profesional: Raül Benet Erola"
   },
+  "open_data_bcn:99400767580": {
+    "destino": "es",
+    "firma": "03b6ccb9bf478660",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "clown",
+        "comicitat"
+      ],
+      "es": [
+        "clown",
+        "comicidad"
+      ]
+    },
+    "traduccion": "Taller práctico que busca explorar la técnica del clown mediante ejercicios teatrales específicos para desarrollar el potencial cómico, la autenticidad y la presencia escénica. Se trabajará a través de dinámicas y juegos que fomentan la confianza personal y grupal. Se propone traer una nariz de payaso Profesor/a: Fran Pedreros, de Carxofa Clown"
+  },
   "open_data_bcn:99400767664": {
     "destino": "es",
     "firma": "3e53e88a5238a31d",
@@ -3019,6 +3069,20 @@
       ]
     },
     "traduccion": "A cargo de: De paper Edad recomendada: A partir de 4 años Duración: 45 minutos Idioma: Catalán Es hora de comer, y cada cual se las arregla como puede para llenar la barriga. No hay que distraerse. Una serie de accidentes, malentendidos y engaños hacen que incluso los animales más espabilados acaben en la barriga de algún compañero de fatigas. Canciones originales hechas a medida que tejen un relato sorprendente y divertido, ilustrado con teatro de sombras, teatrillos de papel y títeres de cartón. ¡Abrid bien los ojos y parad bien las orejas! Esta programación forma parte del circuito Escena. El espectáculo dispondrá de las siguientes medidas de accesibilidad: Espacio tranquilo para niños con autismo Cascos antirruido"
+  },
+  "open_data_bcn:99400767755": {
+    "destino": "es",
+    "firma": "b3ece053ce3da9b1",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "màgia"
+      ],
+      "es": [
+        "magia"
+      ]
+    },
+    "traduccion": "Descubriremos los secretos de la magia a través de trucos sorprendentes con cartas, monedas y objetos cotidianos. ¡Un primer paso para convertirse en un auténtico mago o maga! A cargo de Miquel Brasó"
   },
   "open_data_bcn:99400768857": {
     "destino": "es",
@@ -9279,6 +9343,44 @@
       ]
     },
     "traduccion": "A través del cuerpo, el juego y la relación con los demás, descubriremos las bases de la improvisación teatral. Aprenderemos a confiar en el impulso, a escuchar y a construir escenas en el mismo momento en que suceden. El objetivo es desarrollar presencia, creatividad y capacidad de respuesta, convirtiendo al intérprete en motor activo de la creación. Profesora: Natalia Barraza"
+  },
+  "open_data_bcn:99400791081": {
+    "destino": "es",
+    "firma": "1d21330c6283eed0",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "memòria històrica"
+      ],
+      "es": [
+        "memoria histórica"
+      ]
+    },
+    "traduccion": "A lo largo del trimestre, nos sumergiremos en una selección de obras que reivindican la voz y la memoria de las víctimas para rescatarlas del olvido y visibilizar el dolor y el silencio al que fueron condenadas. Un espacio para intercambiar opiniones y lecturas; una manera de acercarse al teatro desde el texto para descubrirlo poco a poco y poder disfrutarlo más allá del escenario. Habrá que recoger el ejemplar en el Centro para poder leerlo antes de cada una de las sesiones quincenales Profesor/a: Eva Saumell"
+  },
+  "open_data_bcn:99400791087": {
+    "destino": "es",
+    "firma": "261b20d4400b98bf",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "Profesor/a: Eva Saumell El grupo de teatro \"La Ravalera\" ofrece una formación anual en teatro de texto, con un enfoque práctico que integra diversas técnicas teatrales y procesos interpretativos, como la construcción de personajes y el montaje de escenas. Es un taller que nos permitirá adentrarnos en todo el proceso que implica la creación de un montaje teatral."
+  },
+  "open_data_bcn:99400791113": {
+    "destino": "es",
+    "firma": "fc997745abf362ce",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "improvisació"
+      ],
+      "es": [
+        "improvisación"
+      ]
+    },
+    "traduccion": "A cargo de La Casa de la Impro Colaboración Teatro · 75 minutos · Catalán y castellano Para todos los públicos Tercera edición del festival de teatro de improvisación de Barcelona, con un espectáculo creado de la nada: sin guion ni ensayo, solo las propuestas del público y la creatividad del elenco. Historias únicas e irrepetibles que invitan a reír, sorprenderse y disfrutar de la improvisación. La jornada también incluye talleres para acercarse a esta disciplina. Dirección artística: Alan Arias / Interpretación: Alan Arias, Ritxi, Pedro, Mari y Miguel / Técnica de luz y sonido: Eliseu Gallard / Producción: La Casa de la Impro Fotografía del Centro Cívico Drassanes"
   },
   "webs_salas:06cf230b024b496e": {
     "destino": "es",

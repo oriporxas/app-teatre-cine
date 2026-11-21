@@ -1,5 +1,6 @@
 {
   "cines_con_horarios": [
+    "Cinemes Verdi",
     "Mooby Arenas",
     "Mooby Aribau",
     "Mooby Balmes",
@@ -12,7 +13,6 @@
     "Ateneu Barcelonès": "sin web",
     "Cinema Dididado": "sin horarios legibles en su web",
     "Cinemes Girona": "elqueque",
-    "Cinemes Verdi": "elqueque",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
     "Cinesa SOM Multiespai": "su web no permite programas (robots.txt)",
@@ -28,12 +28,12 @@
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 88,
+  "con_actividades": 89,
   "fecha": "2026-11-21",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
-      "sin_actividades": 8
+      "sin_actividades": 7
     },
     "cine": {
       "oficiales": 25,
@@ -45,7 +45,7 @@
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 73,
+  "sin_actividades": 72,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -107,22 +107,6 @@
       "lon": 2.1935349162488165,
       "nombre": "Facultat de Comunicació *Campus de la Comunicació-Poblenou - UPF",
       "numero": "134",
-      "tipo": [
-        "auditorio"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Barri Gòtic",
-      "calle": "Plaça del Rei",
-      "clave": "via280600-9",
-      "codigo_postal": "08002",
-      "distrito": "Ciutat Vella",
-      "id": "2071125357",
-      "lat": 41.3842954888128,
-      "lon": 2.1772601428647365,
-      "nombre": "Museu d'Història de Barcelona. Plaça del Rei",
-      "numero": "9",
       "tipo": [
         "auditorio"
       ]
