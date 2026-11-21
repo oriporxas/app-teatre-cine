@@ -119,6 +119,13 @@
       "tmdb": null,
       "v": 2
     },
+    "agata-roca": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Àgata Roca",
+      "tmdb": 1032556,
+      "v": 2
+    },
     "agatha-christie": {
       "fecha": "2026-11-19",
       "motivo": "otro país",
@@ -175,6 +182,13 @@
       "tmdb": null,
       "v": 1
     },
+    "aitor-galisteo-rocher": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Aitor Galisteo-Rocher",
+      "tmdb": 5268400,
+      "v": 2
+    },
     "ajuntament-de-lloret-de-mar": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -222,6 +236,13 @@
       "motivo": "ok",
       "nombre": "Alba Pujol",
       "tmdb": 1572053,
+      "v": 2
+    },
+    "alba-ramio": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Alba Ramió",
+      "tmdb": null,
       "v": 2
     },
     "alba-rosa": {
@@ -343,6 +364,20 @@
       "tmdb": null,
       "v": 1
     },
+    "albert-perez-hidalgo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Albert Pérez Hidalgo",
+      "tmdb": null,
+      "v": 2
+    },
+    "albert-pijuan": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Albert Pijuan",
+      "tmdb": null,
+      "v": 2
+    },
     "albert-prat": {
       "fecha": "2026-11-19",
       "motivo": "nombre común",
@@ -368,6 +403,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Albert Rodríguez",
+      "tmdb": null,
+      "v": 2
+    },
+    "albert-rue": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Albert Rué",
       "tmdb": null,
       "v": 2
     },
@@ -455,6 +497,13 @@
       "tmdb": null,
       "v": 1
     },
+    "alex-o-dogherty": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Alex O'Dogherty",
+      "tmdb": 1061514,
+      "v": 2
+    },
     "alex-pereira": {
       "fecha": "2026-11-19",
       "motivo": "varias",
@@ -496,6 +545,13 @@
       "nombre": "Àlex Serrano",
       "tmdb": null,
       "v": 1
+    },
+    "alexia-pascual": {
+      "fecha": "2026-11-21",
+      "motivo": "otra persona en Wikidata",
+      "nombre": "Alèxia Pascual",
+      "tmdb": null,
+      "v": 2
     },
     "alfons-nieto": {
       "fecha": "2026-11-19",
@@ -615,6 +671,13 @@
       "nombre": "Amada Sumonte",
       "tmdb": null,
       "v": 1
+    },
+    "amalia-fernandez": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Amalia Fernández",
+      "tmdb": null,
+      "v": 2
     },
     "amb-enric-ases": {
       "fecha": "2026-11-19",
@@ -756,6 +819,13 @@
       "tmdb": null,
       "v": 2
     },
+    "andrea-pellejero": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Andrea Pellejero",
+      "tmdb": null,
+      "v": 2
+    },
     "andrea-puig-doria": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -854,6 +924,13 @@
       "tmdb": null,
       "v": 1
     },
+    "angels-salinas": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Àngels Salinas",
+      "tmdb": null,
+      "v": 2
+    },
     "animal-religion": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -888,6 +965,13 @@
       "nombre": "Anna Carrasco",
       "tmdb": null,
       "v": 1
+    },
+    "anna-castells": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Anna Castells",
+      "tmdb": 1680526,
+      "v": 2
     },
     "anna-castillo": {
       "fecha": "2026-11-19",
@@ -938,6 +1022,13 @@
       "tmdb": null,
       "v": 1
     },
+    "anna-lapeyra-amat": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Anna Lapeyra Amat",
+      "tmdb": null,
+      "v": 2
+    },
     "anna-llenas": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -980,6 +1071,13 @@
       "tmdb": 5474306,
       "v": 2
     },
+    "anna-rius": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Anna Rius",
+      "tmdb": null,
+      "v": 2
+    },
     "anna-rosell": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1000,6 +1098,13 @@
       "nombre": "Anna Roy Boixader",
       "tmdb": null,
       "v": 1
+    },
+    "anna-sala": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Anna Sala",
+      "tmdb": null,
+      "v": 2
     },
     "anna-tantull": {
       "fecha": "2026-11-20",
@@ -1126,6 +1231,13 @@
       "nombre": "Ariadna Julià",
       "tmdb": null,
       "v": 1
+    },
+    "ariadna-parra": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Ariadna Parra",
+      "tmdb": null,
+      "v": 2
     },
     "ariadna-peya": {
       "fecha": "2026-11-20",
@@ -1274,6 +1386,13 @@
       "tmdb": null,
       "v": 1
     },
+    "barbara-glaenzel": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Bàrbara Glaenzel",
+      "tmdb": null,
+      "v": 2
+    },
     "barbara-glaenzl": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1400,6 +1519,13 @@
       "tmdb": null,
       "v": 1
     },
+    "berta-pascual-fernandez": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Berta Pascual Fernández",
+      "tmdb": null,
+      "v": 2
+    },
     "berta-riera": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1455,6 +1581,13 @@
       "nombre": "Biel Rossell",
       "tmdb": null,
       "v": 1
+    },
+    "biel-rossell-pelfort": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Biel Rossell Pelfort",
+      "tmdb": 3477065,
+      "v": 2
     },
     "biljana-camilloni": {
       "fecha": "2026-11-19",
@@ -1701,12 +1834,33 @@
       "tmdb": null,
       "v": 1
     },
+    "carles-pedragosa-torres": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Carles Pedragosa Torres",
+      "tmdb": null,
+      "v": 2
+    },
+    "carles-piera": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Carles Piera",
+      "tmdb": null,
+      "v": 2
+    },
     "carles-pulido": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Carles Pulido",
       "tmdb": null,
       "v": 1
+    },
+    "carles-roig": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Carles Roig",
+      "tmdb": 2071126,
+      "v": 2
     },
     "carles-sans": {
       "fecha": "2026-11-19",
@@ -1763,6 +1917,13 @@
       "nombre": "Carlos Gómez",
       "tmdb": null,
       "v": 1
+    },
+    "carlos-pardo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Carlos Pardo",
+      "tmdb": null,
+      "v": 2
     },
     "carlos-rivera": {
       "fecha": "2026-11-19",
@@ -1827,12 +1988,26 @@
       "tmdb": null,
       "v": 1
     },
+    "carme-pla": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Carme Pla",
+      "tmdb": 225129,
+      "v": 2
+    },
     "carmelo-lorenzo": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Carmelo Lorenzo",
       "tmdb": null,
       "v": 1
+    },
+    "carmen-collado": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Carmen Collado",
+      "tmdb": 2597164,
+      "v": 2
     },
     "carmen-marquez": {
       "fecha": "2026-11-19",
@@ -1861,6 +2036,13 @@
       "nombre": "Cassandra Produccions",
       "tmdb": null,
       "v": 1
+    },
+    "cassandra-projectes-artistics": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Cassandra Projectes Artístics",
+      "tmdb": null,
+      "v": 2
     },
     "catalina-devia": {
       "fecha": "2026-11-19",
@@ -1911,12 +2093,26 @@
       "tmdb": null,
       "v": 2
     },
+    "centre-civic-de-sant-salvador": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Centre Cívic de Sant Salvador",
+      "tmdb": null,
+      "v": 2
+    },
     "centre-civic-la-marina": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Centre Cívic La Marina",
       "tmdb": null,
       "v": 1
+    },
+    "centre-de-titelles-de-lleida": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Centre de Titelles de Lleida",
+      "tmdb": null,
+      "v": 2
     },
     "centro-dramatico-nacional": {
       "fecha": "2026-11-19",
@@ -1988,6 +2184,20 @@
       "tmdb": null,
       "v": 1
     },
+    "christian-fontaine": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Christian Fontaine",
+      "tmdb": null,
+      "v": 2
+    },
+    "cia-anigami": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Cia. Anigami",
+      "tmdb": null,
+      "v": 2
+    },
     "cia-arco-iris": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2001,6 +2211,13 @@
       "nombre": "Cia Càndida",
       "tmdb": null,
       "v": 1
+    },
+    "cia-cinc-centims-teatre": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Cia. Cinc Cèntims Teatre",
+      "tmdb": null,
+      "v": 2
     },
     "cia-circ-cric": {
       "fecha": "2026-11-19",
@@ -2240,6 +2457,13 @@
       "tmdb": null,
       "v": 1
     },
+    "clara-aguilar": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Clara Aguilar",
+      "tmdb": null,
+      "v": 2
+    },
     "clara-algaba": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2314,6 +2538,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "CLARA ROCHE",
+      "tmdb": null,
+      "v": 2
+    },
+    "clara-segura-crespo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Clara Segura Crespo",
       "tmdb": null,
       "v": 2
     },
@@ -2898,6 +3129,27 @@
       "tmdb": null,
       "v": 1
     },
+    "distribucio-nicoletta-battaglia": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Distribució Nicoletta Battaglia",
+      "tmdb": null,
+      "v": 2
+    },
+    "dolors-miquel": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Dolors Miquel",
+      "tmdb": null,
+      "v": 2
+    },
+    "dolors-rusinol": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Dolors Rusiñol",
+      "tmdb": null,
+      "v": 2
+    },
     "dolors-vilarasau": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2910,6 +3162,20 @@
       "motivo": "ninguna",
       "nombre": "Dora Cantero",
       "tmdb": null,
+      "v": 2
+    },
+    "dramaturgia-anna-pascual": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Dramatúrgia Anna Pascual",
+      "tmdb": null,
+      "v": 2
+    },
+    "dudu-alves": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Dudu Alves",
+      "tmdb": 5957535,
       "v": 2
     },
     "duna-montero": {
@@ -3030,6 +3296,13 @@
       "nombre": "Eixample Teatre",
       "tmdb": null,
       "v": 1
+    },
+    "el-conde-de-torrefiel": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "El Conde de Torrefiel",
+      "tmdb": null,
+      "v": 2
     },
     "el-eje": {
       "fecha": "2026-11-20",
@@ -3234,6 +3507,13 @@
       "tmdb": null,
       "v": 2
     },
+    "emma-arquillue": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Emma Arquillué",
+      "tmdb": 2710792,
+      "v": 2
+    },
     "emma-bassas": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3316,6 +3596,20 @@
       "motivo": "ok",
       "nombre": "Èric Pons",
       "tmdb": 2854679,
+      "v": 2
+    },
+    "erica-schmitz": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Erica Schmitz",
+      "tmdb": null,
+      "v": 2
+    },
+    "erick-garcia-vollmer": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Erick Garcia Vollmer",
+      "tmdb": null,
       "v": 2
     },
     "erik-forsberg": {
@@ -3409,12 +3703,33 @@
       "tmdb": null,
       "v": 1
     },
+    "ester-pascual": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Ester Pascual",
+      "tmdb": null,
+      "v": 2
+    },
     "esteve-clos": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Esteve Clos",
       "tmdb": null,
       "v": 1
+    },
+    "esteve-miralles": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Esteve Miralles",
+      "tmdb": null,
+      "v": 2
+    },
+    "esther-lopez": {
+      "fecha": "2026-11-21",
+      "motivo": "otra persona en Wikidata",
+      "nombre": "Esther López",
+      "tmdb": null,
+      "v": 2
     },
     "esther-pane": {
       "fecha": "2026-11-19",
@@ -3451,6 +3766,13 @@
       "tmdb": null,
       "v": 1
     },
+    "eudald-ferre-serra": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Eudald Ferré Serra",
+      "tmdb": null,
+      "v": 2
+    },
     "eudald-font": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -3479,6 +3801,13 @@
       "tmdb": null,
       "v": 1
     },
+    "eva-daigle": {
+      "fecha": "2026-11-21",
+      "motivo": "otro país",
+      "nombre": "Éva Daigle",
+      "tmdb": null,
+      "v": 2
+    },
     "eva-la-medallita": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3505,6 +3834,13 @@
       "motivo": "ok",
       "nombre": "Falk Richter",
       "tmdb": 3752459,
+      "v": 2
+    },
+    "fede-salgado": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Fede Salgado",
+      "tmdb": null,
       "v": 2
     },
     "federacio-d-ateneus-de-catalunya": {
@@ -3612,6 +3948,13 @@
       "tmdb": null,
       "v": 2
     },
+    "festival-d-automne": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Festival d'Automne",
+      "tmdb": null,
+      "v": 2
+    },
     "festival-grec-de-barcelona": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3639,6 +3982,13 @@
       "nombre": "Florencia Gonzalez Lahuerta",
       "tmdb": null,
       "v": 1
+    },
+    "fotografia-campanya-2026": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Fotografia campanya 2026",
+      "tmdb": null,
+      "v": 2
     },
     "fran-pati": {
       "fecha": "2026-11-19",
@@ -3722,6 +4072,13 @@
       "motivo": "ok",
       "nombre": "Gabriel Cordoba",
       "tmdb": 3630572,
+      "v": 2
+    },
+    "gabriela-bianchif": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Gabriela Bianchif",
+      "tmdb": null,
       "v": 2
     },
     "gabriela-galup": {
@@ -3827,6 +4184,13 @@
       "motivo": "ok",
       "nombre": "Génesis Abigail",
       "tmdb": 5208505,
+      "v": 2
+    },
+    "genevieve-dionne": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Geneviève Dionne",
+      "tmdb": null,
       "v": 2
     },
     "georgina-balart": {
@@ -3955,10 +4319,24 @@
       "tmdb": null,
       "v": 1
     },
+    "golda-van-der-meer": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Golda van der Meer",
+      "tmdb": null,
+      "v": 2
+    },
     "gonzalo-martinez-alpuente": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Gonzalo Martínez Alpuente",
+      "tmdb": null,
+      "v": 2
+    },
+    "goretti-puente": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Goretti Puente",
       "tmdb": null,
       "v": 2
     },
@@ -4015,6 +4393,13 @@
       "fecha": "2026-11-20",
       "motivo": "ninguna",
       "nombre": "Guillaume Toussaint Fromentin",
+      "tmdb": null,
+      "v": 2
+    },
+    "guillem-albasanz": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Guillem Albasanz",
       "tmdb": null,
       "v": 2
     },
@@ -4207,6 +4592,20 @@
       "tmdb": null,
       "v": 1
     },
+    "ignasi-castaner": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Ignasi Castañer",
+      "tmdb": null,
+      "v": 2
+    },
+    "ignasi-guasch": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Ignasi Guasch",
+      "tmdb": null,
+      "v": 2
+    },
     "igor-pinto": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4220,6 +4619,13 @@
       "nombre": "Iker Karrera",
       "tmdb": null,
       "v": 1
+    },
+    "iker-rane": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Iker Rañé",
+      "tmdb": null,
+      "v": 2
     },
     "imma-capell": {
       "fecha": "2026-11-19",
@@ -4263,12 +4669,26 @@
       "tmdb": null,
       "v": 2
     },
+    "ion-iraizoz": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Ion Iraizoz",
+      "tmdb": 3128551,
+      "v": 2
+    },
     "irene-ferrer-panicot": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Irene Ferrer Panicot",
       "tmdb": null,
       "v": 1
+    },
+    "irene-mas": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Irene Mas",
+      "tmdb": 1416659,
+      "v": 2
     },
     "irene-pages-molina": {
       "fecha": "2026-11-19",
@@ -4284,6 +4704,13 @@
       "tmdb": null,
       "v": 1
     },
+    "irene-vicente": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Irene Vicente",
+      "tmdb": null,
+      "v": 2
+    },
     "isa-mateu": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4295,6 +4722,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Isa Tofu",
+      "tmdb": null,
+      "v": 2
+    },
+    "isaac-torres": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Isaac Torres",
       "tmdb": null,
       "v": 2
     },
@@ -4361,6 +4795,13 @@
       "tmdb": null,
       "v": 1
     },
+    "ivan-morales": {
+      "fecha": "2026-11-21",
+      "motivo": "varias",
+      "nombre": "Ivan Morales",
+      "tmdb": null,
+      "v": 2
+    },
     "ivan-tomasevic": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -4381,6 +4822,13 @@
       "nombre": "Iztok Hrga",
       "tmdb": null,
       "v": 1
+    },
+    "j-sobrevals": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "J. Sobrevals",
+      "tmdb": null,
+      "v": 2
     },
     "jan-bartomeu": {
       "fecha": "2026-11-19",
@@ -4487,6 +4935,13 @@
       "tmdb": 5072775,
       "v": 2
     },
+    "javier-beltran": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Javier Beltrán",
+      "tmdb": 31805,
+      "v": 2
+    },
     "javier-camara": {
       "fecha": "2026-11-19",
       "motivo": "nombre común",
@@ -4500,6 +4955,13 @@
       "nombre": "Javier Coronas",
       "tmdb": null,
       "v": 1
+    },
+    "javier-munoz": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Javier Muñoz",
+      "tmdb": null,
+      "v": 2
     },
     "javier-naval": {
       "fecha": "2026-11-19",
@@ -4655,6 +5117,13 @@
       "tmdb": null,
       "v": 2
     },
+    "joan-esteve": {
+      "fecha": "2026-11-21",
+      "motivo": "nombre común",
+      "nombre": "Joan Esteve",
+      "tmdb": null,
+      "v": 2
+    },
     "joan-ferrer": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -4717,6 +5186,13 @@
       "nombre": "Joan Pera",
       "tmdb": null,
       "v": 1
+    },
+    "joan-rodon": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Joan Rodón",
+      "tmdb": null,
+      "v": 2
     },
     "joan-roy": {
       "fecha": "2026-11-19",
@@ -4815,6 +5291,13 @@
       "nombre": "Joe Kinosian",
       "tmdb": null,
       "v": 1
+    },
+    "joe-orton": {
+      "fecha": "2026-11-21",
+      "motivo": "otro país",
+      "nombre": "Joe Orton",
+      "tmdb": null,
+      "v": 2
     },
     "joel-diaz-vila": {
       "fecha": "2026-11-19",
@@ -5012,6 +5495,13 @@
       "tmdb": null,
       "v": 2
     },
+    "jose-novoa": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Jose Novoa",
+      "tmdb": null,
+      "v": 2
+    },
     "josep-castells-planas": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -5025,6 +5515,13 @@
       "nombre": "Josep Domènech",
       "tmdb": null,
       "v": 1
+    },
+    "josep-iglesias": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Josep Iglesias",
+      "tmdb": null,
+      "v": 2
     },
     "josep-julien": {
       "fecha": "2026-11-20",
@@ -5095,6 +5592,13 @@
       "nombre": "Josep Pijuan",
       "tmdb": null,
       "v": 1
+    },
+    "josep-sobrevals": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Josep Sobrevals",
+      "tmdb": 5145202,
+      "v": 2
     },
     "josep-tobella": {
       "fecha": "2026-11-19",
@@ -5194,6 +5698,13 @@
       "tmdb": null,
       "v": 1
     },
+    "judit-morcillo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Judit Morcillo",
+      "tmdb": null,
+      "v": 2
+    },
     "judit-suarez-de-figueroa": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5271,6 +5782,20 @@
       "tmdb": null,
       "v": 1
     },
+    "julia-simo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Júlia Simó",
+      "tmdb": null,
+      "v": 2
+    },
+    "julia-truyol": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Júlia Truyol",
+      "tmdb": 5153833,
+      "v": 2
+    },
     "julian-quintanilla": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5334,6 +5859,13 @@
       "tmdb": null,
       "v": 1
     },
+    "keven-dubois": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Keven Dubois",
+      "tmdb": null,
+      "v": 2
+    },
     "khushi-espelt": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5375,6 +5907,13 @@
       "nombre": "Kiku Piñol",
       "tmdb": null,
       "v": 1
+    },
+    "l-adolescent-ot-bretones-i": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "L’adolescent Ot Bretones i",
+      "tmdb": null,
+      "v": 2
     },
     "la-bacanal": {
       "fecha": "2026-11-19",
@@ -5501,6 +6040,13 @@
       "nombre": "La Turbo",
       "tmdb": null,
       "v": 1
+    },
+    "la-utopica": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "La Utópica",
+      "tmdb": null,
+      "v": 2
     },
     "la-villarroel": {
       "fecha": "2026-11-19",
@@ -5642,6 +6188,13 @@
       "tmdb": null,
       "v": 1
     },
+    "laura-roig": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Laura Roig",
+      "tmdb": 2861511,
+      "v": 2
+    },
     "laura-sanz": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5761,6 +6314,13 @@
       "tmdb": null,
       "v": 1
     },
+    "llorenc-balaguer": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Llorenç Balaguer",
+      "tmdb": null,
+      "v": 2
+    },
     "llorenc-corbella": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5795,6 +6355,13 @@
       "nombre": "Lluís Cartes",
       "tmdb": null,
       "v": 1
+    },
+    "lluis-casahuga": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "LLuis Casahuga",
+      "tmdb": null,
+      "v": 2
     },
     "lluis-homar": {
       "fecha": "2026-11-19",
@@ -5894,6 +6461,13 @@
       "tmdb": 2866155,
       "v": 2
     },
+    "lucas-ariel-vallejos": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Lucas Ariel Vallejos",
+      "tmdb": null,
+      "v": 2
+    },
     "lucas-ser": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -5978,6 +6552,13 @@
       "tmdb": null,
       "v": 2
     },
+    "m-molins": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "M. Molins",
+      "tmdb": null,
+      "v": 2
+    },
     "ma-dolors-fernandez": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6055,6 +6636,13 @@
       "tmdb": null,
       "v": 2
     },
+    "magi-coma": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Magí Coma",
+      "tmdb": 4518132,
+      "v": 2
+    },
     "magi-ferre-cata": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6103,6 +6691,13 @@
       "nombre": "Mala Sombra Estudio",
       "tmdb": null,
       "v": 1
+    },
+    "mamen-duch": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Mamen Duch",
+      "tmdb": 1462208,
+      "v": 2
     },
     "manel-barcelo": {
       "fecha": "2026-11-19",
@@ -6153,6 +6748,13 @@
       "tmdb": null,
       "v": 1
     },
+    "manuel-mateos": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Manuel Mateos",
+      "tmdb": null,
+      "v": 2
+    },
     "mar-colas": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6172,6 +6774,20 @@
       "motivo": "ok",
       "nombre": "Mar Ulldemolins",
       "tmdb": 1092527,
+      "v": 2
+    },
+    "mara-jimenez": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Mara Jiménez",
+      "tmdb": 4556980,
+      "v": 2
+    },
+    "mara-maso": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Mara Maso",
+      "tmdb": null,
       "v": 2
     },
     "marc-artigau": {
@@ -6216,12 +6832,26 @@
       "tmdb": null,
       "v": 1
     },
+    "marc-espinosa": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Marc Espinosa",
+      "tmdb": null,
+      "v": 2
+    },
     "marc-gomez": {
       "fecha": "2026-11-19",
       "motivo": "varias",
       "nombre": "Marc Gómez",
       "tmdb": null,
       "v": 1
+    },
+    "marc-joy": {
+      "fecha": "2026-11-21",
+      "motivo": "varias",
+      "nombre": "Marc Joy",
+      "tmdb": null,
+      "v": 2
     },
     "marc-lluis-fernandez": {
       "fecha": "2026-11-19",
@@ -6256,6 +6886,13 @@
       "motivo": "ok",
       "nombre": "Marc Pociello",
       "tmdb": 1073958,
+      "v": 2
+    },
+    "marc-rius": {
+      "fecha": "2026-11-21",
+      "motivo": "varias",
+      "nombre": "Marc Rius",
+      "tmdb": null,
       "v": 2
     },
     "marc-rosich": {
@@ -6433,12 +7070,26 @@
       "tmdb": null,
       "v": 2
     },
+    "margarida-troguet": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Margarida Troguet",
+      "tmdb": null,
+      "v": 2
+    },
     "maria-andreu": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Maria Andreu",
       "tmdb": null,
       "v": 1
+    },
+    "maria-anton-cabot": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "María Antón Cabot",
+      "tmdb": null,
+      "v": 2
     },
     "maria-antonia-rodriguez": {
       "fecha": "2026-11-19",
@@ -6475,6 +7126,13 @@
       "tmdb": null,
       "v": 2
     },
+    "maria-del-mar": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Maria del Mar",
+      "tmdb": null,
+      "v": 2
+    },
     "maria-diamantes": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -6495,6 +7153,20 @@
       "nombre": "Maria Hervàs",
       "tmdb": null,
       "v": 1
+    },
+    "maria-jurado": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Maria Jurado",
+      "tmdb": null,
+      "v": 2
+    },
+    "maria-m-cabeza-de-vaca": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "María M. Cabeza de Vaca",
+      "tmdb": null,
+      "v": 2
     },
     "maria-martin": {
       "fecha": "2026-11-19",
@@ -6531,12 +7203,26 @@
       "tmdb": null,
       "v": 1
     },
+    "maria-ribera": {
+      "fecha": "2026-11-21",
+      "motivo": "varias",
+      "nombre": "Maria Ribera",
+      "tmdb": null,
+      "v": 2
+    },
     "maria-roca": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Maria Roca",
       "tmdb": null,
       "v": 1
+    },
+    "maria-rovello": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Maria Rovelló",
+      "tmdb": null,
+      "v": 2
     },
     "maria-rovira": {
       "fecha": "2026-11-19",
@@ -6558,6 +7244,13 @@
       "nombre": "Maria Stoyanova",
       "tmdb": null,
       "v": 1
+    },
+    "maria-vaillo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Maria Vaillo",
+      "tmdb": null,
+      "v": 2
     },
     "maria-villarejo-barbera": {
       "fecha": "2026-11-19",
@@ -6606,6 +7299,13 @@
       "motivo": "ok",
       "nombre": "Mario Rebugent",
       "tmdb": 2037936,
+      "v": 2
+    },
+    "mariona-blanco": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Mariona Blanco",
+      "tmdb": null,
       "v": 2
     },
     "mariona-casas": {
@@ -6720,6 +7420,13 @@
       "tmdb": null,
       "v": 1
     },
+    "marta-cardellach": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Marta Cardellach",
+      "tmdb": null,
+      "v": 2
+    },
     "marta-chiner": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -6731,6 +7438,13 @@
       "fecha": "2026-11-19",
       "motivo": "otra persona en Wikidata",
       "nombre": "Marta Codina",
+      "tmdb": null,
+      "v": 2
+    },
+    "marta-corredor": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Marta Corredor",
       "tmdb": null,
       "v": 2
     },
@@ -6776,6 +7490,13 @@
       "tmdb": null,
       "v": 1
     },
+    "marta-lofi": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Marta Lofi",
+      "tmdb": null,
+      "v": 2
+    },
     "marta-margarit": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6801,6 +7522,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Marta Pell",
+      "tmdb": null,
+      "v": 2
+    },
+    "marta-perez": {
+      "fecha": "2026-11-21",
+      "motivo": "varias",
+      "nombre": "Marta Pérez",
       "tmdb": null,
       "v": 2
     },
@@ -6895,6 +7623,13 @@
       "tmdb": null,
       "v": 1
     },
+    "mauro-molina": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Mauro Molina",
+      "tmdb": null,
+      "v": 2
+    },
     "max-glaenzel": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6950,6 +7685,13 @@
       "nombre": "Mercè Paloma",
       "tmdb": null,
       "v": 1
+    },
+    "merce-sarrias-fornes": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Mercè Sarrias Fornés",
+      "tmdb": null,
+      "v": 2
     },
     "merce-ubach": {
       "fecha": "2026-11-19",
@@ -7056,6 +7798,13 @@
       "tmdb": null,
       "v": 1
     },
+    "miquel-gorriz": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Miquel Gorriz",
+      "tmdb": null,
+      "v": 2
+    },
     "miquel-grima": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7104,6 +7853,13 @@
       "nombre": "Mireia Casado",
       "tmdb": null,
       "v": 1
+    },
+    "mireia-illamola": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Mireia Illamola",
+      "tmdb": 4790721,
+      "v": 2
     },
     "mireia-lorente-pico": {
       "fecha": "2026-11-19",
@@ -7231,6 +7987,13 @@
       "tmdb": null,
       "v": 1
     },
+    "mola-produccions": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Mola Produccions",
+      "tmdb": null,
+      "v": 2
+    },
     "mone-teruel": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -7336,12 +8099,33 @@
       "tmdb": null,
       "v": 1
     },
+    "montse-galobardes": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Montse Galobardes",
+      "tmdb": null,
+      "v": 2
+    },
+    "montse-galobardes-pallassa-la-filomena": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Montse Galobardes (Pallassa \"La Filomena\")",
+      "tmdb": null,
+      "v": 2
+    },
     "montse-rodriguez": {
       "fecha": "2026-11-19",
       "motivo": "varias",
       "nombre": "Montse Rodríguez",
       "tmdb": null,
       "v": 1
+    },
+    "montse-tixe": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Montse Tixé",
+      "tmdb": null,
+      "v": 2
     },
     "montse-valenti": {
       "fecha": "2026-11-19",
@@ -7469,6 +8253,13 @@
       "tmdb": null,
       "v": 1
     },
+    "natalie-fontalvo": {
+      "fecha": "2026-11-21",
+      "motivo": "otro país",
+      "nombre": "Natalie Fontalvo",
+      "tmdb": null,
+      "v": 2
+    },
     "natividad-gerboles": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7539,6 +8330,13 @@
       "tmdb": null,
       "v": 1
     },
+    "neus-pamies-juarez": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Neus Pàmies Juárez",
+      "tmdb": null,
+      "v": 2
+    },
     "neus-soler": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -7559,6 +8357,13 @@
       "nombre": "Nicolás Sans",
       "tmdb": null,
       "v": 1
+    },
+    "nicoletta-battaglia": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Nicoletta Battaglia",
+      "tmdb": null,
+      "v": 2
     },
     "nidia-tusal": {
       "fecha": "2026-11-19",
@@ -7728,6 +8533,13 @@
       "tmdb": null,
       "v": 1
     },
+    "odeon-theatre-de-l-europe": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Odeón Théâtre de l'Europe",
+      "tmdb": null,
+      "v": 2
+    },
     "odo-cabot": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -7740,6 +8552,13 @@
       "motivo": "ninguna",
       "nombre": "Oleguer Falguera",
       "tmdb": null,
+      "v": 2
+    },
+    "olga-onrubia": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Olga Onrubia",
+      "tmdb": 5492990,
       "v": 2
     },
     "omar-moran": {
@@ -7945,6 +8764,13 @@
       "tmdb": 236515,
       "v": 2
     },
+    "pablo-rosal": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Pablo Rosal",
+      "tmdb": null,
+      "v": 2
+    },
     "paco-ariza": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8028,6 +8854,13 @@
       "nombre": "Pau Carrió",
       "tmdb": null,
       "v": 1
+    },
+    "pau-castillo": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Pau Castillo",
+      "tmdb": null,
+      "v": 2
     },
     "pau-coya": {
       "fecha": "2026-11-19",
@@ -8169,6 +9002,13 @@
       "tmdb": null,
       "v": 1
     },
+    "paula-comellas-felip": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Paula Comellas Felip",
+      "tmdb": null,
+      "v": 2
+    },
     "paula-costas": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8182,6 +9022,13 @@
       "nombre": "Paula Font",
       "tmdb": null,
       "v": 1
+    },
+    "paula-gonzalez-infante": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Paula González Infante",
+      "tmdb": null,
+      "v": 2
     },
     "paula-guardiola": {
       "fecha": "2026-11-20",
@@ -8217,6 +9064,13 @@
       "nombre": "Pedro González",
       "tmdb": null,
       "v": 1
+    },
+    "pedro-yague": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Pedro Yagüe",
+      "tmdb": null,
+      "v": 2
     },
     "pentacion-espectaculos": {
       "fecha": "2026-11-19",
@@ -8288,12 +9142,26 @@
       "tmdb": 5292660,
       "v": 2
     },
+    "pere-arquillue": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Pere Arquillué",
+      "tmdb": 15600,
+      "v": 2
+    },
     "pere-elies": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Pere Elies",
       "tmdb": null,
       "v": 1
+    },
+    "pere-lloveras-circular-comunicacio": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Pere Lloveras (Circular Comunicació)",
+      "tmdb": null,
+      "v": 2
     },
     "pere-terrassa": {
       "fecha": "2026-11-19",
@@ -8308,6 +9176,20 @@
       "nombre": "Periferia Cimarronas",
       "tmdb": null,
       "v": 1
+    },
+    "philippe-soldevila": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Philippe Soldevila",
+      "tmdb": null,
+      "v": 2
+    },
+    "pierluca-mariti": {
+      "fecha": "2026-11-21",
+      "motivo": "otro país",
+      "nombre": "Pierluca Mariti",
+      "tmdb": null,
+      "v": 2
     },
     "pilar-capellades": {
       "fecha": "2026-11-19",
@@ -8386,6 +9268,13 @@
       "tmdb": null,
       "v": 1
     },
+    "pol-jubany-itxart": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Pol Jubany Itxart",
+      "tmdb": null,
+      "v": 2
+    },
     "pol-juidia": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8399,6 +9288,13 @@
       "nombre": "Productora 23",
       "tmdb": null,
       "v": 1
+    },
+    "proxima-serveis-funeraris": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Proxima Serveis Funeraris",
+      "tmdb": null,
+      "v": 2
     },
     "quarta-temporada": {
       "fecha": "2026-11-19",
@@ -8483,6 +9379,13 @@
       "nombre": "Quimet Felis",
       "tmdb": null,
       "v": 1
+    },
+    "quimet-felis-plancton-escena": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Quimet Felis (Plàncton Escena)",
+      "tmdb": null,
+      "v": 2
     },
     "rafa-alarcon": {
       "fecha": "2026-11-19",
@@ -8631,6 +9534,13 @@
       "tmdb": null,
       "v": 1
     },
+    "rebecca-praga": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Rebecca Praga",
+      "tmdb": null,
+      "v": 2
+    },
     "recomanada-a-partir-de-16-anys": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8679,6 +9589,13 @@
       "nombre": "Ressonàncies del Sud",
       "tmdb": null,
       "v": 1
+    },
+    "resta-de-l-equip-en-curs": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Resta de l'equip en curs",
+      "tmdb": null,
+      "v": 2
     },
     "ricard-boyle": {
       "fecha": "2026-11-19",
@@ -8827,6 +9744,20 @@
       "tmdb": null,
       "v": 1
     },
+    "rolando-san-martin": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Rolando San Martín",
+      "tmdb": null,
+      "v": 2
+    },
+    "romina-cocca": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Romina Cocca",
+      "tmdb": null,
+      "v": 2
+    },
     "romulo-assereto": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8883,6 +9814,13 @@
       "tmdb": null,
       "v": 1
     },
+    "roser-batalla": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Roser Batalla",
+      "tmdb": 938638,
+      "v": 2
+    },
     "roser-blanch": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8931,6 +9869,13 @@
       "nombre": "Sala Flyhard",
       "tmdb": null,
       "v": 1
+    },
+    "sala-trono-de-tarragona": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Sala Trono de Tarragona",
+      "tmdb": null,
+      "v": 2
     },
     "salut-mental": {
       "fecha": "2026-11-19",
@@ -9029,6 +9974,13 @@
       "nombre": "Sara Vinyals",
       "tmdb": null,
       "v": 1
+    },
+    "sasha-agranov": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Sasha Agranov",
+      "tmdb": null,
+      "v": 2
     },
     "sebastia-brosa": {
       "fecha": "2026-11-19",
@@ -9162,6 +10114,13 @@
       "nombre": "Sergi Polo",
       "tmdb": null,
       "v": 1
+    },
+    "sergi-torrecilla": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Sergi Torrecilla",
+      "tmdb": 2244272,
+      "v": 2
     },
     "sergio-lobaco": {
       "fecha": "2026-11-19",
@@ -9317,6 +10276,13 @@
       "tmdb": null,
       "v": 2
     },
+    "stephane-caron": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Stéphane Caron",
+      "tmdb": null,
+      "v": 2
+    },
     "street-fools": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -9365,6 +10331,13 @@
       "nombre": "Sylvia Kuchinow",
       "tmdb": null,
       "v": 1
+    },
+    "t-de-teatre": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "T de Teatre",
+      "tmdb": null,
+      "v": 2
     },
     "taller-castells": {
       "fecha": "2026-11-20",
@@ -9433,6 +10406,20 @@
       "fecha": "2026-11-20",
       "motivo": "ninguna",
       "nombre": "Tanja Haupt",
+      "tmdb": null,
+      "v": 2
+    },
+    "tanya-beyeler": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Tanya Beyeler",
+      "tmdb": null,
+      "v": 2
+    },
+    "tapisseria-torres": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Tapisseria Torres",
       "tmdb": null,
       "v": 2
     },
@@ -9555,6 +10542,13 @@
       "tmdb": null,
       "v": 1
     },
+    "teo-guillem": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Teo Guillem",
+      "tmdb": null,
+      "v": 2
+    },
     "teorema-teatre": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -9632,6 +10626,13 @@
       "tmdb": null,
       "v": 1
     },
+    "ton-vieira": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Ton Vieira",
+      "tmdb": 3462217,
+      "v": 2
+    },
     "toni-climent": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -9673,6 +10674,13 @@
       "nombre": "Toni Santos",
       "tmdb": null,
       "v": 1
+    },
+    "toni-ubach": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Toni Ubach",
+      "tmdb": null,
+      "v": 2
     },
     "toni-vinals": {
       "fecha": "2026-11-19",
@@ -9744,6 +10752,13 @@
       "tmdb": null,
       "v": 2
     },
+    "uriel-ireland": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Uriel Ireland",
+      "tmdb": null,
+      "v": 2
+    },
     "vador-maynou": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -9765,6 +10780,13 @@
       "tmdb": null,
       "v": 1
     },
+    "vanessa-segura": {
+      "fecha": "2026-11-21",
+      "motivo": "nombre común",
+      "nombre": "Vanessa Segura",
+      "tmdb": null,
+      "v": 2
+    },
     "vero-cendoya": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -9778,6 +10800,13 @@
       "nombre": "Vicenta Ndongo",
       "tmdb": null,
       "v": 1
+    },
+    "victor-alvaro": {
+      "fecha": "2026-11-21",
+      "motivo": "varias",
+      "nombre": "Victor Alvaro",
+      "tmdb": null,
+      "v": 2
     },
     "victor-arbelo": {
       "fecha": "2026-11-19",
@@ -9841,6 +10870,13 @@
       "nombre": "Victor Parrado",
       "tmdb": null,
       "v": 1
+    },
+    "victoria-szpunberg": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Victoria Szpunberg",
+      "tmdb": null,
+      "v": 2
     },
     "victorinos-bolekia-bonay": {
       "fecha": "2026-11-19",
@@ -9960,6 +10996,13 @@
       "nombre": "Xavi Flores",
       "tmdb": null,
       "v": 1
+    },
+    "xavi-frances": {
+      "fecha": "2026-11-21",
+      "motivo": "ok",
+      "nombre": "Xavi Francès",
+      "tmdb": 1783148,
+      "v": 2
     },
     "xavi-gardes": {
       "fecha": "2026-11-19",
@@ -10093,6 +11136,13 @@
       "nombre": "Xavier Vila Bover",
       "tmdb": null,
       "v": 1
+    },
+    "xenia-j-martos": {
+      "fecha": "2026-11-21",
+      "motivo": "ninguna",
+      "nombre": "Xènia J. Martos",
+      "tmdb": null,
+      "v": 2
     },
     "xenia-nogue": {
       "fecha": "2026-11-19",
@@ -10522,6 +11572,58 @@
         "wikidata": "Q4964545"
       },
       "fecha": "2026-11-19"
+    },
+    "1032556": {
+      "datos": {
+        "bio": {
+          "es": "En el año 1991 acabó los estudios en el Institut del Teatre de Barcelona y fundó la compañía de teatro T de Teatre con cuatro compañeras de promoción: Rosa Gàmiz, Mamen Duch, Míriam Iscla y Carme Pla.1​ Ha protagonizado los 11 espectáculos que dicha compañía ha montado."
+        },
+        "conocida": [
+          [
+            "Truman",
+            2015,
+            "pelicula",
+            "Woman #1"
+          ],
+          [
+            "El pregón",
+            2016,
+            "pelicula",
+            "Pilar"
+          ],
+          [
+            "Dictado",
+            2012,
+            "pelicula",
+            "Luisa"
+          ],
+          [
+            "7 razones para huir",
+            2019,
+            "pelicula",
+            "Property: The Woman"
+          ],
+          [
+            "Mi amiga Eva",
+            2025,
+            "pelicula",
+            "Cris"
+          ],
+          [
+            "En la ciudad",
+            2003,
+            "pelicula",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/2Mc7AyIrr8hhhxLhTYRsJF7jM4S.jpg",
+        "lugar": "Barcelona, Spain",
+        "nombre": "Àgata Roca",
+        "oficio": "Acting",
+        "tmdb": 1032556,
+        "wikidata": "Q9098079"
+      },
+      "fecha": "2026-11-21"
     },
     "1033661": {
       "datos": {
@@ -11518,6 +12620,59 @@
         "wikidata": "Q218279"
       },
       "fecha": "2026-11-19"
+    },
+    "1061514": {
+      "datos": {
+        "bio": {
+          "es": "Alex O’Dogherty es uno de los monologuistas más veteranos que hay en España. Lleva desde el año 2000 escribiendo monólogos, canciones y cosas de esas, siendo uno de los habituales en Comedy Central o El Club de la Comedia. En su faceta como monologuista, en la que ha alcanzado grandes éxitos, como actuar en el “Fringe” de Edimburgo o en el “Just for Laughs” de Montreal, aparte de miles de actuaciones por clubes de comedia de todo el país, destacan tres espectáculos: “Imbécil”. Así se llama el último y mejor, sin duda, espectáculo de Alex O’Dogherty. Una vuelta a los orígenes, a su pequeña maleta, sus cacharros (o chuminadas), su pequeña música, sus juegos con el público…"
+        },
+        "conocida": [
+          [
+            "Alatriste",
+            2006,
+            "pelicula",
+            "Lope Balboa"
+          ],
+          [
+            "Aquí no hay quien viva",
+            2003,
+            "serie",
+            "Álvaro"
+          ],
+          [
+            "Los hombres de Paco",
+            2005,
+            "serie",
+            "Osorio Marván"
+          ],
+          [
+            "El Ministerio del Tiempo",
+            2015,
+            "serie",
+            "Carlos María Isidro de Borbón"
+          ],
+          [
+            "Tumbas abiertas",
+            2009,
+            "pelicula",
+            "Malek"
+          ],
+          [
+            "Salir del ropero",
+            2020,
+            "pelicula",
+            "Bienvenido"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/asQRtN7bEnf82IGE6GBmo5htXAS.jpg",
+        "lugar": "Cádiz, Spain",
+        "nacimiento": "1973-03-07",
+        "nombre": "Álex O'Dogherty",
+        "oficio": "Acting",
+        "tmdb": 1061514,
+        "wikidata": "Q2841279"
+      },
+      "fecha": "2026-11-21"
     },
     "106187": {
       "datos": {
@@ -20160,6 +21315,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "1416659": {
+      "datos": {
+        "conocida": [
+          [
+            "El hombre que se quiso matar",
+            1942,
+            "pelicula",
+            "Juanita"
+          ]
+        ],
+        "nombre": "Irene Mas",
+        "oficio": "Acting",
+        "tmdb": 1416659
+      },
+      "fecha": "2026-11-21"
+    },
     "14250": {
       "datos": {
         "bio": {
@@ -20997,6 +22168,47 @@
         "wikidata": "Q17148147"
       },
       "fecha": "2026-11-19"
+    },
+    "1462208": {
+      "datos": {
+        "conocida": [
+          [
+            "Diecisiete",
+            2019,
+            "pelicula",
+            "Jueza"
+          ],
+          [
+            "El cuerpo en llamas",
+            2023,
+            "serie",
+            "Rosamaria"
+          ],
+          [
+            "Mamífera",
+            2024,
+            "pelicula",
+            "Àngela"
+          ],
+          [
+            "Historias de Protegidos",
+            2022,
+            "serie",
+            "Alicia Soria"
+          ],
+          [
+            "Derecho a soñar",
+            2019,
+            "serie",
+            "Sofía Santelices"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/et0vS4u4GTnOv3AL2nchrtG9DQm.jpg",
+        "nombre": "Mamen Duch",
+        "oficio": "Acting",
+        "tmdb": 1462208
+      },
+      "fecha": "2026-11-21"
     },
     "146382": {
       "datos": {
@@ -23075,6 +24287,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "15600": {
+      "datos": {
+        "bio": {
+          "en": "Pere Arquillué i Cortadella (Terrassa, Vallès Occidental, 17 March 1967) is a Catalan actor of theatre, cinema, television and dubbing. He lives in Matadepera and is the father of actress Emma Arquillué. He made his professional debut in theatre with the play Tàlem, by Sergi Belbel. He has participated in television series such as Secrets de família, Estació d'enlaç or Jet lag. He has also shot a few films and TV films."
+        },
+        "conocida": [
+          [
+            "Que se mueran los feos",
+            2010,
+            "pelicula",
+            "Juan"
+          ],
+          [
+            "Princesas",
+            2005,
+            "pelicula",
+            "Carlos"
+          ],
+          [
+            "Los herederos de la tierra",
+            2022,
+            "serie",
+            "Roger Puig"
+          ],
+          [
+            "En la ciudad",
+            2003,
+            "pelicula",
+            "Dani"
+          ],
+          [
+            "La mujer del anarquista",
+            2008,
+            "pelicula",
+            "Jaime"
+          ],
+          [
+            "La odisea de la especie",
+            2003,
+            "pelicula",
+            "Narrator (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/mktbUg2WXZyTVDo7MWYOfEhhKe7.jpg",
+        "lugar": "Terrassa, Catalonia, Spain",
+        "nacimiento": "1967-03-17",
+        "nombre": "Pere Arquillué",
+        "oficio": "Acting",
+        "tmdb": 15600,
+        "wikidata": "Q11940916"
+      },
+      "fecha": "2026-11-21"
+    },
     "1564920": {
       "datos": {
         "bio": {
@@ -24891,6 +26156,28 @@
       },
       "fecha": "2026-11-19"
     },
+    "1680526": {
+      "datos": {
+        "conocida": [
+          [
+            "Los embarazados",
+            1982,
+            "pelicula",
+            "Profesora de gimnasia (as Ana Castells)"
+          ],
+          [
+            "Desmontando un elefante",
+            2025,
+            "pelicula",
+            "Bailarina 1"
+          ]
+        ],
+        "nombre": "Anna Castells",
+        "oficio": "Acting",
+        "tmdb": 1680526
+      },
+      "fecha": "2026-11-21"
+    },
     "1681450": {
       "datos": {
         "foto": "https://image.tmdb.org/t/p/w185/px3d6Updq2pXuefvnA8e7PZ3Qac.jpg",
@@ -25863,6 +27150,52 @@
         "wikidata": "Q30069887"
       },
       "fecha": "2026-11-19"
+    },
+    "1783148": {
+      "datos": {
+        "conocida": [
+          [
+            "La que se avecina",
+            2007,
+            "serie",
+            "Agente inmobiliario"
+          ],
+          [
+            "Te quiero, imbécil",
+            2020,
+            "pelicula",
+            "Juan"
+          ],
+          [
+            "El maestro que prometió el mar",
+            2023,
+            "pelicula",
+            "Inspector Educacion"
+          ],
+          [
+            "La cena",
+            2025,
+            "pelicula",
+            "Francisco Franco"
+          ],
+          [
+            "Saben aquell",
+            2023,
+            "pelicula",
+            "Waiter"
+          ],
+          [
+            "Todos mienten",
+            2022,
+            "serie",
+            "Mortimer"
+          ]
+        ],
+        "nombre": "Xavi Francés",
+        "oficio": "Acting",
+        "tmdb": 1783148
+      },
+      "fecha": "2026-11-21"
     },
     "1784936": {
       "datos": {
@@ -29064,6 +30397,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "2071126": {
+      "datos": {
+        "conocida": [
+          [
+            "Crackòvia",
+            2008,
+            "serie",
+            ""
+          ]
+        ],
+        "nombre": "Carles Roig",
+        "oficio": "Acting",
+        "tmdb": 2071126
+      },
+      "fecha": "2026-11-21"
+    },
     "20766": {
       "datos": {
         "bio": {
@@ -30235,6 +31584,47 @@
       },
       "fecha": "2026-11-19"
     },
+    "2244272": {
+      "datos": {
+        "conocida": [
+          [
+            "Modelo 77",
+            2022,
+            "pelicula",
+            "Carlos García Valdés"
+          ],
+          [
+            "Libertad",
+            2021,
+            "pelicula",
+            "Toni"
+          ],
+          [
+            "Los días que vendrán",
+            2019,
+            "pelicula",
+            ""
+          ],
+          [
+            "Ni oblit ni perdó",
+            2020,
+            "pelicula",
+            ""
+          ],
+          [
+            "13 Dias De Octubre",
+            2015,
+            "pelicula",
+            "Quintana"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/eh56Mz9kC9uFNaLMSVuTbAm33YN.jpg",
+        "nombre": "Sergi Torrecilla",
+        "oficio": "Acting",
+        "tmdb": 2244272
+      },
+      "fecha": "2026-11-21"
+    },
     "2246880": {
       "datos": {
         "conocida": [
@@ -30537,6 +31927,49 @@
         "wikidata": "Q21936899"
       },
       "fecha": "2026-11-19"
+    },
+    "225129": {
+      "datos": {
+        "conocida": [
+          [
+            "El Olivo",
+            2016,
+            "pelicula",
+            "Vanessa"
+          ],
+          [
+            "La última noche en Tremor",
+            2024,
+            "serie",
+            "Viviana Pardales"
+          ],
+          [
+            "Petra",
+            2018,
+            "pelicula",
+            "Teresa"
+          ],
+          [
+            "En la ciudad",
+            2003,
+            "pelicula",
+            "Eva"
+          ],
+          [
+            "Ficció (Ficción)",
+            2006,
+            "pelicula",
+            "Judith"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/vGEOci5VTNEM1DKsAsZ6mGjLpfP.jpg",
+        "lugar": "Terrassa, Spain",
+        "nombre": "Carme Pla",
+        "oficio": "Acting",
+        "tmdb": 225129,
+        "wikidata": "Q14513910"
+      },
+      "fecha": "2026-11-21"
     },
     "225134": {
       "datos": {
@@ -33263,6 +34696,34 @@
       },
       "fecha": "2026-11-20"
     },
+    "2597164": {
+      "datos": {
+        "conocida": [
+          [
+            "Jesús de Nazareth",
+            1942,
+            "pelicula",
+            "Claudia"
+          ],
+          [
+            "El hijo del pistolero",
+            1965,
+            "pelicula",
+            "Woman (uncredited)"
+          ],
+          [
+            "Secreto Eterno",
+            1942,
+            "pelicula",
+            "Directora de hospicio"
+          ]
+        ],
+        "nombre": "Carmen Collado",
+        "oficio": "Acting",
+        "tmdb": 2597164
+      },
+      "fecha": "2026-11-21"
+    },
     "2617257": {
       "datos": {
         "conocida": [
@@ -34358,6 +35819,34 @@
       },
       "fecha": "2026-11-19"
     },
+    "2710792": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias para no contar",
+            2022,
+            "pelicula",
+            "Recepcionista Casting"
+          ],
+          [
+            "Unicornios",
+            2023,
+            "pelicula",
+            ""
+          ],
+          [
+            "Citas Barcelona",
+            2023,
+            "serie",
+            "Aitana"
+          ]
+        ],
+        "nombre": "Emma Arquillué",
+        "oficio": "Acting",
+        "tmdb": 2710792
+      },
+      "fecha": "2026-11-21"
+    },
     "2719032": {
       "datos": {
         "conocida": [
@@ -35423,6 +36912,22 @@
         "wikidata": "Q86714"
       },
       "fecha": "2026-11-19"
+    },
+    "2861511": {
+      "datos": {
+        "conocida": [
+          [
+            "Citas Barcelona",
+            2023,
+            "serie",
+            "Camarera"
+          ]
+        ],
+        "nombre": "Laura Roig",
+        "oficio": "Acting",
+        "tmdb": 2861511
+      },
+      "fecha": "2026-11-21"
     },
     "2866155": {
       "datos": {
@@ -36545,6 +38050,29 @@
       },
       "fecha": "2026-11-19"
     },
+    "3128551": {
+      "datos": {
+        "conocida": [
+          [
+            "Élite historias breves: Carla Samuel",
+            2021,
+            "serie",
+            "Cliente Club del Lago"
+          ],
+          [
+            "Invisible",
+            2024,
+            "serie",
+            "Radiólogo"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/vsW4x4osUuX2ehBrMjbUazPCwv5.jpg",
+        "nombre": "Ion Iraizoz",
+        "oficio": "Acting",
+        "tmdb": 3128551
+      },
+      "fecha": "2026-11-21"
+    },
     "3129743": {
       "datos": {
         "conocida": [
@@ -36837,6 +38365,59 @@
         "wikidata": "Q356541"
       },
       "fecha": "2026-11-19"
+    },
+    "31805": {
+      "datos": {
+        "bio": {
+          "es": "Javier Beltrán es un actor de teatro y cine tanto español como internacional. Cursó sus estudios en Barcelona, incluida la carrera de cuatro años de Humanidades en la universidad Pompeu Fabra, así como también cuatro años de arte dramático en la escuela de actores de Nancy Tuñón entre el año 2004 y 2008, un curso de Danza-Teatro entre los años 2004-2006 con Montserrat Prats, y uno de interpretación con Raimón Molins en el 2008, ya que Humanidades le resultaba un tanto aburrido. También hizo un cursillo de radio en Radio Estudi Esplugues. Habla inglés y un poco de italiano, y sabe tocar la guitarra."
+        },
+        "conocida": [
+          [
+            "Los renglones torcidos de Dios",
+            2022,
+            "pelicula",
+            "César Arellano"
+          ],
+          [
+            "El inocente",
+            2021,
+            "serie",
+            "Oscar Crespo"
+          ],
+          [
+            "Las leyes de la frontera",
+            2021,
+            "pelicula",
+            "Nacho adulto"
+          ],
+          [
+            "Modelo 77",
+            2022,
+            "pelicula",
+            "Arnau Solsona"
+          ],
+          [
+            "Patria",
+            2020,
+            "serie",
+            "Guillermo"
+          ],
+          [
+            "Sin límites",
+            2008,
+            "pelicula",
+            "Federico García Lorca"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/9vR2zuPUu4qUmM5pAJ4T8BjS6G8.jpg",
+        "lugar": "Barcelona",
+        "nacimiento": "1983-05-18",
+        "nombre": "Javier Beltrán",
+        "oficio": "Acting",
+        "tmdb": 31805,
+        "wikidata": "Q2481492"
+      },
+      "fecha": "2026-11-21"
     },
     "319160": {
       "datos": {
@@ -37563,6 +39144,42 @@
         "tmdb": 3461383
       },
       "fecha": "2026-11-20"
+    },
+    "3462217": {
+      "datos": {
+        "conocida": [
+          [
+            "A través de mi ventana",
+            2022,
+            "pelicula",
+            "Chico Baile Daniela"
+          ],
+          [
+            "Érase una vez... pero ya no",
+            2022,
+            "serie",
+            "Borja / Tato"
+          ],
+          [
+            "La academia",
+            2024,
+            "serie",
+            "Jairo"
+          ]
+        ],
+        "nombre": "Ton Vieira",
+        "oficio": "Acting",
+        "tmdb": 3462217
+      },
+      "fecha": "2026-11-21"
+    },
+    "3477065": {
+      "datos": {
+        "nombre": "Biel Rossell Pelfort",
+        "oficio": "Acting",
+        "tmdb": 3477065
+      },
+      "fecha": "2026-11-21"
     },
     "3481167": {
       "datos": {
@@ -40346,6 +41963,29 @@
       },
       "fecha": "2026-11-19"
     },
+    "4518132": {
+      "datos": {
+        "conocida": [
+          [
+            "Polonia",
+            2006,
+            "serie",
+            ""
+          ],
+          [
+            "Crackòvia",
+            2008,
+            "serie",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/yonFAfaWx3pBhIqrFWAjEIqggTP.jpg",
+        "nombre": "Magí Coma",
+        "oficio": "Acting",
+        "tmdb": 4518132
+      },
+      "fecha": "2026-11-21"
+    },
     "452205": {
       "datos": {
         "bio": {
@@ -40426,6 +42066,46 @@
         "tmdb": 4527963
       },
       "fecha": "2026-11-19"
+    },
+    "4556980": {
+      "datos": {
+        "bio": {
+          "es": "Mara Jiménez es el nombre de la actriz que se esconde detrás de Croquetamente. Originaria de Sabadell, nació el 15 de septiembre de 1995 y desde siempre se interesó por la interpretación. Mientras luchaba por abrirse las puertas de cualquier escenario, encontró en las redes sociales la manera de contar su historia a todo el que quisiera escucharla. Según ha revelado, Mara sufrió problemas de bullying a partir de los 9 años, cuando comenzó a engordar. El rechazo que tuvo que soportar por su aspecto hizo que desarrollara un duro Trastorno de la Conducta Alimentaria que duró más de una década."
+        },
+        "conocida": [
+          [
+            "Los Protegidos: Un nuevo poder",
+            2025,
+            "serie",
+            "Profesora de Dora"
+          ],
+          [
+            "Aquí entre nos",
+            2012,
+            "pelicula",
+            ""
+          ],
+          [
+            "Citas Barcelona",
+            2023,
+            "serie",
+            "Sara"
+          ],
+          [
+            "Alguna pregunta més?",
+            2004,
+            "serie",
+            "Self - Interviewee"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/ieoH1KbhSJZpam0gfgdEkG4Hl1w.jpg",
+        "lugar": "Sabadell, Barcelona, Cataluña, España",
+        "nacimiento": "1995-09-15",
+        "nombre": "Mara Jiménez",
+        "oficio": "Acting",
+        "tmdb": 4556980
+      },
+      "fecha": "2026-11-21"
     },
     "4576256": {
       "datos": {
@@ -41004,6 +42684,35 @@
         "tmdb": 4786524
       },
       "fecha": "2026-11-19"
+    },
+    "4790721": {
+      "datos": {
+        "conocida": [
+          [
+            "Vida perfecta",
+            2019,
+            "serie",
+            "Lucia"
+          ],
+          [
+            "Citas Barcelona",
+            2023,
+            "serie",
+            "Doctora"
+          ],
+          [
+            "La buena hija",
+            2026,
+            "pelicula",
+            "Profesora de matemáticas"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/d291Eu3rrWHMXuTgS3nyGWOlAzL.jpg",
+        "nombre": "Mireia Illamola",
+        "oficio": "Acting",
+        "tmdb": 4790721
+      },
+      "fecha": "2026-11-21"
     },
     "4794610": {
       "datos": {
@@ -41969,6 +43678,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "5145202": {
+      "datos": {
+        "nombre": "Josep Sobrevals",
+        "oficio": "Acting",
+        "tmdb": 5145202
+      },
+      "fecha": "2026-11-21"
+    },
     "515": {
       "datos": {
         "bio": {
@@ -42021,6 +43738,22 @@
         "wikidata": "Q372311"
       },
       "fecha": "2026-11-19"
+    },
+    "5153833": {
+      "datos": {
+        "conocida": [
+          [
+            "Mi amiga Eva",
+            2025,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Júlia Truyol",
+        "oficio": "Acting",
+        "tmdb": 5153833
+      },
+      "fecha": "2026-11-21"
     },
     "5171095": {
       "datos": {
@@ -42202,6 +43935,22 @@
         "tmdb": 5260866
       },
       "fecha": "2026-11-19"
+    },
+    "5268400": {
+      "datos": {
+        "conocida": [
+          [
+            "Mi amiga Eva",
+            2025,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Aitor Galisteo-Rocher",
+        "oficio": "Acting",
+        "tmdb": 5268400
+      },
+      "fecha": "2026-11-21"
     },
     "5269231": {
       "datos": {
@@ -43281,6 +45030,22 @@
         "tmdb": 5474306
       },
       "fecha": "2026-11-19"
+    },
+    "5492990": {
+      "datos": {
+        "conocida": [
+          [
+            "Wolfgang (Extraordinario)",
+            2025,
+            "pelicula",
+            "Makeup artist"
+          ]
+        ],
+        "nombre": "Olga Onrubia",
+        "oficio": "Acting",
+        "tmdb": 5492990
+      },
+      "fecha": "2026-11-21"
     },
     "55063": {
       "datos": {
@@ -45448,6 +47213,14 @@
         "tmdb": 5951468
       },
       "fecha": "2026-11-19"
+    },
+    "5957535": {
+      "datos": {
+        "nombre": "Dudu Alves",
+        "oficio": "Acting",
+        "tmdb": 5957535
+      },
+      "fecha": "2026-11-21"
     },
     "6029395": {
       "datos": {
@@ -50628,6 +52401,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "931421": {
+      "datos": {
+        "bio": {
+          "en": "André Léon Marie Nicolas Rieu (born 1 October 1949) is a Dutch violinist and conductor best known for creating the waltz-playing Johann Strauss Orchestra. Rieu and his orchestra have turned classical and waltz music into a worldwide concert touring act. He resides in his native Maastricht. The name Rieu is of French Huguenot origin, though both of Rieu's parents were Roman Catholic. André was born to Andries Antonie Rieu and is the third of six children. Rieu's father was conductor of the Maastricht Symphony Orchestra. Showing early promise, André began studying violin at the age of five. From a very early age, he developed a fascination with orchestra."
+        },
+        "conocida": [
+          [
+            "Flikken Maastricht",
+            2007,
+            "serie",
+            "Self"
+          ],
+          [
+            "Wetten, dass..?",
+            1981,
+            "serie",
+            "Self"
+          ],
+          [
+            "Markus Lanz",
+            2008,
+            "serie",
+            "Self"
+          ],
+          [
+            "Gooische Vrouwen",
+            2005,
+            "serie",
+            "André Rieu"
+          ],
+          [
+            "Vivement dimanche",
+            1998,
+            "serie",
+            "Self"
+          ],
+          [
+            "Volle Kanne",
+            1999,
+            "serie",
+            "Self"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/toabyJ2w8pNf1xM0oJPWSawDpMB.jpg",
+        "lugar": "Maastricht, Limburg, Netherlands",
+        "nacimiento": "1949-10-01",
+        "nombre": "André Rieu",
+        "oficio": "Acting",
+        "tmdb": 931421,
+        "wikidata": "Q159832"
+      },
+      "fecha": "2026-11-21"
+    },
     "932072": {
       "datos": {
         "bio": {
@@ -50886,6 +52712,56 @@
         "wikidata": "Q8192289"
       },
       "fecha": "2026-11-19"
+    },
+    "938638": {
+      "datos": {
+        "conocida": [
+          [
+            "Tadeo Jones 2: El secreto del rey Midas",
+            2017,
+            "pelicula",
+            "Henchwoman (voice)"
+          ],
+          [
+            "Papá, soy una zombi",
+            2012,
+            "pelicula",
+            "Nigreda / Sofía (voice)"
+          ],
+          [
+            "Dixie y la rebelión zombi",
+            2014,
+            "pelicula",
+            "Negreda / Sofia (voice)"
+          ],
+          [
+            "Caída libre",
+            2024,
+            "pelicula",
+            "Aleksa"
+          ],
+          [
+            "El método Grönholm",
+            2015,
+            "pelicula",
+            "Mercè Degàs"
+          ],
+          [
+            "El virus del miedo",
+            2015,
+            "pelicula",
+            "Anna"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/mrivEW7lrNAxpPfwHmduvUEjqhm.jpg",
+        "lugar": "Barcelona, España",
+        "nacimiento": "1965-05-21",
+        "nombre": "Roser Batalla",
+        "oficio": "Acting",
+        "tmdb": 938638,
+        "wikidata": "Q75143096"
+      },
+      "fecha": "2026-11-21"
     },
     "94155": {
       "datos": {

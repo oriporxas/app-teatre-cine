@@ -1,4 +1,51 @@
 {
+  "open_data_bcn:99400679376": {
+    "barrio": "la Sagrera",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Amb la Cia. Pau Palaus Un embolic de fils que ve de molt lluny. Un embolic de pensaments i emocions que porten al riure i al joc, les eines més útils i pures per desenredar nusos. Un espectacle, però sobretot un pallasso, que evita les paraules i es limita a un gest i una mirada que transmeten una pau i unes ganes alliberadores de jugar. Espectacle reservat a l'alumnat de 4 de primària de les escoles del barri.",
+      "es": "Con la Cia. Pau Palaus Un enredo de hilos que viene de muy lejos. Un enredo de pensamientos y emociones que llevan a la risa y al juego, las herramientas más útiles y puras para desenredar nudos. Un espectáculo, pero sobre todo un payaso, que evita las palabras y se limita a un gesto y una mirada que transmiten una paz y unas ganas liberadoras de jugar. Espectáculo reservado al alumnado de 4.º de primaria de las escuelas del barrio."
+    },
+    "direccion": "Plaça de l'Assemblea de Catalunya 1",
+    "equipo": [
+      [
+        "companyia",
+        "Cia. Pau Palaus"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/mati-de-les-escoles-espectacle-embolic_99400679376.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "11:00"
+      ]
+    ],
+    "generos": [
+      "clown",
+      "teatro físico"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400679376",
+    "idioma_textos": "ca",
+    "lat": 41.42467897570845,
+    "lon": 2.188113218310783,
+    "nombre": "Embolic",
+    "sala": "Envelat de Festa Major",
+    "sala_id": "barcelona:via27051-1",
+    "subtipo": "clown",
+    "temas": {
+      "ca": [
+        "joc"
+      ],
+      "es": [
+        "juego"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400699115": {
     "barrio": "Sant Pere, Santa Caterina i la Ribera",
     "caducado": "2026-11-19",
@@ -193,6 +240,54 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400746859": {
+    "barrio": "les Corts",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Espectacle en format monòleg/pòdcast interactiu a càrrec de la companyia Les Inexactes, que combina experiències personals i humor per reflexionar críticament sobre les relacions sexoafectives i les violències quotidianes que viuen les dones i les dissidències. La proposta acaba amb una conversa amb el públic. A càrrec de la companyia Les Inexactes.",
+      "es": "Espectáculo en formato monólogo/pódcast interactivo a cargo de la compañía Les Inexactes, que combina experiencias personales y humor para reflexionar críticamente sobre las relaciones sexoafectivas y las violencias cotidianas que viven las mujeres y las disidencias. La propuesta acaba con una conversación con el público. A cargo de la compañía Les Inexactes."
+    },
+    "direccion": "Carrer de Dolors Masferrer i Bosch 29",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Les Inexactes"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-deconstruim-violencies-de-la-cia-les-inexactes_99400746859.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:30"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400746859",
+    "idioma_textos": "ca",
+    "lat": 41.38502350348377,
+    "lon": 2.128570286359541,
+    "nombre": "Deconstruïm violències",
+    "sala": "Espai Jove Ca La Panarra",
+    "sala_id": "barcelona:via202708-29",
+    "temas": {
+      "ca": [
+        "violència de gènere",
+        "relacions sexoafectives"
+      ],
+      "es": [
+        "violencia de género",
+        "relaciones sexoafectivas"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400750539": {
     "barrio": "el Clot",
     "caducado": "2026-11-18",
@@ -280,6 +375,182 @@
     "tipo": "eventos",
     "traducido": "es"
   },
+  "open_data_bcn:99400762210": {
+    "barrio": "el Congrés i els Indians",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Els espectacles de petit format tornen a omplir els espais de Can Clarianal Un itinerari d'una hora que recorrerà diferents espais del centre per gaudir de quatre peces de 15 minuts. Deixa't emportar i descobreix què s'hi amaga als racons de Can Clarianal Neoluddisme del S. XXI En un escenari buit, una directora teatral devastada confessa haver fet mal a una intel.ligència artificial. Una peça metateatral que situa l'ètica de la intel.ligència artificial no en la màquina, sinó en les mans humanes que la programen i la utilitzen A càrrec de: Companyia Morts de Gana Un pelo andaluz Un pelo andaluz és la història d'un floc de cabells al qual acaben de tallar. D'un dia per l'altre, l'humà amb qui ha compartit tota la vida decideix fer un canvi de look i el talla, enmig d'una perruqueria.",
+      "es": "Los espectáculos de pequeño formato vuelven a llenar los espacios de Can Clarianal. Un itinerario de una hora que recorrerá diferentes espacios del centro para disfrutar de cuatro piezas de 15 minutos. Déjate llevar y descubre qué se esconde en los rincones de Can Clarianal.\n\nNeoluddismo del S. XXI\nEn un escenario vacío, una directora teatral devastada confiesa haber hecho daño a una inteligencia artificial. Una pieza metateatral que sitúa la ética de la inteligencia artificial no en la máquina, sino en las manos humanas que la programan y la utilizan.\nA cargo de: Companyia Morts de Gana\n\nUn pelo andaluz\nUn pelo andaluz es la historia de un mechón de cabello al que acaban de cortar. De un día para otro, el humano con quien ha compartido toda la vida decide hacer un cambio de look y lo corta, en medio de una peluquería."
+    },
+    "direccion": "Carrer de Felip II 222",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Companyia Morts de Gana"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-espectacles-de-petit-format-microclariana_99400762210.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400762210",
+    "idioma_textos": "ca",
+    "lat": 41.42755131086321,
+    "lon": 2.1784411209301746,
+    "nombre": "Espectacles de petit format ' Microclariana'",
+    "sala": "Centre Cívic Can Clariana Cultural",
+    "sala_id": "barcelona:via121402-222",
+    "temas": {
+      "ca": [
+        "intel·ligència artificial",
+        "ètica"
+      ],
+      "es": [
+        "inteligencia artificial",
+        "ética"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400763355": {
+    "barrio": "la Maternitat i Sant Ramon",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "A partir de la figura de Marilyn Monroe / Norma Jeane, Monroe ha de morir reflexiona sobre la sexualització, la pressió sobre el cos i la imatge, la necessitat de ser estimades i la fragilitat de la salut mental. Marilyn deixa de ser només una icona per convertir-se en el reflex de totes aquelles que han hagut de crear un personatge per sobreviure. La peça transita entre realitat, memòria i ficció amb un llenguatge escènic multidisciplinari que integra interpretació, cos, veu, dansa, música i llengua de signes. Una proposta poètica, viva i accessible que combina emoció, humor i música per parlar de la identitat femenina, el patiment psíquic i la recerca d'una identitat més enllà del mite. Professional: Àngels López",
+      "es": "A partir de la figura de Marilyn Monroe / Norma Jeane, Monroe ha de morir reflexiona sobre la sexualización, la presión sobre el cuerpo y la imagen, la necesidad de ser amadas y la fragilidad de la salud mental. Marilyn deja de ser solo un icono para convertirse en el reflejo de todas aquellas que han tenido que crear un personaje para sobrevivir. La pieza transita entre realidad, memoria y ficción con un lenguaje escénico multidisciplinar que integra interpretación, cuerpo, voz, danza, música y lengua de signos. Una propuesta poética, viva y accesible que combina emoción, humor y música para hablar de la identidad femenina, el sufrimiento psíquico y la búsqueda de una identidad más allá del mito. Profesional: Àngels López"
+    },
+    "direccion": "Riera Blanca 1",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-monroe-ha-de-morir_99400763355.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400763355",
+    "idioma_textos": "ca",
+    "lat": 41.377779238441946,
+    "lon": 2.1217600571556323,
+    "nombre": "Monroe ha de morir",
+    "sala": "Centre Cívic Josep Maria Trias i Peitx",
+    "sala_id": "barcelona:via282252-1",
+    "temas": {
+      "ca": [
+        "identitat femenina",
+        "salut mental",
+        "imatge corporal"
+      ],
+      "es": [
+        "identidad femenina",
+        "salud mental",
+        "imagen corporal"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400767387": {
+    "barrio": "Vilapicina i la Torre Llobeta",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Espectacle en que la paraula gairebé no té lloc ja que les històries que el conformen son transmeses a través del llenguatge corporal i gestual. Un ventall de situacions portades des de diferents racons i cultures en el qual s'aborden diferents temes des de l'humor i la poesia deixant al descobert el bufó alegre de la vida, mb la intenció d'haver fet còmplice i partícip al públic A càrrec de Teatre de la manivela",
+      "es": "Espectáculo en el que la palabra casi no tiene lugar, ya que las historias que lo conforman se transmiten a través del lenguaje corporal y gestual. Un abanico de situaciones llegadas desde distintos rincones y culturas, en el que se abordan diferentes temas desde el humor y la poesía, dejando al descubierto el bufón alegre de la vida, con la intención de hacer cómplice y partícipe al público. A cargo de Teatre de la manivela"
+    },
+    "direccion": "Carrer de Santa Fe 2",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Teatre"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-gestual-trobades-amb-willo_99400767387.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "teatro físico"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400767387",
+    "idioma_textos": "ca",
+    "idiomas": [
+      "sin_texto"
+    ],
+    "lat": 41.42693150965028,
+    "lon": 2.173966250593847,
+    "nombre": "Trobades amb Willo",
+    "sala": "Centre Cívic Torre Llobeta",
+    "sala_id": "barcelona:via315704-2",
+    "temas": {
+      "ca": [
+        "llenguatge corporal",
+        "humor i poesia"
+      ],
+      "es": [
+        "lenguaje corporal",
+        "humor y poesía"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400767450": {
+    "barrio": "Sant Andreu",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-19",
+    "descripcion": {
+      "ca": "Activitat que combina un sketch d'humor crític sobre les violències masclistes amb un acte conjunt de les entitats de Can Galta en rebuig de la violència contra les dones. Seients reservats per a persones amb mobilitat reduïda, baixa visió o sordesa (demanda prèvia). Espai tranquil per a persones amb sensibilitat auditiva. Accés sense cua per a persones amb TEA, discapacitat intel·lectual o discapacitat física.",
+      "es": "Actividad que combina un sketch de humor crítico sobre las violencias machistas con un acto conjunto de las entidades de Can Galta en rechazo de la violencia contra las mujeres. Asientos reservados para personas con movilidad reducida, baja visión o sordera (demanda previa). Espacio tranquilo para personas con sensibilidad auditiva. Acceso sin cola para personas con TEA, discapacidad intelectual o discapacidad física."
+    },
+    "direccion": "Plaça de Can Galta Cremat 1",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-del-sarcasme-al-clam-les-bruixes-tornen-a-dir-prou_99400767450.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:30"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400767450",
+    "idioma_textos": "ca",
+    "lat": 41.44062232250783,
+    "lon": 2.1871934529175685,
+    "nombre": "Del sarcasme al clam, les bruixes tornen a dir prou",
+    "sala": "Plaça de Can Galta Cremat",
+    "sala_id": "barcelona:via701315-1",
+    "temas": {
+      "ca": [
+        "violència masclista"
+      ],
+      "es": [
+        "violencia machista"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400769636": {
     "barrio": "la Prosperitat",
     "caducado": "2026-11-19",
@@ -327,6 +598,59 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400770087": {
+    "barrio": "Sant Martí de Provençals",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "A càrrec d'Animamundi Teatre. El món de l'Amàlia és ple de llum i colors... però també hi ha un núvol que apareix quan menys t'ho esperes. És tan gran i tan fosc que pot tapar fins i tot la llum del sol. L'Amàlia vol desfer-se'n, ja en té prou! Però sense el núvol el món ja no serà el mateix. Tot comença a funcionar malament, molt malament... Un espectacle deliciós representat mitjançant la tècnica d'ombres xineses, ple d'efectes visuals a mida dels més petits, que ens parla de l'equilibri de la natura, el sol, els núvols, la lluna i els estels, la Via Làctia i els colors de l'arc de Sant Martí. En acabar farem un taller d'ombres xineses.",
+      "es": "A cargo de Animamundi Teatre. El mundo de Amàlia está lleno de luz y colores... pero también hay una nube que aparece cuando menos te lo esperas. Es tan grande y tan oscura que puede tapar incluso la luz del sol. ¡Amàlia quiere deshacerse de ella, ya tiene bastante! Pero sin la nube el mundo ya no será el mismo. Todo empieza a funcionar mal, muy mal... Un espectáculo delicioso representado mediante la técnica de sombras chinescas, lleno de efectos visuales a medida de los más pequeños, que nos habla del equilibrio de la naturaleza, el sol, las nubes, la luna y las estrellas, la Vía Láctea y los colores del arcoíris. Al acabar haremos un taller de sombras chinescas."
+    },
+    "direccion": "Carrer de la Selva de Mar 215",
+    "equipo": [
+      [
+        "guió originial i direcció",
+        "Kerstin von Porat. Ajudant de direcció: Emil Gutiérrez von Porat"
+      ],
+      [
+        "actors manipuladors",
+        "Emil Gutiérrez von Porat i Kerstin von Porat. Música: Kerstin von Porat"
+      ],
+      [
+        "producció",
+        "Animamundi Teatre"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-amalia-i-les-ombres-lunars_99400770087.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400770087",
+    "idioma_textos": "ca",
+    "lat": 41.41665521642997,
+    "lon": 2.198581654422569,
+    "nombre": "Amàlia i les ombres lunars",
+    "sala": "Centre Cívic Sant Martí",
+    "sala_id": "barcelona:via322608-215",
+    "temas": {
+      "ca": [
+        "equilibri de la natura"
+      ],
+      "es": [
+        "equilibrio de la naturaleza"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400770277": {
     "barrio": "el Poblenou",
     "caducado": "2026-11-17",
@@ -356,6 +680,31 @@
     "subtipo": "formación",
     "tipo": "eventos",
     "traducido": "es"
+  },
+  "open_data_bcn:99400770668": {
+    "barrio": "el Carmel",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-20",
+    "direccion": "Carrer de la Murtra 135",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-20",
+        "17:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400770668",
+    "idioma_textos": "ca",
+    "lat": 41.42102779561162,
+    "lon": 2.1551159636410184,
+    "nombre": "Fem cinema. Projeccions i tertúlies",
+    "sala": "Biblioteca El Carmel",
+    "sala_id": "barcelona:via224405-135",
+    "subtipo": "conferencia o coloquio",
+    "tipo": "eventos"
   },
   "open_data_bcn:99400772114": {
     "barrio": "Sarrià",
@@ -397,6 +746,67 @@
         "infancia",
         "obediencia",
         "culpa"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400775765": {
+    "artista": "Ada Vilaró",
+    "barrio": "el Guinardó",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Ada Vilaró Durada: 60 minuts \"Tinc només un pit i no per això el meu cos deixa de ser bell.\" Ada Vilaró sap que quan la vida et parteix en dos, es desplega l'oportunitat de travessar el dolor i redescobrir el misteri de la bellesa. Una bellesa política que combat la superficialitat i desafia els estereotips. Perquè 360 grams és un projecte que neix d'una experiència personal d'Ada Vilaró, molt íntima i fràgil, i que s'atreveix a compartir. Estrenada el 27 de setembre del 2019 al Festival TNT de Terrassa, la peça va ser premiada com a millor obra al Festival Territorio Violeta de Madrid; i també va rebre el premi a millor interpretació al Festival FITT de Tarragona. Espectacle recomanat per a públic de més de 16 anys.",
+      "es": "Ada Vilaró Durada: 60 minutos «Tengo solo un pecho y no por eso mi cuerpo deja de ser bello.» Ada Vilaró sabe que cuando la vida te parte en dos, se despliega la oportunidad de atravesar el dolor y redescubrir el misterio de la belleza. Una belleza política que combate la superficialidad y desafía los estereotipos. Porque 360 grams es un proyecto que nace de una experiencia personal de Ada Vilaró, muy íntima y frágil, y que se atreve a compartir. Estrenada el 27 de septiembre de 2019 en el Festival TNT de Terrassa, la pieza fue premiada como mejor obra en el Festival Territorio Violeta de Madrid; y también recibió el premio a mejor interpretación en el Festival FITT de Tarragona. Espectáculo recomendado para público mayor de 16 años."
+    },
+    "direccion": "Ronda del Guinardó 113",
+    "edad_min": 16,
+    "equipo": [
+      [
+        "autoria",
+        "Ada Vilaró"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-360-grams-d-ada-vilaro_99400775765.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400775765",
+    "idioma_textos": "ca",
+    "lat": 41.41607687588995,
+    "lon": 2.1733610333293782,
+    "nombre": "360 grams",
+    "premios": [
+      {
+        "ca": "Millor obra (Festival Territorio Violeta)",
+        "cita": "va ser premiada com a millor obra al Festival Territorio Violeta de Madrid",
+        "es": "Mejor obra (Festival Territorio Violeta)"
+      },
+      {
+        "ca": "Premi a la millor interpretació (Festival FITT)",
+        "cita": "va rebre el premi a millor interpretació al Festival FITT de Tarragona",
+        "es": "Premio a la mejor interpretación (Festival FITT)"
+      }
+    ],
+    "publico": "juvenil y adultos",
+    "sala": "Centre Cívic Guinardó",
+    "sala_id": "barcelona:via152905-113",
+    "temas": {
+      "ca": [
+        "bellesa",
+        "dolor",
+        "estereotips"
+      ],
+      "es": [
+        "belleza",
+        "dolor",
+        "estereotipos"
       ]
     },
     "tipo": "teatro",
@@ -515,6 +925,77 @@
       ]
     },
     "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400784165": {
+    "artista": "companyia Bragacadavra",
+    "barrio": "l'Antiga Esquerra de l'Eixample",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A causa de les reformes de millora dutes a terme a l'auditori del CC Urgell, aquest concert tindrà lloc a la sala d'actes de l'IES Poeta Maragall (C/ Provença, 187). Si desitges reservar les teves entrades de manera presencial ho pots fer a la recepció del CC Urgell amb normalitat. Un espectacle entre el circ, la dansa i el teatre sobre el vertigen i el desequilibri d'estimar, però amb un to lleuger i absurd, perquè l'humor és una eina poderosa per dir allò que costa mirar.",
+      "es": "Debido a las reformas de mejora llevadas a cabo en el auditorio del CC Urgell, este concierto tendrá lugar en la sala de actos del IES Poeta Maragall (C/ Provença, 187). Si deseas reservar tus entradas de manera presencial, puedes hacerlo en la recepción del CC Urgell con normalidad. Un espectáculo entre el circo, la danza y el teatro sobre el vértigo y el desequilibrio de amar, pero con un tono ligero y absurdo, porque el humor es una herramienta poderosa para decir aquello que cuesta mirar."
+    },
+    "direccion": "Carrer de Provença 187",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-de-circ-caiguda-lliure-per-a-persones-amb-vertigen-a-carrec-de-la-com_99400784165.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "20:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400784165",
+    "idioma_textos": "ca",
+    "lat": 41.39132547357072,
+    "lon": 2.156771608434526,
+    "nombre": "Caiguda lliure per a persones amb vertígen",
+    "sala": "Institut Poeta Maragall",
+    "sala_id": "barcelona:via268003-187",
+    "temas": {
+      "ca": [
+        "vertigen",
+        "amor"
+      ],
+      "es": [
+        "vértigo",
+        "amor"
+      ]
+    },
+    "tipo": "circo",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400785157": {
+    "barrio": "la Dreta de l'Eixample",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Professor: Nan Vida El teatre està escrit per ser representat i és per això que no es llegeix com un poema o un relat. Ens endinsarem en el plaer de llegir teatre en veu alta per descobrir com els textos dramàtics prenen vida a través de la paraula, la veu i la imaginació compartida. Després d'una breu contextualització històrica i teatral de cada peça, repartirem papers entre els participants i farem el que en l'argot escènic s'anomena treball de taula: la lectura en veu alta que se sol fer per explorar el món intern dels personatges i el sentit de les accions dramàtiques. No cal experiència teatral prèvia, només ganes de llegir, aprendre i participar activament.",
+      "es": "Profesor: Nan Vida El teatro está escrito para ser representado y por eso no se lee como un poema o un relato. Nos adentraremos en el placer de leer teatro en voz alta para descubrir cómo los textos dramáticos cobran vida a través de la palabra, la voz y la imaginación compartida. Después de una breve contextualización histórica y teatral de cada pieza, repartiremos papeles entre los participantes y haremos lo que en la jerga escénica se llama trabajo de mesa: la lectura en voz alta que se suele hacer para explorar el mundo interior de los personajes y el sentido de las acciones dramáticas. No hace falta experiencia teatral previa, solo ganas de leer, aprender y participar activamente."
+    },
+    "direccion": "Carrer de València 302",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-cultural-llegim-teatre-mes-enlla-de-la-paraula_99400785157.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "17:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400785157",
+    "idioma_textos": "ca",
+    "lat": 41.394518975814755,
+    "lon": 2.165900883899018,
+    "nivel": "iniciación",
+    "nombre": "Llegim teatre: més enllà de la paraula",
+    "precio_max": 81.65,
+    "precio_min": 81.65,
+    "sala": "Centre Cultural La Casa Elizalde",
+    "sala_id": "barcelona:via350308-302",
+    "subtipo": "formación",
+    "tipo": "eventos",
     "traducido": "es"
   },
   "open_data_bcn:99400785793": {
@@ -641,6 +1122,133 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400785863": {
+    "artista": "Èric Pons",
+    "barrio": "el Parc i la Llacuna del Poblenou",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "SINOPSI Aquesta és la història d'un nen que té molta memòria per recordar algunes coses, però que no és capaç de recordar-ne una de molt important. És la història del seu carrer i de les coses que hi van passar, anant i tornant de l'escola a finals de primària. És la història d'una trobada en aquest mateix carrer, molt temps després. I de tot el que ve després d'aquesta trobada. Un viatge al passat per reconstruir un trencaclosques i així construir-nos com a persones adultes amb totes les peces. El descobriment d'una nova mirada sobre els fets traumàtics que ens han marcat en l'infància, i que, per alguna raó, havíem oblidat. La Por a la Pell és un monòleg que parteix de l'experiència personal de l'Èric. I malgrat això, no tot el que s'explica és veritat, però tampoc mentida. El que sí que és veritat és que totis hem anat a l'escola i hi hem jugat un rol. Quin era el teu?",
+      "es": "SINOPSIS Esta es la historia de un niño que tiene mucha memoria para recordar algunas cosas, pero que no es capaz de recordar una muy importante. Es la historia de su calle y de las cosas que pasaron en ella, yendo y viniendo de la escuela al final de primaria. Es la historia de un encuentro en esta misma calle, mucho tiempo después. Y de todo lo que viene después de este encuentro. Un viaje al pasado para reconstruir un rompecabezas y así construirnos como personas adultas con todas las piezas. El descubrimiento de una nueva mirada sobre los hechos traumáticos que nos han marcado en la infancia, y que, por alguna razón, habíamos olvidado. La Por a la Pell es un monólogo que parte de la experiencia personal de Èric. Y a pesar de ello, no todo lo que se cuenta es verdad, pero tampoco mentira. Lo que sí es verdad es que todos hemos ido a la escuela y hemos jugado un papel en ella. ¿Cuál era el tuyo?"
+    },
+    "direccion": "Carrer de Buenaventura Muñoz 21",
+    "equipo": [
+      [
+        "direcció",
+        "Clara Manyós"
+      ],
+      [
+        "autoria",
+        "Èric Pons"
+      ],
+      [
+        "dramatúrgia col·lectiva",
+        "Quim Bigas, Blanca Garcia Lladó, Clara Manyós i Èric Pons"
+      ],
+      [
+        "interpretació",
+        "Èric Pons"
+      ],
+      [
+        "navalla suïssa",
+        "Adrià Andreu"
+      ],
+      [
+        "acompanyament i cures",
+        "Blanca Garcia Lladó"
+      ],
+      [
+        "moviment",
+        "Quim Bigas"
+      ],
+      [
+        "espai i il·luminació",
+        "Sandra Prat"
+      ],
+      [
+        "espai sonor",
+        "Neus Soler"
+      ],
+      [
+        "vestuari",
+        "Alba Paituví"
+      ],
+      [
+        "producció executiva: oscar fabrés",
+        "Assessorament en bullying i perspectiva de gènere: Nus Cooperativa"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-la-por-a-la-pell-d-eric-pons_99400785863.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "monólogo"
+    ],
+    "id": "open_data_bcn:99400785863",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/1783499964_weberic.760x428.efe54848.jpg",
+    "lat": 41.39174570900244,
+    "lon": 2.184766821590944,
+    "nombre": "La por a la pell",
+    "sala": "Centre Cívic Parc Sandaru",
+    "sala_id": "barcelona:via50803-21",
+    "temas": {
+      "ca": [
+        "memòria",
+        "infància",
+        "trauma infantil"
+      ],
+      "es": [
+        "memoria",
+        "infancia",
+        "trauma infantil"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400786031": {
+    "barrio": "Baró de Viver",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "D'on surten, les papallones? D'un ou petitó. I ja tenen ales de colors? No, primer són una eruga, un cuquet menut que ha de construir-se una caseta de seda per convertir-se en papallona… Ho voleu veure?",
+      "es": "¿De dónde salen las mariposas? De un huevo pequeñito. ¿Y ya tienen alas de colores? No, primero son una oruga, un gusanito pequeño que tiene que construirse una casita de seda para convertirse en mariposa… ¿Queréis verlo?"
+    },
+    "direccion": "Carrer de Quito 8",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-rrrrrr-historia-d-una-eruga_99400786031.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400786031",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/Captura.760x428.88ae16f5.jpg",
+    "lat": 41.4462918208594,
+    "lon": 2.200290194498161,
+    "nombre": "RRRRRR. Història d'una eruga",
+    "sala": "Centre Cívic Baró de Viver",
+    "sala_id": "barcelona:via273003-8",
+    "temas": {
+      "ca": [
+        "metamorfosi"
+      ],
+      "es": [
+        "metamorfosis"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400786081": {
     "barrio": "la Dreta de l'Eixample",
     "caducado": "2026-11-19",
@@ -693,6 +1301,140 @@
         "memoria",
         "identidad",
         "política"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400786222": {
+    "barrio": "el Raval",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Taller intensiu per a intèrprets adults amb experiència en teatre, audiovisual o arts escèniques. Mitjançant la improvisació guiada, les participants aprofundiran en el treball interpretatiu explorant situacions dramàtiques i quotidianes, on l'error esdevé una eina de descoberta i creació. A càrrec de Cia. Som Desubicades",
+      "es": "Taller intensivo para intérpretes adultos con experiencia en teatro, audiovisual o artes escénicas. Mediante la improvisación guiada, las participantes profundizarán en el trabajo interpretativo explorando situaciones dramáticas y cotidianas, donde el error se convierte en una herramienta de descubrimiento y creación. A cargo de Cia. Som Desubicades"
+    },
+    "direccion": "Carrer Nou de la Rambla 43",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-d-interpretacio-a-traves-de-la-improvisacio_99400786222.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400786222",
+    "idioma_textos": "ca",
+    "lat": 41.37767838726746,
+    "lon": 2.172864399551599,
+    "nombre": "d’interpretació a través de la improvisació",
+    "sala": "Centre Cívic Drassanes",
+    "sala_id": "barcelona:via86902-43",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "interpretació",
+        "improvisació"
+      ],
+      "es": [
+        "interpretación",
+        "improvisación"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400786432": {
+    "barrio": "el Carmel",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A partir de 4 anys Amb aquest taller els infants podran millorar la coordinació, equilibri, l'expressivitat, la creativitat i la consciència corporal. Tot plegat, els ajudarà a millorar el seu desenvolupament cognitiu a través del moviment! A càrrec de l'Associació Esportiva Sant Andreu Districte IX",
+      "es": "A partir de 4 años Con este taller los niños podrán mejorar la coordinación, el equilibrio, la expresividad, la creatividad y la conciencia corporal. Todo ello les ayudará a mejorar su desarrollo cognitivo a través del movimiento! A cargo de la Associació Esportiva Sant Andreu Districte IX"
+    },
+    "direccion": "Carrer del Santuari 27",
+    "disciplina": "circo",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-infantil-circ-i-acroesport_99400786432.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "17:30"
+      ]
+    ],
+    "id": "open_data_bcn:99400786432",
+    "idioma_textos": "ca",
+    "lat": 41.42026751883118,
+    "lon": 2.1511765613690907,
+    "nombre": "Circ i Acroesport",
+    "precio_max": 26.22,
+    "precio_min": 26.22,
+    "publico": "infantil",
+    "sala": "Centre Cívic El Carmel",
+    "sala_id": "barcelona:via320307-27",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "desenvolupament infantil",
+        "moviment corporal"
+      ],
+      "es": [
+        "desarrollo infantil",
+        "movimiento corporal"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400786658": {
+    "artista": "Albert Capel",
+    "barrio": "Navas",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "El bar més antic del barri ha aconseguit mantenir les portes obertes gràcies a la solidaritat i al suport incondicional de tots els veïns. Per agrair aquest gest coŀlectiu, els propietaris del popular Bar El Meu Poble organitzen una gran festa amb tres rifes plenes de sorpreses. Els premis no són poca cosa: una espectacular cistela de productes alimentaris cedida per Mercamuler, un complet lot de material d'escriptori i jocs gentilesa de l'empresa Acabus i, com a gran recompensa final, un viatge d'una setmana a Tenerife. Però el que havia de ser una celebració tranquiŀla es converteix en un autèntic festival d'embolics. Al larg de l'acte aniran apareixent tota mena de personatges pintorescos, excèntrics i entranyables, cadascun amb les seves manies, interessos i secrets.",
+      "es": "El bar más antiguo del barrio ha conseguido mantener las puertas abiertas gracias a la solidaridad y al apoyo incondicional de todos los vecinos. Para agradecer este gesto colectivo, los propietarios del popular Bar El Meu Poble organizan una gran fiesta con tres rifas llenas de sorpresas. Los premios no son poca cosa: una espectacular cesta de productos alimenticios cedida por Mercamuler, un completo lote de material de escritorio y juegos gentileza de la empresa Acabus y, como gran recompensa final, un viaje de una semana a Tenerife. Pero lo que debía ser una celebración tranquila se convierte en un auténtico festival de enredos. A lo largo del acto irán apareciendo toda clase de personajes pintorescos, excéntricos y entrañables, cada uno con sus manías, intereses y secretos."
+    },
+    "direccion": "Carrer de Las Navas de Tolosa 312",
+    "equipo": [
+      [
+        "autoria",
+        "Albert Capel"
+      ],
+      [
+        "autor",
+        "Albert Capel"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-el-meu-poble-d-albert-capel_99400786658.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400786658",
+    "idioma_textos": "ca",
+    "lat": 41.41693998158291,
+    "lon": 2.184931573020558,
+    "nombre": "El meu poble",
+    "sala": "Centre Cívic Navas",
+    "sala_id": "barcelona:via226400-312",
+    "temas": {
+      "ca": [
+        "solidaritat",
+        "comunitat de barri"
+      ],
+      "es": [
+        "solidaridad",
+        "comunidad de barrio"
       ]
     },
     "tipo": "teatro",
@@ -751,6 +1493,122 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400788131": {
+    "artista": "Pablo Picotto",
+    "barrio": "Sant Antoni",
+    "caducado": "2026-11-20",
+    "compra": "https://cat.teatremuntaner.com/",
+    "compra_tipo": "sala",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Pablo Picotto arriba amb el seu nou xou 25 ANYS D'HUMOR Qui et coneix? Un nou espectacle on després de 25 anys de comèdia, Pablo Picotto ens compta, amb l'humor que el caracteritza, com va descobrir la comèdia, fent un repàs de la seva vida en els escenaris i, passant, per alguns dels seus personatges més estimats i, per què no, a alguna reflexió sobre la vida. Un espectacle per a gaudir i divertir, per a emocionar amb el passat i pensar cap endavant. Espectacle recomanat per a majors de 13 anys.",
+      "es": "Pablo Picotto llega con su nuevo show 25 AÑOS DE HUMOR ¿Quién te conoce? Un nuevo espectáculo en el que, tras 25 años de comedia, Pablo Picotto nos cuenta, con el humor que lo caracteriza, cómo descubrió la comedia, haciendo un repaso de su vida en los escenarios y, pasando por algunos de sus personajes más queridos y, por qué no, por alguna reflexión sobre la vida. Un espectáculo para disfrutar y divertirse, para emocionarse con el pasado y pensar hacia adelante. Espectáculo recomendado para mayores de 13 años."
+    },
+    "direccion": "Carrer de Muntaner 4",
+    "duracion": 90,
+    "edad_min": 13,
+    "equipo": [
+      [
+        "amb",
+        "Pablo Picotto"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/monoleg-25-anos-de-humor-quien-te-conoce-amb-pablo-picotto_99400788131.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "22:30"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400788131",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/25anos.760x428.a97e24ac.jpg",
+    "lat": 41.38403042999847,
+    "lon": 2.1630343315494867,
+    "nombre": "25 años de humor. ¿Quién te conoce?",
+    "precio_max": 30.0,
+    "precio_min": 30.0,
+    "publico": "juvenil y adultos",
+    "sala": "Teatre Muntaner",
+    "sala_id": "barcelona:via223606-4",
+    "temas": {
+      "ca": [
+        "trajectòria artística",
+        "humor"
+      ],
+      "es": [
+        "trayectoria artística",
+        "humor"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400788170": {
+    "artista": "Juampi González",
+    "barrio": "l'Antiga Esquerra de l'Eixample",
+    "caducado": "2026-11-20",
+    "compra": "https://teatrebalmes.com/ca/humor/barcelona/oveja-negra",
+    "compra_sala": "https://teatrebalmes.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Juampi González estrena OVEJA NEGRA, -el seu quart unipersonal d'humor- en el qual explora la seva identitat, les seves contradiccions i el vertigen d'acostar-se als 40... sense complir cap de les caselles que \"s'havien de complir\". Amb humor punyent i una mirada tan honesta com incòmoda, Juampi es confessa sobre sentir-se en aquest estrany moment en el qual tots semblen tenir un pla... menys tu. Un xou que convida el públic a riure's dels mandats, de sentir-se estrany, diferent, o directament perdut. I a adonar-se que no estem sols, que som més del que sembla. Perquè tots tenim una miqueta d'OVEJA NEGRA.",
+      "es": "Juampi González estrena OVEJA NEGRA, -su cuarto unipersonal de humor- en el que explora su identidad, sus contradicciones y el vértigo de acercarse a los 40... sin cumplir ninguna de las casillas que \"se tenían que cumplir\". Con humor punzante y una mirada tan honesta como incómoda, Juampi se confiesa sobre sentirse en este extraño momento en el que todos parecen tener un plan... menos tú. Un show que invita al público a reírse de los mandatos, de sentirse extraño, diferente, o directamente perdido. Y a darse cuenta de que no estamos solos, de que somos más de lo que parece. Porque todos tenemos un poquito de OVEJA NEGRA."
+    },
+    "direccion": "Carrer de Balmes 137",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Juampi González"
+      ],
+      [
+        "Artistes",
+        "Juampi González"
+      ]
+    ],
+    "ficha_fuente": "https://teatrebalmes.com/ca/humor/barcelona/oveja-negra",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-oveja-negra-a-carrec-de-juampi-gonzalez_99400788170.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:30"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400788170",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/ovejanegra.760x428.98cfd190.jpg",
+    "lat": 41.39362271652966,
+    "lon": 2.15675429900674,
+    "nombre": "Oveja negra",
+    "pagina_obra": "https://teatrebalmes.com/ca/humor/barcelona/oveja-negra",
+    "precio_max": 25.0,
+    "precio_min": 25.0,
+    "sala": "Balmes Teatre",
+    "sala_id": "barcelona:via32700-137",
+    "temas": {
+      "ca": [
+        "identitat",
+        "crisi dels 40"
+      ],
+      "es": [
+        "identidad",
+        "crisis de los 40"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400788810": {
     "artista": "Cia. Tentacles",
     "barrio": "Sant Antoni",
@@ -801,6 +1659,49 @@
         "amistad entre mujeres"
       ]
     },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400788842": {
+    "barrio": "l'Antiga Esquerra de l'Eixample",
+    "caducado": "2026-11-20",
+    "compra": "https://dice.fm/event/k6789o-variets-by-churros-cabaret-brutal-20th-nov-teatre-balmes-barcelona-tickets?lng=es",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Benvingudes al CABARET BRUTAL, un espectacle on el luxe es troba amb el que és grotesc i res és exactament el que sembla. Un cabaret extravagant, estrany i deliciosament brutal. T'atreveixes a entrar-hi?",
+      "es": "¡Bienvenidas al CABARET BRUTAL, un espectáculo donde el lujo se encuentra con lo grotesco y nada es exactamente lo que parece. Un cabaret extravagante, extraño y deliciosamente brutal. ¿Te atreves a entrar?"
+    },
+    "direccion": "Carrer de Balmes 137",
+    "equipo": [
+      [
+        "juntament amb la nostra estrella convidada",
+        "BESTIAH, de Drag Race España, i quatre convidades de luxe de l'escena alternativa de Barcelona, ens submergirem en una nit de glamur, sang, excessos i situacions que probablement no haurien d'estar passant"
+      ]
+    ],
+    "ficha_fuente": "https://dice.fm/event/k6789o-variets-by-churros-cabaret-brutal-20th-nov-teatre-balmes-barcelona-tickets?lng=es",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-musical-varietes-by-churros-cabaret-brutal_99400788842.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "23:30"
+      ]
+    ],
+    "generos": [
+      "cabaret"
+    ],
+    "id": "open_data_bcn:99400788842",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/cabaretbrutal.760x428.ed5af4fa.jpg",
+    "lat": 41.39362271652966,
+    "lon": 2.15675429900674,
+    "nombre": "Varietés by Churros - Cabaret Brutal",
+    "pagina_obra": "https://dice.fm/event/k6789o-variets-by-churros-cabaret-brutal-20th-nov-teatre-balmes-barcelona-tickets?lng=es",
+    "precio_max": 20.13,
+    "precio_min": 20.13,
+    "sala": "Balmes Teatre",
+    "sala_id": "barcelona:via32700-137",
     "tipo": "teatro",
     "traducido": "es"
   },
@@ -1023,6 +1924,144 @@
     "sala_id": "barcelona:via306306-64",
     "tipo": "teatro"
   },
+  "open_data_bcn:99400789719": {
+    "barrio": "Sant Antoni",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "L'artista Marga Socias ens proposa una exploració emocionant sobre el naixement de les idees, el seu món secret i el que poden arribar a fer. Estrenada al Teatre Lliure la temporada 2023/24, La idea brillant (que al principi no ho era) s'ha vist al Teatre Municipal de Girona; al Teatre Principal d'Olot; a Fitkam, el Festival infantil i juvenil d'arts escèniques de Montmeló; a La Mostra d'Igualada i al LAVA de Valladolid. Cia. Marga Socias Teatre. 45 minuts. A partir de 4 anys. Idea, text i direcció: Marga Socias/ Acompanyament: Toti Toronell/ Tècnica: Xavi Moreno/",
+      "es": "La artista Marga Socias nos propone una exploración emocionante sobre el nacimiento de las ideas, su mundo secreto y lo que pueden llegar a hacer. Estrenada en el Teatre Lliure la temporada 2023/24, La idea brillant (que al principio no lo era) se ha visto en el Teatre Municipal de Girona; en el Teatre Principal d'Olot; en Fitkam, el Festival infantil y juvenil de artes escénicas de Montmeló; en La Mostra d'Igualada y en el LAVA de Valladolid. Cia. Marga Socias Teatre. 45 minutos. A partir de 4 años. Idea, texto y dirección: Marga Socias/ Acompañamiento: Toti Toronell/ Técnica: Xavi Moreno/"
+    },
+    "direccion": "Carrer de Viladomat 2",
+    "equipo": [
+      [
+        "intèrprets",
+        "Joana Vulart i Marga Socias /"
+      ],
+      [
+        "elements escenogràfics",
+        "Thomas Roper/Música: Carles Fontova/"
+      ],
+      [
+        "coproducció",
+        "Marga Socias i Teatre Lliure"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-familiar-la-idea-brillant-que-al-principi-no-ho-hera_99400789719.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789719",
+    "idioma_textos": "ca",
+    "lat": 41.37557224589931,
+    "lon": 2.1629307624189775,
+    "nombre": "La idea brillant (que al principi no ho hera)",
+    "publico": "familiar",
+    "sala": "Centre Cívic Cotxeres Borrell",
+    "sala_id": "barcelona:via361406-2",
+    "temas": {
+      "ca": [
+        "creativitat",
+        "idees"
+      ],
+      "es": [
+        "creatividad",
+        "ideas"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789808": {
+    "barrio": "Vallcarca i els Penitents",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-19",
+    "descripcion": {
+      "ca": "En aquest cicle de projeccions de tardor ens aproparem a tres realitats socials diferents a través d'històries personals que ens parlaran de memòria, territori, història, comunitat i lluites col·lectives. VEUS TRANSHUMANTS (2025, 59 min) Projecció, col·loqui i concert amb Marta Delas Passat, present i futur de la transhumància i el pasturat ge a Catalunya. Documental antropològic de Paula Es cribano centrat en les persones que continuen amb la ramaderia extensiva. Tot seguit concert de Marta Delas, que ha fet la banda sonora del documental. Organitza: Comissió Arts i Cultura",
+      "es": "En este ciclo de proyecciones de otoño nos acercaremos a tres realidades sociales diferentes a través de historias personales que nos hablarán de memoria, territorio, historia, comunidad y luchas colectivas. VOCES TRANSHUMANTES (2025, 59 min) Proyección, coloquio y concierto con Marta Delas Pasado, presente y futuro de la trashumancia y el pastoreo en Cataluña. Documental antropológico de Paula Escribano centrado en las personas que continúan con la ganadería extensiva. A continuación concierto de Marta Delas, que ha hecho la banda sonora del documental. Organiza: Comissió Arts i Cultura"
+    },
+    "direccion": "Carrer de Cambrils 28",
+    "disciplina": "cine",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/documental-i-colloqui-veus-transhumants_99400789808.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789808",
+    "idioma_textos": "ca",
+    "lat": 41.41236403095899,
+    "lon": 2.1457730218797497,
+    "nombre": "Veus transhumants",
+    "sala": "Casal de Barri Comunitari Can Carol",
+    "sala_id": "barcelona:via56402-28",
+    "subtipo": "conferencia o coloquio",
+    "temas": {
+      "ca": [
+        "transhumància",
+        "memòria",
+        "territori"
+      ],
+      "es": [
+        "trashumancia",
+        "memoria histórica",
+        "territorio"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789870": {
+    "artista": "Macarena Recuerda Shepher",
+    "barrio": "la Sagrera",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Collage i Acció és una peça participativa que es desenvolupa en dues parts: un joc de taula i un joc escènic. Els participants hauran d'organitzar-se, escoltar-se i crear una obra col·lectiva. Collage i Acció és un espai per construir noves realitats. Què passaria si canviéssim el nom dels objectes? I si els donéssim al tres usos? I si imaginem que un cos és un objecte i un objecte diversos cossos? I si en moure una cadira sonés com un cavall o si un peu de micro fes olor de flor? Collage i Acció és un joc on no es competeix, sinó que es construeix en equip.",
+      "es": "Collage i Acción es una pieza participativa que se desarrolla en dos partes: un juego de mesa y un juego escénico. Los participantes deberán organizarse, escucharse y crear una obra colectiva. Collage i Acción es un espacio para construir nuevas realidades. ¿Qué pasaría si cambiáramos el nombre de los objetos? ¿Y si les diéramos los tres usos? ¿Y si imaginamos que un cuerpo es un objeto y un objeto varios cuerpos? ¿Y si al mover una silla sonara como un caballo o si un pie de micro oliera a flor? Collage i Acción es un juego donde no se compite, sino que se construye en equipo."
+    },
+    "direccion": "C Hondures 28",
+    "equipo": [
+      [
+        "autoria",
+        "Macarena Recuerda Shepher"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-collage-i-accio-de-macarena-recuerda-shepher_99400789870.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "17:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789870",
+    "idioma_textos": "ca",
+    "lat": 41.4199791609378,
+    "lon": 2.1899651964541302,
+    "nombre": "Collage i acció",
+    "sala": "Espai 30",
+    "sala_id": "barcelona:via156509-28",
+    "temas": {
+      "ca": [
+        "creació col·lectiva"
+      ],
+      "es": [
+        "creación colectiva"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400790011": {
     "barrio": "les Roquetes",
     "caducado": "2026-11-18",
@@ -1054,6 +2093,47 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400790047": {
+    "barrio": "Sarrià",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Projecció del documental \"L'emprenedor\" i, posteriorment, es durà a terme un debat col·loqui amb Ronald Fosso, escriptor, integrador social i membre de la Fundació Putxet.",
+      "es": "Proyección del documental \"L'emprenedor\" y, posteriormente, se llevará a cabo un debate coloquio con Ronald Fosso, escritor, integrador social y miembro de la Fundació Putxet."
+    },
+    "direccion": "Via Augusta 390",
+    "disciplina": "cine",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/documental-i-debat-proces-d-immigracio-i-precarietat-laboral_99400790047.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "12:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790047",
+    "idioma_textos": "ca",
+    "lat": 41.40379591152728,
+    "lon": 2.1194605457742592,
+    "nombre": "Procés d'immigració i precarietat laboral",
+    "sala": "Institut Químic de Sarrià",
+    "sala_id": "barcelona:via28000-390",
+    "sala_interior": "Campus Sarrià - IQS",
+    "subtipo": "conferencia o coloquio",
+    "temas": {
+      "ca": [
+        "immigració",
+        "precarietat laboral"
+      ],
+      "es": [
+        "inmigración",
+        "precariedad laboral"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400790191": {
     "barrio": "Sants",
     "caducado": "2026-11-19",
@@ -1078,5 +2158,214 @@
     "sala_id": "barcelona:via134958-6",
     "subtipo": "formación",
     "tipo": "eventos"
+  },
+  "open_data_bcn:99400790298": {
+    "barrio": "Sant Pere, Santa Caterina i la Ribera",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Teatre-fòrum per visibilitzar i combatre les discriminacions i el maltractament envers les dones grans. Inscripcions: Del 16 al 19 de novembre d'11.00 a 13.00 h Organitza: Casal de Persones Grans del Casc Antic",
+      "es": "Teatro-foro para visibilizar y combatir las discriminaciones y el maltrato hacia las mujeres mayores. Inscripciones: Del 16 al 19 de noviembre de 11.00 a 13.00 h Organiza: Casal de Persones Grans del Casc Antic"
+    },
+    "direccion": "Carrer dels Mestres Casals i Martorell 2",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-forum-escoltem-pero-no-jutgem_99400790298.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "17:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790298",
+    "idioma_textos": "ca",
+    "lat": 41.38724491943708,
+    "lon": 2.1785390509848854,
+    "nombre": "Escoltem però no jutgem",
+    "sala": "Casal de Persones Grans del Casc Antic",
+    "sala_id": "barcelona:via189100-2",
+    "temas": {
+      "ca": [
+        "discriminació de dones grans",
+        "maltractament a persones grans"
+      ],
+      "es": [
+        "discriminación de mujeres mayores",
+        "maltrato a mayores"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400790331": {
+    "barrio": "la Maternitat i Sant Ramon",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Dues dones comparteixen amb el públic la seva vida i experiències, un món íntim ple de contradiccions, rialles i plors, en un viatge des de la infància fins a la vida adulta, en el qual una cosa inesperada, encara que tristament comuna al món en què vivim, les canvia per sempre. Dues actrius i un espai minimalista per crear un relat íntim i profundament personal. Una creació en col·lectiu que neix d'aquesta premissa: segons l'informe anual de persones desaparegudes del 2025 del Ministeri de l'Interior i les dades del Centre Nacional de Desapareguts, actualment hi ha a Espanya un total de 6.722 persones de les quals es desconeix el parador. A càrrec de la companyia La Trenza.",
+      "es": "Dos mujeres comparten con el público su vida y experiencias, un mundo íntimo lleno de contradicciones, risas y llantos, en un viaje desde la infancia hasta la vida adulta, en el que algo inesperado, aunque tristemente común en el mundo en que vivimos, las cambia para siempre. Dos actrices y un espacio minimalista para crear un relato íntimo y profundamente personal. Una creación colectiva que nace de esta premisa: según el informe anual de personas desaparecidas de 2025 del Ministerio del Interior y los datos del Centro Nacional de Desaparecidos, actualmente hay en España un total de 6.722 personas de las que se desconoce el paradero. A cargo de la compañía La Trenza."
+    },
+    "direccion": "Carrer del Comandant Benítez 6",
+    "equipo": [
+      [
+        "a càrrec de",
+        "La Trenza"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-desaparecida_99400790331.html",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790331",
+    "idioma_textos": "ca",
+    "lat": 41.37933180540103,
+    "lon": 2.127776128826079,
+    "nombre": "Desaparecida",
+    "sala": "Centre Cívic Joan Oliver",
+    "sala_id": "barcelona:via84703-6",
+    "sala_interior": "Pere Quart",
+    "temas": {
+      "ca": [
+        "desaparició de persones",
+        "vida íntima"
+      ],
+      "es": [
+        "desaparición de personas",
+        "vida íntima"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400790504": {
+    "barrio": "Sant Antoni",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-20",
+    "direccion": "Carrer de Calàbria 66",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-20",
+        "17:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790504",
+    "idioma_textos": "ca",
+    "lat": 41.37840787488813,
+    "lon": 2.156925485562901,
+    "nombre": "L'àvia i el foraster",
+    "sala": "Espai Veïnal Calàbria 66",
+    "sala_id": "barcelona:via54509-66",
+    "subtipo": "conferencia o coloquio",
+    "tipo": "eventos"
+  },
+  "open_data_bcn:99400790645": {
+    "barrio": "la Nova Esquerra de l'Eixample",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-20",
+    "direccion": "Carrer d'Entença 155",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-20",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790645",
+    "idioma_textos": "ca",
+    "lat": 41.383466537215966,
+    "lon": 2.1453845998129886,
+    "nombre": "Projecció i col·loqui del documental \"Carretera a Gusen",
+    "sala_id": "barcelona:via110803-155",
+    "subtipo": "conferencia o coloquio",
+    "tipo": "eventos"
+  },
+  "webs_salas:06cf230b024b496e": {
+    "barrio": "Sant Pere, Santa Caterina i la Ribera",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-20",
+    "descripcion": {
+      "en": "Astrology, audience confessions and cosmic chaos collide in this interactive comedy show, with Anna Clifford.",
+      "es": "La astrología, las confesiones del público y el caos cósmico chocan en este espectáculo de comedia interactiva, con Anna Clifford."
+    },
+    "direccion": "Via Laietana 6",
+    "fuente": "The Comedy Clubhouse *Laietana & Nikki's (web oficial)",
+    "fuente_url": "https://thecomedyclubhouse.es/",
+    "funciones": [
+      [
+        "2026-11-20",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "webs_salas:06cf230b024b496e",
+    "idioma_textos": "en",
+    "lat": 41.38230497129032,
+    "lon": 2.1811156714167006,
+    "nombre": "The Cosmic Crowd Work Show",
+    "precio_max": 7.0,
+    "precio_min": 7.0,
+    "sala": "The Comedy Clubhouse *Laietana & Nikki's",
+    "sala_id": "barcelona:via177101-6",
+    "temas": {
+      "ca": [
+        "astrologia",
+        "comèdia interactiva"
+      ],
+      "es": [
+        "astrología",
+        "comedia interactiva"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "webs_salas:c704f5c981bcb96c": {
+    "barrio": "Sant Pere, Santa Caterina i la Ribera",
+    "caducado": "2026-11-20",
+    "comprobado": "2026-11-20",
+    "descripcion": {
+      "en": "The sassiest showcase in town is BACK!",
+      "es": "¡El escaparate más descarado de la ciudad ha VUELTO!"
+    },
+    "direccion": "Via Laietana 6",
+    "fuente": "The Comedy Clubhouse *Laietana & Nikki's (web oficial)",
+    "fuente_url": "https://thecomedyclubhouse.es/",
+    "funciones": [
+      [
+        "2026-11-20",
+        "21:00"
+      ]
+    ],
+    "generos": [
+      "monólogo"
+    ],
+    "id": "webs_salas:c704f5c981bcb96c",
+    "idioma_textos": "en",
+    "lat": 41.38230497129032,
+    "lon": 2.1811156714167006,
+    "nombre": "AtoMIC Comedy: Slay!",
+    "precio_max": 10.0,
+    "precio_min": 8.0,
+    "sala": "The Comedy Clubhouse *Laietana & Nikki's",
+    "sala_id": "barcelona:via177101-6",
+    "tipo": "teatro",
+    "traducido": "es"
   }
 }

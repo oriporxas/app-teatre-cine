@@ -11337,6 +11337,42 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt43693579": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/6jVby5VFD1fKSwe0Q1q7X4G3fbN.jpg",
+      "direccion": [],
+      "duracion": 165,
+      "edad": null,
+      "estreno": "2026-12-01",
+      "fondo": null,
+      "generos": [],
+      "guion": [],
+      "idioma_original": "en",
+      "imdb": "tt43693579",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/toabyJ2w8pNf1xM0oJPWSawDpMB.jpg",
+          "id": 931421,
+          "nombre": "André Rieu",
+          "papel": "Himself"
+        }
+      ],
+      "sinopsis": {
+        "en": "Andre Rieu's annual concert celebrating the magic of Christmas."
+      },
+      "titulo": "Andre Rieu's 2026 Christmas Concert Let It Snow",
+      "titulo_ca": null,
+      "titulo_original": "Andre Rieu's 2026 Christmas Concert Let It Snow",
+      "tmdb": 1707785,
+      "trailer": null,
+      "wikidata": null
+    },
+    "fecha": "2026-11-21"
+  },
   "itt44766123": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
@@ -12202,6 +12238,7 @@
   "p88592": "Q3302455",
   "p90": "Q232273",
   "p92572": "Q20031439",
+  "p931421": "Q159832",
   "p932161": "Q2422285",
   "p932967": "Q360531",
   "p938080": "Q8192289",
@@ -14331,6 +14368,53 @@
     }
   ],
   "wQ1592579": [],
+  "wQ159832": [
+    {
+      "anio": null,
+      "premio": "Caballero de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Medalla Carlomagno para los medios europeos",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Honor d'Or pels Serveis a la República d'Àustria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Goldene Stimmgabel",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Goldene Stimmgabel",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Goldene Stimmgabel",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Caballero de la Orden del León Holandés",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Classic Brit Awards",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Orden al Mérito Artístico y Cultural Pablo Neruda",
+      "tipo": "ganado"
+    }
+  ],
   "wQ16156312": [],
   "wQ16207915": [
     {

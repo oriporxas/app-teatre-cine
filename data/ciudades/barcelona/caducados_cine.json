@@ -35,12 +35,31 @@
     },
     "titulo": "Gaudeix del FICMA a Turull"
   },
+  "p-t-hospital-de-campanya": {
+    "agenda": "open_data_bcn:99400750806",
+    "caducado": "2026-11-20",
+    "gratis": true,
+    "id": "p-t-hospital-de-campanya",
+    "titulo": "Hospital de Campanya"
+  },
   "p-t-l-oliva-i-el-terratremol-invisible": {
     "agenda": "open_data_bcn:99400761789",
     "caducado": "2026-11-19",
     "gratis": true,
     "id": "p-t-l-oliva-i-el-terratremol-invisible",
     "titulo": "L'Oliva i el terratrèmol invisible"
+  },
+  "p-t-numacage-public-pool-ota": {
+    "agenda": "open_data_bcn:99400785861",
+    "caducado": "2026-11-20",
+    "direccion": [
+      {
+        "nombre": "Shingo Ota"
+      }
+    ],
+    "gratis": true,
+    "id": "p-t-numacage-public-pool-ota",
+    "titulo": "Numacage public pool"
   },
   "p-t-petits-moments-magics": {
     "agenda": "open_data_bcn:99400762080",
@@ -58,6 +77,12 @@
     "gratis": true,
     "id": "p-t-projeccio-i-col-loqui-miss-carbon",
     "titulo": "Projecció i col•loqui \"Miss Carbón"
+  },
+  "p-t-projeccions-al-zumzeig": {
+    "agenda": "open_data_bcn:99400790567",
+    "caducado": "2026-11-20",
+    "id": "p-t-projeccions-al-zumzeig",
+    "titulo": "Projeccions al Zumzeig"
   },
   "p-t-road-movies-el-hidalgo-de-los-mares-raoul-walsh-1951": {
     "agenda": "open_data_bcn:99400789292",
@@ -89,6 +114,619 @@
       "ca": "\"Si decido quedarme\" (títol original en anglès:\nIf I Stay) és una pel·lícula de drama romàntic adolescent estatunidenca del 2014 dirigida per R. J. Cutler i basada en la novel·la homònima del 2009 de Gayle Forman.\nLa Mia Hall es pensava que la decisió més difícil que hauria d'afrontar a la vida seria si fer realitat els seus somnis musicals al prestigiós conservatori Juilliard de Nova York o seguir un altre camí amb el seu xicot Adam, cantant del grup Willamette Stone. Però el que hauria d'haver estat un simple trajecte amb cotxe amb la seva família canvia en un instant, tenen un terrible accident i, de cop i volta, la seva vida penja d'un fil. Atrapada entre la vida i la mort durant un dia molt revelador, la Mia haurà de treure les forces d'on sigui i prendre una decisió transcendental."
     },
     "titulo": "XIV Cicle de Cinema \"REC i ACCIÓ\". Projecció \"Si decido quedarme"
+  },
+  "p-tt114841": {
+    "caducado": "2026-11-20",
+    "id": "p-tt114841",
+    "imdb": "tt114841",
+    "titulo": "El sentido de la birra",
+    "titulo_original": "El sentido de la birra"
+  },
+  "tmdb-1018": {
+    "anio": 2001,
+    "caducado": "2026-11-20",
+    "cartel": "https://image.tmdb.org/t/p/w500/kLpwkbimTwTbsYixCO3eAdNCQJ8.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "id": 5602,
+        "nombre": "David Lynch",
+        "premios": [
+          {
+            "anio": 2007,
+            "premio": "Oficial de la Orden Nacional de la Legión de Honor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Goslarer Kaiserring",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1993,
+            "premio": "Premios Saturn",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "León de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1990,
+            "premio": "Palma de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2001,
+            "premio": "Premio del Festival de Cannes al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1982,
+            "premio": "César a la mejor película extranjera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1999,
+            "premio": "Premio del Cine Europeo a la mejor película no europea",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Óscar honorífico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Eagle Scout",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Gran Premio Honorífico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1982,
+            "premio": "Premios César",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "León de Oro por la carrera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1987,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1999,
+            "premio": "Premio del Cine Europeo a la mejor película no europea",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q2071"
+      }
+    ],
+    "duracion": 147,
+    "edad": "18",
+    "estreno": "2001-06-06",
+    "fondo": "https://image.tmdb.org/t/p/w1280/kxgrGGbifN60x5BopH4wk7T4Twe.jpg",
+    "generos": [
+      "Suspense",
+      "Drama",
+      "Misterio"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+        "id": 5602,
+        "nombre": "David Lynch"
+      }
+    ],
+    "id": "tmdb-1018",
+    "idioma_original": "en",
+    "imdb": "tt0166924",
+    "lema": "Una historia de amor en la ciudad de los sueños",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/x80I3W87lIfuPn3A3smVrGSA8Bx.jpg",
+        "id": 5628,
+        "nombre": "Angelo Badalamenti"
+      }
+    ],
+    "nota": 7.8,
+    "paises": [
+      "FR",
+      "US"
+    ],
+    "premios": [
+      {
+        "anio": null,
+        "premio": "César a la mejor película extranjera",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "National Board of Review a las 10 Películas más Destacadas",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2002,
+        "premio": "Óscar al mejor director",
+        "tipo": "nominado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/7ysvff7ZhW388SIh2YjQ0XIryOn.jpg",
+        "id": 3489,
+        "nombre": "Naomi Watts",
+        "papel": "Betty Elms / Diane Selwyn",
+        "premios": [
+          {
+            "anio": 2002,
+            "premio": "Premio Saturn a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2004,
+            "premio": "Premios Independent Spirit",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Premio del Sindicato de Actores al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2004,
+            "premio": "Australian Film Institute Global Achievement Award",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2001,
+            "premio": "Premi Chicago Film Critics Association a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Medalla del Círculo de Escritores Cinematográficos a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premi Fangoria Chainsaw a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premi del Florida Film Critics Circle a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Festival de Cine de Giffoni",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Premi del Cercle de Crítics Cinematogràfics de Londres a l'actriu de l'any",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la Mejor Actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2001,
+            "premio": "National Society of Film Critics Award a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2001,
+            "premio": "Premi de la Societat de Crítics de Cinema en Línia a la millor interpretació revelació",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2001,
+            "premio": "Premi de la Societat de Crítics de Cinema en Línia a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premi de la Societat de Crítics de Cinema en Línia a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2001,
+            "premio": "San Diego Film Critics Society Award for Best Supporting Actress",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premi de la San Diego Film Critics Society a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Premi de la San Diego Film Critics Society a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "San Diego Film Critics Society Award for Best Performance by an Ensemble",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Premio Saturn a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premis de l'Associació de Crítics Cinematogràfics de l'Àrea de Washington a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Washington D.C. Area Film Critics Association Award for Best Ensemble",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2004,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premio del Cine Europeo a la mejor actriz europea",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q132616"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6g64N2VsADTPRDsKcJDO2ayGQUt.jpg",
+        "id": 15007,
+        "nombre": "Laura Harring",
+        "papel": "Rita / Camilla Rhodes",
+        "premios": [],
+        "wikidata": "Q233536"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6YuPMsLDMoD5BRkzWIjllwFFt5Y.jpg",
+        "id": 15009,
+        "nombre": "Justin Theroux",
+        "papel": "Adam",
+        "premios": [
+          {
+            "anio": 2005,
+            "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premio de la Crítica Televisiva al mejor actor en serie de drama",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q316596"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/wIXkTkf7bElq7u7kSlEVfoDnzYZ.jpg",
+        "id": 15008,
+        "nombre": "Ann Miller",
+        "papel": "Coco",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Estrella del Paseo de la Fama de Hollywood",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1980,
+            "premio": "Premio Tony a la mejor actriz principal en un musical",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q241701"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/r0XnI7sUWzShVwnHw3ncSPxw0Tv.jpg",
+        "id": 1236,
+        "nombre": "Mark Pellegrino",
+        "papel": "Joe"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vGDifxN2PnO69rnpg6FoWkocFCD.jpg",
+        "id": 5694,
+        "nombre": "Robert Forster",
+        "papel": "Detective McKnight"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/evL3mV8hNIjZOb1XG3qtgmiTgS5.jpg",
+        "id": 6486,
+        "nombre": "Dan Hedaya",
+        "papel": "Vincenzo Castigliane"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/x80I3W87lIfuPn3A3smVrGSA8Bx.jpg",
+        "id": 5628,
+        "nombre": "Angelo Badalamenti",
+        "papel": "Luigi Castigliane"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vVj7GjHL9hOilbKwViXZpnUlbcQ.jpg",
+        "id": 52801,
+        "nombre": "Patrick Fischler",
+        "papel": "Dan"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4N7ZjV0Tb2EwwRzOBGp7h01oXVu.jpg",
+        "id": 15011,
+        "nombre": "Brent Briscoe",
+        "papel": "Detective Domgaard"
+      }
+    ],
+    "sinopsis": {
+      "ca": "Betty, una jove aspirant a actriu, arriba a Los Angeles per convertir-se en estrella de cinema i s'allotja a l'apartament de la seva tia. Allà coneix la Rita, una dona que pateix amnèsia a causa d'un accident a Mulholland Drive. Les dues juntes decideixen investigar qui és la Rita i com va arribar-hi.",
+      "en": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman's identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
+      "es": "Betty, una joven aspirante a actriz, llega a Los Ángeles para convertirse en estrella de cine y se aloja en el apartamento de su tía. Allí conoce a Rita, una mujer que padece amnesia a causa de un accidente en Mulholland Drive. Las dos juntas deciden investigar quién es Rita y cómo llegó hasta allí."
+    },
+    "titulo": "Mulholland Drive",
+    "titulo_original": "Mulholland Drive",
+    "tmdb": 1018,
+    "trailer": "iDSsG6bephI"
+  },
+  "tmdb-1034387": {
+    "agenda": "open_data_bcn:99400765344",
+    "anio": 2023,
+    "caducado": "2026-11-20",
+    "cartel": "https://image.tmdb.org/t/p/w500/xjW4jbnqPq3sNH6SLzHgwi778CV.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/sKLh1OQ72igoZH4e8RjjF1YAYP8.jpg",
+        "id": 1302077,
+        "nombre": "Arantxa Echevarría",
+        "premios": [
+          {
+            "anio": 2018,
+            "premio": "Premio Dunia Ayaso",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q52269021"
+      }
+    ],
+    "duracion": 119,
+    "edad": "16",
+    "estreno": "2023-10-06",
+    "fondo": "https://image.tmdb.org/t/p/w1280/m2B9ijXppTE5oYbXTRckUp7cew8.jpg",
+    "generos": [
+      "Drama"
+    ],
+    "gratis": true,
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/sKLh1OQ72igoZH4e8RjjF1YAYP8.jpg",
+        "id": 1302077,
+        "nombre": "Arantxa Echevarría"
+      }
+    ],
+    "id": "tmdb-1034387",
+    "idioma_original": "es",
+    "imdb": "tt21282898",
+    "musica": [
+      {
+        "id": 4516088,
+        "nombre": "Marina Herlop"
+      }
+    ],
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vh9urvzA7vsEfnl0kNeBiPosqBH.jpg",
+        "id": 3736475,
+        "nombre": "Daniela Shiman Yang",
+        "papel": "Lucía"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/gdTGASSpebKQrZrVXVdLwq3Nd7H.jpg",
+        "id": 3736477,
+        "nombre": "Xinyi Ye",
+        "papel": "Claudia"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4blffqTDA9sAJMIXZmqvyrze6iV.jpg",
+        "id": 3736476,
+        "nombre": "Ella Qiu",
+        "papel": "Xiang"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/mtoRws2DEpETuGJGmvI5DALUcce.jpg",
+        "id": 1209572,
+        "nombre": "Pablo Molinero",
+        "papel": "Julián",
+        "premios": [],
+        "wikidata": "Q47332720"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/uyEM3c37lL90by5vmuOk0XZQ83O.jpg",
+        "id": 101,
+        "nombre": "Leonor Watling",
+        "papel": "Sol"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/WbPX1SzFmAEaF4ioMEwgumvqzW.jpg",
+        "id": 2025663,
+        "nombre": "Carolina Yuste",
+        "papel": "Amaya"
+      },
+      {
+        "id": 4517300,
+        "nombre": "Yeju Ji",
+        "papel": "Shui"
+      },
+      {
+        "id": 4517301,
+        "nombre": "Valeria Fernández",
+        "papel": "Susana"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/d3dl0xJkKlgCoM3rrOGxa3Bz1Uz.jpg",
+        "id": 4517302,
+        "nombre": "Julie Zhen",
+        "papel": "Wang"
+      },
+      {
+        "id": 4517304,
+        "nombre": "Qingfei Zhu",
+        "papel": "Feng"
+      }
+    ],
+    "sinopsis": {
+      "en": "In Madrid, Spain, Lucía and Xiang, two nine-year-old Chinese girls, meet at the beginning of the school year.",
+      "es": "En Madrid, España, Lucía y Xiang, dos niñas chinas de nueve años, se conocen al comienzo del curso escolar."
+    },
+    "titulo": "Chinas",
+    "titulo_original": "Chinas",
+    "tmdb": 1034387,
+    "trailer": "5hAZTaPypPY"
+  },
+  "tmdb-1313032": {
+    "agenda": "open_data_bcn:99400701451",
+    "anio": 2025,
+    "caducado": "2026-11-20",
+    "cartel": "https://image.tmdb.org/t/p/w500/l2JNUcLimAYEhbHKLuRQ44LJJO1.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/kFS1xoODvV5nfnv4zlj57fjOXS3.jpg",
+        "id": 5364687,
+        "nombre": "Guillermo Galoe"
+      }
+    ],
+    "duracion": 97,
+    "edad": "16",
+    "estreno": "2025-09-03",
+    "fondo": "https://image.tmdb.org/t/p/w1280/gPc45rItdIFMNM1H2EUALJqFCsX.jpg",
+    "generos": [
+      "Drama"
+    ],
+    "gratis": true,
+    "guion": [
+      {
+        "id": 2334053,
+        "nombre": "Victor Alonso-Berbel"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/kFS1xoODvV5nfnv4zlj57fjOXS3.jpg",
+        "id": 5364687,
+        "nombre": "Guillermo Galoe"
+      }
+    ],
+    "id": "tmdb-1313032",
+    "idioma_original": "es",
+    "imdb": "tt32472708",
+    "lema": "Enfrentarse a un futuro incierto o aferrarse a un mundo que se desvanece",
+    "paises": [
+      "ES",
+      "FR"
+    ],
+    "premios": [
+      {
+        "anio": 2026,
+        "premio": "Premio Goya al mejor actor revelación",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2025,
+        "premio": "Premi SACD del Festival de Canes",
+        "tipo": "ganado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/osi7gN9nZJYj6AJlfhYWX3ihW0V.jpg",
+        "id": 5650175,
+        "nombre": "Antonio Fernández Gabarre",
+        "papel": "Tonino"
+      },
+      {
+        "id": 5372393,
+        "nombre": "Bilal Sedraoui",
+        "papel": "Bilal"
+      },
+      {
+        "id": 5650173,
+        "nombre": "Jesús Fernández Silva",
+        "papel": "Chule"
+      },
+      {
+        "id": 5690471,
+        "nombre": "Felisa Romero Molina",
+        "papel": "Felisa"
+      },
+      {
+        "id": 5690473,
+        "nombre": "Pura Salazar",
+        "papel": "Pura"
+      },
+      {
+        "id": 5690474,
+        "nombre": "Francisca Jiménez",
+        "papel": "Paqui"
+      },
+      {
+        "id": 1475675,
+        "nombre": "Luis Bértolo",
+        "papel": "Asistente social"
+      }
+    ],
+    "sinopsis": {
+      "en": "La Cañada Real, on the outskirts of Madrid, is one of the largest illegal shanty towns in Europe. Tonino, a 15-year-old Roma boy, has always lived here with his family. With his best friend Bilal, they film the world around them using a mobile phone, inspired by the gypsy legends he hears at home. But everything falls apart when a notice of imminent eviction arrives at his home and he discovers that his best friend is leaving La Cañada for good. Tonino finds himself torn between the dream of a new life and his attachment to his family and roots.",
+      "es": "Toni, un chico de 15 años, vive en el asentamiento irregular más grande de Europa, a las afueras de Madrid. Orgulloso de pertenecer a su familia de chatarreros, sigue a su abuelo a todas partes. Pero los derribos se acercan a su parcela y su abuelo se niega a marcharse, sea cual sea el sacrificio. En oscuras noches sin electricidad, mientras las leyendas de su infancia cobran vida, Toni debe elegir: enfrentarse a un futuro incierto o aferrarse a un mundo que se desvanece."
+    },
+    "titulo": "Ciudad sin sueño",
+    "titulo_original": "Ciudad sin sueño",
+    "tmdb": 1313032,
+    "trailer": "svJQu7O26Jo"
   },
   "tmdb-1320471": {
     "agenda": "open_data_bcn:99400770504",
@@ -205,6 +843,122 @@
     "titulo_original": "L’edat imminent",
     "tmdb": 1320471,
     "trailer": "SlmD8vaSzZc"
+  },
+  "tmdb-1321656": {
+    "agenda": "open_data_bcn:99400771163",
+    "anio": 2025,
+    "caducado": "2026-11-20",
+    "cartel": "https://image.tmdb.org/t/p/w500/fOqlr3OXH5H4eFtfkf1ykWTLgCA.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/pneY595BwPbgskHxfeX1bbja51a.jpg",
+        "id": 2133155,
+        "nombre": "Agustina Macri",
+        "premios": [],
+        "wikidata": "Q116055498"
+      }
+    ],
+    "duracion": 90,
+    "estreno": "2025-06-12",
+    "fondo": "https://image.tmdb.org/t/p/w1280/sW1GJaDtMrbT2phMNgIk4Zwje7b.jpg",
+    "generos": [
+      "Drama"
+    ],
+    "gratis": true,
+    "guion": [
+      {
+        "id": 1970518,
+        "nombre": "Erika Halvorsen"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/aH7NtZ0A5ybZ8eSxUXtFRhvrkdN.jpg",
+        "id": 1976655,
+        "nombre": "Mara Pescio"
+      }
+    ],
+    "id": "tmdb-1321656",
+    "idioma_original": "es",
+    "imdb": "tt32832410",
+    "lema": "Inspirada en la historia real de Carlita Rodríguez",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6drys8BpV1BVzKUz0VGfMjeoozT.jpg",
+        "id": 1990790,
+        "nombre": "Maite Arroitajauregi"
+      }
+    ],
+    "paises": [
+      "AR",
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/Yxf9KXHd2rGcsOGMpj26xxu5fn.jpg",
+        "id": 1966008,
+        "nombre": "Lux Pascal",
+        "papel": "Carlita Rodríguez",
+        "premios": [],
+        "wikidata": "Q33123460"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/diatIIBLLjMP7HWRdGwIhe6QuHt.jpg",
+        "id": 2022317,
+        "nombre": "Laura Grandinetti",
+        "papel": "Violeta"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/cMvSOQCMi3vLVremtFfrF4RAhjm.jpg",
+        "id": 2385817,
+        "nombre": "Romina Escobar",
+        "papel": "Lohana"
+      },
+      {
+        "id": 1568360,
+        "nombre": "Simone Mercado",
+        "papel": "Diana"
+      },
+      {
+        "id": 5299960,
+        "nombre": "Federico Marzullo",
+        "papel": "Cóndor"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/dC0rZ1ZETZcpRBT1suyU8z8auDn.jpg",
+        "id": 3998193,
+        "nombre": "Agostina Innella",
+        "papel": "Tami"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/dZd0Z3mUgXrE0y21KknLp40Ivuk.jpg",
+        "id": 224870,
+        "nombre": "Paco León",
+        "papel": "Antonio, ingeniero"
+      },
+      {
+        "id": 5229369,
+        "nombre": "Delphina Bianco",
+        "papel": "Marcela"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oZXcL3q3aqWucJygtu6LfUM9GFx.jpg",
+        "id": 1566871,
+        "nombre": "Gabriela Pastor",
+        "papel": "Sonia"
+      },
+      {
+        "id": 3945190,
+        "nombre": "Lautaro Zera",
+        "papel": "Cristian"
+      }
+    ],
+    "sinopsis": {
+      "en": "A young trans girl growing up in a small Patagonian mining town secures her dream job as a coal miner as soon as she turns 18, challenging an old superstition rooted in a folk tale that for 80 years forbid all women from entering the mine's underground galleries, fearing that their mere presence could trigger a collapse.",
+      "es": "Carlita logró ser la primera mujer minera en un pueblo donde las mujeres tenían prohibida la entrada a la fuente principal de ingresos de la región: la mina de carbón. Una superstición consideraba que las mujeres eran amenaza de derrumbe y el trabajo minero se les reservaba a los hombres. Carlita, como mujer trans, logró ingresar en la mina rompiendo el sistema desde dentro y prendiendo la chispa de una revolución."
+    },
+    "titulo": "Miss Carbón",
+    "titulo_original": "Miss Carbón",
+    "tmdb": 1321656,
+    "trailer": "yb6RMRrXnJ8"
   },
   "tmdb-1447088": {
     "agenda": "open_data_bcn:99400766270",
@@ -698,6 +1452,63 @@
     "titulo_original": "11",
     "tmdb": 1755565,
     "trailer": "rSciGK2clh8"
+  },
+  "tmdb-1784105": {
+    "anio": 2026,
+    "caducado": "2026-11-20",
+    "cartel": "https://image.tmdb.org/t/p/w500/xr6F0DzTVi6sbfjuYwrqBBKhHm7.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/g5VRYJ8unteHbGdWFGQViG8ABaL.jpg",
+        "id": 140853,
+        "nombre": "Chema de la Peña",
+        "premios": [],
+        "wikidata": "Q5765653"
+      }
+    ],
+    "duracion": 90,
+    "estreno": "2026-11-09",
+    "guion": [
+      {
+        "id": 6558984,
+        "nombre": "Conchi del Río"
+      }
+    ],
+    "id": "tmdb-1784105",
+    "idioma_original": "en",
+    "imdb": "tt41103037",
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/rr5lOniVx8NK1P4kuLhGYkiX4PW.jpg",
+        "id": 1832218,
+        "nombre": "Cecilia"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/tIGlOzJ4j255X340B7Ad0BPklW5.jpg",
+        "id": 2327575,
+        "nombre": "Rozalén",
+        "premios": [
+          {
+            "anio": 2021,
+            "premio": "Premio Nacional de las Músicas Actuales",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q16298631"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/n0Me2qRGxj1QjkbIP2dqDlG5WHt.jpg",
+        "id": 6575430,
+        "nombre": "Maialen Gurbindo López"
+      }
+    ],
+    "sinopsis": {
+      "en": "Following her tragic death at just 27, Cecilia left behind a legacy of songs that today, 50 years later, continue to soar through our collective pop consciousness. Her boldness, her talent, and her legacy have inspired many of the female singers who came after her. This is her story."
+    },
+    "titulo": "Cecilia,  una luz de mañana",
+    "titulo_original": "Cecilia,  una luz de mañana",
+    "tmdb": 1784105,
+    "trailer": "uqZdn75PrHs"
   },
   "tmdb-466272": {
     "anio": 2019,

@@ -4704,6 +4704,38 @@
     },
     "traduccion": "Sinopsis: Música en directo, teatro gestual y danza dan vida a un espectáculo poético y evocador que cautivará a pequeños y mayores. Premio a la mejor escenotecnia FETEN 2026. Lumiero es un personaje entrañable y soñador, un explorador de la luz y la oscuridad que transmite la alegría del latido de su corazón a todo el que lo rodea. Escondido tras su viejo farol, nos invita a descubrir la magia de la penumbra, un mundo donde las luces y las sombras cuentan historias invisibles a simple vista. Edad recomendada: a partir de 2 años."
   },
+  "open_data_bcn:99400784034": {
+    "destino": "es",
+    "firma": "3a95a941fe13fbea",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "cinema",
+        "pintura"
+      ],
+      "es": [
+        "cine",
+        "pintura"
+      ]
+    },
+    "traduccion": "El cine, llamado el «séptimo arte», se consideró durante mucho tiempo un arte de síntesis de las artes tradicionales. La pintura era una de las influencias más evidentes, tanto en lo que se refiere a la dirección de fotografía como a la escenografía o al uso del color. El cine se consideró el milagro de la «pintura en movimiento» y muchos cineastas se inspiraron en cuadros para componer sus imágenes. En este curso, analizaremos las relaciones de afinidad y las diferencias entre las artes plásticas y el cine. También nos centraremos en revisar cómo algunos pintores han contribuido al universo estético de los grandes directores de cine. Nos espera, pues, un fascinante viaje por los universos (diferentes, aunque a menudo complementarios) de las artes plásticas y el cine. Profesor: Enric Ros"
+  },
+  "open_data_bcn:99400784035": {
+    "destino": "es",
+    "firma": "c23bd31bdc0a2c11",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "antiguitat",
+        "cinema com a eina d'anàlisi històrica"
+      ],
+      "es": [
+        "antigüedad",
+        "cine como herramienta de análisis histórico"
+      ]
+    },
+    "traduccion": "Este curso propone un viaje cronológico de más de tres milenios por la historia de la Antigüedad y el mundo bíblico utilizando el cine no como un simple pasatiempo, sino como una herramienta de análisis cultural. El objetivo de las sesiones es abordar de manera científica la brecha existente entre el mito propuesto por la ficción comercial y las certezas que nos ofrece la investigación histórica y arqueológica actual. Para hacerlo, nos adentraremos en las entrañas del propio lenguaje cinematográfico. Descifraremos cómo la estética de una secuencia puede ser más reveladora que un texto académico, y cómo las elecciones de un director determinan nuestra visión del pasado. A lo largo del curso, descubriremos cómo el cine tiende a simplificar las estructuras sociales complejas, a modernizar los motivos de la política antigua y a proyectar dilemas contemporáneos sobre el mármol del pasado."
+  },
   "open_data_bcn:99400784165": {
     "destino": "es",
     "firma": "a0eaa087a616a63b",
@@ -9275,17 +9307,17 @@
     "traduccion": "Comedia de nivel de fin de semana que se niega a usar '¡Es domingo!' como excusa."
   },
   "webs_salas:15066811f63197bd": {
-    "destino": "es",
-    "firma": "0e102f7e06a30283",
+    "destino": "ca",
+    "firma": "1f5a802546870fd0",
     "premios": [],
     "temas": {
       "ca": [
         "felicitat",
-        "treball i temps"
+        "treball i temps lliure"
       ],
       "es": [
         "felicidad",
-        "trabajo y tiempo"
+        "trabajo y tiempo libre"
       ]
     },
     "traduccion": "Amb vista al mar ens mostra com vivim la nostra vida treballant per comprar-nos el temps per poder gaudir-ne, i aquest temps mai arriba. Una peça dedicada a la veritable felicitat: aquella que només es pot sentir fent el que realment estimes i sentint-te qui realment ets."
@@ -9500,6 +9532,16 @@
     },
     "traduccion": "¡Porque no tienes que esperar al fin de semana para pasarlo genial!"
   },
+  "webs_salas:ab49138ce6bcd7ee": {
+    "destino": "ca",
+    "firma": "928d9e507d70272e",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "bBig One! - Stand Up Comedy Show - Yassin Kefi"
+  },
   "webs_salas:b67294cdfe18c6e7": {
     "destino": "es",
     "firma": "0be561171ea65034",
@@ -9559,6 +9601,16 @@
       "es": []
     },
     "traduccion": "¡El escaparate más descarado de la ciudad ha VUELTO!"
+  },
+  "webs_salas:d17b6b1cb4aabac3": {
+    "destino": "es",
+    "firma": "cdfa0167caea42cc",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "Al infierno con lo normal! Los intérpretes traen sus ideas más frescas, atrevidas, bonitas y ridículas."
   },
   "webs_salas:d20f369c26cc20aa": {
     "destino": "es",
@@ -9645,5 +9697,15 @@
       ]
     },
     "traduccion": "Un espectáculo de stand-up sobre éxitos, pero sobre todo fracasos, en el mundo de las citas."
+  },
+  "webs_salas:fed9aaca2d708b30": {
+    "destino": "es",
+    "firma": "fb35f2bdc82fd4b0",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "No te gusta el chiste del cómico? Tírale pelotas de béisbol! Comedia caótica e interactiva!"
   }
 }
