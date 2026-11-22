@@ -3,6 +3,20 @@
   "atribucion": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
   "caducadas": [
     {
+      "agenda": "open_data_bcn:99400771083",
+      "caducado": "2026-11-21",
+      "gratis": true,
+      "id": "p-t-el-tresor-de-barracuda",
+      "titulo": "El tresor de barracuda"
+    },
+    {
+      "agenda": "open_data_bcn:99400790365",
+      "caducado": "2026-11-21",
+      "gratis": true,
+      "id": "p-t-fiscal-elola",
+      "titulo": "Fiscal Elola"
+    },
+    {
       "agenda": "open_data_bcn:99400749710",
       "caducado": "2026-11-21",
       "gratis": true,
@@ -34,20 +48,6 @@
       "titulo": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
       "titulo_original": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
       "tmdb": 1820083
-    },
-    {
-      "agenda": "open_data_bcn:99400771083",
-      "caducado": "2026-11-21",
-      "gratis": true,
-      "id": "p-t-el-tresor-de-barracuda",
-      "titulo": "El tresor de barracuda"
-    },
-    {
-      "agenda": "open_data_bcn:99400790365",
-      "caducado": "2026-11-21",
-      "gratis": true,
-      "id": "p-t-fiscal-elola",
-      "titulo": "Fiscal Elola"
     },
     {
       "agenda": "open_data_bcn:99400750806",
@@ -3496,7 +3496,7 @@
       "id": "agenda:barcelona:via7804-15",
       "lat": 41.41860650477411,
       "lon": 2.149915320833742,
-      "nombre": "Centre Cívic El Coll"
+      "nombre": "Centre Cívic El Coll - La Bruguera"
     },
     {
       "barrio": "Ciutat Meridiana",
@@ -3744,15 +3744,6 @@
       "lat": 41.39900681458764,
       "lon": 2.1404013062330303,
       "nombre": "Centre Cívic Can Castelló"
-    },
-    {
-      "barrio": "la Nova Esquerra de l'Eixample",
-      "centro": true,
-      "direccion": "Carrer d'Entença 155",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via110803-155",
-      "lat": 41.383466537215966,
-      "lon": 2.1453845998129886
     }
   ],
   "ciudad": {
@@ -3998,56 +3989,6 @@
         }
       ],
       "sesiones": [
-        [
-          "99400267342",
-          "2026-11-22",
-          "11:50",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=193826&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-22",
-          "11:55",
-          "Castellano",
-          "Sala 06",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119026&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "VOSE",
-          "Sala 04",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119027&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:00",
-          "VOSE",
-          "Sala 09",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189167&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:10",
-          "VOSE",
-          "Sala 05",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=193827&language=esp&theatre=24",
-          null,
-          1
-        ],
         [
           "95122123236",
           "2026-11-22",
@@ -6150,46 +6091,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-22",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222822&language=ESP",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119023&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:10",
-          "VOSE",
-          "Sala 11",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189817&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:15",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194567&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-22",
           "15:50",
@@ -7654,26 +7555,6 @@
       ],
       "sesiones": [
         [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 01",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119022&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:10",
-          "Castellano",
-          "Sala 01",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189808&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
           "95122123236",
           "2026-11-22",
           "15:30",
@@ -9099,36 +8980,6 @@
       ],
       "sesiones": [
         [
-          "99400267342",
-          "2026-11-22",
-          "11:50",
-          "Castellano",
-          "Sala 01",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194565&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 08",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119029&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189816&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
           "95122123236",
           "2026-11-22",
           "15:50",
@@ -10328,16 +10179,6 @@
       ],
       "sesiones": [
         [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 07",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119028&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-22",
           "15:50",
@@ -11333,16 +11174,6 @@
         }
       ],
       "sesiones": [
-        [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119024&language=esp&theatre=26",
-          null,
-          1
-        ],
         [
           "92086003023",
           "2026-11-22",
@@ -12508,46 +12339,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-22",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222823&language=ESP",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 05",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119025&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 09",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194571&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:10",
-          "VOSE",
-          "Sala 06",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189813&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
           "95122123236",
           "2026-11-22",
           "15:30",
@@ -13288,26 +13079,6 @@
         }
       ],
       "sesiones": [
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:00",
-          "VOSE",
-          "Sala 05",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189812&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:15",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194572&language=esp&theatre=24",
-          null,
-          1
-        ],
         [
           "95122123236",
           "2026-11-22",
@@ -14294,16 +14065,6 @@
       ],
       "sesiones": [
         [
-          "99400331613",
-          "2026-11-22",
-          "12:15",
-          "VOSE",
-          "Sala 12",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189818&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-22",
           "16:00",
@@ -15221,16 +14982,6 @@
         [
           "99400331613",
           "2026-11-22",
-          "12:05",
-          "VOSE",
-          "Sala 04",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189811&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
           "16:05",
           "VOSE",
           "Sala 04",
@@ -15591,26 +15342,6 @@
         }
       ],
       "sesiones": [
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 07",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194569&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:05",
-          "VOSE",
-          "Sala 03",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189810&language=esp&theatre=29",
-          null,
-          1
-        ],
         [
           "99400267342",
           "2026-11-22",
@@ -16851,16 +16582,6 @@
         }
       ],
       "sesiones": [
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:15",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194574&language=esp&theatre=24",
-          null,
-          1
-        ],
         [
           "99400267342",
           "2026-11-22",
@@ -19254,538 +18975,6 @@
     },
     {
       "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/wLSZhzbKI2lwYkS1uRjHyfi8CPQ.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
-          "id": 525,
-          "nombre": "Christopher Nolan",
-          "premios": [
-            {
-              "anio": 2010,
-              "premio": "Indiana Film Journalists Association Award al millor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio Edgar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Comendador de la Orden del Imperio británico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Saturn",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premi Waldo Salt de guió",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio Hugo a la mejor presentación dramática, formato largo",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Globo de Oro al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar a la mejor película",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "BAFTA al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Ray Bradbury",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Knight Bachelor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Óscar al mejor guion original",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Óscar al mejor guion original",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Premi del públic a la millor pel·lícula europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar al mejor guion adaptado",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q25191"
-        }
-      ],
-      "duracion": 173,
-      "edad": "16",
-      "estreno": "2026-07-15",
-      "fondo": "https://image.tmdb.org/t/p/w1280/mIi99BK2mDpLp2lGsa8jCBDFit4.jpg",
-      "generos": [
-        "Aventura",
-        "Acción",
-        "Fantasía"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
-          "id": 525,
-          "nombre": "Christopher Nolan"
-        }
-      ],
-      "id": "tmdb-1368337",
-      "idioma_original": "en",
-      "imdb": "tt33764258",
-      "lema": "Desafía a los dioses.",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/3phYwmonUBcDXZ1DY5kHYjYYoor.jpg",
-          "id": 928158,
-          "nombre": "Ludwig Göransson"
-        }
-      ],
-      "nota": 8.0,
-      "paises": [
-        "GB",
-        "US"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg",
-          "id": 1892,
-          "nombre": "Matt Damon",
-          "papel": "Odysseus",
-          "premios": [
-            {
-              "anio": 1998,
-              "premio": "Óscar al mejor guion original",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Premi Satellite al millor repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1998,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1998,
-              "premio": "Óscar al mejor guion original",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q175535"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
-          "id": 1136406,
-          "nombre": "Tom Holland",
-          "papel": "Telemachus",
-          "premios": [
-            {
-              "anio": 2012,
-              "premio": "National Board of Review",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "London Film Critics' Circle",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Premios Empire",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Premios Young Artist",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "BAFTA a la estrella emergente",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Teen Choice Awards 2019",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q2023710"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg",
-          "id": 1813,
-          "nombre": "Anne Hathaway",
-          "papel": "Penelope",
-          "premios": [
-            {
-              "anio": 2013,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premio Primetime Emmy a la mejor actuación de voz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Globo de Oro a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Hasty Pudding Woman of the Year",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "BAFTA a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Óscar a la mejor actriz",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q36301"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg",
-          "id": 11288,
-          "nombre": "Robert Pattinson",
-          "papel": "Antinous",
-          "premios": [
-            {
-              "anio": 2009,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "MTV Movie Award al millor combat",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "MTV Award for Global Superstar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premio MTV Movie a la mejor interpretación masculina",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "MTV Movie Award al millor combat",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio MTV Movie a la mejor interpretación masculina",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "MTV Movie Award al millor combat",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Razzie a la peor pareja",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2009,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Razzie al peor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Razzie al peor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "MTV Award for Global Superstar",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premio MTV Movie a la mejor interpretación masculina",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Razzie a la peor pareja",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio MTV Movie a la mejor interpretación masculina",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "MTV Movie Award al millor combat",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Razzie a la peor pareja",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "MTV Movie Award al millor petó",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Razzie al peor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q36767"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/icqsXLmU0FxBGTv63kkA0GcrecO.jpg",
-          "id": 1227717,
-          "nombre": "Himesh Patel",
-          "papel": "Eurylochus"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
-          "id": 6885,
-          "nombre": "Charlize Theron",
-          "papel": "Calypso"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg",
-          "id": 5723,
-          "nombre": "John Leguizamo",
-          "papel": "Eumaeus"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/eBdm7HQS6lLGg4BocgfoJ5qB9yp.jpg",
-          "id": 1978406,
-          "nombre": "Travis Scott",
-          "papel": "Bard"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/wRt0Bc0chN5BSjvYzmg2evgqNzp.jpg",
-          "id": 1154054,
-          "nombre": "Corey Hawkins",
-          "papel": "Polybus"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ze8WDEujZmTXdCLcUy0IaymwlcS.jpg",
-          "id": 84706,
-          "nombre": "Jarreth J. Merz",
-          "papel": "Leodes"
-        }
-      ],
-      "sesiones": [
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:00",
-          "VOSE",
-          "Sala 07",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189815&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-22",
-          "21:00",
-          "VOSE",
-          "Sala 07",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189794&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-23",
-          "21:00",
-          "VOSE",
-          "Sala 07",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189835&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-24",
-          "21:00",
-          "VOSE",
-          "Sala 07",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189864&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-26",
-          "21:00",
-          "VOSE",
-          "Sala 07",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189924&language=esp&theatre=29",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "Odisseu, el llegendari rei d'Ítaca, emprèn un viatge llarg i perillós de tornada a casa després de la guerra de Troia. Durant tota la travessia, es veu obligat a plantar cara als capricis dels déus, a monstres mitològics i a proves que porten la seva astúcia i la seva humanitat fins al límit.",
-        "en": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
-        "es": "Tras la caída de Troya, el legendario rey de Ítaca, Odiseo, emprende un largo y peligroso viaje para regresar junto a su esposa Penélope y su hijo Telémaco. En el camino deberá enfrentarse a criaturas mitológicas, dioses caprichosos y pruebas que pondrán a prueba su ingenio, su resistencia y su humanidad. Mientras tanto, en Ítaca, el futuro de su reino pende de un hilo ante la creciente amenaza de quienes creen que jamás volverá."
-      },
-      "titulo": "La Odisea",
-      "titulo_ca": "L'Odissea",
-      "titulo_original": "The Odyssey",
-      "tmdb": 1368337,
-      "trailer": "X9nUrOnHlz0"
-    },
-    {
-      "anio": 2026,
       "cartel": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
       "direccion": [
         {
@@ -20853,249 +20042,6 @@
     },
     {
       "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aWDxGlWkFVhs80DQMEE5A7c7YBr.jpg",
-          "id": 40684,
-          "nombre": "David Leitch",
-          "premios": [
-            {
-              "anio": 2008,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q5236475"
-        }
-      ],
-      "duracion": 122,
-      "edad": "16",
-      "estreno": "2026-11-10",
-      "fondo": "https://image.tmdb.org/t/p/w1280/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
-      "generos": [
-        "Acción",
-        "Crimen",
-        "Suspense"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kEqJj3aRwcAoJFqv7h0qzoTvlDF.jpg",
-          "id": 1466580,
-          "nombre": "Mark Bianculli"
-        }
-      ],
-      "id": "tmdb-1437511",
-      "idioma_original": "en",
-      "imdb": "tt35866986",
-      "lema": "¿Quién está robando a quién?.",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/8r3uR9LxtCG72l9JS4fjfVc3wdZ.jpg",
-          "id": 1404094,
-          "nombre": "Dominic Lewis"
-        }
-      ],
-      "paises": [
-        "US"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg",
-          "id": 3292,
-          "nombre": "Nicholas Hoult",
-          "papel": "Ryan",
-          "premios": [
-            {
-              "anio": 2013,
-              "premio": "Premi Teen Choice per al millor actor revelació",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Phoenix Film Critics Society Award for Best Performance by a Youth in a Lead or Supporting Role - Male",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premis de l'Online Film & Television Association",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Premi del Florida Film Critics Circle al millor repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Premios de la Crítica Televisiva",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premios Phoenix Film Critics Society",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premios Satellite",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premi del públic a la millor pel·lícula europea",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q298347"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg",
-          "id": 37153,
-          "nombre": "Zoë Kravitz",
-          "papel": "Reagan Gardner",
-          "premios": [
-            {
-              "anio": 2014,
-              "premio": "Milano International Film Festival Awards (MIFF Awards)",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Time 100",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q227129"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/f3kubnZu3KgMniExcq9nJy8RwjW.jpg",
-          "id": 1427948,
-          "nombre": "Pete Davidson",
-          "papel": "Vince",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Time 100",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q18097962"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/iDQ8w4qcxU3le5ZWoCKpHs1QNok.jpg",
-          "id": 4764,
-          "nombre": "John C. Reilly",
-          "papel": "Agent West",
-          "premios": [
-            {
-              "anio": 2003,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Premio Tony al mejor actor principal en una obra de teatro",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q223110"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6uFaCOupDTPRnTiedveTUvjOikC.jpg",
-          "id": 1434487,
-          "nombre": "Anna Sawai",
-          "papel": "Emi"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/b2Ba7MLybozIRdvZquimRGOHE0V.jpg",
-          "id": 1761634,
-          "nombre": "Rhenzy Feliz",
-          "papel": "Hugo"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
-          "id": 2224,
-          "nombre": "Christian Slater",
-          "papel": "Walton"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
-          "id": 1859934,
-          "nombre": "Tati Gabrielle",
-          "papel": "Skyler"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/cQnCJI94lje55gZ7kEQ7YZUQPDb.jpg",
-          "id": 167564,
-          "nombre": "Paul Sparks",
-          "papel": "Agent Roberts"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/cRuVRx1DMe2hBkz5pssVqdpCtaQ.jpg",
-          "id": 2569691,
-          "nombre": "Young Mazino",
-          "papel": "Marquis Collins"
-        }
-      ],
-      "sesiones": [
-        [
-          "99400331613",
-          "2026-11-22",
-          "12:05",
-          "VOSE",
-          "Sala 08",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189814&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-22",
-          "22:00",
-          "Castellano",
-          "Sala 09",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194553&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-23",
-          "22:00",
-          "Castellano",
-          "Sala 09",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194595&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-24",
-          "22:00",
-          "Castellano",
-          "Sala 09",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194624&language=esp&theatre=24",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "en": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
-        "es": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales."
-      },
-      "titulo": "Como robar un banco",
-      "titulo_original": "How to Rob a Bank",
-      "tmdb": 1437511,
-      "trailer": "tKtg0S1rm2M"
-    },
-    {
-      "anio": 2026,
       "cartel": "https://image.tmdb.org/t/p/w500/LdKLipXCdKHNXxUxn8l7UTdnXJ.jpg",
       "direccion": [
         {
@@ -21661,450 +20607,525 @@
     },
     {
       "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+      "cartel": "https://image.tmdb.org/t/p/w500/wLSZhzbKI2lwYkS1uRjHyfi8CPQ.jpg",
       "direccion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/h80yPI8rDKlUk29dWFFl6Is8J0P.jpg",
-          "id": 1042010,
-          "nombre": "Nitesh Tiwari",
+          "foto": "https://image.tmdb.org/t/p/w185/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+          "id": 525,
+          "nombre": "Christopher Nolan",
           "premios": [
             {
-              "anio": 2017,
-              "premio": "Premi Filmfare a la millor direcció",
+              "anio": 2010,
+              "premio": "Indiana Film Journalists Association Award al millor director",
               "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premio Edgar",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Comendador de la Orden del Imperio británico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Saturn",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premi Waldo Salt de guió",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Premio Hugo a la mejor presentación dramática, formato largo",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Globo de Oro al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar a la mejor película",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "BAFTA al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premio Ray Bradbury",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Knight Bachelor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Óscar al mejor guion original",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Óscar al mejor guion original",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Premi del públic a la millor pel·lícula europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar al mejor guion adaptado",
+              "tipo": "nominado"
             }
           ],
-          "wikidata": "Q16908467"
+          "wikidata": "Q25191"
         }
       ],
-      "duracion": 201,
-      "estreno": "2026-11-05",
-      "fondo": "https://image.tmdb.org/t/p/w1280/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+      "duracion": 173,
+      "edad": "16",
+      "estreno": "2026-07-15",
+      "fondo": "https://image.tmdb.org/t/p/w1280/mIi99BK2mDpLp2lGsa8jCBDFit4.jpg",
       "generos": [
-        "Fantasía",
+        "Aventura",
         "Acción",
-        "Aventura"
+        "Fantasía"
       ],
       "guion": [
         {
-          "id": 85443,
-          "nombre": "Shridhar Raghavan"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/h80yPI8rDKlUk29dWFFl6Is8J0P.jpg",
-          "id": 1042010,
-          "nombre": "Nitesh Tiwari"
+          "foto": "https://image.tmdb.org/t/p/w185/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+          "id": 525,
+          "nombre": "Christopher Nolan"
         }
       ],
-      "id": "tmdb-656908",
-      "idioma_original": "hi",
-      "imdb": "tt27988879",
-      "lema": "Nuestra verdad. Nuestra historia.",
+      "id": "tmdb-1368337",
+      "idioma_original": "en",
+      "imdb": "tt33764258",
+      "lema": "Desafía a los dioses.",
       "musica": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/tpQnDeHY15szIXvpnhlprufz4d.jpg",
-          "id": 947,
-          "nombre": "Hans Zimmer"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/3po8IwdtONY72BuXr7ZhZZ0ugxQ.jpg",
-          "id": 5288,
-          "nombre": "A.R. Rahman"
+          "foto": "https://image.tmdb.org/t/p/w185/3phYwmonUBcDXZ1DY5kHYjYYoor.jpg",
+          "id": 928158,
+          "nombre": "Ludwig Göransson"
         }
       ],
-      "nota": 7.5,
+      "nota": 8.0,
       "paises": [
-        "IN",
-        "GB"
+        "GB",
+        "US"
       ],
       "reparto": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/ymYNHV9luwgyrw17NXHqbOWTQkg.jpg",
-          "id": 85034,
-          "nombre": "Ranbir Kapoor",
-          "papel": "Prince Rama / Parashurama",
+          "foto": "https://image.tmdb.org/t/p/w185/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg",
+          "id": 1892,
+          "nombre": "Matt Damon",
+          "papel": "Odysseus",
           "premios": [
             {
-              "anio": 2008,
-              "premio": "Premi Filmfare al millor actor debutant",
+              "anio": 1998,
+              "premio": "Óscar al mejor guion original",
               "tipo": "ganado"
             },
             {
-              "anio": 2008,
-              "premio": "Zee Cine Awards al millor debut masculí",
+              "anio": 2006,
+              "premio": "Premi Satellite al millor repartiment",
               "tipo": "ganado"
             },
             {
-              "anio": 2008,
-              "premio": "Producers Guild Film Award al millor debut masculí",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "IIFA Award for Star Debut of the Year – Male",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Stardust Award for Superstar of Tomorrow – Male",
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
               "tipo": "ganado"
             },
             {
               "anio": 2010,
-              "premio": "Stardust Award for Superstar of Tomorrow – Male",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premi Filmfare de la crítica al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "IIFA Award for Hottest Pair",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Premi Filmfare de la crítica al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Premi Zee Cine al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "IIFA Award for Hottest Pair",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Zee Cine Award – Critics' Choice Best Actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Stardust Award for Superstar of Tomorrow – Male",
+              "premio": "Oscar al mejor actor de reparto",
               "tipo": "nominado"
             },
             {
-              "anio": 2008,
-              "premio": "Premi Filmfare al millor actor debutant",
+              "anio": 1998,
+              "premio": "Óscar al mejor actor",
               "tipo": "nominado"
             },
             {
-              "anio": 2008,
-              "premio": "Zee Cine Awards al millor debut masculí",
+              "anio": 2016,
+              "premio": "Óscar al mejor actor",
               "tipo": "nominado"
             },
             {
-              "anio": 2008,
-              "premio": "Producers Guild Film Award al millor debut masculí",
+              "anio": 1998,
+              "premio": "Óscar al mejor guion original",
               "tipo": "nominado"
             },
             {
-              "anio": 2010,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Stardust Award for Superstar of Tomorrow – Male",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premi Zee Cine al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Stardust Award for Best Drama Actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "IIFA Award for Hottest Pair",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Premi Zee Cine al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Premi Zee Cine al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "IIFA Award for Hottest Pair",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Filmfare al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "IIFA Award al millor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Premi Zee Cine al millor actor",
+              "anio": 2017,
+              "premio": "Óscar a la mejor película",
               "tipo": "nominado"
             }
           ],
-          "wikidata": "Q1063412"
+          "wikidata": "Q175535"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/es8St0vl9otL1XAAZJKYmNpL3Wy.jpg",
-          "id": 1293681,
-          "nombre": "Yash",
-          "papel": "Ravana",
+          "foto": "https://image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
+          "id": 1136406,
+          "nombre": "Tom Holland",
+          "papel": "Telemachus",
           "premios": [
             {
+              "anio": 2012,
+              "premio": "National Board of Review",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "London Film Critics' Circle",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Premios Empire",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Premios Young Artist",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "BAFTA a la estrella emergente",
+              "tipo": "ganado"
+            },
+            {
               "anio": null,
-              "premio": "Filmfare Awards South",
+              "premio": "Teen Choice Awards 2019",
               "tipo": "ganado"
             }
           ],
-          "wikidata": "Q15721444"
+          "wikidata": "Q2023710"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/qAPdGKUIUEzLibdgVCey7oKvvME.jpg",
-          "id": 1473119,
-          "nombre": "Sai Pallavi",
-          "papel": "Sita",
+          "foto": "https://image.tmdb.org/t/p/w185/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg",
+          "id": 1813,
+          "nombre": "Anne Hathaway",
+          "papel": "Penelope",
           "premios": [
             {
-              "anio": null,
-              "premio": "Premi Filmfare a la millor actriu",
+              "anio": 2013,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premio Primetime Emmy a la mejor actuación de voz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Globo de Oro a la mejor actriz de reparto",
               "tipo": "ganado"
             },
             {
               "anio": null,
-              "premio": "Vanitha Film Awards",
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Hasty Pudding Woman of the Year",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "BAFTA a la mejor actriz de reparto",
               "tipo": "ganado"
             },
             {
               "anio": null,
-              "premio": "Medalla d'Or de Behindwoods",
+              "premio": "Premio del Sindicato de Actores a la mejor actriz de reparto",
               "tipo": "ganado"
             },
             {
-              "anio": null,
-              "premio": "Premis Internacionals de Cinema del Sud de l'Índia",
-              "tipo": "ganado"
+              "anio": 2009,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "nominado"
             },
             {
-              "anio": null,
-              "premio": "Premis de cinema Asianet",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Asiavision Awards",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "CNN-News18",
-              "tipo": "ganado"
+              "anio": 2013,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
             }
           ],
-          "wikidata": "Q20081051"
+          "wikidata": "Q36301"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/dUhZ0E8nchBkjYV0okWfj4BLxy2.jpg",
-          "id": 1252841,
-          "nombre": "Ravi Dubey",
-          "papel": "Lakshmana",
-          "premios": [],
-          "wikidata": "Q7296622"
+          "foto": "https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg",
+          "id": 11288,
+          "nombre": "Robert Pattinson",
+          "papel": "Antinous",
+          "premios": [
+            {
+              "anio": 2009,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "MTV Movie Award al millor combat",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "MTV Award for Global Superstar",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premio MTV Movie a la mejor interpretación masculina",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "MTV Movie Award al millor combat",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Premio MTV Movie a la mejor interpretación masculina",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "MTV Movie Award al millor combat",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Razzie a la peor pareja",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2009,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Razzie al peor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Razzie al peor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "MTV Award for Global Superstar",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premio MTV Movie a la mejor interpretación masculina",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Razzie a la peor pareja",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Premio MTV Movie a la mejor interpretación masculina",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "MTV Movie Award al millor combat",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Razzie a la peor pareja",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "MTV Movie Award al millor petó",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Razzie al peor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q36767"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/xgefRNWurCiwyLSlpnDGgfMIF7H.jpg",
-          "id": 1228593,
-          "nombre": "अरुण गोविल",
-          "papel": "King Dashrath"
+          "foto": "https://image.tmdb.org/t/p/w185/icqsXLmU0FxBGTv63kkA0GcrecO.jpg",
+          "id": 1227717,
+          "nombre": "Himesh Patel",
+          "papel": "Eurylochus"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/tt0qUlMx7tlDa8XyhBm6OQPurG0.jpg",
-          "id": 55063,
-          "nombre": "लारा दत्ता",
-          "papel": "Kaikeyi"
+          "foto": "https://image.tmdb.org/t/p/w185/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
+          "id": 6885,
+          "nombre": "Charlize Theron",
+          "papel": "Calypso"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/4n4MmOFNyxKc4qMfzyapglvDDlF.jpg",
-          "id": 1143308,
-          "nombre": "Rakul Preet Singh",
-          "papel": "Surpanakha"
+          "foto": "https://image.tmdb.org/t/p/w185/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg",
+          "id": 5723,
+          "nombre": "John Leguizamo",
+          "papel": "Eumaeus"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/fbN5eUSX9UjizTfotFh8Ka6NyqV.jpg",
-          "id": 1255589,
-          "nombre": "इंदिरा कृष्णन",
-          "papel": "Kaushalya"
+          "foto": "https://image.tmdb.org/t/p/w185/eBdm7HQS6lLGg4BocgfoJ5qB9yp.jpg",
+          "id": 1978406,
+          "nombre": "Travis Scott",
+          "papel": "Bard"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/buTWA0SHsB9ZQwBrgSxotNle0Rf.jpg",
-          "id": 1246534,
-          "nombre": "Sonal Jha",
-          "papel": "Sumitra"
+          "foto": "https://image.tmdb.org/t/p/w185/wRt0Bc0chN5BSjvYzmg2evgqNzp.jpg",
+          "id": 1154054,
+          "nombre": "Corey Hawkins",
+          "papel": "Polybus"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/mqvDNAFiy2kkFZZUJCyIgM46nm1.jpg",
-          "id": 1682080,
-          "nombre": "Adinath Kothare",
-          "papel": "Bharata"
+          "foto": "https://image.tmdb.org/t/p/w185/ze8WDEujZmTXdCLcUy0IaymwlcS.jpg",
+          "id": 84706,
+          "nombre": "Jarreth J. Merz",
+          "papel": "Leodes"
         }
       ],
       "sesiones": [
         [
-          "99400267342",
+          "99400331613",
           "2026-11-22",
-          "11:50",
+          "21:00",
           "VOSE",
-          "Sala 03",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194566&language=esp&theatre=24",
+          "Sala 07",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189794&language=esp&theatre=29",
           null,
           1
         ],
         [
-          "99400267342",
-          "2026-11-22",
-          "20:45",
-          "VOSE",
-          "Sala 03",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194538&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400267342",
+          "99400331613",
           "2026-11-23",
-          "20:45",
+          "21:00",
           "VOSE",
-          "Sala 03",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194580&language=esp&theatre=24",
+          "Sala 07",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189835&language=esp&theatre=29",
           null,
           1
         ],
         [
-          "99400267342",
+          "99400331613",
           "2026-11-24",
-          "20:45",
+          "21:00",
           "VOSE",
-          "Sala 03",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194610&language=esp&theatre=24",
+          "Sala 07",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189864&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-26",
+          "21:00",
+          "VOSE",
+          "Sala 07",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189924&language=esp&theatre=29",
           null,
           1
         ]
       ],
       "sinopsis": {
-        "en": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
-        "es": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores."
+        "ca": "Odisseu, el llegendari rei d'Ítaca, emprèn un viatge llarg i perillós de tornada a casa després de la guerra de Troia. Durant tota la travessia, es veu obligat a plantar cara als capricis dels déus, a monstres mitològics i a proves que porten la seva astúcia i la seva humanitat fins al límit.",
+        "en": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+        "es": "Tras la caída de Troya, el legendario rey de Ítaca, Odiseo, emprende un largo y peligroso viaje para regresar junto a su esposa Penélope y su hijo Telémaco. En el camino deberá enfrentarse a criaturas mitológicas, dioses caprichosos y pruebas que pondrán a prueba su ingenio, su resistencia y su humanidad. Mientras tanto, en Ítaca, el futuro de su reino pende de un hilo ante la creciente amenaza de quienes creen que jamás volverá."
       },
-      "titulo": "Ramayana: El Nacimiento de una Leyenda",
-      "titulo_original": "रामायणम्",
-      "tmdb": 656908,
-      "trailer": "tPf0_b026Ck"
+      "titulo": "La Odisea",
+      "titulo_ca": "L'Odissea",
+      "titulo_original": "The Odyssey",
+      "tmdb": 1368337,
+      "trailer": "X9nUrOnHlz0"
     },
     {
       "agenda": "open_data_bcn:99400765542",
@@ -22863,587 +21884,236 @@
     },
     {
       "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
+      "cartel": "https://image.tmdb.org/t/p/w500/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
       "direccion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
-          "id": 223,
-          "nombre": "Alejandro González Iñárritu",
+          "foto": "https://image.tmdb.org/t/p/w185/aWDxGlWkFVhs80DQMEE5A7c7YBr.jpg",
+          "id": 40684,
+          "nombre": "David Leitch",
           "premios": [
             {
-              "anio": 2015,
-              "premio": "Óscar al mejor director",
+              "anio": 2008,
+              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
               "tipo": "ganado"
             },
             {
-              "anio": 2015,
-              "premio": "Premi Internacional AACTA a la millor direcció",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Premio del Festival de Cannes al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Premio del Sindicato de Directores a la mejor dirección",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Óscar al mejor guion original",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Óscar a la mejor película",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Óscar al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "BAFTA al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Doctorado honoris causa por la Universidad Nacional Autónoma de México",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Globo de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Premios César",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Óscar para una contribución especial",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio del Cine Europeo a la mejor película no europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Óscar al mejor guion original",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Óscar a la mejor película",
+              "anio": 2008,
+              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
               "tipo": "nominado"
             }
           ],
-          "wikidata": "Q55215"
+          "wikidata": "Q5236475"
         }
       ],
-      "duracion": 129,
+      "duracion": 122,
       "edad": "16",
-      "estreno": "2026-09-28",
-      "fondo": "https://image.tmdb.org/t/p/w1280/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+      "estreno": "2026-11-10",
+      "fondo": "https://image.tmdb.org/t/p/w1280/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
       "generos": [
-        "Comedia",
-        "Drama"
+        "Acción",
+        "Crimen",
+        "Suspense"
       ],
       "guion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
-          "id": 223,
-          "nombre": "Alejandro González Iñárritu"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aMuTBKGoHk0BKo1iSwz4xffbXjq.jpg",
-          "id": 1050096,
-          "nombre": "Sabina Berman"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/fCdknBtQMVoIEW0VfKiL2yMZqgW.jpg",
-          "id": 21339,
-          "nombre": "Jez Butterworth"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
-          "id": 223,
-          "nombre": "Alejandro González Iñárritu"
+          "foto": "https://image.tmdb.org/t/p/w185/kEqJj3aRwcAoJFqv7h0qzoTvlDF.jpg",
+          "id": 1466580,
+          "nombre": "Mark Bianculli"
         }
       ],
-      "id": "tmdb-1248832",
+      "id": "tmdb-1437511",
       "idioma_original": "en",
-      "imdb": "tt31450459",
-      "lema": "Cava o muere.",
+      "imdb": "tt35866986",
+      "lema": "¿Quién está robando a quién?.",
       "musica": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/7UH0EVtPiW1Q20dhLZXvhM3cxE.jpg",
-          "id": 1705263,
-          "nombre": "Cosmo Sheldrake"
+          "foto": "https://image.tmdb.org/t/p/w185/8r3uR9LxtCG72l9JS4fjfVc3wdZ.jpg",
+          "id": 1404094,
+          "nombre": "Dominic Lewis"
         }
       ],
-      "nota": 7.5,
       "paises": [
         "US"
       ],
       "reparto": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg",
-          "id": 500,
-          "nombre": "Tom Cruise",
-          "papel": "Rockwell",
+          "foto": "https://image.tmdb.org/t/p/w185/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg",
+          "id": 3292,
+          "nombre": "Nicholas Hoult",
+          "papel": "Ryan",
           "premios": [
             {
-              "anio": 1990,
-              "premio": "Globo de Oro al mejor actor - Drama",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1997,
-              "premio": "Globo de Oro al mejor actor - Comedia o musical",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Globo de Oro al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Medalla de la llibertat d'IAS",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1986,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "anio": 2013,
+              "premio": "Premi Teen Choice per al millor actor revelació",
               "tipo": "ganado"
             },
             {
               "anio": 2002,
-              "premio": "Premio Saturn al mejor actor",
+              "premio": "Phoenix Film Critics Society Award for Best Performance by a Youth in a Lead or Supporting Role - Male",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Premis de l'Online Film & Television Association",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Premi del Florida Film Critics Circle al millor repartiment",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Premios de la Crítica Televisiva",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premios Phoenix Film Critics Society",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Premios Satellite",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Premi del públic a la millor pel·lícula europea",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q298347"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg",
+          "id": 37153,
+          "nombre": "Zoë Kravitz",
+          "papel": "Reagan Gardner",
+          "premios": [
+            {
+              "anio": 2014,
+              "premio": "Milano International Film Festival Awards (MIFF Awards)",
               "tipo": "ganado"
             },
             {
               "anio": 2022,
-              "premio": "Palma de Honor",
+              "premio": "Time 100",
               "tipo": "ganado"
-            },
+            }
+          ],
+          "wikidata": "Q227129"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/f3kubnZu3KgMniExcq9nJy8RwjW.jpg",
+          "id": 1427948,
+          "nombre": "Pete Davidson",
+          "papel": "Vince",
+          "premios": [
             {
-              "anio": 1997,
-              "premio": "Premi Satellite al millor actor en un musical o una comèdia",
+              "anio": 2022,
+              "premio": "Time 100",
               "tipo": "ganado"
-            },
+            }
+          ],
+          "wikidata": "Q18097962"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iDQ8w4qcxU3le5ZWoCKpHs1QNok.jpg",
+          "id": 4764,
+          "nombre": "John C. Reilly",
+          "papel": "Agent West",
+          "premios": [
             {
-              "anio": 1990,
-              "premio": "Premios Globo de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premios Saturn",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Premios de la Crítica Cinematográfica",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Caballero de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2025,
-              "premio": "Óscar honorífico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Medalla por Servicio Distinguido de la Armada",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2000,
+              "anio": 2003,
               "premio": "Oscar al mejor actor de reparto",
               "tipo": "nominado"
             },
             {
-              "anio": 1997,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1990,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1989,
-              "premio": "Razzie al peor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Óscar a la mejor película",
+              "anio": 2000,
+              "premio": "Premio Tony al mejor actor principal en una obra de teatro",
               "tipo": "nominado"
             }
           ],
-          "wikidata": "Q37079"
+          "wikidata": "Q223110"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg",
-          "id": 53240,
-          "nombre": "Riz Ahmed",
-          "papel": "Ganesh",
-          "premios": [
-            {
-              "anio": 2017,
-              "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Óscar al mejor cortometraje",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Óscar al mejor cortometraje",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2021,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q1861917"
+          "foto": "https://image.tmdb.org/t/p/w185/6uFaCOupDTPRnTiedveTUvjOikC.jpg",
+          "id": 1434487,
+          "nombre": "Anna Sawai",
+          "papel": "Emi"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
-          "id": 1230,
-          "nombre": "John Goodman",
-          "papel": "President Compson",
-          "premios": [
-            {
-              "anio": 2013,
-              "premio": "Leyendas Disney",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Primetime Emmy al mejor actor invitado - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q215072"
+          "foto": "https://image.tmdb.org/t/p/w185/b2Ba7MLybozIRdvZquimRGOHE0V.jpg",
+          "id": 1761634,
+          "nombre": "Rhenzy Feliz",
+          "papel": "Hugo"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/eytKTAVD9fP8kklbW4dMilbceig.jpg",
-          "id": 7152,
-          "nombre": "Sandra Hüller",
-          "papel": "Emma",
-          "premios": [
-            {
-              "anio": 2006,
-              "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Premio del Cine Europeo a la mejor actriz europea",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2020,
-              "premio": "Cruz de la Orden del Mérito de la República Federal de Alemania",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Premi Gilde",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Premio del Cine Europeo a la mejor actriz europea",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Oso de Plata a la mejor interpretación femenina",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "César a la mejor actriz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premio Lumière a la mejor actriz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Oficial de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2026,
-              "premio": "Oso de Plata a la Mejor interpretación protagónica",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Bayerischer Filmpreis",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Premis de la Crítica de Cinema Alemany",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premi Ulrich Wildgruber",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Actor del año de Theater heute",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "3sat-Preis",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Actor del año de Theater heute",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Premios del Cine Alemán - Mejor Actriz de Reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Premio Bávaro del Cine al Mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Actor del año de Theater heute",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Eysoldt-Ring",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2020,
-              "premio": "Theaterpreis Berlin",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2020,
-              "premio": "Actor del año de Theater heute",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la Mejor Actriz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "BAFTA a la mejor actriz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "BAFTA a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2026,
-              "premio": "Oso de Plata a la mejor interpretación femenina",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Premio del Cine Europeo a la mejor actriz europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Premio del Cine Europeo a la mejor actriz europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Premio del Cine Europeo a la mejor actriz europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar a la mejor actriz",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2024,
-              "premio": "César a la mejor actriz",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q70003"
+          "foto": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
+          "id": 2224,
+          "nombre": "Christian Slater",
+          "papel": "Walton"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg",
-          "id": 72873,
-          "nombre": "Michael Stuhlbarg",
-          "papel": "Vice President"
+          "foto": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
+          "id": 1859934,
+          "nombre": "Tati Gabrielle",
+          "papel": "Skyler"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg",
-          "id": 88124,
-          "nombre": "Jesse Plemons",
-          "papel": "Kenny"
+          "foto": "https://image.tmdb.org/t/p/w185/cQnCJI94lje55gZ7kEQ7YZUQPDb.jpg",
+          "id": 167564,
+          "nombre": "Paul Sparks",
+          "papel": "Agent Roberts"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
-          "id": 31512,
-          "nombre": "Robert John Burke",
-          "papel": "General Fitzgerald"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg",
-          "id": 2121005,
-          "nombre": "Emma D'Arcy",
-          "papel": "Lina"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg",
-          "id": 39659,
-          "nombre": "Burn Gorman",
-          "papel": "Defense Secretary Amos"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/fMZvMsvTv9MYSC6LTNdIUaMGjIv.jpg",
-          "id": 3115932,
-          "nombre": "Sophie Wilde",
-          "papel": "Hannah"
+          "foto": "https://image.tmdb.org/t/p/w185/cRuVRx1DMe2hBkz5pssVqdpCtaQ.jpg",
+          "id": 2569691,
+          "nombre": "Young Mazino",
+          "papel": "Marquis Collins"
         }
       ],
       "sesiones": [
         [
-          "99400331613",
+          "99400267342",
           "2026-11-22",
-          "12:00",
-          "VOSE",
-          "Sala 02",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189809&language=esp&theatre=29",
+          "22:00",
+          "Castellano",
+          "Sala 09",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194553&language=esp&theatre=24",
           null,
           1
         ],
         [
-          "75990131879",
-          "2026-11-22",
-          "22:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222632&language=ESP",
-          null,
-          1
-        ],
-        [
-          "75990131879",
+          "99400267342",
           "2026-11-23",
-          "22:30",
-          "VOSE",
+          "22:00",
+          "Castellano",
+          "Sala 09",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194595&language=esp&theatre=24",
           null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222683&language=ESP",
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-24",
+          "22:00",
+          "Castellano",
+          "Sala 09",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194624&language=esp&theatre=24",
           null,
           1
         ]
       ],
       "sinopsis": {
-        "ca": "L'home més poderós del món s'embarca en una missió frenètica per demostrar que és el salvador de la humanitat abans que el desastre que ha desfermat ho destrueixi tot.",
-        "en": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
-        "es": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo."
+        "en": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
+        "es": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales."
       },
-      "titulo": "Digger",
-      "titulo_original": "Digger",
-      "tmdb": 1248832,
-      "trailer": "xU2jWSsaWY0"
+      "titulo": "Como robar un banco",
+      "titulo_original": "How to Rob a Bank",
+      "tmdb": 1437511,
+      "trailer": "tKtg0S1rm2M"
     },
     {
       "anio": 2026,
@@ -24142,6 +22812,443 @@
       "trailer": "3LRyNwYg1f8"
     },
     {
+      "anio": 2026,
+      "cartel": "https://image.tmdb.org/t/p/w500/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/h80yPI8rDKlUk29dWFFl6Is8J0P.jpg",
+          "id": 1042010,
+          "nombre": "Nitesh Tiwari",
+          "premios": [
+            {
+              "anio": 2017,
+              "premio": "Premi Filmfare a la millor direcció",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q16908467"
+        }
+      ],
+      "duracion": 201,
+      "estreno": "2026-11-05",
+      "fondo": "https://image.tmdb.org/t/p/w1280/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+      "generos": [
+        "Fantasía",
+        "Acción",
+        "Aventura"
+      ],
+      "guion": [
+        {
+          "id": 85443,
+          "nombre": "Shridhar Raghavan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/h80yPI8rDKlUk29dWFFl6Is8J0P.jpg",
+          "id": 1042010,
+          "nombre": "Nitesh Tiwari"
+        }
+      ],
+      "id": "tmdb-656908",
+      "idioma_original": "hi",
+      "imdb": "tt27988879",
+      "lema": "Nuestra verdad. Nuestra historia.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tpQnDeHY15szIXvpnhlprufz4d.jpg",
+          "id": 947,
+          "nombre": "Hans Zimmer"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3po8IwdtONY72BuXr7ZhZZ0ugxQ.jpg",
+          "id": 5288,
+          "nombre": "A.R. Rahman"
+        }
+      ],
+      "nota": 7.5,
+      "paises": [
+        "IN",
+        "GB"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ymYNHV9luwgyrw17NXHqbOWTQkg.jpg",
+          "id": 85034,
+          "nombre": "Ranbir Kapoor",
+          "papel": "Prince Rama / Parashurama",
+          "premios": [
+            {
+              "anio": 2008,
+              "premio": "Premi Filmfare al millor actor debutant",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Zee Cine Awards al millor debut masculí",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Producers Guild Film Award al millor debut masculí",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "IIFA Award for Star Debut of the Year – Male",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Stardust Award for Superstar of Tomorrow – Male",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Stardust Award for Superstar of Tomorrow – Male",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premi Filmfare de la crítica al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "IIFA Award for Hottest Pair",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Premi Filmfare de la crítica al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Premi Zee Cine al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "IIFA Award for Hottest Pair",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Zee Cine Award – Critics' Choice Best Actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Stardust Award for Superstar of Tomorrow – Male",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Premi Filmfare al millor actor debutant",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Zee Cine Awards al millor debut masculí",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Producers Guild Film Award al millor debut masculí",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Stardust Award for Superstar of Tomorrow – Male",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Premi Zee Cine al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Stardust Award for Best Drama Actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "IIFA Award for Hottest Pair",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Premi Zee Cine al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Premi Zee Cine al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "IIFA Award for Hottest Pair",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Filmfare al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2014,
+              "premio": "IIFA Award al millor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Producers Guild Film Award al millor actor en un paper protagonista",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Premi Zee Cine al millor actor",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q1063412"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/es8St0vl9otL1XAAZJKYmNpL3Wy.jpg",
+          "id": 1293681,
+          "nombre": "Yash",
+          "papel": "Ravana",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Filmfare Awards South",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q15721444"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qAPdGKUIUEzLibdgVCey7oKvvME.jpg",
+          "id": 1473119,
+          "nombre": "Sai Pallavi",
+          "papel": "Sita",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Premi Filmfare a la millor actriu",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Vanitha Film Awards",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Medalla d'Or de Behindwoods",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premis Internacionals de Cinema del Sud de l'Índia",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premis de cinema Asianet",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Asiavision Awards",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "CNN-News18",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q20081051"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dUhZ0E8nchBkjYV0okWfj4BLxy2.jpg",
+          "id": 1252841,
+          "nombre": "Ravi Dubey",
+          "papel": "Lakshmana",
+          "premios": [],
+          "wikidata": "Q7296622"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xgefRNWurCiwyLSlpnDGgfMIF7H.jpg",
+          "id": 1228593,
+          "nombre": "अरुण गोविल",
+          "papel": "King Dashrath"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tt0qUlMx7tlDa8XyhBm6OQPurG0.jpg",
+          "id": 55063,
+          "nombre": "लारा दत्ता",
+          "papel": "Kaikeyi"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4n4MmOFNyxKc4qMfzyapglvDDlF.jpg",
+          "id": 1143308,
+          "nombre": "Rakul Preet Singh",
+          "papel": "Surpanakha"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fbN5eUSX9UjizTfotFh8Ka6NyqV.jpg",
+          "id": 1255589,
+          "nombre": "इंदिरा कृष्णन",
+          "papel": "Kaushalya"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/buTWA0SHsB9ZQwBrgSxotNle0Rf.jpg",
+          "id": 1246534,
+          "nombre": "Sonal Jha",
+          "papel": "Sumitra"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mqvDNAFiy2kkFZZUJCyIgM46nm1.jpg",
+          "id": 1682080,
+          "nombre": "Adinath Kothare",
+          "papel": "Bharata"
+        }
+      ],
+      "sesiones": [
+        [
+          "99400267342",
+          "2026-11-22",
+          "20:45",
+          "VOSE",
+          "Sala 03",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194538&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-23",
+          "20:45",
+          "VOSE",
+          "Sala 03",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194580&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-24",
+          "20:45",
+          "VOSE",
+          "Sala 03",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194610&language=esp&theatre=24",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "en": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+        "es": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores."
+      },
+      "titulo": "Ramayana: El Nacimiento de una Leyenda",
+      "titulo_original": "रामायणम्",
+      "tmdb": 656908,
+      "trailer": "tPf0_b026Ck"
+    },
+    {
       "agenda": "open_data_bcn:99400749900",
       "anio": 2024,
       "cartel": "https://image.tmdb.org/t/p/w500/drTJmTcyDk9CGAmM8RzO43iDnmi.jpg",
@@ -24822,76 +23929,577 @@
     },
     {
       "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/rkoVLCKCqVCo3c7u4QktJf2ATEM.jpg",
-      "duracion": 60,
-      "edad": "Ai",
-      "estreno": "2026-11-14",
-      "fondo": "https://image.tmdb.org/t/p/w1280/cetFNvBn6N5JkdjeJB18xRUHvFg.jpg",
-      "generos": [
-        "Animación",
-        "Familia"
-      ],
-      "id": "tmdb-1778515",
-      "idioma_original": "en",
-      "imdb": "tt46666063",
-      "reparto": [
+      "cartel": "https://image.tmdb.org/t/p/w500/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
+      "direccion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
-          "id": 59070,
-          "nombre": "Morwenna Banks",
+          "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
+          "id": 223,
+          "nombre": "Alejandro González Iñárritu",
           "premios": [
             {
               "anio": 2015,
-              "premio": "Tinniswood Award",
+              "premio": "Óscar al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Premi Internacional AACTA a la millor direcció",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Premio del Festival de Cannes al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Premio del Sindicato de Directores a la mejor dirección",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Óscar al mejor guion original",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Óscar a la mejor película",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Óscar al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "BAFTA al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Doctorado honoris causa por la Universidad Nacional Autónoma de México",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Globo de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premios César",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Óscar para una contribución especial",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2003,
+              "premio": "Premio del Cine Europeo a la mejor película no europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2007,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2007,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Óscar al mejor guion original",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q55215"
+        }
+      ],
+      "duracion": 129,
+      "edad": "16",
+      "estreno": "2026-09-28",
+      "fondo": "https://image.tmdb.org/t/p/w1280/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
+          "id": 223,
+          "nombre": "Alejandro González Iñárritu"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/aMuTBKGoHk0BKo1iSwz4xffbXjq.jpg",
+          "id": 1050096,
+          "nombre": "Sabina Berman"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fCdknBtQMVoIEW0VfKiL2yMZqgW.jpg",
+          "id": 21339,
+          "nombre": "Jez Butterworth"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
+          "id": 223,
+          "nombre": "Alejandro González Iñárritu"
+        }
+      ],
+      "id": "tmdb-1248832",
+      "idioma_original": "en",
+      "imdb": "tt31450459",
+      "lema": "Cava o muere.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7UH0EVtPiW1Q20dhLZXvhM3cxE.jpg",
+          "id": 1705263,
+          "nombre": "Cosmo Sheldrake"
+        }
+      ],
+      "nota": 7.5,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg",
+          "id": 500,
+          "nombre": "Tom Cruise",
+          "papel": "Rockwell",
+          "premios": [
+            {
+              "anio": 1990,
+              "premio": "Globo de Oro al mejor actor - Drama",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Globo de Oro al mejor actor - Comedia o musical",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2000,
+              "premio": "Globo de Oro al mejor actor de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Medalla de la llibertat d'IAS",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1986,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premio Saturn al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Palma de Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Premi Satellite al millor actor en un musical o una comèdia",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1990,
+              "premio": "Premios Globo de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premios Saturn",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2005,
+              "premio": "Premios de la Crítica Cinematográfica",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Caballero de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Óscar honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Medalla por Servicio Distinguido de la Armada",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2000,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1990,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1989,
+              "premio": "Razzie al peor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q37079"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg",
+          "id": 53240,
+          "nombre": "Riz Ahmed",
+          "papel": "Ganesh",
+          "premios": [
+            {
+              "anio": 2017,
+              "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Óscar al mejor cortometraje",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Óscar al mejor cortometraje",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2021,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q1861917"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
+          "id": 1230,
+          "nombre": "John Goodman",
+          "papel": "President Compson",
+          "premios": [
+            {
+              "anio": 2013,
+              "premio": "Leyendas Disney",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Primetime Emmy al mejor actor invitado - Serie dramática",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
               "tipo": "ganado"
             }
           ],
-          "wikidata": "Q6915202"
+          "wikidata": "Q215072"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
-          "id": 6645,
-          "nombre": "Richard Ridings",
-          "premios": [],
-          "wikidata": "Q3431161"
+          "foto": "https://image.tmdb.org/t/p/w185/eytKTAVD9fP8kklbW4dMilbceig.jpg",
+          "id": 7152,
+          "nombre": "Sandra Hüller",
+          "papel": "Emma",
+          "premios": [
+            {
+              "anio": 2006,
+              "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premio del Cine Europeo a la mejor actriz europea",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2020,
+              "premio": "Cruz de la Orden del Mérito de la República Federal de Alemania",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Premi Gilde",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Premio del Cine Europeo a la mejor actriz europea",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Oso de Plata a la mejor interpretación femenina",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "César a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premio Lumière a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Oficial de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2026,
+              "premio": "Oso de Plata a la Mejor interpretación protagónica",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2005,
+              "premio": "Bayerischer Filmpreis",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Premis de la Crítica de Cinema Alemany",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Premi Ulrich Wildgruber",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Actor del año de Theater heute",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "3sat-Preis",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Actor del año de Theater heute",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Premios del Cine Alemán - Mejor Actriz de Reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Premio Bávaro del Cine al Mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Actor del año de Theater heute",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Eysoldt-Ring",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2020,
+              "premio": "Theaterpreis Berlin",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2020,
+              "premio": "Actor del año de Theater heute",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la Mejor Actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "BAFTA a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "BAFTA a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2026,
+              "premio": "Oso de Plata a la mejor interpretación femenina",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Premio del Cine Europeo a la mejor actriz europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premio del Cine Europeo a la mejor actriz europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Premio del Cine Europeo a la mejor actriz europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2024,
+              "premio": "César a la mejor actriz",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q70003"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/2sAIKIeHia3k2SVJB0oyJQz7QoN.jpg",
-          "id": 2769219,
-          "nombre": "Amelie Bea Smith",
-          "premios": [],
-          "wikidata": "Q95233135"
+          "foto": "https://image.tmdb.org/t/p/w185/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg",
+          "id": 72873,
+          "nombre": "Michael Stuhlbarg",
+          "papel": "Vice President"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg",
+          "id": 88124,
+          "nombre": "Jesse Plemons",
+          "papel": "Kenny"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
+          "id": 31512,
+          "nombre": "Robert John Burke",
+          "papel": "General Fitzgerald"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg",
+          "id": 2121005,
+          "nombre": "Emma D'Arcy",
+          "papel": "Lina"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg",
+          "id": 39659,
+          "nombre": "Burn Gorman",
+          "papel": "Defense Secretary Amos"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fMZvMsvTv9MYSC6LTNdIUaMGjIv.jpg",
+          "id": 3115932,
+          "nombre": "Sophie Wilde",
+          "papel": "Hannah"
         }
       ],
       "sesiones": [
         [
           "75990131879",
           "2026-11-22",
-          "11:30",
-          "Castellano",
+          "22:30",
+          "VOSE",
           null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=221156&language=ESP",
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222632&language=ESP",
           null,
           1
         ],
         [
-          "95122123236",
-          "2026-11-22",
-          "15:30",
-          "Castellano",
-          "Sala 01",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122522&language=esp&theatre=25",
+          "75990131879",
+          "2026-11-23",
+          "22:30",
+          "VOSE",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222683&language=ESP",
           null,
           1
         ]
       ],
       "sinopsis": {
-        "en": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
-        "es": "Hay divas que no necesitan presentación y Peppa Pig es una de ellas. Esta vez, la popular cerdita y su familia se preparan para celebrar una ocasión muy especial: la primera Navidad de la pequeña Evie, la nueva integrante de la familia. Entre aventuras en la nieve, representaciones navideñas y los preparativos para decorar el árbol, Peppa, George y sus seres queridos compartirán algunos de sus momentos favoritos de estas fiestas navideñas."
+        "ca": "L'home més poderós del món s'embarca en una missió frenètica per demostrar que és el salvador de la humanitat abans que el desastre que ha desfermat ho destrueixi tot.",
+        "en": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+        "es": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo."
       },
-      "titulo": "Diversión Navideña con Peppa: La Experiencia en Cines",
-      "titulo_original": "Festive Fun with Peppa",
-      "tmdb": 1778515
+      "titulo": "Digger",
+      "titulo_original": "Digger",
+      "tmdb": 1248832,
+      "trailer": "xU2jWSsaWY0"
     },
     {
       "anio": 2026,
@@ -25024,180 +24632,6 @@
       "titulo": "Jaleos",
       "titulo_original": "Jaleos",
       "tmdb": 1736729
-    },
-    {
-      "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
-          "id": 1454651,
-          "nombre": "Steve Cox",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Premi Infantil i Juvenil BAFTA - Director",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q115325763"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
-          "id": 1448172,
-          "nombre": "Matthew Walker"
-        }
-      ],
-      "duracion": 81,
-      "edad": "A",
-      "estreno": "2026-09-17",
-      "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-      "generos": [
-        "Animación",
-        "Ciencia ficción",
-        "Comedia",
-        "Familia"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
-          "id": 7316,
-          "nombre": "Mark Burton"
-        },
-        {
-          "id": 1220429,
-          "nombre": "Giles Pilbrow"
-        }
-      ],
-      "id": "tmdb-1477104",
-      "idioma_original": "en",
-      "imdb": "tt36841161",
-      "lema": "¿Qué es eso que viene por la colina?.",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
-          "id": 1273153,
-          "nombre": "Natalie Holt"
-        }
-      ],
-      "nota": 7.3,
-      "paises": [
-        "GB",
-        "FR"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
-          "id": 224354,
-          "nombre": "Justin Fletcher",
-          "papel": "Shaun / Timmy (voice)",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Miembro de la Orden del Imperio británico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Premi BAFTA infantil al millor intèrpret",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q6317587"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
-          "id": 1212388,
-          "nombre": "John Sparkes",
-          "papel": "The Farmer / Bitzer (voice)",
-          "premios": [],
-          "wikidata": "Q6258580"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
-          "id": 7063,
-          "nombre": "Nina Sosanya",
-          "papel": "The Vet (voice)",
-          "premios": [],
-          "wikidata": "Q526266"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
-          "id": 124557,
-          "nombre": "Kate Harbour",
-          "papel": "Timmy's Mum (voice)",
-          "premios": [],
-          "wikidata": "Q6375522"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
-          "id": 1235023,
-          "nombre": "Rich Webber",
-          "papel": "Shirley (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
-          "id": 185065,
-          "nombre": "Emma Tate",
-          "papel": "Hazel (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
-          "id": 155527,
-          "nombre": "Simon Greenall",
-          "papel": "The Twins (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
-          "id": 22810,
-          "nombre": "Andy Nyman",
-          "papel": "Nuts (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
-          "id": 34900,
-          "nombre": "Paul Whitehouse",
-          "papel": "Shop Keeper (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
-          "id": 1908668,
-          "nombre": "Roman Kemp",
-          "papel": "Pizza Boy (voice)"
-        }
-      ],
-      "sesiones": [
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:15",
-          "Castellano",
-          "Sala 11",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194573&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-22",
-          "16:10",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222629&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
-        "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
-        "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
-      },
-      "titulo": "La oveja Shaun: Misión calabaza",
-      "titulo_ca": "El xai Shaun: Missió Carbassa",
-      "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
-      "tmdb": 1477104,
-      "trailer": "daZMq0AyOMc"
     },
     {
       "anio": 2026,
@@ -26015,206 +25449,6 @@
       "tmdb": 1658291
     },
     {
-      "anio": 2025,
-      "cartel": "https://image.tmdb.org/t/p/w500/tEpDFz33WclWa0c1rxLhqM2DNFE.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/1AXNJAeCz0obA1GANYbM2xxPdeB.jpg",
-          "id": 1099354,
-          "nombre": "Henrik Martin Dahlsbakken",
-          "premios": [
-            {
-              "anio": 2018,
-              "premio": "Hedmark fylkeskommunes kulturpris",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q57167212"
-        }
-      ],
-      "duracion": 80,
-      "estreno": "2025-11-06",
-      "fondo": "https://image.tmdb.org/t/p/w1280/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
-      "generos": [
-        "Familia",
-        "Animación",
-        "Comedia"
-      ],
-      "guion": [
-        {
-          "id": 5639750,
-          "nombre": "Susanne Skogstad"
-        }
-      ],
-      "id": "tmdb-1427833",
-      "idioma_original": "no",
-      "imdb": "tt35727399",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/iy1IYpyQIOnf9BlBpnACgnoCerC.jpg",
-          "id": 578343,
-          "nombre": "Stein Johan Grieg Halvorsen"
-        },
-        {
-          "id": 1533290,
-          "nombre": "Eyvind Andreas Skeie"
-        }
-      ],
-      "paises": [
-        "NO"
-      ],
-      "premios": [
-        {
-          "anio": 2026,
-          "premio": "Premio Amanda a la Mejor Película Infantil",
-          "tipo": "ganado"
-        }
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/eJzuZZfFBaMSgcbR3Pe5zBxEC3z.jpg",
-          "id": 76556,
-          "nombre": "Pål Sverre Hagen",
-          "papel": "Peter",
-          "premios": [
-            {
-              "anio": 2013,
-              "premio": "Premi Amanda al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premio Kanon para Mejor Actor en un Papel Protagónico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premi Kanon a la interpretació secundària",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Hedda Award for Best Actor in a Supporting Role",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Premio Gullruten",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Premi Amanda al millor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Haugesund Walk of Fame",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Premi Amanda al millor actor",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q2013068"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg",
-          "id": 1904884,
-          "nombre": "Sara Khorami",
-          "papel": "Sara",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Premi Amanda a la millor actriu de repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Hedda Award for Best Actress in a  Leading Role",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q113000116"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/yem43JCCG9xpjTT1IuosGtmZVNA.jpg",
-          "id": 3126191,
-          "nombre": "Flo Fagerli",
-          "papel": "Daughter",
-          "premios": [],
-          "wikidata": "Q124499794"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qQ0AVbgyjgAvmEXNZbu1CG3MTji.jpg",
-          "id": 2856423,
-          "nombre": "Vegard Strand Eide",
-          "papel": "Mikkel"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kUkQP35OdAUtAr7lw7O9RNfFRL4.jpg",
-          "id": 71187,
-          "nombre": "Jon Øigarden",
-          "papel": "Skadedyrutrydder"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ypyMSXwABVXHjTOfpEHW008cw1A.jpg",
-          "id": 76555,
-          "nombre": "Jakob Oftebro",
-          "papel": "Rasmus"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xAaBmAepMzWoHuoI5sl1feYEKYx.jpg",
-          "id": 76917,
-          "nombre": "Charlotte Frogner",
-          "papel": "Katja"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qQFCG2sOL5dfOKfYpOxs0QMopDU.jpg",
-          "id": 1934734,
-          "nombre": "Jonis Josef",
-          "papel": "Maximus"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kR5lOHYLgZc3QiGep1SJPMVMCWy.jpg",
-          "id": 3097194,
-          "nombre": "Vivild Falk Berg",
-          "papel": "Lea"
-        }
-      ],
-      "sesiones": [
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:15",
-          "Castellano",
-          "Sala 06",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194568&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-22",
-          "15:50",
-          "Castellano",
-          "Sala 01",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142435&language=esp&theatre=27",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "en": "A small mouse family plans a quiet Christmas outside the city, but their celebration is disrupted when humans unexpectedly appear. As the mice try to hide their preparations, the humans react to the noises behind the walls with determination.",
-        "es": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse."
-      },
-      "titulo": "Ratones al ataque: Operación Navidad",
-      "titulo_original": "Hvis ingen går i fella",
-      "tmdb": 1427833
-    },
-    {
       "agenda": "open_data_bcn:99400776949",
       "gratis": true,
       "id": "p-t-592-metroz-goiti",
@@ -26577,6 +25811,69 @@
       "titulo_original": "Club Kid",
       "tmdb": 1585239,
       "trailer": "guKEdb_iRXw"
+    },
+    {
+      "anio": 2026,
+      "cartel": "https://image.tmdb.org/t/p/w500/rkoVLCKCqVCo3c7u4QktJf2ATEM.jpg",
+      "duracion": 60,
+      "edad": "Ai",
+      "estreno": "2026-11-14",
+      "fondo": "https://image.tmdb.org/t/p/w1280/cetFNvBn6N5JkdjeJB18xRUHvFg.jpg",
+      "generos": [
+        "Animación",
+        "Familia"
+      ],
+      "id": "tmdb-1778515",
+      "idioma_original": "en",
+      "imdb": "tt46666063",
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
+          "id": 59070,
+          "nombre": "Morwenna Banks",
+          "premios": [
+            {
+              "anio": 2015,
+              "premio": "Tinniswood Award",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q6915202"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
+          "id": 6645,
+          "nombre": "Richard Ridings",
+          "premios": [],
+          "wikidata": "Q3431161"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2sAIKIeHia3k2SVJB0oyJQz7QoN.jpg",
+          "id": 2769219,
+          "nombre": "Amelie Bea Smith",
+          "premios": [],
+          "wikidata": "Q95233135"
+        }
+      ],
+      "sesiones": [
+        [
+          "95122123236",
+          "2026-11-22",
+          "15:30",
+          "Castellano",
+          "Sala 01",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122522&language=esp&theatre=25",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "en": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
+        "es": "Hay divas que no necesitan presentación y Peppa Pig es una de ellas. Esta vez, la popular cerdita y su familia se preparan para celebrar una ocasión muy especial: la primera Navidad de la pequeña Evie, la nueva integrante de la familia. Entre aventuras en la nieve, representaciones navideñas y los preparativos para decorar el árbol, Peppa, George y sus seres queridos compartirán algunos de sus momentos favoritos de estas fiestas navideñas."
+      },
+      "titulo": "Diversión Navideña con Peppa: La Experiencia en Cines",
+      "titulo_original": "Festive Fun with Peppa",
+      "tmdb": 1778515
     },
     {
       "anio": 1984,
@@ -27831,6 +27128,170 @@
     },
     {
       "anio": 2026,
+      "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
+          "id": 1454651,
+          "nombre": "Steve Cox",
+          "premios": [
+            {
+              "anio": 2022,
+              "premio": "Premi Infantil i Juvenil BAFTA - Director",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q115325763"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
+          "id": 1448172,
+          "nombre": "Matthew Walker"
+        }
+      ],
+      "duracion": 81,
+      "edad": "A",
+      "estreno": "2026-09-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "generos": [
+        "Animación",
+        "Ciencia ficción",
+        "Comedia",
+        "Familia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
+          "id": 7316,
+          "nombre": "Mark Burton"
+        },
+        {
+          "id": 1220429,
+          "nombre": "Giles Pilbrow"
+        }
+      ],
+      "id": "tmdb-1477104",
+      "idioma_original": "en",
+      "imdb": "tt36841161",
+      "lema": "¿Qué es eso que viene por la colina?.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
+          "id": 1273153,
+          "nombre": "Natalie Holt"
+        }
+      ],
+      "nota": 7.3,
+      "paises": [
+        "GB",
+        "FR"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
+          "id": 224354,
+          "nombre": "Justin Fletcher",
+          "papel": "Shaun / Timmy (voice)",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Miembro de la Orden del Imperio británico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premi BAFTA infantil al millor intèrpret",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q6317587"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
+          "id": 1212388,
+          "nombre": "John Sparkes",
+          "papel": "The Farmer / Bitzer (voice)",
+          "premios": [],
+          "wikidata": "Q6258580"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
+          "id": 7063,
+          "nombre": "Nina Sosanya",
+          "papel": "The Vet (voice)",
+          "premios": [],
+          "wikidata": "Q526266"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
+          "id": 124557,
+          "nombre": "Kate Harbour",
+          "papel": "Timmy's Mum (voice)",
+          "premios": [],
+          "wikidata": "Q6375522"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
+          "id": 1235023,
+          "nombre": "Rich Webber",
+          "papel": "Shirley (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
+          "id": 185065,
+          "nombre": "Emma Tate",
+          "papel": "Hazel (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
+          "id": 155527,
+          "nombre": "Simon Greenall",
+          "papel": "The Twins (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
+          "id": 22810,
+          "nombre": "Andy Nyman",
+          "papel": "Nuts (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
+          "id": 34900,
+          "nombre": "Paul Whitehouse",
+          "papel": "Shop Keeper (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
+          "id": 1908668,
+          "nombre": "Roman Kemp",
+          "papel": "Pizza Boy (voice)"
+        }
+      ],
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-11-22",
+          "16:10",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222629&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
+        "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+        "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
+      },
+      "titulo": "La oveja Shaun: Misión calabaza",
+      "titulo_ca": "El xai Shaun: Missió Carbassa",
+      "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "tmdb": 1477104,
+      "trailer": "daZMq0AyOMc"
+    },
+    {
+      "anio": 2026,
       "cartel": "https://image.tmdb.org/t/p/w500/s8ysDDcSCU4idgj4UpxG8Mde8Wk.jpg",
       "direccion": [
         {
@@ -28779,653 +28240,6 @@
       "titulo": "L’Emilie i el secret de les tempestes"
     },
     {
-      "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/tQ8CR2Xuokcg8Pp2R7KDTA5N683.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg",
-          "id": 124747,
-          "nombre": "Pierre Coffin",
-          "premios": [
-            {
-              "anio": 2016,
-              "premio": "Premi Seiyu familiar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q3384479"
-        }
-      ],
-      "duracion": 90,
-      "edad": "7",
-      "estreno": "2026-06-24",
-      "fondo": "https://image.tmdb.org/t/p/w1280/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
-      "generos": [
-        "Aventura",
-        "Animación",
-        "Comedia",
-        "Familia",
-        "Fantasía"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/dprj5Un51JO2QzQnDmHuBrqRQc3.jpg",
-          "id": 1024175,
-          "nombre": "Brian Lynch"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg",
-          "id": 124747,
-          "nombre": "Pierre Coffin"
-        }
-      ],
-      "id": "tmdb-1315772",
-      "idioma_original": "en",
-      "imdb": "tt32890033",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/trywZMdhKM04PL1lH5OECXRxL1u.jpg",
-          "id": 11098,
-          "nombre": "John Powell"
-        }
-      ],
-      "nota": 7.5,
-      "paises": [
-        "US"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg",
-          "id": 124747,
-          "nombre": "Pierre Coffin",
-          "papel": "The Minions (voice)",
-          "premios": [
-            {
-              "anio": 2016,
-              "premio": "Premi Seiyu familiar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q3384479"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/3tJe8t90lrcQzXj9cRcpW9wmj2c.jpg",
-          "id": 34517,
-          "nombre": "Trey Parker",
-          "papel": "Goomi (voice)",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Premios Peabody",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Annie",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Laurence Olivier",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio Tony a la mejor dirección en un musical",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "The Game Awards - Mejor interpretación",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Primetime Emmy al mejor programa animado",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Primetime Emmy al mejor programa animado",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Primetime Emmy al mejor programa animado",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio Tony a la mejor banda sonora original",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio Tony al mejor guion de un musical",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "The Game Awards - Mejor interpretación",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Óscar a la mejor canción original",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q44414"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/jMvLGCVXLaBqjRLf5olyvEucZob.jpg",
-          "id": 27319,
-          "nombre": "Christoph Waltz",
-          "papel": "Max (voice)",
-          "premios": [
-            {
-              "anio": 2010,
-              "premio": "Romy",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Condecoración Austriaca de las Ciencias y las Artes",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "Premi O.E. Hasse",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premio del Festival de Cannes al mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1997,
-              "premio": "Premi bavarès de televisió",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Premio del Cine Europeo al Mejor Logro Europeo en el Mundo del Cine",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Globo de Oro al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Globo de Oro al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "BAFTA al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "BAFTA al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio del Sindicato de Actores al mejor actor de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Washington D.C. Area Film Critics Association Award for Best Supporting Actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premios Óscar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Globo de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q76819"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/AnpevvFjyFPRL3vDGo7o1Woina1.jpg",
-          "id": 19,
-          "nombre": "Allison Janney",
-          "papel": "Olivia (voice)",
-          "premios": [
-            {
-              "anio": 1997,
-              "premio": "Theatre World Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Premio del Sindicato de Actores al mejor reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio del National Board of Review al mejor reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premi Satellite al millor repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premi Drama Desk a la millor actriu en un musical",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premi Satellite a la millor actriu de sèrie de televisió dramàtica",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Premio del Sindicato de Actores al mejor reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1998,
-              "premio": "Drama Desk Award for Outstanding Featured Actress in a Play",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Globo de Oro a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Emmy a la mejor actriz - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Emmy a la mejor actriz - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie de comedia",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie de comedia",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Primetime Emmy a la mejor actriz invitada - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "BAFTA a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2026,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1998,
-              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premio Tony a la mejor actriz principal en un musical",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Primetime Emmy a la mejor actriz invitada - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie de comedia",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Premio del Sindicato de Actores al mejor reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Independent Spirit Award a la mejor actriz de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premi Drama Desk a la millor actriu en un musical",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Premio del Sindicato de Actores al mejor reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Emmy a la mejor actriz - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Independent Spirit Award a la mejor actriz de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Emmy a la mejor actriz - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Emmy a la mejor actriz - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Globo de Oro a la mejor actriz de serie de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premi Satellite a la millor actriu de sèrie de televisió dramàtica",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio del Sindicato de Actores al mejor reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Emmy a la mejor actriz - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Globo de Oro a la mejor actriz de serie de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premi Satellite a la millor actriu de sèrie de televisió dramàtica",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Premi TCA a l'assoliment individual en drama",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Serie dramática",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Premio del Sindicato de Actores al mejor reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1998,
-              "premio": "Drama Desk Award for Outstanding Featured Actress in a Play",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1997,
-              "premio": "Drama Desk Award for Outstanding Featured Actress in a Play",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q229487"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/2ojZrkt5rdkUi857WSeCatxXdGS.jpg",
-          "id": 44735,
-          "nombre": "Jesse Eisenberg",
-          "papel": "Dort (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg",
-          "id": 1229,
-          "nombre": "Jeff Bridges",
-          "papel": "Frank / Elwood (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/cU124pdfKA84tDvoapECkJ57rR2.jpg",
-          "id": 1059597,
-          "nombre": "Zoey Deutch",
-          "papel": "Debbie (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/gOvwNz5joi5yWJ7dAhuF8WA2aas.jpg",
-          "id": 452205,
-          "nombre": "Bobby Moynihan",
-          "papel": "Phillips (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
-          "id": 31549,
-          "nombre": "Phil LaMarr",
-          "papel": "Howard (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/mDLDvsx8PaZoEThkBdyaG1JxPdf.jpg",
-          "id": 1,
-          "nombre": "George Lucas",
-          "papel": "George Lucas (voice)"
-        }
-      ],
-      "sesiones": [
-        [
-          "99400267342",
-          "2026-11-22",
-          "12:00",
-          "Castellano",
-          "Sala 08",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194570&language=esp&theatre=24",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "Aquesta és la història desenfrenada, ridícula i totalment real de com els Minions van conquerir Hollywood, es van convertir en estrelles de cinema, van perdre tot, van desfermar monstres sobre el món i després van unir forces per intentar salvar el planeta del caos que ells mateixos van crear.",
-        "en": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
-        "es": "Narra la historia de cómo los minions conquistaron la industria de Hollywood, se convirtieron en estrellas de cine, lo perdieron todo, desataron monstruos en el mundo y luego se unieron para intentar salvar al planeta del caos que acababan de crear."
-      },
-      "titulo": "Minions & Monsters",
-      "titulo_ca": "Minions & Monsters",
-      "titulo_original": "Minions & Monsters",
-      "tmdb": 1315772,
-      "trailer": "C_IdQivkD_M"
-    },
-    {
       "agenda": "open_data_bcn:99400766552",
       "gratis": true,
       "id": "p-t-natura-sagrada",
@@ -29582,6 +28396,196 @@
         ]
       ],
       "titulo": "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve"
+    },
+    {
+      "anio": 2025,
+      "cartel": "https://image.tmdb.org/t/p/w500/tEpDFz33WclWa0c1rxLhqM2DNFE.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1AXNJAeCz0obA1GANYbM2xxPdeB.jpg",
+          "id": 1099354,
+          "nombre": "Henrik Martin Dahlsbakken",
+          "premios": [
+            {
+              "anio": 2018,
+              "premio": "Hedmark fylkeskommunes kulturpris",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q57167212"
+        }
+      ],
+      "duracion": 80,
+      "estreno": "2025-11-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
+      "generos": [
+        "Familia",
+        "Animación",
+        "Comedia"
+      ],
+      "guion": [
+        {
+          "id": 5639750,
+          "nombre": "Susanne Skogstad"
+        }
+      ],
+      "id": "tmdb-1427833",
+      "idioma_original": "no",
+      "imdb": "tt35727399",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iy1IYpyQIOnf9BlBpnACgnoCerC.jpg",
+          "id": 578343,
+          "nombre": "Stein Johan Grieg Halvorsen"
+        },
+        {
+          "id": 1533290,
+          "nombre": "Eyvind Andreas Skeie"
+        }
+      ],
+      "paises": [
+        "NO"
+      ],
+      "premios": [
+        {
+          "anio": 2026,
+          "premio": "Premio Amanda a la Mejor Película Infantil",
+          "tipo": "ganado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eJzuZZfFBaMSgcbR3Pe5zBxEC3z.jpg",
+          "id": 76556,
+          "nombre": "Pål Sverre Hagen",
+          "papel": "Peter",
+          "premios": [
+            {
+              "anio": 2013,
+              "premio": "Premi Amanda al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Premio Kanon para Mejor Actor en un Papel Protagónico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premi Kanon a la interpretació secundària",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2007,
+              "premio": "Hedda Award for Best Actor in a Supporting Role",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Premio Gullruten",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premi Amanda al millor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Haugesund Walk of Fame",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Premi Amanda al millor actor",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q2013068"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg",
+          "id": 1904884,
+          "nombre": "Sara Khorami",
+          "papel": "Sara",
+          "premios": [
+            {
+              "anio": 2022,
+              "premio": "Premi Amanda a la millor actriu de repartiment",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Hedda Award for Best Actress in a  Leading Role",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q113000116"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yem43JCCG9xpjTT1IuosGtmZVNA.jpg",
+          "id": 3126191,
+          "nombre": "Flo Fagerli",
+          "papel": "Daughter",
+          "premios": [],
+          "wikidata": "Q124499794"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qQ0AVbgyjgAvmEXNZbu1CG3MTji.jpg",
+          "id": 2856423,
+          "nombre": "Vegard Strand Eide",
+          "papel": "Mikkel"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kUkQP35OdAUtAr7lw7O9RNfFRL4.jpg",
+          "id": 71187,
+          "nombre": "Jon Øigarden",
+          "papel": "Skadedyrutrydder"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ypyMSXwABVXHjTOfpEHW008cw1A.jpg",
+          "id": 76555,
+          "nombre": "Jakob Oftebro",
+          "papel": "Rasmus"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xAaBmAepMzWoHuoI5sl1feYEKYx.jpg",
+          "id": 76917,
+          "nombre": "Charlotte Frogner",
+          "papel": "Katja"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qQFCG2sOL5dfOKfYpOxs0QMopDU.jpg",
+          "id": 1934734,
+          "nombre": "Jonis Josef",
+          "papel": "Maximus"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kR5lOHYLgZc3QiGep1SJPMVMCWy.jpg",
+          "id": 3097194,
+          "nombre": "Vivild Falk Berg",
+          "papel": "Lea"
+        }
+      ],
+      "sesiones": [
+        [
+          "92086003023",
+          "2026-11-22",
+          "15:50",
+          "Castellano",
+          "Sala 01",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142435&language=esp&theatre=27",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "en": "A small mouse family plans a quiet Christmas outside the city, but their celebration is disrupted when humans unexpectedly appear. As the mice try to hide their preparations, the humans react to the noises behind the walls with determination.",
+        "es": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse."
+      },
+      "titulo": "Ratones al ataque: Operación Navidad",
+      "titulo_original": "Hvis ingen går i fella",
+      "tmdb": 1427833
     },
     {
       "anio": 2026,
@@ -29927,26 +28931,6 @@
       "titulo_original": "The Lord of the Rings: The Rings of Power – Forging the One Ring",
       "tmdb": 1828101,
       "trailer": "maP_Kyy3DCA"
-    },
-    {
-      "anio": 2023,
-      "duracion": 142,
-      "id": "p-tt102724",
-      "imdb": "tt102724",
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-22",
-          "11:30",
-          null,
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222849&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "titulo": "Turandot - Ópera de Viena",
-      "titulo_original": "Turandot - Ópera Estatal de Viena"
     },
     {
       "anio": 1951,

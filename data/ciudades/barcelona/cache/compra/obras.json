@@ -111,6 +111,11 @@
     "fecha": "2026-11-17",
     "url": "https://www.teatregoya.cat/ca/ex/pintamusica/"
   },
+  "open_data_bcn:99400749008|https://www.salaarsteatre.com/|Terra baixa": {
+    "fecha": "2026-11-22",
+    "pagina": "https://www.salaarsteatre.com/terra-baixa-2/",
+    "url": "https://www.salaarsteatre.com/terra-baixa-2/"
+  },
   "open_data_bcn:99400751772|http://www.teatreneu.com|Monólogos & vermut": {
     "fecha": "2026-11-17",
     "url": "https://www.teatreneu.com/ca/cartellera/c/633-monologos-vermut.html"
@@ -624,10 +629,6 @@
   "open_data_bcn:99400788100|https://www.salafenix.com/|Iaia: memòria històrica": {
     "fecha": "2026-11-17",
     "url": "https://salafenix.com/programacio/iaia-memoria-historica/"
-  },
-  "open_data_bcn:99400788114|http://www.salaarsteatre.com|Master Sex": {
-    "fecha": "2026-11-17",
-    "url": null
   },
   "open_data_bcn:99400788115|https://www.salaarsteatre.com/|La Caputxeta i el llop": {
     "fecha": "2026-11-17",

@@ -4,6 +4,23 @@
     "fecha": "2026-11-17",
     "ficha": null
   },
+  "daniel arbonés": {
+    "busquedas": 3,
+    "fecha": "2026-11-22",
+    "ficha": {
+      "fuentes": [
+        "https://www.magia.cat/cartell-random-edicio-especial-no4/",
+        "https://www.magia.cat/el-mag-mes-random-2/",
+        "https://www.magia.cat/lespectacle-iconic-de-daniel-arbones-nominat-a-millor-espectacle-de-magia-dels-premis-teatre-barcelona/"
+      ],
+      "nombre": "Daniel Arbonés",
+      "premios": [],
+      "trayectoria": {
+        "ca": "Daniel Arbonés és un mag de Barcelona que escriu des del 2006 el blog «Diari d'un Mag» i autor de l'espectacle RANDOM. Ha col·laborat en llibres de màgia, ha estat director de premsa d'un congrés màgic, professor de màgia per a altres mags i director de gales màgiques, a més d'impartir conferències divulgatives i escriure i interpretar espectacles de màgia amb contingut teatral. El seu espectacle ICÒNIC va ser nominat a Millor Espectacle de Màgia als Premis Teatre Barcelona.",
+        "es": "Daniel Arbonés es un mago de Barcelona que escribe desde 2006 el blog «Diari d'un Mag» y autor del espectáculo RANDOM. Ha colaborado en libros de magia, ha sido director de prensa de un congreso mágico, profesor de magia para otros magos y director de galas mágicas, además de dar conferencias divulgativas y escribir e interpretar espectáculos de magia con contenido teatral. Su espectáculo ICÒNIC fue nominado a Mejor Espectáculo de Magia en los Premis Teatre Barcelona."
+      }
+    }
+  },
   "daniel sanchez": {
     "busquedas": 3,
     "fecha": "2026-11-17",
@@ -248,5 +265,20 @@
     "busquedas": 3,
     "fecha": "2026-11-17",
     "ficha": null
+  },
+  "òscar sánchez": {
+    "busquedas": 3,
+    "fecha": "2026-11-22",
+    "ficha": {
+      "fuentes": [
+        "https://www.oscarmagia.com/"
+      ],
+      "nombre": "Òscar Sánchez",
+      "premios": [],
+      "trayectoria": {
+        "ca": "Òscar Sánchez és un mag que ha realitzat nombrosos espectacles de tota mena i proposa una màgia en què el públic hi participa activament. Actualment presenta «El Misteri de la capsa dels esperits», un espectacle inspirat en una història real.",
+        "es": "Òscar Sánchez es un mago que ha realizado numerosos espectáculos de todo tipo y propone una magia en la que el público participa activamente. Actualmente presenta «El Misteri de la capsa dels esperits», un espectáculo inspirado en una historia real."
+      }
+    }
   }
 }

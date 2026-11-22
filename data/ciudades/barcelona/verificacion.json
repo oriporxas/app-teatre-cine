@@ -3,7 +3,7 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-22",
-    "publicadas": 98
+    "publicadas": 96
   },
   "escena": {
     "anomalias": [
@@ -121,6 +121,13 @@
       },
       {
         "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400739259",
+        "id": "open_data_bcn:99400753059",
+        "regla": "repetida",
+        "titulo": "Teatre per a tothom"
+      },
+      {
+        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400714867",
         "id": "open_data_bcn:99400761359",
         "regla": "repetida",
@@ -132,6 +139,20 @@
         "id": "open_data_bcn:99400767580",
         "regla": "repetida",
         "titulo": "Teatre clown"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400761370",
+        "id": "open_data_bcn:99400767958",
+        "regla": "repetida",
+        "titulo": "Mac Mec Mic"
+      },
+      {
+        "accion": "nombre de sala oculto",
+        "detalle": "la sala se llama como la ciudad (Barcelona)",
+        "id": "open_data_bcn:99400770019",
+        "regla": "sala",
+        "titulo": "de Nadal a Nou Barris"
       },
       {
         "accion": "aviso",
@@ -155,11 +176,11 @@
         "titulo": "Teatre adults"
       },
       {
-        "accion": "función quitada",
-        "detalle": "2026-11-29 fuera del periodo 2026-11-05–2026-11-28",
-        "id": "open_data_bcn:99400783607",
-        "regla": "fecha",
-        "titulo": "El sopar dels infidels"
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400747273",
+        "id": "open_data_bcn:99400783012",
+        "regla": "repetida",
+        "titulo": "Estudi La Lluerna"
       },
       {
         "accion": "función quitada",
@@ -240,18 +261,18 @@
       },
       {
         "accion": "función quitada",
-        "detalle": "2026-11-27 fuera del periodo 2026-11-28–2026-12-12",
-        "id": "webs_salas:1eb88c22c16ed822",
+        "detalle": "2027-01-15 fuera del periodo 2026-11-26–2026-11-28",
+        "id": "open_data_bcn:99400790980",
         "regla": "fecha",
-        "titulo": "Show Up Go Up"
+        "titulo": "El te de les Illes Caiman"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 20,
-      "repetida": 11,
-      "sala": 3
+      "fecha": 19,
+      "repetida": 14,
+      "sala": 4
     },
     "fecha": "2026-11-22",
-    "publicadas": 682
+    "publicadas": 692
   }
 }

@@ -113,48 +113,6 @@
     "tipo": "teatro",
     "traducido": "es"
   },
-  "open_data_bcn:99400700011": {
-    "barrio": "Sant Andreu",
-    "caducado": "2026-11-18",
-    "comprobado": "2026-11-08",
-    "descripcion": {
-      "ca": "L'objectiu del taller és sempre a través del joc, ampliar el ventall expressiu del nostre cos i impulsar a la creació. D'aquesta manera busquem que cadascú pugui potenciar el seu propi procés creatiu, transitant constantment del cos al paper, de l'escena viva a la dramatúrgia. Al llarg del taller es desenvoluparan altres objectius complementaris: presència escènica, creació de personatges, la utilització de l'espai, fusió d'estils, canvis de ritme i energia interpretativa i altres recursos actorals .",
-      "es": "El objetivo del taller es siempre a través del juego, ampliar el abanico expresivo de nuestro cuerpo e impulsar la creación. De este modo buscamos que cada uno pueda potenciar su propio proceso creativo, transitando constantemente del cuerpo al papel, de la escena viva a la dramaturgia. A lo largo del taller se desarrollarán otros objetivos complementarios: presencia escénica, creación de personajes, la utilización del espacio, fusión de estilos, cambios de ritmo y energía interpretativa y otros recursos actorales."
-    },
-    "direccion": "Carrer Gran de Sant Andreu 111",
-    "disciplina": "teatro",
-    "fuente": "Guia BCN (ficha pública)",
-    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-iniciacio-al-teatre-de-creacio_99400700011.html",
-    "funciones": [
-      [
-        "2026-11-18",
-        "19:00"
-      ]
-    ],
-    "id": "open_data_bcn:99400700011",
-    "idioma_textos": "ca",
-    "lat": 41.43088018380354,
-    "lon": 2.1894124386376466,
-    "nivel": "iniciación",
-    "nombre": "Iniciació al teatre de creació",
-    "precio_max": 56.48,
-    "precio_min": 56.48,
-    "sala": "Centre Cívic Sant Andreu",
-    "sala_id": "barcelona:via296202-111",
-    "subtipo": "formación",
-    "temas": {
-      "ca": [
-        "teatre de creació",
-        "actuació"
-      ],
-      "es": [
-        "teatro de creación",
-        "actuación"
-      ]
-    },
-    "tipo": "eventos",
-    "traducido": "es"
-  },
   "open_data_bcn:99400702919": {
     "barrio": "el Parc i la Llacuna del Poblenou",
     "caducado": "2026-11-18",

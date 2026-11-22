@@ -28,7 +28,7 @@
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 88,
+  "con_actividades": 90,
   "fecha": "2026-11-22",
   "por_tipo": {
     "auditorio": {
@@ -37,15 +37,15 @@
     },
     "cine": {
       "oficiales": 25,
-      "sin_actividades": 19
+      "sin_actividades": 18
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 50
+      "sin_actividades": 49
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 73,
+  "sin_actividades": 71,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -204,22 +204,6 @@
       "lon": 2.200238929630626,
       "nombre": "Cinema Yelmo *La Maquinista",
       "numero": "2",
-      "tipo": [
-        "cine"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Dreta de l'Eixample",
-      "calle": "Carrer de Girona",
-      "clave": "via145003-175",
-      "codigo_postal": "08037",
-      "distrito": "Eixample",
-      "id": "75990332131",
-      "lat": 41.39962729390151,
-      "lon": 2.1646297912750754,
-      "nombre": "Cinemes Girona",
-      "numero": "175",
       "tipo": [
         "cine"
       ]
@@ -1102,22 +1086,6 @@
       "lon": 2.1570985765474258,
       "nombre": "Sala Or",
       "numero": "25",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "Sant Andreu",
-      "calle": "Carrer de Coroleu",
-      "clave": "via91403-15",
-      "codigo_postal": "08030",
-      "distrito": "Sant Andreu",
-      "id": "92086010382",
-      "lat": 41.43277351042538,
-      "lon": 2.188165402398198,
-      "nombre": "Societat Cultural i Esportiva La Lira",
-      "numero": "15",
       "tipo": [
         "teatro"
       ]

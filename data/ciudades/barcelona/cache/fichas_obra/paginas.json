@@ -3968,6 +3968,38 @@
     "firma": "276536d675f3b005",
     "imagen": "https://www.entrapolis.com/image/event/big/573541793002305_1.png"
   },
+  "https://www.espairandom.cat/daniel-arbones-random-off-magia/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Direcció Artística",
+          "Daniel Arbonés"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-22",
+    "firma": "346c4478ca878859",
+    "imagen": "https://www.espairandom.cat/wp-content/uploads/2025/09/RANDOM_IMPRO_ArbonesDaniel_espaiRANDOM_1050.jpg"
+  },
+  "https://www.espairandom.cat/iconic-de-daniel-arbones/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": [
+        {
+          "ca": "Nominació a MILLOR ESPECTACLE DE MÀGIA per la IX edició dels PREMIS TEATRE BARCELONA 2026",
+          "cita": "L'espectacle ICÒNIC ha obtingut la nominació a MILLOR ESPECTACLE DE MÀGIA per la IX edició dels PREMIS TEATRE BARCELONA 2026.",
+          "es": "Nominación a MEJOR ESPECTÁCULO DE MAGIA por la IX edición de los PREMIOS TEATRE BARCELONA 2026",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-22",
+    "firma": "0e06432a298a0ea8",
+    "imagen": null
+  },
   "https://www.golems.cat/MARICARMEN/": {
     "datos": {
       "duracion": null,
@@ -4829,6 +4861,45 @@
     "fecha": "2026-11-18",
     "firma": "6006e9796385e6ae",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2025/07/A3-4-1-scaled.jpg"
+  },
+  "https://www.salaarsteatre.com/terra-baixa-2/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [
+        [
+          "Autor",
+          "Àngel Guimerà"
+        ],
+        [
+          "Adaptación",
+          "Albert Pueyo"
+        ],
+        [
+          "Dirección",
+          "Albert Pueyo"
+        ],
+        [
+          "Vestuario",
+          "Emma Pla"
+        ],
+        [
+          "Escenografía",
+          "Rosa Vila, Irene Segura"
+        ],
+        [
+          "Producción",
+          "Magatzem d'Ars"
+        ],
+        [
+          "Reparto",
+          "Adriana Capri / Anna Puigdueta, Daniel Bayona, Ruben Medina, Anna Torras, Roser Mateo / Esther Pané, Pilar Alcoba, Jordi Vicente, Joan Mateo / Albert Pueyo"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-22",
+    "firma": "78c46f67ef506258",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2025/03/Cartell-Terra-Baixa.jpg"
   },
   "https://www.salapangoli.com/producto/adultos-difsuncionales/": {
     "datos": {

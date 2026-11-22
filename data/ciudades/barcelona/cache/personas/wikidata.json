@@ -23,6 +23,7 @@
     "wQ108198113": [],
     "wQ108283765": [],
     "wQ110601706": [],
+    "wQ110954894": [],
     "wQ111276502": [],
     "wQ111278151": [],
     "wQ111709475": [],
@@ -85,6 +86,7 @@
     "wQ15635172": [],
     "wQ16188785": [],
     "wQ16191306": [],
+    "wQ16338119": [],
     "wQ16941923": [
       {
         "anio": 1988,
@@ -105,9 +107,123 @@
         "tipo": "ganado"
       }
     ],
+    "wQ175485": [
+      {
+        "anio": 1877,
+        "premio": "Mestre en Gay Saber",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1909,
+        "premio": "Hijo Adoptivo de Barcelona",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1907,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1908,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1909,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1910,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1911,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1912,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1913,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1914,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1915,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1916,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1917,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1918,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1919,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1920,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1921,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1922,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1923,
+        "premio": "Premio Nobel de Literatura",
+        "tipo": "nominado"
+      }
+    ],
     "wQ17782049": [],
     "wQ18170644": [],
     "wQ19301130": [],
+    "wQ20100990": [
+      {
+        "anio": 2004,
+        "premio": "Premio Memorial Margarita Xirgu",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2002,
+        "premio": "Premio Butaca a la mejor actriz de reparto",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2006,
+        "premio": "Premio Butaca a la mejor actriz de reparto",
+        "tipo": "ganado"
+      }
+    ],
     "wQ21045503": [],
     "wQ21530376": [],
     "wQ2372851": [
@@ -184,6 +300,7 @@
     "wQ371607": [],
     "wQ3752703": [],
     "wQ41408": [],
+    "wQ52239036": [],
     "wQ5239637": [],
     "wQ53552398": [],
     "wQ539872": [
@@ -274,8 +391,21 @@
     ],
     "wQ5927618": [],
     "wQ5956204": [],
+    "wQ60559885": [
+      {
+        "anio": 2015,
+        "premio": "Premio Ojo Crítico",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2015,
+        "premio": "Premios Max",
+        "tipo": "ganado"
+      }
+    ],
     "wQ6071735": [],
     "wQ6101121": [],
+    "wQ612042": [],
     "wQ6161447": [
       {
         "anio": 2023,
@@ -385,6 +515,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Adrián Perea Nava",
+    "v": 3
+  },
+  "adriana-capri": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Adriana Capri",
     "v": 3
   },
   "adriana-garcia": {
@@ -538,6 +674,12 @@
     "nombre": "Alejandro Serrano",
     "v": 3
   },
+  "alessio-martelli": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Alessio Martelli",
+    "v": 3
+  },
   "alessio-meloni": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -554,6 +696,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Àlex Polls",
+    "v": 3
+  },
+  "alex-serrano": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Àlex Serrano",
     "v": 3
   },
   "alfons-nieto": {
@@ -612,6 +760,24 @@
     "nombre": "Amalia Fernández",
     "v": 3
   },
+  "amb-enric-ases": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Amb Enric Ases",
+    "v": 3
+  },
+  "amb-judit-farres": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Amb Judit Farrés",
+    "v": 3
+  },
+  "amer-kabbani": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Amer Kabbani",
+    "v": 3
+  },
   "ana-ma-montero": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -640,6 +806,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Andrea Labeana",
+    "v": 3
+  },
+  "andrea-marinello": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Andrea Marinel·lo",
     "v": 3
   },
   "andrea-monje": {
@@ -694,6 +866,27 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Àngel Gonyalons",
+    "v": 3
+  },
+  "angel-guimera": {
+    "datos": {
+      "descripcion": {
+        "ca": "dramaturg, polític i poeta català (1845–1924)",
+        "es": "autor español en lengua catalana"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%81ngel_Guimer%C3%A1%2C_de_Audouard.jpg?width=300",
+      "oficios": [
+        "Q214917",
+        "Q28389",
+        "Q36180",
+        "Q49757",
+        "Q82955"
+      ],
+      "wikidata": "Q175485",
+      "wikipedia": "https://es.wikipedia.org/wiki/%C3%81ngel_Guimer%C3%A1"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Àngel Guimerà",
     "v": 3
   },
   "angel-llacer": {
@@ -792,6 +985,12 @@
     "nombre": "Anna Toro",
     "v": 2
   },
+  "anna-torras": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Anna Torras",
+    "v": 3
+  },
   "antoine-de-saint-exupery": {
     "datos": {},
     "fecha": "2026-11-20",
@@ -820,6 +1019,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Ariana Bruguera",
+    "v": 3
+  },
+  "arnau-boces": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Arnau Boces",
     "v": 3
   },
   "articwave-studio": {
@@ -858,6 +1063,12 @@
     "nombre": "Bàrbara Glaenzl",
     "v": 3
   },
+  "barbara-vidal": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Bàrbara Vidal",
+    "v": 3
+  },
   "beatriz-ribas": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -886,6 +1097,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Bernat Jansà",
+    "v": 3
+  },
+  "bernat-messeguer": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Bernat Messeguer",
     "v": 3
   },
   "berta-juanet": {
@@ -1075,11 +1292,35 @@
     "nombre": "Carlos Pardo",
     "v": 3
   },
+  "carlota-ferrer": {
+    "datos": {
+      "descripcion": {
+        "es": "directora de escena, actriz y coreógrafa española"
+      },
+      "foto": null,
+      "oficios": [
+        "Q2490358",
+        "Q3387717",
+        "Q33999"
+      ],
+      "wikidata": "Q60559885",
+      "wikipedia": "https://es.wikipedia.org/wiki/Carlota_Ferrer"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Carlota Ferrer",
+    "v": 3
+  },
   "carlota-gil": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Carlota Gil",
     "v": 2
+  },
+  "carlota-grau": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Carlota Grau",
+    "v": 3
   },
   "carlota-olcina": {
     "datos": {
@@ -1243,6 +1484,12 @@
     "nombre": "Cia CREART",
     "v": 3
   },
+  "cia-du-k-to": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Cia. Du'K'tO",
+    "v": 3
+  },
   "cia-fes-t-ho-com-vulguis": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -1331,6 +1578,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Clara Casals",
+    "v": 3
+  },
+  "clara-de-ramon": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Clara de Ramon",
     "v": 3
   },
   "clara-fontdevila-distribucio-viuelteatre-com": {
@@ -1525,6 +1778,18 @@
     "nombre": "Daniel Anglès",
     "v": 3
   },
+  "daniel-arbones": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Daniel Arbonés",
+    "v": 3
+  },
+  "daniel-bayona": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Daniel Bayona",
+    "v": 3
+  },
   "daniel-sanchez": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -1555,6 +1820,12 @@
     "nombre": "David Cepo",
     "v": 2
   },
+  "david-franch": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "David Franch",
+    "v": 3
+  },
   "david-leon": {
     "datos": {},
     "fecha": "2026-11-19",
@@ -1571,6 +1842,12 @@
     "datos": {},
     "fecha": "2026-11-22",
     "nombre": "David Olivares",
+    "v": 3
+  },
+  "david-picazo": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "David Picazo",
     "v": 3
   },
   "david-pinto": {
@@ -1984,6 +2261,31 @@
     "nombre": "Fernando Lázaro",
     "v": 3
   },
+  "ferran-carvajal": {
+    "datos": {
+      "descripcion": {
+        "ca": "actor, ballarí i director de teatre català"
+      },
+      "foto": null,
+      "oficios": [
+        "Q2490358",
+        "Q3387717",
+        "Q33999",
+        "Q5716684"
+      ],
+      "wikidata": "Q110954894",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Ferran_Carvajal"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Ferran Carvajal",
+    "v": 3
+  },
+  "ferran-dordal-lalueza": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Ferran Dordal Lalueza",
+    "v": 3
+  },
   "ferran-vilajosana": {
     "datos": {
       "descripcion": {
@@ -2018,6 +2320,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Fitxa artística",
+    "v": 3
+  },
+  "florencia-galimberti": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Florencia Galimberti",
     "v": 3
   },
   "francesc-gomez": {
@@ -2172,10 +2480,22 @@
     "nombre": "Gonzalo Martínez Alpuente",
     "v": 3
   },
+  "grec-festival-de-barcelona": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Grec Festival de Barcelona",
+    "v": 3
+  },
   "green-pea-boat-en-tim": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Green Pea Boat.En Tim",
+    "v": 3
+  },
+  "grup-de-teatre-alisos": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Grup de Teatre Alisos",
     "v": 3
   },
   "grup-gespa": {
@@ -2219,6 +2539,18 @@
     "fecha": "2026-11-18",
     "nombre": "Guillem Valverde",
     "v": 2
+  },
+  "guillermo-tricas": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Guillermo Tricas",
+    "v": 3
+  },
+  "guim-fabre": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Guim Fabré",
+    "v": 3
   },
   "hannah-bilsky": {
     "datos": {},
@@ -2322,6 +2654,12 @@
     "nombre": "Isabel Rey",
     "v": 3
   },
+  "isak-ferriz": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Isak Férriz",
+    "v": 3
+  },
   "israel-galvan": {
     "datos": {
       "descripcion": {
@@ -2357,6 +2695,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Iván Lagarto",
+    "v": 3
+  },
+  "ivan-tomasevic": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Iván Tomasevic",
     "v": 3
   },
   "ivanna-gomez": {
@@ -2499,6 +2843,12 @@
     "fecha": "2026-11-18",
     "nombre": "Joan Griset",
     "v": 2
+  },
+  "joan-mateo": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Joan Mateo",
+    "v": 3
   },
   "joan-miquel-perez": {
     "datos": {},
@@ -2760,6 +3110,26 @@
     "nombre": "Juanjo Rivero",
     "v": 3
   },
+  "judit-farres": {
+    "datos": {
+      "descripcion": {
+        "ca": "actriu i compositora catalana",
+        "es": "actriz y compositora española"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Judith_Farr%C3%A9s_en_una_actuaci%C3%B3n_con_Ajo_en_la_Cuesta_de_Moyano_de_Madrid.jpg?width=300",
+      "oficios": [
+        "Q130857",
+        "Q1643514",
+        "Q33999",
+        "Q36834"
+      ],
+      "wikidata": "Q52239036",
+      "wikipedia": "https://es.wikipedia.org/wiki/Judit_Farr%C3%A9s"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Judit Farrés",
+    "v": 3
+  },
   "judit-gomez": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -2826,6 +3196,12 @@
     "fecha": "2026-11-18",
     "nombre": "Julie Tenret Sicaire Durieux",
     "v": 2
+  },
+  "julieta-lostumbo": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Julieta Lostumbo",
+    "v": 3
   },
   "kike-torres": {
     "datos": {},
@@ -2951,6 +3327,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Les Inexactes",
+    "v": 3
+  },
+  "liant-la-tela": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Liant la Tela",
     "v": 3
   },
   "linda-de-berardinis": {
@@ -3386,6 +3768,12 @@
     "nombre": "Mariona Esplugues",
     "v": 3
   },
+  "mariona-naudin": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Mariona Naudin",
+    "v": 3
+  },
   "mariona-sagarra": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -3456,6 +3844,12 @@
     "datos": {},
     "fecha": "2026-11-22",
     "nombre": "Marta Tomasa",
+    "v": 3
+  },
+  "martha-escudero": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Martha Escudero",
     "v": 3
   },
   "marti-guixa": {
@@ -3635,6 +4029,12 @@
     "nombre": "Mònica Moreira",
     "v": 2
   },
+  "montse-barriga": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Montse Barriga",
+    "v": 3
+  },
   "montse-rodriguez": {
     "datos": {},
     "fecha": "2026-11-20",
@@ -3645,6 +4045,24 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Montserrat Colomé",
+    "v": 3
+  },
+  "moon-ribas": {
+    "datos": {
+      "descripcion": {
+        "es": "primera mujer cíborg reconocida en el mundo"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Moon_Ribas.jpg?width=300",
+      "oficios": [
+        "Q235799",
+        "Q2490358",
+        "Q5716684"
+      ],
+      "wikidata": "Q16338119",
+      "wikipedia": "https://es.wikipedia.org/wiki/Moon_Ribas"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Moon Ribas",
     "v": 3
   },
   "mpc-management": {
@@ -3814,6 +4232,12 @@
     "nombre": "Núria Lozano",
     "v": 3
   },
+  "nuria-manzano": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Nuria Manzano",
+    "v": 3
+  },
   "odeon-theatre-de-l-europe": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -3898,6 +4322,12 @@
     "nombre": "Pablo Chaves",
     "v": 3
   },
+  "pablo-ley": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Pablo Ley",
+    "v": 3
+  },
   "pablo-messiez": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -3914,6 +4344,24 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Paco Ariza",
+    "v": 3
+  },
+  "paco-azorin": {
+    "datos": {
+      "descripcion": {
+        "ca": "director d'escena, escenógraf i productor espanyol",
+        "es": "director de escena, escenógrafo y productor español"
+      },
+      "foto": null,
+      "oficios": [
+        "Q2707485",
+        "Q3387717"
+      ],
+      "wikidata": "Q612042",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Paco_Azor%C3%ADn"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Paco Azorín",
     "v": 3
   },
   "para-feruzi": {
@@ -3950,6 +4398,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Pau Oliver",
+    "v": 3
+  },
+  "pau-palacios": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Pau Palacios",
     "v": 3
   },
   "paula-bosch": {
@@ -4024,6 +4478,23 @@
     "nombre": "Pep Martínez",
     "v": 3
   },
+  "pepa-lopez": {
+    "datos": {
+      "descripcion": {
+        "ca": "actriu valenciana",
+        "es": "actriz española"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Pepa_L%C3%B3pez_MHC.jpg?width=300",
+      "oficios": [
+        "Q33999"
+      ],
+      "wikidata": "Q20100990",
+      "wikipedia": "https://es.wikipedia.org/wiki/Pepa_L%C3%B3pez"
+    },
+    "fecha": "2026-11-22",
+    "nombre": "Pepa López",
+    "v": 3
+  },
   "pepe-colubi": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -4042,6 +4513,12 @@
     "nombre": "Pere Elies",
     "v": 2
   },
+  "perla-29": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Perla 29",
+    "v": 3
+  },
   "petite-lorena": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -4052,6 +4529,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Pilar Albadalejo",
+    "v": 3
+  },
+  "pilar-alcoba": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Pilar Alcoba",
     "v": 3
   },
   "pilar-capellades": {
@@ -4171,6 +4654,12 @@
     "nombre": "Quim Bigas",
     "v": 3
   },
+  "quim-giron": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Quim Girón",
+    "v": 3
+  },
   "rafel-barcelo": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -4204,6 +4693,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Raquel Ramos",
+    "v": 3
+  },
+  "raul-cavero": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Raul Cavero",
     "v": 3
   },
   "raul-cimas": {
@@ -4285,6 +4780,12 @@
     "nombre": "Roger Batalla",
     "v": 3
   },
+  "roger-costa-vendrell": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Roger Costa Vendrell",
+    "v": 3
+  },
   "roger-munoz": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -4363,11 +4864,23 @@
     "nombre": "Rosa Pérez Cadenas",
     "v": 3
   },
+  "rosa-vila": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Rosa Vila",
+    "v": 3
+  },
   "roser-mateo": {
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Roser Mateo",
     "v": 2
+  },
+  "ruben-medina": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Ruben Medina",
+    "v": 3
   },
   "ruben-yuste": {
     "datos": {},
@@ -4543,6 +5056,18 @@
     "nombre": "Teatre Lliure",
     "v": 2
   },
+  "teatre-nacional-de-catalunya": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Teatre Nacional de Catalunya",
+    "v": 3
+  },
+  "teatre-principal-de-palma": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Teatre Principal de Palma",
+    "v": 3
+  },
   "teatro-amaro": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -4595,6 +5120,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Toni Escribano",
+    "v": 3
+  },
+  "toni-gomila": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Toni Gomila",
     "v": 3
   },
   "toni-santos": {
@@ -4772,6 +5303,12 @@
     "fecha": "2026-11-18",
     "nombre": "Xavier Bobés Solà",
     "v": 2
+  },
+  "xavier-frau": {
+    "datos": {},
+    "fecha": "2026-11-22",
+    "nombre": "Xavier Frau",
+    "v": 3
   },
   "xavier-miralles": {
     "datos": {},
