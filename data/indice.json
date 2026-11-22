@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-11-21T14:14:03+0000",
+  "actualizado": "2026-11-22T06:12:31+0000",
   "ciudades": {
     "barcelona": {
       "errores": [],
-      "espectaculos": 1178,
-      "fecha": "2026-11-21",
+      "espectaculos": 1184,
+      "fecha": "2026-11-22",
       "id": "barcelona",
       "idiomas": [
         "es",
@@ -13,9 +13,9 @@
       "moneda": "EUR",
       "nombre": "Barcelona",
       "pais": "ES",
-      "salas": 199,
+      "salas": 194,
       "zona_horaria": "Europe/Madrid"
     }
   },
-  "gasto_ia_usd": 0.2051
+  "gasto_ia_usd": 0.187
 }

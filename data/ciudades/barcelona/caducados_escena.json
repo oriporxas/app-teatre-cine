@@ -288,6 +288,58 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400750066": {
+    "barrio": "la Dreta de l'Eixample",
+    "caducado": "2026-11-21",
+    "compra": "http://www.casaelizalde.com",
+    "compra_tipo": "sala",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Un espectacle de teatre i titelles, familiar, feminista i femení, per fomentar la igualtat i desmuntar els mites romàntics que porten a les relacions tòxiques, també presents entre amics i amigues en la infància. La Lila vol ser una vampira per volar i tenir superpoders. I farà un nou i misteriós amic que la pot ajudar. Però la realitat no encaixa amb els seus ideals i s'haurà de replantejar algunes coses. La Lila es rebel·larà per descobrir que l'Amor Vertader és cap a una mateixa. Recomanat per a infants a partir de 4 anys.",
+      "es": "Un espectáculo de teatro y títeres, familiar, feminista y femenino, para fomentar la igualdad y desmontar los mitos románticos que llevan a las relaciones tóxicas, también presentes entre amigos y amigas en la infancia. Lila quiere ser una vampira para volar y tener superpoderes. Y hará un nuevo y misterioso amigo que la puede ayudar. Pero la realidad no encaja con sus ideales y tendrá que replantearse algunas cosas. Lila se rebelará para descubrir que el Amor Verdadero es hacia una misma. Recomendado para niños a partir de 4 años."
+    },
+    "direccion": "Carrer de València 302",
+    "edad_min": 4,
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-familiar-lila-rebvelada_99400750066.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "11:00"
+      ],
+      [
+        "2026-11-21",
+        "12:15"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "id": "open_data_bcn:99400750066",
+    "idioma_textos": "ca",
+    "lat": 41.394518975814755,
+    "lon": 2.165900883899018,
+    "nombre": "Lila rebvelada",
+    "precio_max": 3.3,
+    "precio_min": 3.3,
+    "publico": "familiar",
+    "sala": "Centre Cultural La Casa Elizalde",
+    "sala_id": "barcelona:via350308-302",
+    "temas": {
+      "ca": [
+        "igualtat",
+        "relacions tòxiques",
+        "feminisme"
+      ],
+      "es": [
+        "igualdad",
+        "relaciones tóxicas",
+        "feminismo"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400750539": {
     "barrio": "el Clot",
     "caducado": "2026-11-18",
@@ -457,6 +509,126 @@
         "identidad femenina",
         "salud mental",
         "imagen corporal"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400764013": {
+    "barrio": "la Maternitat i Sant Ramon",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Una directora d'orquestra molt reconeguda es prepara per al seu gran concert… mentre cuida del seu nadó, un petit violí que creix a mesura que avança la funció. Un viatge divertit, tendre i pedagògic sobre la música, la conciliació i professionalització i l'empatia. Un homenatge a l'Antonia Brico, la primera dona a dirigir orquestres del món. Espectacle unipersonal de clown amb música clàssica i violí, humor, manipulació d'objectes i perspectiva de gènere. A càrrec de la cia. Clarícia.",
+      "es": "Una directora de orquesta muy reconocida se prepara para su gran concierto… mientras cuida de su bebé, un pequeño violín que crece a medida que avanza la función. Un viaje divertido, tierno y pedagógico sobre la música, la conciliación y profesionalización y la empatía. Un homenaje a Antonia Brico, la primera mujer en dirigir orquestas del mundo. Espectáculo unipersonal de clown con música clásica y violín, humor, manipulación de objetos y perspectiva de género. A cargo de la cia. Clarícia."
+    },
+    "direccion": "Riera Blanca 1",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Clarícia"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-familiar-la-filharmonica_99400764013.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "11:30"
+      ]
+    ],
+    "generos": [
+      "clown",
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400764013",
+    "idioma_textos": "ca",
+    "lat": 41.377779238441946,
+    "lon": 2.1217600571556323,
+    "nombre": "La Filharmònica",
+    "publico": "familiar",
+    "sala": "Centre Cívic Josep Maria Trias i Peitx",
+    "sala_id": "barcelona:via282252-1",
+    "subtipo": "clown",
+    "temas": {
+      "ca": [
+        "música",
+        "conciliació",
+        "perspectiva de gènere"
+      ],
+      "es": [
+        "música",
+        "conciliación",
+        "perspectiva de género"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400766245": {
+    "barrio": "la Font d'en Fargues",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "És hora de dinar, i cadascú s'espavila com pot per omplir la panxa. No s'hi val a badar. Un seguit d'accidents, malentesos i enganys fan que fins i tot els animals més espavilats acabin a la panxa d'algun company de fatigues. Dins la panxa del llop és un espectacle de paper que ens transporta als boscos, mars i deserts més inversemblants per oferir-nos un retrat de la cadena alimentària amb un toc d'humor i molta música. A Dins la panxa del llop hi ha cançons originals i fetes a mida que teixeixen un relat sorprenent i divertit, il·lustrat amb teatre d'ombres, teatrins de paper i titelles de cartró. Espectacle familiar recomanat per a públic de més de 2 anys",
+      "es": "Es hora de comer, y cada cual se las ingenia como puede para llenar la barriga. No hay que descuidarse. Una serie de accidentes, malentendidos y engaños hacen que incluso los animales más espabilados acaben en la barriga de algún compañero de fatigas. Dins la panxa del llop es un espectáculo de papel que nos transporta a los bosques, mares y desiertos más inverosímiles para ofrecernos un retrato de la cadena alimentaria con un toque de humor y mucha música. En Dins la panxa del llop hay canciones originales y hechas a medida que tejen un relato sorprendente y divertido, ilustrado con teatro de sombras, teatrillos de papel y títeres de cartón. Espectáculo familiar recomendado para público de más de 2 años"
+    },
+    "direccion": "Carrer de Pedrell 67",
+    "edad_min": 2,
+    "equipo": [
+      [
+        "direcció",
+        "Eudald Ferré i De_paper"
+      ],
+      [
+        "creació i producció",
+        "De_paper"
+      ],
+      [
+        "companyia: de_paper",
+        "Fitxa artística"
+      ],
+      [
+        "escenografia i titelles",
+        "Joan Alfred Mengual"
+      ],
+      [
+        "composició i adaptació de les cançons",
+        "Núria Lozano"
+      ],
+      [
+        "disseny de so i llums",
+        "Oriol Rafí i Francesc Puig"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-de-titelles-dins-la-panxa-del-llop_99400766245.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "11:00"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400766245",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/De_paper_Dinslapanxadelllop_foto_promo_dins_la_panxa_300pp.760x428.eaa7f8b3.jpg",
+    "lat": 41.42430368720732,
+    "lon": 2.165216440288791,
+    "nombre": "Dins la panxa del llop",
+    "publico": "familiar",
+    "sala": "Casal de Barri Comunitari Font d'en Fargues",
+    "sala_id": "barcelona:via248800-67",
+    "temas": {
+      "ca": [
+        "cadena alimentària"
+      ],
+      "es": [
+        "cadena alimentaria"
       ]
     },
     "tipo": "teatro",
@@ -706,6 +878,60 @@
     "subtipo": "conferencia o coloquio",
     "tipo": "eventos"
   },
+  "open_data_bcn:99400771811": {
+    "barrio": "Ciutat Meridiana",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Dos personatges arriben amb un bot salvavides preparats per al dia del gran diluvi. Perquè el canvi climàtic provocarà pluges torrencials, la fosa de les glaceres i l'inevitable augment del nivell del mar, que ho cobrirà tot. El compte regressiu ha començat, i els nostres dos protagonistes es preparen per al pitjor. Però hauran d'esperar i l'espera no serà fàcil. Aviat es posaran de manifest les personalitats de cadascú, les pors, el dol i el dolor; però també la importància de l'amistat i com l'alegria ajuda a superar les dificultats i l'humor és el millor dels salvavides. Banaba Flup s'estrena a Fira Tàrrega, en què ha estat guardonat amb el Premi a la Millor Estrena 2025. A càrrec de la cia. StreetFools Espectacle recomanat per a un públic de més de 4 anys Durada: 45 minuts",
+      "es": "Dos personajes llegan con un bote salvavidas preparados para el día del gran diluvio. Porque el cambio climático provocará lluvias torrenciales, el deshielo de los glaciares y el inevitable aumento del nivel del mar, que lo cubrirá todo. La cuenta atrás ha comenzado, y nuestros dos protagonistas se preparan para lo peor. Pero tendrán que esperar, y la espera no será fácil. Pronto se pondrán de manifiesto las personalidades de cada uno, los miedos, el duelo y el dolor; pero también la importancia de la amistad y cómo la alegría ayuda a superar las dificultades y el humor es el mejor de los salvavidas. Banaba Flup se estrena en Fira Tàrrega, donde ha sido galardonado con el Premio a la Mejor Estreno 2025. A cargo de la cia. StreetFools. Espectáculo recomendado para público a partir de 4 años. Duración: 45 minutos"
+    },
+    "direccion": "C Vallcivera 14",
+    "edad_min": 4,
+    "equipo": [
+      [
+        "a càrrec de",
+        "StreetFools"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-de-circ-banaba-flup_99400771811.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400771811",
+    "idioma_textos": "ca",
+    "lat": 41.46070056717623,
+    "lon": 2.1783656547350856,
+    "nombre": "Banaba flup",
+    "premios": [
+      {
+        "ca": "Premi a la Millor Estrena 2025",
+        "cita": "ha estat guardonat amb el Premi a la Millor Estrena 2025",
+        "es": "Premio a la Mejor Estreno 2025"
+      }
+    ],
+    "publico": "familiar",
+    "sala": "Centre Cívic Zona Nord",
+    "sala_id": "barcelona:via351606-14",
+    "sala_interior": "Teatre Zona Nord",
+    "temas": {
+      "ca": [
+        "canvi climàtic",
+        "amistat"
+      ],
+      "es": [
+        "cambio climático",
+        "amistad"
+      ]
+    },
+    "tipo": "circo",
+    "traducido": "es"
+  },
   "open_data_bcn:99400772114": {
     "barrio": "Sarrià",
     "caducado": "2026-11-19",
@@ -746,6 +972,56 @@
         "infancia",
         "obediencia",
         "culpa"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400774719": {
+    "barrio": "Sarrià",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "La Martina s'ha trobat un dineret, mentre pensa en què se'l gastarà són molts els pretendents que la volen conquistar. Trobarà la Martina algú amb qui tindrà alguna cosa en comú? Espectacle rimat d'actors i titelles dirigit a públic familiar i escolar que posa en valor el benefici de la lectura. Adaptació del conte La Rateta que llegia a l'escaleta, del grup de Narració oral: \"Vivim del cuentu\". Amb la Companyia DeLiRi. Recomanat per a infants a partir de 3 anys.",
+      "es": "La Martina se ha encontrado un dinero, mientras piensa en qué se lo gastará son muchos los pretendientes que la quieren conquistar. ¿Encontrará la Martina a alguien con quien tendrá algo en común? Espectáculo rimado de actores y títeres dirigido a público familiar y escolar que pone en valor el beneficio de la lectura. Adaptación del cuento La Rateta que llegia a l'escaleta, del grupo de Narración oral: \"Vivim del cuentu\". Con la Compañía DeLiRi. Recomendado para niños a partir de 3 años."
+    },
+    "direccion": "Carrer de Jaume Piquet 23",
+    "edad_min": 3,
+    "equipo": [
+      [
+        "companyia",
+        "Companyia DeLiRi. Recomanat"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-la-rateta-martina-i-el-ratoli-serafi_99400774719.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "12:00"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "id": "open_data_bcn:99400774719",
+    "idioma_textos": "ca",
+    "lat": 41.3983599977031,
+    "lon": 2.1246720318706647,
+    "nombre": "La rateta Martina i el ratolí Serafí",
+    "precio_max": 3.28,
+    "precio_min": 3.28,
+    "publico": "familiar",
+    "sala": "Centre Cívic Casa Orlandai",
+    "sala_id": "barcelona:via165805-23",
+    "temas": {
+      "ca": [
+        "lectura",
+        "família"
+      ],
+      "es": [
+        "lectura",
+        "familia"
       ]
     },
     "tipo": "teatro",
@@ -1301,6 +1577,52 @@
         "memoria",
         "identidad",
         "política"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400786119": {
+    "barrio": "el Putxet i el Farró",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "La dona i la terra, territoris de combat és una creació escènica comunitària nascuda del manifest col·lectiu del projecte Ecofeminisme de Plàudite Teatre. La peça dona veu a dones de diferents orígens, edats i trajectòries vitals que posen en relació les seves experiències de migració, memòria i desplaçament amb la defensa de la terra i de la vida. Des d'una mirada ecofeminista, l'espectacle construeix una narrativa compartida on el cos i el territori apareixen com a espais travessats per violències, però també com a llocs de memòria, força i resistència col·lectiva. Una proposta de teatre comunitari, sensible i compromesa, que reivindica les arts escèniques com a refugi, espai de trobada, reparació, pensament crític i transformació social. A càrrec de Plàudire Teatre",
+      "es": "La dona i la terra, territoris de combat es una creación escénica comunitaria nacida del manifiesto colectivo del proyecto Ecofeminismo de Plàudite Teatre. La pieza da voz a mujeres de distintos orígenes, edades y trayectorias vitales que relacionan sus experiencias de migración, memoria y desplazamiento con la defensa de la tierra y de la vida. Desde una mirada ecofeminista, el espectáculo construye una narrativa compartida donde el cuerpo y el territorio aparecen como espacios atravesados por violencias, pero también como lugares de memoria, fuerza y resistencia colectiva. Una propuesta de teatro comunitario, sensible y comprometida, que reivindica las artes escénicas como refugio, espacio de encuentro, reparación, pensamiento crítico y transformación social. A cargo de Plàudire Teatre"
+    },
+    "direccion": "Carrer de Saragossa 29",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Plàudire Teatre"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-la-dona-i-la-terra-territoris-de-combat_99400786119.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400786119",
+    "idioma_textos": "ca",
+    "lat": 41.40144911965885,
+    "lon": 2.149816841793133,
+    "nombre": "La dona i la terra, territoris de combat",
+    "sala": "Centre Cívic Vil·la Urània",
+    "sala_id": "barcelona:via369306-29",
+    "temas": {
+      "ca": [
+        "ecofeminisme",
+        "migració",
+        "memòria"
+      ],
+      "es": [
+        "ecofeminismo",
+        "migración",
+        "memoria"
       ]
     },
     "tipo": "teatro",
@@ -1924,6 +2246,37 @@
     "sala_id": "barcelona:via306306-64",
     "tipo": "teatro"
   },
+  "open_data_bcn:99400789504": {
+    "artista": "Cris Codina - Viu el Teatre",
+    "barrio": "Sant Gervasi - Galvany",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-08",
+    "direccion": "Avinguda de Pau Casals 19",
+    "equipo": [
+      [
+        "amb",
+        "Cris Codina - Viu el Teatre"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-el-meu-carrer-amb-cris-codina-viu-el-teatre_99400789504.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "17:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789504",
+    "idioma_textos": "ca",
+    "lat": 41.39410523623182,
+    "lon": 2.1419158924657906,
+    "nombre": "El meu carrer",
+    "sala": "Turó Park",
+    "sala_id": "barcelona:via143507-19",
+    "sala_interior": "Parc del Poeta Eduard Marquina",
+    "tipo": "teatro"
+  },
   "open_data_bcn:99400789719": {
     "barrio": "Sant Antoni",
     "caducado": "2026-11-20",
@@ -2057,6 +2410,62 @@
       ],
       "es": [
         "creación colectiva"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789925": {
+    "barrio": "la Sagrera",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "A càrrec de Cia. Gats llença \"La Lianta\", nou projecte de teatre musical a la Sagrera. Un concert teatralitzat que ens convida a trencar expectatives, sortir del paper que ens hem imposat i atrevir-nos a ser nosaltres mateixos. Un viatge on el teatre es converteix en un espai de llibertat, on deixar caure les màscares, trobar la nostra veu i transformar les pors en força.",
+      "es": "A cargo de la Cia. Gats llença \"La Lianta\", nuevo proyecto de teatro musical en la Sagrera. Un concierto teatralizado que nos invita a romper expectativas, salir del papel que nos hemos impuesto y atrevernos a ser nosotros mismos. Un viaje en el que el teatro se convierte en un espacio de libertad, donde dejar caer las máscaras, encontrar nuestra voz y transformar los miedos en fuerza."
+    },
+    "direccion": "Carrer d'Hondures 28",
+    "equipo": [
+      [
+        "direcció",
+        "Carla i Rafa"
+      ],
+      [
+        "interpretació",
+        "Rafa, Sandra, Mireia, Estrella, Víctor, Yaiza, Camille, Marina, Leyre i Carla"
+      ],
+      [
+        "a càrrec de",
+        "Cia. Gats"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-musical-darrere-el-telo-un-viatge-musical-de-cia-la-lianta-i-varis-autors_99400789925.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "musical"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789925",
+    "idioma_textos": "ca",
+    "lat": 41.4199480251008,
+    "lon": 2.1899553855249594,
+    "nombre": "Darrere el teló: Un viatge musical, de cia. La Lianta i varis autors",
+    "sala": "Espai 30",
+    "sala_id": "barcelona:via156509-28",
+    "sala_interior": "La Sagrera",
+    "temas": {
+      "ca": [
+        "llibertat",
+        "superar les pors"
+      ],
+      "es": [
+        "libertad",
+        "superar los miedos"
       ]
     },
     "tipo": "teatro",
@@ -2197,6 +2606,43 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400790319": {
+    "artista": "Cia. La Theatreria",
+    "barrio": "Verdun",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Espectacle familiar amb la companyia La Theatrería - Viento a pavor, gaudeix d'una obra de teatre per a tots els públics amb una companyia del barri.",
+      "es": "Espectáculo familiar con la compañía La Theatrería - Viento a pavor, disfruta de una obra de teatro para todos los públicos con una compañía del barrio."
+    },
+    "direccion": "Plaça de Francesc Layret 1",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Cia. La Theatreria"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-familiar-viento-a-pavor-a-carrec-de-la-cia-la-theatreria_99400790319.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "12:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790319",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/theatreria.760x428.eb71ac4b.jpg",
+    "lat": 41.441939621859476,
+    "lon": 2.1772655422920852,
+    "nombre": "Viento a Pavor",
+    "publico": "familiar",
+    "sala": "Plaça Francesc Layret",
+    "sala_id": "barcelona:via132624-1",
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400790331": {
     "barrio": "la Maternitat i Sant Ramon",
     "caducado": "2026-11-20",
@@ -2269,6 +2715,41 @@
     "sala_id": "barcelona:via54509-66",
     "subtipo": "conferencia o coloquio",
     "tipo": "eventos"
+  },
+  "open_data_bcn:99400790553": {
+    "barrio": "la Bordeta",
+    "caducado": "2026-11-21",
+    "comprobado": "2026-11-19",
+    "descripcion": {
+      "ca": "Després del nostre èxit a Suïssa, l'obra \"Infàmia\" torna a Barcelona! Estem contents de portar aquesta producció a la V Mostra de Teatre Amateur de Barcelona – Memorial Eduard Araujo. El grup de teatre TelÓbert del Centre Sant Pere 1892 us convida a viure una tarda plena de reflexió i passió pel teatre. No us perdeu aquesta adaptació lliure del text de Pere Riera, sota la direcció de Núria Torner.",
+      "es": "¡Tras nuestro éxito en Suiza, la obra \"Infàmia\" vuelve a Barcelona! Estamos contentos de llevar esta producción a la V Mostra de Teatre Amateur de Barcelona – Memorial Eduard Araujo. El grupo de teatro TelÓbert del Centre Sant Pere 1892 os invita a vivir una tarde llena de reflexión y pasión por el teatro. No os perdáis esta adaptación libre del texto de Pere Riera, bajo la dirección de Núria Torner."
+    },
+    "direccion": "Rbla Badal 113",
+    "equipo": [
+      [
+        "direcció",
+        "Núria Torner"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-infamia_99400790553.html",
+    "funciones": [
+      [
+        "2026-11-21",
+        "18:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790553",
+    "idioma_textos": "ca",
+    "lat": 41.37105397510644,
+    "lon": 2.1319459303712893,
+    "nombre": "Infàmia",
+    "sala": "Escola Cavall Bernat",
+    "sala_id": "barcelona:via30602-113",
+    "sala_interior": "Teatre",
+    "tipo": "teatro",
+    "traducido": "es"
   },
   "open_data_bcn:99400790645": {
     "barrio": "la Nova Esquerra de l'Eixample",

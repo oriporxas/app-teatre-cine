@@ -28,8 +28,8 @@
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 89,
-  "fecha": "2026-11-21",
+  "con_actividades": 88,
+  "fecha": "2026-11-22",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
@@ -41,11 +41,11 @@
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 49
+      "sin_actividades": 50
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 72,
+  "sin_actividades": 73,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -894,6 +894,22 @@
       "lon": 2.15883709685629,
       "nombre": "El Teatre Més Petit",
       "numero": "25",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "barrio": "la Bordeta",
+      "calle": "Rbla Badal",
+      "clave": "via30602-113",
+      "codigo_postal": "08014",
+      "distrito": "Sants-Montjuïc",
+      "id": "99400108472",
+      "lat": 41.37105397510644,
+      "lon": 2.1319459303712893,
+      "nombre": "Escola Cavall Bernat",
+      "numero": "113",
       "tipo": [
         "teatro"
       ]

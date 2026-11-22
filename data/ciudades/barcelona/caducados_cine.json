@@ -24,6 +24,20 @@
     "id": "p-t-deep-listening-la-historia-de-pauline-oliveros",
     "titulo": "Deep listening: La història de Pauline Oliveros"
   },
+  "p-t-el-tresor-de-barracuda": {
+    "agenda": "open_data_bcn:99400771083",
+    "caducado": "2026-11-21",
+    "gratis": true,
+    "id": "p-t-el-tresor-de-barracuda",
+    "titulo": "El tresor de barracuda"
+  },
+  "p-t-fiscal-elola": {
+    "agenda": "open_data_bcn:99400790365",
+    "caducado": "2026-11-21",
+    "gratis": true,
+    "id": "p-t-fiscal-elola",
+    "titulo": "Fiscal Elola"
+  },
   "p-t-gaudeix-del-ficma-a-turull": {
     "agenda": "open_data_bcn:99400787444",
     "caducado": "2026-11-18",
@@ -60,6 +74,13 @@
     "gratis": true,
     "id": "p-t-numacage-public-pool-ota",
     "titulo": "Numacage public pool"
+  },
+  "p-t-peixet-el-petit-aventurer": {
+    "agenda": "open_data_bcn:99400749710",
+    "caducado": "2026-11-21",
+    "gratis": true,
+    "id": "p-t-peixet-el-petit-aventurer",
+    "titulo": "Peixet, el petit aventurer"
   },
   "p-t-petits-moments-magics": {
     "agenda": "open_data_bcn:99400762080",
@@ -1509,6 +1530,32 @@
     "titulo_original": "Cecilia,  una luz de mañana",
     "tmdb": 1784105,
     "trailer": "uqZdn75PrHs"
+  },
+  "tmdb-1820083": {
+    "anio": 2026,
+    "caducado": "2026-11-21",
+    "cartel": "https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
+    "direccion": [
+      {
+        "id": 4124423,
+        "nombre": "Ha Jung-jae"
+      }
+    ],
+    "duracion": 195,
+    "estreno": "2026-11-21",
+    "fondo": "https://image.tmdb.org/t/p/w1280/aYjogDhuege2grxfxnNu9NDOqPA.jpg",
+    "generos": [
+      "Música"
+    ],
+    "id": "tmdb-1820083",
+    "idioma_original": "en",
+    "imdb": "tt50486016",
+    "sinopsis": {
+      "en": "The record-breaking journey continues as BTS’s history-making tour across Asia makes its way to the big screen. Join the roar of the crowds in Kaohsiung in November and experience the breathtaking performances and electrifying energy of BTS’s stadium tour. Don't miss your chance to witness BTS WORLD TOUR 'ARIRANG' in all its glory in cinemas worldwide."
+    },
+    "titulo": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
+    "titulo_original": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
+    "tmdb": 1820083
   },
   "tmdb-466272": {
     "anio": 2019,
