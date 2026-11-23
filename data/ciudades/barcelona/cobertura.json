@@ -29,7 +29,7 @@
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
   "con_actividades": 90,
-  "fecha": "2026-11-22",
+  "fecha": "2026-11-23",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
@@ -47,22 +47,6 @@
   "salas_oficiales": 161,
   "sin_actividades": 71,
   "sin_actividades_detalle": [
-    {
-      "actividades": 0,
-      "barrio": "la Vila Olímpica del Poblenou",
-      "calle": "Ramon Trias Fargas",
-      "clave": "via132908-23",
-      "codigo_postal": "08005",
-      "distrito": "Sant Martí",
-      "id": "98357090249",
-      "lat": 41.38924681822701,
-      "lon": 2.1909833351708046,
-      "nombre": "Auditori Universitat Pompeu Fabra *R T Fargas",
-      "numero": "23",
-      "tipo": [
-        "auditorio"
-      ]
-    },
     {
       "actividades": 0,
       "barrio": "el Raval",
@@ -91,6 +75,22 @@
       "lon": 2.1197872902346204,
       "nombre": "Facultat de Biologia - UB",
       "numero": "643",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "barrio": "la Vila Olímpica del Poblenou",
+      "calle": "Ramon Trias Fargas",
+      "clave": "via132908-23",
+      "codigo_postal": "08005",
+      "distrito": "Sant Martí",
+      "id": "97035175013",
+      "lat": 41.38924681822701,
+      "lon": 2.1909833351708046,
+      "nombre": "Facultat de Ciències Econòmiques i Empresarials - UPF",
+      "numero": "23",
       "tipo": [
         "auditorio"
       ]

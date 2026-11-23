@@ -17,12 +17,26 @@
     "id": "p-t-baraka",
     "titulo": "Baraka"
   },
+  "p-t-cinema-per-a-tota-la-familia-tot-allo-que-balla": {
+    "agenda": "open_data_bcn:99400789846",
+    "caducado": "2026-11-22",
+    "gratis": true,
+    "id": "p-t-cinema-per-a-tota-la-familia-tot-allo-que-balla",
+    "titulo": "Cinema per a tota la família 'Tot allò que balla"
+  },
   "p-t-deep-listening-la-historia-de-pauline-oliveros": {
     "agenda": "open_data_bcn:99400760845",
     "caducado": "2026-11-19",
     "gratis": true,
     "id": "p-t-deep-listening-la-historia-de-pauline-oliveros",
     "titulo": "Deep listening: La història de Pauline Oliveros"
+  },
+  "p-t-el-secret-de-la-mallarenga": {
+    "agenda": "open_data_bcn:99400786556",
+    "caducado": "2026-11-22",
+    "gratis": true,
+    "id": "p-t-el-secret-de-la-mallarenga",
+    "titulo": "El secret de la mallarenga"
   },
   "p-t-el-tresor-de-barracuda": {
     "agenda": "open_data_bcn:99400771083",
@@ -98,6 +112,13 @@
     "gratis": true,
     "id": "p-t-projeccio-i-col-loqui-miss-carbon",
     "titulo": "Projecció i col•loqui \"Miss Carbón"
+  },
+  "p-t-projeccio-talent-km-0": {
+    "agenda": "open_data_bcn:99400720049",
+    "caducado": "2026-11-22",
+    "gratis": true,
+    "id": "p-t-projeccio-talent-km-0",
+    "titulo": "Projecció \"Talent Km. 0"
   },
   "p-t-projeccions-al-zumzeig": {
     "agenda": "open_data_bcn:99400790567",
@@ -981,6 +1002,185 @@
     "tmdb": 1321656,
     "trailer": "yb6RMRrXnJ8"
   },
+  "tmdb-1427833": {
+    "anio": 2025,
+    "caducado": "2026-11-22",
+    "cartel": "https://image.tmdb.org/t/p/w500/tEpDFz33WclWa0c1rxLhqM2DNFE.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/1AXNJAeCz0obA1GANYbM2xxPdeB.jpg",
+        "id": 1099354,
+        "nombre": "Henrik Martin Dahlsbakken",
+        "premios": [
+          {
+            "anio": 2018,
+            "premio": "Hedmark fylkeskommunes kulturpris",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q57167212"
+      }
+    ],
+    "duracion": 80,
+    "estreno": "2025-11-06",
+    "fondo": "https://image.tmdb.org/t/p/w1280/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
+    "generos": [
+      "Familia",
+      "Animación",
+      "Comedia"
+    ],
+    "guion": [
+      {
+        "id": 5639750,
+        "nombre": "Susanne Skogstad"
+      }
+    ],
+    "id": "tmdb-1427833",
+    "idioma_original": "no",
+    "imdb": "tt35727399",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/iy1IYpyQIOnf9BlBpnACgnoCerC.jpg",
+        "id": 578343,
+        "nombre": "Stein Johan Grieg Halvorsen"
+      },
+      {
+        "id": 1533290,
+        "nombre": "Eyvind Andreas Skeie"
+      }
+    ],
+    "paises": [
+      "NO"
+    ],
+    "premios": [
+      {
+        "anio": 2026,
+        "premio": "Premio Amanda a la Mejor Película Infantil",
+        "tipo": "ganado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/eJzuZZfFBaMSgcbR3Pe5zBxEC3z.jpg",
+        "id": 76556,
+        "nombre": "Pål Sverre Hagen",
+        "papel": "Peter",
+        "premios": [
+          {
+            "anio": 2013,
+            "premio": "Premi Amanda al millor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Premio Kanon para Mejor Actor en un Papel Protagónico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Premi Kanon a la interpretació secundària",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Hedda Award for Best Actor in a Supporting Role",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premio Gullruten",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Premi Amanda al millor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Haugesund Walk of Fame",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premi Amanda al millor actor",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q2013068"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg",
+        "id": 1904884,
+        "nombre": "Sara Khorami",
+        "papel": "Sara",
+        "premios": [
+          {
+            "anio": 2022,
+            "premio": "Premi Amanda a la millor actriu de repartiment",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Hedda Award for Best Actress in a  Leading Role",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q113000116"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yem43JCCG9xpjTT1IuosGtmZVNA.jpg",
+        "id": 3126191,
+        "nombre": "Flo Fagerli",
+        "papel": "Daughter",
+        "premios": [],
+        "wikidata": "Q124499794"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/qQ0AVbgyjgAvmEXNZbu1CG3MTji.jpg",
+        "id": 2856423,
+        "nombre": "Vegard Strand Eide",
+        "papel": "Mikkel"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/kUkQP35OdAUtAr7lw7O9RNfFRL4.jpg",
+        "id": 71187,
+        "nombre": "Jon Øigarden",
+        "papel": "Skadedyrutrydder"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ypyMSXwABVXHjTOfpEHW008cw1A.jpg",
+        "id": 76555,
+        "nombre": "Jakob Oftebro",
+        "papel": "Rasmus"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/xAaBmAepMzWoHuoI5sl1feYEKYx.jpg",
+        "id": 76917,
+        "nombre": "Charlotte Frogner",
+        "papel": "Katja"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/qQFCG2sOL5dfOKfYpOxs0QMopDU.jpg",
+        "id": 1934734,
+        "nombre": "Jonis Josef",
+        "papel": "Maximus"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/kR5lOHYLgZc3QiGep1SJPMVMCWy.jpg",
+        "id": 3097194,
+        "nombre": "Vivild Falk Berg",
+        "papel": "Lea"
+      }
+    ],
+    "sinopsis": {
+      "en": "A small mouse family plans a quiet Christmas outside the city, but their celebration is disrupted when humans unexpectedly appear. As the mice try to hide their preparations, the humans react to the noises behind the walls with determination.",
+      "es": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse."
+    },
+    "titulo": "Ratones al ataque: Operación Navidad",
+    "titulo_original": "Hvis ingen går i fella",
+    "tmdb": 1427833
+  },
   "tmdb-1447088": {
     "agenda": "open_data_bcn:99400766270",
     "anio": 2025,
@@ -1072,6 +1272,159 @@
     "titulo": "En un lugar de la mente",
     "titulo_original": "A un lloc de la Ment",
     "tmdb": 1447088
+  },
+  "tmdb-1477104": {
+    "anio": 2026,
+    "caducado": "2026-11-22",
+    "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
+        "id": 1454651,
+        "nombre": "Steve Cox",
+        "premios": [
+          {
+            "anio": 2022,
+            "premio": "Premi Infantil i Juvenil BAFTA - Director",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q115325763"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
+        "id": 1448172,
+        "nombre": "Matthew Walker"
+      }
+    ],
+    "duracion": 81,
+    "edad": "A",
+    "estreno": "2026-09-17",
+    "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+    "generos": [
+      "Animación",
+      "Ciencia ficción",
+      "Comedia",
+      "Familia"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
+        "id": 7316,
+        "nombre": "Mark Burton"
+      },
+      {
+        "id": 1220429,
+        "nombre": "Giles Pilbrow"
+      }
+    ],
+    "id": "tmdb-1477104",
+    "idioma_original": "en",
+    "imdb": "tt36841161",
+    "lema": "¿Qué es eso que viene por la colina?.",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
+        "id": 1273153,
+        "nombre": "Natalie Holt"
+      }
+    ],
+    "nota": 7.3,
+    "paises": [
+      "GB",
+      "FR"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
+        "id": 224354,
+        "nombre": "Justin Fletcher",
+        "papel": "Shaun / Timmy (voice)",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Miembro de la Orden del Imperio británico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Premi BAFTA infantil al millor intèrpret",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q6317587"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
+        "id": 1212388,
+        "nombre": "John Sparkes",
+        "papel": "The Farmer / Bitzer (voice)",
+        "premios": [],
+        "wikidata": "Q6258580"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
+        "id": 7063,
+        "nombre": "Nina Sosanya",
+        "papel": "The Vet (voice)",
+        "premios": [],
+        "wikidata": "Q526266"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
+        "id": 124557,
+        "nombre": "Kate Harbour",
+        "papel": "Timmy's Mum (voice)",
+        "premios": [],
+        "wikidata": "Q6375522"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
+        "id": 1235023,
+        "nombre": "Rich Webber",
+        "papel": "Shirley (voice)"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
+        "id": 185065,
+        "nombre": "Emma Tate",
+        "papel": "Hazel (voice)"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
+        "id": 155527,
+        "nombre": "Simon Greenall",
+        "papel": "The Twins (voice)"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
+        "id": 22810,
+        "nombre": "Andy Nyman",
+        "papel": "Nuts (voice)"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
+        "id": 34900,
+        "nombre": "Paul Whitehouse",
+        "papel": "Shop Keeper (voice)"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
+        "id": 1908668,
+        "nombre": "Roman Kemp",
+        "papel": "Pizza Boy (voice)"
+      }
+    ],
+    "sinopsis": {
+      "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
+      "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+      "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
+    },
+    "titulo": "La oveja Shaun: Misión calabaza",
+    "titulo_ca": "El xai Shaun: Missió Carbassa",
+    "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "tmdb": 1477104,
+    "trailer": "daZMq0AyOMc"
   },
   "tmdb-1490133": {
     "agenda": "open_data_bcn:99400786550",
@@ -1473,6 +1826,58 @@
     "titulo_original": "11",
     "tmdb": 1755565,
     "trailer": "rSciGK2clh8"
+  },
+  "tmdb-1778515": {
+    "anio": 2026,
+    "caducado": "2026-11-22",
+    "cartel": "https://image.tmdb.org/t/p/w500/rkoVLCKCqVCo3c7u4QktJf2ATEM.jpg",
+    "duracion": 60,
+    "edad": "Ai",
+    "estreno": "2026-11-14",
+    "fondo": "https://image.tmdb.org/t/p/w1280/cetFNvBn6N5JkdjeJB18xRUHvFg.jpg",
+    "generos": [
+      "Animación",
+      "Familia"
+    ],
+    "id": "tmdb-1778515",
+    "idioma_original": "en",
+    "imdb": "tt46666063",
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
+        "id": 59070,
+        "nombre": "Morwenna Banks",
+        "premios": [
+          {
+            "anio": 2015,
+            "premio": "Tinniswood Award",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q6915202"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
+        "id": 6645,
+        "nombre": "Richard Ridings",
+        "premios": [],
+        "wikidata": "Q3431161"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/2sAIKIeHia3k2SVJB0oyJQz7QoN.jpg",
+        "id": 2769219,
+        "nombre": "Amelie Bea Smith",
+        "premios": [],
+        "wikidata": "Q95233135"
+      }
+    ],
+    "sinopsis": {
+      "en": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
+      "es": "Hay divas que no necesitan presentación y Peppa Pig es una de ellas. Esta vez, la popular cerdita y su familia se preparan para celebrar una ocasión muy especial: la primera Navidad de la pequeña Evie, la nueva integrante de la familia. Entre aventuras en la nieve, representaciones navideñas y los preparativos para decorar el árbol, Peppa, George y sus seres queridos compartirán algunos de sus momentos favoritos de estas fiestas navideñas."
+    },
+    "titulo": "Diversión Navideña con Peppa: La Experiencia en Cines",
+    "titulo_original": "Festive Fun with Peppa",
+    "tmdb": 1778515
   },
   "tmdb-1784105": {
     "anio": 2026,

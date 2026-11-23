@@ -714,6 +714,12 @@
     "firma": "82b80724424d34a3",
     "imagen": null
   },
+  "https://entradium.com/ca/events/l-ombra-de-pinotxo-barcelona-la-puntual-barcelona": {
+    "datos": {},
+    "fecha": "2026-11-23",
+    "firma": "82b80724424d34a3",
+    "imagen": null
+  },
   "https://entradium.com/ca/events/point": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -2587,6 +2593,12 @@
     "firma": "e54c05c7d5f2eb69",
     "imagen": "https://teatredesarria.cat/storage/app/uploads/public/6ad/a1a/45d/thumb_1942_1200_628_0_0_auto.webp"
   },
+  "https://teatregaudibarcelona.com/calendari/bon_catalanet/": {
+    "datos": {},
+    "fecha": "2026-11-23",
+    "firma": "f3ed075994b9a5eb",
+    "imagen": "https://teatregaudibarcelona.com/wp-content/uploads/Soc-un-bon-609x875-1.png"
+  },
   "https://teatremuntaner.com/ca/espectaculos/como-pasar-de-los-60-sin-morir-en-el-intento/": {
     "datos": {
       "duracion": null,
@@ -3074,6 +3086,58 @@
     "fecha": "2026-11-18",
     "firma": "5fa9c72f4feac7d9",
     "imagen": "https://www.anticteatre.com/wp-content/uploads/2026/08/estar-en-el-aire.jpg"
+  },
+  "https://www.anticteatre.com/events/event/la-concha-de-tu-madre-cabaret": {
+    "datos": {
+      "duracion": 75,
+      "equipo": [
+        [
+          "Artistes",
+          "Helga Alarcón, Mila Martínez, Andrea Parra, Elia Perez Guisado, Lara Renard"
+        ],
+        [
+          "Mestra de cerimònies",
+          "Lucha Emilia"
+        ],
+        [
+          "Escenografia",
+          "Nino Podalydes"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "48d71cfd9053fe4e",
+    "imagen": "https://www.anticteatre.com/wp-content/uploads/2026/02/cabaret-jpg.jpeg"
+  },
+  "https://www.anticteatre.com/events/event/les-chevaliers-los-detectives": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Idea i creació",
+          "Los Detectives, Mariona Naudin, María García Vera, Sofía Asencio"
+        ],
+        [
+          "Performers",
+          "Mariona Naudin, María García Vera, Sofía Asencio"
+        ],
+        [
+          "Llums",
+          "Celina Chavat"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "c8d618f70ba05615",
+    "imagen": "https://www.anticteatre.com/wp-content/uploads/2026/11/perceval-copia-768x557.png"
+  },
+  "https://www.atrapalo.com/entradas/misery_e4956585/": {
+    "datos": {},
+    "fecha": "2026-11-23",
+    "firma": "cae154622971c974",
+    "imagen": null
   },
   "https://www.atrium.cat/ca/programacio/c/191-avi-et-traure-daqui.html": {
     "datos": {
@@ -3983,6 +4047,71 @@
     "firma": "346c4478ca878859",
     "imagen": "https://www.espairandom.cat/wp-content/uploads/2025/09/RANDOM_IMPRO_ArbonesDaniel_espaiRANDOM_1050.jpg"
   },
+  "https://www.espairandom.cat/el-misteri-de-la-capsa-dels-esperits-oscar-sanchez/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Idea i guió",
+          "Òscar Sánchez"
+        ],
+        [
+          "Assessorament actoral",
+          "Menna Fité"
+        ],
+        [
+          "Disseny de logo",
+          "Fran Rojas"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Nominat a Millor Espectacle de Màgia de Barcelona 2026",
+          "cita": "el seu espectacle Sense Guió ha estat nominat a Millor Espectacle de Màgia de Barcelona 2026",
+          "es": "Nominado a Millor Espectacle de Màgia de Barcelona 2026",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-23",
+    "firma": "22353c6ecce4cf70",
+    "imagen": "https://www.espairandom.cat/wp-content/uploads/2026/11/MisteriCapsaEsperits_OscarSanchez_espaiRandom_1020.jpg"
+  },
+  "https://www.espairandom.cat/el-te-de-les-illes-caiman-maria-clauso/": {
+    "datos": {
+      "duracion": 50,
+      "equipo": [
+        [
+          "Intèrpret",
+          "Maria Clausó"
+        ],
+        [
+          "Direcció",
+          "Ever Blanchet"
+        ],
+        [
+          "Vestuari",
+          "Ximena Topolanski"
+        ],
+        [
+          "Espai sonor",
+          "Blai Blanchet"
+        ],
+        [
+          "Fotografia i vídeos",
+          "Daniel Arbonés, Cristina Huguet"
+        ],
+        [
+          "Agraïments",
+          "Espai Random"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "2c5c2ec8f63b6bd5",
+    "imagen": "https://www.espairandom.cat/wp-content/uploads/2026/11/elteillescaimanWeb_espaiRandom_1020.jpg"
+  },
   "https://www.espairandom.cat/iconic-de-daniel-arbones/": {
     "datos": {
       "duracion": null,
@@ -3998,6 +4127,51 @@
     },
     "fecha": "2026-11-22",
     "firma": "0e06432a298a0ea8",
+    "imagen": null
+  },
+  "https://www.espairandom.cat/impro-todo-sobre-tu-suenu-de-la-cia-lxs-nus/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "2c5933948774cce3",
+    "imagen": null
+  },
+  "https://www.espairandom.cat/una-o-dos-palabras-martha-escudero/": {
+    "datos": {
+      "duracion": 70,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "d04a2f6e3072fcda",
+    "imagen": "https://www.espairandom.cat/wp-content/uploads/2026/08/UnaODosPalabrasMarthaEscudero_1020.jpg"
+  },
+  "https://www.espairandom.cat/virgen-y-madre/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Obra original",
+          "Serena Del Prete"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "44d0ac84e376144e",
+    "imagen": "https://www.espairandom.cat/wp-content/uploads/2026/04/VirgenIMadre_SerenaDelPrete_espaiRandom_1020.jpg"
+  },
+  "https://www.golems.cat/MALGUSTO/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "dd98359b2b5c9600",
     "imagen": null
   },
   "https://www.golems.cat/MARICARMEN/": {
@@ -4727,6 +4901,49 @@
     },
     "fecha": "2026-11-18",
     "firma": "0ca5c2223acc6333",
+    "imagen": null
+  },
+  "https://www.salaarsteatre.com/conte-de-nadal/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Reparto",
+          "Ebenezer Scrooge: Jordi Vicente, Neus: Anna Galiseto, Fred: Joan Mateo, Bob : Alaia Moschini"
+        ],
+        [
+          "Direcció",
+          "Albert Pueyo"
+        ],
+        [
+          "Ajudant de direcció",
+          "Virginia Sánchez"
+        ],
+        [
+          "Direcció vocal",
+          "Oriol Barber"
+        ],
+        [
+          "Llibret",
+          "Eloy Cabacas"
+        ],
+        [
+          "Vestuari",
+          "Laura Taus, Moisés Prats"
+        ],
+        [
+          "Escenografia",
+          "Raquel Gonta, Marina Lozano"
+        ],
+        [
+          "Producció",
+          "Magatzem d’Ars"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "3dc1a5362ab54f9b",
     "imagen": null
   },
   "https://www.salaarsteatre.com/els-tres-porquets/": {
@@ -6475,6 +6692,105 @@
     },
     "fecha": "2026-11-18",
     "firma": "e12cd152afbd886e",
+    "imagen": null
+  },
+  "https://www.teatregoya.cat/ca/ex/una-idea-genial/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Sebastien Castro"
+        ],
+        [
+          "Adaptació",
+          "Susanna Garachana"
+        ],
+        [
+          "Direcció",
+          "Xavier Ricart"
+        ],
+        [
+          "Intèrprets",
+          "Lluís Villanueva, Frank Capdet, Susanna Garachana, Anna Azcona"
+        ],
+        [
+          "Escenografia",
+          "Anna Tantull"
+        ],
+        [
+          "Vestuari i caracterització",
+          "Núria Llunell"
+        ],
+        [
+          "Il·luminació",
+          "David Bofarull"
+        ],
+        [
+          "Espai sonor",
+          "Jordi Bonet"
+        ],
+        [
+          "Assessor de veu",
+          "Armand Villen"
+        ],
+        [
+          "Direcció de producció",
+          "Maite Pijuan"
+        ],
+        [
+          "Producció executiva",
+          "Raquel Doñoro"
+        ],
+        [
+          "Direcció tècnica",
+          "Moi Cuenca"
+        ],
+        [
+          "Coordinació tècnica",
+          "Jordi Farràs"
+        ],
+        [
+          "Ajudantia de dirección i regidoria",
+          "Xavier Carreras"
+        ],
+        [
+          "Ajudantia de producció",
+          "Sira Castells, Sara López"
+        ],
+        [
+          "Suport regidoria durant assajos",
+          "Elisenda Caballé"
+        ],
+        [
+          "Cap tècnic del teatre",
+          "Roger Muñoz"
+        ],
+        [
+          "Tècnica del teatre",
+          "Eva Rotllán"
+        ],
+        [
+          "Construcció de l'escenografia",
+          "Jorba-Miró Estudi-Taller d'escenografia"
+        ],
+        [
+          "Màrqueting i comunicació i disseny gràfic",
+          "Focus"
+        ],
+        [
+          "Reportatge Fotogràfic",
+          "David Ruano"
+        ],
+        [
+          "Col·laboradors",
+          "Montibello, Rowenta, Moulinex"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "dbd57bf4f6fb3606",
     "imagen": null
   },
   "https://www.teatrelliure.com/ca/entrades": {

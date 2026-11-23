@@ -1,4 +1,217 @@
 {
+  "open_data_bcn:99400304966": {
+    "caducado": "2026-11-22",
+    "compra": "https://primerfestivaldecine.com/ca/tiquets-i-abonaments/2026",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "disciplina": "cine",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/festival-de-cinema-el-meu-primer-festival_99400304966.html",
+    "funciones": [
+      [
+        "2026-11-22"
+      ]
+    ],
+    "id": "open_data_bcn:99400304966",
+    "idioma_textos": "ca",
+    "nombre": "El Meu Primer Festival",
+    "pagina_obra": "https://primerfestivaldecine.com/ca/tiquets-i-abonaments/2026",
+    "precio_max": 45.0,
+    "precio_min": 7.0,
+    "sala_interior": "Institut Francès - CCCB - Auditori de Sant Martí - Mooby Bosque - Cines Verdi Park - Cinemes Girona - Zumzeig - Maldà - ECIB",
+    "subtipo": "festival",
+    "tipo": "eventos"
+  },
+  "open_data_bcn:99400550924": {
+    "barrio": "Sant Pere, Santa Caterina i la Ribera",
+    "caducado": "2026-11-22",
+    "compra": "https://www.balanaenviu.com/espectaculo/ilustres-ignorantes",
+    "compra_sala": "https://www.balanaenviu.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Estàs llegint bé... tornen els Ilustres Ignorantes al Teatre Borràs! Javier Cansado estarà absent i en el seu lloc comptarem amb Raúl Cimas. Ilustres Ignorantes és un debat a diverses bandes lliurat per il·luminar les més diverses branques del coneixement. Javier Coronas, Pepe Colubi i Raúl Cimas, s'enredaran en discussions delirants, pertorbades, sorprenents i molt divertides de tot tipus de temes: curiosos, metafísics, culturals o sexuals. Corones condueix la discussió amb mà de ferro mentre Colubi i Cimas, ofereixen respostes que oscil·len entre el rigor científic i el més sorprenent desconeixement, per això cada Ilustres Ignorantes és diferent, imprevisible i irrepetible. Un show 10 estrelles de stand - up comedy que a més a més, i com ja és habitual, comptarà amb convidats especials a cada funció.",
+      "es": "¡Lees bien... vuelven los Ilustres Ignorantes al Teatre Borràs! Javier Cansado estará ausente y en su lugar contaremos con Raúl Cimas. Ilustres Ignorantes es un debate a varias bandas dedicado a iluminar las más diversas ramas del conocimiento. Javier Coronas, Pepe Colubi y Raúl Cimas se enredarán en discusiones delirantes, perturbadoras, sorprendentes y muy divertidas sobre todo tipo de temas: curiosos, metafísicos, culturales o sexuales. Coronas conduce la discusión con mano de hierro mientras Colubi y Cimas ofrecen respuestas que oscilan entre el rigor científico y el más sorprendente desconocimiento, por eso cada Ilustres Ignorantes es diferente, imprevisible e irrepetible. Un show de 10 estrellas de stand-up comedy que, además, y como ya es habitual, contará con invitados especiales en cada función."
+    },
+    "direccion": "Pl Urquinaona 9",
+    "duracion": 90,
+    "equipo": [
+      [
+        "Artistes",
+        "Javier Coronas, Pepe Colubi, Raúl Cimas"
+      ]
+    ],
+    "ficha_fuente": "https://www.balanaenviu.com/espectaculo/ilustres-ignorantes",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-ilustres-ignorantes_99400550924.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400550924",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/ilustres.760x428.f28cf5f7.jpg",
+    "lat": 41.38888805495527,
+    "lon": 2.1736169049485072,
+    "nombre": "Ilustres ignorantes",
+    "pagina_obra": "https://www.balanaenviu.com/espectaculo/ilustres-ignorantes",
+    "precio_max": 28.0,
+    "precio_min": 28.0,
+    "sala": "Teatre Borràs",
+    "sala_id": "barcelona:via232902-9",
+    "temas": {
+      "ca": [
+        "debat",
+        "humor"
+      ],
+      "es": [
+        "debate",
+        "humor"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400640061": {
+    "caducado": "2026-11-22",
+    "compra": "https://entradas.codetickets.com/entradas/l-alternativa",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-20",
+    "descripcion": {
+      "ca": "Cinema. El festival presenta una programació que combina l’experimentació formal, la recerca artística i la mirada crítica sobre el present. La 33a edició del Festival de Cinema Independent de Barcelona - L'Alternativa tindrà lloc del 12 al 22 de novembre, reafirmant la seva aposta per la creativitat independent. L'Alternativa té tres seccions competitives a l'Alternativa Oficials: Nacional, Llargmetratges Internacionals i Curtmetratges Internacionals. L'Alternativa Paral·leles presenta homenatges, estrenes, obres de cinematografies poc conegudes i de nous creadors i programa familiar. I d'altra banda, l'Alternativa Hall ofereix una programació gratuïta i diversa, projeccions, actuacions i debats al Hall del CCCB.",
+      "es": "Cine. El festival presenta una programación que combina la experimentación formal, la investigación artística y la mirada crítica sobre el presente. La 33.ª edición del Festival de Cine Independiente de Barcelona - L'Alternativa tendrá lugar del 12 al 22 de noviembre, reafirmando su apuesta por la creatividad independiente. L'Alternativa tiene tres secciones competitivas en L'Alternativa Oficiales: Nacional, Largometrajes Internacionales y Cortometrajes Internacionales. L'Alternativa Paral·leles presenta homenajes, estrenos, obras de cinematografías poco conocidas y de nuevos creadores, y programa familiar. Por otra parte, L'Alternativa Hall ofrece una programación gratuita y diversa, proyecciones, actuaciones y debates en el Hall del CCCB."
+    },
+    "disciplina": "cine",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/33a-festival-de-cinema-independent-de-barcelona-l-alternativa-2026_99400640061.html",
+    "funciones": [
+      [
+        "2026-11-22"
+      ]
+    ],
+    "id": "open_data_bcn:99400640061",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/alternativa.760x428.088a37a2.jpg",
+    "nombre": "33a Festival de Cinema Independent de Barcelona \"L'Alternativa 2026",
+    "pagina_obra": "https://entradas.codetickets.com/entradas/l-alternativa",
+    "precio_max": 60.0,
+    "precio_min": 4.0,
+    "publico": "familiar",
+    "subtipo": "festival",
+    "temas": {
+      "ca": [
+        "cinema independent",
+        "experimentació artística",
+        "creativitat"
+      ],
+      "es": [
+        "cine independiente",
+        "experimentación artística",
+        "creatividad"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400666915": {
+    "artista": "Cia. La Puntual- Eugenio Navarro i Rosa Bigas",
+    "barrio": "Sant Pere, Santa Caterina i la Ribera",
+    "caducado": "2026-11-22",
+    "compra": "https://entradium.com/ca/events/greta-la-rateta-que-escombrava-barcelona",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-22",
+    "descripcion": {
+      "ca": "La Rateta Greta és tota una artista: malabarista, trapezista, equilibrista... i a més a més escombra aquest teatre. Escombrant sota l'escenari ha trobat... un dineret! El seu amic, el Ratolí Rinaldo, li aconsella que es compri un llacet per a la cua, però la Greta ho té ben clar: el farà servir per muntar un gran espectacle! Avui són les proves per decidir quin dels animals actuarà amb ella. Serà el Gall Ventríloc? O el Porquet Ballarí? El Gos Domador de puces o potser l'Ase Mag? O es deixarà fascinar pel Gat Hipnotitzador? Edat Recomanada: A partir de 3 anys fins als 11 anys Caracterització i disseny gràfic: Eugenia Susel Fotografia: Yoana Miguel",
+      "es": "La Ratita Greta es toda una artista: malabarista, trapecista, equilibrista... y además barre este teatro. ¡Barriendo bajo el escenario ha encontrado un dineret! Su amigo, el Ratón Rinaldo, le aconseja que se compre un lacito para la cola, pero Greta lo tiene muy claro: ¡lo usará para montar un gran espectáculo! Hoy son las pruebas para decidir cuál de los animales actuará con ella. ¿Será el Gallo Ventrílocuo? ¿O el Cerdito Bailarín? ¿El Perro Domador de pulgas o quizás el Burro Mago? ¿O se dejará fascinar por el Gato Hipnotizador? Edad recomendada: a partir de 3 años hasta los 11 años. Caracterización y diseño gráfico: Eugenia Susel. Fotografía: Yoana Miguel."
+    },
+    "direccion": "C Allada-Vermell 15",
+    "duracion": 50,
+    "edad_min": 3,
+    "equipo": [
+      [
+        "direcció",
+        "Néstor Navarro"
+      ],
+      [
+        "creació",
+        "Eugenio Navarro"
+      ],
+      [
+        "guió",
+        "Raquel Loscos"
+      ],
+      [
+        "amb",
+        "Cia. La Puntual- Eugenio Navarro i Rosa Bigas"
+      ],
+      [
+        "construcció escenografia",
+        "Miquel Grima"
+      ],
+      [
+        "construcció titelles i elements escenogràfics",
+        "Clara Algaba i Jordina Salvany"
+      ],
+      [
+        "titellaires",
+        "Eugenio Navarro i Rosa Bigas"
+      ],
+      [
+        "composició musical",
+        "Mariona Sagarra"
+      ],
+      [
+        "disseny escenografia",
+        "Alfred Casas"
+      ],
+      [
+        "disseny il·luminació",
+        "Quico Gutiérrez"
+      ],
+      [
+        "vestuari",
+        "Àgueda Miguel"
+      ],
+      [
+        "ajudant de producció",
+        "Mar Solà"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-de-titelles-greta-la-rateta-que-escombrava-amb-la-cia-la-puntual-euge_99400666915.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "12:00"
+      ],
+      [
+        "2026-11-22",
+        "17:00"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "id": "open_data_bcn:99400666915",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/Captura.760x428.1514e73f.jpg",
+    "lat": 41.3868108903164,
+    "lon": 2.1812791032592433,
+    "nombre": "Greta, la rateta que escombrava...",
+    "pagina_obra": "https://entradium.com/ca/events/greta-la-rateta-que-escombrava-barcelona",
+    "precio_max": 14.0,
+    "precio_min": 3.11,
+    "publico": "familiar",
+    "sala": "La Puntual. Putxinel.lis de Barcelona",
+    "sala_id": "barcelona:via12906-15",
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400679376": {
     "barrio": "la Sagrera",
     "caducado": "2026-11-20",
@@ -198,6 +411,40 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400746353": {
+    "barrio": "el Raval",
+    "caducado": "2026-11-22",
+    "compra": "https://tickets.oneboxtds.com/tantarantana/events",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Del 16 al 22 de novembre es podran veure 3 obres xilenes en aquest Festival Barcelona Off que s'instal·la com a espai d'exhibició i d'internacionalització per a artistes xilens a Espanya. Des de 2021, Santiago Off i la Nau Ivanow mantenen un acord d'associativitat amb la voluntat de treballar per a la internacionalització i la millora de les condicions de les companyies teatrals en els seus processos de investigació. Programa Teatro niño proletario (Xile) Dilluns 16 i dimarts 17 de novembre del 2026 a les 20.30 h Teatro apátrida (Espanya - Xile) Dijous 19 de novembre del 2026 a les 20.30 h Teatro sur (Xile) Dissabte 21 de novembre del 2026 a les 20.30 h Diumenge 22 de novembre del 2026 a les 19 h",
+      "es": "Del 16 al 22 de noviembre se podrán ver 3 obras chilenas en este Festival Barcelona Off que se instala como espacio de exhibición e internacionalización para artistas chilenos en España. Desde 2021, Santiago Off y la Nau Ivanow mantienen un acuerdo de asociatividad con la voluntad de trabajar por la internacionalización y la mejora de las condiciones de las compañías teatrales en sus procesos de investigación. Programa Teatro niño proletario (Chile) Lunes 16 y martes 17 de noviembre del 2026 a las 20.30 h Teatro apátrida (España - Chile) Jueves 19 de noviembre del 2026 a las 20.30 h Teatro sur (Chile) Sábado 21 de noviembre del 2026 a las 20.30 h Domingo 22 de noviembre del 2026 a las 19 h"
+    },
+    "direccion": "Carrer de les Flors 22",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/festival-de-teatre-xile-barcelona-off_99400746353.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400746353",
+    "idioma_textos": "ca",
+    "lat": 41.37596959387577,
+    "lon": 2.1673789423748864,
+    "nombre": "Festival de Teatre Xilé \"Barcelona OFF",
+    "pagina_obra": "https://tickets.oneboxtds.com/tantarantana/events",
+    "precio_max": 23.0,
+    "precio_min": 23.0,
+    "sala": "Tantarantana Teatre",
+    "sala_id": "barcelona:via127409-22",
+    "subtipo": "festival",
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400746859": {
     "barrio": "les Corts",
     "caducado": "2026-11-20",
@@ -244,6 +491,49 @@
       ]
     },
     "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400747789": {
+    "artista": "Josep Maria Castellví i Carmen Portilla",
+    "barrio": "el Poble-sec",
+    "caducado": "2026-11-22",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Què implica capturar allò que sembla impossible de filmar? Com es construeixen relats visuals en contextos extrems, incerts o invisibles? En aquesta conversa, el documentalista Josep Maria Castellví i la periodista i realitzadora Carmen Portilla posaran en diàleg dues trajectòries vinculades a la imatge i al relat audiovisual per explorar els límits de la documentació. Des del món del documental fins a l'experiència televisiva, compartiran reptes, decisions creatives i anècdotes de rodatge que revelen tot allò que queda darrere de la càmera. Els Vermuts al MAC són espais de trobada i conversa que amplien la mirada sobre les exposicions temporals a través del diàleg entre artistes, investigadors i públic. En el marc de l'exposició \"Tèrbol.",
+      "es": "¿Qué implica capturar lo que parece imposible de filmar? ¿Cómo se construyen los relatos visuales en contextos extremos, inciertos o invisibles? En esta conversación, el documentalista Josep Maria Castellví y la periodista y realizadora Carmen Portilla pondrán en diálogo dos trayectorias vinculadas a la imagen y al relato audiovisual para explorar los límites de la documentación. Desde el mundo del documental hasta la experiencia televisiva, compartirán retos, decisiones creativas y anécdotas de rodaje que revelan todo lo que queda detrás de la cámara. Los Vermuts al MAC son espacios de encuentro y conversación que amplían la mirada sobre las exposiciones temporales a través del diálogo entre artistas, investigadores y público. En el marco de la exposición \"Tèrbol."
+    },
+    "direccion": "Passeig de Santa Madrona 39",
+    "disciplina": "cine",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/conversa-documentar-l-impossible-amb-josep-maria-castellvi-i-carmen-portilla_99400747789.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "12:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400747789",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/26M.760x428.3ba69ca3.jpg",
+    "lat": 41.370185413245146,
+    "lon": 2.1576640200328425,
+    "nombre": "Documentar l'impossible",
+    "precio_max": 7.0,
+    "precio_min": 7.0,
+    "sala": "Museu d'Arqueologia de Catalunya",
+    "sala_id": "barcelona:via316809-39",
+    "subtipo": "conferencia o coloquio",
+    "temas": {
+      "ca": [
+        "documental",
+        "relat audiovisual"
+      ],
+      "es": [
+        "documental",
+        "relato audiovisual"
+      ]
+    },
+    "tipo": "eventos",
     "traducido": "es"
   },
   "open_data_bcn:99400750066": {
@@ -383,6 +673,77 @@
       ]
     },
     "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400760251": {
+    "barrio": "l'Antiga Esquerra de l'Eixample",
+    "caducado": "2026-11-22",
+    "compra": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen",
+    "compra_sala": "https://teatrebalmes.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Ambientat en una illa remota amb una mansió ultramoderna, reuneix set desconeguts, cadascun amb un secret, i un amfitrió decidit a descobrir la veritat. El que comença com un cap de setmana de luxe es converteix en un joc retorçat de sospites, traïcions i assassinats inesperats. El públic no només és testimoni, sinó també còmplice, ja que participa activament triant l'assassí. L'obra combina humor disparatat, conspiracions surrealistes i números musicals inesperats, oferint una experiència interactiva i satírica sobre l'obsessió moderna per la fama i les xarxes socials. A punt per posar a prova el teu instint detectiuesc? Amb 'Se ha escrito un crimen', no només gaudiràs d'una obra plena de misteri i riallades, sinó que també tindràs l'oportunitat d'influir en el desenllaç.",
+      "es": "Ambientada en una isla remota con una mansión ultramoderna, reúne a siete desconocidos, cada uno con un secreto, y a un anfitrión decidido a descubrir la verdad. Lo que empieza como un fin de semana de lujo se convierte en un juego retorcido de sospechas, traiciones y asesinatos inesperados. El público no solo es testigo, sino también cómplice, ya que participa activamente eligiendo al asesino. La obra combina humor disparatado, conspiraciones surrealistas y números musicales inesperados, ofreciendo una experiencia interactiva y satírica sobre la obsesión moderna por la fama y las redes sociales. ¿Listo para poner a prueba tu instinto detectivesco? Con «Se ha escrito un crimen», no solo disfrutarás de una obra llena de misterio y carcajadas, sino que también tendrás la oportunidad de influir en el desenlace."
+    },
+    "direccion": "Carrer de Balmes 137",
+    "equipo": [
+      [
+        "direcció",
+        "Naim Thomas"
+      ],
+      [
+        "autor del guió i lletres",
+        "Naim Thomas"
+      ],
+      [
+        "música original",
+        "Pedro Chalkho / Naim Thomas"
+      ],
+      [
+        "coreografia",
+        "Ivanna Gómez"
+      ],
+      [
+        "disseny d'escenografia i llums",
+        "Naim Thomas / David León"
+      ]
+    ],
+    "ficha_fuente": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-se-ha-escrito-un-crimen-el-musical_99400760251.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "19:20"
+      ]
+    ],
+    "generos": [
+      "musical",
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400760251",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/sehaescritouncrimen.760x428.75c4167e.jpg",
+    "lat": 41.39362271652966,
+    "lon": 2.15675429900674,
+    "nombre": "Se ha escrito un crimen. El musical",
+    "pagina_obra": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen",
+    "precio_max": 22.0,
+    "precio_min": 20.0,
+    "sala": "Balmes Teatre",
+    "sala_id": "barcelona:via32700-137",
+    "temas": {
+      "ca": [
+        "misteri",
+        "fama i xarxes socials"
+      ],
+      "es": [
+        "misterio",
+        "fama y redes sociales"
+      ]
+    },
+    "tipo": "teatro",
     "traducido": "es"
   },
   "open_data_bcn:99400762210": {
@@ -678,6 +1039,93 @@
         "violencia machista"
       ]
     },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400767665": {
+    "barrio": "les Corts",
+    "caducado": "2026-11-22",
+    "comprobado": "2026-11-19",
+    "descripcion": {
+      "ca": "A càrrec de: De paper Edat recomanada: A partir de 4 anys Durada: 45 minuts Idioma: Català És hora de dinar, i cadascú s'espavila com pot per omplir la panxa. No s'hi val a badar. Un seguit d'accidents, malentesos i enganys fan que fins i tot els animals més espavilats acabin a la panxa d'algun company de fatigues. Cançons originals i fetes a mida que teixeixen un relat sorprenent i divertit, il·lustrat amb teatre d'ombres, teatrins de paper i titelles de cartó. Obriu bé els ulls i pareu les orelles! Aquesta programació forma part del circuit Escena. L'espectacle disposarà de les mesures d'accessibilitat següents: Espai tranquil per a infants amb autisme Cascs antisoroll",
+      "es": "A cargo de: De paper Edad recomendada: A partir de 4 años Duración: 45 minutos Idioma: Catalán Es hora de comer, y cada cual se las arregla como puede para llenar la barriga. No hay que distraerse. Una serie de accidentes, malentendidos y engaños hacen que incluso los animales más espabilados acaben en la barriga de algún compañero de fatigas. Canciones originales hechas a medida que tejen un relato sorprendente y divertido, ilustrado con teatro de sombras, teatrillos de papel y títeres de cartón. ¡Abrid bien los ojos y parad bien las orejas! Esta programación forma parte del circuito Escena. El espectáculo dispondrá de las siguientes medidas de accesibilidad: Espacio tranquilo para niños con autismo Cascos antirruido"
+    },
+    "direccion": "Carrer de Dolors Masferrer i Bosch 33",
+    "edad_min": 4,
+    "equipo": [
+      [
+        "direcció",
+        "Eudald Ferré i De paper"
+      ],
+      [
+        "a càrrec de",
+        "De"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-dins-la-panxa-del-llop_99400767665.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "12:00"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400767665",
+    "idioma_textos": "ca",
+    "idiomas": [
+      "catalan"
+    ],
+    "lat": 41.38495205031265,
+    "lon": 2.1281680265887797,
+    "nombre": "Dins la panxa del llop",
+    "publico": "familiar",
+    "sala": "Centre Cívic Tomasa Cuevas",
+    "sala_id": "barcelona:via202708-33",
+    "sala_interior": "Les Corts",
+    "temas": {
+      "ca": [
+        "malentesos",
+        "animals"
+      ],
+      "es": [
+        "malentendidos",
+        "animales"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400767861": {
+    "barrio": "Sant Andreu",
+    "caducado": "2026-11-22",
+    "comprobado": "2026-11-22",
+    "descripcion": {
+      "ca": "Representació teatral de la companyia Somni'TS - Teatre Solidari. Argument: Cinquanta anys després de la seva fundació, les persones que el van fundar lluiten per mantenirlo, i ho fan amb uns esquetxos espaterrants!.",
+      "es": "Representación teatral de la compañía Somni'TS - Teatre Solidari. Argumento: Cincuenta años después de su fundación, las personas que la fundaron luchan por mantenerla, ¡y lo hacen con unos esquetches desternillantes!."
+    },
+    "direccion": "Carrer de Coroleu 15",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-kabaret-kumbaia_99400767861.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "18:30"
+      ]
+    ],
+    "generos": [
+      "cabaret"
+    ],
+    "id": "open_data_bcn:99400767861",
+    "idioma_textos": "ca",
+    "lat": 41.4327447552922,
+    "lon": 2.1881472060373803,
+    "nombre": "Kabaret Kumbaià",
+    "sala": "Societat Cultural i Esportiva La Lira",
+    "sala_id": "barcelona:via91403-15",
     "tipo": "teatro",
     "traducido": "es"
   },
@@ -1097,6 +1545,69 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400781351": {
+    "barrio": "el Camp d'en Grassot i Gràcia Nova",
+    "caducado": "2026-11-22",
+    "compra": "https://www.salapangoli.com/producto/el-sindrome-netflix/",
+    "compra_sala": "https://www.salapangoli.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Arriba El Síndrome Netflix, una comèdia desenfrenada on res és el que sembla. Creada per l'equip de l'èxit Salir del Terrado, aquesta divertida història és el pla perfecte per airejar-se. I tu, ja has experimentat El Síndrome Netflix? El director de series más importante y reconocido del país no encuentra final para la serie más exitosa del momento. En su desesperación, decide proponerle una auténtica locura a su fiel ayudante Lolo para encontrar un final de la hostia que sorprenda a toda la audiencia. Lo que ninguno de los dos se imagina es que lo que pasará cuando se encuentren será algo inesperado, algo incluso más fuerte que el final que estaban buscando. Què passa quan un cap i un treballador que no se suporten descobreixen que tenen més en comú del que pensaven? Agafa el teu seient a la Sala Pangolí per descobrir-ho!",
+      "es": "Llega El Síndrome Netflix, una comedia desenfrenada donde nada es lo que parece. Creada por el equipo del éxito Salir del Terrado, esta divertida historia es el plan perfecto para airearse. ¿Y tú, ya has experimentado El Síndrome Netflix? El director de series más importante y reconocido del país no encuentra final para la serie más exitosa del momento. En su desesperación, decide proponerle una auténtica locura a su fiel ayudante Lolo para encontrar un final de la hostia que sorprenda a toda la audiencia. Lo que ninguno de los dos se imagina es que lo que pasará cuando se encuentren será algo inesperado, algo incluso más fuerte que el final que estaban buscando. ¿Qué pasa cuando un jefe y un trabajador que no se soportan descubren que tienen más en común de lo que pensaban? Ocupa tu butaca en la Sala Pangolí para descubrirlo"
+    },
+    "direccion": "C Bailèn 194",
+    "duracion": 60,
+    "equipo": [
+      [
+        "guió i direcció",
+        "Xavier miralles"
+      ],
+      [
+        "intèrprets",
+        "Kike Torres i Xavier Miralles"
+      ],
+      [
+        "companyia",
+        "El Gato Sonámbulo"
+      ]
+    ],
+    "ficha_fuente": "https://www.salapangoli.com/producto/el-sindrome-netflix/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-el-sindrome-netflix_99400781351.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400781351",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/netflix.760x428.f7d1a138.jpg",
+    "lat": 41.401562073396306,
+    "lon": 2.1647139955067414,
+    "nombre": "El Síndrome Netflix",
+    "pagina_obra": "https://www.salapangoli.com/producto/el-sindrome-netflix/",
+    "precio_max": 27.0,
+    "precio_min": 17.0,
+    "sala": "Teatre Sala Pangolí",
+    "sala_id": "barcelona:via31300-194",
+    "temas": {
+      "ca": [
+        "comèdia",
+        "relació cap i treballador"
+      ],
+      "es": [
+        "comedia",
+        "relación jefe y empleado"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400781890": {
     "artista": "Brujo",
     "barrio": "el Poble-sec",
@@ -1161,6 +1672,127 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400783524": {
+    "artista": "Cia. Xip Xap",
+    "barrio": "la Vila de Gràcia",
+    "caducado": "2026-11-22",
+    "compra": "https://www.lluisosteatre.cat/",
+    "compra_tipo": "sala",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Una de les coses que no sabíem de La veritable història dels tres porquets és que el més petit era una porqueta que somiava viatjar en moto i convertir-se en arquitecta. A partir d'aquesta divertida sorpresa, Xip Xap revisita un dels contes més populars de la tradició infantil amb humor, música i titelles. Entre cases de palla, fusta i maons, cançons que conviden a cantar i personatges que demanen la complicitat del públic, els infants descobriran petites variacions que transformen la història de sempre en una aventura plena de joc i imaginació. Al llarg del camí també aprendran les primeres paraules en anglès de manera natural i participativa, mentre acompanyen els porquets en les seves peripècies i s'enfronten a un llop que fa més riure que por. Una proposta divertida i participativa que convida a redescobrir els contes tradicionals amb una mirada actual, oberta i plena de sorpreses.",
+      "es": "Una de las cosas que no sabíamos de La verdadera historia de los tres cerditos es que el más pequeño era una cerdita que soñaba con viajar en moto y convertirse en arquitecta. A partir de esta divertida sorpresa, Xip Xap revisita uno de los cuentos más populares de la tradición infantil con humor, música y títeres. Entre casas de paja, madera y ladrillos, canciones que invitan a cantar y personajes que piden la complicidad del público, los niños descubrirán pequeñas variaciones que transforman la historia de siempre en una aventura llena de juego e imaginación. A lo largo del camino también aprenderán las primeras palabras en inglés de manera natural y participativa, mientras acompañan a los cerditos en sus peripecias y se enfrentan a un lobo que hace más reír que temer. Una propuesta divertida y participativa que invita a redescubrir los cuentos tradicionales con una mirada actual, abierta y llena de sorpresas."
+    },
+    "direccion": "Pl Nord 7",
+    "duracion": 50,
+    "edad_min": 3,
+    "equipo": [
+      [
+        "a càrrec de",
+        "Cia. Xip Xap"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-familiar-la-veritable-historia-dels-tres-porquets-a-carrec-de-la-cia-_99400783524.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "12:00"
+      ],
+      [
+        "2026-11-22",
+        "17:00"
+      ]
+    ],
+    "generos": [
+      "títeres"
+    ],
+    "id": "open_data_bcn:99400783524",
+    "idioma_textos": "ca",
+    "idiomas": [
+      "ingles"
+    ],
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/3porquets.760x428.767e98bd.jpg",
+    "lat": 41.407283425886,
+    "lon": 2.155566909674391,
+    "nombre": "La veritable història dels tres porquets",
+    "precio_max": 10.0,
+    "precio_min": 7.0,
+    "publico": "familiar",
+    "sala": "Lluïsos de Gràcia",
+    "sala_id": "barcelona:via229001-7",
+    "sala_interior": "Teatre",
+    "temas": {
+      "ca": [
+        "contes tradicionals",
+        "humor"
+      ],
+      "es": [
+        "cuentos tradicionales",
+        "humor"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400783565": {
+    "artista": "Ana Morgade, Andreu Casanova, David Cepo, Galder Varas",
+    "barrio": "la Dreta de l'Eixample",
+    "caducado": "2026-11-22",
+    "compra": "https://www.balanaenviu.com/espectaculo/mentes-peligrosas",
+    "compra_sala": "https://www.balanaenviu.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "No n'hi ha dues sense tres: després de l'èxit de Mentes 1 i Mentes 2, arriba el capítol definitiu: Mentes Peligrosas 3. Després que més de 200.000 persones s'unissin a la festa, la promoció més esbojarrada de la comèdia torna a reunir-se. A l'estil de les grans trilogies com Toy Story o Indiana Jones, els nostres «antics alumnes» tornen a l'escenari per demostrar que la maduresa és només una llegenda urbana. Una nova oportunitat per repetir la festa de què tothom parla, perquè si les dues primeres van ser èpiques, la tercera serà llegendària.",
+      "es": "¡No hay dos sin tres! Después del éxito de Mentes 1 y Mentes 2, llega el capítulo definitivo: Mentes Peligrosas 3. Después de que más de 200.000 personas se unieran a la fiesta, la promoción más alocada de la comedia vuelve a reunirse. Al estilo de las grandes trilogías como Toy Story o Indiana Jones, nuestros «antiguos alumnos» vuelven al escenario para demostrar que la madurez es solo una leyenda urbana. Una nueva oportunidad para repetir la fiesta de la que todo el mundo habla, porque si las dos primeras fueron épicas, la tercera será legendaria."
+    },
+    "direccion": "G.V. Corts Catalanes 595",
+    "duracion": 105,
+    "equipo": [
+      [
+        "amb",
+        "Ana Morgade, Andreu Casanova, David Cepo, Galder Varas"
+      ],
+      [
+        "Intérpretes",
+        "Ana Morgade, Andreu Casanova, David Cepo, Galder Varas, JJ Vaquero"
+      ]
+    ],
+    "ficha_fuente": "https://www.balanaenviu.com/espectaculo/mentes-peligrosas",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-mentes-peligrosas-amb-ana-morgade-andreu-casanova-david-cepo-galder-v_99400783565.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "20:30"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400783565",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/mentespeligrosas.760x428.845cc072.jpg",
+    "lat": 41.38819696920227,
+    "lon": 2.1661793796788946,
+    "nombre": "Mentes Peligrosas",
+    "pagina_obra": "https://www.balanaenviu.com/espectaculo/mentes-peligrosas",
+    "precio_max": 38.0,
+    "precio_min": 32.0,
+    "sala": "Teatre Coliseum",
+    "sala_id": "barcelona:via169409-595",
+    "temas": {
+      "ca": [
+        "retrobada d'antics alumnes"
+      ],
+      "es": [
+        "reencuentro de antiguos alumnos"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400784165": {
     "artista": "companyia Bragacadavra",
     "barrio": "l'Antiga Esquerra de l'Eixample",
@@ -1198,6 +1830,238 @@
       ]
     },
     "tipo": "circo",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400785002": {
+    "barrio": "l'Antiga Esquerra de l'Eixample",
+    "caducado": "2026-11-22",
+    "compra": "https://www.lavillarroel.cat/ca/ex/morning-sun/",
+    "compra_sala": "https://www.lavillarroel.cat/ca/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-22",
+    "descripcion": {
+      "ca": "Teatre. Una dona, una mare i la seva filla. El retrat de tota una vida sota les llums de la gran ciutat. Sinopsi La ciutat és viva. Joni Mitchell canta, els amics i els amants van i venen, i els clients habituals del bar de sempre canvien. A mesura que passen els anys, la vida d'una dona es revela en tota la seva complexitat, misteri i possibilitat en aquest apassionant text sobre mares i filles, inicis i finals a la ciutat de Nova York. Morning Sun presenta tres dones, tres vides que es despleguen amb les seves alegries i misèries, amb els seus triomfs i fracassos. A través del pas del temps, la peça retrata com la vida es transforma entre relacions, amistats i rutines quotidianes, mentre apareix la sensació creixent d'invisibilitat amb l'edat. Un relat íntim i realista sobre mares i filles, sobre els inicis i els finals, i sobre com canvia la mirada dels altres i d'una mateixa.",
+      "es": "Teatro. Una mujer, una madre y su hija. El retrato de toda una vida bajo las luces de la gran ciudad. Sinopsis La ciudad está viva. Joni Mitchell canta, los amigos y los amantes van y vienen, y los clientes habituales del bar de siempre cambian. Con el paso de los años, la vida de una mujer se revela en toda su complejidad, misterio y posibilidad en este apasionante texto sobre madres e hijas, comienzos y finales en la ciudad de Nueva York. Morning Sun presenta tres mujeres, tres vidas que se despliegan con sus alegrías y miserias, con sus triunfos y fracasos. A través del paso del tiempo, la pieza retrata cómo la vida se transforma entre relaciones, amistades y rutinas cotidianas, mientras aparece la sensación creciente de invisibilidad con la edad. Un relato íntimo y realista sobre madres e hijas, sobre los comienzos y los finales, y sobre cómo cambia la mirada de los demás y de una misma."
+    },
+    "direccion": "Villarroel 87",
+    "duracion": 90,
+    "equipo": [
+      [
+        "direcció",
+        "Pau Roca"
+      ],
+      [
+        "autoria",
+        "Simon Stephens"
+      ],
+      [
+        "intèrprets",
+        "Miriam Iscla, Anna Güell i Raquel Ferri"
+      ],
+      [
+        "traducció",
+        "Adriana Nadal"
+      ],
+      [
+        "ajudantia de direcció",
+        "Júlia Cortina"
+      ],
+      [
+        "regidoria",
+        "Bibi Guzman"
+      ],
+      [
+        "escenografia",
+        "Paula Bosch"
+      ],
+      [
+        "vestuari",
+        "Pol Cornudella"
+      ],
+      [
+        "producció",
+        "Focus i Sixto Paz Produccions"
+      ],
+      [
+        "producció executiva",
+        "Sixto Paz Produccions"
+      ],
+      [
+        "Disseny de llums",
+        "Quim Algora"
+      ],
+      [
+        "Disseny de so i composició musical",
+        "Guillem Rodriguez"
+      ],
+      [
+        "Moviment",
+        "Alba Saez"
+      ],
+      [
+        "Direcció de producció",
+        "Adriana Nadal, Pol Cornudella"
+      ],
+      [
+        "Direcció tècnica",
+        "Paula Bosch"
+      ],
+      [
+        "Cap tècnic del teatre",
+        "Andrés Piza"
+      ],
+      [
+        "Màrqueting i comunicació del teatre",
+        "La Villarroel"
+      ],
+      [
+        "Reportatge fotogràfic",
+        "Kiku Piñol"
+      ],
+      [
+        "Disseny gràfic",
+        "Edu Buch"
+      ],
+      [
+        "Distribució",
+        "Focus"
+      ]
+    ],
+    "ficha_fuente": "https://www.lavillarroel.cat/ca/ex/morning-sun/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-morning-sun_99400785002.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "id": "open_data_bcn:99400785002",
+    "idioma_textos": "ca",
+    "idiomas": [
+      "catalan"
+    ],
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/Morning_Sun.760x428.c2d8eabf.jpg",
+    "lat": 41.38454651248055,
+    "lon": 2.157517255862469,
+    "nombre": "Morning sun",
+    "pagina_obra": "https://www.lavillarroel.cat/ca/ex/morning-sun/",
+    "precio_max": 30.0,
+    "precio_min": 22.5,
+    "sala": "Villarroel Teatre",
+    "sala_id": "barcelona:via363809-87",
+    "temas": {
+      "ca": [
+        "mares i filles",
+        "pas del temps"
+      ],
+      "es": [
+        "madres e hijas",
+        "paso del tiempo"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400785016": {
+    "artista": "Queralt Riera",
+    "barrio": "l'Antiga Esquerra de l'Eixample",
+    "caducado": "2026-11-22",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Perdona'm cos meu és un tríptic de veus. Carme, Maricarme i Carmela expliquen, cadascuna des del seu relat, com la violència s'instal·la en les seves vides amb la mateixa naturalitat silenciosa amb què abans es matava el porc a casa: un ritual après, transmès, gairebé domèstic, que avui la llei ja no permet fer al pati però que continua repetint-se, invisible, entre quatre parets. Entre els testimonis de les tres dones s'hi entrellacen escenes breus i numerades, records d'infància, tradicions populars, cançons, la matança del porc, la mitologia grega, que van teixint una segona capa de sentit: la de com allò estructural es camufla en allò quotidià, i com la violència cap a les dones, igual que la carn de la truja, s'aprofita \"tot, menys els ulls\". La Carme arriba a un centre d'atenció a les dones empesa per casualitat i hi descobreix una paraula que no coneixia: amor propi.",
+      "es": "Perdóname cuerpo mío es un tríptico de voces. Carme, Maricarme y Carmela explican, cada una desde su relato, cómo la violencia se instala en sus vidas con la misma naturalidad silenciosa con que antes se mataba el cerdo en casa: un ritual aprendido, transmitido, casi doméstico, que hoy la ley ya no permite hacer en el patio pero que sigue repitiéndose, invisible, entre cuatro paredes. Entre los testimonios de las tres mujeres se entrelazan escenas breves y numeradas, recuerdos de infancia, tradiciones populares, canciones, la matanza del cerdo y la mitología griega, que van tejiendo una segunda capa de sentido: la de cómo lo estructural se camufla en lo cotidiano, y cómo la violencia hacia las mujeres, igual que la carne de la cerda, se aprovecha «todo, menos los ojos». Carme llega a un centro de atención a las mujeres empujada por casualidad y descubre allí una palabra que no conocía: amor propio."
+    },
+    "direccion": "C Buenos Aires 47",
+    "equipo": [
+      [
+        "direcció artística – internacional",
+        "Enrico Ianniello"
+      ],
+      [
+        "autoria",
+        "Queralt Riera"
+      ],
+      [
+        "text i direcció",
+        "Queralt Riera"
+      ],
+      [
+        "repartiment",
+        "Mireia Aixalà"
+      ],
+      [
+        "ajudantia de direcció",
+        "Laura Calvet"
+      ],
+      [
+        "disseny de so",
+        "Sergi Andrades i"
+      ],
+      [
+        "vestuari",
+        "Teté Company"
+      ],
+      [
+        "escenografia",
+        "Nando Purcalla"
+      ],
+      [
+        "traducció de les cançons",
+        "Núria Busquet i"
+      ],
+      [
+        "equip teatre akadèmia",
+        "Gerència i Cap de producció"
+      ],
+      [
+        "tècnic auxiliar",
+        "Víctor Castro"
+      ],
+      [
+        "cap de sala i taquilla",
+        "Xavi Gómez"
+      ],
+      [
+        "una producció de",
+        "Magrana Escena i"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-perdona-m-cos-meu-de-queralt-riera_99400785016.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "id": "open_data_bcn:99400785016",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/cosmeu.760x428.737c21b6.jpg",
+    "lat": 41.39273206412949,
+    "lon": 2.147291361246493,
+    "nombre": "Perdona’m cos meu",
+    "precio_max": 26.0,
+    "precio_min": 26.0,
+    "sala": "Teatre Akadèmia",
+    "sala_id": "barcelona:via51205-47",
+    "temas": {
+      "ca": [
+        "violència contra les dones",
+        "amor propi"
+      ],
+      "es": [
+        "violencia contra las mujeres",
+        "amor propio"
+      ]
+    },
+    "tipo": "teatro",
     "traducido": "es"
   },
   "open_data_bcn:99400785157": {
@@ -1720,6 +2584,120 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400787032": {
+    "artista": "Mariona Esplugues",
+    "barrio": "el Barri Gòtic",
+    "caducado": "2026-11-22",
+    "compra": "https://elmalda.cat/espectacle/calla-nena/",
+    "compra_sala": "https://elmalda.cat/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "Calla, nena, és un espectacle de ficció que parla de l'autoestima de les dones i la repressió de l'educació. De filles i mares buscant la seva identitat. Filles cansades i mares cansades. Mares amb ganes de connexió i filles amb ganes de volar. Mares que també van ser filles. Totes dues trobant les seves habitacions pròpies en un món que els exigeix sempre més. Més guapes, més llestes, més divertides. Més. Així, com a concepte. Més. Fotografia: MW Fotografia Cap tècnic: Gerard Bosch Premsa i comunicació: Nil Martín Producció executiva i distribució: Tot Produccions (Cristina Ferrer) Espectacle seleccionat per la Beca Barcelona Crea",
+      "es": "Calla, nena es un espectáculo de ficción que habla de la autoestima de las mujeres y de la represión de la educación. De hijas y madres buscando su identidad. Hijas cansadas y madres cansadas. Madres con ganas de conexión e hijas con ganas de volar. Madres que también fueron hijas. Ambas encontrando sus habitaciones propias en un mundo que les exige siempre más. Más guapas, más listas, más divertidas. Más. Así, como concepto. Más. Fotografía: MW Fotografia Jefe técnico: Gerard Bosch Prensa y comunicación: Nil Martín Producción ejecutiva y distribución: Tot Produccions (Cristina Ferrer) Espectáculo seleccionado por la Beca Barcelona Crea"
+    },
+    "direccion": "C Pi 5",
+    "duracion": 60,
+    "equipo": [
+      [
+        "direcció escènica",
+        "Montse Rodríguez"
+      ],
+      [
+        "dramatúrgia",
+        "Mariona Esplugues"
+      ],
+      [
+        "amb",
+        "Mariona Esplugues"
+      ],
+      [
+        "intèrprets",
+        "Rosa May (mare) i Mariona Esplugues (filla)"
+      ],
+      [
+        "assessorament artístic i dramatúrgic",
+        "Andrea Castellanos"
+      ],
+      [
+        "disseny d'espai sonor",
+        "Gerard Bosch"
+      ],
+      [
+        "composició musical",
+        "Pep Lladó"
+      ],
+      [
+        "vestuari i caracterització",
+        "Andrea Castellanos"
+      ],
+      [
+        "disseny d' il·luminació",
+        "Paula Costas"
+      ],
+      [
+        "Fotografia",
+        "MW Fotografia"
+      ],
+      [
+        "Cap tècnic",
+        "Gerard Bosch"
+      ],
+      [
+        "Premsa i comunicació",
+        "Nil Martín"
+      ],
+      [
+        "Producció executiva i distribució",
+        "Tot Produccions (Cristina Ferrer)"
+      ]
+    ],
+    "ficha_fuente": "https://elmalda.cat/espectacle/calla-nena/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/lectura-dramatitzada-calla-nena-amb-mariona-esplugues_99400787032.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "lectura dramatizada"
+    ],
+    "id": "open_data_bcn:99400787032",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/callanena.760x428.a1b344d6.jpg",
+    "lat": 41.38316871916782,
+    "lon": 2.1739331803151103,
+    "nombre": "Calla, nena",
+    "pagina_obra": "https://elmalda.cat/espectacle/calla-nena/",
+    "precio_max": 5.0,
+    "precio_min": 5.0,
+    "premios": [
+      {
+        "ca": "Beca Barcelona Crea 2026",
+        "cita": "Aquesta obra ha rebut una Beca Barcelona Crea 2026",
+        "es": "Beca Barcelona Crea 2026",
+        "origen": "web"
+      }
+    ],
+    "sala": "Teatre El Maldà",
+    "sala_id": "barcelona:via256004-5",
+    "temas": {
+      "ca": [
+        "autoestima",
+        "mares i filles",
+        "pressió social"
+      ],
+      "es": [
+        "autoestima",
+        "madres e hijas",
+        "presión social"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400787052": {
     "artista": "Oye Sherman i Andrés Fajngold",
     "barrio": "la Vila de Gràcia",
@@ -1768,6 +2746,98 @@
       "es": [
         "humor",
         "improvisación"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400788128": {
+    "artista": "Iannis Ristos",
+    "barrio": "el Putxet i el Farró",
+    "caducado": "2026-11-22",
+    "compra": "https://teatresdelfarro.com/espectacle/sonata-del-clar-de-lluna-cat/",
+    "compra_sala": "https://teatresdelfarro.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Al saló d'una casa antiga d'Atenes, un vespre de primavera, prop del piano, el poeta grec Iannis Ristos dibuixa un món grec en decadència, la vella Europai l'anhel de llibertat.",
+      "es": "En el salón de una casa antigua de Atenas, una tarde de primavera, junto al piano, el poeta griego Iannis Ristos dibuja un mundo griego en decadencia, la vieja Europa y el anhelo de libertad."
+    },
+    "direccion": "C Gleva 19",
+    "equipo": [
+      [
+        "autoria",
+        "Iannis Ristos"
+      ],
+      [
+        "Traducció",
+        "Joan Casas Fuster"
+      ],
+      [
+        "Direcció escènica i dramatúrgia",
+        "Gerard Bidegain, Figuerola"
+      ],
+      [
+        "Actriu",
+        "Montse Alcoverro"
+      ],
+      [
+        "Piano",
+        "Joel Díaz Vilà"
+      ],
+      [
+        "Ajudantia de direcció",
+        "Zúbel Arana"
+      ],
+      [
+        "Espai escènic i imatge",
+        "Rafa Haro"
+      ],
+      [
+        "Vestuari i il·luminació",
+        "Marta Rodríguez Rojas"
+      ],
+      [
+        "Fotografies",
+        "May Cirkus"
+      ],
+      [
+        "Cartell",
+        "Pau Oliver"
+      ],
+      [
+        "Producció",
+        "Teorema Teatre"
+      ]
+    ],
+    "ficha_fuente": "https://teatresdelfarro.com/espectacle/sonata-del-clar-de-lluna-cat/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-sonata-del-clar-de-lluna-de-iannis-ristos_99400788128.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400788128",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/sonata.760x428.c52a7ea7.jpg",
+    "lat": 41.40327153606098,
+    "lon": 2.1459172219406413,
+    "nombre": "Sonata del Clar de Lluna",
+    "pagina_obra": "https://teatresdelfarro.com/espectacle/sonata-del-clar-de-lluna-cat/",
+    "precio_max": 16.0,
+    "precio_min": 16.0,
+    "sala": "Teatre La Gleva",
+    "sala_id": "barcelona:via146709-19",
+    "temas": {
+      "ca": [
+        "decadència",
+        "llibertat"
+      ],
+      "es": [
+        "decadencia",
+        "libertad"
       ]
     },
     "tipo": "teatro",
@@ -1884,6 +2954,55 @@
       "es": [
         "identidad",
         "crisis de los 40"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400788633": {
+    "barrio": "la Sagrada Família",
+    "caducado": "2026-11-22",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "\"Le Petit Cubert\" és una comèdia familiar àgil i participativa que, a través del joc teatral, la dansa i la interacció amb el públic, promou l'alimentació variada i equilibrada, el producte de proximitat, els bons hàbits, el moviment físic, el descans i el benestar emocional. Les activitats de la Clariana que coordina la Xarxa d'Equipaments Ambientals de Barcelona (XEAB) s'organitzen els diumenges al matí a la zona de gespa que toca a l'Àrea de Joc Infantil del Parc de Glòries. Unes propostes que tornen a complementar l'oci familiar amb l'adquisició de nous coneixements i, sobretot, nous hàbits diaris més sostenibles. Una proposta ideal per passar un matí diferent, educatiu i ple d'encant a l'aire lliure.",
+      "es": "\"Le Petit Cubert\" es una comedia familiar ágil y participativa que, a través del juego teatral, la danza y la interacción con el público, promueve la alimentación variada y equilibrada, el producto de proximidad, los buenos hábitos, el movimiento físico, el descanso y el bienestar emocional. Las actividades de la Clariana que coordina la Xarxa d'Equipaments Ambientals de Barcelona (XEAB) se organizan los domingos por la mañana en la zona de césped que linda con el Área de Juego Infantil del Parque de Glòries. Propuestas que vuelven a complementar el ocio familiar con la adquisición de nuevos conocimientos y, sobre todo, nuevos hábitos diarios más sostenibles. Una propuesta ideal para pasar una mañana diferente, educativa y llena de encanto al aire libre."
+    },
+    "direccion": "Plaça de les Glòries Catalanes 15",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-le-petit-cubert_99400788633.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "11:00"
+      ],
+      [
+        "2026-11-22",
+        "13:30"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400788633",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/22_novembre_Le_petit_cubert.760x428.a933a70f.jpg",
+    "lat": 41.40383120227613,
+    "lon": 2.185670880236525,
+    "nombre": "Le Petit Cubert",
+    "publico": "familiar",
+    "sala": "La Gran Clariana",
+    "sala_id": "barcelona:via146902-15",
+    "temas": {
+      "ca": [
+        "alimentació saludable",
+        "sostenibilitat",
+        "benestar emocional"
+      ],
+      "es": [
+        "alimentación saludable",
+        "sostenibilidad",
+        "bienestar emocional"
       ]
     },
     "tipo": "teatro",
@@ -2127,6 +3246,113 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400789169": {
+    "artista": "Teatro sur (Xile)",
+    "barrio": "el Raval",
+    "caducado": "2026-11-22",
+    "compra": "https://tantarantana.com/production/yeguas-sueltas-teatre-26-27/",
+    "compra_sala": "http://www.tantarantana.com",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-07",
+    "descripcion": {
+      "ca": "<< Una revisió de la primera revolta homosexual del país >> Escrita i dirigida per Ernesto Orellana, revisita la primera revolta homosexual del país, realitzada el 22 d'abril de 1973 a Santiago durant la Unitat Popular. Basada en arxius de premsa i entrevistes a supervivents, recopila la memòria de les homosexuals, travestis i transsexuals que van exigir igualtat als anys 70. Interpretada per un repartiment trans/travesti, l'obra uneix teatre contemporani, memòria política i activisme queer per resignificar un insult històric i visibilitzar els drets LGTBIQA+ d'ahir i d'avui.",
+      "es": "<< Una revisión de la primera revuelta homosexual del país >> Escrita y dirigida por Ernesto Orellana, revisita la primera revuelta homosexual del país, realizada el 22 de abril de 1973 en Santiago durante la Unidad Popular. Basada en archivos de prensa y entrevistas a supervivientes, recopila la memoria de las homosexuales, travestis y transexuales que exigieron igualdad en los años 70. Interpretada por un reparto trans/travesti, la obra une teatro contemporáneo, memoria política y activismo queer para resignificar un insulto histórico y visibilizar los derechos LGTBIQA+ de ayer y de hoy."
+    },
+    "direccion": "Carrer de les Flors 22",
+    "duracion": 70,
+    "equipo": [
+      [
+        "direcció",
+        "Ernesto Orellana"
+      ],
+      [
+        "a càrrec de",
+        "Teatro sur (Xile)"
+      ],
+      [
+        "Direcció i dramatúrgia",
+        "Ernes Orellana Gómez"
+      ],
+      [
+        "Interpretació",
+        "Lorenza Quezada, Ymar Fuentes Morán, Mala Reyes, Bruna Ramírez"
+      ],
+      [
+        "Disseny d’escenografia i vestuari",
+        "Jorge Zambrano"
+      ],
+      [
+        "Disseny d’il·luminació",
+        "Catalina Devia"
+      ],
+      [
+        "Disseny audiovisual",
+        "Wincy Oyarce"
+      ],
+      [
+        "Univers sonor",
+        "Marcello Martínez"
+      ],
+      [
+        "Producció general i assistència de direcció",
+        "Macarena Guzmán"
+      ],
+      [
+        "Realitzadores de vestuari",
+        "Muriel Parra, Javiera Labbé, Althia Cepeceda"
+      ],
+      [
+        "Encarregada de premsa",
+        "Francisca Palma"
+      ],
+      [
+        "Equip de fotografia",
+        "Registro Contracultural (Marlene Echeverria, Andrés Valenzuela, Charlie Di Ferrera)"
+      ],
+      [
+        "Assessoria històrica",
+        "Eva la Medallita, Marcela Di Monti, Raquel Troncoso, Lucha Venegas, Alejandra Soto"
+      ]
+    ],
+    "ficha_fuente": "https://tantarantana.com/production/yeguas-sueltas-teatre-26-27/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-yeguas-sueltas-a-carrec-de-teatro-sur-xile_99400789169.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "teatro documental"
+    ],
+    "id": "open_data_bcn:99400789169",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/yeguassueltas.760x428.dc5a7b47.jpg",
+    "lat": 41.37596959387577,
+    "lon": 2.1673789423748864,
+    "nombre": "Yeguas sueltas",
+    "pagina_obra": "https://tantarantana.com/production/yeguas-sueltas-teatre-26-27/",
+    "precio_max": 23.0,
+    "precio_min": 14.0,
+    "sala": "Tantarantana Teatre",
+    "sala_id": "barcelona:via127409-22",
+    "sala_interior": "Baixos 22",
+    "temas": {
+      "ca": [
+        "memòria política",
+        "drets LGTBIQA+",
+        "activisme queer"
+      ],
+      "es": [
+        "memoria política",
+        "derechos LGTBIQA+",
+        "activismo queer"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400789295": {
     "barrio": "Vilapicina i la Torre Llobeta",
     "caducado": "2026-11-19",
@@ -2177,6 +3403,60 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400789356": {
+    "barrio": "la Vila de Gràcia",
+    "caducado": "2026-11-22",
+    "compra": "https://www.entrapolis.com/entradas/teatre-de-fet-amor",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-22",
+    "descripcion": {
+      "ca": "Què tenen en comú un primer ministre enamorat, una dona que sospita que el seu marit li amaga alguna cosa, un nen decidit a conquerir el seu primer amor, un escriptor amb el cor trencat i un músic que vol recuperar la seva carrera? Que és Nadal, que viuen a Londres i que les seves vides estan molt més connectades del que sembla! «De fet, amor» ens porta a un món de declaracions d'amor, embolics, gelosies, cançons, regals equivocats i decisions precipitades, en una comèdia romàntica que ens convida a descobrir les moltes formes que pot adoptar l'amor. Una història plena d'humor, emocions i situacions inesperades sobre una cosa que tots coneixem molt bé: estimar. No us perdeu aquesta proposta teatral dirigida per Marta Huguet!",
+      "es": "¿Qué tienen en común un primer ministro enamorado, una mujer que sospecha que su marido le oculta algo, un niño decidido a conquistar su primer amor, un escritor con el corazón roto y un músico que quiere recuperar su carrera? ¡Que es Navidad, que viven en Londres y que sus vidas están mucho más conectadas de lo que parece! «De fet, amor» nos lleva a un mundo de declaraciones de amor, enredos, celos, canciones, regalos equivocados y decisiones precipitadas, en una comedia romántica que nos invita a descubrir las muchas formas que puede adoptar el amor. Una historia llena de humor, emociones y situaciones inesperadas sobre algo que todos conocemos muy bien: amar. ¡No os perdáis esta propuesta teatral dirigida por Marta Huguet!"
+    },
+    "direccion": "C Ros de Olano 9",
+    "equipo": [
+      [
+        "direcció",
+        "Marta Huguet"
+      ]
+    ],
+    "ficha_fuente": "https://www.entrapolis.com/entradas/teatre-de-fet-amor",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-de-fet-amor_99400789356.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "21:30"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "id": "open_data_bcn:99400789356",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/573541793002305_1.760x428.ba47dcad.jpg",
+    "lat": 41.401146769851316,
+    "lon": 2.1547866439174417,
+    "nombre": "De fet, amor",
+    "pagina_obra": "https://www.entrapolis.com/entradas/teatre-de-fet-amor",
+    "precio_max": 12.0,
+    "precio_min": 7.0,
+    "sala": "Centre Moral i Instructiu de Gràcia",
+    "sala_id": "barcelona:via288102-9",
+    "sala_interior": "Teatre",
+    "temas": {
+      "ca": [
+        "amor",
+        "comèdia romàntica"
+      ],
+      "es": [
+        "amor",
+        "comedia romántica"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400789410": {
     "barrio": "la Vila de Gràcia",
     "caducado": "2026-11-17",
@@ -2203,6 +3483,109 @@
     "sala": "Teatre Golem's",
     "sala_id": "barcelona:via306306-64",
     "tipo": "teatro"
+  },
+  "open_data_bcn:99400789477": {
+    "artista": "cia. )e( espai en construcció",
+    "barrio": "el Poble-sec",
+    "caducado": "2026-11-22",
+    "compra": "https://www.daualsecartsesceniques.cat/ca/programacio/c/272-et-vindre-a-tapar.html",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Esperar sense esperança és l'acte més heroic que hi ha. 1940. Quan el Joan no torna, la Maria decideix anar-lo a buscar. L'han vist per última vegada al costat del riu. Et vindré a tapar és el viatge de tres amigues per trobar el marit desaparegut d'una d'elles en un ambient de postguerra. Inspirada en fets reals, l'obra aborda la memòria històrica i el dolor de les famílies dels milers de desapareguts de la Guerra Civil, reflexionant sobre l'espera, la pèrdua i la recerca de la veritat. Fotografia: Teresa Zafón i Justin Brown Disseny gràfic: Sepjo Llavi Agraïments: Montse Bernad, Evelin Mansilla, Roser Farré, Albert Navarro, Nacho Benavides, Marta Roda, Marta Vega, Maribel Fernández, Jordi Algué, La Vilella Teatre, La Seca-Espai Brossa, Centre de creació i formació El Timbal i a les nostres àvies.",
+      "es": "Esperar sin esperanza es el acto más heroico que existe. 1940. Cuando Joan no vuelve, Maria decide ir a buscarlo. Lo han visto por última vez junto al río. Et vindré a tapar es el viaje de tres amigas para encontrar al marido desaparecido de una de ellas en un ambiente de posguerra. Inspirada en hechos reales, la obra aborda la memoria histórica y el dolor de las familias de los miles de desaparecidos de la Guerra Civil, reflexionando sobre la espera, la pérdida y la búsqueda de la verdad. Fotografía: Teresa Zafón i Justin Brown Diseño gráfico: Sepjo Llavi Agradecimientos: Montse Bernad, Evelin Mansilla, Roser Farré, Albert Navarro, Nacho Benavides, Marta Roda, Marta Vega, Maribel Fernández, Jordi Algué, La Vilella Teatre, La Seca-Espai Brossa, Centre de creació i formació El Timbal y a nuestras abuelas."
+    },
+    "direccion": "Carrer de Salvà 86",
+    "duracion": 75,
+    "equipo": [
+      [
+        "direcció i text",
+        "Roger Ribó"
+      ],
+      [
+        "intèrprets",
+        "Maite Bassa, Alba Rosa i Blanca Solé"
+      ],
+      [
+        "composició musical",
+        "Pedro González"
+      ],
+      [
+        "violinista",
+        "Núria Domènech"
+      ],
+      [
+        "disseny de vestuari",
+        "Carme Clua"
+      ],
+      [
+        "disseny de llums",
+        "Pau Juny"
+      ],
+      [
+        "tècnic",
+        "Pau Segura"
+      ],
+      [
+        "cant",
+        "Marc Domínguez"
+      ],
+      [
+        "producció",
+        "Montse Enguita i Elisenda Ribó"
+      ],
+      [
+        "Fotografia",
+        "Teresa Zafón, Justin Brown"
+      ],
+      [
+        "Disseny gràfic",
+        "Sepjo Llavi"
+      ]
+    ],
+    "ficha_fuente": "https://www.daualsecartsesceniques.cat/ca/programacio/c/272-et-vindre-a-tapar.html",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-et-vindre-a-tapar-a-carrec-de-la-cia-e-espai-en-construccio_99400789477.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "18:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "id": "open_data_bcn:99400789477",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/TEATRE-BARCELONA-CARTELL-ET-VINDRE-A-TAPAR.760x428.c63ba24c.jpg",
+    "lat": 41.37132495318816,
+    "lon": 2.1648398964617215,
+    "nombre": "Et vindré a tapar",
+    "pagina_obra": "https://www.daualsecartsesceniques.cat/ca/programacio/c/272-et-vindre-a-tapar.html",
+    "precio_max": 19.0,
+    "precio_min": 19.0,
+    "premios": [
+      {
+        "ca": "Premi a la millor interpretació conjunta al XII CENIT (Certamen de Nuevos Investigadores Teatrales) organitzat per la companyia Atalaya al Teatro TNT de Sevilla",
+        "cita": "Premi a la millor interpretació conjunta al XII CENIT (Certamen de Nuevos Investigadores Teatrales) organitzat per la companyia Atalaya al Teatro TNT de Sevilla.",
+        "es": "Premio a la mejor interpretación conjunta en el XII CENIT (Certamen de Nuevos Investigadores Teatrales) organizado por la compañía Atalaya en el Teatro TNT de Sevilla",
+        "origen": "web"
+      }
+    ],
+    "sala": "Dau al Sec. Espai d'Arts Escèniques",
+    "sala_id": "barcelona:via294207-86",
+    "temas": {
+      "ca": [
+        "memòria històrica",
+        "pèrdua i recerca de la veritat"
+      ],
+      "es": [
+        "memoria histórica",
+        "pérdida y búsqueda de la verdad"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
   },
   "open_data_bcn:99400789504": {
     "artista": "Cris Codina - Viu el Teatre",
@@ -2426,6 +3809,43 @@
         "superar los miedos"
       ]
     },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400789936": {
+    "barrio": "la Sagrera",
+    "caducado": "2026-11-22",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A càrrec de la Companyia Teatral Fuera Bromas Show d'improvisació",
+      "es": "A cargo de la Compañía Teatral Fuera Bromas, espectáculo de improvisación"
+    },
+    "direccion": "Plaça de Masadas 1",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Companyia Teatral Fuera Bromas"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-fuera-de-guion_99400789936.html",
+    "funciones": [
+      [
+        "2026-11-22",
+        "12:00"
+      ]
+    ],
+    "generos": [
+      "improvisación"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789936",
+    "idioma_textos": "ca",
+    "lat": 41.42477861734779,
+    "lon": 2.189978175911753,
+    "nombre": "Fuera de guión",
+    "sala": "Plaça Masadas",
+    "sala_id": "barcelona:via202402-1",
     "tipo": "teatro",
     "traducido": "es"
   },
@@ -2774,6 +4194,41 @@
     },
     "tipo": "teatro",
     "traducido": "es"
+  },
+  "webs_salas:38efdd2f66ea1005": {
+    "barrio": "el Poblenou",
+    "caducado": "2026-11-22",
+    "compra": "https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-22",
+    "direccion": "C Pujades 176",
+    "equipo": [
+      [
+        "Direcció",
+        "Marçal Olivé"
+      ]
+    ],
+    "ficha_fuente": "https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/",
+    "fuente": "Centre Moral i Cultural del Poblenou (web oficial)",
+    "fuente_url": "http://www.elcentrepoblenou.cat",
+    "funciones": [
+      [
+        "2026-11-22"
+      ]
+    ],
+    "generos": [
+      "musical"
+    ],
+    "id": "webs_salas:38efdd2f66ea1005",
+    "idioma_textos": "ca",
+    "imagen": "https://elcentrepoblenou.cat/wp-content/uploads/2026/06/Cartell_Botiga-scaled.jpg",
+    "lat": 41.401133285381995,
+    "lon": 2.200145848591939,
+    "nombre": "La Botiga dels horrors",
+    "pagina_obra": "https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/",
+    "sala": "Centre Moral i Cultural del Poblenou",
+    "sala_id": "barcelona:via270901-176",
+    "tipo": "teatro"
   },
   "webs_salas:c704f5c981bcb96c": {
     "barrio": "Sant Pere, Santa Caterina i la Ribera",
