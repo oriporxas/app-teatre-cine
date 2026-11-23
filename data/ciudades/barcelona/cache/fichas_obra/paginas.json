@@ -57,6 +57,21 @@
     "firma": "d449dddd0a764fa8",
     "imagen": "https://elcentrepoblenou.cat/wp-content/uploads/2026/06/Cartell_Botiga-scaled.jpg"
   },
+  "https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Direcció",
+          "Núria, Josep Maria Recasens"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-23",
+    "firma": "6faacbf0d954eb18",
+    "imagen": "https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-PASSAT-EL-RIU-1.png"
+  },
   "https://elmalda.cat/espectacle/bisila/": {
     "datos": {
       "duracion": 60,

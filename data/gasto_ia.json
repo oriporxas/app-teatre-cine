@@ -70,15 +70,15 @@
   },
   "2026-11-23": {
     "por_tarea": {
-      "clasificar": 0.1189,
-      "eventos_cine": 0.0002,
-      "fichas_obra": 0.0049,
+      "clasificar": 0.2133,
+      "eventos_cine": 0.0003,
+      "fichas_obra": 0.0052,
       "fichas_personas": 0.1224,
-      "leer_webs": 0.0282,
-      "noticias": 0.0084,
-      "revisar_dudosos": 0.0735,
-      "traducir": 0.0077
+      "leer_webs": 0.0411,
+      "noticias": 0.0317,
+      "revisar_dudosos": 0.1058,
+      "traducir": 0.0105
     },
-    "usd": 0.3642
+    "usd": 0.5304
   }
 }

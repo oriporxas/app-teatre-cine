@@ -1,5 +1,12 @@
 {
   "busqueda": {
+    "a-carrec-de-sinofos-teatre": {
+      "fecha": "2026-11-23",
+      "motivo": "ninguna",
+      "nombre": "A càrrec de Sinofos teatre",
+      "tmdb": null,
+      "v": 2
+    },
     "a-determinar": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -6958,6 +6965,13 @@
       "tmdb": 4743010,
       "v": 2
     },
+    "joan-martinez": {
+      "fecha": "2026-11-23",
+      "motivo": "ninguna",
+      "nombre": "Joan Martínez",
+      "tmdb": null,
+      "v": 2
+    },
     "joan-mateo": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -9722,6 +9736,13 @@
       "nombre": "Maria Molist",
       "tmdb": null,
       "v": 1
+    },
+    "maria-oliver": {
+      "fecha": "2026-11-23",
+      "motivo": "ninguna",
+      "nombre": "Maria Oliver",
+      "tmdb": null,
+      "v": 2
     },
     "maria-palazon": {
       "fecha": "2026-11-19",
@@ -13726,6 +13747,13 @@
       "nombre": "Simon Stephens",
       "tmdb": null,
       "v": 1
+    },
+    "sin-memoriam-teatre-band": {
+      "fecha": "2026-11-23",
+      "motivo": "ninguna",
+      "nombre": "Sin Memoriam Teatre Band",
+      "tmdb": null,
+      "v": 2
     },
     "sira-abenoza": {
       "fecha": "2026-11-22",
@@ -53480,13 +53508,18 @@
             "Montse"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu catalana",
+          "es": "actriz española"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/pE7URsKqz7LgkLgXReOHczfZMZp.jpg",
         "lugar": "Sant Cugat del Vallès, Catalonia, Spain",
         "nacimiento": "1959-04-06",
         "nombre": "Emma Vilarasau",
         "oficio": "Acting",
         "tmdb": 58285,
-        "wikidata": "Q2372851"
+        "wikidata": "Q2372851",
+        "wikipedia": "https://es.wikipedia.org/wiki/Emma_Vilarasau"
       },
       "fecha": "2026-11-23"
     },
@@ -60940,6 +60973,14 @@
     }
   },
   "wikidata": {
+    "Q100152786": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-23",
+      "wikipedia": null
+    },
     "Q100194041": {
       "descripcion": {
         "es": "escritor y comediante estadounidense"
@@ -61093,6 +61134,14 @@
     "Q107997975": {
       "descripcion": {
         "ca": "actor català"
+      },
+      "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q108199976": {
+      "descripcion": {
+        "ca": "actriu catalana",
+        "es": "actriz española"
       },
       "fecha": "2026-11-23",
       "wikipedia": null
@@ -61641,6 +61690,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Yuval_Abraham"
+    },
+    "Q125219887": {
+      "descripcion": {
+        "ca": "actor català"
+      },
+      "fecha": "2026-11-23",
+      "wikipedia": null
     },
     "Q125310919": {
       "descripcion": {
@@ -64300,6 +64356,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ail%C3%ADn_Salas"
     },
+    "Q56652415": {
+      "descripcion": {
+        "ca": "dramaturga i professora de teatre argentina",
+        "es": "Dramaturga y docente teatral"
+      },
+      "fecha": "2026-11-23",
+      "wikipedia": "https://es.wikipedia.org/wiki/Victoria_Szpunberg"
+    },
     "Q5675218": {
       "descripcion": {
         "ca": "actriu catalana",
@@ -64450,6 +64514,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Luis_Bermejo"
+    },
+    "Q60053085": {
+      "descripcion": {
+        "es": "director y escenógrafo teatral español (1961-)"
+      },
+      "fecha": "2026-11-23",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ramon_Sim%C3%B3"
     },
     "Q60429893": {
       "descripcion": {
@@ -64928,6 +64999,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Cary_Grant"
+    },
+    "Q8346586": {
+      "descripcion": {
+        "ca": "actriu catalana de cinema, teatre i televisió (naix. 1974)",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-23",
+      "wikipedia": "https://es.wikipedia.org/wiki/Clara_Segura"
     },
     "Q86447947": {
       "descripcion": {

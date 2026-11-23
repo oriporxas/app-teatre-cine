@@ -10,216 +10,11 @@
       "titulo": "Cinema per a tota la família 'Tot allò que balla"
     },
     {
-      "anio": 2026,
-      "caducado": "2026-11-22",
-      "cartel": "https://image.tmdb.org/t/p/w500/rkoVLCKCqVCo3c7u4QktJf2ATEM.jpg",
-      "duracion": 60,
-      "edad": "Ai",
-      "estreno": "2026-11-14",
-      "fondo": "https://image.tmdb.org/t/p/w1280/cetFNvBn6N5JkdjeJB18xRUHvFg.jpg",
-      "generos": [
-        "Animación",
-        "Familia"
-      ],
-      "id": "tmdb-1778515",
-      "idioma_original": "en",
-      "imdb": "tt46666063",
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
-          "id": 59070,
-          "nombre": "Morwenna Banks",
-          "premios": [
-            {
-              "anio": 2015,
-              "premio": "Tinniswood Award",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q6915202"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
-          "id": 6645,
-          "nombre": "Richard Ridings",
-          "premios": [],
-          "wikidata": "Q3431161"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/2sAIKIeHia3k2SVJB0oyJQz7QoN.jpg",
-          "id": 2769219,
-          "nombre": "Amelie Bea Smith",
-          "premios": [],
-          "wikidata": "Q95233135"
-        }
-      ],
-      "sinopsis": {
-        "en": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
-        "es": "Hay divas que no necesitan presentación y Peppa Pig es una de ellas. Esta vez, la popular cerdita y su familia se preparan para celebrar una ocasión muy especial: la primera Navidad de la pequeña Evie, la nueva integrante de la familia. Entre aventuras en la nieve, representaciones navideñas y los preparativos para decorar el árbol, Peppa, George y sus seres queridos compartirán algunos de sus momentos favoritos de estas fiestas navideñas."
-      },
-      "titulo": "Diversión Navideña con Peppa: La Experiencia en Cines",
-      "titulo_original": "Festive Fun with Peppa",
-      "tmdb": 1778515
-    },
-    {
       "agenda": "open_data_bcn:99400786556",
       "caducado": "2026-11-22",
       "gratis": true,
       "id": "p-t-el-secret-de-la-mallarenga",
       "titulo": "El secret de la mallarenga"
-    },
-    {
-      "anio": 2026,
-      "caducado": "2026-11-22",
-      "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
-          "id": 1454651,
-          "nombre": "Steve Cox",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Premi Infantil i Juvenil BAFTA - Director",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q115325763"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
-          "id": 1448172,
-          "nombre": "Matthew Walker"
-        }
-      ],
-      "duracion": 81,
-      "edad": "A",
-      "estreno": "2026-09-17",
-      "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-      "generos": [
-        "Animación",
-        "Ciencia ficción",
-        "Comedia",
-        "Familia"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
-          "id": 7316,
-          "nombre": "Mark Burton"
-        },
-        {
-          "id": 1220429,
-          "nombre": "Giles Pilbrow"
-        }
-      ],
-      "id": "tmdb-1477104",
-      "idioma_original": "en",
-      "imdb": "tt36841161",
-      "lema": "¿Qué es eso que viene por la colina?.",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
-          "id": 1273153,
-          "nombre": "Natalie Holt"
-        }
-      ],
-      "nota": 7.3,
-      "paises": [
-        "GB",
-        "FR"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
-          "id": 224354,
-          "nombre": "Justin Fletcher",
-          "papel": "Shaun / Timmy (voice)",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Miembro de la Orden del Imperio británico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Premi BAFTA infantil al millor intèrpret",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q6317587"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
-          "id": 1212388,
-          "nombre": "John Sparkes",
-          "papel": "The Farmer / Bitzer (voice)",
-          "premios": [],
-          "wikidata": "Q6258580"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
-          "id": 7063,
-          "nombre": "Nina Sosanya",
-          "papel": "The Vet (voice)",
-          "premios": [],
-          "wikidata": "Q526266"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
-          "id": 124557,
-          "nombre": "Kate Harbour",
-          "papel": "Timmy's Mum (voice)",
-          "premios": [],
-          "wikidata": "Q6375522"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
-          "id": 1235023,
-          "nombre": "Rich Webber",
-          "papel": "Shirley (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
-          "id": 185065,
-          "nombre": "Emma Tate",
-          "papel": "Hazel (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
-          "id": 155527,
-          "nombre": "Simon Greenall",
-          "papel": "The Twins (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
-          "id": 22810,
-          "nombre": "Andy Nyman",
-          "papel": "Nuts (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
-          "id": 34900,
-          "nombre": "Paul Whitehouse",
-          "papel": "Shop Keeper (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
-          "id": 1908668,
-          "nombre": "Roman Kemp",
-          "papel": "Pizza Boy (voice)"
-        }
-      ],
-      "sinopsis": {
-        "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
-        "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
-        "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
-      },
-      "titulo": "La oveja Shaun: Misión calabaza",
-      "titulo_ca": "El xai Shaun: Missió Carbassa",
-      "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
-      "tmdb": 1477104,
-      "trailer": "daZMq0AyOMc"
     },
     {
       "agenda": "open_data_bcn:99400720049",
@@ -406,6 +201,211 @@
       "titulo": "Ratones al ataque: Operación Navidad",
       "titulo_original": "Hvis ingen går i fella",
       "tmdb": 1427833
+    },
+    {
+      "anio": 2026,
+      "caducado": "2026-11-22",
+      "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
+          "id": 1454651,
+          "nombre": "Steve Cox",
+          "premios": [
+            {
+              "anio": 2022,
+              "premio": "Premi Infantil i Juvenil BAFTA - Director",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q115325763"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
+          "id": 1448172,
+          "nombre": "Matthew Walker"
+        }
+      ],
+      "duracion": 81,
+      "edad": "A",
+      "estreno": "2026-09-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "generos": [
+        "Animación",
+        "Ciencia ficción",
+        "Comedia",
+        "Familia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
+          "id": 7316,
+          "nombre": "Mark Burton"
+        },
+        {
+          "id": 1220429,
+          "nombre": "Giles Pilbrow"
+        }
+      ],
+      "id": "tmdb-1477104",
+      "idioma_original": "en",
+      "imdb": "tt36841161",
+      "lema": "¿Qué es eso que viene por la colina?.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
+          "id": 1273153,
+          "nombre": "Natalie Holt"
+        }
+      ],
+      "nota": 7.3,
+      "paises": [
+        "GB",
+        "FR"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
+          "id": 224354,
+          "nombre": "Justin Fletcher",
+          "papel": "Shaun / Timmy (voice)",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Miembro de la Orden del Imperio británico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premi BAFTA infantil al millor intèrpret",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q6317587"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
+          "id": 1212388,
+          "nombre": "John Sparkes",
+          "papel": "The Farmer / Bitzer (voice)",
+          "premios": [],
+          "wikidata": "Q6258580"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
+          "id": 7063,
+          "nombre": "Nina Sosanya",
+          "papel": "The Vet (voice)",
+          "premios": [],
+          "wikidata": "Q526266"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
+          "id": 124557,
+          "nombre": "Kate Harbour",
+          "papel": "Timmy's Mum (voice)",
+          "premios": [],
+          "wikidata": "Q6375522"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
+          "id": 1235023,
+          "nombre": "Rich Webber",
+          "papel": "Shirley (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
+          "id": 185065,
+          "nombre": "Emma Tate",
+          "papel": "Hazel (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
+          "id": 155527,
+          "nombre": "Simon Greenall",
+          "papel": "The Twins (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
+          "id": 22810,
+          "nombre": "Andy Nyman",
+          "papel": "Nuts (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
+          "id": 34900,
+          "nombre": "Paul Whitehouse",
+          "papel": "Shop Keeper (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
+          "id": 1908668,
+          "nombre": "Roman Kemp",
+          "papel": "Pizza Boy (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
+        "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+        "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
+      },
+      "titulo": "La oveja Shaun: Misión calabaza",
+      "titulo_ca": "El xai Shaun: Missió Carbassa",
+      "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "tmdb": 1477104,
+      "trailer": "daZMq0AyOMc"
+    },
+    {
+      "anio": 2026,
+      "caducado": "2026-11-22",
+      "cartel": "https://image.tmdb.org/t/p/w500/rkoVLCKCqVCo3c7u4QktJf2ATEM.jpg",
+      "duracion": 60,
+      "edad": "Ai",
+      "estreno": "2026-11-14",
+      "fondo": "https://image.tmdb.org/t/p/w1280/cetFNvBn6N5JkdjeJB18xRUHvFg.jpg",
+      "generos": [
+        "Animación",
+        "Familia"
+      ],
+      "id": "tmdb-1778515",
+      "idioma_original": "en",
+      "imdb": "tt46666063",
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
+          "id": 59070,
+          "nombre": "Morwenna Banks",
+          "premios": [
+            {
+              "anio": 2015,
+              "premio": "Tinniswood Award",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q6915202"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
+          "id": 6645,
+          "nombre": "Richard Ridings",
+          "premios": [],
+          "wikidata": "Q3431161"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2sAIKIeHia3k2SVJB0oyJQz7QoN.jpg",
+          "id": 2769219,
+          "nombre": "Amelie Bea Smith",
+          "premios": [],
+          "wikidata": "Q95233135"
+        }
+      ],
+      "sinopsis": {
+        "en": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
+        "es": "Hay divas que no necesitan presentación y Peppa Pig es una de ellas. Esta vez, la popular cerdita y su familia se preparan para celebrar una ocasión muy especial: la primera Navidad de la pequeña Evie, la nueva integrante de la familia. Entre aventuras en la nieve, representaciones navideñas y los preparativos para decorar el árbol, Peppa, George y sus seres queridos compartirán algunos de sus momentos favoritos de estas fiestas navideñas."
+      },
+      "titulo": "Diversión Navideña con Peppa: La Experiencia en Cines",
+      "titulo_original": "Festive Fun with Peppa",
+      "tmdb": 1778515
     },
     {
       "agenda": "open_data_bcn:99400771083",
@@ -3735,16 +3735,6 @@
       "nombre": "Casal de Gent Gran Pedraforca"
     },
     {
-      "barrio": "Sant Martí de Provençals",
-      "centro": true,
-      "direccion": "Pl Angeleta Ferrer 2",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via279509-2",
-      "lat": 41.41623528911216,
-      "lon": 2.199134846582819,
-      "nombre": "Auditori Sant Martí"
-    },
-    {
       "barrio": "el Besòs i el Maresme",
       "centro": true,
       "direccion": "Rambla de Prim 87",
@@ -3792,6 +3782,16 @@
       "lat": 41.42755131086321,
       "lon": 2.1784411209301746,
       "nombre": "Centre Cívic Can Clariana Cultural"
+    },
+    {
+      "barrio": "Sant Martí de Provençals",
+      "centro": true,
+      "direccion": "Pl Angeleta Ferrer 2",
+      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+      "id": "agenda:barcelona:via279509-2",
+      "lat": 41.41623528911216,
+      "lon": 2.199134846582819,
+      "nombre": "Auditori Sant Martí"
     },
     {
       "barrio": "el Guinardó",
@@ -4159,6 +4159,16 @@
       "lat": 41.42689424774075,
       "lon": 2.1739515723079976,
       "nombre": "Centre Cívic Torre Llobeta"
+    },
+    {
+      "barrio": "el Poble-sec",
+      "centro": true,
+      "direccion": "Carrer de Tapioles 12",
+      "fuente": "https://teatrometamorfosis.com/es/",
+      "id": "agenda:barcelona:via330504-12",
+      "lat": 41.37394604136732,
+      "lon": 2.1645576876862607,
+      "nombre": "Teatre Metamorfosis"
     }
   ],
   "ciudad": {
@@ -7328,16 +7338,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-23",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222825&language=ESP",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-23",
           "15:50",
@@ -8495,16 +8495,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-23",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222826&language=ESP",
-          null,
-          1
-        ],
-        [
           "95122123236",
           "2026-11-23",
           "15:50",
@@ -9493,16 +9483,6 @@
         }
       ],
       "sesiones": [
-        [
-          "75990131879",
-          "2026-11-23",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222824&language=ESP",
-          null,
-          1
-        ],
         [
           "2086161222",
           "2026-11-23",
@@ -27175,182 +27155,6 @@
       "titulo_original": "A Streetcar Named Desire",
       "tmdb": 702,
       "trailer": "U3CXLHLFvyM"
-    },
-    {
-      "anio": 2024,
-      "cartel": "https://image.tmdb.org/t/p/w500/5FM6pkwXBbtso5uOACPCZLJrpTV.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/fIXC8xauMDXjmMGxGkbacvfqsF9.jpg",
-          "id": 1500586,
-          "nombre": "Guillaume Senez",
-          "premios": [],
-          "wikidata": "Q20978738"
-        }
-      ],
-      "duracion": 98,
-      "estreno": "2024-11-13",
-      "fondo": "https://image.tmdb.org/t/p/w1280/A8NhXizmkhd8my2BHZPB1QYjYVd.jpg",
-      "generos": [
-        "Drama",
-        "Comedia"
-      ],
-      "guion": [
-        {
-          "id": 1267830,
-          "nombre": "Jean Denizot"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/fIXC8xauMDXjmMGxGkbacvfqsF9.jpg",
-          "id": 1500586,
-          "nombre": "Guillaume Senez"
-        }
-      ],
-      "id": "tmdb-1021643",
-      "idioma_original": "fr",
-      "imdb": "tt21993194",
-      "musica": [
-        {
-          "id": 1896478,
-          "nombre": "Olivier Marguerit"
-        }
-      ],
-      "nota": 6.6,
-      "paises": [
-        "BE",
-        "FR",
-        "JP"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/70KN228eNpvouPTCxDSurnCzx9G.jpg",
-          "id": 17497,
-          "nombre": "Romain Duris",
-          "papel": "Jay",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Oficial de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Premio del Cine Europeo al mejor actor",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q441272"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/5Tr9udebovdhml4jDl5LvKefMOD.jpg",
-          "id": 4323550,
-          "nombre": "Mei Cirne-Masuki",
-          "papel": "Lily"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/duOQg0sLbFgJ7wKdoaivQ0tArDv.jpg",
-          "id": 72946,
-          "nombre": "Judith Chemla",
-          "papel": "Jessica",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Oficial de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Caballero de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Valois de l'actriu",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2013,
-              "premio": "César a la mejor actriz secundaria",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2017,
-              "premio": "César a la mejor actriz",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2023,
-              "premio": "César a la mejor actriz secundaria",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q3187987"
-        },
-        {
-          "id": 146382,
-          "nombre": "Tsuyu Shimizu",
-          "papel": "Michiko",
-          "premios": [],
-          "wikidata": "Q112054604"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/yULFUme9KfJPscwe9KJf5nrNRHS.jpg",
-          "id": 35643,
-          "nombre": "内田春菊",
-          "papel": "Lily's grandmother"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/yYF6AMt616nvGrFiNT3ErkPYEUj.jpg",
-          "id": 2370961,
-          "nombre": "Yumi Narita",
-          "papel": "Keiko Nomura, mother of Lily"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6XVRcX1C4XM8bwXPU4ZPwUeINCn.jpg",
-          "id": 71491,
-          "nombre": "Patrick Descamps",
-          "papel": "Jay's father"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oa8PhjIOahozCiMA8zMCd9ZC9SS.jpg",
-          "id": 1039311,
-          "nombre": "阿部進之介",
-          "papel": "Yu"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/jsYyl1gLXADcmaU3iPWrbxHFXpV.jpg",
-          "id": 553084,
-          "nombre": "あがた森魚",
-          "papel": "Mr. Uchishiba"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/spZDzLdREY66MMUVzGV7GnOWA1j.jpg",
-          "id": 1129848,
-          "nombre": "矢柴俊博",
-          "papel": "Honda"
-        }
-      ],
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-23",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222844&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "Cada dia, en Jay recorre Tòquio de cap a cap amb el seu taxi, buscant la seva filla Lily. En els nou anys transcorreguts des que es va separar de la seva dona, no ha aconseguit mai obtenir la custòdia de la nena. Després d'haver perdut l'esperança de tornar a veure-la, està a punt de traslladar-se de nou a França quan, de sobte, la Lily puja al seu taxi. Però ella no el reconeix.",
-        "en": "Every day, Jay travels the length and breadth of Tokyo in his taxi, looking for his daughter Lily. In the 9 years since he has separated from his wife, he has never been able to get custody of his daughter. Having given up hope of ever seeing her again, he is about to move back to France when Lily hops in his cab. But she doesn't recognize him.",
-        "es": "Todos los días, Jay conduce su taxi por Tokio en busca de su hija, Lily. Separado desde hace nueve años, nunca ha podido conseguir su custodia. Justo cuando ha perdido la esperanza de volver a verla y está a punto de regresar a Francia, Lily sube a su taxi... pero no le reconoce."
-      },
-      "titulo": "Una hija en Tokio",
-      "titulo_original": "Une part manquante",
-      "tmdb": 1021643,
-      "trailer": "2fxuApqJaeg"
     },
     {
       "agenda": "open_data_bcn:99400742472",

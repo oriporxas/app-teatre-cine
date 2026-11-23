@@ -3,7 +3,7 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-23",
-    "publicadas": 90
+    "publicadas": 89
   },
   "escena": {
     "anomalias": [
@@ -114,6 +114,13 @@
       },
       {
         "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400675203",
+        "id": "open_data_bcn:99400755246",
+        "regla": "repetida",
+        "titulo": "Teatre menuts/des"
+      },
+      {
+        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400714867",
         "id": "open_data_bcn:99400761359",
         "regla": "repetida",
@@ -139,6 +146,13 @@
         "id": "open_data_bcn:99400770019",
         "regla": "sala",
         "titulo": "de Nadal a Nou Barris"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400718672",
+        "id": "open_data_bcn:99400770493",
+        "regla": "repetida",
+        "titulo": "Teles i trapezis"
       },
       {
         "accion": "aviso",
@@ -253,19 +267,40 @@
         "titulo": "El te de les Illes Caiman"
       },
       {
-        "accion": "función quitada",
-        "detalle": "2026-11-27 fuera del periodo 2026-11-28–2026-12-12",
-        "id": "webs_salas:1eb88c22c16ed822",
-        "regla": "fecha",
-        "titulo": "Show Up Go Up"
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400770456",
+        "id": "open_data_bcn:99400791172",
+        "regla": "repetida",
+        "titulo": "Circ menuts/des"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400683059",
+        "id": "open_data_bcn:99400791174",
+        "regla": "repetida",
+        "titulo": "Circ júnior"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400675213",
+        "id": "open_data_bcn:99400791176",
+        "regla": "repetida",
+        "titulo": "Teatre júnior"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400755244",
+        "id": "open_data_bcn:99400791180",
+        "regla": "repetida",
+        "titulo": "Teatre amateur"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 20,
-      "repetida": 14,
+      "fecha": 19,
+      "repetida": 20,
       "sala": 2
     },
     "fecha": "2026-11-23",
-    "publicadas": 704
+    "publicadas": 693
   }
 }
