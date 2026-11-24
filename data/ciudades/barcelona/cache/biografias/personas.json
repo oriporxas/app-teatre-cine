@@ -126,6 +126,13 @@
       "tmdb": null,
       "v": 1
     },
+    "adrian-ridao": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Adrian Ridao",
+      "tmdb": null,
+      "v": 2
+    },
     "adriana-capri": {
       "fecha": "2026-11-22",
       "motivo": "ninguna",
@@ -249,6 +256,13 @@
       "fecha": "2026-11-23",
       "motivo": "ninguna",
       "nombre": "Ajuntament de Salt",
+      "tmdb": null,
+      "v": 2
+    },
+    "alaia-moschini": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Alaia Moschini",
       "tmdb": null,
       "v": 2
     },
@@ -2618,6 +2632,13 @@
       "tmdb": 2597164,
       "v": 2
     },
+    "carmen-lova": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Carmen Lova",
+      "tmdb": null,
+      "v": 2
+    },
     "carmen-marfa": {
       "fecha": "2026-11-22",
       "motivo": "ok",
@@ -3434,6 +3455,13 @@
       "fecha": "2026-11-23",
       "motivo": "ninguna",
       "nombre": "Clàudia Mirambell Adroher",
+      "tmdb": null,
+      "v": 2
+    },
+    "claudia-segura": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Clàudia Segura",
       "tmdb": null,
       "v": 2
     },
@@ -7833,6 +7861,13 @@
       "tmdb": 3774690,
       "v": 2
     },
+    "julia-perez": {
+      "fecha": "2026-11-24",
+      "motivo": "varias",
+      "nombre": "Julia Pérez",
+      "tmdb": null,
+      "v": 2
+    },
     "julia-santacana": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -11564,6 +11599,13 @@
       "tmdb": 5492990,
       "v": 2
     },
+    "ollie-moreno": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Ollie Moreno",
+      "tmdb": null,
+      "v": 2
+    },
     "omar-ba": {
       "fecha": "2026-11-22",
       "motivo": "ninguna",
@@ -13062,6 +13104,13 @@
       "tmdb": null,
       "v": 1
     },
+    "roger-figueras": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Roger Figueras",
+      "tmdb": null,
+      "v": 2
+    },
     "roger-julia": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -13790,6 +13839,13 @@
       "tmdb": null,
       "v": 2
     },
+    "sofia-sinelli": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Sofia Sinelli",
+      "tmdb": null,
+      "v": 2
+    },
     "som-produce": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -14441,6 +14497,13 @@
       "tmdb": null,
       "v": 1
     },
+    "txell-batlle": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Txell Batlle",
+      "tmdb": null,
+      "v": 2
+    },
     "txus-molina": {
       "fecha": "2026-11-23",
       "motivo": "ninguna",
@@ -14817,6 +14880,13 @@
       "motivo": "ok",
       "nombre": "Xavi Francès",
       "tmdb": 1783148,
+      "v": 2
+    },
+    "xavi-fuster": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Xavi Fuster",
+      "tmdb": null,
       "v": 2
     },
     "xavi-gardes": {
@@ -15619,6 +15689,122 @@
         "wikidata": "Q11657954"
       },
       "fecha": "2026-11-19"
+    },
+    "10399": {
+      "datos": {
+        "bio": {
+          "en": "Theresa Elizabeth \"Teri\" Polo (born June 1, 1969) is an American actress known for her role as Pamela Martha Focker in the movie Meet the Parents (2000) and its sequels. She is also known for her roles in TV series such as The West Wing (2005-2006) and The Fosters (2013-2018), and in mini-series such as The Phantom of the Opera (1990) and House of Frankenstein (1997)."
+        },
+        "conocida": [
+          [
+            "Los padres de ella",
+            2000,
+            "pelicula",
+            "Pam Byrnes"
+          ],
+          [
+            "Los padres de él",
+            2004,
+            "pelicula",
+            "Pam Byrnes"
+          ],
+          [
+            "Ley y orden: Unidad de Víctimas Especiales",
+            1999,
+            "serie",
+            "Dana Kelley"
+          ],
+          [
+            "Mentes criminales",
+            2005,
+            "serie",
+            "Maggie Hallman"
+          ],
+          [
+            "Ahora los padres son ellos",
+            2010,
+            "pelicula",
+            "Pam Byrnes-Focker"
+          ],
+          [
+            "Navy: Investigación criminal",
+            2003,
+            "serie",
+            "Vivian Kolchak"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/5Po9bp4DqDHRAPKMaZg1ycidjy3.jpg",
+        "lugar": "Dover, Delaware, USA",
+        "nacimiento": "1969-06-01",
+        "nombre": "Teri Polo",
+        "oficio": "Acting",
+        "tmdb": 10399,
+        "wikidata": "Q236300",
+        "wikipedia": "https://es.wikipedia.org/wiki/Teri_Polo"
+      },
+      "fecha": "2026-11-24"
+    },
+    "10401": {
+      "datos": {
+        "bio": {
+          "ca": "Blythe Danner (Filadèlfia, Pennsilvània, 3 de febrer de 1943) és una actriu estatunidenca de teatre, cinema i televisió, així com una activista mediambiental. Va estar casada amb el director i productor Bruce Paltrow fins que aquest va morir de càncer el 2002, i és la mare de l'actriu Gwyneth Paltrow i el director Jake Paltrow. Als 25 anys (1968), va guanyar el Theater World Award gràcies al seu paper en Molière i L'avar, al Lincoln Center. Dos anys més tard, va guanyar el premi Tony pel seu treball a Butterflies Are Free."
+        },
+        "conocida": [
+          [
+            "Los padres de ella",
+            2000,
+            "pelicula",
+            "Dina Byrnes"
+          ],
+          [
+            "Paul",
+            2011,
+            "pelicula",
+            "Tara Walton"
+          ],
+          [
+            "Los padres de él",
+            2004,
+            "pelicula",
+            "Dina Byrnes"
+          ],
+          [
+            "Cuando te encuentre",
+            2012,
+            "pelicula",
+            "Nana"
+          ],
+          [
+            "Ahora los padres son ellos",
+            2010,
+            "pelicula",
+            "Dina Byrnes"
+          ],
+          [
+            "Dime con cuántos",
+            2011,
+            "pelicula",
+            "Ava Darling"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/5fJM6RZXYKAd0ayRwB7osEAQ8YR.jpg",
+        "lugar": "Philadelphia, Pennsylvania, USA",
+        "nacimiento": "1943-02-03",
+        "nombre": "Blythe Danner",
+        "oficio": "Acting",
+        "tmdb": 10401,
+        "wikidata": "Q40064",
+        "wikipedia": "https://es.wikipedia.org/wiki/Blythe_Danner"
+      },
+      "fecha": "2026-11-24"
     },
     "1042010": {
       "datos": {
@@ -23436,6 +23622,40 @@
       },
       "fecha": "2026-11-19"
     },
+    "1305694": {
+      "datos": {
+        "conocida": [
+          [
+            "Todo sobre mi padre",
+            2023,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "The Great Indoors",
+            2016,
+            "serie",
+            "Writer"
+          ],
+          [
+            "The Millers",
+            2013,
+            "serie",
+            "Writer"
+          ],
+          [
+            "The Carmichael Show",
+            2015,
+            "serie",
+            "Writer"
+          ]
+        ],
+        "nombre": "Austen Earl",
+        "oficio": "Writing",
+        "tmdb": 1305694
+      },
+      "fecha": "2026-11-24"
+    },
     "1308631": {
       "datos": {
         "conocida": [
@@ -23751,6 +23971,63 @@
         "wikidata": "Q580414"
       },
       "fecha": "2026-11-19"
+    },
+    "1325716": {
+      "datos": {
+        "bio": {
+          "en": "Ilana Glazer (born April 12, 1987) is an American comedian, director, producer, writer, and actor. They co-created and co-starred, with Abbi Jacobson, in the Comedy Central series Broad City, which is based on the web series of the same name. They were twice nominated for the Critics' Choice Television Award for Best Actress in a Comedy Series for the series. Glazer also starred in the 2017 film Rough Night and released their debut stand-up comedy special, The Planet Is Burning, in January 2020. In 2022, they won the Tony Award for Best Musical for serving as a producer for the Broadway show A Strange Loop."
+        },
+        "conocida": [
+          [
+            "BoJack Horseman",
+            2014,
+            "serie",
+            "Penny Carson (voice)"
+          ],
+          [
+            "Una noche fuera de control",
+            2017,
+            "pelicula",
+            "Frankie"
+          ],
+          [
+            "Los tres reyes malos",
+            2015,
+            "pelicula",
+            "Rebecca Grinch"
+          ],
+          [
+            "The Daily Show",
+            1996,
+            "serie",
+            "Self - Guest"
+          ],
+          [
+            "The Tonight Show Starring Jimmy Fallon",
+            2014,
+            "serie",
+            "Self"
+          ],
+          [
+            "The Late Show with Stephen Colbert",
+            2015,
+            "serie",
+            "Self - Guest"
+          ]
+        ],
+        "descripcion": {
+          "es": "humorista, escritora y actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/etW0YsMvj67bSRuJCsevpAOLsWf.jpg",
+        "lugar": "Long Island, New York, USA",
+        "nacimiento": "1987-04-12",
+        "nombre": "Ilana Glazer",
+        "oficio": "Acting",
+        "tmdb": 1325716,
+        "wikidata": "Q16730037",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ilana_Glazer"
+      },
+      "fecha": "2026-11-24"
     },
     "1327": {
       "datos": {
@@ -25058,6 +25335,64 @@
         "wikidata": "Q123741726"
       },
       "fecha": "2026-11-19"
+    },
+    "13688": {
+      "datos": {
+        "bio": {
+          "en": "Karin Viard (born in 1966 in Rouen) is a French actress. After training in drama in Rouen and later in Paris, she made her screen debut in the early 1990s, notably appearing in Étienne Chatiliez's Tatie Danielle (1990) and Jean-Pierre Jeunet and Marc Caro's Delicatessen (1991). She gained public recognition with Philippe Harel's comedy Hiking (Les Randonneurs, 1997). Throughout her career, she has alternated between comedies, dramas, and stage productions."
+        },
+        "conocida": [
+          [
+            "El odio",
+            1995,
+            "pelicula",
+            "Art Gallery Girl #2"
+          ],
+          [
+            "La familia Bélier",
+            2014,
+            "pelicula",
+            "Gigi Bélier"
+          ],
+          [
+            "Delicatessen",
+            1991,
+            "pelicula",
+            "Mademoiselle Plusse"
+          ],
+          [
+            "Polisse",
+            2011,
+            "pelicula",
+            "Nadine"
+          ],
+          [
+            "Nada que declarar",
+            2010,
+            "pelicula",
+            "Irène Janus"
+          ],
+          [
+            "Los visitantes la lían en la Revolución francesa",
+            2016,
+            "pelicula",
+            "Adélaïde de Montmirail"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu francesa",
+          "es": "actriz francesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/quIomRrFBxXq32K5MBuvaTR3xBk.jpg",
+        "lugar": "Rouen, Seine-Maritime, France",
+        "nacimiento": "1966-01-24",
+        "nombre": "Karin Viard",
+        "oficio": "Acting",
+        "tmdb": 13688,
+        "wikidata": "Q271944",
+        "wikipedia": "https://es.wikipedia.org/wiki/Karin_Viard"
+      },
+      "fecha": "2026-11-24"
     },
     "1370": {
       "datos": {
@@ -28064,6 +28399,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "1496393": {
+      "datos": {
+        "bio": {
+          "en": "Elizabeth Greer Feldstein (born June 24, 1993) is an American actress. She first gained recognition for her starring roles in the comedy film Neighbors 2: Sorority Rising (2016), the comedy-drama film Lady Bird (2017), and the coming-of-age comedy film Booksmart (2019), the last of which earned her a nomination for the Golden Globe Award for Best Actress in a Motion Picture–Comedy or Musical. Feldstein has appeared on the Broadway stage, making her debut as Minnie Fay in Hello, Dolly! (2017–18) and portraying the lead role of Fanny Brice in the first revival of Funny Girl (2022), a performance for which she earned a nomination for the Drama League Award for Distinguished Performance."
+        },
+        "conocida": [
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Support Group Therapist (voice)"
+          ],
+          [
+            "Anatomía de Grey",
+            2005,
+            "serie",
+            "Tess Anderson"
+          ],
+          [
+            "Lady Bird",
+            2017,
+            "pelicula",
+            "Julie Steffans"
+          ],
+          [
+            "Malditos vecinos 2",
+            2016,
+            "pelicula",
+            "Nora"
+          ],
+          [
+            "Súper empollonas",
+            2019,
+            "pelicula",
+            "Molly"
+          ],
+          [
+            "Orange Is the New Black",
+            2013,
+            "serie",
+            "2004 Party Girl"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/lyK1s3TcUKQidfVDnNPt3TAc6mI.jpg",
+        "lugar": "Los Angeles, California, USA",
+        "nacimiento": "1993-06-24",
+        "nombre": "Beanie Feldstein",
+        "oficio": "Acting",
+        "tmdb": 1496393,
+        "wikidata": "Q20973709",
+        "wikipedia": "https://es.wikipedia.org/wiki/Beanie_Feldstein"
+      },
+      "fecha": "2026-11-24"
+    },
     "1496508": {
       "datos": {
         "conocida": [
@@ -29934,6 +30327,46 @@
       },
       "fecha": "2026-11-19"
     },
+    "1589029": {
+      "datos": {
+        "conocida": [
+          [
+            "La brigada de la cocina",
+            2022,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "La peor madre del mundo",
+            2025,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Boustifaille",
+            2019,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Species (Sanguine)",
+            2026,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Que la nuit s'achève",
+            2018,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "nombre": "Thomas Pujol",
+        "oficio": "Writing",
+        "tmdb": 1589029
+      },
+      "fecha": "2026-11-24"
+    },
     "1589568": {
       "datos": {
         "conocida": [
@@ -31111,6 +31544,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "1653235": {
+      "datos": {
+        "bio": {
+          "en": "Eduardo Franco is an American actor and comedian. He is best known for his roles as Argyle in the Netflix series Stranger Things, Theo in the film Booksmart, DJ Catnip in Gabby's Dollhouse, and Spencer Diaz in the mockumentary series American Vandal."
+        },
+        "conocida": [
+          [
+            "Stranger Things",
+            2016,
+            "serie",
+            "Argyle"
+          ],
+          [
+            "Súper empollonas",
+            2019,
+            "pelicula",
+            "Theo"
+          ],
+          [
+            "Hoppers",
+            2026,
+            "pelicula",
+            "Loaf (voice)"
+          ],
+          [
+            "El paquete",
+            2018,
+            "pelicula",
+            "Jeremy Abelar"
+          ],
+          [
+            "GOAT: Como cabras",
+            2026,
+            "pelicula",
+            "Daryl (voice)"
+          ],
+          [
+            "Ruby, aventuras de una kraken adolescente",
+            2023,
+            "pelicula",
+            "Trevin (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/FOnx5Rg8L7xvEWkBhNoXwhELd6.jpg",
+        "lugar": "Yuma, Arizona, USA",
+        "nacimiento": "1995-11-11",
+        "nombre": "Eduardo Franco",
+        "oficio": "Acting",
+        "tmdb": 1653235,
+        "wikidata": "Q63366389",
+        "wikipedia": "https://es.wikipedia.org/wiki/Eduardo_Franco_%28actor%29"
+      },
+      "fecha": "2026-11-24"
+    },
     "1658652": {
       "datos": {
         "bio": {
@@ -32026,6 +32517,63 @@
       },
       "fecha": "2026-11-19"
     },
+    "1700631": {
+      "datos": {
+        "bio": {
+          "en": "Elizabeth Shaila Koshy (born March 31, 1996) is an American YouTuber, media personality and actress. Her main channel has amassed almost 17 million subscribers, and her two channels have over 3 billion views combined. She has received four Streamy Awards, four Teen Choice Awards, and a Kids' Choice Award. Koshy began her career on Vine in 2013 before starting a YouTube channel. She made her acting debut as Aday Walker in Tyler Perry's horror comedy film Boo! A Madea Halloween (2016). She went on to star as Violet Adams in the horror drama series Freakish (2016–2017) and The Explorer in the YouTube Premium mystery series Escape the Night (2017–2019)."
+        },
+        "conocida": [
+          [
+            "Transformers: El despertar de las bestias",
+            2023,
+            "pelicula",
+            "Arcee (voice)"
+          ],
+          [
+            "Las guerreras k-pop",
+            2025,
+            "pelicula",
+            "Host (voice)"
+          ],
+          [
+            "Agárralo como puedas",
+            2025,
+            "pelicula",
+            "Detective Barnes"
+          ],
+          [
+            "Work It: Al ritmo de los sueños",
+            2020,
+            "pelicula",
+            "Jasmine Hale"
+          ],
+          [
+            "Ruby, aventuras de una kraken adolescente",
+            2023,
+            "pelicula",
+            "Margo (voice)"
+          ],
+          [
+            "Un asunto familiar",
+            2024,
+            "pelicula",
+            "Eugenie"
+          ]
+        ],
+        "descripcion": {
+          "es": "youtuber estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/1Xs1DqpZTUCPyhHdjFhyFQaajg1.jpg",
+        "lugar": "Houston, Texas, USA",
+        "nacimiento": "1996-03-31",
+        "nombre": "Liza Koshy",
+        "oficio": "Acting",
+        "tmdb": 1700631,
+        "wikidata": "Q28549850",
+        "wikipedia": "https://es.wikipedia.org/wiki/Liza_Koshy"
+      },
+      "fecha": "2026-11-24"
+    },
     "1701842": {
       "datos": {
         "nombre": "Luisa Matienzo",
@@ -32834,6 +33382,62 @@
         "wikidata": "Q63974254"
       },
       "fecha": "2026-11-19"
+    },
+    "17871": {
+      "datos": {
+        "bio": {
+          "en": "John Liman Hamburg (born May 26, 1970) is an American screenwriter, film director and producer. Description above from the Wikipedia article John Hamburg, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Los padres de ella",
+            2000,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Los padres de él",
+            2004,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Zoolander (Un descerebrado de moda)",
+            2001,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "¿Tenía que ser él?",
+            2016,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Ahora los padres son ellos",
+            2010,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Y entonces llegó ella",
+            2004,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "es": "guionista y director de cine estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/flYIdyuPlLZQ8ur7guVGGvffN0R.jpg",
+        "lugar": "New York City, New York, USA",
+        "nacimiento": "1970-05-26",
+        "nombre": "John Hamburg",
+        "oficio": "Writing",
+        "tmdb": 17871,
+        "wikidata": "Q167683"
+      },
+      "fecha": "2026-11-24"
     },
     "1793110": {
       "datos": {
@@ -34115,6 +34719,60 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Matt_Damon"
       },
       "fecha": "2026-11-19"
+    },
+    "1894436": {
+      "datos": {
+        "conocida": [
+          [
+            "Especiales",
+            2019,
+            "pelicula",
+            "Morgane"
+          ],
+          [
+            "Generación Low Cost",
+            2022,
+            "pelicula",
+            "Mélissa Wassels"
+          ],
+          [
+            "Un blanco fácil",
+            2023,
+            "pelicula",
+            "Fiona Hugo"
+          ],
+          [
+            "Buscando a Pauline",
+            2023,
+            "pelicula",
+            "Rita"
+          ],
+          [
+            "After Blue (Paradis sale)",
+            2022,
+            "pelicula",
+            "Chiara"
+          ],
+          [
+            "El mohicano",
+            2025,
+            "pelicula",
+            "Vannina"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu belga",
+          "es": "actriz belga"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/yEhRqSa6SAxUDXeAEGwXXfyaEnd.jpg",
+        "lugar": "Bruxelles, Belgium",
+        "nacimiento": "1997-10-19",
+        "nombre": "Mara Taquin",
+        "oficio": "Acting",
+        "tmdb": 1894436,
+        "wikidata": "Q114944989"
+      },
+      "fecha": "2026-11-24"
     },
     "18999": {
       "datos": {
@@ -37836,6 +38494,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "226001": {
+      "datos": {
+        "bio": {
+          "es": "Ariana Grande es una actriz, cantante y filántropa estadounidense."
+        },
+        "conocida": [
+          [
+            "No mires arriba",
+            2021,
+            "pelicula",
+            "Riley Bina"
+          ],
+          [
+            "Men in Black: International",
+            2019,
+            "pelicula",
+            "Alien on TV Monitor (uncredited)"
+          ],
+          [
+            "Padre de familia",
+            1999,
+            "serie",
+            "Italian Girl (voice)"
+          ],
+          [
+            "Wicked",
+            2024,
+            "pelicula",
+            "Galinda / Glinda"
+          ],
+          [
+            "Zoolander No. 2",
+            2016,
+            "pelicula",
+            "Latex BDSM"
+          ],
+          [
+            "Scream Queens",
+            2015,
+            "serie",
+            "Chanel #2"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu, cantant i ballarina estatunidenca",
+          "es": "cantautora y actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/d4HtCXm58GuqVJVGgDKFn0dEj8M.jpg",
+        "lugar": "Boca Raton, Florida, USA",
+        "nacimiento": "1993-06-26",
+        "nombre": "Ariana Grande",
+        "oficio": "Acting",
+        "tmdb": 226001,
+        "wikidata": "Q151892",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ariana_Grande"
+      },
+      "fecha": "2026-11-24"
+    },
     "2264687": {
       "datos": {
         "conocida": [
@@ -40737,6 +41453,60 @@
         "tmdb": 2597164
       },
       "fecha": "2026-11-21"
+    },
+    "2601088": {
+      "datos": {
+        "conocida": [
+          [
+            "Lupin",
+            2021,
+            "serie",
+            "Philippe Courbet"
+          ],
+          [
+            "Andor",
+            2022,
+            "serie",
+            "Thela"
+          ],
+          [
+            "Oficina de infiltrados",
+            2015,
+            "serie",
+            "César dit « Pacemaker »"
+          ],
+          [
+            "Jugar con fuego",
+            2025,
+            "pelicula",
+            "Louis"
+          ],
+          [
+            "Making Of",
+            2024,
+            "pelicula",
+            "Joseph"
+          ],
+          [
+            "Promesas en París",
+            2022,
+            "pelicula",
+            "Guillaume Mars"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor francès",
+          "es": "actor francés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/pEhRxeFhLR1iVyYBMkHijkLZ3xN.jpg",
+        "lugar": "France",
+        "nacimiento": "1996-07-21",
+        "nombre": "Stefan Crepon",
+        "oficio": "Acting",
+        "tmdb": 2601088,
+        "wikidata": "Q108292761"
+      },
+      "fecha": "2026-11-24"
     },
     "2617257": {
       "datos": {
@@ -43896,6 +44666,58 @@
       },
       "fecha": "2026-11-19"
     },
+    "3070663": {
+      "datos": {
+        "conocida": [
+          [
+            "The Walking Dead: Daryl Dixon",
+            2023,
+            "serie",
+            "Lou"
+          ],
+          [
+            "Misterioso asesinato en la montaña",
+            2025,
+            "pelicula",
+            "Blanche Bodin"
+          ],
+          [
+            "El consentimiento",
+            2023,
+            "pelicula",
+            "Vanessa Springora (jeune)"
+          ],
+          [
+            "Descolocado por Navidad",
+            2023,
+            "pelicula",
+            "Meghan"
+          ],
+          [
+            "Clèves",
+            2021,
+            "pelicula",
+            "Delphine"
+          ],
+          [
+            "Quotidien",
+            2016,
+            "serie",
+            "Self - Guest"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu francesa",
+          "es": "actriz francesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/6b2jB4S9M3hbOisr4jmd2S7WfyL.jpg",
+        "nombre": "Kim Higelin",
+        "oficio": "Acting",
+        "tmdb": 3070663,
+        "wikidata": "Q106881027"
+      },
+      "fecha": "2026-11-24"
+    },
     "3070857": {
       "datos": {
         "bio": {
@@ -44260,6 +45082,52 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Sophie_Wilde"
       },
       "fecha": "2026-11-19"
+    },
+    "3119136": {
+      "datos": {
+        "conocida": [
+          [
+            "Livide",
+            2011,
+            "pelicula",
+            "André Marchal"
+          ],
+          [
+            "El extranjero",
+            2025,
+            "pelicula",
+            "Mr. Perez"
+          ],
+          [
+            "El encanto del champán",
+            2025,
+            "pelicula",
+            "Philippe"
+          ],
+          [
+            "Asuntos familiares",
+            2022,
+            "pelicula",
+            "Abel Vuillard"
+          ],
+          [
+            "A Good Man",
+            2021,
+            "pelicula",
+            "Jean-Louis"
+          ],
+          [
+            "La isla de la belladona",
+            2025,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Joël Cudennec",
+        "oficio": "Acting",
+        "tmdb": 3119136
+      },
+      "fecha": "2026-11-24"
     },
     "3119545": {
       "datos": {
@@ -45032,6 +45900,23 @@
         "tmdb": 3286781
       },
       "fecha": "2026-11-19"
+    },
+    "3287533": {
+      "datos": {
+        "conocida": [
+          [
+            "Species (Sanguine)",
+            2026,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/ii2HoeLucIJlot1DM5GiT5M4qGk.jpg",
+        "nombre": "Marion Le Corroller",
+        "oficio": "Directing",
+        "tmdb": 3287533
+      },
+      "fecha": "2026-11-24"
     },
     "3292": {
       "datos": {
@@ -46923,6 +47808,53 @@
       },
       "fecha": "2026-11-22"
     },
+    "3782346": {
+      "datos": {
+        "conocida": [
+          [
+            "Prime Target",
+            2025,
+            "serie",
+            "Simone Macon"
+          ],
+          [
+            "Los huérfanos",
+            2025,
+            "pelicula",
+            "Leïla"
+          ],
+          [
+            "De repente",
+            2026,
+            "pelicula",
+            "Melanie"
+          ],
+          [
+            "Avant que les flammes ne s'éteignent",
+            2023,
+            "pelicula",
+            "Nour El Yadari"
+          ],
+          [
+            "Species (Sanguine)",
+            2026,
+            "pelicula",
+            "Lila Deschamps"
+          ],
+          [
+            "Caro Nostra",
+            2023,
+            "serie",
+            "Yasmine"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/jXRi07zPXpuGr5IEcZbnnuYh3YV.jpg",
+        "nombre": "Sonia Faidi",
+        "oficio": "Acting",
+        "tmdb": 3782346
+      },
+      "fecha": "2026-11-24"
+    },
     "3788": {
       "datos": {
         "bio": {
@@ -47034,6 +47966,64 @@
         "wikidata": "Q3383956"
       },
       "fecha": "2026-11-19"
+    },
+    "380": {
+      "datos": {
+        "bio": {
+          "es": "Robert De Niro Jr. (Nueva York; 17 de agosto de 1943), más conocido como Robert De Niro, es un actor, director y productor de cine estadounidense. Ganador de premios Óscar por su actuación en las películas Toro salvaje y El padrino II. Es ampliamente conocido por sus papeles de gánster y de personajes conflictivos y turbulentos, destacando sus múltiples colaboraciones con el director Martin Scorsese, y por sus primeros trabajos con el director Brian De Palma. Durante su carrera ha interpretado a personajes de toda clase de géneros, así como de terror, drama, e incluso de comedia."
+        },
+        "conocida": [
+          [
+            "Joker",
+            2019,
+            "pelicula",
+            "Murray Franklin"
+          ],
+          [
+            "Uno de los nuestros",
+            1990,
+            "pelicula",
+            "James Conway"
+          ],
+          [
+            "El padrino II",
+            1974,
+            "pelicula",
+            "Vito Corleone"
+          ],
+          [
+            "Taxi Driver",
+            1976,
+            "pelicula",
+            "Travis Bickle"
+          ],
+          [
+            "El lado bueno de las cosas",
+            2012,
+            "pelicula",
+            "Pat Solitano Sr."
+          ],
+          [
+            "Sin límites",
+            2011,
+            "pelicula",
+            "Carl Van Loon"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
+        "lugar": "Greenwich Village, New York City, New York, USA",
+        "nacimiento": "1943-08-17",
+        "nombre": "Robert De Niro",
+        "oficio": "Acting",
+        "tmdb": 380,
+        "wikidata": "Q36949",
+        "wikipedia": "https://es.wikipedia.org/wiki/Robert_De_Niro"
+      },
+      "fecha": "2026-11-24"
     },
     "3810": {
       "datos": {
@@ -49540,6 +50530,34 @@
       },
       "fecha": "2026-11-19"
     },
+    "4836318": {
+      "datos": {
+        "conocida": [
+          [
+            "Ni Chaînes Ni Maîtres",
+            2024,
+            "pelicula",
+            "Joseph"
+          ],
+          [
+            "Mémoire de fille",
+            2026,
+            "pelicula",
+            "Jacques"
+          ],
+          [
+            "Species (Sanguine)",
+            2026,
+            "pelicula",
+            "Enzo"
+          ]
+        ],
+        "nombre": "Lancelot Courcieras",
+        "oficio": "Acting",
+        "tmdb": 4836318
+      },
+      "fecha": "2026-11-24"
+    },
     "4841986": {
       "datos": {
         "nombre": "Joana Vulart",
@@ -49655,6 +50673,23 @@
         "tmdb": 4875886
       },
       "fecha": "2026-11-19"
+    },
+    "4884943": {
+      "datos": {
+        "conocida": [
+          [
+            "Species (Sanguine)",
+            2026,
+            "pelicula",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/coMdQ0fNF2Mr1GIRNDEYpGoAQOX.jpg",
+        "nombre": "Edouard Ducamp",
+        "oficio": "Acting",
+        "tmdb": 4884943
+      },
+      "fecha": "2026-11-24"
     },
     "4893226": {
       "datos": {
@@ -51639,6 +52674,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Pierre_Lottin"
       },
       "fecha": "2026-11-19"
+    },
+    "544687": {
+      "datos": {
+        "bio": {
+          "en": "Sami Outalbali (born 19 March 1999) is a French actor. He rose to prominence for portraying Ilyes on the OCS drama series Grown Ups (2016–2019) and gained international recognition for his role as Rahim in the Netflix comedy-drama series Sex Education (2020–2021). He is also known for his roles in the supernatural series Mortel (2019–2021) and the drama film A Tale of Love and Desire (2021). Sami Outalbali was born in Poissy, Yvelines, on 19 March 1999. He has Moroccan and Guadeloupean ancestry. At the age of 3, he appeared in a Disney advertisement. Outalbali first appeared on screen in the France 3 television film Il faut sauver Saïd in 2006."
+        },
+        "conocida": [
+          [
+            "Sex Education",
+            2019,
+            "serie",
+            "Rahim"
+          ],
+          [
+            "La familia Tuche",
+            2011,
+            "pelicula",
+            "Jean-Wa"
+          ],
+          [
+            "Novembre",
+            2022,
+            "pelicula",
+            "Kader"
+          ],
+          [
+            "La suerte del ganador",
+            2024,
+            "pelicula",
+            "Ahmed"
+          ],
+          [
+            "Mortal",
+            2019,
+            "serie",
+            "Reda"
+          ],
+          [
+            "Classe moyenne",
+            2025,
+            "pelicula",
+            "Mehdi El Glaoui"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor francès",
+          "es": "actor francés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/2ekj2Fc6sK039NKNaCQ8fIhjXq.jpg",
+        "lugar": "Poissy, Yvelines, France",
+        "nacimiento": "1999-03-19",
+        "nombre": "Sami Outalbali",
+        "oficio": "Acting",
+        "tmdb": 544687,
+        "wikidata": "Q83189810",
+        "wikipedia": "https://es.wikipedia.org/wiki/Sami_Outalbali"
+      },
+      "fecha": "2026-11-24"
     },
     "54472": {
       "datos": {
@@ -54602,6 +55695,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "61263": {
+      "datos": {
+        "bio": {
+          "es": "Skyler Gisondo (Palm Beach, 22 de julio de 1996) es un actor estadounidense, reconocido principalmente por interpretar el papel de Eric Bemis en la serie de televisión de Netflix Santa Clarita Diet. Ha actuado en otras producciones para televisión como Monk, House M.D., ER, CSI: NY y Psych, y sus créditos cinematográficos incluyen películas como Halloween, Space Buddies, Los tres chiflados y The Amazing Spider-Man."
+        },
+        "conocida": [
+          [
+            "The Amazing Spider-Man",
+            2012,
+            "pelicula",
+            "Howard Stacy"
+          ],
+          [
+            "The Amazing Spider-Man 2: El poder de Electro",
+            2014,
+            "pelicula",
+            "Howard Stacy"
+          ],
+          [
+            "House",
+            2004,
+            "serie",
+            "Clancy Green"
+          ],
+          [
+            "Noche en el museo: El secreto del faraón",
+            2014,
+            "pelicula",
+            "Nick Daley"
+          ],
+          [
+            "Superman",
+            2025,
+            "pelicula",
+            "Jimmy Olsen"
+          ],
+          [
+            "Vacaciones",
+            2015,
+            "pelicula",
+            "James Griswold"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/4oywya1Roukq6FJFuWjU5z61WUg.jpg",
+        "lugar": "Palm Beach County, Florida, USA",
+        "nacimiento": "1996-07-22",
+        "nombre": "Skyler Gisondo",
+        "oficio": "Acting",
+        "tmdb": 61263,
+        "wikidata": "Q1190692",
+        "wikipedia": "https://es.wikipedia.org/wiki/Skyler_Gisondo"
+      },
+      "fecha": "2026-11-24"
+    },
     "6157262": {
       "datos": {
         "nombre": "Alba Grau",
@@ -55214,6 +56365,22 @@
         "tmdb": 6497911
       },
       "fecha": "2026-11-19"
+    },
+    "6502703": {
+      "datos": {
+        "conocida": [
+          [
+            "Species (Sanguine)",
+            2026,
+            "pelicula",
+            "Etienne"
+          ]
+        ],
+        "nombre": "Benjamin Mendes",
+        "oficio": "Acting",
+        "tmdb": 6502703
+      },
+      "fecha": "2026-11-24"
     },
     "6504999": {
       "datos": {
@@ -57046,6 +58213,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Sean_Connery"
       },
       "fecha": "2026-11-20"
+    },
+    "7399": {
+      "datos": {
+        "bio": {
+          "es": "Benjamin Edward Stiller (30 de noviembre de 1965), más conocido como Ben Stiller, es un actor, cómico, productor y director de cine estadounidense, ganador de un Emmy. Es conocido por sus papeles en las películas There's Something About Mary, Zoolander, Meet the Parents y Night at the Museum. Es hijo de los actores y comediantes Jerry Stiller y Anne Meara. La revista Vanity Fair publicó la lista de las 40 celebridades de Hollywood con más ingreso a lo largo del año 2010, Stiller fue clasificado n.º 30 en la lista, estimándose que ganó unos 18 millones de dólares por sus películas."
+        },
+        "conocida": [
+          [
+            "Madagascar",
+            2005,
+            "pelicula",
+            "Alex (voice)"
+          ],
+          [
+            "Noche en el museo",
+            2006,
+            "pelicula",
+            "Larry Daley"
+          ],
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Garth Motherloving (voice)"
+          ],
+          [
+            "Friends",
+            1994,
+            "serie",
+            "Tommy"
+          ],
+          [
+            "La vida secreta de Walter Mitty",
+            2013,
+            "pelicula",
+            "Walter Mitty"
+          ],
+          [
+            "Megamind",
+            2010,
+            "pelicula",
+            "Bernard (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "còmic, actor, director de cinema, i productor estatunidenc",
+          "es": "actor y comediante estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg",
+        "lugar": "New York City, New York, USA",
+        "nacimiento": "1965-11-30",
+        "nombre": "Ben Stiller",
+        "oficio": "Acting",
+        "tmdb": 7399,
+        "wikidata": "Q47100",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ben_Stiller"
+      },
+      "fecha": "2026-11-24"
     },
     "7489": {
       "datos": {
@@ -59039,6 +60264,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Maxim_Gaudette"
       },
       "fecha": "2026-11-20"
+    },
+    "887": {
+      "datos": {
+        "bio": {
+          "es": "Owen Cunningham Wilson (18 de noviembre de 1968) es un actor de cine, humorista y guionista estadounidense. Conocido principalmente por sus papeles en Zoolander y Shanghai Noon. Como guionista estuvo nominado al Óscar al mejor guion original por el guion de la película The Royal Tenenbaums, escrito junto a Wes Anderson, con quien ha colaborado como actor en varias de sus películas. También ha colaborado con Ben Stiller en varias películas entre ellas podemos mencionar la trilogía de Night at the Museum, Los padres de ella y Zoolander, entre otras."
+        },
+        "conocida": [
+          [
+            "El gran hotel Budapest",
+            2014,
+            "pelicula",
+            "M. Chuck"
+          ],
+          [
+            "Cars",
+            2006,
+            "pelicula",
+            "Lightning McQueen (voice)"
+          ],
+          [
+            "Loki",
+            2021,
+            "serie",
+            "Mobius"
+          ],
+          [
+            "Rick y Morty",
+            2013,
+            "serie",
+            "Reese (voice)"
+          ],
+          [
+            "Noche en el museo",
+            2006,
+            "pelicula",
+            "Jedediah Smith (uncredited)"
+          ],
+          [
+            "Armageddon",
+            1998,
+            "pelicula",
+            "Oscar"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor còmic, guionista i productor de cinema",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/5A46lNOwmpX77jAdhyKxU7e2Hub.jpg",
+        "lugar": "Dallas, Texas, USA",
+        "nacimiento": "1968-11-18",
+        "nombre": "Owen Wilson",
+        "oficio": "Acting",
+        "tmdb": 887,
+        "wikidata": "Q161916",
+        "wikipedia": "https://es.wikipedia.org/wiki/Owen_Wilson"
+      },
+      "fecha": "2026-11-24"
     },
     "8950": {
       "datos": {
@@ -61108,6 +62391,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Hannah_Einbinder"
     },
+    "Q106881027": {
+      "descripcion": {
+        "ca": "actriu francesa",
+        "es": "actriz francesa"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": null
+    },
     "Q106919": {
       "descripcion": {
         "ca": "actriu italiana (1930–1989)",
@@ -61149,6 +62440,14 @@
     "Q108283765": {
       "descripcion": null,
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q108292761": {
+      "descripcion": {
+        "ca": "actor francès",
+        "es": "actor francés"
+      },
+      "fecha": "2026-11-24",
       "wikipedia": null
     },
     "Q108407737": {
@@ -61411,6 +62710,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Sophie_Wilde"
     },
+    "Q114944989": {
+      "descripcion": {
+        "ca": "actriu belga",
+        "es": "actriz belga"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": null
+    },
     "Q115061402": {
       "descripcion": {
         "ca": "guionista estatunidenc",
@@ -61533,6 +62840,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Matt_Berry"
+    },
+    "Q1190692": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Skyler_Gisondo"
     },
     "Q11916484": {
       "descripcion": {
@@ -61800,6 +63115,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Rachel_Szor"
     },
+    "Q132459426": {
+      "descripcion": {
+        "ca": "actor i ballarí català"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": null
+    },
     "Q132527533": {
       "descripcion": {
         "ca": "actor català",
@@ -62029,6 +63351,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q151892": {
+      "descripcion": {
+        "ca": "actriu, cantant i ballarina estatunidenca",
+        "es": "cantautora y actriz estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ariana_Grande"
+    },
     "Q15256732": {
       "descripcion": {
         "ca": "actor català",
@@ -62153,6 +63483,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://ca.wikipedia.org/wiki/Mamen_Duch"
     },
+    "Q161916": {
+      "descripcion": {
+        "ca": "actor còmic, guionista i productor de cinema",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Owen_Wilson"
+    },
     "Q16198926": {
       "descripcion": {
         "es": "actor británico-estadounidense"
@@ -62212,6 +63550,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Camille_Cottin"
     },
+    "Q16730037": {
+      "descripcion": {
+        "es": "humorista, escritora y actriz estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ilana_Glazer"
+    },
     "Q16738674": {
       "descripcion": {
         "ca": "actriu britànica",
@@ -62219,6 +63564,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Daisy_Ridley"
+    },
+    "Q167683": {
+      "descripcion": {
+        "es": "guionista y director de cine estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": null
     },
     "Q1677002": {
       "descripcion": null,
@@ -62670,6 +64022,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Arturo_V%C3%A1zquez"
     },
+    "Q20973709": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Beanie_Feldstein"
+    },
     "Q20978738": {
       "descripcion": {
         "es": "director de cine y guionista belga"
@@ -62904,6 +64264,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Linda_Hunt"
+    },
+    "Q236300": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Teri_Polo"
     },
     "Q23663310": {
       "descripcion": {
@@ -63181,6 +64549,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Lance_Oppenheim"
     },
+    "Q271944": {
+      "descripcion": {
+        "ca": "actriu francesa",
+        "es": "actriz francesa"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Karin_Viard"
+    },
     "Q27499996": {
       "descripcion": {
         "ca": "actor alemany",
@@ -63291,6 +64667,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q28549850": {
+      "descripcion": {
+        "es": "youtuber estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Liza_Koshy"
     },
     "Q28699137": {
       "descripcion": {
@@ -63759,6 +65142,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Robert_Pattinson"
     },
+    "Q36949": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Robert_De_Niro"
+    },
     "Q3698926": {
       "descripcion": {
         "ca": "Actor de cinema català",
@@ -63870,6 +65261,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Pen%C3%A9lope_Cruz"
+    },
+    "Q40064": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Blythe_Danner"
     },
     "Q41408": {
       "descripcion": {
@@ -64036,6 +65435,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Maya_Hawke"
+    },
+    "Q47100": {
+      "descripcion": {
+        "ca": "còmic, actor, director de cinema, i productor estatunidenc",
+        "es": "actor y comediante estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ben_Stiller"
     },
     "Q47166832": {
       "descripcion": {
@@ -64659,6 +66066,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q63366389": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Eduardo_Franco_%28actor%29"
+    },
     "Q63382252": {
       "descripcion": {
         "ca": "actor",
@@ -64991,6 +66406,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Biel_Dur%C3%A1n"
+    },
+    "Q83189810": {
+      "descripcion": {
+        "ca": "actor francès",
+        "es": "actor francés"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Sami_Outalbali"
     },
     "Q83410": {
       "descripcion": {

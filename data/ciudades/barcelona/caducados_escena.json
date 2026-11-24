@@ -367,6 +367,102 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400720613": {
+    "barrio": "el Barri Gòtic",
+    "caducado": "2026-11-23",
+    "compra": "https://elmalda.cat/espectacle/guillermotta/",
+    "compra_sala": "https://elmalda.cat/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-20",
+    "descripcion": {
+      "ca": "Teatre musical. L'espectacle homenatge a Guillermina Motta torna al Maldà per cinquena temporada. Sinopsi Torna per cinquena temporada el concert íntim de cançons de la Guillermina Motta interpretades per un alter ego molt particular, anomenat Guillermotta, encarnat per Jordi Vidal, acompanyat de Jordi Cornudella al piano, sota la direcció de Jordi Prat i Coll. Distribució: Monicadegira. Espectacle en català. Durada: 95 minuts.",
+      "es": "Teatro musical. El espectáculo homenaje a Guillermina Motta vuelve al Maldà por quinta temporada. Sinopsis: Vuelve por quinta temporada el concierto íntimo de canciones de Guillermina Motta interpretadas por un alter ego muy particular, llamado Guillermotta, encarnado por Jordi Vidal, acompañado por Jordi Cornudella al piano, bajo la dirección de Jordi Prat i Coll. Distribución: Monicadegira. Espectáculo en catalán. Duración: 95 minutos."
+    },
+    "direccion": "C Pi 5",
+    "duracion": 95,
+    "equipo": [
+      [
+        "direcció",
+        "Jordi Prat i Coll"
+      ],
+      [
+        "dramatúrgia i direcció",
+        "Jordi Prat i Coll"
+      ],
+      [
+        "intèrpret",
+        "Jordi Vidal"
+      ],
+      [
+        "direcció musical i piano",
+        "Jordi Cornudella"
+      ],
+      [
+        "vestuari",
+        "Míriam Compte"
+      ],
+      [
+        "caracterització",
+        "Núria Llunell"
+      ],
+      [
+        "espai escènic i il·luminació",
+        "Joan Griset"
+      ],
+      [
+        "disseny de cartell",
+        "David Pintó"
+      ],
+      [
+        "fotografies",
+        "Pere Elies"
+      ],
+      [
+        "Direcció musical",
+        "Jordi Cornudella"
+      ],
+      [
+        "Piano",
+        "Jordi Cornudella"
+      ],
+      [
+        "Disseny cartell",
+        "David Pintó"
+      ],
+      [
+        "Distribució",
+        "Monicadegira"
+      ]
+    ],
+    "ficha_fuente": "https://elmalda.cat/espectacle/guillermotta/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-guillermotta_99400720613.html",
+    "funciones": [
+      [
+        "2026-11-23",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "musical"
+    ],
+    "id": "open_data_bcn:99400720613",
+    "idioma_textos": "ca",
+    "idiomas": [
+      "catalan"
+    ],
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/GUILLERMOTTA.760x428.084b165a.jpg",
+    "lat": 41.38316871916782,
+    "lon": 2.1739331803151103,
+    "nombre": "Guillermotta",
+    "pagina_obra": "https://elmalda.cat/espectacle/guillermotta/",
+    "precio_max": 24.0,
+    "precio_min": 24.0,
+    "sala": "Teatre El Maldà",
+    "sala_id": "barcelona:via256004-5",
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400726257": {
     "barrio": "el Clot",
     "caducado": "2026-11-19",
@@ -1381,6 +1477,44 @@
       ]
     },
     "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400774244": {
+    "barrio": "la Barceloneta",
+    "caducado": "2026-11-23",
+    "comprobado": "2026-11-19",
+    "descripcion": {
+      "ca": "A càrrec de Sílvia Comes. Amb 365 Dones l'Any, el TNC impulsa un cicle dedicat a recuperar el llegat de grans dones de la història catalana, que en moltes ocasions no han rebut la rellevància i reconeixement que mereixien. Després de quatre edicions dedicades a Aurora Bertrana, Anna Maria Martínez Sagi, Marina Ginestà i Margarida Rugall, respectivament, enguany l'artista plàstica Remedios Varo n'és la protagonista. Remedios Varo va ser una pintora surrealista destacada per la seva capacitat d'integrar ciència, màgia i misticisme en mons imaginaris plens de simbolisme. La seva obra és important per la visió femenina i introspectiva amb una estètica detallista i onírica única. La dramaturga Eu Manzanares ha dut a terme una investigació sobre aquesta pintora catalana establerta a Mèxic creant el text \"La Reme i jo\", que presentarem al CCBarceloneta sota la direcció teatral de Sílvia Comes.",
+      "es": "A cargo de Sílvia Comes. Con 365 Dones l'Any, el TNC impulsa un ciclo dedicado a recuperar el legado de grandes mujeres de la historia catalana, que en muchas ocasiones no han recibido la relevancia y el reconocimiento que merecían. Después de cuatro ediciones dedicadas a Aurora Bertrana, Anna Maria Martínez Sagi, Marina Ginestà y Margarida Rugall, respectivamente, este año la artista plástica Remedios Varo es la protagonista. Remedios Varo fue una pintora surrealista destacada por su capacidad para integrar ciencia, magia y misticismo en mundos imaginarios llenos de simbolismo. Su obra es importante por la visión femenina e introspectiva con una estética detallista y onírica única. La dramaturga Eu Manzanares ha llevado a cabo una investigación sobre esta pintora catalana establecida en México y ha creado el texto «La Reme i jo», que presentaremos en el CCBarceloneta bajo la dirección teatral de Sílvia Comes."
+    },
+    "direccion": "Carrer de la Conreria 1",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-per-a-dones-la-reme-i-jo-de-remedios-varo-eu-manzanares_99400774244.html",
+    "funciones": [
+      [
+        "2026-11-23",
+        "19:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400774244",
+    "idioma_textos": "ca",
+    "lat": 41.38026816937647,
+    "lon": 2.192288054869178,
+    "nombre": "per a dones “La Reme i jo” de Remedios Varo Eu Manzanares",
+    "sala": "Centre Cívic Barceloneta",
+    "sala_id": "barcelona:via88908-1",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "dones artistes"
+      ],
+      "es": [
+        "mujeres artistas"
+      ]
+    },
+    "tipo": "eventos",
     "traducido": "es"
   },
   "open_data_bcn:99400774719": {
@@ -3945,6 +4079,53 @@
     "sala_id": "barcelona:via134958-6",
     "subtipo": "formación",
     "tipo": "eventos"
+  },
+  "open_data_bcn:99400790269": {
+    "barrio": "Sant Genís dels Agudells",
+    "caducado": "2026-11-23",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Una comèdia on les dones més iconoclastes de la història baixen del cel per a disputar-se i alliberar un món en crisi, amb les interferències d'un malvat de pacotilla que intenta sabotejar el recompte. A càrrec de: Grup de Dones de Montbau i Natalia Alfaro. Organitza: Espai de Persones Grans de Sant Genís.",
+      "es": "Una comedia donde las mujeres más iconoclastas de la historia bajan del cielo para disputarse y liberar un mundo en crisis, con las interferencias de un malvado de pacotilla que intenta sabotear el recuento. A cargo de: Grup de Dones de Montbau y Natalia Alfaro. Organiza: Espai de Persones Grans de Sant Genís."
+    },
+    "direccion": "Carrer de Naïm 10",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Grup de Dones de Montbau i Natalia Alfaro"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-de-teatre-la-ultima-urna-presidenta-o-caos_99400790269.html",
+    "funciones": [
+      [
+        "2026-11-23",
+        "17:00"
+      ]
+    ],
+    "generos": [
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790269",
+    "idioma_textos": "ca",
+    "lat": 41.42596467160077,
+    "lon": 2.138071440353443,
+    "nombre": "La última urna: ¡Presidenta o Caos!",
+    "sala": "Espai de Persones Grans de Sant Genís dels Agudells",
+    "sala_id": "barcelona:via225204-10",
+    "temas": {
+      "ca": [
+        "comèdia",
+        "crisi mundial"
+      ],
+      "es": [
+        "comedia",
+        "crisis mundial"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
   },
   "open_data_bcn:99400790298": {
     "barrio": "Sant Pere, Santa Caterina i la Ribera",

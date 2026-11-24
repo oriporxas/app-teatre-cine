@@ -3673,6 +3673,122 @@
     "datos": null,
     "fecha": "2026-11-22"
   },
+  "it:sanguine:coroller": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/dAOiih0oNEYWYGmBaXryakDtsDI.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ii2HoeLucIJlot1DM5GiT5M4qGk.jpg",
+          "id": 3287533,
+          "nombre": "Marion Le Corroller"
+        }
+      ],
+      "duracion": 103,
+      "edad": null,
+      "estreno": "2026-10-28",
+      "fondo": "https://image.tmdb.org/t/p/w1280/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
+      "generos": [
+        "Ciencia ficción",
+        "Terror"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ii2HoeLucIJlot1DM5GiT5M4qGk.jpg",
+          "id": 3287533,
+          "nombre": "Marion Le Corroller"
+        },
+        {
+          "id": 1589029,
+          "nombre": "Thomas Pujol"
+        }
+      ],
+      "idioma_original": "fr",
+      "imdb": "tt37799273",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gIofL7sekradFzovvCm2xV5LaU5.jpg",
+          "id": 1530239,
+          "nombre": "Robin Coudert"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "FR",
+        "BE"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yEhRqSa6SAxUDXeAEGwXXfyaEnd.jpg",
+          "id": 1894436,
+          "nombre": "Mara Taquin",
+          "papel": "Margot Loiseau"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/quIomRrFBxXq32K5MBuvaTR3xBk.jpg",
+          "id": 13688,
+          "nombre": "Karin Viard",
+          "papel": "Hélène"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6b2jB4S9M3hbOisr4jmd2S7WfyL.jpg",
+          "id": 3070663,
+          "nombre": "Kim Higelin",
+          "papel": "Pauline Boucheron"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2ekj2Fc6sK039NKNaCQ8fIhjXq.jpg",
+          "id": 544687,
+          "nombre": "Sami Outalbali",
+          "papel": "Louis Serraut"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pEhRxeFhLR1iVyYBMkHijkLZ3xN.jpg",
+          "id": 2601088,
+          "nombre": "Stefan Crepon",
+          "papel": "Clément Bescond"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jXRi07zPXpuGr5IEcZbnnuYh3YV.jpg",
+          "id": 3782346,
+          "nombre": "Sonia Faidi",
+          "papel": "Lila Deschamps"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/coMdQ0fNF2Mr1GIRNDEYpGoAQOX.jpg",
+          "id": 4884943,
+          "nombre": "Edouard Ducamp"
+        },
+        {
+          "id": 6502703,
+          "nombre": "Benjamin Mendes",
+          "papel": "Etienne"
+        },
+        {
+          "id": 3119136,
+          "nombre": "Joël Cudennec",
+          "papel": "M. Bertholet"
+        },
+        {
+          "id": 4836318,
+          "nombre": "Lancelot Courcieras",
+          "papel": "Enzo"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La Margot, una estudiant de medicina brillant però insegura, lluita per sobreviure al ritme frenètic de les seves pràctiques a urgències. Tanmateix, l’esgotament no és el seu problema més gran: una onada de pacients joves són ingressats amb símptomes inexplicables que desafien tota lògica clínica.",
+        "en": "Margot, a young intern at the country's most competitive ER, struggles in the high-pressure environment. When multiple patients her age arrive with strange symptoms, her own body begins experiencing alarming transformations.",
+        "es": "Margot, una joven residente en el servicio de urgencias más competitivo del país, tiene dificultades para desenvolverse en un entorno de gran presión. Cuando llegan varios pacientes de su misma edad con síntomas extraños, su propio cuerpo empieza a experimentar transformaciones alarmantes."
+      },
+      "titulo": "Species (Sanguine)",
+      "titulo_ca": null,
+      "titulo_original": "Sanguine",
+      "tmdb": 1468846,
+      "trailer": "ubo-f-N9yx0",
+      "wikidata": "Q139470942"
+    },
+    "fecha": "2026-11-24"
+  },
   "it:sentido y sensibilidad:oakley": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
@@ -8110,6 +8226,133 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt34966140": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/flYIdyuPlLZQ8ur7guVGGvffN0R.jpg",
+          "id": 17871,
+          "nombre": "John Hamburg"
+        }
+      ],
+      "duracion": 105,
+      "edad": null,
+      "estreno": "2026-11-21",
+      "fondo": "https://image.tmdb.org/t/p/w1280/nubnNXuMArUhiDW1nUevGsG65x9.jpg",
+      "generos": [
+        "Comedia",
+        "Romance"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/flYIdyuPlLZQ8ur7guVGGvffN0R.jpg",
+          "id": 17871,
+          "nombre": "John Hamburg"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/flYIdyuPlLZQ8ur7guVGGvffN0R.jpg",
+          "id": 17871,
+          "nombre": "John Hamburg"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/etW0YsMvj67bSRuJCsevpAOLsWf.jpg",
+          "id": 1325716,
+          "nombre": "Ilana Glazer"
+        },
+        {
+          "id": 1305694,
+          "nombre": "Austen Earl"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt34966140",
+      "lema": "El círculo de confianza acaba de hacerse más grande.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6tKiHkv6Mlc6yhh8gRN1koovdoI.jpg",
+          "id": 10572,
+          "nombre": "Theodore Shapiro"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg",
+          "id": 7399,
+          "nombre": "Ben Stiller",
+          "papel": "Greg Focker"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
+          "id": 380,
+          "nombre": "Robert De Niro",
+          "papel": "Jack Byrnes"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/d4HtCXm58GuqVJVGgDKFn0dEj8M.jpg",
+          "id": 226001,
+          "nombre": "Ariana Grande",
+          "papel": "Olivia Jones"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4oywya1Roukq6FJFuWjU5z61WUg.jpg",
+          "id": 61263,
+          "nombre": "Skyler Gisondo",
+          "papel": "Henry Focker"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5A46lNOwmpX77jAdhyKxU7e2Hub.jpg",
+          "id": 887,
+          "nombre": "Owen Wilson",
+          "papel": "Kevin Rawley"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5fJM6RZXYKAd0ayRwB7osEAQ8YR.jpg",
+          "id": 10401,
+          "nombre": "Blythe Danner",
+          "papel": "Dina Byrnes"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5Po9bp4DqDHRAPKMaZg1ycidjy3.jpg",
+          "id": 10399,
+          "nombre": "Teri Polo",
+          "papel": "Pam Byrnes-Focker"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lyK1s3TcUKQidfVDnNPt3TAc6mI.jpg",
+          "id": 1496393,
+          "nombre": "Beanie Feldstein",
+          "papel": "Samantha Focker"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/FOnx5Rg8L7xvEWkBhNoXwhELd6.jpg",
+          "id": 1653235,
+          "nombre": "Eduardo Franco",
+          "papel": "Eduardo Villalobos"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1Xs1DqpZTUCPyhHdjFhyFQaajg1.jpg",
+          "id": 1700631,
+          "nombre": "Liza Koshy"
+        }
+      ],
+      "sinopsis": {
+        "en": "Henry, son of Greg and Pam Focker, aims to marry Olivia, a strong-willed former hostage negotiator who appears to be his complete mismatch. To Greg's shock, father-in-law Jack Byrnes takes a liking to Olivia, and her unprecedented rise into his Circle of Trust sparks chaos in the family before Jack's 80th birthday party.",
+        "es": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él."
+      },
+      "titulo": "Ahora los suegros son ellos",
+      "titulo_ca": null,
+      "titulo_original": "Focker In-Law",
+      "tmdb": 1400336,
+      "trailer": "j0MROuSV-pA",
+      "wikidata": "Q135713425"
+    },
+    "fecha": "2026-11-24"
+  },
   "itt35298123": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
@@ -11909,6 +12152,7 @@
   "p1352031": "Q27037976",
   "p1354553": "Q57584384",
   "p136495": "Q18350026",
+  "p13688": "Q271944",
   "p137028": "Q11234476",
   "p1373650": "Q73226863",
   "p137427": "Q548823",
@@ -11966,6 +12210,7 @@
   "p1768964": "Q30069887",
   "p1784936": "Q89322300",
   "p1786006": "",
+  "p17871": "Q167683",
   "p1813": "Q36301",
   "p1814793": "Q108494222",
   "p1817655": "",
@@ -11976,6 +12221,7 @@
   "p1838225": "Q63382252",
   "p1846370": "Q57584369",
   "p1892": "Q175535",
+  "p1894436": "Q114944989",
   "p18999": "Q150482",
   "p19": "Q229487",
   "p1904884": "Q113000116",
@@ -12009,6 +12255,7 @@
   "p224354": "Q6317587",
   "p224871": "",
   "p224874": "Q3698926",
+  "p226001": "Q151892",
   "p2269143": "Q17503525",
   "p2269274": "",
   "p227454": "Q439314",
@@ -12073,6 +12320,7 @@
   "p3054663": "Q123739722",
   "p3060195": "Q111672778",
   "p30614": "Q193815",
+  "p3070663": "Q106881027",
   "p3070857": "",
   "p3084": "Q34012",
   "p3088": "Q323166",
@@ -12081,6 +12329,7 @@
   "p31422": "Q5923495",
   "p3153596": "Q86694039",
   "p3194501": "Q28699137",
+  "p3287533": "",
   "p3292": "Q298347",
   "p33410": "Q8346586",
   "p3430763": "",
@@ -12104,6 +12353,7 @@
   "p3736477": "",
   "p3774850": "",
   "p3774884": "",
+  "p380": "Q36949",
   "p3810": "Q134895",
   "p3813575": "",
   "p38526": "Q2178753",
@@ -12147,6 +12397,7 @@
   "p5364687": "",
   "p5372393": "",
   "p5443": "Q557272",
+  "p544687": "Q83189810",
   "p54472": "Q372394",
   "p5469": "Q28493",
   "p54693": "Q147077",
@@ -12189,6 +12440,7 @@
   "p6092122": "",
   "p6092125": "",
   "p6092153": "",
+  "p61263": "Q1190692",
   "p6193": "Q38111",
   "p6204154": "",
   "p6204155": "",
@@ -12219,6 +12471,7 @@
   "p72857": "Q4767265",
   "p72946": "Q3187987",
   "p738": "Q4573",
+  "p7399": "Q47100",
   "p74943": "Q3701686",
   "p75915": "Q490406",
   "p76556": "Q2013068",
@@ -12815,6 +13068,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ106881027": [],
   "wQ1078163": [],
   "wQ108494222": [],
   "wQ108830043": [],
@@ -12913,6 +13167,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ114944989": [],
   "wQ115325763": [
     {
       "anio": 2022,
@@ -13063,6 +13318,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ1190692": [],
   "wQ1212650": [
     {
       "anio": 2011,
@@ -13923,6 +14179,7 @@
   "wQ135261819": [],
   "wQ135436961": [],
   "wQ135509074": [],
+  "wQ135713425": [],
   "wQ135825188": [
     {
       "anio": 2026,
@@ -14138,6 +14395,7 @@
   "wQ139042812": [],
   "wQ139078971": [],
   "wQ139285779": [],
+  "wQ139470942": [],
   "wQ1395624": [
     {
       "anio": 2018,
@@ -14317,6 +14575,43 @@
     {
       "anio": 2022,
       "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ151892": [
+    {
+      "anio": null,
+      "premio": "Billboard Music Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Nickelodeon Kids Choice Awards",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Grammy",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Ciudadano/a honoraria de Manchester",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "American Music Award a l'artista de l'any",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "American Music Award for New Artist of the Year",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2025,
+      "premio": "Óscar a la mejor actriz de reparto",
       "tipo": "nominado"
     }
   ],
@@ -14520,6 +14815,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ167683": [],
   "wQ16908467": [
     {
       "anio": 2017,
@@ -17297,6 +17593,58 @@
   ],
   "wQ27037976": [],
   "wQ27040203": [],
+  "wQ271944": [
+    {
+      "anio": null,
+      "premio": "Caballero de la Orden Nacional del Mérito",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "César a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2003,
+      "premio": "César a la mejor actriz secundaria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Comendador de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2023,
+      "premio": "Premi del Festival d'Ar Baol a la millor interpretació",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "César a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "César a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2012,
+      "premio": "César a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2015,
+      "premio": "César a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2018,
+      "premio": "César a la mejor actriz",
+      "tipo": "nominado"
+    }
+  ],
   "wQ272608": [
     {
       "anio": null,
@@ -18453,6 +18801,158 @@
     {
       "anio": 2013,
       "premio": "Teen Choice Award al actor en una película de ciencia ficción/fantasía",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ36949": [
+    {
+      "anio": 2000,
+      "premio": "Premio Donostia del Festival de San Sebastián",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1981,
+      "premio": "Óscar al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1975,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio Especial Teatro World",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Medalla Presidencial de la Libertad",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Kennedy Center Honors",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Brunelleschi Lifetime Achievement Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Gran Oficial de la Orden al Mérito de la República italiana",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Comendador de la Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1980,
+      "premio": "Globo de Oro al mejor actor - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Premio Cecil B. DeMille",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "León de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Global Citizen Awards",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Marrakech International Film Festival Honorary Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden de las Artes y las Letras",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden al Mérito de la República Italiana",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1975,
+      "premio": "Premios Óscar",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "León de Oro por la carrera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Premio Águila de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2019,
+      "premio": "Premio de Honor del Sindicato de Actores",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2026,
+      "premio": "Oficial de la Orden Nacional de la Legión de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1975,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1977,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1979,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1981,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1991,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Oscar al mejor actor de reparto",
       "tipo": "nominado"
     }
   ],
@@ -19846,6 +20346,18 @@
     {
       "anio": 2021,
       "premio": "Singapuresos Més Influents",
+      "tipo": "ganado"
+    }
+  ],
+  "wQ47100": [
+    {
+      "anio": null,
+      "premio": "Premio Primetime Emmy a la mejor guion para serie de variedades",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "MTV Movie Awards al mejor villano",
       "tipo": "ganado"
     }
   ],
@@ -22298,6 +22810,13 @@
     }
   ],
   "wQ8263584": [],
+  "wQ83189810": [
+    {
+      "anio": 2021,
+      "premio": "Valois de l'acteur",
+      "tipo": "ganado"
+    }
+  ],
   "wQ83410": [
     {
       "anio": 1969,

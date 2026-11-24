@@ -2614,6 +2614,53 @@
     "firma": "f3ed075994b9a5eb",
     "imagen": "https://teatregaudibarcelona.com/wp-content/uploads/Soc-un-bon-609x875-1.png"
   },
+  "https://teatregaudibarcelona.com/calendari/lluis-i-jordi/": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Autoria",
+          "Ben Weatherill"
+        ],
+        [
+          "Adaptació i direcció",
+          "Sergi Belbel"
+        ],
+        [
+          "Intèrprets",
+          "Lluís Soler, Jordi Banacolocha"
+        ],
+        [
+          "Direcció de producció i ajudantia de direcció",
+          "Esteve Clos"
+        ],
+        [
+          "Escenografia",
+          "Uri Prat"
+        ],
+        [
+          "Disseny de llums",
+          "Kiko Planas"
+        ],
+        [
+          "Espai sonor",
+          "Ollie Moreno"
+        ],
+        [
+          "Fotografia",
+          "Sergi Panizo"
+        ],
+        [
+          "Vestuari, regidoria, disseny gràfic i producció",
+          "Buganvilia"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "f52ed0c014e49b15",
+    "imagen": null
+  },
   "https://teatremuntaner.com/ca/espectaculos/como-pasar-de-los-60-sin-morir-en-el-intento/": {
     "datos": {
       "duracion": null,
@@ -2939,6 +2986,16 @@
     "fecha": "2026-11-21",
     "firma": "56467fd139c4fe3a",
     "imagen": "https://teatrometamorfosis.com/wp-content/uploads/2026/11/Copy-of-CASA-DRASSANES-Instagram-Post-45-pdf.jpg"
+  },
+  "https://teatrometamorfosis.com/es/event/top-comedy-bcnon-friday/": {
+    "datos": {
+      "duracion": null,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "34716b35d67b991e",
+    "imagen": "https://teatrometamorfosis.com/wp-content/uploads/2026/11/Flyer-2711-pdf.jpg"
   },
   "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/": {
     "datos": {
@@ -3922,6 +3979,45 @@
     "fecha": "2026-11-18",
     "firma": "6e3efa0a6a83d34a",
     "imagen": "https://www.daualsecartsesceniques.cat/img/image/fotos/980.jpeg?w=600&h=600&zc=1&aoe=1&q=80"
+  },
+  "https://www.eixampleteatre.cat/es/Bonobos": {
+    "datos": {
+      "duracion": 100,
+      "equipo": [
+        [
+          "Autor",
+          "Laurent Baffie"
+        ],
+        [
+          "Adaptación",
+          "Julián Quintanilla"
+        ],
+        [
+          "Dirección",
+          "Borja Rabanal / Mònica Macfer"
+        ],
+        [
+          "Reparto",
+          "Ariana Bruguera, Marta Fíguls, Gemma Iglesias, Mireia Òrrit, Maria Palazón, Julia Pérez, Andrea Labeana, Jaume Casals, Elias Torrecillas, Albert Doz, Carles Pulido, Benjamí Conesa"
+        ],
+        [
+          "Sonido",
+          "Alan Brizuela"
+        ],
+        [
+          "Luces",
+          "Néstor González"
+        ],
+        [
+          "Producción",
+          "Mer Roman"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "8d8a70b534dc1231",
+    "imagen": null
   },
   "https://www.eixampleteatre.cat/es/NOCHE-DE-CHICAS": {
     "datos": {
@@ -4918,6 +5014,29 @@
     "firma": "0ca5c2223acc6333",
     "imagen": null
   },
+  "https://www.salaarsteatre.com/69-la-comedia/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Reparto",
+          "Adrian Ridao, Rocío Raval"
+        ],
+        [
+          "Guión",
+          "Adrian Ridao, Xavi Fuster"
+        ],
+        [
+          "Dirección",
+          "Xavi Fuster"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "84d5accfbcadb718",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2023/05/69-la-comedia-scaled.jpg"
+  },
   "https://www.salaarsteatre.com/conte-de-nadal/": {
     "datos": {
       "duracion": 55,
@@ -4960,6 +5079,84 @@
     "fecha": "2026-11-23",
     "firma": "3dc1a5362ab54f9b",
     "imagen": null
+  },
+  "https://www.salaarsteatre.com/el-llibre-de-la-selva/": {
+    "datos": {
+      "duracion": 55,
+      "equipo": [
+        [
+          "Reparto",
+          "Alaia Moschini"
+        ],
+        [
+          "Reparto",
+          "Roger Figueras"
+        ],
+        [
+          "Reparto",
+          "Txell Batlle"
+        ],
+        [
+          "Reparto",
+          "Jordi Vicente"
+        ],
+        [
+          "Dirección",
+          "Albert Pueyo"
+        ],
+        [
+          "Música",
+          "Magatzem d’Ars"
+        ],
+        [
+          "Lletres",
+          "Jordi Fornieles"
+        ],
+        [
+          "Llibret",
+          "Mar Colàs"
+        ],
+        [
+          "Escenografia",
+          "Alba Tramútolo / Irene Segura"
+        ],
+        [
+          "Vestuari",
+          "Emma Pla"
+        ],
+        [
+          "Producció",
+          "Magatzem d’Ars"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "0058806023eb234e",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2022/03/A3_Cs9jFsb.width-800.format-jpeg.jpg"
+  },
+  "https://www.salaarsteatre.com/ellas-y-ellos/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Reparto",
+          "Adrián Ridao, Carmen Lova"
+        ],
+        [
+          "Director",
+          "Xavi Fuster"
+        ],
+        [
+          "Guión",
+          "Xavi Fuster, Adrián Ridao"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "16957d5a3b032f8e",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2025/04/A3-1.jpg"
   },
   "https://www.salaarsteatre.com/els-tres-porquets/": {
     "datos": {
@@ -5094,6 +5291,33 @@
     "firma": "6006e9796385e6ae",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2025/07/A3-4-1-scaled.jpg"
   },
+  "https://www.salaarsteatre.com/pecados-de-pareja/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Reparto",
+          "Adrian Ridao, Rocío Raval"
+        ],
+        [
+          "Idea Original",
+          "Xavi Fuster"
+        ],
+        [
+          "Guión",
+          "Adrian Ridao, Xavi Fuster"
+        ],
+        [
+          "Dirección",
+          "Xavi Fuster"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "acf5fcc21c2e092b",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2024/10/CARTEL-PECADOS_ENVIAR-1-scaled.jpg"
+  },
   "https://www.salaarsteatre.com/terra-baixa-2/": {
     "datos": {
       "duracion": 70,
@@ -5132,6 +5356,37 @@
     "fecha": "2026-11-22",
     "firma": "78c46f67ef506258",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2025/03/Cartell-Terra-Baixa.jpg"
+  },
+  "https://www.salaarsteatre.com/y-no-quedara-ninguno/": {
+    "datos": {
+      "duracion": 100,
+      "equipo": [
+        [
+          "Traducción",
+          "Albert Pueyo, Jordi Fornieles"
+        ],
+        [
+          "Dirección",
+          "Albert Pueyo"
+        ],
+        [
+          "Vestuario",
+          "Laura Taus, Clàudia Segura"
+        ],
+        [
+          "Escenografia",
+          "Alba Tramútolo, Sofia Sinelli"
+        ],
+        [
+          "Producción",
+          "Magatzem d’Ars"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "31f5c1c114b7ee02",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2024/05/A3-Blanc-1.jpg"
   },
   "https://www.salapangoli.com/producto/adultos-difsuncionales/": {
     "datos": {

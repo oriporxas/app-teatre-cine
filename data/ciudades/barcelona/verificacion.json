@@ -2,8 +2,8 @@
   "cine": {
     "anomalias": [],
     "corregidas_por_regla": {},
-    "fecha": "2026-11-23",
-    "publicadas": 89
+    "fecha": "2026-11-24",
+    "publicadas": 88
   },
   "escena": {
     "anomalias": [
@@ -293,14 +293,21 @@
         "id": "open_data_bcn:99400791180",
         "regla": "repetida",
         "titulo": "Teatre amateur"
+      },
+      {
+        "accion": "función quitada",
+        "detalle": "2026-11-27 fuera del periodo 2026-11-28–2026-12-12",
+        "id": "webs_salas:1eb88c22c16ed822",
+        "regla": "fecha",
+        "titulo": "Show Up Go Up"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 19,
+      "fecha": 20,
       "repetida": 20,
       "sala": 2
     },
-    "fecha": "2026-11-23",
-    "publicadas": 693
+    "fecha": "2026-11-24",
+    "publicadas": 717
   }
 }

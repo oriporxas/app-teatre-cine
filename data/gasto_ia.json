@@ -80,5 +80,17 @@
       "traducir": 0.0105
     },
     "usd": 0.5304
+  },
+  "2026-11-24": {
+    "por_tarea": {
+      "clasificar": 0.0824,
+      "eventos_cine": 0.0003,
+      "fichas_obra": 0.0033,
+      "leer_webs": 0.026,
+      "noticias": 0.017,
+      "revisar_dudosos": 0.0638,
+      "traducir": 0.0012
+    },
+    "usd": 0.194
   }
 }

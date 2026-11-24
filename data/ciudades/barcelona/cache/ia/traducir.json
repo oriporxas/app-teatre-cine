@@ -9842,6 +9842,34 @@
     },
     "traduccion": "A través del cuerpo, el juego y la relación con los demás, descubriremos las bases de la improvisación teatral. Aprenderemos a confiar en el impulso, a escuchar y a construir escenas en el mismo momento en que suceden. El objetivo es desarrollar presencia, creatividad y capacidad de respuesta, convirtiendo al intérprete en motor activo de la creación. Profesora: Natalia Barraza"
   },
+  "open_data_bcn:99400790914": {
+    "destino": "es",
+    "firma": "4b326a3b88717d37",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "Nadal"
+      ],
+      "es": [
+        "navidad"
+      ]
+    },
+    "traduccion": "Representación teatral del pesebre viviente hablado 'Una nit plena de llum' a cargo de los niños y niñas de la Comunidad Pastoral Sants Les Corts. Organiza: Comunidad Pastoral Sants Les Corts"
+  },
+  "open_data_bcn:99400790954": {
+    "destino": "es",
+    "firma": "e1ed6fea61c011c2",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "cinema asiàtic"
+      ],
+      "es": [
+        "cine asiático"
+      ]
+    },
+    "traduccion": "Casa Asia impulsa una programación semanal de cine asiático de autor en los Cines Girona, que presenta una programación semanal estable dedicada a algunas de las cinematografías más relevantes de Asia-Pacífico. Cada sábado, el público podrá descubrir una cuidada selección de películas que reflejan la diversidad, la vitalidad y la creciente presencia del cine asiático contemporáneo, cada vez más consolidado tanto en festivales internacionales como en las salas comerciales. Reunimos tres títulos de la Retrospectiva About India (1942-2023) que proyectaremos a partir del 28 de noviembre. Tres de los dieciocho títulos programados para este proyecto se podrán ver próximamente en los Cines Girona."
+  },
   "open_data_bcn:99400790980": {
     "destino": "es",
     "firma": "b960fb5eb86b282b",
@@ -9929,6 +9957,20 @@
       ]
     },
     "traduccion": "Un espectáculo familiar que fusiona la magia y la danza. ¡Un mago muy despistado y una bailarina hacen pasar un rato divertidísimo!!"
+  },
+  "open_data_bcn:99400791046": {
+    "destino": "es",
+    "firma": "4dc1d0948f074c20",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "cinema"
+      ],
+      "es": [
+        "cine"
+      ]
+    },
+    "traduccion": "Pati de Cine es un espacio para compartir, reflexionar y aprender en grupo sobre cine. A partir de las proyecciones que ofrece el ciclo de Cine Pantalla BDC, diferentes expertos darán herramientas para analizar las películas y profundizar en diversos aspectos del cine: crítica, análisis del lenguaje cinematográfico, guion, fotografía, perspectiva de género... Pati de Cine incluye: 4 encuentros con profesionales para aprender de manera colectiva la pasión por el cine. 2 salidas a festivales u otros espacios cinematográficos. Puedes apuntarte al programa entero o a las masterclass por separado. Los martes 19/1, 26/01, 16/2, 2/3, 16/3 De 18.30 a 20.30 h. Una de las salidas será en un día diferente, dentro del mes de marzo."
   },
   "open_data_bcn:99400791081": {
     "destino": "es",
@@ -10373,6 +10415,16 @@
       "es": []
     },
     "traduccion": "Únete cada dos domingos al Taller abierto de clown."
+  },
+  "webs_salas:43c0b69d1283fd72": {
+    "destino": "es",
+    "firma": "4ed1aaa68a2bd1c8",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "Para todas las edades. Todas llenas de paciencia. No, no es una fase."
   },
   "webs_salas:54582b0451f7598f": {
     "destino": "es",

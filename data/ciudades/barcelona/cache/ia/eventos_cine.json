@@ -191,13 +191,16 @@
 "open_data_bcn:99400790743": {"confianza": 0.95, "huella": "5071cf5f8225f9b0", "tipo": "proyección"},
 "open_data_bcn:99400790747": {"confianza": 0.95, "huella": "676d1950219f2bee", "tipo": "proyección"},
 "open_data_bcn:99400790750": {"confianza": 0.95, "huella": "82a8eab54e8470b1", "tipo": "proyección"},
+"open_data_bcn:99400790835": {"confianza": 0.9, "huella": "82366845f926a525", "tipo": "no es de cine"},
 "open_data_bcn:99400790917": {"confianza": 0.6, "huella": "e830412da733da67", "tipo": "no es de cine"},
-"open_data_bcn:99400790954": {"confianza": 0.9, "huella": "2f26096cae055034", "tipo": "festival"},
+"open_data_bcn:99400790954": {"confianza": 0.8, "huella": "5fca7cc8ac65863e", "tipo": "festival"},
 "open_data_bcn:99400791016": {"confianza": 0.6, "huella": "003132099d550ccc", "tipo": "estreno"},
 "open_data_bcn:99400791040": {"confianza": 0.9, "huella": "0814e1d4822f9734", "tipo": "proyección"},
 "open_data_bcn:99400791043": {"confianza": 0.8, "huella": "5b6398db0f3b3295", "tipo": "conferencia o coloquio"},
 "open_data_bcn:99400791044": {"confianza": 0.8, "huella": "114e9e5bd31045d7", "tipo": "conferencia o coloquio"},
 "open_data_bcn:99400791045": {"confianza": 0.9, "huella": "831e3729db75385e", "tipo": "proyección"},
-"open_data_bcn:99400791046": {"confianza": 0.6, "huella": "7d2b49048a56afb6", "tipo": "formación"},
-"open_data_bcn:99400791157": {"confianza": 0.8, "huella": "759552c7c4c86983", "tipo": "conferencia o coloquio"}
+"open_data_bcn:99400791046": {"confianza": 0.9, "huella": "257ce0cf8c1f9772", "tipo": "formación"},
+"open_data_bcn:99400791157": {"confianza": 0.8, "huella": "759552c7c4c86983", "tipo": "conferencia o coloquio"},
+"open_data_bcn:99400791171": {"confianza": 0.6, "huella": "cab63d09688d1968", "tipo": "formación"},
+"webs_salas:b1a53a42fd68963e": {"confianza": 0.5, "huella": "dcf789606f442525", "tipo": "proyección"}
 }

@@ -672,6 +672,559 @@
     "tmdb": 1034387,
     "trailer": "5hAZTaPypPY"
   },
+  "tmdb-1248832": {
+    "anio": 2026,
+    "caducado": "2026-11-23",
+    "cartel": "https://image.tmdb.org/t/p/w500/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
+        "id": 223,
+        "nombre": "Alejandro González Iñárritu",
+        "premios": [
+          {
+            "anio": 2015,
+            "premio": "Óscar al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Premi Internacional AACTA a la millor direcció",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Premio del Festival de Cannes al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Premio del Sindicato de Directores a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Óscar al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "BAFTA al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Doctorado honoris causa por la Universidad Nacional Autónoma de México",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premios Globo de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premios César",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Óscar para una contribución especial",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premio del Cine Europeo a la mejor película no europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q55215"
+      }
+    ],
+    "duracion": 129,
+    "edad": "16",
+    "estreno": "2026-09-28",
+    "fondo": "https://image.tmdb.org/t/p/w1280/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+    "generos": [
+      "Comedia",
+      "Drama"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
+        "id": 223,
+        "nombre": "Alejandro González Iñárritu"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/aMuTBKGoHk0BKo1iSwz4xffbXjq.jpg",
+        "id": 1050096,
+        "nombre": "Sabina Berman"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/fCdknBtQMVoIEW0VfKiL2yMZqgW.jpg",
+        "id": 21339,
+        "nombre": "Jez Butterworth"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
+        "id": 223,
+        "nombre": "Alejandro González Iñárritu"
+      }
+    ],
+    "id": "tmdb-1248832",
+    "idioma_original": "en",
+    "imdb": "tt31450459",
+    "lema": "Cava o muere.",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/7UH0EVtPiW1Q20dhLZXvhM3cxE.jpg",
+        "id": 1705263,
+        "nombre": "Cosmo Sheldrake"
+      }
+    ],
+    "nota": 7.5,
+    "paises": [
+      "US"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg",
+        "id": 500,
+        "nombre": "Tom Cruise",
+        "papel": "Rockwell",
+        "premios": [
+          {
+            "anio": 1990,
+            "premio": "Globo de Oro al mejor actor - Drama",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1997,
+            "premio": "Globo de Oro al mejor actor - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2000,
+            "premio": "Globo de Oro al mejor actor de reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Medalla de la llibertat d'IAS",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Estrella del Paseo de la Fama de Hollywood",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Premio Saturn al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Palma de Honor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1997,
+            "premio": "Premi Satellite al millor actor en un musical o una comèdia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1990,
+            "premio": "Premios Globo de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Premios Saturn",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Premios de la Crítica Cinematográfica",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Caballero de la Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "Óscar honorífico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Medalla por Servicio Distinguido de la Armada",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2000,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1997,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1990,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1989,
+            "premio": "Razzie al peor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q37079"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg",
+        "id": 53240,
+        "nombre": "Riz Ahmed",
+        "papel": "Ganesh",
+        "premios": [
+          {
+            "anio": 2017,
+            "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Óscar al mejor cortometraje",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Óscar al mejor cortometraje",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2021,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q1861917"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
+        "id": 1230,
+        "nombre": "John Goodman",
+        "papel": "President Compson",
+        "premios": [
+          {
+            "anio": 2013,
+            "premio": "Leyendas Disney",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Primetime Emmy al mejor actor invitado - Serie dramática",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Estrella del Paseo de la Fama de Hollywood",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q215072"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/eytKTAVD9fP8kklbW4dMilbceig.jpg",
+        "id": 7152,
+        "nombre": "Sandra Hüller",
+        "papel": "Emma",
+        "premios": [
+          {
+            "anio": 2006,
+            "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premio del Cine Europeo a la mejor actriz europea",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Cruz de la Orden del Mérito de la República Federal de Alemania",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premi Gilde",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio del Cine Europeo a la mejor actriz europea",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Oso de Plata a la mejor interpretación femenina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "César a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Premio Lumière a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Oficial de la Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2026,
+            "premio": "Oso de Plata a la Mejor interpretación protagónica",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Bayerischer Filmpreis",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Premis de la Crítica de Cinema Alemany",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Premi Ulrich Wildgruber",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Actor del año de Theater heute",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "3sat-Preis",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Actor del año de Theater heute",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Premios del Cine Alemán - Mejor Actriz de Reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premio Bávaro del Cine al Mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Actor del año de Theater heute",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Eysoldt-Ring",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Theaterpreis Berlin",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Actor del año de Theater heute",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la Mejor Actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "BAFTA a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "BAFTA a la mejor actriz de reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2026,
+            "premio": "Oso de Plata a la mejor interpretación femenina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Premio del Cine Europeo a la mejor actriz europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premio del Cine Europeo a la mejor actriz europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio del Cine Europeo a la mejor actriz europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2024,
+            "premio": "César a la mejor actriz",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q70003"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg",
+        "id": 72873,
+        "nombre": "Michael Stuhlbarg",
+        "papel": "Vice President"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg",
+        "id": 88124,
+        "nombre": "Jesse Plemons",
+        "papel": "Kenny"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
+        "id": 31512,
+        "nombre": "Robert John Burke",
+        "papel": "General Fitzgerald"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg",
+        "id": 2121005,
+        "nombre": "Emma D'Arcy",
+        "papel": "Lina"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg",
+        "id": 39659,
+        "nombre": "Burn Gorman",
+        "papel": "Defense Secretary Amos"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/fMZvMsvTv9MYSC6LTNdIUaMGjIv.jpg",
+        "id": 3115932,
+        "nombre": "Sophie Wilde",
+        "papel": "Hannah"
+      }
+    ],
+    "sinopsis": {
+      "ca": "L'home més poderós del món s'embarca en una missió frenètica per demostrar que és el salvador de la humanitat abans que el desastre que ha desfermat ho destrueixi tot.",
+      "en": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+      "es": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo."
+    },
+    "titulo": "Digger",
+    "titulo_original": "Digger",
+    "tmdb": 1248832,
+    "trailer": "xU2jWSsaWY0"
+  },
   "tmdb-1313032": {
     "agenda": "open_data_bcn:99400701451",
     "anio": 2025,
@@ -1758,6 +2311,82 @@
     "titulo_original": "O Poder do Rosário",
     "tmdb": 1688701
   },
+  "tmdb-1736729": {
+    "anio": 2026,
+    "caducado": "2026-11-23",
+    "cartel": "https://image.tmdb.org/t/p/w500/6eJaRsrcmguzLDAGP1nWXzLDYTY.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/dmJkmADTUF00IQwZpJlYGH5BPdL.jpg",
+        "id": 588973,
+        "nombre": "Isaki Lacuesta",
+        "premios": [
+          {
+            "anio": 2017,
+            "premio": "Gaudí a la millor pel·lícula",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Concha de Oro a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "Concha de Oro a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Premio Gaudí de la mejor pelicula en lengua no catalana",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Premio Gaudí a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premio Gaudí al mejor guion",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Premio Gaudí al mejor guion",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Premio Nacional de Cine de Cataluña",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Gaudí al millor guió adaptat",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q535622"
+      }
+    ],
+    "duracion": 78,
+    "estreno": "2026-09-26",
+    "generos": [
+      "Documental"
+    ],
+    "id": "tmdb-1736729",
+    "idioma_original": "es",
+    "imdb": "tt43621154",
+    "sinopsis": {
+      "ca": "«Què pot explicar el flamenc sobre el món en què vivim? Jaleos redescobreix aquest art universal a través d’un fascinant viatge per la seva història més desconeguda. Amb les veus de C. Tangana, Alba Flores, Soleá Morente, Rocío Molina, Georges Didi-Huberman i Pedro G. Romero, la pel·lícula revela els seus inesperats vincles amb el cinema, la tecnologia, les avantguardes artístiques i fins i tot el nazisme. Un documental sorprenent que connecta flamenc, política, art i història per a descobrir un llegat més viu i contemporani que mai»(Lastor Media)",
+      "en": "What can flamenco tell us about the world we live in? Jaleos rediscovers this universal art form through a fascinating journey through its lesser-known history. Featuring the voices of C. Tangana, Alba Flores, Soleá Morente, Rocío Molina, Georges Didi-Huberman, and Pedro G. Romero, the film reveals flamenco’s unexpected connections to cinema, technology, the artistic avant-garde, and even Nazism. A surprising documentary that weaves together flamenco, politics, art, and history to uncover a legacy that is more alive and contemporary than ever.",
+      "es": "A partir de materiales de archivo y una estructura fragmentada y polifónica, la película propone una historia del flamenco que lo vincula con la modernidad, lo popular y lo político. A través de relatos, asociaciones inesperadas y figuras de distintos tiempos y contextos, el filme explora un flamenco impuro, en constante diálogo con el mundo, donde conviven tradición, cultura de masas e imaginario contemporáneo."
+    },
+    "titulo": "Jaleos",
+    "titulo_original": "Jaleos",
+    "tmdb": 1736729
+  },
   "tmdb-1755565": {
     "anio": 2026,
     "caducado": "2026-11-18",
@@ -1961,6 +2590,125 @@
     "titulo": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
     "titulo_original": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
     "tmdb": 1820083
+  },
+  "tmdb-1828101": {
+    "anio": 2026,
+    "caducado": "2026-11-23",
+    "cartel": "https://image.tmdb.org/t/p/w500/d9moHIig8e21mN1RCk8zu80ld3k.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/wKOnSxOHgJRXoqd7IaAtb028wsj.jpg",
+        "id": 94155,
+        "nombre": "Stefan Schwartz",
+        "premios": [],
+        "wikidata": "Q3497894"
+      }
+    ],
+    "duracion": 70,
+    "estreno": "2026-11-23",
+    "fondo": "https://image.tmdb.org/t/p/w1280/soJPwfGLYvFEuDCC25HsCLP2hjw.jpg",
+    "generos": [
+      "Drama",
+      "Aventura",
+      "Fantasía"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/U2bwiLRz8HfVXN4JJGpZBVDMRu.jpg",
+        "id": 129,
+        "nombre": "J. R. R. Tolkien"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/tcZE30s0wA9H85598aGFaXgvoqA.jpg",
+        "id": 1276959,
+        "nombre": "John D. Payne"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/mzPLmSrqMQkQc0n8Kft07Han3zu.jpg",
+        "id": 1276960,
+        "nombre": "Patrick McKay"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/7bTwDKXb8BsvI5b1b4UeKQhBCCN.jpg",
+        "id": 1301304,
+        "nombre": "Justin Doble"
+      }
+    ],
+    "id": "tmdb-1828101",
+    "idioma_original": "en",
+    "imdb": "tt41902195",
+    "paises": [
+      "US"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/1wqSZVvB018H2mZbemMSn6gH4zq.jpg",
+        "id": 1648346,
+        "nombre": "Robert Aramayo",
+        "papel": "Elrond",
+        "premios": [
+          {
+            "anio": 2026,
+            "premio": "BAFTA al mejor actor",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q21155102"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ljqVjVzp9pgcfTTU3oJbKtnd6im.jpg",
+        "id": 1274938,
+        "nombre": "Owain Arthur",
+        "papel": "Prince Durin IV",
+        "premios": [],
+        "wikidata": "Q23770470"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/kG1Xg85F9yAggCMquo4XouAOjdo.jpg",
+        "id": 1321628,
+        "nombre": "Morfydd Clark",
+        "papel": "Galadriel",
+        "premios": [
+          {
+            "anio": 2021,
+            "premio": "BAFTA Cymru",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2021,
+            "premio": "Premi del Cercle de Crítics Cinematogràfics de Londres a la millor actriu britànica de l'any",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Canneseries",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q24572561"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/fRglwdtHHjLGAMIoCkqXwQ9bIfd.jpg",
+        "id": 2056333,
+        "nombre": "Sophia Nomvete",
+        "papel": "Princess Disa",
+        "premios": [],
+        "wikidata": "Q110498189"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/52AAfocWk3d8J3a15iznfD3cabW.jpg",
+        "id": 2309879,
+        "nombre": "Charlie Vickers",
+        "papel": "Sauron"
+      }
+    ],
+    "sinopsis": {
+      "en": "As Middle-earth's fate hangs in the balance, Sauron reaches the height of his power in his quest for the One Ring."
+    },
+    "titulo": "The Lord of the Rings: The Rings of Power – Forging the One Ring",
+    "titulo_original": "The Lord of the Rings: The Rings of Power – Forging the One Ring",
+    "tmdb": 1828101,
+    "trailer": "maP_Kyy3DCA"
   },
   "tmdb-466272": {
     "anio": 2019,
