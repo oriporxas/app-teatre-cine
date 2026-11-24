@@ -3,7 +3,7 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-24",
-    "publicadas": 88
+    "publicadas": 89
   },
   "escena": {
     "anomalias": [
@@ -139,6 +139,13 @@
         "id": "open_data_bcn:99400767958",
         "regla": "repetida",
         "titulo": "Mac Mec Mic"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400731021",
+        "id": "open_data_bcn:99400768812",
+        "regla": "repetida",
+        "titulo": "Anàlisi i crítica cinematogràfica"
       },
       {
         "accion": "nombre de sala oculto",
@@ -293,21 +300,14 @@
         "id": "open_data_bcn:99400791180",
         "regla": "repetida",
         "titulo": "Teatre amateur"
-      },
-      {
-        "accion": "función quitada",
-        "detalle": "2026-11-27 fuera del periodo 2026-11-28–2026-12-12",
-        "id": "webs_salas:1eb88c22c16ed822",
-        "regla": "fecha",
-        "titulo": "Show Up Go Up"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 20,
-      "repetida": 20,
+      "fecha": 19,
+      "repetida": 21,
       "sala": 2
     },
     "fecha": "2026-11-24",
-    "publicadas": 717
+    "publicadas": 715
   }
 }

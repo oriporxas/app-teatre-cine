@@ -880,6 +880,25 @@
     "firma": "4f8958cb0aaecf9b",
     "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
   },
+  "https://espaitexas.cat/espectacle/no-ho-hauria-de-fer/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "CREACIÓ I INTERPRETACIÓ",
+          "ROGER COMA"
+        ],
+        [
+          "PRODUCCIÓ",
+          "HILÀRIA"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "f9005da48cc0dbb7",
+    "imagen": "https://espaitexas.cat/wp-content/uploads/2023/10/espai-texas-imatge-rrss-copia.png"
+  },
   "https://espaitexas.cat/espectacle/rita/": {
     "datos": {
       "duracion": 80,
@@ -3371,6 +3390,37 @@
     "fecha": "2026-11-18",
     "firma": "e92ff7df71989517",
     "imagen": "https://www.atrium.cat/img/image/fotos/img_3015-2_rid.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
+  },
+  "https://www.atrium.cat/ca/programacio/c/196-el-arte-de-la-entrevista.html": {
+    "datos": {
+      "duracion": null,
+      "equipo": [
+        [
+          "Autor",
+          "Juan Mayorga"
+        ],
+        [
+          "Direcció",
+          "Raimon Molins"
+        ],
+        [
+          "Interpretació",
+          "Queralt Albinyana, Óscar Bujía, Imma Colomer, Carla Moix"
+        ],
+        [
+          "Escenografia",
+          "Kike Blanco"
+        ],
+        [
+          "Vestuari i caracterització",
+          "Núria Llunell"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-24",
+    "firma": "de3c7020e34c2c47",
+    "imagen": "https://www.atrium.cat/img/image/fotos/elartedelaentrevista_rid.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
   },
   "https://www.atrium.cat/ca/programacio/c/199-missa-pagesa.html": {
     "datos": {

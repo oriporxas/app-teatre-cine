@@ -215,19 +215,18 @@
       "https://elcentrepoblenou.cat/author/cgrubio/",
       "https://elcentrepoblenou.cat/carta-menjador-del-centre/",
       "https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/",
+      "https://elcentrepoblenou.cat/cinema-amateur-131-aniversari-del-cinema-amb-sam-neill/",
       "https://elcentrepoblenou.cat/contacte/",
       "https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/",
       "https://elcentrepoblenou.cat/legal/",
       "https://elcentrepoblenou.cat/lestel-de-natzaret-6/",
       "https://elcentrepoblenou.cat/newsletter",
-      "https://elcentrepoblenou.cat/page/2/",
       "https://elcentrepoblenou.cat/politica-de-cookies/",
       "https://elcentrepoblenou.cat/politica-de-privacitat/",
       "https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/",
       "https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/",
       "https://elcentrepoblenou.cat/seccio-de-teatre/",
       "https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/",
-      "https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/",
       "https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/",
       "https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/",
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-ESTEL-A4-I-A3-2026.png",
@@ -235,10 +234,10 @@
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/09/Agenda-octubre-26.pdf",
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Cartell-cor-pb9-26.png",
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Cartelleria-CMC-6.png",
-      "https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Seniorsa-novembre-26.png",
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/11/CAVA-CONCERT-DESEMBRE-26.png",
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/11/SENIORS-DESEMBRE-26.png",
       "https://elcentrepoblenou.cat/wp-content/uploads/2026/11/TERTULIA-DESEMBRE-26.png",
+      "https://elcentrepoblenou.cat/wp-content/uploads/2026/11/cinema-amateur-desembre-26.png",
       "https://es-es.facebook.com/cmcpoblenou/",
       "https://fotos.arxiuhistoricpoblenou.cat/",
       "https://twitter.com/cmcpoblenou/",
@@ -256,40 +255,18 @@
       "https://www.youtube.com/@SalaPoblenou",
       "https://xtac.ateneus.cat/"
     ],
-    "fecha": "2026-11-23",
-    "firma": "3dbb8c96a256bdd0",
+    "fecha": "2026-11-24",
+    "firma": "2fa066df93abdf4c",
     "obras": [
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "Sèniors del Centre: Barcelona, nocturna i criminal [https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/]",
-        "descripcion": "",
-        "enlace": "https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/",
-        "funciones": [
-          {
-            "cita": "Dimarts 24 de novembre, a les 18:30h",
-            "fecha": "2026-11-24",
-            "hora": "18:30"
-          }
-        ],
-        "idioma": "ca",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "Sèniors del Centre: Barcelona, nocturna i criminal"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "Cor Poblenou: Música amb cor i ànima [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]",
+        "cita_titulo": "Cor Poblenou: Música amb cor i ànima",
         "descripcion": "",
         "enlace": "https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/",
         "funciones": [
           {
-            "cita": "Diumenge 29 de novembre, a les 19:00h",
+            "cita": "Diumenge 29 de novembre, a les 19:00h Cor Poblenou: [...]",
             "fecha": "2026-11-29",
             "hora": "19:00"
           }
@@ -306,12 +283,12 @@
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "Tertúlia Literària: La Española de Montmartre [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]",
+        "cita_titulo": "Tertúlia Literària: La Española de Montmartre",
         "descripcion": "",
         "enlace": "https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/",
         "funciones": [
           {
-            "cita": "Dijous 3 de desembre, a les 21:00h",
+            "cita": "Dijous 3 de desembre, a les 21:00h Tertúlia Literària: [...]",
             "fecha": "2026-12-03",
             "hora": "21:00"
           }
@@ -328,7 +305,7 @@
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "L'Estel de Natzaret [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]",
+        "cita_titulo": "L’Estel de Natzaret",
         "descripcion": "",
         "enlace": "https://elcentrepoblenou.cat/lestel-de-natzaret-6/",
         "funciones": [
@@ -360,12 +337,12 @@
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "Sèniors del Centre: El Poblenou d’abans, 150 anys d’història [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]",
+        "cita_titulo": "Sèniors del Centre: El Poblenou d’abans, 150 anys d’història",
         "descripcion": "",
         "enlace": "https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/",
         "funciones": [
           {
-            "cita": "Dimecres 16 , a les 11:00h [...] [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/SENIORS-DESEMBRE-26.png]",
+            "cita": "Dimecres 16 , a les 11:00h Sèniors del Centre: [...] … [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/SENIORS-DESEMBRE-26.png]",
             "fecha": "2026-12-16",
             "hora": "11:00"
           }
@@ -382,34 +359,12 @@
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "Sèniors del Centre: Anem al Tívoli a veure… Mamma Mia el Musical [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]",
-        "descripcion": "",
-        "enlace": "https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/",
-        "funciones": [
-          {
-            "cita": "Dimecres 16 de desembre de 2026, a les 8 [...]",
-            "fecha": "2026-12-16",
-            "hora": ""
-          }
-        ],
-        "idioma": "ca",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "Sèniors del Centre: Anem al Tívoli a veure… Mamma Mia el Musical"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "Cava Concert: Les mil cares de l’amor. Un viatge musical entre la cançó i l’òpera [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]",
+        "cita_titulo": "Cava Concert: Les mil cares de l’amor. Un viatge musical entre la cançó i l’òpera",
         "descripcion": "",
         "enlace": "https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/",
         "funciones": [
           {
-            "cita": "Dissabte 19 de desembre, a les 19:00h",
+            "cita": "Dissabte 19 de desembre, a les 19:00h Cava Concert: [...]",
             "fecha": "2026-12-19",
             "hora": "19:00"
           }
@@ -426,12 +381,12 @@
       {
         "cita_lugar": "",
         "cita_precio": "",
-        "cita_titulo": "Secció de teatre: Passat el riu [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]",
+        "cita_titulo": "Secció de teatre: Passat el riu",
         "descripcion": "",
         "enlace": "https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/",
         "funciones": [
           {
-            "cita": "Passat el riu 27 de desembre, a les 20h",
+            "cita": "Passat el riu 27 de desembre, a les 20h [...]",
             "fecha": "2026-12-27",
             "hora": "20:00"
           }
@@ -444,9 +399,31 @@
           "inicio": ""
         },
         "titulo": "Secció de teatre: Passat el riu"
+      },
+      {
+        "cita_lugar": "",
+        "cita_precio": "",
+        "cita_titulo": "Cinema Amateur: 131 aniversari del cinema amb Sam Neill",
+        "descripcion": "",
+        "enlace": "https://elcentrepoblenou.cat/cinema-amateur-131-aniversari-del-cinema-amb-sam-neill/",
+        "funciones": [
+          {
+            "cita": "Dilluns 28, a les 19:00h Cinema Amateur: 131 aniversari [...] … [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/cinema-amateur-desembre-26.png]",
+            "fecha": "2026-12-28",
+            "hora": "19:00"
+          }
+        ],
+        "idioma": "ca",
+        "periodo": {
+          "cita": "",
+          "cita_horario": "",
+          "fin": "",
+          "inicio": ""
+        },
+        "titulo": "Cinema Amateur: 131 aniversari del cinema amb Sam Neill"
       }
     ],
-    "texto": "Inici - Centre Moral i Cultural del Poblenou\nSkip to content\n[https://es-es.facebook.com/cmcpoblenou/] [https://twitter.com/cmcpoblenou/] [https://www.youtube.com/@SalaPoblenou] [https://www.instagram.com/cmcpoblenou/]\n[https://elcentrepoblenou.cat/] [https://elcentrepoblenou.cat/]\nLoading...\n[https://elcentrepoblenou.cat/area-de-soci/]\n[https://elcentrepoblenou.cat/area-de-soci/]\n[https://elcentrepoblenou.cat/seccio-de-teatre/]\n[https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/]\nInici cgrubio [https://elcentrepoblenou.cat/author/cgrubio/] 2026-09-22T13:43:26+00:00\nAGENDA\n[https://elcentrepoblenou.cat/wp-content/uploads/2026/09/Agenda-octubre-26.pdf]\nSèniors del Centre: Barcelona, nocturna i criminal [https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Seniorsa-novembre-26.png]\n[https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/]\nSèniors del Centre: Barcelona, nocturna i criminal [https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/]\nDimarts 24 de novembre, a les 18:30h Sèniors del [...] [https://elcentrepoblenou.cat/seniors-del-centre-barcelona-nocturna-i-criminal/]\nCor Poblenou: Música amb cor i ànima [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Cartell-cor-pb9-26.png]\n[https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nCor Poblenou: Música amb cor i ànima [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nDiumenge 29 de novembre, a les 19:00h Cor Poblenou: [...] [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nTertúlia Literària: La Española de Montmartre [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/TERTULIA-DESEMBRE-26.png]\n[https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nTertúlia Literària: La Española de Montmartre [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nDijous 3 de desembre, a les 21:00h Tertúlia Literària: [...] [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nL’Estel de Natzaret [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-ESTEL-A4-I-A3-2026.png]\n[https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nL’Estel de Natzaret [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nL'Estel de Natzaret 13 de desembre, 3 i 10 [...] [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nSèniors del Centre: El Poblenou d’abans, 150 anys d’història [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/SENIORS-DESEMBRE-26.png]\n[https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nSèniors del Centre: El Poblenou d’abans, 150 anys d’història [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nDimecres 16 , a les 11:00h Sèniors del Centre: [...] [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nSèniors del Centre: Anem al Tívoli a veure… Mamma Mia el Musical [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Cartelleria-CMC-6.png]\n[https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nSèniors del Centre: Anem al Tívoli a veure… Mamma Mia el Musical [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nDimecres 16 de desembre de 2026, a les 8 [...] [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nCava Concert: Les mil cares de l’amor. Un viatge musical entre la cançó i l’òpera [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/CAVA-CONCERT-DESEMBRE-26.png]\n[https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nCava Concert: Les mil cares de l’amor. Un viatge musical entre la cançó i l’òpera [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nDissabte 19 de desembre, a les 19:00h Cava Concert: [...] [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nSecció de teatre: Passat el riu [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-PASSAT-EL-RIU-1.png]\n[https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nSecció de teatre: Passat el riu [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nPassat el riu 27 de desembre, a les 20h [...] [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\n1 2 [https://elcentrepoblenou.cat/page/2/] Següent [https://elcentrepoblenou.cat/page/2/]\nLoad More Posts\n[https://casinoalianca.cat/es/]\n[https://ateneus.cat/]\n[http://web.gencat.cat/ca/inici/]\n[https://www.omnium.cat/ca/]\n[http://www.fundaciopiusbosch.cat/]\n[http://www.bcnclassics.cat/ca]\n[https://xtac.ateneus.cat/]\n[https://www.vxl.cat/]\n[https://fotos.arxiuhistoricpoblenou.cat/]\n[https://www.elcentrepoblenou.cat/]\n[https://elcentrepoblenou.cat/carta-menjador-del-centre/]\n[http://www.esp.subirachs.cat/]\n[http://etc-llibres.com/]\n[https://assemblea.cat/]\n[https://www.barcelona.cat/ca/]\n[https://casinoalianca.cat/es/]\n[https://ateneus.cat/]\n[http://web.gencat.cat/ca/inici/]\n[https://www.omnium.cat/ca/]\n[http://www.fundaciopiusbosch.cat/]\n[http://www.bcnclassics.cat/ca]\n[https://xtac.ateneus.cat/]\n[https://www.vxl.cat/]\n[https://fotos.arxiuhistoricpoblenou.cat/]\n[https://www.elcentrepoblenou.cat/]\n[https://elcentrepoblenou.cat/carta-menjador-del-centre/]\n[http://www.esp.subirachs.cat/]\n[http://etc-llibres.com/]\n[https://assemblea.cat/]\n[https://www.barcelona.cat/ca/]\nApunta’t a la newsletter\nSi voleu estar al dia de tots els esdeveniments i activitats del centre, no dubteu a subscriure-us a la nostra newsletter per rebre informació exclusiva.\nApunta’t a la Newsletter [https://elcentrepoblenou.cat/newsletter]\nPujades, 176-178, Barcelona\n93 485 36 99\ninfo@elcentrepoblenou.cat\nDilluns a Divendres, 17:00 a 20:00h\nContactar [https://elcentrepoblenou.cat/contacte/]\nEl nostre centre\ncmcpoblenou\n📥 gestio@elcentrepoblenou.cat\n🌏 Poblenou, Barcelona\n[https://www.instagram.com/cmcpoblenou/]\n🎟️ SORTEIG D’ENTRADES 🎟️ Sortegem 3 entrades doble\n[https://www.instagram.com/p/Df2b0xLjNfq/]\nAhir ens vam colar a un assaig de la Botiga dels H\n[https://www.instagram.com/reel/DfsFKlhsKQO/]\n🍂 Novembre a casa! 🎭 📖 Dj 5 · 21h: Tertúlia sobre\n[https://www.instagram.com/p/DfaK9NdjKw8/]\nRenovem el compromís amb la llengua❤️ Un any més,\n[https://www.instagram.com/reel/DfULFEqMuYa/]\n🎭 COSMÈTICA DE L’ENEMIC | Aquest cap de setmana al\n[https://www.instagram.com/reel/DecwrbisnCO/]\n🍂 Aquest octubre al CMC! Tertúlia literària “El l\n[https://www.instagram.com/p/DeEW1kXjBiA/]\nLoad More\nFollow on Instagram\n[https://www.instagram.com/cmcpoblenou/]\n© Tots els drets reservats 2018 - 2026 | Centre Moral i Cultural del Poblenou - Avís legal [https://elcentrepoblenou.cat/legal/] - Politica de Privacitat [https://elcentrepoblenou.cat/politica-de-privacitat/] - Cookies [https://elcentrepoblenou.cat/politica-de-cookies/]\n[https://es-es.facebook.com/cmcpoblenou/] [https://twitter.com/cmcpoblenou/] [https://www.youtube.com/@SalaPoblenou] [https://www.instagram.com/cmcpoblenou/]\nPage load link\nGo to Top"
+    "texto": "Inici - Centre Moral i Cultural del Poblenou\nSkip to content\n[https://es-es.facebook.com/cmcpoblenou/] [https://twitter.com/cmcpoblenou/] [https://www.youtube.com/@SalaPoblenou] [https://www.instagram.com/cmcpoblenou/]\n[https://elcentrepoblenou.cat/] [https://elcentrepoblenou.cat/]\nLoading...\n[https://elcentrepoblenou.cat/area-de-soci/]\n[https://elcentrepoblenou.cat/area-de-soci/]\n[https://elcentrepoblenou.cat/seccio-de-teatre/]\n[https://elcentrepoblenou.cat/seccio-de-teatre-la-botiga-dels-horrors/]\nInici cgrubio [https://elcentrepoblenou.cat/author/cgrubio/] 2026-09-22T13:43:26+00:00\nAGENDA\n[https://elcentrepoblenou.cat/wp-content/uploads/2026/09/Agenda-octubre-26.pdf]\nCor Poblenou: Música amb cor i ànima [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Cartell-cor-pb9-26.png]\n[https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nCor Poblenou: Música amb cor i ànima [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nDiumenge 29 de novembre, a les 19:00h Cor Poblenou: [...] [https://elcentrepoblenou.cat/cor-poblenou-musica-amb-cor-i-anima/]\nTertúlia Literària: La Española de Montmartre [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/TERTULIA-DESEMBRE-26.png]\n[https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nTertúlia Literària: La Española de Montmartre [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nDijous 3 de desembre, a les 21:00h Tertúlia Literària: [...] [https://elcentrepoblenou.cat/tertulia-literaria-la-espanola-de-montmartre/]\nL’Estel de Natzaret [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-ESTEL-A4-I-A3-2026.png]\n[https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nL’Estel de Natzaret [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nL'Estel de Natzaret 13 de desembre, 3 i 10 [...] [https://elcentrepoblenou.cat/lestel-de-natzaret-6/]\nSèniors del Centre: El Poblenou d’abans, 150 anys d’història [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/SENIORS-DESEMBRE-26.png]\n[https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nSèniors del Centre: El Poblenou d’abans, 150 anys d’història [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nDimecres 16 , a les 11:00h Sèniors del Centre: [...] [https://elcentrepoblenou.cat/seniors-del-centre-el-poblenou-dabans-150-anys-dhistoria/]\nSèniors del Centre: Anem al Tívoli a veure… Mamma Mia el Musical [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/10/Cartelleria-CMC-6.png]\n[https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nSèniors del Centre: Anem al Tívoli a veure… Mamma Mia el Musical [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nDimecres 16 de desembre de 2026, a les 8 [...] [https://elcentrepoblenou.cat/seniors-del-centre-anem-al-tivoli-a-veure-mamma-mia-el-musical/]\nCava Concert: Les mil cares de l’amor. Un viatge musical entre la cançó i l’òpera [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/CAVA-CONCERT-DESEMBRE-26.png]\n[https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nCava Concert: Les mil cares de l’amor. Un viatge musical entre la cançó i l’òpera [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nDissabte 19 de desembre, a les 19:00h Cava Concert: [...] [https://elcentrepoblenou.cat/cava-concert-les-mil-cares-de-lamor-un-viatge-musical-entre-la-canco-i-lopera/]\nSecció de teatre: Passat el riu [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/06/CARTELL-PASSAT-EL-RIU-1.png]\n[https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nSecció de teatre: Passat el riu [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nPassat el riu 27 de desembre, a les 20h [...] [https://elcentrepoblenou.cat/seccio-de-teatre-passat-el-riu/]\nCinema Amateur: 131 aniversari del cinema amb Sam Neill [https://elcentrepoblenou.cat/cinema-amateur-131-aniversari-del-cinema-amb-sam-neill/]\nGallery [https://elcentrepoblenou.cat/wp-content/uploads/2026/11/cinema-amateur-desembre-26.png]\n[https://elcentrepoblenou.cat/cinema-amateur-131-aniversari-del-cinema-amb-sam-neill/]\nCinema Amateur: 131 aniversari del cinema amb Sam Neill [https://elcentrepoblenou.cat/cinema-amateur-131-aniversari-del-cinema-amb-sam-neill/]\nDilluns 28, a les 19:00h Cinema Amateur: 131 aniversari [...] [https://elcentrepoblenou.cat/cinema-amateur-131-aniversari-del-cinema-amb-sam-neill/]\n[https://casinoalianca.cat/es/]\n[https://ateneus.cat/]\n[http://web.gencat.cat/ca/inici/]\n[https://www.omnium.cat/ca/]\n[http://www.fundaciopiusbosch.cat/]\n[http://www.bcnclassics.cat/ca]\n[https://xtac.ateneus.cat/]\n[https://www.vxl.cat/]\n[https://fotos.arxiuhistoricpoblenou.cat/]\n[https://www.elcentrepoblenou.cat/]\n[https://elcentrepoblenou.cat/carta-menjador-del-centre/]\n[http://www.esp.subirachs.cat/]\n[http://etc-llibres.com/]\n[https://assemblea.cat/]\n[https://www.barcelona.cat/ca/]\n[https://casinoalianca.cat/es/]\n[https://ateneus.cat/]\n[http://web.gencat.cat/ca/inici/]\n[https://www.omnium.cat/ca/]\n[http://www.fundaciopiusbosch.cat/]\n[http://www.bcnclassics.cat/ca]\n[https://xtac.ateneus.cat/]\n[https://www.vxl.cat/]\n[https://fotos.arxiuhistoricpoblenou.cat/]\n[https://www.elcentrepoblenou.cat/]\n[https://elcentrepoblenou.cat/carta-menjador-del-centre/]\n[http://www.esp.subirachs.cat/]\n[http://etc-llibres.com/]\n[https://assemblea.cat/]\n[https://www.barcelona.cat/ca/]\nApunta’t a la newsletter\nSi voleu estar al dia de tots els esdeveniments i activitats del centre, no dubteu a subscriure-us a la nostra newsletter per rebre informació exclusiva.\nApunta’t a la Newsletter [https://elcentrepoblenou.cat/newsletter]\nPujades, 176-178, Barcelona\n93 485 36 99\ninfo@elcentrepoblenou.cat\nDilluns a Divendres, 17:00 a 20:00h\nContactar [https://elcentrepoblenou.cat/contacte/]\nEl nostre centre\ncmcpoblenou\n📥 gestio@elcentrepoblenou.cat\n🌏 Poblenou, Barcelona\n[https://www.instagram.com/cmcpoblenou/]\n🎟️ SORTEIG D’ENTRADES 🎟️ Sortegem 3 entrades doble\n[https://www.instagram.com/p/Df2b0xLjNfq/]\nAhir ens vam colar a un assaig de la Botiga dels H\n[https://www.instagram.com/reel/DfsFKlhsKQO/]\n🍂 Novembre a casa! 🎭 📖 Dj 5 · 21h: Tertúlia sobre\n[https://www.instagram.com/p/DfaK9NdjKw8/]\nRenovem el compromís amb la llengua❤️ Un any més,\n[https://www.instagram.com/reel/DfULFEqMuYa/]\n🎭 COSMÈTICA DE L’ENEMIC | Aquest cap de setmana al\n[https://www.instagram.com/reel/DecwrbisnCO/]\n🍂 Aquest octubre al CMC! Tertúlia literària “El l\n[https://www.instagram.com/p/DeEW1kXjBiA/]\nLoad More\nFollow on Instagram\n[https://www.instagram.com/cmcpoblenou/]\n© Tots els drets reservats 2018 - 2026 | Centre Moral i Cultural del Poblenou - Avís legal [https://elcentrepoblenou.cat/legal/] - Politica de Privacitat [https://elcentrepoblenou.cat/politica-de-privacitat/] - Cookies [https://elcentrepoblenou.cat/politica-de-cookies/]\n[https://es-es.facebook.com/cmcpoblenou/] [https://twitter.com/cmcpoblenou/] [https://www.youtube.com/@SalaPoblenou] [https://www.instagram.com/cmcpoblenou/]\nPage load link\nGo to Top"
   },
   "92086015468|https://elcentrepoblenou.cat/wp-content/uploads/2026/06/Cartell_Botiga-scaled.jpg": {
     "enlaces": [],
@@ -471,379 +448,14 @@
   },
   "99284165916|http://www.elteatremespetitdelmon.com": {
     "enlaces": [
-      "https://cookiedatabase.org/tcf/purposes/",
-      "https://open.spotify.com/intl-es/artist/1UMaAaMmiYbphkmBSo7bCd?si=j-psWi4pSa6dqekFVkC0rA",
-      "https://www.elteatremespetitdelmon.com/",
-      "https://www.elteatremespetitdelmon.com/2026/11",
-      "https://www.elteatremespetitdelmon.com/2026/12",
-      "https://www.elteatremespetitdelmon.com/2027/01",
-      "https://www.elteatremespetitdelmon.com/category/eventos/conciertos/",
-      "https://www.elteatremespetitdelmon.com/contacto/",
-      "https://www.elteatremespetitdelmon.com/disclaimer/",
-      "https://www.elteatremespetitdelmon.com/el-teatre/",
-      "https://www.elteatremespetitdelmon.com/impressum/",
-      "https://www.elteatremespetitdelmon.com/llogar-lespai/",
-      "https://www.elteatremespetitdelmon.com/luis-de-arquer/",
-      "https://www.elteatremespetitdelmon.com/politica-de-privacidad/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin-10/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin-12/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin-3/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin-4/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin-7/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin-8/",
-      "https://www.elteatremespetitdelmon.com/solo-chopin/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-10-2/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-10/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-13/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-2/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-4/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-6/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-7/",
-      "https://www.elteatremespetitdelmon.com/solo-piano-9/",
-      "https://www.elteatremespetitdelmon.com/tickets-solo-chopin/",
-      "https://www.elteatremespetitdelmon.com/tickets-solo-piano/",
-      "https://www.elteatremespetitdelmon.com/tienda-de-musica-de-luis-de-arquer/",
-      "https://www.elteatremespetitdelmon.com/tocar-en-el-teatre-condiciones/",
-      "https://www.elteatremespetitdelmon.com/vale-regalo/",
-      "https://www.elteatremespetitdelmon.com/video/",
-      "https://www.facebook.com/pages/El-Teatre-més-Petit-del-Món/241959332586117?ref=hl",
-      "https://www.youtube.com/user/titulitiv"
+      "https://tickets.oneboxtds.com/elteatremespetitdelmon/events/44374",
+      "https://tickets.oneboxtds.com/elteatremespetitdelmon/events/45019",
+      "https://tickets.oneboxtds.com/elteatremespetitdelmon/gift-card"
     ],
-    "fecha": "2026-11-23",
-    "firma": "f3d199f27e01097f",
-    "obras": [
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin-3/",
-        "funciones": [
-          {
-            "cita": "Nov 2026 … 26 Jue @ 8:30 pm",
-            "fecha": "2026-11-26",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO PIANO",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-10/",
-        "funciones": [
-          {
-            "cita": "Nov 2026 … 28 Sáb @ 8:30 pm",
-            "fecha": "2026-11-28",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO PIANO"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-7/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 03 Jue @ 8:30 pm",
-            "fecha": "2026-12-03",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO PIANO",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-2/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 05 Sáb @ 8:30 pm",
-            "fecha": "2026-12-05",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO PIANO"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 10 Jue @ 8:30 pm",
-            "fecha": "2026-12-10",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO PIANO",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-13/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 12 Sáb @ 8:30 pm",
-            "fecha": "2026-12-12",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO PIANO"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin-12/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 17 Jue @ 8:30 pm",
-            "fecha": "2026-12-17",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO PIANO",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-9/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 19 Sáb @ 8:30 pm",
-            "fecha": "2026-12-19",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO PIANO"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "Concert de Nadal",
-        "descripcion": "",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin-7/",
-        "funciones": [
-          {
-            "cita": "Dic 2026 … 23 Mié @ 8:30 pm",
-            "fecha": "2026-12-23",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "Concert de Nadal"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin-4/",
-        "funciones": [
-          {
-            "cita": "Ene 2027 … 07 Jue @ 8:30 pm",
-            "fecha": "2027-01-07",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "LUIS DE ARQUER",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-6/",
-        "funciones": [
-          {
-            "cita": "Ene 2027 … 09 Sáb @ 8:30 pm",
-            "fecha": "2027-01-09",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "LUIS DE ARQUER"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin-10/",
-        "funciones": [
-          {
-            "cita": "Ene 2027 … 14 Jue @ 8:30 pm",
-            "fecha": "2027-01-14",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO PIANO",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-10-2/",
-        "funciones": [
-          {
-            "cita": "Ene 2027 … 16 Sáb @ 8:30 pm",
-            "fecha": "2027-01-16",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO PIANO"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO CHOPIN",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-chopin-8/",
-        "funciones": [
-          {
-            "cita": "Ene 2027 … 21 Jue @ 8:30 pm",
-            "fecha": "2027-01-21",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO CHOPIN"
-      },
-      {
-        "cita_lugar": "",
-        "cita_precio": "",
-        "cita_titulo": "SOLO PIANO",
-        "descripcion": "Déjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.",
-        "enlace": "https://www.elteatremespetitdelmon.com/solo-piano-4/",
-        "funciones": [
-          {
-            "cita": "Ene 2027 … 23 Sáb @ 8:30 pm",
-            "fecha": "2027-01-23",
-            "hora": "20:30"
-          }
-        ],
-        "idioma": "es",
-        "periodo": {
-          "cita": "",
-          "cita_horario": "",
-          "fin": "",
-          "inicio": ""
-        },
-        "titulo": "SOLO PIANO"
-      }
-    ],
-    "texto": "- El Teatre mes Petit del Món El Teatre mes Petit del Món\nInicio [https://www.elteatremespetitdelmon.com/]\nConciertos [https://www.elteatremespetitdelmon.com/category/eventos/conciertos/]\nTICKETS\nSOLO PIANO [https://www.elteatremespetitdelmon.com/tickets-solo-piano/]\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/tickets-solo-chopin/]\nVale-Regalo [https://www.elteatremespetitdelmon.com/vale-regalo/]\nLUIS DE ARQUER [https://www.elteatremespetitdelmon.com/luis-de-arquer/]\nMúsica [https://www.elteatremespetitdelmon.com/tienda-de-musica-de-luis-de-arquer/]\nVídeo [https://www.elteatremespetitdelmon.com/video/]\nEl Teatre [https://www.elteatremespetitdelmon.com/el-teatre/]\nLlogar l’Espai [https://www.elteatremespetitdelmon.com/llogar-lespai/]\nTocar aquí [https://www.elteatremespetitdelmon.com/tocar-en-el-teatre-condiciones/]\nContacto [https://www.elteatremespetitdelmon.com/contacto/]\nMenu Inicio Conciertos TICKETS SOLO PIANO SOLO CHOPIN Vale-Regalo LUIS DE ARQUER Música Vídeo El Teatre Llogar l’Espai Tocar aquí Contacto\nSOLO PIANO [https://www.elteatremespetitdelmon.com/solo-piano-4/]\n23.01.2027\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-chopin-8/]\n21.01.2027\nSOLO PIANO [https://www.elteatremespetitdelmon.com/solo-piano-10-2/]\n16.01.2027\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-chopin-10/]\n14.01.2027\nLUIS DE ARQUER [https://www.elteatremespetitdelmon.com/solo-piano-6/]\n09.01.2027\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-chopin-4/]\n07.01.2027\nConcert de Nadal [https://www.elteatremespetitdelmon.com/solo-chopin-7/]\n23.12.2026\nSOLO PIANO [https://www.elteatremespetitdelmon.com/solo-piano-9/]\n19.12.2026\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-chopin-12/]\n17.12.2026\nSOLO PIANO [https://www.elteatremespetitdelmon.com/solo-piano-13/]\n12.12.2026\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-chopin/]\n10.12.2026\nSOLO PIANO [https://www.elteatremespetitdelmon.com/solo-piano-2/]\n05.12.2026\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-piano-7/]\n03.12.2026\nSOLO PIANO [https://www.elteatremespetitdelmon.com/solo-piano-10/]\n28.11.2026\nSOLO CHOPIN [https://www.elteatremespetitdelmon.com/solo-chopin-3/]\n26.11.2026\nConciertos de Piano en Barcelona\nConciertos\nNo hay categorías\nNov\n2026 [https://www.elteatremespetitdelmon.com/2026/11]\n26\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-chopin-3/]\n28\nSáb @ 8:30 pm\nSOLO PIANO\n[https://www.elteatremespetitdelmon.com/solo-piano-10/]\nDic\n2026 [https://www.elteatremespetitdelmon.com/2026/12]\n03\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-piano-7/]\n05\nSáb @ 8:30 pm\nSOLO PIANO\n[https://www.elteatremespetitdelmon.com/solo-piano-2/]\n10\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-chopin/]\n12\nSáb @ 8:30 pm\nSOLO PIANO\n[https://www.elteatremespetitdelmon.com/solo-piano-13/]\n17\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-chopin-12/]\n19\nSáb @ 8:30 pm\nSOLO PIANO\n[https://www.elteatremespetitdelmon.com/solo-piano-9/]\n23\nMié @ 8:30 pm\nConcert de Nadal\n[https://www.elteatremespetitdelmon.com/solo-chopin-7/]\nEne\n2027 [https://www.elteatremespetitdelmon.com/2027/01]\n07\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-chopin-4/]\n09\nSáb @ 8:30 pm\nLUIS DE ARQUER\n[https://www.elteatremespetitdelmon.com/solo-piano-6/]\n14\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-chopin-10/]\n16\nSáb @ 8:30 pm\nSOLO PIANO\n[https://www.elteatremespetitdelmon.com/solo-piano-10-2/]\n21\nJue @ 8:30 pm\nSOLO CHOPIN\n[https://www.elteatremespetitdelmon.com/solo-chopin-8/]\n23\nSáb @ 8:30 pm\nSOLO PIANO\n[https://www.elteatremespetitdelmon.com/solo-piano-4/]\n.\nDéjate emocionar por uno de los pianistas más auténticos y su increíble \"Directo\". Luis de Arquer, combina conocidas obras maestras de Beethoven, Chopin o Mozart con obras actuales y sus propias composiciones e improvisaciones de estilo Neoclásico en \"Solo Piano\" sábados 20:30h o \"Solo Chopin\", todos los jueves a las 20:30h además de la participación de otros grandes artistas del piano.\nEntra en un teatro del año 1890 situada en el emblemático barrio de Gràcia de Barcelona, donde podrás disfrutar de unas copas de cava en un maravilloso jardín a la luz de las velas mientras charlas con el artista.\nComo indica a los melómanos más exigentes una guía turística americana:\n«Esta puede ser su velada musical más encantadora en Barcelona» The New York Times.\n[https://www.facebook.com/pages/El-Teatre-més-Petit-del-Món/241959332586117?ref=hl]\n[https://www.youtube.com/user/titulitiv]\n[https://open.spotify.com/intl-es/artist/1UMaAaMmiYbphkmBSo7bCd?si=j-psWi4pSa6dqekFVkC0rA]\n© 2026 El Teatre mes Petit del Món. Política de Privacidad [https://www.elteatremespetitdelmon.com/politica-de-privacidad/] [https://www.elteatremespetitdelmon.com/disclaimer/] Disclaimer [https://www.elteatremespetitdelmon.com/disclaimer/] [https://www.elteatremespetitdelmon.com/impressum/] Impressum [https://www.elteatremespetitdelmon.com/impressum/]\nManage Consent\nTo provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.\nFunctional\nFunctional\nSiempre activo\nThe technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.\nPreferences\nPreferences\nThe technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.\nStatistics\nStatistics\nThe technical storage or access that is used exclusively for statistical purposes.\nThe technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.\nMarketing\nMarketing\nThe technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.\nAdministrar opciones\nGestionar los servicios\nGestionar {vendor_count} proveedores\nLeer más sobre estos propósitos [https://cookiedatabase.org/tcf/purposes/]\nAccept\nDeny\nView preferences\nSave preferences\nView preferences\n{title}\n{title}\n{title}\nManage consent"
+    "fecha": "2026-11-24",
+    "firma": "d171bd1c7f7b285d",
+    "obras": [],
+    "texto": "El Teatre més Petit del Món · Conciertos de piano en Barcelona\nLuis de Arquer & El Teatre més\nPetit del Món\nConciertos de piano en casa\nEste teatrito, creado para aquellos que, como yo, perseguimos la belleza y la armonía —tan escasas y tan necesarias para nuestra felicidad—, es un lugar donde poder compartir con vosotros mi música y todas aquellas emociones humanas que nos unen a través de la sensibilidad y del arte.\nSi os gusta disfrutar de la música en directo, tal y como dijo la Guía turística de The New York Times: «Esta puede ser su velada musical más encantadora en Barcelona»\nLuis de Arquer\n“The artist is a genius both as a musician and a composer. The venue is cozy and very elegant and the whole…” Opinión del público “Love this space and the intimacy of the concept. The performance can run just a tad long for comfort, but it’s beautifully done, particularly with the captivating view of the pianist’s hands as he plays.” Opinión del público “Un paradís al mig de Gràcia. Un virtuòs al piano. Un rincón encantador en Gracia!” Opinión del público “Lluís un virtuoso del piano!! Como disfrutamos de la interpretación!” Opinión del público “Simplemente fantástico y la copa de cava en el jardín, deliciosa!!!” Opinión del público “A truly beautiful experience, be sure not to miss this when you come to Barcelona. Went once in 2025 and again this year in 2026. Truly an extraordinary experience not to miss in the city.” Opinión del público “Fantástica experiencia!! Lluís D'Arquer es un maestro, una experiencia íntima maravillosa, el concierto, la casa, sus explicaciones, la obra improvisada, simplemente un 10.” Opinión del público “Beautiful experience. It was cosy, original, enriching and enchanting. The house itself is frozen in time. The pianist is very talented and the variety of music is outstanding. I'd warmly recommend it. Very romantic. Ideal for a date.” Opinión del público “El dissabte passat, 7 de febrer, vàrem poder gaudir de l'espectacle que el mestre Lluís d'Arquer ha dissenyat per passar un parell d'hores immersos en el món del piano i dels clàssics. Fantàstica experiència...!! Un record musical per tota la vida..!!” Opinión del público “A uniquely decorated artistic setting combined with passionate music. Thank you Luis for the enchanted experience.” Opinión del público “Qué locura de sitio. Una casa de principios del siglo pasado decorada en base a pinturas, dibujos en las paredes, velas, telas y terciopelo… entrañable y artístico. Y el éxtasis llega cuando el maestro toca Chopin, con gran virtuosismo, a solo 2 metros de ti… Música de cámara en toda su esencia.” Opinión del público “Tucked away in Barcelona is what’s often called the smallest theatre in the world, and it turned out to be one of the most powerful musical experiences I’ve ever had… His passion for music is not just audible, it’s tangible.” Opinión del público\n‹ ›\nSábados · 20:30 h Solo Piano\nPrograma Sonata n.º 8 en do menor «Pathétique» L. van Beethoven I. Grave – Allegro di molto e con brio II. Adagio cantabile III. Rondo: Allegro «Music for a Journey» Luis de Arquer Preludio Detrás de la colina Mañana Boceto español El príncipe feliz Lluís de Arquer\npiano\nSolo Piano es la refinada y original propuesta musical que el pianista y compositor Luis de Arquer nos propone para todos los sábados a las 20:30 de la tarde.\nEl Teatre més Petit del Món, ubicado en su propia casa y ambientado en una buscada armonía decimonónica, sirve de escenario para que la música de Chopin, Beethoven y sus propias composiciones e improvisaciones encuentren el lugar perfecto para hacernos viajar en el tiempo.\nLa velada termina con una copa de cava en un romántico jardín del XIX a la luz de las velas.\n«Esta puede ser su velada musical más encantadora en Barcelona» The New York Times\n[https://tickets.oneboxtds.com/elteatremespetitdelmon/events/44374]\n‹ Octubre 2026 ›\nLun. Mar. Mié. Jue. Vie. Sáb. Dom. ✻ ✻ ✻ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 [https://tickets.oneboxtds.com/elteatremespetitdelmon/events/44374] 18 19 20 21 22 23 24 [https://tickets.oneboxtds.com/elteatremespetitdelmon/events/44374] 25 26 27 28 29 30 31 ✻\nPulsa un día marcado para comprar tu entrada · 20:30 h · Sin concierto: 31 de octubre, 28 de noviembre\nJueves · 20:30 h Solo Chopin\nPrograma 3 Preludios Mi menor Si menor Re ♭ M – Gota de agua 4 Valses Op. 64 n.º 1 Op. 64 n.º 2 Op. 69 n.º 1 Mi m. Op. póst. Andante spianato y Gran Polonesa Brillante op. 22 Scherzo op. 31 n.º 2 en si ♭ menor Lluís de Arquer\npiano\nSolo Chopin es el homenaje del pianista y compositor Luis de Arquer a Frédéric Chopin. Un recital de piano que nos sumerge en algunas de las obras más bellas de su música, que aún pasados más de 200 años sigue tan cercana a nuestras emociones como entonces gracias a su gran belleza, romanticismo y sensibilidad.\nEl Teatre més Petit del Món es uno más de esos pequeños salones donde el propio Chopin prefería presentarse ante un pequeño y selecto auditorio, en donde era posible esa singular comunión que se vive a través de cada sonido…\nLa velada termina con una copa de cava en un romántico jardín del XIX a la luz de las velas. ¿Se puede pedir más…?\n«Esta puede ser su velada musical más encantadora en Barcelona» The New York Times\n[https://tickets.oneboxtds.com/elteatremespetitdelmon/events/45019]\n‹ Octubre 2026 ›\nLun. Mar. Mié. Jue. Vie. Sáb. Dom. ✻ ✻ ✻ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 [https://tickets.oneboxtds.com/elteatremespetitdelmon/events/45019] 16 17 18 19 20 21 22 [https://tickets.oneboxtds.com/elteatremespetitdelmon/events/45019] 23 24 25 26 27 28 29 [https://tickets.oneboxtds.com/elteatremespetitdelmon/events/45019] 30 31 ✻\nPulsa un día marcado para comprar tu entrada · 20:30 h\n‹ ›\nEventos privados\nCelebra un cumpleaños, una pedida o un evento de empresa en el Teatre, con concierto privado incluido.\nPedir información\nVale regalo\nRegala una noche de piano en el teatro más pequeño del mundo. Válido para Solo Piano y Solo Chopin.\nComprar vale regalo [https://tickets.oneboxtds.com/elteatremespetitdelmon/gift-card]\nJueves y sábados · 20:30 h Entradas"
   },
   "99400154737|http://www.laperla29.cat": {
     "enlaces": [
@@ -2326,14 +1938,14 @@
       "https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis",
       "https://teatrometamorfosis.com/es/contacto/",
       "https://teatrometamorfosis.com/es/el-espacio/",
-      "https://teatrometamorfosis.com/es/event/casarse-por-papeles-esverdadero-amor-petit-cabaret-by-ovarios-rebeldes/2024-04-11/",
+      "https://teatrometamorfosis.com/es/event/noche-de-monologos-10/2023-09-01/",
+      "https://teatrometamorfosis.com/es/event/poble-sec-jam-session/2025-02-13/",
+      "https://teatrometamorfosis.com/es/event/taller-teatro-musical/2025-09-16/",
       "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/",
       "https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/",
       "https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1",
       "https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1",
-      "https://teatrometamorfosis.com/es/eventos/foundart/",
       "https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/",
-      "https://teatrometamorfosis.com/es/eventos/lo-doy-porque-quiero/",
       "https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/",
       "https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/",
       "https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/",
@@ -2346,7 +1958,7 @@
       "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist"
     ],
     "fecha": "2026-11-24",
-    "firma": "1c52109c277573ba",
+    "firma": "e3dbe276b165c60c",
     "obras": [
       {
         "cita_lugar": "",
@@ -2356,7 +1968,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/",
         "funciones": [
           {
-            "cita": "Nov 27 20:00 - 22:00",
+            "cita": "Nov 27 « … » 20:00 - 22:00",
             "fecha": "2026-11-27",
             "hora": "20:00"
           }
@@ -2378,7 +1990,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/",
         "funciones": [
           {
-            "cita": "Nov 29 19:00 - 21:00",
+            "cita": "Nov 29 « … » 19:00 - 21:00",
             "fecha": "2026-11-29",
             "hora": "19:00"
           }
@@ -2390,7 +2002,7 @@
           "fin": "",
           "inicio": ""
         },
-        "titulo": "Ningú"
+        "titulo": "CASA DRASSANES AL TEATRE – Balago presenta «Ningú»"
       },
       {
         "cita_lugar": "",
@@ -2400,7 +2012,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/",
         "funciones": [
           {
-            "cita": "Dic 3 20:00 - 22:00",
+            "cita": "Dic 3 « … » 20:00 - 22:00",
             "fecha": "2026-12-03",
             "hora": "20:00"
           }
@@ -2422,7 +2034,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/",
         "funciones": [
           {
-            "cita": "Dic 9 20:00 - 22:00",
+            "cita": "Dic 9 « … » 20:00 - 22:00",
             "fecha": "2026-12-09",
             "hora": "20:00"
           }
@@ -2444,7 +2056,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/",
         "funciones": [
           {
-            "cita": "Dic 11 20:30 - 22:00",
+            "cita": "Dic 11 « … » 20:30 - 22:00",
             "fecha": "2026-12-11",
             "hora": "20:30"
           }
@@ -2466,12 +2078,12 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/",
         "funciones": [
           {
-            "cita": "Dic 18 20:30 - 22:30",
+            "cita": "Dic 18 « … » 20:30 - 22:30",
             "fecha": "2026-12-18",
             "hora": "20:30"
           }
         ],
-        "idioma": "otro",
+        "idioma": "es",
         "periodo": {
           "cita": "",
           "cita_horario": "",
@@ -2488,7 +2100,7 @@
         "enlace": "https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/",
         "funciones": [
           {
-            "cita": "Dic 20 20:00 - 22:00",
+            "cita": "Dic 20 « … » 20:00 - 22:00",
             "fecha": "2026-12-20",
             "hora": "20:00"
           }
@@ -2503,7 +2115,7 @@
         "titulo": "THE HUMAN FISH EN CONCERT"
       }
     ],
-    "texto": "Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\nSala de arte y teatro\nNuestro teatro está ubicado en el centro de la vibrante Barcelona. El Teatro Metamorfosis es un punto de encuentro cultural para intercambiar conocimientos, apreciar las artes y disfrutar de un delicioso entretenimiento.\nEventos [https://teatrometamorfosis.com/es/events/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n[https://goo.gl/maps/hAGVuSiM7NL5omQD9]\nPróximos eventos\n7 eventos encontrados.\nList of events in Photo View\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1]\nEventos [https://teatrometamorfosis.com/events/]\nEl espacio\nTeatro Metamorfosis es un espacio versátil y adaptable, diseñado para albergar hasta 95 invitados, y está equipado con instalaciones de última generación para producciones teatrales, presentaciones de música en vivo, talleres, proyecciones y conferencias. También ofrecemos servicios de alquiler para eventos tanto privados como corporativos, creando una experiencia a medida para todos los asistentes.\nInformación técnica [https://teatrometamorfosis.com/es/el-espacio/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n«No pienses en hacer arte, simplemente hazlo. Deja que todos los demás decidan si es bueno o malo, si lo aman o lo odian. Mientras ellos deciden, haz aún más arte.» – Andy Warhol\nGaleria\n[https://teatrometamorfosis.com/es/event/casarse-por-papeles-esverdadero-amor-petit-cabaret-by-ovarios-rebeldes/2024-04-11/]\n“Casarse por papeles es…Verdadero amor” Petit cabaret by Ovarios rebeldes Panchita Uchis es una trabajadora de los cuidados que cuida a…\n[https://teatrometamorfosis.com/es/eventos/lo-doy-porque-quiero/]\nLo doy porque quiero es una Jam/Fiesta participativa de diferentes disciplinas como Poesía, Teatro, Cuentacuentos, Clown, Impro…Hecho con la intención de…\n[https://teatrometamorfosis.com/es/eventos/foundart/]\n¡Hola Barcelona! ¿Estás listo para sumergirte en el mundo del arte? ¡No te pierdas FOUNDART en el Teatro Metamorfosis! Este evento…\nVer la programación completa [https://teatrometamorfosis.com/events/]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
+    "texto": "Teatro Metamorfosis\nPlease allow us to use cookies to give you a better experience. View our Privacy Policy [https://teatrometamorfosis.com/es/politica-de-privacidad/] for more information.\nChoose which cookies you allow\nNecessary\nRequired for the site to work, such as remembering this choice.\nAlways active\nAnalítica\nHelp us understand how visitors use the site, with audience measurement and visit statistics.\nAdvertising\nUsed to measure ad performance and show you relevant ads, including on other sites.\nOK\nDecline all\nCustomize\nSave my choices\nCookies\nSaltar al contenido\nSala de arte y teatro\nNuestro teatro está ubicado en el centro de la vibrante Barcelona. El Teatro Metamorfosis es un punto de encuentro cultural para intercambiar conocimientos, apreciar las artes y disfrutar de un delicioso entretenimiento.\nEventos [https://teatrometamorfosis.com/es/events/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n[https://goo.gl/maps/hAGVuSiM7NL5omQD9]\nPróximos eventos\n7 eventos encontrados.\nList of events in Photo View\nTop Comedy BCN\n[https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\nNov\n27\nTop Comedy BCN [https://teatrometamorfosis.com/es/eventos/top-comedy-bcnon-friday/]\n20:00\n-\n22:00\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú»\n[https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\nNov\n29\nCASA DRASSANES AL TEATRE – Balago presenta «Ningú» [https://teatrometamorfosis.com/es/eventos/casa-drassanes-al-teatre-balago-presenta-ningu/]\n19:00\n-\n21:00\nSmut Slam Barcelona\n[https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\nDic\n3\nSmut Slam Barcelona [https://teatrometamorfosis.com/es/eventos/smut-slam-barcelona-4/]\n20:00\n-\n22:00\nLive Music & Silent Cinema: Christmas Carols\n[https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\nDic\n9\nLive Music & Silent Cinema: Christmas Carols [https://teatrometamorfosis.com/es/eventos/live-music-silent-cinema-christmas-carols/]\n20:00\n-\n22:00\nDÍNAMO – Lucía Massalta & Làbitti\n[https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\nDic\n11\nDÍNAMO – Lucía Massalta & Làbitti [https://teatrometamorfosis.com/es/eventos/dinamo-lucia-massalta-labitti/]\n20:30\n-\n22:00\nNôd – MILA TRANI & ROCCO PAPIA\n[https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\nDic\n18\nNôd – MILA TRANI & ROCCO PAPIA [https://teatrometamorfosis.com/es/eventos/nod-mila-trani-rocco-papia/]\n20:30\n-\n22:30\nTHE HUMAN FISH EN CONCERT\n[https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\nDic\n20\nTHE HUMAN FISH EN CONCERT [https://teatrometamorfosis.com/es/eventos/the-human-fish-en-concert/]\n20:00\n-\n22:00\nSuscribirse al calendario\nGoogle Calendar [https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist]\niCalendar\nOutlook 365 [https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nOutlook Live [https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fteatrometamorfosis.com%2Fes%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Teatro+Metamorfosis+Eventos+-+Teatro+Metamorfosis]\nExportar archivo .ics [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&hide_subsequent_recurrences=1&ical=1]\nExportar archivo .ics de Outlook [https://teatrometamorfosis.com/es/eventos/foto/?shortcode=5c70bc0d&outlook-ical=1#038;hide_subsequent_recurrences=1&ical=1]\nEventos [https://teatrometamorfosis.com/events/]\nEl espacio\nTeatro Metamorfosis es un espacio versátil y adaptable, diseñado para albergar hasta 95 invitados, y está equipado con instalaciones de última generación para producciones teatrales, presentaciones de música en vivo, talleres, proyecciones y conferencias. También ofrecemos servicios de alquiler para eventos tanto privados como corporativos, creando una experiencia a medida para todos los asistentes.\nInformación técnica [https://teatrometamorfosis.com/es/el-espacio/]\nContacto [https://teatrometamorfosis.com/es/contacto/]\n«No pienses en hacer arte, simplemente hazlo. Deja que todos los demás decidan si es bueno o malo, si lo aman o lo odian. Mientras ellos deciden, haz aún más arte.» – Andy Warhol\nGaleria\n[https://teatrometamorfosis.com/es/event/poble-sec-jam-session/2025-02-13/]\nNueva Jam Session de Jazz en Poble Sec, abierta al Jazz y otros estilos musicales. Un espacio para la improvisación y…\n[https://teatrometamorfosis.com/es/event/taller-teatro-musical/2025-09-16/]\nVive el teatro musical desde adentro. ¿Te gusta cantar, bailar o actuar? ¿O simplemente tienes ganas de probar algo nuevo? Este…\n[https://teatrometamorfosis.com/es/event/noche-de-monologos-10/2023-09-01/]\nSi estás buscando una experiencia auténtica de comedia en vivo, no hay nada como un club de comedia en Nueva York….\nVer la programación completa [https://teatrometamorfosis.com/events/]\nNombre de usuario o correo electrónico\nContraseña\nRecuérdame\nLost your password? [https://teatrometamorfosis.com/es/my-account/lost-password/]\nDon't have an account yet? Sign up [https://teatrometamorfosis.com/es/wp-login.php?action=register]"
   },
   "99400724220|https://teatrometamorfosis.com/es/events/": {
     "enlaces": [

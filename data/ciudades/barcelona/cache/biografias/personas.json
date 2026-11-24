@@ -196,6 +196,13 @@
       "tmdb": null,
       "v": 1
     },
+    "agrupacio-nova-vecchi": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Agrupació Nova Vecchi",
+      "tmdb": null,
+      "v": 2
+    },
     "agrupacion-senor-serrano": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1092,6 +1099,13 @@
       "tmdb": null,
       "v": 1
     },
+    "andres-herrera": {
+      "fecha": "2026-11-24",
+      "motivo": "varias",
+      "nombre": "Andrés Herrera",
+      "tmdb": null,
+      "v": 2
+    },
     "andres-piza": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -1771,6 +1785,13 @@
       "tmdb": null,
       "v": 1
     },
+    "associacio-ressonancies-del-sud": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Associació Ressonàncies del Sud",
+      "tmdb": null,
+      "v": 2
+    },
     "associacio-teresa-gubiades": {
       "fecha": "2026-11-21",
       "motivo": "ninguna",
@@ -2352,6 +2373,13 @@
       "tmdb": null,
       "v": 1
     },
+    "carla-moix": {
+      "fecha": "2026-11-24",
+      "motivo": "ok",
+      "nombre": "Carla Moix",
+      "tmdb": 5540956,
+      "v": 2
+    },
     "carla-pizan": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2541,6 +2569,13 @@
       "tmdb": null,
       "v": 2
     },
+    "carlota-curt": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Carlota Curt",
+      "tmdb": null,
+      "v": 2
+    },
     "carlota-ferrer": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -2561,6 +2596,13 @@
       "nombre": "Carlota Grau",
       "tmdb": null,
       "v": 1
+    },
+    "carlota-gurt": {
+      "fecha": "2026-11-24",
+      "motivo": "otra persona en Wikidata",
+      "nombre": "Carlota Gurt",
+      "tmdb": null,
+      "v": 2
     },
     "carlota-malo": {
       "fecha": "2026-11-19",
@@ -3206,6 +3248,13 @@
       "tmdb": null,
       "v": 1
     },
+    "cia-pea-green": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Cia. Pea Green",
+      "tmdb": null,
+      "v": 2
+    },
     "cia-peixospeixeres": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3254,6 +3303,13 @@
       "nombre": "Cia Tutatis",
       "tmdb": null,
       "v": 1
+    },
+    "cia-txo-titelles": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Cia. Txo Titelles",
+      "tmdb": null,
+      "v": 2
     },
     "cia-vada-retro-teatre": {
       "fecha": "2026-11-19",
@@ -3910,6 +3966,13 @@
       "fecha": "2026-11-22",
       "motivo": "varias",
       "nombre": "Daniela Brown",
+      "tmdb": null,
+      "v": 2
+    },
+    "daniela-de-vecchi": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Daniela De Vecchi",
       "tmdb": null,
       "v": 2
     },
@@ -6223,12 +6286,26 @@
       "tmdb": null,
       "v": 1
     },
+    "imma-colomer": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Imma Colomer",
+      "tmdb": null,
+      "v": 2
+    },
     "imma-ebjol": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Imma Ebjol",
       "tmdb": null,
       "v": 1
+    },
+    "impro-barcelona": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Impro Barcelona",
+      "tmdb": null,
+      "v": 2
     },
     "in-situ": {
       "fecha": "2026-11-23",
@@ -6766,6 +6843,13 @@
       "fecha": "2026-11-23",
       "motivo": "ninguna",
       "nombre": "Jean Cocteau",
+      "tmdb": null,
+      "v": 2
+    },
+    "jean-paul-sartre": {
+      "fecha": "2026-11-24",
+      "motivo": "otro país",
+      "nombre": "Jean-Paul Sartre",
       "tmdb": null,
       "v": 2
     },
@@ -7490,6 +7574,20 @@
       "tmdb": null,
       "v": 2
     },
+    "jose-perez-ocana": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Jose Pérez-Ocaña",
+      "tmdb": null,
+      "v": 2
+    },
+    "jose-saiz-hercules-poirot": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "JOSE SAIZ – Hércules Poirot",
+      "tmdb": null,
+      "v": 2
+    },
     "josep-castells-planas": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -7655,6 +7753,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Juan José Rivero",
+      "tmdb": null,
+      "v": 2
+    },
+    "juan-mayorga": {
+      "fecha": "2026-11-24",
+      "motivo": "nombre común",
+      "nombre": "Juan Mayorga",
       "tmdb": null,
       "v": 2
     },
@@ -7868,6 +7973,13 @@
       "tmdb": null,
       "v": 2
     },
+    "julia-rocha": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Julià Rocha",
+      "tmdb": null,
+      "v": 2
+    },
     "julia-santacana": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -8026,6 +8138,13 @@
       "fecha": "2026-11-19",
       "motivo": "ninguna",
       "nombre": "Kiara Santos",
+      "tmdb": null,
+      "v": 2
+    },
+    "kike-blanco": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Kike Blanco",
       "tmdb": null,
       "v": 2
     },
@@ -8743,6 +8862,13 @@
       "tmdb": null,
       "v": 1
     },
+    "lola-belles": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Lola Belles",
+      "tmdb": null,
+      "v": 2
+    },
     "lola-clavo": {
       "fecha": "2026-11-22",
       "motivo": "ninguna",
@@ -9197,6 +9323,13 @@
       "nombre": "Mar Colàs",
       "tmdb": null,
       "v": 1
+    },
+    "mar-gasco": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Mar Gascó",
+      "tmdb": null,
+      "v": 2
     },
     "mar-lopez": {
       "fecha": "2026-11-22",
@@ -10045,6 +10178,13 @@
       "tmdb": null,
       "v": 2
     },
+    "mariona-signes": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Mariona Signes",
+      "tmdb": null,
+      "v": 2
+    },
     "mariona-trias": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -10555,6 +10695,13 @@
       "nombre": "Meridiano 70ymedio Teatro",
       "tmdb": null,
       "v": 1
+    },
+    "meritxell-huertas": {
+      "fecha": "2026-11-24",
+      "motivo": "ok",
+      "nombre": "Meritxell Huertas",
+      "tmdb": 4026123,
+      "v": 2
     },
     "metafora-studio-arts": {
       "fecha": "2026-11-19",
@@ -11095,6 +11242,13 @@
       "tmdb": null,
       "v": 1
     },
+    "moreno-bernardi": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Moreno Bernardi",
+      "tmdb": null,
+      "v": 2
+    },
     "mpc-management": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -11255,6 +11409,13 @@
       "nombre": "Neil Simon",
       "tmdb": null,
       "v": 1
+    },
+    "nelson-rodrigues": {
+      "fecha": "2026-11-24",
+      "motivo": "otro país",
+      "nombre": "Nelson Rodrigues",
+      "tmdb": null,
+      "v": 2
     },
     "nelson-valente": {
       "fecha": "2026-11-19",
@@ -11738,6 +11899,13 @@
       "nombre": "Òscar Andreu",
       "tmdb": null,
       "v": 1
+    },
+    "oscar-bujia": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Óscar Bujía",
+      "tmdb": null,
+      "v": 2
     },
     "oscar-constanti-bosch": {
       "fecha": "2026-11-19",
@@ -12243,6 +12411,13 @@
       "tmdb": null,
       "v": 2
     },
+    "paula-ruedas": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Paula Ruedas",
+      "tmdb": null,
+      "v": 2
+    },
     "paula-s-viteri": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -12394,6 +12569,13 @@
       "fecha": "2026-11-21",
       "motivo": "ninguna",
       "nombre": "Pere Lloveras (Circular Comunicació)",
+      "tmdb": null,
+      "v": 2
+    },
+    "pere-lopez": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Pere López",
       "tmdb": null,
       "v": 2
     },
@@ -12775,6 +12957,13 @@
       "tmdb": null,
       "v": 2
     },
+    "raimon-molins": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Raimon Molins",
+      "tmdb": null,
+      "v": 2
+    },
     "raimon-rius": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -13096,6 +13285,13 @@
       "nombre": "Roger Blasco",
       "tmdb": null,
       "v": 1
+    },
+    "roger-coma": {
+      "fecha": "2026-11-24",
+      "motivo": "ok",
+      "nombre": "Roger Coma",
+      "tmdb": 588053,
+      "v": 2
     },
     "roger-costa-vendrell": {
       "fecha": "2026-11-19",
@@ -13846,6 +14042,13 @@
       "tmdb": null,
       "v": 2
     },
+    "soledad-cardigni": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Soledad Cardigni",
+      "tmdb": null,
+      "v": 2
+    },
     "som-produce": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -14259,6 +14462,13 @@
       "tmdb": null,
       "v": 2
     },
+    "teresa-ferret": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Teresa Ferret",
+      "tmdb": null,
+      "v": 2
+    },
     "teresa-lozano": {
       "fecha": "2026-11-19",
       "motivo": "nombre común",
@@ -14362,6 +14572,13 @@
       "motivo": "ok",
       "nombre": "Tilda Espluga",
       "tmdb": 2693145,
+      "v": 2
+    },
+    "titelles-pamipipa": {
+      "fecha": "2026-11-24",
+      "motivo": "ninguna",
+      "nombre": "Titelles Pamipipa",
+      "tmdb": null,
       "v": 2
     },
     "titus-andronic-s-l": {
@@ -15635,6 +15852,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Travis_Knight_%28animador%29"
       },
       "fecha": "2026-11-19"
+    },
+    "1038": {
+      "datos": {
+        "bio": {
+          "ca": "Jodie Foster (Los Angeles, Califòrnia, 19 de novembre de 1962) és una actriu de cinema estatunidenca, una de les més dúctils i ben preparades de la seva generació, guanyadora de dos premis Oscar a la millor interpretació femenina, pel paper de la noia violada en Acusats (1988) i de l'agent de policia Clarice Starling en El silenci dels anyells (1991). Comença la seva carrera als dos anys fent publicitat, la seva mare va inscriure-la a una agència de publicitat quan tenia dos anys i va aparèixer en nombrosos anuncis durant quatre anys. Als cinc anys, interpretà el seu primer paper en la sèrie de televisió Mayberry R.F.D., en un episodi emès el 18 de novembre de 1968."
+        },
+        "conocida": [
+          [
+            "El silencio de los corderos",
+            1991,
+            "pelicula",
+            "Clarice Starling"
+          ],
+          [
+            "Taxi Driver",
+            1976,
+            "pelicula",
+            "Iris"
+          ],
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Maggie Roark (voice)"
+          ],
+          [
+            "Elysium",
+            2013,
+            "pelicula",
+            "Delacourt"
+          ],
+          [
+            "Black Mirror",
+            2011,
+            "serie",
+            "Director"
+          ],
+          [
+            "Plan oculto",
+            2006,
+            "pelicula",
+            "Madeleine White"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu, realitzadora i productora estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/5emVgsLFlU6SmeBIFsF2Y7aqwtG.jpg",
+        "lugar": "Los Angeles, California, USA",
+        "nacimiento": "1962-11-19",
+        "nombre": "Jodie Foster",
+        "oficio": "Acting",
+        "tmdb": 1038,
+        "wikidata": "Q41351",
+        "wikipedia": "https://es.wikipedia.org/wiki/Jodie_Foster"
+      },
+      "fecha": "2026-11-24"
     },
     "1039311": {
       "datos": {
@@ -18379,6 +18654,64 @@
         "wikidata": "Q110848952"
       },
       "fecha": "2026-11-19"
+    },
+    "11275": {
+      "datos": {
+        "bio": {
+          "en": "Stephen John Fry is an English actor, screenwriter, author, playwright, journalist, poet, comedian, television presenter and film director, and a director of Norwich City Football Club. He first came to attention in the 1981 Cambridge Footlights Revue presentation \"The Cellar Tapes\", which also included Hugh Laurie, Emma Thompson and Tony Slattery. With Hugh Laurie, as the comedy double act Fry and Laurie, he co-wrote and co-starred in A Bit of Fry & Laurie, and the duo also played the title roles in Jeeves and Wooster."
+        },
+        "conocida": [
+          [
+            "V de Vendetta",
+            2006,
+            "pelicula",
+            "Deitrich"
+          ],
+          [
+            "El hobbit: La batalla de los cinco ejércitos",
+            2014,
+            "pelicula",
+            "Master of Laketown"
+          ],
+          [
+            "Alicia en el País de las Maravillas",
+            2010,
+            "pelicula",
+            "Cheshire Cat (voice)"
+          ],
+          [
+            "El hobbit: La desolación de Smaug",
+            2013,
+            "pelicula",
+            "The Master of Laketown"
+          ],
+          [
+            "Sherlock Holmes: Juego de sombras",
+            2011,
+            "pelicula",
+            "Mycroft Holmes"
+          ],
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Terrance / Hazel / MI5 Man (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "comediant, actor, director i escriptor anglès",
+          "es": "actor, guionista, escritor, dramaturgo, periodista, poeta, comediante, presentador de televisión y director de cine británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/dH7GuUZ8QPM9RN99ak9KKOkSkdS.jpg",
+        "lugar": "Hampstead, London, England, UK",
+        "nacimiento": "1957-08-24",
+        "nombre": "Stephen Fry",
+        "oficio": "Acting",
+        "tmdb": 11275,
+        "wikidata": "Q192912",
+        "wikipedia": "https://es.wikipedia.org/wiki/Stephen_Fry"
+      },
+      "fecha": "2026-11-24"
     },
     "11288": {
       "datos": {
@@ -23656,6 +23989,64 @@
       },
       "fecha": "2026-11-24"
     },
+    "130640": {
+      "datos": {
+        "bio": {
+          "es": "Hailee Steinfeld (11 de diciembre de 1996) es una actriz y cantante estadounidense. Tuvo algunos papeles en cortometrajes y series de televisión antes de interpretar a Mattie Ross en la adaptación de True Grit de los hermanos Coen, por la cual fue nominada al Óscar."
+        },
+        "conocida": [
+          [
+            "Spider-Man: un nuevo universo",
+            2018,
+            "pelicula",
+            "Gwen Stacy (voice)"
+          ],
+          [
+            "Spider-Man: Cruzando el Multiverso",
+            2023,
+            "pelicula",
+            "Gwen Stacy (voice)"
+          ],
+          [
+            "Bumblebee",
+            2018,
+            "pelicula",
+            "Charlie Watson"
+          ],
+          [
+            "El juego de Ender",
+            2013,
+            "pelicula",
+            "Petra Arkanian"
+          ],
+          [
+            "Arcane",
+            2021,
+            "serie",
+            "Vi (voice)"
+          ],
+          [
+            "Valor de ley",
+            2010,
+            "pelicula",
+            "Mattie Ross"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz y cantante estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/fItdOWdrHNRGGRRD9NFQWtO5L1t.jpg",
+        "lugar": "Tarzana, Los Angeles, California, USA",
+        "nacimiento": "1996-12-11",
+        "nombre": "Hailee Steinfeld",
+        "oficio": "Acting",
+        "tmdb": 130640,
+        "wikidata": "Q231726",
+        "wikipedia": "https://es.wikipedia.org/wiki/Hailee_Steinfeld"
+      },
+      "fecha": "2026-11-24"
+    },
     "1308631": {
       "datos": {
         "conocida": [
@@ -23798,6 +24189,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Daisy_Ridley"
       },
       "fecha": "2026-11-19"
+    },
+    "1318201": {
+      "datos": {
+        "bio": {
+          "en": "Jared Bush (born June 12, 1974) is an American screenwriter, producer, and director who has served as the chief creative officer of Walt Disney Animation Studios since 2024. He is best known for co-writing and co-directing the Walt Disney Animation Studios film Zootopia (2016) and its sequel Zootopia 2 (2025), writing the movie Moana (2016), its sequel Moana 2 (2024) and the 2026 upcoming live-action remake, and writing, directing, and winning an Academy Award for Best Animated Feature for the film Encanto (2021), besides co-creating and executive producing the Disney XD animated series Penn Zero: Part-Time Hero. Bush is a graduate of Harvard University."
+        },
+        "conocida": [
+          [
+            "Zootrópolis",
+            2016,
+            "pelicula",
+            "Pronk Oryx-Antlerson (voice)"
+          ],
+          [
+            "Vaiana",
+            2016,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Encanto",
+            2021,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Zootrópolis 2",
+            2025,
+            "pelicula",
+            "Jürgen Ziegenkäse / Pronk (voice)"
+          ],
+          [
+            "Vaiana 2",
+            2024,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Zootrópolis+",
+            2022,
+            "serie",
+            "Pronk Oryx-Antlerson (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "guionista estatunidenc",
+          "es": "guionista estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/50XtrC5NMcqiYMXNmuNVY5tUl34.jpg",
+        "lugar": "Gaithersburg, Maryland, USA",
+        "nacimiento": "1974-06-12",
+        "nombre": "Jared Bush",
+        "oficio": "Writing",
+        "tmdb": 1318201,
+        "wikidata": "Q20995253",
+        "wikipedia": "https://es.wikipedia.org/wiki/Jared_Bush"
+      },
+      "fecha": "2026-11-24"
     },
     "1318746": {
       "datos": {
@@ -24683,6 +25132,59 @@
         "wikidata": "Q16014676"
       },
       "fecha": "2026-11-19"
+    },
+    "1346535": {
+      "datos": {
+        "bio": {
+          "en": "Samson Kayo is a British actor, producer and writer. He was nominated for the British Academy Television Award for Best Male Comedy Performance in 2018 for the BBC sketch show Famalam (2017–2020). He created, wrote and starred in the Sky One sitcom Bloods (2021–2022) and received a nomination for the same award in 2022. He won the Royal Television Society Programme Awards for Best Male Comedy Performance in the latter role in 2022 and was nominated in 2019 and 2023. He also created and stars in Sliced(2019–2020), and his other credits include Youngers (2013), Timewasters (2017), and Our Flag Means Death (2022–2023)."
+        },
+        "conocida": [
+          [
+            "El Gato con Botas: El último deseo",
+            2022,
+            "pelicula",
+            "Baby Bear (voice)"
+          ],
+          [
+            "La casa del dragón",
+            2022,
+            "serie",
+            "Mujja"
+          ],
+          [
+            "F1 la película",
+            2025,
+            "pelicula",
+            "Cash"
+          ],
+          [
+            "Las aventuras del doctor Dolittle",
+            2020,
+            "pelicula",
+            "Pirate"
+          ],
+          [
+            "A la mierda el 2020",
+            2020,
+            "pelicula",
+            "Pyrex Flask"
+          ],
+          [
+            "La burbuja",
+            2022,
+            "pelicula",
+            "Bola"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/jyGT8cgl6MEANOpRKoHgXaC1yp6.jpg",
+        "lugar": "Peckham, London, England, UK",
+        "nacimiento": "1991-06-20",
+        "nombre": "Samson Kayo",
+        "oficio": "Acting",
+        "tmdb": 1346535,
+        "wikidata": "Q66362723"
+      },
+      "fecha": "2026-11-24"
     },
     "134774": {
       "datos": {
@@ -27260,6 +27762,58 @@
       },
       "fecha": "2026-11-19"
     },
+    "1447307": {
+      "datos": {
+        "bio": {
+          "en": "Josie Trinidad is a story artist and animator at Walt Disney Animation Studios. She provided as a story artist for Wreck-It Ralph and Wreck-It Ralph 2, Tangled, and The Princess and the Frog. She provided the voice of Dharma Armadillo in Zootopia, an additional voice for Big Hero 6, and Jubileena Bing Bing in Wreck-It Ralph. She also provided writing the story of Zootopia."
+        },
+        "conocida": [
+          [
+            "Zootrópolis",
+            2016,
+            "pelicula",
+            "Landlady (voice)"
+          ],
+          [
+            "Big Hero 6",
+            2014,
+            "pelicula",
+            "Additional Voice (voice)"
+          ],
+          [
+            "¡Rompe Ralph!",
+            2012,
+            "pelicula",
+            "Jubileena Bing Bing (voice)"
+          ],
+          [
+            "Ralph rompe Internet",
+            2018,
+            "pelicula",
+            "Additional Voices (voice)"
+          ],
+          [
+            "Zootrópolis+",
+            2022,
+            "serie",
+            "Director"
+          ],
+          [
+            "Imagining Zootopia",
+            2016,
+            "pelicula",
+            "Self"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/rMwIL53SKwZJu7WFW1fcYIVTxhP.jpg",
+        "lugar": "Los Angeles, California, USA",
+        "nombre": "Josie Trinidad",
+        "oficio": "Acting",
+        "tmdb": 1447307,
+        "wikidata": "Q24574567"
+      },
+      "fecha": "2026-11-24"
+    },
     "1448172": {
       "datos": {
         "bio": {
@@ -27475,6 +28029,30 @@
         "wikidata": "Q9012641"
       },
       "fecha": "2026-11-19"
+    },
+    "1461394": {
+      "datos": {
+        "conocida": [
+          [
+            "Vaiana 2",
+            2024,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Hechizo: Bienvenidos a Hexe",
+            2026,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/gepbkgavGdDXdNbQzdFaxayTpoH.jpg",
+        "nombre": "Jason Hand",
+        "oficio": "Directing",
+        "tmdb": 1461394,
+        "wikidata": "Q29000781"
+      },
+      "fecha": "2026-11-24"
     },
     "1462119": {
       "datos": {
@@ -29089,6 +29667,59 @@
         "wikidata": "Q13888"
       },
       "fecha": "2026-11-19"
+    },
+    "1513971": {
+      "datos": {
+        "bio": {
+          "en": "Dana Ledoux Miller (born December 29, 1982) is an American writer, producer, director, and showrunner. She co-wrote and co-directed Moana 2 for Walt Disney Animation Studios and later contributed to the live-action Moana film. She was co-showrunner for Netflix's limited series Thai Cave Rescue, produced by SKG and Jon M. Chu. Previously, she was an executive producer on Last Resort for Seven Bucks Productions and Feigco Entertainment as part of the Break the Room Initiative, which was developed for Quibi. Her writing credits include Kevin Can Fck Himself* and Lodge 49 for AMC, Designated Survivor for ABC, Narcos for Netflix, and The Newsroom for HBO."
+        },
+        "conocida": [
+          [
+            "Narcos",
+            2015,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Vaiana 2",
+            2024,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Sucesor designado",
+            2016,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Vaiana",
+            2026,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Que te den, Kevin",
+            2021,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Lodge 49",
+            2018,
+            "serie",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/1I3PoFUABjxIxuPQKI9zAaoyMj3.jpg",
+        "lugar": "Los Angeles, California, USA",
+        "nacimiento": "1982-12-29",
+        "nombre": "Dana Ledoux Miller",
+        "oficio": "Writing",
+        "tmdb": 1513971,
+        "wikidata": "Q21694269"
+      },
+      "fecha": "2026-11-24"
     },
     "15152": {
       "datos": {
@@ -37628,6 +38259,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "221018": {
+      "datos": {
+        "bio": {
+          "en": "Daniel Jonathan Stevens (born 10 October 1982) is an English actor. He first drew international attention for his role as Matthew Crawley in the ITV period drama series Downton Abbey (2010–2012). He also starred as David in the thriller film The Guest (2014), Sir Lancelot in the adventure film Night at the Museum: Secret of the Tomb (2014), The Beast/Prince in Disney's live-action adaptation of Beauty and the Beast (2017), Lorin Willis in the biographical legal drama Marshall (2017), Charles Dickens in the biographical drama The Man Who Invented Christmas (2017) and Russian Eurovision singer Alexander Lemtov in Eurovision Song Contest: The Story of Fire Saga (2020)."
+        },
+        "conocida": [
+          [
+            "La bella y la bestia",
+            2017,
+            "pelicula",
+            "Beast"
+          ],
+          [
+            "Noche en el museo: El secreto del faraón",
+            2014,
+            "pelicula",
+            "Sir Lancelot"
+          ],
+          [
+            "Godzilla y Kong: El nuevo imperio",
+            2024,
+            "pelicula",
+            "Trapper"
+          ],
+          [
+            "Love, Death & Robots",
+            2019,
+            "serie",
+            "Nigel / Technician (voice)"
+          ],
+          [
+            "La llamada de lo salvaje",
+            2020,
+            "pelicula",
+            "Hal"
+          ],
+          [
+            "Caminando entre las tumbas",
+            2014,
+            "pelicula",
+            "Kenny Kristo"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor i escriptor anglès",
+          "es": "actor británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/fFsgginZKH527o38ZfdDxuzx7Ew.jpg",
+        "lugar": "Croydon, London, England, UK",
+        "nacimiento": "1982-10-10",
+        "nombre": "Dan Stevens",
+        "oficio": "Acting",
+        "tmdb": 221018,
+        "wikidata": "Q958385",
+        "wikipedia": "https://es.wikipedia.org/wiki/Dan_Stevens"
+      },
+      "fecha": "2026-11-24"
+    },
     "2213460": {
       "datos": {
         "foto": "https://image.tmdb.org/t/p/w185/xepcS7I3WTFSvTbIcAAsXOTpqv5.jpg",
@@ -38001,6 +38690,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Miguel_Faus"
       },
       "fecha": "2026-11-19"
+    },
+    "224197": {
+      "datos": {
+        "bio": {
+          "en": "Brett Clifford Gelman is an American actor and comedian. He was born on October 6, 1976, in Highland Park, Illinois. He is best known for his roles as Murray Bauman in the Netflix series Stranger Things and Martin on the BBC series Fleabag. Gelman began his career as a comedian in the early 2000s. He performed in numerous comedy clubs and improv theaters in New York City. In 2009, he was a writer and performer on the sketch comedy series Eagleheart. He also had a recurring role on the comedy series Another Period. In 2016, Gelman was cast as Murray Bauman in the third season of Stranger Things."
+        },
+        "conocida": [
+          [
+            "Stranger Things",
+            2016,
+            "serie",
+            "Murray"
+          ],
+          [
+            "The Office",
+            2005,
+            "serie",
+            "The Magician"
+          ],
+          [
+            "Padre de familia",
+            1999,
+            "serie",
+            "Escape Room Guy (voice)"
+          ],
+          [
+            "Los otros dos",
+            2010,
+            "pelicula",
+            "Hal"
+          ],
+          [
+            "The Disaster Artist",
+            2017,
+            "pelicula",
+            "Acting Teacher (uncredited)"
+          ],
+          [
+            "Sin remordimientos",
+            2021,
+            "pelicula",
+            "Victor Rykov"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/ub2IuMWFNQGYghHTPq0lpmn2Ue0.jpg",
+        "lugar": "Highland Park, Illinois, USA",
+        "nacimiento": "1976-10-06",
+        "nombre": "Brett Gelman",
+        "oficio": "Acting",
+        "tmdb": 224197,
+        "wikidata": "Q4962181",
+        "wikipedia": "https://es.wikipedia.org/wiki/Brett_Gelman"
+      },
+      "fecha": "2026-11-24"
     },
     "224354": {
       "datos": {
@@ -39947,6 +40694,40 @@
         "tmdb": 2374877
       },
       "fecha": "2026-11-19"
+    },
+    "2375591": {
+      "datos": {
+        "bio": {
+          "en": "Prasansook \"Fawn\" Veerasunthorn (Thai: ประสานสุข วีระสุนทร (ฝน)) (born October 6, 1981) is a Thai film director and animator. She worked on the Disney Animation films Frozen (2013), Moana (2016), and Zootopia (2016) as a storyboard artist, and as head of story on Raya and the Last Dragon (2021). The first feature film she directed was Disney's Wish (2023), in collaboration with Chris Buck. Description above from the Wikipedia article Fawn Veerasunthorn, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Wish: El poder de los deseos",
+            2023,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Hechizo: Bienvenidos a Hexe",
+            2026,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "ca": "directora de cinema tailandesa",
+          "es": "directora de cine tailandesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/xk9R1RsUOcckKRgcqVqZNbxv12P.jpg",
+        "lugar": "Chon Buri, Thailand",
+        "nacimiento": "1981-10-06",
+        "nombre": "ฝน วีระสุนทร",
+        "oficio": "Directing",
+        "tmdb": 2375591,
+        "wikidata": "Q120931616",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Fawn_Veerasunthorn"
+      },
+      "fecha": "2026-11-24"
     },
     "2385817": {
       "datos": {
@@ -43430,6 +44211,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "27740": {
+      "datos": {
+        "bio": {
+          "es": "Walton Sanders Goggins, Jr. (Birmingham, Alabama, 10 de noviembre de 1971) es un actor estadounidense, principalmente conocido por su papel protagonista en la serie original de FX Networks The Shield, interpretando al detective Shane Vendrell y como el renegado Chris Mannix en la película de Tarantino The Hateful Eight (2015). Goggins nació en Alabama y se crio en Lithia Springs, Georgia, donde su abuela regentaba la oficina de correos local. Cuando tenía diez años, Goggins y su madre fueron los campeones estatales de baile con zuecos. Cuando B. B. King estuvo de gira, Goggins y su madre abrieron un concierto para él en la prisión del condado de Fulton, en Atlanta."
+        },
+        "conocida": [
+          [
+            "Django desencadenado",
+            2012,
+            "pelicula",
+            "Billy Crash"
+          ],
+          [
+            "Los odiosos ocho",
+            2015,
+            "pelicula",
+            "Sheriff Chris Mannix"
+          ],
+          [
+            "Ant-Man y la Avispa",
+            2018,
+            "pelicula",
+            "Sonny Burch"
+          ],
+          [
+            "Big Bang",
+            2007,
+            "serie",
+            "Oliver"
+          ],
+          [
+            "The Bourne Identity: El caso Bourne",
+            2002,
+            "pelicula",
+            "Research Tech"
+          ],
+          [
+            "El corredor del laberinto: La cura mortal",
+            2018,
+            "pelicula",
+            "Lawrence"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg",
+        "lugar": "Birmingham, Alabama, USA",
+        "nacimiento": "1971-11-10",
+        "nombre": "Walton Goggins",
+        "oficio": "Acting",
+        "tmdb": 27740,
+        "wikidata": "Q516690",
+        "wikipedia": "https://es.wikipedia.org/wiki/Walton_Goggins"
+      },
+      "fecha": "2026-11-24"
+    },
     "2786956": {
       "datos": {
         "conocida": [
@@ -44444,6 +45283,64 @@
         "tmdb": 3012677
       },
       "fecha": "2026-11-19"
+    },
+    "30364": {
+      "datos": {
+        "bio": {
+          "en": "Tracey Ullman (born 30 December 1959) is a British-American actress, singer, dancer, screenwriter, director, and producer. Critics have lauded her ability to shift seamlessly in and out of character and accents, with many dubbing her the \"female Peter Sellers\". Ullman began her career in the British soap opera Mackenzie (1980), playing Lisa Mackenzie. After an award-winning performance in the improvised play Four in a Million at the Royal Court Theatre, she branched out into comedy. She starred in the British television sketch comedies A Kick Up the Eighties (1981) and Three of a Kind (1981–1983), the latter winning her a BAFTA in 1984."
+        },
+        "conocida": [
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Emily Winthrop / Mrs. Winfield (voice)"
+          ],
+          [
+            "La novia cadáver",
+            2005,
+            "pelicula",
+            "Nell Van Dort / Hildegarde (voice)"
+          ],
+          [
+            "Onward",
+            2020,
+            "pelicula",
+            "Grecklin (voice)"
+          ],
+          [
+            "Cómo conocí a vuestra madre",
+            2005,
+            "serie",
+            "Genevieve Scherbatsky"
+          ],
+          [
+            "Into the Woods",
+            2014,
+            "pelicula",
+            "Jack's Mother"
+          ],
+          [
+            "Ted Lasso",
+            2020,
+            "serie",
+            "Zelda Southport"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu britànica",
+          "es": "actriz británica"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/cmug3uUXKBo9fhCcJk3pkgt1nvM.jpg",
+        "lugar": "Slough, Berkshire, England, UK",
+        "nacimiento": "1959-12-30",
+        "nombre": "Tracey Ullman",
+        "oficio": "Acting",
+        "tmdb": 30364,
+        "wikidata": "Q130549",
+        "wikipedia": "https://es.wikipedia.org/wiki/Tracey_Ullman"
+      },
+      "fecha": "2026-11-24"
     },
     "3038957": {
       "datos": {
@@ -45623,6 +46520,64 @@
         "wikidata": "Q2481492"
       },
       "fecha": "2026-11-21"
+    },
+    "31903": {
+      "datos": {
+        "bio": {
+          "en": "Henry Franklin Winkler (born October 30, 1945) is an American actor, director, producer, and author. Winkler grew up in New York and was a student in the Yale School of Drama. Winkler is best known for his role as Fonzie on the 1970s American sitcom Happy Days. \"The Fonz,\" a leather-clad greaser and auto mechanic, started out as a minor character at the show's beginning but had achieved top billing by the time the show ended. He also portrayed Jack Dunne in Heroes (1977), Andy in the Carl Reiner film The One and Only (1978), and Chuck Lumley in Ron Howard's Night Shift (1982)."
+        },
+        "conocida": [
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Ramrod (voice)"
+          ],
+          [
+            "Scream. Vigila quién llama",
+            1996,
+            "pelicula",
+            "Arthur Himbry (uncredited)"
+          ],
+          [
+            "Click",
+            2006,
+            "pelicula",
+            "Ted"
+          ],
+          [
+            "Black Adam",
+            2022,
+            "pelicula",
+            "Uncle Al"
+          ],
+          [
+            "South Park",
+            1997,
+            "serie",
+            "The Scary Monster (voice)"
+          ],
+          [
+            "Ley y orden: Unidad de Víctimas Especiales",
+            1999,
+            "serie",
+            "Edwin Todd"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor, comediante, director y productor cinematográfico estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/c35LVOjB1gbY5iYzhN9PGIXUHWt.jpg",
+        "lugar": "New York City, New York, USA",
+        "nacimiento": "1945-10-30",
+        "nombre": "Henry Winkler",
+        "oficio": "Acting",
+        "tmdb": 31903,
+        "wikidata": "Q343983",
+        "wikipedia": "https://es.wikipedia.org/wiki/Henry_Winkler"
+      },
+      "fecha": "2026-11-24"
     },
     "319160": {
       "datos": {
@@ -48644,6 +49599,47 @@
         "tmdb": 3998193
       },
       "fecha": "2026-11-19"
+    },
+    "4026123": {
+      "datos": {
+        "conocida": [
+          [
+            "Que se mueran los feos",
+            2010,
+            "pelicula",
+            "Vanessa"
+          ],
+          [
+            "El pueblo",
+            2019,
+            "serie",
+            "Magdalena"
+          ],
+          [
+            "Todos mienten",
+            2022,
+            "serie",
+            "Doctora Yolanda"
+          ],
+          [
+            "Azul de niño",
+            2025,
+            "pelicula",
+            "Tamara"
+          ],
+          [
+            "Como si fuera ayer",
+            2017,
+            "serie",
+            "Gina"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/4pp8OsIBWAHtEQ9uhO1R2CL9FyL.jpg",
+        "nombre": "Meritxell Huertas",
+        "oficio": "Acting",
+        "tmdb": 4026123
+      },
+      "fecha": "2026-11-24"
     },
     "4031220": {
       "datos": {
@@ -53301,6 +54297,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "5540956": {
+      "datos": {
+        "nombre": "Carla Moix",
+        "oficio": "Acting",
+        "tmdb": 5540956
+      },
+      "fecha": "2026-11-24"
+    },
     "5565330": {
       "datos": {
         "nombre": "Zaida Lloveras",
@@ -54659,6 +55663,59 @@
         "tmdb": 5858610
       },
       "fecha": "2026-11-20"
+    },
+    "588053": {
+      "datos": {
+        "bio": {
+          "es": "Roger Coma Estruch (20 de octubre de 1976) es un actor español de cine y televisión conocido principalmente por el público catalán por su participación en la serie Porca misèria de TV3. En la televisión nacional destacan sus trabajos en series como Amar es para siempre y Gran Hotel."
+        },
+        "conocida": [
+          [
+            "Los Protegidos",
+            2010,
+            "serie",
+            "Andrés Soria"
+          ],
+          [
+            "El Greco",
+            2007,
+            "pelicula",
+            "Father Paravicino"
+          ],
+          [
+            "Manjar de amor",
+            2002,
+            "pelicula",
+            "Receptionist"
+          ],
+          [
+            "La reina de los lagartos",
+            2019,
+            "pelicula",
+            "Padre Enrique"
+          ],
+          [
+            "Caricias",
+            1998,
+            "pelicula",
+            "Noi"
+          ],
+          [
+            "Para que no me olvides",
+            2005,
+            "pelicula",
+            "David Robles"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/90av4SmY9w0X76zTIPFGvOtKOc4.jpg",
+        "lugar": "Barcelona, Spain",
+        "nacimiento": "1976-10-20",
+        "nombre": "Roger Coma",
+        "oficio": "Acting",
+        "tmdb": 588053,
+        "wikidata": "Q681122"
+      },
+      "fecha": "2026-11-24"
     },
     "5883927": {
       "datos": {
@@ -62901,6 +63958,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q120931616": {
+      "descripcion": {
+        "ca": "directora de cinema tailandesa",
+        "es": "directora de cine tailandesa"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Fawn_Veerasunthorn"
+    },
     "Q121032132": {
       "descripcion": {
         "ca": "actor i il·lusionista català",
@@ -63090,6 +64155,14 @@
       "descripcion": null,
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Arthur_Conti"
+    },
+    "Q130549": {
+      "descripcion": {
+        "ca": "actriu britànica",
+        "es": "actriz británica"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Tracey_Ullman"
     },
     "Q130552781": {
       "descripcion": {
@@ -63792,6 +64865,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://ca.wikipedia.org/wiki/B%C3%A0rbara_Mestanza"
     },
+    "Q192912": {
+      "descripcion": {
+        "ca": "comediant, actor, director i escriptor anglès",
+        "es": "actor, guionista, escritor, dramaturgo, periodista, poeta, comediante, presentador de televisión y director de cine británico"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Stephen_Fry"
+    },
     "Q19301005": {
       "descripcion": {
         "ca": "actriu catalana",
@@ -64037,6 +65118,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Guillaume_Senez"
     },
+    "Q20995253": {
+      "descripcion": {
+        "ca": "guionista estatunidenc",
+        "es": "guionista estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Jared_Bush"
+    },
     "Q21013685": {
       "descripcion": {
         "ca": "dramaturg espanyol",
@@ -64111,6 +65200,11 @@
         "es": "actor alemán"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q21694269": {
+      "descripcion": null,
+      "fecha": "2026-11-24",
       "wikipedia": null
     },
     "Q2178753": {
@@ -64240,6 +65334,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Mary-Louise_Parker"
+    },
+    "Q231726": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz y cantante estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Hailee_Steinfeld"
     },
     "Q232120": {
       "descripcion": {
@@ -64384,6 +65486,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Morfydd_Clark"
+    },
+    "Q24574567": {
+      "descripcion": null,
+      "fecha": "2026-11-24",
+      "wikipedia": null
     },
     "Q24708122": {
       "descripcion": {
@@ -64715,6 +65822,11 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q29000781": {
+      "descripcion": null,
+      "fecha": "2026-11-24",
+      "wikipedia": null
+    },
     "Q290438": {
       "descripcion": {
         "es": "actriz, modelo y reina de belleza india"
@@ -65034,6 +66146,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Rhenzy_Feliz"
     },
+    "Q343983": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor, comediante, director y productor cinematográfico estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Henry_Winkler"
+    },
     "Q3441839": {
       "descripcion": {
         "ca": "actor francès",
@@ -65270,6 +66390,14 @@
       "fecha": "2026-11-24",
       "wikipedia": "https://es.wikipedia.org/wiki/Blythe_Danner"
     },
+    "Q41351": {
+      "descripcion": {
+        "ca": "actriu, realitzadora i productora estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Jodie_Foster"
+    },
     "Q41408": {
       "descripcion": {
         "ca": "poeta i dramaturg andalús (1898–1936)",
@@ -65428,6 +66556,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Mabel_Rivera"
     },
+    "Q46925173": {
+      "descripcion": {
+        "ca": "actriu i pallassa catalana",
+        "es": "actriz cómica y payasa española"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Judit_Mart%C3%ADn_Dulcet"
+    },
     "Q46994907": {
       "descripcion": {
         "ca": "actriu estatunidenca",
@@ -65538,6 +66674,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Tom_Everett_Scott"
     },
+    "Q4962181": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Brett_Gelman"
+    },
     "Q4974291": {
       "descripcion": {
         "es": "actriz británica de cine y televisión"
@@ -65575,6 +66719,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Christopher_Abbott"
+    },
+    "Q516690": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Walton_Goggins"
     },
     "Q52239036": {
       "descripcion": {
@@ -66118,6 +67270,11 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q66362723": {
+      "descripcion": null,
+      "fecha": "2026-11-24",
+      "wikipedia": null
+    },
     "Q673482": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -66133,6 +67290,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Hanns_Zischler"
+    },
+    "Q681122": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor catalán"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Roger_Coma"
     },
     "Q68783644": {
       "descripcion": null,
@@ -66620,6 +67785,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Diego_Calva"
+    },
+    "Q958385": {
+      "descripcion": {
+        "ca": "actor i escriptor anglès",
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-24",
+      "wikipedia": "https://es.wikipedia.org/wiki/Dan_Stevens"
     },
     "Q958458": {
       "descripcion": {

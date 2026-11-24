@@ -323,6 +323,18 @@
     "wQ3752703": [],
     "wQ3818750": [],
     "wQ41408": [],
+    "wQ46925173": [
+      {
+        "anio": 2018,
+        "premio": "Premio Gato Perich",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2023,
+        "premio": "Premi Sonor al millor podcaster",
+        "tipo": "nominado"
+      }
+    ],
     "wQ52239036": [],
     "wQ5239637": [],
     "wQ53552398": [],
@@ -1289,6 +1301,12 @@
     "nombre": "Arnau Boces",
     "v": 3
   },
+  "arnau-vinos": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Arnau Vinós",
+    "v": 3
+  },
   "articwave-studio": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -1624,6 +1642,12 @@
     "nombre": "Carlos Pardo",
     "v": 3
   },
+  "carlota-curt": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Carlota Curt",
+    "v": 3
+  },
   "carlota-ferrer": {
     "datos": {
       "descripcion": {
@@ -1652,6 +1676,12 @@
     "datos": {},
     "fecha": "2026-11-22",
     "nombre": "Carlota Grau",
+    "v": 3
+  },
+  "carlota-gurt": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Carlota Gurt",
     "v": 3
   },
   "carlota-olcina": {
@@ -2505,6 +2535,12 @@
     "nombre": "Eléctrico 28",
     "v": 3
   },
+  "electrico-express": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Eléctrico Express",
+    "v": 3
+  },
   "elena-gomez": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -2829,6 +2865,12 @@
     "nombre": "Festival Grec 2026",
     "v": 3
   },
+  "fira-tarrega": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Fira Tàrrega",
+    "v": 3
+  },
   "fitxa-artistica": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -3017,6 +3059,12 @@
     "nombre": "Goretti Puente",
     "v": 3
   },
+  "graz-kultur": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Graz Kultur",
+    "v": 3
+  },
   "grec-festival-de-barcelona": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -3153,6 +3201,18 @@
     "datos": {},
     "fecha": "2026-11-23",
     "nombre": "Iker Rañé",
+    "v": 3
+  },
+  "impro-barcelona": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Impro Barcelona",
+    "v": 3
+  },
+  "in-situ": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "IN SITU",
     "v": 3
   },
   "indi-gest": {
@@ -3836,6 +3896,26 @@
     "nombre": "Judit Malet",
     "v": 3
   },
+  "judit-martin": {
+    "datos": {
+      "descripcion": {
+        "ca": "actriu i pallassa catalana",
+        "es": "actriz cómica y payasa española"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Judit_Mart%C3%ADn.jpg?width=300",
+      "oficios": [
+        "Q1148872",
+        "Q15077007",
+        "Q33999",
+        "Q7358"
+      ],
+      "wikidata": "Q46925173",
+      "wikipedia": "https://es.wikipedia.org/wiki/Judit_Mart%C3%ADn_Dulcet"
+    },
+    "fecha": "2026-11-24",
+    "nombre": "Judit Martín",
+    "v": 3
+  },
   "judy-craymer": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -3973,6 +4053,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Laia Nogueras",
+    "v": 3
+  },
+  "land-steiermark-kultur": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Land Steiermark Kultur",
     "v": 3
   },
   "laura-clos-closca": {
@@ -4279,6 +4365,12 @@
     "fecha": "2026-11-18",
     "nombre": "Mar Colàs",
     "v": 2
+  },
+  "mar-gasco": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Mar Gascó",
+    "v": 3
   },
   "mar-orfila": {
     "datos": {
@@ -5530,6 +5622,12 @@
     "nombre": "Pere Elies",
     "v": 2
   },
+  "pere-lopez": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Pere López",
+    "v": 3
+  },
   "perla-29": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -6339,6 +6437,12 @@
     "nombre": "Teresa Urroz",
     "v": 3
   },
+  "theaterland-steiermark": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Theaterland Steiermark",
+    "v": 3
+  },
   "theatre-de-liege": {
     "datos": {},
     "fecha": "2026-11-24",
@@ -6350,6 +6454,12 @@
     "fecha": "2026-11-18",
     "nombre": "Thomas Dechaufour",
     "v": 2
+  },
+  "titelles-pamipipa": {
+    "datos": {},
+    "fecha": "2026-11-24",
+    "nombre": "Titelles Pamipipa",
+    "v": 3
   },
   "tomas-fuentes": {
     "datos": {},

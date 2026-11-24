@@ -10445,6 +10445,138 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt38077943": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gepbkgavGdDXdNbQzdFaxayTpoH.jpg",
+          "id": 1461394,
+          "nombre": "Jason Hand"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xk9R1RsUOcckKRgcqVqZNbxv12P.jpg",
+          "id": 2375591,
+          "nombre": "ฝน วีระสุนทร"
+        }
+      ],
+      "duracion": 103,
+      "edad": null,
+      "estreno": "2026-11-25",
+      "fondo": "https://image.tmdb.org/t/p/w1280/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg",
+      "generos": [
+        "Aventura",
+        "Animación",
+        "Familia",
+        "Fantasía"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rMwIL53SKwZJu7WFW1fcYIVTxhP.jpg",
+          "id": 1447307,
+          "nombre": "Josie Trinidad"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/50XtrC5NMcqiYMXNmuNVY5tUl34.jpg",
+          "id": 1318201,
+          "nombre": "Jared Bush"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1I3PoFUABjxIxuPQKI9zAaoyMj3.jpg",
+          "id": 1513971,
+          "nombre": "Dana Ledoux Miller"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt38077943",
+      "lema": "Algo le está pasando a Billie…",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qL0TnImRmCRIcoQy1d3GjTPKCLn.jpg",
+          "id": 1802871,
+          "nombre": "Kris Bowers"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fItdOWdrHNRGGRRD9NFQWtO5L1t.jpg",
+          "id": 130640,
+          "nombre": "Hailee Steinfeld",
+          "papel": "Billie Doe (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cgWGm9eYCretBWeljPVtpRV7n6V.jpg",
+          "id": 80591,
+          "nombre": "Rashida Jones",
+          "papel": "Alice Doe (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5emVgsLFlU6SmeBIFsF2Y7aqwtG.jpg",
+          "id": 1038,
+          "nombre": "Jodie Foster",
+          "papel": "Queen Celeste (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg",
+          "id": 27740,
+          "nombre": "Walton Goggins",
+          "papel": "Beef Roger Crummchuk (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cmug3uUXKBo9fhCcJk3pkgt1nvM.jpg",
+          "id": 30364,
+          "nombre": "Tracey Ullman",
+          "papel": "Ms. Quill (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dH7GuUZ8QPM9RN99ak9KKOkSkdS.jpg",
+          "id": 11275,
+          "nombre": "Stephen Fry",
+          "papel": "Elias Quire (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/c35LVOjB1gbY5iYzhN9PGIXUHWt.jpg",
+          "id": 31903,
+          "nombre": "Henry Winkler",
+          "papel": "Nigel (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fFsgginZKH527o38ZfdDxuzx7Ew.jpg",
+          "id": 221018,
+          "nombre": "Dan Stevens",
+          "papel": "Hieronymous (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ub2IuMWFNQGYghHTPq0lpmn2Ue0.jpg",
+          "id": 224197,
+          "nombre": "Brett Gelman",
+          "papel": "Principal Huggins (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jyGT8cgl6MEANOpRKoHgXaC1yp6.jpg",
+          "id": 1346535,
+          "nombre": "Samson Kayo",
+          "papel": "Constable Beans (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Una adolescent impulsiva i poc convencional anomenada Billie descobreix habilitats màgiques secretes que, un cop alliberades, la impulsen a un viatge ple d'espectacles fora dels suburbis i cap a un immens regne de bruixes anomenat Hexe. Obligades a formar equip amb la seva cautelosa mare, l'Alice, descobreixen misteris familiars que podrien canviar el món de les bruixes per sempre.",
+        "en": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+        "es": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas."
+      },
+      "titulo": "Hechizo: Bienvenidos a Hexe",
+      "titulo_ca": "Encanteri. Benvinguts a Hexe",
+      "titulo_original": "Hexed",
+      "tmdb": 1538497,
+      "trailer": "wkr5TpxKOTw",
+      "wikidata": "Q136027913"
+    },
+    "fecha": "2026-11-24"
+  },
   "itt38349235": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/gDsAXwxRwH9nQCv1z5GvqVwPnTI.jpg",
@@ -12083,6 +12215,7 @@
   "p101542": "Q3527989",
   "p102222": "Q275932",
   "p1033661": "Q7836302",
+  "p1038": "Q41351",
   "p1042010": "Q16908467",
   "p1043788": "Q137437386",
   "p1046702": "Q22946162",
@@ -12141,6 +12274,7 @@
   "p1294982": "Q26921822",
   "p1298406": "",
   "p1302077": "Q52269021",
+  "p130640": "Q231726",
   "p1315036": "Q16738674",
   "p1321628": "Q24572561",
   "p132450": "Q580414",
@@ -12172,6 +12306,7 @@
   "p1448172": "",
   "p1454651": "Q115325763",
   "p1459456": "Q9012641",
+  "p1461394": "Q29000781",
   "p146382": "Q112054604",
   "p147056": "Q2933352",
   "p1473119": "Q20081051",
@@ -12272,6 +12407,7 @@
   "p234619": "Q1528739",
   "p234959": "",
   "p2361932": "",
+  "p2375591": "Q120931616",
   "p2385817": "",
   "p2387": "Q16296",
   "p239271": "Q15854232",
@@ -12306,6 +12442,7 @@
   "p27471": "Q5982905",
   "p2762775": "Q56349283",
   "p2769219": "Q95233135",
+  "p27740": "Q516690",
   "p2836518": "",
   "p2845902": "Q108830043",
   "p2846013": "Q112570656",
@@ -12478,6 +12615,7 @@
   "p77008": "Q3086808",
   "p77498": "Q462256",
   "p79510": "Q61473527",
+  "p80591": "Q540608",
   "p81051": "Q981690",
   "p819": "Q125904",
   "p840814": "Q12260748",
@@ -13319,6 +13457,7 @@
     }
   ],
   "wQ1190692": [],
+  "wQ120931616": [],
   "wQ1212650": [
     {
       "anio": 2011,
@@ -14188,6 +14327,7 @@
     }
   ],
   "wQ136002124": [],
+  "wQ136027913": [],
   "wQ136387857": [],
   "wQ136428321": [],
   "wQ136458718": [
@@ -17058,6 +17198,33 @@
       "tipo": "nominado"
     }
   ],
+  "wQ231726": [
+    {
+      "anio": 2017,
+      "premio": "Billboard Music Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2017,
+      "premio": "MTV Europe Music Award al Mejor Acto de Empuje",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "MTV Europe Music Award al millor pop",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Premi Max Mara Cara del futur",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
   "wQ232113": [
     {
       "anio": 2016,
@@ -17938,6 +18105,7 @@
     }
   ],
   "wQ28858393": [],
+  "wQ29000781": [],
   "wQ2933352": [
     {
       "anio": 2015,
@@ -19914,6 +20082,153 @@
       "tipo": "nominado"
     }
   ],
+  "wQ41351": [
+    {
+      "anio": 2013,
+      "premio": "Premio Cecil B. DeMille",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1991,
+      "premio": "Premios Globo de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1978,
+      "premio": "Premios Saturn",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1977,
+      "premio": "Premi BAFTA a la millor nova promesa",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1977,
+      "premio": "BAFTA a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1989,
+      "premio": "David de Donatello a la mejor actriz extranjera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Globo de Oro a la mejor actriz - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "BAFTA a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1994,
+      "premio": "David de Donatello a la mejor actriz extranjera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Independent Spirit Award a la mejor actriz protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premio Saturn a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Premio Cristal",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premio Jameson del público a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2021,
+      "premio": "Globo de Oro a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premi Mary Pickford",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Gran Premio Honorífico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Hasty Pudding Woman of the Year",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Júpiter",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2025,
+      "premio": "Globo de Oro a la mejor actriz de miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2026,
+      "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1977,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2024,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
   "wQ43288763": [],
   "wQ436769": [],
   "wQ436829": [],
@@ -20705,6 +21020,7 @@
   ],
   "wQ509777": [],
   "wQ51435379": [],
+  "wQ516690": [],
   "wQ52269021": [
     {
       "anio": 2018,
@@ -20819,6 +21135,13 @@
     {
       "anio": 2006,
       "premio": "Premio Máquina del Tiempo",
+      "tipo": "ganado"
+    }
+  ],
+  "wQ540608": [
+    {
+      "anio": 2025,
+      "premio": "Time 100",
       "tipo": "ganado"
     }
   ],

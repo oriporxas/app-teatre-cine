@@ -6607,16 +6607,6 @@
           1
         ],
         [
-          "99217141611",
-          "2026-11-27",
-          "18:10",
-          "Castellano",
-          "Sala 01",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119059&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
           "99400267342",
           "2026-11-27",
           "19:50",
@@ -6633,16 +6623,6 @@
           "VOSE",
           "Sala 06",
           "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122645&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-27",
-          "20:05",
-          "VOSE",
-          "Sala 01",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119056&language=esp&theatre=26",
           null,
           1
         ],
@@ -11104,16 +11084,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-24",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222827&language=ESP",
-          null,
-          1
-        ],
-        [
           "2086161222",
           "2026-11-24",
           "15:50",
@@ -11670,7 +11640,7 @@
           "Castellano",
           "Sala 3",
           "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/el-mal-padre/1098266/",
-          null,
+          "PASE CON COLOQUIO",
           1
         ],
         [
@@ -11690,7 +11660,7 @@
           "Castellano",
           "Sala 3",
           "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/el-mal-padre/1098267/",
-          null,
+          "PASE CON COLOQUIO",
           1
         ],
         [
@@ -11700,7 +11670,7 @@
           "Castellano",
           "Sala 3",
           "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/el-mal-padre/1098268/",
-          null,
+          "PASE CON COLOQUIO",
           1
         ],
         [
@@ -22556,41 +22526,6 @@
     },
     {
       "anio": 2026,
-      "direccion": [
-        {
-          "nombre": "Ilker Çatak"
-        }
-      ],
-      "duracion": 127,
-      "id": "p-tt32888226-1",
-      "imdb": "tt32888226-1",
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-24",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222846&language=ESP",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-24",
-          "20:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222847&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "titulo": "F. Espectador: Cartas de Estado",
-      "titulo_original": "Yellow Letters"
-    },
-    {
-      "anio": 2026,
       "cartel": "https://image.tmdb.org/t/p/w500/wLSZhzbKI2lwYkS1uRjHyfi8CPQ.jpg",
       "direccion": [
         {
@@ -23785,126 +23720,6 @@
       "titulo_original": "L'Olívia i el terratrèmol invisible",
       "tmdb": 676679,
       "trailer": "KLQTF6aHq2M"
-    },
-    {
-      "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/vuY2A58jHTA0VMU2y5rYr6Vttp3.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/r9HkbQd8d1z3ZB9FbbxGQPjqrhn.jpg",
-          "id": 2524429,
-          "nombre": "Isabel Fernández"
-        }
-      ],
-      "duracion": 103,
-      "fondo": "https://image.tmdb.org/t/p/w1280/6axoLZGcb5buDjgpVV9R7ISlMMw.jpg",
-      "generos": [
-        "Documental",
-        "Historia"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/r9HkbQd8d1z3ZB9FbbxGQPjqrhn.jpg",
-          "id": 2524429,
-          "nombre": "Isabel Fernández"
-        },
-        {
-          "id": 1852397,
-          "nombre": "Margarita Melgar"
-        }
-      ],
-      "id": "tmdb-1658291",
-      "idioma_original": "es",
-      "imdb": "tt41046922",
-      "musica": [
-        {
-          "id": 5380700,
-          "nombre": "Belén Doreste Álvarez"
-        }
-      ],
-      "paises": [
-        "ES"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/7Gm2h0ApsorCUJhUA8gUtxrWzMd.jpg",
-          "id": 67262,
-          "nombre": "Mónica López",
-          "papel": "Narradora (voice)",
-          "premios": [
-            {
-              "anio": 2016,
-              "premio": "Premio Memorial Margarita Xirgu",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Premio Butaca a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio Butaca a la mejor actriz de cine catalán",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio Barcelona a la mejor actriz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premios Ercilla",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premios Ondas",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premio Mestre Mateo a la Mejor actriz protagonista",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q9048215"
-        }
-      ],
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-24",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222543&language=ESP",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-26",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222544&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "en": "A 1967 letter to writer Ramón J. Sender is where this documentary begins, tracing Carmen Laforet, author of Nada. Through unpublished letters and archive material, the writer is rebuilt from her Gran Canaria childhood, and her silence starts to speak.",
-        "es": "Con solo 23 años, Carmen Laforet revolucionó la literatura española con su novela “Nada”. Su talento natural prometía una larga trayectoria llena de éxitos, pero no fue así: escribió poco y fue cayendo en el silencio… O esa es la historia que nos han contado. Sin embargo, los textos de la autora revelan otra verdad muy distinta: la de una mujer libre, original, rebelde, que no cedió a los dictados de nadie. Esta vez Carmen Laforet (Mónica López) toma la palabra y nos sumerge en el mundo de una escritora única, luchando por su libertad. Su historia es la de todas las mujeres que intentan salirse del guión."
-      },
-      "titulo": "Por qué no escribo nada",
-      "titulo_original": "Por qué no escribo nada",
-      "tmdb": 1658291
     },
     {
       "anio": 2026,
@@ -25209,6 +25024,31 @@
       "titulo": "En busca del meu propi nom"
     },
     {
+      "anio": 2026,
+      "direccion": [
+        {
+          "nombre": "Ilker Çatak"
+        }
+      ],
+      "duracion": 127,
+      "id": "p-tt32888226-1",
+      "imdb": "tt32888226-1",
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-11-24",
+          "20:30",
+          "VOSE",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222847&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "titulo": "F. Espectador: Cartas de Estado",
+      "titulo_original": "Yellow Letters"
+    },
+    {
       "direccion": [
         {
           "nombre": "Pawel Pawlikowski"
@@ -25229,6 +25069,336 @@
         ]
       ],
       "titulo": "Fatherland"
+    },
+    {
+      "anio": 2026,
+      "cartel": "https://image.tmdb.org/t/p/w500/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gepbkgavGdDXdNbQzdFaxayTpoH.jpg",
+          "id": 1461394,
+          "nombre": "Jason Hand",
+          "premios": [],
+          "wikidata": "Q29000781"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xk9R1RsUOcckKRgcqVqZNbxv12P.jpg",
+          "id": 2375591,
+          "nombre": "ฝน วีระสุนทร",
+          "premios": [],
+          "wikidata": "Q120931616"
+        }
+      ],
+      "duracion": 103,
+      "estreno": "2026-11-25",
+      "fondo": "https://image.tmdb.org/t/p/w1280/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg",
+      "generos": [
+        "Aventura",
+        "Animación",
+        "Familia",
+        "Fantasía"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rMwIL53SKwZJu7WFW1fcYIVTxhP.jpg",
+          "id": 1447307,
+          "nombre": "Josie Trinidad"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/50XtrC5NMcqiYMXNmuNVY5tUl34.jpg",
+          "id": 1318201,
+          "nombre": "Jared Bush"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1I3PoFUABjxIxuPQKI9zAaoyMj3.jpg",
+          "id": 1513971,
+          "nombre": "Dana Ledoux Miller"
+        }
+      ],
+      "id": "tmdb-1538497",
+      "idioma_original": "en",
+      "imdb": "tt38077943",
+      "lema": "Algo le está pasando a Billie…",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qL0TnImRmCRIcoQy1d3GjTPKCLn.jpg",
+          "id": 1802871,
+          "nombre": "Kris Bowers"
+        }
+      ],
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fItdOWdrHNRGGRRD9NFQWtO5L1t.jpg",
+          "id": 130640,
+          "nombre": "Hailee Steinfeld",
+          "papel": "Billie Doe (voice)",
+          "premios": [
+            {
+              "anio": 2017,
+              "premio": "Billboard Music Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "MTV Europe Music Award al Mejor Acto de Empuje",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2018,
+              "premio": "MTV Europe Music Award al millor pop",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Premi Max Mara Cara del futur",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q231726"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cgWGm9eYCretBWeljPVtpRV7n6V.jpg",
+          "id": 80591,
+          "nombre": "Rashida Jones",
+          "papel": "Alice Doe (voice)",
+          "premios": [
+            {
+              "anio": 2025,
+              "premio": "Time 100",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q540608"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5emVgsLFlU6SmeBIFsF2Y7aqwtG.jpg",
+          "id": 1038,
+          "nombre": "Jodie Foster",
+          "papel": "Queen Celeste (voice)",
+          "premios": [
+            {
+              "anio": 2013,
+              "premio": "Premio Cecil B. DeMille",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1989,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1992,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1991,
+              "premio": "Premios Globo de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1978,
+              "premio": "Premios Saturn",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1977,
+              "premio": "Premi BAFTA a la millor nova promesa",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1977,
+              "premio": "BAFTA a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1989,
+              "premio": "David de Donatello a la mejor actriz extranjera",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1988,
+              "premio": "Globo de Oro a la mejor actriz - Drama",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1992,
+              "premio": "BAFTA a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1994,
+              "premio": "David de Donatello a la mejor actriz extranjera",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1989,
+              "premio": "Independent Spirit Award a la mejor actriz protagonista",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1995,
+              "premio": "Premio del Sindicato de Actores a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Premio Saturn a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1996,
+              "premio": "Premio Cristal",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Premio Jameson del público a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2021,
+              "premio": "Globo de Oro a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premi Mary Pickford",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2005,
+              "premio": "Gran Premio Honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1992,
+              "premio": "Hasty Pudding Woman of the Year",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Júpiter",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Globo de Oro a la mejor actriz de miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2026,
+              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1977,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1989,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1992,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1995,
+              "premio": "Óscar a la mejor actriz",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q41351"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg",
+          "id": 27740,
+          "nombre": "Walton Goggins",
+          "papel": "Beef Roger Crummchuk (voice)",
+          "premios": [],
+          "wikidata": "Q516690"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cmug3uUXKBo9fhCcJk3pkgt1nvM.jpg",
+          "id": 30364,
+          "nombre": "Tracey Ullman",
+          "papel": "Ms. Quill (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dH7GuUZ8QPM9RN99ak9KKOkSkdS.jpg",
+          "id": 11275,
+          "nombre": "Stephen Fry",
+          "papel": "Elias Quire (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/c35LVOjB1gbY5iYzhN9PGIXUHWt.jpg",
+          "id": 31903,
+          "nombre": "Henry Winkler",
+          "papel": "Nigel (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fFsgginZKH527o38ZfdDxuzx7Ew.jpg",
+          "id": 221018,
+          "nombre": "Dan Stevens",
+          "papel": "Hieronymous (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ub2IuMWFNQGYghHTPq0lpmn2Ue0.jpg",
+          "id": 224197,
+          "nombre": "Brett Gelman",
+          "papel": "Principal Huggins (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jyGT8cgl6MEANOpRKoHgXaC1yp6.jpg",
+          "id": 1346535,
+          "nombre": "Samson Kayo",
+          "papel": "Constable Beans (voice)"
+        }
+      ],
+      "sesiones": [
+        [
+          "99400267342",
+          "2026-11-27",
+          "18:30",
+          "Català",
+          "Sala 10",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194751&language=esp&theatre=24",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "ca": "Una adolescent impulsiva i poc convencional anomenada Billie descobreix habilitats màgiques secretes que, un cop alliberades, la impulsen a un viatge ple d'espectacles fora dels suburbis i cap a un immens regne de bruixes anomenat Hexe. Obligades a formar equip amb la seva cautelosa mare, l'Alice, descobreixen misteris familiars que podrien canviar el món de les bruixes per sempre.",
+        "en": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+        "es": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas."
+      },
+      "titulo": "Hechizo: Bienvenidos a Hexe",
+      "titulo_ca": "Encanteri. Benvinguts a Hexe",
+      "titulo_original": "Hexed",
+      "tmdb": 1538497,
+      "trailer": "wkr5TpxKOTw"
     },
     {
       "anio": 2010,
@@ -27110,6 +27280,116 @@
         "ca": "Petits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa.\nEdat recomanada a partir de 4 anys"
       },
       "titulo": "Petits moments màgics: curtmetratges"
+    },
+    {
+      "anio": 2026,
+      "cartel": "https://image.tmdb.org/t/p/w500/vuY2A58jHTA0VMU2y5rYr6Vttp3.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/r9HkbQd8d1z3ZB9FbbxGQPjqrhn.jpg",
+          "id": 2524429,
+          "nombre": "Isabel Fernández"
+        }
+      ],
+      "duracion": 103,
+      "fondo": "https://image.tmdb.org/t/p/w1280/6axoLZGcb5buDjgpVV9R7ISlMMw.jpg",
+      "generos": [
+        "Documental",
+        "Historia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/r9HkbQd8d1z3ZB9FbbxGQPjqrhn.jpg",
+          "id": 2524429,
+          "nombre": "Isabel Fernández"
+        },
+        {
+          "id": 1852397,
+          "nombre": "Margarita Melgar"
+        }
+      ],
+      "id": "tmdb-1658291",
+      "idioma_original": "es",
+      "imdb": "tt41046922",
+      "musica": [
+        {
+          "id": 5380700,
+          "nombre": "Belén Doreste Álvarez"
+        }
+      ],
+      "paises": [
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7Gm2h0ApsorCUJhUA8gUtxrWzMd.jpg",
+          "id": 67262,
+          "nombre": "Mónica López",
+          "papel": "Narradora (voice)",
+          "premios": [
+            {
+              "anio": 2016,
+              "premio": "Premio Memorial Margarita Xirgu",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premio Butaca a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2004,
+              "premio": "Premio Butaca a la mejor actriz de cine catalán",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2003,
+              "premio": "Premio Barcelona a la mejor actriz",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2004,
+              "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premios Ercilla",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premios Ondas",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premio Mestre Mateo a la Mejor actriz protagonista",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q9048215"
+        }
+      ],
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-11-26",
+          "11:30",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222544&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "en": "A 1967 letter to writer Ramón J. Sender is where this documentary begins, tracing Carmen Laforet, author of Nada. Through unpublished letters and archive material, the writer is rebuilt from her Gran Canaria childhood, and her silence starts to speak.",
+        "es": "Con solo 23 años, Carmen Laforet revolucionó la literatura española con su novela “Nada”. Su talento natural prometía una larga trayectoria llena de éxitos, pero no fue así: escribió poco y fue cayendo en el silencio… O esa es la historia que nos han contado. Sin embargo, los textos de la autora revelan otra verdad muy distinta: la de una mujer libre, original, rebelde, que no cedió a los dictados de nadie. Esta vez Carmen Laforet (Mónica López) toma la palabra y nos sumerge en el mundo de una escritora única, luchando por su libertad. Su historia es la de todas las mujeres que intentan salirse del guión."
+      },
+      "titulo": "Por qué no escribo nada",
+      "titulo_original": "Por qué no escribo nada",
+      "tmdb": 1658291
     },
     {
       "agenda": "open_data_bcn:99400682417",
