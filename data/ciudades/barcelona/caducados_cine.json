@@ -10,6 +10,13 @@
     },
     "titulo": "16a Mostra de Cinema Etnogràfic de Catalunya 'Compartint natures: territoris, cosmologies, vides trenades"
   },
+  "p-t-apnees-i-altres-gramatiques": {
+    "agenda": "open_data_bcn:99400776950",
+    "caducado": "2026-11-24",
+    "gratis": true,
+    "id": "p-t-apnees-i-altres-gramatiques",
+    "titulo": "Apnees i altres gramàtiques"
+  },
   "p-t-baraka": {
     "agenda": "open_data_bcn:99400788850",
     "caducado": "2026-11-18",
@@ -89,6 +96,18 @@
     "id": "p-t-numacage-public-pool-ota",
     "titulo": "Numacage public pool"
   },
+  "p-t-numakage-public-pool-ota": {
+    "agenda": "open_data_bcn:99400789960",
+    "caducado": "2026-11-24",
+    "direccion": [
+      {
+        "nombre": "Shingo Ota"
+      }
+    ],
+    "gratis": true,
+    "id": "p-t-numakage-public-pool-ota",
+    "titulo": "Numakage Public Pool"
+  },
   "p-t-peixet-el-petit-aventurer": {
     "agenda": "open_data_bcn:99400749710",
     "caducado": "2026-11-21",
@@ -105,6 +124,16 @@
       "ca": "Cinema - curtmetratges, 45', 2022-2024, Doblat al català\nPetits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i a mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa\nLloc: Sala La Pau\nEdat recomanada: a partir de 4 anys"
     },
     "titulo": "Petits moments màgics"
+  },
+  "p-t-petits-moments-magics-curtmetratges": {
+    "agenda": "open_data_bcn:99400749863",
+    "caducado": "2026-11-24",
+    "gratis": true,
+    "id": "p-t-petits-moments-magics-curtmetratges",
+    "sinopsis": {
+      "ca": "Petits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa.\nEdat recomanada a partir de 4 anys"
+    },
+    "titulo": "Petits moments màgics: curtmetratges"
   },
   "p-t-projeccio-i-col-loqui-miss-carbon": {
     "agenda": "open_data_bcn:99400749630",
@@ -140,6 +169,17 @@
     "id": "p-t-setge-a-la-democracia",
     "titulo": "Setge a la democràcia"
   },
+  "p-t-stampa-models-de-mirar": {
+    "agenda": "open_data_bcn:99400790069",
+    "caducado": "2026-11-24",
+    "cartel": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/19_ECOSS_ESTAMPA_03.760x428.33cd6a6a.jpg",
+    "gratis": true,
+    "id": "p-t-stampa-models-de-mirar",
+    "sinopsis": {
+      "ca": "Sessió dedicada a l'obra audiovisual d'ESTAMPA, col·lectiu de programadors, realitzadors i investigadors amb base a Barcelona. La sessió recorre alguns dels principals àmbits de la seva pràctica artística: la intel·ligència artificial i la visió computacional, l'animació experimental, la reinterpretació crítica d'arxius i l'assaig audiovisual. A través d'aquestes obres, el col·lectiu proposa diferents maneres d'interrogar les imatges, les tecnologies que les produeixen i les formes contemporànies de percepció i representació. La projecció anirà acompanyada d'una presentació comentada sobre els processos de recerca, les metodologies de treball i els contextos que articulen la seva pràctica.\nNSFW\n(2018)\nUna xarxa generativa entrenada amb imatges de pornografia mainstream descompon i transforma la representació normativa del cos, generant noves formes visuals entre l'abstracció i la matèria"
+    },
+    "titulo": "Stampa. Models de Mirar"
+  },
   "p-t-temps-de-cinema-migracions": {
     "agenda": "open_data_bcn:99400786949",
     "caducado": "2026-11-18",
@@ -163,6 +203,20 @@
     "imdb": "tt114841",
     "titulo": "El sentido de la birra",
     "titulo_original": "El sentido de la birra"
+  },
+  "p-tt32888226-1": {
+    "anio": 2026,
+    "caducado": "2026-11-24",
+    "direccion": [
+      {
+        "nombre": "Ilker Çatak"
+      }
+    ],
+    "duracion": 127,
+    "id": "p-tt32888226-1",
+    "imdb": "tt32888226-1",
+    "titulo": "F. Espectador: Cartas de Estado",
+    "titulo_original": "Yellow Letters"
   },
   "tmdb-1018": {
     "anio": 2001,
@@ -672,559 +726,6 @@
     "tmdb": 1034387,
     "trailer": "5hAZTaPypPY"
   },
-  "tmdb-1248832": {
-    "anio": 2026,
-    "caducado": "2026-11-23",
-    "cartel": "https://image.tmdb.org/t/p/w500/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
-    "direccion": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
-        "id": 223,
-        "nombre": "Alejandro González Iñárritu",
-        "premios": [
-          {
-            "anio": 2015,
-            "premio": "Óscar al mejor director",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Premi Internacional AACTA a la millor direcció",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2006,
-            "premio": "Premio del Festival de Cannes al mejor director",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Premio del Sindicato de Directores a la mejor dirección",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Óscar al mejor guion original",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2014,
-            "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Óscar a la mejor película",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Premi de l'Associació de Crítics de Cinema de Dallas-Fort Worth a la millor direcció",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2016,
-            "premio": "Óscar al mejor director",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2016,
-            "premio": "BAFTA al mejor director",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2019,
-            "premio": "Doctorado honoris causa por la Universidad Nacional Autónoma de México",
-            "tipo": "ganado"
-          },
-          {
-            "anio": null,
-            "premio": "Orden de las Artes y las Letras",
-            "tipo": "ganado"
-          },
-          {
-            "anio": null,
-            "premio": "Premios Globo de Oro",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2016,
-            "premio": "Premios César",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2018,
-            "premio": "Óscar para una contribución especial",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2003,
-            "premio": "Premio del Cine Europeo a la mejor película no europea",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2007,
-            "premio": "Óscar al mejor director",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2007,
-            "premio": "Óscar a la mejor película",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Óscar al mejor director",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Óscar al mejor guion original",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2015,
-            "premio": "Óscar a la mejor película",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2016,
-            "premio": "Óscar al mejor director",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2016,
-            "premio": "Óscar a la mejor película",
-            "tipo": "nominado"
-          }
-        ],
-        "wikidata": "Q55215"
-      }
-    ],
-    "duracion": 129,
-    "edad": "16",
-    "estreno": "2026-09-28",
-    "fondo": "https://image.tmdb.org/t/p/w1280/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
-    "generos": [
-      "Comedia",
-      "Drama"
-    ],
-    "guion": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
-        "id": 223,
-        "nombre": "Alejandro González Iñárritu"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/aMuTBKGoHk0BKo1iSwz4xffbXjq.jpg",
-        "id": 1050096,
-        "nombre": "Sabina Berman"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/fCdknBtQMVoIEW0VfKiL2yMZqgW.jpg",
-        "id": 21339,
-        "nombre": "Jez Butterworth"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/opRQx3XlOoXH5EFlm0v8Q3O1ccn.jpg",
-        "id": 223,
-        "nombre": "Alejandro González Iñárritu"
-      }
-    ],
-    "id": "tmdb-1248832",
-    "idioma_original": "en",
-    "imdb": "tt31450459",
-    "lema": "Cava o muere.",
-    "musica": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/7UH0EVtPiW1Q20dhLZXvhM3cxE.jpg",
-        "id": 1705263,
-        "nombre": "Cosmo Sheldrake"
-      }
-    ],
-    "nota": 7.5,
-    "paises": [
-      "US"
-    ],
-    "reparto": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg",
-        "id": 500,
-        "nombre": "Tom Cruise",
-        "papel": "Rockwell",
-        "premios": [
-          {
-            "anio": 1990,
-            "premio": "Globo de Oro al mejor actor - Drama",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 1997,
-            "premio": "Globo de Oro al mejor actor - Comedia o musical",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2000,
-            "premio": "Globo de Oro al mejor actor de reparto",
-            "tipo": "ganado"
-          },
-          {
-            "anio": null,
-            "premio": "Medalla de la llibertat d'IAS",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 1986,
-            "premio": "Estrella del Paseo de la Fama de Hollywood",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2002,
-            "premio": "Premio Saturn al mejor actor",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2022,
-            "premio": "Palma de Honor",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 1997,
-            "premio": "Premi Satellite al millor actor en un musical o una comèdia",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 1990,
-            "premio": "Premios Globo de Oro",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2002,
-            "premio": "Premios Saturn",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2005,
-            "premio": "Premios de la Crítica Cinematográfica",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2024,
-            "premio": "Caballero de la Orden de las Artes y las Letras",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2025,
-            "premio": "Óscar honorífico",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2024,
-            "premio": "Medalla por Servicio Distinguido de la Armada",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2000,
-            "premio": "Oscar al mejor actor de reparto",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 1997,
-            "premio": "Óscar al mejor actor",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 1990,
-            "premio": "Óscar al mejor actor",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 1989,
-            "premio": "Razzie al peor actor",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Óscar a la mejor película",
-            "tipo": "nominado"
-          }
-        ],
-        "wikidata": "Q37079"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg",
-        "id": 53240,
-        "nombre": "Riz Ahmed",
-        "papel": "Ganesh",
-        "premios": [
-          {
-            "anio": 2017,
-            "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2022,
-            "premio": "Óscar al mejor cortometraje",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2022,
-            "premio": "Óscar al mejor cortometraje",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2021,
-            "premio": "Óscar al mejor actor",
-            "tipo": "nominado"
-          }
-        ],
-        "wikidata": "Q1861917"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
-        "id": 1230,
-        "nombre": "John Goodman",
-        "papel": "President Compson",
-        "premios": [
-          {
-            "anio": 2013,
-            "premio": "Leyendas Disney",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2006,
-            "premio": "Primetime Emmy al mejor actor invitado - Serie dramática",
-            "tipo": "ganado"
-          },
-          {
-            "anio": null,
-            "premio": "Estrella del Paseo de la Fama de Hollywood",
-            "tipo": "ganado"
-          }
-        ],
-        "wikidata": "Q215072"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/eytKTAVD9fP8kklbW4dMilbceig.jpg",
-        "id": 7152,
-        "nombre": "Sandra Hüller",
-        "papel": "Emma",
-        "premios": [
-          {
-            "anio": 2006,
-            "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2016,
-            "premio": "Premio del Cine Europeo a la mejor actriz europea",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2020,
-            "premio": "Cruz de la Orden del Mérito de la República Federal de Alemania",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Premi Gilde",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Premio del Cine Europeo a la mejor actriz europea",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2006,
-            "premio": "Oso de Plata a la mejor interpretación femenina",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2006,
-            "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2024,
-            "premio": "César a la mejor actriz",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2024,
-            "premio": "Premio Lumière a la mejor actriz",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Oficial de la Orden de las Artes y las Letras",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2026,
-            "premio": "Oso de Plata a la Mejor interpretación protagónica",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2005,
-            "premio": "Bayerischer Filmpreis",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2006,
-            "premio": "Premis de la Crítica de Cinema Alemany",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2009,
-            "premio": "Premi Ulrich Wildgruber",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2010,
-            "premio": "Actor del año de Theater heute",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2013,
-            "premio": "3sat-Preis",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2013,
-            "premio": "Actor del año de Theater heute",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2014,
-            "premio": "Premios del Cine Alemán - Mejor Actriz de Reparto",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2017,
-            "premio": "Premio Bávaro del Cine al Mejor actor",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2017,
-            "premio": "Premio del Cine Alemán a la mejor actuación de protagonista femenina",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2019,
-            "premio": "Actor del año de Theater heute",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2019,
-            "premio": "Eysoldt-Ring",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2020,
-            "premio": "Theaterpreis Berlin",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2020,
-            "premio": "Actor del año de Theater heute",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la Mejor Actriz",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2024,
-            "premio": "BAFTA a la mejor actriz",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2024,
-            "premio": "BAFTA a la mejor actriz de reparto",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2026,
-            "premio": "Oso de Plata a la mejor interpretación femenina",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2006,
-            "premio": "Premio del Cine Europeo a la mejor actriz europea",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2016,
-            "premio": "Premio del Cine Europeo a la mejor actriz europea",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Premio del Cine Europeo a la mejor actriz europea",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2024,
-            "premio": "Óscar a la mejor actriz",
-            "tipo": "nominado"
-          },
-          {
-            "anio": 2024,
-            "premio": "César a la mejor actriz",
-            "tipo": "nominado"
-          }
-        ],
-        "wikidata": "Q70003"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg",
-        "id": 72873,
-        "nombre": "Michael Stuhlbarg",
-        "papel": "Vice President"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg",
-        "id": 88124,
-        "nombre": "Jesse Plemons",
-        "papel": "Kenny"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
-        "id": 31512,
-        "nombre": "Robert John Burke",
-        "papel": "General Fitzgerald"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg",
-        "id": 2121005,
-        "nombre": "Emma D'Arcy",
-        "papel": "Lina"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg",
-        "id": 39659,
-        "nombre": "Burn Gorman",
-        "papel": "Defense Secretary Amos"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/fMZvMsvTv9MYSC6LTNdIUaMGjIv.jpg",
-        "id": 3115932,
-        "nombre": "Sophie Wilde",
-        "papel": "Hannah"
-      }
-    ],
-    "sinopsis": {
-      "ca": "L'home més poderós del món s'embarca en una missió frenètica per demostrar que és el salvador de la humanitat abans que el desastre que ha desfermat ho destrueixi tot.",
-      "en": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
-      "es": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo."
-    },
-    "titulo": "Digger",
-    "titulo_original": "Digger",
-    "tmdb": 1248832,
-    "trailer": "xU2jWSsaWY0"
-  },
   "tmdb-1313032": {
     "agenda": "open_data_bcn:99400701451",
     "anio": 2025,
@@ -1439,300 +940,113 @@
     "tmdb": 1320471,
     "trailer": "SlmD8vaSzZc"
   },
-  "tmdb-1321656": {
-    "agenda": "open_data_bcn:99400771163",
-    "anio": 2025,
-    "caducado": "2026-11-20",
-    "cartel": "https://image.tmdb.org/t/p/w500/fOqlr3OXH5H4eFtfkf1ykWTLgCA.jpg",
+  "tmdb-1388977": {
+    "anio": 2026,
+    "caducado": "2026-11-24",
+    "cartel": "https://image.tmdb.org/t/p/w500/o6IDuFe3bBUR46DQbTy4tRCvnuk.jpg",
     "direccion": [
       {
-        "foto": "https://image.tmdb.org/t/p/w185/pneY595BwPbgskHxfeX1bbja51a.jpg",
-        "id": 2133155,
-        "nombre": "Agustina Macri",
-        "premios": [],
-        "wikidata": "Q116055498"
+        "foto": "https://image.tmdb.org/t/p/w185/1a6GeheLcrmdLni2aU64JOLtIWM.jpg",
+        "id": 5063511,
+        "nombre": "Gala del Sol"
       }
     ],
-    "duracion": 90,
-    "estreno": "2025-06-12",
-    "fondo": "https://image.tmdb.org/t/p/w1280/sW1GJaDtMrbT2phMNgIk4Zwje7b.jpg",
+    "duracion": 113,
+    "estreno": "2026-01-02",
+    "fondo": "https://image.tmdb.org/t/p/w1280/gmIQjFkhobVTkApuMljsMmewJzc.jpg",
     "generos": [
-      "Drama"
-    ],
-    "gratis": true,
-    "guion": [
-      {
-        "id": 1970518,
-        "nombre": "Erika Halvorsen"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/aH7NtZ0A5ybZ8eSxUXtFRhvrkdN.jpg",
-        "id": 1976655,
-        "nombre": "Mara Pescio"
-      }
-    ],
-    "id": "tmdb-1321656",
-    "idioma_original": "es",
-    "imdb": "tt32832410",
-    "lema": "Inspirada en la historia real de Carlita Rodríguez",
-    "musica": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/6drys8BpV1BVzKUz0VGfMjeoozT.jpg",
-        "id": 1990790,
-        "nombre": "Maite Arroitajauregi"
-      }
-    ],
-    "paises": [
-      "AR",
-      "ES"
-    ],
-    "reparto": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/Yxf9KXHd2rGcsOGMpj26xxu5fn.jpg",
-        "id": 1966008,
-        "nombre": "Lux Pascal",
-        "papel": "Carlita Rodríguez",
-        "premios": [],
-        "wikidata": "Q33123460"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/diatIIBLLjMP7HWRdGwIhe6QuHt.jpg",
-        "id": 2022317,
-        "nombre": "Laura Grandinetti",
-        "papel": "Violeta"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/cMvSOQCMi3vLVremtFfrF4RAhjm.jpg",
-        "id": 2385817,
-        "nombre": "Romina Escobar",
-        "papel": "Lohana"
-      },
-      {
-        "id": 1568360,
-        "nombre": "Simone Mercado",
-        "papel": "Diana"
-      },
-      {
-        "id": 5299960,
-        "nombre": "Federico Marzullo",
-        "papel": "Cóndor"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/dC0rZ1ZETZcpRBT1suyU8z8auDn.jpg",
-        "id": 3998193,
-        "nombre": "Agostina Innella",
-        "papel": "Tami"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/dZd0Z3mUgXrE0y21KknLp40Ivuk.jpg",
-        "id": 224870,
-        "nombre": "Paco León",
-        "papel": "Antonio, ingeniero"
-      },
-      {
-        "id": 5229369,
-        "nombre": "Delphina Bianco",
-        "papel": "Marcela"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/oZXcL3q3aqWucJygtu6LfUM9GFx.jpg",
-        "id": 1566871,
-        "nombre": "Gabriela Pastor",
-        "papel": "Sonia"
-      },
-      {
-        "id": 3945190,
-        "nombre": "Lautaro Zera",
-        "papel": "Cristian"
-      }
-    ],
-    "sinopsis": {
-      "en": "A young trans girl growing up in a small Patagonian mining town secures her dream job as a coal miner as soon as she turns 18, challenging an old superstition rooted in a folk tale that for 80 years forbid all women from entering the mine's underground galleries, fearing that their mere presence could trigger a collapse.",
-      "es": "Carlita logró ser la primera mujer minera en un pueblo donde las mujeres tenían prohibida la entrada a la fuente principal de ingresos de la región: la mina de carbón. Una superstición consideraba que las mujeres eran amenaza de derrumbe y el trabajo minero se les reservaba a los hombres. Carlita, como mujer trans, logró ingresar en la mina rompiendo el sistema desde dentro y prendiendo la chispa de una revolución."
-    },
-    "titulo": "Miss Carbón",
-    "titulo_original": "Miss Carbón",
-    "tmdb": 1321656,
-    "trailer": "yb6RMRrXnJ8"
-  },
-  "tmdb-1427833": {
-    "anio": 2025,
-    "caducado": "2026-11-22",
-    "cartel": "https://image.tmdb.org/t/p/w500/tEpDFz33WclWa0c1rxLhqM2DNFE.jpg",
-    "direccion": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/1AXNJAeCz0obA1GANYbM2xxPdeB.jpg",
-        "id": 1099354,
-        "nombre": "Henrik Martin Dahlsbakken",
-        "premios": [
-          {
-            "anio": 2018,
-            "premio": "Hedmark fylkeskommunes kulturpris",
-            "tipo": "ganado"
-          }
-        ],
-        "wikidata": "Q57167212"
-      }
-    ],
-    "duracion": 80,
-    "estreno": "2025-11-06",
-    "fondo": "https://image.tmdb.org/t/p/w1280/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
-    "generos": [
-      "Familia",
-      "Animación",
+      "Fantasía",
+      "Drama",
       "Comedia"
     ],
     "guion": [
       {
-        "id": 5639750,
-        "nombre": "Susanne Skogstad"
+        "foto": "https://image.tmdb.org/t/p/w185/1a6GeheLcrmdLni2aU64JOLtIWM.jpg",
+        "id": 5063511,
+        "nombre": "Gala del Sol"
       }
     ],
-    "id": "tmdb-1427833",
-    "idioma_original": "no",
-    "imdb": "tt35727399",
+    "id": "tmdb-1388977",
+    "idioma_original": "es",
+    "imdb": "tt32808757",
     "musica": [
       {
-        "foto": "https://image.tmdb.org/t/p/w185/iy1IYpyQIOnf9BlBpnACgnoCerC.jpg",
-        "id": 578343,
-        "nombre": "Stein Johan Grieg Halvorsen"
-      },
-      {
-        "id": 1533290,
-        "nombre": "Eyvind Andreas Skeie"
+        "id": 3666765,
+        "nombre": "Martín de Lima"
       }
     ],
     "paises": [
-      "NO"
-    ],
-    "premios": [
-      {
-        "anio": 2026,
-        "premio": "Premio Amanda a la Mejor Película Infantil",
-        "tipo": "ganado"
-      }
+      "CO",
+      "US",
+      "ES"
     ],
     "reparto": [
       {
-        "foto": "https://image.tmdb.org/t/p/w185/eJzuZZfFBaMSgcbR3Pe5zBxEC3z.jpg",
-        "id": 76556,
-        "nombre": "Pål Sverre Hagen",
-        "papel": "Peter",
-        "premios": [
-          {
-            "anio": 2013,
-            "premio": "Premi Amanda al millor actor",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2009,
-            "premio": "Premio Kanon para Mejor Actor en un Papel Protagónico",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2010,
-            "premio": "Premi Kanon a la interpretació secundària",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2007,
-            "premio": "Hedda Award for Best Actor in a Supporting Role",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2017,
-            "premio": "Premio Gullruten",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2022,
-            "premio": "Premi Amanda al millor actor",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2022,
-            "premio": "Haugesund Walk of Fame",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Premi Amanda al millor actor",
-            "tipo": "ganado"
-          }
-        ],
-        "wikidata": "Q2013068"
+        "foto": "https://image.tmdb.org/t/p/w185/83w0YugFXSyawTofjWtm5IuBGh3.jpg",
+        "id": 2035247,
+        "nombre": "Jhon Narváez",
+        "papel": "Don Alfonso"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg",
-        "id": 1904884,
-        "nombre": "Sara Khorami",
-        "papel": "Sara",
-        "premios": [
-          {
-            "anio": 2022,
-            "premio": "Premi Amanda a la millor actriu de repartiment",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2023,
-            "premio": "Hedda Award for Best Actress in a  Leading Role",
-            "tipo": "ganado"
-          }
-        ],
-        "wikidata": "Q113000116"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/yem43JCCG9xpjTT1IuosGtmZVNA.jpg",
-        "id": 3126191,
-        "nombre": "Flo Fagerli",
-        "papel": "Daughter",
+        "foto": "https://image.tmdb.org/t/p/w185/wuUuV8CWwiRgc7OUEwrvfKSdxcZ.jpg",
+        "id": 1431632,
+        "nombre": "John Alex Castillo",
+        "papel": "Gian Salai",
         "premios": [],
-        "wikidata": "Q124499794"
+        "wikidata": "Q56243874"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/qQ0AVbgyjgAvmEXNZbu1CG3MTji.jpg",
-        "id": 2856423,
-        "nombre": "Vegard Strand Eide",
-        "papel": "Mikkel"
+        "foto": "https://image.tmdb.org/t/p/w185/qFX6RKP31iayOhUvR7RhLdIIIMI.jpg",
+        "id": 1974936,
+        "nombre": "Sofia Buenaventura",
+        "papel": "Erato"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/kUkQP35OdAUtAr7lw7O9RNfFRL4.jpg",
-        "id": 71187,
-        "nombre": "Jon Øigarden",
-        "papel": "Skadedyrutrydder"
+        "foto": "https://image.tmdb.org/t/p/w185/gAzgiaz6OUk2kmUvvwjVU3O1E4Z.jpg",
+        "id": 3870270,
+        "nombre": "Saray Nohemi Rebolledo Ospino",
+        "papel": "La Flaca"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/ypyMSXwABVXHjTOfpEHW008cw1A.jpg",
-        "id": 76555,
-        "nombre": "Jakob Oftebro",
-        "papel": "Rasmus"
+        "id": 5063481,
+        "nombre": "Felipe Aguilar Rodríguez",
+        "papel": "Dante"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/xAaBmAepMzWoHuoI5sl1feYEKYx.jpg",
-        "id": 76917,
-        "nombre": "Charlotte Frogner",
-        "papel": "Katja"
+        "id": 5063486,
+        "nombre": "Jose Mojica",
+        "papel": "Timbí"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/qQFCG2sOL5dfOKfYpOxs0QMopDU.jpg",
-        "id": 1934734,
-        "nombre": "Jonis Josef",
-        "papel": "Maximus"
+        "id": 5063490,
+        "nombre": "William Hurtado",
+        "papel": "Jacob"
       },
       {
-        "foto": "https://image.tmdb.org/t/p/w185/kR5lOHYLgZc3QiGep1SJPMVMCWy.jpg",
-        "id": 3097194,
-        "nombre": "Vivild Falk Berg",
-        "papel": "Lea"
+        "id": 5063492,
+        "nombre": "Johan Zapata",
+        "papel": "Monet"
+      },
+      {
+        "id": 5063493,
+        "nombre": "Jhon Bayron Quintero Valencia",
+        "papel": "Darla Experiment"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yC178rWhKkeBZR3Gll7S0m6Ht01.jpg",
+        "id": 3012372,
+        "nombre": "Celina Biurrun",
+        "papel": "Uma"
       }
     ],
     "sinopsis": {
-      "en": "A small mouse family plans a quiet Christmas outside the city, but their celebration is disrupted when humans unexpectedly appear. As the mice try to hide their preparations, the humans react to the noises behind the walls with determination.",
-      "es": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse."
+      "en": "In a retro-futuristic, tropical-punk twist on Dante’s Inferno, a group of misfits converges at Babel, a legendary dive bar that doubles as purgatory, where La Flaca—the city’s Grim Reaper—presides. Here, souls gamble years of their lives with her, daring to outwit Death Herself.",
+      "es": "En el bar Babel, donde vivos y muertos se mezclan, Dante busca recordar su pasado antes de que la Flaca, la Muerte en esta ciudad, cobre su deuda. Jacob esconde de su padre, un sacerdote fanático, su deseo de ser drag queen, mientras Uma, una gitana con su propia apuesta, intenta engañar a la Flaca para salvar a su hija. Entre pactos y desafíos, sus destinos chocan en una lucha contra lo inevitable."
     },
-    "titulo": "Ratones al ataque: Operación Navidad",
-    "titulo_original": "Hvis ingen går i fella",
-    "tmdb": 1427833
+    "titulo": "Llueve sobre Babel",
+    "titulo_original": "Llueve sobre Babel",
+    "tmdb": 1388977,
+    "trailer": "mLSZjalFco0"
   },
   "tmdb-1447088": {
     "agenda": "open_data_bcn:99400766270",
@@ -1825,159 +1139,6 @@
     "titulo": "En un lugar de la mente",
     "titulo_original": "A un lloc de la Ment",
     "tmdb": 1447088
-  },
-  "tmdb-1477104": {
-    "anio": 2026,
-    "caducado": "2026-11-22",
-    "cartel": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-    "direccion": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/lHAbJusimOFpOMwVyyYiglF2Wuu.jpg",
-        "id": 1454651,
-        "nombre": "Steve Cox",
-        "premios": [
-          {
-            "anio": 2022,
-            "premio": "Premi Infantil i Juvenil BAFTA - Director",
-            "tipo": "nominado"
-          }
-        ],
-        "wikidata": "Q115325763"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/qp5n7TY6uHeBelvduG8SSdOx226.jpg",
-        "id": 1448172,
-        "nombre": "Matthew Walker"
-      }
-    ],
-    "duracion": 81,
-    "edad": "A",
-    "estreno": "2026-09-17",
-    "fondo": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-    "generos": [
-      "Animación",
-      "Ciencia ficción",
-      "Comedia",
-      "Familia"
-    ],
-    "guion": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
-        "id": 7316,
-        "nombre": "Mark Burton"
-      },
-      {
-        "id": 1220429,
-        "nombre": "Giles Pilbrow"
-      }
-    ],
-    "id": "tmdb-1477104",
-    "idioma_original": "en",
-    "imdb": "tt36841161",
-    "lema": "¿Qué es eso que viene por la colina?.",
-    "musica": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
-        "id": 1273153,
-        "nombre": "Natalie Holt"
-      }
-    ],
-    "nota": 7.3,
-    "paises": [
-      "GB",
-      "FR"
-    ],
-    "reparto": [
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/i0cXa3B7P9cWc4j82jowzGIQDaM.jpg",
-        "id": 224354,
-        "nombre": "Justin Fletcher",
-        "papel": "Shaun / Timmy (voice)",
-        "premios": [
-          {
-            "anio": null,
-            "premio": "Miembro de la Orden del Imperio británico",
-            "tipo": "ganado"
-          },
-          {
-            "anio": 2022,
-            "premio": "Premi BAFTA infantil al millor intèrpret",
-            "tipo": "nominado"
-          }
-        ],
-        "wikidata": "Q6317587"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/kP6nILSReaAU0HpoHrs0nOvGLxU.jpg",
-        "id": 1212388,
-        "nombre": "John Sparkes",
-        "papel": "The Farmer / Bitzer (voice)",
-        "premios": [],
-        "wikidata": "Q6258580"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
-        "id": 7063,
-        "nombre": "Nina Sosanya",
-        "papel": "The Vet (voice)",
-        "premios": [],
-        "wikidata": "Q526266"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
-        "id": 124557,
-        "nombre": "Kate Harbour",
-        "papel": "Timmy's Mum (voice)",
-        "premios": [],
-        "wikidata": "Q6375522"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/zE1gW6zPdX5ISULFXn4JYu3SrVm.jpg",
-        "id": 1235023,
-        "nombre": "Rich Webber",
-        "papel": "Shirley (voice)"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
-        "id": 185065,
-        "nombre": "Emma Tate",
-        "papel": "Hazel (voice)"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
-        "id": 155527,
-        "nombre": "Simon Greenall",
-        "papel": "The Twins (voice)"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
-        "id": 22810,
-        "nombre": "Andy Nyman",
-        "papel": "Nuts (voice)"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
-        "id": 34900,
-        "nombre": "Paul Whitehouse",
-        "papel": "Shop Keeper (voice)"
-      },
-      {
-        "foto": "https://image.tmdb.org/t/p/w185/pBUoWBX2W30tGVrOlS41Phre2wZ.jpg",
-        "id": 1908668,
-        "nombre": "Roman Kemp",
-        "papel": "Pizza Boy (voice)"
-      }
-    ],
-    "sinopsis": {
-      "ca": "Els residents de la granja de Mossy Bottom esperen amb il·lusió Halloween, fins que el maldestre granger destrossa l'estimat hort de carabasses del ramat! En Shaun es converteix en un científic boig per solucionar el problema, però la situació es descontrola ràpidament.",
-      "en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
-      "es": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque."
-    },
-    "titulo": "La oveja Shaun: Misión calabaza",
-    "titulo_ca": "El xai Shaun: Missió Carbassa",
-    "titulo_original": "Shaun the Sheep: The Beast of Mossy Bottom",
-    "tmdb": 1477104,
-    "trailer": "daZMq0AyOMc"
   },
   "tmdb-1490133": {
     "agenda": "open_data_bcn:99400786550",
@@ -2237,6 +1398,393 @@
     "titulo_original": "Esta soledad",
     "tmdb": 1547311,
     "trailer": "Z73fH3guhYQ"
+  },
+  "tmdb-1585239": {
+    "anio": 2026,
+    "caducado": "2026-11-24",
+    "cartel": "https://image.tmdb.org/t/p/w500/l4q1gziNMhpVQAzCIwmtbLSB1T9.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6yDqPgPQ26htKIdPFIlezn5mS6X.jpg",
+        "id": 1760947,
+        "nombre": "Jordan Firstman",
+        "premios": [
+          {
+            "anio": 2023,
+            "premio": "Out100",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q100194041"
+      }
+    ],
+    "duracion": 122,
+    "edad": "16",
+    "estreno": "2026-11-04",
+    "fondo": "https://image.tmdb.org/t/p/w1280/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+    "generos": [
+      "Comedia",
+      "Drama"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6yDqPgPQ26htKIdPFIlezn5mS6X.jpg",
+        "id": 1760947,
+        "nombre": "Jordan Firstman"
+      }
+    ],
+    "id": "tmdb-1585239",
+    "idioma_original": "en",
+    "imdb": "tt38058097",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/p7Wj8KkSKTM5JGR22tethLlVMXJ.jpg",
+        "id": 1554206,
+        "nombre": "Cristóbal Tapia de Veer"
+      }
+    ],
+    "paises": [
+      "US"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6yDqPgPQ26htKIdPFIlezn5mS6X.jpg",
+        "id": 1760947,
+        "nombre": "Jordan Firstman",
+        "papel": "Peter",
+        "premios": [
+          {
+            "anio": 2023,
+            "premio": "Out100",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q100194041"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/w6sVPpoxQ6veVEzWCPV96nFRHm4.jpg",
+        "id": 5171095,
+        "nombre": "Reggie Absolom",
+        "papel": "Arlo"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/c4tJZGeygZf0tX2VCyOqzxICijb.jpg",
+        "id": 1289968,
+        "nombre": "Cara Delevingne",
+        "papel": "Sophie",
+        "premios": [
+          {
+            "anio": 2018,
+            "premio": "Premi del públic a la millor pel·lícula europea",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q1395624"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/6JrirYMMyt7xuWICSvROipsMjOm.jpg",
+        "id": 1413390,
+        "nombre": "Diego Calva",
+        "papel": "Oscar",
+        "premios": [
+          {
+            "anio": 2023,
+            "premio": "Globo de Oro al mejor actor - Comedia o musical",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q95817312"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/hXJmhnsi6JwtlTLASj8mUMFzYdW.jpg",
+        "id": 1532312,
+        "nombre": "Kirby Howell-Baptiste",
+        "papel": "Edison"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/t1IbM9x1vJOzg02tQr68x9F4gI3.jpg",
+        "id": 13023,
+        "nombre": "Colleen Camp",
+        "papel": "Evelyn"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yjB62bE4jH1KtAKDMjlicd27Em2.jpg",
+        "id": 1248292,
+        "nombre": "Vicki Pepperdine",
+        "papel": "Lydia Chestworth"
+      },
+      {
+        "id": 2061080,
+        "nombre": "Nigil Whyte",
+        "papel": "Devon"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/qQAM7wKrppcjbfWpjS3ETX3yDJA.jpg",
+        "id": 5857295,
+        "nombre": "Eldar Isgandarov",
+        "papel": "Nicky"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/dN8FoFvDRwLBMYOog2n4jdtperV.jpg",
+        "id": 4786524,
+        "nombre": "Saturn Risin9",
+        "papel": "Saffron"
+      }
+    ],
+    "sinopsis": {
+      "en": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+      "es": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora."
+    },
+    "titulo": "Club Kid",
+    "titulo_original": "Club Kid",
+    "tmdb": 1585239,
+    "trailer": "guKEdb_iRXw"
+  },
+  "tmdb-1634018": {
+    "anio": 2026,
+    "caducado": "2026-11-24",
+    "cartel": "https://image.tmdb.org/t/p/w500/s8ysDDcSCU4idgj4UpxG8Mde8Wk.jpg",
+    "direccion": [
+      {
+        "id": 2707814,
+        "nombre": "Berta García-Lacht"
+      }
+    ],
+    "duracion": 92,
+    "estreno": "2026-07-17",
+    "generos": [
+      "Documental",
+      "Comedia"
+    ],
+    "id": "tmdb-1634018",
+    "idioma_original": "ca",
+    "imdb": "tt39255230",
+    "paises": [
+      "ES"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
+        "id": 90,
+        "nombre": "Isabel Coixet",
+        "premios": [
+          {
+            "anio": 2006,
+            "premio": "Cruz de San Jorge",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2009,
+            "premio": "Medalla de Oro al Mérito en las Bellas Artes",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Premio Goya a la mejor película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Premio Goya a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Premio Nacional de Cinematografía",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio Gaudí a la mejor película documental",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio del Cine Europeo al Mejor Logro Europeo en el Mundo del Cine",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Premio Atlántida",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Gaudí al millor guió adaptat",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "Lista de las mujeres más influyentes de Cataluña",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premio del Cine Europeo a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premio del Cine Europeo al mejor director",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q232273"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4ubbOopSH7dmxTuT9v7UkMOIXPy.jpg",
+        "id": 932161,
+        "nombre": "Albert Serra",
+        "premios": [
+          {
+            "anio": 2008,
+            "premio": "Premio Gaudí a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Medalla de Oro al Mérito en las Bellas Artes",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "César a la mejor dirección",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q2422285"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/gp2jMYjJqG6AsY3cvwNSQcFgEkN.jpg",
+        "id": 51894,
+        "nombre": "J. A. Bayona",
+        "premios": [
+          {
+            "anio": 2008,
+            "premio": "Premio Goya al mejor director novel",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premio Goya a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premio Gaudí a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio Máquina del Tiempo",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premio Goya a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Premio Goya a la mejor dirección",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2008,
+            "premio": "Premio del Cine Europeo a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2008,
+            "premio": "Premi del públic a la millor pel·lícula europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2013,
+            "premio": "Premi del públic a la millor pel·lícula europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Premi del públic a la millor pel·lícula europea",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q932019"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/i7wcBNmFldh2E4QInCvmv7CPSIR.jpg",
+        "id": 1205,
+        "nombre": "Richard Gere",
+        "premios": [
+          {
+            "anio": 2007,
+            "premio": "Premio Donostia del Festival de San Sebastián",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Premio Marian Anderson",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2005,
+            "premio": "Medalla Geuzen",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1996,
+            "premio": "Premi Llum de la Veritat",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio James Parks Morton Interfaith",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1980,
+            "premio": "Theatre World Award",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Globo de Oro al mejor actor - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1979,
+            "premio": "David de Donatello al mejor actor extranjero",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2002,
+            "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2003,
+            "premio": "Premio del Sindicato de Actores al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1986,
+            "premio": "Razzie al peor actor",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q48410"
+      }
+    ],
+    "sinopsis": {
+      "ca": "El 2026 se celebra el centenari dels Cinemes Verdi, el cinema en actiu més antic de Barcelona. Amb humor i mitjançant la mirada de dues nenes, el documental recorre la història de la sala i de les persones que li han donat vida. Així es dibuixa el retrat d'un cinema que ha deixat empremta al barri de Gràcia, a la ciutat de Barcelona i a diverses generacions de cinèfils.",
+      "en": "As Barcelona's Cines Verdi approach their centenary, two young girls explore its spaces and encounter the people who keep them alive. Through their eyes, the cinema emerges as a meeting place where generations of film lovers continue to share something that reaches beyond the screen.",
+      "es": "En 2026 se celebra el centenario de los Cines Verdi, el cine en activo más antiguo de Barcelona. Con humor y a través de la mirada de dos niñas, el documental recorre la historia de la sala y de las personas que le han dado vida. Así se dibuja el retrato de un cine que ha dejado huella en el barrio de Gràcia, en la ciudad de Barcelona y en varias generaciones de cinéfilos."
+    },
+    "titulo": "La vida es Verdi",
+    "titulo_ca": "La vida és Verdi",
+    "titulo_original": "La vida és Verdi",
+    "tmdb": 1634018
   },
   "tmdb-1688701": {
     "anio": 2026,
@@ -3701,6 +3249,450 @@
     "titulo_original": "The Violinist",
     "tmdb": 748681,
     "trailer": "38fqIdZ4aZM"
+  },
+  "tmdb-935": {
+    "anio": 1964,
+    "caducado": "2026-11-24",
+    "cartel": "https://image.tmdb.org/t/p/w500/snsOoRb1d4WD6q62PRfBuGLJ8xr.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yFT0VyIelI9aegZrsAwOG5iVP4v.jpg",
+        "id": 240,
+        "nombre": "Stanley Kubrick",
+        "premios": [
+          {
+            "anio": 2000,
+            "premio": "BAFTA Academy Fellowship Award",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1969,
+            "premio": "Óscar a los mejores efectos visuales",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1997,
+            "premio": "León de Oro por la carrera",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2014,
+            "premio": "Science Fiction and Fantasy Hall of Fame",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1995,
+            "premio": "Comendador de la Orden de las Artes y las Letras",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "National Board of Review por Mejor Película",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1976,
+            "premio": "BAFTA al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1972,
+            "premio": "Premio Hugo a la mejor presentación dramática",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2008,
+            "premio": "Gran Premio Honorífico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1965,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1965,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1965,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1969,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1969,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1972,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1972,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1972,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1976,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1976,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1976,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1981,
+            "premio": "Razzie al peor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1988,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q2001"
+      }
+    ],
+    "duracion": 95,
+    "edad": "18",
+    "estreno": "1964-01-29",
+    "fondo": "https://image.tmdb.org/t/p/w1280/7i0L2ee4Iy0aXV6vR5u1ZmblOrx.jpg",
+    "generos": [
+      "Comedia",
+      "Bélica"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/yFT0VyIelI9aegZrsAwOG5iVP4v.jpg",
+        "id": 240,
+        "nombre": "Stanley Kubrick"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/zvaYee6lkHqjLE47IHPZfUWijSS.jpg",
+        "id": 8950,
+        "nombre": "Terry Southern"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/2BXNZWnxTux7cC4wdfLUwFbGY4i.jpg",
+        "id": 14250,
+        "nombre": "Peter George"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/2BXNZWnxTux7cC4wdfLUwFbGY4i.jpg",
+        "id": 14250,
+        "nombre": "Peter George"
+      }
+    ],
+    "id": "tmdb-935",
+    "idioma_original": "en",
+    "imdb": "tt0057012",
+    "lema": "Línea directa a la comedia de suspense.",
+    "musica": [
+      {
+        "id": 14252,
+        "nombre": "Laurie Johnson"
+      }
+    ],
+    "nota": 8.1,
+    "paises": [
+      "GB",
+      "US"
+    ],
+    "premios": [
+      {
+        "anio": 1964,
+        "premio": "Premi Bodil a la millor pel·lícula no-estatunidenca",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1964,
+        "premio": "New York Film Critics Circle Award a la millor direcció",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1965,
+        "premio": "BAFTA a la mejor película británica",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1965,
+        "premio": "BAFTA a la mejor película",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1965,
+        "premio": "United Nations Awards",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1965,
+        "premio": "Premio Hugo a la mejor presentación dramática",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 1964,
+        "premio": "Premio del Sindicato de Directores a la mejor dirección",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "Óscar a la mejor película",
+        "tipo": "nominado"
+      },
+      {
+        "anio": null,
+        "premio": "Óscar al mejor director",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "Óscar al mejor actor",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "Óscar al mejor guion adaptado",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "BAFTA a la mejor película",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "Premio Hugo a la mejor presentación dramática",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "United Nations Awards",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "BAFTA al mejor guion de película británica",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 1965,
+        "premio": "BAFTA a la mejor película británica",
+        "tipo": "nominado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/sCVIv2DGoC9U16anTjLwMxKBPZ.jpg",
+        "id": 12446,
+        "nombre": "Peter Sellers",
+        "papel": "Group Capt. Lionel Mandrake / President Merkin Muffley / Dr. Strangelove",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Comendador de la Orden del Imperio británico",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premios Globo de Oro",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1965,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1980,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1960,
+            "premio": "Óscar al mejor cortometraje",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q177984"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/iZON8v2ExgNzY943W0UDWXeRZrz.jpg",
+        "id": 862,
+        "nombre": "George C. Scott",
+        "papel": "General 'Buck' Turgidson",
+        "premios": [
+          {
+            "anio": 1971,
+            "premio": "Óscar al mejor actor",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1958,
+            "premio": "Theatre World Award",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1971,
+            "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1998,
+            "premio": "Primetime Emmy al mejor actor de reparto - Miniserie o telefilme",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Clarence Derwent Awards",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 1960,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1962,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1971,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1972,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1960,
+            "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1974,
+            "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1976,
+            "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1996,
+            "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1959,
+            "premio": "Premio Tony al mejor actor de reparto en una obra de teatro",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 1991,
+            "premio": "Razzie al peor actor",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q182450"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/dCTe6BsGSp9QTcva2Pz4wbxxYMY.jpg",
+        "id": 3088,
+        "nombre": "Sterling Hayden",
+        "papel": "Brigadier General Jack D. Ripper",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Estrella de Plata",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q323166"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/bO88300vMddcIXuRZvMm5QLXdr.jpg",
+        "id": 4966,
+        "nombre": "Keenan Wynn",
+        "papel": "Colonel Bat Guano",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Estrella del Paseo de la Fama de Hollywood",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q946859"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/8UwvsZe0frSzCoyC8KGSfjAaZBf.jpg",
+        "id": 14253,
+        "nombre": "Slim Pickens",
+        "papel": "Major \"King\" Kong"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/187FadUt4kYNbrRfWp1sHynmGWW.jpg",
+        "id": 6600,
+        "nombre": "Peter Bull",
+        "papel": "Botschafter De Sadesky"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/sgc8yxYr8ecNn1TXjWXWx3wmUYA.jpg",
+        "id": 15152,
+        "nombre": "James Earl Jones",
+        "papel": "Lt. Lothar Zogg"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ts9KswPwZfhJQFdp4WBhzPfVJOQ.jpg",
+        "id": 126354,
+        "nombre": "Tracy Reed",
+        "papel": "Miss Scott"
+      },
+      {
+        "id": 12485,
+        "nombre": "Jack Creley",
+        "papel": "Mr. Staines"
+      },
+      {
+        "id": 1332529,
+        "nombre": "Frank Berry",
+        "papel": "Lt. Dietrich"
+      }
+    ],
+    "sinopsis": {
+      "ca": "Convençut que els comunistes estan contaminant a la nació americana, el general Jack D. Ripper, en un accés de bogeria paranoica, ordena un atac aeri nuclear per sorpresa sobre la Unió Soviètica. El seu ajudant, el capità Mandrake, tracta d'esbrinar el codi per detenir el bombardeig. Per solucionar el problema, el president d'EE. UU. es comunica amb Moscou per convèncer al dirigent soviètic de què l'atac és un estúpid error. Mentrestant, l'assessor del president, un antic científic nazi, el Dr. Strangelove, confirma l'existència de la \"Màquina del Judici Final\", un dispositiu de represàlia soviètic capaç d'acabar amb la humanitat per sempre.",
+      "en": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
+      "es": "Convencido de que los comunistas están contaminando los Estados Unidos, un general ordena, en un acceso de locura, un ataque aéreo nuclear sorpresa contra la Unión Soviética. Su ayudante, el capitán Mandrake, trata de encontrar la fórmula para impedir el bombardeo. Por su parte, el presidente de los EE.UU. se pone en contacto con Moscú para convencer al gobierno soviético de que el ataque no es más que un estúpido error. Mientras tanto, el asesor estadounidense, un antiguo científico nazi, el doctor Strangelove, confirma la existencia de la «Máquina del Juicio Final», un dispositivo de represalia soviético capaz de acabar con la humanidad para siempre."
+    },
+    "titulo": "¿Teléfono rojo? Volamos hacia Moscú",
+    "titulo_ca": "Doctor Strangelove",
+    "titulo_original": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "tmdb": 935,
+    "trailer": "IE9CmX15PYA"
   },
   "tmdb-9764": {
     "anio": 1975,

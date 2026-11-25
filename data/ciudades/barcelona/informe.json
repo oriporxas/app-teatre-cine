@@ -1,24 +1,24 @@
 {
-  "actividades_vigentes": 7056,
+  "actividades_vigentes": 6944,
   "app": {
     "compra": {
-      "buscadas_hoy": 6,
-      "con_enlace": 346,
-      "encontradas": 152,
-      "obra": 265,
-      "portadas": 233,
-      "sala": 81
+      "buscadas_hoy": 21,
+      "con_enlace": 345,
+      "encontradas": 155,
+      "obra": 268,
+      "portadas": 232,
+      "sala": 77
     },
-    "espectaculos_app": 715,
+    "espectaculos_app": 729,
     "fichas_obra": {
       "cartel_nuevo": 5,
-      "con_pagina": 252,
-      "duracion_nueva": 16,
-      "equipo_ampliado": 137,
+      "con_pagina": 256,
+      "duracion_nueva": 17,
+      "equipo_ampliado": 140,
       "equipo_nuevo": 20,
-      "ia_hoy": 2,
-      "leidas_hoy": 2,
-      "premios_nuevos": 21
+      "ia_hoy": 5,
+      "leidas_hoy": 5,
+      "premios_nuevos": 22
     },
     "fichas_personas": {
       "buscados_hoy": 0,
@@ -26,40 +26,40 @@
       "espectaculos_magia": 19
     },
     "ia_fichas": {
-      "con_premios": 15,
-      "con_traduccion": 618,
-      "fichas_con_texto": 621,
-      "hechas": 16,
+      "con_premios": 16,
+      "con_traduccion": 636,
+      "fichas_con_texto": 639,
+      "hechas": 3,
       "modelo": "claude-haiku-5-5",
-      "pendientes": 19
+      "pendientes": 6
     },
     "personas": {
-      "buscados_hoy": 14,
-      "descartados_por_papel": 20,
-      "encontrados": 60,
-      "nombres": 2066,
+      "buscados_hoy": 71,
+      "descartados_por_papel": 24,
+      "encontrados": 67,
+      "nombres": 2063,
       "uno_a_uno": true
     },
     "verificacion": {
       "corregidas_por_regla": {
-        "fecha": 19,
+        "fecha": 20,
         "repetida": 21,
         "sala": 2
       },
-      "publicadas": 715
+      "publicadas": 729
     }
   },
   "biografias": {
-    "buscadas_hoy": 31,
-    "cine": 622,
-    "con_ficha": 881,
-    "escena_encontradas": 259,
-    "escena_nombres": 2066,
-    "leidas_hoy": 14
+    "buscadas_hoy": 2,
+    "cine": 675,
+    "con_ficha": 936,
+    "escena_encontradas": 261,
+    "escena_nombres": 2063,
+    "leidas_hoy": 42
   },
-  "caducados": 84,
+  "caducados": 93,
   "cine": {
-    "caducadas": 43,
+    "caducadas": 48,
     "cines": {
       "Ateneu Barcelonès": {
         "como": "sin web",
@@ -75,7 +75,7 @@
       },
       "Cinemes Verdi": {
         "como": "elqueque",
-        "sesiones": 110
+        "sesiones": 77
       },
       "Cinesa Diagonal": {
         "como": "su web no permite programas (robots.txt)",
@@ -119,27 +119,27 @@
       },
       "Mooby Arenas": {
         "como": "elqueque",
-        "sesiones": 130
+        "sesiones": 331
       },
       "Mooby Aribau": {
         "como": "elqueque",
-        "sesiones": 40
+        "sesiones": 108
       },
       "Mooby Balmes": {
         "como": "elqueque",
-        "sesiones": 125
+        "sesiones": 323
       },
       "Mooby Bosque": {
         "como": "elqueque",
-        "sesiones": 72
+        "sesiones": 46
       },
       "Mooby Glòries": {
         "como": "elqueque",
-        "sesiones": 95
+        "sesiones": 211
       },
       "Mooby Gran Sarrià": {
         "como": "elqueque",
-        "sesiones": 93
+        "sesiones": 246
       },
       "Recursos d'Animació Intercultural RAI": {
         "como": "sin horarios legibles en su web",
@@ -147,7 +147,7 @@
       },
       "Renoir Floridablanca": {
         "como": "pillalas",
-        "sesiones": 151
+        "sesiones": 154
       },
       "Verdi Park": {
         "como": "elqueque",
@@ -163,27 +163,26 @@
       }
     },
     "con_sesiones_en_cines": 8,
-    "con_tmdb": 59,
-    "fecha": "2026-11-24",
+    "con_tmdb": 63,
+    "fecha": "2026-11-25",
     "peliculas": 89,
-    "sesiones_agenda": 61,
-    "sesiones_cines": 816,
+    "sesiones_agenda": 59,
+    "sesiones_cines": 1496,
     "tmdb": {
-      "con_premios": 15,
-      "identificadas": 69,
-      "peliculas": 99,
+      "con_premios": 17,
+      "identificadas": 74,
+      "peliculas": 100,
       "sin_identificar": [
         "El cascanueces (The Royal Ballet) ? Registrat en directe a la Royal Opera House de Londres",
-        "F. Espectador: Cartas de Estado",
         "Sessió TETA: Wild Horse Nine",
+        "Hermanas",
         "FATHERLAND",
         "Projecció ''Sorda",
         "Tarda de cinema",
         "Vivir rodando",
-        "Petits moments màgics: curtmetratges",
+        "Submarinisme la mar la meva passió",
         "Cinema menut",
         "Planeta Polaris",
-        "E.T.",
         "Natura sagrada",
         "Cinema participatiu",
         "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve",
@@ -192,7 +191,6 @@
         "Planetari Forats negres",
         "Planetari Kiru i el misteri de la Lluna perduda",
         "592 metroz goiti",
-        "Apnees i altres gramàtiques",
         "Planetari 3clipsi",
         "Cinema mut ''SUNRISE. A song of two humans.",
         "Numakage Public pool",
@@ -200,9 +198,7 @@
         "Antes del silencio",
         "Kirikú i la bruixa",
         "¡Salta!",
-        "L’Emilie i el secret de les tempestes",
-        "Numakage Public Pool",
-        "Stampa. Models de Mirar"
+        "L’Emilie i el secret de les tempestes"
       ]
     },
     "verificacion": {
@@ -222,8 +218,8 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "ia": 1095,
-    "señales": 163
+    "ia": 1101,
+    "señales": 157
   },
   "cobertura": {
     "cines_con_horarios": [
@@ -256,7 +252,7 @@
       "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
     },
     "con_actividades": 90,
-    "fecha": "2026-11-24",
+    "fecha": "2026-11-25",
     "por_tipo": {
       "auditorio": {
         "oficiales": 26,
@@ -275,30 +271,30 @@
     "sin_actividades": 71
   },
   "compra": {
-    "buscadas_hoy": 6,
-    "con_enlace": 346,
-    "encontradas": 152,
-    "obra": 265,
-    "portadas": 233,
-    "sala": 81
+    "buscadas_hoy": 21,
+    "con_enlace": 345,
+    "encontradas": 155,
+    "obra": 268,
+    "portadas": 232,
+    "sala": 77
   },
-  "con_detalle": 1058,
-  "con_enlace_compra": 421,
+  "con_detalle": 1080,
+  "con_enlace_compra": 420,
   "con_idioma": 57,
-  "con_precio": 1233,
+  "con_precio": 1224,
   "con_publico": 302,
-  "duracion_minutos": 18.6,
+  "duracion_minutos": 56.2,
   "errores": [],
-  "fecha": "2026-11-24",
+  "fecha": "2026-11-25",
   "fichas_obra": {
     "cartel_nuevo": 5,
-    "con_pagina": 252,
-    "duracion_nueva": 16,
-    "equipo_ampliado": 137,
+    "con_pagina": 256,
+    "duracion_nueva": 17,
+    "equipo_ampliado": 140,
     "equipo_nuevo": 20,
-    "ia_hoy": 2,
-    "leidas_hoy": 2,
-    "premios_nuevos": 21
+    "ia_hoy": 5,
+    "leidas_hoy": 5,
+    "premios_nuevos": 22
   },
   "fichas_personas": {
     "buscados_hoy": 0,
@@ -307,7 +303,7 @@
   },
   "fuentes": {
     "open_data_bcn": {
-      "actividades_vigentes": 7020,
+      "actividades_vigentes": 6880,
       "descarga": {
         "agendas": {
           "activitats": {
@@ -321,62 +317,62 @@
             "registros": 5041
           }
         },
-        "fecha": "2026-11-24T14:30:31+0000"
+        "fecha": "2026-11-25T06:17:01+0000"
       },
       "equipamientos": 3041,
       "guia": {
         "errores": 0,
-        "fichas_en_cache": 2263,
-        "leidas_hoy": 36,
-        "pendientes": 5204
+        "fichas_en_cache": 2375,
+        "leidas_hoy": 168,
+        "pendientes": 4936
       },
       "por_agenda": {
-        "activitats": 2140,
-        "activitats+cultural": 2072,
-        "cultural": 2808
+        "activitats": 2102,
+        "activitats+cultural": 2042,
+        "cultural": 2736
       }
     },
     "webs_salas": {
-      "aviso": "sin tiempo: el resto, mañana",
-      "con_web": 17,
-      "descartadas": 15,
-      "funciones": 41,
-      "leidas_ia": 3,
-      "obras": 36,
-      "paginas": 23,
-      "salas_sin_agenda": 33
+      "con_web": 19,
+      "descartadas": 16,
+      "funciones": 98,
+      "leidas_ia": 11,
+      "obras": 64,
+      "paginas": 29,
+      "salas_sin_agenda": 33,
+      "web_compartida": 20
     }
   },
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1897,
+      "candidatas": 1901,
       "disponible": true,
-      "enviadas": 0,
+      "enviadas": 171,
       "errores": 0,
       "lotes": {
         "en_curso": 0,
-        "enviadas": 0,
-        "recogidas": 0,
+        "enviadas": 18,
+        "recogidas": 18,
         "repetidas_normal": 0
       },
       "modelo": "claude-sonnet-5-5",
-      "pendientes_antes": 184,
+      "pendientes_antes": 171,
       "pendientes_despues": 0,
       "tarea": "clasificar",
-      "tokens_cache": 0,
-      "tokens_cache_escritura": 0,
-      "tokens_entrada": 0,
-      "tokens_salida": 0
+      "tokens_cache": 86615,
+      "tokens_cache_escritura": 5095,
+      "tokens_entrada": 56144,
+      "tokens_salida": 18220
     },
     "eventos_cine": {
-      "candidatas": 223,
-      "eventos": 82,
-      "pendientes": 20
+      "candidatas": 218,
+      "eventos": 79,
+      "pendientes": 6
     },
     "revisar_dudosos": {
       "activa": true,
-      "candidatas": 226,
+      "candidatas": 186,
       "disponible": true,
       "enviadas": 0,
       "errores": 0,
@@ -387,8 +383,8 @@
         "repetidas_normal": 0
       },
       "modelo": "claude-opus-5-5",
-      "pendientes_antes": 57,
-      "pendientes_despues": 0,
+      "pendientes_antes": 10,
+      "pendientes_despues": 1,
       "tarea": "revisar_dudosos",
       "tokens_cache": 0,
       "tokens_cache_escritura": 0,
@@ -397,35 +393,35 @@
     }
   },
   "ia_fichas": {
-    "con_premios": 15,
-    "con_traduccion": 618,
-    "fichas_con_texto": 621,
-    "hechas": 16,
+    "con_premios": 16,
+    "con_traduccion": 636,
+    "fichas_con_texto": 639,
+    "hechas": 3,
     "modelo": "claude-haiku-5-5",
-    "pendientes": 19
+    "pendientes": 6
   },
-  "inicio": "2026-11-24T14:30:30+0000",
+  "inicio": "2026-11-25T06:17:01+0000",
   "magia": {
     "incluye": 4,
     "principal": 19,
     "tema": 7
   },
   "noticias": {
-    "clasificadas_hoy": 161,
+    "clasificadas_hoy": 199,
     "eventos": 39,
-    "leidas": 821,
+    "leidas": 820,
     "lotes": {
       "en_curso": 0,
-      "enviadas": 0,
+      "enviadas": 7,
       "errores": 0,
-      "recogidas": 0,
+      "recogidas": 7,
       "repetidas_normal": 0
     },
     "medios": 39,
     "por_ambito": {
       "barcelona": 35,
-      "espana": 95,
-      "mundo": 251
+      "espana": 97,
+      "mundo": 261
     },
     "por_canal": {
       "https://barcelonasecreta.com/feed/": 8,
@@ -433,75 +429,75 @@
       "https://beteve.cat/tag/festivals/feed/": 4,
       "https://beteve.cat/tag/magia/feed/": 4,
       "https://deadline.com/feed/": 12,
-      "https://e00-elmundo.uecdn.es/elmundo/rss/cultura.xml": 56,
+      "https://e00-elmundo.uecdn.es/elmundo/rss/cultura.xml": 55,
       "https://geniimagazine.com/feed/": 15,
       "https://playbill.com/rss/news": 10,
       "https://rss.elconfidencial.com/cultura/": 15,
-      "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml": 31,
+      "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml": 32,
       "https://rss.nytimes.com/services/xml/rss/nyt/Theater.xml": 20,
       "https://variety.com/feed/": 10,
-      "https://www.20minutos.es/rss/cinemania/": 73,
+      "https://www.20minutos.es/rss/cinemania/": 76,
       "https://www.20minutos.es/rss/cultura/": 26,
       "https://www.abc.es/rss/2.0/cultura/": 25,
-      "https://www.abc.es/rss/2.0/cultura/teatros/": 16,
-      "https://www.americantheatre.org/feed/": 22,
-      "https://www.ara.cat/rss/cultura/": 65,
+      "https://www.abc.es/rss/2.0/cultura/teatros/": 15,
+      "https://www.americantheatre.org/feed/": 23,
+      "https://www.ara.cat/rss/cultura/": 64,
       "https://www.elcritic.cat/feed/": 10,
-      "https://www.eldiario.es/rss/cultura/teatro": 9,
+      "https://www.eldiario.es/rss/cultura/teatro": 7,
       "https://www.elespanol.com/rss/cultura/": 0,
-      "https://www.elmundo.es/rss/cultura/teatro.xml": 7,
+      "https://www.elmundo.es/rss/cultura/teatro.xml": 11,
       "https://www.espinof.com/index.xml": 20,
       "https://www.europapress.es/rss/rss.aspx?ch=00126": 10,
       "https://www.fotogramas.es/rss/all.xml/": 50,
       "https://www.hollywoodreporter.com/feed/": 10,
       "https://www.indiewire.com/feed/": 12,
-      "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/": 79,
+      "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/": 73,
       "https://www.lavanguardia.com/rss/cultura.xml": 100,
       "https://www.masescena.es/feed/": 10,
       "https://www.revistagodot.com/feed/": 12,
       "https://www.sensacine.com/rss/noticias.xml": 20,
       "https://www.thecircusdiaries.com/feed/": 3,
       "https://www.theguardian.com/film/rss": 19,
-      "https://www.theguardian.com/stage/rss": 17,
+      "https://www.theguardian.com/stage/rss": 18,
       "https://www.vilaweb.cat/categoria/cultura/arts-esceniques/feed/": 1,
       "https://www.vilaweb.cat/etiqueta/circ/feed/": 0,
       "https://www.vilaweb.cat/etiqueta/magia/feed/": 0,
       "https://www.zirkolika.com/feed/": 10
     },
     "por_tema": {
-      "cine": 217,
-      "circo": 17,
-      "magia": 20,
-      "teatro": 127
+      "cine": 227,
+      "circo": 16,
+      "magia": 19,
+      "teatro": 131
     },
-    "publicadas": 381
+    "publicadas": 393
   },
   "personas": {
-    "buscados_hoy": 14,
-    "descartados_por_papel": 20,
-    "encontrados": 60,
-    "nombres": 2066,
+    "buscados_hoy": 71,
+    "descartados_por_papel": 24,
+    "encontrados": 67,
+    "nombres": 2063,
     "uno_a_uno": true
   },
   "por_tipo": {
-    "cine": 116,
+    "cine": 111,
     "circo": 19,
-    "danza": 85,
-    "evento": 523,
+    "danza": 83,
+    "evento": 513,
     "magia": 19,
     "musical": 36,
     "otro": 1,
-    "teatro": 459
+    "teatro": 476
   },
   "publicadas": 1258,
-  "salas_con_espectaculos": 202,
-  "salas_con_nombre": 193,
+  "salas_con_espectaculos": 203,
+  "salas_con_nombre": 195,
   "verificacion": {
     "corregidas_por_regla": {
-      "fecha": 19,
+      "fecha": 20,
       "repetida": 21,
       "sala": 2
     },
-    "publicadas": 715
+    "publicadas": 729
   }
 }

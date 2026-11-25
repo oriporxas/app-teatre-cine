@@ -448,6 +448,13 @@
       "tmdb": null,
       "v": 2
     },
+    "albert-miret": {
+      "fecha": "2026-11-25",
+      "motivo": "ninguna",
+      "nombre": "Albert Miret",
+      "tmdb": null,
+      "v": 2
+    },
     "albert-pascual": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -10556,6 +10563,13 @@
       "tmdb": null,
       "v": 1
     },
+    "may-zircus": {
+      "fecha": "2026-11-25",
+      "motivo": "ninguna",
+      "nombre": "May Zircus",
+      "tmdb": null,
+      "v": 2
+    },
     "maya-s-krishnan": {
       "fecha": "2026-11-23",
       "motivo": "ninguna",
@@ -15584,6 +15598,61 @@
       },
       "fecha": "2026-11-19"
     },
+    "1013013": {
+      "datos": {
+        "conocida": [
+          [
+            "El Príncipe",
+            2014,
+            "serie",
+            "Aisha Ben Barek"
+          ],
+          [
+            "Framed",
+            2017,
+            "pelicula",
+            "Mari Carmen"
+          ],
+          [
+            "El cor de la ciutat",
+            2000,
+            "serie",
+            "Àngela Montfort"
+          ],
+          [
+            "Lo más importante de la vida es no haber muerto",
+            2010,
+            "pelicula",
+            "Helena 80"
+          ],
+          [
+            "Psychophony",
+            2012,
+            "pelicula",
+            "Dra. Jara"
+          ],
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Priyanka/Enfermera 1 (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu de teatre, televisió i doblatge catalana",
+          "es": "actriz de voz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/5EOZvbsUofBu3rJqV5mhLvUlspi.jpg",
+        "lugar": "Barcelona, Cataluña, Spain",
+        "nacimiento": "1958-08-31",
+        "nombre": "Mercè Montalà",
+        "oficio": "Acting",
+        "tmdb": 1013013,
+        "wikidata": "Q24050009",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Merc%C3%A8_Montal%C3%A0"
+      },
+      "fecha": "2026-11-25"
+    },
     "101542": {
       "datos": {
         "bio": {
@@ -17433,6 +17502,59 @@
       },
       "fecha": "2026-11-22"
     },
+    "1072088": {
+      "datos": {
+        "conocida": [
+          [
+            "Tengo ganas de ti",
+            2012,
+            "pelicula",
+            "Boxer Girl"
+          ],
+          [
+            "Palmeras en la nieve",
+            2015,
+            "pelicula",
+            "Oba"
+          ],
+          [
+            "Adú",
+            2020,
+            "pelicula",
+            "Safí"
+          ],
+          [
+            "La familia perfecta",
+            2021,
+            "pelicula",
+            "Peluquera Africana"
+          ],
+          [
+            "Little Birds",
+            2020,
+            "serie",
+            "Fifi"
+          ],
+          [
+            "Black Beach",
+            2020,
+            "pelicula",
+            "Bebe"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu beninesa",
+          "es": "actriz beninesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/yDg336M3ETLWpZjgZ0OaeK8zO0s.jpg",
+        "nombre": "Bella Agossou",
+        "oficio": "Acting",
+        "tmdb": 1072088,
+        "wikidata": "Q75015745",
+        "wikipedia": "https://es.wikipedia.org/wiki/Bella_Agossou"
+      },
+      "fecha": "2026-11-25"
+    },
     "1073108": {
       "datos": {
         "conocida": [
@@ -18152,6 +18274,9 @@
             "Director"
           ]
         ],
+        "descripcion": {
+          "ca": "director i guionista de cinema noruec"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/1AXNJAeCz0obA1GANYbM2xxPdeB.jpg",
         "lugar": "Hamar, Norway",
         "nacimiento": "1989-05-23",
@@ -19219,6 +19344,55 @@
       },
       "fecha": "2026-11-19"
     },
+    "1146027": {
+      "datos": {
+        "conocida": [
+          [
+            "Boi",
+            2019,
+            "pelicula",
+            "Boi"
+          ],
+          [
+            "Cronos",
+            2026,
+            "pelicula",
+            ""
+          ],
+          [
+            "El cor de la ciutat",
+            2000,
+            "serie",
+            "Max Carbó"
+          ],
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Aalik/Hombre Turkana (voice)"
+          ],
+          [
+            "Como si fuera ayer",
+            2017,
+            "serie",
+            "Valentí"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor català",
+          "es": "actor español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/bqexL0mwynTRqZkxvJR1KrYZTHq.jpg",
+        "lugar": "Esplugues de Llobregat, Spagna",
+        "nacimiento": "1985-10-15",
+        "nombre": "Bernat Quintana",
+        "oficio": "Acting",
+        "tmdb": 1146027,
+        "wikidata": "Q4894018",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Bernat_Quintana_Sanfeliu"
+      },
+      "fecha": "2026-11-25"
+    },
     "1149059": {
       "datos": {
         "bio": {
@@ -19572,6 +19746,25 @@
         "wikidata": "Q112768455"
       },
       "fecha": "2026-11-22"
+    },
+    "1157587": {
+      "datos": {
+        "conocida": [
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/tYn2nOGuWMq1QqsrKZO1mFDL2fK.jpg",
+        "nombre": "David Baute",
+        "oficio": "Directing",
+        "tmdb": 1157587,
+        "wikidata": "Q135001235",
+        "wikipedia": "https://es.wikipedia.org/wiki/David_Baute"
+      },
+      "fecha": "2026-11-25"
     },
     "1159954": {
       "datos": {
@@ -21518,15 +21711,42 @@
             "Wendy / Dizzy / Pilchard / Bird (voice)"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu de veu britànica",
+          "es": "actriz de voz británica"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/9jqX2oO6Eho43x6Q9dWOI93YJnm.jpg",
         "lugar": "London, England, UK",
         "nacimiento": "1971-04-15",
         "nombre": "Kate Harbour",
         "oficio": "Acting",
         "tmdb": 124557,
-        "wikidata": "Q6375522"
+        "wikidata": "Q6375522",
+        "wikipedia": "https://es.wikipedia.org/wiki/Kate_Harbour"
       },
       "fecha": "2026-11-19"
+    },
+    "1246413": {
+      "datos": {
+        "conocida": [
+          [
+            "Cock'd Gunns",
+            2007,
+            "serie",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema canadenc",
+          "es": "director de cine canadiense"
+        },
+        "nacimiento": "1975-04-02",
+        "nombre": "Leo Scherman",
+        "oficio": "Writing",
+        "tmdb": 1246413,
+        "wikidata": "Q6524211"
+      },
+      "fecha": "2026-11-25"
     },
     "1246534": {
       "datos": {
@@ -22434,6 +22654,36 @@
         "wikidata": "Q73615633"
       },
       "fecha": "2026-11-19"
+    },
+    "1258927": {
+      "datos": {
+        "conocida": [
+          [
+            "Oro sin ley",
+            2026,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Trench 11",
+            2017,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Wild Things with Dominic Monaghan",
+            2012,
+            "serie",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/aMAshSZ418Byf4t5MIIYbRH2rAZ.jpg",
+        "nombre": "Matthew Booi",
+        "oficio": "Writing",
+        "tmdb": 1258927,
+        "wikidata": "Q137608899"
+      },
+      "fecha": "2026-11-25"
     },
     "1261476": {
       "datos": {
@@ -24931,6 +25181,59 @@
         "wikidata": "Q1690316"
       },
       "fecha": "2026-11-19"
+    },
+    "13362": {
+      "datos": {
+        "bio": {
+          "en": "Alec Newman is a Scottish stage, television and film actor. He was born in Glasgow on 27 November 1974. Prior to joining the National Youth Theatre in London at age 17, he considered becoming a professional footballer. He trained at LAMDA. His highest profile appearances are tied to science fiction works. Description above from the Wikipedia article Alec Newman, licensed under CC-BY-SA,full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Outlander",
+            2014,
+            "serie",
+            "Joseph Wemyss"
+          ],
+          [
+            "El muñeco de nieve",
+            2017,
+            "pelicula",
+            "Mould Man"
+          ],
+          [
+            "The Last Kingdom",
+            2015,
+            "serie",
+            "King Aethelred"
+          ],
+          [
+            "24",
+            2001,
+            "serie",
+            "Kevin Cordero"
+          ],
+          [
+            "Ángel",
+            1999,
+            "serie",
+            "Drogyn"
+          ],
+          [
+            "Star Trek: Enterprise",
+            2001,
+            "serie",
+            "Malik"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/qbSY0vUIyc8SUuLCw7hK5CsTpvQ.jpg",
+        "lugar": "Glasgow, Scotland",
+        "nacimiento": "1974-11-27",
+        "nombre": "Alec Newman",
+        "oficio": "Acting",
+        "tmdb": 13362,
+        "wikidata": "Q2640625"
+      },
+      "fecha": "2026-11-25"
     },
     "1336456": {
       "datos": {
@@ -27588,6 +27891,59 @@
       },
       "fecha": "2026-11-20"
     },
+    "1436742": {
+      "datos": {
+        "conocida": [
+          [
+            "El club de los buenos infieles",
+            2018,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Ruido",
+            2025,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Puzzled Love",
+            2010,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Blog",
+            2010,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Mis vacaciones",
+            1999,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Salvación",
+            2017,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "descripcion": {
+          "ca": "guionista i director de cinema",
+          "es": "guionista español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/3tgQlfFFf4NkQP4GpPphrZjSrZK.jpg",
+        "lugar": "Barcelona, Spain",
+        "nombre": "Lluís Segura",
+        "oficio": "Writing",
+        "tmdb": 1436742,
+        "wikidata": "Q111218939"
+      },
+      "fecha": "2026-11-25"
+    },
     "1437681": {
       "datos": {
         "bio": {
@@ -27704,6 +28060,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "1443612": {
+      "datos": {
+        "bio": {
+          "en": "Best known for portraying Blanca in the Netflix series 'Orange is the New Black', Laura Gómez is an award winning Dominican actress and writer. As well as acting, she has also directed a few short films such as 2012's 'To Kill a Roach' in which she also starred in. Laura is also known to be a fan of books, novels, and other literature."
+        },
+        "conocida": [
+          [
+            "Ley y orden: Unidad de Víctimas Especiales",
+            1999,
+            "serie",
+            "Selena Cruz"
+          ],
+          [
+            "Orange Is the New Black",
+            2013,
+            "serie",
+            "Blanca Flores"
+          ],
+          [
+            "Ley y orden",
+            1990,
+            "serie",
+            "Claudia"
+          ],
+          [
+            "La hija de Dios",
+            2016,
+            "pelicula",
+            "Eva"
+          ],
+          [
+            "Upon Entry",
+            2023,
+            "pelicula",
+            "Agent Vásquez"
+          ],
+          [
+            "La cocina",
+            2024,
+            "pelicula",
+            "Laura"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/xdZFWQmttxlpG2aKCYdM7PanDZ2.jpg",
+        "lugar": "New Jersey, USA",
+        "nacimiento": "1979-11-15",
+        "nombre": "Laura Gómez",
+        "oficio": "Acting",
+        "tmdb": 1443612,
+        "wikidata": "Q24951694",
+        "wikipedia": "https://es.wikipedia.org/wiki/Laura_G%C3%B3mez_%28actriz%29"
+      },
+      "fecha": "2026-11-25"
+    },
     "1443615": {
       "datos": {
         "bio": {
@@ -27761,6 +28175,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Javier_Calvo"
       },
       "fecha": "2026-11-19"
+    },
+    "1444453": {
+      "datos": {
+        "bio": {
+          "en": "Lucas Lynggaard Tønnesen is a Danish actor. He is best known for his roles in the Netflix series The Rain and Borgen – Power & Glory. In 2022, he starred in the Netflix multilingual mystery-science fiction series 1899. Description above from Wikipedia, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "1899",
+            2022,
+            "serie",
+            "Krester"
+          ],
+          [
+            "The Rain",
+            2018,
+            "serie",
+            "Rasmus Anderson"
+          ],
+          [
+            "Misericordia (Los casos del Departamento Q)",
+            2013,
+            "pelicula",
+            "Lasse som barn"
+          ],
+          [
+            "Paradise",
+            2023,
+            "pelicula",
+            "Dr. Berg"
+          ],
+          [
+            "Oro sin ley",
+            2026,
+            "pelicula",
+            "Olson"
+          ],
+          [
+            "Borgen: Reino, poder y gloria",
+            2022,
+            "serie",
+            "Magnus Nyborg"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor danès",
+          "es": "actor danés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/6o57Pv3tjxB9loPEDZX60PpIsr.jpg",
+        "lugar": "Frederiksberg, Copenhagen, Denmark",
+        "nacimiento": "2000-07-13",
+        "nombre": "Lucas Lynggaard Tønnesen",
+        "oficio": "Acting",
+        "tmdb": 1444453,
+        "wikidata": "Q30154050",
+        "wikipedia": "https://es.wikipedia.org/wiki/Lucas_Lynggaard_T%C3%B8nnesen"
+      },
+      "fecha": "2026-11-25"
     },
     "1447307": {
       "datos": {
@@ -30179,6 +30651,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "1552436": {
+      "datos": {
+        "bio": {
+          "en": "Austin Amelio (born April 27, 1988) is an American actor best known for his role as Dwight in The Walking Dead, its spin-off Fear the Walking Dead, and his role as Nesbit on Everybody Wants Some!!"
+        },
+        "conocida": [
+          [
+            "The Walking Dead",
+            2010,
+            "serie",
+            "Dwight"
+          ],
+          [
+            "Fear the Walking Dead",
+            2015,
+            "serie",
+            "Dwight"
+          ],
+          [
+            "Hit Man. Asesino por casualidad",
+            2024,
+            "pelicula",
+            "Jasper"
+          ],
+          [
+            "Todos queremos algo",
+            2016,
+            "pelicula",
+            "Nesbit"
+          ],
+          [
+            "Hokum",
+            2026,
+            "pelicula",
+            "Conquistador"
+          ],
+          [
+            "Song to Song",
+            2017,
+            "pelicula",
+            "BV's Brother"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/y4QTXuSSmD99n8dinMiTRBkUnAp.jpg",
+        "lugar": "Austin, Texas, USA",
+        "nacimiento": "1988-04-27",
+        "nombre": "Austin Amelio",
+        "oficio": "Acting",
+        "tmdb": 1552436,
+        "wikidata": "Q27049947",
+        "wikipedia": "https://es.wikipedia.org/wiki/Austin_Amelio"
+      },
+      "fecha": "2026-11-25"
+    },
     "155527": {
       "datos": {
         "bio": {
@@ -30222,13 +30752,18 @@
             "Twins (voice)"
           ]
         ],
+        "descripcion": {
+          "ca": "actor britànic",
+          "es": "actor británico"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/oe6HQ5bqb2uXITUC2s7rXHwfDLN.jpg",
         "lugar": "Longtown, Cumberland, England",
         "nacimiento": "1958-01-03",
         "nombre": "Simon Greenall",
         "oficio": "Acting",
         "tmdb": 155527,
-        "wikidata": "Q7518873"
+        "wikidata": "Q7518873",
+        "wikipedia": "https://es.wikipedia.org/wiki/Simon_Greenall"
       },
       "fecha": "2026-11-19"
     },
@@ -31533,6 +32068,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Joel_Smallbone"
       },
       "fecha": "2026-11-19"
+    },
+    "1617697": {
+      "datos": {
+        "bio": {
+          "en": "Avi Nash (born January 24, 1991) is an American actor. He played Siddiq in the AMC television series The Walking Dead (2017–2020) and Lucas Kyle in the Apple TV+ series Silo (2023)."
+        },
+        "conocida": [
+          [
+            "The Walking Dead",
+            2010,
+            "serie",
+            "Siddiq"
+          ],
+          [
+            "Black Mirror",
+            2011,
+            "serie",
+            "Krish"
+          ],
+          [
+            "Silo",
+            2023,
+            "serie",
+            "Lukas Kyle"
+          ],
+          [
+            "Silicon Valley",
+            2014,
+            "serie",
+            "Wajeed"
+          ],
+          [
+            "La trenza",
+            2023,
+            "pelicula",
+            "Kamal"
+          ],
+          [
+            "Barry",
+            2016,
+            "pelicula",
+            "Saleem"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/xmdcJQVhrnFdTv9KkrU3EnBWFfV.jpg",
+        "lugar": "Honolulu, Hawaii, USA",
+        "nacimiento": "1991-01-24",
+        "nombre": "Avi Nash",
+        "oficio": "Acting",
+        "tmdb": 1617697,
+        "wikidata": "Q56600101",
+        "wikipedia": "https://es.wikipedia.org/wiki/Avi_Nash"
+      },
+      "fecha": "2026-11-25"
     },
     "1617786": {
       "datos": {
@@ -35011,6 +35604,10 @@
             "Visitors & Relatives (voice)"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu britànica",
+          "es": "actriz británica"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg",
         "lugar": "London, England, UK",
         "nacimiento": "1971-10-30",
@@ -35617,6 +36214,9 @@
             "Sara"
           ]
         ],
+        "descripcion": {
+          "es": "actriz noruega"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg",
         "lugar": "Norway",
         "nacimiento": "1987-09-23",
@@ -36023,6 +36623,10 @@
             "Self"
           ]
         ],
+        "descripcion": {
+          "ca": "comediant noruec",
+          "es": "comediante noruego"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/qQFCG2sOL5dfOKfYpOxs0QMopDU.jpg",
         "lugar": "Skien, Telemark, Norway",
         "nacimiento": "1992-02-22",
@@ -36085,6 +36689,34 @@
         "wikidata": "Q441676"
       },
       "fecha": "2026-11-19"
+    },
+    "1941468": {
+      "datos": {
+        "conocida": [
+          [
+            "Oro sin ley",
+            2026,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Wildcat",
+            2024,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "descripcion": {
+          "ca": "artista estatunidenc",
+          "es": "artista estadounidense"
+        },
+        "lugar": " New Hampshire, USA",
+        "nombre": "Shelby Gaines",
+        "oficio": "Sound",
+        "tmdb": 1941468,
+        "wikidata": "Q7493389"
+      },
+      "fecha": "2026-11-25"
     },
     "1946699": {
       "datos": {
@@ -36235,13 +36867,18 @@
             "Union of Knowledge"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu xilena",
+          "es": "actriz chilena-estadounidense"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/Yxf9KXHd2rGcsOGMpj26xxu5fn.jpg",
         "lugar": "Orange County, California, USA",
         "nacimiento": "1992-06-04",
         "nombre": "Lux Pascal",
         "oficio": "Acting",
         "tmdb": 1966008,
-        "wikidata": "Q33123460"
+        "wikidata": "Q33123460",
+        "wikipedia": "https://es.wikipedia.org/wiki/Lux_Pascal"
       },
       "fecha": "2026-11-19"
     },
@@ -36741,6 +37378,23 @@
       },
       "fecha": "2026-11-19"
     },
+    "1993065": {
+      "datos": {
+        "conocida": [
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Emuron/Agente Calcuta/Proxeneta/Hombre Turkana (voice) (as J"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/77RH14fRCa8Rg7D5Icbp22kiAl.jpg",
+        "nombre": "Jaume Villanueva",
+        "oficio": "Acting",
+        "tmdb": 1993065
+      },
+      "fecha": "2026-11-25"
+    },
     "201054": {
       "datos": {
         "bio": {
@@ -36787,6 +37441,63 @@
         "wikidata": "Q124365047"
       },
       "fecha": "2026-11-20"
+    },
+    "201337": {
+      "datos": {
+        "bio": {
+          "en": "Anna Bergman is a Swedish former actress."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Hanna Schwartz"
+          ],
+          [
+            "Patos salvajes",
+            1978,
+            "pelicula",
+            "Sonny's Girlfriend"
+          ],
+          [
+            "Avalon",
+            1990,
+            "pelicula",
+            "Alice as a Young Woman"
+          ],
+          [
+            "Mind Your Language",
+            1977,
+            "serie",
+            "Ingrid Svenson"
+          ],
+          [
+            "Adventures of a Taxi Driver",
+            1976,
+            "pelicula",
+            "Helga"
+          ],
+          [
+            "Queen Kong",
+            1976,
+            "pelicula",
+            "Crew Girl (uncredited)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu sueca",
+          "es": "actriz sueca"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/nbfWVE92DyRi2b0iqgKwNQcO8Jc.jpg",
+        "lugar": "Stockholm, Sweden",
+        "nacimiento": "1948-05-05",
+        "nombre": "Anna Bergman",
+        "oficio": "Acting",
+        "tmdb": 201337,
+        "wikidata": "Q2850467"
+      },
+      "fecha": "2026-11-25"
     },
     "2020259": {
       "datos": {
@@ -37836,6 +38547,9 @@
             "Director"
           ]
         ],
+        "descripcion": {
+          "es": "cineasta argentina"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/pneY595BwPbgskHxfeX1bbja51a.jpg",
         "lugar": "Buenos Aires, Argentina",
         "nombre": "Agustina Macri",
@@ -38984,13 +39698,18 @@
             "Luis de Zúñiga"
           ]
         ],
+        "descripcion": {
+          "ca": "actor espanyol",
+          "es": "actor y director español"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/dZd0Z3mUgXrE0y21KknLp40Ivuk.jpg",
         "lugar": "Sevilla, Spain",
         "nacimiento": "1975-10-04",
         "nombre": "Paco León",
         "oficio": "Acting",
         "tmdb": 224870,
-        "wikidata": "Q3621855"
+        "wikidata": "Q3621855",
+        "wikipedia": "https://es.wikipedia.org/wiki/Paco_Le%C3%B3n"
       },
       "fecha": "2026-11-19"
     },
@@ -39563,13 +40282,18 @@
             "Sir James Hobbs-Coddington"
           ]
         ],
+        "descripcion": {
+          "ca": "actor britànic",
+          "es": "actor británico"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/9bN9RVoPWmsmV3VBI7hp4VKD9Kg.jpg",
         "lugar": "Leicester, Leicestershire, England, UK",
         "nacimiento": "1966-04-13",
         "nombre": "Andy Nyman",
         "oficio": "Acting",
         "tmdb": 22810,
-        "wikidata": "Q526886"
+        "wikidata": "Q526886",
+        "wikipedia": "https://es.wikipedia.org/wiki/Andy_Nyman"
       },
       "fecha": "2026-11-19"
     },
@@ -40036,6 +40760,61 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Charlie_Vickers"
       },
       "fecha": "2026-11-19"
+    },
+    "231927": {
+      "datos": {
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Siri"
+          ],
+          [
+            "Cara a cara al desnudo",
+            1976,
+            "pelicula",
+            "Nurse Veronica"
+          ],
+          [
+            "El ojo del diablo",
+            1960,
+            "pelicula",
+            "Woman in Veil"
+          ],
+          [
+            "En el umbral de la vida",
+            1958,
+            "pelicula",
+            "Nurse (uncredited)"
+          ],
+          [
+            "Un solo verano de felicidad",
+            1951,
+            "pelicula",
+            "Girl in the play"
+          ],
+          [
+            "Los elegidos",
+            1986,
+            "pelicula",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu sueca",
+          "es": "actriz sueca"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/mmEjKI41WmeSUaIEJvsBjt8jJZv.jpg",
+        "lugar": " Stockholm, Stockholms län, Sweden",
+        "nacimiento": "1937-09-03",
+        "nombre": "Kristina Adolphson",
+        "oficio": "Acting",
+        "tmdb": 231927,
+        "wikidata": "Q4933952",
+        "wikipedia": "https://es.wikipedia.org/wiki/Kristina_Adolphson"
+      },
+      "fecha": "2026-11-25"
     },
     "2323057": {
       "datos": {
@@ -41666,6 +42445,42 @@
         "wikidata": "Q106809987"
       },
       "fecha": "2026-11-19"
+    },
+    "2483492": {
+      "datos": {
+        "conocida": [
+          [
+            "Los Juegos del Hambre: Amanecer en la cosecha",
+            2026,
+            "pelicula",
+            "Clerk Carmine"
+          ],
+          [
+            "Oro sin ley",
+            2026,
+            "pelicula",
+            "Big Prisoner"
+          ],
+          [
+            "Stutter",
+            2024,
+            "pelicula",
+            "Officer Beaumont"
+          ],
+          [
+            "Simulation",
+            2019,
+            "pelicula",
+            "Albert Cane"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/rK4XdOzRabOwMX7N6Jq41JPjllV.jpg",
+        "nombre": "Jeff Hallman",
+        "oficio": "Acting",
+        "tmdb": 2483492,
+        "wikidata": "Q130764134"
+      },
+      "fecha": "2026-11-25"
     },
     "2486756": {
       "datos": {
@@ -43336,6 +44151,41 @@
       },
       "fecha": "2026-11-19"
     },
+    "2690922": {
+      "datos": {
+        "conocida": [
+          [
+            "La resistencia",
+            2018,
+            "serie",
+            "Self"
+          ],
+          [
+            "Ruido",
+            2025,
+            "pelicula",
+            ""
+          ],
+          [
+            "Alguna pregunta més?",
+            2004,
+            "serie",
+            "Self - Guest"
+          ],
+          [
+            "La Revuelta",
+            2024,
+            "serie",
+            "Self - Guest"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/pJO25OPMh8Yx1OKD5OoT3LeCpvy.jpg",
+        "nombre": "Asaari Bibang",
+        "oficio": "Acting",
+        "tmdb": 2690922
+      },
+      "fecha": "2026-11-25"
+    },
     "2693140": {
       "datos": {
         "bio": {
@@ -44883,6 +45733,29 @@
       },
       "fecha": "2026-11-19"
     },
+    "2876635": {
+      "datos": {
+        "conocida": [
+          [
+            "El club de los buenos infieles",
+            2018,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Ruido",
+            2025,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/oK4ufGSoJzlvTJ9rnz6zOIkxqUp.jpg",
+        "nombre": "Ingride Santos Piñol",
+        "oficio": "Directing",
+        "tmdb": 2876635
+      },
+      "fecha": "2026-11-25"
+    },
     "2882338": {
       "datos": {
         "conocida": [
@@ -45168,6 +46041,59 @@
         "tmdb": 2945577
       },
       "fecha": "2026-11-19"
+    },
+    "2966859": {
+      "datos": {
+        "bio": {
+          "en": "George Burgess is an English professional rugby league footballer. In 2019, Burgess made his acting debut in the Australian/New Zealand crime thriller Locusts."
+        },
+        "conocida": [
+          [
+            "Misión hostil",
+            2024,
+            "pelicula",
+            "Private Cooper"
+          ],
+          [
+            "Spartacus: La Casa de Ashur",
+            2025,
+            "serie",
+            "Rhodius"
+          ],
+          [
+            "Beast (La bestia)",
+            2026,
+            "pelicula",
+            "Neal"
+          ],
+          [
+            "Oro sin ley",
+            2026,
+            "pelicula",
+            "Letender"
+          ],
+          [
+            "Ascendant",
+            2021,
+            "pelicula",
+            "Sergey"
+          ],
+          [
+            "Locusts",
+            2020,
+            "pelicula",
+            "Ivan"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/fxTvtnpfjU5uKFKu4GoAVD1o7i0.jpg",
+        "lugar": "Dewsbury, West Yorkshire, England, UK",
+        "nacimiento": "1992-04-21",
+        "nombre": "George Burgess",
+        "oficio": "Acting",
+        "tmdb": 2966859,
+        "wikidata": "Q5537434"
+      },
+      "fecha": "2026-11-25"
     },
     "2978": {
       "datos": {
@@ -45913,6 +46839,9 @@
             "Maria"
           ]
         ],
+        "descripcion": {
+          "es": "actriz noruega"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/kR5lOHYLgZc3QiGep1SJPMVMCWy.jpg",
         "nacimiento": "1998-06-06",
         "nombre": "Vivild Falk Berg",
@@ -46127,6 +47056,9 @@
             "Emilie"
           ]
         ],
+        "descripcion": {
+          "es": "actriz noruega"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/yem43JCCG9xpjTT1IuosGtmZVNA.jpg",
         "lugar": "Norway",
         "nacimiento": "2003-11-02",
@@ -47616,13 +48548,17 @@
             "Spinoza"
           ]
         ],
+        "descripcion": {
+          "es": "actor y comediante británico"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/4aacb6fRghFwrT636cYmAYqQ35o.jpg",
         "lugar": "Stanleytown, Rhondda, Wales, UK",
         "nacimiento": "1958-05-17",
         "nombre": "Paul Whitehouse",
         "oficio": "Acting",
         "tmdb": 34900,
-        "wikidata": "Q1343140"
+        "wikidata": "Q1343140",
+        "wikipedia": "https://es.wikipedia.org/wiki/Paul_Whitehouse"
       },
       "fecha": "2026-11-19"
     },
@@ -48290,6 +49226,41 @@
         "tmdb": 3654
       },
       "fecha": "2026-11-19"
+    },
+    "36619": {
+      "datos": {
+        "bio": {
+          "en": "Padraic McKinley (born 1974) is an American producer, editor, and director, best known for his directorial debut The Weight (2026), as well as executive producer roles on television series such as The Good Lord Bird and The Loudest Voice. He is set to direct the third film in the Sicario franchise."
+        },
+        "conocida": [
+          [
+            "Debris",
+            2021,
+            "serie",
+            "Director"
+          ],
+          [
+            "Oro sin ley",
+            2026,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Fightworld",
+            2018,
+            "serie",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/zh9r6ByHZUyqFmMJVBdDYbgFn4s.jpg",
+        "lugar": "San Francisco, California, USA",
+        "nacimiento": "1974-08-15",
+        "nombre": "Padraic McKinley",
+        "oficio": "Editing",
+        "tmdb": 36619,
+        "wikidata": "Q60229363"
+      },
+      "fecha": "2026-11-25"
     },
     "36662": {
       "datos": {
@@ -49038,6 +50009,65 @@
       },
       "fecha": "2026-11-19"
     },
+    "38127": {
+      "datos": {
+        "bio": {
+          "es": "Erland Josephson (ˈæːɭand ˈʝuːsɛfsɔn; Estocolmo, 15 de junio de 1923-25 de febrero de 2012) fue un director teatral, actor y escritor sueco. Uno de los más grandes intérpretes suecos del siglo XX, Erland Josephson fue un actor de cine y de teatro de eco internacional. Luego fue director teatral y cinematográfico, así como escritor. Es sobre todo conocido por su actuación en decenas de películas dirigidas por su amigo Ingmar Bergman; trabajó con él desde el inicio, en 1946 (en un pequeño papel), hasta la última película de éste, en 2003. Pero también actuó con otros valiosos cineastas como Andrei Tarkovsky, Greenaway, István Szabó o Theodoros Angelopoulos."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Isak Jacobi"
+          ],
+          [
+            "Gritos y susurros",
+            1972,
+            "pelicula",
+            "David"
+          ],
+          [
+            "Sonata de otoño",
+            1978,
+            "pelicula",
+            "Josef"
+          ],
+          [
+            "Sacrificio",
+            1986,
+            "pelicula",
+            "Alexander"
+          ],
+          [
+            "Nostalgia",
+            1983,
+            "pelicula",
+            "Domenico"
+          ],
+          [
+            "La hora del lobo",
+            1968,
+            "pelicula",
+            "Baron von Merkens"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director teatral, actor i escriptor suec",
+          "es": "actor sueco"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/dopG1nAzyT23DMAPyPoUuwbZs4a.jpg",
+        "lugar": "Stockholm, Stockholms län, Sweden",
+        "muerte": "2012-02-25",
+        "nacimiento": "1923-06-16",
+        "nombre": "Erland Josephson",
+        "oficio": "Acting",
+        "tmdb": 38127,
+        "wikidata": "Q321344",
+        "wikipedia": "https://es.wikipedia.org/wiki/Erland_Josephson"
+      },
+      "fecha": "2026-11-25"
+    },
     "3813575": {
       "datos": {
         "conocida": [
@@ -49195,6 +50225,63 @@
         "wikidata": "Q2178753"
       },
       "fecha": "2026-11-20"
+    },
+    "3853": {
+      "datos": {
+        "bio": {
+          "en": "Nils Börje Ahlstedt (born 21 February 1939) is a Swedish actor who has worked extensively with the world-famous director Ingmar Bergman in films like Fanny and Alexander (1982), The Best Intentions (1992), Sunday's Children (1992) and Saraband (2003). Ahlstedt has also worked with the directors Bo Widerberg and Kay Pollak."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Carl Ekdahl"
+          ],
+          [
+            "Ronja Rövardotter",
+            1984,
+            "pelicula",
+            "Mattis"
+          ],
+          [
+            "Saraband",
+            2003,
+            "pelicula",
+            "Henrik"
+          ],
+          [
+            "Soy curiosa (amarillo)",
+            1967,
+            "pelicula",
+            "Börje, Lena's boyfriend"
+          ],
+          [
+            "Las mejores intenciones",
+            1992,
+            "pelicula",
+            "Carl Åkerblom"
+          ],
+          [
+            "Exit",
+            2006,
+            "pelicula",
+            "Wilhelm Rahmberg"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor suec",
+          "es": "actor sueco"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/vTSfBV4IY1DozY70l3M3oy5K6sH.jpg",
+        "lugar": "Stockholm, Sweden",
+        "nacimiento": "1939-02-21",
+        "nombre": "Börje Ahlstedt",
+        "oficio": "Acting",
+        "tmdb": 3853,
+        "wikidata": "Q731643"
+      },
+      "fecha": "2026-11-25"
     },
     "3855316": {
       "datos": {
@@ -50132,6 +51219,53 @@
       },
       "fecha": "2026-11-19"
     },
+    "4328571": {
+      "datos": {
+        "conocida": [
+          [
+            "30 monedas",
+            2020,
+            "serie",
+            "Roger"
+          ],
+          [
+            "Upon Entry",
+            2023,
+            "pelicula",
+            "Policia sala"
+          ],
+          [
+            "La Fortuna",
+            2021,
+            "serie",
+            "Victor"
+          ],
+          [
+            "Pollos sin cabeza",
+            2023,
+            "serie",
+            "Presentador"
+          ],
+          [
+            "Entrepreneurs",
+            2025,
+            "serie",
+            "Ramsés"
+          ],
+          [
+            "En el corredor de la muerte",
+            2019,
+            "serie",
+            "Uniformed Police Officer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/aTXwoHJdrp3ZGwjHB3duzaG0w3T.jpg",
+        "nombre": "David Comrie",
+        "oficio": "Acting",
+        "tmdb": 4328571
+      },
+      "fecha": "2026-11-25"
+    },
     "4340338": {
       "datos": {
         "nombre": "Júlia Jové",
@@ -50975,6 +52109,23 @@
       },
       "fecha": "2026-11-19"
     },
+    "4640765": {
+      "datos": {
+        "conocida": [
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/mLXN2CKGxRc2yMdeKBaF6qQ0Q7r.jpg",
+        "nombre": "Yaiza Berrocal",
+        "oficio": "Acting",
+        "tmdb": 4640765
+      },
+      "fecha": "2026-11-25"
+    },
     "46593": {
       "datos": {
         "bio": {
@@ -51074,6 +52225,246 @@
         "wikidata": "Q125483906"
       },
       "fecha": "2026-11-19"
+    },
+    "46864": {
+      "datos": {
+        "bio": {
+          "en": "Bertil Guve is a Swedish civil engineer M.Sc., and former child actor. He is well-known as \"Alexander\" in Ingmar Bergman's epic film \"Fanny & Alexander\" (1982). As of 2023, Guve is a civil engineer at the Royal Institute of Technology in Stockholm, Sweden."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Alexander Ekdahl"
+          ],
+          [
+            "Tras el ensayo",
+            1984,
+            "pelicula",
+            "Henrik Vogler (younger)"
+          ],
+          [
+            "Dokument Fanny och Alexander",
+            1984,
+            "pelicula",
+            "Self"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor suec",
+          "es": "actor sueco"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/qWotNaGSuzwYMh1Bp7BBGxA7lnV.jpg",
+        "lugar": " Stockholm, Stockholms län, Sweden",
+        "nacimiento": "1970-09-09",
+        "nombre": "Bertil Guve",
+        "oficio": "Acting",
+        "tmdb": 46864,
+        "wikidata": "Q5778766"
+      },
+      "fecha": "2026-11-25"
+    },
+    "46865": {
+      "datos": {
+        "bio": {
+          "en": "Pernilla Allwin is a prior Swedish child actor, who starred in Ingmar Bergman's 1982 film and limited series, Fanny and Alexander."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Fanny Ekdahl"
+          ],
+          [
+            "Dokument Fanny och Alexander",
+            1984,
+            "pelicula",
+            "Self"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu sueca",
+          "es": "actriz sueca"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/nbe5bEuz4cJHmDbp0X98UxvFfqS.jpg",
+        "lugar": "Vällingby, Sweden",
+        "nacimiento": "1970-09-04",
+        "nombre": "Pernilla Allwin",
+        "oficio": "Acting",
+        "tmdb": 46865,
+        "wikidata": "Q4935163"
+      },
+      "fecha": "2026-11-25"
+    },
+    "46866": {
+      "datos": {
+        "bio": {
+          "en": "Ewa Fröling (born Eva Marie Fröling; August 9, 1952) is a Swedish actress. She is internationally most recognized for her leading parts in Gunnel Lindblom's Sally och friheten (as Sally) and Ingmar Bergman's Fanny and Alexander (as Emelie). Description above from the Wikipedia article Ewa Fröling, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Millennium 1: Los hombres que no amaban a las mujeres",
+            2009,
+            "pelicula",
+            "Harriet Vanger"
+          ],
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Emilie Ekdahl"
+          ],
+          [
+            "Una segunda oportunidad",
+            2015,
+            "pelicula",
+            "Ingrid"
+          ],
+          [
+            "Tatort",
+            1970,
+            "serie",
+            "Eveline Wallstöm"
+          ],
+          [
+            "Millennium: La serie",
+            2010,
+            "serie",
+            "Harriet Vanger"
+          ],
+          [
+            "Just another love story",
+            2007,
+            "pelicula",
+            "Mrs. Castlund"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu sueca",
+          "es": "actriz sueca"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/6CILCzlzTJKjKlvqqvLqyOatvxb.jpg",
+        "lugar": "Stockholm, Stockholms län, Sweden",
+        "nacimiento": "1952-08-09",
+        "nombre": "Ewa Fröling",
+        "oficio": "Acting",
+        "tmdb": 46866,
+        "wikidata": "Q458752"
+      },
+      "fecha": "2026-11-25"
+    },
+    "46867": {
+      "datos": {
+        "bio": {
+          "en": "Jan Wilhelm Malmsjö (born 29 May 1932 in Lund, Sweden) is a Swedish stage and actor, musical star and singer. He is married to Marie Göranzon and father to Jonas Malmsjö."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Bishop Edvard Vergérus"
+          ],
+          [
+            "Secretos de un matrimonio",
+            1974,
+            "pelicula",
+            "Peter"
+          ],
+          [
+            "Combat",
+            1962,
+            "serie",
+            "Bruener"
+          ],
+          [
+            "Dina",
+            2002,
+            "pelicula",
+            "Merchant #3"
+          ],
+          [
+            "Beck",
+            1999,
+            "serie",
+            "Ernst Levendahl"
+          ],
+          [
+            "Drömkåken",
+            1993,
+            "pelicula",
+            "The major"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/w1x4KhyWndGgZYw772algFd1JBC.jpg",
+        "lugar": "Lund, Sweden",
+        "nacimiento": "1932-05-29",
+        "nombre": "Jan Malmsjö",
+        "oficio": "Acting",
+        "tmdb": 46867,
+        "wikidata": "Q728985"
+      },
+      "fecha": "2026-11-25"
+    },
+    "46868": {
+      "datos": {
+        "bio": {
+          "en": "Gunn Wållgren (16 November 1913 – 4 June 1983) was a Swedish actress. Considered one of Sweden's finest and also to date most appreciated actresses, Wållgren was famous for her fragile and sensual way of acting, her warm and rich inner soulfulness, and her never failing ability of presenting an absolute presence and naturalness on stage. Her Chekhov and Ibsen character interpretations, in particular, are considered to be unsurpassed."
+        },
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Helena Ekdahl"
+          ],
+          [
+            "Los hermanos Corazón de León",
+            1977,
+            "pelicula",
+            "Sofia"
+          ],
+          [
+            "Mannen som slutade röka",
+            1972,
+            "pelicula",
+            "Aunt Gunhild"
+          ],
+          [
+            "Dokument Fanny och Alexander",
+            1984,
+            "pelicula",
+            "Self"
+          ],
+          [
+            "La mujer sin rostro",
+            1947,
+            "pelicula",
+            "Rut Köhler"
+          ],
+          [
+            "Ordet",
+            1943,
+            "pelicula",
+            "Kristina"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu sueca (1913–1983)",
+          "es": "actriz sueca (1913–1983)"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/4kZzWGj7avObRin7drWAiE0AnQ9.jpg",
+        "lugar": "Göteborg, Göteborg- och Bohus län, Sweden",
+        "muerte": "1983-06-04",
+        "nacimiento": "1913-11-16",
+        "nombre": "Gunn Wållgren",
+        "oficio": "Acting",
+        "tmdb": 46868,
+        "wikidata": "Q455358"
+      },
+      "fecha": "2026-11-25"
     },
     "4743010": {
       "datos": {
@@ -51254,6 +52645,55 @@
         "tmdb": 4765561
       },
       "fecha": "2026-11-19"
+    },
+    "4776463": {
+      "datos": {
+        "conocida": [
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Kaira (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/oQMNxiNXTrjzWcuEhMeSlQFRawk.jpg",
+        "nombre": "Maria Jesús Lleonart",
+        "oficio": "Acting",
+        "tmdb": 4776463
+      },
+      "fecha": "2026-11-25"
+    },
+    "4776464": {
+      "datos": {
+        "conocida": [
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Dayana (voice)"
+          ]
+        ],
+        "nombre": "Miranda Guerrero Vargas",
+        "oficio": "Acting",
+        "tmdb": 4776464
+      },
+      "fecha": "2026-11-25"
+    },
+    "4776465": {
+      "datos": {
+        "conocida": [
+          [
+            "Mariposas negras",
+            2024,
+            "pelicula",
+            "Hennrick (voice)"
+          ]
+        ],
+        "nombre": "Nicolás Infante Franco",
+        "oficio": "Acting",
+        "tmdb": 4776465
+      },
+      "fecha": "2026-11-25"
     },
     "4777013": {
       "datos": {
@@ -52237,6 +53677,38 @@
       },
       "fecha": "2026-11-19"
     },
+    "5068639": {
+      "datos": {
+        "conocida": [
+          [
+            "Ruido",
+            2025,
+            "pelicula",
+            "Lati"
+          ]
+        ],
+        "nombre": "Latifa Drame",
+        "oficio": "Acting",
+        "tmdb": 5068639
+      },
+      "fecha": "2026-11-25"
+    },
+    "5068640": {
+      "datos": {
+        "conocida": [
+          [
+            "Ruido",
+            2025,
+            "pelicula",
+            "Judy"
+          ]
+        ],
+        "nombre": "Judith Álvarez",
+        "oficio": "Acting",
+        "tmdb": 5068640
+      },
+      "fecha": "2026-11-25"
+    },
     "5072775": {
       "datos": {
         "conocida": [
@@ -52783,6 +54255,22 @@
         "tmdb": 5269231
       },
       "fecha": "2026-11-19"
+    },
+    "5273310": {
+      "datos": {
+        "conocida": [
+          [
+            "Ruido",
+            2025,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Lobo Estepario",
+        "oficio": "Acting",
+        "tmdb": 5273310
+      },
+      "fecha": "2026-11-25"
     },
     "5279229": {
       "datos": {
@@ -54681,6 +56169,63 @@
       },
       "fecha": "2026-11-19"
     },
+    "563559": {
+      "datos": {
+        "bio": {
+          "en": "Samuel Hazeldine (born 29 March 1972) is an English actor."
+        },
+        "conocida": [
+          [
+            "Peaky Blinders",
+            2013,
+            "serie",
+            "Georgie Sewell"
+          ],
+          [
+            "The Witcher",
+            2019,
+            "serie",
+            "Eredin"
+          ],
+          [
+            "El otro guardaespaldas",
+            2017,
+            "pelicula",
+            "Garrett"
+          ],
+          [
+            "Las crónicas de Blancanieves: El cazador y la reina del hielo",
+            2016,
+            "pelicula",
+            "Leifr"
+          ],
+          [
+            "El Señor de los Anillos: Los Anillos de Poder",
+            2022,
+            "serie",
+            "Adar"
+          ],
+          [
+            "El último duelo",
+            2021,
+            "pelicula",
+            "Thomin Dubois"
+          ]
+        ],
+        "descripcion": {
+          "es": "actor británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/zyt5yR8hXMA9ZcwtL0yDadwvi4m.jpg",
+        "lugar": "Hammersmith, London, England, UK",
+        "nacimiento": "1972-03-29",
+        "nombre": "Sam Hazeldine",
+        "oficio": "Acting",
+        "tmdb": 563559,
+        "wikidata": "Q7407585",
+        "wikipedia": "https://es.wikipedia.org/wiki/Sam_Hazeldine"
+      },
+      "fecha": "2026-11-25"
+    },
     "5639750": {
       "datos": {
         "conocida": [
@@ -54969,6 +56514,64 @@
         "tmdb": 5686879
       },
       "fecha": "2026-11-19"
+    },
+    "569": {
+      "datos": {
+        "bio": {
+          "en": "Ethan Green Hawke (born November 6, 1970) is an American actor, writer and director. He made his feature film debut in 1985 with the science fiction movie Explorers, before making a supporting appearance in the 1989 drama Dead Poets Society which is considered his breakthrough role. He then appeared in such films as White Fang (1991), A Midnight Clear (1992), and Alive (1993) before taking a role in the 1994 Generation X drama Reality Bites, for which he gained critical acclaim. In 1995, he starred in the romantic drama Before Sunrise, and later in its sequel Before Sunset (2004)."
+        },
+        "conocida": [
+          [
+            "El club de los poetas muertos",
+            1989,
+            "pelicula",
+            "Todd Anderson"
+          ],
+          [
+            "La purga. La noche de las bestias",
+            2013,
+            "pelicula",
+            "James Sandin"
+          ],
+          [
+            "Valerian y la ciudad de los mil planetas",
+            2017,
+            "pelicula",
+            "Jolly the Pimp"
+          ],
+          [
+            "Predestination",
+            2014,
+            "pelicula",
+            "The Bartender"
+          ],
+          [
+            "Puñales por la espalda: El misterio de Glass Onion",
+            2022,
+            "pelicula",
+            "Efficient Man"
+          ],
+          [
+            "Gattaca",
+            1997,
+            "pelicula",
+            "Vincent Freeman"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor, director, productor, guionista i escriptor estatunidenc",
+          "es": "actor, cineasta y escritor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/2LoTr6x0TEM7L5em4kSx1VmGDgG.jpg",
+        "lugar": "Austin, Texas, USA",
+        "nacimiento": "1970-11-06",
+        "nombre": "Ethan Hawke",
+        "oficio": "Acting",
+        "tmdb": 569,
+        "wikidata": "Q484615",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ethan_Hawke"
+      },
+      "fecha": "2026-11-25"
     },
     "5690471": {
       "datos": {
@@ -57910,6 +59513,65 @@
       },
       "fecha": "2026-11-19"
     },
+    "6648": {
+      "datos": {
+        "bio": {
+          "es": "Escritor, director y productor de teatro, cine, radio y televisión sueco, sin duda la figura más destacada del cine escandinavo. Nació en Upsala, hijo de un pastor protestante, y se educó en la Universidad de Estocolmo, donde estudió literatura e historia del arte antes de incorporarse como ayudante de producción en la ópera Real de Estocolmo. En 1943, por el montaje de su obra La muerte de Gaspar (1942), la productora Svensk Filmindustri (SF) le contrató para el departamento de guiones. El año siguiente, esta productora hizo una película a partir de su novela corta Tortura, que finalmente dirigiría Alf Sjöberg."
+        },
+        "conocida": [
+          [
+            "El séptimo sello",
+            1957,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Persona",
+            1966,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Fresas salvajes",
+            1957,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Gritos y susurros",
+            1972,
+            "pelicula",
+            "Narrator (voice)"
+          ],
+          [
+            "Sonata de otoño",
+            1978,
+            "pelicula",
+            "Screenplay"
+          ]
+        ],
+        "descripcion": {
+          "ca": "cineasta suec (1918–2007)",
+          "es": "guionista y director sueco de cine y teatro (1918-2007)"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+        "lugar": "Uppsala, Uppsala län, Sweden",
+        "muerte": "2007-07-30",
+        "nacimiento": "1918-07-14",
+        "nombre": "Ingmar Bergman",
+        "oficio": "Directing",
+        "tmdb": 6648,
+        "wikidata": "Q7546",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ingmar_Bergman"
+      },
+      "fecha": "2026-11-25"
+    },
     "6677": {
       "datos": {
         "bio": {
@@ -58588,6 +60250,10 @@
             "Liz"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu britànica",
+          "es": "actriz británica"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
         "lugar": "Islington, London, England, UK",
         "nacimiento": "1969-06-06",
@@ -58814,6 +60480,10 @@
             "Jarl Varg"
           ]
         ],
+        "descripcion": {
+          "ca": "actor noruec",
+          "es": "actor noruego"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/kUkQP35OdAUtAr7lw7O9RNfFRL4.jpg",
         "lugar": "Oslo, Norway",
         "nacimiento": "1971-05-31",
@@ -59149,13 +60819,18 @@
             "Director"
           ]
         ],
+        "descripcion": {
+          "ca": "guionista britànic",
+          "es": "guionista y cineasta británico"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/8HBmOh12MS8Wu06tkqVtoaINhzF.jpg",
         "lugar": "USA",
         "nacimiento": "1960-09-30",
         "nombre": "Mark Burton",
         "oficio": "Writing",
         "tmdb": 7316,
-        "wikidata": "Q6766943"
+        "wikidata": "Q6766943",
+        "wikipedia": "https://es.wikipedia.org/wiki/Mark_Burton_%28guionista%29"
       },
       "fecha": "2026-11-19"
     },
@@ -59599,13 +61274,18 @@
             "Pasgård"
           ]
         ],
+        "descripcion": {
+          "ca": "actor noruec",
+          "es": "actor noruego"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/ypyMSXwABVXHjTOfpEHW008cw1A.jpg",
         "lugar": "Oslo, Norway",
         "nacimiento": "1986-01-12",
         "nombre": "Jakob Oftebro",
         "oficio": "Acting",
         "tmdb": 76555,
-        "wikidata": "Q11977902"
+        "wikidata": "Q11977902",
+        "wikipedia": "https://es.wikipedia.org/wiki/Jakob_Oftebro"
       },
       "fecha": "2026-11-19"
     },
@@ -59652,13 +61332,18 @@
             "Gustav"
           ]
         ],
+        "descripcion": {
+          "ca": "actor noruec",
+          "es": "actor noruego"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/eJzuZZfFBaMSgcbR3Pe5zBxEC3z.jpg",
         "lugar": "Stavanger, Norway",
         "nacimiento": "1980-11-06",
         "nombre": "Pål Sverre Hagen",
         "oficio": "Acting",
         "tmdb": 76556,
-        "wikidata": "Q2013068"
+        "wikidata": "Q2013068",
+        "wikipedia": "https://es.wikipedia.org/wiki/P%C3%A5l_Sverre_Hagen"
       },
       "fecha": "2026-11-19"
     },
@@ -59763,6 +61448,10 @@
             "Katja"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu noruega",
+          "es": "actriz noruega"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/xAaBmAepMzWoHuoI5sl1feYEKYx.jpg",
         "lugar": "Aurskog-Høland, Norway",
         "nacimiento": "1981-04-09",
@@ -61148,6 +62837,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "87310": {
+      "datos": {
+        "bio": {
+          "en": "Julia Jones (born January 23, 1981) is an American stage, film and television actress, best known for portraying Leah Clearwater in The Twilight Saga feature film franchise. Julia Jones was born in Boston, Massachusetts, to Frank Jones and Penny Wells. She has a younger brother named Cody. She has stated that her mother is of English descent, and that her father \"is part Choctaw, Chickasaw, and African-American\". She was raised in the Jamaica Plain neighborhood of Boston, and frequented the first JP Licks ice cream store, which was close to her home. Jones studied at Boston Ballet School from the age of 4. She began working in commercials and local theatre when she was eight."
+        },
+        "conocida": [
+          [
+            "The Mandalorian",
+            2019,
+            "serie",
+            "Omera"
+          ],
+          [
+            "La saga Crepúsculo: Amanecer - Parte 2",
+            2012,
+            "pelicula",
+            "Leah"
+          ],
+          [
+            "La saga Crepúsculo: Amanecer - Parte 1",
+            2011,
+            "pelicula",
+            "Leah"
+          ],
+          [
+            "La saga Crepúsculo: Eclipse",
+            2010,
+            "pelicula",
+            "Leah Clearwater"
+          ],
+          [
+            "Westworld",
+            2016,
+            "serie",
+            "Kohana"
+          ],
+          [
+            "Wind River",
+            2017,
+            "pelicula",
+            "Wilma Lambert"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/sXxhcP2UyQUnNXXi20OMpVzxtBM.jpg",
+        "lugar": "Boston, Massachusetts, USA",
+        "nacimiento": "1981-01-23",
+        "nombre": "Julia Jones",
+        "oficio": "Acting",
+        "tmdb": 87310,
+        "wikidata": "Q239240",
+        "wikipedia": "https://es.wikipedia.org/wiki/Julia_Jones"
+      },
+      "fecha": "2026-11-25"
+    },
     "88124": {
       "datos": {
         "bio": {
@@ -62004,6 +63751,61 @@
       },
       "fecha": "2026-11-19"
     },
+    "93138": {
+      "datos": {
+        "conocida": [
+          [
+            "Fanny y Alexander",
+            1982,
+            "pelicula",
+            "Aron Retzinsky"
+          ],
+          [
+            "Evil (Ondskan)",
+            2003,
+            "pelicula",
+            "Melander"
+          ],
+          [
+            "Den ofrivillige golfaren",
+            1991,
+            "pelicula",
+            "Bruno Anderhage"
+          ],
+          [
+            "Wallander",
+            2005,
+            "serie",
+            "Nyberg"
+          ],
+          [
+            "Hälsoresan - En smal film av stor vikt",
+            1999,
+            "pelicula",
+            "Bruno Anderhage"
+          ],
+          [
+            "Göta Kanal 2 - kanalkampen",
+            2006,
+            "pelicula",
+            "Farmer Hansson"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor suec",
+          "es": "actor sueco"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/tOKkKjGNJpvMtQ6XNoKASREMNDa.jpg",
+        "lugar": "Gothenburg, Västra Götalands län, Sweden",
+        "nacimiento": "1948-05-05",
+        "nombre": "Mats Bergman",
+        "oficio": "Acting",
+        "tmdb": 93138,
+        "wikidata": "Q718280",
+        "wikipedia": "https://es.wikipedia.org/wiki/Mats_Bergman"
+      },
+      "fecha": "2026-11-25"
+    },
     "931421": {
       "datos": {
         "bio": {
@@ -62277,6 +64079,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Mahershala_Ali"
       },
       "fecha": "2026-11-19"
+    },
+    "934": {
+      "datos": {
+        "bio": {
+          "es": "Russell Ira Crowe (Wellington, Nueva Zelanda, 7 de abril de 1964) es un actor, director, productor de cine y músico neozelandés. Crowe captó la atención internacional por su papel como el general romano Máximo Décimo Meridio en la histórica película épica Gladiador (2000), dirigida por Ridley Scott, film por el que Crowe ganó un Óscar al mejor actor, un Premio de la Asociación de Críticos de Cine al Mejor Actor, un Premio Empire al Mejor Actor, un London Film Critics Circle Award por Mejor Actor y más de 10 candidaturas a mejor actor."
+        },
+        "conocida": [
+          [
+            "Gladiator",
+            2000,
+            "pelicula",
+            "Maximus"
+          ],
+          [
+            "El hombre de acero",
+            2013,
+            "pelicula",
+            "Jor-El"
+          ],
+          [
+            "Una mente maravillosa",
+            2001,
+            "pelicula",
+            "John Nash"
+          ],
+          [
+            "La Liga de la Justicia de Zack Snyder",
+            2021,
+            "pelicula",
+            "Jor-El (voice)"
+          ],
+          [
+            "Thor: Love and Thunder",
+            2022,
+            "pelicula",
+            "Zeus"
+          ],
+          [
+            "Dos buenos tipos",
+            2016,
+            "pelicula",
+            "Jackson Healy"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor neozelandès-australià",
+          "es": "actor neozelandés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/3IBZF0qCZMZ7zJYlgrH0sQzNZV.jpg",
+        "lugar": "Wellington, North Island, New Zealand",
+        "nacimiento": "1964-04-07",
+        "nombre": "Russell Crowe",
+        "oficio": "Acting",
+        "tmdb": 934,
+        "wikidata": "Q129817",
+        "wikipedia": "https://es.wikipedia.org/wiki/Russell_Crowe"
+      },
+      "fecha": "2026-11-25"
     },
     "938080": {
       "datos": {
@@ -63602,6 +65462,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q111218939": {
+      "descripcion": {
+        "ca": "guionista i director de cinema",
+        "es": "guionista español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q111276502": {
       "descripcion": {
         "ca": "actor català",
@@ -63703,6 +65571,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Francesca_Pi%C3%B1%C3%B3n"
     },
+    "Q113000116": {
+      "descripcion": {
+        "es": "actriz noruega"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q113039438": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -63791,6 +65666,11 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q115325763": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q115735": {
       "descripcion": {
         "ca": "actor francès",
@@ -63805,6 +65685,13 @@
         "es": "actor japonés"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q116055498": {
+      "descripcion": {
+        "es": "cineasta argentina"
+      },
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q11655785": {
@@ -63938,6 +65825,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Pere_Arquillu%C3%A9"
     },
+    "Q11955285": {
+      "descripcion": {
+        "ca": "director de teatre i compositor català",
+        "es": "director teatral y compositor español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Xavier_Albert%C3%AD"
+    },
     "Q11964837": {
       "descripcion": {
         "ca": "actor noruec",
@@ -63945,6 +65840,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/David_Menkin"
+    },
+    "Q11977902": {
+      "descripcion": {
+        "ca": "actor noruec",
+        "es": "actor noruego"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Jakob_Oftebro"
     },
     "Q120018977": {
       "descripcion": {
@@ -64063,6 +65966,13 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q124499794": {
+      "descripcion": {
+        "es": "actriz noruega"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q124641586": {
       "descripcion": {
         "ca": "periodista i cineasta israelià",
@@ -64151,6 +66061,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Vivien_Leigh"
     },
+    "Q129817": {
+      "descripcion": {
+        "ca": "actor neozelandès-australià",
+        "es": "actor neozelandés"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Russell_Crowe"
+    },
     "Q130251776": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -64170,6 +66088,11 @@
         "es": "actriz española"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q130764134": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q130894": {
@@ -64233,11 +66156,25 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Tennessee_Williams"
     },
+    "Q1343140": {
+      "descripcion": {
+        "es": "actor y comediante británico"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Paul_Whitehouse"
+    },
     "Q134471185": {
       "descripcion": {
         "es": "actor francés"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q134487103": {
+      "descripcion": {
+        "es": "actriz noruega"
+      },
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q134895": {
@@ -64247,6 +66184,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Javier_Bardem"
+    },
+    "Q135001235": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/David_Baute"
     },
     "Q135261819": {
       "descripcion": {
@@ -64283,6 +66225,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Blanca_Soroa"
+    },
+    "Q137608899": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q137609329": {
       "descripcion": null,
@@ -64732,6 +66679,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ben_Kingsley"
     },
+    "Q17413640": {
+      "descripcion": {
+        "ca": "actriu britànica",
+        "es": "actriz británica"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q17503525": {
       "descripcion": {
         "ca": "empresària estatunidenca condemnada per frau",
@@ -64984,6 +66939,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Pepa_L%C3%B3pez"
     },
+    "Q2013068": {
+      "descripcion": {
+        "ca": "actor noruec",
+        "es": "actor noruego"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/P%C3%A5l_Sverre_Hagen"
+    },
     "Q2023710": {
       "descripcion": {
         "ca": "actor anglès",
@@ -65141,6 +67104,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Miki_Esparb%C3%A9"
+    },
+    "Q21045595": {
+      "descripcion": {
+        "ca": "cantant catalana"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Mone"
     },
     "Q21155102": {
       "descripcion": {
@@ -65431,6 +67401,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/M%C3%A9lissa_D%C3%A9sormeaux-Poulin"
     },
+    "Q239240": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Julia_Jones"
+    },
     "Q2399195": {
       "descripcion": {
         "ca": "actor català",
@@ -65438,6 +67416,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Pep_Munn%C3%A9"
+    },
+    "Q24050009": {
+      "descripcion": {
+        "ca": "actriu de teatre, televisió i doblatge catalana",
+        "es": "actriz de voz española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Merc%C3%A8_Montal%C3%A0"
     },
     "Q2405609": {
       "descripcion": {
@@ -65515,6 +67501,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/%C3%80ngel_Ll%C3%A0cer"
     },
+    "Q24951694": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Laura_G%C3%B3mez_%28actriz%29"
+    },
     "Q251038": {
       "descripcion": {
         "ca": "novel·lista britànic",
@@ -65567,6 +67561,11 @@
         "es": "actor estadounidense"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q2640625": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q264348": {
@@ -65655,6 +67654,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Lance_Oppenheim"
+    },
+    "Q27049947": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Austin_Amelio"
     },
     "Q271944": {
       "descripcion": {
@@ -65766,6 +67773,14 @@
     "Q28495778": {
       "descripcion": null,
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q2850467": {
+      "descripcion": {
+        "ca": "actriu sueca",
+        "es": "actriz sueca"
+      },
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q28541392": {
@@ -65929,6 +67944,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Peyton_Elizabeth_Lee"
     },
+    "Q30154050": {
+      "descripcion": {
+        "ca": "actor danès",
+        "es": "actor danés"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Lucas_Lynggaard_T%C3%B8nnesen"
+    },
     "Q3052744": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -65970,6 +67993,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Alexander_Skarsg%C3%A5rd"
+    },
+    "Q31080434": {
+      "descripcion": {
+        "ca": "comediant noruec",
+        "es": "comediante noruego"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q310937": {
       "descripcion": {
@@ -66058,6 +68089,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ky%C5%8Dko_Kagawa"
     },
+    "Q321344": {
+      "descripcion": {
+        "ca": "director teatral, actor i escriptor suec",
+        "es": "actor sueco"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Erland_Josephson"
+    },
     "Q3218046": {
       "descripcion": {
         "es": "guionista estadounidense"
@@ -66096,6 +68135,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Maxim_Gaudette"
+    },
+    "Q33123460": {
+      "descripcion": {
+        "ca": "actriu xilena",
+        "es": "actriz chilena-estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Lux_Pascal"
     },
     "Q3326153": {
       "descripcion": {
@@ -66214,6 +68261,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Mahershala_Ali"
+    },
+    "Q3621855": {
+      "descripcion": {
+        "ca": "actor espanyol",
+        "es": "actor y director español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Paco_Le%C3%B3n"
     },
     "Q3629622": {
       "descripcion": {
@@ -66508,6 +68563,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Clancy_Brown"
     },
+    "Q455358": {
+      "descripcion": {
+        "ca": "actriu sueca (1913–1983)",
+        "es": "actriz sueca (1913–1983)"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q456360": {
       "descripcion": {
         "ca": "actriu francesa",
@@ -66523,6 +68586,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Sean_Connery"
+    },
+    "Q458752": {
+      "descripcion": {
+        "ca": "actriu sueca",
+        "es": "actriz sueca"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q460987": {
       "descripcion": {
@@ -66619,6 +68690,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Richard_Gere"
     },
+    "Q484615": {
+      "descripcion": {
+        "ca": "actor, director, productor, guionista i escriptor estatunidenc",
+        "es": "actor, cineasta y escritor estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ethan_Hawke"
+    },
     "Q485298": {
       "descripcion": {
         "ca": "actriu estatunidenca",
@@ -66643,6 +68722,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Hugh_Quarshie"
     },
+    "Q4894018": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Bernat_Quintana_Sanfeliu"
+    },
     "Q490406": {
       "descripcion": {
         "es": "cineasta surcoreano"
@@ -66665,6 +68752,22 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Richard_Jordan_%28actor%29"
+    },
+    "Q4933952": {
+      "descripcion": {
+        "ca": "actriu sueca",
+        "es": "actriz sueca"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Kristina_Adolphson"
+    },
+    "Q4935163": {
+      "descripcion": {
+        "ca": "actriu sueca",
+        "es": "actriz sueca"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q494393": {
       "descripcion": {
@@ -66703,6 +68806,14 @@
         "es": "músico estadounidense"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q5085947": {
+      "descripcion": {
+        "ca": "actriu noruega",
+        "es": "actriz noruega"
+      },
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q509777": {
@@ -66751,6 +68862,22 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/David_Selvas"
+    },
+    "Q526266": {
+      "descripcion": {
+        "ca": "actriu britànica",
+        "es": "actriz británica"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
+    "Q526886": {
+      "descripcion": {
+        "ca": "actor britànic",
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Andy_Nyman"
     },
     "Q531467": {
       "descripcion": {
@@ -66852,6 +68979,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu"
     },
+    "Q5537434": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q55400": {
       "descripcion": {
         "ca": "Animador i director de cinema japonès",
@@ -66906,6 +69038,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Carlota_Olcina"
+    },
+    "Q56600101": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Avi_Nash"
     },
     "Q5661221": {
       "descripcion": {
@@ -66963,6 +69103,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Michael_Fassbender"
     },
+    "Q57167212": {
+      "descripcion": {
+        "ca": "director i guionista de cinema noruec"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q5725010": {
       "descripcion": {
         "ca": "actor britànic",
@@ -66994,6 +69141,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ernesto_Alterio"
+    },
+    "Q5778766": {
+      "descripcion": {
+        "ca": "actor suec",
+        "es": "actor sueco"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q5809324": {
       "descripcion": {
@@ -67081,6 +69236,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ramon_Sim%C3%B3"
     },
+    "Q60229363": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q60429893": {
       "descripcion": {
         "ca": "dramaturg, guionista i director de cinema espanyol",
@@ -67112,6 +69272,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Isabel_Pe%C3%B1a"
+    },
+    "Q6071660": {
+      "descripcion": {
+        "ca": "actriu i pallassa catalana",
+        "es": "actriz y payasa española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Pepa_Plana"
     },
     "Q60737294": {
       "descripcion": {
@@ -67187,6 +69355,19 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/August_Diehl"
     },
+    "Q6258580": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
+    "Q6271813": {
+      "descripcion": {
+        "ca": "actor noruec",
+        "es": "actor noruego"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q6294057": {
       "descripcion": {
         "ca": "humorista, actor, director i guionista espanyol",
@@ -67209,6 +69390,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Juan_Minuj%C3%ADn"
+    },
+    "Q6317587": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q63198577": {
       "descripcion": {
@@ -67233,6 +69419,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Zach_Cherry"
+    },
+    "Q6375522": {
+      "descripcion": {
+        "ca": "actriu de veu britànica",
+        "es": "actriz de voz británica"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Kate_Harbour"
     },
     "Q63974254": {
       "descripcion": null,
@@ -67262,6 +69456,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Anna_Sawai"
     },
+    "Q6524211": {
+      "descripcion": {
+        "ca": "director de cinema canadenc",
+        "es": "director de cine canadiense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q65937299": {
       "descripcion": {
         "ca": "actriu canadenca",
@@ -67282,6 +69484,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Rudy_Bond"
+    },
+    "Q6766943": {
+      "descripcion": {
+        "ca": "guionista britànic",
+        "es": "guionista y cineasta británico"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mark_Burton_%28guionista%29"
     },
     "Q67881": {
       "descripcion": {
@@ -67364,6 +69574,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Paul_Sparks"
     },
+    "Q718280": {
+      "descripcion": {
+        "ca": "actor suec",
+        "es": "actor sueco"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mats_Bergman"
+    },
     "Q726128": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -67395,9 +69613,22 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Rakul_Preet_Singh_%28actriz%29"
     },
+    "Q728985": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q7296622": {
       "descripcion": null,
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q731643": {
+      "descripcion": {
+        "ca": "actor suec",
+        "es": "actor sueco"
+      },
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q73226863": {
@@ -67432,6 +69663,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Daisy_Edgar-Jones"
     },
+    "Q7407585": {
+      "descripcion": {
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Sam_Hazeldine"
+    },
     "Q74428": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -67444,6 +69682,22 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Adam_Jezierski"
+    },
+    "Q7493389": {
+      "descripcion": {
+        "ca": "artista estatunidenc",
+        "es": "artista estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
+    "Q75015745": {
+      "descripcion": {
+        "ca": "actriu beninesa",
+        "es": "actriz beninesa"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Bella_Agossou"
     },
     "Q75143096": {
       "descripcion": {
@@ -67460,6 +69714,22 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q7518873": {
+      "descripcion": {
+        "ca": "actor britànic",
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Simon_Greenall"
+    },
+    "Q7546": {
+      "descripcion": {
+        "ca": "cineasta suec (1918–2007)",
+        "es": "guionista y director sueco de cine y teatro (1918-2007)"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ingmar_Bergman"
     },
     "Q77359137": {
       "descripcion": null,

@@ -118,6 +118,37 @@
     "tipo": "eventos",
     "traducido": "es"
   },
+  "open_data_bcn:99400660510": {
+    "barrio": "el Poblenou",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Farem exercicis molt dinàmics en què potenciarem la nostra creativitat i les nostres habilitats personals. Desenvoluparem la nostra imaginació, estimularem l'espontaneïtat, augmentarem la nostra percepció i la nostra sensibilitat mentre passem una bona estona. Impartit per David Franch.",
+      "es": "Haremos ejercicios muy dinámicos en los que potenciaremos nuestra creatividad y nuestras habilidades personales. Desarrollaremos nuestra imaginación, estimularemos la espontaneidad, aumentaremos nuestra percepción y nuestra sensibilidad mientras pasamos un buen rato. Impartido por David Franch."
+    },
+    "direccion": "Plaça de Josep Maria Huertas Claveria 1",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-improvisacio-teatral_99400660510.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400660510",
+    "idioma_textos": "ca",
+    "lat": 41.40367975860696,
+    "lon": 2.20050971216533,
+    "nombre": "Improvisació teatral",
+    "precio_max": 84.72,
+    "precio_min": 84.72,
+    "sala": "Centre Cívic Can Felipa",
+    "sala_id": "barcelona:via700802-1",
+    "subtipo": "formación",
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400666915": {
     "artista": "Cia. La Puntual- Eugenio Navarro i Rosa Bigas",
     "barrio": "Sant Pere, Santa Caterina i la Ribera",
@@ -367,6 +398,38 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400719454": {
+    "barrio": "les Corts",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Espai de recerca i exploració del moviment aeri a través del trapezi. Un lloc per aprendre la tècnica i aprofundir en figures transitòries i dinàmiques en suspensió. Treballarem la força, la flexibilitat i la consciència corporal. Professional: Alejandro Lento.",
+      "es": "Espacio de investigación y exploración del movimiento aéreo a través del trapecio. Un lugar para aprender la técnica y profundizar en figuras transitorias y dinámicas en suspensión. Trabajaremos la fuerza, la flexibilidad y la consciencia corporal. Profesional: Alejandro Lento."
+    },
+    "direccion": "Carrer de Dolors Masferrer i Bosch 33",
+    "disciplina": "circo",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-investigacio-aeria-amb-trapezi_99400719454.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "19:15"
+      ]
+    ],
+    "id": "open_data_bcn:99400719454",
+    "idioma_textos": "ca",
+    "lat": 41.38495205031265,
+    "lon": 2.1281680265887797,
+    "nombre": "Investigació aèria amb trapezi",
+    "precio_max": 114.47,
+    "precio_min": 114.47,
+    "sala": "Centre Cívic Tomasa Cuevas",
+    "sala_id": "barcelona:via202708-33",
+    "sala_interior": "Les Corts",
+    "subtipo": "formación",
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400720613": {
     "barrio": "el Barri Gòtic",
     "caducado": "2026-11-23",
@@ -504,6 +567,82 @@
         "identidad"
       ]
     },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400732896": {
+    "barrio": "les Corts",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-22",
+    "descripcion": {
+      "ca": "Disciplina de circ aeri que ens permet explorar el moviment en suspensió a través de diferents figures i seqüències. De manera progressiva, treballarem la força i descobrirem habilitats sovint amagades, com la flexibilitat, la coordinació i la consciència corporal. Professional: Alejandro Lento",
+      "es": "Disciplina de circo aéreo que nos permite explorar el movimiento en suspensión a través de diferentes figuras y secuencias. De manera progresiva, trabajaremos la fuerza y descubriremos habilidades a menudo ocultas, como la flexibilidad, la coordinación y la conciencia corporal. Profesional: Alejandro Lento"
+    },
+    "direccion": "Carrer de Dolors Masferrer i Bosch 33",
+    "disciplina": "circo",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-teles_99400732896.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "17:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400732896",
+    "idioma_textos": "ca",
+    "lat": 41.38495205031265,
+    "lon": 2.1281680265887797,
+    "nombre": "Teles",
+    "precio_max": 114.47,
+    "precio_min": 114.47,
+    "sala": "Centre Cívic Tomasa Cuevas",
+    "sala_id": "barcelona:via202708-33",
+    "sala_interior": "Les Corts",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "circ aeri"
+      ],
+      "es": [
+        "circo aéreo"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400745169": {
+    "artista": "companyia Creart Guinardó",
+    "barrio": "el Guinardó",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Per què em contes el CONTE? Si quan et descontes arribem al bon resultat! A càrrec de Cia CREART Organitza: Taula de Cultura d'Horta-Guinardó",
+      "es": "¿Por qué me cuentas el CUENTO? ¡Si cuando te descuentas llegamos al buen resultado! A cargo de Cia CREART. Organiza: Taula de Cultura d'Horta-Guinardó"
+    },
+    "direccion": "Plaça de Salvador Riera 2",
+    "equipo": [
+      [
+        "a càrrec de",
+        "Cia CREART"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-descontes-a-carrec-de-la-companyia-creart-guinardo_99400745169.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "19:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400745169",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/DESCONTES_1.760x428.4f0a52b7.jpg",
+    "lat": 41.418169158350054,
+    "lon": 2.1744079393214104,
+    "nombre": "Descontes",
+    "sala": "Casal Mas Guinardó",
+    "sala_id": "barcelona:via294808-2",
     "tipo": "teatro",
     "traducido": "es"
   },
@@ -731,6 +870,31 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400750911": {
+    "barrio": "Ciutat Meridiana",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-24",
+    "direccion": "C Pedraforca 16",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-24",
+        "16:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400750911",
+    "idioma_textos": "ca",
+    "lat": 41.46141821200166,
+    "lon": 2.175282758337867,
+    "nombre": "La nave del olvido",
+    "sala": "Casal de Gent Gran Pedraforca",
+    "sala_id": "barcelona:via248301-16",
+    "subtipo": "conferencia o coloquio",
+    "tipo": "eventos"
+  },
   "open_data_bcn:99400755648": {
     "barrio": "el Congrés i els Indians",
     "caducado": "2026-11-17",
@@ -840,6 +1004,36 @@
       ]
     },
     "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400761740": {
+    "barrio": "el Parc i la Llacuna del Poblenou",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A càrrec de Carme Canet",
+      "es": "A cargo de Carme Canet"
+    },
+    "direccion": "Carrer de Buenaventura Muñoz 21",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-radio-teatre_99400761740.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "17:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400761740",
+    "idioma_textos": "ca",
+    "lat": 41.39174570900244,
+    "lon": 2.184766821590944,
+    "nombre": "Radio Teatre",
+    "sala": "Centre Cívic Parc Sandaru",
+    "sala_id": "barcelona:via50803-21",
+    "subtipo": "formación",
+    "tipo": "eventos",
     "traducido": "es"
   },
   "open_data_bcn:99400762210": {
@@ -2227,6 +2421,45 @@
     "sala": "Centre Cultural La Casa Elizalde",
     "sala_id": "barcelona:via350308-302",
     "subtipo": "formación",
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400785449": {
+    "barrio": "el Parc i la Llacuna del Poblenou",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "A càrrec de Elias Ashtari",
+      "es": "A cargo de Elias Ashtari."
+    },
+    "direccion": "Carrer de Buenaventura Muñoz 21",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-escriptura-teatral-dramaturgia-del-paper-en-blanc-a-l-obra-de-teatre_99400785449.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "17:30"
+      ]
+    ],
+    "id": "open_data_bcn:99400785449",
+    "idioma_textos": "ca",
+    "lat": 41.39174570900244,
+    "lon": 2.184766821590944,
+    "nombre": "Escriptura teatral / Dramatúrgia: del paper en blanc a l’obra de teatre",
+    "precio_max": 60.5,
+    "precio_min": 60.5,
+    "sala": "Centre Cívic Parc Sandaru",
+    "sala_id": "barcelona:via50803-21",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "escriptura teatral"
+      ],
+      "es": [
+        "escritura teatral"
+      ]
+    },
     "tipo": "eventos",
     "traducido": "es"
   },
@@ -3933,6 +4166,96 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400790032": {
+    "artista": "Juan Tomás de Ávila Laurel",
+    "barrio": "el Raval",
+    "caducado": "2026-11-24",
+    "compra": "https://salafenix.com/programacio/ollas-limpias-ollas-sucias/",
+    "compra_sala": "https://www.salafenix.com/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "L'obra ens acosta a la història de Yamba Yahyé, una dona africana la vida de la qual reflecteix la força, la creativitat i la capacitat de resistència de tantes dones que, dia rere dia, sostenen la vida de les seves famílies i comunitats. A través de les seves experiències entre l'Àfrica i Europa, descobrim les estratègies que desenvolupa per tirar endavant en contextos d'escassetat i desigualtat, marcats per les empremtes del colonialisme i les seves conseqüències. Yamba ens comparteix una història marcada per la pobresa, la marginació, l'amuntegament i les dificultats de viure als marges. És una dona que fa l'impossible per cuidar i alimentar les persones que depenen d'ella, fins i tot quan no són els seus propis fills. La seva història ens parla dels vincles, de les cures i d'aquella força quotidiana que permet continuar endavant fins i tot quan sembla que tot està en contra.",
+      "es": "La obra nos acerca a la historia de Yamba Yahyé, una mujer africana cuya vida refleja la fuerza, la creatividad y la capacidad de resistencia de tantas mujeres que, día tras día, sostienen la vida de sus familias y comunidades. A través de sus experiencias entre África y Europa, descubrimos las estrategias que desarrolla para salir adelante en contextos de escasez y desigualdad, marcados por las huellas del colonialismo y sus consecuencias. Yamba nos comparte una historia marcada por la pobreza, la marginación, el hacinamiento y las dificultades de vivir al margen. Es una mujer que hace lo imposible por cuidar y alimentar a las personas que dependen de ella, incluso cuando no son sus propios hijos. Su historia nos habla de los vínculos, de los cuidados y de aquella fuerza cotidiana que permite continuar adelante incluso cuando parece que todo está en contra."
+    },
+    "direccion": "C Riereta 31",
+    "duracion": 60,
+    "equipo": [
+      [
+        "direcció",
+        "Sonia Espinosa Muñoz"
+      ],
+      [
+        "autoria",
+        "Juan Tomás de Ávila Laurel"
+      ],
+      [
+        "text",
+        "Juan Tomás de Ávila Laurel"
+      ],
+      [
+        "actriu",
+        "Silvia Albert Sopale"
+      ],
+      [
+        "vestuari",
+        "Rogelio Lorda"
+      ],
+      [
+        "escenografia i il·luminació",
+        "Manoly Rubio"
+      ],
+      [
+        "producció",
+        "Lara Renard"
+      ],
+      [
+        "ajudant de direcció i producció",
+        "Roger Serradell Zamora"
+      ]
+    ],
+    "ficha_fuente": "https://salafenix.com/programacio/ollas-limpias-ollas-sucias/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-ollas-limpias-ollas-sucias-de-juan-tomas-de-avila-laurel_99400790032.html",
+    "funciones": [
+      [
+        "2026-11-24",
+        "18:00"
+      ],
+      [
+        "2026-11-24",
+        "20:00"
+      ]
+    ],
+    "generos": [
+      "drama"
+    ],
+    "id": "open_data_bcn:99400790032",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/ollaslimpias.760x428.8c851aed.jpg",
+    "lat": 41.37774197880728,
+    "lon": 2.1690774017656755,
+    "nombre": "Ollas limpias, ollas sucias",
+    "pagina_obra": "https://salafenix.com/programacio/ollas-limpias-ollas-sucias/",
+    "precio_max": 20.8,
+    "precio_min": 18.8,
+    "sala": "Sala Fènix",
+    "sala_id": "barcelona:via282605-31",
+    "temas": {
+      "ca": [
+        "resistència",
+        "cures",
+        "colonialisme"
+      ],
+      "es": [
+        "resistencia",
+        "cuidados",
+        "colonialismo"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400790047": {
     "barrio": "Sarrià",
     "caducado": "2026-11-20",
@@ -3997,6 +4320,30 @@
     "sala": "Casal de Gent Gran Cotxeres de Sants",
     "sala_id": "barcelona:via134958-6",
     "subtipo": "formación",
+    "tipo": "eventos"
+  },
+  "open_data_bcn:99400790192": {
+    "barrio": "Sants",
+    "caducado": "2026-11-24",
+    "comprobado": "2026-11-24",
+    "direccion": "Carrer d'Olzinelles 30",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-24",
+        "18:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400790192",
+    "idioma_textos": "ca",
+    "lat": 41.3728382875641,
+    "lon": 2.136528708977845,
+    "nombre": "Solo una vez",
+    "sala_id": "barcelona:via235208-30",
+    "subtipo": "conferencia o coloquio",
     "tipo": "eventos"
   },
   "open_data_bcn:99400790269": {

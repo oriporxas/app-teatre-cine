@@ -1709,6 +1709,16 @@
     },
     "traduccion": "Con Jaume Serra"
   },
+  "open_data_bcn:99400740744": {
+    "destino": "es",
+    "firma": "f9de21a8b218a5cf",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "Taller práctico en el que las familias crearán pequeñas animaciones con la técnica cut-out que, al final, formarán parte de un montaje audiovisual colectivo. A cargo de Òscar Domènec"
+  },
   "open_data_bcn:99400740860": {
     "destino": "es",
     "firma": "6c75a615d9a19746",
@@ -2043,6 +2053,16 @@
       ]
     },
     "traduccion": "En \"Terra baixa\", Manelic es un pastor que vive en la montaña, lejos del mundo que hay más abajo. Lo convencen para que baje y se case con una chica, Marta, de la que se enamora sin verla; pero una vez casados se da cuenta de que ella no le ama y de que los campesinos que trabajan para el amo se ríen de él. Todos saben que el amo, Sebastià, ha urdido este matrimonio para poner fin a los rumores sobre su relación con Marta y así casarse con una heredera de buena familia que liquide sus deudas. Reparto Marta: Adriana Capri / Anna Puigdueta Manelic: Daniel Bayona Sebastià: Ruben Medina Nuri: Anna Torras Pepa: Roser Mateo / Esther Pané Antònia: Pilar Alcoba Tomàs: Jordi Vicente Josep: Joan Mateo / Albert Pueyo"
+  },
+  "open_data_bcn:99400749181": {
+    "destino": "es",
+    "firma": "32511890af0fcdf0",
+    "premios": [],
+    "temas": {
+      "ca": [],
+      "es": []
+    },
+    "traduccion": "La acrobacia es una actividad que implica equilibrio, agilidad y coordinación, acompañada de trabajo físico y flexibilidad. En este taller nos iniciaremos en las acrobacias básicas en el suelo. A cargo de l'Associació Esportiva Sant Andreu"
   },
   "open_data_bcn:99400749269": {
     "destino": "es",
@@ -10531,6 +10551,24 @@
       ]
     },
     "traduccion": "Escrita en 1951, Vals Núm. 6 sigue siendo una obra de una radical actualidad. Más de setenta años después de su estreno, el texto de Nelson Rodrigues resuena con fuerza en una sociedad que todavía arrastra formas sutiles y profundas de violencia patriarcal. La obra pone en escena la cultura de la culpabilización de las víctimas, la estigmatización del deseo adolescente y la falta de espacios seguros para expresarlo. Rodrigues da voz a una chica muerta, pero lo hace desde un lugar vivo e inquietante, anticipando con una claridad sorprendente muchos de los debates contemporáneos sobre el consentimiento, la presión social y la manera en que se construyen los relatos sobre las víctimas. La fragmentación del discurso, la mezcla de realidad y fantasía, y el uso de un lenguaje poético e hiriente conectan con las formas actuales de narrar el trauma, y convierten Vals Núm. 6 en una obra plenamente vigente."
+  },
+  "open_data_bcn:99400791392": {
+    "destino": "es",
+    "firma": "5df8b41685439aa5",
+    "premios": [],
+    "temas": {
+      "ca": [
+        "solitud",
+        "gent gran",
+        "nadal"
+      ],
+      "es": [
+        "soledad",
+        "personas mayores",
+        "navidad"
+      ]
+    },
+    "traduccion": "\"¡A la mesa!\" es un espectáculo cómico para todos los públicos protagonizado por la \"Stefi\", un personaje solitario y desconfiado que se encuentra sola el día de la comida de Navidad. La casa se le hace grande —la mesa, las sillas...— porque no hay nadie con quien compartirla. Bajo el tono cómico y tierno, la propuesta esconde una capa de lectura más profunda: la realidad de las personas mayores que pasan las fiestas en soledad."
   },
   "webs_salas:06cf230b024b496e": {
     "destino": "es",

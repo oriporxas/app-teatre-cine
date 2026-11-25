@@ -1652,6 +1652,118 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:fanny y alexander:bergman": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/heSihYfiOqSNeWcuCRP2GoApZJO.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+          "id": 6648,
+          "nombre": "Ingmar Bergman"
+        }
+      ],
+      "duracion": 189,
+      "edad": "12",
+      "estreno": "1982-12-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/8reX3CMog1QHqGoym2Esvuk5MnK.jpg",
+      "generos": [
+        "Fantasía",
+        "Drama",
+        "Misterio"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+          "id": 6648,
+          "nombre": "Ingmar Bergman"
+        }
+      ],
+      "idioma_original": "sv",
+      "imdb": "tt0083922",
+      "lema": "Un Film de Ingmar Bergman",
+      "musica": [],
+      "nota_tmdb": 7.8,
+      "paises": [
+        "SE",
+        "FR",
+        "DE"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nbe5bEuz4cJHmDbp0X98UxvFfqS.jpg",
+          "id": 46865,
+          "nombre": "Pernilla Allwin",
+          "papel": "Fanny Ekdahl"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qWotNaGSuzwYMh1Bp7BBGxA7lnV.jpg",
+          "id": 46864,
+          "nombre": "Bertil Guve",
+          "papel": "Alexander Ekdahl"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/w1x4KhyWndGgZYw772algFd1JBC.jpg",
+          "id": 46867,
+          "nombre": "Jan Malmsjö",
+          "papel": "Bishop Edvard Vergérus"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6CILCzlzTJKjKlvqqvLqyOatvxb.jpg",
+          "id": 46866,
+          "nombre": "Ewa Fröling",
+          "papel": "Emilie Ekdahl"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4kZzWGj7avObRin7drWAiE0AnQ9.jpg",
+          "id": 46868,
+          "nombre": "Gunn Wållgren",
+          "papel": "Helena Ekdahl"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vTSfBV4IY1DozY70l3M3oy5K6sH.jpg",
+          "id": 3853,
+          "nombre": "Börje Ahlstedt",
+          "papel": "Carl Ekdahl"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nbfWVE92DyRi2b0iqgKwNQcO8Jc.jpg",
+          "id": 201337,
+          "nombre": "Anna Bergman",
+          "papel": "Hanna Schwartz"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mmEjKI41WmeSUaIEJvsBjt8jJZv.jpg",
+          "id": 231927,
+          "nombre": "Kristina Adolphson",
+          "papel": "Siri"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dopG1nAzyT23DMAPyPoUuwbZs4a.jpg",
+          "id": 38127,
+          "nombre": "Erland Josephson",
+          "papel": "Isak Jacobi"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tOKkKjGNJpvMtQ6XNoKASREMNDa.jpg",
+          "id": 93138,
+          "nombre": "Mats Bergman",
+          "papel": "Aron Retzinsky"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Fanny i Alexander són dos germans que pertanyen a la pintoresca família Ekdahl, a principis de segle XX. Els seus pares, l'Oscar i l'Emilie, són el director i l'actriu principal de la companyia local de teatre, respectivament. Després de la sobtada mort d'Oscar, Emilie es torna a casar amb un predicador autoritari que els obliga a mantenir una vida ascètica. \"Fanny i Alexander\" va ser acaronada per la crítica i va aconseguir quatre Oscars en l'edició de 1984: direcció artística, fotografia, vestuari i pel·lícula de parla no anglesa.",
+        "en": "As children in the loving Ekdahl family, Fanny and Alexander enjoy a happy life with their parents, who run a theater company. After their father dies unexpectedly, however, the siblings end up in a joyless home when their mother, Emilie, marries a stern bishop. The bleak situation gradually grows worse as the bishop becomes more controlling, but dedicated relatives make a valiant attempt to aid Emilie, Fanny and Alexander.",
+        "es": "Fanny y Alexander son dos hermanos que pertenecen a la pintoresca familia Ekdahl, a principios de siglo XX. Sus padres, Oscar y Emilie, son el director y la actriz principal de la compañía local de teatro, respectivamente. Tras la repentina muerte de Oscar, Emilie se vuelve a casar con un predicador autoritario que les obliga a mantener una vida ascética. \"Fanny y Alexander\" fue mimada por la crítica y consiguió cuatro Oscars en la edición de 1984: dirección artística, fotografía, vestuario y película de habla no inglesa."
+      },
+      "titulo": "Fanny y Alexander",
+      "titulo_ca": "Fanny i Alexander",
+      "titulo_original": "Fanny och Alexander",
+      "tmdb": 5961,
+      "trailer": "UCXoXFdNa1o",
+      "wikidata": "Q165651"
+    },
+    "fecha": "2026-11-25"
+  },
   "it:fatherland:pawlikowski": {
     "datos": null,
     "fecha": "2026-11-20"
@@ -3074,6 +3186,119 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:mariposas negras": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/csifAGt9yVtA8pbVj1lceNn2ZKI.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tYn2nOGuWMq1QqsrKZO1mFDL2fK.jpg",
+          "id": 1157587,
+          "nombre": "David Baute"
+        }
+      ],
+      "duracion": 83,
+      "edad": null,
+      "estreno": "2024-12-05",
+      "fondo": "https://image.tmdb.org/t/p/w1280/xMK07gd5QTamApBpfAJqN5rWEcp.jpg",
+      "generos": [
+        "Animación",
+        "Documental"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mLXN2CKGxRc2yMdeKBaF6qQ0Q7r.jpg",
+          "id": 4640765,
+          "nombre": "Yaiza Berrocal"
+        }
+      ],
+      "idioma_original": "es",
+      "imdb": "tt28061840",
+      "lema": "Una teoría para algunos. Una realidad para millones",
+      "musica": [
+        {
+          "id": 1500276,
+          "nombre": "Diego Navarro"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "PA",
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xdZFWQmttxlpG2aKCYdM7PanDZ2.jpg",
+          "id": 1443612,
+          "nombre": "Laura Gómez",
+          "papel": "Valeria (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yDg336M3ETLWpZjgZ0OaeK8zO0s.jpg",
+          "id": 1072088,
+          "nombre": "Bella Agossou",
+          "papel": "Tanit (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zS6sF8fwulKUz29ILxPoiSF34tF.jpg",
+          "id": 1679552,
+          "nombre": "Miranda Gas",
+          "papel": "Shaila (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/aTXwoHJdrp3ZGwjHB3duzaG0w3T.jpg",
+          "id": 4328571,
+          "nombre": "David Comrie",
+          "papel": "César (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/77RH14fRCa8Rg7D5Icbp22kiAl.jpg",
+          "id": 1993065,
+          "nombre": "Jaume Villanueva",
+          "papel": "Emuron/Agente Calcuta/Proxeneta/Hombre Turkana (voice) (as Jaime Villanueva)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oQMNxiNXTrjzWcuEhMeSlQFRawk.jpg",
+          "id": 4776463,
+          "nombre": "Maria Jesús Lleonart",
+          "papel": "Kaira (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bqexL0mwynTRqZkxvJR1KrYZTHq.jpg",
+          "id": 1146027,
+          "nombre": "Bernat Quintana",
+          "papel": "Aalik/Hombre Turkana (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5EOZvbsUofBu3rJqV5mhLvUlspi.jpg",
+          "id": 1013013,
+          "nombre": "Mercè Montalà",
+          "papel": "Priyanka/Enfermera 1 (voice)"
+        },
+        {
+          "id": 4776464,
+          "nombre": "Miranda Guerrero Vargas",
+          "papel": "Dayana (voice)"
+        },
+        {
+          "id": 4776465,
+          "nombre": "Nicolás Infante Franco",
+          "papel": "Hennrick (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Segueix la vida de tres dones que a causa del canvi climàtic han d'abandonar els seus punts d'origen, el Carib, Kènia i l'Índia, i afrontar un panorama desolador de precarietat laboral i agressions als països on emigren.",
+        "en": "Tanit, Valeria and Shaila are three women from very different parts of the world who face the same problem: climate change. They will lose everything because of global warming effects and they will be forced to emigrate to survive.",
+        "es": "El viaje de tres mujeres que huyen de un terreno inhabitable hacia nuevas vidas que distan mucho de ser acogedoras."
+      },
+      "titulo": "Mariposas negras",
+      "titulo_ca": "Papallones negres",
+      "titulo_original": "Mariposas negras",
+      "tmdb": 1280400,
+      "trailer": "FpMYYjljEnk",
+      "wikidata": "Q126680631"
+    },
+    "fecha": "2026-11-25"
+  },
   "it:miss carbon": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/fOqlr3OXH5H4eFtfkf1ykWTLgCA.jpg",
@@ -3560,6 +3785,79 @@
       "wikidata": "Q135509074"
     },
     "fecha": "2026-11-17"
+  },
+  "it:ruido": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/dG0Ts4NTE7QQoaabfuz1xzubLcf.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oK4ufGSoJzlvTJ9rnz6zOIkxqUp.jpg",
+          "id": 2876635,
+          "nombre": "Ingride Santos Piñol"
+        }
+      ],
+      "duracion": 85,
+      "edad": "12",
+      "estreno": "2025-11-28",
+      "fondo": "https://image.tmdb.org/t/p/w1280/sfozbnbUPvZHLLblRXdzGrRdPKS.jpg",
+      "generos": [
+        "Drama",
+        "Música"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oK4ufGSoJzlvTJ9rnz6zOIkxqUp.jpg",
+          "id": 2876635,
+          "nombre": "Ingride Santos Piñol"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3tgQlfFFf4NkQP4GpPphrZjSrZK.jpg",
+          "id": 1436742,
+          "nombre": "Lluís Segura"
+        }
+      ],
+      "idioma_original": "es",
+      "imdb": "tt34678593",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "ES"
+      ],
+      "reparto": [
+        {
+          "id": 5068639,
+          "nombre": "Latifa Drame",
+          "papel": "Lati"
+        },
+        {
+          "id": 5068640,
+          "nombre": "Judith Álvarez",
+          "papel": "Judy"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pJO25OPMh8Yx1OKD5OoT3LeCpvy.jpg",
+          "id": 2690922,
+          "nombre": "Asaari Bibang"
+        },
+        {
+          "id": 5273310,
+          "nombre": "Lobo Estepario"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La Lati va trobar refugi en el rap després de la mort del seu pare i, dos anys més tard, somia triomfar en el món de les batalles de freestyle. Tanmateix, la seva mare, una dona rigorosa, no tolera aquesta vocació perquè la considera perillosa i vulgar. La Lati entrenarà d’amagat amb la Judy, una antiga promesa del freestyle que l’ajudarà a enfrontar-se als seus propis límits, descobrint que la veritable batalla no es lliura només a l’escenari, sinó també al seu interior.",
+        "en": "Lati, a young rapper of African descent, must confront her mother to succeed in the world of freestyle.",
+        "es": "Lati encontró refugio en el rap tras la muerte de su padre y, dos años después, sueña con triunfar en el mundo de las batallas de freestyle. Sin embargo, su madre, una mujer rigurosa, no tolera esa vocación al considerarla peligrosa y vulgar. Lati entrenará a escondidas con Judy, una antigua promesa del freestyle que la ayudará a enfrentarse a sus propios límites, descubriendo que la verdadera batalla no se libra solo en el escenario, sino también en su interior."
+      },
+      "titulo": "Ruido",
+      "titulo_ca": "Soroll",
+      "titulo_original": "Ruido",
+      "tmdb": 1390154,
+      "trailer": "S17HKz9cPg8",
+      "wikidata": "Q136935788"
+    },
+    "fecha": "2026-11-25"
   },
   "it:sacamantecas:sanudo": {
     "datos": {
@@ -4075,6 +4373,10 @@
   "it:stampa models de mirar": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "it:submarinisme la mar la meva passio": {
+    "datos": null,
+    "fecha": "2026-11-25"
   },
   "it:tarda de cinema": {
     "datos": null,
@@ -5586,6 +5888,139 @@
   "itt102724": {
     "datos": null,
     "fecha": "2026-11-19"
+  },
+  "itt10794054": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/hTT42eBEiYcpgRormrS8re82Nt9.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zh9r6ByHZUyqFmMJVBdDYbgFn4s.jpg",
+          "id": 36619,
+          "nombre": "Padraic McKinley"
+        }
+      ],
+      "duracion": 115,
+      "edad": "16",
+      "estreno": "2026-09-16",
+      "fondo": "https://image.tmdb.org/t/p/w1280/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+      "generos": [
+        "Drama",
+        "Suspense"
+      ],
+      "guion": [
+        {
+          "id": 1941468,
+          "nombre": "Shelby Gaines"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/aMAshSZ418Byf4t5MIIYbRH2rAZ.jpg",
+          "id": 1258927,
+          "nombre": "Matthew Booi"
+        },
+        {
+          "id": 1246413,
+          "nombre": "Leo Scherman"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/aMAshSZ418Byf4t5MIIYbRH2rAZ.jpg",
+          "id": 1258927,
+          "nombre": "Matthew Booi"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt10794054",
+      "lema": "Una historia del bien y del mal.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bMRFJ3ALLxCzhRQuFvm0WHWNssI.jpg",
+          "id": 54485,
+          "nombre": "Latham Gaines"
+        },
+        {
+          "id": 1941468,
+          "nombre": "Shelby Gaines"
+        }
+      ],
+      "nota_tmdb": 7.0,
+      "paises": [
+        "US",
+        "DE",
+        "FR"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2LoTr6x0TEM7L5em4kSx1VmGDgG.jpg",
+          "id": 569,
+          "nombre": "Ethan Hawke",
+          "papel": "Samuel Murphy"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3IBZF0qCZMZ7zJYlgrH0sQzNZV.jpg",
+          "id": 934,
+          "nombre": "Russell Crowe",
+          "papel": "Warden Clancy"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sXxhcP2UyQUnNXXi20OMpVzxtBM.jpg",
+          "id": 87310,
+          "nombre": "Julia Jones",
+          "papel": "Anna"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/y4QTXuSSmD99n8dinMiTRBkUnAp.jpg",
+          "id": 1552436,
+          "nombre": "Austin Amelio",
+          "papel": "Rankin"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xmdcJQVhrnFdTv9KkrU3EnBWFfV.jpg",
+          "id": 1617697,
+          "nombre": "Avi Nash",
+          "papel": "Singh"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6o57Pv3tjxB9loPEDZX60PpIsr.jpg",
+          "id": 1444453,
+          "nombre": "Lucas Lynggaard Tønnesen",
+          "papel": "Olson"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zyt5yR8hXMA9ZcwtL0yDadwvi4m.jpg",
+          "id": 563559,
+          "nombre": "Sam Hazeldine",
+          "papel": "Amis"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fxTvtnpfjU5uKFKu4GoAVD1o7i0.jpg",
+          "id": 2966859,
+          "nombre": "George Burgess",
+          "papel": "Letender"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rK4XdOzRabOwMX7N6Jq41JPjllV.jpg",
+          "id": 2483492,
+          "nombre": "Jeff Hallman",
+          "papel": "Big Prisoner"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qbSY0vUIyc8SUuLCw7hK5CsTpvQ.jpg",
+          "id": 13362,
+          "nombre": "Alec Newman",
+          "papel": "Taggert"
+        }
+      ],
+      "sinopsis": {
+        "en": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+        "es": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?"
+      },
+      "titulo": "Oro sin ley",
+      "titulo_ca": null,
+      "titulo_original": "The Weight",
+      "tmdb": 1433583,
+      "trailer": "7YpuMymmiJ8",
+      "wikidata": "Q135906914"
+    },
+    "fecha": "2026-11-25"
   },
   "itt113421": {
     "datos": null,
@@ -10216,6 +10651,122 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt37799273": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/dAOiih0oNEYWYGmBaXryakDtsDI.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ii2HoeLucIJlot1DM5GiT5M4qGk.jpg",
+          "id": 3287533,
+          "nombre": "Marion Le Corroller"
+        }
+      ],
+      "duracion": 103,
+      "edad": null,
+      "estreno": "2026-10-28",
+      "fondo": "https://image.tmdb.org/t/p/w1280/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
+      "generos": [
+        "Ciencia ficción",
+        "Terror"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ii2HoeLucIJlot1DM5GiT5M4qGk.jpg",
+          "id": 3287533,
+          "nombre": "Marion Le Corroller"
+        },
+        {
+          "id": 1589029,
+          "nombre": "Thomas Pujol"
+        }
+      ],
+      "idioma_original": "fr",
+      "imdb": "tt37799273",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gIofL7sekradFzovvCm2xV5LaU5.jpg",
+          "id": 1530239,
+          "nombre": "Robin Coudert"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "FR",
+        "BE"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yEhRqSa6SAxUDXeAEGwXXfyaEnd.jpg",
+          "id": 1894436,
+          "nombre": "Mara Taquin",
+          "papel": "Margot Loiseau"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/quIomRrFBxXq32K5MBuvaTR3xBk.jpg",
+          "id": 13688,
+          "nombre": "Karin Viard",
+          "papel": "Hélène"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6b2jB4S9M3hbOisr4jmd2S7WfyL.jpg",
+          "id": 3070663,
+          "nombre": "Kim Higelin",
+          "papel": "Pauline Boucheron"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2ekj2Fc6sK039NKNaCQ8fIhjXq.jpg",
+          "id": 544687,
+          "nombre": "Sami Outalbali",
+          "papel": "Louis Serraut"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pEhRxeFhLR1iVyYBMkHijkLZ3xN.jpg",
+          "id": 2601088,
+          "nombre": "Stefan Crepon",
+          "papel": "Clément Bescond"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jXRi07zPXpuGr5IEcZbnnuYh3YV.jpg",
+          "id": 3782346,
+          "nombre": "Sonia Faidi",
+          "papel": "Lila Deschamps"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/coMdQ0fNF2Mr1GIRNDEYpGoAQOX.jpg",
+          "id": 4884943,
+          "nombre": "Edouard Ducamp"
+        },
+        {
+          "id": 6502703,
+          "nombre": "Benjamin Mendes",
+          "papel": "Etienne"
+        },
+        {
+          "id": 3119136,
+          "nombre": "Joël Cudennec",
+          "papel": "M. Bertholet"
+        },
+        {
+          "id": 4836318,
+          "nombre": "Lancelot Courcieras",
+          "papel": "Enzo"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La Margot, una estudiant de medicina brillant però insegura, lluita per sobreviure al ritme frenètic de les seves pràctiques a urgències. Tanmateix, l’esgotament no és el seu problema més gran: una onada de pacients joves són ingressats amb símptomes inexplicables que desafien tota lògica clínica.",
+        "en": "Margot, a young intern at the country's most competitive ER, struggles in the high-pressure environment. When multiple patients her age arrive with strange symptoms, her own body begins experiencing alarming transformations.",
+        "es": "Margot, una joven residente en el servicio de urgencias más competitivo del país, tiene dificultades para desenvolverse en un entorno de gran presión. Cuando llegan varios pacientes de su misma edad con síntomas extraños, su propio cuerpo empieza a experimentar transformaciones alarmantes."
+      },
+      "titulo": "Species (Sanguine)",
+      "titulo_ca": null,
+      "titulo_original": "Sanguine",
+      "tmdb": 1468846,
+      "trailer": "ubo-f-N9yx0",
+      "wikidata": "Q139470942"
+    },
+    "fecha": "2026-11-25"
+  },
   "itt3783958": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/7pFsAaJmiOppVHcldBzg8JKBHwe.jpg",
@@ -10809,6 +11360,10 @@
       "wikidata": "Q138940004"
     },
     "fecha": "2026-11-17"
+  },
+  "itt38584018": {
+    "datos": null,
+    "fecha": "2026-11-25"
   },
   "itt38773219": {
     "datos": {
@@ -12224,6 +12779,7 @@
   "p10539": "Q59824",
   "p106093": "Q7181929",
   "p1071955": "Q747950",
+  "p1072088": "Q75015745",
   "p1074587": "Q28708638",
   "p1090508": "Q2623285",
   "p1090789": "Q110954886",
@@ -12240,6 +12796,7 @@
   "p1149067": "Q23728778",
   "p1150114": "Q6036248",
   "p1152634": "Q1592579",
+  "p1157587": "Q135001235",
   "p1159954": "Q22248002",
   "p1172108": "Q20752077",
   "p118545": "Q2315802",
@@ -12302,6 +12859,7 @@
   "p1431632": "Q56243874",
   "p1437681": "Q19945198",
   "p1442194": "Q113164284",
+  "p1443612": "Q24951694",
   "p1443615": "Q2665604",
   "p1448172": "",
   "p1454651": "Q115325763",
@@ -12322,6 +12880,7 @@
   "p1526350": "Q125755193",
   "p1530910": "",
   "p1537686": "Q47456743",
+  "p1552436": "Q27049947",
   "p1555603": "Q63198577",
   "p1568360": "",
   "p1573069": "",
@@ -12335,6 +12894,7 @@
   "p1658652": "Q33645100",
   "p1665": "Q45647",
   "p1674275": "Q117337684",
+  "p1679552": "",
   "p169": "Q67881",
   "p16980": "Q11681419",
   "p17006": "Q264754",
@@ -12431,6 +12991,7 @@
   "p2639": "Q228928",
   "p2640": "Q541270",
   "p26882": "Q53834",
+  "p2690922": "",
   "p2695562": "Q122376075",
   "p2705856": "",
   "p2707814": "",
@@ -12450,6 +13011,7 @@
   "p28605": "Q86714",
   "p2869815": "",
   "p287": "Q35332",
+  "p2876635": "",
   "p28846": "Q310637",
   "p29021": "Q460987",
   "p2978": "Q360426",
@@ -12479,6 +13041,7 @@
   "p3578018": "",
   "p3582598": "Q125935843",
   "p3623": "Q240949",
+  "p36619": "Q60229363",
   "p36662": "Q219655",
   "p3697864": "",
   "p3698073": "",
@@ -12501,11 +13064,16 @@
   "p40684": "Q5236475",
   "p4124423": "",
   "p4323550": "",
+  "p4328571": "",
   "p4443627": "",
   "p4458960": "",
   "p4487239": "Q124641586",
   "p4487240": "Q131402272",
   "p46593": "Q244678",
+  "p46864": "Q5778766",
+  "p46865": "Q4935163",
+  "p46866": "Q458752",
+  "p46867": "Q728985",
   "p4744857": "Q134079852",
   "p4764": "Q223110",
   "p4812674": "Q134471185",
@@ -12520,11 +13088,14 @@
   "p50244": "Q2157388",
   "p5026": "Q8006",
   "p5063511": "",
+  "p5068639": "",
+  "p5068640": "",
   "p512079": "Q509777",
   "p5171095": "",
   "p51894": "Q932019",
   "p525": "Q25191",
   "p5269231": "",
+  "p5273310": "",
   "p5284715": "Q137170965",
   "p52968": "Q436829",
   "p5299192": "",
@@ -12551,6 +13122,7 @@
   "p5657053": "",
   "p566414": "Q137609329",
   "p5676": "Q55469",
+  "p569": "Q484615",
   "p5690471": "",
   "p5692144": "",
   "p574241": "Q28541392",
@@ -12594,6 +13166,7 @@
   "p6574": "Q4488",
   "p6575430": "",
   "p6645": "Q3431161",
+  "p6648": "Q7546",
   "p6677": "Q207506",
   "p67262": "Q9048215",
   "p6807": "Q316446",
@@ -12628,6 +13201,7 @@
   "p85034": "Q1063412",
   "p862": "Q182450",
   "p87015": "Q1224788",
+  "p87310": "Q239240",
   "p88124": "Q1138674",
   "p884": "Q104061",
   "p88592": "Q3302455",
@@ -12636,6 +13210,7 @@
   "p931421": "Q159832",
   "p932161": "Q2422285",
   "p932967": "Q360531",
+  "p934": "Q129817",
   "p938080": "Q8192289",
   "p94155": "Q3497894",
   "p942619": "Q9012655",
@@ -13711,6 +14286,13 @@
   ],
   "wQ125935843": [],
   "wQ126390739": [],
+  "wQ126680631": [
+    {
+      "anio": 2025,
+      "premio": "Premio Gaudí a la mejor película de animación",
+      "tipo": "ganado"
+    }
+  ],
   "wQ126680865": [
     {
       "anio": 2026,
@@ -13769,6 +14351,58 @@
     }
   ],
   "wQ129677718": [],
+  "wQ129817": [
+    {
+      "anio": 2001,
+      "premio": "Medalla del Centenario",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Óscar al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Australian National Living Treasure",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Globo de Oro al mejor actor - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio del Sindicato de Actores al mejor actor protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    }
+  ],
   "wQ130233166": [],
   "wQ130251776": [],
   "wQ130305038": [],
@@ -14314,6 +14948,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ135001235": [],
   "wQ135196186": [],
   "wQ135261819": [],
   "wQ135436961": [],
@@ -14326,6 +14961,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ135906914": [],
   "wQ136002124": [],
   "wQ136027913": [],
   "wQ136387857": [],
@@ -14354,6 +14990,7 @@
   "wQ136650058": [],
   "wQ136673081": [],
   "wQ136813984": [],
+  "wQ136935788": [],
   "wQ137170965": [],
   "wQ137437386": [
     {
@@ -14931,6 +15568,163 @@
       "anio": 2025,
       "premio": "Caballero de la Orden Nacional de la Legión de Honor",
       "tipo": "ganado"
+    }
+  ],
+  "wQ165651": [
+    {
+      "anio": null,
+      "premio": "César a la mejor película extranjera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar a la mejor fotografía",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor diseño de vestuario",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor diseño de producción",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar a la mejor película de habla no inglesa",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Guldbagge a la millor pel·lícula",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "BAFTA a la mejor fotografía",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "David de Donatello a la mejor película extranjera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "David de Donatello al mejor director extranjero",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Globo de Oro a la mejor película en lengua no inglesa",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Guldbagge a la millor direcció",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1983,
+      "premio": "Guldbagge al millor actor protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la mejor película extranjera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premi de l'Associació de Crítics de Cinema de Los Angeles a la millor fotografia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "National Board of Review Award a la millor pel·lícula en llengua estrangera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio del Círculo de Críticos de Cine de Nueva York a la mejor película extranjera",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "New York Film Critics Circle Award a la millor direcció",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premi Greta",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar a la mejor fotografía",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor diseño de vestuario",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor diseño de producción",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar a la mejor película de habla no inglesa",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Guldbagge a la millor pel·lícula",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "BAFTA a la mejor película de habla no inglesa",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "BAFTA a la mejor fotografía",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "BAFTA al mejor diseño de vestuario",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio del Sindicato de Directores a la mejor dirección",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Globo de Oro al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Candidata internacional als Premis Oscar",
+      "tipo": "nominado"
     }
   ],
   "wQ16738674": [
@@ -17396,6 +18190,7 @@
   ],
   "wQ23770470": [],
   "wQ2384494": [],
+  "wQ239240": [],
   "wQ240949": [
     {
       "anio": 2012,
@@ -17455,6 +18250,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ24951694": [],
   "wQ25191": [
     {
       "anio": 2010,
@@ -17760,6 +18556,7 @@
   ],
   "wQ27037976": [],
   "wQ27040203": [],
+  "wQ27049947": [],
   "wQ271944": [
     {
       "anio": null,
@@ -20643,6 +21440,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ458752": [],
   "wQ460987": [
     {
       "anio": 1983,
@@ -20783,6 +21581,48 @@
     {
       "anio": 1986,
       "premio": "Razzie al peor actor",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ484615": [
+    {
+      "anio": 2016,
+      "premio": "Premio Donostia del Festival de San Sebastián",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Independent Spirit",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Oscar al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premio Tony al mejor actor de reparto en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Óscar al mejor actor",
       "tipo": "nominado"
     }
   ],
@@ -21006,6 +21846,7 @@
     }
   ],
   "wQ491333": [],
+  "wQ4935163": [],
   "wQ498375": [
     {
       "anio": 1993,
@@ -21990,6 +22831,7 @@
   "wQ57584369": [],
   "wQ57584384": [],
   "wQ5765653": [],
+  "wQ5778766": [],
   "wQ580414": [],
   "wQ5923495": [],
   "wQ5927386": [
@@ -22039,6 +22881,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ60229363": [],
   "wQ6036248": [],
   "wQ6066826": [
     {
@@ -22540,6 +23383,43 @@
       "tipo": "nominado"
     }
   ],
+  "wQ728985": [
+    {
+      "anio": 1986,
+      "premio": "Medalla de Letras y Arte de Suecia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio O’Neill",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Illis quorum",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Medal of S:t Erik",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Thaliapriset",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Premio de Teatro de la Academia Sueca",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Lisebergsapplåden",
+      "tipo": "ganado"
+    }
+  ],
   "wQ7296622": [],
   "wQ73226863": [
     {
@@ -22686,10 +23566,158 @@
       "tipo": "nominado"
     }
   ],
+  "wQ75015745": [],
   "wQ75168191": [
     {
       "anio": 2021,
       "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ7546": [
+    {
+      "anio": 1958,
+      "premio": "Oso de oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1965,
+      "premio": "Premio Erasmus",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1970,
+      "premio": "Premio en memoria de Irving Thalberg",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1976,
+      "premio": "Premio Goethe",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Premios César",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "BAFTA Academy Fellowship Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premi del Cinema Europeu a la trajectòria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1991,
+      "premio": "Praemium Imperiale",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Federación Internacional de la Prensa Cinematográfica",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Sonning",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Miembro de la Academia Estadounidense de las Artes y las Ciencias",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1964,
+      "premio": "Guldbagge a la millor direcció",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Guldbagge al millor guió",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1983,
+      "premio": "Guldbagge a la millor direcció",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Doctorado honoris causa por la Universidad de Lille 3",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1958,
+      "premio": "Premio del Festival de Cannes al mejor director",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "David di Donatello al millor guió estranger",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "David de Donatello al mejor director extranjero",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1986,
+      "premio": "Doctor honoris causa de la Universidad de París-Sorbonne",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1974,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1977,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1960,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1963,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1974,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1979,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1984,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1974,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1976,
+      "premio": "César a la mejor película extranjera",
       "tipo": "nominado"
     }
   ],

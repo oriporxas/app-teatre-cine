@@ -4030,6 +4030,41 @@
     "firma": "6e3efa0a6a83d34a",
     "imagen": "https://www.daualsecartsesceniques.cat/img/image/fotos/980.jpeg?w=600&h=600&zc=1&aoe=1&q=80"
   },
+  "https://www.eixampleteatre.cat/ca/Burundanga-de-Jordi-Galceran": {
+    "datos": {
+      "duracion": 90,
+      "equipo": [
+        [
+          "Silvia",
+          "Gemma Iglesias"
+        ],
+        [
+          "Berta",
+          "Marta Fíguls / Mònica Macfer"
+        ],
+        [
+          "Manel",
+          "Carles Pulido/ Joan Olivé"
+        ],
+        [
+          "Gorka",
+          "Frank Capdet / Benjamín Conesa"
+        ],
+        [
+          "Jaume",
+          "Ferran Terraza"
+        ],
+        [
+          "Text",
+          "Jordi Galceran"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-25",
+    "firma": "046f0d3802244670",
+    "imagen": null
+  },
   "https://www.eixampleteatre.cat/es/Bonobos": {
     "datos": {
       "duracion": 100,
@@ -4481,6 +4516,25 @@
     "fecha": "2026-11-18",
     "firma": "0a9830512afe8d77",
     "imagen": null
+  },
+  "https://www.lautenticateatro.com/ca/cartellera/c/464-el-sol-i-la-lluna.html": {
+    "datos": {
+      "duracion": 35,
+      "equipo": [
+        [
+          "En escena",
+          "Mar Gascó, Pere López"
+        ],
+        [
+          "Producción",
+          "Mar Gascó, Pere López"
+        ]
+      ],
+      "premios": []
+    },
+    "fecha": "2026-11-25",
+    "firma": "1a28b4777c91d6a7",
+    "imagen": "https://www.lautenticateatro.com/img/image/fotos/elsolilalluna_titellespamipipa_lautentica_teatre_cartell.webp?w=600&h=600&zc=1&aoe=1&q=80&f=webp"
   },
   "https://www.lavillarroel.cat/ca/ex/boja/": {
     "datos": {
@@ -5064,6 +5118,26 @@
     "firma": "0ca5c2223acc6333",
     "imagen": null
   },
+  "https://www.lluisosteatre.cat/esdeveniments/el-lleo-no-em-fa-por-2/": {
+    "datos": {
+      "duracion": 30,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-25",
+    "firma": "21fbfbdbbab5eca9",
+    "imagen": "https://www.lluisosteatre.cat/wp-content/uploads/2026/06/lleo-no-em-fa-por-edit-n130-scaled.jpg"
+  },
+  "https://www.lluisosteatre.cat/esdeveniments/la-mama-dels-arbres/": {
+    "datos": {
+      "duracion": 40,
+      "equipo": [],
+      "premios": []
+    },
+    "fecha": "2026-11-25",
+    "firma": "82541473e906e75b",
+    "imagen": "https://www.lluisosteatre.cat/wp-content/uploads/2024/06/girafa_webteatre.jpg"
+  },
   "https://www.salaarsteatre.com/69-la-comedia/": {
     "datos": {
       "duracion": 60,
@@ -5437,6 +5511,50 @@
     "fecha": "2026-11-24",
     "firma": "31f5c1c114b7ee02",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2024/05/A3-Blanc-1.jpg"
+  },
+  "https://www.salabeckett.cat/espectacle/compto-cada-passa/": {
+    "datos": {
+      "duracion": 60,
+      "equipo": [
+        [
+          "Autor",
+          "Lluïsa Cunillé"
+        ],
+        [
+          "Direcció",
+          "Xavier Albertí"
+        ],
+        [
+          "Repartiment",
+          "Oriol Genís"
+        ],
+        [
+          "Fotografia",
+          "May Zircus"
+        ],
+        [
+          "Vídeo",
+          "Albert Miret"
+        ]
+      ],
+      "premios": [
+        {
+          "ca": "Premi de la Crítica 2025 a Millor intèrpret principal",
+          "cita": "Amb aquesta peça, Oriol Genís ha obtingut el Premi de la Crítica 2025 a Millor intèrpret principal",
+          "es": "Premio de la Crítica 2025 a Millor intèrpret principal",
+          "origen": "web"
+        },
+        {
+          "ca": "Dues nominacions als Premis Max 2026 en les categories de Millor autoria teatral i Millor Actor",
+          "cita": "dues nominacions als Premis Max 2026 en les categories de Millor autoria teatral i Millor Actor",
+          "es": "Dos nominaciones a los Premios Max 2026 en las categorías de Millor autoria teatral y Millor Actor",
+          "origen": "web"
+        }
+      ]
+    },
+    "fecha": "2026-11-25",
+    "firma": "c7b21fdc46fe3fa0",
+    "imagen": "https://www.salabeckett.cat/wp-content/uploads/2026/06/cartell-compto-1000x600-1.jpg"
   },
   "https://www.salapangoli.com/producto/adultos-difsuncionales/": {
     "datos": {
