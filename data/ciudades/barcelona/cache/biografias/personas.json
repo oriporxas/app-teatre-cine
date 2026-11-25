@@ -6209,6 +6209,13 @@
       "tmdb": null,
       "v": 2
     },
+    "if-circus": {
+      "fecha": "2026-11-25",
+      "motivo": "ninguna",
+      "nombre": "If Circus",
+      "tmdb": null,
+      "v": 2
+    },
     "igalvan-company": {
       "fecha": "2026-11-22",
       "motivo": "ninguna",
@@ -7510,6 +7517,13 @@
       "nombre": "Jordina Salvany",
       "tmdb": null,
       "v": 1
+    },
+    "jorge-astyaro": {
+      "fecha": "2026-11-25",
+      "motivo": "ninguna",
+      "nombre": "Jorge Astyaro",
+      "tmdb": null,
+      "v": 2
     },
     "jorge-colomer": {
       "fecha": "2026-11-23",
@@ -11571,6 +11585,13 @@
       "tmdb": null,
       "v": 2
     },
+    "nlt-suspes": {
+      "fecha": "2026-11-25",
+      "motivo": "ninguna",
+      "nombre": "NLT *Suspès*",
+      "tmdb": null,
+      "v": 2
+    },
     "no-es-pais-para-negras": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -14581,6 +14602,13 @@
       "tmdb": null,
       "v": 1
     },
+    "tian-lara": {
+      "fecha": "2026-11-25",
+      "motivo": "ninguna",
+      "nombre": "Tian Lara",
+      "tmdb": null,
+      "v": 2
+    },
     "tilda-espluga": {
       "fecha": "2026-11-23",
       "motivo": "ok",
@@ -15821,6 +15849,59 @@
         "wikidata": "Q4964545"
       },
       "fecha": "2026-11-19"
+    },
+    "102742": {
+      "datos": {
+        "bio": {
+          "es": "Patrick Sabongui (9 de enero de 1975) es un actor canadiense, especialista en teatro, actor de teatro y profesor de teatro. También es conocido por su papel de David Singh en la serie de CW The Flash."
+        },
+        "conocida": [
+          [
+            "300",
+            2007,
+            "pelicula",
+            "Persian General"
+          ],
+          [
+            "The Good Doctor",
+            2017,
+            "serie",
+            "Russ Milman"
+          ],
+          [
+            "The Flash",
+            2014,
+            "serie",
+            "David Singh"
+          ],
+          [
+            "Watchmen",
+            2009,
+            "pelicula",
+            "Knot Top Gang Leader"
+          ],
+          [
+            "Godzilla",
+            2014,
+            "pelicula",
+            "Master Sargeant Marcus Waltz"
+          ],
+          [
+            "La cabaña en el bosque",
+            2012,
+            "pelicula",
+            "Elevator Guard"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/yI8xBqEi5IAeyoEgGcdbcyEc9vO.jpg",
+        "lugar": "Montreal, Quebec, Canada",
+        "nacimiento": "1975-01-09",
+        "nombre": "Patrick Sabongui",
+        "oficio": "Acting",
+        "tmdb": 102742,
+        "wikidata": "Q7147582"
+      },
+      "fecha": "2026-11-25"
     },
     "1032556": {
       "datos": {
@@ -18443,6 +18524,61 @@
       },
       "fecha": "2026-11-19"
     },
+    "1110426": {
+      "datos": {
+        "conocida": [
+          [
+            "Orígenes secretos",
+            2020,
+            "pelicula",
+            "Ibarra"
+          ],
+          [
+            "La que se avecina",
+            2007,
+            "serie",
+            "Fontanero"
+          ],
+          [
+            "Adiós",
+            2019,
+            "pelicula",
+            "Communion Friend #2"
+          ],
+          [
+            "El Ministerio del Tiempo",
+            2015,
+            "serie",
+            "Actor de la compañía 2"
+          ],
+          [
+            "La novia",
+            2025,
+            "serie",
+            "Alphonse"
+          ],
+          [
+            "¿Quién mató a Bambi?",
+            2013,
+            "pelicula",
+            "Compañero Oficina"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor espanyol",
+          "es": "actor español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/zh2KKedxqkzSHt2V7EvR9B6xY7S.jpg",
+        "lugar": "Jaén, Spain",
+        "nacimiento": "1974-11-29",
+        "nombre": "Juanfra Juárez",
+        "oficio": "Acting",
+        "tmdb": 1110426,
+        "wikidata": "Q63116223",
+        "wikipedia": "https://es.wikipedia.org/wiki/Juanfra_Ju%C3%A1rez"
+      },
+      "fecha": "2026-11-25"
+    },
     "1110725": {
       "datos": {
         "conocida": [
@@ -20259,6 +20395,43 @@
         "wikidata": "Q5913690"
       },
       "fecha": "2026-11-22"
+    },
+    "1186042": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Herself"
+          ],
+          [
+            "A Mulher do Próximo",
+            1988,
+            "pelicula",
+            "Singer"
+          ],
+          [
+            "Língua - Vidas em Português",
+            2003,
+            "pelicula",
+            "Self"
+          ]
+        ],
+        "descripcion": {
+          "ca": "cantant portuguesa",
+          "es": "cantante portuguesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/phQ4mfVN4CDvg8J9ITorfqZIigt.jpg",
+        "lugar": "Lisbon, Portugal",
+        "nacimiento": "1969-01-08",
+        "nombre": "Teresa Salgueiro",
+        "oficio": "Acting",
+        "tmdb": 1186042,
+        "wikidata": "Q268154",
+        "wikipedia": "https://es.wikipedia.org/wiki/Teresa_Salgueiro"
+      },
+      "fecha": "2026-11-25"
     },
     "1192578": {
       "datos": {
@@ -24329,6 +24502,60 @@
       },
       "fecha": "2026-11-19"
     },
+    "1311021": {
+      "datos": {
+        "conocida": [
+          [
+            "El agente nocturno",
+            2023,
+            "serie",
+            "UNDSS Commander"
+          ],
+          [
+            "FBI",
+            2018,
+            "serie",
+            "Luhan Hyka"
+          ],
+          [
+            "FBI: Most Wanted",
+            2020,
+            "serie",
+            "Gunman 1"
+          ],
+          [
+            "The Equalizer",
+            2021,
+            "serie",
+            "Right Hand Man"
+          ],
+          [
+            "Nadie quiere esto",
+            2024,
+            "serie",
+            "Chef"
+          ],
+          [
+            "Dr. Death",
+            2021,
+            "serie",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor romanès",
+          "es": "actor rumano"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/2Ezwm5Lkj50nAsT3G2A32oqcDUP.jpg",
+        "lugar": "Huși, Vaslui, România",
+        "nacimiento": "1979-10-12",
+        "nombre": "Florin Penișoară",
+        "oficio": "Acting",
+        "tmdb": 1311021,
+        "wikidata": "Q130728892"
+      },
+      "fecha": "2026-11-25"
+    },
     "1313220": {
       "datos": {
         "bio": {
@@ -25880,6 +26107,63 @@
       },
       "fecha": "2026-11-19"
     },
+    "1355937": {
+      "datos": {
+        "bio": {
+          "en": "Elizabeth Tabish is an American actress and filmmaker, renowned for her portrayal of Mary Magdalene in the acclaimed TV series, \"The Chosen.\" She holds a Master of Arts in Theater and a Bachelor of Arts in Film Studies from Oklahoma State University. After completing her education, she moved to Austin, TX, and began her career in the film and commercial industry, appearing in various commercials, independent films, and network television projects. Elizabeth's breakthrough role in \"The Chosen\" brought her widespread recognition and a dedicated fan base."
+        },
+        "conocida": [
+          [
+            "The Chosen (Los elegidos)",
+            2019,
+            "serie",
+            "Mary Magdalene"
+          ],
+          [
+            "Revolution",
+            2012,
+            "serie",
+            "Hot Woman"
+          ],
+          [
+            "The Son",
+            2017,
+            "serie",
+            "Natalia McCullough"
+          ],
+          [
+            "La peor obra de navidad",
+            2024,
+            "pelicula",
+            "Mrs. Grady"
+          ],
+          [
+            "The Shift",
+            2023,
+            "pelicula",
+            "Molly Garner"
+          ],
+          [
+            "La espada sagrada",
+            2017,
+            "pelicula",
+            "Warrior's Mother"
+          ]
+        ],
+        "descripcion": {
+          "es": "actriz y cineasta estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/gG1aYOUzruR0f3wyYGuYa0xxcqO.jpg",
+        "lugar": "Austin, Texas, USA",
+        "nacimiento": "1986-05-26",
+        "nombre": "Elizabeth Tabish",
+        "oficio": "Acting",
+        "tmdb": 1355937,
+        "wikidata": "Q123682915",
+        "wikipedia": "https://es.wikipedia.org/wiki/Elizabeth_Tabish"
+      },
+      "fecha": "2026-11-25"
+    },
     "1356800": {
       "datos": {
         "conocida": [
@@ -27133,6 +27417,54 @@
       },
       "fecha": "2026-11-19"
     },
+    "1405756": {
+      "datos": {
+        "conocida": [
+          [
+            "Tarde para la ira",
+            2016,
+            "pelicula",
+            "Julio"
+          ],
+          [
+            "Cuando los ángeles duermen",
+            2018,
+            "pelicula",
+            "Eduardo"
+          ],
+          [
+            "Los hombres de Paco",
+            2005,
+            "serie",
+            "Gitano"
+          ],
+          [
+            "En los márgenes",
+            2022,
+            "pelicula",
+            "Germán"
+          ],
+          [
+            "Invisible",
+            2024,
+            "serie",
+            "Manuel"
+          ],
+          [
+            "Soy Nevenka",
+            2024,
+            "pelicula",
+            "Adolfo"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/jwbEgtWzfk2HZh5engqB9iOkucQ.jpg",
+        "nombre": "Font García",
+        "oficio": "Acting",
+        "tmdb": 1405756,
+        "wikidata": "Q107795320"
+      },
+      "fecha": "2026-11-25"
+    },
     "140853": {
       "datos": {
         "conocida": [
@@ -27420,6 +27752,64 @@
         "tmdb": 1416659
       },
       "fecha": "2026-11-21"
+    },
+    "1423493": {
+      "datos": {
+        "bio": {
+          "es": "Belén Cuesta Llamas (Sevilla, 24 de enero de 1984) es una actriz española. Ha sido nominada en tres ocasiones a los Premios Goya, obteniendo el galardón como mejor actriz protagonista por su papel en La trinchera infinita (2019). Es conocida por su participación en películas y series de gran popularidad como Ocho apellidos catalanes (2015), Paquita Salas (2016-2019), La llamada (2017) y La casa de papel (2019-2021)."
+        },
+        "conocida": [
+          [
+            "La casa de papel",
+            2017,
+            "serie",
+            "Manila"
+          ],
+          [
+            "Vis a vis",
+            2015,
+            "serie",
+            "Yolanda Montero"
+          ],
+          [
+            "Ocho apellidos catalanes",
+            2015,
+            "pelicula",
+            "Judit"
+          ],
+          [
+            "A pesar de todo",
+            2019,
+            "pelicula",
+            "Claudia"
+          ],
+          [
+            "El aviso",
+            2018,
+            "pelicula",
+            "Andrea"
+          ],
+          [
+            "Kiki, el amor se hace",
+            2016,
+            "pelicula",
+            "Belén"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu espanyola",
+          "es": "actriz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/caDd0J8smaQMvVjgJsDYabe4dzk.jpg",
+        "lugar": "Sevilla, Andalusia, Spain",
+        "nacimiento": "1984-01-24",
+        "nombre": "Belén Cuesta",
+        "oficio": "Acting",
+        "tmdb": 1423493,
+        "wikidata": "Q5725385",
+        "wikipedia": "https://es.wikipedia.org/wiki/Bel%C3%A9n_Cuesta"
+      },
+      "fecha": "2026-11-25"
     },
     "14250": {
       "datos": {
@@ -28002,6 +28392,41 @@
       },
       "fecha": "2026-11-19"
     },
+    "1441564": {
+      "datos": {
+        "conocida": [
+          [
+            "나는 선무다",
+            2015,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Between Borders",
+            2025,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Shake the Dust",
+            2014,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "الصقار",
+            2021,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "nombre": "Adam Sjöberg",
+        "oficio": "Directing",
+        "tmdb": 1441564,
+        "wikidata": "Q50322132"
+      },
+      "fecha": "2026-11-25"
+    },
     "1442194": {
       "datos": {
         "bio": {
@@ -28391,6 +28816,37 @@
         "wikidata": "Q8198107"
       },
       "fecha": "2026-11-19"
+    },
+    "1456142": {
+      "datos": {
+        "conocida": [
+          [
+            "La hora final",
+            2017,
+            "pelicula",
+            "Gabriela"
+          ],
+          [
+            "Una sombra al frente",
+            2007,
+            "pelicula",
+            "Jacinta"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu peruana",
+          "es": "actriz peruana"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/qWei7A7Xn1qievC4ii2ul5CSdUy.jpg",
+        "lugar": "Lima, Peru",
+        "nacimiento": "1979-05-06",
+        "nombre": "Nidia Bermejo",
+        "oficio": "Acting",
+        "tmdb": 1456142,
+        "wikidata": "Q6042724",
+        "wikipedia": "https://es.wikipedia.org/wiki/Nidia_Bermejo"
+      },
+      "fecha": "2026-11-25"
     },
     "1457238": {
       "datos": {
@@ -29399,6 +29855,30 @@
         "wikidata": "Q249475"
       },
       "fecha": "2026-11-19"
+    },
+    "1493049": {
+      "datos": {
+        "conocida": [
+          [
+            "Los años nuevos",
+            2024,
+            "serie",
+            "Director"
+          ],
+          [
+            "La vida era eso",
+            2020,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/vEDm2iMSJk4d9x7M7XwQoW7tTn5.jpg",
+        "nombre": "David Martín de los Santos",
+        "oficio": "Writing",
+        "tmdb": 1493049,
+        "wikidata": "Q27043048"
+      },
+      "fecha": "2026-11-25"
     },
     "1493643": {
       "datos": {
@@ -33379,6 +33859,53 @@
       },
       "fecha": "2026-11-19"
     },
+    "1682625": {
+      "datos": {
+        "conocida": [
+          [
+            "Élite",
+            2018,
+            "serie",
+            "Lieutenant"
+          ],
+          [
+            "The Walking Dead: Daryl Dixon",
+            2023,
+            "serie",
+            "Daniel"
+          ],
+          [
+            "Palmeras en la nieve",
+            2015,
+            "pelicula",
+            "Gustavo"
+          ],
+          [
+            "Villaviciosa de al lado",
+            2016,
+            "pelicula",
+            "Padre Benjamín"
+          ],
+          [
+            "Señor, dame paciencia",
+            2017,
+            "pelicula",
+            "Eneko"
+          ],
+          [
+            "4 latas",
+            2019,
+            "pelicula",
+            "Sergeant"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/zrdnc3oxH6ufeoWWgZfIWJIHFsL.jpg",
+        "nombre": "Boré Buika",
+        "oficio": "Acting",
+        "tmdb": 1682625
+      },
+      "fecha": "2026-11-25"
+    },
     "16857": {
       "datos": {
         "bio": {
@@ -33798,6 +34325,61 @@
       },
       "fecha": "2026-11-24"
     },
+    "17007": {
+      "datos": {
+        "conocida": [
+          [
+            "El laberinto del fauno",
+            2006,
+            "pelicula",
+            "Pedro"
+          ],
+          [
+            "Todos lo saben",
+            2018,
+            "pelicula",
+            "Joan"
+          ],
+          [
+            "Los hombres de Paco",
+            2005,
+            "serie",
+            "Teniente Retamar"
+          ],
+          [
+            "Mikaela",
+            2025,
+            "pelicula",
+            "Jon"
+          ],
+          [
+            "Pan negro",
+            2010,
+            "pelicula",
+            "Farriol"
+          ],
+          [
+            "42 segundos",
+            2022,
+            "pelicula",
+            "Pere"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor català",
+          "es": "actor español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/1UQozr5Y4C9HlFAWvsjsLPvThLF.jpg",
+        "lugar": "La Seu d'Urgell, Spain",
+        "nacimiento": "1976-12-17",
+        "nombre": "Roger Casamajor",
+        "oficio": "Acting",
+        "tmdb": 17007,
+        "wikidata": "Q3818317",
+        "wikipedia": "https://es.wikipedia.org/wiki/Roger_Casamajor"
+      },
+      "fecha": "2026-11-25"
+    },
     "1701842": {
       "datos": {
         "nombre": "Luisa Matienzo",
@@ -33937,6 +34519,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Michael_Fassbender"
       },
       "fecha": "2026-11-19"
+    },
+    "17355": {
+      "datos": {
+        "bio": {
+          "en": "Michael Paul Chan (born June 26, 1950) is an American television and film actor. Some of his recent television work includes Judge Lionel Ping on Arrested Development, Robbery Homicide Division, Dr. Lee in the Joel Schumacher directed \"Batman & Robin,\" the voice of Jimmy Ho on The PJ's, and Detective Michael Tao on the TNT series The Closer. He had a recurring role in The Wonder Years as Mr. Chong. He also played the role of Dr. Louis Rob in Mrs. Harris and appears in the independent film, Americanese."
+        },
+        "conocida": [
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Chinese Agent (voice)"
+          ],
+          [
+            "Los Goonies",
+            1985,
+            "pelicula",
+            "Data's Father"
+          ],
+          [
+            "Batman Forever",
+            1995,
+            "pelicula",
+            "Executive"
+          ],
+          [
+            "Batman y Robin",
+            1997,
+            "pelicula",
+            "Observatory Scientist"
+          ],
+          [
+            "Un día de furia",
+            1993,
+            "pelicula",
+            "Mr. Lee"
+          ],
+          [
+            "Bones",
+            2005,
+            "serie",
+            "Professor Shi Jon Chen"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor estatunidenc",
+          "es": "actor estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/fb51LbRcqIsfgvrs5ZpwVyuDYU2.jpg",
+        "lugar": "San Francisco, California, USA",
+        "nacimiento": "1950-06-26",
+        "nombre": "Michael Paul Chan",
+        "oficio": "Acting",
+        "tmdb": 17355,
+        "wikidata": "Q1387756",
+        "wikipedia": "https://es.wikipedia.org/wiki/Michael_Paul_Chan"
+      },
+      "fecha": "2026-11-25"
     },
     "1736757": {
       "datos": {
@@ -39820,6 +40460,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "225017": {
+      "datos": {
+        "bio": {
+          "es": "Roberto Álamo es uno de los intérpretes más camaleónicos del cine español. Desde sus primeros papeles, en el cortometraje Soberano, el rey canalla, de Miguel Bardem, o en los taquillazos Días de fútbol y Los dos lados de la cama, hasta en algunos de sus últimos trabajos, como la exitosa comedia Es por tu bien o la aclamada serie Antidisturbios, el prolífico intérprete ha brillado por su versatilidad y capacidad para mutar y sorprendernos con todo tipo de personajes."
+        },
+        "conocida": [
+          [
+            "La piel que habito",
+            2011,
+            "pelicula",
+            "Zeca"
+          ],
+          [
+            "Que Dios nos perdone",
+            2016,
+            "pelicula",
+            "Javier Alfaro"
+          ],
+          [
+            "Te doy mis ojos",
+            2003,
+            "pelicula",
+            ""
+          ],
+          [
+            "El páramo",
+            2021,
+            "pelicula",
+            "Salvador"
+          ],
+          [
+            "Los hombres de Paco",
+            2005,
+            "serie",
+            "Policía"
+          ],
+          [
+            "Es por tu bien",
+            2017,
+            "pelicula",
+            "Poli"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor espanyol",
+          "es": "actor español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/hy9hZnQxGjs2svlgEXqhdSbQlAR.jpg",
+        "lugar": "  Madrid, Spain",
+        "nacimiento": "1970-01-01",
+        "nombre": "Roberto Álamo",
+        "oficio": "Acting",
+        "tmdb": 225017,
+        "wikidata": "Q276652",
+        "wikipedia": "https://es.wikipedia.org/wiki/Roberto_%C3%81lamo"
+      },
+      "fecha": "2026-11-25"
+    },
     "225124": {
       "datos": {
         "conocida": [
@@ -41769,6 +42467,81 @@
       },
       "fecha": "2026-11-19"
     },
+    "240637": {
+      "datos": {
+        "conocida": [
+          [
+            "Gerhard Richter Painting",
+            2011,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "24 h Berlin - Ein Tag im Leben",
+            2009,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Leben nach Microsoft",
+            2001,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Peter Handke: En el bosque, podría ser tarde",
+            2016,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Inside the Uffizi",
+            2021,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "es": "actriz alemana"
+        },
+        "lugar": "Marburg, Germany",
+        "nacimiento": "1955-01-01",
+        "nombre": "Corinna Belz",
+        "oficio": "Directing",
+        "tmdb": 240637,
+        "wikidata": "Q19883359"
+      },
+      "fecha": "2026-11-25"
+    },
+    "2411224": {
+      "datos": {
+        "conocida": [
+          [
+            "Attack of the Unknown",
+            2020,
+            "pelicula",
+            "C-Los"
+          ],
+          [
+            "Io sono Rosa Ricci",
+            2025,
+            "pelicula",
+            "Moreno"
+          ],
+          [
+            "La maniobra de la tortuga",
+            2022,
+            "pelicula",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/zL9izyd2JItL90cugV9BxSgPJG7.jpg",
+        "nombre": "Gerardo de Pablos",
+        "oficio": "Acting",
+        "tmdb": 2411224
+      },
+      "fecha": "2026-11-25"
+    },
     "241930": {
       "datos": {
         "conocida": [
@@ -42842,6 +43615,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "2555169": {
+      "datos": {
+        "conocida": [
+          [
+            "75 días",
+            2022,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "nombre": "Marc Romero",
+        "oficio": "Writing",
+        "tmdb": 2555169
+      },
+      "fecha": "2026-11-25"
+    },
     "2559506": {
       "datos": {
         "bio": {
@@ -43103,6 +43892,40 @@
         "wikidata": "Q108292761"
       },
       "fecha": "2026-11-24"
+    },
+    "2603442": {
+      "datos": {
+        "bio": {
+          "es": "Alejandro Martínez de Ubago Rodríguez (29 de enero de 1981), conocido como Álex Ubago, es un cantautor español de música pop, quien se dio a conocer en 2001 con la publicación de su álbum debut ¿Qué pides tú? del cual se desprende el tema «Sin miedo a nada» a dueto con Amaia Montero. También fue integrante del trío musical Alex, Jorge y Lena, también conformado por los cantantes Jorge Villamizar y Lena Burke, y cuyo primer sencillo fue el tema «Estar contigo»."
+        },
+        "conocida": [
+          [
+            "La resistencia",
+            2018,
+            "serie",
+            "Invitado"
+          ],
+          [
+            "La voz sénior",
+            2019,
+            "serie",
+            "Asesor coach"
+          ]
+        ],
+        "descripcion": {
+          "ca": "músic espanyol",
+          "es": "músico español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/4pbZjGmRaIU2STAG2fMib61FnLp.jpg",
+        "lugar": "Vitoria, País Vasco, Spain",
+        "nacimiento": "1981-01-29",
+        "nombre": "Álex Ubago",
+        "oficio": "Acting",
+        "tmdb": 2603442,
+        "wikidata": "Q250607",
+        "wikipedia": "https://es.wikipedia.org/wiki/%C3%81lex_Ubago"
+      },
+      "fecha": "2026-11-25"
     },
     "2617257": {
       "datos": {
@@ -46026,6 +46849,29 @@
       },
       "fecha": "2026-11-20"
     },
+    "2931194": {
+      "datos": {
+        "conocida": [
+          [
+            "To Barcelona, Forever",
+            2025,
+            "pelicula",
+            "Miguel"
+          ],
+          [
+            "To Barcelona, with Love",
+            2025,
+            "pelicula",
+            "Miguel"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/fUJNzimIWqaYxUjNT6VlY0sfSqv.jpg",
+        "nombre": "Alex Sorian Brown",
+        "oficio": "Acting",
+        "tmdb": 2931194
+      },
+      "fecha": "2026-11-25"
+    },
     "2945577": {
       "datos": {
         "conocida": [
@@ -46908,6 +47754,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Sophie_Wilde"
       },
       "fecha": "2026-11-19"
+    },
+    "31167": {
+      "datos": {
+        "bio": {
+          "es": "Elizabeth Mitchell (nacida el 27 de marzo de 1970, en Los Ángeles, California) es una actriz estadounidense. Es conocida por su interpretación en el papel de la doctora Juliet Burke en la serie estadounidense de la ABC Lost. También interpretó en el remake de la serie V a Erica Evans, una agente del FBI. La serie fue cancelada durante la segunda temporada. Actualmente interpreta a Rachel Matheson en la nueva serie de J. J. Abrams, Revolution y a Ingrid (Reina de las Nieves) en la serie Once Upon a Time. Participa en la serie The Expanse como Anna."
+        },
+        "conocida": [
+          [
+            "The Good Doctor",
+            2017,
+            "serie",
+            "Dannie Miller"
+          ],
+          [
+            "House",
+            2004,
+            "serie",
+            "Sister Mary Augustine"
+          ],
+          [
+            "Election: La noche de las bestias",
+            2016,
+            "pelicula",
+            "Senator Charlie Roan"
+          ],
+          [
+            "Perdidos",
+            2004,
+            "serie",
+            "Juliet Burke"
+          ],
+          [
+            "Ley y orden: Unidad de Víctimas Especiales",
+            1999,
+            "serie",
+            "Andrea Brown"
+          ],
+          [
+            "The Expanse",
+            2015,
+            "serie",
+            "Anna Volovodov"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/tpagVmiCbOQ8CPiRxF5MuZGfZGV.jpg",
+        "lugar": "Los Angeles, California, USA",
+        "nacimiento": "1970-03-27",
+        "nombre": "Elizabeth Mitchell",
+        "oficio": "Acting",
+        "tmdb": 31167,
+        "wikidata": "Q229394",
+        "wikipedia": "https://es.wikipedia.org/wiki/Elizabeth_Mitchell"
+      },
+      "fecha": "2026-11-25"
     },
     "3119136": {
       "datos": {
@@ -49620,6 +50524,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "37403": {
+      "datos": {
+        "bio": {
+          "en": "South African actor Stelio Savante is a prolific, award winning actor with 150 international credits over the last four decades. A steady product of leading, large supporting, & recurring roles, opposite acclaimed actors on stage & in television, and international theatrically released features, that have accumulated over $400 million in world-wide box office, & in leading roles in multiple billion dollar grossing video game franchises. He is currently starring in three titles based on true life stories. Israeli-Hamas Oct 7th war drama Stay Forte (2026) opposite Selma Blair & Judd Hirsch, directed by acclaimed Israeli filmmaker and Cannes alumnus, Doron Eran."
+        },
+        "conocida": [
+          [
+            "Una mente maravillosa",
+            2001,
+            "pelicula",
+            "Technician"
+          ],
+          [
+            "Ley y orden: Unidad de Víctimas Especiales",
+            1999,
+            "serie",
+            "Milan Zergin"
+          ],
+          [
+            "El invitado",
+            2012,
+            "pelicula",
+            "Soccer Stadium Commentator (uncredited)"
+          ],
+          [
+            "Los Soprano",
+            1999,
+            "serie",
+            "Gaetano Giarizzo"
+          ],
+          [
+            "Navy: Investigación criminal",
+            2003,
+            "serie",
+            "Danny Coyle"
+          ],
+          [
+            "Vigilados, Person of Interest",
+            2011,
+            "serie",
+            "Aris Zappo"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor sud-africà",
+          "es": "actor sudafricano"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/8c7Zzo91E4Jy8yWIgtwGvgdN4Si.jpg",
+        "lugar": "Cape Town, South Africa",
+        "nacimiento": "1970-04-24",
+        "nombre": "Stelio Savante",
+        "oficio": "Acting",
+        "tmdb": 37403,
+        "wikidata": "Q2054051",
+        "wikipedia": "https://es.wikipedia.org/wiki/Stelio_Savante"
+      },
+      "fecha": "2026-11-25"
+    },
     "3746904": {
       "datos": {
         "nombre": "Laura Daza",
@@ -51988,6 +52950,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "4578129": {
+      "datos": {
+        "conocida": [
+          [
+            "La zona vacía",
+            2024,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Abraham Montufo",
+        "oficio": "Acting",
+        "tmdb": 4578129
+      },
+      "fecha": "2026-11-25"
+    },
     "4582594": {
       "datos": {
         "conocida": [
@@ -53292,6 +54270,70 @@
       },
       "fecha": "2026-11-20"
     },
+    "4978312": {
+      "datos": {
+        "conocida": [
+          [
+            "Between Borders",
+            2025,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "nombre": "Isaac Norris",
+        "oficio": "Writing",
+        "tmdb": 4978312
+      },
+      "fecha": "2026-11-25"
+    },
+    "4978387": {
+      "datos": {
+        "conocida": [
+          [
+            "Between Borders",
+            2025,
+            "pelicula",
+            "Bailiff"
+          ]
+        ],
+        "nombre": "Stan Mayer",
+        "oficio": "Acting",
+        "tmdb": 4978387
+      },
+      "fecha": "2026-11-25"
+    },
+    "4978394": {
+      "datos": {
+        "conocida": [
+          [
+            "Between Borders",
+            2025,
+            "pelicula",
+            "Olga Petrosyan"
+          ]
+        ],
+        "nombre": "Natalia Badea",
+        "oficio": "Acting",
+        "tmdb": 4978394
+      },
+      "fecha": "2026-11-25"
+    },
+    "4978400": {
+      "datos": {
+        "conocida": [
+          [
+            "Between Borders",
+            2025,
+            "pelicula",
+            "Julia Petrosyan"
+          ]
+        ],
+        "nombre": "Sofia Pistireanu",
+        "oficio": "Acting",
+        "tmdb": 4978400
+      },
+      "fecha": "2026-11-25"
+    },
     "4985213": {
       "datos": {
         "nombre": "Diego René",
@@ -54215,6 +55257,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "52506": {
+      "datos": {
+        "conocida": [
+          [
+            "La ira (The Rage: Carrie 2)",
+            1999,
+            "pelicula",
+            "Skateboard Kid"
+          ],
+          [
+            "El juicio",
+            2010,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Dog Days of Summer",
+            2007,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Jimmy",
+            2013,
+            "pelicula",
+            "Radio Dispatch Voice"
+          ],
+          [
+            "Between Borders",
+            2025,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Exile",
+            2020,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema estatunidenc",
+          "es": "director de cine estadounidense"
+        },
+        "lugar": "Roanoke, Virginia, USA",
+        "nacimiento": "1983-07-16",
+        "nombre": "Mark Freiburger",
+        "oficio": "Directing",
+        "tmdb": 52506,
+        "wikidata": "Q6767672"
+      },
+      "fecha": "2026-11-25"
+    },
     "5260866": {
       "datos": {
         "nombre": "Gemma Polo",
@@ -54222,6 +55317,64 @@
         "tmdb": 5260866
       },
       "fecha": "2026-11-19"
+    },
+    "5266": {
+      "datos": {
+        "bio": {
+          "ca": "Rüdiger Vogler (Warthausen, Alemanya, 14 de maig de 1942) és un actor de cinema i teatre alemany."
+        },
+        "conocida": [
+          [
+            "OSS 117: Perdido en Río",
+            2009,
+            "pelicula",
+            "Von Zimmel"
+          ],
+          [
+            "Rubí, la última viajera del tiempo",
+            2013,
+            "pelicula",
+            "Thomas George"
+          ],
+          [
+            "La última viajera del tiempo: Zafiro",
+            2014,
+            "pelicula",
+            "Mr. George"
+          ],
+          [
+            "La última viajera del tiempo: Esmeralda",
+            2016,
+            "pelicula",
+            "Mr. George (archive footage)"
+          ],
+          [
+            "Alicia en las ciudades",
+            1974,
+            "pelicula",
+            "Philip Winter"
+          ],
+          [
+            "Anatomía",
+            2000,
+            "pelicula",
+            "Dr. Henning"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor alemany",
+          "es": "actor alemán"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/8q5HOiqdWC2Y23IHjnOnsTeUBX8.jpg",
+        "lugar": "Warthausen, Germany",
+        "nacimiento": "1942-05-14",
+        "nombre": "Rüdiger Vogler",
+        "oficio": "Acting",
+        "tmdb": 5266,
+        "wikidata": "Q69705",
+        "wikipedia": "https://es.wikipedia.org/wiki/R%C3%BCdiger_Vogler"
+      },
+      "fecha": "2026-11-25"
     },
     "5268400": {
       "datos": {
@@ -54272,6 +55425,187 @@
       },
       "fecha": "2026-11-25"
     },
+    "5274": {
+      "datos": {
+        "bio": {
+          "en": "Patrick Nicolas Jean Sixte Ghislain Bauchau (born 6 December 1938) is a Belgian actor best known for his roles in the films A View to a Kill, The Rapture and Panic Room, as well as the TV shows The Pretender and House. Patrick Bauchau was born in Brussels, Belgium on 6 December 1938, the son of Mary (née Kozyrev), a Russian-born school administrator and publisher, and Henry Bauchau, a school administrator, lawyer, publisher, writer, and psychoanalyst who served as an officer in the Belgian Underground during World War II. He was raised in Belgium, Switzerland and England."
+        },
+        "conocida": [
+          [
+            "2012",
+            2009,
+            "pelicula",
+            "Roland Picard"
+          ],
+          [
+            "House",
+            2004,
+            "serie",
+            "Dr. Rowan Case"
+          ],
+          [
+            "La habitación del pánico",
+            2002,
+            "pelicula",
+            "Stephen Altman"
+          ],
+          [
+            "Ray",
+            2004,
+            "pelicula",
+            "Dr. Hacker"
+          ],
+          [
+            "Panorama para matar",
+            1985,
+            "pelicula",
+            "Scarpine"
+          ],
+          [
+            "Castle",
+            2009,
+            "serie",
+            "Caine Powell"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor belga",
+          "es": "actor belga"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/kdrFAJJFdfQaYUETTHQw77gim9O.jpg",
+        "lugar": "Brussels, Belgium",
+        "nacimiento": "1938-12-06",
+        "nombre": "Patrick Bauchau",
+        "oficio": "Acting",
+        "tmdb": 5274,
+        "wikidata": "Q308792",
+        "wikipedia": "https://es.wikipedia.org/wiki/Patrick_Bauchau"
+      },
+      "fecha": "2026-11-25"
+    },
+    "5275": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Truck Driver"
+          ],
+          [
+            "Recuerdos de la casa amarilla",
+            1989,
+            "pelicula",
+            "Taverner"
+          ],
+          [
+            "Manuel na Ilha das Maravilhas",
+            1984,
+            "pelicula",
+            "Pauvre"
+          ],
+          [
+            "Filha da Mãe",
+            1990,
+            "pelicula",
+            "police officer"
+          ]
+        ],
+        "nombre": "Vasco Sequeira",
+        "oficio": "Acting",
+        "tmdb": 5275
+      },
+      "fecha": "2026-11-25"
+    },
+    "5276": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Zé"
+          ]
+        ],
+        "nombre": "Joel Cunha Ferreira",
+        "oficio": "Acting",
+        "tmdb": 5276
+      },
+      "fecha": "2026-11-25"
+    },
+    "5277": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Sofia"
+          ],
+          [
+            "Cómo Fernando Pessoa salvó Portugal",
+            2018,
+            "pelicula",
+            "Tram Passenger #2"
+          ],
+          [
+            "O Delfim",
+            2002,
+            "pelicula",
+            "Criada da Pensão"
+          ],
+          [
+            "Lá Fora",
+            2004,
+            "pelicula",
+            "Sofia"
+          ],
+          [
+            "Veneno Cura",
+            2008,
+            "pelicula",
+            "Girl at 'Imperatriz'"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/7zpuR78VLZX3A5upXkpToATKs6S.jpg",
+        "nombre": "Sofia Bénard da Costa",
+        "oficio": "Acting",
+        "tmdb": 5277
+      },
+      "fecha": "2026-11-25"
+    },
+    "5278": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Vera"
+          ]
+        ],
+        "nombre": "Vera Cunha Rocha",
+        "oficio": "Acting",
+        "tmdb": 5278
+      },
+      "fecha": "2026-11-25"
+    },
+    "5279": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Beta"
+          ]
+        ],
+        "nombre": "Elisabete Cunha Rocha",
+        "oficio": "Acting",
+        "tmdb": 5279
+      },
+      "fecha": "2026-11-25"
+    },
     "5279229": {
       "datos": {
         "conocida": [
@@ -54306,6 +55640,34 @@
         "tmdb": 5279229
       },
       "fecha": "2026-11-19"
+    },
+    "5280": {
+      "datos": {
+        "conocida": [
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Ricardo"
+          ],
+          [
+            "Coitado do Jorge",
+            1993,
+            "pelicula",
+            "Student"
+          ],
+          [
+            "A Idade Maior",
+            1991,
+            "pelicula",
+            "Alex"
+          ]
+        ],
+        "nombre": "Ricardo Colares",
+        "oficio": "Acting",
+        "tmdb": 5280
+      },
+      "fecha": "2026-11-25"
     },
     "52801": {
       "datos": {
@@ -59630,6 +60992,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "67052": {
+      "datos": {
+        "bio": {
+          "es": "Macarena Gómez Traseira (2 de febrero de 1978) es una actriz española, conocida por su papel de Lola Trujillo en la serie La que se avecina y por protagonizar la película de comedia de terror de 2008, Sexykiller, morirás por ella."
+        },
+        "conocida": [
+          [
+            "El fotógrafo de Mauthausen",
+            2018,
+            "pelicula",
+            "Dolores"
+          ],
+          [
+            "Las brujas de Zugarramurdi",
+            2013,
+            "pelicula",
+            "Silvia"
+          ],
+          [
+            "30 monedas",
+            2020,
+            "serie",
+            "Merche"
+          ],
+          [
+            "Pieles",
+            2017,
+            "pelicula",
+            "Laura"
+          ],
+          [
+            "Dagon: La secta del mar",
+            2001,
+            "pelicula",
+            "Uxía Cambarro"
+          ],
+          [
+            "Musarañas",
+            2014,
+            "pelicula",
+            "Montse"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu espanyola",
+          "es": "actriz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/2IDVZhGw13p6YdnZ8s2E8nGbMWQ.jpg",
+        "lugar": "Bujalance, Córdoba, Spain",
+        "nacimiento": "1978-02-02",
+        "nombre": "Macarena Gómez",
+        "oficio": "Acting",
+        "tmdb": 67052,
+        "wikidata": "Q2757345",
+        "wikipedia": "https://es.wikipedia.org/wiki/Macarena_G%C3%B3mez"
+      },
+      "fecha": "2026-11-25"
+    },
     "67262": {
       "datos": {
         "bio": {
@@ -59799,6 +61219,40 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Sam_Rockwell"
       },
       "fecha": "2026-11-19"
+    },
+    "68641": {
+      "datos": {
+        "conocida": [
+          [
+            "Rhythm is it!",
+            2004,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Das Reichsorchester",
+            2007,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Inside the Uffizi",
+            2021,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema alemany",
+          "es": "director de cine alemán"
+        },
+        "nacimiento": "1963-01-01",
+        "nombre": "Enrique Sánchez Lansch",
+        "oficio": "Directing",
+        "tmdb": 68641,
+        "wikidata": "Q92056"
+      },
+      "fecha": "2026-11-25"
     },
     "6885": {
       "datos": {
@@ -61735,6 +63189,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "79288": {
+      "datos": {
+        "bio": {
+          "en": "Ruth Díaz Muriedas es una actriz de cine, teatro y televisión española. Comenzó en un grupo aficionado, Corocotta Teatro. Llegó a Madridcon una Fortunata y Jacinta en el Teatro Español y se quedó. Ha estudiado en la Escuela de Arte Dramático. Se licencia por la R.E.S.A.D.en la especialidad de interpretación. Ha cursado estudios con Juan Carlos Corazzay con Fernando Piernas entre otros. También ha realizado estudios de técnica vocal expresiva con Beatriz Pardo. En 2013 se lanza a la dirección, siendo Porsiemprejamón su opera prima como guionista y directora. Se trata de un cortometraje que ha recibido numerosos premios."
+        },
+        "conocida": [
+          [
+            "Vis a vis",
+            2015,
+            "serie",
+            "Mercedes Carrillo"
+          ],
+          [
+            "Hogar",
+            2020,
+            "pelicula",
+            "Marga"
+          ],
+          [
+            "Tarde para la ira",
+            2016,
+            "pelicula",
+            "Ana"
+          ],
+          [
+            "Ni una más",
+            2024,
+            "serie",
+            "Vero"
+          ],
+          [
+            "Adiós",
+            2019,
+            "pelicula",
+            "Eli"
+          ],
+          [
+            "13 exorcismos",
+            2022,
+            "pelicula",
+            "Carmen"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu espanyola",
+          "es": "actriz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/pl0BNxkhS6VeybrXFU4o0FeHCN8.jpg",
+        "lugar": "Reinosa, Cantabria, Spain",
+        "nacimiento": "1975-01-26",
+        "nombre": "Ruth Díaz",
+        "oficio": "Acting",
+        "tmdb": 79288,
+        "wikidata": "Q3453612",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ruth_D%C3%ADaz"
+      },
+      "fecha": "2026-11-25"
+    },
     "79510": {
       "datos": {
         "bio": {
@@ -61957,6 +63469,65 @@
         "wikidata": "Q3099987"
       },
       "fecha": "2026-11-19"
+    },
+    "81749": {
+      "datos": {
+        "bio": {
+          "en": "Manoel de Oliveira (11 December 1908 - 2 April 2015) was born in Porto, Portugal to Francisco José de Oliveira and Cândida Ferreira Pinto. His family were wealthy industrialists. Oliveira attended school in Galicia, Spain and his goal as a teenager was to become an actor. He enrolled in Italian film-maker Rino Lupo's acting school at age 20, but later changed his mind when he saw Walther Ruttmann's documentary Berlin: Symphony of a City. This prompted him to direct his first film, also a documentary, titledDouro, Faina Fluvial (1931). He also acted in the second Portuguese sound film, A Canção de Lisboa (1933). His first feature film came much later, in 1942."
+        },
+        "conocida": [
+          [
+            "A cada uno su cine (Chacun son cinéma)",
+            2007,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Historias de Lisboa",
+            1994,
+            "pelicula",
+            "Himself"
+          ],
+          [
+            "El extraño caso de Angélica",
+            2010,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Una película hablada",
+            2003,
+            "pelicula",
+            ""
+          ],
+          [
+            "Aniki Bóbó",
+            1942,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Vuelvo a casa",
+            2001,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema portuguès",
+          "es": "director de cine portugués"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/lkEY4Amtuyk8hPmNz01EqWYH3Xk.jpg",
+        "lugar": "Porto, Portugal",
+        "muerte": "2015-04-02",
+        "nacimiento": "1908-12-11",
+        "nombre": "Manoel de Oliveira",
+        "oficio": "Directing",
+        "tmdb": 81749,
+        "wikidata": "Q43264",
+        "wikipedia": "https://es.wikipedia.org/wiki/Manoel_de_Oliveira"
+      },
+      "fecha": "2026-11-25"
     },
     "819": {
       "datos": {
@@ -64996,6 +66567,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "971726": {
+      "datos": {
+        "bio": {
+          "en": "Ana Ularu is a Romanian born actor and director. She began acting at the age of 9 in French productions like \"Meurtres par procuration\" and \"Passion Mortelle\". Since graduating with a B.A. and M.F.A. in Acting from the National University of Theatre and Film \"I.L.Caragiale\" (UNATC) in Bucharest, she has appeared in more than 50 short films, TV films, TV series and feature films. She is also an award winning theatre actress, appearing at the moment in 4 productions in her native Bucharest.."
+        },
+        "conocida": [
+          [
+            "Inferno",
+            2016,
+            "pelicula",
+            "Vayentha"
+          ],
+          [
+            "Jack Ryan de Tom Clancy",
+            2018,
+            "serie",
+            "Zoya Ivanovna"
+          ],
+          [
+            "Outer Banks",
+            2020,
+            "serie",
+            "Medici"
+          ],
+          [
+            "Serena",
+            2014,
+            "pelicula",
+            "Rachel"
+          ],
+          [
+            "Siberia",
+            2018,
+            "pelicula",
+            "Katya"
+          ],
+          [
+            "Los Borgia",
+            2011,
+            "serie",
+            "Charlotte D'Albert (uncredited)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu romanesa",
+          "es": "actriz rumana"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/ZIRcuu7SEhZXBUFH8W5Yfe1r27.jpg",
+        "lugar": "Bucharest, Socialist Republic of Romania [now Romania]",
+        "nacimiento": "1985-06-26",
+        "nombre": "Ana Ularu",
+        "oficio": "Acting",
+        "tmdb": 971726,
+        "wikidata": "Q19834546",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ana_Ularu"
+      },
+      "fecha": "2026-11-25"
+    },
     "9780": {
       "datos": {
         "bio": {
@@ -65330,6 +66959,11 @@
         "es": "actor español"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q107795320": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q1078163": {
@@ -65940,6 +67574,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Eva_Libertad"
     },
+    "Q123682915": {
+      "descripcion": {
+        "es": "actriz y cineasta estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Elizabeth_Tabish"
+    },
     "Q123739722": {
       "descripcion": {
         "ca": "actriu canadenca",
@@ -66088,6 +67729,14 @@
         "es": "actriz española"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q130728892": {
+      "descripcion": {
+        "ca": "actor romanès",
+        "es": "actor rumano"
+      },
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q130764134": {
@@ -66267,6 +67916,21 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Sergi_Belbel"
+    },
+    "Q138684279": {
+      "descripcion": {
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
+    "Q1387756": {
+      "descripcion": {
+        "ca": "actor estatunidenc",
+        "es": "actor estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Michael_Paul_Chan"
     },
     "Q1395624": {
       "descripcion": {
@@ -66883,6 +68547,21 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Sonoya_Mizuno"
     },
+    "Q19834546": {
+      "descripcion": {
+        "ca": "actriu romanesa",
+        "es": "actriz rumana"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ana_Ularu"
+    },
+    "Q19883359": {
+      "descripcion": {
+        "es": "actriz alemana"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q19945198": {
       "descripcion": {
         "ca": "actor francès",
@@ -66986,6 +68665,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Christian_Slater"
+    },
+    "Q2054051": {
+      "descripcion": {
+        "ca": "actor sud-africà",
+        "es": "actor sudafricano"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Stelio_Savante"
     },
     "Q206922": {
       "descripcion": {
@@ -67284,6 +68971,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Rodrigo_Sorogoyen"
     },
+    "Q229394": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Elizabeth_Mitchell"
+    },
     "Q22946162": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -67509,6 +69204,14 @@
       "fecha": "2026-11-25",
       "wikipedia": "https://es.wikipedia.org/wiki/Laura_G%C3%B3mez_%28actriz%29"
     },
+    "Q250607": {
+      "descripcion": {
+        "ca": "músic espanyol",
+        "es": "músico español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/%C3%81lex_Ubago"
+    },
     "Q251038": {
       "descripcion": {
         "ca": "novel·lista britànic",
@@ -67615,6 +69318,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Billy_Ray"
     },
+    "Q268154": {
+      "descripcion": {
+        "ca": "cantant portuguesa",
+        "es": "cantante portuguesa"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Teresa_Salgueiro"
+    },
     "Q26921822": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -67655,6 +69366,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Lance_Oppenheim"
     },
+    "Q27043048": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q27049947": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -67679,6 +69395,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Enno_Trebs"
     },
+    "Q2757345": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Macarena_G%C3%B3mez"
+    },
     "Q275932": {
       "descripcion": {
         "ca": "actriu espanyola",
@@ -67686,6 +69410,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Carmen_Machi"
+    },
+    "Q276652": {
+      "descripcion": {
+        "ca": "actor espanyol",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Roberto_%C3%81lamo"
     },
     "Q276739": {
       "descripcion": {
@@ -67857,6 +69589,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Jorge_L%C3%B3pez_Astorga"
     },
+    "Q2914475": {
+      "descripcion": {
+        "ca": "escriptora catalana, figura cabdal del modernisme literari català",
+        "es": "escritora española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Caterina_Albert"
+    },
     "Q2933352": {
       "descripcion": {
         "ca": "actriu i model irlandesa",
@@ -67961,6 +69701,14 @@
       "descripcion": null,
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Shungicu_Uchida"
+    },
+    "Q308792": {
+      "descripcion": {
+        "ca": "actor belga",
+        "es": "actor belga"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Patrick_Bauchau"
     },
     "Q3089817": {
       "descripcion": {
@@ -68209,6 +69957,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q3453612": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ruth_D%C3%ADaz"
+    },
     "Q3482797": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -68397,6 +70153,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Richard_E._Grant"
     },
+    "Q3818317": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Roger_Casamajor"
+    },
     "Q3818750": {
       "descripcion": {
         "ca": "actor català",
@@ -68472,6 +70236,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Basti%C3%A1n_Bodenh%C3%B6fer"
+    },
+    "Q43264": {
+      "descripcion": {
+        "ca": "director de cinema portuguès",
+        "es": "director de cine portugués"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Manoel_de_Oliveira"
     },
     "Q43288763": {
       "descripcion": {
@@ -68800,6 +70572,11 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q50322132": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q505568": {
       "descripcion": {
         "ca": "músic estatunidenc",
@@ -69023,6 +70800,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/John_Alex_Castillo"
     },
+    "Q56324166": {
+      "descripcion": {
+        "es": "dramaturga y creadora escénica española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Velasco"
+    },
     "Q56349283": {
       "descripcion": {
         "ca": "model japonesa",
@@ -69118,6 +70902,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q5725385": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Bel%C3%A9n_Cuesta"
+    },
     "Q57584369": {
       "descripcion": {
         "ca": "actor espanyol",
@@ -69149,6 +70941,14 @@
       },
       "fecha": "2026-11-25",
       "wikipedia": null
+    },
+    "Q580414": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor, humorista y presentador de televisión español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Jos%C3%A9_Corbacho"
     },
     "Q5809324": {
       "descripcion": {
@@ -69240,6 +71040,14 @@
       "descripcion": null,
       "fecha": "2026-11-25",
       "wikipedia": null
+    },
+    "Q6042724": {
+      "descripcion": {
+        "ca": "actriu peruana",
+        "es": "actriz peruana"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Nidia_Bermejo"
     },
     "Q60429893": {
       "descripcion": {
@@ -69391,6 +71199,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Juan_Minuj%C3%ADn"
     },
+    "Q63116223": {
+      "descripcion": {
+        "ca": "actor espanyol",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/Juanfra_Ju%C3%A1rez"
+    },
     "Q6317587": {
       "descripcion": null,
       "fecha": "2026-11-25",
@@ -69493,6 +71309,14 @@
       "fecha": "2026-11-25",
       "wikipedia": "https://es.wikipedia.org/wiki/Mark_Burton_%28guionista%29"
     },
+    "Q6767672": {
+      "descripcion": {
+        "ca": "director de cinema estatunidenc",
+        "es": "director de cine estadounidense"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
+    },
     "Q67881": {
       "descripcion": {
         "ca": "actor alemany",
@@ -69530,6 +71354,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q69705": {
+      "descripcion": {
+        "ca": "actor alemany",
+        "es": "actor alemán"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": "https://es.wikipedia.org/wiki/R%C3%BCdiger_Vogler"
+    },
     "Q698710": {
       "descripcion": {
         "es": "director de cine taiwanés"
@@ -69564,6 +71396,11 @@
     "Q7105696": {
       "descripcion": null,
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q7147582": {
+      "descripcion": null,
+      "fecha": "2026-11-25",
       "wikipedia": null
     },
     "Q7153714": {
@@ -69984,6 +71821,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Leo_G._Carroll"
+    },
+    "Q92056": {
+      "descripcion": {
+        "ca": "director de cinema alemany",
+        "es": "director de cine alemán"
+      },
+      "fecha": "2026-11-25",
+      "wikipedia": null
     },
     "Q923151": {
       "descripcion": {

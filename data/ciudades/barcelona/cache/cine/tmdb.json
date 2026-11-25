@@ -5768,6 +5768,117 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt0110361": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/krMt3ttiOFrjKC1P8GPjUMp1jZk.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7Y4mkVstQxhegwlOwAsGRfZfHXC.jpg",
+          "id": 2303,
+          "nombre": "Wim Wenders"
+        }
+      ],
+      "duracion": 100,
+      "edad": null,
+      "estreno": "1994-12-16",
+      "fondo": "https://image.tmdb.org/t/p/w1280/hEPUs4yRZE0gFckKPf83OH8sQMp.jpg",
+      "generos": [
+        "Drama",
+        "Música"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7Y4mkVstQxhegwlOwAsGRfZfHXC.jpg",
+          "id": 2303,
+          "nombre": "Wim Wenders"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt0110361",
+      "lema": null,
+      "musica": [
+        {
+          "id": 2308,
+          "nombre": "Jürgen Knieper"
+        }
+      ],
+      "nota_tmdb": 7.2,
+      "paises": [
+        "DE",
+        "PT",
+        "FR",
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8q5HOiqdWC2Y23IHjnOnsTeUBX8.jpg",
+          "id": 5266,
+          "nombre": "Rüdiger Vogler",
+          "papel": "Phillip Winter"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kdrFAJJFdfQaYUETTHQw77gim9O.jpg",
+          "id": 5274,
+          "nombre": "Patrick Bauchau",
+          "papel": "Friedrich Monroe"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/phQ4mfVN4CDvg8J9ITorfqZIigt.jpg",
+          "id": 1186042,
+          "nombre": "Teresa Salgueiro",
+          "papel": "Herself"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lkEY4Amtuyk8hPmNz01EqWYH3Xk.jpg",
+          "id": 81749,
+          "nombre": "Manoel de Oliveira",
+          "papel": "Himself"
+        },
+        {
+          "id": 5275,
+          "nombre": "Vasco Sequeira",
+          "papel": "Truck Driver"
+        },
+        {
+          "id": 5276,
+          "nombre": "Joel Cunha Ferreira",
+          "papel": "Zé"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7zpuR78VLZX3A5upXkpToATKs6S.jpg",
+          "id": 5277,
+          "nombre": "Sofia Bénard da Costa",
+          "papel": "Sofia"
+        },
+        {
+          "id": 5278,
+          "nombre": "Vera Cunha Rocha",
+          "papel": "Vera"
+        },
+        {
+          "id": 5279,
+          "nombre": "Elisabete Cunha Rocha",
+          "papel": "Beta"
+        },
+        {
+          "id": 5280,
+          "nombre": "Ricardo Colares",
+          "papel": "Ricardo"
+        }
+      ],
+      "sinopsis": {
+        "en": "Wim Wenders' homage to Lisbon and films. A sound engineer obtains a mysterious postcard from a friend who at the moment is filming a film in Lisbon. He sets out across Europe to find him and help him.",
+        "es": "Es un homenaje de Wim Wender a Lisboa y al cine. Un ingeniero de sonido recibe una postal de un amigo que, en ese momento, está rodando una película en Lisboa. Deberá atravesar Europa para encontrarlo y prestarle ayuda."
+      },
+      "titulo": "Historias de Lisboa",
+      "titulo_ca": null,
+      "titulo_original": "Lisbon Story",
+      "tmdb": 390,
+      "trailer": null,
+      "wikidata": "Q694651"
+    },
+    "fecha": "2026-11-25"
+  },
   "itt0166924": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/kLpwkbimTwTbsYixCO3eAdNCQJ8.jpg",
@@ -6022,6 +6133,10 @@
     },
     "fecha": "2026-11-25"
   },
+  "itt111199": {
+    "datos": null,
+    "fecha": "2026-11-25"
+  },
   "itt113421": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -6033,6 +6148,10 @@
   "itt116660": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "itt116868": {
+    "datos": null,
+    "fecha": "2026-11-25"
   },
   "itt13609648": {
     "datos": {
@@ -6250,6 +6369,49 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt15583714": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/8vaOZJqTpbSRgnVrw80dZthr4eD.jpg",
+      "direccion": [
+        {
+          "id": 68641,
+          "nombre": "Enrique Sánchez Lansch"
+        },
+        {
+          "id": 240637,
+          "nombre": "Corinna Belz"
+        }
+      ],
+      "duracion": 96,
+      "edad": null,
+      "estreno": "2021-11-25",
+      "fondo": "https://image.tmdb.org/t/p/w1280/9pletFCd9NsVdydCx0WTNQNE0ln.jpg",
+      "generos": [
+        "Documental"
+      ],
+      "guion": [],
+      "idioma_original": "de",
+      "imdb": "tt15583714",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "DE"
+      ],
+      "reparto": [],
+      "sinopsis": {
+        "en": "500 rooms and thousands of daily visitors: the Medici’s treasure chamber containing icons from antiquity to the late Baroque period is a place full of (art) history. It survived two world wars but must now reinvent itself in order to remain an enduring audience magnet.",
+        "es": "Las puertas ocultas se abren en esta película sobre la emblemática Galería de los Uffizi, que alberga la colección de arte renacentista más importante del mundo. Guiados por la pasión, el director alemán Eike Schmidt y su equipo italiano dominan el delicado equilibrio entre conservación y renovación. Nos sumergimos en las famosas obras maestras que cautivan a visitantes de todas las edades y nacionalidades."
+      },
+      "titulo": "Inside the Uffizi",
+      "titulo_ca": null,
+      "titulo_original": "In den Uffizien",
+      "tmdb": 875298,
+      "trailer": null,
+      "wikidata": "Q108705997"
+    },
+    "fecha": "2026-11-25"
+  },
   "itt15799564": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
@@ -6369,6 +6531,95 @@
   "itt15799564-1": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "itt16115226": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/893OMtxpWpOH8pKI5aeJbeEgL6j.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vEDm2iMSJk4d9x7M7XwQoW7tTn5.jpg",
+          "id": 1493049,
+          "nombre": "David Martín de los Santos"
+        }
+      ],
+      "duracion": 116,
+      "edad": null,
+      "estreno": "2026-11-27",
+      "fondo": "https://image.tmdb.org/t/p/w1280/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [],
+      "idioma_original": "es",
+      "imdb": "tt16115226",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fLnKQKnkRstbMhrmJcx1BDLPXmL.jpg",
+          "id": 1773299,
+          "nombre": "Karin Zielinski"
+        }
+      ],
+      "nota_tmdb": null,
+      "paises": [
+        "ES",
+        "PE"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1UQozr5Y4C9HlFAWvsjsLPvThLF.jpg",
+          "id": 17007,
+          "nombre": "Roger Casamajor",
+          "papel": "Andrés"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/caDd0J8smaQMvVjgJsDYabe4dzk.jpg",
+          "id": 1423493,
+          "nombre": "Belén Cuesta",
+          "papel": "Lucía"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jwbEgtWzfk2HZh5engqB9iOkucQ.jpg",
+          "id": 1405756,
+          "nombre": "Font García"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pl0BNxkhS6VeybrXFU4o0FeHCN8.jpg",
+          "id": 79288,
+          "nombre": "Ruth Díaz"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zh2KKedxqkzSHt2V7EvR9B6xY7S.jpg",
+          "id": 1110426,
+          "nombre": "Juanfra Juárez"
+        },
+        {
+          "id": 4578129,
+          "nombre": "Abraham Montufo"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zL9izyd2JItL90cugV9BxSgPJG7.jpg",
+          "id": 2411224,
+          "nombre": "Gerardo de Pablos"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qWei7A7Xn1qievC4ii2ul5CSdUy.jpg",
+          "id": 1456142,
+          "nombre": "Nidia Bermejo"
+        }
+      ],
+      "sinopsis": {
+        "en": "Andrés, a middle-aged man, is going through a life crisis accentuated by his professional failure. After being homeless and being forced to sleep in his car, he returns to his hometown after many years. Between reunions with past loves, friendships from adolescence and unresolved family conflicts, Andrés hides his reality while looking for a refuge from which to remake his life.",
+        "es": "Un hombre en un puente narra la historia de Andrés (Roger Casamajor), un hombre de mediana edad que, sin tener a dónde ir, regresa a su pueblo natal en busca de refugio. Allí se reencuentra con tres figuras clave de su pasado: Lucía (Belén Cuesta), su novia de juventud a la que no ve desde hace muchos años; Mariano (Juanfra Juárez), su antiguo amigo, ahora en horas bajas; y Chema (Font García), su hermano, con quien no se habla desde hace más de una década. Incapaz de encontrar su sitio, un suceso fortuito le lleva a conocer a Liliana (Nidia Bermejo), una mujer que cambia su destino."
+      },
+      "titulo": "Un hombre en un puente",
+      "titulo_ca": null,
+      "titulo_original": "Un hombre en un puente",
+      "tmdb": 1740884,
+      "trailer": "-amALUDN_s4",
+      "wikidata": null
+    },
+    "fecha": "2026-11-25"
   },
   "itt18259698": {
     "datos": {
@@ -7447,6 +7698,192 @@
       "wikidata": "Q140319866"
     },
     "fecha": "2026-11-17"
+  },
+  "itt30811432": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/dHEx0vtTkruolFnkyDeddffPYgT.jpg",
+      "direccion": [
+        {
+          "id": 2555169,
+          "nombre": "Marc Romero"
+        }
+      ],
+      "duracion": 80,
+      "edad": null,
+      "estreno": "2026-11-27",
+      "fondo": "https://image.tmdb.org/t/p/w1280/6UGrnnH7ciOT3BAz4IHLmV26lUj.jpg",
+      "generos": [
+        "Crimen",
+        "Suspense"
+      ],
+      "guion": [
+        {
+          "id": 2555169,
+          "nombre": "Marc Romero"
+        }
+      ],
+      "idioma_original": "es",
+      "imdb": "tt30811432",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2IDVZhGw13p6YdnZ8s2E8nGbMWQ.jpg",
+          "id": 67052,
+          "nombre": "Macarena Gómez",
+          "papel": "Manuela"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/46VjvDA7znpxJvYmbu4t9PjoGfJ.jpg",
+          "id": 24974,
+          "nombre": "Emma Suárez"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hy9hZnQxGjs2svlgEXqhdSbQlAR.jpg",
+          "id": 225017,
+          "nombre": "Roberto Álamo"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zrdnc3oxH6ufeoWWgZfIWJIHFsL.jpg",
+          "id": 1682625,
+          "nombre": "Boré Buika"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fUJNzimIWqaYxUjNT6VlY0sfSqv.jpg",
+          "id": 2931194,
+          "nombre": "Alex Sorian Brown"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4pbZjGmRaIU2STAG2fMib61FnLp.jpg",
+          "id": 2603442,
+          "nombre": "Álex Ubago"
+        }
+      ],
+      "sinopsis": {
+        "en": "On Christmas Eve, emotionally distant mother Manuela's six-year-old Iván disappears from a mall. As two Guardia Civil investigators pursue the case, Manuela is driven toward a more unsettling possibility: she may be losing her grip on reality. With no evidence of a kidnapping, the case escalates when authorities uncover her criminal past — and no one claims to remember ever seeing her with a child. As time tightens, Manuela must prove her innocence before it’s too late.",
+        "es": "Manuela hará todo lo posible para encontrar a su hijo de 6 años, quien desaparece el día de Nochebuena en un centro comercial. Con la llegada de la Guardia Civil, Manuela debe afrontar la posibilidad de haber perdido la razón mientras lucha por recuperar a su pequeño. No hay indicios de un posible secuestro, pero de repente una noticia inquietante llega al centro comercial: Manuela tiene un largo historial delictivo y nadie recuerda haberla visto con su hijo."
+      },
+      "titulo": "Hora y veinte",
+      "titulo_ca": null,
+      "titulo_original": "Hora y veinte",
+      "tmdb": 1228569,
+      "trailer": "AuCkDsdOX2Q",
+      "wikidata": null
+    },
+    "fecha": "2026-11-25"
+  },
+  "itt31123933": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/tn7VPw8yRdkXhJgdxzUY1DsgJTO.jpg",
+      "direccion": [
+        {
+          "id": 52506,
+          "nombre": "Mark Freiburger"
+        }
+      ],
+      "duracion": 87,
+      "edad": null,
+      "estreno": "2025-01-26",
+      "fondo": "https://image.tmdb.org/t/p/w1280/lmQNQ45Ynoo98Cttls0N0yjQf6m.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "id": 52506,
+          "nombre": "Mark Freiburger"
+        },
+        {
+          "id": 4978312,
+          "nombre": "Isaac Norris"
+        },
+        {
+          "id": 1441564,
+          "nombre": "Adam Sjöberg"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt31123933",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gG1aYOUzruR0f3wyYGuYa0xxcqO.jpg",
+          "id": 1355937,
+          "nombre": "Elizabeth Tabish",
+          "papel": "Violetta Petrosyan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tpagVmiCbOQ8CPiRxF5MuZGfZGV.jpg",
+          "id": 31167,
+          "nombre": "Elizabeth Mitchell",
+          "papel": "Carrie Whitlow"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ZIRcuu7SEhZXBUFH8W5Yfe1r27.jpg",
+          "id": 971726,
+          "nombre": "Ana Ularu",
+          "papel": "Kate Owens"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/yI8xBqEi5IAeyoEgGcdbcyEc9vO.jpg",
+          "id": 102742,
+          "nombre": "Patrick Sabongui",
+          "papel": "Ivan Petrosyan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fb51LbRcqIsfgvrs5ZpwVyuDYU2.jpg",
+          "id": 17355,
+          "nombre": "Michael Paul Chan",
+          "papel": "The Judge"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8c7Zzo91E4Jy8yWIgtwGvgdN4Si.jpg",
+          "id": 37403,
+          "nombre": "Stelio Savante",
+          "papel": "Duane"
+        },
+        {
+          "id": 4978394,
+          "nombre": "Natalia Badea",
+          "papel": "Olga Petrosyan"
+        },
+        {
+          "id": 4978400,
+          "nombre": "Sofia Pistireanu",
+          "papel": "Julia Petrosyan"
+        },
+        {
+          "id": 4978387,
+          "nombre": "Stan Mayer",
+          "papel": "Bailiff"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2Ezwm5Lkj50nAsT3G2A32oqcDUP.jpg",
+          "id": 1311021,
+          "nombre": "Florin Penișoară",
+          "papel": "Dimitri"
+        }
+      ],
+      "sinopsis": {
+        "en": "In a crumbling Soviet Union, the Petrosyan family finds themselves as outcasts—wherever they go. Their Armenian heritage marks them for discrimination, first in their home country of Azerbaijan and then in Russia. After finding their eternal hope through a church planted by American missionaries, the hostility of everyday life pushes them to seek refuge in the United States. In the shadow of exile, hope became their home. Based on a riveting true story of faith and hope set amidst great oppression."
+      },
+      "titulo": "Between Borders",
+      "titulo_ca": null,
+      "titulo_original": "Between Borders",
+      "tmdb": 1310171,
+      "trailer": "e701FkAMSOg",
+      "wikidata": "Q137546026"
+    },
+    "fecha": "2026-11-25"
   },
   "itt31450459": {
     "datos": {
@@ -12769,6 +13206,7 @@
   },
   "p101542": "Q3527989",
   "p102222": "Q275932",
+  "p102742": "Q7147582",
   "p1033661": "Q7836302",
   "p1038": "Q41351",
   "p1042010": "Q16908467",
@@ -12800,6 +13238,7 @@
   "p1159954": "Q22248002",
   "p1172108": "Q20752077",
   "p118545": "Q2315802",
+  "p1186042": "Q268154",
   "p1200444": "Q23663310",
   "p1205": "Q48410",
   "p1208946": "Q6161447",
@@ -12842,6 +13281,7 @@
   "p13520": "Q299194",
   "p1352031": "Q27037976",
   "p1354553": "Q57584384",
+  "p1355937": "Q123682915",
   "p136495": "Q18350026",
   "p13688": "Q271944",
   "p137028": "Q11234476",
@@ -12852,9 +13292,11 @@
   "p140538": "Q6300538",
   "p1405665": "Q27040203",
   "p1405715": "",
+  "p1405756": "Q107795320",
   "p140853": "Q5765653",
   "p1413390": "Q95817312",
   "p1413918": "Q20021106",
+  "p1423493": "Q5725385",
   "p1427948": "Q18097962",
   "p1431632": "Q56243874",
   "p1437681": "Q19945198",
@@ -12871,6 +13313,7 @@
   "p1488236": "Q1190397",
   "p14892": "Q236956",
   "p148992": "Q16156312",
+  "p1493049": "Q27043048",
   "p1500339": "",
   "p1500586": "Q20978738",
   "p15007": "Q233536",
@@ -12895,9 +13338,11 @@
   "p1665": "Q45647",
   "p1674275": "Q117337684",
   "p1679552": "",
+  "p1682625": "",
   "p169": "Q67881",
   "p16980": "Q11681419",
   "p17006": "Q264754",
+  "p17007": "Q3818317",
   "p1715006": "Q3052744",
   "p1736757": "Q30929628",
   "p17497": "Q441272",
@@ -12950,6 +13395,7 @@
   "p224354": "Q6317587",
   "p224871": "",
   "p224874": "Q3698926",
+  "p225017": "Q276652",
   "p226001": "Q151892",
   "p2269143": "Q17503525",
   "p2269274": "",
@@ -12973,6 +13419,7 @@
   "p239271": "Q15854232",
   "p2396803": "",
   "p240": "Q2001",
+  "p240637": "Q19883359",
   "p2424427": "Q137822415",
   "p24379": "Q599249",
   "p24687": "Q2834938",
@@ -12982,6 +13429,7 @@
   "p2543463": "Q123612026",
   "p2545929": "",
   "p2549328": "",
+  "p2555169": "",
   "p2559506": "Q106873503",
   "p2617257": "",
   "p2623524": "",
@@ -13023,6 +13471,7 @@
   "p3070857": "",
   "p3084": "Q34012",
   "p3088": "Q323166",
+  "p31167": "Q229394",
   "p3119545": "Q21197590",
   "p3126191": "Q124499794",
   "p31422": "Q5923495",
@@ -13094,8 +13543,11 @@
   "p5171095": "",
   "p51894": "Q932019",
   "p525": "Q25191",
+  "p52506": "Q6767672",
+  "p5266": "Q69705",
   "p5269231": "",
   "p5273310": "",
+  "p5274": "Q308792",
   "p5284715": "Q137170965",
   "p52968": "Q436829",
   "p5299192": "",
@@ -13168,8 +13620,10 @@
   "p6645": "Q3431161",
   "p6648": "Q7546",
   "p6677": "Q207506",
+  "p67052": "Q2757345",
   "p67262": "Q9048215",
   "p6807": "Q316446",
+  "p68641": "Q92056",
   "p68903": "Q491333",
   "p6949": "Q172261",
   "p70046": "Q3482797",
@@ -13187,9 +13641,11 @@
   "p76556": "Q2013068",
   "p77008": "Q3086808",
   "p77498": "Q462256",
+  "p79288": "Q3453612",
   "p79510": "Q61473527",
   "p80591": "Q540608",
   "p81051": "Q981690",
+  "p81749": "Q43264",
   "p819": "Q125904",
   "p840814": "Q12260748",
   "p84425": "Q2778106",
@@ -13219,6 +13675,7 @@
   "p95606": "Q5927386",
   "p964834": "Q943790",
   "p96690": "Q22926984",
+  "p971726": "Q19834546",
   "p9857": "Q94992",
   "wQ100194041": [
     {
@@ -13782,8 +14239,10 @@
     }
   ],
   "wQ106881027": [],
+  "wQ107795320": [],
   "wQ1078163": [],
   "wQ108494222": [],
+  "wQ108705997": [],
   "wQ108830043": [],
   "wQ1091339": [],
   "wQ110498189": [],
@@ -14169,6 +14628,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ123682915": [],
   "wQ123739722": [],
   "wQ124499794": [],
   "wQ124641586": [
@@ -14999,6 +15459,7 @@
       "tipo": "ganado"
     }
   ],
+  "wQ137546026": [],
   "wQ137609329": [],
   "wQ1377022": [
     {
@@ -16579,6 +17040,8 @@
       "tipo": "nominado"
     }
   ],
+  "wQ19834546": [],
+  "wQ19883359": [],
   "wQ19945198": [
     {
       "anio": null,
@@ -17532,6 +17995,38 @@
     {
       "anio": 2019,
       "premio": "Óscar al mejor cortometraje",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ229394": [
+    {
+      "anio": 2008,
+      "premio": "Premi Saturn a la millor actriu de repartiment de sèrie de televisió",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Saturn a la Mejor Actriz en Televisión",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Primetime Emmy a la mejor actriz invitada - Serie dramática",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premi Saturn a la millor actriu de repartiment de sèrie de televisió",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premi Saturn a la millor actriu de repartiment de sèrie de televisió",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Premi Saturn a la millor actriu de repartiment de sèrie de televisió",
       "tipo": "nominado"
     }
   ],
@@ -18510,6 +19005,13 @@
     }
   ],
   "wQ2665604": [],
+  "wQ268154": [
+    {
+      "anio": null,
+      "premio": "Oficial de la Orden del Infante Don Enrique",
+      "tipo": "ganado"
+    }
+  ],
   "wQ26921822": [
     {
       "anio": 2019,
@@ -18556,6 +19058,18 @@
   ],
   "wQ27037976": [],
   "wQ27040203": [],
+  "wQ27043048": [
+    {
+      "anio": 2021,
+      "premio": "Medalla del Círculo de Escritores Cinematográficos al director revelación",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Premio Goya al mejor director novel",
+      "tipo": "nominado"
+    }
+  ],
   "wQ27049947": [],
   "wQ271944": [
     {
@@ -18626,6 +19140,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ2757345": [],
   "wQ275932": [
     {
       "anio": 2017,
@@ -18651,6 +19166,18 @@
       "anio": 2026,
       "premio": "Premio Nacional de Cinematografía",
       "tipo": "ganado"
+    }
+  ],
+  "wQ276652": [
+    {
+      "anio": 2022,
+      "premio": "Premio Feroz al mejor actor protagonista de una película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2021,
+      "premio": "Premi Berlanga al millor actor de repartiment",
+      "tipo": "nominado"
     }
   ],
   "wQ276739": [
@@ -19023,6 +19550,7 @@
   "wQ303957": [],
   "wQ3052744": [],
   "wQ3086808": [],
+  "wQ308792": [],
   "wQ30929628": [],
   "wQ310637": [
     {
@@ -19399,6 +19927,7 @@
     }
   ],
   "wQ3431161": [],
+  "wQ3453612": [],
   "wQ3482797": [],
   "wQ3497894": [],
   "wQ3527989": [
@@ -20670,6 +21199,23 @@
       "tipo": "nominado"
     }
   ],
+  "wQ3818317": [
+    {
+      "anio": 2011,
+      "premio": "Premio Gaudí al mejor actor secundario",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2021,
+      "premio": "Biznaga de Plata a la mejor interpretación masculina",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Premio Gaudí al mejor actor",
+      "tipo": "nominado"
+    }
+  ],
   "wQ382393": [
     {
       "anio": 2023,
@@ -21023,6 +21569,103 @@
     {
       "anio": 2024,
       "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ43264": [
+    {
+      "anio": null,
+      "premio": "Comendador de la Orden de Ouissam Alaouite",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Gran Cruz de la Orden de Santiago de la Espada",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Gran Cruz de la Orden del Infante Don Enrique",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Comendador de la Orden Militar de Santiago de la Espada",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Sophia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Globos de Ouro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1989,
+      "premio": "Doctor honoris causa por la Universidad de Oporto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premio de la Crítica de la Academia del Cine Europeo",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Doctor honoris causa de la Universidad Nueva de Lisboa",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premi Robert Bresson",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Medalla de Oro al Mérito en las Bellas Artes",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premio Honorario del Cine Europeo",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2008,
+      "premio": "Palma de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Orden del Mérito Cultural",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Doctor honorario de la Universidad de Trás-os-Montes y Alto Douro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Doctor honoris causa de la Universidad de París-VIII",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Gran Oficial de la Orden Nacional de la Legión de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo al mejor guionista",
       "tipo": "nominado"
     }
   ],
@@ -22828,6 +23471,18 @@
       "tipo": "ganado"
     }
   ],
+  "wQ5725385": [
+    {
+      "anio": 2020,
+      "premio": "Premio Goya a la mejor interpretación femenina protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2020,
+      "premio": "Premio Feroz a la mejor actriz protagonista de una película",
+      "tipo": "ganado"
+    }
+  ],
   "wQ57584369": [],
   "wQ57584384": [],
   "wQ5765653": [],
@@ -22975,6 +23630,7 @@
   "wQ63382252": [],
   "wQ6375522": [],
   "wQ66753809": [],
+  "wQ6767672": [],
   "wQ67881": [
     {
       "anio": 2004,
@@ -23025,6 +23681,8 @@
       "tipo": "ganado"
     }
   ],
+  "wQ694651": [],
+  "wQ69705": [],
   "wQ70003": [
     {
       "anio": 2006,
@@ -23270,6 +23928,7 @@
     }
   ],
   "wQ710314": [],
+  "wQ7147582": [],
   "wQ7181929": [],
   "wQ72717": [
     {
@@ -24341,6 +25000,7 @@
     }
   ],
   "wQ91013477": [],
+  "wQ92056": [],
   "wQ926680": [
     {
       "anio": null,

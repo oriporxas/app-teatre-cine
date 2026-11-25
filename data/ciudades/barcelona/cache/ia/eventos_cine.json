@@ -215,6 +215,5 @@
 "open_data_bcn:99400791234": {"confianza": 0.6, "huella": "7b57bedf4ffdab45", "tipo": "formación"},
 "open_data_bcn:99400791342": {"confianza": 0.95, "huella": "f487f1ccbd6b260b", "tipo": "formación"},
 "open_data_bcn:99400791348": {"confianza": 0.8, "huella": "b81e3fbaa073db3e", "tipo": "formación"},
-"webs_salas:af3d6a1552c88b6d": {"confianza": 0.5, "huella": "b975354729bc699d", "tipo": "conferencia o coloquio"},
-"webs_salas:b1a53a42fd68963e": {"confianza": 0.5, "huella": "dcf789606f442525", "tipo": "proyección"}
+"webs_salas:af3d6a1552c88b6d": {"confianza": 0.5, "huella": "b975354729bc699d", "tipo": "conferencia o coloquio"}
 }

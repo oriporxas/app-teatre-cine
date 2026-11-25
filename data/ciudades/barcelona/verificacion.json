@@ -3,7 +3,7 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-25",
-    "publicadas": 89
+    "publicadas": 96
   },
   "escena": {
     "anomalias": [
@@ -170,6 +170,13 @@
       },
       {
         "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400695519",
+        "id": "open_data_bcn:99400775137",
+        "regla": "repetida",
+        "titulo": "Improvisació teatral"
+      },
+      {
+        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400776438",
         "id": "open_data_bcn:99400776441",
         "regla": "repetida",
@@ -302,19 +309,19 @@
         "titulo": "Teatre amateur"
       },
       {
-        "accion": "función quitada",
-        "detalle": "2026-11-27 fuera del periodo 2026-11-28–2026-12-18",
-        "id": "webs_salas:1eb88c22c16ed822",
-        "regla": "fecha",
-        "titulo": "Show Up Go Up"
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400749410",
+        "id": "open_data_bcn:99400791527",
+        "regla": "repetida",
+        "titulo": "Teatre a mida"
       }
     ],
     "corregidas_por_regla": {
-      "fecha": 20,
-      "repetida": 21,
+      "fecha": 19,
+      "repetida": 23,
       "sala": 2
     },
     "fecha": "2026-11-25",
-    "publicadas": 729
+    "publicadas": 718
   }
 }

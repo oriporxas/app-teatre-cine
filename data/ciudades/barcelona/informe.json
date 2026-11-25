@@ -1,63 +1,72 @@
 {
-  "actividades_vigentes": 6944,
+  "actividades_vigentes": 7324,
   "app": {
     "compra": {
-      "buscadas_hoy": 21,
+      "buscadas_hoy": 1,
       "con_enlace": 345,
-      "encontradas": 155,
+      "encontradas": 156,
       "obra": 268,
-      "portadas": 232,
+      "portadas": 233,
       "sala": 77
     },
-    "espectaculos_app": 729,
+    "espectaculos_app": 718,
     "fichas_obra": {
-      "cartel_nuevo": 5,
+      "cartel_nuevo": 4,
       "con_pagina": 256,
       "duracion_nueva": 17,
       "equipo_ampliado": 140,
       "equipo_nuevo": 20,
-      "ia_hoy": 5,
-      "leidas_hoy": 5,
+      "errores": [
+        "https://www.salabeckett.cat/espectacle/el-forat-blanc/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred"
+      ],
+      "ia_hoy": 0,
+      "leidas_hoy": 1,
       "premios_nuevos": 22
     },
     "fichas_personas": {
       "buscados_hoy": 0,
       "con_ficha": 10,
-      "espectaculos_magia": 19
+      "errores": [
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
+      ],
+      "espectaculos_magia": 20
     },
     "ia_fichas": {
-      "con_premios": 16,
-      "con_traduccion": 636,
-      "fichas_con_texto": 639,
-      "hechas": 3,
+      "con_premios": 15,
+      "con_traduccion": 614,
+      "errores": [
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
+      ],
+      "fichas_con_texto": 618,
+      "hechas": 0,
       "modelo": "claude-haiku-5-5",
-      "pendientes": 6
+      "pendientes": 4
     },
     "personas": {
-      "buscados_hoy": 71,
+      "buscados_hoy": 51,
       "descartados_por_papel": 24,
-      "encontrados": 67,
-      "nombres": 2063,
+      "encontrados": 72,
+      "nombres": 2067,
       "uno_a_uno": true
     },
     "verificacion": {
       "corregidas_por_regla": {
-        "fecha": 20,
-        "repetida": 21,
+        "fecha": 19,
+        "repetida": 23,
         "sala": 2
       },
-      "publicadas": 729
+      "publicadas": 718
     }
   },
   "biografias": {
-    "buscadas_hoy": 2,
-    "cine": 675,
-    "con_ficha": 936,
-    "escena_encontradas": 261,
-    "escena_nombres": 2063,
-    "leidas_hoy": 42
+    "buscadas_hoy": 4,
+    "cine": 715,
+    "con_ficha": 979,
+    "escena_encontradas": 264,
+    "escena_nombres": 2067,
+    "leidas_hoy": 40
   },
-  "caducados": 93,
+  "caducados": 92,
   "cine": {
     "caducadas": 48,
     "cines": {
@@ -75,7 +84,7 @@
       },
       "Cinemes Verdi": {
         "como": "elqueque",
-        "sesiones": 77
+        "sesiones": 298
       },
       "Cinesa Diagonal": {
         "como": "su web no permite programas (robots.txt)",
@@ -123,23 +132,23 @@
       },
       "Mooby Aribau": {
         "como": "elqueque",
-        "sesiones": 108
+        "sesiones": 109
       },
       "Mooby Balmes": {
         "como": "elqueque",
-        "sesiones": 323
+        "sesiones": 309
       },
       "Mooby Bosque": {
         "como": "elqueque",
-        "sesiones": 46
+        "sesiones": 210
       },
       "Mooby Glòries": {
         "como": "elqueque",
-        "sesiones": 211
+        "sesiones": 206
       },
       "Mooby Gran Sarrià": {
         "como": "elqueque",
-        "sesiones": 246
+        "sesiones": 245
       },
       "Recursos d'Animació Intercultural RAI": {
         "como": "sin horarios legibles en su web",
@@ -163,19 +172,21 @@
       }
     },
     "con_sesiones_en_cines": 8,
-    "con_tmdb": 63,
+    "con_tmdb": 68,
     "fecha": "2026-11-25",
-    "peliculas": 89,
+    "peliculas": 96,
     "sesiones_agenda": 59,
-    "sesiones_cines": 1496,
+    "sesiones_cines": 1862,
     "tmdb": {
       "con_premios": 17,
-      "identificadas": 74,
-      "peliculas": 100,
+      "identificadas": 79,
+      "peliculas": 107,
       "sin_identificar": [
         "El cascanueces (The Royal Ballet) ? Registrat en directe a la Royal Opera House de Londres",
+        "Carmen - St. Margarethen",
         "Sessió TETA: Wild Horse Nine",
         "Hermanas",
+        "El cielo es para siempre",
         "FATHERLAND",
         "Projecció ''Sorda",
         "Tarda de cinema",
@@ -203,7 +214,7 @@
     },
     "verificacion": {
       "corregidas_por_regla": {},
-      "publicadas": 89
+      "publicadas": 96
     }
   },
   "ciudad": {
@@ -218,8 +229,8 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "ia": 1101,
-    "señales": 157
+    "ia": 1122,
+    "señales": 163
   },
   "cobertura": {
     "cines_con_horarios": [
@@ -271,108 +282,88 @@
     "sin_actividades": 71
   },
   "compra": {
-    "buscadas_hoy": 21,
+    "buscadas_hoy": 1,
     "con_enlace": 345,
-    "encontradas": 155,
+    "encontradas": 156,
     "obra": 268,
-    "portadas": 232,
+    "portadas": 233,
     "sala": 77
   },
-  "con_detalle": 1080,
+  "con_detalle": 1059,
   "con_enlace_compra": 420,
   "con_idioma": 57,
-  "con_precio": 1224,
-  "con_publico": 302,
-  "duracion_minutos": 56.2,
+  "con_precio": 1261,
+  "con_publico": 309,
+  "duracion_minutos": 22.3,
   "errores": [],
   "fecha": "2026-11-25",
   "fichas_obra": {
-    "cartel_nuevo": 5,
+    "cartel_nuevo": 4,
     "con_pagina": 256,
     "duracion_nueva": 17,
     "equipo_ampliado": 140,
     "equipo_nuevo": 20,
-    "ia_hoy": 5,
-    "leidas_hoy": 5,
+    "errores": [
+      "https://www.salabeckett.cat/espectacle/el-forat-blanc/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred"
+    ],
+    "ia_hoy": 0,
+    "leidas_hoy": 1,
     "premios_nuevos": 22
   },
   "fichas_personas": {
     "buscados_hoy": 0,
     "con_ficha": 10,
-    "espectaculos_magia": 19
+    "errores": [
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
+    ],
+    "espectaculos_magia": 20
   },
   "fuentes": {
     "open_data_bcn": {
-      "actividades_vigentes": 6880,
+      "actividades_vigentes": 7295,
       "descarga": {
         "agendas": {
           "activitats": {
             "conjunto": "agenda-diaria",
             "fichero_json_completo": "bloqueado (403)",
-            "registros": 4555
+            "registros": 4778
           },
           "cultural": {
             "conjunto": "agenda-cultural",
             "fichero_json_completo": "bloqueado (403)",
-            "registros": 5041
+            "registros": 5259
           }
         },
-        "fecha": "2026-11-25T06:17:01+0000"
+        "fecha": "2026-11-25T14:35:01+0000"
       },
       "equipamientos": 3041,
       "guia": {
         "errores": 0,
-        "fichas_en_cache": 2375,
-        "leidas_hoy": 168,
-        "pendientes": 4936
+        "fichas_en_cache": 2378,
+        "leidas_hoy": 36,
+        "pendientes": 5439
       },
       "por_agenda": {
-        "activitats": 2102,
-        "activitats+cultural": 2042,
-        "cultural": 2736
+        "activitats": 2234,
+        "activitats+cultural": 2174,
+        "cultural": 2887
       }
     },
     "webs_salas": {
-      "con_web": 19,
+      "aviso": "sin tiempo: el resto, mañana",
+      "con_web": 16,
       "descartadas": 16,
-      "funciones": 98,
-      "leidas_ia": 11,
-      "obras": 64,
-      "paginas": 29,
-      "salas_sin_agenda": 33,
-      "web_compartida": 20
+      "funciones": 34,
+      "leidas_ia": 2,
+      "obras": 29,
+      "paginas": 20,
+      "salas_sin_agenda": 33
     }
   },
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1901,
-      "disponible": true,
-      "enviadas": 171,
-      "errores": 0,
-      "lotes": {
-        "en_curso": 0,
-        "enviadas": 18,
-        "recogidas": 18,
-        "repetidas_normal": 0
-      },
-      "modelo": "claude-sonnet-5-5",
-      "pendientes_antes": 171,
-      "pendientes_despues": 0,
-      "tarea": "clasificar",
-      "tokens_cache": 86615,
-      "tokens_cache_escritura": 5095,
-      "tokens_entrada": 56144,
-      "tokens_salida": 18220
-    },
-    "eventos_cine": {
-      "candidatas": 218,
-      "eventos": 79,
-      "pendientes": 6
-    },
-    "revisar_dudosos": {
-      "activa": true,
-      "candidatas": 186,
+      "candidatas": 1985,
       "disponible": true,
       "enviadas": 0,
       "errores": 0,
@@ -382,9 +373,39 @@
         "recogidas": 0,
         "repetidas_normal": 0
       },
+      "modelo": "claude-sonnet-5-5",
+      "pendientes_antes": 160,
+      "pendientes_despues": 0,
+      "tarea": "clasificar",
+      "tokens_cache": 0,
+      "tokens_cache_escritura": 0,
+      "tokens_entrada": 0,
+      "tokens_salida": 0
+    },
+    "eventos_cine": {
+      "candidatas": 226,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+      "eventos": 79,
+      "pendientes": 9
+    },
+    "revisar_dudosos": {
+      "activa": true,
+      "candidatas": 206,
+      "detalles": [
+        "lotes: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+      ],
+      "disponible": true,
+      "enviadas": 0,
+      "errores": 1,
+      "lotes": {
+        "en_curso": 0,
+        "enviadas": 0,
+        "recogidas": 0,
+        "repetidas_normal": 0
+      },
       "modelo": "claude-opus-5-5",
-      "pendientes_antes": 10,
-      "pendientes_despues": 1,
+      "pendientes_antes": 37,
+      "pendientes_despues": 7,
       "tarea": "revisar_dudosos",
       "tokens_cache": 0,
       "tokens_cache_escritura": 0,
@@ -393,38 +414,41 @@
     }
   },
   "ia_fichas": {
-    "con_premios": 16,
-    "con_traduccion": 636,
-    "fichas_con_texto": 639,
-    "hechas": 3,
+    "con_premios": 15,
+    "con_traduccion": 614,
+    "errores": [
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
+    ],
+    "fichas_con_texto": 618,
+    "hechas": 0,
     "modelo": "claude-haiku-5-5",
-    "pendientes": 6
+    "pendientes": 4
   },
-  "inicio": "2026-11-25T06:17:01+0000",
+  "inicio": "2026-11-25T14:35:01+0000",
   "magia": {
     "incluye": 4,
-    "principal": 19,
+    "principal": 20,
     "tema": 7
   },
   "noticias": {
-    "clasificadas_hoy": 199,
-    "eventos": 39,
-    "leidas": 820,
+    "clasificadas_hoy": 137,
+    "eventos": 38,
+    "leidas": 831,
     "lotes": {
       "en_curso": 0,
-      "enviadas": 7,
+      "enviadas": 0,
       "errores": 0,
-      "recogidas": 7,
+      "recogidas": 0,
       "repetidas_normal": 0
     },
     "medios": 39,
     "por_ambito": {
       "barcelona": 35,
-      "espana": 97,
-      "mundo": 261
+      "espana": 94,
+      "mundo": 266
     },
     "por_canal": {
-      "https://barcelonasecreta.com/feed/": 8,
+      "https://barcelonasecreta.com/feed/": 9,
       "https://beteve.cat/cultura/feed/": 15,
       "https://beteve.cat/tag/festivals/feed/": 4,
       "https://beteve.cat/tag/magia/feed/": 4,
@@ -433,7 +457,7 @@
       "https://geniimagazine.com/feed/": 15,
       "https://playbill.com/rss/news": 10,
       "https://rss.elconfidencial.com/cultura/": 15,
-      "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml": 32,
+      "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml": 34,
       "https://rss.nytimes.com/services/xml/rss/nyt/Theater.xml": 20,
       "https://variety.com/feed/": 10,
       "https://www.20minutos.es/rss/cinemania/": 76,
@@ -441,7 +465,7 @@
       "https://www.abc.es/rss/2.0/cultura/": 25,
       "https://www.abc.es/rss/2.0/cultura/teatros/": 15,
       "https://www.americantheatre.org/feed/": 23,
-      "https://www.ara.cat/rss/cultura/": 64,
+      "https://www.ara.cat/rss/cultura/": 65,
       "https://www.elcritic.cat/feed/": 10,
       "https://www.eldiario.es/rss/cultura/teatro": 7,
       "https://www.elespanol.com/rss/cultura/": 0,
@@ -451,53 +475,53 @@
       "https://www.fotogramas.es/rss/all.xml/": 50,
       "https://www.hollywoodreporter.com/feed/": 10,
       "https://www.indiewire.com/feed/": 12,
-      "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/": 73,
+      "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/": 79,
       "https://www.lavanguardia.com/rss/cultura.xml": 100,
       "https://www.masescena.es/feed/": 10,
       "https://www.revistagodot.com/feed/": 12,
       "https://www.sensacine.com/rss/noticias.xml": 20,
       "https://www.thecircusdiaries.com/feed/": 3,
       "https://www.theguardian.com/film/rss": 19,
-      "https://www.theguardian.com/stage/rss": 18,
+      "https://www.theguardian.com/stage/rss": 19,
       "https://www.vilaweb.cat/categoria/cultura/arts-esceniques/feed/": 1,
       "https://www.vilaweb.cat/etiqueta/circ/feed/": 0,
       "https://www.vilaweb.cat/etiqueta/magia/feed/": 0,
       "https://www.zirkolika.com/feed/": 10
     },
     "por_tema": {
-      "cine": 227,
+      "cine": 229,
       "circo": 16,
       "magia": 19,
       "teatro": 131
     },
-    "publicadas": 393
+    "publicadas": 395
   },
   "personas": {
-    "buscados_hoy": 71,
+    "buscados_hoy": 51,
     "descartados_por_papel": 24,
-    "encontrados": 67,
-    "nombres": 2063,
+    "encontrados": 72,
+    "nombres": 2067,
     "uno_a_uno": true
   },
   "por_tipo": {
-    "cine": 111,
-    "circo": 19,
-    "danza": 83,
-    "evento": 513,
-    "magia": 19,
-    "musical": 36,
+    "cine": 118,
+    "circo": 21,
+    "danza": 86,
+    "evento": 533,
+    "magia": 20,
+    "musical": 38,
     "otro": 1,
-    "teatro": 476
+    "teatro": 468
   },
-  "publicadas": 1258,
-  "salas_con_espectaculos": 203,
+  "publicadas": 1285,
+  "salas_con_espectaculos": 205,
   "salas_con_nombre": 195,
   "verificacion": {
     "corregidas_por_regla": {
-      "fecha": 20,
-      "repetida": 21,
+      "fecha": 19,
+      "repetida": 23,
       "sala": 2
     },
-    "publicadas": 729
+    "publicadas": 718
   }
 }
