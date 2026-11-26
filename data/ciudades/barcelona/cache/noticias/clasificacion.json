@@ -1,108 +1,4 @@
 {
-  "https://barcelonasecreta.com/aumento-permiso-paternidad/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El permís per naixement s'amplia a 20 setmanes pagades, amb 6 obligatòries, 12 flexibles i 2 de cura del menor fins als 8 anys.",
-      "es": "El permiso por nacimiento se amplía a 20 semanas pagadas, con 6 obligatorias, 12 flexibles y 2 de cuidado del menor hasta los 8 años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El permís per naixement puja de 19 a 20 setmanes pagades al 100 %",
-      "es": "El permiso por nacimiento sube de 19 a 20 semanas pagadas al 100 %"
-    }
-  },
-  "https://barcelonasecreta.com/cortes-trafico-paseo-de-gracia-encendido-luces-navidad/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Diversos trams del Passeig de Gràcia estaran tallats fins dijous 26 per l'encesa dels llums de Nadal.",
-      "es": "Varios tramos del Paseo de Gràcia estarán cortados hasta el jueves 26 por el encendido de las luces de Navidad."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Passeig de Gràcia, tallat avui i demà a Barcelona per l'encesa dels llums de Nadal: quins trams estan tancats fins dijous 26",
-      "es": "Paseo de Gràcia, cortado hoy y mañana en Barcelona por el encendido de las luces de Navidad: qué tramos están cerrados hasta el jueves 26"
-    }
-  },
-  "https://barcelonasecreta.com/madring-nuevas-entradas-f1-madrid-2027/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "S’anuncien noves entrades per al Gran Premi de F1 a Madrid el 2027, amb opcions a la zona Pelouse, durant el Black Friday.",
-      "es": "Se anuncian nuevas entradas para el Gran Premio de F1 en Madrid en 2027, con opciones en la zona Pelouse, durante el Black Friday."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Black Friday a MADRING: noves entrades disponibles per viure la F1 a Madrid el 2027, amb opcions a Pelouse",
-      "es": "Black Friday en MADRING: nuevas entradas disponibles para vivir la F1 en Madrid en 2027, con opciones en Pelouse"
-    }
-  },
-  "https://barcelonasecreta.com/pasamos-cuatro-declaraciones-renta-gobierno-aprueba-iva-anual-85-000/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Els autònoms amb facturació inferior a 85.000 euros anuals podran declarar l'IVA una sola vegada a l'any, segons les noves mesures.",
-      "es": "Los autónomos con facturación inferior a 85.000 euros anuales podrán declarar el IVA una sola vez al año, según las nuevas medidas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Adéu a la declaració trimestral d'IVA per als autònoms que facturin menys de 85.000 euros",
-      "es": "Adiós a la declaración trimestral de IVA para autónomos que facturen menos de 85.000 euros"
-    }
-  },
-  "https://barcelonasecreta.com/pueblo-aitana-cerezos-sant-climent-de-llobregat/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Un article recorda que figures com Aitana Ocaña van tenir orígens humils i destaca un poble proper a Barcelona famós pels seus cirerers en flor.",
-      "es": "Un artículo recuerda que figuras como Aitana Ocaña tuvieron orígenes humildes y destaca un pueblo cercano a Barcelona famoso por sus cerezos en flor."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El «lloc de desconnexió» d’Aitana és en un poble de 4.000 habitants a mitja hora de Barcelona",
-      "es": "El «lugar de desconexión» de Aitana está en un pueblo de 4.000 habitantes a media hora de Barcelona"
-    }
-  },
-  "https://barcelonasecreta.com/pueblo-entero-catalunya-venta-mismo-barcelona-295-000-18-andorra/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Es ven un municipi català de 30 hectàrees situat a 18 km d'Andorra pel preu d'un pis barat a Barcelona.",
-      "es": "Se vende un municipio catalán de 30 hectáreas situado a 18 km de Andorra por el precio de un piso barato en Barcelona."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Un poble sencer de Catalunya a la venda per 295.000 €",
-      "es": "Un pueblo entero de Catalunya a la venta por 295.000 €"
-    }
-  },
-  "https://barcelonasecreta.com/restaurante-emocionar-barcelona/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Un restaurant del Putxet amb cuina catalana dels vuitanta ofereix un menú de migdia per 17,50 €.",
-      "es": "Un restaurante del Putxet con cocina catalana de los ochenta ofrece un menú de mediodía por 17,50 €."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Quatre entrants, quatre o cinc segons, beguda i postres o cafè per 17,50 €: el menú del migdia d'un restaurant del Putxet amb cuina catalana dels vuitanta",
-      "es": "Cuatro entrantes, cuatro o cinco segundos, bebida y postre o café por 17,50 €: el menú de mediodía de un restaurante del Putxet con cocina catalana de los ochenta"
-    }
-  },
-  "https://barcelonasecreta.com/un-viaje-al-corazon-de-japon-mazda-house-llega-a-barcelona/": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "Mazda House presenta a la Galeria Al-Tiba9 de Barcelona la seva agenda cultural amb audioguies sobre el Japó.",
-      "es": "Mazda House presenta en la Galería Al-Tiba9 de Barcelona su agenda cultural con audioguías sobre Japón."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Un viatge al cor del Japó: Mazda House presenta la seva agenda cultural a Barcelona",
-      "es": "Un viaje al corazón de Japón: Mazda House presenta su agenda cultural en Barcelona"
-    }
-  },
   "https://beteve.cat/10-000-fogueres/la-diaspora-magrebina-sexhibeix-a-gracia/": {
     "ambito": "barcelona",
     "evento": false,
@@ -220,19 +116,6 @@
       "es": "El 32º Manga Barcelona reúne grandes nombres del anime y la cultura japonesa"
     }
   },
-  "https://beteve.cat/cultura/anna-bosch-trobat-faltar-barcelona/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "La periodista Anna Bosch parla del seu vincle amb Barcelona, ciutat on va néixer i créixer en diversos barris, des del Mirador Barcelona.",
-      "es": "La periodista Anna Bosch habla de su vínculo con Barcelona, ciudad donde nació y creció en distintos barrios, desde el Mirador Barcelona."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Anna Bosch, corresponsal arreu del món: «Sempre he trobat a faltar Barcelona»",
-      "es": "Anna Bosch, corresponsal por el mundo: «Siempre he echado de menos Barcelona»"
-    }
-  },
   "https://beteve.cat/cultura/arrenca-biennal-darts-digitals/": {
     "ambito": "barcelona",
     "evento": true,
@@ -259,19 +142,6 @@
       "es": "Vive en directo el encendido de las luces de Navidad en Barcelona 2026, en directo, en betevé"
     }
   },
-  "https://beteve.cat/cultura/felicitacions-nadal-catala-bones-festes/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Guia amb frases i dubtes lingüístics resolts per felicitar el Nadal del 2026 en català.",
-      "es": "Guía con frases y dudas lingüísticas resueltas para felicitar la Navidad de 2026 en catalán."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Felicitacions de Nadal en català: frases per felicitar les festes sense dubtes lingüístics!",
-      "es": "Felicitaciones de Navidad en catalán: frases para felicitar las fiestas sin dudas lingüísticas"
-    }
-  },
   "https://beteve.cat/cultura/jungle-jorge-drexler-kneecap-cruilla-2027/": {
     "ambito": "barcelona",
     "evento": true,
@@ -296,45 +166,6 @@
     "titulo": {
       "ca": "La tieta ja pot anar de vespreig: totes les paraules que entren al diccionari de l'IEC el 2026",
       "es": "La tieta ya puede ir de vespreig: todas las palabras que entran en el diccionario del IEC en 2026"
-    }
-  },
-  "https://beteve.cat/cultura/premis-butaca-2026-amor-venia-en-taxi-la-cubana/": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "L'obra de La Cubana s'emportà vuit premis a la 32a edició dels Premis Butaca, celebrada a Premià de Mar, inclòs el de millor musical.",
-      "es": "La obra de La Cubana se llevó ocho premios en la 32ª edición de los Premios Butaca, celebrada en Premià de Mar, incluido el de mejor musical."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "«L'amor venia amb taxi», de La Cubana, gran triomfadora dels Premis Butaca amb vuit guardons",
-      "es": "«L'amor venia en taxi», de La Cubana, gran triunfadora de los Premios Butaca con ocho galardones"
-    }
-  },
-  "https://beteve.cat/cultura/primer-forum-internacional-traductors/": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "El primer Fòrum Internacional de Traductors de Literatura Catalana reuneix a Barcelona uns 150 traductors de 36 llengües, amb el català com a llengua vehicular.",
-      "es": "El primer Foro Internacional de Traductores de Literatura Catalana reúne en Barcelona a unos 150 traductores de 36 lenguas, con el catalán como lengua vehicular."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "150 traductors de 36 llengües participen en el I Fòrum de Traductors de Literatura Catalana",
-      "es": "150 traductores de 36 lenguas participan en el I Foro de Traductores de Literatura Catalana"
-    }
-  },
-  "https://beteve.cat/periferies/bocinets-musicals-de-realitat/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Un reportatge explora les històries reals que inspiren cançons, a partir d'experiències viscudes pels seus autors a les Perifèries.",
-      "es": "Un reportaje explora las historias reales que inspiran canciones, a partir de experiencias vividas por sus autores en las Perifèries."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Bocinets musicals de realitat",
-      "es": "Bocinas musicales de realidad"
     }
   },
   "https://beteve.cat/tot-passa/lets-festival-festival-musica-independent-hospitalet/": {
@@ -387,32 +218,6 @@
     "titulo": {
       "ca": "Llegir cansa i pensar encara més (però les vambes de Rosalía són gratis!)",
       "es": "Leer cansa y pensar aún más (¡pero las zapatillas de Rosalía son gratis!)"
-    }
-  },
-  "https://llegim.ara.cat/actualitat/premi-documenta-2026-queda-desert_25_5922586.html": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "El Premi Documenta 2026, per a autors de menys de 35 anys, ha quedat desert, com ja va passar el 2022.",
-      "es": "El Premio Documenta 2026, para autores menores de 35 años, ha quedado desierto, como ya ocurrió en 2022."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El premi Documenta 2026 queda desert",
-      "es": "El premio Documenta 2026 queda desierto"
-    }
-  },
-  "https://llegim.ara.cat/actualitat/viola-ardone-fills-han-desil-lusionar-pares-llibertat_1_5866187.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptora Viola Ardone parla de la novel·la «El tren dels nens», un fenomen a Itàlia que Netflix va portar al cinema.",
-      "es": "La escritora Viola Ardone habla de su novela «El tren de los niños», un éxito en Italia que Netflix llevó al cine."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Viola Ardone: «Els fills han de desil·lusionar els pares per tenir llibertat»",
-      "es": "Viola Ardone: «Los hijos deben desilusionar a los padres para tener libertad»"
     }
   },
   "https://llegim.ara.cat/critiques-literaries/colum-mccann-twist-foscor-fons-mar-foscor-fons-cor_1_5915798.html": {
@@ -478,19 +283,6 @@
     "titulo": {
       "ca": "«Quan la mestra ens demanava una redacció sobre el nostre millor amic, jo li entregava una altra cosa»",
       "es": "«Cuando la maestra nos pedía una redacción sobre nuestro mejor amigo, yo le entregaba otra cosa»"
-    }
-  },
-  "https://llegim.ara.cat/entrevistes/marta-marin-domine-veure-morir-amics-persones-estimo-prefereixo-anar-jo-abans_128_5905137.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptora Marta Marín-Dòmine debuta com a dietarista amb Una dona que passa, un any de reflexions personals, polítiques i culturals.",
-      "es": "La escritora Marta Marín-Dòmine debuta como diarista con Una mujer que pasa, un año de reflexiones personales, políticas y culturales."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "\"Veuré morir els amics i les persones que estimo? Prefereixo anar-me'n jo abans\"",
-      "es": "\"¿Veré morir a los amigos y a las personas que quiero? Prefiero irme yo antes\""
     }
   },
   "https://llegim.ara.cat/opinio/preu-opinions_129_5898748.html": {
@@ -688,45 +480,6 @@
       "es": "Riesgo 2027"
     }
   },
-  "https://thecircusdiaries.com/oma-by-roxana-kuwen-arsalan-cie-bolbol/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica de l'espectacle presentat al festival Thrown Together a Jackson's Lane, Londres.",
-      "es": "Crítica del espectáculo presentado en el festival Thrown Together en Jackson's Lane, Londres."
-    },
-    "tema": "circo",
-    "titulo": {
-      "ca": "'OMÂ', de Roxana Küwen Arsalan / Cie Bolbol",
-      "es": "'OMÂ', de Roxana Küwen Arsalan / Cie Bolbol"
-    }
-  },
-  "https://thecircusdiaries.com/thrown-together-juggling-convention-day-2/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "Crònica del segon dia del festival Thrown Together al National Centre for Circus Arts de Londres.",
-      "es": "Crónica del segundo día del festival Thrown Together en el National Centre for Circus Arts de Londres."
-    },
-    "tema": "circo",
-    "titulo": {
-      "ca": "'Thrown Together', convenció de malabarisme, dia 2",
-      "es": "'Thrown Together', convención de malabarismo, día 2"
-    }
-  },
-  "https://thecircusdiaries.com/thrown-together-londons-juggling-and-flow-arts-festival-day-1/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "Crònica del primer dia del festival al National Centre for Circus Arts de Londres, la primera convenció de malabarisme a la ciutat en molt de temps.",
-      "es": "Crónica del primer día del festival en el National Centre for Circus Arts de Londres, la primera convención de malabarismo en la ciudad en mucho tiempo."
-    },
-    "tema": "circo",
-    "titulo": {
-      "ca": "Thrown Together, festival de malabarisme i arts de flux de Londres (dia 1)",
-      "es": "Thrown Together, festival de malabarismo y artes de flujo de Londres (día 1)"
-    }
-  },
   "https://www.20minutos.es/artes/exposicion-que-explora-figura-van-gogh-como-influencer-prolongara-su-apertura-hasta-finales-2027_7065112_0.html": {
     "ambito": "espana",
     "evento": false,
@@ -779,19 +532,6 @@
       "es": "Nathan Sawaya, el escultor que crea su arte con piezas de Lego, llega a España con sus más de 80 obras"
     }
   },
-  "https://www.20minutos.es/cinemania/criticas/critica-hermanas-emma-suarez-elena-anaya-abuso_7065228_3.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La crítica de 'Hermanas' destaca les interpretacions d'Emma Suárez i Elena Anaya, i presenta León Martínez com una descoberta.",
-      "es": "La crítica de 'Hermanas' destaca las interpretaciones de Emma Suárez y Elena Anaya, y presenta a León Martínez como un descubrimiento."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Crítica de 'Hermanas': Emma Suárez i Elena Anaya posen en evidència el que per a uns és acceptable i per a altres un clar abús",
-      "es": "Crítica de 'Hermanas': Emma Suárez y Elena Anaya ponen en evidencia lo que para unos es aceptable y para otros, un claro abuso"
-    }
-  },
   "https://www.20minutos.es/cinemania/criticas/critica-juegos-hambre-amanecer-cosecha-mejor-pelicula-llamas-joseph-zada-mckenna-grace-20-noviembre_7056700_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -803,19 +543,6 @@
     "titulo": {
       "ca": "'Els Jocs de la Fam: Amanecer en la cosecha': la millor pel·lícula de la saga des de 'En llamas'",
       "es": "'Los Juegos del Hambre: Amanecer en la cosecha': la mejor película de la saga desde 'En llamas'"
-    }
-  },
-  "https://www.20minutos.es/cinemania/criticas/critica-nuevas-desventuras-cliff-booth-fincher-violencia-tarantino_7064845_3.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica de la pel·lícula de David Fincher ambientada en l'univers del Hollywood de Quentin Tarantino.",
-      "es": "Crítica de la película de David Fincher ambientada en el universo del Hollywood de Quentin Tarantino."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Crítica de 'Les noves aventures de Cliff Booth': Fincher retorna la violència i l'esplendor al Hollywood de Tarantino",
-      "es": "Crítica de 'Las nuevas desventuras de Cliff Booth': Fincher devuelve la violencia y el esplendor al Hollywood de Tarantino"
     }
   },
   "https://www.20minutos.es/cinemania/noticias/anya-taylor-joy-dune-espanol-telenovela-gusanos-gigantes_7062632_0.html": {
@@ -935,32 +662,6 @@
       "es": "Glenn Close no se olvida de los Javis al recibir su Oscar honorífico: \"Muchas gracias por incluirme en una película tan brillante\""
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/gta-6-tom-cruise-collateral-cameo-iconico-villano_7065120_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Tom Cruise va acceptar a 'Collateral' un dels pocs papers de villà que ha interpretat, i GTA 6 recupera aquest personatge a gran escala.",
-      "es": "Tom Cruise aceptó en 'Collateral' uno de los pocos papeles de villano que ha interpretado, y GTA 6 recupera ese personaje a lo grande."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Tom Cruise es colea a 'GTA 6' i ho han descobert: així és el curiós homenatge al seu icònic villà a 'Collateral'",
-      "es": "Tom Cruise se cuela en 'GTA 6' y lo han descubierto: así es el curioso homenaje a su icónico villano en 'Collateral'"
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/ha-usado-ia-david-fincher-las-nuevas-desventuras-cliff-booth-indigna-sus-primeras-reacciones_7063698_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Les primeres reaccions a la seqüela de 'Érase una vegada a Hollywood', dirigida per Fincher i amb Brad Pitt, generen polèmica.",
-      "es": "Las primeras reacciones a la secuela de 'Érase una vez en Hollywood', dirigida por Fincher y con Brad Pitt, generan polémica."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Ha usat IA David Fincher? 'Les noves desventures de Cliff Booth' indigna en les primeres reaccions",
-      "es": "¿Ha usado IA David Fincher? 'Las nuevas desventuras de Cliff Booth' indigna en sus primeras reacciones"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/hbo-max-oferta-black-friday-cobra-cuentas-compartidas_7064552_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -972,19 +673,6 @@
     "titulo": {
       "ca": "HBO Max amb descompte: llança la major oferta del Black Friday mentre passa a cobrar pels comptes compartits",
       "es": "HBO Max con descuento: lanza la mayor oferta del Black Friday mientras pasa a cobrar por las cuentas compartidas"
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/inma-cuesta-dani-rovira-locamente-comedia-espanola-2027_7065309_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Remake d'una comèdia italiana amb un repartiment espanyol que guia els avenços romàntics de la parella protagonista; arribarà als cinemes el 19 de març de 2027.",
-      "es": "Remake de una comedia italiana con reparto español que guía los avances románticos de la pareja protagonista; llegará a los cines el 19 de marzo de 2027."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Inma Cuesta i Dani Rovira en una 'Del revés' per a adults: així és 'Locamente', la comèdia espanyola de 2027",
-      "es": "Inma Cuesta y Dani Rovira en una 'Del revés' para adultos: así es 'Locamente', la comedia española de 2027"
     }
   },
   "https://www.20minutos.es/cinemania/noticias/jennifer-lawrence-desaparicion-arco-katniss-juegos-hambre_7063546_0.html": {
@@ -1013,19 +701,6 @@
       "es": "Joseph Zada, un Haymitch opuesto al de Woody Harrelson en 'Amanecer en la cosecha': \"Mi primer día de rodaje en Asturias cumplí 20 años\""
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/juegos-hambre-problema-no-mas-peliculas-amanecer-cosecha_7064484_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Malgrat l'èxit a taquilla d''Amanecer en la cosecha', Lionsgate haurà de pausar la franquícia fins que Suzanne Collins torni a escriure.",
-      "es": "Pese al éxito en taquilla de 'Amanecer en la cosecha', Lionsgate deberá pausar la franquicia hasta que Suzanne Collins vuelva a escribir."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Els jocs de la fam' té un problema: no poden fer més pel·lícules després d''Amanecer en la cosecha'",
-      "es": "'Los juegos del hambre' tiene un problema: no pueden hacer más películas después de 'Amanecer en la cosecha'"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/luca-guadagnino-nos-da-peor-noticia-sobre-remake-american-psycho-no-va-salir-adelante_7064184_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1037,19 +712,6 @@
     "titulo": {
       "ca": "Luca Guadagnino ens dona la pitjor notícia sobre el remake d''American Psycho': \"No tirarà endavant\"",
       "es": "Luca Guadagnino nos da la peor noticia sobre el remake de 'American Psycho': \"No va a salir adelante\""
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/michael-streaming-donde-ver-biopic-michael-jackson-skyshowtime-movistar-plus_7065254_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El biopic sobre Michael Jackson arribarà al streaming el 24 de novembre després del seu èxit a les sales espanyoles i d'altres països.",
-      "es": "El biopic sobre Michael Jackson llegará a streaming el 24 de noviembre tras su éxito en salas españolas y de otros países."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Michael' en streaming: on veure el biopic de Michael Jackson 216 dies després d'arrasar a les sales espanyoles",
-      "es": "'Michael' en streaming: dónde ver el biopic de Michael Jackson 216 días después de arrasar en salas españolas"
     }
   },
   "https://www.20minutos.es/cinemania/noticias/mosquito-bowl-historia-real-pelicula-belica-netflix-partido-futbol-guerra_7064709_0.html": {
@@ -1143,19 +805,6 @@
       "es": "Qué ver hoy en Netflix, Amazon Prime Video y otras plataformas: domingo 22 de noviembre de 2026"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/que-ver-hoy-netflix-amazon-prime-video-otras-plataformas-sabado-21-noviembre-2026_7063717_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Recomanacions de sèries i pel·lícules a plataformes de streaming, entre elles la preqüela de 'Els jocs de la fam'.",
-      "es": "Recomendaciones de series y películas en plataformas de streaming, entre ellas la precuela de 'Los juegos del hambre'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Què veure avui a Netflix, Amazon Prime Video i altres plataformes: dissabte 21 de novembre de 2026",
-      "es": "Qué ver hoy en Netflix, Amazon Prime Video y otras plataformas: sábado 21 de noviembre de 2026"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/rob-lowe-netflix-confirmado-documental-fecha-autobiografico_7062375_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1247,19 +896,6 @@
       "es": "Esta miniserie de 3 episodios de Prime Video le da voz a uno de los mayores estafadores de la historia"
     }
   },
-  "https://www.20minutos.es/cinemania/series/bridgerton-claudia-jessie-temporada-eloise-adelanto_7062976_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Claudia Jessie treballa en el llibre d'Eloise, cosa que suggereix que la temporada més ajornada de la sèrie de Netflix pren forma.",
-      "es": "Claudia Jessie está trabajando en el libro de Eloise, lo que sugiere que la temporada más postergada de la serie de Netflix toma forma."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Els Bridgerton', més a prop que mai de la temporada d'Eloise: ha avançat Claudia Jessie que ja prepara el seu romanç?",
-      "es": "'Los Bridgerton', más cerca que nunca de la temporada de Eloise: ¿acaba de adelantar Claudia Jessie que ya prepara su romance?"
-    }
-  },
   "https://www.20minutos.es/cinemania/series/crimen-pazos-miniserie-polaca-4-episodios-top-netflix_7064679_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1271,32 +907,6 @@
     "titulo": {
       "ca": "Més enllà de 'El crimen de Pazos': la minisèrie polonesa de 4 episodis que s'エ colա al top de les més vistes de Netflix",
       "es": "Más allá de 'El crimen de Pazos': la miniserie polaca de 4 episodios que se cuela en el top de lo más visto de Netflix"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/critica-blade-runner-2099-prime-video-distopia-replicante-aleja-ridley-scott_7065262_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Silka Luisa, Hunter Schafer i Michelle Yeoh donen nova vida a la franquícia en la minisèrie de Prime Video.",
-      "es": "Silka Luisa, Hunter Schafer y Michelle Yeoh dan nueva vida a la franquicia en la miniserie de Prime Video."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Crítica de 'Blade Runner 2099': la nova distopia replicant de Prime Video funciona millor com més s'allunya de Ridley Scott",
-      "es": "Crítica de 'Blade Runner 2099': la nueva distopía replicante de Prime Video funciona mejor cuanto más se aleja de Ridley Scott"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/dragon-ball-beerus-todas-las-plataformas-streaming-netflix-disney-prime-video-guia-verlo_7049964_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Cinc plataformes emetran a Espanya el nou anime de Dragon Ball Super: Beerus.",
-      "es": "Cinco plataformas emitirán en España el nuevo anime de Dragon Ball Super: Beerus."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Dragon Ball Super: Beerus': quants episodis té el nou anime? Totes les plataformes on veure'l en streaming",
-      "es": "'Dragon Ball Super: Beerus': ¿cuántos episodios tiene el nuevo anime? Todas las plataformas donde verlo en streaming"
     }
   },
   "https://www.20minutos.es/cinemania/series/edad-dorada-audiencia-renovacion-temporada-5_7063514_0.html": {
@@ -1364,19 +974,6 @@
       "es": "Fechas de estreno de 'El señor de los anillos: Los anillos de poder', episodios 3x07 y 3x08: ¿a qué hora en Prime Video?"
     }
   },
-  "https://www.20minutos.es/cinemania/series/los-anillos-poder-pierde-numero-1-remake-portugues-esta-exitosa-serie-espanola-da-sorpresa-prime-video_7063141_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El remake portuguès de 'La que se avecina' supera a Prime Video 'Els anells de poder' i un altre estrena de la temporada.",
-      "es": "El remake portugués de 'La que se avecina' supera en Prime Video a 'Los anillos de poder' y a otro estreno de la temporada."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Els anells de poder' perd el número 1: el remake portuguès d'aquesta exitosa sèrie espanyola fa la sorpresa a Prime Video",
-      "es": "'Los anillos de poder' pierde el número 1: el remake portugués de esta exitosa serie española da la sorpresa en Prime Video"
-    }
-  },
   "https://www.20minutos.es/cinemania/series/ludwig-serie-bbc-episodios-movistar-suspense-britanico_7059244_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1388,19 +985,6 @@
     "titulo": {
       "ca": "12 episodis de pur suspens britànic: aquesta sèrie de la BBC és perfecta per a un cap de setmana",
       "es": "12 episodios de puro suspense británico: esta serie de la BBC es perfecta para un fin de semana"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/no-lleva-ni-9-dias-ya-esta-entre-mas-visto-hbo-max-miniserie-true-crime-con-aroma-navideno-que-se-cuela-top-10_7063227_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La minisèrie 'Silent Night', de sis episodis, s'ha colat al top 10 del més vist de HBO Max poc després del seu estrena.",
-      "es": "La miniserie 'Silent Night', de seis episodios, se ha colado en el top 10 de lo más visto de HBO Max poco después de su estreno."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "No fa ni 9 dies i ja és entre el més vist de HBO Max: la minisèrie true crime amb aroma nadalenc que s'hi cola al top 10",
-      "es": "No lleva ni 9 días y ya está entre lo más visto de HBO Max: la miniserie true crime con aroma navideño que se cuela en el top 10"
     }
   },
   "https://www.20minutos.es/cinemania/series/premios-emmy-internacionales-2026-donde-ver-yakarta-javier-camara_7042204_0.html": {
@@ -1546,19 +1130,6 @@
       "es": "Espacios oscuros, las buenas obras de Scott Snyder"
     }
   },
-  "https://www.20minutos.es/cultura/blogs/yaestaellistoquetodolosabe/donde-surge-llamar-empirico-conocimiento-basado-experiencia_7027054_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Un article explica l'origen i el significat de la paraula empíric, la seva relació amb l'experiència i la figura de Sext Empíric.",
-      "es": "Un artículo explica el origen y significado de la palabra empírico, su relación con la experiencia y la figura de Sexto Empírico."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "D'on surt anomenar empíric el coneixement basat en l'experiència?",
-      "es": "De dónde surge llamar empírico al conocimiento basado en la experiencia?"
-    }
-  },
   "https://www.20minutos.es/cultura/blogs/yaestaellistoquetodolosabe/quien-dijo-conciencia-es-una-voz-interior-que-nos-avisa-que-alguien-puede-estar-mirando_7039310_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1570,19 +1141,6 @@
     "titulo": {
       "ca": "Qui va dir «La consciència és una veu interior que ens avisa que algú pot estar mirant»?",
       "es": "¿Quién dijo «La conciencia es una voz interior que nos avisa de que alguien puede estar mirando»?"
-    }
-  },
-  "https://www.20minutos.es/cultura/cien-anos-despues-su-muerte-se-revela-testamento-gaudi-lego-su-casa-3-000-pesetas-para-construir-sagrada-familia_7065022_0.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Es revela el testament de Gaudí, que va llegar la seva casa del Park Güell, valorada en 45.000 pessetes, i 3.000 pessetes per a la Sagrada Família.",
-      "es": "Se revela el testamento de Gaudí, que legó su casa del Park Güell, valorada en 45.000 pesetas, y 3.000 pesetas para la Sagrada Familia."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Cent anys després de la seva mort es revela el testament de Gaudí: va llegar la seva casa i 3.000 pessetes per construir la Sagrada Família",
-      "es": "Cien años después de su muerte se revela el testamento de Gaudí: legó su casa y 3.000 pesetas para construir la Sagrada Familia"
     }
   },
   "https://www.20minutos.es/cultura/los-reyes-presidente-austriaco-inauguran-prado-una-muestra-sobre-mariana-austria-madre-regente-tiempos-crisis_7065642_0.html": {
@@ -1715,19 +1273,6 @@
       "es": "Santiago Lorenzo, autor de Contenta: Me da igual que mis libros se vendan o no; lo normal es que a mí no me haga caso nadie"
     }
   },
-  "https://www.20minutos.es/musica/freestyle-vuelve-con-fuerza-espana-nace-royal-league-nueva-competicion-que-reune-leyendas-genero_7065028_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Neix Royal league, una nova competició de freestyle amb un cartell format per llegendes del gènere com Chuty o Skone.",
-      "es": "Nace Royal league, una nueva competición de freestyle con un cartel formado por leyendas del género como Chuty o Skone."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El freestyle torna amb força a Espanya: neix Royal league, la nova competició que reuneix llegendes del gènere",
-      "es": "El freestyle vuelve con fuerza a España: nace Royal league, la nueva competición que reúne a leyendas del género"
-    }
-  },
   "https://www.20minutos.es/musica/mad-cool-2027-ya-tiene-fechas-aunque-aun-no-ha-dado-pistas-cartel_7065063_0.html": {
     "ambito": "espana",
     "evento": false,
@@ -1780,32 +1325,6 @@
       "es": "Vetusta Morla anuncia su nuevo disco, Lo importante, que llegará a comienzos de 2027"
     }
   },
-  "https://www.20minutos.es/musica/william-roblejo-une-las-tradiciones-musicales-cuba-iran-espana-su-nuevo-album-after-the-waves_7064921_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El nou àlbum de William Roblejo, After the waves, reuneix deu pistes amb instruments, estils i formes d'interpretació diversos.",
-      "es": "El nuevo álbum de William Roblejo, After the waves, reúne diez pistas con instrumentos, estilos y formas de interpretación diversos."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "William Roblejo uneix les tradicions musicals de Cuba, l'Iran i Espanya en el seu nou àlbum, After the waves",
-      "es": "William Roblejo une las tradiciones musicales de Cuba, Irán y España en su nuevo álbum, After the waves"
-    }
-  },
-  "https://www.abc.es/cultura/arte/prado-xxxxx-mariana-austria-poder-femenino-20261129142812-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El Prado dedica la tercera edició de El Prado en femení a Mariana d'Àustria, dins de l'any de les tres reines.",
-      "es": "El Prado dedica la tercera edición de El Prado en femenino a Mariana de Austria, dentro del año de las tres reinas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El Prado retu homenatge al poder femení en la figura de Mariana d'Àustria",
-      "es": "El Prado rinde tributo al poder femenino en la figura de Mariana de Austria"
-    }
-  },
   "https://www.abc.es/cultura/cesar-antonio-molina-lorenzo-silva-destacan-importancia-20261125120401-nt.html": {
     "ambito": "espana",
     "evento": false,
@@ -1817,32 +1336,6 @@
     "titulo": {
       "ca": "César Antonio Molina i Lorenzo Silva destaquen la importància de la recerca per assolir la «veritat» literària",
       "es": "César Antonio Molina y Lorenzo Silva destacan la importancia de la investigación para alcanzar la «verdad» literaria"
-    }
-  },
-  "https://www.abc.es/cultura/cine/dia-rodaje-blanco-pelicula-importante-sobre-eta-20261125020222-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Una pel·lícula recrea el segrest de Miguel Ángel Blanco per ETA el 1997, que els seus responsables presenten com la més important sobre la banda.",
-      "es": "Una película recrea el secuestro de Miguel Ángel Blanco por ETA en 1997, según sus responsables, que la presentan como la más importante sobre la banda."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Un dia a la vida de Miguel Ángel Blanco: Aquesta és la pel·lícula més important que s'ha fet sobre ETA",
-      "es": "Un día en la vida de Miguel Ángel Blanco: Esta es la película más importante que se ha hecho sobre ETA"
-    }
-  },
-  "https://www.abc.es/cultura/cultura-entra-campana-frente-amplio-levanta-ceja-20261124184527-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "A pocs dies de les eleccions, el sector cultural s'implica en la campanya, amb acusacions de censura i mobilitzacions davant un possible govern del PP i Vox.",
-      "es": "A pocos días de las elecciones, el sector cultural se implica en la campaña, con acusaciones de censura y movilizaciones frente a un posible gobierno de PP y Vox."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La cultura entra en campanya: Frente Amplio fa una mirada al PSOE i el PP ensopega amb Vox",
-      "es": "La cultura entra en campaña: Frente Amplio le levanta la ceja al PSOE y el PP tropieza con Vox"
     }
   },
   "https://www.abc.es/cultura/cultural/libros-vendidos-infantil-juvenil-semana-20261125143145-nt.html": {
@@ -2103,32 +1596,6 @@
     "titulo": {
       "ca": "Aquestes són les dues jugades clau per créixer a Toroslam",
       "es": "Estas son las dos jugadas clave para crecer en Toroslam"
-    }
-  },
-  "https://www.abc.es/cultura/toros/sevilla/joaquin-sabina-preocupado-salud-curro-romero-curro-20261124185100-nts.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Curro Romero es recupera en un hospital de Sevilla d'una infecció respiratòria complicada amb una infecció sanguínia i espera l'alta aviat.",
-      "es": "Curro Romero se recupera en un hospital de Sevilla de una infección respiratoria complicada con una infección sanguínea y espera el alta pronto."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Joaquín Sabina, preocupat per la salut de Curro Romero: Curro és Déu i es posarà bo molt aviat",
-      "es": "Joaquín Sabina, preocupado por la salud de Curro Romero: Curro es Dios y se va a poner bueno muy pronto"
-    }
-  },
-  "https://www.abc.es/cultura/urtasun-aprueba-reglamento-museos-cinco-dias-29n-20261124175752-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El Ministeri de Cultura aprova el nou reglament dels museus estatals, que substitueix el de 1987, sense incloure un pla contra els robatoris.",
-      "es": "El Ministerio de Cultura aprueba el nuevo reglamento de museos estatales, que sustituye al de 1987, sin incluir un plan contra los robos."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Urtasun aprova el reglament de museus a cinc dies del 29N sense un pla contra els robatoris",
-      "es": "Urtasun aprueba el reglamento de museos a cinco días del 29N sin un plan contra los robos"
     }
   },
   "https://www.americantheatre.org/2026/11/09/who-shapes-our-stories-a-gender-parity-study-has-receipts/": {
@@ -2495,19 +1962,6 @@
       "es": "Gabriela Galcerán: «Si escucháramos más a los artistas, las cosas nos irían mejor a todos»"
     }
   },
-  "https://www.ara.cat/cultura/art/picasso-pare-putatiu-l-arquitectura-moderna_1_5915360.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Una exposició al Museu Picasso analitza la gran influència que l'artista va exercir sobre el racionalisme arquitectònic, encara que no va projectar cap edifici.",
-      "es": "Una exposición en el Museu Picasso analiza la gran influencia que el artista ejerció sobre el racionalismo arquitectónico, aunque no proyectó ningún edificio."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Picasso, «el pare putatiu» de l'arquitectura moderna",
-      "es": "Picasso, «el padre putativo» de la arquitectura moderna"
-    }
-  },
   "https://www.ara.cat/cultura/cinema/citas-pelicula-cites-castella-tv3-entrar_1_5917065.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -2636,19 +2090,6 @@
     "titulo": {
       "ca": "Dansa i teatre experimental enmig del soroll de la campanya electoral",
       "es": "Danza y teatro experimental en medio del ruido de la campaña electoral"
-    }
-  },
-  "https://www.ara.cat/cultura/memoria-historica/armes-tota-rabia-dia-veines-l-extraradi-segrestar-autobus_1_5914876.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "El 2 d'agost de 1973, un centenar de veïnes de Can Franquesa, a Santa Coloma de Gramenet, van prendre un autobús de la TUSA per reclamar una millor connexió.",
-      "es": "El 2 de agosto de 1973, un centenar de vecinas de Can Franquesa, en Santa Coloma de Gramenet, tomaron un autobús de la TUSA para exigir una mejor conexión."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Sense armes però amb tota la ràbia: el dia que les veïnes de l'extraradi van segrestar un autobús",
-      "es": "Sin armas pero con toda la rabia: el día que las vecinas del extrarradio secuestraron un autobús"
     }
   },
   "https://www.ara.cat/cultura/memoria-historica/ningu-regalat-res-50-anys-lluita-lgbtiq-model_1_5916959.html": {
@@ -2859,45 +2300,6 @@
       "es": "¿Por qué nos cuesta tanto concentrarnos?"
     }
   },
-  "https://www.ara.cat/estils/mor-paolo-bulgari-joier-convertir-seva-firma-imperi-luxe_1_5918463.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Paolo Bulgari, net del fundador de la firma Bvlgari i president històric de la companyia, ha mort a Roma als 89 anys.",
-      "es": "Paolo Bulgari, nieto del fundador de la firma Bvlgari y presidente histórico de la compañía, ha muerto en Roma a los 89 años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Mor Paolo Bulgari, el joier que va convertir la seva firma en un imperi de luxe",
-      "es": "Muere Paolo Bulgari, el joyero que convirtió su firma en un imperio de lujo"
-    }
-  },
-  "https://www.ara.cat/estils/segle-fanal-bonic-ara-pal-gris-lleig_128_5917048.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Una fotografia antiga d’un discurs de noces i el context en què va ser presa, segons el record familiar.",
-      "es": "Una fotografía antigua de un discurso de boda y el contexto en que fue tomada, según su recuerdo familiar."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "“Fa un segle un fanal era bonic; ara és un pal gris i lleig”",
-      "es": "“Hace un siglo un farol era bonito; ahora es un palo gris y feo”"
-    }
-  },
-  "https://www.ara.cat/gent/29-n-eleccions-generals-rosalia-cantant_1_5920052.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Diverses cantants han estat preguntades a la catifa vermella dels Los40 Music Awards a Barcelona sobre les eleccions generals, i Rosalía s'ha pronunciat sense estendre's ni prendre partit.",
-      "es": "Varias cantantes han sido preguntadas en la alfombra roja de los Los40 Music Awards en Barcelona sobre las elecciones generales, y Rosalía se ha pronunciado sin extenderse ni tomar partido."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Rosalía, Aitana, Laura Escanes i Bad Gyal: això és el que diuen sobre el 29-N pocs dies abans de les eleccions",
-      "es": "Rosalía, Aitana, Laura Escanes y Bad Gyal: esto es lo que dicen sobre el 29-N pocos días antes de las elecciones"
-    }
-  },
   "https://www.ara.cat/gent/carolina-ferre-admet-embolicar-idol-andreu-buenafuente-increible_1_5921049.html": {
     "ambito": "espana",
     "evento": false,
@@ -2948,19 +2350,6 @@
     "titulo": {
       "ca": "‘Tiet’ i ‘tieta’ per fi entren al diccionari normatiu! (i les altres incorporacions de l'any)",
       "es": "¡'Tiet' y 'tieta' por fin entran en el diccionario normativo! (y las otras incorporaciones del año)"
-    }
-  },
-  "https://www.ara.cat/media/junta-electoral-carta-blanca-intxaurrondo_129_5922433.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La entradilla comenta l'ús d'una frase de la llei electoral espanyola per part de la Junta Electoral en el cas contra Intxaurrondo.",
-      "es": "La entradilla comenta el uso de una frase de la ley electoral española por parte de la Junta Electoral en el caso contra Intxaurrondo."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La Junta Electoral, amb carta blanca contra Intxaurrondo",
-      "es": "La Junta Electoral, con carta blanca contra Intxaurrondo"
     }
   },
   "https://www.ara.cat/media/tv/colau-albiol-l-ultim-perroflauta_129_5922585.html": {
@@ -3065,19 +2454,6 @@
     "titulo": {
       "ca": "La internet de pedra que Espanya va aixecar per a la guerra equivocada",
       "es": "La internet de piedra que España levantó para la guerra equivocada"
-    }
-  },
-  "https://www.elconfidencial.com/cultura/cine/2026-11-24/jodie-foster-ritual-secreto-supersticiosa-hexe-1qrt_4469294/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Jodie Foster posa veu a un personatge de Hechizo: Benvinguts a Hexe, animació de Disney que s'estrena el 27 de novembre.",
-      "es": "Jodie Foster pone voz a un personaje de Hechizo: Bienvenidos a Hexe, animación de Disney que se estrena el 27 de noviembre."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Jodie Foster, actriu, 64 anys, i el seu ritual secret a cada catifa vermella: «Em faig una mica més supersticiosa a mesura que envelleixo»",
-      "es": "Jodie Foster, actriz, 64 años, y su ritual secreto en cada alfombra roja: «Me hago un poco más supersticiosa a medida que envejezco»"
     }
   },
   "https://www.elconfidencial.com/cultura/cine/2026-11-24/tallulah-bruce-willis-publicacion-eliminada-intimidad-1qrt_4471483/": {
@@ -4003,188 +3379,6 @@
       "es": "Roberto Enríquez: \"Es vergonzoso que un tipo como Trump se haya conseguido sacudir de encima lo de Epstein\""
     }
   },
-  "https://www.espinof.com/actores-y-actrices/sean-hepburn-ferrer-66-anos-hijo-audrey-hepburn-su-sentido-humor-forjado-sotano-paises-bajos-ayudo-a-superar-muchos-dias-oscuros": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Sean Hepburn Ferrer recorda com l'humor de la seva mare, Audrey Hepburn, l'ajudà a superar moments difícils després de la guerra.",
-      "es": "Sean Hepburn Ferrer recuerda cómo el humor de su madre, Audrey Hepburn, le ayudó a superar momentos difíciles tras la guerra."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Sean Hepburn Ferrer (66 anys), fill d'Audrey Hepburn: \"El seu sentit de l'humor, forjat en un soterrani dels Països Baixos, la va ajudar a superar molts dies foscos\"",
-      "es": "Sean Hepburn Ferrer (66 años), hijo de Audrey Hepburn: \"Su sentido del humor, forjado en un sótano de Países Bajos la ayudó a superar muchos días oscuros\""
-    }
-  },
-  "https://www.espinof.com/actores-y-actrices/stephen-bogart-hijo-humphrey-bogart-ninos-eran-secundarios-preferia-bebida-tabaco-risas-fiestas": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Stephen Bogart parla de la seva complicada vida emocional com a fill de l'actor Humphrey Bogart i de Lauren Bacall.",
-      "es": "Stephen Bogart habla de su complicada vida emocional como hijo del actor Humphrey Bogart y de Lauren Bacall."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Stephen Bogart, fill d'Humphrey Bogart: \"Els nens eren secundaris, ell preferia la beguda, el tabac, les rialles i les festes\"",
-      "es": "Stephen Bogart, hijo de Humphrey Bogart: \"Los niños eran secundarios, él prefería la bebida, el tabaco, las risas y las fiestas\""
-    }
-  },
-  "https://www.espinof.com/anime/frieren-prepara-su-primer-gran-spin-off-inminente-precuela-que-explorara-capitulo-desconocido-ahora": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'anime 'Frieren' prepara una precuela que explorarà una etapa desconeguda de la història, després de la segona temporada de la sèrie.",
-      "es": "El anime 'Frieren' prepara una precuela que explorará una etapa desconocida de la historia, tras la segunda temporada de la serie."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Frieren' prepara el seu primer gran spin-off. Una imminent precuela que explorarà un capítol desconegut fins ara",
-      "es": "'Frieren' prepara su primer gran spin-off. Una inminente precuela que explorará un capítulo desconocido hasta ahora"
-    }
-  },
-  "https://www.espinof.com/directores-y-guionistas/francis-lawrence-quiere-peliculas-juegos-hambre-tiene-a-posibles-protagonistas-tendra-que-esperar-todo-empieza-ella": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El director Francis Lawrence afirma que li agradaria tornar a Panem per explorar el passat de la saga, tot i que haurà d'esperar.",
-      "es": "El director Francis Lawrence afirma que le gustaría volver a Panem para explorar el pasado de la saga, aunque deberá esperar."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Francis Lawrence vol més pel·lícules de 'Els jocs de la fam' i ja té els possibles protagonistes, però haurà d'esperar: \"Tot comença amb ella\"",
-      "es": "Francis Lawrence quiere más películas de 'Los juegos del hambre' y ya tiene a los posibles protagonistas, pero tendrá que esperar: \"Todo empieza con ella\""
-    }
-  },
-  "https://www.espinof.com/directores-y-guionistas/vengadores-doomsday-marcara-ultima-aparicion-pantalla-patrick-stewart-actor-era-consciente-ello-consciencia-pelicula": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Patrick Stewart, mort fa un mes, apareixerà per última vegada al cinema com el professor Charles Xavier a 'Vengadors: Doomsday'.",
-      "es": "Patrick Stewart, fallecido hace un mes, aparecerá por última vez en el cine como el profesor Charles Xavier en 'Vengadores: Doomsday'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Vengadors: Doomsday' marcarà l'última aparició a la pantalla de Patrick Stewart, i l'actor ho sabia perfectament: \"És la consciència de la pel·lícula\"",
-      "es": "'Vengadores: Doomsday' marcará la última aparición en pantalla de Patrick Stewart, y el actor lo sabía perfectamente: \"Es la consciencia de la película\""
-    }
-  },
-  "https://www.espinof.com/estrenos/hoy-se-estrena-cines-secuela-obra-maestra-tarantino-casi-nadie-podra-verla-gran-pantalla": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "S'estrena la seqüela de 'Érase una vez en Hollywood', 'Las nuevas desventuras de Cliff Booth', amb Brad Pitt, tot i la poca disponibilitat en sales.",
-      "es": "Se estrena la secuela de 'Érase una vez en Hollywood', 'Las nuevas desventuras de Cliff Booth', con Brad Pitt, aunque con poca disponibilidad en salas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Avui s'estrena als cinemes la seqüela d'una obra mestra de Tarantino, però gairebé ningú podrà veure-la a la gran pantalla",
-      "es": "Hoy se estrena en cines la secuela de una obra maestra de Tarantino, pero casi nadie podrá verla en la gran pantalla"
-    }
-  },
-  "https://www.espinof.com/estrenos/nueva-pelicula-penelope-cruz-esta-provocando-que-gente-se-divorcie-algunas-personas-incluso-nos-escriben-para-darnos-gracias": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Penélope Cruz comenta l'impacte inesperat de la seva pel·lícula 'La bola negra', que ha dut algunes persones a divorciar-se.",
-      "es": "Penélope Cruz comenta el impacto inesperado de su película 'La bola negra', que ha llevado a algunas personas a divorciarse."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "La nova pel·lícula de Penélope Cruz està provocant que la gent es divorcii: \"Algunes persones fins i tot ens escriuen per donar-nos les gràcies\"",
-      "es": "La nueva película de Penélope Cruz está provocando que la gente se divorcie: \"Algunas personas incluso nos escriben para darnos las gracias\""
-    }
-  },
-  "https://www.espinof.com/netflix/ultima-oportunidad-para-ver-netflix-pelicula-supervivencia-brutal-que-gano-uno-oscars-esperados-historia": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Es recomana veure a Netflix 'El renacido', pel·lícula de supervivència d'Iñárritu amb Leonardo DiCaprio, abans que deixi la plataforma.",
-      "es": "Se recomienda ver en Netflix 'El renacido', película de supervivencia de Iñárritu con Leonardo DiCaprio, antes de que deje la plataforma."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Última oportunitat per veure a Netflix la pel·lícula de supervivència més brutal que va guanyar un dels Oscars més esperats de la història",
-      "es": "Última oportunidad para ver en Netflix la película de supervivencia más brutal que ganó uno de los Oscars más esperados de la historia"
-    }
-  },
-  "https://www.espinof.com/series-de-ficcion/hay-miniserie-netflix-que-ha-sido-vista-85-millones-veces-su-lanzamiento-alemana-se-ve-tarde": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una minisèrie alemanya de Netflix, estrenada el 2023, ha estat vista més de 85 milions de vegades.",
-      "es": "Una miniserie alemana de Netflix, estrenada en 2023, ha sido vista más de 85 millones de veces."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Hi ha una minisèrie a Netflix que ha estat vista més de 85 milions de vegades des del seu llançament: és alemanya i es veu en una tarda",
-      "es": "Hay una miniserie en Netflix que ha sido vista más de 85 millones de veces desde su lanzamiento: es alemana y se ve en una tarde"
-    }
-  },
-  "https://www.europapress.es/cultura/exposiciones-00131/noticia-antonio-torre-tristan-ulloa-nathalie-poza-unen-manifiesto-pedir-voto-frente-amplio-20261125135234.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "S'hi sumen Javier Bardem, Rodrigo Sorogoyen, Luis García Montero i unes 650 personalitats més que donen suport a aquesta candidatura.",
-      "es": "Se suman a Javier Bardem, Rodrigo Sorogoyen, Luis García Montero y otros 650 personalidades que apoyan esta candidatura."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Antonio de la Torre, Tristán Ulloa i Nathalie Poza s'uneixen al manifest per demanar el vot al Frente Amplio",
-      "es": "Antonio de la Torre, Tristán Ulloa y Nathalie Poza se unen al manifiesto para pedir el voto al Frente Amplio"
-    }
-  },
-  "https://www.europapress.es/cultura/libros-00132/noticia-monica-carrillo-publica-dia-menos-pensado-pido-trabaje-poco-nivel-crispacion-20261125095718.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La periodista Mónica Carrillo publica el seu llibre, crida a participar a les eleccions generals i demana rebaixar la crispació i la polarització.",
-      "es": "La periodista Mónica Carrillo publica su libro, llama a participar en las elecciones generales y pide rebajar la crispación y la polarización."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Mónica Carrillo publica 'El día menos pensado': \"Demano que es treballi una mica el nivell de crispació\"",
-      "es": "Mónica Carrillo publica 'El día menos pensado': \"Pido que se trabaje un poco el nivel de crispación\""
-    }
-  },
-  "https://www.europapress.es/cultura/musica-00129/noticia-rosendo-publica-biografia-alerta-ideas-reaccionarias-tengo-conciencia-social-soy-hijo-zapatero-20261125142017.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El guitarrista assegura que no troba a faltar els escenaris i bromeja amb seguir venent discos als 90 anys.",
-      "es": "El guitarrista asegura que no echa de menos los escenarios y bromea con seguir vendiendo discos con 90 años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Rosendo publica la seva biografia i alerta de les \"idees reaccionàries\": \"Tinc consciència social, sóc fill d'un sabater\"",
-      "es": "Rosendo publica su biografía y alerta de las \"ideas reaccionarias\": \"Tengo conciencia social, soy hijo de un zapatero\""
-    }
-  },
-  "https://www.europapress.es/cultura/musica-00129/noticia-ultraligera-publica-lapsus-no-queremos-grupo-manche-tono-politico-polariza-sociedad-20261124162121.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La banda madrilenya Ultraligera publica el seu segon àlbum, Lapsus, i rebutja posicionar-se davant les eleccions generals.",
-      "es": "La banda madrileña Ultraligera publica su segundo álbum, Lapsus, y rechaza posicionarse ante las elecciones generales."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Ultraligera publica Lapsus: No volem que el grup es taqui per aquest to polític que polaritza la societat",
-      "es": "Ultraligera publica Lapsus: No queremos que el grupo se manche por ese tono político que polariza la sociedad"
-    }
-  },
-  "https://www.europapress.es/internacional/noticia-ong-abogados-denuncian-cantante-irani-parastoo-ahmadi-recibido-74-latigazos-dar-concierto-velo-20261123205235.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Iran Human Rights i l'advocat Mostafa Nili denuncien que la cantant Parastoo Ahmadi ha rebut 74 cops de fuet per un concert sense vel.",
-      "es": "Iran Human Rights y el abogado Mostafa Nili denuncian que la cantante Parastoo Ahmadi ha recibido 74 latigazos por un concierto sin velo."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "ONG i advocats denuncien que la cantant iraniana Parastoo Ahmadi ha rebut 74 cops de fuet per donar un concert sense vel",
-      "es": "ONG y abogados denuncian que la cantante iraní Parastoo Ahmadi ha recibido 74 latigazos por dar un concierto sin velo"
-    }
-  },
   "https://www.fotogramas.es/famosos-celebrities/a65331759/javier-bardem-actor-estados-unidos-cultura-americana-pertenecer-respeto-reflexion-opinion-industria-cinematografica-emocional-apoyo/": {
     "ambito": "espana",
     "evento": false,
@@ -4289,45 +3483,6 @@
       "es": "Los Javis, sobre su ruptura en 'La bola negra': \"Nuestra pareja se había roto, por eso no queríamos sentarnos a escribir sobre qué es desear, por eso ha sido tan doloroso\""
     }
   },
-  "https://www.fotogramas.es/noticias-cine/a74414059/filmin-clasicos-black-friday-tres-meses/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Filmin ofereix una promoció pel Black Friday: tres mesos per 4,99 euros al mes, amb clàssics i un centenar de pel·lícules noves.",
-      "es": "Filmin ofrece una promoción por Black Friday: tres meses por 4,99 euros al mes, con clásicos y un centenar de películas nuevas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El millor cinema clàssic torna amb una oferta especial pel Black Friday",
-      "es": "El mejor cine clásico vuelve con una oferta especial por Black Friday"
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a74449198/fotogramas-premium-concurso-sanguine/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Els subscriptors de Fotogramas Premium poden participar en un sorteig de 10 entrades dobles per veure Sanguine la primera setmana.",
-      "es": "Los suscriptores de Fotogramas Premium pueden participar en un sorteo de 10 entradas dobles para ver Sanguine en su primera semana."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Aconsegueix entrades per veure 'Sanguine' als cinemes",
-      "es": "Consigue entradas para ver 'Sanguine' en cines"
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a74451844/amadeus-pelicula-mozart-salieri-premios-oscar-ver-streaming-filmin-movistar/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La pel·lícula de Milos Forman sobre Mozart i Salieri, guanyadora de vuit Òscars, arriba a les plataformes Filmin i Movistar Plus.",
-      "es": "La película de Milos Forman sobre Mozart y Salieri, ganadora de ocho Óscar, llega a las plataformas Filmin y Movistar Plus."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Guanyadora de vuit premis Oscar, arriba a Filmin i Movistar Plus la pel·lícula de Milos Forman sobre el mític duel entre Mozart i Salieri",
-      "es": "Ganadora de ocho Premios Oscar, llega a Filmin y Movistar Plus la película de Milos Forman sobre el mítico duelo entre Mozart y Salieri"
-    }
-  },
   "https://www.fotogramas.es/noticias-cine/a74455013/james-stewart-actor-padre-oscar/": {
     "ambito": "mundo",
     "evento": false,
@@ -4419,19 +3574,6 @@
       "es": "Brad Pitt, sobre la elección de Robert Pattinson como James Bond: \"Sinceramente, me acabo de enterar de la noticia y no tengo ningún consejo para él\""
     }
   },
-  "https://www.fotogramas.es/noticias-cine/a74465683/javier-bardem-actor-teatro-debut-entrevista-camerino-chejov/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Javier Bardem debuta al teatre representant textos breus de Txékhov, dirigit per Juan Carlos Corazza.",
-      "es": "Javier Bardem debuta en teatro representando textos breves de Chéjov, dirigido por Juan Carlos Corazza."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Javier Bardem debuta com a actor de teatre: \"Tinc una foto petiteta al camerino dels dos, em dona força. D'ella vaig aprendre a respectar l'ofici\"",
-      "es": "Javier Bardem debuta como actor de teatro: \"Tengo una foto pequeñita en el camerino de los dos, me da fuerza. De ella aprendí a respetar el oficio\""
-    }
-  },
   "https://www.fotogramas.es/noticias-cine/a74466857/adam-sandler-actor-bofetada-will-smith-chris-rock-premios-oscar-opinion/": {
     "ambito": "mundo",
     "evento": false,
@@ -4482,32 +3624,6 @@
     "titulo": {
       "ca": "Hollywood s'ha quedat sense idees (una altra vegada) i prepara el remake d'una de les millors comèdies romàntiques de Meg Ryan",
       "es": "Hollywood se ha quedado sin ideas (otra vez) y prepara el remake de una de las mejores comedias románticas de Meg Ryan"
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a74469306/james-gunn-despedido-dc-cine-peliculas-superman-batman/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "James Gunn deixa DC Studios juntament amb Peter Safran i cedeix el relleu a Jeremy Latcham, veterà de Marvel.",
-      "es": "James Gunn deja DC Studios junto a Peter Safran y cede el relevo a Jeremy Latcham, veterano de Marvel."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Terratrèmol a DC Studios: Qui decidirà ara el futur de Batman i Superman al cinema de superherois i què ha passat amb James Gunn",
-      "es": "Terremoto en DC Studios: Quién decidirá ahora el futuro de Batman y Superman en el cine de superhéroes y qué ha pasado con James Gunn"
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a74478747/jane-schoenbrun-directora-pelicula-campamento-miasma-entrevista/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora Jane Schoenbrun presenta la seva pel·lícula com a homenatge queer al terror slasher, inspirat en l'escena de la dutxa de Psicosi.",
-      "es": "La directora Jane Schoenbrun presenta su película como homenaje queer al terror slasher, inspirado en la escena de la ducha de Psicosis."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Jane Schoenbrun, directora de cinema: 'Fer 'Psicosi' des del punt de vista de la dutxa sona a acudit cinèfil pedant, però la meva pel·lícula és això'",
-      "es": "Jane Schoenbrun, directora de cine: \"Hacer 'Psicosis' desde el punto de vista de la ducha suena a chiste cinéfilo pedante, pero mi película es eso\""
     }
   },
   "https://www.fotogramas.es/noticias-cine/a74479577/james-dean-actor-biopic-pelicula-relacion-supuesto-amante/": {
@@ -4612,32 +3728,6 @@
     "titulo": {
       "ca": "\"El que està passant ja és històric\": Pedro Almodóvar destaca les opcions reals de 'La bola negra' als Premis Oscar de 2027",
       "es": "\"Lo que está ocurriendo ya es histórico\": Pedro Almodóvar destaca las opciones reales de 'La bola negra' en los Premios Oscar de 2027"
-    }
-  },
-  "https://www.fotogramas.es/peliculas-criticas/a74474204/iron-boy-critica-opinion-pelicula-animacion/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica d'Iron Boy, història de superació d'un nen d'11 anys inspirada en el director Louis Clichy, nominada als Premis del Cinema Europeu.",
-      "es": "Crítica de Iron Boy, historia de superación de un niño de 11 años inspirada en el director Louis Clichy, nominada a los Premios del Cine Europeo."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Cal veure-la': La pel·lícula premiada a Canes i Annecy que reivindica el cinema d'animació adult entre aquarel·les i amb un esquelet de ferro",
-      "es": "\"Hay que verla\": La película premiada en Cannes y Annecy que reivindica el cine de animación adulto entre acuarelas y con un esqueleto de hierro"
-    }
-  },
-  "https://www.fotogramas.es/peliculas-criticas/a74474312/los-juegos-del-hambre-amanecer-en-lacosecha-critica-opinon/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica de 'Els jocs de la fam: Albada en la collita', precuela que torna a Panem amb Haymitch.",
-      "es": "Crítica de 'Los juegos del hambre: Amanecer en la cosecha', precuela que regresa a Panem con Haymitch."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "\"El mateix de sempre\": Crítica de 'Els jocs de la fam: Albada en la collita', la pel·lícula que rejoveneix la saga rebel",
-      "es": "\"Lo mismo de siempre\": Crítica de 'Los juegos del hambre: Amanecer en la cosecha', la película que rejuvenece la saga rebelde"
     }
   },
   "https://www.fotogramas.es/peliculas-criticas/a74503694/el-pezon-de-elena-critica-pelicula-opinion-drama/": {
@@ -5810,19 +4900,6 @@
       "es": "«La maketa» de Estopa (★★★✩✩), una fuente sin fecha de caducidad"
     }
   },
-  "https://www.lavanguardia.com/cultura/20261120/11688100/liudmila-ulitskaya-medea-y-sus-hijos-crimea-invasion-ucrania.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Arriba a les llibreries la traducció al castellà de «Medea y sus hijas», novel·la que l'escriptora russa va publicar el 1996.",
-      "es": "Llega a las librerías la traducción al castellano de «Medea y sus hijas», novela publicada por la escritora rusa en 1996."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Liudmila Ulítskaya: «La invasió d'Ucraïna és un dels majors errors i es pagarà un preu alt»",
-      "es": "Liudmila Ulítskaya: «La invasión de Ucrania es uno de los mayores errores y se pagará un alto precio»"
-    }
-  },
   "https://www.lavanguardia.com/cultura/20261120/11689194/extraordinario-tesoro-epoca-romana-han-descubierto-estudiantes-inglaterra-primera-excavacion-arqueologica.html": {
     "ambito": "mundo",
     "evento": false,
@@ -6876,32 +5953,6 @@
       "es": "Paco Ibáñez, galope entre aplausos"
     }
   },
-  "https://www.lavanguardia.com/cultura/teatro/20261120/11687404/tostadora-demasiado-inteligente-sala-versus-glories.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Roc Esquius i Sergi Belbel converteixen una torradora parlant en un personatge més de «La torradora».",
-      "es": "Roc Esquius y Sergi Belbel convierten una tostadora parlante en un personaje más de «La torradora»."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Una torradora massa intel·ligent a la Sala Versus Glòries",
-      "es": "Una tostadora demasiado inteligente en la Sala Versus Glòries"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/teatro/20261120/11687457/romeo-judio-julieta-arabe-tots-ocells-regresa-teatro-biblioteca.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "La companyia La Perla 29 torna a presentar l'obra de Wajdi Mouawad, dirigida per Oriol Broggi, al teatre La Biblioteca.",
-      "es": "La compañía La Perla 29 vuelve a presentar la obra de Wajdi Mouawad, dirigida por Oriol Broggi, en el teatro La Biblioteca."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Un Romeu jueu i una Julieta àrab a «Tots ocells», que torna al teatre La Biblioteca",
-      "es": "Un Romeo judío y una Julieta árabe en «Tots ocells», que regresa al teatro La Biblioteca"
-    }
-  },
   "https://www.lavanguardia.com/encatala/20261125/11692474/edgar-cantero-barca-trets-hoquei-patins-literatura.html": {
     "ambito": "mundo",
     "evento": false,
@@ -6926,45 +5977,6 @@
     "titulo": {
       "ca": "L'església de Sant Joan de Vilassar de Mar: dels seus orígens a l'actualitat",
       "es": "La iglesia de Sant Joan de Vilassar de Mar: de sus orígenes a la actualidad"
-    }
-  },
-  "https://www.lavanguardia.com/qf/20261120/11686630/luz-ilumina-legado-gaudi.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "«A la llum de Gaudí» transformarà el patrimoni de Mataró amb instal·lacions de llum, aigua, so, imatge i tecnologia pel centenari de la mort de Gaudí.",
-      "es": "«A la luz de Gaudí» transformará el patrimonio de Mataró con instalaciones de luz, agua, sonido, imagen y tecnología por el centenario de la muerte de Gaudí."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La llum que il·lumina el llegat de Gaudí",
-      "es": "La luz que ilumina el legado de Gaudí"
-    }
-  },
-  "https://www.lavanguardia.com/qf/planes/20261120/11687604/vicente-amigo-celebra-cuatro-decadas-trayectoria-palau-musica.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "El guitarrista flamenc actua aquesta nit a Barcelona com un dels plats forts del Festival de Jazz.",
-      "es": "El guitarrista flamenco actúa esta noche en Barcelona como uno de los platos fuertes del Festival de Jazz."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Vicente Amigo celebra les seves quatre dècades de trajectòria al Palau de la Música",
-      "es": "Vicente Amigo celebra sus cuatro décadas de trayectoria en el Palau de la Música"
-    }
-  },
-  "https://www.lavanguardia.com/qf/planes/20261120/11687607/rebeldes-llegan-sala-apolo-repasar-todos-exitos.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "La formació barcelonina interpretarà aquest dissabte al Paral·lel els seus grans èxits, entre ells «Mediterráneo» i «Mescalina».",
-      "es": "La formación barcelonesa interpretará este sábado en el Paral·lel sus grandes éxitos, entre ellos «Mediterráneo» y «Mescalina»."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Els Rebeldes arriben a la sala Apolo per repassar tots els seus èxits",
-      "es": "Los Rebeldes llegan a la sala Apolo para repasar todos sus éxitos"
     }
   },
   "https://www.masescena.es/actualidad/aromas-de-soledad-y-el-espectaculo-de-danza-inclusivo-on-time-junto-con-madama-butterfly-completan-la-programacion-del-teatro-de-rojas-de-toledo-para-el-fin-de-semana-electoral/": {
@@ -7110,19 +6122,6 @@
       "es": "Griselda Gambaro, cuya obra enfrentó el terror estatal, ha muerto"
     }
   },
-  "https://www.nytimes.com/2026/11/19/movies/ash-and-crayons-review-ukraines-young-victims-undaunted.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El documental d'Evgeny Afineevsky recull històries de nens segrestats per Rússia o greument ferits en atacs.",
-      "es": "El documental de Evgeny Afineevsky recoge historias de niños secuestrados por Rusia o gravemente heridos en ataques."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Ash and Crayons', crítica: els joves víctimes d'Ucraïna no es rendeixen",
-      "es": "'Ash and Crayons', crítica: los jóvenes víctimas de Ucrania no se rinden"
-    }
-  },
   "https://www.nytimes.com/2026/11/19/movies/cameron-winter-at-carnegie-hall-review-paul-thomas-anderson.html": {
     "ambito": "mundo",
     "evento": false,
@@ -7134,84 +6133,6 @@
     "titulo": {
       "ca": "'Cameron Winter al Carnegie Hall', crítica: un duet de piano i càmera",
       "es": "'Cameron Winter en el Carnegie Hall', crítica: un dúo de piano y cámara"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/movies/elsinore-review.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Andrew Scott brilla en un drama sobre l'última actuació d'Ian Charleson com a Hamlet.",
-      "es": "Andrew Scott brilla en un drama sobre la última actuación de Ian Charleson como Hamlet."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Elsinore', crítica: recorda'm",
-      "es": "'Elsinore', crítica: recuérdame"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/movies/give-me-the-ball-review-billie-jean-king.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Documental viu en què la tennista octogenària explica el seu amor per l'atletisme al llarg de la seva vida i carrera.",
-      "es": "Documental vívido en el que la tenista octogenaria relata su amor por el atletismo a lo largo de su vida y carrera."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Give Me the Ball!', crítica: com Billie Jean King va guanyar a la vida",
-      "es": "'Give Me the Ball!', crítica: cómo Billie Jean King ganó en la vida"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/movies/josephine-review.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora Beth de Araújo narra la història d'una nena que presencia una brutal agressió sexual en un parc.",
-      "es": "La directora Beth de Araújo narra la historia de una niña que presencia una brutal agresión sexual en un parque."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Josephine', crítica: una jove testimoni d'horrors adults",
-      "es": "'Josephine', crítica: una joven testigo de horrores adultos"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/movies/minotaur-review-a-chilling-remake.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El director rus Andrey Zvyagintsev converteix un drama d'infidelitat en una faula antibel·licista.",
-      "es": "El director ruso Andrey Zvyagintsev convierte un drama de infidelidad en una parábola antibélica."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Minotaur', crítica: un remake inquietant",
-      "es": "'Minotaur', crítica: un remake inquietante"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/movies/primetime-preachers-review.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El documental analitza les carreres i els escàndols dels telepredicadors dels anys vuitanta.",
-      "es": "El documental analiza las carreras y escándalos de los telepredicadores de los años ochenta."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Primetime Preacher$', crítica: frau en nom de Déu",
-      "es": "'Primetime Preacher$', crítica: fraude en nombre de Dios"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/movies/steps-review.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La crítica descriu una versió animada i superficial de la Ventafocs, en la qual tres germanes han de recuperar la màgia per reprendre la història.",
-      "es": "La crítica describe una versión animada y superficial de Cenicienta, en la que tres hermanas deben recuperar la magia para retomar la historia."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Steps', crítica: aquests germans mereixen una millor màgia",
-      "es": "'Steps', crítica: estos hermanos merecen una mejor magia"
     }
   },
   "https://www.nytimes.com/2026/11/19/movies/tinto-brass-dead.html": {
@@ -7682,71 +6603,6 @@
       "es": "Un escenario más neurodiverso"
     }
   },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233664/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Disney estrena 'Hechizo', pel·lícula sobre una adolescent que descobreix que és bruixa, a les sales des del 27 de novembre.",
-      "es": "Disney estrena 'Hechizo', película sobre una adolescente que descubre que es bruja, en salas desde el 27 de noviembre."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "\"Crec que aconseguirà transcendir a través de les generacions\": Disney vol explicar una història que perduri amb la seva nova pel·lícula, 'Hechizo'",
-      "es": "\"Creo que logrará trascender a través de las generaciones\": Disney quiere contar una historia que perdure con su nueva película, 'Hechizo'"
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233871/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actor llatí, conegut per 'Star Wars', parla de les seves conviccions i de la seva desconfiança envers qui diu representar un grup nombrós.",
-      "es": "El actor latino, conocido por 'Star Wars', habla de sus convicciones y de su desconfianza hacia quienes dicen representar a un grupo numeroso."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Oscar Isaac, fill de mare guatemalteca i pare cubà: «Desconfio de qui diu parlar en nom d'un grup nombrós. Sempre penso: \"De debò? Com ho saps?\"»",
-      "es": "Oscar Isaac, hijo de madre guatemalteca y padre cubano: \"Desconfío de quienes dicen hablar en nombre de un grupo numeroso. Siempre pienso: '¿En serio? ¿Cómo lo sabes?'\""
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233901/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Destin Daniel Cretton, director de 'Spider-Man: Brand New Day', dirigirà l'adaptació de Hollywood de 'Naruto'.",
-      "es": "Destin Daniel Cretton, director de 'Spider-Man: Brand New Day', dirigirá la adaptación de Hollywood de 'Naruto'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "La pel·lícula d'acció real de 'Naruto' es fixa en 'Shogun' per al Tercer Hokage de la Vila Oculta de la Fulla",
-      "es": "La película de acción real de 'Naruto' se fija en 'Shogun' para el Tercer Hokage de la Aldea Oculta de la Hoja"
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233910/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Sandra Bullock va rebutjar el 1995 una exitosa pel·lícula basada en un còmic que va superar clàssics com 'Seven' o 'Jumanji'.",
-      "es": "Sandra Bullock rechazó en 1995 una exitosa película basada en un cómic que superó a clásicos como 'Seven' o 'Jumanji'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "\"Ni tan sols vaig llegir el guió\": Fa 32 anys, Sandra Bullock va rebutjar una superproducció que va recaptar 336 milions de dòlars",
-      "es": "\"Ni siquiera leí el guion\": Hace 32 años, Sandra Bullock rechazó una superproducción que recaudó 336 millones de dólares"
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233950/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actor, conegut per una sèrie estatunidenca d'èxit i etern secundari al cinema, ha tornat a Netflix als 90 anys; sovint el públic no sap com es diu.",
-      "es": "El actor, conocido por una exitosa serie estadounidense y eterno secundario en cine, ha regresado a Netflix a los 90 años; su nombre suele ser desconocido para el público."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Té 90 anys i continua en actiu: és l'únic actor del món que ha guanyat els tres premis més importants per una mateixa sèrie i, recentment, ha tornat a Netflix",
-      "es": "Tiene 90 años y sigue en activo: es el único actor del mundo que ha ganado los tres premios más importantes por una misma serie y, recientemente, ha regresado a Netflix"
-    }
-  },
   "https://www.sensacine.com/noticias/cine/noticia-1000234022/": {
     "ambito": "espana",
     "evento": false,
@@ -7771,19 +6627,6 @@
     "titulo": {
       "ca": "Freddie Mercury, als anys 70: \"No seré una estrella del rock. Seré una llegenda\"",
       "es": "Freddie Mercury, en los años 70: \"No seré una estrella de rock. Seré una leyenda\""
-    }
-  },
-  "https://www.sensacine.com/noticias/series/noticia-1000234015/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Prime Video renova 'El Senyor dels Anells: Els Anells de Poder' per una quarta temporada després d'arribar als 33 milions d'espectadors.",
-      "es": "Prime Video renueva 'El Señor de los Anillos: Los Anillos de Poder' por una cuarta temporada tras alcanzar 33 millones de espectadores."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Després d'arribar als 33 milions d'espectadors, Prime Video continua apostant per la seva sèrie insígnia i la renova per una quarta temporada",
-      "es": "Tras alcanzar los 33 millones de espectadores, Prime Video sigue apostando por su serie insignia renovándola por una temporada 4"
     }
   },
   "https://www.sensacine.com/noticias/series/noticia-1000234027/": {
@@ -7836,19 +6679,6 @@
     "titulo": {
       "ca": "L'encant fred i sensual de Robert Pattinson el converteix en una elecció exquisida com a James Bond, segons Peter Bradshaw",
       "es": "El encanto frío y sensual de Robert Pattinson lo convierte en una elección exquisita como James Bond, según Peter Bradshaw"
-    }
-  },
-  "https://www.theguardian.com/film/2026/nov/19/alex-cox-john-lydon-said-sid-and-nancy-was-a-nightmarish-piece-of-garbage": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El director de cinema de culte i presentador de Moviedrome respon preguntes dels lectors sobre James Bond, Christopher Nolan i Hunter S. Thompson.",
-      "es": "El director de cine de culto y presentador de Moviedrome responde preguntas de los lectores sobre James Bond, Christopher Nolan y Hunter S. Thompson."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Alex Cox: 'John Lydon va dir que Sid and Nancy era una porqueria espantosa'",
-      "es": "Alex Cox: 'John Lydon dijo que Sid y Nancy era una basura espantosa'"
     }
   },
   "https://www.theguardian.com/film/2026/nov/20/andrey-zvyagintsev-covid-putin-russia-life-in-exile": {
@@ -7968,19 +6798,6 @@
       "es": "'14th', crítica: Ava DuVernay enfrenta a un presidente abusón y a su corte de aduladores de Maga"
     }
   },
-  "https://www.theguardian.com/film/2026/nov/25/hollywood-nostalgia-further-mis-adventures-of-cliff-booth-quentin-tarantino": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Reportatge sobre l'onada creixent de pel·lícules nostàlgiques de Hollywood, com The Further Mis-Adventures of Cliff Booth, davant la decadència actual de la indústria.",
-      "es": "Reportaje sobre la creciente ola de películas nostálgicas de Hollywood, como The Further Mis-Adventures of Cliff Booth, frente a la decadencia actual de la industria."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Hollywood i les seves glòries que s'esvaeixen: la nostàlgia al cinema",
-      "es": "Hollywood y sus glorias que se desvanecen: la nostalgia en el cine"
-    }
-  },
   "https://www.theguardian.com/film/2026/nov/25/jane-alexander-interview": {
     "ambito": "mundo",
     "evento": false,
@@ -7992,45 +6809,6 @@
     "titulo": {
       "ca": "'Vaig dir no al sofà del càsting, però altres actrius van tenir problemes': Jane Alexander sobre 50 anys de fama",
       "es": "'Dije no al sofá del casting, pero otras actrices tuvieron problemas': Jane Alexander sobre 50 años de fama"
-    }
-  },
-  "https://www.theguardian.com/film/2026/nov/25/josephine-movie-true-story": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora i guionista Beth de Araújo explica que la pel·lícula Josephine, inspirada en una agressió sexual que va presenciar de nena, és una de les més potents de l'any.",
-      "es": "La directora y guionista Beth de Araújo explica que la película Josephine, inspirada en una agresión sexual que presenció de niña, es una de las más potentes del año."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Necessitava purgar-ho de mi': la història real darrere del drama colpidor Josephine",
-      "es": "'Necesitaba purgarlo de mí': la historia real tras el drama desgarrador Josephine"
-    }
-  },
-  "https://www.theguardian.com/film/2026/nov/25/the-slightest-touch-review-warm-story-of-colin-farrell-and-emma-fogartys-odd-couple-friendship": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica del documental de Rachel Fleit que segueix Colin Farrell i Emma Fogarty mentre es preparen per a la marató de Dublín per donar visibilitat a l'epidermòlisi bullosa.",
-      "es": "Crítica del documental de Rachel Fleit que sigue a Colin Farrell y Emma Fogarty mientras se preparan para la maratón de Dublín para dar visibilidad a la epidermólisis bullosa."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "The Slightest Touch, crítica: córrer marató en l'amistat de Colin Farrell i Emma Fogarty",
-      "es": "The Slightest Touch, crítica: correr maratones en la amistad de Colin Farrell y Emma Fogarty"
-    }
-  },
-  "https://www.theguardian.com/film/2026/nov/25/way-of-the-warrior-kid-review-chris-pratt": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica de la pel·lícula familiar protagonitzada per Chris Pratt, una imitació de Karate Kid produïda per Apple, que la crítica considera poc subtil i amb to moralitzant.",
-      "es": "Crítica de la película familiar protagonizada por Chris Pratt, una imitación de Karate Kid producida por Apple, que el crítico considera poco sutil y con tono moralizante."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Way of the Warrior Kid, crítica: la pel·lícula familiar de Chris Pratt és tan subtil com un vídeo de reclutament militar",
-      "es": "Way of the Warrior Kid, crítica: la película familiar de Chris Pratt es tan sutil como un vídeo de reclutamiento militar"
     }
   },
   "https://www.theguardian.com/stage/2026/nov/16/stage-version-tv-series-its-a-sin-trailer": {
@@ -8083,19 +6861,6 @@
     "titulo": {
       "ca": "L'obra que em va canviar la vida: 'Pig Earth de John Berger es va convertir en quelcom màgic: llepaven llet dels cossos'",
       "es": "La obra que cambió mi vida: 'Pig Earth de John Berger se convirtió en algo mágico: lamían leche de los cuerpos'"
-    }
-  },
-  "https://www.theguardian.com/stage/2026/nov/18/desire-under-the-elms-review-almeida-theatre-london": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Gough resulta fascinant en la posada en escena estilitzada d'Ebenezer Bamgboye del drama familiar d'Eugene O'Neill a l'Almeida de Londres.",
-      "es": "Gough resulta fascinante en la puesta en escena estilizada de Ebenezer Bamgboye del drama familiar de Eugene O'Neill en el Almeida de Londres."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Kelly Gough és simplement sorprenent mentre Desire Under the Elms assoleix l'altura de la tragèdia grega",
-      "es": "Kelly Gough es sencillamente asombrosa mientras Desire Under the Elms alcanza la altura de la tragedia griega"
     }
   },
   "https://www.theguardian.com/stage/2026/nov/19/donald-review-trump-ustinov-studio-bath": {

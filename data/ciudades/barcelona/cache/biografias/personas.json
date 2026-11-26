@@ -1470,6 +1470,13 @@
       "tmdb": null,
       "v": 2
     },
+    "anna-tamayo": {
+      "fecha": "2026-11-26",
+      "motivo": "ninguna",
+      "nombre": "Anna Tamayo",
+      "tmdb": null,
+      "v": 2
+    },
     "anna-tantull": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -6761,6 +6768,13 @@
       "nombre": "Jaume Viñas",
       "tmdb": null,
       "v": 1
+    },
+    "javi-sancho": {
+      "fecha": "2026-11-26",
+      "motivo": "ninguna",
+      "nombre": "Javi Sancho",
+      "tmdb": null,
+      "v": 2
     },
     "javi-soler": {
       "fecha": "2026-11-19",
@@ -19955,13 +19969,17 @@
             "Self"
           ]
         ],
+        "descripcion": {
+          "ca": "director i guionista de cinema"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
         "lugar": "Barcelona, Catalonia, Spain",
         "nacimiento": "1981-10-15",
         "nombre": "Marcel Barrena",
         "oficio": "Directing",
         "tmdb": 1152634,
-        "wikidata": "Q1592579"
+        "wikidata": "Q1592579",
+        "wikipedia": "https://es.wikipedia.org/wiki/Marcel_Barrena"
       },
       "fecha": "2026-11-19"
     },
@@ -22210,6 +22228,61 @@
       },
       "fecha": "2026-11-19"
     },
+    "124754": {
+      "datos": {
+        "conocida": [
+          [
+            "Leopardi,el joven fabuloso",
+            2014,
+            "pelicula",
+            "Antonio Ranieri"
+          ],
+          [
+            "El Conde de Montecristo",
+            2025,
+            "serie",
+            "Jacopo"
+          ],
+          [
+            "Palazzina LAF",
+            2023,
+            "pelicula",
+            "Caterino Lamanna"
+          ],
+          [
+            "Fortapàsc",
+            2009,
+            "pelicula",
+            "Rico"
+          ],
+          [
+            "La sonrisa del mal",
+            2025,
+            "pelicula",
+            "Sergio Rossetti"
+          ],
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Antonio Vivaldi"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor italià",
+          "es": "actor italiano"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/9ipWrqJVYjZk0c2j2yDAEKZd2Fu.jpg",
+        "lugar": "Taranto, Italy",
+        "nacimiento": "1979-03-14",
+        "nombre": "Michele Riondino",
+        "oficio": "Acting",
+        "tmdb": 124754,
+        "wikidata": "Q3856776",
+        "wikipedia": "https://es.wikipedia.org/wiki/Michele_Riondino"
+      },
+      "fecha": "2026-11-26"
+    },
     "1248292": {
       "datos": {
         "bio": {
@@ -23090,13 +23163,18 @@
             "Javier"
           ]
         ],
+        "descripcion": {
+          "ca": "actor català",
+          "es": "actor español"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/he5a5qQV3ZydOpTiBGb4HCrc8Z6.jpg",
         "lugar": "Montcada i Reixac, Catalunya, Spain",
         "nacimiento": "1995-12-27",
         "nombre": "Carlos Cuevas",
         "oficio": "Acting",
         "tmdb": 1261476,
-        "wikidata": "Q2939325"
+        "wikidata": "Q2939325",
+        "wikipedia": "https://es.wikipedia.org/wiki/Carlos_Cuevas"
       },
       "fecha": "2026-11-19"
     },
@@ -23706,6 +23784,63 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Jacob_Tremblay"
       },
       "fecha": "2026-11-19"
+    },
+    "128219": {
+      "datos": {
+        "bio": {
+          "en": "Ludovica Rampoldi works as a screenwriter for most of the main Italian production companies. She wrote several feature films, including Academy Award winner Gabriele Salvatores’ latest project, “II ragazzo invisibile”, “La Kryptonite nella borsa” by Ivan Cotroneo; “II Gioiellino” by Andrea Molaioli; “La doppia ora” by Giuseppe Capotondi (in competition at Venice Film Festival) and collaborated to the script of “La ragazza del Iago\" by Andrea Molaioli, winner of ten David di Donatello Awards. She also writes for television, especially for the cable."
+        },
+        "conocida": [
+          [
+            "El traidor",
+            2019,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "El Chico Invisible",
+            2014,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Gomorra",
+            2014,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Roberto Baggio, la Divina Coleta",
+            2021,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Il ragazzo invisibile - Seconda generazione",
+            2018,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Slam: todo por una chica",
+            2016,
+            "pelicula",
+            "Screenplay"
+          ]
+        ],
+        "descripcion": {
+          "ca": "escriptora italiana",
+          "es": "escritora italiana"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/qXmhOHLsE0AqyDb2UYayJVeIi6i.jpg",
+        "lugar": "Roma, Italy",
+        "nacimiento": "1979-01-23",
+        "nombre": "Ludovica Rampoldi",
+        "oficio": "Writing",
+        "tmdb": 128219,
+        "wikidata": "Q23690300"
+      },
+      "fecha": "2026-11-26"
     },
     "1283862": {
       "datos": {
@@ -25906,6 +26041,53 @@
       },
       "fecha": "2026-11-19"
     },
+    "1345654": {
+      "datos": {
+        "conocida": [
+          [
+            "Berlín",
+            2023,
+            "serie",
+            "Olivier"
+          ],
+          [
+            "La que se avecina",
+            2007,
+            "serie",
+            "Germán Becker"
+          ],
+          [
+            "Los hombres de Paco",
+            2005,
+            "serie",
+            "André Salazar"
+          ],
+          [
+            "El Ministerio del Tiempo",
+            2015,
+            "serie",
+            "Adolf Hitler"
+          ],
+          [
+            "El juego de la bruja",
+            2020,
+            "pelicula",
+            "Hunter (segment: A Little Taste)"
+          ],
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Frederick IV of Denmark"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/xLN90LlPJDVIzoIxDEwn8ZHFpCS.jpg",
+        "nombre": "Miko Jarry",
+        "oficio": "Acting",
+        "tmdb": 1345654
+      },
+      "fecha": "2026-11-26"
+    },
     "1346535": {
       "datos": {
         "bio": {
@@ -26882,6 +27064,10 @@
             "Facu"
           ]
         ],
+        "descripcion": {
+          "ca": "actor català",
+          "es": "actor español"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/jWPoPWtcDDYNBA7RJjUZ1CnfgZ4.jpg",
         "nombre": "Aimar Vega",
         "oficio": "Acting",
@@ -28027,13 +28213,18 @@
             "Capitán"
           ]
         ],
+        "descripcion": {
+          "ca": "actor espanyol",
+          "es": "actor y humorista español"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/v3R6t0PyZ8Aqa4KZ6RC3h4xZryX.jpg",
         "lugar": "Málaga, Spain",
         "nacimiento": "1978-04-09",
         "nombre": "Salva Reina",
         "oficio": "Acting",
         "tmdb": 1413918,
-        "wikidata": "Q20021106"
+        "wikidata": "Q20021106",
+        "wikipedia": "https://es.wikipedia.org/wiki/Salva_Reina"
       },
       "fecha": "2026-11-22"
     },
@@ -32118,6 +32309,35 @@
         "tmdb": 1572053
       },
       "fecha": "2026-11-20"
+    },
+    "1572397": {
+      "datos": {
+        "conocida": [
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Milano Cortina 2026 Olympic Opening Ceremony: Harmony",
+            2026,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Gianni Schicchi",
+            2021,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/utpCF1ITG4NYQ1LeclQOPR7m6ql.jpg",
+        "nombre": "Damiano Michieletto",
+        "oficio": "Directing",
+        "tmdb": 1572397
+      },
+      "fecha": "2026-11-26"
     },
     "1573069": {
       "datos": {
@@ -36878,6 +37098,56 @@
         "wikidata": "Q121752909"
       },
       "fecha": "2026-11-19"
+    },
+    "1878444": {
+      "datos": {
+        "conocida": [
+          [
+            "La increíble historia de la Isla de las Rosas",
+            2020,
+            "pelicula",
+            "Ulisse Rosa"
+          ],
+          [
+            "Suburra",
+            2015,
+            "pelicula",
+            "On. Mergio"
+          ],
+          [
+            "Mamá o papá",
+            2017,
+            "pelicula",
+            "poliziotto"
+          ],
+          [
+            "Roberto Baggio, la Divina Coleta",
+            2021,
+            "pelicula",
+            "Florindo Baggio"
+          ],
+          [
+            "Rodando hacia ti",
+            2022,
+            "pelicula",
+            "don Walter"
+          ],
+          [
+            "Llegan los profes",
+            2018,
+            "pelicula",
+            "Preside"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/mFNZkGc0TgbfRbkRBWBH5ieVFW4.jpg",
+        "lugar": "Padova, Italy",
+        "nacimiento": "1969-10-11",
+        "nombre": "Andrea Pennacchi",
+        "oficio": "Acting",
+        "tmdb": 1878444,
+        "wikidata": "Q95745952"
+      },
+      "fecha": "2026-11-26"
     },
     "18793": {
       "datos": {
@@ -43925,13 +44195,18 @@
             "Rita"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu catalana",
+          "es": "actriz española"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/wFNhG5zX9qsoCCo9QEdkGuxjN7m.jpg",
         "lugar": "Begur, Baix Empordà, Catalonia, Spain",
         "nacimiento": "2003-01-01",
         "nombre": "Maria Morera Colomer",
         "oficio": "Acting",
         "tmdb": 2480558,
-        "wikidata": "Q106809987"
+        "wikidata": "Q106809987",
+        "wikipedia": "https://es.wikipedia.org/wiki/Maria_Morera"
       },
       "fecha": "2026-11-19"
     },
@@ -45291,6 +45566,22 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Martin_Landau"
       },
       "fecha": "2026-11-19"
+    },
+    "2641885": {
+      "datos": {
+        "conocida": [
+          [
+            "La rosa del desierto",
+            2006,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Tiziano Scarpa",
+        "oficio": "Acting",
+        "tmdb": 2641885
+      },
+      "fecha": "2026-11-26"
     },
     "2642": {
       "datos": {
@@ -47192,6 +47483,58 @@
       },
       "fecha": "2026-11-21"
     },
+    "2865221": {
+      "datos": {
+        "bio": {
+          "en": "Tecla Marianna Insolia (born 13 January, 2004) is an Italian actress and singer. She is best known for her role as Modesta Spataro in the 2025 six-part television drama The Art of Joy (L'arte della gioia), adapted from the 1998 novel of the same name by Goliarda Sapienza."
+        },
+        "conocida": [
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Cecilia"
+          ],
+          [
+            "Misión Despedida de Soltera",
+            2021,
+            "pelicula",
+            "Giulia De Martino"
+          ],
+          [
+            "Familia",
+            2024,
+            "pelicula",
+            "Giulia"
+          ],
+          [
+            "El arte de la felicidad",
+            2024,
+            "serie",
+            "Modesta"
+          ],
+          [
+            "L'allieva",
+            2016,
+            "serie",
+            "Susi"
+          ],
+          [
+            "La bambina che non voleva cantare",
+            2021,
+            "pelicula",
+            "Nada a 15 anni"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/kMN9VjbZrlNEFWpSGJyD9GnemVm.jpg",
+        "lugar": "Varese, Italy",
+        "nacimiento": "2004-01-13",
+        "nombre": "Tecla Insolia",
+        "oficio": "Acting",
+        "tmdb": 2865221
+      },
+      "fecha": "2026-11-26"
+    },
     "2866155": {
       "datos": {
         "conocida": [
@@ -47564,6 +47907,54 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Roxanne_Hart"
       },
       "fecha": "2026-11-20"
+    },
+    "2922115": {
+      "datos": {
+        "conocida": [
+          [
+            "DOC (IT)",
+            2020,
+            "serie",
+            "Elisabetta"
+          ],
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Agnese"
+          ],
+          [
+            "Ipersonnia",
+            2022,
+            "pelicula",
+            "Claudia"
+          ],
+          [
+            "La porta rossa",
+            2017,
+            "serie",
+            "Ilaria"
+          ],
+          [
+            "Venecia: Red criminal",
+            2022,
+            "serie",
+            "Emilia Zirri"
+          ],
+          [
+            "El paraíso de las señoras",
+            2015,
+            "serie",
+            "Nicoletta Cattaneo"
+          ]
+        ],
+        "lugar": "Vittorio Veneto, Treviso",
+        "nacimiento": "1993-10-15",
+        "nombre": "Federica Girardello",
+        "oficio": "Acting",
+        "tmdb": 2922115
+      },
+      "fecha": "2026-11-26"
     },
     "2931194": {
       "datos": {
@@ -48528,6 +48919,40 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Elizabeth_Mitchell"
       },
       "fecha": "2026-11-25"
+    },
+    "3118209": {
+      "datos": {
+        "bio": {
+          "en": "Hildegard De Stefano is a Musician and Actress known for Ripley (2024) and La compagnia del cigno (2019)."
+        },
+        "conocida": [
+          [
+            "RIPLEY",
+            2024,
+            "serie",
+            "Mina"
+          ],
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Laura"
+          ],
+          [
+            "La compagnia del cigno",
+            2019,
+            "serie",
+            "Sara"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/9IkooHYNyYWa3QovLLLobo6UUdx.jpg",
+        "lugar": " Milan, Italy",
+        "nacimiento": "1997-05-15",
+        "nombre": "Hildegard De Stefano",
+        "oficio": "Acting",
+        "tmdb": 3118209
+      },
+      "fecha": "2026-11-26"
     },
     "3119136": {
       "datos": {
@@ -49662,13 +50087,18 @@
             "Directora Centro Psiquiátrico"
           ]
         ],
+        "descripcion": {
+          "ca": "actriu catalana de cinema, teatre i televisió (naix. 1974)",
+          "es": "actriz española"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg",
         "lugar": "Sant Just Desvern, Spain",
         "nacimiento": "1974-05-06",
         "nombre": "Clara Segura",
         "oficio": "Acting",
         "tmdb": 33410,
-        "wikidata": "Q8346586"
+        "wikidata": "Q8346586",
+        "wikipedia": "https://es.wikipedia.org/wiki/Clara_Segura"
       },
       "fecha": "2026-11-19"
     },
@@ -50704,6 +51134,33 @@
       },
       "fecha": "2026-11-19"
     },
+    "3624690": {
+      "datos": {
+        "bio": {
+          "en": "Rebecca Antonaci, born in 2004, actress, dancer, performer, musician, singer-songwriter, active in theatre, cinema and television. From a very early age Rebecca shows a strong talent for the performing arts. Directed by her parents towards performative arts studies, from the age of 6 Rebecca attends singing, dance, musical performance and piano lessons. She is the protagonist of the new film by Saverio Costanzo: \"Finalmente L'alba\" (soon to be released), alongside actors such as Lily James, Joe Kerry and Willem Dafoe, production Fremantle/ Wildside. Over the years her talent grows, bringing her to aspire to artistic excellence."
+        },
+        "conocida": [
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Caterina"
+          ],
+          [
+            "Finalmente l'alba",
+            2024,
+            "pelicula",
+            "Mimosa"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/83EIV1Qnyj1ytGdCfDZ9WT2t2OE.jpg",
+        "nacimiento": "2004-01-01",
+        "nombre": "Rebecca Antonaci",
+        "oficio": "Acting",
+        "tmdb": 3624690
+      },
+      "fecha": "2026-11-26"
+    },
     "3630572": {
       "datos": {
         "conocida": [
@@ -51379,6 +51836,35 @@
         "tmdb": 3760670
       },
       "fecha": "2026-11-19"
+    },
+    "3769537": {
+      "datos": {
+        "conocida": [
+          [
+            "M. El hijo del siglo",
+            2025,
+            "serie",
+            "Bianca Ceccato"
+          ],
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Marietta"
+          ],
+          [
+            "La bella estate",
+            2023,
+            "pelicula",
+            "Rosa"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/rrnKiMvzgqP39nDaQ5vJaEicOBW.jpg",
+        "nombre": "Cosima Centurioni",
+        "oficio": "Acting",
+        "tmdb": 3769537
+      },
+      "fecha": "2026-11-26"
     },
     "3774690": {
       "datos": {
@@ -57596,13 +58082,18 @@
             "Director"
           ]
         ],
+        "descripcion": {
+          "ca": "guionista italià",
+          "es": "guionista italiano"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/f5HQElD4y1YYE9Oblwib2DIh1sm.jpg",
         "lugar": "Turin, Italy",
         "nacimiento": "1972-09-03",
         "nombre": "Alberto Marini",
         "oficio": "Writing",
         "tmdb": 54528,
-        "wikidata": "Q2831790"
+        "wikidata": "Q2831790",
+        "wikipedia": "https://es.wikipedia.org/wiki/Alberto_Marini"
       },
       "fecha": "2026-11-19"
     },
@@ -60035,6 +60526,22 @@
       },
       "fecha": "2026-11-19"
     },
+    "5922766": {
+      "datos": {
+        "conocida": [
+          [
+            "Primavera",
+            2025,
+            "pelicula",
+            "Maddalena"
+          ]
+        ],
+        "nombre": "Chiara Sacco",
+        "oficio": "Acting",
+        "tmdb": 5922766
+      },
+      "fecha": "2026-11-26"
+    },
     "5926511": {
       "datos": {
         "conocida": [
@@ -62187,6 +62694,61 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Macarena_G%C3%B3mez"
       },
       "fecha": "2026-11-25"
+    },
+    "67174": {
+      "datos": {
+        "conocida": [
+          [
+            "Suspiria",
+            2018,
+            "pelicula",
+            "Pavla"
+          ],
+          [
+            "Melissa",
+            2005,
+            "pelicula",
+            "Daria"
+          ],
+          [
+            "La primera cosa bella",
+            2010,
+            "pelicula",
+            "Sandra"
+          ],
+          [
+            "La amiga estupenda",
+            2018,
+            "serie",
+            "Lidia Sarratore"
+          ],
+          [
+            "Tomorrow's a New Day",
+            2019,
+            "pelicula",
+            "Gloria"
+          ],
+          [
+            "Stai lontana da me",
+            2013,
+            "pelicula",
+            "Simona"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu italiana",
+          "es": "actriz italiana"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/zBjLm24LOdAA2PnRdryvgUefcxN.jpg",
+        "lugar": "Naples, Campania, Italy",
+        "nacimiento": "1971-02-10",
+        "nombre": "Fabrizia Sacchi",
+        "oficio": "Acting",
+        "tmdb": 67174,
+        "wikidata": "Q3063990",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Fabrizia_Sacchi"
+      },
+      "fecha": "2026-11-26"
     },
     "67262": {
       "datos": {
@@ -68242,6 +68804,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Jazm%C3%ADn_Abu%C3%ADn"
     },
+    "Q106809987": {
+      "descripcion": {
+        "ca": "actriu catalana",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Maria_Morera"
+    },
     "Q106873503": {
       "descripcion": {
         "ca": "humorista i actriu estatunidenca",
@@ -68291,6 +68861,14 @@
         "ca": "actor català"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q108196728": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-26",
       "wikipedia": null
     },
     "Q108199976": {
@@ -69442,6 +70020,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Adelfa_Calvo"
     },
+    "Q1592579": {
+      "descripcion": {
+        "ca": "director i guionista de cinema"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Marcel_Barrena"
+    },
     "Q159832": {
       "descripcion": {
         "ca": "director d'orquestra neerlandès",
@@ -70408,6 +70993,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Dani_de_la_Orden"
     },
+    "Q23690300": {
+      "descripcion": {
+        "ca": "escriptora italiana",
+        "es": "escritora italiana"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
     "Q236956": {
       "descripcion": {
         "ca": "actriu estatunidenca",
@@ -70832,6 +71425,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Joel_Smallbone"
     },
+    "Q2831790": {
+      "descripcion": {
+        "ca": "guionista italià",
+        "es": "guionista italiano"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Alberto_Marini"
+    },
     "Q2833411": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -70988,6 +71589,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Caitriona_Balfe"
     },
+    "Q2939325": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Carlos_Cuevas"
+    },
     "Q29431856": {
       "descripcion": {
         "ca": "presentador de televisió",
@@ -71079,6 +71688,14 @@
       "descripcion": null,
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q3063990": {
+      "descripcion": {
+        "ca": "actriu italiana",
+        "es": "actriz italiana"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Fabrizia_Sacchi"
     },
     "Q30729290": {
       "descripcion": {
@@ -71596,6 +72213,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q3856776": {
+      "descripcion": {
+        "ca": "actor italià",
+        "es": "actor italiano"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Michele_Riondino"
     },
     "Q389728": {
       "descripcion": {
@@ -72585,6 +73210,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q61787991": {
+      "descripcion": {
+        "ca": "directora i productora de cinema i teatre català",
+        "es": "actriz, directora y productora"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Susanna_Barranco"
+    },
     "Q61875074": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -73340,6 +73973,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Karl_Malden"
+    },
+    "Q95745952": {
+      "descripcion": null,
+      "fecha": "2026-11-26",
+      "wikipedia": null
     },
     "Q95817312": {
       "descripcion": {

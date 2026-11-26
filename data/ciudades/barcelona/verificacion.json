@@ -3,7 +3,7 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-26",
-    "publicadas": 99
+    "publicadas": 100
   },
   "escena": {
     "anomalias": [
@@ -146,6 +146,13 @@
         "id": "open_data_bcn:99400770493",
         "regla": "repetida",
         "titulo": "Teles i trapezis"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400749858",
+        "id": "open_data_bcn:99400773867",
+        "regla": "repetida",
+        "titulo": "Espai de teatre i improvisació"
       },
       {
         "accion": "aviso",
@@ -300,14 +307,21 @@
         "id": "open_data_bcn:99400791527",
         "regla": "repetida",
         "titulo": "Teatre a mida"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400684767",
+        "id": "open_data_bcn:99400791776",
+        "regla": "repetida",
+        "titulo": "Circ (de 6 a 12 anys)"
       }
     ],
     "corregidas_por_regla": {
       "fecha": 19,
-      "repetida": 21,
+      "repetida": 23,
       "sala": 2
     },
     "fecha": "2026-11-26",
-    "publicadas": 721
+    "publicadas": 734
   }
 }

@@ -470,8 +470,9 @@
     "url": "https://salabeckett.koobin.cat/ca/les-distancies"
   },
   "open_data_bcn:99400783067|https://www.salabeckett.cat/|El castell": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-26",
+    "pagina": "https://www.salabeckett.cat/espectacle/el-castell/",
+    "url": "https://salabeckett.koobin.cat/ca/el-castell-1"
   },
   "open_data_bcn:99400783068|https://www.salabeckett.cat/|Urinaris Àngels Una comèdia musical en tres actes i un final": {
     "fecha": "2026-11-17",

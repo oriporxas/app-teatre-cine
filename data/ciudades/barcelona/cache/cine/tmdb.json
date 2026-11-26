@@ -1138,6 +1138,125 @@
     },
     "fecha": "2026-11-18"
   },
+  "it:el 47:barrena": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/gzdhZFz3gUTu5MneQZYozmbKsLf.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
+          "id": 1152634,
+          "nombre": "Marcel Barrena"
+        }
+      ],
+      "duracion": 110,
+      "edad": "7",
+      "estreno": "2024-09-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/tZdhMgbN7R1zDMAZ0zSFxxnClcM.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
+          "id": 1152634,
+          "nombre": "Marcel Barrena"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/f5HQElD4y1YYE9Oblwib2DIh1sm.jpg",
+          "id": 54528,
+          "nombre": "Alberto Marini"
+        }
+      ],
+      "idioma_original": "ca",
+      "imdb": "tt27751957",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eWcoXDt1VwcXjSckMWcPePfq9ka.jpg",
+          "id": 1119139,
+          "nombre": "Arnau Bataller"
+        }
+      ],
+      "nota_tmdb": 7.4,
+      "paises": [
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1oBOegVHnzjNAU3PFsulfYApEb8.jpg",
+          "id": 87015,
+          "nombre": "Eduard Fernández",
+          "papel": "Manolo Vital"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg",
+          "id": 33410,
+          "nombre": "Clara Segura",
+          "papel": "Carmen"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pwjNbRQP4GXVREfB96SuzHh2hqq.jpg",
+          "id": 3578018,
+          "nombre": "Zoe Bonafonte",
+          "papel": "Joana"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/v3R6t0PyZ8Aqa4KZ6RC3h4xZryX.jpg",
+          "id": 1413918,
+          "nombre": "Salva Reina",
+          "papel": "Felipín"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/w0X8DGeLyY9L1VbDaWw2jcEpjai.jpg",
+          "id": 2020259,
+          "nombre": "Óscar de la Fuente",
+          "papel": "Antonio"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6TreWuZXVK9qYoHC0qLSbnHA1e0.jpg",
+          "id": 1149067,
+          "nombre": "David Verdaguer",
+          "papel": "Serra"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/he5a5qQV3ZydOpTiBGb4HCrc8Z6.jpg",
+          "id": 1261476,
+          "nombre": "Carlos Cuevas",
+          "papel": "Pasqual"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oLrguHu0Er29T8QyhZ2R0mCGSQ0.jpg",
+          "id": 1621789,
+          "nombre": "Betsy Túrnez",
+          "papel": "Aurora"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wFNhG5zX9qsoCCo9QEdkGuxjN7m.jpg",
+          "id": 2480558,
+          "nombre": "Maria Morera Colomer",
+          "papel": "Mar"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jWPoPWtcDDYNBA7RJjUZ1CnfgZ4.jpg",
+          "id": 1373422,
+          "nombre": "Aimar Vega",
+          "papel": "Josep"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Inspirat en la història real de Manolo Vital, un conductor d'autobús que va ajudar a crear la Barcelona moderna durant el boom de la ciutat dels anys setanta. El 1978, a Barcelona, el conductor d’autobús Manolo Vital es va apoderar del bus de la línia 47 per desmuntar una mentida que l’Ajuntament s’entestava a repetir: que els autobusos no podien pujar els carrers del barri de Torre Baró. Un acte de dissidència pacífica emmarcat en els moviments veïnals de base que van transformar la ciutat i van canviar la imatge dels seus suburbis per sempre.",
+        "en": "Based on a true story, in late 1970s Barcelona, Manolo Vital, a bus driver, takes bold action to protest the neglect of Torre Baró, an immigrant neighborhood. His act becomes a symbol of resistance against systemic inequality during a pivotal moment in the city’s modern transformation.",
+        "es": "Un acto de disidencia pacífica y el movimiento vecinal de base en 1978 transformó Barcelona y cambió la imagen de sus suburbios para siempre. Manolo Vital, un conductor de autobús que se adueñó del bus de la línea 47 para desmontar una mentira que el Ayuntamiento se empeñaba en repetir: los autobuses no podían subir las cuestas del distrito de Torre Baró. Un acto de rebeldía que demostró ser un catalizador para el cambio, de que las personas se enorgullecen de sus raíces, de una lucha del vecindario, de la clase trabajadora que ayudó a crear la Barcelona moderna de los años setenta."
+      },
+      "titulo": "El 47",
+      "titulo_ca": "El 47",
+      "titulo_original": "El 47",
+      "tmdb": 1174481,
+      "trailer": "PctPdv7LiuE",
+      "wikidata": "Q115774787"
+    },
+    "fecha": "2026-11-26"
+  },
   "it:el director:orden": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/9FKhEtXhX2Omvc7kVcjvDYk8DWG.jpg",
@@ -9177,6 +9296,123 @@
     },
     "fecha": "2026-11-17"
   },
+  "itt33586629": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/yjIJHYc3jkpP9lIJvRsxWxTbzlo.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/utpCF1ITG4NYQ1LeclQOPR7m6ql.jpg",
+          "id": 1572397,
+          "nombre": "Damiano Michieletto"
+        }
+      ],
+      "duracion": 111,
+      "edad": null,
+      "estreno": "2025-12-04",
+      "fondo": "https://image.tmdb.org/t/p/w1280/hVQbT0JTPSFvmmSE6vASWSOCTAY.jpg",
+      "generos": [
+        "Historia",
+        "Drama",
+        "Música"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qXmhOHLsE0AqyDb2UYayJVeIi6i.jpg",
+          "id": 128219,
+          "nombre": "Ludovica Rampoldi"
+        },
+        {
+          "id": 2641885,
+          "nombre": "Tiziano Scarpa"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/utpCF1ITG4NYQ1LeclQOPR7m6ql.jpg",
+          "id": 1572397,
+          "nombre": "Damiano Michieletto"
+        }
+      ],
+      "idioma_original": "it",
+      "imdb": "tt33586629",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": 7.0,
+      "paises": [
+        "FR",
+        "IT"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kMN9VjbZrlNEFWpSGJyD9GnemVm.jpg",
+          "id": 2865221,
+          "nombre": "Tecla Insolia",
+          "papel": "Cecilia"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9ipWrqJVYjZk0c2j2yDAEKZd2Fu.jpg",
+          "id": 124754,
+          "nombre": "Michele Riondino",
+          "papel": "Antonio Vivaldi"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mFNZkGc0TgbfRbkRBWBH5ieVFW4.jpg",
+          "id": 1878444,
+          "nombre": "Andrea Pennacchi",
+          "papel": "Governatore"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zBjLm24LOdAA2PnRdryvgUefcxN.jpg",
+          "id": 67174,
+          "nombre": "Fabrizia Sacchi",
+          "papel": "Priora"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9IkooHYNyYWa3QovLLLobo6UUdx.jpg",
+          "id": 3118209,
+          "nombre": "Hildegard De Stefano",
+          "papel": "Laura"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rrnKiMvzgqP39nDaQ5vJaEicOBW.jpg",
+          "id": 3769537,
+          "nombre": "Cosima Centurioni",
+          "papel": "Marietta"
+        },
+        {
+          "id": 2922115,
+          "nombre": "Federica Girardello",
+          "papel": "Agnese"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/83EIV1Qnyj1ytGdCfDZ9WT2t2OE.jpg",
+          "id": 3624690,
+          "nombre": "Rebecca Antonaci",
+          "papel": "Caterina"
+        },
+        {
+          "id": 5922766,
+          "nombre": "Chiara Sacco",
+          "papel": "Maddalena"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xLN90LlPJDVIzoIxDEwn8ZHFpCS.jpg",
+          "id": 1345654,
+          "nombre": "Miko Jarry",
+          "papel": "Frederick IV of Denmark"
+        }
+      ],
+      "sinopsis": {
+        "en": "A talented violinist, Cecilia, confined in an orphanage, meets Vivaldi who becomes her teacher. Under his mentorship and through his music, she gains courage to break free from the life she was destined for and pursue her passion.",
+        "es": "Venecia, siglo XVIII. Cecilia es una virtuosa del violín de 20 años que permanece confinada en el Hospicio de la Pietà. Su única escapatoria parece ser el matrimonio. Sin embargo, su vida cambia cuando Antonio Vivaldi, un compositor brillante y ambicioso, llega como nuevo profesor de violín. Bajo su tutela y a través de su música, Cecilia encuentra la fuerza para desafiar el destino que antes parecía inevitable."
+      },
+      "titulo": "Primavera",
+      "titulo_ca": null,
+      "titulo_original": "Primavera",
+      "tmdb": 1365683,
+      "trailer": "D3iiufsSf_o",
+      "wikidata": "Q131753323"
+    },
+    "fecha": "2026-11-26"
+  },
   "itt33764258": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/wLSZhzbKI2lwYkS1uRjHyfi8CPQ.jpg",
@@ -13578,6 +13814,7 @@
   "p12446": "Q177984",
   "p124557": "Q6375522",
   "p124747": "Q3384479",
+  "p124754": "Q3856776",
   "p12513": "Q436769",
   "p12516": "Q232874",
   "p1252841": "Q7296622",
@@ -13650,6 +13887,7 @@
   "p1552436": "Q27049947",
   "p1555603": "Q63198577",
   "p1568360": "",
+  "p1572397": "",
   "p1573069": "",
   "p1589570": "Q106367065",
   "p1603600": "Q47460321",
@@ -13686,6 +13924,7 @@
   "p1832218": "",
   "p1838225": "Q63382252",
   "p1846370": "Q57584369",
+  "p1878444": "Q95745952",
   "p1892": "Q175535",
   "p1894436": "Q114944989",
   "p18973": "Q37628",
@@ -13788,6 +14027,7 @@
   "p2846013": "Q112570656",
   "p2856423": "",
   "p28605": "Q86714",
+  "p2865221": "",
   "p2869815": "",
   "p287": "Q35332",
   "p2876635": "",
@@ -13957,6 +14197,7 @@
   "p6648": "Q7546",
   "p6677": "Q207506",
   "p67052": "Q2757345",
+  "p67174": "Q3063990",
   "p67262": "Q9048215",
   "p6807": "Q316446",
   "p68641": "Q92056",
@@ -15227,6 +15468,7 @@
   "wQ131462624": [],
   "wQ131523413": [],
   "wQ131547207": [],
+  "wQ131753323": [],
   "wQ131900904": [],
   "wQ131978276": [],
   "wQ132240260": [],
@@ -20050,6 +20292,7 @@
   "wQ30069887": [],
   "wQ303957": [],
   "wQ3052744": [],
+  "wQ3063990": [],
   "wQ3086808": [],
   "wQ308792": [],
   "wQ30929628": [],
@@ -21876,6 +22119,13 @@
       "anio": 2023,
       "premio": "César al mejor actor",
       "tipo": "nominado"
+    }
+  ],
+  "wQ3856776": [
+    {
+      "anio": null,
+      "premio": "David de Donatello al mejor actor protagonista",
+      "tipo": "ganado"
     }
   ],
   "wQ39666": [
@@ -25853,6 +26103,7 @@
     }
   ],
   "wQ95233135": [],
+  "wQ95745952": [],
   "wQ95817312": [
     {
       "anio": 2023,

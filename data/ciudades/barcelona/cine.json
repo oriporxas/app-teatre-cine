@@ -3,35 +3,15 @@
   "atribucion": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
   "caducadas": [
     {
-      "anio": 2017,
       "caducado": "2026-11-25",
-      "cartel": "https://image.tmdb.org/t/p/w500/3LYA5cBnRSHYUMSP51aJVQdIDzo.jpg",
       "direccion": [
         {
-          "id": 1046702,
-          "nombre": "David Bickerstaff",
-          "premios": [],
-          "wikidata": "Q22946162"
+          "nombre": "Pawel Pawlikowski"
         }
       ],
-      "duracion": 85,
-      "estreno": "2017-09-26",
-      "fondo": "https://image.tmdb.org/t/p/w1280/qEhivdwDng8au4lTUYYA0514Apx.jpg",
-      "generos": [
-        "Documental",
-        "Historia"
-      ],
-      "id": "tmdb-470671",
-      "idioma_original": "en",
-      "imdb": "tt7829440",
-      "sinopsis": {
-        "en": "EXHIBITION ON SCREEN open its fifth season with Canaletto & the Art of Venice, an immersive journey into the life and art of Venice’s famous view-painter. No artist better captures the essence and allure of Venice than Giovanni Antonio Canal, better known as Canaletto.  The remarkable group of over 200 paintings, drawings and prints on display offer unparalleled insight into the artistry of Canaletto and his contemporaries, and the city he became a master at capturing. The film also offers the chance to step inside two official royal residences - Buckingham Palace and Windsor Castle – to learn more about the artist, and Joseph Smith, the man who introduced Canaletto to Britain.",
-        "es": "David Bickerstaff dirige este documental centrado en la vida y obra del pintor Canaletto, y en la exposición temporal que ha ido recorriendo varias ciudades en todo el mundo. El Queen’s Gallery del Palacio de Buckingham ha sido el último lugar en albergar los diferentes cuadros del artista."
-      },
-      "titulo": "Canaletto y el arte de Venecia",
-      "titulo_original": "Canaletto & the Art of Venice",
-      "tmdb": 470671,
-      "trailer": "leMvPFVlb0c"
+      "duracion": 82,
+      "id": "p-t-fatherland-pawlikowski",
+      "titulo": "Fatherland"
     },
     {
       "anio": 2026,
@@ -315,15 +295,35 @@
       "trailer": "cNbAPdz04UE"
     },
     {
+      "anio": 2017,
       "caducado": "2026-11-25",
+      "cartel": "https://image.tmdb.org/t/p/w500/3LYA5cBnRSHYUMSP51aJVQdIDzo.jpg",
       "direccion": [
         {
-          "nombre": "Pawel Pawlikowski"
+          "id": 1046702,
+          "nombre": "David Bickerstaff",
+          "premios": [],
+          "wikidata": "Q22946162"
         }
       ],
-      "duracion": 82,
-      "id": "p-t-fatherland-pawlikowski",
-      "titulo": "Fatherland"
+      "duracion": 85,
+      "estreno": "2017-09-26",
+      "fondo": "https://image.tmdb.org/t/p/w1280/qEhivdwDng8au4lTUYYA0514Apx.jpg",
+      "generos": [
+        "Documental",
+        "Historia"
+      ],
+      "id": "tmdb-470671",
+      "idioma_original": "en",
+      "imdb": "tt7829440",
+      "sinopsis": {
+        "en": "EXHIBITION ON SCREEN open its fifth season with Canaletto & the Art of Venice, an immersive journey into the life and art of Venice’s famous view-painter. No artist better captures the essence and allure of Venice than Giovanni Antonio Canal, better known as Canaletto.  The remarkable group of over 200 paintings, drawings and prints on display offer unparalleled insight into the artistry of Canaletto and his contemporaries, and the city he became a master at capturing. The film also offers the chance to step inside two official royal residences - Buckingham Palace and Windsor Castle – to learn more about the artist, and Joseph Smith, the man who introduced Canaletto to Britain.",
+        "es": "David Bickerstaff dirige este documental centrado en la vida y obra del pintor Canaletto, y en la exposición temporal que ha ido recorriendo varias ciudades en todo el mundo. El Queen’s Gallery del Palacio de Buckingham ha sido el último lugar en albergar los diferentes cuadros del artista."
+      },
+      "titulo": "Canaletto y el arte de Venecia",
+      "titulo_original": "Canaletto & the Art of Venice",
+      "tmdb": 470671,
+      "trailer": "leMvPFVlb0c"
     },
     {
       "agenda": "open_data_bcn:99400776950",
@@ -5232,16 +5232,6 @@
       "lat": 41.4462918208594,
       "lon": 2.200290194498161,
       "nombre": "Centre Cívic Baró de Viver"
-    },
-    {
-      "barrio": "el Poblenou",
-      "centro": true,
-      "direccion": "C Pujades 176",
-      "fuente": "http://www.elcentrepoblenou.cat",
-      "id": "agenda:barcelona:via270901-176",
-      "lat": 41.401133285381995,
-      "lon": 2.200145848591939,
-      "nombre": "Centre Moral i Cultural del Poblenou"
     }
   ],
   "ciudad": {
@@ -8399,16 +8389,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-26",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222832&language=ESP",
-          null,
-          1
-        ],
-        [
           "99217141611",
           "2026-11-26",
           "15:50",
@@ -8979,32 +8959,12 @@
           1
         ],
         [
-          "99217141611",
-          "2026-11-28",
-          "18:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119091&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
           "75990131879",
           "2026-11-28",
           "18:10",
           "VOSE",
           null,
           "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222910&language=ESP",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-28",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119101&language=esp&theatre=26",
           null,
           1
         ],
@@ -11259,16 +11219,6 @@
           "Castellano",
           "Sala 06",
           "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119098&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-28",
-          "20:10",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119090&language=esp&theatre=26",
           null,
           1
         ],
@@ -16480,6 +16430,16 @@
           1
         ],
         [
+          "95122123236",
+          "2026-11-26",
+          "18:25",
+          "Castellano",
+          "Sala 06",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122572&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
           "75990131879",
           "2026-11-26",
           "18:30",
@@ -16806,16 +16766,6 @@
           "Castellano",
           "Sala 01",
           "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194779&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-28",
-          "18:10",
-          "Castellano",
-          "Sala 08",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119107&language=esp&theatre=26",
           null,
           1
         ],
@@ -17852,6 +17802,1164 @@
     },
     {
       "anio": 2026,
+      "cartel": "https://image.tmdb.org/t/p/w500/6CWXhVFfin3zh1LZ5HsWnzTXTPN.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xfYLzdL5vJmMHz7faKyy80zY6xI.jpg",
+          "id": 74943,
+          "nombre": "Daniel Monzón",
+          "premios": [
+            {
+              "anio": 2010,
+              "premio": "Premio Goya a la mejor dirección",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premio Goya al mejor guion adaptado",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Medallas del Círculo de Escritores Cinematográficos",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2021,
+              "premio": "Medalla del Círculo de Escritores Cinematográficos al mejor guion adaptado",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premio Goya al mejor guion adaptado",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Premi Mestre Mateo a la millor direcció",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Premio del Cine Europeo al mejor guionista",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premio Gaudí a la mejor dirección",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q3701686"
+        }
+      ],
+      "duracion": 136,
+      "estreno": "2026-11-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xfYLzdL5vJmMHz7faKyy80zY6xI.jpg",
+          "id": 74943,
+          "nombre": "Daniel Monzón"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qYQR7mQVKtDe4ojUxaCEK83689q.jpg",
+          "id": 3788,
+          "nombre": "Jorge Guerricaechevarría"
+        }
+      ],
+      "id": "tmdb-1522071",
+      "idioma_original": "es",
+      "imdb": "tt37729109",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/aYZZhbkZvOJ8aQUQSqMjnILmbK4.jpg",
+          "id": 14351,
+          "nombre": "Roque Baños"
+        }
+      ],
+      "paises": [
+        "ES",
+        "FR"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pwjNbRQP4GXVREfB96SuzHh2hqq.jpg",
+          "id": 3578018,
+          "nombre": "Zoe Bonafonte"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vevzhH6YvwBaZrCbbMhCSD3cQb7.jpg",
+          "id": 5594317,
+          "nombre": "Manuela Calle"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/L4IuSo5mhieqh2F7Ydm4PmLGd6.jpg",
+          "id": 3813575,
+          "nombre": "Carla Domínguez"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hNjgPdRfRMmoxuZhKmhcZEThT4a.jpg",
+          "id": 4443627,
+          "nombre": "María Gandiaga"
+        },
+        {
+          "id": 3980931,
+          "nombre": "Shiara Fernández"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/uC6ZquT9cTTgZfJ1SLMTYZXrU1u.jpg",
+          "id": 1331728,
+          "nombre": "Adelfa Calvo"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mOKV46oz3rM0pHXrUiRrwsGIvrY.jpg",
+          "id": 3654,
+          "nombre": "Malena Gutiérrez"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sIrtL9uYojHzvE32mBPpziXlmQT.jpg",
+          "id": 3258938,
+          "nombre": "María Cerezuela"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ou2XHlMQaETXzRzm93lqFfLzKXZ.jpg",
+          "id": 2844026,
+          "nombre": "Belén Cruz"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/y8TEc4i2sdERhtXjYDTT5jnakiI.jpg",
+          "id": 2270206,
+          "nombre": "Xavi Sáez"
+        }
+      ],
+      "sesiones": [
+        [
+          "95122123236",
+          "2026-11-26",
+          "15:40",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122609&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-26",
+          "15:50",
+          "Castellano",
+          "Sala 1",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1099183/",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-26",
+          "16:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70151&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-26",
+          "16:00",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194693&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-26",
+          "18:20",
+          "Castellano",
+          "Sala 05",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142560&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-26",
+          "18:25",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122608&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-26",
+          "18:25",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189913&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-26",
+          "18:35",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194694&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-26",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118963&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-26",
+          "21:10",
+          "Castellano",
+          "Sala 06",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118964&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-26",
+          "21:30",
+          "Castellano",
+          "Sala 06",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122571&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-26",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194695&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-11-26",
+          "22:30",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222801&language=ESP",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-27",
+          "15:50",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098306/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-27",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194726&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-27",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189952&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-27",
+          "17:30",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142584&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-27",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122633&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-27",
+          "18:00",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098210/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-27",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194727&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-27",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119043&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-27",
+          "20:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70211&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-27",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194728&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-27",
+          "22:30",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098214/",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-28",
+          "15:50",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098310/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-28",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194810&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-28",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190033&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-28",
+          "17:30",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142616&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-28",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122704&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-28",
+          "18:00",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098218/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-28",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194811&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-28",
+          "20:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70222&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-11-28",
+          "20:00",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222897&language=ESP",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-28",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194809&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-28",
+          "22:30",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098222/",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-29",
+          "15:50",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098314/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-29",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194845&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-29",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190066&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-29",
+          "16:10",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142653&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-29",
+          "17:30",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142636&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-29",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122724&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-29",
+          "18:00",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098225/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-29",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194846&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-29",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119139&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-29",
+          "20:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70236&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-11-29",
+          "20:00",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222937&language=ESP",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-29",
+          "21:20",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142655&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-29",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194844&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-29",
+          "22:30",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098230/",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-30",
+          "15:50",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098318/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-30",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194890&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-11-30",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190094&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-30",
+          "16:10",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142662&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-30",
+          "17:30",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142668&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-30",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122741&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-30",
+          "18:00",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098233/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-30",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194891&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-30",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119162&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-11-30",
+          "20:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70249&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-11-30",
+          "20:00",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222965&language=ESP",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-11-30",
+          "21:20",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142664&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-11-30",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194889&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-11-30",
+          "22:30",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098238/",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-12-01",
+          "15:50",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098322/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-01",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194922&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-12-01",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190139&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-01",
+          "16:05",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142688&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-12-01",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122789&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-12-01",
+          "18:00",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098241/",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-12-01",
+          "18:20",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70260&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-01",
+          "18:30",
+          "Castellano",
+          "Sala 05",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142708&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-01",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194923&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-12-01",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119185&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-12-01",
+          "20:00",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223061&language=ESP",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-01",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194921&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-12-01",
+          "22:30",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098246/",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-12-02",
+          "15:50",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098326/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-02",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194957&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-02",
+          "16:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142709&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-12-02",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190170&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-02",
+          "17:30",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142714&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-12-02",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122814&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-12-02",
+          "18:00",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098250/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-02",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194958&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-12-02",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119206&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-12-02",
+          "20:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70271&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-12-02",
+          "20:00",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223026&language=ESP",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-02",
+          "21:20",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142710&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-02",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194956&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "2086161222",
+          "2026-12-02",
+          "22:30",
+          "Castellano",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098254/",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-03",
+          "15:50",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194990&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99400331613",
+          "2026-12-03",
+          "16:00",
+          "Castellano",
+          "Sala 10",
+          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190201&language=esp&theatre=29",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-03",
+          "16:10",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142739&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-03",
+          "17:30",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142745&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-12-03",
+          "17:50",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122828&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-03",
+          "18:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194991&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-12-03",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119231&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
+          "75990017485",
+          "2026-12-03",
+          "20:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70282&language=esp&theatre=28",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-12-03",
+          "20:00",
+          "Castellano",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222996&language=ESP",
+          null,
+          1
+        ],
+        [
+          "92086003023",
+          "2026-12-03",
+          "21:20",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142741&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "99400267342",
+          "2026-12-03",
+          "21:30",
+          "Castellano",
+          "Sala 12",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194989&language=esp&theatre=24",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "ca": "L’any 1974, l’Ana (Zoe Bonafonte) és una noia rebel de 19 anys, si més no, per la seva família benestant. Després d’escapar-se de casa una nit, el pare decideix posar-la en mans del \"Patronato de Protección a la Mujer\", institució especialitzada en 'dones caigudes o a punt de caure'. La traslladen de Barcelona a Madrid perquè ingressi en un reformatori regentat per monges, on queda sotmesa a un règim disciplinari brutal. Allà haurà de trobar la manera de sobreviure, buscant consol i suport en l’amistat amb la Sole (Manuela Calle), una noia de poble amb una vitalitat contagiosa, i amb altres noies que es troben en la mateixa situació",
+        "en": "In the mid-to-late 1970s, two young women from different social backgrounds meet inside the Patronato de Protección a la Mujer (Women’s Protection Board), a state-backed institution that confined thousands of women, many single mothers, in convents and boarding schools under the guise of moral 'reform'. Ana, a rebellious 19-year-old from Barcelona, is sent by her wealthy father to a Patronato facility overseen by the merciless Sister Socorro. Amid the harsh conditions, Ana forms a deep bond with Sole, a friendship tested by escape attempts, reprisals, and an ultimate sacrifice.",
+        "es": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación."
+      },
+      "titulo": "Ruega por nosotras",
+      "titulo_original": "Ruega por nosotras",
+      "tmdb": 1522071,
+      "trailer": "JYAoX8VqKw0"
+    },
+    {
+      "anio": 2026,
       "cartel": "https://image.tmdb.org/t/p/w500/g8JgLE6obZIf57O8nfBTSHHEQ27.jpg",
       "direccion": [
         {
@@ -18038,16 +19146,6 @@
         }
       ],
       "sesiones": [
-        [
-          "75990131879",
-          "2026-11-26",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222831&language=ESP",
-          null,
-          1
-        ],
         [
           "92086003023",
           "2026-11-26",
@@ -19059,1164 +20157,6 @@
     },
     {
       "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/6CWXhVFfin3zh1LZ5HsWnzTXTPN.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xfYLzdL5vJmMHz7faKyy80zY6xI.jpg",
-          "id": 74943,
-          "nombre": "Daniel Monzón",
-          "premios": [
-            {
-              "anio": 2010,
-              "premio": "Premio Goya a la mejor dirección",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premio Goya al mejor guion adaptado",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Medallas del Círculo de Escritores Cinematográficos",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2021,
-              "premio": "Medalla del Círculo de Escritores Cinematográficos al mejor guion adaptado",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Premio Goya al mejor guion adaptado",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premi Mestre Mateo a la millor direcció",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Premio del Cine Europeo al mejor guionista",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Premio Gaudí a la mejor dirección",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q3701686"
-        }
-      ],
-      "duracion": 136,
-      "estreno": "2026-11-06",
-      "fondo": "https://image.tmdb.org/t/p/w1280/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
-      "generos": [
-        "Drama"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xfYLzdL5vJmMHz7faKyy80zY6xI.jpg",
-          "id": 74943,
-          "nombre": "Daniel Monzón"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qYQR7mQVKtDe4ojUxaCEK83689q.jpg",
-          "id": 3788,
-          "nombre": "Jorge Guerricaechevarría"
-        }
-      ],
-      "id": "tmdb-1522071",
-      "idioma_original": "es",
-      "imdb": "tt37729109",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aYZZhbkZvOJ8aQUQSqMjnILmbK4.jpg",
-          "id": 14351,
-          "nombre": "Roque Baños"
-        }
-      ],
-      "paises": [
-        "ES",
-        "FR"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pwjNbRQP4GXVREfB96SuzHh2hqq.jpg",
-          "id": 3578018,
-          "nombre": "Zoe Bonafonte"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vevzhH6YvwBaZrCbbMhCSD3cQb7.jpg",
-          "id": 5594317,
-          "nombre": "Manuela Calle"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/L4IuSo5mhieqh2F7Ydm4PmLGd6.jpg",
-          "id": 3813575,
-          "nombre": "Carla Domínguez"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/hNjgPdRfRMmoxuZhKmhcZEThT4a.jpg",
-          "id": 4443627,
-          "nombre": "María Gandiaga"
-        },
-        {
-          "id": 3980931,
-          "nombre": "Shiara Fernández"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/uC6ZquT9cTTgZfJ1SLMTYZXrU1u.jpg",
-          "id": 1331728,
-          "nombre": "Adelfa Calvo"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/mOKV46oz3rM0pHXrUiRrwsGIvrY.jpg",
-          "id": 3654,
-          "nombre": "Malena Gutiérrez"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/sIrtL9uYojHzvE32mBPpziXlmQT.jpg",
-          "id": 3258938,
-          "nombre": "María Cerezuela"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ou2XHlMQaETXzRzm93lqFfLzKXZ.jpg",
-          "id": 2844026,
-          "nombre": "Belén Cruz"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/y8TEc4i2sdERhtXjYDTT5jnakiI.jpg",
-          "id": 2270206,
-          "nombre": "Xavi Sáez"
-        }
-      ],
-      "sesiones": [
-        [
-          "95122123236",
-          "2026-11-26",
-          "15:40",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122609&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-26",
-          "15:50",
-          "Castellano",
-          "Sala 1",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1099183/",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-11-26",
-          "16:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70151&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-26",
-          "16:00",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194693&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-26",
-          "18:20",
-          "Castellano",
-          "Sala 05",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142560&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-11-26",
-          "18:25",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122608&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-26",
-          "18:25",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189913&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-26",
-          "18:35",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194694&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-26",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118963&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-26",
-          "21:10",
-          "Castellano",
-          "Sala 06",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=118964&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-26",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194695&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-26",
-          "22:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222801&language=ESP",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-27",
-          "15:50",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098306/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-27",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194726&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-27",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=189952&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-27",
-          "17:30",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142584&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-11-27",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122633&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-27",
-          "18:00",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098210/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-27",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194727&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-27",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119043&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-11-27",
-          "20:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70211&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-27",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194728&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-27",
-          "22:30",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098214/",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-28",
-          "15:50",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098310/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-28",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194810&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-28",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190033&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-28",
-          "17:30",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142616&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-11-28",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122704&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-28",
-          "18:00",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098218/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-28",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194811&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-11-28",
-          "20:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70222&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-28",
-          "20:00",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222897&language=ESP",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-28",
-          "21:00",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119093&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-28",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194809&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-28",
-          "22:30",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098222/",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-29",
-          "15:50",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098314/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-29",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194845&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-29",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190066&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-29",
-          "16:10",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142653&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-29",
-          "17:30",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142636&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-11-29",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122724&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-29",
-          "18:00",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098225/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-29",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194846&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-29",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119139&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-11-29",
-          "20:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70236&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-29",
-          "20:00",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222937&language=ESP",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-29",
-          "21:20",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142655&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-29",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194844&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-29",
-          "22:30",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098230/",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-30",
-          "15:50",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098318/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-30",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194890&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-11-30",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190094&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-30",
-          "16:10",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142662&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-30",
-          "17:30",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142668&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-11-30",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122741&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-30",
-          "18:00",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098233/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-30",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194891&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-11-30",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119162&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-11-30",
-          "20:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70249&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-30",
-          "20:00",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222965&language=ESP",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-11-30",
-          "21:20",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142664&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-11-30",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194889&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-11-30",
-          "22:30",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098238/",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-12-01",
-          "15:50",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098322/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-01",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194922&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-12-01",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190139&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-01",
-          "16:05",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142688&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-12-01",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122789&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-12-01",
-          "18:00",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098241/",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-12-01",
-          "18:20",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70260&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-01",
-          "18:30",
-          "Castellano",
-          "Sala 05",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142708&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-01",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194923&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-12-01",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119185&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-12-01",
-          "20:00",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223061&language=ESP",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-01",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194921&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-12-01",
-          "22:30",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098246/",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-12-02",
-          "15:50",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098326/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-02",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194957&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-02",
-          "16:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142709&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-12-02",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190170&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-02",
-          "17:30",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142714&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-12-02",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122814&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-12-02",
-          "18:00",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098250/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-02",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194958&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-12-02",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119206&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-12-02",
-          "20:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70271&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-12-02",
-          "20:00",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223026&language=ESP",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-02",
-          "21:20",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142710&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-02",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194956&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "2086161222",
-          "2026-12-02",
-          "22:30",
-          "Castellano",
-          "Sala 6",
-          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/ruega-por-nosotras/1098254/",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-03",
-          "15:50",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194990&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99400331613",
-          "2026-12-03",
-          "16:00",
-          "Castellano",
-          "Sala 10",
-          "https://moobycinemas-balmes.admit-one.eu/?p=tickets&perfCode=190201&language=esp&theatre=29",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-03",
-          "16:10",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142739&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-03",
-          "17:30",
-          "Castellano",
-          "Sala 04",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142745&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "95122123236",
-          "2026-12-03",
-          "17:50",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122828&language=esp&theatre=25",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-03",
-          "18:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194991&language=esp&theatre=24",
-          null,
-          1
-        ],
-        [
-          "99217141611",
-          "2026-12-03",
-          "18:45",
-          "Castellano",
-          "Sala 03",
-          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119231&language=esp&theatre=26",
-          null,
-          1
-        ],
-        [
-          "75990017485",
-          "2026-12-03",
-          "20:00",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-aribau.admit-one.eu/?p=tickets&perfCode=70282&language=esp&theatre=28",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-12-03",
-          "20:00",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222996&language=ESP",
-          null,
-          1
-        ],
-        [
-          "92086003023",
-          "2026-12-03",
-          "21:20",
-          "Castellano",
-          "Sala 02",
-          "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142741&language=esp&theatre=27",
-          null,
-          1
-        ],
-        [
-          "99400267342",
-          "2026-12-03",
-          "21:30",
-          "Castellano",
-          "Sala 12",
-          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194989&language=esp&theatre=24",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "L’any 1974, l’Ana (Zoe Bonafonte) és una noia rebel de 19 anys, si més no, per la seva família benestant. Després d’escapar-se de casa una nit, el pare decideix posar-la en mans del \"Patronato de Protección a la Mujer\", institució especialitzada en 'dones caigudes o a punt de caure'. La traslladen de Barcelona a Madrid perquè ingressi en un reformatori regentat per monges, on queda sotmesa a un règim disciplinari brutal. Allà haurà de trobar la manera de sobreviure, buscant consol i suport en l’amistat amb la Sole (Manuela Calle), una noia de poble amb una vitalitat contagiosa, i amb altres noies que es troben en la mateixa situació",
-        "en": "In the mid-to-late 1970s, two young women from different social backgrounds meet inside the Patronato de Protección a la Mujer (Women’s Protection Board), a state-backed institution that confined thousands of women, many single mothers, in convents and boarding schools under the guise of moral 'reform'. Ana, a rebellious 19-year-old from Barcelona, is sent by her wealthy father to a Patronato facility overseen by the merciless Sister Socorro. Amid the harsh conditions, Ana forms a deep bond with Sole, a friendship tested by escape attempts, reprisals, and an ultimate sacrifice.",
-        "es": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación."
-      },
-      "titulo": "Ruega por nosotras",
-      "titulo_original": "Ruega por nosotras",
-      "tmdb": 1522071,
-      "trailer": "JYAoX8VqKw0"
-    },
-    {
-      "anio": 2026,
       "cartel": "https://image.tmdb.org/t/p/w500/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
       "direccion": [
         {
@@ -20446,6 +20386,16 @@
         }
       ],
       "sesiones": [
+        [
+          "95122123236",
+          "2026-11-26",
+          "15:45",
+          "Castellano",
+          "Sala 06",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122573&language=esp&theatre=25",
+          null,
+          1
+        ],
         [
           "99400267342",
           "2026-11-26",
@@ -31995,352 +31945,6 @@
       "trailer": "CnDnAhXprvc"
     },
     {
-      "anio": 1959,
-      "cartel": "https://image.tmdb.org/t/p/w500/rzOQHh5Utbr3x0UvKIbIU5pVA0f.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
-          "id": 2636,
-          "nombre": "Alfred Hitchcock",
-          "premios": [
-            {
-              "anio": 1979,
-              "premio": "Brunelleschi Lifetime Achievement Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1979,
-              "premio": "Comendador de la Orden del Imperio británico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1971,
-              "premio": "BAFTA Academy Fellowship Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1960,
-              "premio": "Premio Edgar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Oficial de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Globo de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Concha de Plata a la mejor dirección",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Saturn",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1971,
-              "premio": "Premio Cecil B. DeMille",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1967,
-              "premio": "Premio en memoria de Irving Thalberg",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1961,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1955,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1946,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1945,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1941,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q7374"
-        }
-      ],
-      "duracion": 136,
-      "edad": "A",
-      "estreno": "1959-08-06",
-      "fondo": "https://image.tmdb.org/t/p/w1280/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
-      "generos": [
-        "Suspense",
-        "Aventura"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qcuk9wYicbrMx431GL3hUZU7602.jpg",
-          "id": 2637,
-          "nombre": "Ernest Lehman"
-        }
-      ],
-      "id": "tmdb-213",
-      "idioma_original": "en",
-      "imdb": "tt0053125",
-      "lema": "Es un juego mortal de 'etiqueta' y Cary Grant es 'eso' ...",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vpIPFhUpHBqDrbgbnaQnDCYekDI.jpg",
-          "id": 1045,
-          "nombre": "Bernard Herrmann"
-        }
-      ],
-      "nota": 8.0,
-      "paises": [
-        "US"
-      ],
-      "premios": [
-        {
-          "anio": null,
-          "premio": "National Board of Review a las 10 Películas más Destacadas",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 1960,
-          "premio": "Óscar al mejor montaje",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 1960,
-          "premio": "Óscar al mejor guion original",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 1960,
-          "premio": "Oscar a la millor direcció artística, color",
-          "tipo": "nominado"
-        }
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/lcNAirMFcyM7WIiCmaabjbNZVOJ.jpg",
-          "id": 2638,
-          "nombre": "Cary Grant",
-          "papel": "Roger Thornhill",
-          "premios": [
-            {
-              "anio": 1969,
-              "premio": "Óscar honorífico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1960,
-              "premio": "David de Donatello al mejor actor extranjero",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1981,
-              "premio": "Premio Kennedy Center Honors",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1970,
-              "premio": "Premios Óscar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1942,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1945,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q83410"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/nJgTHDaCA3yl8vDu3nP8S6qjhIx.jpg",
-          "id": 2639,
-          "nombre": "Eva Marie Saint",
-          "papel": "Eve Kendall",
-          "premios": [
-            {
-              "anio": 1955,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1954,
-              "premio": "Theatre World Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1990,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Miniserie o telefilme",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1960,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Caballero de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1955,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q228928"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vCABivuMBCT78sh5G0q8jO5rkT.jpg",
-          "id": 2091,
-          "nombre": "James Mason",
-          "papel": "Phillip Vandamm",
-          "premios": [
-            {
-              "anio": 1954,
-              "premio": "Globo de Oro al mejor actor - Comedia o musical",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1967,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1983,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1955,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q209186"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9asCKCafalR0382PpkHZs5Lv8hK.jpg",
-          "id": 2640,
-          "nombre": "Jessie Royce Landis",
-          "papel": "Clara Thornhill",
-          "premios": [],
-          "wikidata": "Q541270"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/56ND35pQZetw5xpagHDKFZjMeuE.jpg",
-          "id": 2642,
-          "nombre": "Leo G. Carroll",
-          "papel": "Professor"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pnmYpAfJOhwMlan3YQRo9FKb6ZS.jpg",
-          "id": 2643,
-          "nombre": "Josephine Hutchinson",
-          "papel": "Mrs. Townsend"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aXZksHM7t7AzMxWCnGvRs05F0PK.jpg",
-          "id": 2644,
-          "nombre": "Philip Ober",
-          "papel": "Lester Townsend"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/dznOAZPpAyXu7PfCz5obbJ2YzsJ.jpg",
-          "id": 2641,
-          "nombre": "Martin Landau",
-          "papel": "Leonard"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/rZju92r8uMvLW31dFPgZ21nnT0N.jpg",
-          "id": 2645,
-          "nombre": "Adam Williams",
-          "papel": "Valerian"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/uVl1ZzKXkvJSTHVYyfNriMV8BNV.jpg",
-          "id": 2646,
-          "nombre": "Edward Platt",
-          "papel": "Victor Larrabee"
-        }
-      ],
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-26",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222833&language=ESP",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-26",
-          "20:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=221985&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "A causa d'un malentès, Roger O. Thornhill, un executiu del món de la publicitat, uns espies el confonen amb un agent del govern anomenat George Kaplan. Segrestat per tres individus i portat a una mansió on és interrogat, aconsegueix fugir abans que el matin. Quan l'endemà torna a casa acompanyat de la policia, no hi ha rastre de les persones que havia descrit.",
-        "en": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
-        "es": "Debido a un malentendido, a Roger O. Thornhill, un ejecutivo del mundo de la publicidad, unos espías lo confunden con un agente del gobierno llamado George Kaplan. Secuestrado por tres individuos y llevado a una mansión en la que es interrogado, consigue huir antes de que lo maten. Cuando al día siguiente regresa a la casa acompañado de la policía, no hay rastro de las personas que había descrito."
-      },
-      "titulo": "Con la muerte en los talones",
-      "titulo_ca": "Perseguit per la mort",
-      "titulo_original": "North by Northwest",
-      "tmdb": 213,
-      "trailer": "cPNiwc3ogIo"
-    },
-    {
       "anio": 1994,
       "cartel": "https://image.tmdb.org/t/p/w500/krMt3ttiOFrjKC1P8GPjUMp1jZk.jpg",
       "direccion": [
@@ -33091,6 +32695,151 @@
       "titulo_original": "L'Olívia i el terratrèmol invisible",
       "tmdb": 676679,
       "trailer": "KLQTF6aHq2M"
+    },
+    {
+      "anio": 2025,
+      "cartel": "https://image.tmdb.org/t/p/w500/yjIJHYc3jkpP9lIJvRsxWxTbzlo.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/utpCF1ITG4NYQ1LeclQOPR7m6ql.jpg",
+          "id": 1572397,
+          "nombre": "Damiano Michieletto"
+        }
+      ],
+      "duracion": 111,
+      "estreno": "2025-12-04",
+      "fondo": "https://image.tmdb.org/t/p/w1280/hVQbT0JTPSFvmmSE6vASWSOCTAY.jpg",
+      "generos": [
+        "Historia",
+        "Drama",
+        "Música"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qXmhOHLsE0AqyDb2UYayJVeIi6i.jpg",
+          "id": 128219,
+          "nombre": "Ludovica Rampoldi"
+        },
+        {
+          "id": 2641885,
+          "nombre": "Tiziano Scarpa"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/utpCF1ITG4NYQ1LeclQOPR7m6ql.jpg",
+          "id": 1572397,
+          "nombre": "Damiano Michieletto"
+        }
+      ],
+      "id": "tmdb-1365683",
+      "idioma_original": "it",
+      "imdb": "tt33586629",
+      "nota": 7.0,
+      "paises": [
+        "FR",
+        "IT"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/kMN9VjbZrlNEFWpSGJyD9GnemVm.jpg",
+          "id": 2865221,
+          "nombre": "Tecla Insolia",
+          "papel": "Cecilia"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9ipWrqJVYjZk0c2j2yDAEKZd2Fu.jpg",
+          "id": 124754,
+          "nombre": "Michele Riondino",
+          "papel": "Antonio Vivaldi",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "David de Donatello al mejor actor protagonista",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q3856776"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mFNZkGc0TgbfRbkRBWBH5ieVFW4.jpg",
+          "id": 1878444,
+          "nombre": "Andrea Pennacchi",
+          "papel": "Governatore",
+          "premios": [],
+          "wikidata": "Q95745952"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zBjLm24LOdAA2PnRdryvgUefcxN.jpg",
+          "id": 67174,
+          "nombre": "Fabrizia Sacchi",
+          "papel": "Priora",
+          "premios": [],
+          "wikidata": "Q3063990"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9IkooHYNyYWa3QovLLLobo6UUdx.jpg",
+          "id": 3118209,
+          "nombre": "Hildegard De Stefano",
+          "papel": "Laura"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rrnKiMvzgqP39nDaQ5vJaEicOBW.jpg",
+          "id": 3769537,
+          "nombre": "Cosima Centurioni",
+          "papel": "Marietta"
+        },
+        {
+          "id": 2922115,
+          "nombre": "Federica Girardello",
+          "papel": "Agnese"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/83EIV1Qnyj1ytGdCfDZ9WT2t2OE.jpg",
+          "id": 3624690,
+          "nombre": "Rebecca Antonaci",
+          "papel": "Caterina"
+        },
+        {
+          "id": 5922766,
+          "nombre": "Chiara Sacco",
+          "papel": "Maddalena"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xLN90LlPJDVIzoIxDEwn8ZHFpCS.jpg",
+          "id": 1345654,
+          "nombre": "Miko Jarry",
+          "papel": "Frederick IV of Denmark"
+        }
+      ],
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-12-01",
+          "11:30",
+          "VOSE",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223119&language=ESP",
+          null,
+          1
+        ],
+        [
+          "75990131879",
+          "2026-12-01",
+          "20:30",
+          "VOSE",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223120&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "en": "A talented violinist, Cecilia, confined in an orphanage, meets Vivaldi who becomes her teacher. Under his mentorship and through his music, she gains courage to break free from the life she was destined for and pursue her passion.",
+        "es": "Venecia, siglo XVIII. Cecilia es una virtuosa del violín de 20 años que permanece confinada en el Hospicio de la Pietà. Su única escapatoria parece ser el matrimonio. Sin embargo, su vida cambia cuando Antonio Vivaldi, un compositor brillante y ambicioso, llega como nuevo profesor de violín. Bajo su tutela y a través de su música, Cecilia encuentra la fuerza para desafiar el destino que antes parecía inevitable."
+      },
+      "titulo": "Primavera",
+      "titulo_original": "Primavera",
+      "tmdb": 1365683,
+      "trailer": "D3iiufsSf_o"
     },
     {
       "anio": 2026,
@@ -34880,6 +34629,342 @@
       "trailer": "tKtg0S1rm2M"
     },
     {
+      "anio": 1959,
+      "cartel": "https://image.tmdb.org/t/p/w500/rzOQHh5Utbr3x0UvKIbIU5pVA0f.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
+          "id": 2636,
+          "nombre": "Alfred Hitchcock",
+          "premios": [
+            {
+              "anio": 1979,
+              "premio": "Brunelleschi Lifetime Achievement Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1979,
+              "premio": "Comendador de la Orden del Imperio británico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1971,
+              "premio": "BAFTA Academy Fellowship Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1960,
+              "premio": "Premio Edgar",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Oficial de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Globo de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premio Concha de Plata a la mejor dirección",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Saturn",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1971,
+              "premio": "Premio Cecil B. DeMille",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1967,
+              "premio": "Premio en memoria de Irving Thalberg",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1961,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1955,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1946,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1945,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1941,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q7374"
+        }
+      ],
+      "duracion": 136,
+      "edad": "A",
+      "estreno": "1959-08-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
+      "generos": [
+        "Suspense",
+        "Aventura"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qcuk9wYicbrMx431GL3hUZU7602.jpg",
+          "id": 2637,
+          "nombre": "Ernest Lehman"
+        }
+      ],
+      "id": "tmdb-213",
+      "idioma_original": "en",
+      "imdb": "tt0053125",
+      "lema": "Es un juego mortal de 'etiqueta' y Cary Grant es 'eso' ...",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vpIPFhUpHBqDrbgbnaQnDCYekDI.jpg",
+          "id": 1045,
+          "nombre": "Bernard Herrmann"
+        }
+      ],
+      "nota": 8.0,
+      "paises": [
+        "US"
+      ],
+      "premios": [
+        {
+          "anio": null,
+          "premio": "National Board of Review a las 10 Películas más Destacadas",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 1960,
+          "premio": "Óscar al mejor montaje",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 1960,
+          "premio": "Óscar al mejor guion original",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 1960,
+          "premio": "Oscar a la millor direcció artística, color",
+          "tipo": "nominado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lcNAirMFcyM7WIiCmaabjbNZVOJ.jpg",
+          "id": 2638,
+          "nombre": "Cary Grant",
+          "papel": "Roger Thornhill",
+          "premios": [
+            {
+              "anio": 1969,
+              "premio": "Óscar honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1960,
+              "premio": "David de Donatello al mejor actor extranjero",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1981,
+              "premio": "Premio Kennedy Center Honors",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1970,
+              "premio": "Premios Óscar",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1942,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1945,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q83410"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nJgTHDaCA3yl8vDu3nP8S6qjhIx.jpg",
+          "id": 2639,
+          "nombre": "Eva Marie Saint",
+          "papel": "Eve Kendall",
+          "premios": [
+            {
+              "anio": 1955,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1954,
+              "premio": "Theatre World Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1990,
+              "premio": "Primetime Emmy a la mejor actriz de reparto - Miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1960,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Caballero de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1955,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q228928"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vCABivuMBCT78sh5G0q8jO5rkT.jpg",
+          "id": 2091,
+          "nombre": "James Mason",
+          "papel": "Phillip Vandamm",
+          "premios": [
+            {
+              "anio": 1954,
+              "premio": "Globo de Oro al mejor actor - Comedia o musical",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1967,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1983,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1955,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q209186"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9asCKCafalR0382PpkHZs5Lv8hK.jpg",
+          "id": 2640,
+          "nombre": "Jessie Royce Landis",
+          "papel": "Clara Thornhill",
+          "premios": [],
+          "wikidata": "Q541270"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/56ND35pQZetw5xpagHDKFZjMeuE.jpg",
+          "id": 2642,
+          "nombre": "Leo G. Carroll",
+          "papel": "Professor"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pnmYpAfJOhwMlan3YQRo9FKb6ZS.jpg",
+          "id": 2643,
+          "nombre": "Josephine Hutchinson",
+          "papel": "Mrs. Townsend"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/aXZksHM7t7AzMxWCnGvRs05F0PK.jpg",
+          "id": 2644,
+          "nombre": "Philip Ober",
+          "papel": "Lester Townsend"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dznOAZPpAyXu7PfCz5obbJ2YzsJ.jpg",
+          "id": 2641,
+          "nombre": "Martin Landau",
+          "papel": "Leonard"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rZju92r8uMvLW31dFPgZ21nnT0N.jpg",
+          "id": 2645,
+          "nombre": "Adam Williams",
+          "papel": "Valerian"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/uVl1ZzKXkvJSTHVYyfNriMV8BNV.jpg",
+          "id": 2646,
+          "nombre": "Edward Platt",
+          "papel": "Victor Larrabee"
+        }
+      ],
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-11-26",
+          "20:30",
+          "VOSE",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=221985&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "ca": "A causa d'un malentès, Roger O. Thornhill, un executiu del món de la publicitat, uns espies el confonen amb un agent del govern anomenat George Kaplan. Segrestat per tres individus i portat a una mansió on és interrogat, aconsegueix fugir abans que el matin. Quan l'endemà torna a casa acompanyat de la policia, no hi ha rastre de les persones que havia descrit.",
+        "en": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "es": "Debido a un malentendido, a Roger O. Thornhill, un ejecutivo del mundo de la publicidad, unos espías lo confunden con un agente del gobierno llamado George Kaplan. Secuestrado por tres individuos y llevado a una mansión en la que es interrogado, consigue huir antes de que lo maten. Cuando al día siguiente regresa a la casa acompañado de la policía, no hay rastro de las personas que había descrito."
+      },
+      "titulo": "Con la muerte en los talones",
+      "titulo_ca": "Perseguit per la mort",
+      "titulo_original": "North by Northwest",
+      "tmdb": 213,
+      "trailer": "cPNiwc3ogIo"
+    },
+    {
       "agenda": "open_data_bcn:99400773565",
       "gratis": true,
       "id": "p-t-curtmetratges-contra-l-edatisme",
@@ -35243,6 +35328,337 @@
       "titulo_original": "Dune",
       "tmdb": 841,
       "trailer": "mtLd5CWuwbo"
+    },
+    {
+      "anio": 2024,
+      "cartel": "https://image.tmdb.org/t/p/w500/gzdhZFz3gUTu5MneQZYozmbKsLf.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
+          "id": 1152634,
+          "nombre": "Marcel Barrena",
+          "premios": [],
+          "wikidata": "Q1592579"
+        }
+      ],
+      "duracion": 110,
+      "edad": "7",
+      "estreno": "2024-09-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/tZdhMgbN7R1zDMAZ0zSFxxnClcM.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eyfiuD3kDOfShAg6hCgQjUV071B.jpg",
+          "id": 1152634,
+          "nombre": "Marcel Barrena"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/f5HQElD4y1YYE9Oblwib2DIh1sm.jpg",
+          "id": 54528,
+          "nombre": "Alberto Marini"
+        }
+      ],
+      "id": "tmdb-1174481",
+      "idioma_original": "ca",
+      "imdb": "tt27751957",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eWcoXDt1VwcXjSckMWcPePfq9ka.jpg",
+          "id": 1119139,
+          "nombre": "Arnau Bataller"
+        }
+      ],
+      "nota": 7.4,
+      "paises": [
+        "ES"
+      ],
+      "premios": [
+        {
+          "anio": 2025,
+          "premio": "Gaudí a la millor pel·lícula",
+          "tipo": "ganado"
+        },
+        {
+          "anio": null,
+          "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+          "tipo": "ganado"
+        },
+        {
+          "anio": null,
+          "premio": "Premio Gaudí al mejor actor secundario",
+          "tipo": "ganado"
+        },
+        {
+          "anio": null,
+          "premio": "Premio Gaudí a la mejor dirección",
+          "tipo": "nominado"
+        },
+        {
+          "anio": null,
+          "premio": "Premio Gaudí al mejor actor",
+          "tipo": "nominado"
+        },
+        {
+          "anio": null,
+          "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+          "tipo": "nominado"
+        },
+        {
+          "anio": null,
+          "premio": "Premio Gaudí al mejor actor secundario",
+          "tipo": "nominado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1oBOegVHnzjNAU3PFsulfYApEb8.jpg",
+          "id": 87015,
+          "nombre": "Eduard Fernández",
+          "papel": "Manolo Vital",
+          "premios": [
+            {
+              "anio": 2011,
+              "premio": "Premio Gaudí al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Premio Gaudí al mejor actor secundario",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Premio Gaudí al mejor actor secundario",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio Goya a la mejor interpretación masculina protagonista",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2003,
+              "premio": "Premio Goya a la mejor interpretación masculina de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premio Concha de Plata al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio al mejor actor del Festival de Cine de Sitges",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Cruz de San Jorge",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Premio Nacional de Cinematografía",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Premio Gaudí al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Premio Gaudí al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premio Gaudí al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premio Feroz al mejor actor protagonista de una película",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2021,
+              "premio": "Medalla del Círculo de Escritores Cinematográficos al mejor actor protagonista del año",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premi Forqué a la millor interpretació masculina",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Premio Goya a la mejor interpretación masculina protagonista",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q1224788"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg",
+          "id": 33410,
+          "nombre": "Clara Segura",
+          "papel": "Carmen",
+          "premios": [
+            {
+              "anio": 2010,
+              "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premio Nacional de Cultura de Cataluña",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2005,
+              "premio": "Premio Memorial Margarita Xirgu",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Premi Butaca a la millor actriu teatral",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Premi Butaca a la millor actriu teatral",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2003,
+              "premio": "Premio Butaca a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Premio Ciudad de Barcelona",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Premi Butaca a la millor actriu teatral",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Premi Butaca a la millor actriu teatral",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Cruz de San Jorge",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Premio Goya a la mejor interpretación femenina de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premio Gaudi a La Mejor Actriz Secundaria",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q8346586"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pwjNbRQP4GXVREfB96SuzHh2hqq.jpg",
+          "id": 3578018,
+          "nombre": "Zoe Bonafonte",
+          "papel": "Joana"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/v3R6t0PyZ8Aqa4KZ6RC3h4xZryX.jpg",
+          "id": 1413918,
+          "nombre": "Salva Reina",
+          "papel": "Felipín",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Premio Goya a la mejor interpretación masculina de reparto",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q20021106"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/w0X8DGeLyY9L1VbDaWw2jcEpjai.jpg",
+          "id": 2020259,
+          "nombre": "Óscar de la Fuente",
+          "papel": "Antonio"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6TreWuZXVK9qYoHC0qLSbnHA1e0.jpg",
+          "id": 1149067,
+          "nombre": "David Verdaguer",
+          "papel": "Serra"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/he5a5qQV3ZydOpTiBGb4HCrc8Z6.jpg",
+          "id": 1261476,
+          "nombre": "Carlos Cuevas",
+          "papel": "Pasqual"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oLrguHu0Er29T8QyhZ2R0mCGSQ0.jpg",
+          "id": 1621789,
+          "nombre": "Betsy Túrnez",
+          "papel": "Aurora"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wFNhG5zX9qsoCCo9QEdkGuxjN7m.jpg",
+          "id": 2480558,
+          "nombre": "Maria Morera Colomer",
+          "papel": "Mar"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jWPoPWtcDDYNBA7RJjUZ1CnfgZ4.jpg",
+          "id": 1373422,
+          "nombre": "Aimar Vega",
+          "papel": "Josep"
+        }
+      ],
+      "sesiones": [
+        [
+          "2086161222",
+          "2026-11-26",
+          "11:00",
+          "VOSE",
+          "Sala 6",
+          "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/el-47/1099196/",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "ca": "Inspirat en la història real de Manolo Vital, un conductor d'autobús que va ajudar a crear la Barcelona moderna durant el boom de la ciutat dels anys setanta. El 1978, a Barcelona, el conductor d’autobús Manolo Vital es va apoderar del bus de la línia 47 per desmuntar una mentida que l’Ajuntament s’entestava a repetir: que els autobusos no podien pujar els carrers del barri de Torre Baró. Un acte de dissidència pacífica emmarcat en els moviments veïnals de base que van transformar la ciutat i van canviar la imatge dels seus suburbis per sempre.",
+        "en": "Based on a true story, in late 1970s Barcelona, Manolo Vital, a bus driver, takes bold action to protest the neglect of Torre Baró, an immigrant neighborhood. His act becomes a symbol of resistance against systemic inequality during a pivotal moment in the city’s modern transformation.",
+        "es": "Un acto de disidencia pacífica y el movimiento vecinal de base en 1978 transformó Barcelona y cambió la imagen de sus suburbios para siempre. Manolo Vital, un conductor de autobús que se adueñó del bus de la línea 47 para desmontar una mentira que el Ayuntamiento se empeñaba en repetir: los autobuses no podían subir las cuestas del distrito de Torre Baró. Un acto de rebeldía que demostró ser un catalizador para el cambio, de que las personas se enorgullecen de sus raíces, de una lucha del vecindario, de la clase trabajadora que ayudó a crear la Barcelona moderna de los años setenta."
+      },
+      "titulo": "El 47",
+      "titulo_ca": "El 47",
+      "titulo_original": "El 47",
+      "tmdb": 1174481,
+      "trailer": "PctPdv7LiuE"
     },
     {
       "id": "p-tt116868",
@@ -38396,116 +38812,6 @@
         "ca": "El Petit Pantalla és una proposta de cinema familiar que forma part de Barcelona Districte Cultural. Es tracta d'una cita mensual per apropar el cinema als més petits a través de pel·lícules d'animació presentades per un personatge molt especial.\nConsulteu la programació detallada a la nostra pàgina web."
       },
       "titulo": "Petit Pantalla"
-    },
-    {
-      "anio": 2026,
-      "cartel": "https://image.tmdb.org/t/p/w500/vuY2A58jHTA0VMU2y5rYr6Vttp3.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/r9HkbQd8d1z3ZB9FbbxGQPjqrhn.jpg",
-          "id": 2524429,
-          "nombre": "Isabel Fernández"
-        }
-      ],
-      "duracion": 103,
-      "fondo": "https://image.tmdb.org/t/p/w1280/6axoLZGcb5buDjgpVV9R7ISlMMw.jpg",
-      "generos": [
-        "Documental",
-        "Historia"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/r9HkbQd8d1z3ZB9FbbxGQPjqrhn.jpg",
-          "id": 2524429,
-          "nombre": "Isabel Fernández"
-        },
-        {
-          "id": 1852397,
-          "nombre": "Margarita Melgar"
-        }
-      ],
-      "id": "tmdb-1658291",
-      "idioma_original": "es",
-      "imdb": "tt41046922",
-      "musica": [
-        {
-          "id": 5380700,
-          "nombre": "Belén Doreste Álvarez"
-        }
-      ],
-      "paises": [
-        "ES"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/7Gm2h0ApsorCUJhUA8gUtxrWzMd.jpg",
-          "id": 67262,
-          "nombre": "Mónica López",
-          "papel": "Narradora (voice)",
-          "premios": [
-            {
-              "anio": 2016,
-              "premio": "Premio Memorial Margarita Xirgu",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Premio Butaca a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio Butaca a la mejor actriz de cine catalán",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio Barcelona a la mejor actriz",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio a la mejor actriz del Festival de Cine de Sitges",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premios Ercilla",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premios Ondas",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premio Mestre Mateo a la Mejor actriz protagonista",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q9048215"
-        }
-      ],
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-26",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222544&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "en": "A 1967 letter to writer Ramón J. Sender is where this documentary begins, tracing Carmen Laforet, author of Nada. Through unpublished letters and archive material, the writer is rebuilt from her Gran Canaria childhood, and her silence starts to speak.",
-        "es": "Con solo 23 años, Carmen Laforet revolucionó la literatura española con su novela “Nada”. Su talento natural prometía una larga trayectoria llena de éxitos, pero no fue así: escribió poco y fue cayendo en el silencio… O esa es la historia que nos han contado. Sin embargo, los textos de la autora revelan otra verdad muy distinta: la de una mujer libre, original, rebelde, que no cedió a los dictados de nadie. Esta vez Carmen Laforet (Mónica López) toma la palabra y nos sumerge en el mundo de una escritora única, luchando por su libertad. Su historia es la de todas las mujeres que intentan salirse del guión."
-      },
-      "titulo": "Por qué no escribo nada",
-      "titulo_original": "Por qué no escribo nada",
-      "tmdb": 1658291
     },
     {
       "agenda": "open_data_bcn:99400682417",
