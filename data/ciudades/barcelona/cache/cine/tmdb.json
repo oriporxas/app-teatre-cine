@@ -873,6 +873,10 @@
     },
     "fecha": "2026-11-18"
   },
+  "it:curtmetratges contra l edatisme": {
+    "datos": null,
+    "fecha": "2026-11-26"
+  },
   "it:dart": {
     "datos": null,
     "fecha": "2026-11-17"
@@ -1215,6 +1219,10 @@
       "wikidata": "Q138940004"
     },
     "fecha": "2026-11-17"
+  },
+  "it:el gran nadal dels animals": {
+    "datos": null,
+    "fecha": "2026-11-26"
   },
   "it:el mal padre:bueso": {
     "datos": {
@@ -2614,6 +2622,85 @@
     "datos": null,
     "fecha": "2026-11-17"
   },
+  "it:la pieta": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/tiAHeGxOLLeXqNTRvd47WBVvYHG.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2lKXLzJp2VC8bAw8KuuVcgOpuxU.jpg",
+          "id": 2203960,
+          "nombre": "Rafa Molés"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zoMw8PpfPiZNrqgQAL8w7UVNpWh.jpg",
+          "id": 2203959,
+          "nombre": "Pepe Andreu"
+        }
+      ],
+      "duracion": 82,
+      "edad": null,
+      "estreno": "2026-03-13",
+      "fondo": "https://image.tmdb.org/t/p/w1280/rPbH1X2ZuDLCgSY0woa9EoYSX1y.jpg",
+      "generos": [
+        "Documental"
+      ],
+      "guion": [
+        {
+          "id": 6060987,
+          "nombre": "Ólafur Rögnavaldsson"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oIZZkntuWV2YhAWOW1XAUFUxEfF.jpg",
+          "id": 550068,
+          "nombre": "Arūnas Matelis"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zoMw8PpfPiZNrqgQAL8w7UVNpWh.jpg",
+          "id": 2203959,
+          "nombre": "Pepe Andreu"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2lKXLzJp2VC8bAw8KuuVcgOpuxU.jpg",
+          "id": 2203960,
+          "nombre": "Rafa Molés"
+        }
+      ],
+      "idioma_original": "is",
+      "imdb": "tt40150394",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "ES",
+        "IS",
+        "LT"
+      ],
+      "reparto": [
+        {
+          "id": 1056199,
+          "nombre": "Ragnar Axelsson",
+          "papel": "Himself"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/m7pllSNc0HRorwZmT6flaR3LdRE.jpg",
+          "id": 55584,
+          "nombre": "Ingvar E. Sigurðsson",
+          "papel": "Voiceover"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Fa més d'un segle, Flosi Björnsson i els seus germans es van aïllar als peus de la major glacera d'Islàndia. Cap es va casar ni va tenir fills; van dedicar les seves vides a la glacera abans que ningú parlés del seu desglaç. La seva granja va romandre segellada fins ara. El fotògraf Ragnar Axelsson torna i invoca la veu de Flosi, que atreu a pelegrins. La glacera canta un rèquiem, embolicat en un sudari blanc",
+        "en": "At the foot of Europe’s largest glacier, seven Icelandic siblings once lived in deliberate isolation, dedicating their lives to observing ice and nature long before climate change had a name. Their abandoned farmhouse becomes a living archive, animated by photographs, objects, and a 16mm film that restores gestures, spaces, and a vanished way of being in the world."
+      },
+      "titulo": "La Pietà",
+      "titulo_ca": null,
+      "titulo_original": "La Pietà",
+      "tmdb": 1648662,
+      "trailer": "5nuxE6m1FGQ",
+      "wikidata": "Q139784875"
+    },
+    "fecha": "2026-11-26"
+  },
   "it:la violinista:garcia": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/eS83uVLN6OAH5ZLrUPyoWDVXI2b.jpg",
@@ -2720,6 +2807,109 @@
       "wikidata": "Q140319866"
     },
     "fecha": "2026-11-17"
+  },
+  "it:liuben": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/zYo0VTQDKntlYEOHqFvsQ86sF2c.jpg",
+      "direccion": [
+        {
+          "id": 2192826,
+          "nombre": "Venci Kostov"
+        }
+      ],
+      "duracion": 109,
+      "edad": null,
+      "estreno": "2024-03-28",
+      "fondo": "https://image.tmdb.org/t/p/w1280/2drwCOu9zfV7iTXdlpuUz2ORsy5.jpg",
+      "generos": [
+        "Romance",
+        "Drama"
+      ],
+      "guion": [
+        {
+          "id": 2192826,
+          "nombre": "Venci Kostov"
+        }
+      ],
+      "idioma_original": "bg",
+      "imdb": "tt14734810",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "BG",
+        "ES"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vOKQgOuntuDqo2G8Nof3jU33wQk.jpg",
+          "id": 1710188,
+          "nombre": "Dimitar Nikolov",
+          "papel": "Victor"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3E8cTEgfkFQasDWppQ1awCuHuS6.jpg",
+          "id": 4039084,
+          "nombre": "Bojidar Iankov Asenov",
+          "papel": "Liuben"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7vcZksEbJ8Nwzm5k0wXdtmcoIHG.jpg",
+          "id": 1614488,
+          "nombre": "Димитър Баненкин",
+          "papel": "Kaloyán"
+        },
+        {
+          "id": 4039088,
+          "nombre": "Stoyan Radev",
+          "papel": "Milen"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/367MTgtoDfUYXZCaSB2l7axPGHV.jpg",
+          "id": 1268453,
+          "nombre": "Стефан Денолюбов",
+          "papel": "Dimitar"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/A4rhAimrDiTfTVsXNqiJ2clVpx4.jpg",
+          "id": 961,
+          "nombre": "Antonia San Juan",
+          "papel": "Ralitsa"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/huvyWwyEUzWMNm6fBwrE9F4R1Vq.jpg",
+          "id": 1043904,
+          "nombre": "Ramón Esquinas",
+          "papel": "José"
+        },
+        {
+          "id": 4632997,
+          "nombre": "Ivan Matev",
+          "papel": "Milko"
+        },
+        {
+          "id": 4633000,
+          "nombre": "Nadyara Dimcheva",
+          "papel": "Iliyana"
+        },
+        {
+          "id": 4633001,
+          "nombre": "Velizar Iliev",
+          "papel": "Fazan"
+        }
+      ],
+      "sinopsis": {
+        "en": "Victor has a nice life in Madrid with his partner, José. However, after returning to his childhood home in the mountains of Bulgaria for his grandfather's funeral, he decides to stay for the summer. While reconnecting with his father and the village way of life, he unexpectedly finds love in the form of Liuben, an 18-year-old Roma boy. Despite their differences, and the conflicts surrounding them, Victor and Liuben find refuge in each other, while a romance begins to take form.",
+        "es": "Víctor, un joven criado en Málaga, decide regresar a su pueblo de Bulgaria durante las vacaciones de verano. En su viaje, conoce a Liuben, un adolescente huérfano de etnia gitana que se gana la vida vendiendo frutas junto a una carretera."
+      },
+      "titulo": "Liuben",
+      "titulo_ca": null,
+      "titulo_original": "Любен",
+      "tmdb": 1120607,
+      "trailer": "K_o2hYTU7gU",
+      "wikidata": "Q123046794"
+    },
+    "fecha": "2026-11-26"
   },
   "it:llueve sobre babel:sol": {
     "datos": {
@@ -3492,6 +3682,10 @@
   "it:numakage public pool:ota": {
     "datos": null,
     "fecha": "2026-11-17"
+  },
+  "it:palestinian vibes": {
+    "datos": null,
+    "fecha": "2026-11-26"
   },
   "it:peixet el petit aventurer": {
     "datos": null,
@@ -5995,6 +6189,134 @@
       "wikidata": "Q272608"
     },
     "fecha": "2026-11-17"
+  },
+  "itt0947798": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/dZucAEc4JNsO6z4fvvunXgLe3b8.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tOjz8mVI2HeQBvU6KNjIExMBsXL.jpg",
+          "id": 6431,
+          "nombre": "Darren Aronofsky"
+        }
+      ],
+      "duracion": 108,
+      "edad": "12",
+      "estreno": "2010-12-03",
+      "fondo": "https://image.tmdb.org/t/p/w1280/eDLp4uFdqP1gpy9oMrutwH6Q64I.jpg",
+      "generos": [
+        "Drama",
+        "Suspense",
+        "Terror"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4tpNoTMWjV2WAIYMpvmI8KryNY2.jpg",
+          "id": 143258,
+          "nombre": "Mark Heyman"
+        },
+        {
+          "id": 143259,
+          "nombre": "Andres Heinz"
+        },
+        {
+          "id": 1054633,
+          "nombre": "John J. McLaughlin"
+        },
+        {
+          "id": 143259,
+          "nombre": "Andres Heinz"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt0947798",
+      "lema": "En la era de la marca personal, la posibilidad más temible, es que alguien sea mejor en ser tú de lo que tú eres.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vAEGuBFwW7ZYczJcm4GAf09Clmo.jpg",
+          "id": 6377,
+          "nombre": "Clint Mansell"
+        }
+      ],
+      "nota_tmdb": 7.7,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
+          "id": 524,
+          "nombre": "Natalie Portman",
+          "papel": "Nina Sayers / The Swan Queen"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cJAHQWX9hVadDFx5WTSBIW0VjvP.jpg",
+          "id": 18973,
+          "nombre": "Mila Kunis",
+          "papel": "Lily / The Black Swan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/KxzpJXyzVnqfouInWLypAND0gL.jpg",
+          "id": 1925,
+          "nombre": "Vincent Cassel",
+          "papel": "Thomas Leroy / The Gentleman"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6swwfge3HlvyBVRSNwroFtMcgNB.jpg",
+          "id": 10767,
+          "nombre": "Barbara Hershey",
+          "papel": "Erica Sayers / The Queen"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8RVrlgtua8b53wmK7oZAAkm0N5O.jpg",
+          "id": 1920,
+          "nombre": "Winona Ryder",
+          "papel": "Beth Macintyre / The Dying Swan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dUolMP3dmuks23usx3sRfB8qKqx.jpg",
+          "id": 970088,
+          "nombre": "Benjamin Millepied",
+          "papel": "David Moreau / The Prince"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wILJwOPBqvxxYkWX0k8XmehMD8k.jpg",
+          "id": 140407,
+          "nombre": "Ksenia Solo",
+          "papel": "Veronica / Little Swan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/70yrpNKrjCNYCYADKWVsr9XbtyV.jpg",
+          "id": 43443,
+          "nombre": "Kristina Anapau",
+          "papel": "Galina / Little Swan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jn9tU6mAAkdtjgw2JPlS2vFG1jM.jpg",
+          "id": 90755,
+          "nombre": "Janet Montgomery",
+          "papel": "Madeline / Little Swan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/v20RLWst39klatsqUgSrwHxhwee.jpg",
+          "id": 60898,
+          "nombre": "Sebastian Stan",
+          "papel": "Andrew / Suitor"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La Nina, una ballarina d'una companyia de ballet novaiorquesa, viu completament entregada a la dansa. La pressió de la seva mare, la rivalitat amb una companya i les exigències del director van augmentant a mesura que s'acosta l'estrena del ballet que protagonitza, \"El llac dels Cignes\", en què ha d'interpretar els papers de Cigne Blanc i Cigne Negre. Finalment, pateix una crisi que li fa confondre la fantasia amb la realitat.",
+        "en": "A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's \"Swan Lake.\"",
+        "es": "Nina, una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de su controladora madre, la rivalidad con su compañera Lily y las exigencias del severo director se irán incrementando a medida que se acerca el día del estreno. Esta tensión provoca en Nina un agotamiento nervioso y una confusión mental que la incapacitan para distinguir entre realidad y ficción."
+      },
+      "titulo": "Cisne negro",
+      "titulo_ca": "El cigne negre",
+      "titulo_original": "Black Swan",
+      "tmdb": 44214,
+      "trailer": "uPnB_Bjh5fo",
+      "wikidata": "Q180214"
+    },
+    "fecha": "2026-11-26"
   },
   "itt102724": {
     "datos": null,
@@ -13215,10 +13537,12 @@
   "p1046739": "Q22114868",
   "p10538": "Q129429",
   "p10539": "Q59824",
+  "p1056199": "",
   "p106093": "Q7181929",
   "p1071955": "Q747950",
   "p1072088": "Q75015745",
   "p1074587": "Q28708638",
+  "p10767": "Q229042",
   "p1090508": "Q2623285",
   "p1090789": "Q110954886",
   "p10943": "Q561387",
@@ -13329,6 +13653,7 @@
   "p1573069": "",
   "p1589570": "Q106367065",
   "p1603600": "Q47460321",
+  "p1614488": "",
   "p1626246": "",
   "p16269": "Q382393",
   "p1640439": "Q26923245",
@@ -13343,6 +13668,7 @@
   "p16980": "Q11681419",
   "p17006": "Q264754",
   "p17007": "Q3818317",
+  "p1710188": "",
   "p1715006": "Q3052744",
   "p1736757": "Q30929628",
   "p17497": "Q441272",
@@ -13362,10 +13688,12 @@
   "p1846370": "Q57584369",
   "p1892": "Q175535",
   "p1894436": "Q114944989",
+  "p18973": "Q37628",
   "p18999": "Q150482",
   "p19": "Q229487",
   "p1904884": "Q113000116",
   "p1912381": "Q102427314",
+  "p1925": "Q193504",
   "p19274": "Q220308",
   "p19278": "Q14537",
   "p19360": "Q441676",
@@ -13386,6 +13714,9 @@
   "p2115765": "",
   "p2133155": "Q116055498",
   "p2192": "Q115735",
+  "p2192826": "Q77825529",
+  "p2203959": "",
+  "p2203960": "",
   "p2213460": "",
   "p22215": "Q2092899",
   "p2229398": "Q111370320",
@@ -13510,6 +13841,8 @@
   "p3870270": "",
   "p39187": "Q7088045",
   "p3960217": "",
+  "p4039084": "",
+  "p4039088": "",
   "p40684": "Q5236475",
   "p4124423": "",
   "p4323550": "",
@@ -13542,6 +13875,7 @@
   "p512079": "Q509777",
   "p5171095": "",
   "p51894": "Q932019",
+  "p524": "Q37876",
   "p525": "Q25191",
   "p52506": "Q6767672",
   "p5266": "Q69705",
@@ -13565,6 +13899,7 @@
   "p5473030": "",
   "p5473031": "",
   "p5473032": "",
+  "p55584": "Q496913",
   "p5584048": "",
   "p5594317": "",
   "p5602": "Q2071",
@@ -13613,6 +13948,7 @@
   "p6421299": "",
   "p6421301": "",
   "p6421302": "",
+  "p6431": "Q192762",
   "p6462200": "Q141857229",
   "p6489158": "",
   "p6574": "Q4488",
@@ -14605,6 +14941,7 @@
   "wQ12260748": [],
   "wQ122745938": [],
   "wQ122932991": [],
+  "wQ123046794": [],
   "wQ123058740": [],
   "wQ123612026": [
     {
@@ -15643,6 +15980,7 @@
   ],
   "wQ139623089": [],
   "wQ139784770": [],
+  "wQ139784875": [],
   "wQ140319866": [
     {
       "anio": 2026,
@@ -16662,6 +17000,48 @@
       "tipo": "nominado"
     }
   ],
+  "wQ180214": [
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premi de l'audiència del Festival de Cinema Internacional de Tromsø",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premi TV Krant Filmposter",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor fotografía",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Óscar al mejor montaje",
+      "tipo": "nominado"
+    }
+  ],
   "wQ180491": [
     {
       "anio": null,
@@ -17000,6 +17380,100 @@
     {
       "anio": 2024,
       "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ192762": [
+    {
+      "anio": 2011,
+      "premio": "Óscar al mejor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Razzie al peor director",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ193504": [
+    {
+      "anio": null,
+      "premio": "Caballero de la Orden Nacional del Mérito",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Orden Nacional del Mérito (Francia)",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "César al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Lumières",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Gran Premio Honorífico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premio Lumière al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premios César",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "César al mejor actor revelación",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "César al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "César al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premi del públic a la millor pel·lícula europea",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2016,
+      "premio": "César al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2017,
+      "premio": "César al mejor actor secundario",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2020,
+      "premio": "César al mejor actor",
       "tipo": "nominado"
     }
   ],
@@ -17957,6 +18431,33 @@
     },
     {
       "anio": 1955,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ229042": [
+    {
+      "anio": 1990,
+      "premio": "Primetime Emmy a la mejor actriz - Miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1990,
+      "premio": "Globo de Oro a la mejor actriz de miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio del Festival de Cannes a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Festival de Cannes a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
       "premio": "Óscar a la mejor actriz de reparto",
       "tipo": "nominado"
     }
@@ -20770,6 +21271,63 @@
       "tipo": "nominado"
     }
   ],
+  "wQ37628": [
+    {
+      "anio": 2011,
+      "premio": "Premio Saturn a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "MTV Movie Awards al mejor villano",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Hasty Pudding Woman of the Year",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Marcello Mastroianni",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Time 100",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Júpiter",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "MTV Movie Award al millor petó",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2013,
+      "premio": "MTV Movie Award al millor petó",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Premi de cinema MTC a la millor actuació femenina",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2013,
+      "premio": "Teen Choice Award a la actriz en una película de ciencia ficción/fantasía",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2010,
+      "premio": "Globo de Oro a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
   "wQ3772": [
     {
       "anio": 2004,
@@ -20959,6 +21517,88 @@
     {
       "anio": 2020,
       "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ37876": [
+    {
+      "anio": 2011,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Globo de Oro a la mejor actriz de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "BAFTA a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Globo de Oro a la mejor actriz - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio del Sindicato de Actores a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Independent Spirit Award a la mejor actriz protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Independent Spirit",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Saturn",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "BAFTA a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Globo de Oro a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Globo de Oro a la mejor actriz - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premio Empire a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Óscar a la mejor película de animación",
       "tipo": "nominado"
     }
   ],
@@ -22490,6 +23130,48 @@
   ],
   "wQ491333": [],
   "wQ4935163": [],
+  "wQ496913": [
+    {
+      "anio": 1999,
+      "premio": "Premi Edda al millor intèrpret",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premi Edda al millor intèrpret",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premi Edda al millor intèrpret",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premi Edda al millor intèrpret",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio del Cine Europeo al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2019,
+      "premio": "Premio del Cine Europeo al mejor actor",
+      "tipo": "nominado"
+    }
+  ],
   "wQ498375": [
     {
       "anio": 1993,
@@ -24483,6 +25165,7 @@
     }
   ],
   "wQ7682072": [],
+  "wQ77825529": [],
   "wQ7836302": [
     {
       "anio": 2015,

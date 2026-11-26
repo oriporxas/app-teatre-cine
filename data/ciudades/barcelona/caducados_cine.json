@@ -52,6 +52,17 @@
     "id": "p-t-el-tresor-de-barracuda",
     "titulo": "El tresor de barracuda"
   },
+  "p-t-fatherland-pawlikowski": {
+    "caducado": "2026-11-25",
+    "direccion": [
+      {
+        "nombre": "Pawel Pawlikowski"
+      }
+    ],
+    "duracion": 82,
+    "id": "p-t-fatherland-pawlikowski",
+    "titulo": "Fatherland"
+  },
   "p-t-fiscal-elola": {
     "agenda": "open_data_bcn:99400790365",
     "caducado": "2026-11-21",
@@ -725,6 +736,287 @@
     "titulo_original": "Chinas",
     "tmdb": 1034387,
     "trailer": "5hAZTaPypPY"
+  },
+  "tmdb-1281331": {
+    "anio": 2026,
+    "caducado": "2026-11-25",
+    "cartel": "https://image.tmdb.org/t/p/w500/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/rcRPzHLGQIKZ6BWu5EVeDFDy75Y.jpg",
+        "id": 13520,
+        "nombre": "Aaron Sorkin",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Premios WGA",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "New York Film Critics Circle Award al millor guió",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Satellite al mejor guion adaptado",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2010,
+            "premio": "Globo de Oro al mejor guion",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2000,
+            "premio": "Primetime Emmy al mejor guion - Serie dramática",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Medalla Nacional de Humanidades",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2011,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2012,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2021,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q299194"
+      }
+    ],
+    "duracion": 113,
+    "estreno": "2026-10-07",
+    "fondo": "https://image.tmdb.org/t/p/w1280/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+    "generos": [
+      "Drama",
+      "Suspense"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/rcRPzHLGQIKZ6BWu5EVeDFDy75Y.jpg",
+        "id": 13520,
+        "nombre": "Aaron Sorkin"
+      }
+    ],
+    "id": "tmdb-1281331",
+    "idioma_original": "en",
+    "imdb": "tt37510326",
+    "lema": "No estamos aquí para hacer amigos.",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vPsv5UYNLrQkzjOvng1OAAYCTIz.jpg",
+        "id": 2949,
+        "nombre": "Alexandre Desplat"
+      }
+    ],
+    "nota": 7.0,
+    "paises": [
+      "US"
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/nsWQNYBTBYE2TCzGpyXTpA0TTEz.jpg",
+        "id": 1640439,
+        "nombre": "Mikey Madison",
+        "papel": "Frances Haugen",
+        "premios": [
+          {
+            "anio": 2025,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "BAFTA a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Independent Spirit Award a la mejor interpretación principal",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q26923245"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/pXRADDRhprgaQ4Bri44NH3bYeu6.jpg",
+        "id": 206905,
+        "nombre": "Jeremy Allen White",
+        "papel": "Jeff Horwitz",
+        "premios": [
+          {
+            "anio": 2022,
+            "premio": "Globo de Oro al mejor actor de serie de televisión - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio del Sindicato de Actores al mejor actor de televisión - Comedia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Premio de la Crítica Televisiva al mejor actor en serie de comedia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Globo de Oro al mejor actor de serie de televisión - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Primetime Emmy al mejor actor - Serie de comedia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Primetime Emmy al mejor actor - Serie de comedia",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Primetime Emmy al mejor actor - Serie de comedia",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q1411012"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/jcMhXWICSi4QjQttJVhFSiKVvpF.jpg",
+        "id": 239271,
+        "nombre": "Jeremy Strong",
+        "papel": "Mark Zuckerberg",
+        "premios": [
+          {
+            "anio": 2022,
+            "premio": "Globo de Oro al mejor actor de serie de televisión - Drama",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2022,
+            "premio": "Time 100",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2021,
+            "premio": "Premio del Sindicato de Actores al mejor reparto",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Primetime Emmy al mejor actor - Serie dramática",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2020,
+            "premio": "Premio de la Crítica Televisiva al mejor actor en serie de drama",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Premi Satellite al millor actor secundari de sèrie, minisèrie o telefilm",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "Canadian Screen Award for Best Supporting Performance in a Drama Film",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2025,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q15854232"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/bNY6pwoztA95dzFCcvDQCs7TbbF.jpg",
+        "id": 92572,
+        "nombre": "Betty Gilpin",
+        "papel": "Kris",
+        "premios": [
+          {
+            "anio": 2026,
+            "premio": "Primetime Emmy a la mejor actriz invitada - Serie de comedia",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q20031439"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4U95TX23X97OK9csaKVwzqAjFUV.jpg",
+        "id": 109708,
+        "nombre": "Bill Burr",
+        "papel": "Charlie Garrigan"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vp7qDA7cYZj0MDYk1k4wysmznnN.jpg",
+        "id": 134774,
+        "nombre": "Wunmi Mosaku",
+        "papel": "Raya"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ugyx7Wn2uAWsNlR5eX4yWFsGV2Y.jpg",
+        "id": 141034,
+        "nombre": "Billy Magnussen",
+        "papel": "Teddy Marks"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/vtoCsXFdvTCP1zkAZARpfnSZ9Pz.jpg",
+        "id": 81683,
+        "nombre": "Gbenga Akinnagbe",
+        "papel": "Andy"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/cKm5ZnAOVc6nD8KAgSDMJdZclYH.jpg",
+        "id": 2307481,
+        "nombre": "Anna Lambe",
+        "papel": "Morgan"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ipfzLeDycmV9qqpiyN4yzGj8Ure.jpg",
+        "id": 3535989,
+        "nombre": "Aidan Laprete",
+        "papel": "Zach"
+      }
+    ],
+    "sinopsis": {
+      "en": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "es": "Explora las prácticas internas de Facebook, la difusión de información falsa, el impacto en la salud mental de los adolescentes y la conexión con los eventos del 6 de enero en el Capitolio."
+    },
+    "titulo": "El Precio de la Red",
+    "titulo_original": "The Social Reckoning",
+    "tmdb": 1281331,
+    "trailer": "cNbAPdz04UE"
   },
   "tmdb-1313032": {
     "agenda": "open_data_bcn:99400701451",
@@ -3118,6 +3410,37 @@
     "titulo_original": "Once Upon a Time in... Hollywood",
     "tmdb": 466272,
     "trailer": "_mUZobwljrc"
+  },
+  "tmdb-470671": {
+    "anio": 2017,
+    "caducado": "2026-11-25",
+    "cartel": "https://image.tmdb.org/t/p/w500/3LYA5cBnRSHYUMSP51aJVQdIDzo.jpg",
+    "direccion": [
+      {
+        "id": 1046702,
+        "nombre": "David Bickerstaff",
+        "premios": [],
+        "wikidata": "Q22946162"
+      }
+    ],
+    "duracion": 85,
+    "estreno": "2017-09-26",
+    "fondo": "https://image.tmdb.org/t/p/w1280/qEhivdwDng8au4lTUYYA0514Apx.jpg",
+    "generos": [
+      "Documental",
+      "Historia"
+    ],
+    "id": "tmdb-470671",
+    "idioma_original": "en",
+    "imdb": "tt7829440",
+    "sinopsis": {
+      "en": "EXHIBITION ON SCREEN open its fifth season with Canaletto & the Art of Venice, an immersive journey into the life and art of Venice’s famous view-painter. No artist better captures the essence and allure of Venice than Giovanni Antonio Canal, better known as Canaletto.  The remarkable group of over 200 paintings, drawings and prints on display offer unparalleled insight into the artistry of Canaletto and his contemporaries, and the city he became a master at capturing. The film also offers the chance to step inside two official royal residences - Buckingham Palace and Windsor Castle – to learn more about the artist, and Joseph Smith, the man who introduced Canaletto to Britain.",
+      "es": "David Bickerstaff dirige este documental centrado en la vida y obra del pintor Canaletto, y en la exposición temporal que ha ido recorriendo varias ciudades en todo el mundo. El Queen’s Gallery del Palacio de Buckingham ha sido el último lugar en albergar los diferentes cuadros del artista."
+    },
+    "titulo": "Canaletto y el arte de Venecia",
+    "titulo_original": "Canaletto & the Art of Venice",
+    "tmdb": 470671,
+    "trailer": "leMvPFVlb0c"
   },
   "tmdb-748681": {
     "anio": 2026,

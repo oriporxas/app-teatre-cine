@@ -1,74 +1,80 @@
 {
-  "actividades_vigentes": 7324,
+  "actividades_vigentes": 7139,
   "app": {
     "compra": {
-      "buscadas_hoy": 1,
-      "con_enlace": 345,
-      "encontradas": 156,
-      "obra": 268,
-      "portadas": 233,
+      "buscadas_hoy": 6,
+      "con_enlace": 348,
+      "encontradas": 160,
+      "obra": 271,
+      "portadas": 237,
       "sala": 77
     },
-    "espectaculos_app": 718,
+    "espectaculos_app": 721,
     "fichas_obra": {
-      "cartel_nuevo": 4,
-      "con_pagina": 256,
+      "cartel_nuevo": 3,
+      "con_pagina": 259,
       "duracion_nueva": 17,
       "equipo_ampliado": 140,
-      "equipo_nuevo": 20,
+      "equipo_nuevo": 18,
       "errores": [
-        "https://www.salabeckett.cat/espectacle/el-forat-blanc/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred"
+        "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen-1: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+        "https://teatrebalmes.com/ca/humor/barcelona/anticoach: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+        "https://www.salabeckett.cat/espectacle/a-cada-pas/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+        "https://www.salabeckett.cat/espectacle/les-distancies/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+        "https://woutick.com/es/entradas/rebel-drag-presenta-a-kandy-muse/comprar/5e180514-2d8a-4bd7-a543-d495d65a86cf: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred"
       ],
       "ia_hoy": 0,
-      "leidas_hoy": 1,
+      "leidas_hoy": 5,
       "premios_nuevos": 22
     },
     "fichas_personas": {
       "buscados_hoy": 0,
       "con_ficha": 10,
-      "errores": [
-        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
-      ],
-      "espectaculos_magia": 20
+      "espectaculos_magia": 19
     },
     "ia_fichas": {
       "con_premios": 15,
-      "con_traduccion": 614,
+      "con_traduccion": 605,
       "errores": [
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+        "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
         "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
       ],
-      "fichas_con_texto": 618,
+      "fichas_con_texto": 635,
       "hechas": 0,
       "modelo": "claude-haiku-5-5",
-      "pendientes": 4
+      "pendientes": 30
     },
     "personas": {
-      "buscados_hoy": 51,
-      "descartados_por_papel": 24,
-      "encontrados": 72,
+      "buscados_hoy": 38,
+      "descartados_por_papel": 26,
+      "encontrados": 73,
       "nombres": 2067,
       "uno_a_uno": true
     },
     "verificacion": {
       "corregidas_por_regla": {
         "fecha": 19,
-        "repetida": 23,
+        "repetida": 21,
         "sala": 2
       },
-      "publicadas": 718
+      "publicadas": 721
     }
   },
   "biografias": {
-    "buscadas_hoy": 4,
-    "cine": 715,
-    "con_ficha": 979,
-    "escena_encontradas": 264,
+    "buscadas_hoy": 2,
+    "cine": 735,
+    "con_ficha": 998,
+    "escena_encontradas": 263,
     "escena_nombres": 2067,
-    "leidas_hoy": 40
+    "leidas_hoy": 31
   },
-  "caducados": 92,
+  "caducados": 106,
   "cine": {
-    "caducadas": 48,
+    "caducadas": 51,
     "cines": {
       "Ateneu Barcelonès": {
         "como": "sin web",
@@ -84,7 +90,7 @@
       },
       "Cinemes Verdi": {
         "como": "elqueque",
-        "sesiones": 298
+        "sesiones": 299
       },
       "Cinesa Diagonal": {
         "como": "su web no permite programas (robots.txt)",
@@ -128,27 +134,27 @@
       },
       "Mooby Arenas": {
         "como": "elqueque",
-        "sesiones": 331
+        "sesiones": 298
       },
       "Mooby Aribau": {
         "como": "elqueque",
-        "sesiones": 109
+        "sesiones": 97
       },
       "Mooby Balmes": {
         "como": "elqueque",
-        "sesiones": 309
+        "sesiones": 284
       },
       "Mooby Bosque": {
         "como": "elqueque",
-        "sesiones": 210
+        "sesiones": 184
       },
       "Mooby Glòries": {
         "como": "elqueque",
-        "sesiones": 206
+        "sesiones": 184
       },
       "Mooby Gran Sarrià": {
         "como": "elqueque",
-        "sesiones": 245
+        "sesiones": 220
       },
       "Recursos d'Animació Intercultural RAI": {
         "como": "sin horarios legibles en su web",
@@ -156,7 +162,7 @@
       },
       "Renoir Floridablanca": {
         "como": "pillalas",
-        "sesiones": 154
+        "sesiones": 168
       },
       "Verdi Park": {
         "como": "elqueque",
@@ -172,31 +178,32 @@
       }
     },
     "con_sesiones_en_cines": 8,
-    "con_tmdb": 68,
-    "fecha": "2026-11-25",
-    "peliculas": 96,
-    "sesiones_agenda": 59,
-    "sesiones_cines": 1862,
+    "con_tmdb": 69,
+    "fecha": "2026-11-26",
+    "peliculas": 99,
+    "sesiones_agenda": 64,
+    "sesiones_cines": 1734,
     "tmdb": {
-      "con_premios": 17,
-      "identificadas": 79,
-      "peliculas": 107,
+      "con_premios": 18,
+      "identificadas": 80,
+      "peliculas": 110,
       "sin_identificar": [
         "El cascanueces (The Royal Ballet) ? Registrat en directe a la Royal Opera House de Londres",
         "Carmen - St. Margarethen",
         "Sessió TETA: Wild Horse Nine",
         "Hermanas",
         "El cielo es para siempre",
-        "FATHERLAND",
         "Projecció ''Sorda",
         "Tarda de cinema",
         "Vivir rodando",
         "Submarinisme la mar la meva passió",
+        "Palestinian vibes",
         "Cinema menut",
         "Planeta Polaris",
         "Natura sagrada",
         "Cinema participatiu",
         "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve",
+        "Curtmetratges contra l´edatisme",
         "Petit Pantalla",
         "Planetari Postals d’uns altres mons",
         "Planetari Forats negres",
@@ -206,6 +213,7 @@
         "Cinema mut ''SUNRISE. A song of two humans.",
         "Numakage Public pool",
         "En busca del meu propi nom",
+        "El gran nadal dels animals",
         "Antes del silencio",
         "Kirikú i la bruixa",
         "¡Salta!",
@@ -214,7 +222,7 @@
     },
     "verificacion": {
       "corregidas_por_regla": {},
-      "publicadas": 96
+      "publicadas": 99
     }
   },
   "ciudad": {
@@ -229,8 +237,8 @@
     "zona_horaria": "Europe/Madrid"
   },
   "clasificado_por": {
-    "ia": 1122,
-    "señales": 163
+    "ia": 1059,
+    "señales": 215
   },
   "cobertura": {
     "cines_con_horarios": [
@@ -263,7 +271,7 @@
       "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
     },
     "con_actividades": 90,
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "por_tipo": {
       "auditorio": {
         "oficiales": 26,
@@ -282,45 +290,46 @@
     "sin_actividades": 71
   },
   "compra": {
-    "buscadas_hoy": 1,
-    "con_enlace": 345,
-    "encontradas": 156,
-    "obra": 268,
-    "portadas": 233,
+    "buscadas_hoy": 6,
+    "con_enlace": 348,
+    "encontradas": 160,
+    "obra": 271,
+    "portadas": 237,
     "sala": 77
   },
-  "con_detalle": 1059,
-  "con_enlace_compra": 420,
-  "con_idioma": 57,
-  "con_precio": 1261,
-  "con_publico": 309,
-  "duracion_minutos": 22.3,
+  "con_detalle": 1095,
+  "con_enlace_compra": 422,
+  "con_idioma": 60,
+  "con_precio": 1251,
+  "con_publico": 310,
+  "duracion_minutos": 50.5,
   "errores": [],
-  "fecha": "2026-11-25",
+  "fecha": "2026-11-26",
   "fichas_obra": {
-    "cartel_nuevo": 4,
-    "con_pagina": 256,
+    "cartel_nuevo": 3,
+    "con_pagina": 259,
     "duracion_nueva": 17,
     "equipo_ampliado": 140,
-    "equipo_nuevo": 20,
+    "equipo_nuevo": 18,
     "errores": [
-      "https://www.salabeckett.cat/espectacle/el-forat-blanc/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred"
+      "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen-1: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+      "https://teatrebalmes.com/ca/humor/barcelona/anticoach: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+      "https://www.salabeckett.cat/espectacle/a-cada-pas/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+      "https://www.salabeckett.cat/espectacle/les-distancies/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred",
+      "https://woutick.com/es/entradas/rebel-drag-presenta-a-kandy-muse/comprar/5e180514-2d8a-4bd7-a543-d495d65a86cf: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your cred"
     ],
     "ia_hoy": 0,
-    "leidas_hoy": 1,
+    "leidas_hoy": 5,
     "premios_nuevos": 22
   },
   "fichas_personas": {
     "buscados_hoy": 0,
     "con_ficha": 10,
-    "errores": [
-      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
-    ],
-    "espectaculos_magia": 20
+    "espectaculos_magia": 19
   },
   "fuentes": {
     "open_data_bcn": {
-      "actividades_vigentes": 7295,
+      "actividades_vigentes": 7130,
       "descarga": {
         "agendas": {
           "activitats": {
@@ -334,39 +343,56 @@
             "registros": 5259
           }
         },
-        "fecha": "2026-11-25T14:35:01+0000"
+        "fecha": "2026-11-26T06:16:36+0000"
       },
       "equipamientos": 3041,
       "guia": {
         "errores": 0,
-        "fichas_en_cache": 2378,
-        "leidas_hoy": 36,
-        "pendientes": 5439
+        "fichas_en_cache": 2400,
+        "leidas_hoy": 168,
+        "pendientes": 5157
       },
       "por_agenda": {
-        "activitats": 2234,
-        "activitats+cultural": 2174,
-        "cultural": 2887
+        "activitats": 2172,
+        "activitats+cultural": 2136,
+        "cultural": 2822
       }
     },
     "webs_salas": {
-      "aviso": "sin tiempo: el resto, mañana",
-      "con_web": 16,
-      "descartadas": 16,
-      "funciones": 34,
-      "leidas_ia": 2,
-      "obras": 29,
-      "paginas": 20,
+      "con_web": 19,
+      "descartadas": 15,
+      "errores": [
+        "http://www.elcentrepoblenou.cat: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://elcentrepoblenou.cat/wp-content/uploads/2026/11/Agenda-desembre-26.pdf: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://www.cityhallbarcelona.com/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://www.cityhallbarcelona.com/event-details/valentina-secret-room-house-tech-house-all-night-long: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://www.cityhallbarcelona.com/event-details/agressive-hard-hard-core-set-main-room: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://teatroflamencobarcelona.com/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://teatrometamorfosis.com/es/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://thecomedyclubhouse.es/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://thecomedyclubhouse.es/all-events/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://thecomedyclubhouse.es/free-shows/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://thecomedyclubhouse.es/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://thecomedyclubhouse.es/all-events/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo",
+        "https://thecomedyclubhouse.es/free-shows/: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too lo"
+      ],
+      "funciones": 12,
+      "leidas_ia": 0,
+      "obras": 9,
+      "paginas": 29,
       "salas_sin_agenda": 33
     }
   },
   "ia": {
     "clasificar": {
       "activa": true,
-      "candidatas": 1985,
+      "candidatas": 1917,
+      "detalles": [
+        "lotes: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+      ],
       "disponible": true,
       "enviadas": 0,
-      "errores": 0,
+      "errores": 1,
       "lotes": {
         "en_curso": 0,
         "enviadas": 0,
@@ -374,8 +400,8 @@
         "repetidas_normal": 0
       },
       "modelo": "claude-sonnet-5-5",
-      "pendientes_antes": 160,
-      "pendientes_despues": 0,
+      "pendientes_antes": 95,
+      "pendientes_despues": 95,
       "tarea": "clasificar",
       "tokens_cache": 0,
       "tokens_cache_escritura": 0,
@@ -383,14 +409,14 @@
       "tokens_salida": 0
     },
     "eventos_cine": {
-      "candidatas": 226,
+      "candidatas": 220,
       "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
-      "eventos": 79,
+      "eventos": 75,
       "pendientes": 9
     },
     "revisar_dudosos": {
       "activa": true,
-      "candidatas": 206,
+      "candidatas": 170,
       "detalles": [
         "lotes: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
       ],
@@ -404,8 +430,8 @@
         "repetidas_normal": 0
       },
       "modelo": "claude-opus-5-5",
-      "pendientes_antes": 37,
-      "pendientes_despues": 7,
+      "pendientes_antes": 4,
+      "pendientes_despues": 4,
       "tarea": "revisar_dudosos",
       "tokens_cache": 0,
       "tokens_cache_escritura": 0,
@@ -415,25 +441,33 @@
   },
   "ia_fichas": {
     "con_premios": 15,
-    "con_traduccion": 614,
+    "con_traduccion": 605,
     "errores": [
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
+      "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API.",
       "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
     ],
-    "fichas_con_texto": 618,
+    "fichas_con_texto": 635,
     "hechas": 0,
     "modelo": "claude-haiku-5-5",
-    "pendientes": 4
+    "pendientes": 30
   },
-  "inicio": "2026-11-25T14:35:01+0000",
+  "inicio": "2026-11-26T06:16:36+0000",
   "magia": {
     "incluye": 4,
-    "principal": 20,
+    "principal": 19,
     "tema": 7
   },
   "noticias": {
-    "clasificadas_hoy": 137,
-    "eventos": 38,
-    "leidas": 831,
+    "clasificadas_hoy": 0,
+    "errores": [
+      "lotes: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API."
+    ],
+    "eventos": 25,
+    "leidas": 823,
     "lotes": {
       "en_curso": 0,
       "enviadas": 0,
@@ -443,9 +477,9 @@
     },
     "medios": 39,
     "por_ambito": {
-      "barcelona": 35,
-      "espana": 94,
-      "mundo": 266
+      "barcelona": 32,
+      "espana": 77,
+      "mundo": 198
     },
     "por_canal": {
       "https://barcelonasecreta.com/feed/": 9,
@@ -453,19 +487,19 @@
       "https://beteve.cat/tag/festivals/feed/": 4,
       "https://beteve.cat/tag/magia/feed/": 4,
       "https://deadline.com/feed/": 12,
-      "https://e00-elmundo.uecdn.es/elmundo/rss/cultura.xml": 55,
+      "https://e00-elmundo.uecdn.es/elmundo/rss/cultura.xml": 56,
       "https://geniimagazine.com/feed/": 15,
       "https://playbill.com/rss/news": 10,
       "https://rss.elconfidencial.com/cultura/": 15,
-      "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml": 34,
+      "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml": 33,
       "https://rss.nytimes.com/services/xml/rss/nyt/Theater.xml": 20,
       "https://variety.com/feed/": 10,
-      "https://www.20minutos.es/rss/cinemania/": 76,
+      "https://www.20minutos.es/rss/cinemania/": 73,
       "https://www.20minutos.es/rss/cultura/": 26,
       "https://www.abc.es/rss/2.0/cultura/": 25,
-      "https://www.abc.es/rss/2.0/cultura/teatros/": 15,
-      "https://www.americantheatre.org/feed/": 23,
-      "https://www.ara.cat/rss/cultura/": 65,
+      "https://www.abc.es/rss/2.0/cultura/teatros/": 13,
+      "https://www.americantheatre.org/feed/": 22,
+      "https://www.ara.cat/rss/cultura/": 66,
       "https://www.elcritic.cat/feed/": 10,
       "https://www.eldiario.es/rss/cultura/teatro": 7,
       "https://www.elespanol.com/rss/cultura/": 0,
@@ -475,7 +509,7 @@
       "https://www.fotogramas.es/rss/all.xml/": 50,
       "https://www.hollywoodreporter.com/feed/": 10,
       "https://www.indiewire.com/feed/": 12,
-      "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/": 79,
+      "https://www.infobae.com/arc/outboundfeeds/rss/category/cultura/": 76,
       "https://www.lavanguardia.com/rss/cultura.xml": 100,
       "https://www.masescena.es/feed/": 10,
       "https://www.revistagodot.com/feed/": 12,
@@ -489,39 +523,39 @@
       "https://www.zirkolika.com/feed/": 10
     },
     "por_tema": {
-      "cine": 229,
-      "circo": 16,
-      "magia": 19,
-      "teatro": 131
+      "cine": 167,
+      "circo": 15,
+      "magia": 13,
+      "teatro": 112
     },
-    "publicadas": 395
+    "publicadas": 307
   },
   "personas": {
-    "buscados_hoy": 51,
-    "descartados_por_papel": 24,
-    "encontrados": 72,
+    "buscados_hoy": 38,
+    "descartados_por_papel": 26,
+    "encontrados": 73,
     "nombres": 2067,
     "uno_a_uno": true
   },
   "por_tipo": {
-    "cine": 118,
+    "cine": 116,
     "circo": 21,
     "danza": 86,
-    "evento": 533,
-    "magia": 20,
-    "musical": 38,
+    "evento": 520,
+    "magia": 19,
+    "musical": 42,
     "otro": 1,
-    "teatro": 468
+    "teatro": 469
   },
-  "publicadas": 1285,
-  "salas_con_espectaculos": 205,
-  "salas_con_nombre": 195,
+  "publicadas": 1274,
+  "salas_con_espectaculos": 211,
+  "salas_con_nombre": 204,
   "verificacion": {
     "corregidas_por_regla": {
       "fecha": 19,
-      "repetida": 23,
+      "repetida": 21,
       "sala": 2
     },
-    "publicadas": 718
+    "publicadas": 721
   }
 }

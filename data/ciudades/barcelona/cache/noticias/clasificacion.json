@@ -38,19 +38,6 @@
       "es": "Black Friday en MADRING: nuevas entradas disponibles para vivir la F1 en Madrid en 2027, con opciones en Pelouse"
     }
   },
-  "https://barcelonasecreta.com/osteria-condal-barcelona/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Osteria Condal, italià amb 70 places i menú de sis passos per 70 €, ocupa des del 2011 la cantonada del Paral·lel on hi havia Tickets.",
-      "es": "Osteria Condal, italiano con 70 plazas y menú de seis pases por 70 €, ocupa desde 2011 la esquina del Paral·lel donde estuvo Tickets."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Osteria Condal, el restaurant italià que va substituir Tickets al Paral·lel",
-      "es": "Osteria Condal, el restaurante italiano que sustituyó a Tickets en el Paral·lel"
-    }
-  },
   "https://barcelonasecreta.com/pasamos-cuatro-declaraciones-renta-gobierno-aprueba-iva-anual-85-000/": {
     "ambito": "espana",
     "evento": false,
@@ -272,19 +259,6 @@
       "es": "Vive en directo el encendido de las luces de Navidad en Barcelona 2026, en directo, en betevé"
     }
   },
-  "https://beteve.cat/cultura/espectacle-encesa-llums-nadal-2026-circ-musica-pirotecnia/": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "Barcelona inaugurarà les festes de Nadal amb l'encesa de llums al passeig de Gràcia, en un acte que combinarà circ, música, dansa aèria i pirotècnia.",
-      "es": "Barcelona inaugurará las fiestas navideñas con el encendido de luces en el paseo de Gràcia, en un acto que combinará circo, música, danza aérea y pirotecnia."
-    },
-    "tema": "circo",
-    "titulo": {
-      "ca": "Barcelona encendrà les llums de Nadal amb un espectacle de circ, música i pirotècnia",
-      "es": "Barcelona encenderá las luces de Navidad con un espectáculo de circo, música y pirotecnia"
-    }
-  },
   "https://beteve.cat/cultura/felicitacions-nadal-catala-bones-festes/": {
     "ambito": "barcelona",
     "evento": false,
@@ -324,19 +298,6 @@
       "es": "La tieta ya puede ir de vespreig: todas las palabras que entran en el diccionario del IEC en 2026"
     }
   },
-  "https://beteve.cat/cultura/planols-oblidats-100-anys-arquitecte-reforma-casa-orlandai-joan-padros-fornaguera/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Joan Padrós Amat investiga l'obra del seu avi, l'arquitecte Joan Padrós Fornaguera, i descobreix projectes conservats a l'arxiu històric de Badalona.",
-      "es": "Joan Padrós Amat investiga la obra de su abuelo, el arquitecto Joan Padrós Fornaguera, y descubre proyectos conservados en el archivo histórico de Badalona."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Uns plànols oblidats durant 100 anys reescriuen la història de la Casa Orlandai",
-      "es": "Unos planos olvidados durante 100 años reescriben la historia de la Casa Orlandai"
-    }
-  },
   "https://beteve.cat/cultura/premis-butaca-2026-amor-venia-en-taxi-la-cubana/": {
     "ambito": "barcelona",
     "evento": true,
@@ -361,19 +322,6 @@
     "titulo": {
       "ca": "150 traductors de 36 llengües participen en el I Fòrum de Traductors de Literatura Catalana",
       "es": "150 traductores de 36 lenguas participan en el I Foro de Traductores de Literatura Catalana"
-    }
-  },
-  "https://beteve.cat/jazz-it/el-james-bond-amb-mes-swing/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Després de l'anunci de Robert Pattinson com a nou Bond, es proposa una visió jazzística del tema central, comparant versions musicals de Count Basie.",
-      "es": "Tras el anuncio de Robert Pattinson como nuevo Bond, se propone una visión jazzística del tema central, comparando versiones musicales de Count Basie."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El James Bond amb més «swing»",
-      "es": "El James Bond con más «swing»"
     }
   },
   "https://beteve.cat/periferies/bocinets-musicals-de-realitat/": {
@@ -413,162 +361,6 @@
     "titulo": {
       "ca": "Meritxell Neddermann presenta el seu últim treball: «Classic Electro Drama»",
       "es": "Meritxell Neddermann presenta su último trabajo: «Classic Electro Drama»"
-    }
-  },
-  "https://deadline.com/2026/11/ava-duvernay-london-critics-laura-mulvey-female-award-1237233191/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "El nou premi, en honor a la teòrica del cinema Laura Mulvey, reconeix les dones més influents del cinema i ha recaigut en DuVernay.",
-      "es": "El nuevo premio, en honor a la teórica del cine Laura Mulvey, reconoce a las mujeres más influyentes del cine y ha recaído en DuVernay."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Ava DuVernay, escollida per al primer premi Laura Mulvey Female Trailblazer del London Critics' Circle",
-      "es": "Ava DuVernay, elegida para el primer premio Laura Mulvey Female Trailblazer del London Critics' Circle"
-    }
-  },
-  "https://deadline.com/2026/11/bbc-consultants-alixpartners-save-hundreds-of-millions-1237232693/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La BBC recorrerà a la consultora AlixPartners, els honoraris de la qual superen les 1.000 lliures per hora, per al seu pla d'estalvi.",
-      "es": "La BBC recurrirá a la consultora AlixPartners, cuyos honorarios superan las 1.000 libras por hora, para su plan de ahorro."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La darrera idea de la BBC per estalviar 500 milions de lliures: contractar consultors",
-      "es": "La última idea de la BBC para ahorrar 500 millones de libras: contratar consultores"
-    }
-  },
-  "https://deadline.com/2026/11/brian-gluckstein-lynda-reeves-video-podcast-m-media-1237232655/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Els dissenyadors canadencs presentaran una sèrie de vídeo pòdcast de vuit episodis sobre disseny.",
-      "es": "Los diseñadores canadienses presentarán una serie de vídeo pódcast de ocho episodios sobre diseño."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El duo de disseny Brian Gluckstein i Lynda Reeves llança un pòdcast en vídeo amb M Media de Marlo Miazga",
-      "es": "El dúo de diseño Brian Gluckstein y Lynda Reeves lanza un pódcast en vídeo con M Media de Marlo Miazga"
-    }
-  },
-  "https://deadline.com/2026/11/federal-film-tv-tax-credit-uk-industry-bfi-working-group-1237232541/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Els gremis i estudis britànics observen amb inquietud la proposta d'incentiu fiscal federal dels Estats Units per al cinema i la televisió.",
-      "es": "Los gremios y estudios británicos observan con inquietud la propuesta de incentivo fiscal federal de Estados Unidos para cine y televisión."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "La indústria britànica es prepara per a l'impacte de l'incentiu fiscal federal nord-americà per al cinema i la televisió",
-      "es": "La industria británica se prepara para el impacto del incentivo fiscal federal estadounidense para cine y televisión"
-    }
-  },
-  "https://deadline.com/2026/11/im-a-celeb-aj-odudu-microaggressions-900-complaints-1237233218/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un enfrontament entre AJ Odudu i Mariella Frostrup al programa ha generat gairebé 900 queixes d'espectadors.",
-      "es": "Un enfrentamiento entre AJ Odudu y Mariella Frostrup en el programa ha generado casi 900 quejas de espectadores."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Polèmica a «I'm A Celebrity… Get Me Out Of Here!» per les «microagressions» que han provocat gairebé 900 queixes",
-      "es": "Polémica en “I'm A Celebrity… Get Me Out Of Here!” por las “microagresiones” que ha provocado casi 900 quejas"
-    }
-  },
-  "https://deadline.com/2026/11/patricia-bright-signs-hld-talent-unpacked-upgraded-series-1237232602/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Patricia Bright fitxa per HLD Talent, que treballarà en les seves estratègies al Regne Unit i als Estats Units.",
-      "es": "Patricia Bright ficha por HLD Talent, que trabajará en sus estrategias en Reino Unido y Estados Unidos."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La presentadora i creadora de YouTube Patricia Bright signa amb HLD Talent i llança el programa «Unpacked & Upgraded»",
-      "es": "La presentadora y creadora de YouTube Patricia Bright firma con HLD Talent y lanza el programa “Unpacked & Upgraded”"
-    }
-  },
-  "https://deadline.com/2026/11/russell-brand-andy-burnham-ndas-david-walliams-1237233158/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Andy Burnham anuncia mesures contra els acords de confidencialitat després de la condemna de deu anys a Russell Brand per violació.",
-      "es": "Andy Burnham anuncia medidas contra los acuerdos de confidencialidad tras la condena de diez años a Russell Brand por violación."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El primer ministre britànic promet endurir els NDA després de la condemna «decisiva» a Russell Brand",
-      "es": "El primer ministro británico promete endurecer las NDA tras la condena “decisiva” a Russell Brand"
-    }
-  },
-  "https://deadline.com/2026/11/saint-pierre-canada-cbc-global-breakouts-1237230077/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Deadline destaca la sèrie canadenca «Saint-Pierre» com un èxit local a la seva secció de fenòmens internacionals.",
-      "es": "Deadline destaca la serie canadiense “Saint-Pierre” como un éxito local en su sección de fenómenos internacionales."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "«Saint-Pierre» és la sèrie policíaca canadenca d'audiència alta que demostra que la vida en una petita illa pot donar molt de drama",
-      "es": "“Saint-Pierre” es la serie policiaca canadiense de gran audiencia que demuestra que la vida en una pequeña isla puede dar mucho drama"
-    }
-  },
-  "https://deadline.com/2026/11/scott-adkins-brutal-justice-last-fight-undisputed-diablo-1237227869/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Adkins presenta les primeres imatges de «Brutal Justice», que s'estrenarà l'any que ve, i anuncia un guió propi nou.",
-      "es": "Adkins presenta las primeras imágenes de “Brutal Justice”, estrenada el año que viene, y anuncia un nuevo guion propio."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Scott Adkins parla de reunir l'equip de «Diablo» per a «Brutal Justice» i de la possibilitat de més pel·lícules d'«Undisputed»",
-      "es": "Scott Adkins habla de reunir al equipo de “Diablo” para “Brutal Justice” y de la posibilidad de más películas de “Undisputed”"
-    }
-  },
-  "https://deadline.com/2026/11/slam-frank-off-broadway-closing-date-1237209726/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El musical sobre Anne Frank continuarà a l'Orpheum Theatre de Manhattan fins a l'1 de març del 2027.",
-      "es": "El musical sobre Anne Frank seguirá en el Orpheum Theatre de Manhattan hasta el 1 de marzo de 2027."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "El musical hip-hop «Slam Frank», versió de la història d'Anne Frank, amplia per segon cop les funcions amb vuit setmanes més",
-      "es": "El musical hip-hop “Slam Frank”, versión de la historia de Ana Frank, amplía por segunda vez sus funciones con ocho semanas más"
-    }
-  },
-  "https://deadline.com/2026/11/streamer-negotiation-equity-actors-union-contracts-next-year-1237227832/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Equity es asseurà a negociar amb Netflix, Disney i Apple després de tancar el seu acord amb Pact.",
-      "es": "Equity se sentará a negociar con Netflix, Disney y Apple tras cerrar su acuerdo con Pact."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El sindicat britànic d'actors Equity iniciarà a principis de l'any que ve les negociacions amb les plataformes de streaming",
-      "es": "El sindicato británico de actores Equity iniciará a principios del próximo año las negociaciones con las plataformas de streaming"
-    }
-  },
-  "https://deadline.com/2026/11/sxsw-egypt-uth-festival-1237233156/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "SXSW s'associa amb el UTH Festival del Caire i l'esdeveniment serà el seu homòleg egipci després de signar l'acord a la tercera edició.",
-      "es": "SXSW se asocia con el UTH Festival de El Cairo y el evento será su par egipcio tras firmar el acuerdo en la tercera edición."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "SXSW arriba a Egipte en col·laboració amb el festival juvenil UTH",
-      "es": "SXSW llega a Egipto en colaboración con el festival juvenil UTH"
     }
   },
   "https://llegim.ara.cat/actualitat/iolanda-batalle-hi-preu-no-vull-pagar-n-dormir_128_5916922.html": {
@@ -738,136 +530,6 @@
     "titulo": {
       "ca": "Ni Cambó ni Macià: l’home que ho va ser gairebé tot sense voler sortir a la foto",
       "es": "Ni Cambó ni Macià: el hombre que lo fue casi todo sin querer salir en la foto"
-    }
-  },
-  "https://playbill.com/article/hamilton-cracks-3-million-again-as-holiday-season-flourishes-and-more-from-last-weeks-broadway-grosses": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El musical, amb el membre del repartiment original Christopher Jackson de tornada com a George Washington, continua en cartell.",
-      "es": "El musical, con el miembro del reparto original Christopher Jackson de vuelta como George Washington, sigue en cartel."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Hamilton torna a superar els 3 milions de dòlars en plena temporada nadalenca, i més resultats de Broadway",
-      "es": "Hamilton vuelve a superar los 3 millones de dólares en plena temporada navideña, y más resultados de Broadway"
-    }
-  },
-  "https://playbill.com/article/listen-isa-briones-sings-santas-got-a-brand-new-bag-from-broadway-holiday-album": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Avançament de l'àlbum nadalenc de Center Stage Records, amb noves versions de clàssics i dues cançons originals de Michael Mott.",
-      "es": "Adelanto del álbum navideño de Center Stage Records, con nuevas versiones de clásicos y dos canciones originales de Michael Mott."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Escolteu: Isa Briones canta 'Santa's Got a Brand New Bag' de l'àlbum nadalenc de Broadway",
-      "es": "Escuche: Isa Briones canta 'Santa's Got a Brand New Bag' del álbum navideño de Broadway"
-    }
-  },
-  "https://playbill.com/article/lorin-latarro-will-direct-and-choreograph-broadway-aimed-carmen-in-spain": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El projecte comptarà amb Eva Ruiz, protagonista de My Fault.",
-      "es": "El proyecto contará con Eva Ruiz, protagonista de My Fault."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Lorin Latarro dirigirà i coreografiarà una Carmen de Broadway a Espanya",
-      "es": "Lorin Latarro dirigirá y coreografiará una Carmen de Broadway en España"
-    }
-  },
-  "https://playbill.com/article/photos-paper-mill-mary-poppins-starring-kara-lindsay": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Mark S. Hoebee dirigeix el musical familiar sobre la mainadera voladora.",
-      "es": "Mark S. Hoebee dirige el musical familiar sobre la niñera voladora."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Fotos: Mary Poppins a Paper Mill, amb Kara Lindsay",
-      "es": "Fotos: Mary Poppins en Paper Mill, con Kara Lindsay"
-    }
-  },
-  "https://playbill.com/article/photos-see-denee-benton-and-jordan-donica-with-the-new-york-pops-at-carnegie-hall": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Les coprotagonistes de The Gilded Age van cantar juntes en directe per primera vegada el 20 de novembre.",
-      "es": "Las coprotagonistas de The Gilded Age cantaron juntas en directo por primera vez el 20 de noviembre."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Fotos: Denée Benton i Jordan Donica amb New York Pops al Carnegie Hall",
-      "es": "Fotos: Denée Benton y Jordan Donica con New York Pops en Carnegie Hall"
-    }
-  },
-  "https://playbill.com/article/playbillder-spotlight-holiday-5-edited": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Article promocional que explica com fer servir un Playbill personalitzat en concerts d'hivern, festes privades i revelacions de regals.",
-      "es": "Artículo promocional que explica cómo usar un Playbill personalizado en conciertos de invierno, fiestas privadas y revelaciones de regalos."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "5 maneres en què Playbillder pot fer més brillants les teves vacances",
-      "es": "5 formas en que Playbillder puede hacer más brillantes tus vacaciones"
-    }
-  },
-  "https://playbill.com/article/see-whos-joining-renee-elise-goldsberry-and-santino-fontana-for-his-girl-friday-reading": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La lectura forma part de la sèrie At Play de Symphony Space.",
-      "es": "La lectura forma parte de la serie At Play de Symphony Space."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Mira qui s'uneix a Renée Elise Goldsberry i Santino Fontana a la lectura de His Girl Friday",
-      "es": "Mira quién se une a Renée Elise Goldsberry y Santino Fontana en la lectura de His Girl Friday"
-    }
-  },
-  "https://playbill.com/article/tonya-pinkins-and-robert-lindsay-will-lead-the-notebook-at-londons-judi-dench-theatre": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El musical basat en la novel·la de Nicholas Sparks tindrà com a directors Michael Greif i Schele Williams, amb Tonya Pinkins i Robert Lindsay al repartiment principal.",
-      "es": "El musical basado en la novela de Nicholas Sparks tendrá como directores a Michael Greif y Schele Williams, con Tonya Pinkins y Robert Lindsay en el reparto principal."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Tonya Pinkins i Robert Lindsay encapçalaran The Notebook al Judi Dench Theatre de Londres",
-      "es": "Tonya Pinkins y Robert Lindsay encabezarán The Notebook en el Judi Dench Theatre de Londres"
-    }
-  },
-  "https://playbill.com/article/whats-the-deal-with-that-silk-playbill-in-the-gilded-age": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'inici del musical de Broadway apareix a la quarta temporada de la sèrie de HBO.",
-      "es": "El inicio del musical de Broadway aparece en la cuarta temporada de la serie de HBO."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Què passa amb el programa de seda de The Gilded Age?",
-      "es": "¿Qué pasa con el programa de seda de The Gilded Age?"
-    }
-  },
-  "https://playbill.com/article/yankees-legend-bernie-williams-extends-run-in-broadways-buena-vista-social-club": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El guitarrista de jazz, nominat als Latin Grammy, s'ha incorporat a la banda del musical, guardonada amb un Tony.",
-      "es": "El guitarrista de jazz, nominado a los Latin Grammy, se ha incorporado a la banda del musical, galardonada con un Tony."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "L'exjugador dels Yankees Bernie Williams amplia la seva etapa a Buena Vista Social Club de Broadway",
-      "es": "El exjugador de los Yankees Bernie Williams amplía su etapa en Buena Vista Social Club de Broadway"
     }
   },
   "https://revistagodot.com/brodwei-convierte-teatros-luchana-en-un-desmadrado-titanic/": {
@@ -1065,136 +727,6 @@
       "es": "Thrown Together, festival de malabarismo y artes de flujo de Londres (día 1)"
     }
   },
-  "https://variety.com/2026/film/awards/ava-duvernay-ondon-critics-circle-female-trailblazer-award-1236957828/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "El London Critics' Circle crearà un premi amb el nom de Laura Mulvey i el lliurarà a Ava DuVernay a la gala de 2027.",
-      "es": "El London Critics' Circle creará un premio con el nombre de Laura Mulvey y lo entregará a Ava DuVernay en su gala de 2027."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Ava DuVernay rebrà el primer premi Female Trailblazer del London Critics' Circle",
-      "es": "Ava DuVernay recibirá el primer premio Female Trailblazer del London Critics' Circle"
-    }
-  },
-  "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "El curtmetratge de terror sobre l'anèmia falciforme en comunitats tribals índies guanya el primer premi del concurs Filmathon.",
-      "es": "El cortometraje de terror sobre la anemia falciforme en comunidades tribales indias gana el primer premio del concurso Filmathon."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El curt de terror amb IA «Sikkal» guanya el WIF India x Google Flow Filmathon, mentre la directora Promita Banerjee aspira a fer «pel·lícules amb humans»",
-      "es": "El corto de terror con IA “Sikkal” gana el WIF India x Google Flow Filmathon, mientras la directora Promita Banerjee aspira a hacer “películas con humanos”"
-    }
-  },
-  "https://variety.com/2026/film/festivals/mike-newell-love-in-the-time-of-cholera-giovanna-mezzogiorno-1236957563/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Al Festival de Torí, Newell evoca el rodatge de «El amor en los tiempos del còlera» i rep un premi de trajectòria.",
-      "es": "En el Festival de Turín, Newell evoca el rodaje de “El amor en los tiempos del cólera” y recibe un premio de trayectoria."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Mike Newell recorda que li van disparar a Colòmbia durant el rodatge de «El amor en los tiempos del cólera» amb Giovanna Mezzogiorno",
-      "es": "Mike Newell recuerda que le dispararon en Colombia durante el rodaje de “El amor en los tiempos del cólera” con Giovanna Mezzogiorno"
-    }
-  },
-  "https://variety.com/2026/film/festivals/ramayana-app-cinedubs-iffi-2026-accessibility-partner-1236957861/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "Cinedubs, que va permetre escoltar «Ramayana» en diversos idiomes, serà soci d'accessibilitat del Festival Internacional de Cinema de l'Índia 2026.",
-      "es": "Cinedubs, que permitió escuchar “Ramayana” en varios idiomas, será socio de accesibilidad del Festival Internacional de Cine de la India 2026."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "L'app d'idiomes Cinedubs, amb més de 100.000 espectadors de «Ramayana», esdevé soci d'accessibilitat de l'IFFI",
-      "es": "La app de idiomas Cinedubs, con más de 100.000 espectadores de “Ramayana”, se convierte en socio de accesibilidad del IFFI"
-    }
-  },
-  "https://variety.com/2026/film/global/hollywood-roasted-satirical-picture-book-we-make-a-movie-1236957842/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El llibre satíric «We Make a Movie» imita un llibre infantil dels anys seixanta per criticar la indústria de Hollywood.",
-      "es": "El libro satírico “We Make a Movie” imita un libro infantil de los años sesenta para criticar a la industria de Hollywood."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Hollywood, satiritzat al llibre il·lustrat «We Make a Movie»: «M'ha encantat el teu guió… Ara canvia-ho tot» (EXCLUSIVA)",
-      "es": "Hollywood, satirizado en el libro ilustrado “We Make a Movie”: “Me encantó tu guion… Ahora cámbialo todo” (EXCLUSIVA)"
-    }
-  },
-  "https://variety.com/2026/film/markets-festivals/vijay-sethupathi-maharaja-hollywood-remake-approach-confirmed-1236957881/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'èxit de «Maharaja» a la Xina ha generat una proposta d'una agència de Hollywood pels drets de remake, segons el seu productor.",
-      "es": "El éxito de “Maharaja” en China ha generado una propuesta de una agencia de Hollywood por los derechos de remake, según su productor."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El productor de «Maharaja» de Vijay Sethupathi confirma un acostament de Hollywood per a un remake mentre un panell del WAVES Film Bazaar debat si la propietat intel·lectual índia pot viatjar",
-      "es": "El productor de “Maharaja” de Vijay Sethupathi confirma un acercamiento de Hollywood para un remake mientras un panel del WAVES Film Bazaar debate si la propiedad intelectual india puede viajar"
-    }
-  },
-  "https://variety.com/2026/film/news/danny-devito-produced-heist-comedy-drag-sales-1236957923/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Després de l'American Film Market, «Drag» tanca acords de distribució a Alemanya, França i altres territoris.",
-      "es": "Tras el American Film Market, “Drag” cierra acuerdos de distribución en Alemania, Francia y otros territorios."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "La comèdia de cops «Drag», produïda per Danny DeVito, aconsegueix una onada de vendes internacionals a l'AFM (EXCLUSIVA)",
-      "es": "La comedia de atracos “Drag”, producida por Danny DeVito, logra una ola de ventas internacionales en el AFM (EXCLUSIVA)"
-    }
-  },
-  "https://variety.com/2026/film/news/generative-ai-feature-maharaja-in-denims-april-2027-release-1236957865/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'adaptació de la novel·la de Khushwant Singh, feta amb IA generativa, s'acosta al final i preveu estrenar-se l'abril del 2027.",
-      "es": "La adaptación de la novela de Khushwant Singh, realizada con IA generativa, se acerca a su final y prevé estrenarse en abril de 2027."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "«Maharaja in Denims», pel·lícula índia d'IA generativa inspirada en el maharajà sikh Ranjit Singh, fixa estrena per a l'abril del 2027 (EXCLUSIVA)",
-      "es": "“Maharaja in Denims”, película india de IA generativa inspirada en el maharajá sij Ranjit Singh, fija estreno para abril de 2027 (EXCLUSIVA)"
-    }
-  },
-  "https://variety.com/2026/film/news/luca-guadagnino-apology-costume-design-comments-controversy-1236957916/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Al Festival de Marrakech, Guadagnino va demanar disculpes als dissenyadors de vestuari i va reafirmar la seva preferència pels dissenyadors de moda.",
-      "es": "En el Festival de Marrakech, Guadagnino pidió disculpas a los diseñadores de vestuario y reafirmó su preferencia por los diseñadores de moda."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Luca Guadagnino demana disculpes pels seus polèmics comentaris sobre el disseny de vestuari, però defensa treballar amb dissenyadors de moda",
-      "es": "Luca Guadagnino se disculpa por sus polémicos comentarios sobre el diseño de vestuario, pero defiende trabajar con diseñadores de moda"
-    }
-  },
-  "https://variety.com/2026/shopping/news/sams-club-black-friday-tech-deals-shop-online-1236957459/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Sam's Club rebaixa preus de televisors, barres de so i auriculars sense fil abans de les festes.",
-      "es": "Sam's Club rebaja precios en televisores, barras de sonido y auriculares inalámbricos antes de las fiestas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "L'oferta del Black Friday de Sam's Club inclou descomptes en televisors Samsung, barres de so Sonos, auriculars Bose i més",
-      "es": "La oferta del Black Friday de Sam's Club incluye descuentos en televisores Samsung, barras de sonido Sonos, auriculares Bose y más"
-    }
-  },
   "https://www.20minutos.es/artes/exposicion-que-explora-figura-van-gogh-como-influencer-prolongara-su-apertura-hasta-finales-2027_7065112_0.html": {
     "ambito": "espana",
     "evento": false,
@@ -1234,19 +766,6 @@
       "es": "Del martirio a la gloria, 812 retratos de víctimas de la persecución religiosa en el siglo XX"
     }
   },
-  "https://www.20minutos.es/artes/miguele-mago-con-un-13-vision-que-desafia-los-sentidos-penumbra-magia-no-es-principal-sino-lenguaje_7064631_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El mag Miguelé, amb un 13% de visió, presenta 'Penumbra' i defensa que el llenguatge importa més que la màgia en el seu espectacle.",
-      "es": "El mago Miguelé, con un 13% de visión, presenta 'Penumbra' y defiende que el lenguaje importa más que la magia en su espectáculo."
-    },
-    "tema": "magia",
-    "titulo": {
-      "ca": "Miguelé, el mag amb un 13% de visió que desafia els sentits a 'Penumbra': \"La màgia no és el principal sinó el llenguatge\"",
-      "es": "Miguelé, el mago con un 13% de visión que desafía a los sentidos en 'Penumbra': \"La magia no es lo principal sino el lenguaje\""
-    }
-  },
   "https://www.20minutos.es/artes/nathan-sawaya-escultor-que-moldea-sus-obras-con-piezas-lego-llega-barcelona_7065198_0.html": {
     "ambito": "espana",
     "evento": false,
@@ -1258,19 +777,6 @@
     "titulo": {
       "ca": "Nathan Sawaya, l'escultor que crea el seu art amb peces de Lego, arriba a Espanya amb més de 80 obres",
       "es": "Nathan Sawaya, el escultor que crea su arte con piezas de Lego, llega a España con sus más de 80 obras"
-    }
-  },
-  "https://www.20minutos.es/artes/territorios-fantasmas-una-exposicion-que-otazu-explora-como-los-territorios-que-habitamos-construyen-nuestra-realidad_7064564_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La mostra 'Territorios fantasmas' reuneix 23 obres de 19 artistes internacionals en un celler navarrès, visitable fins a l'agost del 2027.",
-      "es": "La muestra 'Territorios fantasmas' reúne 23 obras de 19 artistas internacionales en una bodega navarra, visitable hasta agosto de 2027."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Territorios fantasmas', una exposició en la qual Otazu explora com els territoris que habitem construeixen la nostra realitat",
-      "es": "'Territorios fantasmas', una exposición en la que Otazu explora cómo los territorios que habitamos construyen nuestra realidad"
     }
   },
   "https://www.20minutos.es/cinemania/criticas/critica-hermanas-emma-suarez-elena-anaya-abuso_7065228_3.html": {
@@ -1312,32 +818,6 @@
       "es": "Crítica de 'Las nuevas desventuras de Cliff Booth': Fincher devuelve la violencia y el esplendor al Hollywood de Tarantino"
     }
   },
-  "https://www.20minutos.es/cinemania/criticas/critica-sanguine-terror-frances-critica-social-body-horror_7065196_3.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora Marion Le Corroller va triomfar al Festival de Sitges amb una òpera prima tan crítica com necessària.",
-      "es": "La directora Marion Le Corroller triunfó en el Festival de Sitges con una ópera prima tan crítica como necesaria."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Crítica de 'Sanguine': terror francès i crítica social en el 'body horror' de l'any que segueix l'estela de 'La sustància'",
-      "es": "Crítica de 'Sanguine': terror francés y crítica social en el 'body horror' del año que sigue la estela de 'La sustancia'"
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/antonio-banderas-javis-oscar-oportunidad-seria_7064595_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Antonio Banderas es declara fan dels Javis i augura un gran èxit a 'La bola negra' a la 99a edició dels Oscars.",
-      "es": "Antonio Banderas se declara fan de los Javis y augura un gran éxito a 'La bola negra' en la 99.ª edición de los Oscar."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Antonio Banderas ho té clar sobre els Javis i 'La bola negra' als Oscars: \"Hi ha una oportunitat molt seriosa\"",
-      "es": "Antonio Banderas lo tiene claro sobre los Javis y 'La bola negra' en los Oscar: \"Hay una oportunidad muy seria\""
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/anya-taylor-joy-dune-espanol-telenovela-gusanos-gigantes_7062632_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1349,19 +829,6 @@
     "titulo": {
       "ca": "Anya Taylor-Joy explica «Dune» en castellà amb la millor definició possible: «Com la teva telenovel·la preferida, però amb cucs gegants»",
       "es": "Anya Taylor-Joy explica 'Dune' en español con la mejor definición posible: «Como tu telenovela favorita, pero con gusanos gigantes»"
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/artificial-poster-andrew-garfield-errores-ia_7063634_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La nova pel·lícula de Luca Guadagnino sobre la intel·ligència artificial ja mostra en el seu pòster oficial diversos errors generats per IA.",
-      "es": "La nueva película de Luca Guadagnino sobre la inteligencia artificial muestra ya en su póster oficial varios errores generados por IA."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Els errors d'IA del pòster d''Artificial' amb Andrew Garfield que deixa tothom al·lucinat: \"Ho van aconseguir, és espantós\"",
-      "es": "Los errores IA del póster de 'Artificial' con Andrew Garfield que tiene a todo el mundo alucinando: \"Lo lograron, es espantoso\""
     }
   },
   "https://www.20minutos.es/cinemania/noticias/black-friday-llega-streaming-flixole-filmin-lanzan-sus-ofertas-mientras-netflix-se-queda-fuera_7062751_0.html": {
@@ -1388,19 +855,6 @@
     "titulo": {
       "ca": "'La bola negra' deslumbra als Governors Awards a Hollywood, amb un guiny inclòs de Glenn Close als Javis",
       "es": "'La bola negra' deslumbra en los Governors Awards en Hollywood, con guiño incluido de Glenn Close a los Javis"
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/bola-negra-netflix-pedro-almodovar-referencias-apocalypse-now_7056174_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Netflix revela una llista de referències cinematogràfiques de La bola negra, amb Apocalypse Now al capdavant.",
-      "es": "Netflix revela una lista de referencias cinematográficas de La bola negra, con Apocalypse Now a la cabeza."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Netflix descobreix les pel·lícules que van inspirar 'La bola negra': no hi és el director que esperaves",
-      "es": "Netflix descubre las películas que inspiraron 'La bola negra': no está el director que esperabas"
     }
   },
   "https://www.20minutos.es/cinemania/noticias/bola-negra-pelicula-taquilla-espana-delante-spiderman-odisea_7064480_0.html": {
@@ -1455,19 +909,6 @@
       "es": "Para ver después de 'El crimen de Pazos': el documental de Netflix que explica el caso real que conmocionó a España"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/director-biopic-michael-jackson-acusado-agresion-continuacion_7065085_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un encarregat d'un bar de Los Angeles acusa Antoine Fuqua de colpejar-lo i apuntar-lo amb una pistola.",
-      "es": "Un encargado de un bar de Los Ángeles acusa a Antoine Fuqua de golpearle y apuntarle con una pistola."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El director del biopic de Michael Jackson, acusat d'agressió: la continuació de 'Michael' corre perill?",
-      "es": "El director del biopic de Michael Jackson, acusado de agresión: ¿la continuación de 'Michael' corre peligro?"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/director-que-acabo-harto-marvel-intentando-hacer-blade-vida-es-demasiado-corta-para-peliculas-mierda_7064045_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1479,19 +920,6 @@
     "titulo": {
       "ca": "El director que es va cansar de Marvel intentant fer 'Blade': \"La vida és massa curta per a pel·lícules de merda\"",
       "es": "El director que acabó harto de Marvel intentando hacer 'Blade': \"La vida es demasiado corta para películas de mierda\""
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/disney-prepara-regreso-solo-casa-macaulay-culkin-segun-variety_7063948_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Segons Variety, Seth Rogen i Evan Goldberg podrien treballar en el guió i la producció de la nova pel·lícula.",
-      "es": "Según Variety, Seth Rogen y Evan Goldberg podrían trabajar en el guion y la producción de la nueva película."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Disney prepara el retorn de 'Solo en casa' amb Macaulay Culkin, segons 'Variety'",
-      "es": "Disney prepara el regreso de 'Solo en casa' con Macaulay Culkin, según 'Variety'"
     }
   },
   "https://www.20minutos.es/cinemania/noticias/glenn-close-no-se-olvida-los-javis-recibir-su-oscar-honorifico-muchas-gracias-por-incluirme-una-pelicula-tan-brillante_7061551_0.html": {
@@ -1572,19 +1000,6 @@
       "es": "Jennifer Lawrence, en shock por la desaparición del arco de Katniss que guardaba de 'Los juegos del hambre': \"Me lo robaron\""
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/john-travolta-noviembre-1963-trailer-reparto-estreno_7065358_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "John Travolta protagonitza el thriller de Roland Joffé que explora la teoria que la màfia també va estar darrere de la mort de JFK.",
-      "es": "John Travolta protagoniza el thriller de Roland Joffé que explora la teoría de que la mafia también estuvo detrás de la muerte de JFK."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "John Travolta de nou en acció amb 'Novembre 1963', thriller sobre l'assassinat de John F. Kennedy",
-      "es": "John Travolta de nuevo en acción con 'Noviembre 1963', thriller sobre el asesinato de John F. Kennedy"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/joseph-zada-entrevista-juegos-hambre-amanecer-cosecha-haymitch-primer-dia-20-anos_7058119_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1622,19 +1037,6 @@
     "titulo": {
       "ca": "Luca Guadagnino ens dona la pitjor notícia sobre el remake d''American Psycho': \"No tirarà endavant\"",
       "es": "Luca Guadagnino nos da la peor noticia sobre el remake de 'American Psycho': \"No va a salir adelante\""
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/mejores-peliculas-2026-revista-telerama_7062998_0.html": {
-    "ambito": "espana",
-    "evento": true,
-    "resumen": {
-      "ca": "La revista francesa Télérama organitzarà un festival amb les seves pel·lícules preferides de 2026, entre les quals hi ha dues d'espanyoles.",
-      "es": "La revista francesa Télérama organizará un festival con sus películas favoritas de 2026, entre las que hay dos españolas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Dues pel·lícules espanyoles es colen entre les millors de l'any (i cap no és 'La bola negra') per a aquesta revista francesa",
-      "es": "Dos películas españolas se cuelan entre lo mejor del año (y ninguna es 'La bola negra') para esta revista francesa"
     }
   },
   "https://www.20minutos.es/cinemania/noticias/michael-streaming-donde-ver-biopic-michael-jackson-skyshowtime-movistar-plus_7065254_0.html": {
@@ -1715,19 +1117,6 @@
       "es": "Patrick Stewart: sale a la luz la emotiva despedida del actor el último día de rodaje de 'Vengadores: Doomsday'"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/penelope-cruz-protagoniza-patricia-nueva-pelicula-juan-diego-botto-sobre-violencia-machista-maltrato_7063205_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Penélope Cruz protagonitza 'Patricia', dirigida per Juan Diego Botto, una producció de Netflix que ja ha començat a rodar-se.",
-      "es": "Penélope Cruz protagoniza 'Patricia', dirigida por Juan Diego Botto, una producción de Netflix que ya ha empezado a rodarse."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Penélope Cruz protagonitza 'Patricia', la nova pel·lícula de Juan Diego Botto sobre la violència masclista i el maltractament",
-      "es": "Penélope Cruz protagoniza 'Patricia', la nueva película de Juan Diego Botto sobre la violencia machista y el maltrato"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/principe-harry-sobre-fichaje-robert-pattinson-como-007-quiero-asegurarme-que-saga-este-buenas-manos_7064065_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1793,19 +1182,6 @@
       "es": "Confirmado por Movistar Plus: 'El ser querido', la película que unió a Bardem y Sorogoyen, tiene fecha de estreno"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/sicko-plankgas-triunfan-festival-isla-calavera-2026-que-celebra-su-decima-edicion_7065211_0.html": {
-    "ambito": "espana",
-    "evento": true,
-    "resumen": {
-      "ca": "La pel·lícula kazakha s'emporta el premi al millor llargmetratge, mentre l'espanyola '5 minutos más' aconsegueix dos reconeixements.",
-      "es": "La película kazaja se alza con el premio al mejor largometraje, mientras la española '5 minutos más' logra dos reconocimientos."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Sicko' i 'Plankgas' triomfen al Festival Isla Calavera 2026, que celebra la seva desena edició",
-      "es": "'Sicko' y 'Plankgas' triunfan en el Festival Isla Calavera 2026, que celebra su décima edición"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/skyshowtime-cierra-skydance-plataforma-streaming_7063271_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1819,32 +1195,6 @@
       "es": "SkyShowtime dice adiós: Skydance cierra su plataforma de streaming tras cuatro años de actividad"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/spider-man-brand-new-day-nuevas-escenas-vengadores-doomsday_7063677_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Spider-Man: Brand New Day, la pel·lícula més taquillera de l'any, torna als cinemes amb una reestrena amb noves escenes.",
-      "es": "Spider-Man: Brand New Day, la película más taquillera del año, regresa a los cines con un reestreno con nuevas escenas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Nadal Marvel: 'Spider-Man: Brand New Day' torna als cinemes amb noves escenes en preparació de 'Vengadores: Doomsday'",
-      "es": "Navidad Marvel: 'Spider-Man: Brand New Day' vuelve a cines con nuevas escenas en preparación de 'Vengadores: Doomsday'"
-    }
-  },
-  "https://www.20minutos.es/cinemania/noticias/spielberg-western-heart-winter-cillian-murphy-paul-thomas-anderson_7064814_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Spielberg prepara un western amb guió de Paul Thomas Anderson, protagonitzat per Jessie Buckley, Cillian Murphy i Mark Rylance.",
-      "es": "Spielberg prepara un western con guion de Paul Thomas Anderson, protagonizado por Jessie Buckley, Cillian Murphy y Mark Rylance."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Spielberg prepara una bogeria de western: s'uneix a Paul Thomas Anderson i fitxa Cillian Murphy i Jessie Buckley",
-      "es": "Spielberg prepara una locura de western: une fuerzas con Paul Thomas Anderson y ficha a Cillian Murphy y Jessie Buckley"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/vengadores-doomsday-regreso-estrella-marvel-pelicula_7064535_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -1856,32 +1206,6 @@
     "titulo": {
       "ca": "Confirmat per sorpresa: «Vengadores: Doomsday» revela que aquesta estrella de Marvel també torna a la pel·lícula",
       "es": "Confirmado por sorpresa: 'Vengadores: Doomsday' revela que esta estrella de Marvel también vuelve en la película"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/5-1-millones-visualizaciones-cinco-dias-the-body-cuerpo-nueva-serie-netflix_7062485_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La sèrie de Netflix 'The Body' combina fanatisme religiós, paranoia i humor negre, i ha aconseguit milions de visualitzacions.",
-      "es": "La serie de Netflix 'The Body' combina fanatismo religioso, paranoia y humor negro, y ha logrado millones de visualizaciones."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "5,1 milions de visualitzacions en només cinc dies: 'The Body' ('El cos'), la nova sèrie de Netflix de la qual tothom parla",
-      "es": "5,1 millones de visualizaciones en solo cinco días: 'The Body' ('El cuerpo'), la nueva serie de Netflix de la que todos hablan"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/anatomia-grey-spin-off-breaking-bad-shonda-rhimes_7059477_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un problema financer ha paralitzat la producció de l'spin-off d''Anatomia de Grey' que es desenvolupava a Texas.",
-      "es": "Un problema financiero ha paralizado la producción del spin-off de 'Anatomía de Grey' que se desarrollaba en Texas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "L'spin-off de 'Anatomia de Grey' va directe a urgències: el seu trasllat a la terra de 'Breaking Bad' no és bon senyal",
-      "es": "El spin-off de 'Anatomía de Grey' va directo a urgencias: su traslado a la tierra de 'Breaking Bad' no es buena señal"
     }
   },
   "https://www.20minutos.es/cinemania/series/baywatch-vigilantes-playa-fecha-estreno-prime-video-espana_7022510_0.html": {
@@ -1934,19 +1258,6 @@
     "titulo": {
       "ca": "'Els Bridgerton', més a prop que mai de la temporada d'Eloise: ha avançat Claudia Jessie que ja prepara el seu romanç?",
       "es": "'Los Bridgerton', más cerca que nunca de la temporada de Eloise: ¿acaba de adelantar Claudia Jessie que ya prepara su romance?"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/creador-senor-los-anillos-los-anillos-poder-responde-las-criticas-los-fans-no-estan-mando_7061649_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Després de l'estrena de la tercera temporada de la sèrie d'Amazon Prime Video, el seu creador respon a les reaccions tèbies dels fans.",
-      "es": "Tras estrenarse la tercera temporada de la serie de Amazon Prime Video, su creador responde a las reacciones tibias de los fans."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'El senyor dels anells: Els anells de poder' pren nota, però el seu creador fa front als fans: 'No estan al comandament'",
-      "es": "'El señor de los anillos: Los anillos de poder' toma nota, pero su creador planta cara a los fans: 'No están al mando'"
     }
   },
   "https://www.20minutos.es/cinemania/series/crimen-pazos-miniserie-polaca-4-episodios-top-netflix_7064679_0.html": {
@@ -2118,19 +1429,6 @@
       "es": "'La que se avecina': ¿qué día y a qué hora se estrena el nuevo episodio de la temporada 17 en Prime Video?"
     }
   },
-  "https://www.20minutos.es/cinemania/series/que-se-avecina-temporada-17-fechas-estreno-prime-video-episodios_7062501_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La sèrie dels germans Caballero torna a Prime Video amb una temporada de 8 episodis.",
-      "es": "La serie de los hermanos Caballero regresa a Prime Video con una temporada de 8 episodios."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'La que se avecina': quants episodis té la temporada 17? Dates d'estrena a Prime Video",
-      "es": "'La que se avecina': ¿cuántos episodios tiene la temporada 17? Fechas de estreno en Prime Video"
-    }
-  },
   "https://www.20minutos.es/cinemania/series/reaccion-este-actor-linternas-despido-james-gunn-no-he-tenido-tiempo-asimilarlo_7064140_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -2181,19 +1479,6 @@
     "titulo": {
       "ca": "El creador de 'Solo asesinatos en el edificio' vol portar la sèrie a Espanya: \"M'encanta la idea\"",
       "es": "El creador de 'Solo asesinatos en el edificio' quiere llevar la serie a España: \"Me encanta la idea\""
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/ted-lasso-temporada-5-apple-tv-renueva-serie-jason-sudeikis_7065032_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La comèdia esportiva ha tornat a arrasar amb la quarta temporada, i Apple TV ha donat llum verda a una nova entrega.",
-      "es": "La comedia deportiva ha vuelto a arrasar con su cuarta temporada, y Apple TV ha dado luz verde a una nueva entrega."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Ted Lasso' tindrà temporada 5: Apple TV renova la sèrie de Jason Sudeikis després de l'estrena més reeixida de la seva història",
-      "es": "'Ted Lasso' tendrá temporada 5: Apple TV renueva la serie de Jason Sudeikis tras el estreno más exitoso de su historia"
     }
   },
   "https://www.20minutos.es/cinemania/series/tierra-mafiosos-episodios-temporada-2-fechas-estreno-skyshowtime-ultimo-episodio-23-noviembre_7036611_0.html": {
@@ -2482,19 +1767,6 @@
       "es": "La plataforma Tidal prohibirá la música generada completamente por inteligencia artificial"
     }
   },
-  "https://www.20minutos.es/musica/quien-es-maria-bonilla-joven-zaragozana-que-ha-convertido-su-cancion-ultimo-exito-tiktok_7064896_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La jove saragossana María Bonilla s'ha convertit en un èxit de TikTok amb la seva cançó Algo de interés, que ha inspirat vídeos i balls.",
-      "es": "La joven zaragozana María Bonilla se ha convertido en éxito de TikTok con su canción Algo de interés, que ha inspirado vídeos y bailes."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Qui és María Bonilla, la jove saragossana que ha convertit la seva cançó en l'últim èxit de TikTok",
-      "es": "Quién es María Bonilla, la joven zaragozana que ha convertido su canción en el último éxito de TikTok"
-    }
-  },
   "https://www.20minutos.es/musica/vetusta-morla-anuncia-su-nuevo-disco-importante-que-llegara-comienzos-2027_7065192_0.html": {
     "ambito": "espana",
     "evento": false,
@@ -2573,32 +1845,6 @@
       "es": "La cultura entra en campaña: Frente Amplio le levanta la ceja al PSOE y el PP tropieza con Vox"
     }
   },
-  "https://www.abc.es/cultura/cultural/alicatamiento-batiburrillo-obra-miki-leal-sala-alcala-20261124144742-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Una crítica comenta l'obra de Miki Leal exposada a la Sala Alcalá 31 dins de l'exposició La corriente del confort.",
-      "es": "Una crítica comenta la obra de Miki Leal expuesta en la Sala Alcalá 31 dentro de la exposición La corriente del confort."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Enrajolat i batibull de l'obra de Miki Leal a la Sala Alcalá 31",
-      "es": "Alicatamiento y batiburrillo de la obra de Miki Leal en la Sala Alcalá 31"
-    }
-  },
-  "https://www.abc.es/cultura/cultural/insensible-lionel-shriver-20261124144839-nt.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una ressenya analitza la darrera novel·la de Lionel Shriver i la seva trajectòria literària i la lluita ideològica constant.",
-      "es": "Una reseña analiza la última novela de Lionel Shriver y su trayectoria literaria y su lucha ideológica constante."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "(In)sensible Lionel Shriver",
-      "es": "(In)sensible Lionel Shriver"
-    }
-  },
   "https://www.abc.es/cultura/cultural/libros-vendidos-infantil-juvenil-semana-20261125143145-nt.html": {
     "ambito": "espana",
     "evento": false,
@@ -2610,32 +1856,6 @@
     "titulo": {
       "ca": "Els llibres més venuts d'Infantil / Juvenil aquesta setmana",
       "es": "Los libros más vendidos de Infantil / Juvenil esta semana"
-    }
-  },
-  "https://www.abc.es/cultura/cultural/lloyd-llewellynjones-ciudad-maldita-20261124144816-nt.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una ressenya presenta la monografia de Lloyd Llewellyn-Jones sobre Babilònia i la imatge de luxúria i corrupció que evoca el nom.",
-      "es": "Una reseña presenta la monografía de Lloyd Llewellyn-Jones sobre Babilonia y la imagen de lujuria y corrupción que evoca el nombre."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Lloyd Llewellyn-Jones, una ciutat maleïda",
-      "es": "Lloyd Llewellyn-Jones, una ciudad maldita"
-    }
-  },
-  "https://www.abc.es/cultura/cultural/margarita-garcia-robayo-condicion-mulata-20261124144904-nt.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una ressenya situa el nou llibre de Margarita García Robayo en diàleg amb els estudis postcolonials de Fanon i Said.",
-      "es": "Una reseña sitúa el nuevo libro de Margarita García Robayo en diálogo con los estudios poscoloniales de Fanon y Said."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Margarita García Robayo, la condició mulata",
-      "es": "Margarita García Robayo, la condición mulata"
     }
   },
   "https://www.abc.es/cultura/cultural/mauro-covacich-trieste-ciudad-identidad-huidiza-cautivadora-20261125143950-nt.html": {
@@ -2677,32 +1897,6 @@
       "es": "Frida Kahlo, cómo se transformó en fetiche capitalista y se prostituyó su legado"
     }
   },
-  "https://www.abc.es/cultura/inedito-testamento-antoni-gaudi-certificado-azana-3000-20261124095241-nt.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Es dona a conèixer el testament inèdit de Gaudí, mort el 1926, amb llegats per a la Sagrada Família, segons explica l'entradilla.",
-      "es": "Se da a conocer el testamento inédito de Gaudí, muerto en 1926, con legados para la Sagrada Familia, según relata la entradilla."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El testament inèdit d'Antoni Gaudí, certificat per Azaña: 3.000 pessetes i la seva casa del Park Güell per sufragar la Sagrada Família",
-      "es": "El inédito testamento de Antoni Gaudí, que fue certificado por Azaña: 3.000 pesetas y su casa del Park Güell para sufragar la Sagrada Familia"
-    }
-  },
-  "https://www.abc.es/cultura/musica/alejandro-sanz-regresa-espana-proximo-verano-conciertos-20261124124446-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Alejandro Sanz anuncia 12 concerts a Espanya aquest estiu dins de la seva gira '¿Y Ahora Qué+?', amb entrades ja disponibles.",
-      "es": "Alejandro Sanz anuncia 12 conciertos en España este verano dentro de su gira '¿Y Ahora Qué+?', con entradas ya disponibles."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Alejandro Sanz torna a Espanya el proper estiu amb 12 concerts confirmats",
-      "es": "Alejandro Sanz regresa a España el próximo verano con 12 conciertos confirmados"
-    }
-  },
   "https://www.abc.es/cultura/musica/blanca-paloma-cayetana-guillen-cuervo-convierten-cantantes-20261124185934-nt.html": {
     "ambito": "espana",
     "evento": false,
@@ -2716,45 +1910,6 @@
       "es": "Blanca Paloma y Cayetana Guillén Cuervo, entre otros, se convierten en cantantes de ópera"
     }
   },
-  "https://www.abc.es/cultura/musica/lang-lang-tocaba-impresionar-gente-hoy-toco-20261123020648-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El pianista Lang Lang explica en una entrevista que ja no busca ser el número u, sinó connectar amb el públic.",
-      "es": "El pianista Lang Lang explica en una entrevista que ya no busca ser el número uno, sino conectar con el público."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Lang Lang: «Fa vint anys volia ser el número u; avui toco per connectar amb la gent»",
-      "es": "Lang Lang: «Hace veinte años quería ser el número uno; hoy toco para conectar con la gente»"
-    }
-  },
-  "https://www.abc.es/cultura/musica/queen-sex-pistols-dia-operarock-zarandeo-punk-20261124100656-nt.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Amb motiu de dues efemèrides musicals, un article compara Queen i Sex Pistols, dues bandes aparentment oposades.",
-      "es": "Con motivo de dos efemérides musicales, un artículo compara a Queen y Sex Pistols, dos bandas aparentemente opuestas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Queen contra Sex Pistols, el dia que l'òpera-rock va sacsejar el punk",
-      "es": "Queen contra Sex Pistols, el día que la ópera-rock zarandeó al punk"
-    }
-  },
-  "https://www.abc.es/cultura/teatros/accidente-mortifero-historia-aviacion-sucedio-espana-llega-20261102014524-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "José Padilla presenta a Nave 10 Matadero 'Take off', obra sobre l'accident aeri de Los Rodeos de 1977.",
-      "es": "José Padilla presenta en Nave 10 Matadero 'Take off', obra sobre el accidente aéreo de Los Rodeos de 1977."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "L'accident més mortífer de la història de l'aviació va succeir a Espanya (i ara arriba al teatre)",
-      "es": "El accidente más mortífero de la historia de la aviación sucedió en España (y ahora llega al teatro)"
-    }
-  },
   "https://www.abc.es/cultura/teatros/carlos-hipolito-das-pide-escenario-siempre-fiel-20261120144205-nt.html": {
     "ambito": "espana",
     "evento": false,
@@ -2766,19 +1921,6 @@
     "titulo": {
       "ca": "Carlos Hipólito, mig segle sobre les taules: «L'escenari sempre et serà fidel; la càmera, no»",
       "es": "Carlos Hipólito, medio siglo sobre las tablas: «El escenario siempre te será fiel; la cámara, no»"
-    }
-  },
-  "https://www.abc.es/cultura/teatros/case-alegria-comedia-sobre-optimismo-ecos-pinter-20261104163309-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "S'estrena 'Me casé por alegría', obra de Natalia Ginzburg escrita fa seixanta anys.",
-      "es": "Se estrena 'Me casé por alegría', obra de Natalia Ginzburg escrita hace sesenta años."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "'Me casé por alegría', una comèdia sobre l'optimisme amb ecos de Pinter i De Filippo",
-      "es": "'Me casé por alegría', una comedia sobre el optimismo con ecos de Pinter y De Filippo"
     }
   },
   "https://www.abc.es/cultura/teatros/circo-sol-vuelve-superarse-kurios-asombro-espectaculo-20261107010005-nt.html": {
@@ -2937,32 +2079,6 @@
       "es": "Zorrilla, más allá del Tenorio: entre espadas, fantasmas y humor"
     }
   },
-  "https://www.abc.es/cultura/toros/guillermo-hermano-cambia-rumbo-ocho-anos-despues-20261124141854-nt.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El genet Guillermo Hermoso de Mendoza anuncia la fi de la seva relació amb la família Chopera i comença una nova etapa amb Juan Bautista.",
-      "es": "El jinete Guillermo Hermoso de Mendoza anuncia el fin de su relación con la familia Chopera y comienza una nueva etapa con Juan Bautista."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Guillermo Hermano canvia de rumb: vuit anys després trenca amb els Chopera i se'n va amb Juan Bautista",
-      "es": "Guillermo Hermano cambia de rumbo: ocho años después rompe con los Chopera y se va con Juan Bautista"
-    }
-  },
-  "https://www.abc.es/cultura/toros/sevilla/cuadri-partido-resina-protagonizaran-desafio-ganadero-preferia-20261123223736-nts.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Les ramaderies Cuadri i Partido de Resina lidiaran tres braus cadascuna en el desafiament ramader de la propera temporada a Sevilla.",
-      "es": "Las ganaderías Cuadri y Partido de Resina lidiarán tres toros cada una en el desafío ganadero de la próxima temporada en Sevilla."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Cuadri i Partido de Resina protagonitzaran el desafiament ramader a la preferia de Sevilla",
-      "es": "Cuadri y Partido de Resina protagonizarán el desafío ganadero en la preferia de Sevilla"
-    }
-  },
   "https://www.abc.es/cultura/toros/sevilla/curro-romero-recibe-alta-abandona-hospital-virgen-20261125130417-nts.html": {
     "ambito": "espana",
     "evento": false,
@@ -3002,32 +2118,6 @@
       "es": "Joaquín Sabina, preocupado por la salud de Curro Romero: Curro es Dios y se va a poner bueno muy pronto"
     }
   },
-  "https://www.abc.es/cultura/toros/sevilla/jose-maria-garzon-nuevos-toreros-pueden-ilusionar-20261123234043-nts.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'empresari taurí José María Garzón parla a ABC dels nous toreros i dels seus plans per a la temporada.",
-      "es": "El empresario taurino José María Garzón habla en ABC de los nuevos toreros y de sus planes para la temporada."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "José María Garzón: «Hi ha nous toreros que poden il·lusionar i aquest any vull que hi siguin la majoria»",
-      "es": "José María Garzón: «Hay nuevos toreros que pueden ilusionar y este año quiero que estén la mayoría»"
-    }
-  },
-  "https://www.abc.es/cultura/toros/sevilla/venta-antequera-expondra-corridas-proxima-feria-abril-20261124101116-nts.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La Reial Venta d'Antequera exhibirà durant 18 dies els toros de la pròxima Fira d'Abril, per primera vegada en gairebé 40 anys.",
-      "es": "La Real Venta de Antequera exhibirá durante 18 días los toros de la próxima Feria de Abril, por primera vez en casi 40 años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La Venta de Antequera exposarà les corrides de la pròxima Fira d'Abril durant 18 dies",
-      "es": "La Venta de Antequera expondrá las corridas de la próxima Feria de Abril durante 18 días"
-    }
-  },
   "https://www.abc.es/cultura/urtasun-aprueba-reglamento-museos-cinco-dias-29n-20261124175752-nt.html": {
     "ambito": "espana",
     "evento": false,
@@ -3039,32 +2129,6 @@
     "titulo": {
       "ca": "Urtasun aprova el reglament de museus a cinc dies del 29N sense un pla contra els robatoris",
       "es": "Urtasun aprueba el reglamento de museos a cinco días del 29N sin un plan contra los robos"
-    }
-  },
-  "https://www.americantheatre.org/2026/11/05/hermitage-harold-prince-and-abbott-awards-medina-prize-and-more/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Recopilació de premis, beques i altres reconeixements.",
-      "es": "Recopilación de premios, becas y otros reconocimientos."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Premis Hermitage, Harold Prince i Abbott, Premi Medina i més",
-      "es": "Premios Hermitage, Harold Prince y Abbott, Premio Medina y más"
-    }
-  },
-  "https://www.americantheatre.org/2026/11/05/mena-theatremakers-we-can-make-the-home-weve-been-looking-for/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "El discurs de benvinguda d'una recent trobada de creadors teatrals MENA planteja noves possibilitats de col·laboració i organització.",
-      "es": "El discurso de bienvenida de un reciente encuentro de creadores teatrales MENA plantea nuevas posibilidades de colaboración y organización."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Creadors de teatre MENA: podem construir la llar que hem buscat",
-      "es": "Creadores de teatro MENA: podemos construir el hogar que hemos buscado"
     }
   },
   "https://www.americantheatre.org/2026/11/09/who-shapes-our-stories-a-gender-parity-study-has-receipts/": {
@@ -3366,19 +2430,6 @@
       "es": "Antoni Gaudí murió con 3.000 pesetas en el banco y la casa del Park Güell"
     }
   },
-  "https://www.ara.cat/cultura/arquitectura/catedra-gaudi-crea-cercle-paranimf-impulsar-recerca-preservar-llegat-l-arquitecte_25_5922211.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "La Càtedra Gaudí de la UPC crea el Cercle Paranimf, una iniciativa de mecenatge per impulsar la recerca, la conservació i la difusió del llegat de Gaudí.",
-      "es": "La Cátedra Gaudí de la UPC crea el Círculo Paranimf, una iniciativa de mecenazgo para impulsar la investigación, la conservación y la difusión del legado de Gaudí."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La Càtedra Gaudí crea el Cercle Paranimf per impulsar la recerca i preservar el llegat de l'arquitecte",
-      "es": "La Cátedra Gaudí crea el Círculo Paranimf para impulsar la investigación y preservar el legado del arquitecto"
-    }
-  },
   "https://www.ara.cat/cultura/arquitectura/ombra-improbable-transforma-placa-joan-coromines-espai-trobada-descans_1_5920320.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -3613,19 +2664,6 @@
       "es": "«Nadie nos ha regalado nada»: 50 años de lucha LGBTIQ+ en la Model"
     }
   },
-  "https://www.ara.cat/cultura/mes-d-milio-peces-lego-donen-vida-l-exposicio-art-of-the-brick_25_5921603.html": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "La mostra de Nathan Sawaya es pot visitar a l’Espai Inmersa de Barcelona fins al 10 de gener, amb més de dos milions de visitants.",
-      "es": "La muestra de Nathan Sawaya puede visitarse en el Espai Inmersa de Barcelona hasta el 10 de enero, con más de dos millones de visitantes."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Més d’un milió de peces Lego donen vida a l’exposició ‘Art of the brick’",
-      "es": "Más de un millón de piezas Lego dan vida a la exposición ‘Art of the brick’"
-    }
-  },
   "https://www.ara.cat/cultura/musica/competir-raja-falda-guerra-perduda_1_5917420.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -3663,19 +2701,6 @@
     "titulo": {
       "ca": "“És un plaer celebrar-te, Paco (Ibáñez)”",
       "es": "“Es un placer celebrarte, Paco (Ibáñez)”"
-    }
-  },
-  "https://www.ara.cat/cultura/musica/pol-batlle-obre-cicle-escenes-l-auditori-flor-deu-dies-28-29-novembre_25_5921711.html": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "Pol Batlle inaugura el cicle Escenes a l’Auditori amb un espectacle escènic i musical sobre la memòria i l’Alzheimer atípic de la seva mare.",
-      "es": "Pol Batlle inaugura el ciclo Escenes en el Auditori con un espectáculo escénico y musical sobre la memoria y el Alzheimer atípico de su madre."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Pol Batlle obre el cicle ‘Escenes’ de L’Auditori amb ‘La Flor de Déu’ els dies 28 i 29 de novembre",
-      "es": "Pol Batlle abre el ciclo ‘Escenes’ de L’Auditori con ‘La Flor de Déu’ los días 28 y 29 de noviembre"
     }
   },
   "https://www.ara.cat/cultura/musica/rosalia-triomfa-gran-festival-los40-music-awards_1_5918150.html": {
@@ -3728,19 +2753,6 @@
     "titulo": {
       "ca": "«Estic viu i faré música: em pensava que no podria dir-ho més»",
       "es": "«Estoy vivo y haré música: pensaba que no podría decirlo más»"
-    }
-  },
-  "https://www.ara.cat/cultura/opera/jordi-savall-necessitem-politics-siguin-justos_1_5915925.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Jordi Savall, en una roda de premsa al Gran Teatre del Liceu, posa com a exemple l'òpera «La clemenza di Tito» per parlar del bon polític.",
-      "es": "Jordi Savall, en una rueda de prensa en el Gran Teatre del Liceu, pone como ejemplo la ópera «La clemenza di Tito» para hablar del buen político."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Jordi Savall: «Necessitem que els polítics siguin justos»",
-      "es": "Jordi Savall: «Necesitamos que los políticos sean justos»"
     }
   },
   "https://www.ara.cat/cultura/patrimoni/gracies-adolescent-troben-marededeu-romanica-robada-cinc-decades_1_5917000.html": {
@@ -3951,19 +2963,6 @@
       "es": "La Junta Electoral, con carta blanca contra Intxaurrondo"
     }
   },
-  "https://www.ara.cat/media/series/serie-rodada-catalunya-recupera-titol-classic-ciencia-ficcio_1_5921315.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Prime Video estrena la minisèrie Blade Runner 2099, rodada a Catalunya, basada en l'obra de Philip K. Dick.",
-      "es": "Prime Video estrena la miniserie Blade Runner 2099, rodada en Cataluña, basada en la obra de Philip K. Dick."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La sèrie rodada a Catalunya que recupera un títol clàssic de la ciència-ficció",
-      "es": "La serie rodada en Cataluña que recupera un título clásico de la ciencia ficción"
-    }
-  },
   "https://www.ara.cat/media/tv/colau-albiol-l-ultim-perroflauta_129_5922585.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -3975,45 +2974,6 @@
     "titulo": {
       "ca": "Colau, Albiol i l'últim ‘perroflauta’",
       "es": "Colau, Albiol y el último 'perroflauta'"
-    }
-  },
-  "https://www.ara.cat/societat/immigracio/espanya-bat-record-rescats-mar-sol-dia-2-100-immigrants-mes-arriben-hierro_1_5922111.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Salvament Marítim va rescatar 2.100 immigrants en quinze pateres procedents del Senegal i Gàmbia a El Hierro, la xifra més alta en un dia.",
-      "es": "Salvamento Marítimo rescató 2.100 inmigrantes en quince cayucos procedentes de Senegal y Gambia en El Hierro, la cifra más alta en un día."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Espanya bat el seu rècord de rescats al mar en un sol dia: 2.100 immigrants més arriben a El Hierro",
-      "es": "España bate su récord de rescates en el mar en un solo día: 2.100 inmigrantes más llegan a El Hierro"
-    }
-  },
-  "https://www.ara.cat/societat/neu-sorpresa-prades-emblanquina-muntanyes-prelitoral_1_5922706.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "La cota de neu baixa de cop per l'arribada d'una massa d'aire polar, que deixa un ambient hivernal.",
-      "es": "La cota de nieve baja de forma brusca tras la llegada de una masa de aire polar, que deja un ambiente invernal."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La neu arriba per sorpresa a Prades i emblanqueix algunes muntanyes del prelitoral",
-      "es": "La nieve llega por sorpresa a Prades y blanquea algunas montañas del prelitoral"
-    }
-  },
-  "https://www.ara.cat/societat/violencia-masclista/crims-masclistes-ple-25-n-detingut-cadis-fugitiu-murcia_1_5922734.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Dos nous crims masclistes a l'Estat surten a la llum el Dia Internacional per l'Eliminació de la Violència contra les Dones; ja són 47 dones mortes aquest any.",
-      "es": "Dos nuevos crímenes machistas en España salen a la luz el Día Internacional contra la Violencia hacia las Mujeres, y ya suman 47 mujeres muertas este año."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Dos crims masclistes en ple 25-N: un detingut a Cadis i un fugitiu a Múrcia",
-      "es": "Dos crímenes machistas en pleno 25-N: un detenido en Cádiz y un fugitivo en Murcia"
     }
   },
   "https://www.elconfidencial.com/cultura/2026-11-24/gira-alejandro-sanz-espana-2027-entradas_4469173/": {
@@ -4040,84 +3000,6 @@
     "titulo": {
       "ca": "Gisèle Pelicot denuncia l'ús d'imatges íntimes sense la seva autorització per promocionar un llibre",
       "es": "Gisèle Pelicot denuncia el uso de imágenes íntimas sin su autorización para promocionar un libro"
-    }
-  },
-  "https://www.elconfidencial.com/cultura/2026-11-24/libro-recomienda-perez-reverte-1qrt_4471277/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptor Pérez Reverte comparteix una de les seves darreres lectures i ofereix una pista sobre el futur d'un dels seus personatges.",
-      "es": "El escritor Pérez Reverte comparte una de sus últimas lecturas y ofrece una pista sobre el futuro de uno de sus personajes."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El llibre que recomana Pérez Reverte: Quina felicitat gaudir...",
-      "es": "El libro que recomienda Pérez Reverte: Qué felicidad disfrutar..."
-    }
-  },
-  "https://www.elconfidencial.com/cultura/2026-11-24/mad-cool-zurich-nueva-grada-1tps_4471541/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El festival Mad Cool canviarà de nom i afegirà una grada gratuïta per a 23.000 assistents en l'edició de 2027.",
-      "es": "El festival Mad Cool cambiará de nombre y añadirá una grada gratuita para 23.000 asistentes en su edición de 2027."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El festival Mad Cool canvia de nom i incorpora una gran grada per als concerts",
-      "es": "El festival Mad Cool cambia de nombre e incorpora una gran grada para los conciertos"
-    }
-  },
-  "https://www.elconfidencial.com/cultura/2026-11-24/martin-caparros-entrevista-cbtrntrv_4467902/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptor Martín Caparrós, malalt d'ELA, parla del seu nou assaig i de la situació política en una entrevista.",
-      "es": "El escritor Martín Caparrós, enfermo de ELA, habla de su nuevo ensayo y de la situación política en una entrevista."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Martín Caparrós i els seus 50 anys de periodisme: «Vull seguir viu mentre estigui viu i per això estic escrivint com un posseït»",
-      "es": "Martín Caparrós y sus 50 años de periodismo: «Quiero seguir vivo mientras esté vivo y por eso estoy escribiendo como un poseso»"
-    }
-  },
-  "https://www.elconfidencial.com/cultura/2026-11-24/michele-del-campo-v-premio-almuzara-de-pintura_4471270/": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "L'editorial Almuzara lliura a Barcelona el seu premi de pintura, amb l'obra guanyadora de Michele del Campo i dos accèssits.",
-      "es": "La editorial Almuzara entrega en Barcelona su premio de pintura, cuya obra ganadora es de Michele del Campo, con dos accésits."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "L'italià Michele del Campo guanya el V Premi Almuzara de Pintura amb Ventana al mar",
-      "es": "El italiano Michele del Campo gana el V Premio Almuzara de Pintura con Ventana al mar"
-    }
-  },
-  "https://www.elconfidencial.com/cultura/2026-11-24/muere-ej-carroll-actor-gta-1qrt_4471320/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Mor als 66 anys l'actor nord-americà E.J. Carroll després de patir una embòlia pulmonar camí d'una sessió de gravació.",
-      "es": "Muere a los 66 años el actor estadounidense E.J. Carroll tras sufrir una embolia pulmonar camino de una sesión de grabación."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Mor l'actor E.J. Carroll: va aparèixer en pel·lícules com Llei i ordre i va donar vida a diversos personatges de Grand Theft Auto V",
-      "es": "Muere el actor E.J. Carroll: apareció en películas como Ley y Orden y dio vida a varios personajes del Grand Theft Auto V"
-    }
-  },
-  "https://www.elconfidencial.com/cultura/2026-11-24/paco-cerda-libro-europeo_4471688/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptor Paco Cerdá guanya el Premi al Millor Llibre Europeu amb Presentes, novel·la sobre l'enterrament de José Antonio Primo de Rivera.",
-      "es": "El escritor Paco Cerdá gana el Premio al Mejor Libro Europeo con Presentes, novela sobre el entierro de José Antonio Primo de Rivera."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Paco Cerdá guanya el Premi al Millor Llibre Europeu per Presentes, un retrat de l'enterrament de José Antonio",
-      "es": "Paco Cerdá gana el Premio al Mejor Libro Europeo por Presentes, un retrato del entierro de José Antonio"
     }
   },
   "https://www.elconfidencial.com/cultura/2026-11-25/agricultores-neolitico-caza-lago-mediterraneo-1qrt_4355960/": {
@@ -4237,32 +3119,6 @@
       "es": "Alícia Puig: «Si la extrema derecha llega al poder y expulsa al último musulmán de Cataluña, seguirás viviendo mal»"
     }
   },
-  "https://www.elcritic.cat/entrevistes/merce-alaball-vivim-en-la-cultura-del-zasca-veiem-escuma-del-conflicte-pero-no-les-arrels-282404": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Mercè Alaball reflexiona sobre com la societat gestiona els conflictes i la rendibilitat de la polarització.",
-      "es": "Mercè Alaball reflexiona sobre cómo la sociedad gestiona los conflictos y la rentabilidad de la polarización."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Mercè Alaball: \"Vivim en la cultura del 'zasca': veiem l'escuma del conflicte, però no les arrels\"",
-      "es": "Mercè Alaball: \"Vivimos en la cultura del 'zasca': vemos la espuma del conflicto, pero no las raíces\""
-    }
-  },
-  "https://www.elcritic.cat/entrevistes/noelia-karanezi-a-espanya-tots-els-partits-desquerres-en-el-fons-sobretot-son-espanyols-286061": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Entrevista a Noelia Karanezi sobre la política del Govern espanyol i la pacificació a Catalunya després del procés.",
-      "es": "Entrevista a Noelia Karanezi sobre la política del Gobierno español y la pacificación en Cataluña tras el procés."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Noelia Karanezi: «A Espanya, tots els partits d'esquerres, en el fons, sobretot són espanyols»",
-      "es": "Noelia Karanezi: “En España, todos los partidos de izquierdas, en el fondo, sobre todo son españoles”"
-    }
-  },
   "https://www.elcritic.cat/opinio/eva-vilaseca/que-mes-ha-de-passar-perque-ecologisme-entri-en-campanya-286579": {
     "ambito": "espana",
     "evento": false,
@@ -4302,19 +3158,6 @@
       "es": "Defender la industria es defender Cataluña"
     }
   },
-  "https://www.elcritic.cat/opinio/ricard-goma/esperanca-per-disputar-el-futur-286055": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Article d'opinió que sosté que la bombolla reaccionària perd força i que barris de Nova York i Berlín porten l'esquerra urbana al govern.",
-      "es": "Artículo de opinión que sostiene que la bburbuja reaccionaria pierde fuerza y que barrios de Nueva York y Berlín llevan la izquierda urbana al gobierno."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Esperança per disputar el futur",
-      "es": "Esperanza para disputar el futuro"
-    }
-  },
   "https://www.elcritic.cat/opinio/safia-el-aaddam/votar-es-un-privilegi-que-milions-de-persones-no-tenen-si-no-el-vols-exercir-cedeix-lo-286558": {
     "ambito": "espana",
     "evento": false,
@@ -4352,19 +3195,6 @@
     "titulo": {
       "ca": "L'Ajuntament del PP a Pinto cancel·la cinc obres de teatre sobre Lorca, dones anarquistes o el monòleg de José Sacristán",
       "es": "El Ayuntamiento del PP en Pinto cancela cinco obras de teatro sobre Lorca, mujeres anarquistas o el monólogo de José Sacristán"
-    }
-  },
-  "https://www.eldiario.es/cultura/teatro/cgt-convoca-concentracion-frente-teatro-real-vulnerar-derecho-huelga-trabajadores_1_13641351.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El sindicat denuncia que el Teatre Real va traslladar una funció per impedir l'exercici del dret de vaga del dia 11 de novembre.",
-      "es": "El sindicato denuncia que el Teatro Real trasladó una función para impedir el ejercicio del derecho a huelga del día 11 de noviembre."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "CGT convoca una concentració davant del Teatre Real per vulnerar el dret de vaga dels seus treballadors",
-      "es": "CGT convoca una concentración frente al Teatro Real por vulnerar el derecho a huelga de sus trabajadores"
     }
   },
   "https://www.eldiario.es/cultura/teatro/coreografo-espanol-triunfado-mundo-descarga-tormenta-intima-tormentos_129_13686782.html": {
@@ -4443,19 +3273,6 @@
     "titulo": {
       "ca": "La promesa de Flotats a Gary",
       "es": "La promesa de Flotats a Gary"
-    }
-  },
-  "https://www.elmundo.es/cultura/2026/11/19/6afd8bd2fc6c83b8598b4585.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Anàlisi de com les retallades de menys d'un minut del cara a cara entre Sánchez i Feijóo marcaran el resultat.",
-      "es": "Análisis de cómo los cortes de menos de un minuto del cara a cara entre Sánchez y Feijóo marcarán el resultado."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El cara a cara entre Sánchez i Feijóo i la política del casito: qui farà millor el pi?",
-      "es": "El cara a cara entre Sánchez y Feijóo y la política del casito: ¿quién hará mejor el pino?"
     }
   },
   "https://www.elmundo.es/cultura/2026/11/20/6afda9c0fc6c8351708b458d.html": {
@@ -4612,45 +3429,6 @@
     "titulo": {
       "ca": "Mor als 98 anys l’actriu Delfina Guzmán, icona del cinema i el teatre xilens",
       "es": "Muere a los 98 años la actriz Delfina Guzmán, icono del cine y el teatro chilenos"
-    }
-  },
-  "https://www.elmundo.es/cultura/arte/2026/11/21/6b0186f0e85ece10568b4579.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Aitor Esteban reclama traslladar el 'Guernica' a Euskadi, malgrat els informes que desaconsellen moure l'obra per la seva fragilitat.",
-      "es": "Aitor Esteban reclama trasladar el 'Guernica' a Euskadi, pese a los informes que desaconsejan mover la obra por su fragilidad."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El PNV reobre la batalla per portar el 'Guernica' a Bilbao en plena campanya del 29-N: «Hauria d'estar ja a Euskadi, a casa»",
-      "es": "El PNV reabre la batalla para llevar el 'Guernica' a Bilbao en plena campaña del 29-N: «Debería estar ya en Euskadi, en casa»"
-    }
-  },
-  "https://www.elmundo.es/cultura/cine/2026/11/18/6af32dc6fdddff6e448b4577.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Macarena Gómez defensa que la cultura no és patrimoni de l'esquerra i que el seu posicionament no afecta el treball al cinema.",
-      "es": "Macarena Gómez defiende que la cultura no es patrimonio de la izquierda y que su posicionamiento no afecta al trabajo en el cine."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Macarena Gómez: \"Associar la cultura amb l'esquerra és un error majúscul. Els que no som socialistes també la volem i la defensem\"",
-      "es": "Macarena Gómez: \"Asociar la cultura con la izquierda es un grandísimo error. Los que no somos socialistas también la queremos y la defendemos\""
-    }
-  },
-  "https://www.elmundo.es/cultura/cine/2026/11/19/6afde0a6e9cf4ad7738b45a7.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora Jane Schoenbrun presenta la seva darrera pel·lícula com a declaració sobre la seva transició i els límits del cinema.",
-      "es": "La directora Jane Schoenbrun presenta su última película como declaración sobre su transición y los límites del cine."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Jane Schoenbrun, directora de 'Adolescencia, sexo i mort al campament Miasma': \"La meva transició ha fet que tingués una segona pubertat als 30 anys\"",
-      "es": "Jane Schoenbrun, directora de 'Adolescencia, sexo y muerte en campamento Miasma': \"Mi transición ha hecho que tuviera una segunda pubertad a los 30 años\""
     }
   },
   "https://www.elmundo.es/cultura/cine/2026/11/19/6afde19ee4d4d839248b4588.html": {
@@ -4952,45 +3730,6 @@
       "es": "La cara repugnante de la literatura"
     }
   },
-  "https://www.elmundo.es/cultura/musica/2026/11/18/6af752a621efa0b5278b459c.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'artista grancanari La Pantera estrena nou disc i gira, Filipenses, explorant la humilitat i l'evolució musical.",
-      "es": "El artista grancanario La Pantera estrena nuevo disco y gira, Filipenses, explorando la humildad y la evolución musical."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La Pantera, la veu de la nova generació canària: \"El meu problema és que em costa creure's l'èxit i assumir l'subidó de l'artista\"",
-      "es": "La Pantera, la voz de la nueva generación canaria: \"Mi problema es que me cuesta creerme el éxito y asumir el subidón del artista\""
-    }
-  },
-  "https://www.elmundo.es/cultura/musica/2026/11/18/6afd91a2fc6c83fa228b4585.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El jutge Antonio Piña admet la querella contra Julio Iglesias per delictes sexuals i rebutja l'acusació de tràfic de persones.",
-      "es": "El juez Antonio Piña admite la querella contra Julio Iglesias por delitos sexuales y rechaza la acusación de trata."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "L'Audiència Nacional admet la querella contra Julio Iglesias per delictes contra la llibertat sexual i cita les querellants al febrer",
-      "es": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual y cita a las querellantes en febrero"
-    }
-  },
-  "https://www.elmundo.es/cultura/musica/2026/11/18/6afda981fc6c8362338b457f.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Antonio Roma, flamenc generat amb intel·ligència artificial, actuarà en una sala de Madrid per 25 euros.",
-      "es": "Antonio Roma, flamenco generado con inteligencia artificial, actuará en una sala de Madrid por 25 euros."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Qui és Antonio Roma? El cantant que no existeix, té 185.000 oients a Spotify i farà un concert",
-      "es": "¿Quién es Antonio Roma? El cantante que no existe, tiene 185.000 oyentes en Spotify y dará un concierto"
-    }
-  },
   "https://www.elmundo.es/cultura/musica/2026/11/19/6afebc8bfc6c83b8598b45b1.html": {
     "ambito": "espana",
     "evento": false,
@@ -5160,19 +3899,6 @@
       "es": "Álvaro Núñez, invitado de honor del Club Taurino Italiano: la nobleza forma parte inseparable de la bravura"
     }
   },
-  "https://www.elmundo.es/la-lectura/2026/11/16/6aedbf83e85ece57498b4588.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El teatre María Guerrero acull Magda, una peça de Chela de Ferrari que revisa la figura de Magda Goebbels i explora la por i el fanatisme.",
-      "es": "El teatro María Guerrero acoge Magda, una pieza de Chela de Ferrari que revisa la figura de Magda Goebbels y explora el miedo y el fanatismo."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Un filicidi del passat que ressona en el present: immigrants, titelles i crítica social per escenificar la solució final de la dona de Goebbels",
-      "es": "Un filicidio del pasado que resuena en el presente: inmigrantes, marionetas y crítica social para escenificar la solución final de la mujer de Goebbels"
-    }
-  },
   "https://www.elmundo.es/la-lectura/2026/11/18/6af5a593fdddff3a7f8b4596.html": {
     "ambito": "espana",
     "evento": false,
@@ -5277,45 +4003,6 @@
       "es": "Roberto Enríquez: \"Es vergonzoso que un tipo como Trump se haya conseguido sacudir de encima lo de Epstein\""
     }
   },
-  "https://www.espinof.com/actores-y-actrices/mahershala-ali-asegura-que-sus-dos-oscars-no-significan-nada-nadie-escribe-algo-para-ti-estas-como-todo-mundo-esperando-mirando-buscando": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actor, amb dos Oscars, afirma que troba dificultats per aconseguir feina malgrat la seva trajectòria.",
-      "es": "El actor, con dos Oscars, afirma que encuentra dificultades para conseguir trabajo pese a su trayectoria."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Mahershala Ali, guanyador de dos Oscars, afirma que té dificultats per trobar feina: \"Hi ha més bons actors que bons guions\"",
-      "es": "Mahershala Ali, ganador de dos Oscars, afirma que tiene dificultades para encontrar trabajo: \"Hay más buenos actores que buenos guiones\""
-    }
-  },
-  "https://www.espinof.com/actores-y-actrices/puto-gandalf-anya-taylor-joy-se-quedo-palabras-cuando-vio-a-ian-mckellen-rodaje-senor-anillos-the-hunt-for-gollum": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Anya Taylor-Joy va viure un moment de starstruck en trobar-se una estrella al plató de 'El Senyor dels Anells: The Hunt for Gollum'.",
-      "es": "Anya Taylor-Joy vivió un momento de starstruck al encontrarse con una estrella en el set de 'El Señor de los Anillos: The Hunt for Gollum'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "La trobada a 'El senyor dels anells: The Hunt for Gollum' que va deixar sense paraules Anya Taylor-Joy: «No estava preparada»",
-      "es": "El encuentro en ‘El señor de los anillos: The Hunt for Gollum’ que dejó sin palabras a Anya Taylor-Joy: “No estaba preparada”"
-    }
-  },
-  "https://www.espinof.com/actores-y-actrices/russell-crowe-exigio-cambio-valor-millon-dolares-sus-mejores-peliculas-fue-buena-inversion": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Russell Crowe defensa que rodar en ordre cronològic, tot i ser car, va valer la pena en una de les seves millors pel·lícules.",
-      "es": "Russell Crowe defiende que rodar en orden cronológico, aunque caro, mereció la pena en una de sus mejores películas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Russell Crowe va exigir un canvi per valor d'un milió de dòlars en una de les seves millors pel·lícules: \"Va ser una bona inversió\"",
-      "es": "Russell Crowe exigió un cambió por valor de un millón de dólares en una de sus mejores películas: \"Fue una buena inversión”"
-    }
-  },
   "https://www.espinof.com/actores-y-actrices/sean-hepburn-ferrer-66-anos-hijo-audrey-hepburn-su-sentido-humor-forjado-sotano-paises-bajos-ayudo-a-superar-muchos-dias-oscuros": {
     "ambito": "mundo",
     "evento": false,
@@ -5342,19 +4029,6 @@
       "es": "Stephen Bogart, hijo de Humphrey Bogart: \"Los niños eran secundarios, él prefería la bebida, el tabaco, las risas y las fiestas\""
     }
   },
-  "https://www.espinof.com/anime/3-dias-regresa-mayores-franquicias-anime-historia-llega-a-cines-pelicula-definitiva-para-recuperar-esta-magnifica-tragedia-adolescente": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Tretze anys després, les magical girls de 'Madoka Magica' tornen en una quarta pel·lícula que arriba als cinemes.",
-      "es": "Trece años después, las magical girls de 'Madoka Magica' regresan en una cuarta película que llega a los cines."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "En 3 dies torna una de les majors franquícies d'anime de la història. Arriba als cinemes la pel·lícula definitiva per recuperar aquesta magnífica tragèdia adolescent",
-      "es": "En 3 días regresa una de las mayores franquicias de anime de la historia. Llega a cines la película definitiva para recuperar esta magnífica tragedia adolescente"
-    }
-  },
   "https://www.espinof.com/anime/frieren-prepara-su-primer-gran-spin-off-inminente-precuela-que-explorara-capitulo-desconocido-ahora": {
     "ambito": "mundo",
     "evento": false,
@@ -5366,45 +4040,6 @@
     "titulo": {
       "ca": "'Frieren' prepara el seu primer gran spin-off. Una imminent precuela que explorarà un capítol desconegut fins ara",
       "es": "'Frieren' prepara su primer gran spin-off. Una inminente precuela que explorará un capítulo desconocido hasta ahora"
-    }
-  },
-  "https://www.espinof.com/criticas/disney-deja-su-magia-lado-juega-a-ser-dreamworks-hechizo-bienvenidos-a-hexe-aventura-entretenida-como-poco-memorable": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La nova pel·lícula animada de Disney és una aventura entretinguda però poc memorable, en un context de competència creixent.",
-      "es": "La nueva película animada de Disney es una aventura entretenida pero poco memorable, en un contexto de creciente competencia."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Disney deixa de banda la seva màgia i juga a ser Dreamworks. 'Hechizo: Bienvenidos a Hexe' és una aventura tan entretinguda com poc memorable",
-      "es": "Disney deja su magia de lado y juega a ser Dreamworks. 'Hechizo: Bienvenidos a Hexe' es una aventura tan entretenida como poco memorable"
-    }
-  },
-  "https://www.espinof.com/directores-y-guionistas/absurdos-cambios-que-netflix-quiso-hacer-mindhunter-que-david-fincher-rechazo-dudarlo-no-hare-no-creo-que-querais-que-haga": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "David Fincher es va negar als canvis que Netflix volia a 'Mindhunter', una sèrie que considera una de les millors del segle XXI.",
-      "es": "David Fincher se negó a los cambios que Netflix quería en 'Mindhunter', una serie que considera una de las mejores del siglo XXI."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "100 milions per temporada. Netflix va voler canviar 'Mindhunter', però David Fincher es va negar: \"Algun cop perseguiran algú amb una pistola a la mà?\"",
-      "es": "100 millones por temporada. Netflix quiso cambiar 'Mindhunter', pero David Fincher se negó: \"¿Alguna vez perseguirán a alguien con una pistola en la mano?\""
-    }
-  },
-  "https://www.espinof.com/directores-y-guionistas/creadores-yellowjackets-adelantan-como-sera-final-serie-optamos-intentar-meterlo-todo": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Els creadors confirmen que la quarta temporada serà l'última de la sèrie i expliquen la seva decisió d'incloure-hi tot.",
-      "es": "Los creadores confirman que la cuarta temporada será la última de la serie y explican su decisión de incluir todo en ella."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Els creadors de 'Yellowjackets' parlen del final de la sèrie: \"Vam optar per intentar-ho ficar tot\"",
-      "es": "Los creadores de 'Yellowjackets' hablan sobre el final de la serie: \"Optamos por intentar meterlo todo\""
     }
   },
   "https://www.espinof.com/directores-y-guionistas/francis-lawrence-quiere-peliculas-juegos-hambre-tiene-a-posibles-protagonistas-tendra-que-esperar-todo-empieza-ella": {
@@ -5433,32 +4068,6 @@
       "es": "'Vengadores: Doomsday' marcará la última aparición en pantalla de Patrick Stewart, y el actor lo sabía perfectamente: \"Es la consciencia de la película\""
     }
   },
-  "https://www.espinof.com/estrenos/amanecer-cosecha-incluye-referencia-a-edgar-allan-poe-que-cambia-completo-significado-personaje-universo-juegos-hambre": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La nova pel·lícula de Francis Lawrence recupera una referència literària a Poe que connecta la història de Haymitch Abernathy amb un clàssic.",
-      "es": "La nueva película de Francis Lawrence recupera una referencia literaria a Poe que conecta la historia de Haymitch Abernathy con un clásico."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'L'alba de la collita' inclou una referència a Edgar Allan Poe que canvia del tot el significat d'un personatge a l'univers de 'Els jocs de la fam'",
-      "es": "'Amanecer en la cosecha' incluye una referencia a Edgar Allan Poe que cambia por completo el significado de un personaje en el universo de 'Los juegos del hambre'"
-    }
-  },
-  "https://www.espinof.com/estrenos/estrenos-25-noviembre-series-peliculas-documentales-netflix-prime-video-hbo-max-disney-plus-movistar-plus-apple-tv-skyshowtime": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Llistat d'estrenys audiovisuals en diverses plataformes de streaming per al 25 de novembre.",
-      "es": "Listado de estrenos audiovisuales en diversas plataformas de streaming para el 25 de noviembre."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Estrenes (25 de novembre). 56 sèries, pel·lícules i documentals a Netflix, Prime Video, HBO Max, Disney+, Movistar Plus, Apple TV i SkyShowtime",
-      "es": "Estrenos (25 de noviembre). 56 series, películas y documentales en Netflix, Prime Video, HBO Max, Disney+, Movistar Plus, Apple TV y SkyShowtime"
-    }
-  },
   "https://www.espinof.com/estrenos/hoy-se-estrena-cines-secuela-obra-maestra-tarantino-casi-nadie-podra-verla-gran-pantalla": {
     "ambito": "mundo",
     "evento": false,
@@ -5483,19 +4092,6 @@
     "titulo": {
       "ca": "La nova pel·lícula de Penélope Cruz està provocant que la gent es divorcii: \"Algunes persones fins i tot ens escriuen per donar-nos les gràcies\"",
       "es": "La nueva película de Penélope Cruz está provocando que la gente se divorcie: \"Algunas personas incluso nos escriben para darnos las gracias\""
-    }
-  },
-  "https://www.espinof.com/listas/4-mejores-peliculas-nuevas-amazon-prime-video-noviembre-2026-uno-mejores-trabajos-ben-affleck-thriller-brad-pitt-muy-entretenido": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Repàs mensual de les quatre millors pel·lícules noves del catàleg d'Amazon Prime Video, amb títols recents i un clàssic.",
-      "es": "Repaso mensual de las cuatro mejores películas nuevas del catálogo de Amazon Prime Video, con títulos recientes y un clásico."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Les 4 millors pel·lícules noves d'Amazon Prime Video el novembre de 2026. Una de les millors obres de Ben Affleck, un thriller de Brad Pitt molt entretingut i més",
-      "es": "Las 4 mejores películas nuevas de Amazon Prime Video en noviembre de 2026. Uno de los mejores trabajos de Ben Affleck, un thriller de Brad Pitt muy entretenido y más"
     }
   },
   "https://www.espinof.com/netflix/ultima-oportunidad-para-ver-netflix-pelicula-supervivencia-brutal-que-gano-uno-oscars-esperados-historia": {
@@ -5524,45 +4120,6 @@
       "es": "Hay una miniserie en Netflix que ha sido vista más de 85 millones de veces desde su lanzamiento: es alemana y se ve en una tarde"
     }
   },
-  "https://www.espinof.com/series-de-ficcion/oficial-amazon-renueva-senor-anillos-anillos-poder-temporada-4-confirma-continuidad-sus-showrunners": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Amazon renova 'El Senyor dels Anells: Els anells de poder' per a una quarta temporada i manté els seus showrunners.",
-      "es": "Amazon renueva 'El Señor de los Anillos: Los anillos de poder' para una cuarta temporada y mantiene a sus showrunners."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Ja és oficial. Amazon renova 'El Senyor dels Anells: Els anells de poder' per una quarta temporada i confirma la continuïtat dels seus showrunners",
-      "es": "Ya es oficial. Amazon renueva 'El Señor de los Anillos: Los anillos de poder' por una temporada 4 y confirma la continuidad de sus showrunners"
-    }
-  },
-  "https://www.europapress.es/cultura/cine-00128/noticia-javier-gutierrez-miryam-gallego-llaman-votar-29n-todavia-quedan-minutos-partido-jugar-20261124173425.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Els actors Javier Gutiérrez i Miryam Gallego demanen votar i protagonitzen Caldas. El último barco, sèrie de Disney+.",
-      "es": "Los actores Javier Gutiérrez y Miryam Gallego piden votar y protagonizan Caldas. El último barco, serie de Disney+."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Javier Gutiérrez i Miryam Gallego criden a votar el 29N: Encara queden minuts de partit per jugar",
-      "es": "Javier Gutiérrez y Miryam Gallego llaman a votar el 29N: Todavía quedan minutos de partido que jugar"
-    }
-  },
-  "https://www.europapress.es/cultura/cine-00128/noticia-karla-sofia-evita-sumarse-voto-bardem-no-tengo-dar-explicaciones-quien-voy-votar-no-quien-creen-20261125153426.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actriu Karla Sofía Gascón evita sumar-se a la crida de Javier Bardem i Rodrigo Sorogoyen per votar Frente Amplio.",
-      "es": "La actriz Karla Sofía Gascón evita sumarse al llamamiento de Javier Bardem y Rodrigo Sorogoyen para votar a Frente Amplio."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Karla Sofía evita sumar-se al vot de Bardem: \"No he de donar explicacions de a qui votaré. No a qui creuen\"",
-      "es": "Karla Sofía evita sumarse al voto de Bardem: \"No tengo que dar explicaciones de a quién voy a votar. No a quien creen\""
-    }
-  },
   "https://www.europapress.es/cultura/exposiciones-00131/noticia-antonio-torre-tristan-ulloa-nathalie-poza-unen-manifiesto-pedir-voto-frente-amplio-20261125135234.html": {
     "ambito": "espana",
     "evento": false,
@@ -5574,45 +4131,6 @@
     "titulo": {
       "ca": "Antonio de la Torre, Tristán Ulloa i Nathalie Poza s'uneixen al manifest per demanar el vot al Frente Amplio",
       "es": "Antonio de la Torre, Tristán Ulloa y Nathalie Poza se unen al manifiesto para pedir el voto al Frente Amplio"
-    }
-  },
-  "https://www.europapress.es/cultura/exposiciones-00131/noticia-centro-dramatico-nacional-estrena-punzion-comedia-crisis-activista-lavapies-20261125145751.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El CDN estrena el 27 de novembre a la Sala Grande del Teatre Valle-Inclán 'La punzión', escrita per Esther F. Carrodeguas i dirigida per Beatriz Jaén, fins al 10 de gener.",
-      "es": "El CDN estrena el 27 de noviembre en la Sala Grande del Teatro Valle-Inclán 'La punzión', escrita por Esther F. Carrodeguas y dirigida por Beatriz Jaén, hasta el 10 de enero."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "El Centro Dramático Nacional estrena 'La punzión', una comèdia sobre les crisis d'una activista a Lavapiés",
-      "es": "El Centro Dramático Nacional estrena 'La punzión', una comedia sobre las crisis de una activista en Lavapiés"
-    }
-  },
-  "https://www.europapress.es/cultura/exposiciones-00131/noticia-cultura-convoca-ayudas-426000-euros-proyectos-espanoles-arqueologia-exterior-20261125141208.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El Ministeri de Cultura convoca els ajuts de 2026 per a projectes espanyols d'arqueologia a l'exterior, amb 426.000 euros.",
-      "es": "El Ministerio de Cultura convoca las ayudas de 2026 para proyectos españoles de arqueología en el exterior, con 426.000 euros."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Cultura convoca ajuts per 426.000 euros per a projectes espanyols d'arqueologia a l'exterior",
-      "es": "Cultura convoca ayudas por 426.000 euros para proyectos españoles de arqueología en el exterior"
-    }
-  },
-  "https://www.europapress.es/cultura/libros-00132/noticia-javier-castillo-problema-true-crime-cuando-basan-historias-victimas-estan-presentes-20261124090051.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptor Javier Castillo adverteix dels límits ètics dels relats sobre crims reals, que poden revictimitzar, tot i que defensa el gènere.",
-      "es": "El escritor Javier Castillo advierte de los límites éticos de los relatos sobre crímenes reales, que pueden revictimizar, aunque defiende el género."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Javier Castillo: \"El problema del 'true crime' és quan es basen en històries en què les víctimes són presents\"",
-      "es": "Javier Castillo: \"El problema del 'true crime' es cuando se basan en historias en las que las víctimas están presentes\""
     }
   },
   "https://www.europapress.es/cultura/libros-00132/noticia-monica-carrillo-publica-dia-menos-pensado-pido-trabaje-poco-nivel-crispacion-20261125095718.html": {
@@ -5808,19 +4326,6 @@
     "titulo": {
       "ca": "Guanyadora de vuit premis Oscar, arriba a Filmin i Movistar Plus la pel·lícula de Milos Forman sobre el mític duel entre Mozart i Salieri",
       "es": "Ganadora de ocho Premios Oscar, llega a Filmin y Movistar Plus la película de Milos Forman sobre el mítico duelo entre Mozart y Salieri"
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a74452080/los-juegos-del-hambre-balada-de-pajaros-cantores-y-serpientes-ver-streaming-prime-video/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La precuela de la trilogia de Suzanne Collins, amb Peter Dinklage, explica l'origen de Snow en el seu món distòpic.",
-      "es": "La precuela de la trilogía de Suzanne Collins, con Peter Dinklage, explica el origen de Snow en su distópico mundo."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Arriba a Prime Video la precuela de Els jocs de la fam amb Peter Dinklage",
-      "es": "Llega a Prime Video la precuela de Los juegos del hambre con Peter Dinklage"
     }
   },
   "https://www.fotogramas.es/noticias-cine/a74455013/james-stewart-actor-padre-oscar/": {
@@ -6109,19 +4614,6 @@
       "es": "\"Lo que está ocurriendo ya es histórico\": Pedro Almodóvar destaca las opciones reales de 'La bola negra' en los Premios Oscar de 2027"
     }
   },
-  "https://www.fotogramas.es/peliculas-criticas/a71307198/adolescencia-sexo-y-muerte-en-campamento-miasma-critica-opinion-analisis-estreno-cines/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Adolescència, sexe i mort al Campament Miasma, amb Hannah Einbinder i Gillian Anderson, va inaugurar la secció Una Certa Mirada de Canes.",
-      "es": "Adolescencia, sexo y muerte en Campamento Miasma, con Hannah Einbinder y Gillian Anderson, inauguró la sección Una Cierta Mirada de Cannes."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Cinema de culte instantani: la pel·lícula de la qual tothom parla el 2026 després del Festival de Canes",
-      "es": "Cine de culto instantáneo: la película que todo el mundo habla en 2026 tras el Festival de Cannes"
-    }
-  },
   "https://www.fotogramas.es/peliculas-criticas/a74474204/iron-boy-critica-opinion-pelicula-animacion/": {
     "ambito": "mundo",
     "evento": false,
@@ -6330,32 +4822,6 @@
       "es": "El Festival Tenyo 2026"
     }
   },
-  "https://www.geniimagic.com/aftermath-by-raj-madhok/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Nou efectes de mentalisme improvisats i autoexecutables, pensats per a un ritme relaxat.",
-      "es": "Nueve efectos de mentalismo improvisados y autoejecutables, pensados para un ritmo relajado."
-    },
-    "tema": "magia",
-    "titulo": {
-      "ca": "«Aftermath», de Raj Madhok",
-      "es": "«Aftermath», de Raj Madhok"
-    }
-  },
-  "https://www.geniimagic.com/anti-gravico/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un truc de 0,25 dòlars que va sorprendre un públic nombrós, provocant crits i aplaudiments.",
-      "es": "Un truco de 0,25 dólares que asombró a un público numeroso, provocando gritos y aplausos."
-    },
-    "tema": "magia",
-    "titulo": {
-      "ca": "Anti-Gravico",
-      "es": "Anti-Gravico"
-    }
-  },
   "https://www.geniimagic.com/coffee-with-henry-oz/": {
     "ambito": "mundo",
     "evento": false,
@@ -6367,32 +4833,6 @@
     "titulo": {
       "ca": "Cafè amb… Henry 'Oz",
       "es": "Café con… Henry 'Oz"
-    }
-  },
-  "https://www.geniimagic.com/cosmos-magic-theater/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Cosmo's Magic Theater prospera a Colorado Springs; el seu propietari afirma que tot gira al voltant de l'espectacle.",
-      "es": "Cosmo's Magic Theater prospera en Colorado Springs; su propietario afirma que todo gira en torno al espectáculo."
-    },
-    "tema": "magia",
-    "titulo": {
-      "ca": "El Cosmo's Magic Theater",
-      "es": "El Cosmo's Magic Theater"
-    }
-  },
-  "https://www.geniimagic.com/floyd-thayer-the-man-and-his-art-by-fred-rickard/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Repàs a la figura d'un famós fabricant de màgia amb un manuscrit il·lustrat que va estar a punt de perdre's.",
-      "es": "Repaso a la figura de un famoso fabricante de magia con un manuscrito ilustrado que estuvo a punto de perderse."
-    },
-    "tema": "magia",
-    "titulo": {
-      "ca": "«Floyd Thayer: The Man and His Art», de Fred Rickard",
-      "es": "«Floyd Thayer: The Man and His Art», de Fred Rickard"
     }
   },
   "https://www.geniimagic.com/how-did-you-do-that-by-asi-wind/": {
@@ -6486,19 +4926,6 @@
       "es": "Ligeramente asombroso: diciembre de 2026"
     }
   },
-  "https://www.geniimagic.com/the-celebration-of-a-princess/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una sala nova, digna d'una princesa.",
-      "es": "Una nueva sala, digna de una princesa."
-    },
-    "tema": "magia",
-    "titulo": {
-      "ca": "La celebració d'una princesa",
-      "es": "La celebración de una princesa"
-    }
-  },
   "https://www.geniimagic.com/the-touch-and-how-to-get-it-part-one/": {
     "ambito": "mundo",
     "evento": false,
@@ -6510,474 +4937,6 @@
     "titulo": {
       "ca": "El «toc» i com aconseguir-lo: primera part",
       "es": "El «toque» y cómo conseguirlo: primera parte"
-    }
-  },
-  "https://www.hollywoodreporter.com/lifestyle/shopping/fubo-free-access-to-disney-plus-hulu-espn-unlimited-fox-one-1236762695/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Des de novembre de 2026, els subscriptors de Fubo podran accedir a quatre serveis per 0 dòlars addicionals.",
-      "es": "Desde noviembre de 2026, los suscriptores de Fubo podrán acceder a cuatro servicios por 0 dólares adicionales."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Els plans de Fubo ja inclouen Disney+, Hulu, ESPN Unlimited i Fox One gratis",
-      "es": "Los planes de Fubo ya incluyen Disney+, Hulu, ESPN Unlimited y Fox One gratis"
-    }
-  },
-  "https://www.hollywoodreporter.com/lists/dancing-with-the-stars-winners-list/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un guanyador del Tony, diversos olímpics, campions de la Super Bowl i els germans Irwin figuren entre els famosos que han guanyat el trofeu en 20 anys del programa.",
-      "es": "Un ganador del Tony, varios olímpicos, campeones de la Super Bowl y los hermanos Irwin figuran entre los famosos que han ganado el trofeo en 20 años del programa."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Dancing With the Stars': els 35 guanyadors",
-      "es": "'Dancing With the Stars': los 35 ganadores"
-    }
-  },
-  "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-london-critics-circle-award-laura-mulvey-film-1236762987/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "El nou premi reconeix les dones més influents del cinema que treballen per trencar el sostre de vidre, i es lliurarà a la gala de cinema.",
-      "es": "El nuevo premio reconoce a las mujeres más influyentes del cine que trabajan para romper el techo de cristal, y se entregará en la gala de cine."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Ava DuVernay rebrà el premi inaugural Laura Mulvey Female Trailblazer del London Critics' Circle",
-      "es": "Ava DuVernay recibirá el premio inaugural Laura Mulvey Female Trailblazer del London Critics' Circle"
-    }
-  },
-  "https://www.hollywoodreporter.com/movies/movie-news/damian-lewis-boards-short-film-odessa-as-executive-producer-1236762810/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Damian Lewis participa com a productor executiu del drama de la Segona Guerra Mundial «Odessa», rodat en 35 mm als Dolomites.",
-      "es": "Damian Lewis participa como productor ejecutivo del drama de la Segunda Guerra Mundial “Odessa”, rodado en 35 mm en los Dolomitas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Damian Lewis s'uneix com a productor executiu del curtmetratge «Odessa» (exclusiva)",
-      "es": "Damian Lewis se une como productor ejecutivo del cortometraje “Odessa” (exclusiva)"
-    }
-  },
-  "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-on-the-reaping-thanksgiving-box-office-1236762317/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "'Hershey' i 'The Further Mis-Adventures of Cliff Booth' també arriben a la gran pantalla durant el cap de setmana festiu de cinc dies.",
-      "es": "'Hershey' y 'The Further Mis-Adventures of Cliff Booth' también llegan a la gran pantalla durante el fin de semana festivo de cinco días."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Hunger Games: Sunrise on the Reaping' dominarà la taquilla d'Acció de Gràcies mentre 'Focker In-Law' i 'Hexed' se sumen a la competició",
-      "es": "'Hunger Games: Sunrise on the Reaping' dominará la taquilla de Acción de Gracias mientras 'Focker In-Law' y 'Hexed' se suman a la contienda"
-    }
-  },
-  "https://www.hollywoodreporter.com/tv/tv-features/connor-wood-dancing-with-the-stars-finale-interview-1236762661/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El còmic de 31 anys ha arribat a la final del concurs de ball, cosa que no esperava: 'No sé molt bé per què m'ha sortit bé, però m'hi he esforçat molt'.",
-      "es": "El comediante de 31 años ha llegado a la final del concurso de baile, algo que no esperaba: 'No sé muy bien por qué me ha salido bien, pero me he esforzado mucho'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "El finalista de 'Dancing With the Stars' Connor Wood ja ha guanyat: 'Em sento molt bé'",
-      "es": "El finalista de 'Dancing With the Stars' Connor Wood ya ha ganado: 'Me siento muy bien'"
-    }
-  },
-  "https://www.hollywoodreporter.com/tv/tv-features/kristina-bogic-anya-the-body-interview-1236762320/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La jove actriu de 19 anys explica com va arribar a estimar el seu personatge de capitana d'equip de ball a la sèrie de Netflix.",
-      "es": "La joven actriz de 19 años explica cómo llegó a querer a su personaje de capitana de equipo de baile en la serie de Netflix."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "L'estrella de «The Body» Kristina Bogic només volia cuidar Anya: «Moltes joves s'hi poden identificar»",
-      "es": "La estrella de “The Body” Kristina Bogic solo quería cuidar a Anya: “Muchas jóvenes pueden identificarse”"
-    }
-  },
-  "https://www.hollywoodreporter.com/tv/tv-news/dancing-with-the-stars-next-pro-renewed-season-2-male-dancers-1236762752/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La segona temporada buscarà el proper ballarí professional masculí que s'unirà al repartiment de la temporada 36 de 'DWTS'.",
-      "es": "La segunda temporada buscará al próximo bailarín profesional masculino que se unirá al reparto de la temporada 36 de 'DWTS'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Dancing With the Stars: The Next Pro' renovat per a una segona temporada",
-      "es": "'Dancing With the Stars: The Next Pro' renovado para una segunda temporada"
-    }
-  },
-  "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-finale-winner-week-11-recap-scores-freestyle-1236762506/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "Tatyana Ali, Ezra Frech, Amber Glenn, Maura Higgins i Connor Wood competien pel trofeu Len Goodman Mirrorball.",
-      "es": "Tatyana Ali, Ezra Frech, Amber Glenn, Maura Higgins y Connor Wood competían por el trofeo Len Goodman Mirrorball."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "'Dancing With the Stars' nomena el guanyador històric de la temporada 35: vegeu totes les puntuacions i qui va guanyar",
-      "es": "'Dancing With the Stars' nombra al ganador histórico de la temporada 35: vea todas las puntuaciones y quién ganó"
-    }
-  },
-  "https://www.hollywoodreporter.com/tv/tv-news/watch-dancing-with-the-stars-finale-2026-season-35-free-abc-1236762567/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "L'especial de tres hores, emès en directe a totes les zones horàries dels EUA per primera vegada, comptarà amb tres actuacions de cadascuna de les cinc parelles finalistes.",
-      "es": "El especial de tres horas, emitido en directo en todas las zonas horarias de EE. UU. por primera vez, contará con tres actuaciones de cada una de las cinco parejas finalistas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "On veure en directe per internet la final de la temporada 35 de 'Dancing With the Stars'",
-      "es": "Dónde ver en directo por internet la final de la temporada 35 de 'Dancing With the Stars'"
-    }
-  },
-  "https://www.indiewire.com/awards/consider-this/guitarricadelafuente-interview-la-bola-negra-1235230714/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El cantant interpreta un trompetista homosexual obligat a unir-se als nacionals durant la Guerra Civil i parla de la seva primera pel·lícula i de la cançó 'La Nieve'.",
-      "es": "El cantante interpreta a un trompetista homosexual obligado a unirse a los nacionales durante la Guerra Civil y habla de su primera película y de la canción 'La Nieve'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Guitarricadelafuente tenia por de debutar com a actor a 'La Bola Negra': 'No n'estava gens segur'",
-      "es": "Guitarricadelafuente temía debutar como actor en 'La Bola Negra': 'No estaba nada seguro'"
-    }
-  },
-  "https://www.indiewire.com/awards/consider-this/will-robert-pattinson-bond-casting-help-land-oscar-nom-1235230774/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El primer pas és que els votants vegin Primetime, la pel·lícula amb què podria optar a l'Oscar al millor actor.",
-      "es": "El primer paso es que los votantes vean Primetime, la película con la que podría optar al Oscar al mejor actor."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "L'elecció de Robert Pattinson per a Bond l'ajudarà a aconseguir la primera nominació a l'Oscar?",
-      "es": "¿Ayudará el casting de Robert Pattinson para Bond a conseguir su primera nominación al Oscar?"
-    }
-  },
-  "https://www.indiewire.com/criticism/movies/all-of-a-sudden-movie-review-ryusuke-hamaguchi-1235193798/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un director de teatre malalt i una cuidadora sobrecarregada recorren París en la nova pel·lícula d'Hamaguchi, autor de «Drive My Car».",
-      "es": "Un director de teatro enfermo y una cuidadora sobrecargada recorren París en la nueva película de Hamaguchi, autor de “Drive My Car”."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "«All of a Sudden», crítica: la llarga i reflexiva petició de Ryusuke Hamaguchi per un futur més esperançador",
-      "es": "“All of a Sudden”, crítica: la larga y reflexiva petición de Ryusuke Hamaguchi por un futuro más esperanzador"
-    }
-  },
-  "https://www.indiewire.com/criticism/movies/hershey-movie-review-1235228446/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La crítica considera que la pel·lícula sobre Milton S. Hershey és un producte d'entreteniment basat en valors, desequilibrat i molt insípid.",
-      "es": "La crítica considera que la película sobre Milton S. Hershey es un producto de entretenimiento basado en valores, desequilibrado y muy insulso."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Crítica de 'Hershey': una biopic increïblement insípida sobre el xocolater més famós dels Estats Units",
-      "es": "Crítica de 'Hershey': una biopic inverosímilmente sosa sobre el chocolatero más famoso de Estados Unidos"
-    }
-  },
-  "https://www.indiewire.com/features/commentary/grand-theft-auto-6-video-game-movie-criticism-1235230976/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'article sosté que qui compara videojocs i cinema menysprea totes dues formes d'art.",
-      "es": "El artículo sostiene que quienes comparan videojuegos y cine menosprecian ambas formas de arte."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "«Grand Theft Auto VI» va recaptar gairebé 4.000 milions fent el que no poden fer les pel·lícules",
-      "es": "“Grand Theft Auto VI” recaudó casi 4.000 millones haciendo lo que no pueden hacer las películas"
-    }
-  },
-  "https://www.indiewire.com/features/commentary/heated-rivalry-tv-wrong-lessons-success-1235229781/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Un any després del seu estrena, «Heated Rivalry» continua oferint lliçons sobre com construir una sèrie queer d'èxit.",
-      "es": "Un año después de su estreno, “Heated Rivalry” sigue ofreciendo lecciones sobre cómo construir una serie queer de éxito."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La televisió va treure les lliçons equivocades de l'èxit de «Heated Rivalry»",
-      "es": "La televisión sacó las lecciones equivocadas del éxito de “Heated Rivalry”"
-    }
-  },
-  "https://www.indiewire.com/features/craft/project-hail-mary-vfx-craft-roundtables-1235230557/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Mag Sarnowska explica que, tot i haver d'eliminar molts reflexos de l'èpica de ciència ficció, no ho canviaria.",
-      "es": "Mag Sarnowska explica que, aunque tuvo que eliminar muchos reflejos de la épica de ciencia ficción, no lo cambiaría."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Mira el supervisor de VFX de 'Project Hail Mary' explicar per què va valer la pena tenir titellaires al rodatge",
-      "es": "Mira al supervisor de VFX de 'Proyecto Hail Mary' explicar por qué valió la pena tener titiriteros en el rodaje"
-    }
-  },
-  "https://www.indiewire.com/features/interviews/movie-theaters-2026-good-bad-changing-1235230816/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Kevin Smith i diverses cadenes d'exhibició analitzen l'any passat i els plans de futur, inclòs el nou complex Cinerama Dome d'Hollywood.",
-      "es": "Kevin Smith y varias cadenas de exhibición analizan el año pasado y los planes de futuro, incluido el nuevo complejo Cinerama Dome de Hollywood."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Les sales de cinema el 2026: cineastes i exhibidors sobre el que és bo, el que és dolent i el que canvia",
-      "es": "Las salas de cine en 2026: cineastas y exhibidores sobre lo bueno, lo malo y lo que cambia"
-    }
-  },
-  "https://www.indiewire.com/news/events/apply-to-indiewire-future-of-filmmaking-student-programs-1235230175/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "Els Intensius del Futur del Cinema ofereixen formació en festivals com Cannes, Venècia i Austin, amb termini de matrícula anticipada fins al 30 de novembre.",
-      "es": "Los Intensivos del Futuro del Cine ofrecen formación en festivales como Cannes, Venecia y Austin, con plazo de matrícula anticipada hasta el 30 de noviembre."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Vols assistir a un gran festival de cinema amb IndieWire? Estan obertes les sol·licituds per als Intensius 2027",
-      "es": "¿Quieres asistir a un gran festival de cine con IndieWire? Están abiertas las solicitudes para los Intensivos 2027"
-    }
-  },
-  "https://www.indiewire.com/news/general-news/carrie-coon-john-turturro-sffilm-awards-1235230827/": {
-    "ambito": "mundo",
-    "evento": true,
-    "resumen": {
-      "ca": "La gala del 7 de desembre a San Francisco comptarà amb els directors de La Bola Negra i l'actor de I Play Rocky com a presentadors.",
-      "es": "La gala del 7 de diciembre en San Francisco contará con los directores de La Bola Negra y el actor de I Play Rocky como presentadores."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "John Turturro, Carrie Coon, Guitarricadelafuente i Peter Gamble rebran els premis SFFILM",
-      "es": "John Turturro, Carrie Coon, Guitarricadelafuente y Peter Gamble recibirán los premios SFFILM"
-    }
-  },
-  "https://www.indiewire.com/news/general-news/frederick-wiseman-complete-works-distributed-janus-films-1235230945/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Janus Films distribuirà l'obra de Frederick Wiseman, des de Titicut Follies (1967) fins a State Legislature (2007), restaurada en 4K per Zipporah Films.",
-      "es": "Janus Films distribuirá la obra de Frederick Wiseman, desde Titicut Follies (1967) hasta State Legislature (2007), restaurada en 4K por Zipporah Films."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "La filmografia completa de Frederick Wiseman serà distribuïda per Janus Films",
-      "es": "La filmografía completa de Frederick Wiseman será distribuida por Janus Films"
-    }
-  },
-  "https://www.indiewire.com/news/obituary/mike-plante-sundance-shorts-programmer-dead-at-56-1235230914/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Plante estava vinculat al festival des de feia 25 anys i també era director de cinema.",
-      "es": "Plante llevaba 25 años vinculado al festival y también era director de cine."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Mor Mike Plante, programador de curtmetratges del Festival de Sundance, als 56 anys",
-      "es": "Muere Mike Plante, programador de cortometrajes del Festival de Sundance, a los 56 años"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/de-dormir-en-la-calle-a-subir-las-escaleras-hacia-la-victoria-la-historia-detras-de-rocky-que-peter-farrelly-convirtio-en-pelicula/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Pel·lícula sobre l'origen de Rocky, amb l'ascens de Sylvester Stallone des de la precarietat fins a l'Oscar.",
-      "es": "Documental sobre el origen de Rocky, con el ascenso de Sylvester Stallone desde la precariedad hasta el Oscar."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "De dormir al carrer a pujar les escales cap a la victòria: la història darrere de Rocky que Peter Farrelly va convertir en pel·lícula",
-      "es": "De dormir en la calle a subir las escaleras hacia la victoria: la historia detrás de Rocky que Peter Farrelly convirtió en película"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/de-una-pequena-ciudad-italiana-al-corazon-del-poder-en-india-sonia-gandhi-cuenta-su-historia-de-vida/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Les memòries de Sonia Gandhi repassen dècades d'amenaces, decisions i dols en la política índia.",
-      "es": "Las memorias de Sonia Gandhi repasan décadas de amenazas, decisiones y duelos en la política india."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "D'una petita ciutat italiana al cor del poder a l'Índia: Sonia Gandhi explica la seva història de vida",
-      "es": "De una pequeña ciudad italiana al corazón del poder en India: Sonia Gandhi cuenta su historia de vida"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/del-drama-shakespeariano-a-las-cortes-de-vampiros-7-libros-sobre-el-amor-prohibido-que-conquistan-lectores-siglo-tras-siglo/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Set novetats del romantasy sobre l'amor prohibit, un tema literari que parteix de les tragèdies isabelines, superen milions d'exemplars venuts.",
-      "es": "Siete novedades del romantasy sobre el amor prohibido, un tema literario que parte de las tragedias isabelinas, superan millones de ejemplares vendidos."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Del drama shakespearià a les corts de vampirs: 7 llibres sobre l'amor prohibit que conquisten lectors segle rere segle",
-      "es": "Del drama shakespeariano a las cortes de vampiros: 7 libros sobre el amor prohibido que conquistan lectores siglo tras siglo"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/el-new-york-times-despidio-a-griselda-gambaro-definiendola-como-la-escritoracuyos-textos-confrontaron-el-terrorismo-de-estado/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "The New York Times publica un obituari extens de la dramaturga argentina Griselda Gambaro, destacant la violència política present en les seves obres.",
-      "es": "The New York Times publica un extenso obituario de la dramaturga argentina Griselda Gambaro, destacando la violencia política presente en sus obras."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "The New York Times va acomiadar Griselda Gambaro definint-la com l'escriptora els textos de la qual «van confrontar el terrorisme d'Estat»",
-      "es": "El New York Times despidió a Griselda Gambaro definiéndola como la escritora cuyos textos “confrontaron el terrorismo de Estado”"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/escritores-de-todo-el-mundo-piden-a-iran-que-suspenda-la-ejecucion-del-poeta-peyman-farahavar/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Més de 350 autors i organitzacions demanen a l'Iran que revoqui la condemna a mort del poeta Peyman Farahavar, de 37 anys.",
-      "es": "Más de 350 autores y organizaciones piden a Irán que revoque la condena a muerte del poeta Peyman Farahavar, de 37 años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Escriptors de tot el món demanen a l'Iran que suspengui l'execució del poeta Peyman Farahavar",
-      "es": "Escritores de todo el mundo piden a Irán que suspenda la ejecución del poeta Peyman Farahavar"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/la-casa-que-nacio-de-una-novela-y-los-trajes-de-evita-el-primer-catalogo-del-museo-larreta-que-buenos-aires-guardaba-como-secreto/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Es presenta el primer catàleg exhaustiu del museu Larreta, amb el fons reunit per l'escriptor modernista Enrique Larreta.",
-      "es": "Se presenta el primer catálogo exhaustivo del museo Larreta, con el acervo reunido por el escritor modernista Enrique Larreta."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La casa que va néixer d'una novel·la i els vestits d'Evita: el primer catàleg del museu Larreta, que Buenos Aires guardava com a secret",
-      "es": "La casa que nació de una novela y los trajes de Evita: el primer catálogo del museo Larreta, que Buenos Aires guardaba como secreto"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/la-directora-de-una-de-las-principales-ferias-del-libro-de-america-latina-dice-que-se-lee-mas-que-antes-ves-gente-con-el-celular-leyendo/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora de la Fira del Llibre de Guadalajara afirma que la lectura conviu amb el paper i els audiollibres, mentre el mercat electrònic retrocedeix.",
-      "es": "La directora de la Feria del Libro de Guadalajara afirma que la lectura convive con el papel y los audiolibros, mientras el mercado electrónico retrocede."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La directora d'una de les principals Fires del Llibre d'Amèrica Llatina diu que «es llegeix més que abans, veus gent amb el mòbil, llegint»",
-      "es": "La directora de una de las principales Ferias del Libro de América latina dice que «se lee más que antes, ves gente con el celular, leyendo»"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/luis-novaresio-presento-su-segunda-novela-y-cuestiono-los-mandatos-sobre-el-amor-la-monogamia-es-una-imposicion/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El periodista Luis Novaresio presenta la seva novel·la La vida que importa i parla d'eutanàsia, famílies i relacions de parella en una entrevista.",
-      "es": "El periodista Luis Novaresio presenta su novela La vida que importa y habla de eutanasia, familias y relaciones de pareja en una entrevista."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Luis Novaresio va presentar la seva segona novel·la i va qüestionar els mandats sobre l'amor: «La monogàmia és una imposició»",
-      "es": "Luis Novaresio presentó su segunda novela y cuestionó los mandatos sobre el amor: «La monogamia es una imposición»"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/maria-joao-una-de-las-voces-mas-libres-del-jazz-europeo-llega-a-buenos-aires-con-un-disco-para-salir-de-la-zona-de-confort/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La cantant portuguesa presenta a Buenos Aires Abundância, un àlbum que fusiona folklore africà i electrònica, al Bebop Club.",
-      "es": "La cantante portuguesa presenta en Buenos Aires Abundância, un álbum que fusiona folclore africano y electrónica, en el Bebop Club."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Maria João, una de les veus més lliures del jazz europeu, arriba a Buenos Aires amb un disc per «sortir de la zona de confort»",
-      "es": "Maria João, una de las voces más libres del jazz europeo, llega a Buenos Aires con un disco para «salir de la zona de confort»"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/nahd-bashir-vino-a-conocer-el-pais-del-futbol-y-vuelve-con-un-guion-sobre-un-nino-que-quiere-conocer-a-messi/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actor i director israelià Nahd Bashir, que va presentar una pel·lícula al Festival de Mar del Plata, prepara un nou projecte inspirat en un fet real.",
-      "es": "El actor y director israelí Nahd Bashir, que presentó una película en el Festival de Mar del Plata, prepara un nuevo proyecto inspirado en un hecho real."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Nahd Bashir va venir a descobrir el país del futbol i torna amb un guió sobre un nen que vol conèixer Messi",
-      "es": "Nahd Bashir vino a descubrir el país del fútbol y vuelve con un guion sobre un niño que quiere conocer a Messi"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/ortografia-y-redaccion-sondeo-continuo-alternativa-a-tracking/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Es presenta el sondeig continu sobre ortografia i redacció com a alternativa al tracking, assenyalant que les errades poden donar mala imatge.",
-      "es": "Se presenta el sondeo continuo sobre ortografía y redacción como alternativa al tracking, señalando que las erratas pueden dar mala imagen."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Ortografia i redacció: sondeig continu, alternativa al tracking",
-      "es": "Ortografía y redacción: sondeo continuo, alternativa a tracking"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/que-leer-esta-semana-quiero-vivir-la-ley-de-la-selva-y-que-aprendio-o-no-el-peronismo/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Recomanacions literàries i polítiques de la setmana, amb novel·les, contes de Quiroga i anàlisi del peronisme.",
-      "es": "Recomendaciones literarias y políticas de la semana, con novelas, cuentos de Quiroga y análisis del peronismo."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Què llegir aquesta setmana: Quiero vivir!, la llei de la selva i què va aprendre (o no) el peronisme",
-      "es": "Qué leer esta semana: ¡Quiero vivir!, la ley de la selva y qué aprendió (o no) el peronismo"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/quien-es-william-acquavella-el-hombre-que-pago-190-millones-de-dolares-por-el-van-gogh-de-la-coleccion-blaquier-arrieta/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El marxant novaiorquès William Acquavella confirma ser el comprador del van Gogh per 190 milions de dòlars, sense revelar si va actuar per un client.",
-      "es": "El marchante neoyorquino William Acquavella confirma ser el comprador del van Gogh por 190 millones de dólares, sin revelar si actuó por un cliente."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Qui és William Acquavella, l'home que va pagar 190 milions de dòlars pel van Gogh de la col·lecció Blaquier Arrieta",
-      "es": "Quién es William Acquavella, el hombre que pagó 190 millones de dólares por el van Gogh de la colección Blaquier Arrieta"
-    }
-  },
-  "https://www.infobae.com/cultura/2026/11/20/santa-teresa-de-jesus-monja-y-escritora-espanola-el-amor-perfecto-tiene-esta-fuerza-que-olvidamos-nuestro-propio-contento-para-contentar-a-quien-amamos/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Un repàs al llegat espiritual i literari de Santa Teresa de Jesús, més de quatre segles després de la seva mort, i a com la Inquisició va marcar el seu pensament.",
-      "es": "Un repaso al legado espiritual y literario de Santa Teresa de Jesús, más de cuatro siglos después de su muerte, y a cómo la Inquisición marcó su pensamiento."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Santa Teresa de Jesús, monja i escriptora espanyola: «L'amor perfecte té aquesta força: que oblidem el nostre propi contentament per contentar qui estimem»",
-      "es": "Santa Teresa de Jesús, monja y escritora española: “El amor perfecto tiene esta fuerza: que olvidamos nuestro propio contento para contentar a quien amamos”"
     }
   },
   "https://www.infobae.com/cultura/2026/11/21/asi-escribia-christian-ferrer-el-docente-cuya-muerte-conmovio-a-la-comunidad-universitaria-argentina/": {
@@ -7825,58 +5784,6 @@
       "es": "Sale a la luz el testamento de Antoni Gaudí 100 años después de su muerte: la casa de Park Güell, dos cuentas con más de 3.000 pesetas y un gran deseo"
     }
   },
-  "https://www.lavanguardia.com/cultura/20261119/11688450/anecdotas-estreno-gta-vi-recibir-maxima-nota-desinstalar-juego-error.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El videojoc més esperat ha protagonitzat tota mena de situacions després del seu llançament.",
-      "es": "El videojuego más esperado ha protagonizado todo tipo de situaciones tras su lanzamiento."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Les anècdotes de l'estrena de 'GTA VI': de rebre la nota màxima a desinstal·lar el joc per error",
-      "es": "Las anécdotas del estreno de 'GTA VI': de recibir la máxima nota a desinstalar el juego por error"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/20261119/11688466/berhard-farro-temporada-alta-ramon-simo.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "L'obra, que barreja farsa còmica i discurs intel·lectual, s'estrena a La Fàbrica dels Teatres del Farró.",
-      "es": "La obra, que mezcla farsa cómica y discurso intelectual, se estrena en La Fàbrica de los Teatres del Farró."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Bernhard vol convertir un grup d'artistes de circ en músics virtuosos a 'La força del costum'",
-      "es": "Bernhard quiere convertir a un grupo de artistas de circo en músicos virtuosos en 'La força del costum'"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/20261119/11688497/picasso-influjo-arquitectura.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "El Museu Picasso investiga la relació entre l'artista i els grans arquitectes.",
-      "es": "El Museo Picasso investiga la relación entre el artista y los grandes arquitectos."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Picasso i la seva influència en l'arquitectura",
-      "es": "Picasso y su influjo en la arquitectura"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/20261119/11688501/vicente-luis-mora-primer-espanol-ganar-national-book.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'escriptor Vicente Luis Mora guanya el National Book Award a la millor obra traduïda als EUA amb la novel·la Centroeuropa.",
-      "es": "El escritor Vicente Luis Mora gana el National Book Award a la mejor obra traducida en EE.UU. con la novela Centroeuropa."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Vicente Luis Mora, primer espanyol a guanyar el National Book",
-      "es": "Vicente Luis Mora, primer español en ganar el National Book"
-    }
-  },
   "https://www.lavanguardia.com/cultura/20261120/11686284/manana-entrenar-valquirias-sarah-maas-crossbooks-romantasy-barcelona-casa-rius.html": {
     "ambito": "barcelona",
     "evento": true,
@@ -7914,19 +5821,6 @@
     "titulo": {
       "ca": "Liudmila Ulítskaya: «La invasió d'Ucraïna és un dels majors errors i es pagarà un preu alt»",
       "es": "Liudmila Ulítskaya: «La invasión de Ucrania es uno de los mayores errores y se pagará un alto precio»"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/20261120/11688752/tonto-tonto.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Notícia sense entradilla; el titular no aporta informació suficient per resumir-ne el contingut.",
-      "es": "Noticia sin entradilla; el titular no aporta información suficiente para resumir su contenido."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Com qui no vol la cosa",
-      "es": "A lo tonto, a lo tonto"
     }
   },
   "https://www.lavanguardia.com/cultura/20261120/11689194/extraordinario-tesoro-epoca-romana-han-descubierto-estudiantes-inglaterra-primera-excavacion-arqueologica.html": {
@@ -8748,19 +6642,6 @@
       "es": "El análisis del esqueleto de Yotzin, que vivió hace unos 13.000 años, revela que fue uno de los primeros pobladores de América"
     }
   },
-  "https://www.lavanguardia.com/cultura/cine/20261120/11686576/director-caramelo-envenenado.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Dani de la Orden es consolida amb aquesta entretinguda adaptació del llibre del periodista David Jiménez.",
-      "es": "Dani de la Orden se consolida con esta entretenida adaptación del libro del periodista David Jiménez."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "«El director»: un caramel enverinat",
-      "es": "«El director»: un caramelo envenenado"
-    }
-  },
   "https://www.lavanguardia.com/cultura/cine/20261120/11688113/adolescencia-sexo-muerte-campamento-miasma-oda-slasher-mas-chapucero-otros-estrenos-semana.html": {
     "ambito": "mundo",
     "evento": false,
@@ -9034,32 +6915,6 @@
       "es": "Barça, disparos y hockey sobre patines en la última novela de Edgar Cantero"
     }
   },
-  "https://www.lavanguardia.com/gente/20261119/11688532/rosalia-regala-zapatillas-deportivas-fans-centro-barcelona-rosi-38.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Diversos clubs de fans de Rosalía van reunir el grup d'afortunats al costat del Convent dels Àngels per rebre vambes esportives.",
-      "es": "Varios clubes de fans de Rosalía reunieron al grupo de afortunados junto al Convent dels Àngels para recibir zapatillas deportivas."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Rosalía regala vambes esportives als seus fans al centre de Barcelona: «Rosi, un 38!»",
-      "es": "Rosalía regala zapatillas deportivas a sus fans en el centro de Barcelona: «Rosi, ¡un 38!»"
-    }
-  },
-  "https://www.lavanguardia.com/local/maresme/20261120/11686503/mataro-transforma-cinco-edificios-emblematicos-llum-gaudi.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "La Nau Gaudí acollirà una intervenció de miralls de l'artista Xevi Bayona, que del 20 al 22 de novembre combinarà art, arquitectura i tecnologia.",
-      "es": "La Nau Gaudí acogerá una intervención de espejos del artista Xevi Bayona, que del 20 al 22 de noviembre combinará arte, arquitectura y tecnología."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Mataró transforma cinc edificis emblemàtics en «A la llum de Gaudí»",
-      "es": "Mataró transforma cinco edificios emblemáticos en «A la llum de Gaudí»"
-    }
-  },
   "https://www.lavanguardia.com/local/maresme/20261123/11690952/iglesia-sant-joan-vilassar-mar-origenes-actualidad.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -9071,19 +6926,6 @@
     "titulo": {
       "ca": "L'església de Sant Joan de Vilassar de Mar: dels seus orígens a l'actualitat",
       "es": "La iglesia de Sant Joan de Vilassar de Mar: de sus orígenes a la actualidad"
-    }
-  },
-  "https://www.lavanguardia.com/qf/20261120/11686574/terror-revisa-pecados-adolescencia-sexo-muerte-campamento-miasma.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La pel·lícula dirigida per Jane Schoenbrun segueix una cineasta que intenta reviure una problemàtica saga de terror dels anys 80.",
-      "es": "La película dirigida por Jane Schoenbrun sigue a una cineasta que intenta revivir una problemática saga de terror de los años 80."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El terror revisa els seus pecats a «Adolescència, sexe i mort a Campament Miasma»",
-      "es": "El terror revisa sus pecados en «Adolescencia, sexo y muerte en Campamento Miasma»"
     }
   },
   "https://www.lavanguardia.com/qf/20261120/11686630/luz-ilumina-legado-gaudi.html": {
@@ -9151,19 +6993,6 @@
       "es": "Claudio Tolcachir, Cristiana Morganti, Andrea Jiménez y Marlene Monteiro clausuran la 44 edición del Festival de Otoño"
     }
   },
-  "https://www.masescena.es/actualidad/el-teatro-canovas-recibe-a-la-compania-la-mula-con-thauma-un-viaje-escenico-por-el-asombro-y-la-imaginacion/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "El Teatre Cánovas de Màlaga acull els dies 27 i 28 de novembre 'Thauma', un muntatge de teatre visual i circ contemporani de La Mula.",
-      "es": "El Teatro Cánovas de Málaga acoge los días 27 y 28 de noviembre 'Thauma', un montaje de teatro visual y circo contemporáneo de La Mula."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "El Teatre Cánovas rep la companyia La Mula amb 'Thauma', un viatge escènic per la meravella i la imaginació",
-      "es": "El Teatro Cánovas recibe a la compañía La Mula con 'Thauma', un viaje escénico por el asombro y la imaginación"
-    }
-  },
   "https://www.masescena.es/actualidad/la-tecnologia-de-transmision-en-directo-que-adoptaron-los-teatros-espanoles-para-llegar-al-publico-a-distancia/": {
     "ambito": "espana",
     "evento": false,
@@ -9175,32 +7004,6 @@
     "titulo": {
       "ca": "La tecnologia de transmissió en directe que van adoptar els teatres espanyols per arribar al públic a distància",
       "es": "La tecnología de transmisión en directo que adoptaron los teatros españoles para llegar al público a distancia"
-    }
-  },
-  "https://www.masescena.es/actualidad/s-m-la-reina-visito-centro-danza-matadero-para-conocer-el-proyecto-y-el-trabajo-de-los-artistas-residentes-del-ciclo-nuevos-creadores/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "La Reina va visitar el Centre de la Dansa Matadero de Madrid per conèixer els programes de residències dels artistes del cicle 'Nuevos Creadores'.",
-      "es": "La Reina visitó el Centro Danza Matadero de Madrid para conocer los programas de residencias de los artistas del ciclo 'Nuevos Creadores'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "S.M. la Reina va visitar el Centre de la Dansa Matadero per conèixer el projecte i la feina dels artistes residents del cicle 'Nuevos Creadores'",
-      "es": "S.M. la Reina visitó Centro Danza Matadero para conocer el proyecto y el trabajo de los artistas residentes del ciclo 'Nuevos Creadores'"
-    }
-  },
-  "https://www.masescena.es/actualidad/una-nueva-edicion-del-foro-de-igualdad-y-creacion-en-las-artes-escenicas-y-la-musica-reunira-en-lebrija-a-profesionales-del-sector/": {
-    "ambito": "espana",
-    "evento": true,
-    "resumen": {
-      "ca": "El IV Fòrum d'Igualtat i Creació en les Arts Escèniques i la Música obre inscripcions per a la nova edició a Lebrija, organitzada per la Junta d'Andalusia.",
-      "es": "El IV Foro de Igualdad y Creación en las Artes Escénicas y la Música abre inscripciones para su nueva edición en Lebrija, organizada por la Junta de Andalucía."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Una nova edició del Fòrum d'Igualtat i Creació en les Arts Escèniques i la Música reunirà a Lebrija professionals del sector",
-      "es": "Una nueva edición del Foro de Igualdad y Creación en las Artes Escénicas y la Música reunirá en Lebrija a profesionales del sector"
     }
   },
   "https://www.masescena.es/danza/centro-danza-matadero-acoge-el-estreno-absoluto-apex-timing-una-creacion-de-fonsi-lopez-sobre-la-cultura-de-la-productividad/": {
@@ -9279,32 +7082,6 @@
     "titulo": {
       "ca": "Captar l'ajetrac dels oficis anònims de Nova York",
       "es": "Captar el ajetreo de los oficios anónimos de Nueva York"
-    }
-  },
-  "https://www.nytimes.com/2026/11/18/movies/jeff-bezos-pick-robert-pattinson-james-bond.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El fundador d'Amazon afirma que va participar molt en el càsting, conclòs fa pocs dies.",
-      "es": "El fundador de Amazon afirma que participó mucho en el casting, concluido hace pocos días."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Jeff Bezos diu que va ajudar a triar Robert Pattinson com a nou James Bond",
-      "es": "Jeff Bezos dice que ayudó a elegir a Robert Pattinson como nuevo James Bond"
-    }
-  },
-  "https://www.nytimes.com/2026/11/18/movies/madden-review-nicolas-cage.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La pel·lícula complaent recorre els alts i baixos del personatge, des dels seus anys entrenant els Raiders fins a la seva fama als videojocs.",
-      "es": "La película complaciente recorre los altibajos del personaje, desde sus años entrenando a los Raiders hasta su fama en los videojuegos."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Crítica de 'Madden': Nicolas Cage a lo gran en la biopic de la N.F.L.",
-      "es": "Crítica de 'Madden': Nicolas Cage a lo grande en la biopic de la N.F.L."
     }
   },
   "https://www.nytimes.com/2026/11/18/theater/exhibitionist-good-thief-review-hiller.html": {
@@ -9905,19 +7682,6 @@
       "es": "Un escenario más neurodiverso"
     }
   },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233630/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "SensaCine sorteja una entrada doble de cinema entre les millors crítiques que els lectors deixin sobre la pel·lícula 'Els jocs de la fam: Amanecer en la cosecha'.",
-      "es": "SensaCine sortea una entrada doble de cine entre las mejores críticas que los lectores dejen sobre la película 'Los juegos del hambre: Amanecer en la cosecha'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Explicar-nos què t'ha semblat 'Els jocs de la fam: Amanecer en la cosecha' té premi: sortegem una entrada doble de cinema entre les millors crítiques de la nostra comunitat",
-      "es": "Decirnos qué te ha parecido 'Los juegos del hambre: Amanecer en la cosecha' tiene premio: sorteamos una entrada doble de cine entre las mejores críticas de nuestra comunidad"
-    }
-  },
   "https://www.sensacine.com/noticias/cine/noticia-1000233664/": {
     "ambito": "mundo",
     "evento": false,
@@ -9931,84 +7695,6 @@
       "es": "\"Creo que logrará trascender a través de las generaciones\": Disney quiere contar una historia que perdure con su nueva película, 'Hechizo'"
     }
   },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233776/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La directora Siân Heder, que el 2022 va superar 'Dune' i Steven Spielberg, veu ara com la seva nova obra arrasa a les llistes de streaming i es pregunta si tornarà a destacar als premis.",
-      "es": "La directora Siân Heder, que en 2022 superó a 'Dune' y a Steven Spielberg, ve ahora cómo su nuevo trabajo arrasa en las listas de streaming y se pregunta si volverá a destacar en premios."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Número 1 en 87 països: el 2022, la seva pel·lícula va superar 'Dune' i Steven Spielberg; ara la seva nova obra està arrasant a les llistes de 'streaming'",
-      "es": "Número 1 en 87 países: en 2022, su película superó a 'Dune' y a Steven Spielberg; ahora su nuevo trabajo está arrasando en las listas de 'streaming'"
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233800/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una pel·lícula d'acció que va guanyar l'Oscar a la millor pel·lícula ha perdut prestigi tres dècades després, malgrat recaptar més que el pressupost, per polèmiques del director i del protagonista.",
-      "es": "Una película de acción que ganó el Oscar a Mejor película ha perdido prestigio tres décadas después, pese a recaudar más que su presupuesto, por polémicas de director y protagonista."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Una de les poques pel·lícules d'acció que ha guanyat l'Oscar a la millor pel·lícula: 30 anys després, ha perdut part del seu prestigi",
-      "es": "Una de las pocas películas de acción que ha ganado el Oscar a Mejor película: 30 años después, ha perdido parte de su prestigio"
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233832/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actor Christopher Lloyd parla de la seva amistat amb Michael J. Fox, forjada a 'Regreso al futuro' i que continua després de més de dues dècades.",
-      "es": "El actor Christopher Lloyd habla de su amistad con Michael J. Fox, forjada en 'Regreso al futuro' y que sigue viva tras más de dos décadas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Christopher Lloyd: «La meva amistat amb Michael J. Fox no ha acabat mai. És un amor per a tota la vida»",
-      "es": "Christopher Lloyd: \"Mi amistad con Michael J. Fox nunca ha terminado. Es un amor para toda la vida\""
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233846/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Richard Gere recorda el seu primer paper protagonista, a 'Días del cielo' de Terrence Malick, i la seva relació amb Brooke Adams.",
-      "es": "Richard Gere recuerda su primer papel protagonista, en 'Días del cielo' de Terrence Malick, y su relación con Brooke Adams."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Richard Gere, en conèixer Brooke Adams el 1978: \"Em vaig enamorar bojament abans de fer la nostra pel·lícula\"",
-      "es": "Richard Gere, al conocer a Brooke Adams en 1978: \"Me enamoré perdidamente antes de hacer nuestra película\""
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233851/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una pel·lícula que va ser fenomen a les sales arriba al streaming; no sense polèmica, retrata una icona inoblidable i aspira als Oscar.",
-      "es": "Una película que fue fenómeno en salas llega al streaming; no sin polémica, retrata a un icono inolvidable y aspira a los Oscar."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "7 mesos després de ser un fenomen a les sales de cinema, s'estrena en streaming una espectacular pel·lícula que aspira als Oscars",
-      "es": "7 meses después de ser un fenómeno en salas de cine, se estrena en streaming una espectacular película que aspira a los Oscars"
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233853/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Els fans de Marvel debaten si l'aspecte visual de 'Vengadores: Doomsday' és pitjor que el d''Endgame', a partir d'una pregunta sobre la manera de rodar i acabar aquestes pel·lícules.",
-      "es": "Los fans de Marvel debaten si el aspecto visual de 'Vengadores: Doomsday' es peor que el de 'Endgame', tras una pregunta sobre la forma de filmar y terminar estas películas."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El dilema visual que divideix els fans de Marvel: No hi ha consens sobre si 'Vengadores: Doomsday' es veu pitjor que 'Endgame'",
-      "es": "El dilema visual que divide a los fans de Marvel: No hay consenso en si 'Vengadores: Doomsday' se ve peor que 'Endgame'"
-    }
-  },
   "https://www.sensacine.com/noticias/cine/noticia-1000233871/": {
     "ambito": "mundo",
     "evento": false,
@@ -10020,19 +7706,6 @@
     "titulo": {
       "ca": "Oscar Isaac, fill de mare guatemalteca i pare cubà: «Desconfio de qui diu parlar en nom d'un grup nombrós. Sempre penso: \"De debò? Com ho saps?\"»",
       "es": "Oscar Isaac, hijo de madre guatemalteca y padre cubano: \"Desconfío de quienes dicen hablar en nombre de un grupo numeroso. Siempre pienso: '¿En serio? ¿Cómo lo sabes?'\""
-    }
-  },
-  "https://www.sensacine.com/noticias/cine/noticia-1000233898/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Una crítica d'una precuela d'una saga que explica els orígens d'unes ganivetades molt salvatges, i que l'autor no esperava gaudir.",
-      "es": "Una crítica de una precuela de una saga que cuenta los orígenes de unas cuchilladas muy salvajes, y que el autor no esperaba disfrutar."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Mai no he estat fan d'aquesta saga i no em cridava una precuela, però aquesta sèrie m'ha enganxat fins al final",
-      "es": "Nunca fui fan de esta saga y no me llamaba una precuela de la misma, pero esta serie me ha enganchado hasta el final"
     }
   },
   "https://www.sensacine.com/noticias/cine/noticia-1000233901/": {
@@ -10098,45 +7771,6 @@
     "titulo": {
       "ca": "Freddie Mercury, als anys 70: \"No seré una estrella del rock. Seré una llegenda\"",
       "es": "Freddie Mercury, en los años 70: \"No seré una estrella de rock. Seré una leyenda\""
-    }
-  },
-  "https://www.sensacine.com/noticias/series/noticia-1000233860/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La BBC anuncia l'estrena de la temporada 3 de 'Los hombres del S.A.S.', sèrie bèl·lica del creador de 'Peaky Blinders'.",
-      "es": "La BBC anuncia el estreno de la temporada 3 de 'Los hombres del S.A.S.', serie bélica del creador de 'Peaky Blinders'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Dos anys després, torna la aclamada sèrie bèl·lica del creador de 'Peaky Blinders' de puntuació perfecta",
-      "es": "Dos años después, vuelve la aclamada serie bélica del creador de 'Peaky Blinders' de puntuación perfecta"
-    }
-  },
-  "https://www.sensacine.com/noticias/series/noticia-1000233883/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Els directors Los Javis presenten el seu nou llargmetratge, que ha fet història a taquilla i aspira a estar entre les candidates als Oscar.",
-      "es": "Los directores Los Javis presentan su nuevo largometraje, que ha hecho historia en taquilla y aspira a estar entre las candidatas a los Oscar."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Si t'ha agradat 'La bola negra', has de donar una oportunitat a una altra de les grans joies de Los Javis: «És el projecte del qual estic més orgullós»",
-      "es": "Si te ha gustado 'La bola negra', tienes que darle una oportunidad a otra de las grandes joyas de Los Javis: \"Es el proyecto del que más orgulloso estoy\""
-    }
-  },
-  "https://www.sensacine.com/noticias/series/noticia-1000233890/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica de la minisèrie 'Blade Runner 2099', que estrena tots els seus episodis a Prime Video el 25 de novembre.",
-      "es": "Crítica de la miniserie 'Blade Runner 2099', que estrena todos sus episodios en Prime Video el 25 de noviembre."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Crítica 'Blade Runner 2099': Una digna successora del llegat de Ridley Scott",
-      "es": "Crítica 'Blade Runner 2099': Una digna sucesora del legado de Ridley Scott"
     }
   },
   "https://www.sensacine.com/noticias/series/noticia-1000234015/": {
@@ -10347,19 +7981,6 @@
       "es": "Hollywood y sus glorias que se desvanecen: la nostalgia en el cine"
     }
   },
-  "https://www.theguardian.com/film/2026/nov/25/in-waves-review-love-grief-and-surfing-at-heart-of-profoundly-moving-animated-tale": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Crítica de la pel·lícula animada, basada en una novel·la gràfica premiada, que combina la història del surf amb el relat emotiu de la pèrdua d'una parella per càncer d'ossos.",
-      "es": "Crítica de la película animada, basada en una novela gráfica premiada, que combina la historia del surf con el relato emotivo de la pérdida de una pareja por cáncer de huesos."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "In Waves, crítica: amor, dol i surf en una commovedora història animada",
-      "es": "In Waves, crítica: amor, duelo y surf en una conmovedora historia animada"
-    }
-  },
   "https://www.theguardian.com/film/2026/nov/25/jane-alexander-interview": {
     "ambito": "mundo",
     "evento": false,
@@ -10410,19 +8031,6 @@
     "titulo": {
       "ca": "Way of the Warrior Kid, crítica: la pel·lícula familiar de Chris Pratt és tan subtil com un vídeo de reclutament militar",
       "es": "Way of the Warrior Kid, crítica: la película familiar de Chris Pratt es tan sutil como un vídeo de reclutamiento militar"
-    }
-  },
-  "https://www.theguardian.com/stage/2026/nov/15/cranford-review-orange-tree-theatre-tamsin-greig": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "A l'Orange Tree de Londres, aquesta adaptació de la novel·la d'Elizabeth Gaskell se centra en els seus personatges i en la força de l'amistat femenina.",
-      "es": "En el Orange Tree de Londres, esta adaptación de la novela de Elizabeth Gaskell se centra en sus personajes y en la fuerza de la amistad femenina."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Tamsin Greig és sensacional en un ‘Cranford’ on la comèdia i el dolor estan en perfecte equilibri",
-      "es": "Tamsin Greig es sensacional en un ‘Cranford’ donde la comedia y el dolor están en perfecto equilibrio"
     }
   },
   "https://www.theguardian.com/stage/2026/nov/16/stage-version-tv-series-its-a-sin-trailer": {

@@ -5,7 +5,6 @@
 "open_data_bcn:99400557740": {"confianza": 0.95, "huella": "3fa5bd01a806ce66", "tipo": "festival"},
 "open_data_bcn:99400577459": {"confianza": 0.95, "huella": "b33bea812c135804", "tipo": "festival"},
 "open_data_bcn:99400639598": {"confianza": 0.8, "huella": "9375eb0249e5239b", "tipo": "festival"},
-"open_data_bcn:99400655936": {"confianza": 0.85, "huella": "adef42d66aaae980", "tipo": "formación"},
 "open_data_bcn:99400674630": {"confianza": 0.9, "huella": "50abeb346ba1a82e", "tipo": "formación"},
 "open_data_bcn:99400680624": {"confianza": 0.9, "huella": "263ec9cb4d751e94", "tipo": "formación"},
 "open_data_bcn:99400680697": {"confianza": 0.9, "huella": "995fc3d918b11246", "tipo": "formación"},
@@ -17,7 +16,6 @@
 "open_data_bcn:99400701138": {"confianza": 0.95, "huella": "3f5e4d30517c5e6c", "tipo": "festival"},
 "open_data_bcn:99400704612": {"confianza": 0.9, "huella": "d01b1853bfc8bb0c", "tipo": "formación"},
 "open_data_bcn:99400710436": {"confianza": 0.85, "huella": "a0f846d90ef5d93a", "tipo": "proyección"},
-"open_data_bcn:99400711536": {"confianza": 0.85, "huella": "3fa969bb2d977c43", "tipo": "conferencia o coloquio"},
 "open_data_bcn:99400713428": {"confianza": 0.95, "huella": "1b4ec0e753e1ea93", "tipo": "festival"},
 "open_data_bcn:99400715073": {"confianza": 0.6, "huella": "bdb9e839fe51fd34", "tipo": "proyección"},
 "open_data_bcn:99400715485": {"confianza": 0.85, "huella": "70e80a2516942b3b", "tipo": "festival"},
@@ -90,7 +88,6 @@
 "open_data_bcn:99400766836": {"confianza": 0.4, "huella": "73833fc944457afd", "tipo": "formación"},
 "open_data_bcn:99400766981": {"confianza": 0.9, "huella": "1acd5b6bd1f10e27", "tipo": "proyección"},
 "open_data_bcn:99400767069": {"confianza": 0.9, "huella": "5e43ca65001be662", "tipo": "proyección"},
-"open_data_bcn:99400767448": {"confianza": 0.9, "huella": "decca365f756a966", "tipo": "conferencia o coloquio"},
 "open_data_bcn:99400767596": {"confianza": 0.9, "huella": "c433469dbbaf3315", "tipo": "formación"},
 "open_data_bcn:99400767783": {"confianza": 0.95, "huella": "fe80a91ce1548a29", "tipo": "proyección"},
 "open_data_bcn:99400767785": {"confianza": 0.95, "huella": "7fc6669ed289b3e2", "tipo": "proyección"},
@@ -139,7 +136,6 @@
 "open_data_bcn:99400784831": {"confianza": 0.6, "huella": "efbb114ff9e1e3b0", "tipo": "proyección"},
 "open_data_bcn:99400785166": {"confianza": 0.85, "huella": "0c4428885c4bb5a1", "tipo": "formación"},
 "open_data_bcn:99400785606": {"confianza": 0.8, "huella": "ad62ae4013c03789", "tipo": "conferencia o coloquio"},
-"open_data_bcn:99400785662": {"confianza": 0.9, "huella": "4c07f620767ee8e4", "tipo": "conferencia o coloquio"},
 "open_data_bcn:99400785670": {"confianza": 0.6, "huella": "98a5d3dbe504a700", "tipo": "proyección"},
 "open_data_bcn:99400785730": {"confianza": 0.9, "huella": "f1634815502f2512", "tipo": "formación"},
 "open_data_bcn:99400785796": {"confianza": 0.95, "huella": "52022a7d1d0c4875", "tipo": "proyección"},
@@ -167,7 +163,6 @@
 "open_data_bcn:99400787998": {"confianza": 0.7, "huella": "599c7c8ec369329f", "tipo": "proyección"},
 "open_data_bcn:99400788175": {"confianza": 0.9, "huella": "bc42ec02d04355b6", "tipo": "conferencia o coloquio"},
 "open_data_bcn:99400788190": {"confianza": 0.85, "huella": "d0878ac9aabad2b7", "tipo": "festival"},
-"open_data_bcn:99400788382": {"confianza": 0.85, "huella": "c3ff7a9da8220f10", "tipo": "no es de cine"},
 "open_data_bcn:99400788523": {"confianza": 0.9, "huella": "9e78338579b8eed6", "tipo": "no es de cine"},
 "open_data_bcn:99400788851": {"confianza": 0.9, "huella": "a6daafa90097090d", "tipo": "proyección"},
 "open_data_bcn:99400789347": {"confianza": 0.95, "huella": "b983efe935ef1893", "tipo": "proyección"},
@@ -214,6 +209,5 @@
 "open_data_bcn:99400791222": {"confianza": 0.8, "huella": "23903acf52635f71", "tipo": "proyección"},
 "open_data_bcn:99400791234": {"confianza": 0.6, "huella": "7b57bedf4ffdab45", "tipo": "formación"},
 "open_data_bcn:99400791342": {"confianza": 0.95, "huella": "f487f1ccbd6b260b", "tipo": "formación"},
-"open_data_bcn:99400791348": {"confianza": 0.8, "huella": "b81e3fbaa073db3e", "tipo": "formación"},
-"webs_salas:af3d6a1552c88b6d": {"confianza": 0.5, "huella": "b975354729bc699d", "tipo": "conferencia o coloquio"}
+"open_data_bcn:99400791348": {"confianza": 0.8, "huella": "b81e3fbaa073db3e", "tipo": "formación"}
 }

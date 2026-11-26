@@ -118,6 +118,32 @@
     "tipo": "eventos",
     "traducido": "es"
   },
+  "open_data_bcn:99400655936": {
+    "barrio": "Sant Gervasi - la Bonanova",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-25",
+    "direccion": "Carrer de Muntaner 544",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda cultural",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-cultural",
+    "funciones": [
+      [
+        "2026-11-25",
+        "17:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400655936",
+    "idioma_textos": "ca",
+    "lat": 41.405365338998074,
+    "lon": 2.135308972460361,
+    "nombre": "Grans clàssics del cinema",
+    "precio_max": 68.68,
+    "precio_min": 68.68,
+    "sala": "Centre Cívic Vil·la Florida",
+    "sala_id": "barcelona:via223606-544",
+    "subtipo": "formación",
+    "tipo": "eventos"
+  },
   "open_data_bcn:99400660510": {
     "barrio": "el Poblenou",
     "caducado": "2026-11-24",
@@ -290,6 +316,46 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400694952": {
+    "barrio": "les Corts",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Espai pensat per iniciar-se o perfeccionar la tècnica de circ aeri amb diferents aparells: cèrcol, trapezi i hamaca. Treballarem la força, la flexibilitat i la consciència corporal a l'aire, adaptant els continguts al nivell de cada participant. Professional: Alejandro Lento",
+      "es": "Espacio pensado para iniciarse o perfeccionar la técnica de circo aéreo con diferentes aparatos: cerco, trapecio y hamaca. Trabajaremos la fuerza, la flexibilidad y la conciencia corporal en el aire, adaptando los contenidos al nivel de cada participante. Profesional: Alejandro Lento"
+    },
+    "direccion": "Carrer de Dolors Masferrer i Bosch 33",
+    "disciplina": "circo",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-cercol-trapezi-i-hamaca_99400694952.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400694952",
+    "idioma_textos": "ca",
+    "lat": 41.38495205031265,
+    "lon": 2.1281680265887797,
+    "nombre": "Cèrcol, trapezi i hamaca",
+    "precio_max": 114.47,
+    "precio_min": 114.47,
+    "sala": "Centre Cívic Tomasa Cuevas",
+    "sala_id": "barcelona:via202708-33",
+    "sala_interior": "Les Corts",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "circ aeri"
+      ],
+      "es": [
+        "circo aéreo"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400699115": {
     "barrio": "Sant Pere, Santa Caterina i la Ribera",
     "caducado": "2026-11-19",
@@ -396,6 +462,105 @@
       ]
     },
     "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400703890": {
+    "barrio": "el Parc i la Llacuna del Poblenou",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Tallers a la carta: Curs subvencionat per a joves de 14 a 22 anys Professor/a: Xavier Domènech",
+      "es": "Talleres a la carta: Curso subvencionado para jóvenes de 14 a 22 años. Profesor/a: Xavier Domènech"
+    },
+    "direccion": "Carrer de Buenaventura Muñoz 21",
+    "disciplina": "teatro",
+    "edad_max": 22,
+    "edad_min": 14,
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-fem-teatre-a-escena_99400703890.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400703890",
+    "idioma_textos": "ca",
+    "lat": 41.39174570900244,
+    "lon": 2.184766821590944,
+    "nombre": "Fem Teatre (A escena!)",
+    "publico": "juvenil y adultos",
+    "sala": "Centre Cívic Parc Sandaru",
+    "sala_id": "barcelona:via50803-21",
+    "subtipo": "formación",
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400711536": {
+    "barrio": "Canyelles",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-25",
+    "direccion": "Carrer de Juan Ramón Jiménez 4",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-25",
+        "17:00"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400711536",
+    "idioma_textos": "ca",
+    "lat": 41.442115365711544,
+    "lon": 2.1621598759843286,
+    "nombre": "Cinefòrum",
+    "sala": "Casal de Gent Gran Pau Casals",
+    "sala_id": "barcelona:via700817-4",
+    "subtipo": "conferencia o coloquio",
+    "tipo": "eventos"
+  },
+  "open_data_bcn:99400714867": {
+    "barrio": "el Raval",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Taller per explorar la creativitat a través de dinàmiques teatrals i de moviment. Mitjançant jocs dramàtics, exercicis de coordinació i improvisació. Professor/a: Fran Pedreros, de Carxofa Clown",
+      "es": "Taller para explorar la creatividad a través de dinámicas teatrales y de movimiento. Mediante juegos dramáticos, ejercicios de coordinación e improvisación. Profesor/a: Fran Pedreros, de Carxofa Clown"
+    },
+    "direccion": "Carrer Nou de la Rambla 43",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-infantil-teatre-i-expressio-corporal_99400714867.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "17:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400714867",
+    "idioma_textos": "ca",
+    "lat": 41.37767838726746,
+    "lon": 2.172864399551599,
+    "nombre": "Teatre i expressió corporal",
+    "publico": "infantil",
+    "sala": "Centre Cívic Drassanes",
+    "sala_id": "barcelona:via86902-43",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "creativitat",
+        "expressió corporal"
+      ],
+      "es": [
+        "creatividad",
+        "expresión corporal"
+      ]
+    },
+    "tipo": "eventos",
     "traducido": "es"
   },
   "open_data_bcn:99400719454": {
@@ -570,6 +735,48 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400732578": {
+    "barrio": "Sarrià",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "T'agradaria pujar a l'escenari però no saps per on començar? En aquest taller d'iniciació perdrem la por i descobrirem les eines bàsiques de la interpretació. A través de jocs teatrals i dinàmiques de grup, treballarem aspectes clau com l'escolta activa, l'atenció, el desenvolupament de l'imaginari i la sensibilitat emocional. Un espai lúdic i lliure de judicis on despertar la teva creativitat. A càrrec de Jordi Ciurana, actor, docent i director teatral.",
+      "es": "¿Te gustaría subir al escenario pero no sabes por dónde empezar? En este taller de iniciación perderemos el miedo y descubriremos las herramientas básicas de la interpretación. A través de juegos teatrales y dinámicas de grupo, trabajaremos aspectos clave como la escucha activa, la atención, el desarrollo del imaginario y la sensibilidad emocional. Un espacio lúdico y libre de juicios donde despertar tu creatividad. A cargo de Jordi Ciurana, actor, docente y director teatral."
+    },
+    "direccion": "Carrer d'Eduardo Conde 22",
+    "disciplina": "teatro",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-teatre-connecta-amb-la-teva-expressivitat_99400732578.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400732578",
+    "idioma_textos": "ca",
+    "lat": 41.39390619967619,
+    "lon": 2.1211872573336934,
+    "nivel": "iniciación",
+    "nombre": "Teatre: Connecta amb la teva expressivitat!",
+    "precio_max": 85.85,
+    "precio_min": 85.85,
+    "sala": "Centre Cívic Sarrià",
+    "sala_id": "barcelona:via107300-22",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "interpretació",
+        "iniciació teatral"
+      ],
+      "es": [
+        "interpretación",
+        "iniciación teatral"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400732896": {
     "barrio": "les Corts",
     "caducado": "2026-11-24",
@@ -605,6 +812,72 @@
       ],
       "es": [
         "circo aéreo"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400733757": {
+    "barrio": "la Vall d'Hebron",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-25",
+    "direccion": "Av Cardenal Vidal Barraquer 45",
+    "disciplina": "circo",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-25",
+        "17:15"
+      ]
+    ],
+    "id": "open_data_bcn:99400733757",
+    "idioma_textos": "ca",
+    "lat": 41.43290624371183,
+    "lon": 2.1514916527557846,
+    "nombre": "Circ en família",
+    "precio_max": 44.55,
+    "precio_min": 44.55,
+    "publico": "familiar",
+    "sala": "Casal de Barri Comunitari Can Travi de la Vall d'Hebron",
+    "sala_id": "barcelona:via700827-45",
+    "subtipo": "formación",
+    "tipo": "eventos"
+  },
+  "open_data_bcn:99400740067": {
+    "barrio": "el Raval",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Taller pràctic que busca explorar la tècnica del clown, utilitzant exercicis teatrals específics per a desenvolupar el potencial còmic, l'autenticitat i la presència escènica. Tot això a través de dinàmiques i jocs que propicien la confiança grupal i personal. Professor/a: Fran Pedreros, de Carxofa Clown Es proposa portar un nas de pallasso.",
+      "es": "Taller práctico que busca explorar la técnica del clown, utilizando ejercicios teatrales específicos para desarrollar el potencial cómico, la autenticidad y la presencia escénica. Todo ello a través de dinámicas y juegos que propician la confianza grupal y personal. Profesor/a: Fran Pedreros, de Carxofa Clown Se propone llevar una nariz de payaso."
+    },
+    "direccion": "Carrer Nou de la Rambla 43",
+    "disciplina": "clown",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/taller-teatre-clown_99400740067.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:00"
+      ]
+    ],
+    "id": "open_data_bcn:99400740067",
+    "idioma_textos": "ca",
+    "lat": 41.37767838726746,
+    "lon": 2.172864399551599,
+    "nombre": "Teatre clown",
+    "precio_max": 63.54,
+    "precio_min": 63.54,
+    "sala": "Centre Cívic Drassanes",
+    "sala_id": "barcelona:via86902-43",
+    "subtipo": "formación",
+    "temas": {
+      "ca": [
+        "tècnica clown"
+      ],
+      "es": [
+        "técnica clown"
       ]
     },
     "tipo": "eventos",
@@ -1222,6 +1495,31 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400767448": {
+    "barrio": "Sant Andreu",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-25",
+    "direccion": "Carrer de Bascònia 42",
+    "disciplina": "cine",
+    "fuente": "Open Data BCN · Agenda d'actes i activitats",
+    "fuente_url": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+    "funciones": [
+      [
+        "2026-11-25",
+        "16:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400767448",
+    "idioma_textos": "ca",
+    "lat": 41.43612220833439,
+    "lon": 2.1870553596811515,
+    "nombre": "Donetes",
+    "sala": "Casal de Gent Gran Bascònia",
+    "sala_id": "barcelona:via354604-42",
+    "subtipo": "conferencia o coloquio",
+    "tipo": "eventos"
+  },
   "open_data_bcn:99400767450": {
     "barrio": "Sant Andreu",
     "caducado": "2026-11-20",
@@ -1390,6 +1688,45 @@
       "es": [
         "consumo de alcohol",
         "presión social"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
+  "open_data_bcn:99400769746": {
+    "barrio": "el Parc i la Llacuna del Poblenou",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "\"Rassif a Escena\" és un procés creatiu a través del teatre on joves que han viscut un procés migratori volen donar a conèixer la seva realitat. El Casal dels Infants ho impulsen des de fa tres anys en col·laboració amb La Xixa. El resultat d'aquest any és l'obra FRAGMENT(ATS). Una obra creada i representada pels seu protagonistes. A través del teatre, joves vinculats a processos migratoris reflexionen sobre les seves històries de vida, s'empoderen i creen un discurs transformador que pot canviar la mirada del públic. Un espai d'expressió, trobada i sensibilització. La representació dura uns 30 minuts, i a continuació farem un col·loqui entre el públic i els actors i actrius.",
+      "es": "\"Rassif a Escena\" es un proceso creativo a través del teatro en el que jóvenes que han vivido un proceso migratorio quieren dar a conocer su realidad. El Casal dels Infants lo impulsa desde hace tres años en colaboración con La Xixa. El resultado de este año es la obra FRAGMENT(ATS). Una obra creada e interpretada por sus protagonistas. A través del teatro, jóvenes vinculados a procesos migratorios reflexionan sobre sus historias de vida, se empoderan y crean un discurso transformador que puede cambiar la mirada del público. Un espacio de expresión, encuentro y sensibilización. La representación dura unos 30 minutos, y a continuación haremos un coloquio entre el público y los actores y actrices."
+    },
+    "direccion": "Carrer de Buenaventura Muñoz 21",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/teatre-fragment-ats-del-projecte-rassif-a-escena_99400769746.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400769746",
+    "idioma_textos": "ca",
+    "lat": 41.39174570900244,
+    "lon": 2.184766821590944,
+    "nombre": "Fragment(ats)",
+    "publico": "infantil",
+    "sala": "Centre Cívic Parc Sandaru",
+    "sala_id": "barcelona:via50803-21",
+    "temas": {
+      "ca": [
+        "migració",
+        "històries de vida"
+      ],
+      "es": [
+        "migración",
+        "historias de vida"
       ]
     },
     "tipo": "teatro",
@@ -2392,6 +2729,48 @@
     "tipo": "eventos",
     "traducido": "es"
   },
+  "open_data_bcn:99400785662": {
+    "barrio": "el Barri Gòtic",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "De Xiaotong Xu i Iris Yu Yang Any: 2025 Versió VOSE Durada: 73 minuts Documental que analitza 30 anys d'activisme feminista global i la seva capacitat de resistència davant la repressió política, la violència digital i la polarització actual Col·laboració entre Barcelona Queer Film Festival i el cicle Regenera't en el marc del 25N.",
+      "es": "De Xiaotong Xu e Iris Yu Yang Año: 2025 Versión VOSE Duración: 73 minutos Documental que analiza 30 años de activismo feminista global y su capacidad de resistencia ante la represión política, la violencia digital y la polarización actual Colaboración entre Barcelona Queer Film Festival y el ciclo Regenera't en el marco del 25N."
+    },
+    "direccion": "Carrer del Regomir 3",
+    "disciplina": "cine",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/activitat-projeccio-the-returning-side-i-debat-posterior_99400785662.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "18:30"
+      ]
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400785662",
+    "idioma_textos": "ca",
+    "lat": 41.381668203042565,
+    "lon": 2.1791887965465615,
+    "nombre": "Projecció",
+    "sala": "Centre Cívic Pati Llimona",
+    "sala_id": "barcelona:via277503-3",
+    "subtipo": "conferencia o coloquio",
+    "temas": {
+      "ca": [
+        "activisme feminista",
+        "repressió política",
+        "violència digital"
+      ],
+      "es": [
+        "activismo feminista",
+        "represión política",
+        "violencia digital"
+      ]
+    },
+    "tipo": "eventos",
+    "traducido": "es"
+  },
   "open_data_bcn:99400785805": {
     "barrio": "Sant Gervasi - la Bonanova",
     "caducado": "2026-11-19",
@@ -3319,6 +3698,52 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400788971": {
+    "barrio": "Sant Gervasi - la Bonanova",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-08",
+    "descripcion": {
+      "ca": "Ets capaç de riure de tot? En aquest cicle de teatre còmic no hi ha temes intocables: l'humor explora qualsevol realitat, col·lectiu o situació, sempre des de la sàtira i la voluntat de fer riure. Vine amb la ment oberta, perquè aquí l'humor no té límits... i les rialles tampoc. 12 de novembre: Laku Media Show Tarda de monòlegs en català. Gaudirem de quatre còmics i còmiques que ens oferiran una mostra de monòleg còmic amb mirades i estils diversos, abordant temàtiques quotidianes i universals per demostrar que de tot se'n pot fer humor. Un micròfon, un tamboret i un únic objectiu: fer-nos riure, sorprendre'ns i connectar amb el públic a través de l'enginy, la improvisació i les anècdotes més inesperades. Una proposta fresca i dinàmica per descobrir el talent de l'escena humorística en català.",
+      "es": "¿Eres capaz de reírte de todo? En este ciclo de teatro cómico no hay temas intocables: el humor explora cualquier realidad, colectivo o situación, siempre desde la sátira y la voluntad de hacer reír. Ven con la mente abierta, porque aquí el humor no tiene límites... y las risas tampoco. 12 de noviembre: Laku Media Show Tarde de monólogos en catalán. Disfrutaremos de cuatro cómicos y cómicas que nos ofrecerán una muestra de monólogo cómico con miradas y estilos diversos, abordando temáticas cotidianas y universales para demostrar que de todo se puede hacer humor. Un micrófono, un taburete y un único objetivo: hacernos reír, sorprendernos y conectar con el público a través del ingenio, la improvisación y las anécdotas más inesperadas. Una propuesta fresca y dinámica para descubrir el talento de la escena humorística en catalán."
+    },
+    "direccion": "Carrer de Muntaner 544",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/cicle-d-espectacles-algu-ho-havia-de-dir_99400788971.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "monólogo",
+      "comedia"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400788971",
+    "idioma_textos": "ca",
+    "idiomas": [
+      "catalan"
+    ],
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/PLANTILLA_IMATGES_WEB_MIDA_JULIOL_202626.760x428.9d98cdf3.jpg",
+    "lat": 41.405365338998074,
+    "lon": 2.135308972460361,
+    "nombre": "Algú ho havia de dir!",
+    "sala": "Centre Cívic Vil·la Florida",
+    "sala_id": "barcelona:via223606-544",
+    "temas": {
+      "ca": [
+        "humor",
+        "sàtira"
+      ],
+      "es": [
+        "humor",
+        "sátira"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400789160": {
     "artista": "Teatro niño proletario (Xile)",
     "barrio": "el Raval",
@@ -3971,6 +4396,58 @@
     "tipo": "teatro",
     "traducido": "es"
   },
+  "open_data_bcn:99400789888": {
+    "artista": "Remedios Varo Eu Manzanares",
+    "barrio": "la Barceloneta",
+    "caducado": "2026-11-25",
+    "comprobado": "2026-11-17",
+    "descripcion": {
+      "ca": "Amb 365 Dones l'Any, el TNC impulsa un cicle dedicat a recuperar el llegat de grans dones de la història catalana, que en moltes ocasions no han rebut la rellevància i reconeixement que mereixien. Després de quatre edicions dedicades a Aurora Bertrana, Anna Maria Martínez Sagi, Marina Ginestà i Margarida Rugall, respectivament, enguany l'artista plàstica Remedios Varo n'és la protagonista. Remedios Varo va ser una pintora surrealista destacada per la seva capacitat d'integrar ciència, màgia i misticisme en mons imaginaris plens de simbolisme. La seva obra és important per la visió femenina i introspectiva amb una estètica detallista i onírica única. La dramaturga Eu Manzanares ha dut a terme una investigació sobre aquesta pintora catalana establerta a Mèxic creant el text \"La Reme i jo\", que presentarem al CCBarceloneta a través d'una lectura dramatitzada dirigida per Sílvia Comes.",
+      "es": "Con 365 Mujeres al Año, el TNC impulsa un ciclo dedicado a recuperar el legado de grandes mujeres de la historia catalana, que en muchas ocasiones no han recibido la relevancia y el reconocimiento que merecían. Tras cuatro ediciones dedicadas a Aurora Bertrana, Anna Maria Martínez Sagi, Marina Ginestà y Margarida Rugall, respectivamente, este año la artista plástica Remedios Varo es la protagonista. Remedios Varo fue una pintora surrealista destacada por su capacidad para integrar ciencia, magia y misticismo en mundos imaginarios llenos de simbolismo. Su obra es importante por la visión femenina e introspectiva, con una estética detallista y onírica única. La dramaturga Eu Manzanares ha llevado a cabo una investigación sobre esta pintora catalana establecida en México, creando el texto \"La Reme i jo\", que presentaremos en el CCBarceloneta a través de una lectura dramatizada dirigida por Sílvia Comes."
+    },
+    "direccion": "Carrer de la Conreria 1",
+    "equipo": [
+      [
+        "direcció",
+        "Sílvia Comes"
+      ],
+      [
+        "autoria",
+        "Remedios Varo Eu Manzanares"
+      ]
+    ],
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/lectura-dramatitzada-la-reme-i-jo-de-remedios-varo-eu-manzanares_99400789888.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "19:00"
+      ]
+    ],
+    "generos": [
+      "lectura dramatizada"
+    ],
+    "gratis": true,
+    "id": "open_data_bcn:99400789888",
+    "idioma_textos": "ca",
+    "lat": 41.38026816937647,
+    "lon": 2.192288054869178,
+    "nombre": "La Reme i jo",
+    "sala": "Centre Cívic Barceloneta",
+    "sala_id": "barcelona:via88908-1",
+    "temas": {
+      "ca": [
+        "llegat de les dones",
+        "surrealisme"
+      ],
+      "es": [
+        "legado de las mujeres",
+        "surrealismo"
+      ]
+    },
+    "tipo": "teatro",
+    "traducido": "es"
+  },
   "open_data_bcn:99400789925": {
     "barrio": "la Sagrera",
     "caducado": "2026-11-21",
@@ -4528,6 +5005,46 @@
     "sala_id": "barcelona:via110803-155",
     "subtipo": "conferencia o coloquio",
     "tipo": "eventos"
+  },
+  "open_data_bcn:99400790821": {
+    "artista": "Patricia Peña",
+    "barrio": "la Vila de Gràcia",
+    "caducado": "2026-11-25",
+    "compra": "https://www.golems.cat/MALGUSTO/",
+    "compra_tipo": "obra",
+    "comprobado": "2026-11-23",
+    "direccion": "Carrer de Sant Lluís 64",
+    "equipo": [
+      [
+        "amb",
+        "Patricia Peña"
+      ]
+    ],
+    "ficha_fuente": "https://www.golems.cat/MALGUSTO/",
+    "fuente": "Guia BCN (ficha pública)",
+    "fuente_url": "https://guia.barcelona.cat/ca/detall/espectacle-mal-gusto-amb-patricia-pena_99400790821.html",
+    "funciones": [
+      [
+        "2026-11-25",
+        "20:00"
+      ],
+      [
+        "2026-11-25",
+        "22:30"
+      ]
+    ],
+    "id": "open_data_bcn:99400790821",
+    "idioma_textos": "ca",
+    "imagen": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/malgusto.760x428.7d2dfcd1.jpg",
+    "lat": 41.40612256064371,
+    "lon": 2.161422452441883,
+    "nombre": "Mal gusto",
+    "pagina_obra": "https://www.golems.cat/MALGUSTO/",
+    "precio_max": 36.0,
+    "precio_min": 25.0,
+    "sala": "Teatre Golem's",
+    "sala_id": "barcelona:via306306-64",
+    "tipo": "teatro"
   },
   "webs_salas:06cf230b024b496e": {
     "barrio": "Sant Pere, Santa Caterina i la Ribera",

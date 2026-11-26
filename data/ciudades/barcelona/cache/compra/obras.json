@@ -199,6 +199,11 @@
     "pagina": null,
     "url": null
   },
+  "open_data_bcn:99400760251|https://teatrebalmes.com/|Se ha escrito un crimen. El musical": {
+    "fecha": "2026-11-26",
+    "pagina": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen-1",
+    "url": "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen-1"
+  },
   "open_data_bcn:99400760337|http://www.anticteatre.com|Palles gratis!": {
     "fecha": "2026-11-24",
     "pagina": null,
@@ -226,6 +231,11 @@
   },
   "open_data_bcn:99400761539|http://www.teatreneu.com|Nacido al Revés": {
     "fecha": "2026-11-24",
+    "pagina": null,
+    "url": null
+  },
+  "open_data_bcn:99400761890|https://reserva.casalfontdenfargues.cat/|Pastorets": {
+    "fecha": "2026-11-26",
     "pagina": null,
     "url": null
   },
@@ -275,7 +285,7 @@
     "url": "https://www.teatrecondal.cat/ca/ex/ella-era-anita/"
   },
   "open_data_bcn:99400765792|https://www.balanaenviu.com/|Tremenda": {
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-26",
     "pagina": null,
     "url": null
   },
@@ -293,6 +303,11 @@
     "fecha": "2026-11-24",
     "pagina": "https://www.balanaenviu.com/espectaculo/berto-romero-coliseum",
     "url": "https://www.balanaenviu.com/espectaculo/berto-romero-coliseum"
+  },
+  "open_data_bcn:99400766609|https://teatrebalmes.com/|Anticoach": {
+    "fecha": "2026-11-26",
+    "pagina": "https://teatrebalmes.com/ca/humor/barcelona/anticoach",
+    "url": "https://teatrebalmes.com/ca/humor/barcelona/anticoach"
   },
   "open_data_bcn:99400767508|https://www.balanaenviu.com/|Humor Blanco": {
     "fecha": "2026-11-24",
@@ -445,12 +460,14 @@
     "url": "https://salabeckett.koobin.cat/ca/el-forat-blanc-2"
   },
   "open_data_bcn:99400783065|https://www.salabeckett.cat/|A cada pas (Oh, els dies perfectes!)": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-26",
+    "pagina": "https://www.salabeckett.cat/espectacle/a-cada-pas/",
+    "url": "https://salabeckett.koobin.cat/ca/a-cada-pas-oh-els-dies-perfectes"
   },
   "open_data_bcn:99400783066|https://www.salabeckett.cat/|Les distàncies": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-26",
+    "pagina": "https://www.salabeckett.cat/espectacle/les-distancies/",
+    "url": "https://salabeckett.koobin.cat/ca/les-distancies"
   },
   "open_data_bcn:99400783067|https://www.salabeckett.cat/|El castell": {
     "fecha": "2026-11-17",

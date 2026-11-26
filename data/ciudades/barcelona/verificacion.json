@@ -2,8 +2,8 @@
   "cine": {
     "anomalias": [],
     "corregidas_por_regla": {},
-    "fecha": "2026-11-25",
-    "publicadas": 96
+    "fecha": "2026-11-26",
+    "publicadas": 99
   },
   "escena": {
     "anomalias": [
@@ -118,20 +118,6 @@
         "id": "open_data_bcn:99400755246",
         "regla": "repetida",
         "titulo": "Teatre menuts/des"
-      },
-      {
-        "accion": "aviso",
-        "detalle": "mismo título y sala que open_data_bcn:99400714867",
-        "id": "open_data_bcn:99400761359",
-        "regla": "repetida",
-        "titulo": "Teatre i expressió corporal"
-      },
-      {
-        "accion": "aviso",
-        "detalle": "mismo título y sala que open_data_bcn:99400740067",
-        "id": "open_data_bcn:99400767580",
-        "regla": "repetida",
-        "titulo": "Teatre clown"
       },
       {
         "accion": "aviso",
@@ -261,13 +247,6 @@
       },
       {
         "accion": "aviso",
-        "detalle": "mismo título y sala que open_data_bcn:99400732578",
-        "id": "open_data_bcn:99400790594",
-        "regla": "repetida",
-        "titulo": "Teatre: Connecta amb la teva expressivitat!"
-      },
-      {
-        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400774488",
         "id": "open_data_bcn:99400790850",
         "regla": "repetida",
@@ -310,6 +289,13 @@
       },
       {
         "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400791112",
+        "id": "open_data_bcn:99400791494",
+        "regla": "repetida",
+        "titulo": "Catxalot"
+      },
+      {
+        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400749410",
         "id": "open_data_bcn:99400791527",
         "regla": "repetida",
@@ -318,10 +304,10 @@
     ],
     "corregidas_por_regla": {
       "fecha": 19,
-      "repetida": 23,
+      "repetida": 21,
       "sala": 2
     },
-    "fecha": "2026-11-25",
-    "publicadas": 718
+    "fecha": "2026-11-26",
+    "publicadas": 721
   }
 }

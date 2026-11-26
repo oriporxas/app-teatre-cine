@@ -3297,6 +3297,13 @@
       "tmdb": null,
       "v": 1
     },
+    "cia-trasla2": {
+      "fecha": "2026-11-26",
+      "motivo": "ninguna",
+      "nombre": "Cia. Trasla2",
+      "tmdb": null,
+      "v": 2
+    },
     "cia-trastornarts": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -13027,6 +13034,13 @@
       "tmdb": null,
       "v": 1
     },
+    "ramon-escale": {
+      "fecha": "2026-11-26",
+      "motivo": "ninguna",
+      "nombre": "Ramon Escalé",
+      "tmdb": null,
+      "v": 2
+    },
     "ramon-godino": {
       "fecha": "2026-11-19",
       "motivo": "ok",
@@ -16341,6 +16355,60 @@
       },
       "fecha": "2026-11-19"
     },
+    "1043904": {
+      "datos": {
+        "conocida": [
+          [
+            "Élite",
+            2018,
+            "serie",
+            "Ventura Nunier"
+          ],
+          [
+            "Las chicas del cable",
+            2017,
+            "serie",
+            "Jaime"
+          ],
+          [
+            "La influencia",
+            2019,
+            "pelicula",
+            "Abuelo"
+          ],
+          [
+            "Aquí no hay quien viva",
+            2003,
+            "serie",
+            "Luis"
+          ],
+          [
+            "Intacto",
+            2001,
+            "pelicula",
+            ""
+          ],
+          [
+            "El Ministerio del Tiempo",
+            2015,
+            "serie",
+            "Conde de Egmont"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor espanyol",
+          "es": "actor español"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/huvyWwyEUzWMNm6fBwrE9F4R1Vq.jpg",
+        "lugar": "Madrid, Spain",
+        "nacimiento": "1969-05-16",
+        "nombre": "Ramón Esquinas",
+        "oficio": "Acting",
+        "tmdb": 1043904,
+        "wikidata": "Q78779834"
+      },
+      "fecha": "2026-11-26"
+    },
     "1046414": {
       "datos": {
         "conocida": [
@@ -16956,6 +17024,69 @@
         "tmdb": 10543
       },
       "fecha": "2026-11-19"
+    },
+    "1054633": {
+      "datos": {
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Parker",
+            2013,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Hitchcock",
+            2012,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "El hombre de la casa",
+            2005,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "The Super",
+            2018,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "El gran Gatsby",
+            2000,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "nombre": "John J. McLaughlin",
+        "oficio": "Writing",
+        "tmdb": 1054633,
+        "wikidata": "Q15069863"
+      },
+      "fecha": "2026-11-26"
+    },
+    "1056199": {
+      "datos": {
+        "conocida": [
+          [
+            "Andlit norðursins",
+            2011,
+            "pelicula",
+            ""
+          ]
+        ],
+        "nombre": "Ragnar Axelsson",
+        "oficio": "Acting",
+        "tmdb": 1056199
+      },
+      "fecha": "2026-11-26"
     },
     "1057247": {
       "datos": {
@@ -17738,6 +17869,64 @@
         "wikidata": "Q28708638"
       },
       "fecha": "2026-11-19"
+    },
+    "10767": {
+      "datos": {
+        "bio": {
+          "ca": "Barbara Lynn Herzstein o Barbara Hershey (Hollywood, Califòrnia, Estats Units, 5 de febrer del 1948) és una actriu i activista estatunidenca. Un dels seus papers més reconeguts va ser el de María Magdalena en L'última temptació de Crist."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Erica Sayers / The Queen"
+          ],
+          [
+            "Insidious",
+            2011,
+            "pelicula",
+            "Lorraine Lambert"
+          ],
+          [
+            "Insidious: Capítulo 2",
+            2013,
+            "pelicula",
+            "Lorraine Lambert"
+          ],
+          [
+            "Un día de furia",
+            1993,
+            "pelicula",
+            "Beth"
+          ],
+          [
+            "Expediente X",
+            1993,
+            "serie",
+            "Erika Price"
+          ],
+          [
+            "Insidious: La última llave",
+            2018,
+            "pelicula",
+            "Lorraine Lambert"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca (naix. 1948)",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/6swwfge3HlvyBVRSNwroFtMcgNB.jpg",
+        "lugar": "Hollywood, California, USA",
+        "nacimiento": "1948-02-05",
+        "nombre": "Barbara Hershey",
+        "oficio": "Acting",
+        "tmdb": 10767,
+        "wikidata": "Q229042",
+        "wikipedia": "https://es.wikipedia.org/wiki/Barbara_Hershey"
+      },
+      "fecha": "2026-11-26"
     },
     "1082979": {
       "datos": {
@@ -23037,6 +23226,60 @@
       },
       "fecha": "2026-11-19"
     },
+    "1268453": {
+      "datos": {
+        "conocida": [
+          [
+            "Un minuto de gloria",
+            2017,
+            "pelicula",
+            "Tzanko Petrov"
+          ],
+          [
+            "La lección",
+            2014,
+            "pelicula",
+            ""
+          ],
+          [
+            "Infiltrado",
+            2011,
+            "serie",
+            "Drago"
+          ],
+          [
+            "Destinos",
+            2017,
+            "pelicula",
+            "Nikola"
+          ],
+          [
+            "Las lecciones de Blaga",
+            2024,
+            "pelicula",
+            "Graveyard Manager"
+          ],
+          [
+            "В кръг",
+            2019,
+            "pelicula",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor búlgar",
+          "es": "actor búlgaro"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/367MTgtoDfUYXZCaSB2l7axPGHV.jpg",
+        "lugar": "Varna, Bulgaria",
+        "nacimiento": "1968-01-22",
+        "nombre": "Стефан Денолюбов",
+        "oficio": "Acting",
+        "tmdb": 1268453,
+        "wikidata": "Q30729290"
+      },
+      "fecha": "2026-11-26"
+    },
     "1269866": {
       "datos": {
         "conocida": [
@@ -27254,6 +27497,63 @@
       },
       "fecha": "2026-11-19"
     },
+    "140407": {
+      "datos": {
+        "bio": {
+          "en": "Ksenia Solo (born 8 October 1987) is a Latvian-Canadian actress, known for portraying Mackenzie \"Kenzi\" Malikov on Lost Girl. She currently portrays Peggy Shippen on Turn: Washington's Spies. Solo also portrayed the character \"Natasha\" in the 2010 American television series Life Unexpected and Shay Davydov in Season 3 of Orphan Black."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Veronica / Little Swan"
+          ],
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Anastasia Alekova (voice)"
+          ],
+          [
+            "Orphan Black",
+            2013,
+            "serie",
+            "Shay Davydov"
+          ],
+          [
+            "Proyecto Blue Book",
+            2019,
+            "serie",
+            "Susie Miller"
+          ],
+          [
+            "Animal de compañía",
+            2016,
+            "pelicula",
+            "Holly Garling"
+          ],
+          [
+            "Nikita",
+            2010,
+            "serie",
+            "Irina"
+          ]
+        ],
+        "descripcion": {
+          "es": "actriz canadiense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/wILJwOPBqvxxYkWX0k8XmehMD8k.jpg",
+        "lugar": "Riga, Latvian SSR, USSR [now Latvia]",
+        "nacimiento": "1987-10-08",
+        "nombre": "Ksenia Solo",
+        "oficio": "Acting",
+        "tmdb": 140407,
+        "wikidata": "Q269683",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ksenia_Solo"
+      },
+      "fecha": "2026-11-26"
+    },
     "140538": {
       "datos": {
         "bio": {
@@ -28172,6 +28472,73 @@
         "wikipedia": "https://es.wikipedia.org/wiki/John_Alex_Castillo"
       },
       "fecha": "2026-11-19"
+    },
+    "143258": {
+      "datos": {
+        "bio": {
+          "en": "Mark Heyman (born 1979) is an American screenwriter and film producer best known for co-writing Black Swan (2010), The Skeleton Twins (2014), and The Boogeyman (2023). He also created the television series Strange Angel , which aired on Paramount+ for two seasons. Description above from the Wikipedia article Mark Heyman, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "The Boogeyman",
+            2023,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "The Skeleton Twins",
+            2014,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "Strange Angel",
+            2018,
+            "serie",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/4tpNoTMWjV2WAIYMpvmI8KryNY2.jpg",
+        "lugar": " Santa Fe, New Mexico, U.S.",
+        "nacimiento": "1979-11-26",
+        "nombre": "Mark Heyman",
+        "oficio": "Writing",
+        "tmdb": 143258,
+        "wikidata": "Q15069862"
+      },
+      "fecha": "2026-11-26"
+    },
+    "143259": {
+      "datos": {
+        "bio": {
+          "en": "Andres Heinz is best known for his screenplay The Understudy. The Understudy is the screenplay that the blockbuster feature film, Black Swan (2011) starring Natalie Portman is based on. Heinz attended UCLA and NYU film schools where he completed his B.F.A with the highest honors. His thesis film \"Ground Level B\" was the winner of the 1st Place Mobil Award. After graduation, Andres became a successful producer. His production career included being a Production Coordinator for the film unit at Saturday Night Live. Andres went on to direct his first feature, \"Origin of the Species\" and has since sold several original screenplays."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "El triunfo de la Amistad",
+            1998,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "nombre": "Andres Heinz",
+        "oficio": "Writing",
+        "tmdb": 143259,
+        "wikidata": "Q11958060"
+      },
+      "fecha": "2026-11-26"
     },
     "1434487": {
       "datos": {
@@ -32549,6 +32916,55 @@
       },
       "fecha": "2026-11-19"
     },
+    "1614488": {
+      "datos": {
+        "conocida": [
+          [
+            "Infiltrado",
+            2011,
+            "serie",
+            "Aleksandar Sandov"
+          ],
+          [
+            "Bárbaros, El Despertar",
+            2016,
+            "serie",
+            "Knimund"
+          ],
+          [
+            "Pelikanblut",
+            2020,
+            "pelicula",
+            "Hagen"
+          ],
+          [
+            "Birlesen Gönüller",
+            2014,
+            "pelicula",
+            "Nazi Komutanı"
+          ],
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Kaloyán"
+          ],
+          [
+            "All Inclusive",
+            2020,
+            "serie",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/7vcZksEbJ8Nwzm5k0wXdtmcoIHG.jpg",
+        "lugar": "Pazardzhik, Bulgaria",
+        "nacimiento": "1962-04-13",
+        "nombre": "Димитър Баненкин",
+        "oficio": "Acting",
+        "tmdb": 1614488
+      },
+      "fecha": "2026-11-26"
+    },
     "1617697": {
       "datos": {
         "bio": {
@@ -34387,6 +34803,54 @@
         "tmdb": 1701842
       },
       "fecha": "2026-11-19"
+    },
+    "1710188": {
+      "datos": {
+        "conocida": [
+          [
+            "La Protegida",
+            2021,
+            "pelicula",
+            "Lucas Hayes"
+          ],
+          [
+            "Absentia",
+            2017,
+            "serie",
+            "Office Worker"
+          ],
+          [
+            "Gundi: Legend of Love",
+            2024,
+            "pelicula",
+            "Tommy"
+          ],
+          [
+            "Дяволското гърло",
+            2019,
+            "serie",
+            "Slavcho"
+          ],
+          [
+            "Доза щастие",
+            2019,
+            "pelicula",
+            "Joro"
+          ],
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Victor"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/vOKQgOuntuDqo2G8Nof3jU33wQk.jpg",
+        "lugar": "Bulgaria",
+        "nombre": "Dimitar Nikolov",
+        "oficio": "Acting",
+        "tmdb": 1710188
+      },
+      "fecha": "2026-11-26"
     },
     "1710710": {
       "datos": {
@@ -36642,6 +37106,64 @@
       },
       "fecha": "2026-11-24"
     },
+    "18973": {
+      "datos": {
+        "bio": {
+          "es": "Milena Márkovna Kunis (14 de agosto de 1983), más conocida como Mila Kunis, es una actriz ucraniana naturalizada estadounidense. Es conocida mundialmente por interpretar a Jackie Burkhart en That 70's Show, por ser la actriz de voz de Meg Griffin en Padre de familia, y por los papeles cinematográficos de Solara en The Book of Eli, Lily en Black Swan, Jamie en Friends with Benefits, Lori en Ted, la bruja Theodora en Oz: The Great and Powerful, Jupiter Jones en Jupiter Ascending y Amy Mitchell en Bad Moms."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Lily / The Black Swan"
+          ],
+          [
+            "The Boys",
+            2019,
+            "serie",
+            "Mila Kunis (uncredited)"
+          ],
+          [
+            "Ted",
+            2012,
+            "pelicula",
+            "Lori Collins"
+          ],
+          [
+            "Con derecho a roce",
+            2011,
+            "pelicula",
+            "Jamie Rellis"
+          ],
+          [
+            "El destino de Júpiter",
+            2015,
+            "pelicula",
+            "Jupiter Jones"
+          ],
+          [
+            "El libro de Eli",
+            2010,
+            "pelicula",
+            "Solara"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz ucraniana-estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/cJAHQWX9hVadDFx5WTSBIW0VjvP.jpg",
+        "lugar": "Chernovtsy, Ukrainian SSR, USSR [now Chernivtsi, Ukraine]",
+        "nacimiento": "1983-08-14",
+        "nombre": "Mila Kunis",
+        "oficio": "Acting",
+        "tmdb": 18973,
+        "wikidata": "Q37628",
+        "wikipedia": "https://es.wikipedia.org/wiki/Mila_Kunis"
+      },
+      "fecha": "2026-11-26"
+    },
     "18999": {
       "datos": {
         "bio": {
@@ -37092,6 +37614,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "1920": {
+      "datos": {
+        "bio": {
+          "es": "Winona Laura Horowitz (29 de octubre de 1971), más conocida como Winona Ryder, es una actriz estadounidense dos veces nominada al Óscar y ganadora de un Globo de Oro. Aunque su debut fue en Lucas (1986), su primer rol importante fue interpretando a Lydia, una adolescente de estética gótica, en la película Beetlejuice (1988). Después de varias apariciones en la televisión y en la radio, apareció en el filme Escuela de jóvenes asesinos, en un papel tan criticado como aclamado. En 2000 recibió una estrella en el Paseo de la fama de Hollywood, California."
+        },
+        "conocida": [
+          [
+            "Stranger Things",
+            2016,
+            "serie",
+            "Joyce Byers"
+          ],
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Beth Macintyre / The Dying Swan"
+          ],
+          [
+            "Eduardo Manostijeras",
+            1990,
+            "pelicula",
+            "Kim"
+          ],
+          [
+            "Los Simpson",
+            1989,
+            "serie",
+            "Allison Taylor (voice)"
+          ],
+          [
+            "Star Trek",
+            2009,
+            "pelicula",
+            "Amanda Grayson"
+          ],
+          [
+            "Friends",
+            1994,
+            "serie",
+            "Melissa Warburton"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/8RVrlgtua8b53wmK7oZAAkm0N5O.jpg",
+        "lugar": "Winona, Minnesota, USA",
+        "nacimiento": "1971-10-29",
+        "nombre": "Winona Ryder",
+        "oficio": "Acting",
+        "tmdb": 1920,
+        "wikidata": "Q101797",
+        "wikipedia": "https://es.wikipedia.org/wiki/Winona_Ryder"
+      },
+      "fecha": "2026-11-26"
+    },
     "1921779": {
       "datos": {
         "conocida": [
@@ -37107,6 +37687,64 @@
         "tmdb": 1921779
       },
       "fecha": "2026-11-19"
+    },
+    "1925": {
+      "datos": {
+        "bio": {
+          "es": "Vincent Cassel (nacido el 23 de noviembre de 1966) es un actor francés. Logró reconocimiento por primera vez por su interpretación de un joven judío francés con problemas en la película de Mathieu Kassovitz de 1995 La Haine, por la que recibió dos nominaciones al premio César. Obtuvo un amplio reconocimiento entre el público de habla inglesa por sus actuaciones en Ocean's Twelve (2004) y Ocean's Thirteen (2007), así como en Eastern Promises (2007), Black Swan (2010) y Jason Bourne (2016). Cassel también es conocido por interpretar al infame ladrón de bancos francés Jacques Mesrine en Mesrine: Killer Instinct y Mesrine: Public Enemy Number One (ambas en 2008)."
+        },
+        "conocida": [
+          [
+            "Shrek",
+            2001,
+            "pelicula",
+            "Monsieur Hood (voice)"
+          ],
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Thomas Leroy / The Gentleman"
+          ],
+          [
+            "Ocean's Twelve",
+            2004,
+            "pelicula",
+            "François Toulour"
+          ],
+          [
+            "Ocean's Thirteen",
+            2007,
+            "pelicula",
+            "François Toulour"
+          ],
+          [
+            "Westworld",
+            2016,
+            "serie",
+            "Serac"
+          ],
+          [
+            "Jason Bourne",
+            2016,
+            "pelicula",
+            "Asset"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor francès",
+          "es": "actor francés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/KxzpJXyzVnqfouInWLypAND0gL.jpg",
+        "lugar": "Paris, France",
+        "nacimiento": "1966-11-23",
+        "nombre": "Vincent Cassel",
+        "oficio": "Acting",
+        "tmdb": 1925,
+        "wikidata": "Q193504",
+        "wikipedia": "https://es.wikipedia.org/wiki/Vincent_Cassel"
+      },
+      "fecha": "2026-11-26"
     },
     "19274": {
       "datos": {
@@ -39556,6 +40194,38 @@
       },
       "fecha": "2026-11-19"
     },
+    "2192826": {
+      "datos": {
+        "bio": {
+          "en": "Venci Kostov is a director and writer, known for Liuben, Through a Boy's Eyes (2018) and La Zaranda, teatro inestable (2020)."
+        },
+        "conocida": [
+          [
+            "The Son",
+            2012,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Through a Boy's Eyes",
+            2018,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "nombre": "Venci Kostov",
+        "oficio": "Directing",
+        "tmdb": 2192826,
+        "wikidata": "Q77825529"
+      },
+      "fecha": "2026-11-26"
+    },
     "2198504": {
       "datos": {
         "bio": {
@@ -39612,6 +40282,52 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Sarah_Sherman"
       },
       "fecha": "2026-11-19"
+    },
+    "2203959": {
+      "datos": {
+        "conocida": [
+          [
+            "Sara Baras. Todas las voces",
+            2017,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Cinco días para bailar",
+            2014,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/zoMw8PpfPiZNrqgQAL8w7UVNpWh.jpg",
+        "nombre": "Pepe Andreu",
+        "oficio": "Directing",
+        "tmdb": 2203959
+      },
+      "fecha": "2026-11-26"
+    },
+    "2203960": {
+      "datos": {
+        "conocida": [
+          [
+            "Sara Baras. Todas las voces",
+            2017,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Cinco días para bailar",
+            2014,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/2lKXLzJp2VC8bAw8KuuVcgOpuxU.jpg",
+        "nombre": "Rafa Molés",
+        "oficio": "Directing",
+        "tmdb": 2203960
+      },
+      "fecha": "2026-11-26"
     },
     "221018": {
       "datos": {
@@ -51713,6 +52429,45 @@
       },
       "fecha": "2026-11-19"
     },
+    "4039084": {
+      "datos": {
+        "conocida": [
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Liuben"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/3E8cTEgfkFQasDWppQ1awCuHuS6.jpg",
+        "nombre": "Bojidar Iankov Asenov",
+        "oficio": "Acting",
+        "tmdb": 4039084
+      },
+      "fecha": "2026-11-26"
+    },
+    "4039088": {
+      "datos": {
+        "conocida": [
+          [
+            "No One Bulgaria",
+            2017,
+            "pelicula",
+            "Niki"
+          ],
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Milen"
+          ]
+        ],
+        "nombre": "Stoyan Radev",
+        "oficio": "Acting",
+        "tmdb": 4039088
+      },
+      "fecha": "2026-11-26"
+    },
     "40451": {
       "datos": {
         "bio": {
@@ -52243,6 +52998,64 @@
         "tmdb": 4340340
       },
       "fecha": "2026-11-19"
+    },
+    "43443": {
+      "datos": {
+        "bio": {
+          "en": "Kristina Elizabeth Anapau Roper (born October 30, 1979), better known as Kristina Anapau, is an American actress and writer. She is known for her roles as Maurella on the HBO series True Blood and as Galina in the 2010 film Black Swan. She also portrayed Cassidy Merteuil in Cruel Intentions 3."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Galina / Little Swan"
+          ],
+          [
+            "House",
+            2004,
+            "serie",
+            "Marie"
+          ],
+          [
+            "Grimm",
+            2011,
+            "serie",
+            "Megan Marston"
+          ],
+          [
+            "True Blood (Sangre fresca)",
+            2008,
+            "serie",
+            "Maurella"
+          ],
+          [
+            "Monk",
+            2002,
+            "serie",
+            "Amanda"
+          ],
+          [
+            "La maldición (Cursed)",
+            2005,
+            "pelicula",
+            "Brooke"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/70yrpNKrjCNYCYADKWVsr9XbtyV.jpg",
+        "lugar": "Hawaii, USA",
+        "nacimiento": "1979-10-30",
+        "nombre": "Kristina Anapau",
+        "oficio": "Acting",
+        "tmdb": 43443,
+        "wikidata": "Q2619191",
+        "wikipedia": "https://es.wikipedia.org/wiki/Kristina_Anapau"
+      },
+      "fecha": "2026-11-26"
     },
     "4423284": {
       "datos": {
@@ -53086,6 +53899,54 @@
         "tmdb": 4627757
       },
       "fecha": "2026-11-19"
+    },
+    "4632997": {
+      "datos": {
+        "conocida": [
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Milko"
+          ]
+        ],
+        "nombre": "Ivan Matev",
+        "oficio": "Acting",
+        "tmdb": 4632997
+      },
+      "fecha": "2026-11-26"
+    },
+    "4633000": {
+      "datos": {
+        "conocida": [
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Iliyana"
+          ]
+        ],
+        "nombre": "Nadyara Dimcheva",
+        "oficio": "Acting",
+        "tmdb": 4633000
+      },
+      "fecha": "2026-11-26"
+    },
+    "4633001": {
+      "datos": {
+        "conocida": [
+          [
+            "Liuben",
+            2024,
+            "pelicula",
+            "Fazan"
+          ]
+        ],
+        "nombre": "Velizar Iliev",
+        "oficio": "Acting",
+        "tmdb": 4633001
+      },
+      "fecha": "2026-11-26"
     },
     "4640765": {
       "datos": {
@@ -55199,6 +56060,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "524": {
+      "datos": {
+        "bio": {
+          "es": "Natalie Portman es la primera persona nacida en la década de 1980 que ganó el Premio de la Academia a la Mejor Actriz (por Cisne negro (2010)). Natalie nació Natalie Hershlag el 9 de junio de 1981, en Jerusalén, Israel. Ella es la única hija de Avner Hershlag, un médico nacido en Israel, y Shelley Stevens, una artista estadounidense (de Cincinnati, Ohio), que también actúa como agente de Natalie. Sus padres son ambos de ascendencia judía Ashkenazi. La familia de Natalie dejó Israel para ir a Washington, D.C., cuando aún era muy joven. Después de algunos movimientos más, su familia finalmente se estableció en Nueva York, donde todavía vive hasta el día de hoy."
+        },
+        "conocida": [
+          [
+            "Vengadores: Endgame",
+            2019,
+            "pelicula",
+            "Jane Foster"
+          ],
+          [
+            "Thor",
+            2011,
+            "pelicula",
+            "Jane Foster"
+          ],
+          [
+            "Thor: el mundo oscuro",
+            2013,
+            "pelicula",
+            "Jane Foster"
+          ],
+          [
+            "El profesional (Léon)",
+            1994,
+            "pelicula",
+            "Mathilda Lando"
+          ],
+          [
+            "La guerra de las galaxias. Episodio I: La amenaza fantasma",
+            1999,
+            "pelicula",
+            "Padmé Amidala"
+          ],
+          [
+            "V de Vendetta",
+            2006,
+            "pelicula",
+            "Evey"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz, directora y productora israelíestadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
+        "lugar": "Jerusalem, Israel",
+        "nacimiento": "1981-06-09",
+        "nombre": "Natalie Portman",
+        "oficio": "Acting",
+        "tmdb": 524,
+        "wikidata": "Q37876",
+        "wikipedia": "https://es.wikipedia.org/wiki/Natalie_Portman"
+      },
+      "fecha": "2026-11-26"
+    },
     "525": {
       "datos": {
         "bio": {
@@ -56843,6 +57762,43 @@
       },
       "fecha": "2026-11-21"
     },
+    "550068": {
+      "datos": {
+        "conocida": [
+          [
+            "Skrydis per Lietuvą arba 510 sekundžių tylos",
+            2000,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Gregarios, maravillosos perdedores",
+            2017,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Pries parskrendant i zeme",
+            2005,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Laika tilti",
+            2018,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/oIZZkntuWV2YhAWOW1XAUFUxEfF.jpg",
+        "nacimiento": "1961-04-09",
+        "nombre": "Arūnas Matelis",
+        "oficio": "Directing",
+        "tmdb": 550068,
+        "wikidata": "Q350555"
+      },
+      "fecha": "2026-11-26"
+    },
     "55063": {
       "datos": {
         "bio": {
@@ -57154,6 +58110,64 @@
         "tmdb": 5540956
       },
       "fecha": "2026-11-24"
+    },
+    "55584": {
+      "datos": {
+        "bio": {
+          "en": "Ingvar Sigurdsson was born on November 22, 1963 in Reykjavik, Iceland. He is an actor and producer, known for Everest (2015), The Northman (2022) and A White, White Day (2019)."
+        },
+        "conocida": [
+          [
+            "Liga de la Justicia",
+            2017,
+            "pelicula",
+            "Mayor"
+          ],
+          [
+            "Animales fantásticos II. Los crímenes de Grindelwald",
+            2018,
+            "pelicula",
+            "Grimmson"
+          ],
+          [
+            "La Liga de la Justicia de Zack Snyder",
+            2021,
+            "pelicula",
+            "Mayor"
+          ],
+          [
+            "Everest",
+            2015,
+            "pelicula",
+            "Anatoli Boukreev"
+          ],
+          [
+            "El hombre del norte",
+            2022,
+            "pelicula",
+            "He-Witch"
+          ],
+          [
+            "Rebel Moon (Parte uno): La niña del fuego",
+            2023,
+            "pelicula",
+            "Hagen"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor islandès",
+          "es": "actor islandés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/m7pllSNc0HRorwZmT6flaR3LdRE.jpg",
+        "lugar": "Reykjavík, Iceland",
+        "nacimiento": "1963-11-22",
+        "nombre": "Ingvar E. Sigurðsson",
+        "oficio": "Acting",
+        "tmdb": 55584,
+        "wikidata": "Q496913",
+        "wikipedia": "https://es.wikipedia.org/wiki/Ingvar_Eggert_Sigur%C3%B0sson"
+      },
+      "fecha": "2026-11-26"
     },
     "5565330": {
       "datos": {
@@ -59399,6 +60413,14 @@
       },
       "fecha": "2026-11-19"
     },
+    "6060987": {
+      "datos": {
+        "nombre": "Ólafur Rögnavaldsson",
+        "oficio": "Writing",
+        "tmdb": 6060987
+      },
+      "fecha": "2026-11-26"
+    },
     "608": {
       "datos": {
         "bio": {
@@ -59522,6 +60544,64 @@
         "tmdb": 6086403
       },
       "fecha": "2026-11-20"
+    },
+    "60898": {
+      "datos": {
+        "bio": {
+          "es": "Sebastian Stan (13 de agosto de 1982) es un actor rumano-estadounidense.​ Es muy conocido por interpretar a Bucky Barnes / Winter Soldier en las películas del Universo cinematográfico de Marvel Capitán América: el primer vengador (2011), Captain America: The Winter Soldier (2014), Capitán América: Civil War (2016), Black Panther (2018), Avengers: Infinity War (2018), Avengers: Endgame (2019)."
+        },
+        "conocida": [
+          [
+            "Vengadores: Infinity War",
+            2018,
+            "pelicula",
+            "Bucky Barnes / Winter Soldier"
+          ],
+          [
+            "Vengadores: Endgame",
+            2019,
+            "pelicula",
+            "Bucky Barnes / Winter Soldier"
+          ],
+          [
+            "Capitán América: Civil War",
+            2016,
+            "pelicula",
+            "Bucky Barnes / Winter Soldier"
+          ],
+          [
+            "Black Panther",
+            2018,
+            "pelicula",
+            "James 'Bucky' Barnes / Winter Soldier (uncredited)"
+          ],
+          [
+            "Capitán América: El primer vengador",
+            2011,
+            "pelicula",
+            "James Buchanan 'Bucky' Barnes"
+          ],
+          [
+            "Marte (The Martian)",
+            2015,
+            "pelicula",
+            "Chris Beck"
+          ]
+        ],
+        "descripcion": {
+          "ca": "Actor Estadounidense",
+          "es": "actor rumano-estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/v20RLWst39klatsqUgSrwHxhwee.jpg",
+        "lugar": "Constanța, Romanian SR [now Romania]",
+        "nacimiento": "1982-08-13",
+        "nombre": "Sebastian Stan",
+        "oficio": "Acting",
+        "tmdb": 60898,
+        "wikidata": "Q455898",
+        "wikipedia": "https://es.wikipedia.org/wiki/Sebastian_Stan"
+      },
+      "fecha": "2026-11-26"
     },
     "6091": {
       "datos": {
@@ -60174,6 +61254,64 @@
         "tmdb": 6421308
       },
       "fecha": "2026-11-20"
+    },
+    "6431": {
+      "datos": {
+        "bio": {
+          "es": "Director, guionista y productor estadounidense nacido en Brooklyn, Nueva York. De familia judía, decidió convertirse en cineasta desde su juventud. Estudió en la Universidad de Harvard y pasó brevemente por el American Film Institute. En este período educativo dirigió sus cortos Supermarket Sweep (1991), Fortune Cookie (1991) y Protozoa (1993). El largometraje debut de Aronofsky fue Pi (1998), una intriga psicológica con trazos surrealistas filmada en blanco y negro que contaba con el protagonismo de un matemático llamado Max Cohen. De tonos alucinatorios y paranoicos, la película, co-escrita entre Aronofsky, Sean Gullette y Eric Watson, tenía influencias de David Lynch."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Réquiem por un sueño",
+            2000,
+            "pelicula",
+            "Visitor (uncredited)"
+          ],
+          [
+            "Madre!",
+            2017,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Noé",
+            2014,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "La ballena (The Whale)",
+            2022,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "El luchador",
+            2008,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema estatunidenc",
+          "es": "director cinematográfico estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/tOjz8mVI2HeQBvU6KNjIExMBsXL.jpg",
+        "lugar": "Brooklyn, New York City, New York, USA",
+        "nacimiento": "1969-02-12",
+        "nombre": "Darren Aronofsky",
+        "oficio": "Directing",
+        "tmdb": 6431,
+        "wikidata": "Q192762",
+        "wikipedia": "https://es.wikipedia.org/wiki/Darren_Aronofsky"
+      },
+      "fecha": "2026-11-26"
     },
     "6437202": {
       "datos": {
@@ -64925,6 +66063,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "90755": {
+      "datos": {
+        "bio": {
+          "en": "Janet Ruth Montgomery (born October 29, 1985) is an English film and TV actress. She first gained attention for her role as Ames in the second season of the television series Human Target (2010–11), and also for her appearance in the 2009 straight-to-DVD film The Hills Run Red. She played the lead in the television drama Made in Jersey (2012), which was cancelled after two episodes aired. From 2014 to 2017, she starred as the lead character, Mary Sibley, in the series Salem. From 2018 to 2023, Montgomery played Lauren Bloom on the medical drama television series New Amsterdam."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "Madeline / Little Swan"
+          ],
+          [
+            "Black Mirror",
+            2011,
+            "serie",
+            "Beth"
+          ],
+          [
+            "Un espacio entre nosotros",
+            2017,
+            "pelicula",
+            "Sarah Elliot"
+          ],
+          [
+            "This Is Us",
+            2016,
+            "serie",
+            "Olivia Maine"
+          ],
+          [
+            "Skins",
+            2007,
+            "serie",
+            "Beth"
+          ],
+          [
+            "Camino sangriento 3",
+            2009,
+            "pelicula",
+            "Alex"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu britànica",
+          "es": "actriz británica"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/jn9tU6mAAkdtjgw2JPlS2vFG1jM.jpg",
+        "lugar": "Bournemouth, Dorset, England, UK",
+        "nacimiento": "1985-10-29",
+        "nombre": "Janet Montgomery",
+        "oficio": "Acting",
+        "tmdb": 90755,
+        "wikidata": "Q271121",
+        "wikipedia": "https://es.wikipedia.org/wiki/Janet_Montgomery"
+      },
+      "fecha": "2026-11-26"
+    },
     "90760": {
       "datos": {
         "bio": {
@@ -66259,6 +67455,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "961": {
+      "datos": {
+        "bio": {
+          "es": "Antonia García San Juan (22 de mayo de 1961) es una mujer transgénero actriz, directora de cine, monologuista, guionista y productora española que saltó a la fama en 1999 al interpretar a Agrado en la película Todo sobre mi madre, de Pedro Almodóvar.​ Participó en la famosa serie de televisión La que se avecina dando vida a Estela Reynolds (Paca Pacheco)."
+        },
+        "conocida": [
+          [
+            "El hoyo",
+            2019,
+            "pelicula",
+            "Imoguiri"
+          ],
+          [
+            "Todo sobre mi madre",
+            1999,
+            "pelicula",
+            "Agrado"
+          ],
+          [
+            "El hoyo 2",
+            2024,
+            "pelicula",
+            "Imoguiri"
+          ],
+          [
+            "La que se avecina",
+            2007,
+            "serie",
+            "Estela Reynolds"
+          ],
+          [
+            "Hierro",
+            2019,
+            "serie",
+            "Samir"
+          ],
+          [
+            "Mañana es hoy",
+            2022,
+            "pelicula",
+            "Elvirita"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu, directora i guionista espanyola",
+          "es": "actriz, directora de cine y guionista española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/A4rhAimrDiTfTVsXNqiJ2clVpx4.jpg",
+        "lugar": "Las Palmas, Canary Islands, Spain",
+        "nacimiento": "1961-05-22",
+        "nombre": "Antonia San Juan",
+        "oficio": "Acting",
+        "tmdb": 961,
+        "wikidata": "Q2356576",
+        "wikipedia": "https://es.wikipedia.org/wiki/Antonia_San_Juan"
+      },
+      "fecha": "2026-11-26"
+    },
     "96481": {
       "datos": {
         "bio": {
@@ -66432,6 +67686,57 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Rodrigo_Sorogoyen"
       },
       "fecha": "2026-11-19"
+    },
+    "970088": {
+      "datos": {
+        "bio": {
+          "en": "Benjamin Millepied is a French dancer and choreographer, who has lived and worked in the United States after joining the New York City Ballet in 1995, where he became a soloist in 1998 and a principal in 2002. He has also created choreography for the company, and choreographed pieces for other major companies. He retired from NYCB in 2011. He initiated the LA Dance Project, leading it from 2011 to 2014. He was Director of Dance at the Paris Opera Ballet from October 2014 and resigned in 2016. He is known for his work in the movie Black Swan (2010), which he choreographed, and in which he starred as a dancer."
+        },
+        "conocida": [
+          [
+            "Cisne negro",
+            2010,
+            "pelicula",
+            "David Moreau / The Prince"
+          ],
+          [
+            "Barbie en El lago de los cisnes",
+            2003,
+            "pelicula",
+            "New York City Ballet Dancer"
+          ],
+          [
+            "Barbie en El cascanueces",
+            2001,
+            "pelicula",
+            "New York City Ballet Dancer"
+          ],
+          [
+            "Carmen",
+            2023,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Relève",
+            2016,
+            "pelicula",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "es": "coreógrafo y exbailarín francés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/dUolMP3dmuks23usx3sRfB8qKqx.jpg",
+        "lugar": "Bordeaux, Gironde, France",
+        "nacimiento": "1977-06-15",
+        "nombre": "Benjamin Millepied",
+        "oficio": "Acting",
+        "tmdb": 970088,
+        "wikidata": "Q583186",
+        "wikipedia": "https://es.wikipedia.org/wiki/Benjamin_Millepied"
+      },
+      "fecha": "2026-11-26"
     },
     "970213": {
       "datos": {
@@ -66837,6 +68142,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Emma_D%27Arcy"
+    },
+    "Q101797": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Winona_Ryder"
     },
     "Q102427314": {
       "descripcion": {
@@ -67467,6 +68780,11 @@
       "fecha": "2026-11-25",
       "wikipedia": "https://es.wikipedia.org/wiki/Xavier_Albert%C3%AD"
     },
+    "Q11958060": {
+      "descripcion": null,
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
     "Q11964837": {
       "descripcion": {
         "ca": "actor noruec",
@@ -68027,6 +69345,16 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/J._K._Simmons"
     },
+    "Q15069862": {
+      "descripcion": null,
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
+    "Q15069863": {
+      "descripcion": null,
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
     "Q15069969": {
       "descripcion": {
         "ca": "actriu francesa",
@@ -68476,6 +69804,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Rupert_Grint"
     },
+    "Q192762": {
+      "descripcion": {
+        "ca": "director de cinema estatunidenc",
+        "es": "director cinematográfico estadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Darren_Aronofsky"
+    },
     "Q19289954": {
       "descripcion": {
         "ca": "dramaturga, directora, actriu, dobladora i cantant catalana",
@@ -68499,6 +69835,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Mar_Ulldemolins"
+    },
+    "Q193504": {
+      "descripcion": {
+        "ca": "actor francès",
+        "es": "actor francés"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Vincent_Cassel"
     },
     "Q19362155": {
       "descripcion": {
@@ -68963,6 +70307,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Elle_Fanning"
     },
+    "Q229042": {
+      "descripcion": {
+        "ca": "actriu estatunidenca (naix. 1948)",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Barbara_Hershey"
+    },
     "Q22926984": {
       "descripcion": {
         "ca": "director i guionista de cinema espanyol",
@@ -69031,6 +70383,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Linda_Hunt"
+    },
+    "Q2356576": {
+      "descripcion": {
+        "ca": "actriu, directora i guionista espanyola",
+        "es": "actriz, directora de cine y guionista española"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Antonia_San_Juan"
     },
     "Q236300": {
       "descripcion": {
@@ -69259,6 +70619,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Emma_Su%C3%A1rez"
     },
+    "Q2619191": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Kristina_Anapau"
+    },
     "Q26198129": {
       "descripcion": {
         "es": "actor estadounidense"
@@ -69342,6 +70710,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Mikey_Madison"
     },
+    "Q269683": {
+      "descripcion": {
+        "es": "actriz canadiense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ksenia_Solo"
+    },
     "Q269857": {
       "descripcion": {
         "ca": "actriu espanyola",
@@ -69378,6 +70753,14 @@
       },
       "fecha": "2026-11-25",
       "wikipedia": "https://es.wikipedia.org/wiki/Austin_Amelio"
+    },
+    "Q271121": {
+      "descripcion": {
+        "ca": "actriu britànica",
+        "es": "actriz británica"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Janet_Montgomery"
     },
     "Q271944": {
       "descripcion": {
@@ -69697,6 +71080,14 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q30729290": {
+      "descripcion": {
+        "ca": "actor búlgar",
+        "es": "actor búlgaro"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
     "Q3081347": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -69978,6 +71369,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://ca.wikipedia.org/wiki/Stefan_Schwartz"
     },
+    "Q350555": {
+      "descripcion": null,
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
     "Q3525539": {
       "descripcion": {
         "ca": "actor francès",
@@ -70137,6 +71533,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Martin_McDonagh"
     },
+    "Q37628": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz ucraniana-estadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mila_Kunis"
+    },
     "Q3765217": {
       "descripcion": {
         "ca": "actriu italiana",
@@ -70144,6 +71548,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q37876": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz, directora y productora israelíestadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Natalie_Portman"
     },
     "Q380856": {
       "descripcion": {
@@ -70342,6 +71754,14 @@
       },
       "fecha": "2026-11-25",
       "wikipedia": null
+    },
+    "Q455898": {
+      "descripcion": {
+        "ca": "Actor Estadounidense",
+        "es": "actor rumano-estadounidense"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Sebastian_Stan"
     },
     "Q456360": {
       "descripcion": {
@@ -70556,6 +71976,14 @@
       },
       "fecha": "2026-11-24",
       "wikipedia": "https://es.wikipedia.org/wiki/Brett_Gelman"
+    },
+    "Q496913": {
+      "descripcion": {
+        "ca": "actor islandès",
+        "es": "actor islandés"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Ingvar_Eggert_Sigur%C3%B0sson"
     },
     "Q4974291": {
       "descripcion": {
@@ -70957,6 +72385,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ramon_Madaula"
+    },
+    "Q583186": {
+      "descripcion": {
+        "es": "coreógrafo y exbailarín francés"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": "https://es.wikipedia.org/wiki/Benjamin_Millepied"
     },
     "Q5858574": {
       "descripcion": {
@@ -71589,6 +73024,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://ca.wikipedia.org/wiki/%C3%80urea_M%C3%A1rquez_i_Alonso"
     },
+    "Q77825529": {
+      "descripcion": null,
+      "fecha": "2026-11-26",
+      "wikipedia": null
+    },
     "Q779875": {
       "descripcion": {
         "ca": "actor i director català",
@@ -71609,6 +73049,14 @@
       "descripcion": null,
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Travis_Knight_%28animador%29"
+    },
+    "Q78779834": {
+      "descripcion": {
+        "ca": "actor espanyol",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-26",
+      "wikipedia": null
     },
     "Q7925436": {
       "descripcion": {

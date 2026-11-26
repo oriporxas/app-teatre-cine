@@ -2270,6 +2270,12 @@
     "firma": "abf8035f47457af5",
     "imagen": "https://static.tickelio.com/images/0/0/1/4/8/4/se-ha-escrito-un-crimen.png"
   },
+  "https://teatrebalmes.com/ca/artes-escenicas/barcelona/se-ha-escrito-un-crimen-1": {
+    "datos": null,
+    "fecha": "2026-11-26",
+    "firma": "a1942001d04e7458",
+    "imagen": "https://static.tickelio.com/images/0/0/2/2/9/2/se-ha-escrito-un-crimen-1-social.png"
+  },
   "https://teatrebalmes.com/ca/artes-escenicas/barcelona/vamos-a-tener-que-ir-al-psicologo-despues-de-esto-1": {
     "datos": {
       "duracion": null,
@@ -2349,6 +2355,12 @@
     "fecha": "2026-11-18",
     "firma": "10457096fd7bd5dc",
     "imagen": "https://static.tickelio.com/images/0/0/1/9/3/6/25-anos-de-humor-eterno.jpeg"
+  },
+  "https://teatrebalmes.com/ca/humor/barcelona/anticoach": {
+    "datos": null,
+    "fecha": "2026-11-26",
+    "firma": "39d131170dbfdd65",
+    "imagen": "https://static.tickelio.com/images/0/0/2/1/7/6/anticoach.jpeg"
   },
   "https://teatrebalmes.com/ca/humor/barcelona/como-en-la-casa-de-uno-en-ningun-sitio": {
     "datos": {
@@ -3056,6 +3068,12 @@
     "fecha": "2026-11-18",
     "firma": "0b0441ee655268e4",
     "imagen": null
+  },
+  "https://woutick.com/es/entradas/rebel-drag-presenta-a-kandy-muse/comprar/5e180514-2d8a-4bd7-a543-d495d65a86cf": {
+    "datos": null,
+    "fecha": "2026-11-26",
+    "firma": "7702ab312283f05c",
+    "imagen": "https://cdn2.woutick.com/events/thumbnails/m/9adb1ca6-caeb-411c-bcd7-46df217af826.jpg"
   },
   "https://www.anticteatre.com/events/event/cavitat-f-alba-ramio-i-guell": {
     "datos": {
@@ -5512,6 +5530,12 @@
     "firma": "31f5c1c114b7ee02",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2024/05/A3-Blanc-1.jpg"
   },
+  "https://www.salabeckett.cat/espectacle/a-cada-pas/": {
+    "datos": null,
+    "fecha": "2026-11-26",
+    "firma": "bafd5a38d06434b1",
+    "imagen": "https://www.salabeckett.cat/wp-content/uploads/2026/06/a-cada-pas-web-1000x600-1.jpg"
+  },
   "https://www.salabeckett.cat/espectacle/compto-cada-passa/": {
     "datos": {
       "duracion": 60,
@@ -5561,6 +5585,12 @@
     "fecha": "2026-11-25",
     "firma": "ca7057c4d00d03f2",
     "imagen": "https://www.salabeckett.cat/wp-content/uploads/2026/06/foratblanc-web-1000x600-1.jpg"
+  },
+  "https://www.salabeckett.cat/espectacle/les-distancies/": {
+    "datos": null,
+    "fecha": "2026-11-26",
+    "firma": "cadb2826a150f7c9",
+    "imagen": "https://www.salabeckett.cat/wp-content/uploads/2026/06/les-distancies-web-1000x600-1.jpg"
   },
   "https://www.salapangoli.com/producto/adultos-difsuncionales/": {
     "datos": {
