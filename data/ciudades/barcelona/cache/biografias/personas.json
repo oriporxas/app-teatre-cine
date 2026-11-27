@@ -1036,6 +1036,13 @@
       "tmdb": null,
       "v": 1
     },
+    "andrea-diaz-reboredo": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Andrea Díaz Reboredo",
+      "tmdb": null,
+      "v": 2
+    },
     "andrea-forlenza": {
       "fecha": "2026-11-20",
       "motivo": "ninguna",
@@ -2436,6 +2443,13 @@
       "tmdb": null,
       "v": 1
     },
+    "carles-fontova": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Carles Fontova",
+      "tmdb": null,
+      "v": 2
+    },
     "carles-gallardo": {
       "fecha": "2026-11-19",
       "motivo": "ninguna",
@@ -3283,6 +3297,13 @@
       "tmdb": null,
       "v": 2
     },
+    "cia-sgratta": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Cia. Sgratta",
+      "tmdb": null,
+      "v": 2
+    },
     "cia-susanna-barranco": {
       "fecha": "2026-11-23",
       "motivo": "ninguna",
@@ -4087,6 +4108,13 @@
       "nombre": "David Dominguez",
       "tmdb": null,
       "v": 1
+    },
+    "david-el-colillas": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "David El Colillas",
+      "tmdb": null,
+      "v": 2
     },
     "david-franch": {
       "fecha": "2026-11-19",
@@ -13741,6 +13769,13 @@
       "tmdb": null,
       "v": 1
     },
+    "sarah-john": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Sarah John",
+      "tmdb": null,
+      "v": 2
+    },
     "sarah-sternat": {
       "fecha": "2026-11-23",
       "motivo": "ninguna",
@@ -14034,6 +14069,13 @@
       "nombre": "Sílvia Navarro",
       "tmdb": null,
       "v": 1
+    },
+    "silvia-rodriguez-egana": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Silvia Rodríguez Egaña",
+      "tmdb": null,
+      "v": 2
     },
     "silvia-valls": {
       "fecha": "2026-11-19",
@@ -14742,6 +14784,13 @@
       "tmdb": null,
       "v": 1
     },
+    "toti-toronell": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Toti Toronell",
+      "tmdb": null,
+      "v": 2
+    },
     "traduccio-al-catala": {
       "fecha": "2026-11-22",
       "motivo": "ninguna",
@@ -15195,6 +15244,13 @@
       "motivo": "ok",
       "nombre": "Xavi Morató",
       "tmdb": 5088113,
+      "v": 2
+    },
+    "xavi-moreno": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Xavi Moreno",
+      "tmdb": null,
       "v": 2
     },
     "xavi-navarro": {
@@ -19732,6 +19788,57 @@
       },
       "fecha": "2026-11-25"
     },
+    "114739": {
+      "datos": {
+        "conocida": [
+          [
+            "Porco Rosso",
+            1992,
+            "pelicula",
+            "Mamma Aiuto Gang Member (voice)"
+          ],
+          [
+            "Fullmetal Alchemist: Brotherhood",
+            2009,
+            "serie",
+            "Master (voice)"
+          ],
+          [
+            "Cowboy Bebop",
+            1998,
+            "serie",
+            "Doctor (voice)"
+          ],
+          [
+            "Ghost in the Shell 2: Innocence",
+            2004,
+            "pelicula",
+            "Criminal (voice)"
+          ],
+          [
+            "Monster",
+            2004,
+            "serie",
+            "Police Chief Hamrik (voice)"
+          ],
+          [
+            "Detective Conan",
+            1996,
+            "serie",
+            "Tani (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/wDEh8Jf17dAJzRHHjw3DL3zqhGH.jpg",
+        "lugar": "Tokyo, Japan",
+        "muerte": "2019-06-10",
+        "nacimiento": "1935-09-24",
+        "nombre": "藤本譲",
+        "oficio": "Acting",
+        "tmdb": 114739,
+        "wikidata": "Q9339550"
+      },
+      "fecha": "2026-11-27"
+    },
     "1149059": {
       "datos": {
         "bio": {
@@ -20318,6 +20425,110 @@
       },
       "fecha": "2026-11-19"
     },
+    "117626": {
+      "datos": {
+        "conocida": [
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Miyuki (voice)"
+          ],
+          [
+            "Azumi",
+            2003,
+            "pelicula",
+            "Yae"
+          ],
+          [
+            "Sky High",
+            2003,
+            "pelicula",
+            "Sayuri Toyama"
+          ],
+          [
+            "学校の怪談",
+            1995,
+            "pelicula",
+            "Kaori Komuro"
+          ],
+          [
+            "Ringu: El capitulo final",
+            1999,
+            "serie",
+            ""
+          ],
+          [
+            "地下鉄に乗って",
+            2006,
+            "pelicula",
+            "Michiko Karube"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/fRyDwNLmUCxdsu54kdbtSWghCUC.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1982-12-09",
+        "nombre": "岡本綾",
+        "oficio": "Acting",
+        "tmdb": 117626,
+        "wikidata": "Q873484"
+      },
+      "fecha": "2026-11-27"
+    },
+    "117629": {
+      "datos": {
+        "conocida": [
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Hana (voice)"
+          ],
+          [
+            "Gamera 2: El ataque de legión",
+            1996,
+            "pelicula",
+            "Sapporo Riot Police platoon leader"
+          ],
+          [
+            "Guinea Pig 4: Devil woman doctor",
+            1986,
+            "pelicula",
+            ""
+          ],
+          [
+            "孤独のグルメ",
+            2012,
+            "serie",
+            "Fortune teller"
+          ],
+          [
+            "Cold Case: Shinjitsu no Tobira",
+            2016,
+            "serie",
+            "Izawa Akira"
+          ],
+          [
+            "アスリート 〜俺が彼に溺れた日々〜",
+            2019,
+            "pelicula",
+            "Priscilla"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor japonès",
+          "es": "actor japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/qlSGkSgrs18ZMUWplD1703HDxVr.jpg",
+        "lugar": "Kasaoka, Okayama, Japan",
+        "nacimiento": "1959-07-12",
+        "nombre": "梅垣義明",
+        "oficio": "Acting",
+        "tmdb": 117629,
+        "wikidata": "Q11538434"
+      },
+      "fecha": "2026-11-27"
+    },
     "1176394": {
       "datos": {
         "conocida": [
@@ -20639,6 +20850,63 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Teresa_Salgueiro"
       },
       "fecha": "2026-11-25"
+    },
+    "118763": {
+      "datos": {
+        "bio": {
+          "en": "Ana Lúcia Pereira Moniz is a Portuguese singer and actress. Moniz represented Portugal in the Eurovision Song Contest 1996 and has released four music albums to date. She has also acted in several television shows, in theatre, and in films, most prominently Love Actually."
+        },
+        "conocida": [
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "Aurelia"
+          ],
+          [
+            "Red Nose Day Actually",
+            2017,
+            "pelicula",
+            "Aurelia"
+          ],
+          [
+            "Fátima, la película",
+            2020,
+            "pelicula",
+            "Maria Rosa"
+          ],
+          [
+            "Justicia artificial",
+            2024,
+            "pelicula",
+            "Sofía"
+          ],
+          [
+            "Listen",
+            2020,
+            "pelicula",
+            "Bela"
+          ],
+          [
+            "Operación Marea Negra",
+            2022,
+            "serie",
+            "Carmo"
+          ]
+        ],
+        "descripcion": {
+          "es": "Cantante y actriz portuguesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/2K3RbWjvCTSsZ7CWu2k9fZxMFSX.jpg",
+        "lugar": "Lisbon, Portugal",
+        "nacimiento": "1976-09-09",
+        "nombre": "Lúcia Moniz",
+        "oficio": "Acting",
+        "tmdb": 118763,
+        "wikidata": "Q269675",
+        "wikipedia": "https://es.wikipedia.org/wiki/L%C3%BAcia_Moniz"
+      },
+      "fecha": "2026-11-27"
     },
     "1192578": {
       "datos": {
@@ -21193,6 +21461,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "12180": {
+      "datos": {
+        "bio": {
+          "es": "Mamoru Oshii (押井 守, Oshī Mamoru, 8 de agosto de 1951-) es un director de cine, de televisión, de anime, novelista, guionista, autor de manga, dramaturgo y creador de juegos japonés. También es activo como profesor especialmente designado en la Escuela de Graduados de la Universidad de Tokio y profesor invitado en la Universidad Keizai de Tokio. Desde 2021, vive en la ciudad de Atami, prefectura de Shizuoka."
+        },
+        "conocida": [
+          [
+            "Ghost in the Shell",
+            1995,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Ghost in the Shell 2: Innocence",
+            2004,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "El huevo del ángel",
+            1985,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Jin-Roh: La brigada del lobo",
+            1999,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Ghost in the Shell 2.0",
+            2008,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Avalon",
+            2001,
+            "pelicula",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema i guionista",
+          "es": "Director de cine, de televisión y escritor japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/zKno06IDV6PIa8oUI9RmToVIPPC.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1951-08-08",
+        "nombre": "Mamoru Oshii",
+        "oficio": "Directing",
+        "tmdb": 12180,
+        "wikidata": "Q285084",
+        "wikipedia": "https://es.wikipedia.org/wiki/Mamoru_Oshii"
+      },
+      "fecha": "2026-11-27"
+    },
     "1218908": {
       "datos": {
         "bio": {
@@ -21245,6 +21571,118 @@
         "wikidata": "Q7682072"
       },
       "fecha": "2026-11-19"
+    },
+    "12191": {
+      "datos": {
+        "conocida": [
+          [
+            "Ghost in the Shell 2: Innocence",
+            2004,
+            "pelicula",
+            "Mysterious Woman (voice)"
+          ],
+          [
+            "Serial Experiments Lain",
+            1998,
+            "serie",
+            "Chisa Yomoda (voice)"
+          ],
+          [
+            "Jin-Roh: La brigada del lobo",
+            1999,
+            "pelicula",
+            "Kei Amamiya (voice)"
+          ],
+          [
+            "Voces de una estrella distante",
+            2002,
+            "pelicula",
+            ""
+          ],
+          [
+            "Carta de amor",
+            1995,
+            "pelicula",
+            "Nurse"
+          ],
+          [
+            "Presa de la secta",
+            1995,
+            "pelicula",
+            "Sumi"
+          ]
+        ],
+        "descripcion": {
+          "ca": "seiyū japonesa",
+          "es": "actriz de voz japonesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/ehU6qAHket9NoKR9FW61uAdJpzV.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1971-05-18",
+        "nombre": "武藤寿美",
+        "oficio": "Acting",
+        "tmdb": 12191,
+        "wikidata": "Q11546491"
+      },
+      "fecha": "2026-11-27"
+    },
+    "12199": {
+      "datos": {
+        "bio": {
+          "en": "Tamio Ohki is a Japanese voice actor and narrator from Tokyo."
+        },
+        "conocida": [
+          [
+            "Ghost in the Shell",
+            1995,
+            "pelicula",
+            "Aramaki (voice)"
+          ],
+          [
+            "Los niños lobo",
+            2012,
+            "pelicula",
+            "Yamaoka (voice)"
+          ],
+          [
+            "Cowboy Bebop",
+            1998,
+            "serie",
+            "Pao Puzi (voice)"
+          ],
+          [
+            "Ghost in the Shell 2: Innocence",
+            2004,
+            "pelicula",
+            "Section 9 Department Chief Aramaki (voice)"
+          ],
+          [
+            "Berserk: La Historia de la Espada Feroz",
+            1997,
+            "serie",
+            "King (voice)"
+          ],
+          [
+            "Monster",
+            2004,
+            "serie",
+            "Nina's Father (voice)"
+          ]
+        ],
+        "descripcion": {
+          "es": "actor japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/ixEU7F1vWpcm0MGqc04xXNGLpHz.jpg",
+        "lugar": "Tokyo, Japan",
+        "muerte": "2017-12-14",
+        "nacimiento": "1928-01-02",
+        "nombre": "大木民夫",
+        "oficio": "Acting",
+        "tmdb": 12199,
+        "wikidata": "Q1357188",
+        "wikipedia": "https://es.wikipedia.org/wiki/Tamio_%C5%8Cki"
+      },
+      "fecha": "2026-11-27"
     },
     "1220429": {
       "datos": {
@@ -25332,6 +25770,63 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Ilana_Glazer"
       },
       "fecha": "2026-11-24"
+    },
+    "1325881": {
+      "datos": {
+        "bio": {
+          "en": "Kyoko Terase is a Japanese voice actress currently employed by Aoni Production. She currently resides in Tokyo. In the past, she has been credited under the stage name Megumi Terase."
+        },
+        "conocida": [
+          [
+            "Ataque a los Titanes",
+            2013,
+            "serie",
+            "Moses' Mother (voice)"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Sachiko (voice)"
+          ],
+          [
+            "Gatchaman",
+            1972,
+            "serie",
+            "Joe's mother (voice)"
+          ],
+          [
+            "Goku: Midnight Eye",
+            1989,
+            "pelicula",
+            "Peacock (voice)"
+          ],
+          [
+            "Vampire Wars",
+            1990,
+            "pelicula",
+            "Marguerite (voice)"
+          ],
+          [
+            "Mahou Sentai Magiranger",
+            2005,
+            "serie",
+            "Sphinx (Voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "seiyū japonesa",
+          "es": "actriz de voz japonesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/z6vPr939Frh589X3AhHXxwZNuP1.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1958-07-05",
+        "nombre": "Kyoko Terase",
+        "oficio": "Acting",
+        "tmdb": 1325881,
+        "wikidata": "Q6452005"
+      },
+      "fecha": "2026-11-27"
     },
     "1327": {
       "datos": {
@@ -33069,13 +33564,18 @@
             "Gobernador Oporto"
           ]
         ],
+        "descripcion": {
+          "ca": "actor i director català",
+          "es": "actor español"
+        },
         "foto": "https://image.tmdb.org/t/p/w185/p1AFBzyZRbHzA6S8q3RWw0YXoAf.jpg",
         "lugar": "Barcelona, Barcelona, Catalunya, Spain",
         "nacimiento": "1957-04-20",
         "nombre": "Lluís Homar",
         "oficio": "Acting",
         "tmdb": 1604,
-        "wikidata": "Q779875"
+        "wikidata": "Q779875",
+        "wikipedia": "https://es.wikipedia.org/wiki/Llu%C3%ADs_Homar"
       },
       "fecha": "2026-11-19"
     },
@@ -34407,6 +34907,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "1680263": {
+      "datos": {
+        "bio": {
+          "en": "Maryam Touzani (Arabic: مريم التوزاني; born 18 July 1980; Tangier) is a Moroccan filmmaker and actress. She is best known as the director of critically acclaimed film Adam. Touzani was born in 1980 in Tangier. In 2003, she obtained Master's degree in Media Communication and Journalism in London. Then she began her career as a journalist with a focus on cinema. She is married to a fellow Franco-Moroccan filmmaker Nabil Ayouch."
+        },
+        "conocida": [
+          [
+            "El caftán azul",
+            2023,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Adam",
+            2019,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Razzia",
+            2017,
+            "pelicula",
+            "Salima"
+          ],
+          [
+            "Dilo alto y fuerte",
+            2021,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "في حب تودا",
+            2024,
+            "pelicula",
+            "Writer"
+          ]
+        ],
+        "descripcion": {
+          "ca": "directora de cinema marroquina",
+          "es": "directora y guionista de cine marroquí"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/pZzjavB0zLgm9sHxki70BDmlwpT.jpg",
+        "lugar": "Tanger, Maroc",
+        "nacimiento": "1980-07-18",
+        "nombre": "Maryam Touzani",
+        "oficio": "Directing",
+        "tmdb": 1680263,
+        "wikidata": "Q50587732",
+        "wikipedia": "https://es.wikipedia.org/wiki/Maryam_Touzani"
+      },
+      "fecha": "2026-11-27"
+    },
     "1680526": {
       "datos": {
         "conocida": [
@@ -35368,6 +35926,54 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Quinta_Brunson"
       },
       "fecha": "2026-11-19"
+    },
+    "1749000": {
+      "datos": {
+        "conocida": [
+          [
+            "13 horas. Los soldados secretos de Bengasi",
+            2016,
+            "pelicula",
+            "Hesham"
+          ],
+          [
+            "El caftán azul",
+            2023,
+            "pelicula",
+            "Bathhouse Employee"
+          ],
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Vendedor Assilah"
+          ],
+          [
+            "Mi tierra",
+            2013,
+            "pelicula",
+            "Le pêcheur"
+          ],
+          [
+            "سيد المجهول",
+            2020,
+            "pelicula",
+            "Brahim"
+          ],
+          [
+            "في حب تودا",
+            2024,
+            "pelicula",
+            ""
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/1ojdNQBdERgKveJneruDvRN2As7.jpg",
+        "nombre": "Mohamed Naimane",
+        "oficio": "Acting",
+        "tmdb": 1749000,
+        "wikidata": "Q141836239"
+      },
+      "fecha": "2026-11-27"
     },
     "17497": {
       "datos": {
@@ -39602,6 +40208,63 @@
       },
       "fecha": "2026-11-19"
     },
+    "20664": {
+      "datos": {
+        "bio": {
+          "es": "Koichi Yamadera (山寺 宏一 Yamadera Kōichi, Shiogama (Miyagi), Prefectura de Miyagi, 17 de junio de 1961) es un actor, seiyū, cantante y narrador japonés. Yamadera comenzó a ejercer como actor de voz de 1985 y se graduó por la Universidad Tohoku Gakuin en ciencias económicas. Actualmente está afiliado a Across Entertainment, siendo su anterior compañía, Haikyō. Algunos de sus papeles más destacados incluyen el de Jūbei Kibagami en Ninja Scroll, Spike Spiegel en Cowboy Bebop, Ryōga Hibiki en Ranma ½, Cheese en Go! Anpanman, Togusa en Ghost in the Shell, Ryōji Kaji en Neon Genesis Evangelion, Kōichi Zenigata en Lupin III​ y a Beerus en Dragon Ball Super."
+        },
+        "conocida": [
+          [
+            "Kimetsu no Yaiba: Guardianes de la Noche",
+            2019,
+            "serie",
+            "Zohakuten (voice)"
+          ],
+          [
+            "One Piece",
+            1999,
+            "serie",
+            "Donquixote Rosinante (voice)"
+          ],
+          [
+            "My Hero Academia",
+            2016,
+            "serie",
+            "Danjuro Tobita (voice)"
+          ],
+          [
+            "Dragon Ball Super",
+            2015,
+            "serie",
+            "Beerus (voice)"
+          ],
+          [
+            "Nicky, la aprendiz de bruja",
+            1989,
+            "pelicula",
+            "Bakery Worker / Policeman (voice)"
+          ],
+          [
+            "Jujutsu Kaisen",
+            2020,
+            "serie",
+            "Miguel (voice)"
+          ]
+        ],
+        "descripcion": {
+          "es": "actor japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/biov5jENp2XYfehkcdnRvi796Wi.jpg",
+        "lugar": "Shiogama, Miyagi, Japan",
+        "nacimiento": "1961-06-17",
+        "nombre": "Koichi Yamadera",
+        "oficio": "Acting",
+        "tmdb": 20664,
+        "wikidata": "Q333194",
+        "wikipedia": "https://es.wikipedia.org/wiki/K%C5%8Dichi_Yamadera"
+      },
+      "fecha": "2026-11-27"
+    },
     "206905": {
       "datos": {
         "bio": {
@@ -40291,6 +40954,60 @@
       },
       "fecha": "2026-11-19"
     },
+    "217924": {
+      "datos": {
+        "bio": {
+          "es": "Satomi Koorogi (こおろぎ さとみ, Kōrogi Satomi, nacida el 14 de noviembre de 1962) es una actriz de voz y narradora japonesa. Nació en Mitaka, Tokio. Pertenece a la Production Baobab. Su ex marido es el actor de voz Shigeru Nakahara. Entre sus obras representativas se incluyen «Shin Chan» como Himawari Nohara, «Shounen Ashibe: Go! Go! Goma-chan» como Goma-chan y la serie «Pokémon» como Mew, Pichu y Togepi."
+        },
+        "conocida": [
+          [
+            "Dragon Ball Super",
+            2015,
+            "serie",
+            "Zeno (voice)"
+          ],
+          [
+            "Super Dragon Ball Heroes",
+            2018,
+            "serie",
+            "Zeno"
+          ],
+          [
+            "Paprika, detective de los sueños",
+            2006,
+            "pelicula",
+            "Japanese Doll (voice)"
+          ],
+          [
+            "Pokémon",
+            1997,
+            "serie",
+            "Togepi (voice)"
+          ],
+          [
+            "Pokémon: La película",
+            1998,
+            "pelicula",
+            "Togepi (voice)"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Kiyoko (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/zNJyGVOJQULuyO0isN8sTVwPaX0.jpg",
+        "lugar": "Musashino, Tokyo, Japan",
+        "nacimiento": "1962-11-14",
+        "nombre": "Satomi Koorogi",
+        "oficio": "Acting",
+        "tmdb": 217924,
+        "wikidata": "Q1142547",
+        "wikipedia": "https://es.wikipedia.org/wiki/Satomi_K%C5%8Drogi"
+      },
+      "fecha": "2026-11-27"
+    },
     "21807": {
       "datos": {
         "bio": {
@@ -40495,6 +41212,60 @@
         "wikidata": "Q77825529"
       },
       "fecha": "2026-11-26"
+    },
+    "219659": {
+      "datos": {
+        "bio": {
+          "es": "Masaki Terasoma (えらすま まさき, Terasoma Masaki, 8 de mayo de 1962) es un actor y actor de doblaje japonés nacido en el prefectura de Hyogo y criado en la prefectura de Osaka. Está afiliado a Mausu Promotion."
+        },
+        "conocida": [
+          [
+            "Tu nombre",
+            2016,
+            "pelicula",
+            "Toshiki Miyamizu (voice)"
+          ],
+          [
+            "Naruto Shippuden",
+            2007,
+            "serie",
+            "Hidan (voice)"
+          ],
+          [
+            "Ataque a los Titanes",
+            2013,
+            "serie",
+            "Petra's Father (voice)"
+          ],
+          [
+            "Kimetsu no Yaiba: Guardianes de la Noche",
+            2019,
+            "serie",
+            "Saburo (voice)"
+          ],
+          [
+            "One Piece",
+            1999,
+            "serie",
+            "Caribou (voice)"
+          ],
+          [
+            "Fullmetal Alchemist: Brotherhood",
+            2009,
+            "serie",
+            "Yuriy Rockbell (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg",
+        "lugar": "Nishinomiya, Hyogo, Japan",
+        "nacimiento": "1962-05-08",
+        "nombre": "Masaki Terasoma",
+        "oficio": "Acting",
+        "tmdb": 219659,
+        "wikidata": "Q2539458",
+        "wikipedia": "https://es.wikipedia.org/wiki/Masaki_Terasoma"
+      },
+      "fecha": "2026-11-27"
     },
     "2198504": {
       "datos": {
@@ -42971,6 +43742,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "237076": {
+      "datos": {
+        "bio": {
+          "es": "Rikiya Koyama es un actor y actor de doblaje japonés que pertenece a lompañía de teatro Haiyuza. Ha puesto voz a personajes populares en Hajime no Ippo, Utawarerumono y Kamen no Maid Guy. También se le conoce por los apodos Rikki y Riki-chan. Koyama se hizo popular por prestar su voz a Yamato de Naruto, Kogoro Mouri de Detective Conan y Coyote Starrk de Bleach."
+        },
+        "conocida": [
+          [
+            "Naruto Shippuden",
+            2007,
+            "serie",
+            "Yamato (voice)"
+          ],
+          [
+            "Kimetsu no Yaiba: Guardianes de la Noche",
+            2019,
+            "serie",
+            "Shinjuro Rengoku (voice)"
+          ],
+          [
+            "Guardianes de la Noche: Tren infinito",
+            2020,
+            "pelicula",
+            "Shinjuro Rengoku (voice)"
+          ],
+          [
+            "Super Dragon Ball Heroes",
+            2018,
+            "serie",
+            "Cumber (voice)"
+          ],
+          [
+            "Guardianes de la noche: Kimetsu no Yaiba La fortaleza infinita",
+            2025,
+            "pelicula",
+            "(voice)"
+          ],
+          [
+            "Bleach",
+            2004,
+            "serie",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor de doblatge japonès",
+          "es": "actor de voz japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/hsZm87BORLpzhaycBaWOD5xpjVC.jpg",
+        "lugar": "Kyoto, Japan",
+        "nacimiento": "1963-12-18",
+        "nombre": "Rikiya Koyama",
+        "oficio": "Acting",
+        "tmdb": 237076,
+        "wikidata": "Q1204898",
+        "wikipedia": "https://es.wikipedia.org/wiki/Rikiya_Koyama"
+      },
+      "fecha": "2026-11-27"
+    },
     "2370779": {
       "datos": {
         "bio": {
@@ -43831,6 +44660,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "2440": {
+      "datos": {
+        "bio": {
+          "es": "William Francis Bill Nighy (12 de diciembre de 1949) es un actor británico conocido por sus papeles antagónicos interpretando roles de villanos, como Viktor en la franquicia cinematográfica de Underworld, Davy Jones en Piratas del Caribe, el General Fallon en Jack el cazagigantes, entre otros. Nighy nació en Caterham (Surrey), en 1949 y se formó en teatro en la escuela de actuación de Guildford. Realizó su debut profesional en el teatro en el Watermill Theatre de Newbury y luego siguió ganando experiencia en teatros regionales. En Liverpool creó, junto a Julie Walters y Pete Postlethwaite, una compañía de teatro itinerante que se presentaba en locales de variedades."
+        },
+        "conocida": [
+          [
+            "Harry Potter y las Reliquias de la Muerte - Parte 1",
+            2010,
+            "pelicula",
+            "Rufus Scrimgeour"
+          ],
+          [
+            "Piratas del Caribe: El cofre del hombre muerto",
+            2006,
+            "pelicula",
+            "Davy Jones"
+          ],
+          [
+            "Piratas del Caribe: En el fin del mundo",
+            2007,
+            "pelicula",
+            "Davy Jones"
+          ],
+          [
+            "Zombies Party",
+            2004,
+            "pelicula",
+            "Phillip"
+          ],
+          [
+            "Una cuestión de tiempo",
+            2013,
+            "pelicula",
+            "Dad"
+          ],
+          [
+            "Arma fatal",
+            2007,
+            "pelicula",
+            "Met Chief Inspector"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor anglès",
+          "es": "actor británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/ixFI2YCGNGJfwlpI8iyhvVZRg8C.jpg",
+        "lugar": "Caterham, Surrey, England, UK",
+        "nacimiento": "1949-12-12",
+        "nombre": "Bill Nighy",
+        "oficio": "Acting",
+        "tmdb": 2440,
+        "wikidata": "Q207179",
+        "wikipedia": "https://es.wikipedia.org/wiki/Bill_Nighy"
+      },
+      "fecha": "2026-11-27"
+    },
     "2445714": {
       "datos": {
         "conocida": [
@@ -44286,6 +45173,59 @@
         "tmdb": 2486756
       },
       "fecha": "2026-11-19"
+    },
+    "2486761": {
+      "datos": {
+        "conocida": [
+          [
+            "El buen patrón",
+            2021,
+            "pelicula",
+            "Khaled"
+          ],
+          [
+            "Mosul",
+            2019,
+            "pelicula",
+            "Kawa's uncle"
+          ],
+          [
+            "Adú",
+            2020,
+            "pelicula",
+            "Samir"
+          ],
+          [
+            "María",
+            2024,
+            "pelicula",
+            "Surly Carpenter"
+          ],
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Agente Inmobiliario"
+          ],
+          [
+            "La unidad",
+            2020,
+            "serie",
+            ""
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor",
+          "es": "actor marroquí"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/bPicmRiIenBlIzdBZcE5xJwhBhN.jpg",
+        "lugar": "Rabat, Morocco",
+        "nombre": "Tarik Rmili",
+        "oficio": "Acting",
+        "tmdb": 2486761,
+        "wikidata": "Q108850243"
+      },
+      "fecha": "2026-11-27"
     },
     "2493610": {
       "datos": {
@@ -46297,6 +47237,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "2744": {
+      "datos": {
+        "bio": {
+          "ca": "María del Carmen García Maura (Madrid, 15 de setembre de 1945), coneguda com a Carmen Maura, és una actriu espanyola de cinema."
+        },
+        "conocida": [
+          [
+            "Volver",
+            2006,
+            "pelicula",
+            "Irene"
+          ],
+          [
+            "Mujeres al borde de un ataque de nervios",
+            1988,
+            "pelicula",
+            "Pepa"
+          ],
+          [
+            "Las brujas de Zugarramurdi",
+            2013,
+            "pelicula",
+            "Graciana Barrenetxea"
+          ],
+          [
+            "El postre de la alegría (Paulette)",
+            2012,
+            "pelicula",
+            "Maria"
+          ],
+          [
+            "Las chicas de la 6ª planta",
+            2011,
+            "pelicula",
+            "Concepcion"
+          ],
+          [
+            "La comunidad",
+            2000,
+            "pelicula",
+            "Julia"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu espanyola",
+          "es": "actriz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/sXvr7BvxscBkYpGTcYjpqbzkUSH.jpg",
+        "lugar": "Madrid, Spain",
+        "nacimiento": "1945-09-15",
+        "nombre": "Carmen Maura",
+        "oficio": "Acting",
+        "tmdb": 2744,
+        "wikidata": "Q234807",
+        "wikipedia": "https://es.wikipedia.org/wiki/Carmen_Maura"
+      },
+      "fecha": "2026-11-27"
+    },
     "27459": {
       "datos": {
         "bio": {
@@ -46806,6 +47804,61 @@
         "wikidata": "Q56349283"
       },
       "fecha": "2026-11-19"
+    },
+    "27664": {
+      "datos": {
+        "conocida": [
+          [
+            "Contagio",
+            2011,
+            "pelicula",
+            "Doctor Haddad (uncredited)"
+          ],
+          [
+            "El espía",
+            2019,
+            "serie",
+            "Abu Mahmoud"
+          ],
+          [
+            "Ishtar",
+            1987,
+            "pelicula",
+            "Guerilla (uncredited)"
+          ],
+          [
+            "Cosas que no olvidaré",
+            2026,
+            "pelicula",
+            "Hassan"
+          ],
+          [
+            "El viaje de Julia",
+            1999,
+            "pelicula",
+            "Ben Said"
+          ],
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Abslam"
+          ]
+        ],
+        "descripcion": {
+          "ca": "director de cinema marroquí",
+          "es": "director de cine marroquí"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/o7iaexFSLxXCzrBg1OtzqzspB5x.jpg",
+        "lugar": "Salé, Morocco",
+        "nacimiento": "1956-12-04",
+        "nombre": "Ahmed Boulane",
+        "oficio": "Acting",
+        "tmdb": 27664,
+        "wikidata": "Q2827523",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Ahmed_Boulane"
+      },
+      "fecha": "2026-11-27"
     },
     "2769219": {
       "datos": {
@@ -49850,6 +50903,64 @@
       },
       "fecha": "2026-11-24"
     },
+    "3291": {
+      "datos": {
+        "bio": {
+          "en": "Hugh John Mungo Grant (born 9 September 1960) is an English actor. He established himself early in his career as a charming, vulnerable romantic leading man and has since transitioned into a character actor. He has received several accolades, including a British Academy Film Award and a Golden Globe Award, as well as nominations for two Primetime Emmy Awards. He received an Honorary César in 2006. In 2022, Time Out magazine listed Grant as one of Britain's 50 greatest actors of all time. As of 2025, his films have grossed over US$4 billion worldwide."
+        },
+        "conocida": [
+          [
+            "El atlas de las nubes",
+            2012,
+            "pelicula",
+            "Rev. Giles Horrox / Hotel Heavy / Lloyd Hooks / Denholme Cav"
+          ],
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "The Prime Minister"
+          ],
+          [
+            "Puñales por la espalda: El misterio de Glass Onion",
+            2022,
+            "pelicula",
+            "Phillip"
+          ],
+          [
+            "Operación U.N.C.L.E.",
+            2015,
+            "pelicula",
+            "Waverly"
+          ],
+          [
+            "The Gentlemen: Los señores de la mafia",
+            2020,
+            "pelicula",
+            "Fletcher"
+          ],
+          [
+            "Notting Hill",
+            1999,
+            "pelicula",
+            "William Thacker"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor britànic",
+          "es": "actor británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/dvV843fOuzsEPXHtFvdzsHpy1rC.jpg",
+        "lugar": "London, England, UK",
+        "nacimiento": "1960-09-09",
+        "nombre": "Hugh Grant",
+        "oficio": "Acting",
+        "tmdb": 3291,
+        "wikidata": "Q163286",
+        "wikipedia": "https://es.wikipedia.org/wiki/Hugh_Grant"
+      },
+      "fecha": "2026-11-27"
+    },
     "3292": {
       "datos": {
         "bio": {
@@ -50131,6 +51242,64 @@
         "wikidata": "Q113828764"
       },
       "fecha": "2026-11-22"
+    },
+    "34019": {
+      "datos": {
+        "bio": {
+          "es": "Marta Etura Palenzuela (San Sebastián, Guipúzcoa, 28 de octubre de 1978) es una actriz española de cine, teatro y televisión ganadora de un Premio Goya a la mejor actriz de reparto en 2010 por su trabajo en la película Celda 211. [Wikipedia]"
+        },
+        "conocida": [
+          [
+            "Lo imposible",
+            2012,
+            "pelicula",
+            "Simone"
+          ],
+          [
+            "Celda 211",
+            2009,
+            "pelicula",
+            "Elena"
+          ],
+          [
+            "Mientras duermes",
+            2011,
+            "pelicula",
+            "Clara"
+          ],
+          [
+            "El guardián invisible",
+            2017,
+            "pelicula",
+            "Amaia Salazar"
+          ],
+          [
+            "Legado en los huesos",
+            2019,
+            "pelicula",
+            "Amaia Salazar"
+          ],
+          [
+            "Eva",
+            2011,
+            "pelicula",
+            "Lana Levi"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu espanyola",
+          "es": "actriz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/a6aAilLDKbIXGwBfNgGc44RufVB.jpg",
+        "lugar": "Donostia-San Sebastián, Guipúzcoa, País Vasco, Spain",
+        "nacimiento": "1978-07-05",
+        "nombre": "Marta Etura",
+        "oficio": "Acting",
+        "tmdb": 34019,
+        "wikidata": "Q435171",
+        "wikipedia": "https://es.wikipedia.org/wiki/Marta_Etura"
+      },
+      "fecha": "2026-11-27"
     },
     "34021": {
       "datos": {
@@ -50612,6 +51781,65 @@
       },
       "fecha": "2026-11-19"
     },
+    "34923": {
+      "datos": {
+        "bio": {
+          "en": "Atsuko Tanaka (田中 敦子, Tanaka Atsuko, November 14, 1962 – August 20, 2024) was a Japanese voice actress and narrator. Born in Maebashi, she became interested in acting during her youth, and while educated at Ferris University, worked as a background extra at Shochiku. After spending years working as an office lady for a Tokyo executive, she enrolled in the Tokyo Announcement Academy and joined the talent agency Mausu Promotion, with whom she was affiliated at the time of her death."
+        },
+        "conocida": [
+          [
+            "Naruto Shippuden",
+            2007,
+            "serie",
+            "Konan (voice)"
+          ],
+          [
+            "Jujutsu Kaisen",
+            2020,
+            "serie",
+            "Hanami (voice)"
+          ],
+          [
+            "Ghost in the Shell",
+            1995,
+            "pelicula",
+            "Motoko Kusanagi (voice)"
+          ],
+          [
+            "Haru en el reino de los gatos",
+            2002,
+            "pelicula",
+            "Additional Voices (voice)"
+          ],
+          [
+            "Cowboy Bebop",
+            1998,
+            "serie",
+            "Coffy (voice)"
+          ],
+          [
+            "Quiero comerme tu páncreas",
+            2018,
+            "pelicula",
+            "Haruki's Mother (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "seiyū japonesa",
+          "es": "seiyū japonesa (1962-2024)"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/pacuup8TMK9SFsSJOY8jlbyzkFt.jpg",
+        "lugar": "Maebashi, Gunma, Japan",
+        "muerte": "2024-08-20",
+        "nacimiento": "1962-11-14",
+        "nombre": "Atsuko Tanaka",
+        "oficio": "Acting",
+        "tmdb": 34923,
+        "wikidata": "Q1208611",
+        "wikipedia": "https://es.wikipedia.org/wiki/Atsuko_Tanaka"
+      },
+      "fecha": "2026-11-27"
+    },
     "3496205": {
       "datos": {
         "conocida": [
@@ -50635,6 +51863,64 @@
         "tmdb": 3496205
       },
       "fecha": "2026-11-19"
+    },
+    "350": {
+      "datos": {
+        "bio": {
+          "es": "Laura Leggett Linney (5 de febrero de 1964), conocida como Laura Linney, es una actriz y cantante estadounidense, nominada a los Premios Óscar en tres ocasiones. Obtuvo su primera nominación en el año 2000 como mejor actriz por su actuación en la película You Can Count on Me."
+        },
+        "conocida": [
+          [
+            "El show de Truman",
+            1998,
+            "pelicula",
+            "Meryl"
+          ],
+          [
+            "Animales nocturnos",
+            2016,
+            "pelicula",
+            "Anne Sutton"
+          ],
+          [
+            "Sully",
+            2016,
+            "pelicula",
+            "Lorrie Sullenberger"
+          ],
+          [
+            "Mystic River",
+            2003,
+            "pelicula",
+            "Annabeth Markum"
+          ],
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "Sarah"
+          ],
+          [
+            "Las dos caras de la verdad",
+            1996,
+            "pelicula",
+            "Janet Venable"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu estatunidenca",
+          "es": "actriz estadounidense"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/6I31xZxo9Hq6T0OhSwCUjHd8jkB.jpg",
+        "lugar": "Manhattan, New York City, New York, USA",
+        "nacimiento": "1964-02-05",
+        "nombre": "Laura Linney",
+        "oficio": "Acting",
+        "tmdb": 350,
+        "wikidata": "Q223281",
+        "wikipedia": "https://es.wikipedia.org/wiki/Laura_Linney"
+      },
+      "fecha": "2026-11-27"
     },
     "3516191": {
       "datos": {
@@ -51697,6 +52983,28 @@
       },
       "fecha": "2026-11-19"
     },
+    "3739328": {
+      "datos": {
+        "conocida": [
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Zohra"
+          ],
+          [
+            "Derrière les palmiers",
+            2026,
+            "pelicula",
+            "Malika"
+          ]
+        ],
+        "nombre": "Sanae Regragui",
+        "oficio": "Acting",
+        "tmdb": 3739328
+      },
+      "fecha": "2026-11-27"
+    },
     "37403": {
       "datos": {
         "bio": {
@@ -52548,6 +53856,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "3896": {
+      "datos": {
+        "bio": {
+          "es": "Liam Neeson nació el 7 de junio de 1952 en Ballymena, Irlanda del Norte, de Katherine (Brown), una cocinera, y Bernard Neeson, un cuidador de la escuela. Fue criado en una casa católica. Durante sus primeros años, Liam trabajó como operador de montacargas para Guinness, un camionero, un arquitecto asistente y un boxeador aficionado. Originalmente había buscado una carrera como maestro asistiendo a St. Mary's Teaching College, Newcastle. Sin embargo, en 1976, Neeson se unió al Belfast Lyric Players 'Theatre e hizo su debut como actor profesional en la obra \"The Risen People\". Después de dos años, Neeson se mudó al Teatro Abbey de Dublín, donde interpretó los clásicos."
+        },
+        "conocida": [
+          [
+            "El caballero oscuro: La leyenda renace",
+            2012,
+            "pelicula",
+            "Ra's Al Ghul"
+          ],
+          [
+            "Batman Begins",
+            2005,
+            "pelicula",
+            "Ducard"
+          ],
+          [
+            "La lista de Schindler",
+            1993,
+            "pelicula",
+            "Oskar Schindler"
+          ],
+          [
+            "La guerra de las galaxias. Episodio I: La amenaza fantasma",
+            1999,
+            "pelicula",
+            "Qui-Gon Jinn"
+          ],
+          [
+            "La guerra de las galaxias. Episodio II: El ataque de los clones",
+            2002,
+            "pelicula",
+            "Qui-Gon Jinn (voice)"
+          ],
+          [
+            "Venganza",
+            2008,
+            "pelicula",
+            "Bryan Mills"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor nord-irlandès",
+          "es": "actor norirlandés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg",
+        "lugar": "Ballymena, County Antrim, Northern Ireland, UK",
+        "nacimiento": "1952-06-07",
+        "nombre": "Liam Neeson",
+        "oficio": "Acting",
+        "tmdb": 3896,
+        "wikidata": "Q58444",
+        "wikipedia": "https://es.wikipedia.org/wiki/Liam_Neeson"
+      },
+      "fecha": "2026-11-27"
+    },
     "3903602": {
       "datos": {
         "conocida": [
@@ -52914,6 +54280,115 @@
         "tmdb": 4031220
       },
       "fecha": "2026-11-19"
+    },
+    "40330": {
+      "datos": {
+        "conocida": [
+          [
+            "Paprika, detective de los sueños",
+            2006,
+            "pelicula",
+            "Seijiro Inui (voice)"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Gin (voice)"
+          ],
+          [
+            "リーガル・ハイ",
+            2012,
+            "serie",
+            "Togashi Itsuo"
+          ],
+          [
+            "Doraemon y los piratas de los mares del sur",
+            1998,
+            "pelicula",
+            "Captain Kid (voice)"
+          ],
+          [
+            "Glory to the Filmmaker!",
+            2007,
+            "pelicula",
+            "Higashi Oizumi"
+          ],
+          [
+            "Adios, Galaxy Express 999: Ultima Parada Andromeda",
+            1981,
+            "pelicula",
+            "Faust (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/Qdzjq7UANUZfko03sCsebTniVL.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1944-01-25",
+        "nombre": "江守徹",
+        "oficio": "Acting",
+        "tmdb": 40330,
+        "wikidata": "Q5360555",
+        "wikipedia": "https://es.wikipedia.org/wiki/T%C5%8Dru_Emori"
+      },
+      "fecha": "2026-11-27"
+    },
+    "40333": {
+      "datos": {
+        "bio": {
+          "en": "Satoshi Kon (October 12, 1963 – August 24, 2010) was a Japanese anime director and mangaka from Kushiro, Hokkaidō and a member of the Japan Animation Creators Association (JAniCA). He was a graduate of the Graphic Design department of the Musashino Art University. He is sometimes credited as \"Yoshihiro Wanibuchi\" (鰐淵良宏 Wanibuchi Yoshihiro?) in the credits of Paranoia Agent. He was the younger brother of guitarist and studio musician Tsuyoshi Kon."
+        },
+        "conocida": [
+          [
+            "Perfect Blue",
+            1998,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Paprika, detective de los sueños",
+            2006,
+            "pelicula",
+            "Jinnai (voice)"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Millennium Actress",
+            2002,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Memories",
+            1995,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Paranoia Agent",
+            2004,
+            "serie",
+            "Director"
+          ]
+        ],
+        "descripcion": {
+          "es": "mangaka y director de películas de anime japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/b7Oqg1bjS0e2iEzEjYWnsyVVagt.jpg",
+        "lugar": "Kushiro, Hokkaido, Japan",
+        "muerte": "2010-08-24",
+        "nacimiento": "1963-10-12",
+        "nombre": "今敏",
+        "oficio": "Writing",
+        "tmdb": 40333,
+        "wikidata": "Q333643",
+        "wikipedia": "https://es.wikipedia.org/wiki/Satoshi_Kon"
+      },
+      "fecha": "2026-11-27"
     },
     "4039084": {
       "datos": {
@@ -53632,6 +55107,41 @@
       },
       "fecha": "2026-11-20"
     },
+    "4472704": {
+      "datos": {
+        "conocida": [
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Soukaina"
+          ],
+          [
+            "Mar afuera",
+            2025,
+            "serie",
+            ""
+          ],
+          [
+            "Polonia",
+            2006,
+            "serie",
+            "Noor"
+          ],
+          [
+            "Jo mai mai",
+            2024,
+            "serie",
+            "Noor"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/qQCg9GTS3r9SmcNb1uqZfaXKxWm.jpg",
+        "nombre": "La Imèn",
+        "oficio": "Acting",
+        "tmdb": 4472704
+      },
+      "fecha": "2026-11-27"
+    },
     "4472705": {
       "datos": {
         "conocida": [
@@ -54138,6 +55648,65 @@
         "tmdb": 4556980
       },
       "fecha": "2026-11-21"
+    },
+    "4566": {
+      "datos": {
+        "bio": {
+          "es": "Alan Sidney Patrick Rickman (21 de febrero de 1946 - Londres, 14 de enero de 2016)1​ fue un diseñador gráfico, actor y director de cine británico. Es mayormente recordado por su interpretación de Severus Snape en la saga cinematográfica de Harry Potter."
+        },
+        "conocida": [
+          [
+            "Harry Potter y la piedra filosofal",
+            2001,
+            "pelicula",
+            "Severus Snape"
+          ],
+          [
+            "Harry Potter y la cámara secreta",
+            2002,
+            "pelicula",
+            "Severus Snape"
+          ],
+          [
+            "Harry Potter y el prisionero de Azkaban",
+            2004,
+            "pelicula",
+            "Severus Snape"
+          ],
+          [
+            "Harry Potter y el cáliz de fuego",
+            2005,
+            "pelicula",
+            "Severus Snape"
+          ],
+          [
+            "Harry Potter y las Reliquias de la Muerte - Parte 2",
+            2011,
+            "pelicula",
+            "Severus Snape"
+          ],
+          [
+            "Harry Potter y la Orden del Fénix",
+            2007,
+            "pelicula",
+            "Severus Snape"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor anglès de cinema, teatre i televisió",
+          "es": "actor y director británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/1EearzPgXkmYFKvECfWNrctIFT9.jpg",
+        "lugar": "Acton, London, England, UK",
+        "muerte": "2016-01-14",
+        "nacimiento": "1946-02-21",
+        "nombre": "Alan Rickman",
+        "oficio": "Acting",
+        "tmdb": 4566,
+        "wikidata": "Q106481",
+        "wikipedia": "https://es.wikipedia.org/wiki/Alan_Rickman"
+      },
+      "fecha": "2026-11-27"
     },
     "4576256": {
       "datos": {
@@ -54970,6 +56539,60 @@
         "tmdb": 4765561
       },
       "fecha": "2026-11-19"
+    },
+    "47714": {
+      "datos": {
+        "bio": {
+          "en": "Martine Kimberley Sherrie McCutcheon (née Ponting, born 14 May 1976) is an English actress and singer. She studied at the renowned Italia Conti stage school in London from the age of 10. She appeared in several billboard ads and television commercials as a child, then won a part in the BBC children's series Bluebirds in '89, after which further TV and theatre roles followed. At 15 she was picked to front the all-girl band 'Milan', who went on tour with East 17, but they disbanded in April '94. She earned her Empire and MTV Movie awards. Her big break came in January '95 with the part of Tiffany Raymond in BBC's soap opera 'Eastenders' and her role in the 2003 romantic comedy Love Actually."
+        },
+        "conocida": [
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "Natalie"
+          ],
+          [
+            "Los asesinatos de Midsomer",
+            1997,
+            "serie",
+            "Debbie Moffett"
+          ],
+          [
+            "Red Nose Day Actually",
+            2017,
+            "pelicula",
+            "Natalie"
+          ],
+          [
+            "Gente de barrio",
+            1985,
+            "serie",
+            "Tiffany Mitchell"
+          ],
+          [
+            "Spooks (Doble identidad)",
+            2002,
+            "serie",
+            "Tash"
+          ],
+          [
+            "Agatha Christie: Miss Marple",
+            2004,
+            "serie",
+            "Jane Cooper"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/tKn7haEIq0jUJoR4JHKYA660B9h.jpg",
+        "lugar": "Hackney, London, England",
+        "nacimiento": "1976-05-14",
+        "nombre": "Martine McCutcheon",
+        "oficio": "Acting",
+        "tmdb": 47714,
+        "wikidata": "Q242924",
+        "wikipedia": "https://es.wikipedia.org/wiki/Martine_McCutcheon"
+      },
+      "fecha": "2026-11-27"
     },
     "4776463": {
       "datos": {
@@ -58213,6 +59836,64 @@
       },
       "fecha": "2026-11-19"
     },
+    "5472": {
+      "datos": {
+        "bio": {
+          "en": "Colin Andrew Firth (born 10 September 1960) is an English actor and producer. He is the recipient of several accolades, including an Academy Award, two BAFTA Awards, and a Golden Globe Award, as well as nominations for two Primetime Emmy Awards. In 2011, Firth was appointed a CBE for his services to drama, and appeared in Time magazine's 100 most influential people in the world. Identified in the mid-1980s with the \"Brit Pack\" of rising young British actors, he had leading roles in A Month in the Country (1987), Tumbledown(1988) and Valmont (1989). His portrayal of Mr Darcy in the 1995 television adaptation of Jane Austen's Pride and Prejudice drew widespread attention."
+        },
+        "conocida": [
+          [
+            "Kingsman: Servicio secreto",
+            2015,
+            "pelicula",
+            "Harry Hart / Galahad"
+          ],
+          [
+            "1917",
+            2019,
+            "pelicula",
+            "General Erinmore"
+          ],
+          [
+            "Kingsman: El círculo de oro",
+            2017,
+            "pelicula",
+            "Harry Hart"
+          ],
+          [
+            "El discurso del rey",
+            2010,
+            "pelicula",
+            "King George VI"
+          ],
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "Jamie Bennett"
+          ],
+          [
+            "Mamma Mia! La película",
+            2008,
+            "pelicula",
+            "Harry Bright"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor anglèsrr",
+          "es": "actor y productor británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/z6wxnkqSTnzO1tcBui0ss7ehdm9.jpg",
+        "lugar": "Grayshott, Hampshire, England, UK",
+        "nacimiento": "1960-09-10",
+        "nombre": "Colin Firth",
+        "oficio": "Acting",
+        "tmdb": 5472,
+        "wikidata": "Q162492",
+        "wikipedia": "https://es.wikipedia.org/wiki/Colin_Firth"
+      },
+      "fecha": "2026-11-27"
+    },
     "5472291": {
       "datos": {
         "nombre": "Paula Guardiola",
@@ -58493,6 +60174,112 @@
       },
       "fecha": "2026-11-19"
     },
+    "552679": {
+      "datos": {
+        "conocida": [
+          [
+            "El castillo en el cielo",
+            1986,
+            "pelicula",
+            "Henri (voice)"
+          ],
+          [
+            "Ranma ½",
+            1989,
+            "serie",
+            "Stupid person (voice)"
+          ],
+          [
+            "Ghost in the Shell 2: Innocence",
+            2004,
+            "pelicula",
+            "Rin (voice)"
+          ],
+          [
+            "Ghost in the Shell: Stand Alone Complex",
+            2002,
+            "serie",
+            "Churnow (voice)"
+          ],
+          [
+            "Kamen Rider",
+            1971,
+            "serie",
+            "Goro Murasame"
+          ],
+          [
+            "Devilman Volumen 1: El nacimiento",
+            1987,
+            "pelicula",
+            "Thug (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/xRmZkb4cOrsd5GtzzruOJURT8H3.jpg",
+        "lugar": "Miyagi, Japan",
+        "muerte": "2013-01-26",
+        "nacimiento": "1954-11-09",
+        "nombre": "亀山助清",
+        "oficio": "Acting",
+        "tmdb": 552679,
+        "wikidata": "Q7635745"
+      },
+      "fecha": "2026-11-27"
+    },
+    "553057": {
+      "datos": {
+        "conocida": [
+          [
+            "El castillo en el cielo",
+            1986,
+            "pelicula",
+            "Old Engineer (voice)"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Roujin (voice)"
+          ],
+          [
+            "Dragon Ball Z: ¡El Renacimiento de la Fusión! Goku y Vegeta",
+            1995,
+            "pelicula",
+            "Grand Kaiô (voice)"
+          ],
+          [
+            "Monster",
+            2004,
+            "serie",
+            "Dennis (voice)"
+          ],
+          [
+            "Ghost in the Shell: Stand Alone Complex",
+            2002,
+            "serie",
+            "Kannazuki Wataru (voice)"
+          ],
+          [
+            "Paranoia Agent",
+            2004,
+            "serie",
+            "Mysterious Old Man (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor japonès",
+          "es": "actor japonés"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/fGCuIdYNTiP7U6jqfPEUaPn8FXi.jpg",
+        "lugar": "Tokyo, Japan",
+        "muerte": "2017-09-29",
+        "nacimiento": "1928-03-27",
+        "nombre": "槐柳二",
+        "oficio": "Acting",
+        "tmdb": 553057,
+        "wikidata": "Q1057331"
+      },
+      "fecha": "2026-11-27"
+    },
     "553084": {
       "datos": {
         "conocida": [
@@ -58601,6 +60388,59 @@
         "tmdb": 5540956
       },
       "fecha": "2026-11-24"
+    },
+    "554368": {
+      "datos": {
+        "bio": {
+          "en": "Hiroya Ishimaru (石丸 博也), born Shinji Ishide (石出 伸二), is a Japanese voice actor."
+        },
+        "conocida": [
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Yasuo (voice)"
+          ],
+          [
+            "Shijou Saikyou no Deshi Kenichi",
+            2006,
+            "serie",
+            "Apachai Hopachai (voice)"
+          ],
+          [
+            "Mazinger Z",
+            1972,
+            "serie",
+            "Kouji Kabuto"
+          ],
+          [
+            "Conan, el niño del futuro",
+            1978,
+            "serie",
+            "Orlo (voice)"
+          ],
+          [
+            "Digimon Adventure OVA",
+            1999,
+            "pelicula",
+            "Taichi's Father (voice)"
+          ],
+          [
+            "Grendizer",
+            1975,
+            "serie",
+            "Koji Kabuto (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/6h15xlrU8rSQgfH2dreDrYx0Y1z.jpg",
+        "lugar": "Sendai, Miyagi, Japan",
+        "nacimiento": "1941-02-12",
+        "nombre": "石丸博也",
+        "oficio": "Acting",
+        "tmdb": 554368,
+        "wikidata": "Q2565019"
+      },
+      "fecha": "2026-11-27"
     },
     "55584": {
       "datos": {
@@ -59373,6 +61213,22 @@
         "wikidata": "Q55469"
       },
       "fecha": "2026-11-19"
+    },
+    "5679760": {
+      "datos": {
+        "conocida": [
+          [
+            "Calle Málaga",
+            2025,
+            "pelicula",
+            "Larbi"
+          ]
+        ],
+        "nombre": "Fouad Mnebhi",
+        "oficio": "Acting",
+        "tmdb": 5679760
+      },
+      "fecha": "2026-11-27"
     },
     "5686879": {
       "datos": {
@@ -60927,6 +62783,14 @@
         "tmdb": 6060987
       },
       "fecha": "2026-11-26"
+    },
+    "6069174": {
+      "datos": {
+        "nombre": "Sara G. Cortijo",
+        "oficio": "Directing",
+        "tmdb": 6069174
+      },
+      "fecha": "2026-11-27"
     },
     "608": {
       "datos": {
@@ -63070,6 +64934,65 @@
       },
       "fecha": "2026-11-19"
     },
+    "68919": {
+      "datos": {
+        "bio": {
+          "en": "Keiko Nobumoto was a Japanese screenwriter. She wrote the screenplay for Cowboy Bebop and created Wolf's Rain. Nobumoto died from esophageal cancer on December 1, 2021, at the age of 57."
+        },
+        "conocida": [
+          [
+            "Cowboy Bebop",
+            1998,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Cowboy Bebop, la película: Llamando a las puertas del cielo",
+            2001,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Samurai Champloo",
+            2004,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Wolf's Rain",
+            2003,
+            "serie",
+            "Writer"
+          ],
+          [
+            "Space Dandy",
+            2014,
+            "serie",
+            "Writer"
+          ]
+        ],
+        "descripcion": {
+          "ca": "guionista japonesa",
+          "es": "guionista japonesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/blQKGYG3QwsUnslEcoIMWEkbEMk.jpg",
+        "lugar": "Hokkaido, Japan",
+        "muerte": "2021-12-01",
+        "nacimiento": "1964-03-13",
+        "nombre": "信本敬子",
+        "oficio": "Writing",
+        "tmdb": 68919,
+        "wikidata": "Q3302187",
+        "wikipedia": "https://es.wikipedia.org/wiki/Keiko_Nobumoto"
+      },
+      "fecha": "2026-11-27"
+    },
     "6905": {
       "datos": {
         "bio": {
@@ -63360,6 +65283,180 @@
         "wikidata": "Q1281916"
       },
       "fecha": "2026-11-19"
+    },
+    "7018": {
+      "datos": {
+        "bio": {
+          "en": "Richard Whalley Anthony Curtis, CBE (born 8 November 1956) is New Zealand-born British screenwriter, music producer, actor and film director, known primarily for romantic comedy films such as Four Weddings and a Funeral, Bridget Jones's Diary, Notting Hill, and Love Actually, as well as the hit sitcoms Blackadder, Mr. Bean and The Vicar of Dibley. He is also the founder of the British charity Comic Relief."
+        },
+        "conocida": [
+          [
+            "Una cuestión de tiempo",
+            2013,
+            "pelicula",
+            "Director"
+          ],
+          [
+            "Fast & Furious: Hobbs & Shaw",
+            2019,
+            "pelicula",
+            "Bicycle Courier (uncredited)"
+          ],
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "Trombone Player (uncredited)"
+          ],
+          [
+            "Notting Hill",
+            1999,
+            "pelicula",
+            "Writer"
+          ],
+          [
+            "El diario de Bridget Jones",
+            2001,
+            "pelicula",
+            "Screenplay"
+          ],
+          [
+            "Yesterday",
+            2019,
+            "pelicula",
+            "Screenplay"
+          ]
+        ],
+        "descripcion": {
+          "ca": "Guionista britànic.",
+          "es": "guionista británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/dLhFfcHJvOLzzykO3LYkinXJUA1.jpg",
+        "lugar": "Wellington, New Zealand",
+        "nacimiento": "1956-11-08",
+        "nombre": "Richard Curtis",
+        "oficio": "Writing",
+        "tmdb": 7018,
+        "wikidata": "Q355300",
+        "wikipedia": "https://es.wikipedia.org/wiki/Richard_Curtis"
+      },
+      "fecha": "2026-11-27"
+    },
+    "7056": {
+      "datos": {
+        "bio": {
+          "es": "Dame Emma Thompson (nacida el 15 de abril de 1959) es una actriz y guionista británica. Considerada una de las mejores actrices de su generación, ha recibido numerosos elogios a lo largo de su carrera que abarca más de cuatro décadas, incluidos dos Premios de la Academia, tres Premios BAFTA, dos Premios Globo de Oro y un Premio Primetime Emmy. En 2018, la reina Isabel II la nombró Dama (DBE) por sus servicios al teatro. Nacida de los actores Eric Thompson y Phyllida Law, Thompson se educó en Newnham College, Cambridge, donde se convirtió en miembro de la compañía Footlights y apareció en la serie de sketches de comedia Alfresco (1983-1984)."
+        },
+        "conocida": [
+          [
+            "Harry Potter y el prisionero de Azkaban",
+            2004,
+            "pelicula",
+            "Sybill Trelawney"
+          ],
+          [
+            "Harry Potter y las Reliquias de la Muerte - Parte 2",
+            2011,
+            "pelicula",
+            "Sybill Trelawney"
+          ],
+          [
+            "Harry Potter y la Orden del Fénix",
+            2007,
+            "pelicula",
+            "Sybill Trelawney"
+          ],
+          [
+            "Soy leyenda",
+            2007,
+            "pelicula",
+            "Dr. Alice Krippin"
+          ],
+          [
+            "La bella y la bestia",
+            2017,
+            "pelicula",
+            "Mrs. Potts"
+          ],
+          [
+            "Brave (Indomable)",
+            2012,
+            "pelicula",
+            "Elinor (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu i guionista britànica",
+          "es": "actriz, guionista y escritora británica"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/zQ0hWHh3tzaOOziPbABQI8s9WCu.jpg",
+        "lugar": "Paddington, London, England, UK",
+        "nacimiento": "1959-04-15",
+        "nombre": "Emma Thompson",
+        "oficio": "Acting",
+        "tmdb": 7056,
+        "wikidata": "Q168724",
+        "wikipedia": "https://es.wikipedia.org/wiki/Emma_Thompson"
+      },
+      "fecha": "2026-11-27"
+    },
+    "7062": {
+      "datos": {
+        "bio": {
+          "es": "Andrew James Clutterbuck (14 de septiembre de 1973), mejor conocido por su nombre artístico Andrew Lincoln, es un actor británico. Su primera actuación televisiva importante la obtuvo en el drama de la BBC This Life (1996-1997), aunque es popularmente conocido por haber interpretado a Rick Grimes en la serie de televisión The Walking Dead de la cadena AMC (2010-2018) y por su rol principal en la comedia británica Teachers (2001-2004), como Simon Casey."
+        },
+        "conocida": [
+          [
+            "The Walking Dead",
+            2010,
+            "serie",
+            "Rick Grimes"
+          ],
+          [
+            "Love Actually",
+            2003,
+            "pelicula",
+            "Mark"
+          ],
+          [
+            "Fear the Walking Dead",
+            2015,
+            "serie",
+            "Rick Grimes"
+          ],
+          [
+            "Los seductores",
+            2010,
+            "pelicula",
+            "Jonathan Alcott"
+          ],
+          [
+            "El gabinete de curiosidades de Guillermo del Toro",
+            2022,
+            "serie",
+            "Edgar"
+          ],
+          [
+            "The Walking Dead: The Ones Who Live",
+            2024,
+            "serie",
+            "Rick Grimes"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actor britànic",
+          "es": "actor británico"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/gR4RzQTDsMfVv8oEh2VRbO8LkFz.jpg",
+        "lugar": "London, England, UK",
+        "nacimiento": "1973-09-14",
+        "nombre": "Andrew Lincoln",
+        "oficio": "Acting",
+        "tmdb": 7062,
+        "wikidata": "Q296843",
+        "wikipedia": "https://es.wikipedia.org/wiki/Andrew_Lincoln"
+      },
+      "fecha": "2026-11-27"
     },
     "7063": {
       "datos": {
@@ -65388,6 +67485,59 @@
       },
       "fecha": "2026-11-19"
     },
+    "83933": {
+      "datos": {
+        "bio": {
+          "es": "Yutaka Nakano (仲野 裕, Nakano Yutaka, nacido el 10 de enero de 1951) es un actor y actor de voz japonés de la prefectura de Kanagawa, Japón. Pertenece a Kakehi Production."
+        },
+        "conocida": [
+          [
+            "Ghost in the Shell",
+            1995,
+            "pelicula",
+            "Ishikawa (voice)"
+          ],
+          [
+            "Tokyo Ghoul",
+            2014,
+            "serie",
+            "Yukinori Shinohara (voice)"
+          ],
+          [
+            "Hunter × Hunter",
+            2011,
+            "serie",
+            "Zebro (voice)"
+          ],
+          [
+            "Cowboy Bebop",
+            1998,
+            "serie",
+            "Bob (voice)"
+          ],
+          [
+            "The Rising of the Shield Hero",
+            2019,
+            "serie",
+            "Aultcray Melromarc XXXII (voice)"
+          ],
+          [
+            "Cowboy Bebop, la película: Llamando a las puertas del cielo",
+            2001,
+            "pelicula",
+            "Bob (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/qpI179YMdnMPaiH2rqieep3SYC3.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1951-01-10",
+        "nombre": "Yutaka Nakano",
+        "oficio": "Acting",
+        "tmdb": 83933,
+        "wikidata": "Q8062084"
+      },
+      "fecha": "2026-11-27"
+    },
     "840814": {
       "datos": {
         "bio": {
@@ -65597,6 +67747,56 @@
         "wikidata": "Q68783644"
       },
       "fecha": "2026-11-19"
+    },
+    "84505": {
+      "datos": {
+        "conocida": [
+          [
+            "Naruto",
+            2002,
+            "serie",
+            "Genma Shiranui (voice)"
+          ],
+          [
+            "One Piece",
+            1999,
+            "serie",
+            "Sanji (voice)"
+          ],
+          [
+            "My Hero Academia",
+            2016,
+            "serie",
+            "Rikiya Yotsubashi (voice)"
+          ],
+          [
+            "Sword Art Online",
+            2012,
+            "serie",
+            "Ryōtarō Tsuboi (voice)"
+          ],
+          [
+            "Elfen Lied",
+            2004,
+            "serie",
+            "Professor Kakuzawa Yu (voice)"
+          ],
+          [
+            "One Piece Film Red",
+            2022,
+            "pelicula",
+            "Sanji (voice)"
+          ]
+        ],
+        "foto": "https://image.tmdb.org/t/p/w185/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg",
+        "lugar": "Tokyo, Japan",
+        "nacimiento": "1963-08-07",
+        "nombre": "Hiroaki Hirata",
+        "oficio": "Acting",
+        "tmdb": 84505,
+        "wikidata": "Q1343893"
+      },
+      "fecha": "2026-11-27"
     },
     "84573": {
       "datos": {
@@ -66455,6 +68655,64 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Terry_Southern"
       },
       "fecha": "2026-11-19"
+    },
+    "89903": {
+      "datos": {
+        "bio": {
+          "es": "Mamiko Noto (能登 麻美子, Noto Mamiko, nacida el 6 de febrero de 1980) es una actriz de voz, cantante, narradora y actriz japonesa de la ciudad de Kanazawa, prefectura de Ishikawa. Pertenece a Osawa Office."
+        },
+        "conocida": [
+          [
+            "Ataque a los Titanes",
+            2013,
+            "serie",
+            "Willy's Sister (voice)"
+          ],
+          [
+            "Kimetsu no Yaiba: Guardianes de la Noche",
+            2019,
+            "serie",
+            "Mysterious Woman (voice)"
+          ],
+          [
+            "Hunter × Hunter",
+            2011,
+            "serie",
+            "Kalluto (voice)"
+          ],
+          [
+            "InuYasha",
+            2000,
+            "serie",
+            "Rin (voice)"
+          ],
+          [
+            "JoJo's Bizarre Adventure",
+            2012,
+            "serie",
+            "Yukako Yamagishi (voice)"
+          ],
+          [
+            "Tokyo Godfathers",
+            2003,
+            "pelicula",
+            "Kiyoko, Gin's daughter (voice)"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu japonesa",
+          "es": "actriz japonesa"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+        "lugar": "Kanazawa, Ishikawa, Japan",
+        "nacimiento": "1980-02-06",
+        "nombre": "Mamiko Noto",
+        "oficio": "Acting",
+        "tmdb": 89903,
+        "wikidata": "Q49569",
+        "wikipedia": "https://es.wikipedia.org/wiki/Mamiko_Noto"
+      },
+      "fecha": "2026-11-27"
     },
     "90": {
       "datos": {
@@ -67842,6 +70100,58 @@
       },
       "fecha": "2026-11-19"
     },
+    "954664": {
+      "datos": {
+        "conocida": [
+          [
+            "Volver",
+            2006,
+            "pelicula",
+            "Neighbor"
+          ],
+          [
+            "[REC]⁴ Apocalipsis",
+            2014,
+            "pelicula",
+            "Wedding Guest"
+          ],
+          [
+            "Crimen ferpecto",
+            2004,
+            "pelicula",
+            "Clienta hurto"
+          ],
+          [
+            "La que se avecina",
+            2007,
+            "serie",
+            "Sor Pepita"
+          ],
+          [
+            "La virgen roja",
+            2024,
+            "pelicula",
+            "Rosa"
+          ],
+          [
+            "No dormirás",
+            2018,
+            "pelicula",
+            "Sabrina"
+          ]
+        ],
+        "descripcion": {
+          "ca": "actriu espanyola",
+          "es": "actriz española"
+        },
+        "foto": "https://image.tmdb.org/t/p/w185/jHxsreByfGQQowvw0IoCIeWyKmL.jpg",
+        "nombre": "María Alfonsa Rosso",
+        "oficio": "Acting",
+        "tmdb": 954664,
+        "wikidata": "Q11881393"
+      },
+      "fecha": "2026-11-27"
+    },
     "955": {
       "datos": {
         "bio": {
@@ -68763,6 +71073,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://ca.wikipedia.org/wiki/Pep_Ambr%C3%B2s_Munn%C3%A9"
     },
+    "Q1057331": {
+      "descripcion": {
+        "ca": "actor japonès",
+        "es": "actor japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": null
+    },
     "Q105821771": {
       "descripcion": {
         "ca": "actriu catalana"
@@ -68795,6 +71113,14 @@
       "descripcion": null,
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Whitney_Peak"
+    },
+    "Q106481": {
+      "descripcion": {
+        "ca": "actor anglès de cinema, teatre i televisió",
+        "es": "actor y director británico"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Alan_Rickman"
     },
     "Q106647551": {
       "descripcion": {
@@ -68914,6 +71240,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Sarah_Sherman"
+    },
+    "Q108850243": {
+      "descripcion": {
+        "ca": "actor",
+        "es": "actor marroquí"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": null
     },
     "Q108870422": {
       "descripcion": {
@@ -69151,6 +71485,11 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q1142547": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Satomi_K%C5%8Drogi"
+    },
     "Q11466508": {
       "descripcion": {
         "ca": "productor de cinema japonès",
@@ -69194,6 +71533,22 @@
     "Q115325763": {
       "descripcion": null,
       "fecha": "2026-11-25",
+      "wikipedia": null
+    },
+    "Q11538434": {
+      "descripcion": {
+        "ca": "actor japonès",
+        "es": "actor japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": null
+    },
+    "Q11546491": {
+      "descripcion": {
+        "ca": "seiyū japonesa",
+        "es": "actriz de voz japonesa"
+      },
+      "fecha": "2026-11-27",
       "wikipedia": null
     },
     "Q115735": {
@@ -69287,6 +71642,21 @@
         "es": "guionista indio"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q118787884": {
+      "descripcion": {
+        "es": "autora, actriz, locutora, directora de escena, titiritera, dramaturga y docente española"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Dora_Cantero"
+    },
+    "Q11881393": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-27",
       "wikipedia": null
     },
     "Q118876366": {
@@ -69386,10 +71756,26 @@
       "fecha": "2026-11-23",
       "wikipedia": null
     },
+    "Q1204898": {
+      "descripcion": {
+        "ca": "actor de doblatge japonès",
+        "es": "actor de voz japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Rikiya_Koyama"
+    },
     "Q120655684": {
       "descripcion": null,
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q1208611": {
+      "descripcion": {
+        "ca": "seiyū japonesa",
+        "es": "seiyū japonesa (1962-2024)"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Atsuko_Tanaka"
     },
     "Q120931616": {
       "descripcion": {
@@ -69708,6 +72094,11 @@
       "fecha": "2026-11-25",
       "wikipedia": "https://es.wikipedia.org/wiki/Paul_Whitehouse"
     },
+    "Q1343893": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": null
+    },
     "Q134471185": {
       "descripcion": {
         "es": "actor francés"
@@ -69754,6 +72145,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Ernest_Lehman"
+    },
+    "Q1357188": {
+      "descripcion": {
+        "es": "actor japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Tamio_%C5%8Cki"
     },
     "Q13605596": {
       "descripcion": {
@@ -69877,6 +72275,11 @@
         "es": "actriz española"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q141836239": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
       "wikipedia": null
     },
     "Q141857229": {
@@ -70110,6 +72513,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Nathan_Fielder"
     },
+    "Q162492": {
+      "descripcion": {
+        "ca": "actor anglèsrr",
+        "es": "actor y productor británico"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Colin_Firth"
+    },
     "Q16264221": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -70138,6 +72549,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Cristina_Plazas"
+    },
+    "Q163286": {
+      "descripcion": {
+        "ca": "actor britànic",
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Hugh_Grant"
     },
     "Q16535251": {
       "descripcion": {
@@ -70180,6 +72599,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Jarreth_Merz"
+    },
+    "Q168724": {
+      "descripcion": {
+        "ca": "actriu i guionista britànica",
+        "es": "actriz, guionista y escritora británica"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Emma_Thompson"
     },
     "Q1688756": {
       "descripcion": {
@@ -70619,6 +73046,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/David_Lynch"
     },
+    "Q207179": {
+      "descripcion": {
+        "ca": "actor anglès",
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Bill_Nighy"
+    },
     "Q2073712": {
       "descripcion": {
         "es": "actor estadounidense"
@@ -70853,6 +73288,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/John_C._Reilly"
     },
+    "Q223281": {
+      "descripcion": {
+        "ca": "actriu estatunidenca",
+        "es": "actriz estadounidense"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Laura_Linney"
+    },
     "Q22683508": {
       "descripcion": {
         "ca": "actriu britànica",
@@ -70968,6 +73411,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Linda_Hunt"
+    },
+    "Q234807": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Carmen_Maura"
     },
     "Q2356576": {
       "descripcion": {
@@ -71105,6 +73556,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Jasmin_Savoy_Brown"
     },
+    "Q242924": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Martine_McCutcheon"
+    },
     "Q24444473": {
       "descripcion": {
         "ca": "actriu estatunidenca",
@@ -71188,6 +73644,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Carson_Ellis"
     },
+    "Q2539458": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Masaki_Terasoma"
+    },
     "Q2546373": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -71203,6 +73664,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Maite_Carranza"
+    },
+    "Q2565019": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": null
     },
     "Q2602857": {
       "descripcion": {
@@ -71302,6 +73768,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Mikey_Madison"
+    },
+    "Q269675": {
+      "descripcion": {
+        "es": "Cantante y actriz portuguesa"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/L%C3%BAcia_Moniz"
     },
     "Q269683": {
       "descripcion": {
@@ -71425,6 +73898,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Joel_Smallbone"
     },
+    "Q2827523": {
+      "descripcion": {
+        "ca": "director de cinema marroquí",
+        "es": "director de cine marroquí"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Ahmed_Boulane"
+    },
     "Q2831790": {
       "descripcion": {
         "ca": "guionista italià",
@@ -71498,6 +73979,14 @@
       },
       "fecha": "2026-11-25",
       "wikipedia": null
+    },
+    "Q285084": {
+      "descripcion": {
+        "ca": "director de cinema i guionista",
+        "es": "Director de cine, de televisión y escritor japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mamoru_Oshii"
     },
     "Q28541392": {
       "descripcion": {
@@ -71635,6 +74124,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q296843": {
+      "descripcion": {
+        "ca": "actor britànic",
+        "es": "actor británico"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Andrew_Lincoln"
     },
     "Q298347": {
       "descripcion": {
@@ -71884,6 +74381,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Brad_Dourif"
     },
+    "Q3302187": {
+      "descripcion": {
+        "ca": "guionista japonesa",
+        "es": "guionista japonesa"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Keiko_Nobumoto"
+    },
     "Q3302455": {
       "descripcion": {
         "ca": "actor canadenc",
@@ -71907,6 +74412,20 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Alberto_San_Juan"
+    },
+    "Q333194": {
+      "descripcion": {
+        "es": "actor japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/K%C5%8Dichi_Yamadera"
+    },
+    "Q333643": {
+      "descripcion": {
+        "es": "mangaka y director de películas de anime japonés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Satoshi_Kon"
     },
     "Q3361624": {
       "descripcion": null,
@@ -72014,6 +74533,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Brad_Pitt"
+    },
+    "Q355300": {
+      "descripcion": {
+        "ca": "Guionista britànic.",
+        "es": "guionista británico"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Richard_Curtis"
     },
     "Q3574497": {
       "descripcion": {
@@ -72295,6 +74822,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Beatie_Edney"
+    },
+    "Q435171": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Marta_Etura"
     },
     "Q436769": {
       "descripcion": null,
@@ -72594,6 +75129,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Tom_Everett_Scott"
     },
+    "Q49569": {
+      "descripcion": {
+        "ca": "actriu japonesa",
+        "es": "actriz japonesa"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mamiko_Noto"
+    },
     "Q4962181": {
       "descripcion": {
         "ca": "actor estatunidenc",
@@ -72637,6 +75180,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": null
+    },
+    "Q50587732": {
+      "descripcion": {
+        "ca": "directora de cinema marroquina",
+        "es": "directora y guionista de cine marroquí"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Maryam_Touzani"
     },
     "Q5085947": {
       "descripcion": {
@@ -72732,6 +75283,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Isaki_Lacuesta"
+    },
+    "Q5360555": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/T%C5%8Dru_Emori"
     },
     "Q5362676": {
       "descripcion": {
@@ -73017,6 +75573,14 @@
       },
       "fecha": "2026-11-26",
       "wikipedia": "https://es.wikipedia.org/wiki/Benjamin_Millepied"
+    },
+    "Q58444": {
+      "descripcion": {
+        "ca": "actor nord-irlandès",
+        "es": "actor norirlandés"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": "https://es.wikipedia.org/wiki/Liam_Neeson"
     },
     "Q5858574": {
       "descripcion": {
@@ -73324,6 +75888,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Manel_Barcel%C3%B3_Serrano"
+    },
+    "Q6452005": {
+      "descripcion": {
+        "ca": "seiyū japonesa",
+        "es": "actriz de voz japonesa"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": null
     },
     "Q65030610": {
       "descripcion": {
@@ -73636,6 +76208,11 @@
       "fecha": "2026-11-25",
       "wikipedia": "https://es.wikipedia.org/wiki/Ingmar_Bergman"
     },
+    "Q7635745": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": null
+    },
     "Q77359137": {
       "descripcion": null,
       "fecha": "2026-11-23",
@@ -73736,6 +76313,11 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Charlize_Theron"
     },
+    "Q8062084": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": null
+    },
     "Q8183923": {
       "descripcion": {
         "ca": "actor de cinema, televisió i doblador català",
@@ -73830,6 +76412,11 @@
         "es": "actor surcoreano"
       },
       "fecha": "2026-11-23",
+      "wikipedia": null
+    },
+    "Q873484": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
       "wikipedia": null
     },
     "Q892": {
@@ -73941,6 +76528,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Josephine_Hutchinson"
+    },
+    "Q9339550": {
+      "descripcion": null,
+      "fecha": "2026-11-27",
+      "wikipedia": null
     },
     "Q935081": {
       "descripcion": {

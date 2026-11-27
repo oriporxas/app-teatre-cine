@@ -443,6 +443,121 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:calle malaga": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pZzjavB0zLgm9sHxki70BDmlwpT.jpg",
+          "id": 1680263,
+          "nombre": "Maryam Touzani"
+        }
+      ],
+      "duracion": 116,
+      "edad": "12",
+      "estreno": "2025-10-31",
+      "fondo": "https://image.tmdb.org/t/p/w1280/81jteI5xIztDCFPhMXBTmT5MdW9.jpg",
+      "generos": [
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pZzjavB0zLgm9sHxki70BDmlwpT.jpg",
+          "id": 1680263,
+          "nombre": "Maryam Touzani"
+        }
+      ],
+      "idioma_original": "es",
+      "imdb": "tt32429174",
+      "lema": null,
+      "musica": [
+        {
+          "id": 2219404,
+          "nombre": "Freya Arde"
+        }
+      ],
+      "nota_tmdb": 7.5,
+      "paises": [
+        "MA",
+        "FR",
+        "ES",
+        "DE",
+        "BE"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sXvr7BvxscBkYpGTcYjpqbzkUSH.jpg",
+          "id": 2744,
+          "nombre": "Carmen Maura",
+          "papel": "María Ángeles Muñoz"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/a6aAilLDKbIXGwBfNgGc44RufVB.jpg",
+          "id": 34019,
+          "nombre": "Marta Etura",
+          "papel": "Clara"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/o7iaexFSLxXCzrBg1OtzqzspB5x.jpg",
+          "id": 27664,
+          "nombre": "Ahmed Boulane",
+          "papel": "Abslam"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ki6tfBiG85CVKjNS0Er3SNcz5JU.jpg",
+          "id": 2424427,
+          "nombre": "Miguel Garcés",
+          "papel": "Doctor Tovar"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jHxsreByfGQQowvw0IoCIeWyKmL.jpg",
+          "id": 954664,
+          "nombre": "María Alfonsa Rosso",
+          "papel": "Josefa"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qQCg9GTS3r9SmcNb1uqZfaXKxWm.jpg",
+          "id": 4472704,
+          "nombre": "La Imèn",
+          "papel": "Soukaina"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bPicmRiIenBlIzdBZcE5xJwhBhN.jpg",
+          "id": 2486761,
+          "nombre": "Tarik Rmili",
+          "papel": "Agente Inmobiliario"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1ojdNQBdERgKveJneruDvRN2As7.jpg",
+          "id": 1749000,
+          "nombre": "Mohamed Naimane",
+          "papel": "Vendedor Assilah"
+        },
+        {
+          "id": 5679760,
+          "nombre": "Fouad Mnebhi",
+          "papel": "Larbi"
+        },
+        {
+          "id": 3739328,
+          "nombre": "Sanae Regragui",
+          "papel": "Zohra"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La María Ángeles, una dona de 79 anys, viu sola a Tànger gaudint de la seva rutina i la ciutat que la va veure créixer. Quan la seva filla arriba des de Madrid per vendre l'apartament familiar, ella es resisteix a perdre casa seva i lluita per recuperar les seves pertinences i records.",
+        "en": "An aging Spanish woman in Tangier resists her daughter's plan to sell her home. She fights to keep her home, reclaims belongings and rediscovers love and desire.",
+        "es": "María Ángeles, una mujer de 79 años, vive sola en Tánger disfrutando de su rutina y la ciudad que la vio crecer. Cuando su hija llega desde Madrid para vender el apartamento familiar, ella se resiste a perder su hogar y lucha por recuperar sus pertenencias y recuerdos."
+      },
+      "titulo": "Calle Málaga",
+      "titulo_ca": null,
+      "titulo_original": "Calle Málaga",
+      "tmdb": 1399462,
+      "trailer": "S4us7BqwcF4",
+      "wikidata": "Q135438796"
+    },
+    "fecha": "2026-11-27"
+  },
   "it:chinas": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/xjW4jbnqPq3sNH6SLzHgwi778CV.jpg",
@@ -2820,6 +2935,85 @@
     },
     "fecha": "2026-11-26"
   },
+  "it:la pieta:moles": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/tiAHeGxOLLeXqNTRvd47WBVvYHG.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2lKXLzJp2VC8bAw8KuuVcgOpuxU.jpg",
+          "id": 2203960,
+          "nombre": "Rafa Molés"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zoMw8PpfPiZNrqgQAL8w7UVNpWh.jpg",
+          "id": 2203959,
+          "nombre": "Pepe Andreu"
+        }
+      ],
+      "duracion": 82,
+      "edad": null,
+      "estreno": "2026-03-13",
+      "fondo": "https://image.tmdb.org/t/p/w1280/rPbH1X2ZuDLCgSY0woa9EoYSX1y.jpg",
+      "generos": [
+        "Documental"
+      ],
+      "guion": [
+        {
+          "id": 6060987,
+          "nombre": "Ólafur Rögnavaldsson"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oIZZkntuWV2YhAWOW1XAUFUxEfF.jpg",
+          "id": 550068,
+          "nombre": "Arūnas Matelis"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zoMw8PpfPiZNrqgQAL8w7UVNpWh.jpg",
+          "id": 2203959,
+          "nombre": "Pepe Andreu"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2lKXLzJp2VC8bAw8KuuVcgOpuxU.jpg",
+          "id": 2203960,
+          "nombre": "Rafa Molés"
+        }
+      ],
+      "idioma_original": "is",
+      "imdb": "tt40150394",
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [
+        "ES",
+        "IS",
+        "LT"
+      ],
+      "reparto": [
+        {
+          "id": 1056199,
+          "nombre": "Ragnar Axelsson",
+          "papel": "Himself"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/m7pllSNc0HRorwZmT6flaR3LdRE.jpg",
+          "id": 55584,
+          "nombre": "Ingvar E. Sigurðsson",
+          "papel": "Voiceover"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Fa més d'un segle, Flosi Björnsson i els seus germans es van aïllar als peus de la major glacera d'Islàndia. Cap es va casar ni va tenir fills; van dedicar les seves vides a la glacera abans que ningú parlés del seu desglaç. La seva granja va romandre segellada fins ara. El fotògraf Ragnar Axelsson torna i invoca la veu de Flosi, que atreu a pelegrins. La glacera canta un rèquiem, embolicat en un sudari blanc",
+        "en": "At the foot of Europe’s largest glacier, seven Icelandic siblings once lived in deliberate isolation, dedicating their lives to observing ice and nature long before climate change had a name. Their abandoned farmhouse becomes a living archive, animated by photographs, objects, and a 16mm film that restores gestures, spaces, and a vanished way of being in the world."
+      },
+      "titulo": "La Pietà",
+      "titulo_ca": null,
+      "titulo_original": "La Pietà",
+      "tmdb": 1648662,
+      "trailer": "5nuxE6m1FGQ",
+      "wikidata": "Q139784875"
+    },
+    "fecha": "2026-11-27"
+  },
   "it:la violinista:garcia": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/eS83uVLN6OAH5ZLrUPyoWDVXI2b.jpg",
@@ -4946,6 +5140,126 @@
     },
     "fecha": "2026-11-17"
   },
+  "it:tokyo godfathers:kon": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/r8SzZKHfF1lzu9SpXk1afmaviC0.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/b7Oqg1bjS0e2iEzEjYWnsyVVagt.jpg",
+          "id": 40333,
+          "nombre": "今敏"
+        }
+      ],
+      "duracion": 91,
+      "edad": "12",
+      "estreno": "2003-12-05",
+      "fondo": "https://image.tmdb.org/t/p/w1280/mnppPdfdtKPNoRemzIZDwOKpgfv.jpg",
+      "generos": [
+        "Animación",
+        "Drama",
+        "Comedia"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/b7Oqg1bjS0e2iEzEjYWnsyVVagt.jpg",
+          "id": 40333,
+          "nombre": "今敏"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/blQKGYG3QwsUnslEcoIMWEkbEMk.jpg",
+          "id": 68919,
+          "nombre": "信本敬子"
+        }
+      ],
+      "idioma_original": "ja",
+      "imdb": "tt0388473",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jAdi7TdqTghUmegXOGXKmIYdqaL.jpg",
+          "id": 3436,
+          "nombre": "鈴木慶一"
+        }
+      ],
+      "nota_tmdb": 7.9,
+      "paises": [
+        "JP"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fRyDwNLmUCxdsu54kdbtSWghCUC.jpg",
+          "id": 117626,
+          "nombre": "岡本綾",
+          "papel": "Miyuki (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qlSGkSgrs18ZMUWplD1703HDxVr.jpg",
+          "id": 117629,
+          "nombre": "梅垣義明",
+          "papel": "Hana (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/Qdzjq7UANUZfko03sCsebTniVL.jpg",
+          "id": 40330,
+          "nombre": "江守徹",
+          "papel": "Gin (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zNJyGVOJQULuyO0isN8sTVwPaX0.jpg",
+          "id": 217924,
+          "nombre": "Satomi Koorogi",
+          "papel": "Kiyoko (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+          "id": 89903,
+          "nombre": "Mamiko Noto",
+          "papel": "Kiyoko, Gin's daughter (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fGCuIdYNTiP7U6jqfPEUaPn8FXi.jpg",
+          "id": 553057,
+          "nombre": "槐柳二",
+          "papel": "Roujin (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/z6vPr939Frh589X3AhHXxwZNuP1.jpg",
+          "id": 1325881,
+          "nombre": "Kyoko Terase",
+          "papel": "Sachiko (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hsZm87BORLpzhaycBaWOD5xpjVC.jpg",
+          "id": 237076,
+          "nombre": "Rikiya Koyama",
+          "papel": "Shinrou (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6h15xlrU8rSQgfH2dreDrYx0Y1z.jpg",
+          "id": 554368,
+          "nombre": "石丸博也",
+          "papel": "Yasuo (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/biov5jENp2XYfehkcdnRvi796Wi.jpg",
+          "id": 20664,
+          "nombre": "Koichi Yamadera",
+          "papel": "Taxi Driver (voice)"
+        }
+      ],
+      "sinopsis": {
+        "en": "On Christmas Eve, three homeless people living on the streets of Tokyo discover a newborn baby among the trash and set out to find its parents.",
+        "es": "Es Navidad y la nieve cubre la ciudad de Tokio con su blanco manto. En algún lugar de Shinjuku encontramos a tres vagabundos: Gin, Hana y Miyuki. Una noche oyen unos lloros que salen de entre un montón basura y encuentran a un angelical bebé. Gin insiste en llevarlo a la policía y que ellos se encarguen de él. Sin embargo, Hana, que siempre ha tenido la ilusión de tener un bebé, no quiere dejárselo a nadie y que sean ellos mismos los que busquen a los padres. Así será como estos tres amigos se embarcan en la aventura de encontrar a la familia del bebé..."
+      },
+      "titulo": "Tokyo Godfathers",
+      "titulo_ca": null,
+      "titulo_original": "東京ゴッドファーザーズ",
+      "tmdb": 13398,
+      "trailer": "abN9w3C46Aw",
+      "wikidata": "Q917278"
+    },
+    "fecha": "2026-11-27"
+  },
   "it:vainilla": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/fXlmp51HziVvgfTJOAtRfFD5DU2.jpg",
@@ -6308,6 +6622,239 @@
       "wikidata": "Q272608"
     },
     "fecha": "2026-11-17"
+  },
+  "itt0314331": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/5WtOVkLobHRf4RADiRTkF0js7sR.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dLhFfcHJvOLzzykO3LYkinXJUA1.jpg",
+          "id": 7018,
+          "nombre": "Richard Curtis"
+        }
+      ],
+      "duracion": 135,
+      "edad": "A",
+      "estreno": "2003-09-07",
+      "fondo": "https://image.tmdb.org/t/p/w1280/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
+      "generos": [
+        "Comedia",
+        "Romance",
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dLhFfcHJvOLzzykO3LYkinXJUA1.jpg",
+          "id": 7018,
+          "nombre": "Richard Curtis"
+        }
+      ],
+      "idioma_original": "en",
+      "imdb": "tt0314331",
+      "lema": null,
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7FsN1rHWIxT6sxdGEFTmPOrZbUi.jpg",
+          "id": 7045,
+          "nombre": "Craig Armstrong"
+        }
+      ],
+      "nota_tmdb": 7.1,
+      "paises": [
+        "FR",
+        "GB"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dvV843fOuzsEPXHtFvdzsHpy1rC.jpg",
+          "id": 3291,
+          "nombre": "Hugh Grant",
+          "papel": "The Prime Minister"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1EearzPgXkmYFKvECfWNrctIFT9.jpg",
+          "id": 4566,
+          "nombre": "Alan Rickman",
+          "papel": "Harry"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zQ0hWHh3tzaOOziPbABQI8s9WCu.jpg",
+          "id": 7056,
+          "nombre": "Emma Thompson",
+          "papel": "Karen"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg",
+          "id": 3896,
+          "nombre": "Liam Neeson",
+          "papel": "Daniel"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tKn7haEIq0jUJoR4JHKYA660B9h.jpg",
+          "id": 47714,
+          "nombre": "Martine McCutcheon",
+          "papel": "Natalie"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/z6wxnkqSTnzO1tcBui0ss7ehdm9.jpg",
+          "id": 5472,
+          "nombre": "Colin Firth",
+          "papel": "Jamie Bennett"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ixFI2YCGNGJfwlpI8iyhvVZRg8C.jpg",
+          "id": 2440,
+          "nombre": "Bill Nighy",
+          "papel": "Billy Mack"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6I31xZxo9Hq6T0OhSwCUjHd8jkB.jpg",
+          "id": 350,
+          "nombre": "Laura Linney",
+          "papel": "Sarah"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2K3RbWjvCTSsZ7CWu2k9fZxMFSX.jpg",
+          "id": 118763,
+          "nombre": "Lúcia Moniz",
+          "papel": "Aurelia"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gR4RzQTDsMfVv8oEh2VRbO8LkFz.jpg",
+          "id": 7062,
+          "nombre": "Andrew Lincoln",
+          "papel": "Mark"
+        }
+      ],
+      "sinopsis": {
+        "ca": "A Londres, poc abans del Nadal, s'entrellacen una sèrie d'històries divertides i commovedores. 'Love Actually' és una manera abreujada de dir 'Love Actually Is All Around' i aquest és precisament l'argument de la pel·lícula: miris on miris, trobaràs l'amor a tot arreu. Tots els personatges, cadascun a la seva manera (un primer ministre, una vella estrella del rock, una assistenta portuguesa que només parla el seu idioma) estan relacionats amb els aspectes més divertits, tristos, ingenus i estúpids de l'amor.",
+        "en": "Eight very different London couples deal with their romantic lives in various loosely interrelated tales all set during a frantic month before Christmas.",
+        "es": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. 'Love Actually' es una manera abreviada de decir 'Love Actually Is All Around' y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor."
+      },
+      "titulo": "Love Actually",
+      "titulo_ca": "Love actually",
+      "titulo_original": "Love Actually",
+      "tmdb": 508,
+      "trailer": "r3mJrSA1x5s",
+      "wikidata": "Q190588"
+    },
+    "fecha": "2026-11-27"
+  },
+  "itt0347246": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/ltaWpzIbNWUnGlPLLre4tDi0PU8.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zKno06IDV6PIa8oUI9RmToVIPPC.jpg",
+          "id": 12180,
+          "nombre": "Mamoru Oshii"
+        }
+      ],
+      "duracion": 95,
+      "edad": "16",
+      "estreno": "2004-03-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/8AGLGUYg9UqcDWXtAH0t7InsBd.jpg",
+      "generos": [
+        "Animación",
+        "Drama",
+        "Ciencia ficción"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zKno06IDV6PIa8oUI9RmToVIPPC.jpg",
+          "id": 12180,
+          "nombre": "Mamoru Oshii"
+        }
+      ],
+      "idioma_original": "ja",
+      "imdb": "tt0347246",
+      "lema": "Cuando las máquinas aprenden a sentir, ¿quién decide qué es humano...?",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/uKjPUmOMmYYMFYtLBNXBDPAtcOz.jpg",
+          "id": 57304,
+          "nombre": "川井憲次"
+        }
+      ],
+      "nota_tmdb": 7.4,
+      "paises": [
+        "JP"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pacuup8TMK9SFsSJOY8jlbyzkFt.jpg",
+          "id": 34923,
+          "nombre": "Atsuko Tanaka",
+          "papel": "Motoko Kusanagi (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/uH9oiqOOgrsz2zNnouVZ1qPzDyb.jpg",
+          "id": 40451,
+          "nombre": "Akio Otsuka",
+          "papel": "Batou (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/biov5jENp2XYfehkcdnRvi796Wi.jpg",
+          "id": 20664,
+          "nombre": "Koichi Yamadera",
+          "papel": "Togusa (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ixEU7F1vWpcm0MGqc04xXNGLpHz.jpg",
+          "id": 12199,
+          "nombre": "大木民夫",
+          "papel": "Section 9 Department Chief Aramaki (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qpI179YMdnMPaiH2rqieep3SYC3.jpg",
+          "id": 83933,
+          "nombre": "Yutaka Nakano",
+          "papel": "Ishikawa (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg",
+          "id": 84505,
+          "nombre": "Hiroaki Hirata",
+          "papel": "Koga (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg",
+          "id": 219659,
+          "nombre": "Masaki Terasoma",
+          "papel": "Azuma (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ehU6qAHket9NoKR9FW61uAdJpzV.jpg",
+          "id": 12191,
+          "nombre": "武藤寿美",
+          "papel": "Mysterious Woman (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wDEh8Jf17dAJzRHHjw3DL3zqhGH.jpg",
+          "id": 114739,
+          "nombre": "藤本譲",
+          "papel": "Criminal (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xRmZkb4cOrsd5GtzzruOJURT8H3.jpg",
+          "id": 552679,
+          "nombre": "亀山助清",
+          "papel": "Rin (voice)"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Han passat tres anys i Batô segueix a la Secció 9. El record de la comandant Kusanagi no l'abandona. Ara ha d'investigar el cas d'una robot femenina destinada al plaer, que ha assassinat el seu propietari.",
+        "en": "Cyborg detective Batou is assigned to investigate a series of murders committed by gynoids—doll-like cyborgs, which all malfunctioned, killed, then self-destructed afterwards. The brains of the gynoids initialize in order to protect their manufacturer's software, but in one gynoid, which Batou himself neutralized, one file remains: a voice speaking the phrase \"Help me.\"",
+        "es": "En el año 2032, la frontera entre seres humanos y máquinas se ha reducido a niveles casi imperceptibles. En este contexto, un cyborg detective de la unidad antiterrorista (Batou) investigará el caso de un robot con forma de mujer, creado exclusivamente para satisfacer deseos sexuales, que ha asesinado a su propietario. Batou deberá indagar en las profundidades de la conciencia humana y en la sociedad del momento; donde la diferencia entre los robots y los humanos es extremadamente vaga."
+      },
+      "titulo": "Ghost in the Shell 2: Innocence",
+      "titulo_ca": "Ghost in the shell 2: Innocència",
+      "titulo_original": "イノセンス",
+      "tmdb": 12140,
+      "trailer": "0XkATpPvqEA",
+      "wikidata": "Q1058469"
+    },
+    "fecha": "2026-11-27"
   },
   "itt0947798": {
     "datos": {
@@ -13302,6 +13849,48 @@
     },
     "fecha": "2026-11-21"
   },
+  "itt43698488": {
+    "datos": {
+      "cartel": "https://image.tmdb.org/t/p/w500/opxZAzG8pg6NOSugqt3qgWIMtGC.jpg",
+      "direccion": [
+        {
+          "id": 6069174,
+          "nombre": "Sara G. Cortijo"
+        }
+      ],
+      "duracion": 83,
+      "edad": null,
+      "estreno": "2026-03-08",
+      "fondo": null,
+      "generos": [
+        "Documental"
+      ],
+      "guion": [],
+      "idioma_original": "es",
+      "imdb": null,
+      "lema": null,
+      "musica": [],
+      "nota_tmdb": null,
+      "paises": [],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/p1AFBzyZRbHzA6S8q3RWw0YXoAf.jpg",
+          "id": 1604,
+          "nombre": "Lluís Homar"
+        }
+      ],
+      "sinopsis": {
+        "es": "El largometraje documental Meditar realiza un viaje hacia el interior a través de la meditación. Profundiza en la práctica a través de los miembros y la propuesta meditativa de Amigos del Desierto, una red abierta de meditadores fundada por el sacerdote y escritor Pablo d´Ors, que ya cuenta con más de 2.000 meditadores."
+      },
+      "titulo": "Meditar",
+      "titulo_ca": null,
+      "titulo_original": "Meditar",
+      "tmdb": 1651199,
+      "trailer": null,
+      "wikidata": null
+    },
+    "fecha": "2026-11-27"
+  },
   "itt44766123": {
     "datos": {
       "cartel": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
@@ -13797,6 +14386,8 @@
   "p1157587": "Q135001235",
   "p1159954": "Q22248002",
   "p1172108": "Q20752077",
+  "p117626": "Q873484",
+  "p117629": "Q11538434",
   "p118545": "Q2315802",
   "p1186042": "Q268154",
   "p1200444": "Q23663310",
@@ -13806,7 +14397,9 @@
   "p1211862": "Q4685264",
   "p1212388": "Q6258580",
   "p1212667": "Q16207915",
+  "p12180": "Q285084",
   "p1218908": "Q7682072",
+  "p12199": "Q1357188",
   "p12214": "Q485298",
   "p1229796": "Q75168191",
   "p1230": "Q215072",
@@ -13891,6 +14484,7 @@
   "p1573069": "",
   "p1589570": "Q106367065",
   "p1603600": "Q47460321",
+  "p1604": "Q779875",
   "p1614488": "",
   "p1626246": "",
   "p16269": "Q382393",
@@ -13901,6 +14495,7 @@
   "p1665": "Q45647",
   "p1674275": "Q117337684",
   "p1679552": "",
+  "p1680263": "Q50587732",
   "p1682625": "",
   "p169": "Q67881",
   "p16980": "Q11681419",
@@ -13948,10 +14543,12 @@
   "p2035247": "",
   "p2056333": "Q110498189",
   "p2064168": "Q20888373",
+  "p20664": "Q333194",
   "p206905": "Q1411012",
   "p2091": "Q209186",
   "p2115765": "",
   "p2133155": "Q116055498",
+  "p217924": "Q1142547",
   "p2192": "Q115735",
   "p2192826": "Q77825529",
   "p2203959": "",
@@ -14015,11 +14612,13 @@
   "p2707814": "",
   "p2725308": "",
   "p27319": "Q76819",
+  "p2744": "Q234807",
   "p2746": "Q72717",
   "p27460": "Q533571",
   "p27462": "Q3326153",
   "p27471": "Q5982905",
   "p2762775": "Q56349283",
+  "p27664": "Q2827523",
   "p2769219": "Q95233135",
   "p27740": "Q516690",
   "p2836518": "",
@@ -14049,13 +14648,16 @@
   "p3153596": "Q86694039",
   "p3194501": "Q28699137",
   "p3287533": "",
+  "p3291": "Q163286",
   "p3292": "Q298347",
   "p33410": "Q8346586",
+  "p34019": "Q435171",
   "p3430763": "",
   "p34374": "Q3201022",
   "p34517": "Q44414",
   "p3483": "Q2790121",
   "p3489": "Q132616",
+  "p34923": "Q1208611",
   "p3516191": "Q135261819",
   "p3571802": "",
   "p3578018": "",
@@ -14079,10 +14681,14 @@
   "p38526": "Q2178753",
   "p38559": "Q105158",
   "p3870270": "",
+  "p3896": "Q58444",
   "p39187": "Q7088045",
   "p3960217": "",
+  "p40330": "Q5360555",
+  "p40333": "Q333643",
   "p4039084": "",
   "p4039088": "",
+  "p40451": "Q418649",
   "p40684": "Q5236475",
   "p4124423": "",
   "p4323550": "",
@@ -14091,6 +14697,7 @@
   "p4458960": "",
   "p4487239": "Q124641586",
   "p4487240": "Q131402272",
+  "p4566": "Q106481",
   "p46593": "Q244678",
   "p46864": "Q5778766",
   "p46865": "Q4935163",
@@ -14171,6 +14778,7 @@
   "p5951467": "",
   "p5951468": "",
   "p6056796": "",
+  "p6069174": "",
   "p608": "Q55400",
   "p6091": "Q62557",
   "p6092122": "",
@@ -14206,6 +14814,8 @@
   "p70046": "Q3482797",
   "p70047": "Q1078163",
   "p70048": "Q1281916",
+  "p7018": "Q355300",
+  "p7056": "Q168724",
   "p7063": "Q526266",
   "p71070": "Q189226",
   "p7152": "Q70003",
@@ -14565,6 +15175,23 @@
       "tipo": "nominado"
     }
   ],
+  "wQ1058469": [
+    {
+      "anio": 2004,
+      "premio": "Premi del Cinema d'Animació de Kobe",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Nihon SF Taisho Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio Annie a la mejor película animada",
+      "tipo": "nominado"
+    }
+  ],
   "wQ1063412": [
     {
       "anio": 2008,
@@ -14793,6 +15420,138 @@
     }
   ],
   "wQ106367065": [],
+  "wQ106481": [
+    {
+      "anio": 1992,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premio del Sindicato de Actores al mejor actor de televisión - Miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premio James Joyce",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premios Globo de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Premio Drama Desk al mejor actor en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1992,
+      "premio": "MTV Movie Awards al mejor villano",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1992,
+      "premio": "Premio Saturn al mejor actor secundario",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1992,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premios Globo de Oro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premio del Sindicato de Actores al mejor actor de televisión - Miniserie o telefilme",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1997,
+      "premio": "BAFTA al mejor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Premi Chlotrudis al millor director",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio Saturn al mejor actor secundario",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio Laurence Olivier al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio Drama Desk al mejor actor en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio de la Sociedad de Críticos de Cine de Phoenix al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premio de la Crítica Cinematográfica al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2014,
+      "premio": "Premio del Sindicato de Actores al mejor reparto",
+      "tipo": "nominado"
+    }
+  ],
   "wQ106873503": [
     {
       "anio": 2021,
@@ -14894,6 +15653,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ1142547": [],
   "wQ114819": [
     {
       "anio": 1984,
@@ -14924,6 +15684,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ11538434": [],
   "wQ115735": [
     {
       "anio": 2006,
@@ -15068,6 +15829,13 @@
     }
   ],
   "wQ1190692": [],
+  "wQ1208611": [
+    {
+      "anio": 2020,
+      "premio": "Seiyu Awards Foreign Film/Drama Award",
+      "tipo": "ganado"
+    }
+  ],
   "wQ120931616": [],
   "wQ1212650": [
     {
@@ -15991,8 +16759,10 @@
   "wQ135196186": [],
   "wQ135261819": [],
   "wQ135436961": [],
+  "wQ135438796": [],
   "wQ135509074": [],
   "wQ135713425": [],
+  "wQ1357188": [],
   "wQ135825188": [
     {
       "anio": 2026,
@@ -16604,6 +17374,43 @@
       "tipo": "ganado"
     }
   ],
+  "wQ163286": [
+    {
+      "anio": 1995,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Premios Globo de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1987,
+      "premio": "Copa Volpi al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios Empire",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Premio del Cine Europeo al mejor actor",
+      "tipo": "nominado"
+    }
+  ],
   "wQ16535251": [
     {
       "anio": 2025,
@@ -16791,6 +17598,108 @@
     }
   ],
   "wQ167683": [],
+  "wQ168724": [
+    {
+      "anio": 1993,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Globo de Oro a la mejor actriz - Drama",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Dama comendadora de la Orden del Imperio británico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1992,
+      "premio": "BAFTA a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Primetime Emmy a la mejor actriz invitada - Serie de comedia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Estrella del Paseo de la Fama de Hollywood",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Globo de Oro al mejor guion",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "BAFTA a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premi Audie a la millor narrador de l'autor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2021,
+      "premio": "Miembro de la Real Sociedad de Literatura",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1994,
+      "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1994,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Óscar a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": null,
+      "premio": "Óscar al mejor guion adaptado",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1997,
+      "premio": "Premio del Cine Europeo a la mejor actriz europea",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1998,
+      "premio": "Premio del Cine Europeo al Mejor Logro Europeo en el Mundo del Cine",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2017,
+      "premio": "Premi del públic a la millor pel·lícula europea",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2023,
+      "premio": "Globo de Oro a la mejor actriz - Comedia o musical",
+      "tipo": "nominado"
+    }
+  ],
   "wQ16908467": [
     {
       "anio": 2017,
@@ -17469,6 +18378,18 @@
     {
       "anio": 2021,
       "premio": "Óscar a la mejor actriz de reparto",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ190588": [
+    {
+      "anio": 2004,
+      "premio": "Premio Jameson del público al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premis del Cinema Europeu - premi del públic a la millor direcció",
       "tipo": "nominado"
     }
   ],
@@ -19359,6 +20280,98 @@
     }
   ],
   "wQ233536": [],
+  "wQ234807": [
+    {
+      "anio": 2013,
+      "premio": "Premio Donostia del Festival de San Sebastián",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2015,
+      "premio": "Gran Cruz de la Orden Civil de Alfonso X el Sabio",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio Concha de Plata a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2007,
+      "premio": "Premio Goya a la mejor interpretación femenina de reparto",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2000,
+      "premio": "Premio Goya a la mejor interpretación femenina protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Premio del Festival de Cannes a la mejor actriz",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1990,
+      "premio": "Premio Goya a la mejor interpretación femenina protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio Goya a la mejor interpretación femenina protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2012,
+      "premio": "César a la mejor actriz secundaria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo a la mejor actriz europea",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1990,
+      "premio": "Premio del Cine Europeo a la mejor actriz europea",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2018,
+      "premio": "Premi del Cinema Europeu a la trajectòria",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2022,
+      "premio": "Premio Platino de Honor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Medalla de Oro",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1988,
+      "premio": "Premio del Cine Europeo a la mejor actriz europea",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1990,
+      "premio": "Premio del Cine Europeo a la mejor actriz europea",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2001,
+      "premio": "Premio Jameson del público a la mejor actriz",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Medalla de Oro",
+      "tipo": "nominado"
+    }
+  ],
   "wQ23663310": [],
   "wQ236956": [
     {
@@ -20064,6 +21077,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ2827523": [],
   "wQ2834938": [],
   "wQ28493": [
     {
@@ -20135,6 +21149,18 @@
       "anio": 2025,
       "premio": "Óscar al mejor actor",
       "tipo": "nominado"
+    }
+  ],
+  "wQ285084": [
+    {
+      "anio": 2004,
+      "premio": "Nihon SF Taisho Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2016,
+      "premio": "Premio Windsor McCay",
+      "tipo": "ganado"
     }
   ],
   "wQ28541392": [],
@@ -20565,6 +21591,35 @@
       "tipo": "nominado"
     }
   ],
+  "wQ333194": [
+    {
+      "anio": 2020,
+      "premio": "Seiyu Awards Foreign Film/Drama Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premi Kei Tomiyama",
+      "tipo": "ganado"
+    }
+  ],
+  "wQ333643": [
+    {
+      "anio": 2019,
+      "premio": "Premio Windsor McCay",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2003,
+      "premio": "Best Animated Feature Film 2003",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Tokyo Anime Award Best Director",
+      "tipo": "ganado"
+    }
+  ],
   "wQ33645100": [],
   "wQ3384479": [
     {
@@ -20820,6 +21875,48 @@
     {
       "anio": 2026,
       "premio": "Óscar a la mejor película",
+      "tipo": "nominado"
+    }
+  ],
+  "wQ355300": [
+    {
+      "anio": null,
+      "premio": "Comendador de la Orden del Imperio británico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premios WGA",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Primetime Emmy al mejor telefilme",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2025,
+      "premio": "Premio Humanitario Jean Hersholt",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premi Primetime Emmy a la millor actriu secundària en una sèrie, pel·lícula o antologia",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Primetime Emmy al mejor guion - Miniserie, telefilme o especial dramático",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1995,
+      "premio": "Óscar al mejor guion original",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premis del Cinema Europeu - premi del públic a la millor direcció",
       "tipo": "nominado"
     }
   ],
@@ -22462,6 +23559,13 @@
       "tipo": "nominado"
     }
   ],
+  "wQ418649": [
+    {
+      "anio": 2015,
+      "premio": "Premi Kei Tomiyama",
+      "tipo": "ganado"
+    }
+  ],
   "wQ43264": [
     {
       "anio": null,
@@ -22560,6 +23664,18 @@
     }
   ],
   "wQ43288763": [],
+  "wQ435171": [
+    {
+      "anio": 2004,
+      "premio": "Premio Mestre Mateo a la Mejor actriz protagonista",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2009,
+      "premio": "Premio Goya a la mejor interpretación femenina de reparto",
+      "tipo": "ganado"
+    }
+  ],
   "wQ436769": [],
   "wQ436829": [],
   "wQ43723": [
@@ -23434,6 +24550,13 @@
       "tipo": "nominado"
     }
   ],
+  "wQ50587732": [
+    {
+      "anio": 2022,
+      "premio": "Valois de la posada en escena",
+      "tipo": "ganado"
+    }
+  ],
   "wQ509777": [],
   "wQ51435379": [],
   "wQ516690": [],
@@ -23502,6 +24625,13 @@
     {
       "anio": 2023,
       "premio": "Gaudí al millor guió adaptat",
+      "tipo": "ganado"
+    }
+  ],
+  "wQ5360555": [
+    {
+      "anio": 1995,
+      "premio": "Yomiuri Theater Awards",
       "tipo": "ganado"
     }
   ],
@@ -24420,6 +25550,108 @@
   "wQ5765653": [],
   "wQ5778766": [],
   "wQ580414": [],
+  "wQ58444": [
+    {
+      "anio": 2000,
+      "premio": "Oficial de la Orden del Imperio Británico",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles al Mejor Actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Theatre World Award",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Copa Volpi al mejor actor",
+      "tipo": "ganado"
+    },
+    {
+      "anio": null,
+      "premio": "Premio Liga Dramática",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Honorary master's degree",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 1994,
+      "premio": "Óscar al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1993,
+      "premio": "Globo de Oro al mejor actor - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1994,
+      "premio": "BAFTA al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 1996,
+      "premio": "Globo de Oro al mejor actor - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2000,
+      "premio": "MTV Movie Award al millor combat",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2002,
+      "premio": "Premio Drama Desk al mejor actor en una obra de teatro",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Premio de la Sociedad de Críticos de Cine de Phoenix al mejor reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2004,
+      "premio": "Globo de Oro al mejor actor - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Satellite al mejor actor - Drama",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2005,
+      "premio": "Premio Independent Spirit al mejor actor",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Razzie al peor actor de reparto",
+      "tipo": "nominado"
+    },
+    {
+      "anio": 2011,
+      "premio": "Premi del públic a la millor pel·lícula europea",
+      "tipo": "nominado"
+    }
+  ],
   "wQ5923495": [],
   "wQ5927386": [
     {
@@ -25416,6 +26648,23 @@
   ],
   "wQ7682072": [],
   "wQ77825529": [],
+  "wQ779875": [
+    {
+      "anio": 2011,
+      "premio": "Premio Gaudí al mejor actor secundario",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2006,
+      "premio": "Premio Nacional de Teatro de Cataluña",
+      "tipo": "ganado"
+    },
+    {
+      "anio": 2012,
+      "premio": "Premio Goya a la mejor interpretación masculina de reparto",
+      "tipo": "ganado"
+    }
+  ],
   "wQ7836302": [
     {
       "anio": 2015,
@@ -25887,6 +27136,7 @@
       "tipo": "nominado"
     }
   ],
+  "wQ873484": [],
   "wQ89322300": [],
   "wQ9012641": [],
   "wQ9012655": [],
@@ -25933,6 +27183,13 @@
     }
   ],
   "wQ91013477": [],
+  "wQ917278": [
+    {
+      "anio": null,
+      "premio": "Premi a l'excel·lència de la divisió d'animació del Japan Media Arts Festival",
+      "tipo": "ganado"
+    }
+  ],
   "wQ92056": [],
   "wQ926680": [
     {

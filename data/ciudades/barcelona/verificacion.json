@@ -2,8 +2,8 @@
   "cine": {
     "anomalias": [],
     "corregidas_por_regla": {},
-    "fecha": "2026-11-26",
-    "publicadas": 100
+    "fecha": "2026-11-27",
+    "publicadas": 95
   },
   "escena": {
     "anomalias": [
@@ -20,13 +20,6 @@
         "id": "open_data_bcn:99400702277",
         "regla": "repetida",
         "titulo": "Anem al Teatre"
-      },
-      {
-        "accion": "aviso",
-        "detalle": "mismo título y sala que open_data_bcn:99400714868",
-        "id": "open_data_bcn:99400729803",
-        "regla": "repetida",
-        "titulo": "Improvisació teatral"
       },
       {
         "accion": "función quitada",
@@ -310,6 +303,13 @@
       },
       {
         "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400791725",
+        "id": "open_data_bcn:99400791743",
+        "regla": "repetida",
+        "titulo": "Stand Up Comedy"
+      },
+      {
+        "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400684767",
         "id": "open_data_bcn:99400791776",
         "regla": "repetida",
@@ -319,9 +319,10 @@
     "corregidas_por_regla": {
       "fecha": 19,
       "repetida": 23,
-      "sala": 2
+      "sala": 2,
+      "sin_funciones": 1
     },
-    "fecha": "2026-11-26",
-    "publicadas": 734
+    "fecha": "2026-11-27",
+    "publicadas": 711
   }
 }

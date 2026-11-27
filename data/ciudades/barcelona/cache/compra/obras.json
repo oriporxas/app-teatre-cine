@@ -299,11 +299,6 @@
     "pagina": "https://www.lavillarroel.cat/ca/ex/boja/",
     "url": "https://www.lavillarroel.cat/ca/ex/boja/"
   },
-  "open_data_bcn:99400766527|https://www.balanaenviu.com/|Lo nunca visto": {
-    "fecha": "2026-11-24",
-    "pagina": "https://www.balanaenviu.com/espectaculo/berto-romero-coliseum",
-    "url": "https://www.balanaenviu.com/espectaculo/berto-romero-coliseum"
-  },
   "open_data_bcn:99400766609|https://teatrebalmes.com/|Anticoach": {
     "fecha": "2026-11-26",
     "pagina": "https://teatrebalmes.com/ca/humor/barcelona/anticoach",
@@ -475,12 +470,14 @@
     "url": "https://salabeckett.koobin.cat/ca/el-castell-1"
   },
   "open_data_bcn:99400783068|https://www.salabeckett.cat/|Urinaris Àngels Una comèdia musical en tres actes i un final": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-27",
+    "pagina": "https://www.salabeckett.cat/en/espectacle/urinaris-angels-una-comedia-musical-en-tres-actes-i-un-final/",
+    "url": "https://salabeckett.koobin.cat/ca/urinaris-angels.-una-comedia-musical-en-tres-actes-i-un-final"
   },
   "open_data_bcn:99400783069|https://www.salabeckett.cat/|Verbagàlia": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-27",
+    "pagina": "https://www.salabeckett.cat/espectacle/verbagalia/",
+    "url": "https://salabeckett.koobin.cat/ca/verbagalia"
   },
   "open_data_bcn:99400783070|https://www.salabeckett.cat/|Un home bo": {
     "fecha": "2026-11-17",
@@ -835,10 +832,6 @@
   "open_data_bcn:99400789363|https://www.balanaenviu.com/|El 2026, vist per sentència": {
     "fecha": "2026-11-17",
     "url": null
-  },
-  "open_data_bcn:99400789383|http://www.teatreneu.com|The Two-Character Play": {
-    "fecha": "2026-11-17",
-    "url": "https://www.teatreneu.com/ca/cartellera/c/657-the-two-character-play.html"
   },
   "open_data_bcn:99400789389|https://www.balanaenviu.com/|Prohibido Echarle Cacahuetes al Mono": {
     "fecha": "2026-11-17",

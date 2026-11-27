@@ -11,7 +11,7 @@
   ],
   "cines_sin_horarios": {
     "Ateneu Barcelonès": "sin web",
-    "Cinema Dididado": "sin horarios legibles en su web",
+    "Cinema Dididado": "su web no permite programas (robots.txt)",
     "Cinemes Girona": "elqueque",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
@@ -25,15 +25,15 @@
     "Institut Italià de Cultura de Barcelona": "sin horarios legibles en su web",
     "Recursos d'Animació Intercultural RAI": "sin horarios legibles en su web",
     "Verdi Park": "elqueque",
-    "Yelmo La Maquinista": "sin horarios legibles en su web",
+    "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 90,
-  "fecha": "2026-11-26",
+  "con_actividades": 88,
+  "fecha": "2026-11-27",
   "por_tipo": {
     "auditorio": {
       "oficiales": 26,
-      "sin_actividades": 7
+      "sin_actividades": 8
     },
     "cine": {
       "oficiales": 25,
@@ -41,11 +41,11 @@
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 49
+      "sin_actividades": 50
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 71,
+  "sin_actividades": 73,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -107,6 +107,22 @@
       "lon": 2.1935349162488165,
       "nombre": "Facultat de Comunicació *Campus de la Comunicació-Poblenou - UPF",
       "numero": "134",
+      "tipo": [
+        "auditorio"
+      ]
+    },
+    {
+      "actividades": 0,
+      "barrio": "el Barri Gòtic",
+      "calle": "Plaça del Rei",
+      "clave": "via280600-9",
+      "codigo_postal": "08002",
+      "distrito": "Ciutat Vella",
+      "id": "2071125357",
+      "lat": 41.3842954888128,
+      "lon": 2.1772601428647365,
+      "nombre": "Museu d'Història de Barcelona. Plaça del Rei",
+      "numero": "9",
       "tipo": [
         "auditorio"
       ]
@@ -1006,6 +1022,22 @@
       "lon": 2.1564231919641506,
       "nombre": "Fundació Orfeó Gracienc",
       "numero": "83",
+      "tipo": [
+        "teatro"
+      ]
+    },
+    {
+      "actividades": 0,
+      "barrio": "Sant Gervasi - Galvany",
+      "calle": "Via Augusta",
+      "clave": "via28000-205",
+      "codigo_postal": "08021",
+      "distrito": "Sarrià-Sant Gervasi",
+      "id": "1281145134",
+      "lat": 41.39769728598179,
+      "lon": 2.1388954166038783,
+      "nombre": "Institució Cultural del C.I.C.",
+      "numero": "205",
       "tipo": [
         "teatro"
       ]

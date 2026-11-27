@@ -26,6 +26,7 @@
     "wQ108199976": [],
     "wQ108283765": [],
     "wQ110601706": [],
+    "wQ110847134": [],
     "wQ110954894": [],
     "wQ111276502": [],
     "wQ111278151": [],
@@ -36,6 +37,7 @@
     "wQ11590805": [],
     "wQ11681279": [],
     "wQ11694879": [],
+    "wQ118787884": [],
     "wQ11916484": [],
     "wQ11917581": [],
     "wQ11934542": [],
@@ -309,6 +311,13 @@
         "anio": 2006,
         "premio": "Premio Butaca a la mejor actriz de reparto",
         "tipo": "ganado"
+      }
+    ],
+    "wQ21036173": [
+      {
+        "anio": 2022,
+        "premio": "Premio Gaudí al mejor actor secundario",
+        "tipo": "nominado"
       }
     ],
     "wQ21045503": [],
@@ -798,6 +807,12 @@
     ],
     "wQ99518233": []
   },
+  "a-determinar": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "A determinar",
+    "v": 3
+  },
   "abel-folk": {
     "datos": {
       "descripcion": {
@@ -862,6 +877,12 @@
     "nombre": "Adrià Pinar",
     "v": 3
   },
+  "adria-teixeira": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Adrià Teixeira",
+    "v": 3
+  },
   "adrian-perea": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -890,6 +911,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Adriana Garcia",
+    "v": 3
+  },
+  "adriana-nadal": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Adriana Nadal",
     "v": 3
   },
   "agata-casanovas": {
@@ -1029,6 +1056,12 @@
     "fecha": "2026-11-18",
     "nombre": "Albert Baldomà",
     "v": 2
+  },
+  "albert-baro-i": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Albert Baró i",
+    "v": 3
   },
   "albert-boira": {
     "datos": {},
@@ -1332,6 +1365,12 @@
     "nombre": "Ana Pérez",
     "v": 3
   },
+  "ana-perez-garcia": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Ana Pérez García",
+    "v": 3
+  },
   "anaele-jan-kerguistel": {
     "datos": {},
     "fecha": "2026-11-26",
@@ -1342,6 +1381,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Andrea Castellanos",
+    "v": 3
+  },
+  "andrea-diaz-reboredo": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Andrea Díaz Reboredo",
     "v": 3
   },
   "andrea-forlenza": {
@@ -1550,6 +1595,24 @@
     "fecha": "2026-11-18",
     "nombre": "Anna Puigdueta",
     "v": 2
+  },
+  "anna-roy": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Anna Roy",
+    "v": 3
+  },
+  "anna-roy-boixader": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Anna Roy Boixader",
+    "v": 3
+  },
+  "anna-sala": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Anna Sala",
+    "v": 3
   },
   "anna-tamayo": {
     "datos": {},
@@ -1940,6 +2003,12 @@
     "nombre": "Can Allà",
     "v": 3
   },
+  "cap-de-produccio": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cap de producció",
+    "v": 3
+  },
   "carla-bastard": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -1980,6 +2049,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Carles Cuní",
+    "v": 3
+  },
+  "carles-fontova": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Carles Fontova",
     "v": 3
   },
   "carles-gallardo": {
@@ -2191,6 +2266,12 @@
     "nombre": "Carolina Llacher",
     "v": 3
   },
+  "carolina-noriega": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Carolina Noriega",
+    "v": 3
+  },
   "caroline-gonce": {
     "datos": {},
     "fecha": "2026-11-24",
@@ -2269,6 +2350,12 @@
     "nombre": "Cesc Calafell",
     "v": 2
   },
+  "cesc-colomina": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cesc Colomina",
+    "v": 3
+  },
   "charles-vinoth-irudhayaraj": {
     "datos": {},
     "fecha": "2026-11-26",
@@ -2292,6 +2379,12 @@
     },
     "fecha": "2026-11-22",
     "nombre": "Charlie Pee",
+    "v": 3
+  },
+  "chechu-reguart-i": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Chechu Reguart i",
     "v": 3
   },
   "chema-noci": {
@@ -2342,6 +2435,12 @@
     "nombre": "Cia CREART",
     "v": 3
   },
+  "cia-deliri": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cia Deliri",
+    "v": 3
+  },
   "cia-du-k-to": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -2382,6 +2481,12 @@
     "datos": {},
     "fecha": "2026-11-25",
     "nombre": "Cia. La Puntual - Néstor Navarro",
+    "v": 3
+  },
+  "cia-liliana-la-rossa": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cia. Liliana la Rossa",
     "v": 3
   },
   "cia-magatzem-d-ars": {
@@ -2454,6 +2559,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Cia Toma Pa'Ti",
+    "v": 3
+  },
+  "cia-tutatis": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cia Tutatis",
     "v": 3
   },
   "cia-viu-el-teatre": {
@@ -2625,6 +2736,12 @@
     "nombre": "Coco Comín",
     "v": 3
   },
+  "companyia-brota": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Companyia Brotà",
+    "v": 3
+  },
   "companyia-kali-teatre": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -2665,6 +2782,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Cris Vidal",
+    "v": 3
+  },
+  "cristian-nadal": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cristian Nadal",
     "v": 3
   },
   "cristina-brondo": {
@@ -2721,6 +2844,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Cristina Genebat",
+    "v": 3
+  },
+  "cristina-martinez": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Cristina Martínez",
     "v": 3
   },
   "dafnis-balduz": {
@@ -2792,6 +2921,12 @@
     "datos": {},
     "fecha": "2026-11-25",
     "nombre": "Daniel Fez",
+    "v": 3
+  },
+  "daniel-j-meyer": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Daniel J. Meyer",
     "v": 3
   },
   "daniel-rodriguez": {
@@ -3038,6 +3173,25 @@
     "nombre": "Dolors Vilarasau",
     "v": 3
   },
+  "dora-cantero": {
+    "datos": {
+      "descripcion": {
+        "es": "autora, actriz, locutora, directora de escena, titiritera, dramaturga y docente española"
+      },
+      "foto": null,
+      "oficios": [
+        "Q1797162",
+        "Q2259451",
+        "Q2405480",
+        "Q33999"
+      ],
+      "wikidata": "Q118787884",
+      "wikipedia": "https://es.wikipedia.org/wiki/Dora_Cantero"
+    },
+    "fecha": "2026-11-27",
+    "nombre": "Dora Cantero",
+    "v": 3
+  },
   "dramaturgia-anna-pascual": {
     "datos": {},
     "fecha": "2026-11-26",
@@ -3048,6 +3202,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Duna Montero",
+    "v": 3
+  },
+  "duncan-macmillan": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Duncan Macmillan",
     "v": 3
   },
   "duo-facil": {
@@ -3096,6 +3256,22 @@
     },
     "fecha": "2026-11-18",
     "nombre": "Edu Soto",
+    "v": 3
+  },
+  "eduard-buch": {
+    "datos": {
+      "descripcion": {
+        "es": "actor español"
+      },
+      "foto": null,
+      "oficios": [
+        "Q33999"
+      ],
+      "wikidata": "Q110847134",
+      "wikipedia": null
+    },
+    "fecha": "2026-11-27",
+    "nombre": "Eduard Buch",
     "v": 3
   },
   "eduard-estivill": {
@@ -3189,6 +3365,12 @@
     "nombre": "Eléctrico Express",
     "v": 3
   },
+  "elena-baliarda": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Elena Baliarda",
+    "v": 3
+  },
   "elena-gomez": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -3205,6 +3387,12 @@
     "datos": {},
     "fecha": "2026-11-24",
     "nombre": "Elias Torrecillas",
+    "v": 3
+  },
+  "elisabet-pane": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Elisabet Pané",
     "v": 3
   },
   "elisenda-andres": {
@@ -3225,6 +3413,12 @@
     "nombre": "Eloi Gómez",
     "v": 3
   },
+  "eloi-linuesa": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Eloi Linuesa",
+    "v": 3
+  },
   "els-pangolinets": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -3241,6 +3435,12 @@
     "datos": {},
     "fecha": "2026-11-25",
     "nombre": "Elvira Ruiz Zurita",
+    "v": 3
+  },
+  "emiliano-gonzalez": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Emiliano Gonzalez",
     "v": 3
   },
   "emma-arquillue": {
@@ -3302,6 +3502,12 @@
     "nombre": "Enric Planas",
     "v": 3
   },
+  "enrico-ianniello": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Enrico Ianniello",
+    "v": 3
+  },
   "enrique-fibla": {
     "datos": {},
     "fecha": "2026-11-24",
@@ -3348,6 +3554,12 @@
     "datos": {},
     "fecha": "2026-11-25",
     "nombre": "Ernest Fuster",
+    "v": 3
+  },
+  "ernest-pipo": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Ernest Pipó",
     "v": 3
   },
   "escena-poblenou": {
@@ -3773,6 +3985,12 @@
     "nombre": "Geneviève Dionne",
     "v": 3
   },
+  "georgina-balart": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Georgina Balart",
+    "v": 3
+  },
   "gerard-bosch": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -3881,6 +4099,12 @@
     "nombre": "Guillem Balart",
     "v": 2
   },
+  "guillem-gelabert": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Guillem Gelabert",
+    "v": 3
+  },
   "guillem-marti": {
     "datos": {},
     "fecha": "2026-11-26",
@@ -3941,6 +4165,12 @@
     "nombre": "Hector Canós",
     "v": 3
   },
+  "helena-mateos": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Helena Mateos",
+    "v": 3
+  },
   "henar-alvarez": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -3969,6 +4199,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Igalván company",
+    "v": 3
+  },
+  "ignasi-bosch": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Ignasi Bosch",
     "v": 3
   },
   "ignasi-camprodon": {
@@ -4059,6 +4295,12 @@
     "datos": {},
     "fecha": "2026-11-20",
     "nombre": "Irene Ferrer Panicot",
+    "v": 3
+  },
+  "irene-mas": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Irene Mas",
     "v": 3
   },
   "irene-pages-molina": {
@@ -4395,6 +4637,12 @@
     "nombre": "Joan Olivé",
     "v": 3
   },
+  "joan-pena": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Joan Pena",
+    "v": 3
+  },
   "joan-rodon": {
     "datos": {},
     "fecha": "2026-11-23",
@@ -4708,6 +4956,12 @@
     "nombre": "José Duarte",
     "v": 3
   },
+  "jose-lopez": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Jose López",
+    "v": 3
+  },
   "jose-mava": {
     "datos": {},
     "fecha": "2026-11-24",
@@ -4880,6 +5134,12 @@
     "nombre": "Júlia Bonjoch",
     "v": 3
   },
+  "julia-cortina": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Júlia Cortina",
+    "v": 3
+  },
   "julia-jove": {
     "datos": {},
     "fecha": "2026-11-25",
@@ -4981,6 +5241,12 @@
     "nombre": "Keven Dubois",
     "v": 3
   },
+  "khushi-espelt": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Khushi Espelt",
+    "v": 3
+  },
   "kike-torres": {
     "datos": {},
     "fecha": "2026-11-22",
@@ -4993,10 +5259,22 @@
     "nombre": "KIKO PLANAS",
     "v": 3
   },
+  "kiku-pinol": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Kiku Piñol",
+    "v": 3
+  },
   "l-adolescent-ot-bretones-i": {
     "datos": {},
     "fecha": "2026-11-26",
     "nombre": "L’adolescent Ot Bretones i",
+    "v": 3
+  },
+  "la-bacanal": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "La Bacanal",
     "v": 3
   },
   "la-badabadoc": {
@@ -5165,6 +5443,12 @@
     "datos": {},
     "fecha": "2026-11-22",
     "nombre": "Liant la Tela",
+    "v": 3
+  },
+  "lili-molina-martinez": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Lili Molina Martínez",
     "v": 3
   },
   "liliane-lipau": {
@@ -5587,6 +5871,12 @@
     "nombre": "Marc Domingo",
     "v": 3
   },
+  "marc-espinosa": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Marc Espinosa",
+    "v": 3
+  },
   "marc-gomez": {
     "datos": {},
     "fecha": "2026-11-20",
@@ -5699,6 +5989,18 @@
     "nombre": "Marc Udina",
     "v": 3
   },
+  "marc-urrutia": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Marc Urrutia",
+    "v": 3
+  },
+  "marc-urrutia-i": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Marc Urrutia i",
+    "v": 3
+  },
   "marcel-asso": {
     "datos": {},
     "fecha": "2026-11-20",
@@ -5727,6 +6029,18 @@
     "datos": {},
     "fecha": "2026-11-22",
     "nombre": "Marcos Cámara",
+    "v": 3
+  },
+  "marga-socias": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Marga Socias",
+    "v": 3
+  },
+  "margarida-troguet": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Margarida Troguet",
     "v": 3
   },
   "maria-andreu": {
@@ -5865,6 +6179,12 @@
     "nombre": "Mario Andrés Gómez",
     "v": 2
   },
+  "mariona-blanco": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Mariona Blanco",
+    "v": 3
+  },
   "mariona-castillo": {
     "datos": {},
     "fecha": "2026-11-20",
@@ -5905,6 +6225,12 @@
     "datos": {},
     "fecha": "2026-11-23",
     "nombre": "Marta Barceló",
+    "v": 3
+  },
+  "marta-codina": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Marta Codina",
     "v": 3
   },
   "marta-figueras-alsius": {
@@ -6037,6 +6363,12 @@
     "datos": {},
     "fecha": "2026-11-18",
     "nombre": "Martín Melinsky",
+    "v": 3
+  },
+  "martina-de-cabo": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Martina de Cabo",
     "v": 3
   },
   "mateo-tikas": {
@@ -6228,10 +6560,36 @@
     "nombre": "Mikel Iglesias",
     "v": 3
   },
+  "miki-esparbe": {
+    "datos": {
+      "descripcion": {
+        "ca": "actor català",
+        "es": "actor español"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Premios_Goya_2026_-_Miki_Esparb%C3%A9_%28cropped%29.jpg?width=300",
+      "oficios": [
+        "Q2526255",
+        "Q28389",
+        "Q3282637",
+        "Q33999"
+      ],
+      "wikidata": "Q21036173",
+      "wikipedia": "https://es.wikipedia.org/wiki/Miki_Esparb%C3%A9"
+    },
+    "fecha": "2026-11-27",
+    "nombre": "Miki Esparbé",
+    "v": 3
+  },
   "miquel-company": {
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Miquel Company",
+    "v": 3
+  },
+  "miquel-conangla": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Miquel Conangla",
     "v": 3
   },
   "miquel-grima": {
@@ -6250,6 +6608,12 @@
     "datos": {},
     "fecha": "2026-11-25",
     "nombre": "Mireia Illamola",
+    "v": 3
+  },
+  "mireia-morera": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Mireia Morera",
     "v": 3
   },
   "mireia-orrit": {
@@ -6873,6 +7237,12 @@
     "nombre": "Para Feruzi",
     "v": 3
   },
+  "pau-castillo": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Pau Castillo",
+    "v": 3
+  },
   "pau-gascon": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -7072,6 +7442,12 @@
     "nombre": "Pere Elies",
     "v": 2
   },
+  "pere-lloveras-circular-comunicacio": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Pere Lloveras (Circular Comunicació)",
+    "v": 3
+  },
   "pere-lopez": {
     "datos": {},
     "fecha": "2026-11-24",
@@ -7149,6 +7525,12 @@
     "fecha": "2026-11-18",
     "nombre": "Pol Clusella",
     "v": 2
+  },
+  "pol-cornudella": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Pol Cornudella",
+    "v": 3
   },
   "pol-juidia": {
     "datos": {},
@@ -7259,6 +7641,12 @@
     "datos": {},
     "fecha": "2026-11-22",
     "nombre": "Quim Girón",
+    "v": 3
+  },
+  "quimet-felis-plancton-escena": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Quimet Felis (Plàncton Escena)",
     "v": 3
   },
   "rafel-barcelo": {
@@ -7420,6 +7808,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Rodrigo Muñoz",
+    "v": 3
+  },
+  "roger-argemi": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Roger Argemí",
     "v": 3
   },
   "roger-batalla": {
@@ -7616,6 +8010,12 @@
     "nombre": "Rubén Yuste",
     "v": 3
   },
+  "rugido-teatre-i": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Rugido Teatre i",
+    "v": 3
+  },
   "rut-girona": {
     "datos": {},
     "fecha": "2026-11-18",
@@ -7652,10 +8052,22 @@
     "nombre": "Sandrine Heyraud Focus",
     "v": 2
   },
+  "santi-ponce": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Santi Ponce",
+    "v": 3
+  },
   "sara-lopez": {
     "datos": {},
     "fecha": "2026-11-23",
     "nombre": "Sara López",
+    "v": 3
+  },
+  "sara-q-pipo": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Sara Q. Pipó",
     "v": 3
   },
   "sara-vinyals": {
@@ -7663,6 +8075,12 @@
     "fecha": "2026-11-18",
     "nombre": "Sara Vinyals",
     "v": 2
+  },
+  "sarah-john": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Sarah John",
+    "v": 3
   },
   "sarah-sternat": {
     "datos": {},
@@ -7802,6 +8220,18 @@
     "nombre": "Sílvia Navarro",
     "v": 3
   },
+  "silvia-rodriguez-egana": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Silvia Rodríguez Egaña",
+    "v": 3
+  },
+  "silvia-valls": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Sílvia Valls",
+    "v": 3
+  },
   "sira-abenoza": {
     "datos": {},
     "fecha": "2026-11-23",
@@ -7812,6 +8242,12 @@
     "datos": {},
     "fecha": "2026-11-23",
     "nombre": "Sira Castells",
+    "v": 3
+  },
+  "sixto-paz-produccions": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Sixto Paz Produccions",
     "v": 3
   },
   "sofia-sinelli": {
@@ -7832,10 +8268,22 @@
     "nombre": "Souleymane Sylla",
     "v": 3
   },
+  "sr-bohigues": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Sr. Bohigues",
+    "v": 3
+  },
   "stef-stessel": {
     "datos": {},
     "fecha": "2026-11-24",
     "nombre": "Stef Stessel",
+    "v": 3
+  },
+  "steph-pyne": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Steph Pyne",
     "v": 3
   },
   "stephane-caron": {
@@ -8081,6 +8529,12 @@
     "nombre": "Thomas Dechaufour",
     "v": 2
   },
+  "thomas-roper": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Thomas Roper",
+    "v": 3
+  },
   "tian-lara": {
     "datos": {},
     "fecha": "2026-11-25",
@@ -8145,6 +8599,12 @@
     "nombre": "Toni Viñals",
     "v": 3
   },
+  "toti-toronell": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Toti Toronell",
+    "v": 3
+  },
   "traduccio-al-catala": {
     "datos": {},
     "fecha": "2026-11-24",
@@ -8190,10 +8650,28 @@
     "nombre": "Txus Molina",
     "v": 3
   },
+  "u98-jordi-puig": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "U98 (Jordi Puig)",
+    "v": 3
+  },
   "unax-homar": {
     "datos": {},
     "fecha": "2026-11-26",
     "nombre": "Unax Homar",
+    "v": 3
+  },
+  "uri-guillem": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Uri Guillem",
+    "v": 3
+  },
+  "uri-plana": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Uri Plana",
     "v": 3
   },
   "uriel-ireland": {
@@ -8232,6 +8710,12 @@
     "nombre": "Victor Alvaro",
     "v": 3
   },
+  "victor-arbelo": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Víctor Arbelo",
+    "v": 3
+  },
   "victor-bartolome": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -8242,6 +8726,12 @@
     "datos": {},
     "fecha": "2026-11-26",
     "nombre": "Víctor Borràs",
+    "v": 3
+  },
+  "victor-castro": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Víctor Castro",
     "v": 3
   },
   "victor-catala": {
@@ -8401,6 +8891,18 @@
     "nombre": "Xavi Fuster",
     "v": 3
   },
+  "xavi-gomez": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Xavi Gómez",
+    "v": 3
+  },
+  "xavi-moreno": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Xavi Moreno",
+    "v": 3
+  },
   "xavi-navarro": {
     "datos": {},
     "fecha": "2026-11-20",
@@ -8519,6 +9021,12 @@
     "datos": {},
     "fecha": "2026-11-19",
     "nombre": "Zacharie Dutertre",
+    "v": 3
+  },
+  "zaida-lloveras": {
+    "datos": {},
+    "fecha": "2026-11-27",
+    "nombre": "Zaida Lloveras",
     "v": 3
   },
   "zoe-tenret": {
