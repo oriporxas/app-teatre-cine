@@ -3,289 +3,6 @@
   "atribucion": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
   "caducadas": [
     {
-      "anio": 2026,
-      "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/g2PKUCpDChvYvT7IaUOYfjO0mbG.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/x0UOcjml8WnBfnb89QOh0iXM0w0.jpg",
-          "id": 1212667,
-          "nombre": "Nathan Fielder",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Canadian Comedy Award for Best Performance by a Male - Television",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q16207915"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/h12zgCaZ24imkZlw0nry9T9mjGD.jpg",
-          "id": 1405665,
-          "nombre": "Lance Oppenheim",
-          "premios": [],
-          "wikidata": "Q27040203"
-        }
-      ],
-      "duracion": 175,
-      "estreno": "2026-10-16",
-      "fondo": "https://image.tmdb.org/t/p/w1280/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
-      "generos": [
-        "Documental"
-      ],
-      "id": "tmdb-1765072",
-      "idioma_original": "en",
-      "imdb": "tt45368240",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/jtuiVE9M1D8ALzLltv1tfCKJfMt.jpg",
-          "id": 1966583,
-          "nombre": "Ari Balouzian"
-        }
-      ],
-      "nota": 8.8,
-      "paises": [
-        "US"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/s7ej8dZ7zncd4nPBrkBUbArnTJl.jpg",
-          "id": 2269143,
-          "nombre": "Elizabeth Holmes",
-          "papel": "Self",
-          "premios": [
-            {
-              "anio": 2015,
-              "premio": "Premi Horatio Alger",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q17503525"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/x0UOcjml8WnBfnb89QOh0iXM0w0.jpg",
-          "id": 1212667,
-          "nombre": "Nathan Fielder",
-          "papel": "Self",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Canadian Comedy Award for Best Performance by a Male - Television",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q16207915"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/tLOCcMkylvIES7ZKFv6Dks6XmD.jpg",
-          "id": 6462200,
-          "nombre": "Billy Evans",
-          "papel": "Self",
-          "premios": [],
-          "wikidata": "Q141857229"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg",
-          "id": 71070,
-          "nombre": "Amanda Seyfried",
-          "papel": "Self / Elizabeth Holmes",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Time 100",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Globo de Oro a la mejor actriz de miniserie o telefilme",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2023,
-              "premio": "Premio de la Crítica Televisiva a la mejor actriz en película/miniserie",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premi del públic a la millor pel·lícula europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2021,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q189226"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/bE7zzh60RXydH3p632ZZSmsTlcn.jpg",
-          "id": 984629,
-          "nombre": "Christopher Abbott",
-          "papel": "Billy Evans"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/h12zgCaZ24imkZlw0nry9T9mjGD.jpg",
-          "id": 1405665,
-          "nombre": "Lance Oppenheim",
-          "papel": "Self"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/8uN7aAfhGkZ25A6HroG73IUMP0r.jpg",
-          "id": 6552342,
-          "nombre": "Christian Rasmus Holmes IV",
-          "papel": "Self"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/wVQJFsBamiNh569RXirYMnDScAa.jpg",
-          "id": 6552346,
-          "nombre": "Noel Anne Holmes",
-          "papel": "Self"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6HdPMSnldhYWdJiH3yvWDUNDFGs.jpg",
-          "id": 78404,
-          "nombre": "Gary Wilmes",
-          "papel": "A24 Executive"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/wzLtwcPc8VGYwBqeHl9d7gMVixL.jpg",
-          "id": 1386927,
-          "nombre": "Phillip Andre Botello",
-          "papel": "A24 Executive"
-        }
-      ],
-      "sinopsis": {
-        "en": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
-        "es": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años."
-      },
-      "titulo": "Puedes verlo todo",
-      "titulo_original": "You Can See Everything",
-      "tmdb": 1765072,
-      "trailer": "-B-gh1BlS4w"
-    },
-    {
-      "agenda": "open_data_bcn:99400763800",
-      "anio": 2024,
-      "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/rUxbklEr8ukGeQHbQOmXFkWyTtV.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oTftmRSdtdo7pRx9DDlkqP8tp0v.jpg",
-          "id": 2231098,
-          "nombre": "Miguel Faus",
-          "premios": [
-            {
-              "anio": 2018,
-              "premio": "Premio al mejor cortometraje del Festival de Cine de Sitges",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q125310919"
-        }
-      ],
-      "duracion": 92,
-      "edad": "16",
-      "estreno": "2024-05-17",
-      "fondo": "https://image.tmdb.org/t/p/w1280/kC5d3MDJUvD6XrfPiOmcARLipDW.jpg",
-      "generos": [
-        "Drama",
-        "Comedia"
-      ],
-      "gratis": true,
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/oTftmRSdtdo7pRx9DDlkqP8tp0v.jpg",
-          "id": 2231098,
-          "nombre": "Miguel Faus"
-        }
-      ],
-      "id": "tmdb-1188853",
-      "idioma_original": "es",
-      "imdb": "tt18291892",
-      "paises": [
-        "ES",
-        "US"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/u9QWOjAATRZipkhkQFMj8frq5rH.jpg",
-          "id": 2836518,
-          "nombre": "Paula Grimaldo",
-          "papel": "Ana"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/4g5IyK6br9UCRqLLlW8z5ZLFtYf.jpg",
-          "id": 17006,
-          "nombre": "Ariadna Gil",
-          "papel": "Andrea",
-          "premios": [
-            {
-              "anio": 1993,
-              "premio": "Premio Goya a la mejor interpretación femenina protagonista",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1996,
-              "premio": "Premio Butaca a la mejor actriz de cine catalán",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q264754"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/rkql8G1lc8aM8iyx5sL6PDjvtQ4.jpg",
-          "id": 27471,
-          "nombre": "Luis Bermejo",
-          "papel": "Pedro",
-          "premios": [],
-          "wikidata": "Q5982905"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/80mZzFLTSmWn3MUbVgD6n5woZzu.jpg",
-          "id": 1589570,
-          "nombre": "Pol Hermoso",
-          "papel": "Jacobo",
-          "premios": [],
-          "wikidata": "Q106367065"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qz3T4Rz78f9rvG4CJV7r3XyymuG.jpg",
-          "id": 1668830,
-          "nombre": "Violeta Rodríguez",
-          "papel": "Claudia"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/hkz3jtHGviA22mhfI7JP5EPnBGv.jpg",
-          "id": 2833127,
-          "nombre": "Nany Tovar",
-          "papel": "Gisela"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/locdIJLnX1elVJr3ufV4sprk6Yh.jpg",
-          "id": 2168107,
-          "nombre": "Victor Rebull",
-          "papel": "Vic"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/5bDqlIwaYfmbgbTkpXHbaxCacgh.jpg",
-          "id": 4031220,
-          "nombre": "Eduard Torres",
-          "papel": "Pol"
-        }
-      ],
-      "sinopsis": {
-        "ca": "Ana, nouvinguda de Colòmbia, és empleada domèstica en una luxosa mansió on estiueja una adinerada família de marxants d'art. La jove treballa de sol a sol, sense contracte, sota la promesa d'aconseguir condicions més dignes quan acabi l'estiu, sempre que sigui discreta i calladeta. Però a través de Gisela, l'empleada de la casa veïna, Ana descobrirà que les coses no funcionen exactament com a ella li han explicat. També aprendrà a divertir-se una mica més durant el seu estiu a la Costa Brava.",
-        "en": "Ana has just arrived from Colombia and is the maid of a luxurious mansion on the Costa Brava, where a family of wealthy art dealers spends their summers. The young woman works tirelessly and without a contract, under the promise of decent conditions at the end of the summer, if she remains obedient and discreet.",
-        "es": "Una joven colombiana trabaja como empleada doméstica en una mansión de verano en España. Mientras la rica familia disfruta de sus exuberantes vacaciones, ella pasa sus días sirviéndoles, hasta que un día se da cuenta de que tal vez ella también pueda encontrar formas de disfrutar el verano."
-      },
-      "titulo": "Calladita",
-      "titulo_original": "Calladita",
-      "tmdb": 1188853,
-      "trailer": "EJdFAHqvo0A"
-    },
-    {
       "agenda": "open_data_bcn:99400766836",
       "caducado": "2026-11-26",
       "gratis": true,
@@ -293,867 +10,14 @@
       "titulo": "Cinema participatiu"
     },
     {
-      "anio": 2026,
+      "agenda": "open_data_bcn:99400785903",
       "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aWDxGlWkFVhs80DQMEE5A7c7YBr.jpg",
-          "id": 40684,
-          "nombre": "David Leitch",
-          "premios": [
-            {
-              "anio": 2008,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q5236475"
-        }
-      ],
-      "duracion": 122,
-      "edad": "16",
-      "estreno": "2026-11-10",
-      "fondo": "https://image.tmdb.org/t/p/w1280/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
-      "generos": [
-        "Acción",
-        "Crimen",
-        "Suspense"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/kEqJj3aRwcAoJFqv7h0qzoTvlDF.jpg",
-          "id": 1466580,
-          "nombre": "Mark Bianculli"
-        }
-      ],
-      "id": "tmdb-1437511",
-      "idioma_original": "en",
-      "imdb": "tt35866986",
-      "lema": "¿Quién está robando a quién?.",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/8r3uR9LxtCG72l9JS4fjfVc3wdZ.jpg",
-          "id": 1404094,
-          "nombre": "Dominic Lewis"
-        }
-      ],
-      "paises": [
-        "US"
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg",
-          "id": 3292,
-          "nombre": "Nicholas Hoult",
-          "papel": "Ryan",
-          "premios": [
-            {
-              "anio": 2013,
-              "premio": "Premi Teen Choice per al millor actor revelació",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Phoenix Film Critics Society Award for Best Performance by a Youth in a Lead or Supporting Role - Male",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premis de l'Online Film & Television Association",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Premi del Florida Film Critics Circle al millor repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Premios de la Crítica Televisiva",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premios Phoenix Film Critics Society",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premios Satellite",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Premi del públic a la millor pel·lícula europea",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q298347"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg",
-          "id": 37153,
-          "nombre": "Zoë Kravitz",
-          "papel": "Reagan Gardner",
-          "premios": [
-            {
-              "anio": 2014,
-              "premio": "Milano International Film Festival Awards (MIFF Awards)",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Time 100",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q227129"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/f3kubnZu3KgMniExcq9nJy8RwjW.jpg",
-          "id": 1427948,
-          "nombre": "Pete Davidson",
-          "papel": "Vince",
-          "premios": [
-            {
-              "anio": 2022,
-              "premio": "Time 100",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q18097962"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/iDQ8w4qcxU3le5ZWoCKpHs1QNok.jpg",
-          "id": 4764,
-          "nombre": "John C. Reilly",
-          "papel": "Agent West",
-          "premios": [
-            {
-              "anio": 2003,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2000,
-              "premio": "Premio Tony al mejor actor principal en una obra de teatro",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q223110"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6uFaCOupDTPRnTiedveTUvjOikC.jpg",
-          "id": 1434487,
-          "nombre": "Anna Sawai",
-          "papel": "Emi"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/b2Ba7MLybozIRdvZquimRGOHE0V.jpg",
-          "id": 1761634,
-          "nombre": "Rhenzy Feliz",
-          "papel": "Hugo"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
-          "id": 2224,
-          "nombre": "Christian Slater",
-          "papel": "Walton"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
-          "id": 1859934,
-          "nombre": "Tati Gabrielle",
-          "papel": "Skyler"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/cQnCJI94lje55gZ7kEQ7YZUQPDb.jpg",
-          "id": 167564,
-          "nombre": "Paul Sparks",
-          "papel": "Agent Roberts"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/cRuVRx1DMe2hBkz5pssVqdpCtaQ.jpg",
-          "id": 2569691,
-          "nombre": "Young Mazino",
-          "papel": "Marquis Collins"
-        }
-      ],
+      "gratis": true,
+      "id": "p-t-numakage-public-pool",
       "sinopsis": {
-        "en": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
-        "es": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales."
+        "ca": "Direcció: Shingo Ota\nOn: Japó\nDurada: 80 minuts\nDurant més de cinquanta anys, Numakage, una piscina pública suburbana de Tòquio, ha estat punt de trobada de gent gran, famílies i comunitats de cruising gai.\nDavant la seva demolició, malgrat l'oposició local, la pel·lícula ressegueix el dol col·lectiu a través de les cinc fases de Kübler-Ross, qüestionant una pèrdua habitualment reservada a la mort humana."
       },
-      "titulo": "Como robar un banco",
-      "titulo_original": "How to Rob a Bank",
-      "tmdb": 1437511,
-      "trailer": "tKtg0S1rm2M"
-    },
-    {
-      "anio": 1959,
-      "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/rzOQHh5Utbr3x0UvKIbIU5pVA0f.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
-          "id": 2636,
-          "nombre": "Alfred Hitchcock",
-          "premios": [
-            {
-              "anio": 1979,
-              "premio": "Brunelleschi Lifetime Achievement Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1979,
-              "premio": "Comendador de la Orden del Imperio británico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1971,
-              "premio": "BAFTA Academy Fellowship Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1960,
-              "premio": "Premio Edgar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Oficial de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Globo de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Concha de Plata a la mejor dirección",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premios Saturn",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1971,
-              "premio": "Premio Cecil B. DeMille",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1967,
-              "premio": "Premio en memoria de Irving Thalberg",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1961,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1955,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1946,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1945,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1941,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q7374"
-        }
-      ],
-      "duracion": 136,
-      "edad": "A",
-      "estreno": "1959-08-06",
-      "fondo": "https://image.tmdb.org/t/p/w1280/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
-      "generos": [
-        "Suspense",
-        "Aventura"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qcuk9wYicbrMx431GL3hUZU7602.jpg",
-          "id": 2637,
-          "nombre": "Ernest Lehman"
-        }
-      ],
-      "id": "tmdb-213",
-      "idioma_original": "en",
-      "imdb": "tt0053125",
-      "lema": "Es un juego mortal de 'etiqueta' y Cary Grant es 'eso' ...",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vpIPFhUpHBqDrbgbnaQnDCYekDI.jpg",
-          "id": 1045,
-          "nombre": "Bernard Herrmann"
-        }
-      ],
-      "nota": 8.0,
-      "paises": [
-        "US"
-      ],
-      "premios": [
-        {
-          "anio": null,
-          "premio": "National Board of Review a las 10 Películas más Destacadas",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 1960,
-          "premio": "Óscar al mejor montaje",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 1960,
-          "premio": "Óscar al mejor guion original",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 1960,
-          "premio": "Oscar a la millor direcció artística, color",
-          "tipo": "nominado"
-        }
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/lcNAirMFcyM7WIiCmaabjbNZVOJ.jpg",
-          "id": 2638,
-          "nombre": "Cary Grant",
-          "papel": "Roger Thornhill",
-          "premios": [
-            {
-              "anio": 1969,
-              "premio": "Óscar honorífico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1960,
-              "premio": "David de Donatello al mejor actor extranjero",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1981,
-              "premio": "Premio Kennedy Center Honors",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1970,
-              "premio": "Premios Óscar",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1942,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1945,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q83410"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/nJgTHDaCA3yl8vDu3nP8S6qjhIx.jpg",
-          "id": 2639,
-          "nombre": "Eva Marie Saint",
-          "papel": "Eve Kendall",
-          "premios": [
-            {
-              "anio": 1955,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1954,
-              "premio": "Theatre World Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1990,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Miniserie o telefilme",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1960,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Caballero de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1955,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q228928"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/vCABivuMBCT78sh5G0q8jO5rkT.jpg",
-          "id": 2091,
-          "nombre": "James Mason",
-          "papel": "Phillip Vandamm",
-          "premios": [
-            {
-              "anio": 1954,
-              "premio": "Globo de Oro al mejor actor - Comedia o musical",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1967,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1983,
-              "premio": "Oscar al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1955,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q209186"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9asCKCafalR0382PpkHZs5Lv8hK.jpg",
-          "id": 2640,
-          "nombre": "Jessie Royce Landis",
-          "papel": "Clara Thornhill",
-          "premios": [],
-          "wikidata": "Q541270"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/56ND35pQZetw5xpagHDKFZjMeuE.jpg",
-          "id": 2642,
-          "nombre": "Leo G. Carroll",
-          "papel": "Professor"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/pnmYpAfJOhwMlan3YQRo9FKb6ZS.jpg",
-          "id": 2643,
-          "nombre": "Josephine Hutchinson",
-          "papel": "Mrs. Townsend"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/aXZksHM7t7AzMxWCnGvRs05F0PK.jpg",
-          "id": 2644,
-          "nombre": "Philip Ober",
-          "papel": "Lester Townsend"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/dznOAZPpAyXu7PfCz5obbJ2YzsJ.jpg",
-          "id": 2641,
-          "nombre": "Martin Landau",
-          "papel": "Leonard"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/rZju92r8uMvLW31dFPgZ21nnT0N.jpg",
-          "id": 2645,
-          "nombre": "Adam Williams",
-          "papel": "Valerian"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/uVl1ZzKXkvJSTHVYyfNriMV8BNV.jpg",
-          "id": 2646,
-          "nombre": "Edward Platt",
-          "papel": "Victor Larrabee"
-        }
-      ],
-      "sinopsis": {
-        "ca": "A causa d'un malentès, Roger O. Thornhill, un executiu del món de la publicitat, uns espies el confonen amb un agent del govern anomenat George Kaplan. Segrestat per tres individus i portat a una mansió on és interrogat, aconsegueix fugir abans que el matin. Quan l'endemà torna a casa acompanyat de la policia, no hi ha rastre de les persones que havia descrit.",
-        "en": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
-        "es": "Debido a un malentendido, a Roger O. Thornhill, un ejecutivo del mundo de la publicidad, unos espías lo confunden con un agente del gobierno llamado George Kaplan. Secuestrado por tres individuos y llevado a una mansión en la que es interrogado, consigue huir antes de que lo maten. Cuando al día siguiente regresa a la casa acompañado de la policía, no hay rastro de las personas que había descrito."
-      },
-      "titulo": "Con la muerte en los talones",
-      "titulo_ca": "Perseguit per la mort",
-      "titulo_original": "North by Northwest",
-      "tmdb": 213,
-      "trailer": "cPNiwc3ogIo"
-    },
-    {
-      "anio": 1984,
-      "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/sk4eTjGfp58RLRr67qzFUbX9EPl.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
-          "id": 5602,
-          "nombre": "David Lynch",
-          "premios": [
-            {
-              "anio": 2007,
-              "premio": "Oficial de la Orden Nacional de la Legión de Honor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Goslarer Kaiserring",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1993,
-              "premio": "Premios Saturn",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "León de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1990,
-              "premio": "Palma de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio del Festival de Cannes al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "César a la mejor película extranjera",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1999,
-              "premio": "Premio del Cine Europeo a la mejor película no europea",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2020,
-              "premio": "Óscar honorífico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Eagle Scout",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2020,
-              "premio": "Gran Premio Honorífico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "Premios César",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "León de Oro por la carrera",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1981,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1987,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1981,
-              "premio": "Óscar al mejor guion adaptado",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1999,
-              "premio": "Premio del Cine Europeo a la mejor película no europea",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q2071"
-        }
-      ],
-      "duracion": 136,
-      "edad": "12",
-      "estreno": "1984-12-14",
-      "fondo": "https://image.tmdb.org/t/p/w1280/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg",
-      "generos": [
-        "Acción",
-        "Ciencia ficción",
-        "Aventura"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
-          "id": 5602,
-          "nombre": "David Lynch"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/1uE09gzcwXMjCfXZfXXwNDIHaXG.jpg",
-          "id": 12506,
-          "nombre": "Frank Herbert"
-        }
-      ],
-      "id": "tmdb-841",
-      "idioma_original": "en",
-      "imdb": "tt0087182",
-      "lema": "Un mundo más allá de nuestra experiencia, más allá de nuestra imaginación.",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/lLdYPTiwg5uvFFSY70TI3CCJYE4.jpg",
-          "id": 37317,
-          "nombre": "Brian Eno"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/wTAvVmLRfhUmzO3TJAkuC9uLfKq.jpg",
-          "id": 957917,
-          "nombre": "David Paich"
-        }
-      ],
-      "nota": 6.2,
-      "paises": [
-        "US"
-      ],
-      "premios": [
-        {
-          "anio": 1984,
-          "premio": "Premi Saturn al millor vestuari",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 1985,
-          "premio": "Óscar al mejor sonido",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 1984,
-          "premio": "Premi Saturn al millor vestuari",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 1985,
-          "premio": "Premio Hugo a la mejor presentación dramática",
-          "tipo": "nominado"
-        }
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg",
-          "id": 6677,
-          "nombre": "Kyle MacLachlan",
-          "papel": "Paul Atreides",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Premios Globo de Oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premi Saturn al millor actor de televisió",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q207506"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/rtbYkuenkq8Kfc5LwzWYtVD3eNH.jpg",
-          "id": 12513,
-          "nombre": "Francesca Annis",
-          "papel": "Lady Jessica",
-          "premios": [],
-          "wikidata": "Q436769"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg",
-          "id": 2387,
-          "nombre": "Patrick Stewart",
-          "papel": "Gurney Halleck",
-          "premios": [
-            {
-              "anio": 2000,
-              "premio": "Oficial de la Orden del Imperio Británico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Knight Bachelor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1996,
-              "premio": "Premi Grammy al millor àlbum parlat per a infants",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2015,
-              "premio": "Doctor honoris causa per la Vrije Universiteit Brussel",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Estrella del Paseo de la Fama de Hollywood",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1979,
-              "premio": "Premi Laurence Olivier al millor actor de repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premi Laurence Olivier al millor actor de repartiment",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2018,
-              "premio": "Premio Saturn al mejor actor secundario",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2021,
-              "premio": "Premi Saturn al millor actor de televisió",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premi Saturn al millor actor de televisió",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Premio Tony al mejor actor principal en una obra de teatro",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q16296"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/leiVNArKBQTmE5ROovNJWiW9kfk.jpg",
-          "id": 12516,
-          "nombre": "Linda Hunt",
-          "papel": "Shadout Mapes",
-          "premios": [
-            {
-              "anio": 1984,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1984,
-              "premio": "Óscar a la mejor actriz de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1984,
-              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q232874"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/mMOxqZz7Te7SHTd7AGqpjyyykb7.jpg",
-          "id": 12515,
-          "nombre": "José Ferrer",
-          "papel": "Padisha Emperor Shaddam IV"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/mWozC9kZFNhxoRSCBvmykROmMGB.jpg",
-          "id": 12517,
-          "nombre": "Freddie Jones",
-          "papel": "Thufir Hawat"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ex7AmuHM3owhUetYZAyOmN1ehWS.jpg",
-          "id": 1370,
-          "nombre": "Brad Dourif",
-          "papel": "Piter De Vries"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qrrpdZYy6cLLBUrrA6AqyWJKa0w.jpg",
-          "id": 12518,
-          "nombre": "Richard Jordan",
-          "papel": "Duncan Idaho"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/2u72BF7i189nAcX1kEJLjGMsb0c.jpg",
-          "id": 12519,
-          "nombre": "Virginia Madsen",
-          "papel": "Princess Irulan"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/6BaomIelsdXJkqfByoB25ZOp09b.jpg",
-          "id": 12520,
-          "nombre": "Silvana Mangano",
-          "papel": "Reverend Mother Ramallo"
-        }
-      ],
-      "sinopsis": {
-        "ca": "Som a l'any 10191. L'emperador del Món conegut Padishah Shaddam IV, ha entregat el planeta Arrakis a la casa Atreides desposseint-lo de la casa Harkonnen. Com que aixó pot posar en perill la producció d'espècia, la droga geriàtrica, un navegant de tercer nivell és enviat a donar ordres a l'emperador.",
-        "en": "In the year 10,191, the most precious substance in the universe is the spice Melange. The spice extends life. The spice expands consciousness. The spice is vital to space travel.  The spice exists on only one planet in the entire universe, the vast desert planet Arrakis, also known as Dune.  Its native inhabitants, the Fremen, have long held a prophecy that a man would come, a messiah who would lead them to true freedom.",
-        "es": "Por orden imperial la familia Atreides deberá hacerse cargo de la explotación del desértico planeta de Arrakis, conocido también como Dune, el único planeta donde se encuentra 'la especia', una potente droga que, además, es necesaria para los vuelos espaciales."
-      },
-      "titulo": "Dune",
-      "titulo_ca": "Dune",
-      "titulo_original": "Dune",
-      "tmdb": 841,
-      "trailer": "mtLd5CWuwbo"
+      "titulo": "Numakage Public pool"
     },
     {
       "anio": 2024,
@@ -1476,267 +340,476 @@
       "trailer": "PctPdv7LiuE"
     },
     {
-      "anio": 2010,
+      "agenda": "open_data_bcn:99400763800",
+      "anio": 2024,
       "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/rA40sUH6bHD5pAJ1jOcJFZPhlOe.jpg",
+      "cartel": "https://image.tmdb.org/t/p/w500/rUxbklEr8ukGeQHbQOmXFkWyTtV.jpg",
       "direccion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
-          "id": 137427,
-          "nombre": "Denis Villeneuve",
+          "foto": "https://image.tmdb.org/t/p/w185/oTftmRSdtdo7pRx9DDlkqP8tp0v.jpg",
+          "id": 2231098,
+          "nombre": "Miguel Faus",
           "premios": [
             {
-              "anio": 2017,
-              "premio": "Oficial de la Orden de Canadá",
+              "anio": 2018,
+              "premio": "Premio al mejor cortometraje del Festival de Cine de Sitges",
               "tipo": "ganado"
-            },
-            {
-              "anio": 2016,
-              "premio": "Company de l'Ordre des arts et des lettres du Québec",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premi d'Arts Escèniques del Governador General",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premi Genie al millor guió",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Premios Hugo",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Premi Genie al millor guió",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2010,
-              "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2011,
-              "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Caballero de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Doctor honoris causa per la Universitat del Quebec a Montreal",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2019,
-              "premio": "Caballero de la Orden Nacional de Quebec",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Ray Bradbury",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2017,
-              "premio": "Óscar al mejor director",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2022,
-              "premio": "Óscar al mejor guion adaptado",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2025,
-              "premio": "Óscar a la mejor película",
-              "tipo": "nominado"
             }
           ],
-          "wikidata": "Q548823"
+          "wikidata": "Q125310919"
         }
       ],
-      "duracion": 131,
-      "edad": "12",
-      "estreno": "2010-09-17",
-      "fondo": "https://image.tmdb.org/t/p/w1280/f3ATwil5vmUeTsogBaMEKbBYBth.jpg",
+      "duracion": 92,
+      "edad": "16",
+      "estreno": "2024-05-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/kC5d3MDJUvD6XrfPiOmcARLipDW.jpg",
       "generos": [
         "Drama",
-        "Bélica",
-        "Misterio"
+        "Comedia"
       ],
+      "gratis": true,
       "guion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
-          "id": 137427,
-          "nombre": "Denis Villeneuve"
-        },
-        {
-          "id": 970214,
-          "nombre": "Valérie Beaugrand-Champagne"
+          "foto": "https://image.tmdb.org/t/p/w185/oTftmRSdtdo7pRx9DDlkqP8tp0v.jpg",
+          "id": 2231098,
+          "nombre": "Miguel Faus"
         }
       ],
-      "id": "tmdb-46738",
-      "idioma_original": "fr",
-      "imdb": "tt1255953",
-      "lema": "La búsqueda empieza al revelarse el testamento de su madre",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/a6fnk0mOuVnOVzusjODwBPCUnny.jpg",
-          "id": 57069,
-          "nombre": "Grégoire Hetzel"
-        }
-      ],
-      "nota": 8.1,
+      "id": "tmdb-1188853",
+      "idioma_original": "es",
+      "imdb": "tt18291892",
       "paises": [
-        "CA",
-        "FR"
-      ],
-      "premios": [
-        {
-          "anio": 2011,
-          "premio": "Premio Genie a la mejor película",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 2010,
-          "premio": "Premi del Festival Internacional de Cinema de Toronto a la millor pel·lícula canadenca",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 2010,
-          "premio": "Premi Iris a la millor pel·lícula",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 2011,
-          "premio": "Óscar a la mejor película de habla no inglesa",
-          "tipo": "nominado"
-        },
-        {
-          "anio": 2011,
-          "premio": "Candidata internacional als Premis Oscar",
-          "tipo": "nominado"
-        }
+        "ES",
+        "US"
       ],
       "reparto": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/qjsoXqKJPnmoMs1eyeTLBKKShYQ.jpg",
-          "id": 77498,
-          "nombre": "Lubna Azabal",
-          "papel": "Nawal",
+          "foto": "https://image.tmdb.org/t/p/w185/u9QWOjAATRZipkhkQFMj8frq5rH.jpg",
+          "id": 2836518,
+          "nombre": "Paula Grimaldo",
+          "papel": "Ana"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4g5IyK6br9UCRqLLlW8z5ZLFtYf.jpg",
+          "id": 17006,
+          "nombre": "Ariadna Gil",
+          "papel": "Andrea",
           "premios": [
             {
-              "anio": 2011,
-              "premio": "Academy of Canadian Cinema and Television Award for Best Performance by an Actress in a Leading Role",
+              "anio": 1993,
+              "premio": "Premio Goya a la mejor interpretación femenina protagonista",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1996,
+              "premio": "Premio Butaca a la mejor actriz de cine catalán",
               "tipo": "ganado"
             }
           ],
-          "wikidata": "Q462256"
+          "wikidata": "Q264754"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/bVQfqJXVSDB6x6GVKHIsOVoPrnS.jpg",
-          "id": 84573,
-          "nombre": "Mélissa Désormeaux-Poulin",
-          "papel": "Jeanne Marwan",
+          "foto": "https://image.tmdb.org/t/p/w185/rkql8G1lc8aM8iyx5sL6PDjvtQ4.jpg",
+          "id": 27471,
+          "nombre": "Luis Bermejo",
+          "papel": "Pedro",
           "premios": [],
-          "wikidata": "Q2384494"
+          "wikidata": "Q5982905"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/iGFDGJmGUxLOSIamTENFDecJdkA.jpg",
-          "id": 88592,
-          "nombre": "Maxim Gaudette",
-          "papel": "Simon Marwan",
+          "foto": "https://image.tmdb.org/t/p/w185/80mZzFLTSmWn3MUbVgD6n5woZzu.jpg",
+          "id": 1589570,
+          "nombre": "Pol Hermoso",
+          "papel": "Jacobo",
           "premios": [],
-          "wikidata": "Q3302455"
+          "wikidata": "Q106367065"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/enULDDsKvyNoUCZoFg10Mtq1MFk.jpg",
-          "id": 38526,
-          "nombre": "Rémy Girard",
-          "papel": "Notary Lebel",
+          "foto": "https://image.tmdb.org/t/p/w185/qz3T4Rz78f9rvG4CJV7r3XyymuG.jpg",
+          "id": 1668830,
+          "nombre": "Violeta Rodríguez",
+          "papel": "Claudia"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/hkz3jtHGviA22mhfI7JP5EPnBGv.jpg",
+          "id": 2833127,
+          "nombre": "Nany Tovar",
+          "papel": "Gisela"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/locdIJLnX1elVJr3ufV4sprk6Yh.jpg",
+          "id": 2168107,
+          "nombre": "Victor Rebull",
+          "papel": "Vic"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5bDqlIwaYfmbgbTkpXHbaxCacgh.jpg",
+          "id": 4031220,
+          "nombre": "Eduard Torres",
+          "papel": "Pol"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Ana, nouvinguda de Colòmbia, és empleada domèstica en una luxosa mansió on estiueja una adinerada família de marxants d'art. La jove treballa de sol a sol, sense contracte, sota la promesa d'aconseguir condicions més dignes quan acabi l'estiu, sempre que sigui discreta i calladeta. Però a través de Gisela, l'empleada de la casa veïna, Ana descobrirà que les coses no funcionen exactament com a ella li han explicat. També aprendrà a divertir-se una mica més durant el seu estiu a la Costa Brava.",
+        "en": "Ana has just arrived from Colombia and is the maid of a luxurious mansion on the Costa Brava, where a family of wealthy art dealers spends their summers. The young woman works tirelessly and without a contract, under the promise of decent conditions at the end of the summer, if she remains obedient and discreet.",
+        "es": "Una joven colombiana trabaja como empleada doméstica en una mansión de verano en España. Mientras la rica familia disfruta de sus exuberantes vacaciones, ella pasa sus días sirviéndoles, hasta que un día se da cuenta de que tal vez ella también pueda encontrar formas de disfrutar el verano."
+      },
+      "titulo": "Calladita",
+      "titulo_original": "Calladita",
+      "tmdb": 1188853,
+      "trailer": "EJdFAHqvo0A"
+    },
+    {
+      "anio": 2026,
+      "caducado": "2026-11-26",
+      "cartel": "https://image.tmdb.org/t/p/w500/kp3TpqkiDgRkLSJgrnWdGXGl7hD.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fO4FG0QD9gr4jr0mh7Y2BwFF5d3.jpg",
+          "id": 844266,
+          "nombre": "Jon Erwin",
+          "premios": [],
+          "wikidata": "Q68783644"
+        }
+      ],
+      "duracion": 121,
+      "estreno": "2026-07-02",
+      "fondo": "https://image.tmdb.org/t/p/w1280/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+      "generos": [
+        "Historia",
+        "Bélica",
+        "Drama"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/fO4FG0QD9gr4jr0mh7Y2BwFF5d3.jpg",
+          "id": 844266,
+          "nombre": "Jon Erwin"
+        },
+        {
+          "id": 66037,
+          "nombre": "Tom Provost"
+        },
+        {
+          "id": 5608652,
+          "nombre": "Diederik Hoogstraten"
+        }
+      ],
+      "id": "tmdb-1308767",
+      "idioma_original": "en",
+      "imdb": "tt32104007",
+      "musica": [
+        {
+          "id": 1972437,
+          "nombre": "Deana Kiner"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+          "id": 51588,
+          "nombre": "Kevin Kiner"
+        }
+      ],
+      "nota": 7.7,
+      "paises": [
+        "US",
+        "IE",
+        "CA"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/zRTfdQgLk6yy9m6DQjX72qJ0MRs.jpg",
+          "id": 1946699,
+          "nombre": "William Franklyn-Miller",
+          "papel": "George Washington",
+          "premios": [],
+          "wikidata": "Q43288763"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/k3Dmu49B2akwDvgqy52MOxznI59.jpg",
+          "id": 2282,
+          "nombre": "Ben Kingsley",
+          "papel": "Robert Dinwiddie",
           "premios": [
             {
-              "anio": 1991,
-              "premio": "Academy of Canadian Cinema and Television Award for Best Performance by an Actor in a Leading Role",
+              "anio": 1983,
+              "premio": "Óscar al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1983,
+              "premio": "BAFTA al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1983,
+              "premio": "Premi BAFTA a la millor nova promesa",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1983,
+              "premio": "Premi del Cercle de Crítics Cinematogràfics de Londres a l'actor de l'any",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1982,
+              "premio": "Premio del Círculo de Críticos de Cine de Nueva York al mejor actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1982,
+              "premio": "National Board of Review al Mejor Actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1982,
+              "premio": "Globo de Oro a la nueva estrella del año - Actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1981,
+              "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles al Mejor Actor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1982,
+              "premio": "Globo de Oro al mejor actor - Drama",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premi BIFA a la millor interpretació d'un actor en una pel·lícula independent britànica",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio de la Crítica Cinematográfica al mejor actor de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premio del Sindicato de Actores al mejor actor de televisión - Miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Knight Bachelor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1984,
+              "premio": "Premio Grammy a la mejor grabación de audiolibro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1984,
+              "premio": "Premio Padma Shri en artes",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2000,
+              "premio": "Comendador de la Orden del Imperio británico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio del Cine Europeo al mejor actor",
               "tipo": "ganado"
             },
             {
               "anio": null,
-              "premio": "Oficial de la Orden de Canadá",
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
               "tipo": "ganado"
             },
             {
-              "anio": 2024,
-              "premio": "Premio Denise-Pelletier",
-              "tipo": "ganado"
+              "anio": 1992,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1983,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2004,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1995,
+              "premio": "Primetime Emmy al mejor actor de reparto - Miniserie o telefilme",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1994,
+              "premio": "BAFTA al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Razzie al peor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2007,
+              "premio": "Premi Satellite al millor actor en un musical o una comèdia",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2004,
+              "premio": "Premio Independent Spirit al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2013,
+              "premio": "Teen Choice Award al mejor villano",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio de la Crítica Cinematográfica al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2003,
+              "premio": "Premio de la Crítica Cinematográfica al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio del Cine Europeo al mejor actor",
+              "tipo": "nominado"
             }
           ],
-          "wikidata": "Q2178753"
+          "wikidata": "Q173158"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/5oWrQwH4Xx243Nk3XdNnKiekEw4.jpg",
-          "id": 196737,
-          "nombre": "Allen Altman",
-          "papel": "Notaire Maddad"
+          "foto": "https://image.tmdb.org/t/p/w185/1ohhrIZ4OMlLx9DvHjPhQJAIP0F.jpg",
+          "id": 18248,
+          "nombre": "Mary-Louise Parker",
+          "papel": "Mary Washington",
+          "premios": [
+            {
+              "anio": 1990,
+              "premio": "Theatre World Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2004,
+              "premio": "Primetime Emmy a la mejor actriz de reparto - Miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premi Drama Desk a la millor actriu en una obra de teatre",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premio Liga Dramática",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio Lucille Lortel a la mejor actriz principal",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Premio Lucille Lortel a la mejor actriz principal",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1990,
+              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2005,
+              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
+              "tipo": "nominado"
+            },
+            {
+              "anio": null,
+              "premio": "Primetime Emmy a la mejor actriz - Miniserie o telefilme",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Comedia",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q229957"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/pT72K2CqBelPtSVelkRci21HctE.jpg",
-          "id": 970213,
-          "nombre": "Abdelghafour Elaaziz",
-          "papel": "Abou Tarek"
+          "foto": "https://image.tmdb.org/t/p/w185/td9z5ch8GqtGBLRexvNMNCaNyVx.jpg",
+          "id": 3060195,
+          "nombre": "Leo Hanna",
+          "papel": "Christopher Gist",
+          "premios": [],
+          "wikidata": "Q111672778"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/y2Ko6ktN4DpMooZUpTw3g3Hv5bl.jpg",
-          "id": 241930,
-          "nombre": "Dominique Briand",
-          "papel": "Professor Niv Cohen"
+          "foto": "https://image.tmdb.org/t/p/w185/6KtudVDOmmwAO4TtPjq0TYyy91O.jpg",
+          "id": 4666780,
+          "nombre": "Mia Rodgers",
+          "papel": "Sally Cary"
         },
         {
-          "id": 592718,
-          "nombre": "Frédéric Paquet",
-          "papel": "Doctor in the Emergency Room"
+          "foto": "https://image.tmdb.org/t/p/w185/jgmSh04jRbSxGlBTMJ9Wo4CFDMB.jpg",
+          "id": 1608418,
+          "nombre": "Joel David Smallbone",
+          "papel": "William Fairfax"
         },
         {
-          "id": 1150158,
-          "nombre": "Ahmad Massad",
-          "papel": "Bassem Marwan"
+          "foto": "https://image.tmdb.org/t/p/w185/qn38jJHEqRBsj50Gqo2uM38fgJx.jpg",
+          "id": 7090,
+          "nombre": "Kelsey Grammer",
+          "papel": "Lord Fairfax"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/gyTy14cdl7XIDLA6rpRtnOO5GA.jpg",
-          "id": 218899,
-          "nombre": "John Dunn-Hill",
-          "papel": "Professor Said Haidar"
+          "foto": "https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+          "id": 1333,
+          "nombre": "Andy Serkis",
+          "papel": "General Edward Braddock"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qb3oEBOpc11maO2CeM7SgbfWQEq.jpg",
+          "id": 1556258,
+          "nombre": "Michael Benz",
+          "papel": "Thomas Gage"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/oI68xvcPqZjRIfteTbtT3jAVUV1.jpg",
+          "id": 1499833,
+          "nombre": "Jonno Davies",
+          "papel": "James Mackay"
         }
       ],
       "sinopsis": {
-        "ca": "La Jeanne i en Simon Marwan són dos bessons la mare dels quals, que porta molt temps sense parlar, està a punt de morir. Però abans del fatal desenllaç els dóna dues cartes que han de ser lliurades a un pare al que creien mort i a un germà l'existència del qual desconeixien. Tots dos emprendran un viatge al Líban per localitzar-los i trobar respostes a la seva existència.",
-        "en": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two young adults' voyage to the core of deep-rooted hatred, never-ending wars and enduring love.",
-        "es": "Jeanne y Simon Marwan son dos mellizos cuya madre, que lleva mucho tiempo sin hablar, está a punto de morir. Pero, antes del fatal desenlace, les da dos cartas que deben ser entregadas a un padre al que creían muerto y a un hermano cuya existencia desconocían. Ambos emprenderán un viaje al Líbano para localizarlos y encontrar respuestas a su existencia. Basada en una obra de teatro de Wajdi Mouawad."
+        "en": "Before he led a nation, George Washington was a young soldier thrown into a global conflict. With alliances crumbling and war closing in, he must choose who to trust and confront the leader he's becoming.",
+        "es": "Antes de liderar una nación, George Washington era un joven soldado en un conflicto global. Con alianzas desmoronándose y la guerra acercándose, debe elegir en quién confiar y enfrentar al líder en que se está convirtiendo."
       },
-      "titulo": "Incendios",
-      "titulo_ca": "Incendis",
-      "titulo_original": "Incendies",
-      "tmdb": 46738,
-      "trailer": "XJ69WnwvZhE"
+      "titulo": "Washington. El origen de un líder",
+      "titulo_original": "Young Washington",
+      "tmdb": 1308767,
+      "trailer": "Kg5m2Kplm1A"
     },
     {
       "anio": 2026,
@@ -1880,16 +953,6 @@
       "titulo_original": "Karateka",
       "tmdb": 1365224,
       "trailer": "W0QNH-Nb9O4"
-    },
-    {
-      "agenda": "open_data_bcn:99400785903",
-      "caducado": "2026-11-26",
-      "gratis": true,
-      "id": "p-t-numakage-public-pool",
-      "sinopsis": {
-        "ca": "Direcció: Shingo Ota\nOn: Japó\nDurada: 80 minuts\nDurant més de cinquanta anys, Numakage, una piscina pública suburbana de Tòquio, ha estat punt de trobada de gent gran, famílies i comunitats de cruising gai.\nDavant la seva demolició, malgrat l'oposició local, la pel·lícula ressegueix el dol col·lectiu a través de les cinc fases de Kübler-Ross, qüestionant una pèrdua habitualment reservada a la mort humana."
-      },
-      "titulo": "Numakage Public pool"
     },
     {
       "anio": 2026,
@@ -2332,157 +1395,431 @@
     {
       "anio": 2026,
       "caducado": "2026-11-26",
-      "cartel": "https://image.tmdb.org/t/p/w500/kp3TpqkiDgRkLSJgrnWdGXGl7hD.jpg",
+      "cartel": "https://image.tmdb.org/t/p/w500/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
       "direccion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/fO4FG0QD9gr4jr0mh7Y2BwFF5d3.jpg",
-          "id": 844266,
-          "nombre": "Jon Erwin",
-          "premios": [],
-          "wikidata": "Q68783644"
+          "foto": "https://image.tmdb.org/t/p/w185/aWDxGlWkFVhs80DQMEE5A7c7YBr.jpg",
+          "id": 40684,
+          "nombre": "David Leitch",
+          "premios": [
+            {
+              "anio": 2008,
+              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Premio del Sindicato de Actores al mejor reparto de especialistas",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q5236475"
         }
       ],
-      "duracion": 121,
-      "estreno": "2026-07-02",
-      "fondo": "https://image.tmdb.org/t/p/w1280/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+      "duracion": 122,
+      "edad": "16",
+      "estreno": "2026-11-10",
+      "fondo": "https://image.tmdb.org/t/p/w1280/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
       "generos": [
-        "Historia",
-        "Bélica",
-        "Drama"
+        "Acción",
+        "Crimen",
+        "Suspense"
       ],
       "guion": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/fO4FG0QD9gr4jr0mh7Y2BwFF5d3.jpg",
-          "id": 844266,
-          "nombre": "Jon Erwin"
-        },
-        {
-          "id": 66037,
-          "nombre": "Tom Provost"
-        },
-        {
-          "id": 5608652,
-          "nombre": "Diederik Hoogstraten"
+          "foto": "https://image.tmdb.org/t/p/w185/kEqJj3aRwcAoJFqv7h0qzoTvlDF.jpg",
+          "id": 1466580,
+          "nombre": "Mark Bianculli"
         }
       ],
-      "id": "tmdb-1308767",
+      "id": "tmdb-1437511",
       "idioma_original": "en",
-      "imdb": "tt32104007",
+      "imdb": "tt35866986",
+      "lema": "¿Quién está robando a quién?.",
       "musica": [
         {
-          "id": 1972437,
-          "nombre": "Deana Kiner"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
-          "id": 51588,
-          "nombre": "Kevin Kiner"
+          "foto": "https://image.tmdb.org/t/p/w185/8r3uR9LxtCG72l9JS4fjfVc3wdZ.jpg",
+          "id": 1404094,
+          "nombre": "Dominic Lewis"
         }
       ],
-      "nota": 7.7,
       "paises": [
-        "US",
-        "IE",
-        "CA"
+        "US"
       ],
       "reparto": [
         {
-          "foto": "https://image.tmdb.org/t/p/w185/zRTfdQgLk6yy9m6DQjX72qJ0MRs.jpg",
-          "id": 1946699,
-          "nombre": "William Franklyn-Miller",
-          "papel": "George Washington",
-          "premios": [],
-          "wikidata": "Q43288763"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/k3Dmu49B2akwDvgqy52MOxznI59.jpg",
-          "id": 2282,
-          "nombre": "Ben Kingsley",
-          "papel": "Robert Dinwiddie",
+          "foto": "https://image.tmdb.org/t/p/w185/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg",
+          "id": 3292,
+          "nombre": "Nicholas Hoult",
+          "papel": "Ryan",
           "premios": [
             {
-              "anio": 1983,
-              "premio": "Óscar al mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1983,
-              "premio": "BAFTA al mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1983,
-              "premio": "Premi BAFTA a la millor nova promesa",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1983,
-              "premio": "Premi del Cercle de Crítics Cinematogràfics de Londres a l'actor de l'any",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "Premio del Círculo de Críticos de Cine de Nueva York al mejor actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "National Board of Review al Mejor Actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "Globo de Oro a la nueva estrella del año - Actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1981,
-              "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles al Mejor Actor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1982,
-              "premio": "Globo de Oro al mejor actor - Drama",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premi BIFA a la millor interpretació d'un actor en una pel·lícula independent britànica",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio de la Crítica Cinematográfica al mejor actor de reparto",
+              "anio": 2013,
+              "premio": "Premi Teen Choice per al millor actor revelació",
               "tipo": "ganado"
             },
             {
               "anio": 2002,
-              "premio": "Premio del Sindicato de Actores al mejor actor de televisión - Miniserie o telefilme",
+              "premio": "Phoenix Film Critics Society Award for Best Performance by a Youth in a Lead or Supporting Role - Male",
               "tipo": "ganado"
             },
             {
-              "anio": 2001,
-              "premio": "Knight Bachelor",
+              "anio": 2019,
+              "premio": "Premis de l'Online Film & Television Association",
               "tipo": "ganado"
             },
             {
-              "anio": 1984,
-              "premio": "Premio Grammy a la mejor grabación de audiolibro",
+              "anio": 2018,
+              "premio": "Premi del Florida Film Critics Circle al millor repartiment",
               "tipo": "ganado"
             },
             {
-              "anio": 1984,
-              "premio": "Premio Padma Shri en artes",
+              "anio": 2018,
+              "premio": "Premios de la Crítica Televisiva",
               "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premios Phoenix Film Critics Society",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Premios Satellite",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Premi del públic a la millor pel·lícula europea",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q298347"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg",
+          "id": 37153,
+          "nombre": "Zoë Kravitz",
+          "papel": "Reagan Gardner",
+          "premios": [
+            {
+              "anio": 2014,
+              "premio": "Milano International Film Festival Awards (MIFF Awards)",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Time 100",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q227129"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/f3kubnZu3KgMniExcq9nJy8RwjW.jpg",
+          "id": 1427948,
+          "nombre": "Pete Davidson",
+          "papel": "Vince",
+          "premios": [
+            {
+              "anio": 2022,
+              "premio": "Time 100",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q18097962"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iDQ8w4qcxU3le5ZWoCKpHs1QNok.jpg",
+          "id": 4764,
+          "nombre": "John C. Reilly",
+          "papel": "Agent West",
+          "premios": [
+            {
+              "anio": 2003,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
             },
             {
               "anio": 2000,
+              "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q223110"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6uFaCOupDTPRnTiedveTUvjOikC.jpg",
+          "id": 1434487,
+          "nombre": "Anna Sawai",
+          "papel": "Emi"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/b2Ba7MLybozIRdvZquimRGOHE0V.jpg",
+          "id": 1761634,
+          "nombre": "Rhenzy Feliz",
+          "papel": "Hugo"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
+          "id": 2224,
+          "nombre": "Christian Slater",
+          "papel": "Walton"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
+          "id": 1859934,
+          "nombre": "Tati Gabrielle",
+          "papel": "Skyler"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cQnCJI94lje55gZ7kEQ7YZUQPDb.jpg",
+          "id": 167564,
+          "nombre": "Paul Sparks",
+          "papel": "Agent Roberts"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/cRuVRx1DMe2hBkz5pssVqdpCtaQ.jpg",
+          "id": 2569691,
+          "nombre": "Young Mazino",
+          "papel": "Marquis Collins"
+        }
+      ],
+      "sinopsis": {
+        "en": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
+        "es": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales."
+      },
+      "titulo": "Como robar un banco",
+      "titulo_original": "How to Rob a Bank",
+      "tmdb": 1437511,
+      "trailer": "tKtg0S1rm2M"
+    },
+    {
+      "anio": 2026,
+      "caducado": "2026-11-26",
+      "cartel": "https://image.tmdb.org/t/p/w500/g2PKUCpDChvYvT7IaUOYfjO0mbG.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/x0UOcjml8WnBfnb89QOh0iXM0w0.jpg",
+          "id": 1212667,
+          "nombre": "Nathan Fielder",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Canadian Comedy Award for Best Performance by a Male - Television",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q16207915"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/h12zgCaZ24imkZlw0nry9T9mjGD.jpg",
+          "id": 1405665,
+          "nombre": "Lance Oppenheim",
+          "premios": [],
+          "wikidata": "Q27040203"
+        }
+      ],
+      "duracion": 175,
+      "estreno": "2026-10-16",
+      "fondo": "https://image.tmdb.org/t/p/w1280/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "generos": [
+        "Documental"
+      ],
+      "id": "tmdb-1765072",
+      "idioma_original": "en",
+      "imdb": "tt45368240",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/jtuiVE9M1D8ALzLltv1tfCKJfMt.jpg",
+          "id": 1966583,
+          "nombre": "Ari Balouzian"
+        }
+      ],
+      "nota": 8.8,
+      "paises": [
+        "US"
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/s7ej8dZ7zncd4nPBrkBUbArnTJl.jpg",
+          "id": 2269143,
+          "nombre": "Elizabeth Holmes",
+          "papel": "Self",
+          "premios": [
+            {
+              "anio": 2015,
+              "premio": "Premi Horatio Alger",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q17503525"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/x0UOcjml8WnBfnb89QOh0iXM0w0.jpg",
+          "id": 1212667,
+          "nombre": "Nathan Fielder",
+          "papel": "Self",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Canadian Comedy Award for Best Performance by a Male - Television",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q16207915"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/tLOCcMkylvIES7ZKFv6Dks6XmD.jpg",
+          "id": 6462200,
+          "nombre": "Billy Evans",
+          "papel": "Self",
+          "premios": [],
+          "wikidata": "Q141857229"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg",
+          "id": 71070,
+          "nombre": "Amanda Seyfried",
+          "papel": "Self / Elizabeth Holmes",
+          "premios": [
+            {
+              "anio": 2022,
+              "premio": "Time 100",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Globo de Oro a la mejor actriz de miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2023,
+              "premio": "Premio de la Crítica Televisiva a la mejor actriz en película/miniserie",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Premi del públic a la millor pel·lícula europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2021,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q189226"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bE7zzh60RXydH3p632ZZSmsTlcn.jpg",
+          "id": 984629,
+          "nombre": "Christopher Abbott",
+          "papel": "Billy Evans"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/h12zgCaZ24imkZlw0nry9T9mjGD.jpg",
+          "id": 1405665,
+          "nombre": "Lance Oppenheim",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/8uN7aAfhGkZ25A6HroG73IUMP0r.jpg",
+          "id": 6552342,
+          "nombre": "Christian Rasmus Holmes IV",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wVQJFsBamiNh569RXirYMnDScAa.jpg",
+          "id": 6552346,
+          "nombre": "Noel Anne Holmes",
+          "papel": "Self"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6HdPMSnldhYWdJiH3yvWDUNDFGs.jpg",
+          "id": 78404,
+          "nombre": "Gary Wilmes",
+          "papel": "A24 Executive"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wzLtwcPc8VGYwBqeHl9d7gMVixL.jpg",
+          "id": 1386927,
+          "nombre": "Phillip Andre Botello",
+          "papel": "A24 Executive"
+        }
+      ],
+      "sinopsis": {
+        "en": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+        "es": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años."
+      },
+      "titulo": "Puedes verlo todo",
+      "titulo_original": "You Can See Everything",
+      "tmdb": 1765072,
+      "trailer": "-B-gh1BlS4w"
+    },
+    {
+      "anio": 1959,
+      "caducado": "2026-11-26",
+      "cartel": "https://image.tmdb.org/t/p/w500/rzOQHh5Utbr3x0UvKIbIU5pVA0f.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
+          "id": 2636,
+          "nombre": "Alfred Hitchcock",
+          "premios": [
+            {
+              "anio": 1979,
+              "premio": "Brunelleschi Lifetime Achievement Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1979,
               "premio": "Comendador de la Orden del Imperio británico",
               "tipo": "ganado"
             },
             {
-              "anio": 2001,
-              "premio": "Premio del Cine Europeo al mejor actor",
+              "anio": 1971,
+              "premio": "BAFTA Academy Fellowship Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1960,
+              "premio": "Premio Edgar",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Oficial de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Globo de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premio Concha de Plata a la mejor dirección",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premios Saturn",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1971,
+              "premio": "Premio Cecil B. DeMille",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1967,
+              "premio": "Premio en memoria de Irving Thalberg",
               "tipo": "ganado"
             },
             {
@@ -2491,195 +1828,858 @@
               "tipo": "ganado"
             },
             {
-              "anio": 1992,
-              "premio": "Oscar al mejor actor de reparto",
+              "anio": 1961,
+              "premio": "Óscar al mejor director",
               "tipo": "nominado"
             },
             {
-              "anio": 2002,
+              "anio": 1955,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1946,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1945,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1941,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q7374"
+        }
+      ],
+      "duracion": 136,
+      "edad": "A",
+      "estreno": "1959-08-06",
+      "fondo": "https://image.tmdb.org/t/p/w1280/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
+      "generos": [
+        "Suspense",
+        "Aventura"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qcuk9wYicbrMx431GL3hUZU7602.jpg",
+          "id": 2637,
+          "nombre": "Ernest Lehman"
+        }
+      ],
+      "id": "tmdb-213",
+      "idioma_original": "en",
+      "imdb": "tt0053125",
+      "lema": "Es un juego mortal de 'etiqueta' y Cary Grant es 'eso' ...",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vpIPFhUpHBqDrbgbnaQnDCYekDI.jpg",
+          "id": 1045,
+          "nombre": "Bernard Herrmann"
+        }
+      ],
+      "nota": 8.0,
+      "paises": [
+        "US"
+      ],
+      "premios": [
+        {
+          "anio": null,
+          "premio": "National Board of Review a las 10 Películas más Destacadas",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 1960,
+          "premio": "Óscar al mejor montaje",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 1960,
+          "premio": "Óscar al mejor guion original",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 1960,
+          "premio": "Oscar a la millor direcció artística, color",
+          "tipo": "nominado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lcNAirMFcyM7WIiCmaabjbNZVOJ.jpg",
+          "id": 2638,
+          "nombre": "Cary Grant",
+          "papel": "Roger Thornhill",
+          "premios": [
+            {
+              "anio": 1969,
+              "premio": "Óscar honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1960,
+              "premio": "David de Donatello al mejor actor extranjero",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1981,
+              "premio": "Premio Kennedy Center Honors",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1970,
+              "premio": "Premios Óscar",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1942,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1945,
+              "premio": "Óscar al mejor actor",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q83410"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nJgTHDaCA3yl8vDu3nP8S6qjhIx.jpg",
+          "id": 2639,
+          "nombre": "Eva Marie Saint",
+          "papel": "Eve Kendall",
+          "premios": [
+            {
+              "anio": 1955,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1954,
+              "premio": "Theatre World Award",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1990,
+              "premio": "Primetime Emmy a la mejor actriz de reparto - Miniserie o telefilme",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1960,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Caballero de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1955,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q228928"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/vCABivuMBCT78sh5G0q8jO5rkT.jpg",
+          "id": 2091,
+          "nombre": "James Mason",
+          "papel": "Phillip Vandamm",
+          "premios": [
+            {
+              "anio": 1954,
+              "premio": "Globo de Oro al mejor actor - Comedia o musical",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1967,
               "premio": "Oscar al mejor actor de reparto",
               "tipo": "nominado"
             },
             {
               "anio": 1983,
+              "premio": "Oscar al mejor actor de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1955,
               "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Óscar al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1995,
-              "premio": "Primetime Emmy al mejor actor de reparto - Miniserie o telefilme",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 1994,
-              "premio": "BAFTA al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Razzie al peor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2007,
-              "premio": "Premi Satellite al millor actor en un musical o una comèdia",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Premio Independent Spirit al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2013,
-              "premio": "Teen Choice Award al mejor villano",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Primetime Emmy al mejor actor - Miniserie o telefilme",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio de la Crítica Cinematográfica al mejor actor de reparto",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Premio de la Crítica Cinematográfica al mejor actor",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio del Cine Europeo al mejor actor",
               "tipo": "nominado"
             }
           ],
-          "wikidata": "Q173158"
+          "wikidata": "Q209186"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/1ohhrIZ4OMlLx9DvHjPhQJAIP0F.jpg",
-          "id": 18248,
-          "nombre": "Mary-Louise Parker",
-          "papel": "Mary Washington",
-          "premios": [
-            {
-              "anio": 1990,
-              "premio": "Theatre World Award",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2004,
-              "premio": "Primetime Emmy a la mejor actriz de reparto - Miniserie o telefilme",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premi Drama Desk a la millor actriu en una obra de teatre",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Liga Dramática",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio Lucille Lortel a la mejor actriz principal",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1997,
-              "premio": "Premio Lucille Lortel a la mejor actriz principal",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1990,
-              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2005,
-              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
-              "tipo": "nominado"
-            },
-            {
-              "anio": null,
-              "premio": "Primetime Emmy a la mejor actriz - Miniserie o telefilme",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2008,
-              "premio": "Premio del Sindicato de Actores a la mejor actriz de televisión - Comedia",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q229957"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/td9z5ch8GqtGBLRexvNMNCaNyVx.jpg",
-          "id": 3060195,
-          "nombre": "Leo Hanna",
-          "papel": "Christopher Gist",
+          "foto": "https://image.tmdb.org/t/p/w185/9asCKCafalR0382PpkHZs5Lv8hK.jpg",
+          "id": 2640,
+          "nombre": "Jessie Royce Landis",
+          "papel": "Clara Thornhill",
           "premios": [],
-          "wikidata": "Q111672778"
+          "wikidata": "Q541270"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/6KtudVDOmmwAO4TtPjq0TYyy91O.jpg",
-          "id": 4666780,
-          "nombre": "Mia Rodgers",
-          "papel": "Sally Cary"
+          "foto": "https://image.tmdb.org/t/p/w185/56ND35pQZetw5xpagHDKFZjMeuE.jpg",
+          "id": 2642,
+          "nombre": "Leo G. Carroll",
+          "papel": "Professor"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/jgmSh04jRbSxGlBTMJ9Wo4CFDMB.jpg",
-          "id": 1608418,
-          "nombre": "Joel David Smallbone",
-          "papel": "William Fairfax"
+          "foto": "https://image.tmdb.org/t/p/w185/pnmYpAfJOhwMlan3YQRo9FKb6ZS.jpg",
+          "id": 2643,
+          "nombre": "Josephine Hutchinson",
+          "papel": "Mrs. Townsend"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/qn38jJHEqRBsj50Gqo2uM38fgJx.jpg",
-          "id": 7090,
-          "nombre": "Kelsey Grammer",
-          "papel": "Lord Fairfax"
+          "foto": "https://image.tmdb.org/t/p/w185/aXZksHM7t7AzMxWCnGvRs05F0PK.jpg",
+          "id": 2644,
+          "nombre": "Philip Ober",
+          "papel": "Lester Townsend"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
-          "id": 1333,
-          "nombre": "Andy Serkis",
-          "papel": "General Edward Braddock"
+          "foto": "https://image.tmdb.org/t/p/w185/dznOAZPpAyXu7PfCz5obbJ2YzsJ.jpg",
+          "id": 2641,
+          "nombre": "Martin Landau",
+          "papel": "Leonard"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/qb3oEBOpc11maO2CeM7SgbfWQEq.jpg",
-          "id": 1556258,
-          "nombre": "Michael Benz",
-          "papel": "Thomas Gage"
+          "foto": "https://image.tmdb.org/t/p/w185/rZju92r8uMvLW31dFPgZ21nnT0N.jpg",
+          "id": 2645,
+          "nombre": "Adam Williams",
+          "papel": "Valerian"
         },
         {
-          "foto": "https://image.tmdb.org/t/p/w185/oI68xvcPqZjRIfteTbtT3jAVUV1.jpg",
-          "id": 1499833,
-          "nombre": "Jonno Davies",
-          "papel": "James Mackay"
+          "foto": "https://image.tmdb.org/t/p/w185/uVl1ZzKXkvJSTHVYyfNriMV8BNV.jpg",
+          "id": 2646,
+          "nombre": "Edward Platt",
+          "papel": "Victor Larrabee"
         }
       ],
       "sinopsis": {
-        "en": "Before he led a nation, George Washington was a young soldier thrown into a global conflict. With alliances crumbling and war closing in, he must choose who to trust and confront the leader he's becoming.",
-        "es": "Antes de liderar una nación, George Washington era un joven soldado en un conflicto global. Con alianzas desmoronándose y la guerra acercándose, debe elegir en quién confiar y enfrentar al líder en que se está convirtiendo."
+        "ca": "A causa d'un malentès, Roger O. Thornhill, un executiu del món de la publicitat, uns espies el confonen amb un agent del govern anomenat George Kaplan. Segrestat per tres individus i portat a una mansió on és interrogat, aconsegueix fugir abans que el matin. Quan l'endemà torna a casa acompanyat de la policia, no hi ha rastre de les persones que havia descrit.",
+        "en": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "es": "Debido a un malentendido, a Roger O. Thornhill, un ejecutivo del mundo de la publicidad, unos espías lo confunden con un agente del gobierno llamado George Kaplan. Secuestrado por tres individuos y llevado a una mansión en la que es interrogado, consigue huir antes de que lo maten. Cuando al día siguiente regresa a la casa acompañado de la policía, no hay rastro de las personas que había descrito."
       },
-      "titulo": "Washington. El origen de un líder",
-      "titulo_original": "Young Washington",
-      "tmdb": 1308767,
-      "trailer": "Kg5m2Kplm1A"
+      "titulo": "Con la muerte en los talones",
+      "titulo_ca": "Perseguit per la mort",
+      "titulo_original": "North by Northwest",
+      "tmdb": 213,
+      "trailer": "cPNiwc3ogIo"
+    },
+    {
+      "anio": 2010,
+      "caducado": "2026-11-26",
+      "cartel": "https://image.tmdb.org/t/p/w500/rA40sUH6bHD5pAJ1jOcJFZPhlOe.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
+          "id": 137427,
+          "nombre": "Denis Villeneuve",
+          "premios": [
+            {
+              "anio": 2017,
+              "premio": "Oficial de la Orden de Canadá",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2016,
+              "premio": "Company de l'Ordre des arts et des lettres du Québec",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Premi d'Arts Escèniques del Governador General",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premi Genie al millor guió",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Premios Hugo",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Premi Genie al millor guió",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2010,
+              "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2011,
+              "premio": "Academy of Canadian Cinema and Television Award for Best Achievement in Direction",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Caballero de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Doctor honoris causa per la Universitat del Quebec a Montreal",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2019,
+              "premio": "Caballero de la Orden Nacional de Quebec",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premio Ray Bradbury",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2017,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2022,
+              "premio": "Óscar al mejor guion adaptado",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2025,
+              "premio": "Óscar a la mejor película",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q548823"
+        }
+      ],
+      "duracion": 131,
+      "edad": "12",
+      "estreno": "2010-09-17",
+      "fondo": "https://image.tmdb.org/t/p/w1280/f3ATwil5vmUeTsogBaMEKbBYBth.jpg",
+      "generos": [
+        "Drama",
+        "Bélica",
+        "Misterio"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xzQYqb4nR8xT7Zdw5itbEL9K3fd.jpg",
+          "id": 137427,
+          "nombre": "Denis Villeneuve"
+        },
+        {
+          "id": 970214,
+          "nombre": "Valérie Beaugrand-Champagne"
+        }
+      ],
+      "id": "tmdb-46738",
+      "idioma_original": "fr",
+      "imdb": "tt1255953",
+      "lema": "La búsqueda empieza al revelarse el testamento de su madre",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/a6fnk0mOuVnOVzusjODwBPCUnny.jpg",
+          "id": 57069,
+          "nombre": "Grégoire Hetzel"
+        }
+      ],
+      "nota": 8.1,
+      "paises": [
+        "CA",
+        "FR"
+      ],
+      "premios": [
+        {
+          "anio": 2011,
+          "premio": "Premio Genie a la mejor película",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 2010,
+          "premio": "Premi del Festival Internacional de Cinema de Toronto a la millor pel·lícula canadenca",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 2010,
+          "premio": "Premi Iris a la millor pel·lícula",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 2011,
+          "premio": "Óscar a la mejor película de habla no inglesa",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 2011,
+          "premio": "Candidata internacional als Premis Oscar",
+          "tipo": "nominado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qjsoXqKJPnmoMs1eyeTLBKKShYQ.jpg",
+          "id": 77498,
+          "nombre": "Lubna Azabal",
+          "papel": "Nawal",
+          "premios": [
+            {
+              "anio": 2011,
+              "premio": "Academy of Canadian Cinema and Television Award for Best Performance by an Actress in a Leading Role",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q462256"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/bVQfqJXVSDB6x6GVKHIsOVoPrnS.jpg",
+          "id": 84573,
+          "nombre": "Mélissa Désormeaux-Poulin",
+          "papel": "Jeanne Marwan",
+          "premios": [],
+          "wikidata": "Q2384494"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/iGFDGJmGUxLOSIamTENFDecJdkA.jpg",
+          "id": 88592,
+          "nombre": "Maxim Gaudette",
+          "papel": "Simon Marwan",
+          "premios": [],
+          "wikidata": "Q3302455"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/enULDDsKvyNoUCZoFg10Mtq1MFk.jpg",
+          "id": 38526,
+          "nombre": "Rémy Girard",
+          "papel": "Notary Lebel",
+          "premios": [
+            {
+              "anio": 1991,
+              "premio": "Academy of Canadian Cinema and Television Award for Best Performance by an Actor in a Leading Role",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Oficial de la Orden de Canadá",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premio Denise-Pelletier",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q2178753"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/5oWrQwH4Xx243Nk3XdNnKiekEw4.jpg",
+          "id": 196737,
+          "nombre": "Allen Altman",
+          "papel": "Notaire Maddad"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/pT72K2CqBelPtSVelkRci21HctE.jpg",
+          "id": 970213,
+          "nombre": "Abdelghafour Elaaziz",
+          "papel": "Abou Tarek"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/y2Ko6ktN4DpMooZUpTw3g3Hv5bl.jpg",
+          "id": 241930,
+          "nombre": "Dominique Briand",
+          "papel": "Professor Niv Cohen"
+        },
+        {
+          "id": 592718,
+          "nombre": "Frédéric Paquet",
+          "papel": "Doctor in the Emergency Room"
+        },
+        {
+          "id": 1150158,
+          "nombre": "Ahmad Massad",
+          "papel": "Bassem Marwan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gyTy14cdl7XIDLA6rpRtnOO5GA.jpg",
+          "id": 218899,
+          "nombre": "John Dunn-Hill",
+          "papel": "Professor Said Haidar"
+        }
+      ],
+      "sinopsis": {
+        "ca": "La Jeanne i en Simon Marwan són dos bessons la mare dels quals, que porta molt temps sense parlar, està a punt de morir. Però abans del fatal desenllaç els dóna dues cartes que han de ser lliurades a un pare al que creien mort i a un germà l'existència del qual desconeixien. Tots dos emprendran un viatge al Líban per localitzar-los i trobar respostes a la seva existència.",
+        "en": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two young adults' voyage to the core of deep-rooted hatred, never-ending wars and enduring love.",
+        "es": "Jeanne y Simon Marwan son dos mellizos cuya madre, que lleva mucho tiempo sin hablar, está a punto de morir. Pero, antes del fatal desenlace, les da dos cartas que deben ser entregadas a un padre al que creían muerto y a un hermano cuya existencia desconocían. Ambos emprenderán un viaje al Líbano para localizarlos y encontrar respuestas a su existencia. Basada en una obra de teatro de Wajdi Mouawad."
+      },
+      "titulo": "Incendios",
+      "titulo_ca": "Incendis",
+      "titulo_original": "Incendies",
+      "tmdb": 46738,
+      "trailer": "XJ69WnwvZhE"
+    },
+    {
+      "anio": 1984,
+      "caducado": "2026-11-26",
+      "cartel": "https://image.tmdb.org/t/p/w500/sk4eTjGfp58RLRr67qzFUbX9EPl.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+          "id": 5602,
+          "nombre": "David Lynch",
+          "premios": [
+            {
+              "anio": 2007,
+              "premio": "Oficial de la Orden Nacional de la Legión de Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Goslarer Kaiserring",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Caballero de la Orden Nacional de la Legión de Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1993,
+              "premio": "Premios Saturn",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "León de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1990,
+              "premio": "Palma de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio del Festival de Cannes al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1982,
+              "premio": "César a la mejor película extranjera",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1999,
+              "premio": "Premio del Cine Europeo a la mejor película no europea",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2020,
+              "premio": "Óscar honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Eagle Scout",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2020,
+              "premio": "Gran Premio Honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1982,
+              "premio": "Premios César",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "León de Oro por la carrera",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1981,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1987,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Óscar al mejor director",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1981,
+              "premio": "Óscar al mejor guion adaptado",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1999,
+              "premio": "Premio del Cine Europeo a la mejor película no europea",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q2071"
+        }
+      ],
+      "duracion": 136,
+      "edad": "12",
+      "estreno": "1984-12-14",
+      "fondo": "https://image.tmdb.org/t/p/w1280/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg",
+      "generos": [
+        "Acción",
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+          "id": 5602,
+          "nombre": "David Lynch"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/1uE09gzcwXMjCfXZfXXwNDIHaXG.jpg",
+          "id": 12506,
+          "nombre": "Frank Herbert"
+        }
+      ],
+      "id": "tmdb-841",
+      "idioma_original": "en",
+      "imdb": "tt0087182",
+      "lema": "Un mundo más allá de nuestra experiencia, más allá de nuestra imaginación.",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/lLdYPTiwg5uvFFSY70TI3CCJYE4.jpg",
+          "id": 37317,
+          "nombre": "Brian Eno"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/wTAvVmLRfhUmzO3TJAkuC9uLfKq.jpg",
+          "id": 957917,
+          "nombre": "David Paich"
+        }
+      ],
+      "nota": 6.2,
+      "paises": [
+        "US"
+      ],
+      "premios": [
+        {
+          "anio": 1984,
+          "premio": "Premi Saturn al millor vestuari",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 1985,
+          "premio": "Óscar al mejor sonido",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 1984,
+          "premio": "Premi Saturn al millor vestuari",
+          "tipo": "nominado"
+        },
+        {
+          "anio": 1985,
+          "premio": "Premio Hugo a la mejor presentación dramática",
+          "tipo": "nominado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg",
+          "id": 6677,
+          "nombre": "Kyle MacLachlan",
+          "papel": "Paul Atreides",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Premios Globo de Oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premi Saturn al millor actor de televisió",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q207506"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/rtbYkuenkq8Kfc5LwzWYtVD3eNH.jpg",
+          "id": 12513,
+          "nombre": "Francesca Annis",
+          "papel": "Lady Jessica",
+          "premios": [],
+          "wikidata": "Q436769"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg",
+          "id": 2387,
+          "nombre": "Patrick Stewart",
+          "papel": "Gurney Halleck",
+          "premios": [
+            {
+              "anio": 2000,
+              "premio": "Oficial de la Orden del Imperio Británico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Knight Bachelor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1996,
+              "premio": "Premi Grammy al millor àlbum parlat per a infants",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2015,
+              "premio": "Doctor honoris causa per la Vrije Universiteit Brussel",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Estrella del Paseo de la Fama de Hollywood",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1979,
+              "premio": "Premi Laurence Olivier al millor actor de repartiment",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Premi Laurence Olivier al millor actor de repartiment",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2018,
+              "premio": "Premio Saturn al mejor actor secundario",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2021,
+              "premio": "Premi Saturn al millor actor de televisió",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premi Saturn al millor actor de televisió",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2008,
+              "premio": "Premio Tony al mejor actor principal en una obra de teatro",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q16296"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/leiVNArKBQTmE5ROovNJWiW9kfk.jpg",
+          "id": 12516,
+          "nombre": "Linda Hunt",
+          "papel": "Shadout Mapes",
+          "premios": [
+            {
+              "anio": 1984,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1984,
+              "premio": "Óscar a la mejor actriz de reparto",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 1984,
+              "premio": "Premio Tony a la mejor actriz principal en una obra de teatro",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q232874"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mMOxqZz7Te7SHTd7AGqpjyyykb7.jpg",
+          "id": 12515,
+          "nombre": "José Ferrer",
+          "papel": "Padisha Emperor Shaddam IV"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/mWozC9kZFNhxoRSCBvmykROmMGB.jpg",
+          "id": 12517,
+          "nombre": "Freddie Jones",
+          "papel": "Thufir Hawat"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ex7AmuHM3owhUetYZAyOmN1ehWS.jpg",
+          "id": 1370,
+          "nombre": "Brad Dourif",
+          "papel": "Piter De Vries"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qrrpdZYy6cLLBUrrA6AqyWJKa0w.jpg",
+          "id": 12518,
+          "nombre": "Richard Jordan",
+          "papel": "Duncan Idaho"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/2u72BF7i189nAcX1kEJLjGMsb0c.jpg",
+          "id": 12519,
+          "nombre": "Virginia Madsen",
+          "papel": "Princess Irulan"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/6BaomIelsdXJkqfByoB25ZOp09b.jpg",
+          "id": 12520,
+          "nombre": "Silvana Mangano",
+          "papel": "Reverend Mother Ramallo"
+        }
+      ],
+      "sinopsis": {
+        "ca": "Som a l'any 10191. L'emperador del Món conegut Padishah Shaddam IV, ha entregat el planeta Arrakis a la casa Atreides desposseint-lo de la casa Harkonnen. Com que aixó pot posar en perill la producció d'espècia, la droga geriàtrica, un navegant de tercer nivell és enviat a donar ordres a l'emperador.",
+        "en": "In the year 10,191, the most precious substance in the universe is the spice Melange. The spice extends life. The spice expands consciousness. The spice is vital to space travel.  The spice exists on only one planet in the entire universe, the vast desert planet Arrakis, also known as Dune.  Its native inhabitants, the Fremen, have long held a prophecy that a man would come, a messiah who would lead them to true freedom.",
+        "es": "Por orden imperial la familia Atreides deberá hacerse cargo de la explotación del desértico planeta de Arrakis, conocido también como Dune, el único planeta donde se encuentra 'la especia', una potente droga que, además, es necesaria para los vuelos espaciales."
+      },
+      "titulo": "Dune",
+      "titulo_ca": "Dune",
+      "titulo_original": "Dune",
+      "tmdb": 841,
+      "trailer": "mtLd5CWuwbo"
     },
     {
       "caducado": "2026-11-25",
@@ -7548,16 +7548,6 @@
       "nombre": "Casal de Barri Comunitari de Trinitat Nova"
     },
     {
-      "barrio": "la Salut",
-      "centro": true,
-      "direccion": "Carrer del Cardener 45",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via66100-45",
-      "lat": 41.41011609494813,
-      "lon": 2.157034629500613,
-      "nombre": "Casal de Barri Comunitari Cardener"
-    },
-    {
       "barrio": "Sant Pere, Santa Caterina i la Ribera",
       "centro": true,
       "direccion": "Carrer del Rec 27",
@@ -7634,7 +7624,7 @@
       "id": "agenda:barcelona:via701719-11",
       "lat": 41.42691611188821,
       "lon": 2.1764696039707148,
-      "nombre": "Biblioteca Vilapicina i la Torre Llobeta"
+      "nombre": "Casal de Gent Gran Vilapicina i Torre Llobeta"
     },
     {
       "barrio": "el Putxet i el Farró",
@@ -10980,12 +10970,32 @@
           1
         ],
         [
+          "99217141611",
+          "2026-11-28",
+          "18:00",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119091&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
           "75990131879",
           "2026-11-28",
           "18:10",
           "VOSE",
           null,
           "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222910&language=ESP",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-28",
+          "18:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119101&language=esp&theatre=26",
           null,
           1
         ],
@@ -12832,16 +12842,6 @@
         }
       ],
       "sesiones": [
-        [
-          "75990131879",
-          "2026-11-27",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223107&language=ESP",
-          null,
-          1
-        ],
         [
           "99400267342",
           "2026-11-27",
@@ -15046,6 +15046,16 @@
           1
         ],
         [
+          "99217141611",
+          "2026-11-28",
+          "20:10",
+          "Castellano",
+          "Sala 02",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119090&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
           "2086161222",
           "2026-11-28",
           "20:20",
@@ -16913,6 +16923,16 @@
           1
         ],
         [
+          "99400267342",
+          "2026-11-28",
+          "17:45",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194993&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
           "75990131879",
           "2026-11-28",
           "18:10",
@@ -18441,6 +18461,26 @@
           1
         ],
         [
+          "95122123236",
+          "2026-11-28",
+          "17:50",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122696&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-28",
+          "18:10",
+          "Castellano",
+          "Sala 08",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119107&language=esp&theatre=26",
+          null,
+          1
+        ],
+        [
           "99400331613",
           "2026-11-28",
           "18:10",
@@ -18617,6 +18657,16 @@
           "Castellano",
           "Sala 01",
           "https://moobycinemas-arenas.admit-one.eu/?p=tickets&perfCode=194814&language=esp&theatre=24",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-29",
+          "17:50",
+          "Castellano",
+          "Sala 04",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122716&language=esp&theatre=25",
           null,
           1
         ],
@@ -19835,6 +19885,16 @@
           "Castellano",
           null,
           "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222897&language=ESP",
+          null,
+          1
+        ],
+        [
+          "99217141611",
+          "2026-11-28",
+          "21:00",
+          "Castellano",
+          "Sala 03",
+          "https://moobycinemas-sarria.admit-one.eu/?p=tickets&perfCode=119093&language=esp&theatre=26",
           null,
           1
         ],
@@ -21968,6 +22028,16 @@
           1
         ],
         [
+          "95122123236",
+          "2026-11-28",
+          "21:00",
+          "VOSE",
+          "Sala 04",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122683&language=esp&theatre=25",
+          null,
+          1
+        ],
+        [
           "99400267342",
           "2026-11-28",
           "21:30",
@@ -22054,6 +22124,16 @@
           "VOSE",
           "Sala 03",
           "https://moobycinemas-bosque.admit-one.eu/?p=tickets&perfCode=142658&language=esp&theatre=27",
+          null,
+          1
+        ],
+        [
+          "95122123236",
+          "2026-11-29",
+          "21:00",
+          "VOSE",
+          "Sala 04",
+          "https://moobycinemas-glorias.admit-one.eu/?p=tickets&perfCode=122709&language=esp&theatre=25",
           null,
           1
         ],

@@ -11,7 +11,7 @@
   ],
   "cines_sin_horarios": {
     "Ateneu Barcelonès": "sin web",
-    "Cinema Dididado": "su web no permite programas (robots.txt)",
+    "Cinema Dididado": "sin horarios legibles en su web",
     "Cinemes Girona": "elqueque",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
@@ -28,7 +28,7 @@
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 88,
+  "con_actividades": 90,
   "fecha": "2026-11-27",
   "por_tipo": {
     "auditorio": {
@@ -37,15 +37,15 @@
     },
     "cine": {
       "oficiales": 25,
-      "sin_actividades": 18
+      "sin_actividades": 17
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 50
+      "sin_actividades": 49
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 73,
+  "sin_actividades": 71,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -252,22 +252,6 @@
       "lon": 2.1572305541553853,
       "nombre": "Cinemes Verdi",
       "numero": "32",
-      "tipo": [
-        "cine"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Vila de Gràcia",
-      "calle": "Carrer de Torrijos",
-      "clave": "via341908-49",
-      "codigo_postal": "08012",
-      "distrito": "Gràcia",
-      "id": "75990349641",
-      "lat": 41.40446418648502,
-      "lon": 2.157681863312379,
-      "nombre": "Cinemes Verdi Park",
-      "numero": "49",
       "tipo": [
         "cine"
       ]
@@ -766,22 +750,6 @@
       "lon": 2.155365287760065,
       "nombre": "Centre Educatiu Sant Josep",
       "numero": "31",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "el Poblenou",
-      "calle": "C Pujades",
-      "clave": "via270901-176",
-      "codigo_postal": "08005",
-      "distrito": "Sant Martí",
-      "id": "92086015468",
-      "lat": 41.401133285381995,
-      "lon": 2.200145848591939,
-      "nombre": "Centre Moral i Cultural del Poblenou",
-      "numero": "176",
       "tipo": [
         "teatro"
       ]

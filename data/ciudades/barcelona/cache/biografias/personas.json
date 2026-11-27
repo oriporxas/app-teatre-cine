@@ -2996,6 +2996,13 @@
       "tmdb": null,
       "v": 2
     },
+    "cia-cacauet-teatre": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Cia. Cacauet Teatre",
+      "tmdb": null,
+      "v": 2
+    },
     "cia-calteatre": {
       "fecha": "2026-11-22",
       "motivo": "ninguna",
@@ -3009,6 +3016,13 @@
       "nombre": "Cia Càndida",
       "tmdb": null,
       "v": 1
+    },
+    "cia-cia-candida": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Cia. Cia Càndida",
+      "tmdb": null,
+      "v": 2
     },
     "cia-cinc-centims-teatre": {
       "fecha": "2026-11-21",
@@ -3301,6 +3315,13 @@
       "fecha": "2026-11-27",
       "motivo": "ninguna",
       "nombre": "Cia. Sgratta",
+      "tmdb": null,
+      "v": 2
+    },
+    "cia-sobindoy": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Cia. Sobindoy",
       "tmdb": null,
       "v": 2
     },
@@ -8714,6 +8735,13 @@
       "nombre": "Les Inexactes",
       "tmdb": null,
       "v": 1
+    },
+    "les-pinyes": {
+      "fecha": "2026-11-27",
+      "motivo": "ninguna",
+      "nombre": "Les Pinyes",
+      "tmdb": null,
+      "v": 2
     },
     "lia-sampai": {
       "fecha": "2026-11-19",
@@ -71375,6 +71403,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Tramell_Tillman"
+    },
+    "Q111549541": {
+      "descripcion": {
+        "ca": "actor català"
+      },
+      "fecha": "2026-11-27",
+      "wikipedia": null
     },
     "Q111589505": {
       "descripcion": null,

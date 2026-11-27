@@ -27,6 +27,12 @@
     "firma": "a7cd20b3956d9b58",
     "imagen": "https://dice-media.imgix.net/attachments/2026-10-01/ae5e58f2-3224-4ae4-9b70-7dc2c79e2dcf.jpg?rect=0%2C216%2C1080%2C648&w=1300&h=630&auto=compress"
   },
+  "https://elcentrepoblenou.cat/entrades/": {
+    "datos": null,
+    "fecha": "2026-11-27",
+    "firma": "d4a8e46a49178b5e",
+    "imagen": "https://elcentrepoblenou.cat/wp-content/uploads/2024/09/Centre-del-Poblenou-2-1.png"
+  },
   "https://elcentrepoblenou.cat/lestel-de-natzaret-6/": {
     "datos": {
       "duracion": null,
@@ -5609,6 +5615,12 @@
     "fecha": "2026-11-26",
     "firma": "cadb2826a150f7c9",
     "imagen": "https://www.salabeckett.cat/wp-content/uploads/2026/06/les-distancies-web-1000x600-1.jpg"
+  },
+  "https://www.salabeckett.cat/espectacle/un-home-bo/": {
+    "datos": null,
+    "fecha": "2026-11-27",
+    "firma": "478f1dcf16254878",
+    "imagen": "https://www.salabeckett.cat/wp-content/uploads/2026/06/szpunberg-bona.jpg"
   },
   "https://www.salabeckett.cat/espectacle/verbagalia/": {
     "datos": null,
