@@ -71341,6 +71341,13 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://ca.wikipedia.org/wiki/Ferran_Carvajal"
     },
+    "Q110970391": {
+      "descripcion": {
+        "ca": "actor català"
+      },
+      "fecha": "2026-11-28",
+      "wikipedia": null
+    },
     "Q111070": {
       "descripcion": {
         "ca": "actor alemany",
@@ -71446,6 +71453,13 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Denden"
+    },
+    "Q112504697": {
+      "descripcion": {
+        "ca": "dramaturg, guionista i director de teatre català"
+      },
+      "fecha": "2026-11-28",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Xavi_Morat%C3%B3"
     },
     "Q11256933": {
       "descripcion": null,
@@ -73009,6 +73023,14 @@
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Pepa_L%C3%B3pez"
     },
+    "Q20101502": {
+      "descripcion": {
+        "ca": "actriu catalana",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-28",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mont_Plans"
+    },
     "Q2013068": {
       "descripcion": {
         "ca": "actor noruec",
@@ -73526,6 +73548,11 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Pierre_Lottin"
+    },
+    "Q23815931": {
+      "descripcion": null,
+      "fecha": "2026-11-28",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Adri%C3%A0_Aubert_i_Blanch"
     },
     "Q2384494": {
       "descripcion": {
@@ -74136,6 +74163,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Martin_Landau"
+    },
+    "Q2947111": {
+      "descripcion": {
+        "ca": "actriu, guionista i directora de cinema catalana",
+        "es": "actriz española"
+      },
+      "fecha": "2026-11-28",
+      "wikipedia": "https://es.wikipedia.org/wiki/S%C3%ADlvia_Munt"
     },
     "Q295233": {
       "descripcion": {
@@ -75044,6 +75079,14 @@
       },
       "fecha": "2026-11-23",
       "wikipedia": "https://es.wikipedia.org/wiki/Cameron_Britton"
+    },
+    "Q47179066": {
+      "descripcion": {
+        "ca": "dramaturg i director teatral català",
+        "es": "actor español"
+      },
+      "fecha": "2026-11-28",
+      "wikipedia": "https://ca.wikipedia.org/wiki/Pau_Carri%C3%B3_i_Lluci%C3%A0"
     },
     "Q47460321": {
       "descripcion": {

@@ -359,11 +359,6 @@
     "pagina": "https://www.balanaenviu.com/espectaculo/isabel-rey",
     "url": "https://www.balanaenviu.com/espectaculo/isabel-rey"
   },
-  "open_data_bcn:99400778218|https://www.balanaenviu.com/|Acojonado": {
-    "fecha": "2026-11-25",
-    "pagina": null,
-    "url": null
-  },
   "open_data_bcn:99400778299|https://cat.teatremuntaner.com/|Riquiña": {
     "fecha": "2026-11-25",
     "pagina": null,
@@ -485,12 +480,14 @@
     "url": "https://salabeckett.koobin.cat/ca/un-home-bo"
   },
   "open_data_bcn:99400783071|https://www.salabeckett.cat/|Mantener fuera del alcance de los niños (Quejío sobre la infancia y lo que sigue)": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-28",
+    "pagina": "https://www.salabeckett.cat/en/espectacle/mantener-fuera-del-alcance-de-los-ninos-quejio-sobre-la-infancia-y-lo-que-sigue/",
+    "url": "https://www.salabeckett.cat/en/espectacle/mantener-fuera-del-alcance-de-los-ninos-quejio-sobre-la-infancia-y-lo-que-sigue/"
   },
   "open_data_bcn:99400783521|https://www.lluisosteatre.cat/|Mentida podrida": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-28",
+    "pagina": "https://www.lluisosteatre.cat/esdeveniments/mentida-podrida-2/",
+    "url": "https://www.lluisosteatre.cat/esdeveniments/mentida-podrida-2/"
   },
   "open_data_bcn:99400783525|https://www.lluisosteatre.cat/|Bufairons": {
     "fecha": "2026-11-17",
@@ -790,10 +787,6 @@
     "fecha": "2026-11-17",
     "url": null
   },
-  "open_data_bcn:99400788813|https://cat.teatremuntaner.com/|El show a galletazos": {
-    "fecha": "2026-11-17",
-    "url": null
-  },
   "open_data_bcn:99400788815|https://cat.teatremuntaner.com/|Mi hija es astronauta": {
     "fecha": "2026-11-17",
     "url": null
@@ -893,10 +886,6 @@
   "open_data_bcn:99400789507|https://teatrebalmes.com/|Meugenio. 25 años de humor eterno": {
     "fecha": "2026-11-17",
     "url": "https://teatrebalmes.com/ca/humor/barcelona/25-anos-de-humor-eterno"
-  },
-  "open_data_bcn:99400789510|https://teatrebalmes.com/|Comèdia de la buena": {
-    "fecha": "2026-11-17",
-    "url": null
   },
   "open_data_bcn:99400789512|https://teatrebalmes.com/|Les obres completes de William Shakespeare (abreujades)": {
     "fecha": "2026-11-17",

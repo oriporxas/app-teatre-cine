@@ -2,18 +2,11 @@
   "cine": {
     "anomalias": [],
     "corregidas_por_regla": {},
-    "fecha": "2026-11-27",
-    "publicadas": 95
+    "fecha": "2026-11-28",
+    "publicadas": 91
   },
   "escena": {
     "anomalias": [
-      {
-        "accion": "nombre de sala oculto",
-        "detalle": "la sala se llama como la ciudad (Barcelona)",
-        "id": "open_data_bcn:99400557740",
-        "regla": "sala",
-        "titulo": "XIV Festival Internacional de Cinema i Discapacitat de Barcelona \"Inclús"
-      },
       {
         "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400658401",
@@ -127,13 +120,6 @@
         "titulo": "Anàlisi i crítica cinematogràfica"
       },
       {
-        "accion": "nombre de sala oculto",
-        "detalle": "la sala se llama como la ciudad (Barcelona)",
-        "id": "open_data_bcn:99400770019",
-        "regla": "sala",
-        "titulo": "de Nadal a Nou Barris"
-      },
-      {
         "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400718672",
         "id": "open_data_bcn:99400770493",
@@ -174,13 +160,6 @@
         "id": "open_data_bcn:99400776443",
         "regla": "repetida",
         "titulo": "Teatre adults"
-      },
-      {
-        "accion": "aviso",
-        "detalle": "mismo título y sala que open_data_bcn:99400747273",
-        "id": "open_data_bcn:99400783012",
-        "regla": "repetida",
-        "titulo": "Estudi La Lluerna"
       },
       {
         "accion": "función quitada",
@@ -318,11 +297,10 @@
     ],
     "corregidas_por_regla": {
       "fecha": 19,
-      "repetida": 23,
-      "sala": 2,
+      "repetida": 22,
       "sin_funciones": 1
     },
-    "fecha": "2026-11-27",
-    "publicadas": 719
+    "fecha": "2026-11-28",
+    "publicadas": 701
   }
 }

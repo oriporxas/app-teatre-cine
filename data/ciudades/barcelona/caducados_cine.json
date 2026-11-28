@@ -10,6 +10,13 @@
     },
     "titulo": "16a Mostra de Cinema Etnogràfic de Catalunya 'Compartint natures: territoris, cosmologies, vides trenades"
   },
+  "p-t-antes-del-silencio": {
+    "agenda": "open_data_bcn:99400786956",
+    "caducado": "2026-11-27",
+    "gratis": true,
+    "id": "p-t-antes-del-silencio",
+    "titulo": "Antes del silencio"
+  },
   "p-t-apnees-i-altres-gramatiques": {
     "agenda": "open_data_bcn:99400776950",
     "caducado": "2026-11-24",
@@ -24,19 +31,19 @@
     "id": "p-t-baraka",
     "titulo": "Baraka"
   },
+  "p-t-cinema-mut-sunrise-a-song-of-two-humans": {
+    "agenda": "open_data_bcn:99400783941",
+    "caducado": "2026-11-27",
+    "gratis": true,
+    "id": "p-t-cinema-mut-sunrise-a-song-of-two-humans",
+    "titulo": "Cinema mut ''SUNRISE. A song of two humans."
+  },
   "p-t-cinema-participatiu": {
     "agenda": "open_data_bcn:99400766836",
     "caducado": "2026-11-26",
     "gratis": true,
     "id": "p-t-cinema-participatiu",
     "titulo": "Cinema participatiu"
-  },
-  "p-t-cinema-per-a-tota-la-familia-tot-allo-que-balla": {
-    "agenda": "open_data_bcn:99400789846",
-    "caducado": "2026-11-22",
-    "gratis": true,
-    "id": "p-t-cinema-per-a-tota-la-familia-tot-allo-que-balla",
-    "titulo": "Cinema per a tota la família 'Tot allò que balla"
   },
   "p-t-deep-listening-la-historia-de-pauline-oliveros": {
     "agenda": "open_data_bcn:99400760845",
@@ -95,12 +102,26 @@
     "id": "p-t-hospital-de-campanya",
     "titulo": "Hospital de Campanya"
   },
+  "p-t-l-emilie-i-el-secret-de-les-tempestes": {
+    "agenda": "open_data_bcn:99400789826",
+    "caducado": "2026-11-27",
+    "gratis": true,
+    "id": "p-t-l-emilie-i-el-secret-de-les-tempestes",
+    "titulo": "L’Emilie i el secret de les tempestes"
+  },
   "p-t-l-oliva-i-el-terratremol-invisible": {
     "agenda": "open_data_bcn:99400761789",
     "caducado": "2026-11-19",
     "gratis": true,
     "id": "p-t-l-oliva-i-el-terratremol-invisible",
     "titulo": "L'Oliva i el terratrèmol invisible"
+  },
+  "p-t-natura-sagrada": {
+    "agenda": "open_data_bcn:99400766552",
+    "caducado": "2026-11-27",
+    "gratis": true,
+    "id": "p-t-natura-sagrada",
+    "titulo": "Natura sagrada"
   },
   "p-t-numacage-public-pool-ota": {
     "agenda": "open_data_bcn:99400785861",
@@ -136,6 +157,16 @@
     "id": "p-t-numakage-public-pool-ota",
     "titulo": "Numakage Public Pool"
   },
+  "p-t-petit-pantalla": {
+    "agenda": "open_data_bcn:99400775165",
+    "caducado": "2026-11-27",
+    "gratis": true,
+    "id": "p-t-petit-pantalla",
+    "sinopsis": {
+      "ca": "El Petit Pantalla és una proposta de cinema familiar que forma part de Barcelona Districte Cultural. Es tracta d'una cita mensual per apropar el cinema als més petits a través de pel·lícules d'animació presentades per un personatge molt especial.\nConsulteu la programació detallada a la nostra pàgina web."
+    },
+    "titulo": "Petit Pantalla"
+  },
   "p-t-petits-moments-magics": {
     "agenda": "open_data_bcn:99400762080",
     "caducado": "2026-11-19",
@@ -155,6 +186,13 @@
       "ca": "Petits Moments Màgics és un programa de set curtmetratges per a infants a partir de 4 anys que combina amistat, aventura i imaginació. Personatges curiosos i animals viuen viatges sota el gel, a l'espai i mons impossibles. Exploren emocions, identitat i creativitat amb humor i tendresa.\nEdat recomanada a partir de 4 anys"
     },
     "titulo": "Petits moments màgics: curtmetratges"
+  },
+  "p-t-projeccio-de-la-pel-licula-incendis-de-denis-villeneuve": {
+    "agenda": "open_data_bcn:99400766981",
+    "caducado": "2026-11-27",
+    "gratis": true,
+    "id": "p-t-projeccio-de-la-pel-licula-incendis-de-denis-villeneuve",
+    "titulo": "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve"
   },
   "p-t-projeccio-i-col-loqui-miss-carbon": {
     "agenda": "open_data_bcn:99400749630",
@@ -4481,6 +4519,453 @@
     "titulo_original": "North by Northwest",
     "tmdb": 213,
     "trailer": "cPNiwc3ogIo"
+  },
+  "tmdb-313369": {
+    "anio": 2016,
+    "caducado": "2026-11-27",
+    "cartel": "https://image.tmdb.org/t/p/w500/7pFsAaJmiOppVHcldBzg8JKBHwe.jpg",
+    "direccion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/14kRZ3XxNMyBv717YQSXr3wCucy.jpg",
+        "id": 136495,
+        "nombre": "Damien Chazelle",
+        "premios": [
+          {
+            "anio": 2014,
+            "premio": "Premio del Gan Jurado a la Película Dramática del Festival de Cine de Sundance",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Óscar al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "BAFTA al mejor director",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar al mejor guion adaptado",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Óscar al mejor director",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Óscar al mejor guion original",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q18350026"
+      }
+    ],
+    "duracion": 128,
+    "edad": "12",
+    "estreno": "2016-12-01",
+    "fondo": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+    "generos": [
+      "Comedia",
+      "Drama",
+      "Romance"
+    ],
+    "guion": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/14kRZ3XxNMyBv717YQSXr3wCucy.jpg",
+        "id": 136495,
+        "nombre": "Damien Chazelle"
+      }
+    ],
+    "id": "tmdb-313369",
+    "idioma_original": "en",
+    "imdb": "tt3783958",
+    "lema": "Para los que se atreven a soñar.",
+    "musica": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/4a03MPhWE8u0NGJF9wt0wbBcFWn.jpg",
+        "id": 1419631,
+        "nombre": "Justin Hurwitz"
+      }
+    ],
+    "nota": 7.9,
+    "paises": [
+      "US"
+    ],
+    "premios": [
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor canción original",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor diseño de producción",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor director",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor actriz",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor fotografía",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor banda sonora",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro a la mejor película - comedia o musical",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro al mejor actor - Comedia o musical",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro a la mejor actriz - Comedia o musical",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro al mejor director",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro a la mejor banda sonora",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro a la mejor canción original",
+        "tipo": "ganado"
+      },
+      {
+        "anio": null,
+        "premio": "Globo de Oro al mejor guion",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor director",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor actor",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor actriz",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor banda sonora",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor sonido",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor edición de sonido",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor montaje",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor fotografía",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor diseño de producción",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar al mejor diseño de vestuario",
+        "tipo": "nominado"
+      },
+      {
+        "anio": null,
+        "premio": "Óscar al mejor guion original",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor película",
+        "tipo": "nominado"
+      },
+      {
+        "anio": 2017,
+        "premio": "Óscar a la mejor canción original",
+        "tipo": "nominado"
+      }
+    ],
+    "reparto": [
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
+        "id": 30614,
+        "nombre": "Ryan Gosling",
+        "papel": "Sebastian",
+        "premios": [
+          {
+            "anio": null,
+            "premio": "Premios India Catalina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Globo de Oro al mejor actor - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Óscar al mejor actor",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Oscar al mejor actor de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2007,
+            "premio": "Premios del Sindicato de Actores",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2008,
+            "premio": "Premios del Sindicato de Actores",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q193815"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/ak2Y9wOI3wi2pNQU6OWSvVvWPj5.jpg",
+        "id": 54693,
+        "nombre": "Emma Stone",
+        "papel": "Mia",
+        "premios": [
+          {
+            "anio": 2017,
+            "premio": "Globo de Oro a la mejor actriz - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2017,
+            "premio": "BAFTA a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2023,
+            "premio": "Globo de Oro a la mejor actriz - Comedia o musical",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2016,
+            "premio": "Copa Volpi a la mejor interpretación femenina",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Globus d'Or a la millor actriu",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2024,
+            "premio": "BAFTA a la mejor actriz",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar a la mejor actriz de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2017,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Premi del públic a la millor pel·lícula europea",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2019,
+            "premio": "Óscar a la mejor actriz de reparto",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Óscar a la mejor actriz",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2024,
+            "premio": "Óscar a la mejor película",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q147077"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/mvEUY4XURqTHSxnIDmEW1rcIxgm.jpg",
+        "id": 113461,
+        "nombre": "John Legend",
+        "papel": "Keith",
+        "premios": [
+          {
+            "anio": 2006,
+            "premio": "Premio Grammy por mejor artista novel",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "NAACP Image Award for Outstanding Music Video",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2015,
+            "premio": "Óscar a la mejor canción original",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Doctor honoris causa pel Berklee College of Music",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Primetime Emmy Award for Outstanding Special Class Program",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Premio Tony al mejor reestreno de una obra",
+            "tipo": "ganado"
+          },
+          {
+            "anio": null,
+            "premio": "Globo de Oro a la mejor canción original",
+            "tipo": "ganado"
+          },
+          {
+            "anio": 2006,
+            "premio": "Premio Grammy por mejor artista novel",
+            "tipo": "nominado"
+          },
+          {
+            "anio": 2018,
+            "premio": "Premio Tony a la mejor banda sonora original",
+            "tipo": "nominado"
+          }
+        ],
+        "wikidata": "Q44857"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/44sxIdGtYN24R14OmnZbCpcd8J8.jpg",
+        "id": 14892,
+        "nombre": "Rosemarie DeWitt",
+        "papel": "Laura",
+        "premios": [
+          {
+            "anio": 2008,
+            "premio": "Satellite a la mejor actriz de reparto - drama",
+            "tipo": "ganado"
+          }
+        ],
+        "wikidata": "Q236956"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/gwGMGTmli0uBF7eAhhXePWhYNFJ.jpg",
+        "id": 168877,
+        "nombre": "Finn Wittrock",
+        "papel": "Greg"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/doMXlhTAYCy8gH43yYA6m9ymxhd.jpg",
+        "id": 1486488,
+        "nombre": "Callie Hernandez",
+        "papel": "Tracy"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/WVROOHuk6G6QgVe0pU8R2i1fsE.jpg",
+        "id": 1457238,
+        "nombre": "Sonoya Mizuno",
+        "papel": "Caitlin"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/oItPXy56W0Y5taqIMZilRtnPDMn.jpg",
+        "id": 1427680,
+        "nombre": "Jessica Rothe",
+        "papel": "Alexis"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/nVDihOvsSm7kmeyHLtAcEzrrSYC.jpg",
+        "id": 16857,
+        "nombre": "Tom Everett Scott",
+        "papel": "David"
+      },
+      {
+        "foto": "https://image.tmdb.org/t/p/w185/tkDFl0BEVCUcwKR30ICeG3yCTbr.jpg",
+        "id": 928532,
+        "nombre": "Josh Pence",
+        "papel": "Josh"
+      }
+    ],
+    "sinopsis": {
+      "ca": "Mia, una jove aspirant a actriu que treballa com a cambrera mentre va a càstings, Sebastian, un pianista de jazz que es guanya la vida tocant en sòrdids tuguris, s'enamoren, però la seva gran ambició per arribar al cim en les seves carreres artístiques amenaça de separar-los.",
+      "en": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+      "es": "Mia, una joven aspirante a actriz que compagina los castings con su trabajo de camarera, y Sebastian, un pianista de jazz que se gana la vida tocando en sórdidos tugurios, se enamoran. Pero la gran ambición por llegar a la cima en sus carreras artísticas amenaza con separarlos."
+    },
+    "titulo": "La ciudad de las estrellas (La La Land)",
+    "titulo_ca": "La La Land",
+    "titulo_original": "La La Land",
+    "tmdb": 313369,
+    "trailer": "zBRkZZ6K1YU"
   },
   "tmdb-466272": {
     "anio": 2019,
