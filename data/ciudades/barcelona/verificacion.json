@@ -3,16 +3,30 @@
     "anomalias": [],
     "corregidas_por_regla": {},
     "fecha": "2026-11-28",
-    "publicadas": 91
+    "publicadas": 90
   },
   "escena": {
     "anomalias": [
+      {
+        "accion": "nombre de sala oculto",
+        "detalle": "la sala se llama como la ciudad (Barcelona)",
+        "id": "open_data_bcn:99400557740",
+        "regla": "sala",
+        "titulo": "XIV Festival Internacional de Cinema i Discapacitat de Barcelona \"Inclús"
+      },
       {
         "accion": "aviso",
         "detalle": "mismo título y sala que open_data_bcn:99400658401",
         "id": "open_data_bcn:99400702277",
         "regla": "repetida",
         "titulo": "Anem al Teatre"
+      },
+      {
+        "accion": "aviso",
+        "detalle": "mismo título y sala que open_data_bcn:99400715150",
+        "id": "open_data_bcn:99400730837",
+        "regla": "repetida",
+        "titulo": "Teatre: Interpretació i Impro!"
       },
       {
         "accion": "función quitada",
@@ -118,6 +132,13 @@
         "id": "open_data_bcn:99400768812",
         "regla": "repetida",
         "titulo": "Anàlisi i crítica cinematogràfica"
+      },
+      {
+        "accion": "nombre de sala oculto",
+        "detalle": "la sala se llama como la ciudad (Barcelona)",
+        "id": "open_data_bcn:99400770019",
+        "regla": "sala",
+        "titulo": "de Nadal a Nou Barris"
       },
       {
         "accion": "aviso",
@@ -297,10 +318,11 @@
     ],
     "corregidas_por_regla": {
       "fecha": 19,
-      "repetida": 22,
+      "repetida": 23,
+      "sala": 2,
       "sin_funciones": 1
     },
     "fecha": "2026-11-28",
-    "publicadas": 701
+    "publicadas": 704
   }
 }

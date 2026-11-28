@@ -181,19 +181,6 @@
       "es": "El precio de las opiniones"
     }
   },
-  "https://llegim.ara.cat/opinio/teixeix-historia_129_5913553.html": {
-    "ambito": "barcelona",
-    "evento": false,
-    "resumen": {
-      "ca": "Reflexió sobre la lectura de 'L’estiu que vaig matar mon pare', de Raquel Ricart, i la prosa de l’escriptora valenciana.",
-      "es": "Reflexión sobre la lectura de 'L’estiu que vaig matar mon pare', de Raquel Ricart, y la prosa de la escritora valenciana."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "De com es teixeix una història",
-      "es": "Cómo se teje una historia"
-    }
-  },
   "https://revistagodot.com/brodwei-convierte-teatros-luchana-en-un-desmadrado-titanic/": {
     "ambito": "espana",
     "evento": false,
@@ -389,19 +376,6 @@
       "es": "'La bola negra' ya ha ganado: es la película más taquillera del año en España por delante de 'Spider-Man' y 'La Odisea'"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/confuso-futuro-matrix-las-wachowski-quieren-quedarse-con-franquicia-alejarse-skydance_7063593_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Després de la fusió de Warner Bros. i Paramount, les Wachowski volen conservar la franquícia Matrix i allunyar-se de David Ellison.",
-      "es": "Tras la fusión de Warner Bros. y Paramount, las Wachowski quieren conservar la franquicia Matrix y distanciarse de David Ellison."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El confús futur de 'Matrix': les Wachowski volen quedar-se amb la franquícia i allunyar-se de Skydance",
-      "es": "El confuso futuro de 'Matrix': las Wachowski quieren quedarse con la franquicia y alejarse de Skydance"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/crimen-pazos-ver-despues-documental-desprotexida-netflix-true-crime_7054613_0.html": {
     "ambito": "espana",
     "evento": false,
@@ -467,19 +441,6 @@
       "es": "Muere a los 66 años E.J. Carroll, actor de 'Ley y Orden', 'Boardwalk Empire' y 'GTA V'"
     }
   },
-  "https://www.20minutos.es/cinemania/noticias/que-ver-hoy-netflix-amazon-prime-video-otras-plataformas-domingo-22-noviembre-2026_7063742_0.html": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Recomanacions de pel·lícules a les plataformes, amb el retorn de David O. Russell, una comèdia espanyola i una directora guanyadora de l'Oscar.",
-      "es": "Recomendaciones de películas en plataformas, con el regreso de David O. Russell, una comedia española y una directora ganadora del Oscar."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Què veure avui a Netflix, Amazon Prime Video i altres plataformes: diumenge 22 de novembre de 2026",
-      "es": "Qué ver hoy en Netflix, Amazon Prime Video y otras plataformas: domingo 22 de noviembre de 2026"
-    }
-  },
   "https://www.20minutos.es/cinemania/noticias/skyshowtime-cierra-skydance-plataforma-streaming_7063271_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -530,19 +491,6 @@
     "titulo": {
       "ca": "'Blade Runner 2099' fa un gir radical a la saga: els replicants dominen la Terra i així és el seu món a Prime Video",
       "es": "'Blade Runner 2099' da un giro radical a la saga: los replicantes dominan la Tierra y así es su mundo en Prime Video"
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/crimen-pazos-miniserie-polaca-4-episodios-top-netflix_7064679_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La minisèrie polonesa de quatre episodis, un true crime, se situa al top de Netflix per darrere de 'El crimen de Pazos'.",
-      "es": "La miniserie polaca de cuatro episodios, un true crime, se sitúa en el top de Netflix por detrás de 'El crimen de Pazos'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Més enllà de 'El crimen de Pazos': la minisèrie polonesa de 4 episodis que s'エ colա al top de les més vistes de Netflix",
-      "es": "Más allá de 'El crimen de Pazos': la miniserie polaca de 4 episodios que se cuela en el top de lo más visto de Netflix"
     }
   },
   "https://www.20minutos.es/cinemania/series/god-of-war-serie-prime-video-adaptacion-faye_7065044_0.html": {
@@ -597,19 +545,6 @@
       "es": "'La que se avecina': ¿qué día y a qué hora se estrena el nuevo episodio de la temporada 17 en Prime Video?"
     }
   },
-  "https://www.20minutos.es/cinemania/series/reaccion-este-actor-linternas-despido-james-gunn-no-he-tenido-tiempo-asimilarlo_7064140_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Aaron Pierre, protagonista amb Kyle Chandler de la sèrie de DC Studios, reacciona al acomiadament de James Gunn i al seu paper a 'Man of Tomorrow'.",
-      "es": "Aaron Pierre, protagonista junto a Kyle Chandler de la serie de DC Studios, reacciona al despido de James Gunn y a su papel en 'Man of Tomorrow'."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "La reacció d'aquest actor de 'Linternas' al acomiadament de James Gunn: \"No he tingut temps d'assimilar-ho\"",
-      "es": "La reacción de este actor de 'Linternas' al despido de James Gunn: \"No he tenido tiempo de asimilarlo\""
-    }
-  },
   "https://www.20minutos.es/cinemania/series/renovada-cancelada-anillos-poder-futuro-prime-video_7065495_0.html": {
     "ambito": "mundo",
     "evento": false,
@@ -647,19 +582,6 @@
     "titulo": {
       "ca": "El creador de 'Solo asesinatos en el edificio' vol portar la sèrie a Espanya: \"M'encanta la idea\"",
       "es": "El creador de 'Solo asesinatos en el edificio' quiere llevar la serie a España: \"Me encanta la idea\""
-    }
-  },
-  "https://www.20minutos.es/cinemania/series/tierra-mafiosos-pierce-brosnan-presion-tom-hardy-estabamos-bajo-presion-temporada-2_7062610_0.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Pierce Brosnan parla del rodatge de la segona temporada de 'Tierra de mafiosos', l'últim episodi de la qual s'emet el 23 de novembre.",
-      "es": "Pierce Brosnan habla del rodaje de la segunda temporada de 'Tierra de mafiosos', cuyo último episodio se emite el 23 de noviembre."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Pierce Brosnan ('Tierra de mafiosos') es sincera sobre el rodatge de la temporada 2: \"Tots estàvem sota pressió\"",
-      "es": "Pierce Brosnan ('Tierra de mafiosos') se sincera sobre el rodaje de la temporada 2: \"Todos estábamos bajo presión\""
     }
   },
   "https://www.20minutos.es/cinemania/series/zlatan-ibrahimovic-tierra-mafiosos-temporada-3_7065135_0.html": {
@@ -1143,19 +1065,6 @@
       "es": "«Una ombra improbable» transforma la plaza Joan Coromines en un espacio de encuentro y descanso"
     }
   },
-  "https://www.ara.cat/cultura/arquitectura/patrimoni-contemporani-transformar-esborrar_1_5919172.html": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "La 49a edició del curs de l'associació AADIPA sobre patrimoni arquitectònic ha acabat amb la presentació de les seves conclusions.",
-      "es": "La 49.ª edición del curso de la asociación AADIPA sobre patrimonio arquitectónico ha terminado con la presentación de sus conclusiones."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Patrimoni contemporani: transformar sense esborrar",
-      "es": "Patrimonio contemporáneo: transformar sin borrar"
-    }
-  },
   "https://www.ara.cat/cultura/art/barcelona-inaugura-biennal-vol-explicar-segle-xxi-traves-l-art-digital_1_5921532.html": {
     "ambito": "barcelona",
     "evento": true,
@@ -1219,19 +1128,6 @@
     "titulo": {
       "ca": "Què fer si la teva feina et posa malalta",
       "es": "Qué hacer si tu trabajo te pone enfermo"
-    }
-  },
-  "https://www.ara.cat/cultura/dansa-teatre-experimental-enmig-soroll-campanya-electoral_1_5919184.html": {
-    "ambito": "barcelona",
-    "evento": true,
-    "resumen": {
-      "ca": "El cap de setmana Big Bang del festival Temporada Alta ofereix fins a deu propostes d'arts escèniques en escenaris de Girona i Salt durant quatre dies.",
-      "es": "El fin de semana Big Bang del festival Temporada Alta ofrece hasta diez propuestas de artes escénicas en escenarios de Girona y Salt durante cuatro días."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Dansa i teatre experimental enmig del soroll de la campanya electoral",
-      "es": "Danza y teatro experimental en medio del ruido de la campaña electoral"
     }
   },
   "https://www.ara.cat/cultura/musica/lang-lang-cecilia-bartoli-renunciar-meva-carrera-solista-acompanyar-palau-musica_1_5920718.html": {
@@ -1871,32 +1767,6 @@
       "es": "Bruce Willis, hace 30 años: \"Ninguna mujer va a satisfacer el impulso natural de un hombre de ser padre aunque tengas tres, diez o cien hijos\""
     }
   },
-  "https://www.fotogramas.es/noticias-cine/a43518786/zendaya-spider-man-brand-new-day-rosalia-euphoria-insulto-espanol-tom-holland-superheroe/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Zendaya repassa l'evolució de Tom Holland com a Spider-Man i la seva experiència rodant amb Rosalía.",
-      "es": "Zendaya repasa la evolución de Tom Holland como Spider-Man y su experiencia rodando con Rosalía."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Zendaya, sobre Rosalía: \"Encara que hagi d'insultar-me en espanyol, he de reconèixer que em va encantar compartir escenes amb ella\"",
-      "es": "Zendaya, sobre Rosalía: \"Aunque tuviera que insultarme en español, tengo que admitir que me encantó compartir escenas con ella\""
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a70844754/clint-eastwood-eli-wallach-bueno-feo-malo-consejo-advertencia-nunca-confiar-nadie-pelicula-italiana-respeto-spaghetti-western/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Clint Eastwood parla de la seva experiència rodant spaghetti westerns amb Sergio Leone, part dels quals es van filmar en territori espanyol.",
-      "es": "Clint Eastwood habla de su experiencia rodando spaghetti westerns con Sergio Leone, parte de ellos filmados en territorio español."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "Clint Eastwood: \"Ho dic amb tot el respecte del món, però sé del que parlo quan dic que mai no s'ha de confiar en ningú en una pel·lícula italiana\"",
-      "es": "Clint Eastwood: \"Lo digo con todo el respeto del mundo, pero sé de lo que hablo cuando digo que nunca hay que confiar en nadie en una película italiana\""
-    }
-  },
   "https://www.fotogramas.es/noticias-cine/a73806890/javier-camara-entrevista-paso-anos-segundas-oportunidades-pelicula-cinco-minutos-mas/": {
     "ambito": "espana",
     "evento": false,
@@ -1960,19 +1830,6 @@
     "titulo": {
       "ca": "James Dean torna al cinema: una nova pel·lícula sobre l'actor explorarà la relació secreta que hauria mantingut amb un altre home",
       "es": "James Dean vuelve al cine: una nueva película sobre el actor explorará la relación secreta que habría mantenido con otro hombre"
-    }
-  },
-  "https://www.fotogramas.es/noticias-cine/a74480024/margot-robbie-actriz-cine-de-autor-proxima-pelicula-a24/": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Margot Robbie protagonitzarà The Week of Pain, de Kristoffer Borgli per a A24, i hi participarà en la producció a través de LuckyChap.",
-      "es": "Margot Robbie protagonizará The Week of Pain, de Kristoffer Borgli para A24, y participará en su producción a través de LuckyChap."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "El gir de guió de Margot Robbie: l'actriu de 'Barbie' i 'Cims borrascosos' abandona les grans franquícies per una arriscada pel·lícula amb A24",
-      "es": "El giro de guion de Margot Robbie: la actriz de 'Barbie' y 'Cumbres borrascosas' abandona las grandes franquicias por una arriesgada película con A24"
     }
   },
   "https://www.fotogramas.es/noticias-cine/a74507779/maya-hawke-actriz-juegos-hambre-amanecer-cosecha-entrevista-divorcio-padres/": {
@@ -2129,19 +1986,6 @@
     "titulo": {
       "ca": "\"Ha estat duríssim\": Carmen Machi acomiada Manolo Solo a 'Celeste', la sèrie de Movistar Plus que estrena la segona temporada",
       "es": "\"Ha sido durísimo\": Carmen Machi despide a Manolo Solo en 'Celeste', la serie de Movistar Plus que estrena su segunda temporada"
-    }
-  },
-  "https://www.fotogramas.es/series-tv-noticias/a74506240/el-crimen-de-pazos-serie-netflix-critica-opinion-caso-real/": {
-    "ambito": "espana",
-    "evento": false,
-    "resumen": {
-      "ca": "Els creadors d'El cas Asunta tornen a Netflix amb una sèrie thriller gallega basada en un cas real sobre l'agressió a una dona.",
-      "es": "Los creadores de El caso Asunta vuelven a Netflix con una serie thriller gallega basada en un caso real sobre una agresión a una mujer."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "\"Un gir radical el converteix en una altra cosa\": Els creadors de 'El cas Asunta' tornen a Netflix amb un nou thriller basat en una història real",
-      "es": "\"Un giro radical lo convierte en otra cosa\": Los creadores de 'El caso Asunta' regresan a Netflix con un nuevo thriller basado en una historia real"
     }
   },
   "https://www.fotogramas.es/series-tv-noticias/a74518435/infamia-serie-critica-opinion-hbo-max-susana-abaitua/": {
@@ -2885,45 +2729,6 @@
       "es": "Homenaje a Serrat en el Barnasants por los 50 años de 'Res no és mesquí'"
     }
   },
-  "https://www.lavanguardia.com/cultura/20261122/11689809/solistas-jovenes-dominan-principales-categorias-grammy.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Beyoncé, Adele, Taylor Swift, Billie Eilish o Lady Gaga han liderat els premis Grammy en els darrers anys.",
-      "es": "Beyoncé, Adele, Taylor Swift, Billie Eilish o Lady Gaga han liderado los premios Grammy en los últimos años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Les solistes joves dominen cada cop més les principals categories dels Grammy",
-      "es": "Las solistas jóvenes dominan cada vez más las principales categorías de los Grammy"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/20261122/11689815/gillian-anderson-valiente-espacio-creativo-debil-otros-ambitos-vida.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'actriu nord-americana debuta al cinema de terror amb 'Adolescencia, sexo y muerte en Campamento Miasma'.",
-      "es": "La actriz estadounidense debuta en el cine de terror con 'Adolescencia, sexo y muerte en Campamento Miasma'."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "'Sóc valenta en un espai creatiu però bastant feble en altres àmbits de la vida'",
-      "es": "'Soy valiente en un espacio creativo pero bastante débil en otros ámbitos de la vida'"
-    }
-  },
-  "https://www.lavanguardia.com/cultura/20261122/11689960/videojuegos-definen-siglo.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Després de la febre per 'Grand Theft Auto VI', es repassen els títols de videojocs més representatius dels darrers 25 anys.",
-      "es": "Tras la fiebre por 'Grand Theft Auto VI', se repasan los títulos de videojuegos más representativos de los últimos 25 años."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Els videojocs que defineixen aquest segle",
-      "es": "Los videojuegos que definen este siglo"
-    }
-  },
   "https://www.lavanguardia.com/cultura/20261122/11690037/cnd-ballet-biarritz-avignon-temporada-bbva-dansa-terrassa.html": {
     "ambito": "barcelona",
     "evento": false,
@@ -3522,58 +3327,6 @@
       "es": "Pilar Valenciano lleva al Teatro Fernán Gómez una versión contemporánea de La señorita Julia de August Strindberg"
     }
   },
-  "https://www.nytimes.com/2026/11/18/theater/exhibitionist-good-thief-review-hiller.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "Les produccions Off Broadway de 'The Exhibitionist' i 'The Good Thief' compten amb intèrprets excel·lents en actes de narració.",
-      "es": "Las producciones Off Broadway de 'The Exhibitionist' y 'The Good Thief' cuentan con intérpretes excelentes en actos de narración."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "Dues obres unipersonals s'enfronten al poder dels monòlegs",
-      "es": "Dos obras unipersonales lidian con el poder de los monólogos"
-    }
-  },
-  "https://www.nytimes.com/2026/11/18/theater/griselda-gambaro-dead.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La reconeguda escriptora argentina, de 98 anys, va examinar en obres de teatre i novel·les l'abús de poder i la complicitat dels governats.",
-      "es": "La reconocida escritora argentina, de 98 años, examinó en obras de teatro y novelas el abuso de poder y la complicidad de los gobernados."
-    },
-    "tema": "otro",
-    "titulo": {
-      "ca": "Griselda Gambaro, l'obra de la qual va enfrontar el terror estatal, ha mort",
-      "es": "Griselda Gambaro, cuya obra enfrentó el terror estatal, ha muerto"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/theater/birthright-broadway-israel.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "L'obra de Jonathan Spector, guanyador d'un Tony el 2025, farà el salt a Broadway després del seu estrena al circuit Off-Broadway.",
-      "es": "La obra de Jonathan Spector, ganador de un Tony en 2025, dará el salto a Broadway tras su estreno en el circuito Off-Broadway."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "'Birthright', obra sobre les divisions dels jueus davant Israel, arribarà a Broadway",
-      "es": "'Birthright', obra sobre las divisiones de los judíos ante Israel, llegará a Broadway"
-    }
-  },
-  "https://www.nytimes.com/2026/11/19/theater/much-ado-about-nothing-review-hiddleston-atwell-broadway.html": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "La producció de Jamie Lloyd, amb pista de ball, de la comèdia romàntica de Shakespeare té els protagonistes brillant amb molta intensitat.",
-      "es": "La producción de Jamie Lloyd, con pista de baile, de la comedia romántica de Shakespeare tiene a sus protagonistas brillando con gran intensidad."
-    },
-    "tema": "teatro",
-    "titulo": {
-      "ca": "A 'Molt soroll per no res', Tom Hiddleston i Hayley Atwell et faran suspirar",
-      "es": "En 'Mucho ruido y pocas nueces', Tom Hiddleston y Hayley Atwell te harán suspirar"
-    }
-  },
   "https://www.nytimes.com/2026/11/20/theater/eurotrash-young-vic-london-review.html": {
     "ambito": "mundo",
     "evento": false,
@@ -3962,19 +3715,6 @@
     "titulo": {
       "ca": "Steven Spielberg farà un western escrit per Paul Thomas Anderson",
       "es": "Steven Spielberg hará un western escrito por Paul Thomas Anderson"
-    }
-  },
-  "https://www.theguardian.com/film/2026/nov/23/you-can-see-everything-global-box-office-uk-release-nathan-fielder-elizabeth-holmes": {
-    "ambito": "mundo",
-    "evento": false,
-    "resumen": {
-      "ca": "El documental de Nathan Fielder sobre Elizabeth Holmes ha batut rècords de taquilla al Regne Unit i ha superat els 100 milions globalment.",
-      "es": "El documental de Nathan Fielder sobre Elizabeth Holmes ha batido récords de taquilla en el Reino Unido y ha superado los 100 millones globalmente."
-    },
-    "tema": "cine",
-    "titulo": {
-      "ca": "You Can See Everything supera els 100 milions de dòlars en taquilla mundial amb un bon estrena al Regne Unit",
-      "es": "You Can See Everything supera los 100 millones de dólares en taquilla mundial con un buen estreno en Reino Unido"
     }
   },
   "https://www.theguardian.com/film/2026/nov/25/jane-alexander-interview": {

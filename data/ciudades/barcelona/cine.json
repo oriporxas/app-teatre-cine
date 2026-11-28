@@ -17,6 +17,37 @@
       "titulo": "Cinema mut ''SUNRISE. A song of two humans."
     },
     {
+      "agenda": "open_data_bcn:99400789826",
+      "caducado": "2026-11-27",
+      "gratis": true,
+      "id": "p-t-l-emilie-i-el-secret-de-les-tempestes",
+      "titulo": "L’Emilie i el secret de les tempestes"
+    },
+    {
+      "agenda": "open_data_bcn:99400766552",
+      "caducado": "2026-11-27",
+      "gratis": true,
+      "id": "p-t-natura-sagrada",
+      "titulo": "Natura sagrada"
+    },
+    {
+      "agenda": "open_data_bcn:99400775165",
+      "caducado": "2026-11-27",
+      "gratis": true,
+      "id": "p-t-petit-pantalla",
+      "sinopsis": {
+        "ca": "El Petit Pantalla és una proposta de cinema familiar que forma part de Barcelona Districte Cultural. Es tracta d'una cita mensual per apropar el cinema als més petits a través de pel·lícules d'animació presentades per un personatge molt especial.\nConsulteu la programació detallada a la nostra pàgina web."
+      },
+      "titulo": "Petit Pantalla"
+    },
+    {
+      "agenda": "open_data_bcn:99400766981",
+      "caducado": "2026-11-27",
+      "gratis": true,
+      "id": "p-t-projeccio-de-la-pel-licula-incendis-de-denis-villeneuve",
+      "titulo": "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve"
+    },
+    {
       "anio": 2016,
       "caducado": "2026-11-27",
       "cartel": "https://image.tmdb.org/t/p/w500/7pFsAaJmiOppVHcldBzg8JKBHwe.jpg",
@@ -462,37 +493,6 @@
       "titulo_original": "La La Land",
       "tmdb": 313369,
       "trailer": "zBRkZZ6K1YU"
-    },
-    {
-      "agenda": "open_data_bcn:99400789826",
-      "caducado": "2026-11-27",
-      "gratis": true,
-      "id": "p-t-l-emilie-i-el-secret-de-les-tempestes",
-      "titulo": "L’Emilie i el secret de les tempestes"
-    },
-    {
-      "agenda": "open_data_bcn:99400766552",
-      "caducado": "2026-11-27",
-      "gratis": true,
-      "id": "p-t-natura-sagrada",
-      "titulo": "Natura sagrada"
-    },
-    {
-      "agenda": "open_data_bcn:99400775165",
-      "caducado": "2026-11-27",
-      "gratis": true,
-      "id": "p-t-petit-pantalla",
-      "sinopsis": {
-        "ca": "El Petit Pantalla és una proposta de cinema familiar que forma part de Barcelona Districte Cultural. Es tracta d'una cita mensual per apropar el cinema als més petits a través de pel·lícules d'animació presentades per un personatge molt especial.\nConsulteu la programació detallada a la nostra pàgina web."
-      },
-      "titulo": "Petit Pantalla"
-    },
-    {
-      "agenda": "open_data_bcn:99400766981",
-      "caducado": "2026-11-27",
-      "gratis": true,
-      "id": "p-t-projeccio-de-la-pel-licula-incendis-de-denis-villeneuve",
-      "titulo": "Projecció de la pel.lícula “Incendis”, de Denis Villeneuve"
     },
     {
       "agenda": "open_data_bcn:99400766836",
@@ -8023,25 +8023,6 @@
       "nombre": "Espai Fotogràfic Can Basté"
     },
     {
-      "barrio": "la Trinitat Nova",
-      "centro": true,
-      "direccion": "Carrer de Garbí 3",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via139907-3",
-      "lat": 41.452674128445565,
-      "lon": 2.1875023372106566,
-      "nombre": "Casal de Barri Comunitari de Trinitat Nova"
-    },
-    {
-      "barrio": "Sant Pere, Santa Caterina i la Ribera",
-      "centro": true,
-      "direccion": "Carrer del Rec 27",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via276908-27",
-      "lat": 41.38601009963852,
-      "lon": 2.182355350543277
-    },
-    {
       "barrio": "el Barri Gòtic",
       "centro": true,
       "direccion": "Carrer del Regomir 3",
@@ -8100,16 +8081,6 @@
       "lat": 41.377779238441946,
       "lon": 2.1217600571556323,
       "nombre": "Centre Cívic Josep Maria Trias i Peitx"
-    },
-    {
-      "barrio": "Vilapicina i la Torre Llobeta",
-      "centro": true,
-      "direccion": "Plaça de Carmen Laforet 11",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via701719-11",
-      "lat": 41.42691611188821,
-      "lon": 2.1764696039707148,
-      "nombre": "Casal de Gent Gran Vilapicina i Torre Llobeta"
     },
     {
       "barrio": "el Putxet i el Farró",
@@ -8201,16 +8172,6 @@
       "lon": 2.1616028109073935
     },
     {
-      "barrio": "Vallcarca i els Penitents",
-      "centro": true,
-      "direccion": "Carrer de Cambrils 28",
-      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
-      "id": "agenda:barcelona:via56402-28",
-      "lat": 41.41236403095899,
-      "lon": 2.1457730218797497,
-      "nombre": "Casal de Barri Comunitari Can Carol"
-    },
-    {
       "barrio": "les Corts",
       "centro": true,
       "direccion": "C Eugeni D'Ors 12",
@@ -8248,6 +8209,36 @@
       "lat": 41.4462918208594,
       "lon": 2.200290194498161,
       "nombre": "Centre Cívic Baró de Viver"
+    },
+    {
+      "barrio": "Vilapicina i la Torre Llobeta",
+      "centro": true,
+      "direccion": "Plaça de Carmen Laforet 11",
+      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+      "id": "agenda:barcelona:via701719-11",
+      "lat": 41.42691611188821,
+      "lon": 2.1764696039707148,
+      "nombre": "Casal de Gent Gran Vilapicina i Torre Llobeta"
+    },
+    {
+      "barrio": "Porta",
+      "centro": true,
+      "direccion": "Carrer de l'Estudiant 1",
+      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+      "id": "agenda:barcelona:via117609-1",
+      "lat": 41.43262562947904,
+      "lon": 2.176396020265252,
+      "nombre": "Ateneu La Bòbila de Porta"
+    },
+    {
+      "barrio": "la Trinitat Nova",
+      "centro": true,
+      "direccion": "Carrer de Garbí 3",
+      "fuente": "https://opendata-ajuntament.barcelona.cat/data/ca/dataset/agenda-diaria",
+      "id": "agenda:barcelona:via139907-3",
+      "lat": 41.452674128445565,
+      "lon": 2.1875023372106566,
+      "nombre": "Casal de Barri Comunitari de Trinitat Nova"
     }
   ],
   "ciudad": {
@@ -12748,16 +12739,6 @@
       ],
       "sesiones": [
         [
-          "75990131879",
-          "2026-11-28",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223106&language=ESP",
-          null,
-          1
-        ],
-        [
           "99400267342",
           "2026-11-28",
           "15:30",
@@ -16067,16 +16048,6 @@
         }
       ],
       "sesiones": [
-        [
-          "75990131879",
-          "2026-11-28",
-          "11:30",
-          "Català",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=223105&language=ESP",
-          null,
-          1
-        ],
         [
           "95122123236",
           "2026-11-28",
@@ -19772,16 +19743,6 @@
         }
       ],
       "sesiones": [
-        [
-          "75990131879",
-          "2026-11-28",
-          "11:30",
-          "Castellano",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222265&language=ESP",
-          null,
-          1
-        ],
         [
           "2086161222",
           "2026-11-28",
@@ -31361,342 +31322,6 @@
       "trailer": "SQhstLddMK8"
     },
     {
-      "anio": 1992,
-      "cartel": "https://image.tmdb.org/t/p/w500/iNwzpNGTt6hTjbj0KDl08O6gJCi.jpg",
-      "direccion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
-          "id": 608,
-          "nombre": "Hayao Miyazaki",
-          "premios": [
-            {
-              "anio": 2003,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la mejor película de animación",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Oso de oro",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio Annie a la mejor dirección en una película",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premi Annie al millor guió en un llargmetratge",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1998,
-              "premio": "Nippon-shō a la mejor película",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Nippon-shō a la mejor película",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Nébula al mejor guion",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Nippon-shō a la mejor película de animación",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Nippon-shō a la mejor película de animación",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2005,
-              "premio": "León de Oro por la carrera",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2012,
-              "premio": "Persona de Mérito Cultural",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Óscar honorífico",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premi Kan Kikuchi",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1999,
-              "premio": "Shiba Ryotaro Prize",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2001,
-              "premio": "Premio Asahi",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2006,
-              "premio": "The Jim Henson Creativity Honor",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1996,
-              "premio": "Premio Windsor McCay",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Science Fiction and Fantasy Hall of Fame",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Caballero de la Orden de las Artes y las Letras",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1997,
-              "premio": "Premi de cinema de Nikkan Sports a la millor direcció",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 1995,
-              "premio": "Premi Seiun al millor còmic",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2009,
-              "premio": "Premio Inkpot",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Salón de la fama Will Eisner",
-              "tipo": "ganado"
-            },
-            {
-              "anio": null,
-              "premio": "Premio Mainichi al mejor director",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Globo de Oro a la mejor película animada",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Premios BAFTA",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "ganado"
-            },
-            {
-              "anio": 2003,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2006,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2014,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2002,
-              "premio": "Premio del Cine Europeo a la mejor película no europea",
-              "tipo": "nominado"
-            },
-            {
-              "anio": 2024,
-              "premio": "Óscar a la mejor película de animación",
-              "tipo": "nominado"
-            }
-          ],
-          "wikidata": "Q55400"
-        }
-      ],
-      "duracion": 93,
-      "edad": "A",
-      "estreno": "1992-07-18",
-      "fondo": "https://image.tmdb.org/t/p/w1280/ec4m0EvVlEtVl5aySdw6ab9uG0b.jpg",
-      "generos": [
-        "Animación",
-        "Aventura",
-        "Fantasía"
-      ],
-      "guion": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
-          "id": 608,
-          "nombre": "Hayao Miyazaki"
-        }
-      ],
-      "id": "tmdb-11621",
-      "idioma_original": "ja",
-      "imdb": "tt0104652",
-      "lema": "Un cerdo tiene que volar",
-      "musica": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/xmDT8LoDPIyV4f7Q2yPwETSey6k.jpg",
-          "id": 636,
-          "nombre": "久石譲"
-        }
-      ],
-      "nota": 7.8,
-      "paises": [
-        "JP"
-      ],
-      "premios": [
-        {
-          "anio": 1993,
-          "premio": "Cristall d'Annecy al llargmetratge",
-          "tipo": "ganado"
-        },
-        {
-          "anio": 1993,
-          "premio": "Cristall d'Annecy al llargmetratge",
-          "tipo": "nominado"
-        }
-      ],
-      "reparto": [
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/dEvbRkdUknnNcjIh2yyXJXm7uIO.jpg",
-          "id": 70046,
-          "nombre": "森山周一郎",
-          "papel": "Porco Rosso (voice)",
-          "premios": [],
-          "wikidata": "Q3482797"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/gEJE4cpBpGS1rq93qIwrmQ5duM8.jpg",
-          "id": 70047,
-          "nombre": "加藤登紀子",
-          "papel": "Madame Gina (voice)",
-          "premios": [],
-          "wikidata": "Q1078163"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/nndJZXsxHqRPor6K8KZicUjMZgE.jpg",
-          "id": 70048,
-          "nombre": "桂文枝 (6代目)",
-          "papel": "Grandpa Piccolo (voice)",
-          "premios": [
-            {
-              "anio": 2007,
-              "premio": "Premi Kan Kikuchi",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q1281916"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/v2poQi0qYEWdTaMf2pVTWmcdwZp.jpg",
-          "id": 20334,
-          "nombre": "Tsunehiko Kamijou",
-          "papel": "Mamma Aiuto Boss (voice)",
-          "premios": [
-            {
-              "anio": null,
-              "premio": "Premio de Teatro Kazuo Kikuta",
-              "tipo": "ganado"
-            }
-          ],
-          "wikidata": "Q11359443"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qEwVfsrA23SCzRZMSlghw2sHctQ.jpg",
-          "id": 90133,
-          "nombre": "Akemi Okamura",
-          "papel": "Fio Piccolo (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/uH9oiqOOgrsz2zNnouVZ1qPzDyb.jpg",
-          "id": 40451,
-          "nombre": "Akio Otsuka",
-          "papel": "Donald Curtis (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/qT2lS6TuQIJkjJiReYFziXnpH9L.jpg",
-          "id": 551769,
-          "nombre": "関弘子",
-          "papel": "Granny (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/3TdwyaQ9ll2NOhk33nvcwFeRh2D.jpg",
-          "id": 4749968,
-          "nombre": "Masayuki Inagaki",
-          "papel": "Major Ferrarin (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/4kdO7dnvRcYGN6ByGpB3esva1fY.jpg",
-          "id": 553785,
-          "nombre": "野本礼三",
-          "papel": "Mamma Aiuto Gang Member (voice)"
-        },
-        {
-          "foto": "https://image.tmdb.org/t/p/w185/9H4Mr8CuifB8rtah1Psh6RpXE1d.jpg",
-          "id": 83932,
-          "nombre": "阪脩",
-          "papel": "Mamma Aiuto Gang Member (voice)"
-        }
-      ],
-      "sesiones": [
-        [
-          "75990131879",
-          "2026-11-28",
-          "11:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222273&language=ESP",
-          null,
-          1
-        ],
-        [
-          "75990131879",
-          "2026-11-29",
-          "22:30",
-          "VOSE",
-          null,
-          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222274&language=ESP",
-          null,
-          1
-        ]
-      ],
-      "sinopsis": {
-        "ca": "A Itàlia, a la dècada de 1930, els pirates del cel en biplans aterroritzen els vaixells dels rics mentre naveguen pel mar Adriàtic. L’únic pilot prou valent com per aturar-los és el misteriós Porco Rosso, un crac volador de la Primera Guerra Mundial que d’alguna manera va ser convertit en un porc durant la guerra. Mentre es prepara per combatre l’as nord-americà de la tripulació pirata, Porco Rosso demana ajuda al mecànic de la noia Funky Piccolo i a la seva amiga de sempre Madame Gina.",
-        "en": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
-        "es": "Periodo de entreguerras. Porco es un cerdo aviador que fustra todos los actos de piratería perpetrados por los piratas aéreos del Adriático. Éstos, decididos a acabar con el valiente y hábil Porco, se unen para contratar a un aventurero americano que le elimine de los aires donde las mafias operan"
-      },
-      "titulo": "Porco Rosso",
-      "titulo_ca": "Pòrco Rósso",
-      "titulo_original": "紅の豚",
-      "tmdb": 11621,
-      "trailer": "3LRyNwYg1f8"
-    },
-    {
       "anio": 2025,
       "cartel": "https://image.tmdb.org/t/p/w500/yjIJHYc3jkpP9lIJvRsxWxTbzlo.jpg",
       "direccion": [
@@ -36286,6 +35911,332 @@
       "titulo": "Peixet, el petit aventurer"
     },
     {
+      "anio": 1992,
+      "cartel": "https://image.tmdb.org/t/p/w500/iNwzpNGTt6hTjbj0KDl08O6gJCi.jpg",
+      "direccion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
+          "id": 608,
+          "nombre": "Hayao Miyazaki",
+          "premios": [
+            {
+              "anio": 2003,
+              "premio": "Óscar a la mejor película de animación",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premio de la Asociación de Críticos de Cine de Los Ángeles a la mejor película de animación",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Oso de oro",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premio Annie a la mejor dirección en una película",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premi Annie al millor guió en un llargmetratge",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1998,
+              "premio": "Nippon-shō a la mejor película",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Nippon-shō a la mejor película",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Nébula al mejor guion",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Nippon-shō a la mejor película de animación",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Nippon-shō a la mejor película de animación",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2005,
+              "premio": "León de Oro por la carrera",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2012,
+              "premio": "Persona de Mérito Cultural",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Óscar honorífico",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premi Kan Kikuchi",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1999,
+              "premio": "Shiba Ryotaro Prize",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2001,
+              "premio": "Premio Asahi",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2006,
+              "premio": "The Jim Henson Creativity Honor",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1996,
+              "premio": "Premio Windsor McCay",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Science Fiction and Fantasy Hall of Fame",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Caballero de la Orden de las Artes y las Letras",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1997,
+              "premio": "Premi de cinema de Nikkan Sports a la millor direcció",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 1995,
+              "premio": "Premi Seiun al millor còmic",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2009,
+              "premio": "Premio Inkpot",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Salón de la fama Will Eisner",
+              "tipo": "ganado"
+            },
+            {
+              "anio": null,
+              "premio": "Premio Mainichi al mejor director",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Globo de Oro a la mejor película animada",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Premios BAFTA",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar a la mejor película de animación",
+              "tipo": "ganado"
+            },
+            {
+              "anio": 2003,
+              "premio": "Óscar a la mejor película de animación",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2006,
+              "premio": "Óscar a la mejor película de animación",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2014,
+              "premio": "Óscar a la mejor película de animación",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2002,
+              "premio": "Premio del Cine Europeo a la mejor película no europea",
+              "tipo": "nominado"
+            },
+            {
+              "anio": 2024,
+              "premio": "Óscar a la mejor película de animación",
+              "tipo": "nominado"
+            }
+          ],
+          "wikidata": "Q55400"
+        }
+      ],
+      "duracion": 93,
+      "edad": "A",
+      "estreno": "1992-07-18",
+      "fondo": "https://image.tmdb.org/t/p/w1280/ec4m0EvVlEtVl5aySdw6ab9uG0b.jpg",
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "guion": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
+          "id": 608,
+          "nombre": "Hayao Miyazaki"
+        }
+      ],
+      "id": "tmdb-11621",
+      "idioma_original": "ja",
+      "imdb": "tt0104652",
+      "lema": "Un cerdo tiene que volar",
+      "musica": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/xmDT8LoDPIyV4f7Q2yPwETSey6k.jpg",
+          "id": 636,
+          "nombre": "久石譲"
+        }
+      ],
+      "nota": 7.8,
+      "paises": [
+        "JP"
+      ],
+      "premios": [
+        {
+          "anio": 1993,
+          "premio": "Cristall d'Annecy al llargmetratge",
+          "tipo": "ganado"
+        },
+        {
+          "anio": 1993,
+          "premio": "Cristall d'Annecy al llargmetratge",
+          "tipo": "nominado"
+        }
+      ],
+      "reparto": [
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/dEvbRkdUknnNcjIh2yyXJXm7uIO.jpg",
+          "id": 70046,
+          "nombre": "森山周一郎",
+          "papel": "Porco Rosso (voice)",
+          "premios": [],
+          "wikidata": "Q3482797"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/gEJE4cpBpGS1rq93qIwrmQ5duM8.jpg",
+          "id": 70047,
+          "nombre": "加藤登紀子",
+          "papel": "Madame Gina (voice)",
+          "premios": [],
+          "wikidata": "Q1078163"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/nndJZXsxHqRPor6K8KZicUjMZgE.jpg",
+          "id": 70048,
+          "nombre": "桂文枝 (6代目)",
+          "papel": "Grandpa Piccolo (voice)",
+          "premios": [
+            {
+              "anio": 2007,
+              "premio": "Premi Kan Kikuchi",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q1281916"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/v2poQi0qYEWdTaMf2pVTWmcdwZp.jpg",
+          "id": 20334,
+          "nombre": "Tsunehiko Kamijou",
+          "papel": "Mamma Aiuto Boss (voice)",
+          "premios": [
+            {
+              "anio": null,
+              "premio": "Premio de Teatro Kazuo Kikuta",
+              "tipo": "ganado"
+            }
+          ],
+          "wikidata": "Q11359443"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qEwVfsrA23SCzRZMSlghw2sHctQ.jpg",
+          "id": 90133,
+          "nombre": "Akemi Okamura",
+          "papel": "Fio Piccolo (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/uH9oiqOOgrsz2zNnouVZ1qPzDyb.jpg",
+          "id": 40451,
+          "nombre": "Akio Otsuka",
+          "papel": "Donald Curtis (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/qT2lS6TuQIJkjJiReYFziXnpH9L.jpg",
+          "id": 551769,
+          "nombre": "関弘子",
+          "papel": "Granny (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/3TdwyaQ9ll2NOhk33nvcwFeRh2D.jpg",
+          "id": 4749968,
+          "nombre": "Masayuki Inagaki",
+          "papel": "Major Ferrarin (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/4kdO7dnvRcYGN6ByGpB3esva1fY.jpg",
+          "id": 553785,
+          "nombre": "野本礼三",
+          "papel": "Mamma Aiuto Gang Member (voice)"
+        },
+        {
+          "foto": "https://image.tmdb.org/t/p/w185/9H4Mr8CuifB8rtah1Psh6RpXE1d.jpg",
+          "id": 83932,
+          "nombre": "阪脩",
+          "papel": "Mamma Aiuto Gang Member (voice)"
+        }
+      ],
+      "sesiones": [
+        [
+          "75990131879",
+          "2026-11-29",
+          "22:30",
+          "VOSE",
+          null,
+          "https://verdibcn.admit-one.eu/?p=tickets&s=VERDIBCN&perfCode=222274&language=ESP",
+          null,
+          1
+        ]
+      ],
+      "sinopsis": {
+        "ca": "A Itàlia, a la dècada de 1930, els pirates del cel en biplans aterroritzen els vaixells dels rics mentre naveguen pel mar Adriàtic. L’únic pilot prou valent com per aturar-los és el misteriós Porco Rosso, un crac volador de la Primera Guerra Mundial que d’alguna manera va ser convertit en un porc durant la guerra. Mentre es prepara per combatre l’as nord-americà de la tripulació pirata, Porco Rosso demana ajuda al mecànic de la noia Funky Piccolo i a la seva amiga de sempre Madame Gina.",
+        "en": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
+        "es": "Periodo de entreguerras. Porco es un cerdo aviador que fustra todos los actos de piratería perpetrados por los piratas aéreos del Adriático. Éstos, decididos a acabar con el valiente y hábil Porco, se unen para contratar a un aventurero americano que le elimine de los aires donde las mafias operan"
+      },
+      "titulo": "Porco Rosso",
+      "titulo_ca": "Pòrco Rósso",
+      "titulo_original": "紅の豚",
+      "tmdb": 11621,
+      "trailer": "3LRyNwYg1f8"
+    },
+    {
       "agenda": "open_data_bcn:99400682417",
       "gratis": true,
       "id": "p-t-projeccio-sorda",
@@ -38096,27 +38047,6 @@
       "titulo_original": "Vainilla",
       "tmdb": 1327447,
       "trailer": "Zoz6KdBXuSw"
-    },
-    {
-      "agenda": "open_data_bcn:99400771644",
-      "gratis": true,
-      "id": "p-t-verdi-kids",
-      "sesiones": [
-        [
-          "agenda:barcelona:via701719-11",
-          "2026-12-12",
-          "11:30",
-          null,
-          "Carmen Laforet *Tancada fins a nou avís",
-          "https://guia.barcelona.cat/ca/detall/cicle-verdi-kids-projeccio-hopper-el-polletllebre_99400771644.html",
-          null,
-          0
-        ]
-      ],
-      "sinopsis": {
-        "ca": "Hopper: El polletllebre, de Ben Stassen i Benjamin Mousquet.\nBèlgica, França, 2022, animació, 90 min.\nA en Hopper li diuen \"polletllebre\" per ser meitat pollastre i meitat llebre. Adoptat pel rei Pere, un famós aventurer, en Hopper haurà de mostrar el seu valor per ser acceptat malgrat ser diferent. Juntament amb els seus fidels amics s'embarca en una emocionant aventura a la recerca de la relíquia coneguda com a \"Hàmster de la Foscor\". La missió es complicarà en haver d'esquivar les trampes que el malvat Lapin els posarà intentant que fracassin.\nDirigida per\nBen Stassen i\nBenjamin Mousquet i produïda pels responsables de\nLa familia Bigfoot.\nBasada en la novel·la gràfica de\nChris Grine publicada per l'editorial\nDark Horse.\nAmb la col·laboració de: Cinemes Verdi Barcelona i Ajuntament de Barcelona.\nEdat recomanada: per a tots els públics.\nEntrada lliure. Aforament limitat."
-      },
-      "titulo": "Verdi Kids"
     },
     {
       "agenda": "open_data_bcn:99400740713",

@@ -5148,6 +5148,12 @@
     "firma": "0ca5c2223acc6333",
     "imagen": null
   },
+  "https://www.lluisosteatre.cat/esdeveniments/bufairons/": {
+    "datos": null,
+    "fecha": "2026-11-28",
+    "firma": "0ad10179d97d542a",
+    "imagen": "https://www.lluisosteatre.cat/wp-content/uploads/2026/06/disseny-sense-titol-25.png"
+  },
   "https://www.lluisosteatre.cat/esdeveniments/el-lleo-no-em-fa-por-2/": {
     "datos": {
       "duracion": 30,
@@ -5167,6 +5173,12 @@
     "fecha": "2026-11-25",
     "firma": "82541473e906e75b",
     "imagen": "https://www.lluisosteatre.cat/wp-content/uploads/2024/06/girafa_webteatre.jpg"
+  },
+  "https://www.lluisosteatre.cat/esdeveniments/llepafils/": {
+    "datos": null,
+    "fecha": "2026-11-28",
+    "firma": "8a986bf49b6e2370",
+    "imagen": "https://www.lluisosteatre.cat/wp-content/uploads/2026/06/disseny-sense-titol-26.png"
   },
   "https://www.lluisosteatre.cat/esdeveniments/mentida-podrida-2/": {
     "datos": null,
@@ -5294,6 +5306,12 @@
     "fecha": "2026-11-24",
     "firma": "0058806023eb234e",
     "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2022/03/A3_Cs9jFsb.width-800.format-jpeg.jpg"
+  },
+  "https://www.salaarsteatre.com/el-sopar-dels-infidels/": {
+    "datos": null,
+    "fecha": "2026-11-28",
+    "firma": "6975e4483374bdfc",
+    "imagen": "https://www.salaarsteatre.com/wp-content/uploads/2026/06/CARTELL-SOPAR-INFIDELS-DEFINITIU-724x1024.png"
   },
   "https://www.salaarsteatre.com/ellas-y-ellos/": {
     "datos": {

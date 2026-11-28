@@ -490,12 +490,14 @@
     "url": "https://www.lluisosteatre.cat/esdeveniments/mentida-podrida-2/"
   },
   "open_data_bcn:99400783525|https://www.lluisosteatre.cat/|Bufairons": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-28",
+    "pagina": "https://www.lluisosteatre.cat/esdeveniments/bufairons/",
+    "url": "https://www.lluisosteatre.cat/esdeveniments/bufairons/"
   },
   "open_data_bcn:99400783527|https://www.lluisosteatre.cat/|Llepafils": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-28",
+    "pagina": "https://www.lluisosteatre.cat/esdeveniments/llepafils/",
+    "url": "https://www.lluisosteatre.cat/esdeveniments/llepafils/"
   },
   "open_data_bcn:99400783577|http://www.anticteatre.com|La Sisena (o la democratització del Messies en un miracle i tres actes)": {
     "fecha": "2026-11-23",
@@ -503,15 +505,18 @@
     "url": null
   },
   "open_data_bcn:99400783607|https://www.salaarsteatre.com|El sopar dels infidels": {
-    "fecha": "2026-11-17",
-    "url": null
+    "fecha": "2026-11-28",
+    "pagina": "https://www.salaarsteatre.com/el-sopar-dels-infidels/",
+    "url": "https://www.salaarsteatre.com/el-sopar-dels-infidels/"
   },
   "open_data_bcn:99400783609|https://teatreapolo.com|Los Chicos del Coro, El Musical": {
-    "fecha": "2026-11-17",
+    "fecha": "2026-11-28",
+    "pagina": null,
     "url": null
   },
   "open_data_bcn:99400783630|https://teatreolia.cat/|Mitja Taronja": {
-    "fecha": "2026-11-17",
+    "fecha": "2026-11-28",
+    "pagina": "https://teatreolia.cat/mitja-taronja-2026/",
     "url": "https://teatreolia.cat/mitja-taronja-2026/"
   },
   "open_data_bcn:99400783631|https://cat.teatremuntaner.com/|Saludos cordiales": {

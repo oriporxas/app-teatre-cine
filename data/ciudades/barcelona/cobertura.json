@@ -11,7 +11,7 @@
   ],
   "cines_sin_horarios": {
     "Ateneu Barcelonès": "sin web",
-    "Cinema Dididado": "sin horarios legibles en su web",
+    "Cinema Dididado": "su web no permite programas (robots.txt)",
     "Cinemes Girona": "elqueque",
     "Cinesa Diagonal": "su web no permite programas (robots.txt)",
     "Cinesa Diagonal Mar": "su web no permite programas (robots.txt)",
@@ -28,7 +28,7 @@
     "Yelmo La Maquinista": "su web no permite programas (robots.txt)",
     "Zumzeig Cinecooperativa": "sin horarios legibles en su web"
   },
-  "con_actividades": 90,
+  "con_actividades": 91,
   "fecha": "2026-11-28",
   "por_tipo": {
     "auditorio": {
@@ -41,11 +41,11 @@
     },
     "teatro": {
       "oficiales": 121,
-      "sin_actividades": 49
+      "sin_actividades": 48
     }
   },
   "salas_oficiales": 161,
-  "sin_actividades": 71,
+  "sin_actividades": 70,
   "sin_actividades_detalle": [
     {
       "actividades": 0,
@@ -974,22 +974,6 @@
       "lon": 2.159483634861552,
       "nombre": "Foment Hortenc",
       "numero": "15",
-      "tipo": [
-        "teatro"
-      ]
-    },
-    {
-      "actividades": 0,
-      "barrio": "la Vila de Gràcia",
-      "calle": "C Astúries",
-      "clave": "via27302-83",
-      "codigo_postal": "08024",
-      "distrito": "Gràcia",
-      "id": "92086003206",
-      "lat": 41.40473418484713,
-      "lon": 2.1564231919641506,
-      "nombre": "Fundació Orfeó Gracienc",
-      "numero": "83",
       "tipo": [
         "teatro"
       ]

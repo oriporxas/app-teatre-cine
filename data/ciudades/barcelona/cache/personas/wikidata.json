@@ -344,6 +344,18 @@
         "tipo": "ganado"
       }
     ],
+    "wQ21154186": [
+      {
+        "anio": null,
+        "premio": "Premios Max",
+        "tipo": "ganado"
+      },
+      {
+        "anio": 2022,
+        "premio": "Premios Fundación Princesa de Girona",
+        "tipo": "ganado"
+      }
+    ],
     "wQ21530376": [],
     "wQ21971370": [],
     "wQ2372851": [
@@ -2121,6 +2133,12 @@
     "nombre": "Biel Montoro",
     "v": 3
   },
+  "biel-rossell": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Biel Rossell",
+    "v": 3
+  },
   "biel-rossell-pelfort": {
     "datos": {
       "descripcion": {
@@ -3260,6 +3278,12 @@
     "datos": {},
     "fecha": "2026-11-27",
     "nombre": "Daniel J. Meyer",
+    "v": 3
+  },
+  "daniel-roda": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Daniel Roda",
     "v": 3
   },
   "daniel-rodriguez": {
@@ -5888,6 +5912,12 @@
     "nombre": "Laia Alsina",
     "v": 3
   },
+  "laia-borras": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Laia Borràs",
+    "v": 3
+  },
   "laia-nogueras": {
     "datos": {},
     "fecha": "2026-11-21",
@@ -6740,6 +6770,25 @@
     "nombre": "Maria Hernández Giralt",
     "v": 3
   },
+  "maria-hervas": {
+    "datos": {
+      "descripcion": {
+        "ca": "actriu espanyola",
+        "es": "actriz española"
+      },
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Mar%C3%ADa_Herv%C3%A1s._Briconsejo_para_hacer_una_ley_de_mierda.jpg?width=300",
+      "oficios": [
+        "Q10798782",
+        "Q10800557",
+        "Q2259451"
+      ],
+      "wikidata": "Q21154186",
+      "wikipedia": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Herv%C3%A1s"
+    },
+    "fecha": "2026-11-28",
+    "nombre": "Maria Hervàs",
+    "v": 3
+  },
   "maria-m-cabeza-de-vaca": {
     "datos": {},
     "fecha": "2026-11-23",
@@ -6750,6 +6799,12 @@
     "datos": {},
     "fecha": "2026-11-21",
     "nombre": "Maria Martínez",
+    "v": 3
+  },
+  "maria-moix": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Maria Moix",
     "v": 3
   },
   "maria-palazon": {
@@ -7315,6 +7370,12 @@
     "nombre": "Mireia Lorente-Picó",
     "v": 3
   },
+  "mireia-moncunill": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Mireia Moncunill",
+    "v": 3
+  },
   "mireia-morera": {
     "datos": {},
     "fecha": "2026-11-27",
@@ -7344,6 +7405,12 @@
     "fecha": "2026-11-18",
     "nombre": "Míriam Compte",
     "v": 2
+  },
+  "miriam-millet": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Míriam Millet",
+    "v": 3
   },
   "miriam-moukhles": {
     "datos": {},
@@ -7490,6 +7557,12 @@
     "datos": {},
     "fecha": "2026-11-25",
     "nombre": "Montse Tixé",
+    "v": 3
+  },
+  "montse-valenti": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Montse Valentí",
     "v": 3
   },
   "montserrat-colome": {
@@ -9998,6 +10071,12 @@
     "fecha": "2026-11-18",
     "nombre": "Yannick Garcia",
     "v": 2
+  },
+  "yolanda-torralbo": {
+    "datos": {},
+    "fecha": "2026-11-28",
+    "nombre": "Yolanda Torralbo",
+    "v": 3
   },
   "yoli-fuller": {
     "datos": {},
